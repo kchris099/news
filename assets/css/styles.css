@@ -147,7 +147,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .story-thumb img { transition: transform 350ms var(--ease), filter var(--duration) var(--ease); }
 .story-thumb .placeholder-initials { width: 46px; height: 46px; font-size: 0.78rem; }
 .story-copy { min-width: 0; padding: 18px 18px 16px; }
-.story-title { position: relative; z-index: 2; display: -webkit-box; overflow: hidden; margin: 10px 0 0; padding-bottom: 0; color: var(--text); font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif; font-size: clamp(1.06rem, 1.4vw, 1.22rem); font-weight: 760; line-height: 1.27; letter-spacing: -0.025em; -webkit-box-orient: vertical; line-clamp: 3; -webkit-line-clamp: 3; }
+.story-title { position: relative; z-index: 2; display: -webkit-box; overflow: hidden; margin: 10px 0 0; padding-bottom: 0; color: var(--text); font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif; font-size: clamp(1.06rem, 1.4vw, 1.22rem); font-weight: 760; line-height: 1.27; letter-spacing: -0.025em; -webkit-box-orient: vertical; line-clamp: 4; -webkit-line-clamp: 4; }
 .story-title a { color: inherit; text-decoration: none; }
 .story-title a:hover { text-decoration: underline; text-underline-offset: 0.12em; }
 .story-title a::after { content: ""; position: absolute; z-index: 2; inset: 0; }
@@ -213,7 +213,7 @@ h3 { line-height: 1.25; }
   :root { --lead-height: 430px; }
   .country-rail { min-height: 85px; }
   .date-tabs { min-height: 47px; }
-  .lead-title { font-size: clamp(2.05rem, 7vw, 3rem); }
+  .lead-title { font-size: clamp(2.05rem, 7vw, 3rem); line-clamp: 4; -webkit-line-clamp: 4; }
   .story-list { grid-template-columns: 1fr; }
   .story-card { height: 10rem; grid-template-columns: 40% minmax(0, 1fr); }
   .story-card:nth-child(2)::before { display: block; }
@@ -236,7 +236,7 @@ h3 { line-height: 1.25; }
   .content-grid { padding-block: 2px 42px; }
   .lead-story { height: 390px; margin-bottom: 14px; border-radius: 18px; }
   .lead-body { padding: 22px 20px; }
-  .lead-title { margin-top: 9px; font-size: clamp(1.85rem, 8.6vw, 2.4rem); line-height: 1.08; letter-spacing: -0.045em; }
+  .lead-title { margin-top: 9px; font-size: clamp(1.85rem, 8.6vw, 2.4rem); line-height: 1.12; letter-spacing: -0.045em; }
   .lead-story .story-meta { font-size: 0.73rem; }
   .story-list { gap: 11px; }
   .story-card { height: 9rem; grid-template-columns: 40% minmax(0, 1fr); border-radius: 0; }
