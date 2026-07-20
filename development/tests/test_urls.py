@@ -1,4 +1,4 @@
-from scripts.utilities import normalize_url, safe_url
+from scripts.utilities import normalize_url, safe_image_url, safe_url
 
 
 def test_tracking_parameters_are_removed_and_query_sorted():
@@ -13,3 +13,10 @@ def test_unsafe_schemes_are_rejected():
 
 def test_localhost_is_rejected():
     assert safe_url("http://localhost/test") is None
+
+
+def test_video_urls_are_not_accepted_as_images():
+    assert safe_image_url("https://cdn.example.com/story.mp4") is None
+    assert safe_image_url("https://www.youtube.com/watch?v=story") is None
+    assert safe_image_url("https://cdn.example.com/placeholder.svg") is None
+    assert safe_image_url("https://cdn.example.com/story") == "https://cdn.example.com/story"

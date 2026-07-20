@@ -1,19 +1,25 @@
 from __future__ import annotations
 
 import re
-from collections import Counter
 from datetime import datetime
 from typing import Any
 
-from .deduplicate import char_ngram_similarity, token_similarity
+from .deduplicate import char_ngram_similarity, meaningful_tokens, token_similarity
 from .utilities import stable_hash
 
 GENERIC = {"news", "update", "latest", "today", "report", "says", "new", "after", "with", "from", "over", "amid"}
 
 
 def named_terms(title: str) -> set[str]:
-    words = re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ0-9]{3,}", title)
-    capitalized = {word.casefold() for word in words if word[:1].isupper() and word.casefold() not in GENERIC}
+    # Normalize U.S./US before splitting so the abbreviation is comparable
+    # across publishers, and keep two-character entities such as JD and VP.
+    title = re.sub(r"\bu[\W_]*s\b", "US", title, flags=re.IGNORECASE)
+    words = re.findall(r"[A-Za-z\u0080-\uffff]+|\d+(?:\.\d+)?", title)
+    capitalized = {
+        re.sub(r"[^\w]", "", word).casefold()
+        for word in words
+        if word[:1].isupper() and len(word) >= 2 and word.casefold() not in GENERIC
+    }
     numbers = {word for word in words if any(char.isdigit() for char in word)}
     return capitalized | numbers
 
@@ -25,11 +31,26 @@ def same_event(left: dict[str, Any], right: dict[str, Any]) -> bool:
     b_time = datetime.fromisoformat(right["publishedAt"].replace("Z", "+00:00"))
     if abs((a_time - b_time).total_seconds()) > 18 * 3600:
         return False
+
     left_terms, right_terms = named_terms(left["title"]), named_terms(right["title"])
     shared_named = left_terms & right_terms
+    left_tokens = meaningful_tokens(left["title"])
+    right_tokens = meaningful_tokens(right["title"])
+    shared_tokens = left_tokens & right_tokens
     token = token_similarity(left["title"], right["title"])
     char = char_ngram_similarity(left["title"], right["title"])
-    return (len(shared_named) >= 2 and token >= 0.40) or (len(shared_named) >= 1 and token >= 0.58 and char >= 0.48)
+    coverage = len(shared_tokens) / min(len(left_tokens), len(right_tokens)) if left_tokens and right_tokens else 0.0
+    shared_numbers = {term for term in shared_tokens if any(char.isdigit() for char in term)}
+    shared_non_numeric = shared_tokens - shared_numbers
+
+    # Related coverage often uses different verbs and nouns, but repeats the
+    # same people, place, or concrete fact. Use those signals before falling
+    # back to stricter lexical similarity rules.
+    if len(shared_named) >= 2 and coverage >= 0.42:
+        return True
+    if shared_numbers and len(shared_non_numeric) >= 2 and coverage >= 0.28:
+        return True
+    return (len(shared_named) >= 1 and token >= 0.58 and char >= 0.48) or (token >= 0.58 and char >= 0.48)
 
 
 def _representative_score(article: dict[str, Any]) -> float:

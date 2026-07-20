@@ -32,10 +32,12 @@ async def fetch_gdelt(fetcher: AsyncFetcher, country: dict[str, Any], providers:
         retrieved = iso_z()
         articles: list[dict[str, Any]] = []
         for item in payload.get("articles", []):
+            domain = str(item.get("domain") or "").lower().removeprefix("www.")
             articles.append({
                 "title": item.get("title"), "url": item.get("url"), "description": None,
                 "imageUrl": item.get("socialimage"), "publishedAt": item.get("seendate"),
                 "sourceName": item.get("domain") or "GDELT source", "sourceId": source_id,
+                "publisherUrl": f"https://{domain}" if domain else None,
                 "sourceCountry": item.get("sourcecountry") or country["code"],
                 "editionCountry": country["code"], "language": item.get("language"),
                 "sourceQuality": 0.78, "retrievedAt": retrieved, "dataSource": "gdelt",

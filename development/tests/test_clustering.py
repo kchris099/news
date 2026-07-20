@@ -29,3 +29,21 @@ def test_cluster_keeps_related_coverage():
     result = cluster_articles([a, b])
     assert len(result) == 1
     assert len(result[0]["related"]) == 1
+
+
+def test_oil_headlines_with_different_leads_are_same_event():
+    left = article("Oil Prices Cross $90 a Barrel as U.S.-Iran Conflict Widens", "nytimes.com", 12)
+    right = article("Brent Breaks Past $90 as U.S.-Iran Conflict Rages On", "cnbc.com", 14)
+    assert same_event(left, right)
+
+
+def test_vance_baby_headlines_with_different_detail_are_same_event():
+    left = article("JD and Usha Vance Welcome Fourth Child", "nytimes.com", 12)
+    right = article("JD Vance and wife Usha welcome fourth child, reveal baby boy's name", "foxnews.com", 13)
+    assert same_event(left, right)
+
+
+def test_shared_number_without_shared_event_terms_is_not_enough():
+    left = article("90 students graduate from city schools", "a.example", 12)
+    right = article("90 homes damaged in coastal storm", "b.example", 13)
+    assert not same_event(left, right)

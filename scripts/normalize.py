@@ -9,7 +9,7 @@ from typing import Any
 import bleach
 from dateutil import parser as date_parser
 
-from .utilities import normalize_url, safe_url, source_domain, stable_hash
+from .utilities import normalize_url, safe_image_url, safe_url, source_domain, stable_hash
 
 _WHITESPACE = re.compile(r"\s+")
 
@@ -67,10 +67,9 @@ def normalize_article(raw: dict[str, Any], settings: dict[str, Any]) -> dict[str
         normalized_title,
         source_name.casefold(),
     )
-    image_url = safe_url(raw.get("imageUrl"))
-    if image_url and not image_url.startswith("https://"):
-        image_url = None
+    image_url = safe_image_url(raw.get("imageUrl"))
     data_source = clean_text(raw.get("dataSource"), 40) or "publisher-rss"
+    article_domain = source_domain(raw.get("publisherUrl")) or source_domain(canonical)
     article = {
         "id": article_id,
         "title": title,
@@ -79,7 +78,7 @@ def normalize_article(raw: dict[str, Any], settings: dict[str, Any]) -> dict[str
         "url": url,
         "canonicalUrl": canonical,
         "sourceName": source_name,
-        "sourceDomain": source_domain(canonical),
+        "sourceDomain": article_domain,
         "sourceCountry": clean_text(raw.get("sourceCountry"), 8),
         "editionCountry": clean_text(raw.get("editionCountry"), 8),
         "coverageCountries": [],

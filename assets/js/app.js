@@ -46,15 +46,17 @@
     } catch (error) {
       console.error(error);
       showFatalState('News Data Unavailable', 'The generated manifest or configuration files could not be loaded.');
+    } finally {
+      revealApp();
     }
   }
 
   function cacheElements() {
     const ids = [
-      'country-tabs', 'date-tabs', 'lead-story', 'story-list',
+      'country-rail', 'country-tabs', 'date-tabs', 'news-column', 'lead-story', 'story-list',
       'loading-state', 'empty-state', 'empty-title', 'empty-message', 'load-more',
-      'sample-banner', 'data-notice', 'result-count', 'selected-date-label',
-      'edition-heading', 'edition-summary', 'global-status', 'global-status-dot',
+      'data-notice', 'result-count', 'selected-date-label',
+      'edition-heading', 'edition-summary', 'global-status',
       'last-updated', 'live-region'
     ];
     ids.forEach((id) => { elements[toCamel(id)] = document.getElementById(id); });
@@ -71,6 +73,14 @@
       renderCountryTabs();
       await selectView({ updateHistory: false });
     });
+    elements.countryTabs.addEventListener('wheel', handleHorizontalWheel, { passive: false });
+    elements.dateTabs.addEventListener('wheel', handleHorizontalWheel, { passive: false });
+    elements.countryTabs.addEventListener('scroll', updateCountryRailEdges, { passive: true });
+    elements.countryTabs.addEventListener('pointerdown', startCountryDrag);
+    elements.countryTabs.addEventListener('pointermove', moveCountryDrag);
+    elements.countryTabs.addEventListener('pointerup', endCountryDrag);
+    elements.countryTabs.addEventListener('pointercancel', endCountryDrag);
+    elements.countryTabs.addEventListener('click', suppressDraggedCountryClick, true);
   }
 
   function restoreInitialState() {
@@ -106,34 +116,33 @@
   function renderCountryTabs() {
     const fragment = document.createDocumentFragment();
     state.countries.forEach((country) => {
+      const selected = country.code === state.countryCode;
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'country-tab';
-      button.setAttribute('role', 'tab');
-      button.setAttribute('aria-selected', String(country.code === state.countryCode));
+      button.setAttribute('aria-pressed', String(selected));
+      if (selected) button.setAttribute('aria-current', 'true');
       button.dataset.country = country.code;
       button.addEventListener('click', () => changeCountry(country.code));
-      button.addEventListener('keydown', (event) => handleTabArrow(event, '.country-tab'));
+      button.addEventListener('keydown', (event) => handleFilterArrow(event, '.country-tab'));
 
-      const flag = document.createElement('span');
-      flag.className = 'flag';
-      flag.setAttribute('aria-hidden', 'true');
-      flag.textContent = country.flag;
+      const flag = document.createElement('img');
+      flag.className = 'flag-image';
+      flag.src = assetUrl(`assets/flags/${country.code.toLowerCase()}.svg`);
+      flag.alt = '';
+      flag.width = 320;
+      flag.height = 200;
+      flag.draggable = false;
       const label = document.createElement('span');
+      label.className = 'country-name';
       label.textContent = country.name;
       button.setAttribute('aria-label', `${country.name} edition`);
       button.append(flag, label);
-
-      const countryManifest = state.manifest?.countries?.[country.code];
-      if (countryManifest?.dates && Object.values(countryManifest.dates).some((entry) => entry.articleCount > 0)) {
-        const availability = document.createElement('span');
-        availability.className = 'availability';
-        availability.setAttribute('aria-label', 'Archive available');
-        button.append(availability);
-      }
       fragment.append(button);
     });
     elements.countryTabs.replaceChildren(fragment);
+    updateCountryRailEdges();
+    requestAnimationFrame(scrollSelectedCountryIntoView);
   }
 
   async function changeCountry(countryCode) {
@@ -141,7 +150,10 @@
     state.countryCode = countryCode;
     safeStorageSet('worldline-country', countryCode);
     const dates = getSevenDateKeys(currentCountry().timeZone);
-    if (!dates.includes(state.date)) state.date = dates[0];
+    // A country switch should always open that country's local Today. The
+    // same calendar date can be Today in one time zone and Yesterday in
+    // another, so preserving state.date makes the default inconsistent.
+    state.date = dates[0];
     state.visibleCount = state.settings.initialStoryCount || 12;
     renderCountryTabs();
     await selectView({ updateHistory: true });
@@ -153,30 +165,26 @@
     const fragment = document.createDocumentFragment();
     keys.forEach((dateKey, index) => {
       const entry = state.manifest?.countries?.[country.code]?.dates?.[dateKey];
+      const selected = dateKey === state.date;
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'date-tab';
-      button.setAttribute('role', 'tab');
-      button.setAttribute('aria-selected', String(dateKey === state.date));
+      button.setAttribute('aria-pressed', String(selected));
+      if (selected) button.setAttribute('aria-current', 'date');
       button.dataset.date = dateKey;
       button.addEventListener('click', () => changeDate(dateKey));
-      button.addEventListener('keydown', (event) => handleTabArrow(event, '.date-tab'));
+      button.addEventListener('keydown', (event) => handleFilterArrow(event, '.date-tab'));
 
       const main = document.createElement('span');
       main.className = 'date-main';
       main.textContent = index === 0 ? 'Today' : index === 1 ? 'Yesterday' : formatDateTab(dateKey);
-      const sub = document.createElement('span');
-      sub.className = 'date-sub';
-      const count = Number(entry?.articleCount || 0);
       const status = entry?.status || 'missing';
-      sub.textContent = `${count} ${count === 1 ? 'article' : 'articles'}`;
       if (['partial', 'retained', 'failed', 'missing', 'empty'].includes(status)) {
-        sub.classList.add('date-warning');
-        button.setAttribute('aria-label', `${main.textContent}, ${sub.textContent}, ${statusLabel(status)}`);
+        button.setAttribute('aria-label', `${longDateLabel(dateKey, country.timeZone)}, ${statusLabel(status)}`);
       } else {
-        button.setAttribute('aria-label', `${main.textContent}, ${sub.textContent}`);
+        button.setAttribute('aria-label', longDateLabel(dateKey, country.timeZone));
       }
-      button.append(main, sub);
+      button.append(main);
       fragment.append(button);
     });
     elements.dateTabs.replaceChildren(fragment);
@@ -211,7 +219,6 @@
       state.visibleCount = state.settings.initialStoryCount || 12;
       renderDayStatus(entry, dayData);
       renderStories();
-      elements.sampleBanner.hidden = !(state.manifest.samplePreview || dayData.samplePreview);
     } catch (error) {
       if (requestId !== state.requestId) return;
       console.error(error);
@@ -253,7 +260,7 @@
     if (!state.dayData) return;
 
     const articles = filteredArticles();
-    elements.resultCount.textContent = `${articles.length} ${articles.length === 1 ? 'story' : 'stories'}`;
+    elements.resultCount.textContent = `${articles.length} ${articles.length === 1 ? 'headline' : 'headlines'}`;
     if (!articles.length) {
       elements.emptyTitle.textContent = 'No Articles Retrieved';
       elements.emptyMessage.textContent = 'No articles were retrieved for this date.';
@@ -264,11 +271,20 @@
     const lead = articles[0];
     elements.leadStory.append(buildLeadStory(lead));
     elements.leadStory.hidden = false;
-    const list = articles.slice(1, state.visibleCount);
+    const secondaryCount = evenSecondaryCount(articles.length);
+    const list = articles.slice(1, secondaryCount + 1);
     const fragment = document.createDocumentFragment();
-    list.forEach((article, index) => fragment.append(buildStoryCard(article, index + 2)));
+    list.forEach((article) => fragment.append(buildStoryCard(article)));
     elements.storyList.append(fragment);
-    elements.loadMore.hidden = state.visibleCount >= articles.length;
+    elements.loadMore.hidden = secondaryCount >= Math.max(0, articles.length - 1);
+    revealApp();
+  }
+
+  function evenSecondaryCount(articleCount) {
+    const available = Math.max(0, articleCount - 1);
+    const requested = Math.max(0, state.visibleCount);
+    const completedRow = requested + (requested % 2);
+    return Math.min(available, completedRow);
   }
 
   function filteredArticles() {
@@ -280,79 +296,44 @@
     const imageWrap = document.createElement('div');
     imageWrap.className = 'lead-image-wrap';
     imageWrap.append(buildImage(article, true));
+    const scrim = document.createElement('div');
+    scrim.className = 'lead-scrim';
+    scrim.setAttribute('aria-hidden', 'true');
+    imageWrap.append(scrim);
 
     const body = document.createElement('div');
     body.className = 'lead-body';
-    body.append(buildMeta(article));
+    body.append(buildMeta(article, true));
 
     const title = document.createElement('h3');
     title.className = 'lead-title';
     title.append(buildArticleLink(article, displayTitle(article)));
     body.append(title);
-    appendOriginalTitle(body, article);
 
-    if (article.description) {
-      const description = document.createElement('p');
-      description.className = 'lead-description';
-      description.textContent = article.description;
-      body.append(description);
-    }
-
-    const actions = document.createElement('div');
-    actions.className = 'story-actions';
-    const originalLink = buildArticleLink(article, 'View Original Article');
-    originalLink.className = 'text-link';
-    const icon = document.createElement('span');
-    icon.className = 'external-icon';
-    icon.setAttribute('aria-hidden', 'true');
-    icon.textContent = '↗';
-    originalLink.append(icon);
-    actions.append(originalLink);
-    if (article.related?.length) actions.append(buildRelatedDetails(article));
-    body.append(actions);
     container.append(imageWrap, body);
     return container;
   }
 
-  function buildStoryCard(article, number) {
+  function buildStoryCard(article) {
     const card = document.createElement('article');
     card.className = 'story-card';
-    const numberEl = document.createElement('span');
-    numberEl.className = 'story-number';
-    numberEl.textContent = String(number).padStart(2, '0');
-    numberEl.setAttribute('aria-hidden', 'true');
+    const thumb = document.createElement('div');
+    thumb.className = 'story-thumb';
+    thumb.append(buildImage(article, false));
 
-    const content = document.createElement('div');
-    content.className = 'story-content';
-    const row = document.createElement('div');
-    row.className = 'story-main-row';
     const copy = document.createElement('div');
     copy.className = 'story-copy';
-    copy.append(buildMeta(article));
+    copy.append(buildMeta(article, true));
 
     const title = document.createElement('h3');
     title.className = 'story-title';
     title.append(buildArticleLink(article, displayTitle(article)));
     copy.append(title);
-    appendOriginalTitle(copy, article);
-    if (article.description) {
-      const description = document.createElement('p');
-      description.className = 'story-description';
-      description.textContent = article.description;
-      copy.append(description);
-    }
-    if (article.related?.length) copy.append(buildRelatedDetails(article));
-
-    const thumb = document.createElement('div');
-    thumb.className = 'story-thumb';
-    thumb.append(buildImage(article, false));
-    row.append(copy, thumb);
-    content.append(row);
-    card.append(numberEl, content);
+    card.append(thumb, copy);
     return card;
   }
 
-  function buildMeta(article) {
+  function buildMeta(article, showTranslation = false) {
     const meta = document.createElement('div');
     meta.className = 'story-meta';
     const publisher = document.createElement('span');
@@ -362,44 +343,17 @@
     time.dateTime = article.publishedAt || '';
     time.textContent = formatArticleTime(article.publishedAt, currentCountry().timeZone);
     meta.append(publisher, time);
-    if (article.related?.length) {
-      const related = document.createElement('span');
-      related.textContent = `+${article.related.length} source${article.related.length === 1 ? '' : 's'}`;
-      meta.append(related);
+    if (showTranslation && isTranslated(article)) {
+      const translated = document.createElement('span');
+      translated.className = 'translation-label';
+      translated.textContent = 'Translated';
+      meta.append(translated);
     }
     return meta;
   }
 
-  function appendOriginalTitle(parent, article) {
-    if (!article.translatedTitle || article.translatedTitle === article.title) return;
-    const original = document.createElement('p');
-    original.className = 'original-title';
-    const label = document.createElement('span');
-    label.className = 'translation-label';
-    label.textContent = 'Machine translated';
-    original.append(label, document.createTextNode(article.title));
-    parent.append(original);
-  }
-
-  function buildRelatedDetails(article) {
-    const details = document.createElement('details');
-    details.className = 'related-details';
-    const summary = document.createElement('summary');
-    summary.textContent = `Related Coverage (${article.related.length})`;
-    const list = document.createElement('div');
-    list.className = 'related-list';
-    article.related.forEach((related) => {
-      const item = document.createElement('div');
-      item.className = 'related-item';
-      item.append(buildArticleLink(related, displayTitle(related)));
-      const meta = document.createElement('span');
-      meta.className = 'related-meta';
-      meta.textContent = `${related.sourceName || 'Publisher'} · ${formatArticleTime(related.publishedAt, currentCountry().timeZone)}`;
-      item.append(meta);
-      list.append(item);
-    });
-    details.append(summary, list);
-    return details;
+  function isTranslated(article) {
+    return Boolean(article.translatedTitle && article.translatedTitle !== article.title);
   }
 
   function buildArticleLink(article, label) {
@@ -428,6 +382,7 @@
     image.src = imageUrl;
     image.alt = article.imageAlt || '';
     image.loading = lead ? 'eager' : 'lazy';
+    if (lead) image.fetchPriority = 'high';
     image.decoding = 'async';
     image.referrerPolicy = 'no-referrer';
     image.width = lead ? 800 : 240;
@@ -455,12 +410,7 @@
 
   function renderDataNotice(status, entry, dayData) {
     clearNotices();
-    if (status === 'partial') {
-      showNotice('Some sources were unavailable, so this list may be incomplete.', 'notice-info');
-    } else if (status === 'retained') {
-      const timestamp = entry.lastSuccessfulUpdate || dayData.lastSuccessfulUpdate;
-      showNotice(`The most recent successful data is being shown${timestamp ? ` from ${formatTimestamp(timestamp, currentCountry().timeZone)}` : ''}.`, '');
-    } else if (['failed', 'missing'].includes(status)) {
+    if (['failed', 'missing'].includes(status)) {
       showNotice('This archive file is currently unavailable.', 'notice-error');
     }
   }
@@ -468,18 +418,18 @@
   function renderLoadFailure(error) {
     elements.leadStory.hidden = true;
     elements.storyList.replaceChildren();
-    elements.resultCount.textContent = '0 stories';
+    elements.resultCount.textContent = 'No headlines';
     elements.emptyTitle.textContent = error.status === 'missing' ? 'Archive File Missing' : 'News Data Unavailable';
     elements.emptyMessage.textContent = error.message || 'This archive file is currently unavailable.';
     elements.emptyState.hidden = false;
     showNotice(error.message || 'The daily archive could not be loaded.', 'notice-error');
+    revealApp();
   }
 
   function renderGlobalStatus() {
     const manifest = state.manifest;
     const status = manifest.overallStatus || (manifest.samplePreview ? 'sample' : 'current');
     elements.globalStatus.textContent = manifest.samplePreview ? 'Sample preview data' : statusLabel(status);
-    elements.globalStatusDot.className = `status-dot ${statusClass(status)}`;
     if (manifest.generatedAt) {
       elements.lastUpdated.dateTime = manifest.generatedAt;
       elements.lastUpdated.textContent = `Last updated ${formatTimestamp(manifest.generatedAt, currentCountry()?.timeZone || 'America/New_York')}`;
@@ -493,12 +443,18 @@
     elements.emptyState.hidden = false;
     elements.leadStory.hidden = true;
     elements.globalStatus.textContent = 'News Data Unavailable';
-    elements.globalStatusDot.className = 'status-dot status-error';
+    revealApp();
+  }
+
+  function revealApp() {
+    document.documentElement.classList.remove('app-loading');
   }
 
   function setLoading(loading) {
-    elements.loadingState.hidden = !loading;
-    if (loading) {
+    const hasRenderedView = !elements.leadStory.hidden || elements.storyList.childElementCount > 0 || !elements.emptyState.hidden;
+    elements.newsColumn.setAttribute('aria-busy', String(loading));
+    elements.loadingState.hidden = !loading || hasRenderedView;
+    if (loading && !hasRenderedView) {
       elements.leadStory.hidden = true;
       elements.storyList.replaceChildren();
       elements.emptyState.hidden = true;
@@ -596,7 +552,8 @@
     try {
       const url = new URL(value);
       if (url.protocol !== 'https:') return null;
-      if (/\.(svg|gif)(\?|$)/i.test(url.pathname)) return null;
+      if (/\.(svg|gif|3gp|avi|m3u8|m4v|mkv|mov|mp3|mp4|mpeg|mpg|ogg|ogv|ts|wav|webm|wmv)$/i.test(url.pathname)) return null;
+      if (/(^|\.)((youtube|youtu|vimeo|dailymotion)\.com)$/i.test(url.hostname) || url.hostname === 'youtu.be') return null;
       return url.toString();
     } catch { return null; }
   }
@@ -611,11 +568,6 @@
   }
 
   function statusLabel(status) { return STATUS_LABELS[status] || humanize(status || 'unknown'); }
-  function statusClass(status) {
-    if (['current'].includes(status)) return 'status-current';
-    if (['partial', 'retained', 'sample'].includes(status)) return 'status-warning';
-    return 'status-error';
-  }
   function humanize(value) { return String(value).replaceAll('_', ' ').replace(/\b\w/g, (char) => char.toUpperCase()); }
 
   async function fetchManifest() {
@@ -653,7 +605,7 @@
     document.head.append(link);
   }
 
-  function handleTabArrow(event, selector) {
+  function handleFilterArrow(event, selector) {
     if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
     const tabs = [...event.currentTarget.parentElement.querySelectorAll(selector)];
     const current = tabs.indexOf(event.currentTarget);
@@ -665,6 +617,80 @@
     event.preventDefault();
     tabs[next].focus();
     tabs[next].scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  }
+
+  function handleHorizontalWheel(event) {
+    const rail = event.currentTarget;
+    if (rail.scrollWidth <= rail.clientWidth || Math.abs(event.deltaX) >= Math.abs(event.deltaY)) return;
+    const delta = event.deltaY;
+    const atStart = rail.scrollLeft <= 0;
+    const atEnd = Math.ceil(rail.scrollLeft + rail.clientWidth) >= rail.scrollWidth;
+    if ((delta < 0 && atStart) || (delta > 0 && atEnd)) return;
+    event.preventDefault();
+    rail.scrollLeft += delta;
+  }
+
+  const countryDrag = { pointerId: null, startX: 0, startScrollLeft: 0, moved: false, captured: false, suppressClick: false };
+
+  function startCountryDrag(event) {
+    if (event.pointerType !== 'mouse' || event.button !== 0 || elements.countryTabs.scrollWidth <= elements.countryTabs.clientWidth) return;
+    countryDrag.pointerId = event.pointerId;
+    countryDrag.startX = event.clientX;
+    countryDrag.startScrollLeft = elements.countryTabs.scrollLeft;
+    countryDrag.moved = false;
+  }
+
+  function moveCountryDrag(event) {
+    if (event.pointerId !== countryDrag.pointerId) return;
+    const delta = event.clientX - countryDrag.startX;
+    if (Math.abs(delta) < 4) return;
+    countryDrag.moved = true;
+    if (elements.countryTabs.setPointerCapture) {
+      elements.countryTabs.setPointerCapture(event.pointerId);
+      countryDrag.captured = true;
+    }
+    elements.countryTabs.classList.add('is-dragging');
+    event.preventDefault();
+    elements.countryTabs.scrollLeft = countryDrag.startScrollLeft - delta;
+  }
+
+  function endCountryDrag(event) {
+    if (event.pointerId !== countryDrag.pointerId) return;
+    if (countryDrag.moved) {
+      countryDrag.suppressClick = true;
+      window.setTimeout(() => { countryDrag.suppressClick = false; }, 0);
+    }
+    if (countryDrag.captured) elements.countryTabs.releasePointerCapture?.(event.pointerId);
+    countryDrag.pointerId = null;
+    countryDrag.captured = false;
+    elements.countryTabs.classList.remove('is-dragging');
+  }
+
+  function suppressDraggedCountryClick(event) {
+    if (!countryDrag.suppressClick) return;
+    event.preventDefault();
+    event.stopPropagation();
+    countryDrag.suppressClick = false;
+  }
+
+  function updateCountryRailEdges() {
+    const rail = elements.countryRail;
+    const tabs = elements.countryTabs;
+    if (!rail || !tabs) return;
+    const maxScrollLeft = Math.max(0, tabs.scrollWidth - tabs.clientWidth);
+    rail.classList.toggle('is-at-start', tabs.scrollLeft <= 1);
+    rail.classList.toggle('is-at-end', tabs.scrollLeft >= maxScrollLeft - 1);
+  }
+
+  function scrollSelectedCountryIntoView() {
+    const selected = elements.countryTabs.querySelector('[aria-current="true"]');
+    if (!selected) return;
+    const maxLeft = elements.countryTabs.scrollWidth - elements.countryTabs.clientWidth;
+    const targetLeft = selected.offsetLeft - ((elements.countryTabs.clientWidth - selected.offsetWidth) / 2);
+    elements.countryTabs.scrollTo({
+      left: Math.max(0, Math.min(maxLeft, targetLeft)),
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+    });
   }
 
   function announce(message) { elements.liveRegion.textContent = message; }

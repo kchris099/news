@@ -28,6 +28,17 @@ def test_independent_coverage_increases_score():
     assert score_article(three, COUNTRY, RANKING, now) > score_article(one, COUNTRY, RANKING, now)
 
 
+def test_high_impact_terms_increase_score():
+    now = datetime(2026, 7, 19, 21, tzinfo=timezone.utc)
+    ranking = deepcopy(RANKING)
+    ranking["weights"]["importance"] = 1.35
+    routine = make_article(1)
+    important = make_article(2)
+    important["title"] = "Oil prices surge as Iran conflict widens"
+    important["publishedAt"] = routine["publishedAt"]
+    assert score_article(important, COUNTRY, ranking, now) > score_article(routine, COUNTRY, ranking, now)
+
+
 def test_first_window_enforces_publisher_cap():
     articles = [make_article(i, "same.example") for i in range(1, 6)] + [make_article(10, "other.example"), make_article(11, "third.example")]
     ranked = rank_and_balance(articles, COUNTRY, RANKING, 7)

@@ -30,9 +30,31 @@ jobs:
 
       - name: Assemble static site
         run: |
-          mkdir -p _site
+          mkdir -p _site/assets/css _site/assets/js _site/config _site/data
           cp index.html about.html 404.html .nojekyll _site/
-          cp -R assets config data _site/
+          cp assets/css/styles.css _site/assets/css/
+          cp assets/js/app.js _site/assets/js/
+          cp -R assets/icons assets/flags _site/assets/
+          cp config/countries.json config/settings.json _site/config/
+          cp data/manifest.json _site/data/
+          find data -mindepth 1 -maxdepth 1 -type d -name '[A-Z][A-Z]' -exec cp -R {} _site/data/ \;
+
+      - name: Verify production artifact boundaries
+        run: |
+          test -f _site/index.html
+          test -f _site/config/countries.json
+          test -f _site/config/settings.json
+          test -f _site/data/manifest.json
+          test ! -e _site/development
+          test ! -e _site/scripts
+          test ! -e _site/index-new.html
+          test ! -e _site/about-new.html
+          test ! -e _site/assets/css/styles-new.css
+          test ! -e _site/assets/js/app-new.js
+          test ! -e _site/config/sources.json
+          test ! -e _site/config/ranking.json
+          test ! -e _site/data/http-cache.json
+          test ! -e _site/data/translation-cache.json
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4

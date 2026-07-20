@@ -6,6 +6,20 @@ from math import exp
 from typing import Any
 
 
+IMPORTANCE_GROUPS: tuple[tuple[str, ...], ...] = (
+    ("war", "conflict", "invasion", "ceasefire", "sanctions", "nuclear", "missile", "troop", "casualt", "iran", "israel", "ukraine", "russia"),
+    ("oil price", "gas price", "inflation", "interest rate", "recession", "tariff", "trade war", "market crash", "unemployment"),
+    ("president", "election", "congress", "supreme court", "fbi", "federal government", "government shutdown", "executive order"),
+    ("earthquake", "hurricane", "wildfire", "flood", "mass shooting", "outbreak", "pandemic", "emergency", "death toll"),
+)
+
+
+def _importance_score(article: dict[str, Any]) -> float:
+    text = f"{article.get('title', '')} {article.get('description') or ''}".casefold()
+    matched_groups = sum(any(term in text for term in group) for group in IMPORTANCE_GROUPS)
+    return min(3.0, float(matched_groups))
+
+
 def _recency_score(published_at: str, now: datetime) -> float:
     published = datetime.fromisoformat(published_at.replace("Z", "+00:00"))
     hours = max(0.0, (now - published).total_seconds() / 3600)
@@ -22,6 +36,7 @@ def score_article(article: dict[str, Any], country: dict[str, Any], ranking: dic
     score += weights["validImage"] if article.get("imageUrl") else 0
     score += weights["usefulDescription"] if article.get("description") else 0
     score += weights["domesticRelevance"] if country["code"] in article.get("coverageCountries", []) else 0
+    score += weights.get("importance", 0.0) * _importance_score(article)
     score += weights["aggregatorPenalty"] if "google-news" in article.get("dataSources", []) else 0
     score += weights["syndicationPenalty"] if article.get("isSyndicated") else 0
     return round(score, 5)
@@ -47,10 +62,29 @@ def rank_and_balance(articles: list[dict[str, Any]], country: dict[str, Any], ra
         if len(selected) < window_size:
             publisher = article.get("sourceDomain") or article.get("sourceName", "unknown")
             aggregator_only = article.get("dataSources") in (["google-news"], ["gdelt"])
-            if publisher_counts[publisher] >= publisher_cap or (aggregator_only and aggregator_count >= aggregator_cap):
+            category = article.get("category", "General")
+            diversity_bonus = 0.0 if category_counts[category] else ranking["weights"].get("categoryDiversity", 0)
+            if publisher_counts[publisher] >= publisher_cap:
+                same_publisher = [
+                    (index, selected_article)
+                    for index, selected_article in enumerate(selected)
+                    if index < window_size and (selected_article.get("sourceDomain") or selected_article.get("sourceName", "unknown")) == publisher
+                ]
+                weakest = min(same_publisher, key=lambda item: item[1]["rankingScore"], default=None)
+                candidate_score = round(article["rankingScore"] + diversity_bonus, 5)
+                if weakest and candidate_score > weakest[1]["rankingScore"]:
+                    weakest_index, weakest_article = weakest
+                    selected[weakest_index] = article
+                    deferred.append(weakest_article)
+                    category_counts[weakest_article.get("category", "General")] -= 1
+                    category_counts[category] += 1
+                    article["rankingScore"] = candidate_score
+                    continue
                 deferred.append(article)
                 continue
-            diversity_bonus = 0.0 if category_counts[article.get("category", "General")] else ranking["weights"].get("categoryDiversity", 0)
+            if aggregator_only and aggregator_count >= aggregator_cap:
+                deferred.append(article)
+                continue
             article["rankingScore"] = round(article["rankingScore"] + diversity_bonus, 5)
             publisher_counts[publisher] += 1
             category_counts[article.get("category", "General")] += 1

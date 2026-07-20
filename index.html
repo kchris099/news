@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="en-US" class="app-loading">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <meta name="theme-color" content="#F6F8FB">
+  <meta name="theme-color" content="#F7F7F8">
   <meta name="description" content="Browse a transparent seven-day archive of global news headlines by country, with direct links to original publishers.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Worldline | Global Headlines">
@@ -27,17 +27,14 @@
     <div class="shell header-grid">
       <div class="brand-block">
         <a class="brand" href="./" aria-label="Worldline home">
-          <span class="brand-mark" aria-hidden="true">W</span>
-          <span>Worldline</span>
+          Worldline
         </a>
-        <p class="tagline">Global headlines, organized by market and date.</p>
       </div>
       <div class="header-meta">
         <div class="update-line">
-          <span id="global-status-dot" class="status-dot status-neutral" aria-hidden="true"></span>
-          <span id="global-status">Loading news status</span>
+          <span id="global-status" class="sr-only">Loading news status</span>
         </div>
-        <time id="last-updated" datetime="">Last updated: checking</time>
+        <time id="last-updated" class="sr-only" datetime="">Last updated: checking</time>
         <nav class="header-links" aria-label="Information">
           <a href="about.html">About</a>
         </nav>
@@ -52,38 +49,22 @@
   <main id="main-content">
     <section class="selector-section" aria-labelledby="edition-heading">
       <div class="shell">
-        <div class="section-heading-row">
-          <div>
-            <p class="eyebrow">Edition</p>
-            <h1 id="edition-heading">Global News</h1>
-          </div>
-          <p id="edition-summary" class="section-summary">Choose a market to view its local news edition.</p>
+        <h1 id="edition-heading" class="sr-only">Global News</h1>
+        <p id="edition-summary" class="sr-only">Choose a market to view its local news edition.</p>
+        <div id="country-rail" class="country-rail is-at-start">
+          <nav id="country-tabs" class="scroll-tabs country-tabs" aria-label="Country editions"></nav>
         </div>
-        <nav id="country-tabs" class="scroll-tabs country-tabs" aria-label="Country editions"></nav>
-      </div>
-    </section>
-
-    <section class="date-section" aria-label="Archive dates">
-      <div class="shell">
         <nav id="date-tabs" class="scroll-tabs date-tabs" aria-label="Select archive date"></nav>
       </div>
     </section>
 
     <div class="shell content-grid">
-      <section class="news-column" aria-labelledby="top-stories-heading">
-        <div id="sample-banner" class="notice notice-sample" hidden>
-          <strong>Sample preview data</strong>
-          <span>This repository has not completed its first live collection yet.</span>
-        </div>
-        <div id="data-notice" class="notice" role="status" aria-live="polite" hidden></div>
+      <section id="news-column" class="news-column" aria-labelledby="top-stories-heading" aria-busy="false">
+        <h2 id="top-stories-heading" class="sr-only">Top headlines</h2>
+        <p id="selected-date-label" class="sr-only">Today</p>
+        <span id="result-count" class="sr-only"></span>
 
-        <div class="stories-heading-row">
-          <div>
-            <p class="eyebrow" id="selected-date-label">Today</p>
-            <h2 id="top-stories-heading">Top Stories</h2>
-          </div>
-          <span id="result-count" class="result-count"></span>
-        </div>
+        <div id="data-notice" class="notice" role="status" aria-live="polite" hidden></div>
 
         <div id="loading-state" class="loading-state" role="status" aria-live="polite">
           <span class="spinner" aria-hidden="true"></span>
@@ -107,8 +88,9 @@
 
   <footer class="site-footer">
     <div class="shell footer-grid">
+      <a class="footer-brand" href="./">Worldline</a>
       <p>Headlines and images belong to their respective publishers. Links open the original articles.</p>
-      <p><a href="about.html#copyright">Copyright and source removal</a></p>
+      <a href="about.html">Sources and methodology</a>
     </div>
   </footer>
 

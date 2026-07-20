@@ -3,7 +3,7 @@
     "code": "US",
     "name": "United States",
     "order": 1,
-    "flag": "🇺🇸",
+    "flag": "US",
     "timeZone": "America/New_York",
     "googleNewsLocale": "en-US",
     "googleNewsCountry": "US",
@@ -18,30 +18,103 @@
     ],
     "sources": [
       {
-        "id": "npr-news",
-        "name": "NPR",
-        "url": "https://feeds.npr.org/1001/rss.xml",
-        "homepage": "https://www.npr.org/",
-        "language": "en",
-        "qualityWeight": 1.15,
-        "enabled": true
-      },
-      {
-        "id": "pbs-newshour",
-        "name": "PBS NewsHour",
-        "url": "https://www.pbs.org/newshour/feeds/rss/headlines",
-        "homepage": "https://www.pbs.org/newshour/",
-        "language": "en",
-        "qualityWeight": 1.1,
-        "enabled": true
-      },
-      {
         "id": "ap-top-news",
         "name": "Associated Press",
         "url": "https://apnews.com/hub/ap-top-news?output=rss",
         "homepage": "https://apnews.com/",
         "language": "en",
         "qualityWeight": 1.2,
+        "enabled": true
+      },
+      {
+        "id": "nytimes-home",
+        "name": "The New York Times",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        "homepage": "https://www.nytimes.com/",
+        "language": "en",
+        "qualityWeight": 1.2,
+        "enabled": true
+      },
+      {
+        "id": "nytimes-business",
+        "name": "The New York Times",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+        "homepage": "https://www.nytimes.com/section/business",
+        "language": "en",
+        "qualityWeight": 1.2,
+        "enabled": true
+      },
+      {
+        "id": "nytimes-nyregion",
+        "name": "The New York Times",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/NYRegion.xml",
+        "homepage": "https://www.nytimes.com/section/nyregion",
+        "language": "en",
+        "qualityWeight": 1.2,
+        "enabled": true
+      },
+      {
+        "id": "nytimes-us",
+        "name": "The New York Times",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
+        "homepage": "https://www.nytimes.com/section/us",
+        "language": "en",
+        "qualityWeight": 1.2,
+        "enabled": true
+      },
+      {
+        "id": "nytimes-world",
+        "name": "The New York Times",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "homepage": "https://www.nytimes.com/section/world",
+        "language": "en",
+        "qualityWeight": 1.2,
+        "enabled": true
+      },
+      {
+        "id": "washington-post-national",
+        "name": "The Washington Post",
+        "url": "https://feeds.washingtonpost.com/rss/national",
+        "homepage": "https://www.washingtonpost.com/",
+        "language": "en",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "cnn-top",
+        "name": "CNN",
+        "url": "https://rss.cnn.com/rss/edition.rss",
+        "homepage": "https://www.cnn.com/",
+        "language": "en",
+        "qualityWeight": 1.1,
+        "enabled": true
+      },
+      {
+        "id": "fox-news-latest",
+        "name": "Fox News",
+        "url": "https://moxie.foxnews.com/google-publisher/latest.xml",
+        "homepage": "https://www.foxnews.com/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
+      },
+      {
+        "id": "cnbc-top",
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "homepage": "https://www.cnbc.com/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
+      },
+      {
+        "id": "cnbc-stocks",
+        "name": "CNBC",
+        "url": "https://news.google.com/rss/search?q=site%3Acnbc.com%20(stocks%20OR%20%22stock%20market%22%20OR%20investing)&hl=en-US&gl=US&ceid=US%3Aen",
+        "homepage": "https://www.cnbc.com/stocks/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "dataSource": "google-news",
         "enabled": true
       }
     ]
@@ -50,7 +123,7 @@
     "code": "GB",
     "name": "United Kingdom",
     "order": 2,
-    "flag": "🇬🇧",
+    "flag": "GB",
     "timeZone": "Europe/London",
     "googleNewsLocale": "en-GB",
     "googleNewsCountry": "GB",
@@ -81,6 +154,24 @@
         "language": "en",
         "qualityWeight": 1.05,
         "enabled": true
+      },
+      {
+        "id": "sky-news-home",
+        "name": "Sky News",
+        "url": "https://feeds.skynews.com/feeds/rss/home.xml",
+        "homepage": "https://news.sky.com/",
+        "language": "en",
+        "qualityWeight": 1.05,
+        "enabled": true
+      },
+      {
+        "id": "independent-uk",
+        "name": "The Independent",
+        "url": "https://www.independent.co.uk/rss",
+        "homepage": "https://www.independent.co.uk/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
       }
     ]
   },
@@ -88,7 +179,7 @@
     "code": "CA",
     "name": "Canada",
     "order": 3,
-    "flag": "🇨🇦",
+    "flag": "CA",
     "timeZone": "America/Toronto",
     "googleNewsLocale": "en-CA",
     "googleNewsCountry": "CA",
@@ -117,6 +208,24 @@
         "language": "en",
         "qualityWeight": 1.0,
         "enabled": true
+      },
+      {
+        "id": "ctv-top-ca",
+        "name": "CTV News",
+        "url": "https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009",
+        "homepage": "https://www.ctvnews.ca/",
+        "language": "en",
+        "qualityWeight": 1.05,
+        "enabled": true
+      },
+      {
+        "id": "globe-mail-ca",
+        "name": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/arc/outboundfeeds/rss/?output=1",
+        "homepage": "https://www.theglobeandmail.com/",
+        "language": "en",
+        "qualityWeight": 1.1,
+        "enabled": true
       }
     ]
   },
@@ -124,7 +233,7 @@
     "code": "AU",
     "name": "Australia",
     "order": 4,
-    "flag": "🇦🇺",
+    "flag": "AU",
     "timeZone": "Australia/Sydney",
     "googleNewsLocale": "en-AU",
     "googleNewsCountry": "AU",
@@ -153,6 +262,24 @@
         "language": "en",
         "qualityWeight": 1.0,
         "enabled": true
+      },
+      {
+        "id": "guardian-au",
+        "name": "The Guardian Australia",
+        "url": "https://www.theguardian.com/australia-news/rss",
+        "homepage": "https://www.theguardian.com/australia-news",
+        "language": "en",
+        "qualityWeight": 1.05,
+        "enabled": true
+      },
+      {
+        "id": "smh-au",
+        "name": "The Sydney Morning Herald",
+        "url": "https://www.smh.com.au/rss/feed.xml",
+        "homepage": "https://www.smh.com.au/",
+        "language": "en",
+        "qualityWeight": 1.05,
+        "enabled": true
       }
     ]
   },
@@ -160,7 +287,7 @@
     "code": "DE",
     "name": "Germany",
     "order": 5,
-    "flag": "🇩🇪",
+    "flag": "DE",
     "timeZone": "Europe/Berlin",
     "googleNewsLocale": "de",
     "googleNewsCountry": "DE",
@@ -190,6 +317,24 @@
         "language": "en",
         "qualityWeight": 1.1,
         "enabled": true
+      },
+      {
+        "id": "dw-de-all",
+        "name": "Deutsche Welle Deutschland",
+        "url": "https://rss.dw.com/rdf/rss-de-all",
+        "homepage": "https://www.dw.com/de/",
+        "language": "de",
+        "qualityWeight": 1.1,
+        "enabled": true
+      },
+      {
+        "id": "spiegel-top",
+        "name": "DER SPIEGEL",
+        "url": "https://www.spiegel.de/schlagzeilen/eilmeldungen/index.rss",
+        "homepage": "https://www.spiegel.de/",
+        "language": "de",
+        "qualityWeight": 1.05,
+        "enabled": true
       }
     ]
   },
@@ -197,7 +342,7 @@
     "code": "FR",
     "name": "France",
     "order": 6,
-    "flag": "🇫🇷",
+    "flag": "FR",
     "timeZone": "Europe/Paris",
     "googleNewsLocale": "fr",
     "googleNewsCountry": "FR",
@@ -207,7 +352,7 @@
     "aliases": [
       "France",
       "French",
-      "Français"
+      "Francais"
     ],
     "sources": [
       {
@@ -227,6 +372,24 @@
         "language": "fr",
         "qualityWeight": 1.15,
         "enabled": true
+      },
+      {
+        "id": "franceinfo-top",
+        "name": "Franceinfo",
+        "url": "https://www.franceinfo.fr/titres.rss",
+        "homepage": "https://www.franceinfo.fr/",
+        "language": "fr",
+        "qualityWeight": 1.05,
+        "enabled": true
+      },
+      {
+        "id": "le-figaro-top",
+        "name": "Le Figaro",
+        "url": "https://www.lefigaro.fr/rss/figaro_actualites.xml",
+        "homepage": "https://www.lefigaro.fr/",
+        "language": "fr",
+        "qualityWeight": 1.0,
+        "enabled": true
       }
     ]
   },
@@ -234,7 +397,7 @@
     "code": "JP",
     "name": "Japan",
     "order": 7,
-    "flag": "🇯🇵",
+    "flag": "JP",
     "timeZone": "Asia/Tokyo",
     "googleNewsLocale": "ja",
     "googleNewsCountry": "JP",
@@ -244,7 +407,7 @@
     "aliases": [
       "Japan",
       "Japanese",
-      "日本"
+      "Japan"
     ],
     "sources": [
       {
@@ -264,6 +427,51 @@
         "language": "en",
         "qualityWeight": 1.0,
         "enabled": true
+      },
+      {
+        "id": "kyodo-news-en",
+        "name": "Kyodo News",
+        "url": "https://english.kyodonews.net/rss/news.xml",
+        "homepage": "https://english.kyodonews.net/",
+        "language": "en",
+        "qualityWeight": 1.1,
+        "enabled": true
+      },
+      {
+        "id": "asahi-top",
+        "name": "The Asahi Shimbun",
+        "url": "https://www.asahi.com/ajw/rss/",
+        "homepage": "https://www.asahi.com/ajw/",
+        "language": "en",
+        "qualityWeight": 1.05,
+        "enabled": true
+      },
+      {
+        "id": "jiji-top",
+        "name": "Jiji Press",
+        "url": "https://www.jiji.com/rss/ranking.rdf",
+        "homepage": "https://www.jiji.co.jp/",
+        "language": "ja",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "mainichi-top",
+        "name": "Mainichi Shimbun",
+        "url": "https://mainichi.jp/rss/etc/mainichi-flash.rss",
+        "homepage": "https://mainichi.jp/",
+        "language": "ja",
+        "qualityWeight": 1.05,
+        "enabled": true
+      },
+      {
+        "id": "nikkei-asia-top",
+        "name": "Nikkei Asia",
+        "url": "https://asia.nikkei.com/rss/feed/nar",
+        "homepage": "https://asia.nikkei.com/",
+        "language": "en",
+        "qualityWeight": 1.05,
+        "enabled": true
       }
     ]
   },
@@ -271,7 +479,7 @@
     "code": "KR",
     "name": "South Korea",
     "order": 8,
-    "flag": "🇰🇷",
+    "flag": "KR",
     "timeZone": "Asia/Seoul",
     "googleNewsLocale": "ko",
     "googleNewsCountry": "KR",
@@ -282,8 +490,8 @@
       "South Korea",
       "Korea",
       "Korean",
-      "대한민국",
-      "한국"
+      "Republic of Korea",
+      "Korea"
     ],
     "sources": [
       {
@@ -303,6 +511,52 @@
         "language": "en",
         "qualityWeight": 1.0,
         "enabled": true
+      },
+      {
+        "id": "korea-times",
+        "name": "The Korea Times",
+        "url": "https://www.koreatimes.co.kr/www/rss/nation.xml",
+        "homepage": "https://www.koreatimes.co.kr/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
+      },
+      {
+        "id": "yna-ko",
+        "name": "Yonhap News Agency (Korean)",
+        "url": "https://www.yna.co.kr/rss/news.xml",
+        "homepage": "https://www.yna.co.kr/",
+        "language": "ko",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "kbs-world-news",
+        "name": "KBS News",
+        "url": "https://world.kbs.co.kr/rss/rss_news.htm?lang=e",
+        "homepage": "https://www.kbs.co.kr/main/",
+        "language": "en",
+        "qualityWeight": 1.1,
+        "enabled": true
+      },
+      {
+        "id": "sbs-headline",
+        "name": "SBS News",
+        "url": "https://news.sbs.co.kr/news/headlineRssFeed.do?plink=RSSREADER",
+        "homepage": "https://news.sbs.co.kr/",
+        "language": "ko",
+        "qualityWeight": 1.05,
+        "enabled": true
+      },
+      {
+        "id": "korea-joongang-daily",
+        "name": "Korea JoongAng Daily",
+        "url": "https://news.google.com/rss/search?q=site%3Akoreajoongangdaily.com&hl=en-US&gl=US&ceid=US%3Aen",
+        "homepage": "https://www.koreajoongangdaily.com/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "dataSource": "google-news",
+        "enabled": true
       }
     ]
   },
@@ -310,7 +564,7 @@
     "code": "IN",
     "name": "India",
     "order": 9,
-    "flag": "🇮🇳",
+    "flag": "IN",
     "timeZone": "Asia/Kolkata",
     "googleNewsLocale": "en-IN",
     "googleNewsCountry": "IN",
@@ -339,6 +593,24 @@
         "language": "en",
         "qualityWeight": 1.05,
         "enabled": true
+      },
+      {
+        "id": "hindustan-times-india",
+        "name": "Hindustan Times",
+        "url": "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
+        "homepage": "https://www.hindustantimes.com/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
+      },
+      {
+        "id": "ndtv-top",
+        "name": "NDTV",
+        "url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+        "homepage": "https://www.ndtv.com/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
       }
     ]
   },
@@ -346,7 +618,7 @@
     "code": "SG",
     "name": "Singapore",
     "order": 10,
-    "flag": "🇸🇬",
+    "flag": "SG",
     "timeZone": "Asia/Singapore",
     "googleNewsLocale": "en-SG",
     "googleNewsCountry": "SG",
@@ -375,6 +647,15 @@
         "language": "en",
         "qualityWeight": 1.05,
         "enabled": true
+      },
+      {
+        "id": "today-singapore",
+        "name": "TODAY",
+        "url": "https://www.todayonline.com/feed",
+        "homepage": "https://www.todayonline.com/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
       }
     ]
   },
@@ -382,7 +663,7 @@
     "code": "ES",
     "name": "Spain",
     "order": 11,
-    "flag": "🇪🇸",
+    "flag": "ES",
     "timeZone": "Europe/Madrid",
     "googleNewsLocale": "es",
     "googleNewsCountry": "ES",
@@ -392,7 +673,7 @@
     "aliases": [
       "Spain",
       "Spanish",
-      "España"
+      "Espana"
     ],
     "sources": [
       {
@@ -406,11 +687,29 @@
       },
       {
         "id": "elpais-front",
-        "name": "El País",
+        "name": "El Pais",
         "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
         "homepage": "https://elpais.com/",
         "language": "es",
         "qualityWeight": 1.1,
+        "enabled": true
+      },
+      {
+        "id": "efe-spain",
+        "name": "Agencia EFE",
+        "url": "https://efe.com/feed/",
+        "homepage": "https://efe.com/",
+        "language": "es",
+        "qualityWeight": 1.1,
+        "enabled": true
+      },
+      {
+        "id": "elmundo-spain",
+        "name": "El Mundo",
+        "url": "https://www.elmundo.es/rss/espana.xml",
+        "homepage": "https://www.elmundo.es/",
+        "language": "es",
+        "qualityWeight": 1.0,
         "enabled": true
       }
     ]
@@ -419,7 +718,7 @@
     "code": "IT",
     "name": "Italy",
     "order": 12,
-    "flag": "🇮🇹",
+    "flag": "IT",
     "timeZone": "Europe/Rome",
     "googleNewsLocale": "it",
     "googleNewsCountry": "IT",
@@ -449,6 +748,24 @@
         "language": "it",
         "qualityWeight": 1.05,
         "enabled": true
+      },
+      {
+        "id": "corriere-home",
+        "name": "Corriere della Sera",
+        "url": "https://xml2.corriereobjects.it/rss/homepage.xml",
+        "homepage": "https://www.corriere.it/",
+        "language": "it",
+        "qualityWeight": 1.05,
+        "enabled": true
+      },
+      {
+        "id": "repubblica-home",
+        "name": "la Repubblica",
+        "url": "https://www.repubblica.it/rss/homepage/rss2.0.xml",
+        "homepage": "https://www.repubblica.it/",
+        "language": "it",
+        "qualityWeight": 1.0,
+        "enabled": true
       }
     ]
   },
@@ -456,7 +773,7 @@
     "code": "BR",
     "name": "Brazil",
     "order": 13,
-    "flag": "🇧🇷",
+    "flag": "BR",
     "timeZone": "America/Sao_Paulo",
     "googleNewsLocale": "pt-BR",
     "googleNewsCountry": "BR",
@@ -471,7 +788,7 @@
     "sources": [
       {
         "id": "agencia-brasil",
-        "name": "Agência Brasil",
+        "name": "Agencia Brasil",
         "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
         "homepage": "https://agenciabrasil.ebc.com.br/",
         "language": "pt",
@@ -486,6 +803,24 @@
         "language": "pt",
         "qualityWeight": 1.05,
         "enabled": true
+      },
+      {
+        "id": "folha-emcima",
+        "name": "Folha de S.Paulo",
+        "url": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",
+        "homepage": "https://www.folha.uol.com.br/",
+        "language": "pt",
+        "qualityWeight": 1.05,
+        "enabled": true
+      },
+      {
+        "id": "uol-noticias",
+        "name": "UOL Noticias",
+        "url": "https://rss.uol.com.br/feed/noticias.xml",
+        "homepage": "https://noticias.uol.com.br/",
+        "language": "pt",
+        "qualityWeight": 1.0,
+        "enabled": true
       }
     ]
   },
@@ -493,7 +828,7 @@
     "code": "QA",
     "name": "Qatar",
     "order": 14,
-    "flag": "🇶🇦",
+    "flag": "QA",
     "timeZone": "Asia/Qatar",
     "googleNewsLocale": "en",
     "googleNewsCountry": "QA",
@@ -503,7 +838,7 @@
     "aliases": [
       "Qatar",
       "Qatari",
-      "قطر"
+      "Qatar"
     ],
     "sources": [
       {
@@ -522,6 +857,24 @@
         "homepage": "https://www.gulf-times.com/",
         "language": "en",
         "qualityWeight": 1.0,
+        "enabled": true
+      },
+      {
+        "id": "the-peninsula-qatar",
+        "name": "The Peninsula",
+        "url": "https://thepeninsulaqatar.com/rss",
+        "homepage": "https://thepeninsulaqatar.com/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
+      },
+      {
+        "id": "qatar-tribune",
+        "name": "Qatar Tribune",
+        "url": "https://www.qatar-tribune.com/rss",
+        "homepage": "https://www.qatar-tribune.com/",
+        "language": "en",
+        "qualityWeight": 0.95,
         "enabled": true
       }
     ]

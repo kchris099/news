@@ -33,3 +33,11 @@ def test_generic_shared_words_do_not_merge_unrelated_stories():
     other["normalizedTitle"] = "regional bank reports quarterly earnings"
     other["canonicalUrl"] = "https://other.example/bank"
     assert not near_duplicate(BASE, other)
+
+
+def test_near_duplicate_comparison_is_not_partitioned_by_first_title_word():
+    other = deepcopy(BASE)
+    other["title"] = "Beta update football game postponed"
+    other["normalizedTitle"] = "beta update football game postponed"
+    other["canonicalUrl"] = "https://other.example/storm"
+    assert near_duplicate(BASE, other)

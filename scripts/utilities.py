@@ -19,6 +19,11 @@ import httpx
 
 LOGGER = logging.getLogger(__name__)
 SAFE_SCHEMES = {"http", "https"}
+NON_THUMBNAIL_EXTENSIONS = {
+    ".3gp", ".avi", ".m3u8", ".m4v", ".mkv", ".mov", ".mp3", ".mp4", ".mpeg",
+    ".mpg", ".ogg", ".ogv", ".svg", ".gif", ".ts", ".wav", ".webm", ".wmv",
+}
+VIDEO_HOSTS = {"youtube.com", "youtu.be", "vimeo.com", "dailymotion.com"}
 
 
 def utc_now() -> datetime:
@@ -92,6 +97,21 @@ def safe_url(value: str | None) -> str | None:
     return urlunsplit((split.scheme.lower(), split.netloc, split.path or "/", split.query, ""))
 
 
+def safe_image_url(value: str | None) -> str | None:
+    """Return an HTTPS URL suitable for a static article thumbnail."""
+    valid = safe_url(value)
+    if not valid or urlsplit(valid).scheme != "https":
+        return None
+    split = urlsplit(valid)
+    path = split.path.lower()
+    if any(path.endswith(extension) for extension in NON_THUMBNAIL_EXTENSIONS):
+        return None
+    host = (split.hostname or "").lower().removeprefix("www.")
+    if host in VIDEO_HOSTS or any(host.endswith(f".{domain}") for domain in VIDEO_HOSTS):
+        return None
+    return valid
+
+
 def normalize_url(value: str | None, tracking_parameters: Iterable[str]) -> str | None:
     valid = safe_url(value)
     if not valid:
@@ -159,10 +179,11 @@ class AsyncFetcher:
     async def __aexit__(self, *_: Any) -> None:
         await self.client.aclose()
 
-    async def get(self, url: str, expected: tuple[str, ...] = ()) -> FetchResult:
+    async def get(self, url: str, expected: tuple[str, ...] = (), max_bytes: int | None = None) -> FetchResult:
         safe = safe_url(url)
         if not safe:
             raise ValueError("Unsafe or invalid request URL")
+        response_limit = max_bytes or self.max_bytes
         headers: dict[str, str] = {}
         cached = self.cache_headers.get(safe, {})
         if cached.get("etag"):
@@ -184,13 +205,13 @@ class AsyncFetcher:
                         )
                     response.raise_for_status()
                     content_length = response.headers.get("content-length")
-                    if content_length and int(content_length) > self.max_bytes:
+                    if content_length and int(content_length) > response_limit:
                         raise ValueError("Response exceeded configured size limit")
                     chunks: list[bytes] = []
                     total = 0
                     async for chunk in response.aiter_bytes():
                         total += len(chunk)
-                        if total > self.max_bytes:
+                        if total > response_limit:
                             raise ValueError("Response exceeded configured size limit")
                         chunks.append(chunk)
                     content = b"".join(chunks)
