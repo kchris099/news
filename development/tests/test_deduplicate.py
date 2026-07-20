@@ -37,7 +37,7 @@ def test_generic_shared_words_do_not_merge_unrelated_stories():
 
 def test_near_duplicate_comparison_is_not_partitioned_by_first_title_word():
     other = deepcopy(BASE)
-    other["title"] = "Beta update football game postponed"
-    other["normalizedTitle"] = "beta update football game postponed"
+    other["title"] = "Beta storm closes schools across the region"
+    other["normalizedTitle"] = "beta storm closes schools across the region"
     other["canonicalUrl"] = "https://other.example/storm"
     assert near_duplicate(BASE, other)

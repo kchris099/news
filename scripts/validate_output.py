@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urlsplit
 
-from .utilities import date_key_for_timestamp, load_json, local_date_keys
+from .utilities import date_key_for_timestamp, load_json, local_date_keys, parse_iso
 
 VALID_STATUSES = {"current", "partial", "retained", "empty", "failed", "missing", "sample"}
 
@@ -78,10 +78,14 @@ def validate_manifest(manifest: dict[str, Any], countries: list[dict[str, Any]],
         errors.append("manifest archiveDays mismatch")
     if manifest.get("defaultCountry") != settings["defaultCountry"]:
         errors.append("manifest defaultCountry mismatch")
+    generated_at = parse_iso(manifest.get("generatedAt"))
     by_code = {country["code"]: country for country in countries}
     for code, country in by_code.items():
         dates = manifest.get("countries", {}).get(code, {}).get("dates", {})
-        expected = local_date_keys(country["timeZone"], settings["archiveDays"])
+        # Validate a committed archive against the run that produced it. Using
+        # the current wall clock makes a valid archive fail as soon as a
+        # country crosses midnight between generation and validation.
+        expected = local_date_keys(country["timeZone"], settings["archiveDays"], generated_at)
         if list(dates.keys()) != expected:
             errors.append(f"{code} does not expose exactly the expected seven ordered dates")
         for date_key in expected:
@@ -98,8 +102,9 @@ def validate_repository(root: Path) -> list[str]:
     settings = load_json(root / "config" / "settings.json", {})
     manifest = load_json(root / "data" / "manifest.json", {})
     errors = validate_manifest(manifest, countries, settings)
+    generated_at = parse_iso(manifest.get("generatedAt"))
     for country in countries:
-        for date_key in local_date_keys(country["timeZone"], settings["archiveDays"]):
+        for date_key in local_date_keys(country["timeZone"], settings["archiveDays"], generated_at):
             path = root / "data" / country["code"] / f"{date_key}.json"
             try:
                 payload = json.loads(path.read_text(encoding="utf-8"))
