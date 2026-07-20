@@ -9,6 +9,7 @@
   --blue: #155eef;
   --blue-hover: #0e4fd5;
   --blue-soft: #e8efff;
+  --wine: #6f1d35;
   --menu-active: #dedbd3;
   --menu-active-border: #aaa49a;
   --teal: #137d74;
@@ -73,7 +74,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .header-grid { min-height: 60px; display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); }
 .brand-block { min-width: 0; }
 .brand { display: inline-flex; align-items: center; color: var(--text); font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif; font-size: 1.55rem; font-weight: 700; line-height: 1; letter-spacing: -0.035em; text-decoration: none; }
-.brand:hover { color: #2b0e14; }
+.brand:hover { color: var(--wine); }
 .brand-mark { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 9px; background: var(--blue); color: #fff; font-size: 0.9rem; letter-spacing: 0; }
 .tagline { margin: 2px 0 0; color: var(--text-secondary); font-size: 0.78rem; font-weight: 500; }
 .header-meta { display: flex; align-items: center; justify-content: flex-end; }
@@ -166,7 +167,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .button-primary,
 .button-secondary { border: 0; background: #1B212C; color: #fff; }
 .button-primary:hover,
-.button-secondary:hover { background: #2b0e14; color: #fff; box-shadow: none; transform: translateY(-1px); }
+.button-secondary:hover { background: var(--wine); color: #fff; box-shadow: none; transform: translateY(-1px); }
 .empty-state { min-height: 340px; display: grid; place-items: center; align-content: center; padding: 32px; border-radius: var(--radius-lg); background: rgba(255, 255, 255, 0.7); text-align: center; }
 .empty-state h3 { margin: 12px 0 4px; font-size: 1.24rem; letter-spacing: -0.025em; }
 .empty-state p { max-width: 430px; margin: 0; color: var(--text-secondary); font-size: 0.9rem; }
@@ -285,7 +286,7 @@ h3 { line-height: 1.25; }
 .about-layout { padding-block: 64px 100px; }
 .about-intro { padding: 20px 0 72px; border-bottom: 1px solid var(--line); }
 .about-intro h1 { max-width: 980px; margin: 0; font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif; font-size: clamp(3.2rem, 7.7vw, 7.1rem); font-weight: 600; line-height: 0.91; letter-spacing: -0.055em; }
-.about-intro h1 em { color: var(--text); font-weight: 500; }
+.about-intro h1 em { color: var(--wine); font-weight: 500; }
 .about-intro > p { max-width: 760px; margin: 34px 0 0; color: var(--text-secondary); font-size: clamp(1rem, 1.5vw, 1.16rem); line-height: 1.7; }
 .project-facts { max-width: 900px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin: 54px 0 0; }
 .project-facts div { min-width: 0; }
