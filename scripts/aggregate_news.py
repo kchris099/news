@@ -232,6 +232,13 @@ async def collect_country(
             )
             if key and publisher_images.get(key):
                 article["imageUrl"] = publisher_images[key]
+        # Google News image resolution can replace an aggregator URL with the
+        # final publisher URL after the initial deduplication pass. Two Google
+        # entries can therefore become the same canonical article here.
+        ranked = deduplicate_articles(ranked)
+        for article in ranked:
+            for field in ("normalizedTitle", "sourceQuality", "independentSourceCount", "isSyndicated"):
+                article.pop(field, None)
         daily_health = health_for_day(global_health, date_health_map.get(date_key, []))
         all_health.extend(daily_health)
         failures = [item for item in daily_health if item.get("status") != "success"]
