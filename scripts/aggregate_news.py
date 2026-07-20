@@ -15,7 +15,7 @@ from .feed_parser import enrich_missing_images, fetch_feed
 from .gdelt_client import fetch_gdelt
 from .google_news_client import enrich_google_images, fetch_google_news
 from .normalize import normalize_article, normalize_title
-from .rank import rank_and_balance
+from .rank import rank_and_balance, sort_by_ranking_score
 from .translate import translate_articles
 from .utilities import (
     AsyncFetcher, date_key_for_timestamp, iso_z, load_json, local_date_keys,
@@ -282,6 +282,10 @@ async def collect_country(
         # final publisher URL after the initial deduplication pass. Two Google
         # entries can therefore become the same canonical article here.
         ranked = deduplicate_articles(ranked)
+        # The final deduplication pass orders by publication time internally.
+        # Restore the ranking order before persisting the daily feed so the
+        # frontend's first article is the highest-scoring selected story.
+        ranked = sort_by_ranking_score(ranked)
         for article in ranked:
             for field in ("normalizedTitle", "sourceQuality", "independentSourceCount", "isSyndicated"):
                 article.pop(field, None)

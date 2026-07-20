@@ -1,7 +1,8 @@
 from copy import deepcopy
 from datetime import datetime, timezone
 
-from scripts.rank import rank_and_balance, score_article
+from scripts.deduplicate import deduplicate_articles
+from scripts.rank import rank_and_balance, score_article, sort_by_ranking_score
 
 RANKING = {
     "weights": {"independentSources": 2.8, "recency": 2.2, "sourceQuality": 1.8, "validImage": 0.55, "usefulDescription": 0.4, "domesticRelevance": 0.8, "categoryDiversity": 0.35, "aggregatorPenalty": -0.75, "syndicationPenalty": -0.45},
@@ -44,3 +45,29 @@ def test_first_window_enforces_publisher_cap():
     ranked = rank_and_balance(articles, COUNTRY, RANKING, 7)
     first = ranked[:5]
     assert sum(1 for item in first if item["sourceDomain"] == "same.example") <= 3
+
+
+def test_final_order_uses_score_after_deduplication():
+    newest = make_article(1, "newest.example")
+    older = make_article(2, "older.example")
+    newest["title"] = "New smartphone launch expands globally"
+    newest["normalizedTitle"] = "new smartphone launch expands globally"
+    older["title"] = "Regional flooding closes several roads"
+    older["normalizedTitle"] = "regional flooding closes several roads"
+    newest["rankingScore"] = 3.0
+    older["rankingScore"] = 9.0
+
+    final = sort_by_ranking_score(deduplicate_articles([newest, older]))
+
+    assert final[0]["sourceDomain"] == "older.example"
+
+
+def test_deduplication_keeps_highest_merged_score():
+    primary = make_article(1, "same.example")
+    duplicate = deepcopy(primary)
+    duplicate["rankingScore"] = 9.0
+    primary["rankingScore"] = 3.0
+
+    final = deduplicate_articles([primary, duplicate])
+
+    assert final[0]["rankingScore"] == 9.0

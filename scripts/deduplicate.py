@@ -81,6 +81,11 @@ def _merge_article(primary: dict[str, Any], duplicate: dict[str, Any]) -> dict[s
     if not primary.get("imageUrl") and duplicate.get("imageUrl"):
         primary["imageUrl"] = duplicate["imageUrl"]
     primary["sourceQuality"] = max(float(primary.get("sourceQuality", 1)), float(duplicate.get("sourceQuality", 1)))
+    if "rankingScore" in duplicate:
+        primary["rankingScore"] = max(
+            float(primary.get("rankingScore", float("-inf"))),
+            float(duplicate["rankingScore"]),
+        )
     return primary
 
 

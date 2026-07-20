@@ -42,10 +42,21 @@ def score_article(article: dict[str, Any], country: dict[str, Any], ranking: dic
     return round(score, 5)
 
 
+def sort_by_ranking_score(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return sorted(
+        articles,
+        key=lambda item: (
+            float(item.get("rankingScore", float("-inf"))),
+            str(item.get("publishedAt") or ""),
+        ),
+        reverse=True,
+    )
+
+
 def rank_and_balance(articles: list[dict[str, Any]], country: dict[str, Any], ranking: dict[str, Any], limit: int) -> list[dict[str, Any]]:
     for article in articles:
         article["rankingScore"] = score_article(article, country, ranking)
-    ordered = sorted(articles, key=lambda item: (item["rankingScore"], item["publishedAt"]), reverse=True)
+    ordered = sort_by_ranking_score(articles)
     balance = ranking["balancing"]
     window_size = int(balance.get("firstWindowSize", 12))
     publisher_cap = int(balance.get("maxPerPublisherInFirstWindow", 3))
