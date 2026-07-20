@@ -151,9 +151,11 @@ async def collect_country(
     # GDELT throttles bursts, but fully serializing seven day windows makes a
     # refresh unnecessarily slow. Keep two requests in flight and space their
     # starts so the optional provider cannot monopolize the collection.
-    gdelt_gate = asyncio.Semaphore(2)
+    gdelt_settings = providers.get("gdelt", {})
+    gdelt_gate = asyncio.Semaphore(max(1, int(gdelt_settings.get("maxConcurrentRequests", 1))))
     gdelt_spacing_lock = asyncio.Lock()
     next_gdelt_start = 0.0
+    gdelt_spacing_seconds = max(1.0, float(gdelt_settings.get("minStartIntervalSeconds", 3.0)))
 
     async def date_sources(date_key: str) -> tuple[str, list[dict[str, Any]], list[dict[str, Any]]]:
         tasks = []
@@ -166,7 +168,7 @@ async def collect_country(
                     loop = asyncio.get_running_loop()
                     async with gdelt_spacing_lock:
                         wait_seconds = max(0.0, next_gdelt_start - loop.time())
-                        next_gdelt_start = max(next_gdelt_start, loop.time()) + 1.25
+                        next_gdelt_start = max(next_gdelt_start, loop.time()) + gdelt_spacing_seconds
                     if wait_seconds:
                         await asyncio.sleep(wait_seconds)
                     return await fetch_gdelt(fetcher, country, providers, date_key)

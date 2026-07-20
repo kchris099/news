@@ -236,5 +236,12 @@ class AsyncFetcher:
                 retryable = not isinstance(exc, httpx.HTTPStatusError) or exc.response.status_code in {408, 429, 500, 502, 503, 504}
                 if attempt + 1 >= self.attempts or not retryable:
                     break
-                await asyncio.sleep(self.base_delay * (2 ** attempt) + random.uniform(0, 0.25))
+                delay = self.base_delay * (2 ** attempt) + random.uniform(0, 0.25)
+                if isinstance(exc, httpx.HTTPStatusError) and exc.response.status_code == 429:
+                    retry_after = exc.response.headers.get("retry-after")
+                    try:
+                        delay = max(delay, float(retry_after)) if retry_after else max(delay, 5.0)
+                    except ValueError:
+                        delay = max(delay, 5.0)
+                await asyncio.sleep(delay)
         raise RuntimeError(compact_error(last_error or RuntimeError("Request failed")))

@@ -4,10 +4,12 @@
     "topStoriesBase": "https://news.google.com/rss",
     "searchBase": "https://news.google.com/rss/search"
   },
-  "gdelt": {
-    "enabled": true,
-    "endpoint": "https://api.gdeltproject.org/api/v2/doc/doc",
-    "maxRecordsPerDate": 250,
-    "sort": "HybridRel"
-  }
+    "gdelt": {
+      "enabled": true,
+      "endpoint": "https://api.gdeltproject.org/api/v2/doc/doc",
+      "maxRecordsPerDate": 250,
+      "sort": "HybridRel",
+      "maxConcurrentRequests": 1,
+      "minStartIntervalSeconds": 3.0
+    }
 }
