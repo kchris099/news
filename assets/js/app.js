@@ -115,7 +115,9 @@
     } else {
       state.date = latestPreparedDate(country.code, country.timeZone);
     }
-    writeUrl('replace');
+    // Keep the bare landing route clean. The first explicit country/date
+    // selection will create the shareable query URL via pushState.
+    if (params.has('country') || params.has('date')) writeUrl('replace');
   }
 
   function restoreStateFromUrl() {

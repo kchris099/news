@@ -34,6 +34,7 @@ def test_bare_entry_route_ignores_saved_country():
     restore_initial_state = js[js.index("function restoreInitialState"):js.index("function restoreStateFromUrl")]
     assert "state.countryCode = urlCountry || state.settings.defaultCountry || 'US';" in restore_initial_state
     assert "normalizeCountry(savedCountry)" not in restore_initial_state
+    assert "if (params.has('country') || params.has('date')) writeUrl('replace');" in restore_initial_state
 
 
 def test_bare_entry_route_resets_after_back_forward_cache_restore():
