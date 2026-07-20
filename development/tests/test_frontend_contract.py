@@ -7,7 +7,7 @@ def test_project_page_assets_use_relative_paths():
     html = (ROOT / "index.html").read_text(encoding="utf-8")
     assert 'href="/assets/' not in html
     assert 'src="/assets/' not in html
-    assert 'href="assets/css/styles.css"' in html
+    assert 'href="assets/css/styles.css?v=2"' in html
     assert 'src="assets/js/app.js?v=5"' in html
 
 
