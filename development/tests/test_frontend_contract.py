@@ -63,3 +63,11 @@ def test_production_copy_does_not_use_legacy_missing_archive_warning():
         content = (ROOT / relative_path).read_text(encoding="utf-8")
         assert "Archive File Missing" not in content
         assert "This archive file is currently unavailable." not in content
+
+
+def test_non_english_headlines_have_client_translation_fallback():
+    js = (ROOT / "assets" / "js" / "app.js").read_text(encoding="utf-8")
+    assert "translate.googleapis.com/translate_a/single" in js
+    assert "tl=en" in js
+    assert "TRANSLATION_CACHE_KEY" in js
+    assert "isNonEnglishArticle" in js

@@ -13,6 +13,8 @@
   };
 
   const elements = {};
+  const ENGLISH_LANGUAGE_CODES = new Set(['en', 'en-us', 'en-gb', 'english']);
+  const TRANSLATION_CACHE_KEY = 'worldline-translation-cache-v1';
   const STATUS_LABELS = {
     current: 'Current',
     partial: 'Partially Updated',
@@ -69,6 +71,7 @@
     elements.loadMore.addEventListener('click', () => {
       state.visibleCount += state.settings.loadMoreCount || 12;
       renderStories();
+      void translateVisibleArticles(state.requestId);
       announce(`Showing ${Math.min(state.visibleCount, filteredArticles().length)} stories.`);
     });
     window.addEventListener('popstate', async () => {
@@ -230,6 +233,7 @@
       state.visibleCount = state.settings.initialStoryCount || 12;
       renderDayStatus(entry, dayData);
       renderStories();
+      void translateVisibleArticles(requestId);
     } catch (error) {
       if (requestId !== state.requestId) return;
       console.error(error);
@@ -289,6 +293,82 @@
     elements.storyList.append(fragment);
     elements.loadMore.hidden = secondaryCount >= Math.max(0, articles.length - 1);
     revealApp();
+  }
+
+  async function translateVisibleArticles(requestId) {
+    const translationSettings = state.settings?.translation || {};
+    if (translationSettings.clientSide === false || requestId !== state.requestId) return;
+
+    const articles = filteredArticles().slice(0, Math.min(
+      filteredArticles().length,
+      Math.max(1, state.visibleCount + 1),
+    ));
+    const candidates = articles.filter((article) => isNonEnglishArticle(article) && !isTranslated(article));
+    if (!candidates.length) return;
+
+    const cache = safeJsonParse(safeStorageGet(TRANSLATION_CACHE_KEY)) || {};
+    let changed = false;
+    const pending = [];
+    for (const article of candidates) {
+      const cached = cache[article.id];
+      if (cached?.sourceTitle === article.title && cached.translatedTitle) {
+        article.translatedTitle = cached.translatedTitle;
+        article.translationProvider = 'Google Translate';
+        changed = true;
+      } else {
+        pending.push(article);
+      }
+    }
+    if (changed && requestId === state.requestId) renderStories();
+    if (!pending.length || requestId !== state.requestId) {
+      if (changed) safeStorageSet(TRANSLATION_CACHE_KEY, JSON.stringify(cache));
+      return;
+    }
+
+    let cursor = 0;
+    const workers = Array.from({ length: 4 }, async () => {
+      while (cursor < pending.length) {
+        const article = pending[cursor++];
+        try {
+          const translatedTitle = await translateTitle(article.title);
+          if (!translatedTitle || translatedTitle.localeCompare(article.title, undefined, { sensitivity: 'accent' }) === 0) continue;
+          article.translatedTitle = translatedTitle;
+          article.translationProvider = 'Google Translate';
+          cache[article.id] = { sourceTitle: article.title, translatedTitle };
+          safeStorageSet(TRANSLATION_CACHE_KEY, JSON.stringify(cache));
+          if (requestId === state.requestId) {
+            renderStories();
+            changed = true;
+          }
+        } catch {
+          // Translation is optional; keep the original title when it is unavailable.
+        }
+        if (requestId !== state.requestId) return;
+      }
+    });
+    await Promise.all(workers);
+    if (changed && requestId === state.requestId) renderStories();
+  }
+
+  async function translateTitle(title) {
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=${encodeURIComponent(title)}`;
+    const controller = new AbortController();
+    const timer = window.setTimeout(() => controller.abort(), 5000);
+    try {
+      const response = await fetch(url, { signal: controller.signal, credentials: 'omit' });
+      if (!response.ok) throw new Error(`Translation request failed with ${response.status}.`);
+      const data = await response.json();
+      return Array.isArray(data?.[0])
+        ? data[0].map((part) => part?.[0] || '').join('').trim()
+        : '';
+    } finally {
+      window.clearTimeout(timer);
+    }
+  }
+
+  function isNonEnglishArticle(article) {
+    const language = String(article.language || '').trim().toLowerCase().replaceAll('_', '-');
+    return Boolean(language) && !ENGLISH_LANGUAGE_CODES.has(language) && !language.startsWith('en-');
   }
 
   function evenSecondaryCount(articleCount) {
