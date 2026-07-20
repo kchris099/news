@@ -304,6 +304,12 @@
       Math.max(1, state.visibleCount + 1),
     ));
     const candidates = articles.filter((article) => isNonEnglishArticle(article) && !isTranslated(article));
+    console.info('Headline translation scan.', {
+      clientSide: translationSettings.clientSide,
+      articleCount: articles.length,
+      languages: articles.map((article) => article.language),
+      candidateCount: candidates.length,
+    });
     if (!candidates.length) return;
 
     const cache = safeJsonParse(safeStorageGet(TRANSLATION_CACHE_KEY)) || {};
