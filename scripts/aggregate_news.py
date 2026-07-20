@@ -60,6 +60,22 @@ def publisher_count(articles: list[dict[str, Any]]) -> int:
     return len({article.get("sourceDomain") or article.get("sourceName") for article in articles if article.get("sourceName")})
 
 
+def sanitize_image_cache(image_cache: dict[str, Any]) -> None:
+    """Remove legacy or unsafe thumbnail URLs before the cache is reused."""
+    for entry in image_cache.values():
+        if isinstance(entry, dict) and "imageUrl" in entry:
+            entry["imageUrl"] = safe_image_url(entry.get("imageUrl"))
+
+
+def sanitize_article_images(articles: list[dict[str, Any]]) -> None:
+    """Ensure every persisted article thumbnail is HTTPS and a valid image."""
+    for article in articles:
+        article["imageUrl"] = safe_image_url(article.get("imageUrl"))
+        for related in article.get("related", []) or []:
+            if isinstance(related, dict):
+                related["imageUrl"] = safe_image_url(related.get("imageUrl"))
+
+
 def merge_country_manifest_dates(
     current: dict[str, Any],
     previous: dict[str, Any] | None,
@@ -306,6 +322,7 @@ async def collect_country(
                 "sourceHealth": daily_health,
                 "articles": ranked,
             }
+        sanitize_article_images(payload["articles"])
         errors = validate_day(payload, country)
         if errors:
             raise ValueError(f"Validation failed for {code}/{date_key}: {'; '.join(errors[:8])}")
@@ -344,6 +361,7 @@ async def run(
     http_cache = load_json(root / "data" / "http-cache.json", {})
     translation_cache = load_json(root / "data" / "translation-cache.json", {})
     image_cache = load_json(root / "data" / "image-cache.json", {})
+    sanitize_image_cache(image_cache)
     existing_manifest = load_json(root / "data" / "manifest.json", {})
     generated_at = iso_z()
     reference_time = parse_iso(generated_at)

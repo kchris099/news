@@ -64,8 +64,9 @@ async def enrich_missing_images(
     async def enrich(article: dict[str, Any]) -> None:
         page_url = str(article["url"])
         cached = image_cache.get(page_url) or {}
-        if cached.get("imageUrl"):
-            article["imageUrl"] = cached["imageUrl"]
+        cached_image = safe_image_url(cached.get("imageUrl"))
+        if cached_image:
+            article["imageUrl"] = cached_image
             return
         try:
             response = await asyncio.wait_for(

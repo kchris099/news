@@ -8,7 +8,7 @@ from typing import Any
 from urllib.parse import quote, urlencode, urlsplit
 
 from .feed_parser import extract_page_image, parse_feed_bytes
-from .utilities import AsyncFetcher, iso_z, source_domain
+from .utilities import AsyncFetcher, iso_z, safe_image_url, source_domain
 
 
 def top_stories_url(country: dict[str, Any], providers: dict[str, Any]) -> str:
@@ -147,8 +147,9 @@ async def enrich_google_images(
             article["url"] = cached["articleUrl"]
             if "canonicalUrl" in article:
                 article["canonicalUrl"] = cached["articleUrl"]
-            if cached.get("imageUrl"):
-                article["imageUrl"] = cached["imageUrl"]
+            cached_image = safe_image_url(cached.get("imageUrl"))
+            if cached_image:
+                article["imageUrl"] = cached_image
         else:
             pending.append(article)
 
