@@ -7,6 +7,7 @@
     manifest: null,
     countryCode: 'US',
     date: null,
+    dateFallback: false,
     dayData: null,
     visibleCount: 12,
     requestId: 0,
@@ -91,7 +92,13 @@
     const country = currentCountry();
     const dates = getSevenDateKeys(country.timeZone);
     const requestedDate = params.get('date');
-    state.date = dates.includes(requestedDate) ? requestedDate : dates[0];
+    if (dates.includes(requestedDate) && isPreparedDate(country.code, requestedDate)) {
+      state.date = requestedDate;
+      state.dateFallback = false;
+    } else {
+      state.date = latestPreparedDate(country.code, country.timeZone);
+      state.dateFallback = state.date !== dates[0];
+    }
     writeUrl('replace');
   }
 
@@ -99,7 +106,13 @@
     const params = new URLSearchParams(location.search);
     state.countryCode = normalizeCountry(params.get('country')) || state.settings.defaultCountry || 'US';
     const dates = getSevenDateKeys(currentCountry().timeZone);
-    state.date = dates.includes(params.get('date')) ? params.get('date') : dates[0];
+    if (dates.includes(params.get('date')) && isPreparedDate(state.countryCode, params.get('date'))) {
+      state.date = params.get('date');
+      state.dateFallback = false;
+    } else {
+      state.date = latestPreparedDate(state.countryCode, currentCountry().timeZone);
+      state.dateFallback = state.date !== dates[0];
+    }
     state.visibleCount = state.settings.initialStoryCount || 12;
   }
 
@@ -149,11 +162,13 @@
     if (countryCode === state.countryCode) return;
     state.countryCode = countryCode;
     safeStorageSet('worldline-country', countryCode);
-    const dates = getSevenDateKeys(currentCountry().timeZone);
     // A country switch should always open that country's local Today. The
     // same calendar date can be Today in one time zone and Yesterday in
     // another, so preserving state.date makes the default inconsistent.
-    state.date = dates[0];
+    const country = currentCountry();
+    const dates = getSevenDateKeys(country.timeZone);
+    state.date = latestPreparedDate(country.code, country.timeZone);
+    state.dateFallback = state.date !== dates[0];
     state.visibleCount = state.settings.initialStoryCount || 12;
     renderCountryTabs();
     await selectView({ updateHistory: true });
@@ -193,6 +208,7 @@
   async function changeDate(dateKey) {
     if (dateKey === state.date) return;
     state.date = dateKey;
+    state.dateFallback = false;
     state.visibleCount = state.settings.initialStoryCount || 12;
     renderDateTabs();
     await selectView({ updateHistory: true, datesAlreadyRendered: true });
@@ -406,6 +422,9 @@
   function renderDayStatus(entry, dayData) {
     const status = dayData.status || entry.status || 'current';
     renderDataNotice(status, entry, dayData);
+    if (state.dateFallback) {
+      showNotice(`Today's archive is not ready yet. Showing the latest prepared news from ${longDateLabel(state.date, currentCountry().timeZone)}.`, 'notice-fallback');
+    }
   }
 
   function renderDataNotice(status, entry, dayData) {
@@ -486,6 +505,17 @@
   function getSevenDateKeys(timeZone) {
     const today = dateKeyInTimeZone(new Date(), timeZone);
     return Array.from({ length: 7 }, (_, index) => shiftDateKey(today, -index));
+  }
+
+  function latestPreparedDate(countryCode, timeZone) {
+    const keys = getSevenDateKeys(timeZone);
+    return keys.find((dateKey) => isPreparedDate(countryCode, dateKey)) || keys[0];
+  }
+
+  function isPreparedDate(countryCode, dateKey) {
+    const entry = state.manifest?.countries?.[countryCode]?.dates?.[dateKey];
+    const usableStatuses = new Set(['current', 'partial', 'retained', 'sample']);
+    return Boolean(entry?.path && usableStatuses.has(entry.status));
   }
 
   function dateKeyInTimeZone(date, timeZone) {
