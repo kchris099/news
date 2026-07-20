@@ -129,7 +129,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .lead-story .publisher { max-width: min(60%, 460px); color: #fff; }
 .translation-label { display: inline-flex; align-items: center; min-height: 20px; padding: 2px 7px; border-radius: 6px; background: var(--blue-soft); color: #2355ae; font-size: 0.62rem; font-weight: 800; letter-spacing: 0.035em; text-transform: uppercase; }
 .lead-story .translation-label { background: rgba(255, 255, 255, 0.16); color: #fff; backdrop-filter: blur(8px); }
-.lead-title { max-width: 1080px; display: -webkit-box; overflow: hidden; margin: 12px 0 0; padding-bottom: 0.16em; color: #fff; font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif; font-size: clamp(2.35rem, 4.55vw, 4rem); font-weight: 790; line-height: 1.02; letter-spacing: -0.055em; text-wrap: balance; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.lead-title { max-width: 1080px; display: -webkit-box; overflow: hidden; margin: 12px 0 0; padding-bottom: 0; color: #fff; font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif; font-size: clamp(2.35rem, 4.55vw, 4rem); font-weight: 790; line-height: 1.02; letter-spacing: -0.055em; text-wrap: balance; -webkit-box-orient: vertical; line-clamp: 3; -webkit-line-clamp: 3; }
 .lead-title a { color: inherit; text-decoration: none; }
 .lead-title a::after { content: ""; position: absolute; z-index: 1; inset: 0; }
 .lead-title a:focus-visible { position: relative; z-index: 3; border-radius: 4px; outline-color: #fff; }
@@ -146,7 +146,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .story-thumb img { transition: transform 350ms var(--ease), filter var(--duration) var(--ease); }
 .story-thumb .placeholder-initials { width: 46px; height: 46px; font-size: 0.78rem; }
 .story-copy { min-width: 0; padding: 18px 18px 16px; }
-.story-title { display: -webkit-box; overflow: hidden; margin: 10px 0 0; padding-bottom: 0.16em; color: var(--text); font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif; font-size: clamp(1.06rem, 1.4vw, 1.22rem); font-weight: 760; line-height: 1.23; letter-spacing: -0.025em; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.story-title { display: -webkit-box; overflow: hidden; margin: 10px 0 0; padding-bottom: 0; color: var(--text); font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif; font-size: clamp(1.06rem, 1.4vw, 1.22rem); font-weight: 760; line-height: 1.23; letter-spacing: -0.025em; -webkit-box-orient: vertical; line-clamp: 4; -webkit-line-clamp: 4; }
 .story-title a { color: inherit; text-decoration: none; }
 .story-title a:hover { text-decoration: underline; text-underline-offset: 0.12em; }
 .story-title a::after { content: ""; position: absolute; z-index: 2; inset: 0; }
@@ -213,7 +213,9 @@ h3 { line-height: 1.25; }
   :root { --lead-height: 430px; }
   .country-rail { min-height: 85px; }
   .date-tabs { min-height: 47px; }
-  .lead-title { font-size: clamp(2.05rem, 7vw, 3rem); -webkit-line-clamp: 4; }
+  .lead-title,
+  .story-title { line-clamp: 4; -webkit-line-clamp: 4; }
+  .lead-title { font-size: clamp(2.05rem, 7vw, 3rem); }
   .story-list { grid-template-columns: 1fr; }
   .story-card { height: 10rem; grid-template-columns: 40% minmax(0, 1fr); }
   .story-card:nth-child(2)::before { display: block; }
@@ -239,7 +241,7 @@ h3 { line-height: 1.25; }
   .lead-title { margin-top: 9px; font-size: clamp(1.85rem, 8.6vw, 2.4rem); line-height: 1.05; letter-spacing: -0.045em; }
   .lead-story .story-meta { font-size: 0.73rem; }
   .story-list { gap: 11px; }
-  .story-card { height: 8.25rem; grid-template-columns: 40% minmax(0, 1fr); border-radius: 0; }
+  .story-card { height: 9rem; grid-template-columns: 40% minmax(0, 1fr); border-radius: 0; }
   .story-card::before { top: -6px; }
   .story-copy { padding: 12px 12px 10px; }
   .story-card .story-meta { max-height: 34px; overflow: hidden; gap: 6px; font-size: 0.69rem; }
@@ -254,7 +256,7 @@ h3 { line-height: 1.25; }
   :root { --lead-height: 372px; }
   .lead-body { padding-left: 17px; }
   .lead-title { font-size: 1.75rem; }
-  .story-card { height: 8rem; grid-template-columns: 40% minmax(0, 1fr); }
+  .story-card { height: 9rem; grid-template-columns: 40% minmax(0, 1fr); }
   .story-copy { padding: 11px 10px 9px; }
   .story-title { font-size: 0.94rem; }
 }

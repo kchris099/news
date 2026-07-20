@@ -28,6 +28,13 @@ def test_country_switches_open_local_today():
     assert "state.dateFallback" not in change_country
 
 
+def test_bare_entry_route_ignores_saved_country():
+    js = (ROOT / "assets" / "js" / "app.js").read_text(encoding="utf-8")
+    restore_initial_state = js[js.index("function restoreInitialState"):js.index("function restoreStateFromUrl")]
+    assert "state.countryCode = urlCountry || state.settings.defaultCountry || 'US';" in restore_initial_state
+    assert "normalizeCountry(savedCountry)" not in restore_initial_state
+
+
 def test_missing_today_falls_back_to_latest_prepared_archive_day():
     js = (ROOT / "assets" / "js" / "app.js").read_text(encoding="utf-8")
     assert "function latestPreparedDate(countryCode, timeZone)" in js
@@ -56,6 +63,17 @@ def test_initial_shell_avoids_fullscreen_loading_splash_without_control_flash():
     assert "html.app-loading .country-tabs" in css
     assert "html.app-loading .date-tabs" in css
     assert '<span class="sr-only">Loading headlines</span>' in html
+
+
+def test_headline_clamps_match_rank_and_breakpoint_rules():
+    css = (ROOT / "assets" / "css" / "styles.css").read_text(encoding="utf-8")
+    lead_title = css[css.index(".lead-title {"):css.index(".lead-title a")]
+    story_title = css[css.index(".story-title {"):css.index(".story-title a")]
+    mobile = css[css.index("@media (max-width: 767px)"):css.index("@media (max-width: 639px)")]
+    assert "-webkit-line-clamp: 3" in lead_title
+    assert "-webkit-line-clamp: 4" in story_title
+    assert ".lead-title,\n  .story-title { line-clamp: 4; -webkit-line-clamp: 4; }" in mobile
+    assert "padding-bottom: 0" in css
 
 
 def test_production_copy_does_not_use_legacy_missing_archive_warning():

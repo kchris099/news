@@ -92,8 +92,10 @@
   function restoreInitialState() {
     const params = new URLSearchParams(location.search);
     const urlCountry = normalizeCountry(params.get('country'));
-    const savedCountry = safeStorageGet('worldline-country');
-    state.countryCode = urlCountry || normalizeCountry(savedCountry) || state.settings.defaultCountry || 'US';
+    // A bare site entry is the public landing route, so it should always
+    // start at the configured default edition instead of restoring a prior
+    // browsing choice from local storage. Explicit archive links still win.
+    state.countryCode = urlCountry || state.settings.defaultCountry || 'US';
     const country = currentCountry();
     const dates = getSevenDateKeys(country.timeZone);
     const requestedDate = params.get('date');
