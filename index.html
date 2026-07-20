@@ -39,7 +39,6 @@
         </div>
         <time id="last-updated" datetime="">Last updated: checking</time>
         <nav class="header-links" aria-label="Information">
-          <a href="#methodology">Sources &amp; Methodology</a>
           <a href="about.html">About</a>
         </nav>
       </div>
@@ -86,8 +85,6 @@
           <span id="result-count" class="result-count"></span>
         </div>
 
-        <nav id="category-filters" class="filter-bar" aria-label="Filter stories by category"></nav>
-
         <div id="loading-state" class="loading-state" role="status" aria-live="polite">
           <span class="spinner" aria-hidden="true"></span>
           Loading headlines
@@ -105,36 +102,6 @@
         </div>
       </section>
 
-      <aside class="status-sidebar" aria-labelledby="status-heading">
-        <section class="panel sticky-panel">
-          <div class="panel-heading">
-            <div>
-              <p class="eyebrow">Data quality</p>
-              <h2 id="status-heading">Archive Status</h2>
-            </div>
-            <span id="day-status-badge" class="status-badge">Checking</span>
-          </div>
-          <dl class="metrics-list">
-            <div><dt>Articles</dt><dd id="metric-articles">0</dd></div>
-            <div><dt>Publishers</dt><dd id="metric-publishers">0</dd></div>
-            <div><dt>Sources updated</dt><dd id="metric-sources">0 of 0</dd></div>
-            <div><dt>Local time zone</dt><dd id="metric-timezone">-</dd></div>
-          </dl>
-          <p id="status-detail" class="status-detail">Loading archive status.</p>
-          <details class="source-health-details">
-            <summary>Source health</summary>
-            <div id="source-health-list" class="source-health-list"></div>
-          </details>
-        </section>
-
-        <section id="methodology" class="panel methodology-panel">
-          <p class="eyebrow">How it works</p>
-          <h2>Sources &amp; Methodology</h2>
-          <p>Headlines are collected by a scheduled GitHub Actions workflow, then normalized, deduplicated, clustered, and stored as static JSON.</p>
-          <p>Ranking is automated and is not an objective measure of importance. Full article text is not hosted here.</p>
-          <a class="text-link" href="about.html">Read the full methodology</a>
-        </section>
-      </aside>
     </div>
   </main>
 

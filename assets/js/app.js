@@ -7,7 +7,6 @@
     manifest: null,
     countryCode: 'US',
     date: null,
-    category: 'All',
     dayData: null,
     visibleCount: 12,
     requestId: 0,
@@ -42,7 +41,6 @@
       state.visibleCount = settings.initialStoryCount || 12;
       restoreInitialState();
       renderCountryTabs();
-      renderCategoryFilters();
       renderGlobalStatus();
       await selectView({ updateHistory: false });
     } catch (error) {
@@ -53,13 +51,11 @@
 
   function cacheElements() {
     const ids = [
-      'country-tabs', 'date-tabs', 'category-filters', 'lead-story', 'story-list',
+      'country-tabs', 'date-tabs', 'lead-story', 'story-list',
       'loading-state', 'empty-state', 'empty-title', 'empty-message', 'load-more',
       'sample-banner', 'data-notice', 'result-count', 'selected-date-label',
       'edition-heading', 'edition-summary', 'global-status', 'global-status-dot',
-      'last-updated', 'day-status-badge', 'metric-articles', 'metric-publishers',
-      'metric-sources', 'metric-timezone', 'status-detail', 'source-health-list',
-      'live-region'
+      'last-updated', 'live-region'
     ];
     ids.forEach((id) => { elements[toCamel(id)] = document.getElementById(id); });
   }
@@ -73,7 +69,6 @@
     window.addEventListener('popstate', async () => {
       restoreStateFromUrl();
       renderCountryTabs();
-      renderCategoryFilters();
       await selectView({ updateHistory: false });
     });
   }
@@ -87,7 +82,6 @@
     const dates = getSevenDateKeys(country.timeZone);
     const requestedDate = params.get('date');
     state.date = dates.includes(requestedDate) ? requestedDate : dates[0];
-    state.category = normalizeCategory(params.get('category'));
     writeUrl('replace');
   }
 
@@ -96,7 +90,6 @@
     state.countryCode = normalizeCountry(params.get('country')) || state.settings.defaultCountry || 'US';
     const dates = getSevenDateKeys(currentCountry().timeZone);
     state.date = dates.includes(params.get('date')) ? params.get('date') : dates[0];
-    state.category = normalizeCategory(params.get('category'));
     state.visibleCount = state.settings.initialStoryCount || 12;
   }
 
@@ -104,13 +97,6 @@
     if (!value) return null;
     const code = String(value).toUpperCase();
     return state.countries.some((country) => country.code === code) ? code : null;
-  }
-
-  function normalizeCategory(value) {
-    if (!state.settings) return 'All';
-    if (!value) return 'All';
-    const slug = String(value).toLowerCase();
-    return state.settings.categories.find((item) => categorySlug(item) === slug) || 'All';
   }
 
   function currentCountry() {
@@ -156,10 +142,8 @@
     safeStorageSet('worldline-country', countryCode);
     const dates = getSevenDateKeys(currentCountry().timeZone);
     if (!dates.includes(state.date)) state.date = dates[0];
-    state.category = 'All';
     state.visibleCount = state.settings.initialStoryCount || 12;
     renderCountryTabs();
-    renderCategoryFilters();
     await selectView({ updateHistory: true });
   }
 
@@ -206,27 +190,6 @@
     await selectView({ updateHistory: true, datesAlreadyRendered: true });
   }
 
-  function renderCategoryFilters() {
-    const fragment = document.createDocumentFragment();
-    state.settings.categories.forEach((category) => {
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.className = 'filter-button';
-      button.textContent = category;
-      button.setAttribute('aria-pressed', String(category === state.category));
-      button.addEventListener('click', () => {
-        state.category = category;
-        state.visibleCount = state.settings.initialStoryCount || 12;
-        renderCategoryFilters();
-        renderStories();
-        writeUrl('replace');
-        announce(`${category} filter selected.`);
-      });
-      fragment.append(button);
-    });
-    elements.categoryFilters.replaceChildren(fragment);
-  }
-
   async function selectView({ updateHistory, datesAlreadyRendered = false }) {
     const requestId = ++state.requestId;
     if (!datesAlreadyRendered) renderDateTabs();
@@ -235,7 +198,6 @@
     const country = currentCountry();
     elements.editionHeading.textContent = `${country.name} News`;
     elements.editionSummary.textContent = `Headlines are shown in ${friendlyTimeZone(country.timeZone)} local time.`;
-    elements.metricTimezone.textContent = friendlyTimeZone(country.timeZone);
     elements.selectedDateLabel.textContent = longDateLabel(state.date, country.timeZone);
     document.title = `${country.name} Headlines | Worldline`;
     if (updateHistory) writeUrl('push');
@@ -293,10 +255,8 @@
     const articles = filteredArticles();
     elements.resultCount.textContent = `${articles.length} ${articles.length === 1 ? 'story' : 'stories'}`;
     if (!articles.length) {
-      elements.emptyTitle.textContent = state.category === 'All' ? 'No Articles Retrieved' : `No ${state.category} Stories`;
-      elements.emptyMessage.textContent = state.category === 'All'
-        ? 'No articles were retrieved for this date.'
-        : 'No stories in this archive match the selected category.';
+      elements.emptyTitle.textContent = 'No Articles Retrieved';
+      elements.emptyMessage.textContent = 'No articles were retrieved for this date.';
       elements.emptyState.hidden = false;
       return;
     }
@@ -312,9 +272,7 @@
   }
 
   function filteredArticles() {
-    const articles = Array.isArray(state.dayData?.articles) ? state.dayData.articles : [];
-    if (state.category === 'All') return articles;
-    return articles.filter((article) => article.category === state.category);
+    return Array.isArray(state.dayData?.articles) ? state.dayData.articles : [];
   }
 
   function buildLeadStory(article) {
@@ -403,10 +361,7 @@
     const time = document.createElement('time');
     time.dateTime = article.publishedAt || '';
     time.textContent = formatArticleTime(article.publishedAt, currentCountry().timeZone);
-    const category = document.createElement('span');
-    category.className = 'category-label';
-    category.textContent = article.category || 'General';
-    meta.append(publisher, time, category);
+    meta.append(publisher, time);
     if (article.related?.length) {
       const related = document.createElement('span');
       related.textContent = `+${article.related.length} source${article.related.length === 1 ? '' : 's'}`;
@@ -494,41 +449,8 @@
   }
 
   function renderDayStatus(entry, dayData) {
-    const articles = dayData.articles || [];
-    const publishers = new Set(articles.map((article) => article.sourceName).filter(Boolean));
-    const health = Array.isArray(dayData.sourceHealth) ? dayData.sourceHealth : [];
-    const successful = health.filter((item) => item.status === 'success').length;
     const status = dayData.status || entry.status || 'current';
-    setStatusBadge(status);
-    elements.metricArticles.textContent = String(articles.length);
-    elements.metricPublishers.textContent = String(publishers.size);
-    elements.metricSources.textContent = `${successful} of ${health.length}`;
-    elements.statusDetail.textContent = statusDescription(status, entry, dayData);
-    renderSourceHealth(health);
     renderDataNotice(status, entry, dayData);
-  }
-
-  function renderSourceHealth(health) {
-    const fragment = document.createDocumentFragment();
-    if (!health.length) {
-      const empty = document.createElement('p');
-      empty.className = 'status-detail';
-      empty.textContent = 'No source-level details are available for this sample file.';
-      fragment.append(empty);
-    } else {
-      health.forEach((source) => {
-        const row = document.createElement('div');
-        row.className = 'source-health-row';
-        const name = document.createElement('span');
-        name.textContent = source.sourceName || source.sourceId || 'Source';
-        const status = document.createElement('span');
-        status.className = source.status === 'success' ? 'health-success' : source.status === 'retained' ? 'health-warning' : 'health-error';
-        status.textContent = source.status === 'success' ? `${source.articlesRetrieved || 0} items` : humanize(source.status || 'failed');
-        row.append(name, status);
-        fragment.append(row);
-      });
-    }
-    elements.sourceHealthList.replaceChildren(fragment);
   }
 
   function renderDataNotice(status, entry, dayData) {
@@ -550,12 +472,6 @@
     elements.emptyTitle.textContent = error.status === 'missing' ? 'Archive File Missing' : 'News Data Unavailable';
     elements.emptyMessage.textContent = error.message || 'This archive file is currently unavailable.';
     elements.emptyState.hidden = false;
-    setStatusBadge(error.status || 'failed');
-    elements.metricArticles.textContent = '0';
-    elements.metricPublishers.textContent = '0';
-    elements.metricSources.textContent = '0 of 0';
-    elements.statusDetail.textContent = 'The browser could not load a valid generated daily file.';
-    elements.sourceHealthList.replaceChildren();
     showNotice(error.message || 'The daily archive could not be loaded.', 'notice-error');
   }
 
@@ -570,28 +486,12 @@
     }
   }
 
-  function setStatusBadge(status) {
-    elements.dayStatusBadge.textContent = statusLabel(status);
-    elements.dayStatusBadge.className = `status-badge ${badgeClass(status)}`;
-  }
-
-  function statusDescription(status, entry, dayData) {
-    if (status === 'current') return 'This daily archive was generated successfully during the latest collection.';
-    if (status === 'partial') return 'Enough current data was collected, but at least one configured source failed.';
-    if (status === 'retained') return 'A recent collection was incomplete, so the previous valid archive was preserved.';
-    if (status === 'sample') return 'This is clearly labeled sample data for interface preview only.';
-    if (status === 'empty') return 'No valid articles were retrieved for this local calendar date.';
-    return dayData?.warning || entry?.warning || 'The daily archive is unavailable or failed validation.';
-  }
-
   function showFatalState(title, message) {
     setLoading(false);
     elements.emptyTitle.textContent = title;
     elements.emptyMessage.textContent = message;
     elements.emptyState.hidden = false;
     elements.leadStory.hidden = true;
-    elements.dayStatusBadge.textContent = 'Unavailable';
-    elements.dayStatusBadge.className = 'status-badge badge-error';
     elements.globalStatus.textContent = 'News Data Unavailable';
     elements.globalStatusDot.className = 'status-dot status-error';
   }
@@ -622,7 +522,6 @@
     const params = new URLSearchParams();
     params.set('country', state.countryCode);
     params.set('date', state.date);
-    if (state.category !== 'All') params.set('category', categorySlug(state.category));
     const next = `${location.pathname}?${params.toString()}${location.hash}`;
     if (mode === 'push') history.pushState(null, '', next);
     else history.replaceState(null, '', next);
@@ -717,12 +616,6 @@
     if (['partial', 'retained', 'sample'].includes(status)) return 'status-warning';
     return 'status-error';
   }
-  function badgeClass(status) {
-    if (status === 'current') return 'badge-current';
-    if (['partial', 'retained', 'sample'].includes(status)) return 'badge-warning';
-    return 'badge-error';
-  }
-  function categorySlug(value) { return String(value).toLowerCase().replace('&', 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
   function humanize(value) { return String(value).replaceAll('_', ' ').replace(/\b\w/g, (char) => char.toUpperCase()); }
 
   async function fetchManifest() {
