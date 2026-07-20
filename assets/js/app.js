@@ -340,7 +340,8 @@
             renderStories();
             changed = true;
           }
-        } catch {
+        } catch (error) {
+          console.warn('Headline translation unavailable.', error);
           // Translation is optional; keep the original title when it is unavailable.
         }
         if (requestId !== state.requestId) return;
