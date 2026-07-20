@@ -8,7 +8,7 @@ def test_project_page_assets_use_relative_paths():
     assert 'href="/assets/' not in html
     assert 'src="/assets/' not in html
     assert 'href="assets/css/styles.css"' in html
-    assert 'src="assets/js/app.js?v=4"' in html
+    assert 'src="assets/js/app.js?v=5"' in html
 
 
 def test_frontend_guarantees_seven_date_controls_from_time_zone():
@@ -82,7 +82,7 @@ def test_headline_clamps_match_rank_and_breakpoint_rules():
     story_title = css[css.index(".story-title {"):css.index(".story-title a")]
     mobile = css[css.index("@media (max-width: 767px)"):css.index("@media (max-width: 639px)")]
     assert "-webkit-line-clamp: 3" in lead_title
-    assert "line-height: 1.16" in lead_title
+    assert "line-height: 1.24" in lead_title
     assert "-webkit-line-clamp: 4" in story_title
     assert ".lead-title { font-size: clamp(2.05rem, 7vw, 3rem); line-clamp: 4; -webkit-line-clamp: 4; }" in mobile
     assert "z-index: 3" in lead_title
