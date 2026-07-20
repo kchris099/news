@@ -25,11 +25,18 @@ def test_country_switches_open_local_today():
     js = (ROOT / "assets" / "js" / "app.js").read_text(encoding="utf-8")
     change_country = js[js.index("async function changeCountry"):js.index("function renderDateTabs")]
     assert "state.date = latestPreparedDate(country.code, country.timeZone);" in change_country
-    assert "state.dateFallback = state.date !== dates[0];" in change_country
+    assert "state.dateFallback" not in change_country
 
 
 def test_missing_today_falls_back_to_latest_prepared_archive_day():
     js = (ROOT / "assets" / "js" / "app.js").read_text(encoding="utf-8")
     assert "function latestPreparedDate(countryCode, timeZone)" in js
-    assert "Today's archive is not ready yet." in js
     assert "usableStatuses" in js
+
+
+def test_missing_today_uses_preparation_message_without_fallback_warning():
+    js = (ROOT / "assets" / "js" / "app.js").read_text(encoding="utf-8")
+    assert "News is being prepared. Check back later!" in js
+    assert "This archive file is currently unavailable." not in js
+    assert "Today's archive is not ready yet." not in js
+    assert "function isTodayDate(dateKey)" in js

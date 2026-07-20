@@ -7,7 +7,6 @@
     manifest: null,
     countryCode: 'US',
     date: null,
-    dateFallback: false,
     dayData: null,
     visibleCount: 12,
     requestId: 0,
@@ -20,7 +19,7 @@
     retained: 'Retained From Previous Update',
     empty: 'No Articles Retrieved',
     failed: 'Data Generation Failed',
-    missing: 'Archive File Missing',
+    missing: 'Not Ready',
     unavailable: 'Source Unavailable',
     sample: 'Sample Preview',
   };
@@ -94,10 +93,8 @@
     const requestedDate = params.get('date');
     if (dates.includes(requestedDate) && isPreparedDate(country.code, requestedDate)) {
       state.date = requestedDate;
-      state.dateFallback = false;
     } else {
       state.date = latestPreparedDate(country.code, country.timeZone);
-      state.dateFallback = state.date !== dates[0];
     }
     writeUrl('replace');
   }
@@ -108,10 +105,8 @@
     const dates = getSevenDateKeys(currentCountry().timeZone);
     if (dates.includes(params.get('date')) && isPreparedDate(state.countryCode, params.get('date'))) {
       state.date = params.get('date');
-      state.dateFallback = false;
     } else {
       state.date = latestPreparedDate(state.countryCode, currentCountry().timeZone);
-      state.dateFallback = state.date !== dates[0];
     }
     state.visibleCount = state.settings.initialStoryCount || 12;
   }
@@ -166,9 +161,7 @@
     // same calendar date can be Today in one time zone and Yesterday in
     // another, so preserving state.date makes the default inconsistent.
     const country = currentCountry();
-    const dates = getSevenDateKeys(country.timeZone);
     state.date = latestPreparedDate(country.code, country.timeZone);
-    state.dateFallback = state.date !== dates[0];
     state.visibleCount = state.settings.initialStoryCount || 12;
     renderCountryTabs();
     await selectView({ updateHistory: true });
@@ -208,7 +201,6 @@
   async function changeDate(dateKey) {
     if (dateKey === state.date) return;
     state.date = dateKey;
-    state.dateFallback = false;
     state.visibleCount = state.settings.initialStoryCount || 12;
     renderDateTabs();
     await selectView({ updateHistory: true, datesAlreadyRendered: true });
@@ -228,7 +220,7 @@
 
     try {
       const entry = state.manifest?.countries?.[country.code]?.dates?.[state.date];
-      if (!entry) throw new ArchiveError('missing', 'This archive file is currently unavailable.');
+      if (!entry) throw new ArchiveError('missing');
       const dayData = await loadDayData(country.code, state.date, entry);
       if (requestId !== state.requestId) return;
       state.dayData = dayData;
@@ -422,15 +414,12 @@
   function renderDayStatus(entry, dayData) {
     const status = dayData.status || entry.status || 'current';
     renderDataNotice(status, entry, dayData);
-    if (state.dateFallback) {
-      showNotice(`Today's archive is not ready yet. Showing the latest prepared news from ${longDateLabel(state.date, currentCountry().timeZone)}.`, 'notice-fallback');
-    }
   }
 
   function renderDataNotice(status, entry, dayData) {
     clearNotices();
-    if (['failed', 'missing'].includes(status)) {
-      showNotice('This archive file is currently unavailable.', 'notice-error');
+    if (isTodayDate(state.date) && ['failed', 'missing'].includes(status)) {
+      showNotice('News is being prepared. Check back later!', 'notice-fallback');
     }
   }
 
@@ -438,10 +427,12 @@
     elements.leadStory.hidden = true;
     elements.storyList.replaceChildren();
     elements.resultCount.textContent = 'No headlines';
-    elements.emptyTitle.textContent = error.status === 'missing' ? 'Archive File Missing' : 'News Data Unavailable';
-    elements.emptyMessage.textContent = error.message || 'This archive file is currently unavailable.';
+    const todayUnavailable = isTodayDate(state.date) && ['missing', 'failed'].includes(error.status);
+    elements.emptyTitle.textContent = todayUnavailable ? 'News is being prepared.' : 'News Data Unavailable';
+    elements.emptyMessage.textContent = todayUnavailable ? 'Check back later!' : 'No news is available for this date.';
     elements.emptyState.hidden = false;
-    showNotice(error.message || 'The daily archive could not be loaded.', 'notice-error');
+    clearNotices();
+    if (todayUnavailable) showNotice('News is being prepared. Check back later!', 'notice-fallback');
     revealApp();
   }
 
@@ -505,6 +496,10 @@
   function getSevenDateKeys(timeZone) {
     const today = dateKeyInTimeZone(new Date(), timeZone);
     return Array.from({ length: 7 }, (_, index) => shiftDateKey(today, -index));
+  }
+
+  function isTodayDate(dateKey) {
+    return dateKey === getSevenDateKeys(currentCountry().timeZone)[0];
   }
 
   function latestPreparedDate(countryCode, timeZone) {
