@@ -142,11 +142,17 @@ async def collect_country(
     image_cache: dict[str, Any],
     skip_gdelt: bool = False,
     latest_only: bool = False,
+    historical_only: bool = False,
     reference_time: datetime | None = None,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     code = country["code"]
     archive_date_keys = local_date_keys(country["timeZone"], settings["archiveDays"], reference_time)
-    date_keys = archive_date_keys[:1] if latest_only else archive_date_keys
+    if latest_only:
+        date_keys = archive_date_keys[:1]
+    elif historical_only:
+        date_keys = archive_date_keys[1:]
+    else:
+        date_keys = archive_date_keys
     buckets: dict[str, list[dict[str, Any]]] = defaultdict(list)
 
     feed_tasks = [fetch_feed(fetcher, source, code) for source in country.get("sources", []) if source.get("enabled", True)]
@@ -337,7 +343,7 @@ async def collect_country(
             "path": f"data/{code}/{date_key}.json",
         }
 
-    if not latest_only:
+    if not latest_only and not historical_only:
         allowed = set(date_keys)
         country_dir = root / "data" / code
         if country_dir.exists():
@@ -352,6 +358,7 @@ async def run(
     only_countries: set[str] | None = None,
     skip_gdelt: bool = False,
     latest_only: bool = False,
+    historical_only: bool = False,
 ) -> None:
     countries = load_json(root / "config" / "countries.json", [])
     settings = load_json(root / "config" / "settings.json", {})
@@ -388,7 +395,7 @@ async def run(
                 LOGGER.info("Collecting %s", country["name"])
                 country_manifest, health = await collect_country(
                     root, country, settings, ranking, providers, fetcher, translation_cache, image_cache,
-                    skip_gdelt, latest_only, reference_time,
+                    skip_gdelt, latest_only, historical_only, reference_time,
                 )
                 return country, country_manifest, health
 
@@ -401,6 +408,15 @@ async def run(
                     existing_manifest.get("countries", {}).get(country["code"]),
                     archive_date_keys,
                 )
+            elif historical_only:
+                archive_date_keys = local_date_keys(country["timeZone"], settings["archiveDays"], reference_time)
+                previous_country = existing_manifest.get("countries", {}).get(country["code"], {})
+                current_entry = previous_country.get("dates", {}).get(archive_date_keys[0])
+                if current_entry:
+                    country_manifest["dates"] = {
+                        archive_date_keys[0]: current_entry,
+                        **country_manifest.get("dates", {}),
+                    }
             manifest["countries"][country["code"]] = country_manifest
             all_health.extend(health)
 
@@ -451,6 +467,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Refresh only the newest local day and preserve the previous archive days",
     )
+    parser.add_argument(
+        "--historical-only",
+        action="store_true",
+        help="Refresh the archive days before each country’s newest local day and preserve today",
+    )
     return parser.parse_args()
 
 
@@ -458,7 +479,7 @@ def main() -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     args = parse_args()
     only = {item.strip().upper() for item in args.countries.split(",")} if args.countries else None
-    asyncio.run(run(args.root, only, args.skip_gdelt, args.latest_only))
+    asyncio.run(run(args.root, only, args.skip_gdelt, args.latest_only, args.historical_only))
     return 0
 
 

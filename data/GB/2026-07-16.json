@@ -5,9 +5,9 @@
   "timeZone": "Europe/London",
   "date": "2026-07-16",
   "generatedAt": "2026-07-20T01:43:09Z",
-  "lastAttemptAt": "2026-07-20T01:43:09Z",
+  "lastAttemptAt": "2026-07-20T05:10:58Z",
   "lastSuccessfulUpdate": "2026-07-20T01:43:09Z",
-  "status": "partial",
+  "status": "retained",
   "samplePreview": false,
   "articleCount": 6,
   "publisherCount": 1,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-20T01:42:33Z",
-      "lastSuccessAt": "2026-07-20T01:42:33Z",
+      "lastAttemptAt": "2026-07-20T05:10:56Z",
+      "lastSuccessAt": "2026-07-20T05:10:57Z",
       "articlesRetrieved": 37,
-      "responseTimeMs": 100,
+      "responseTimeMs": 640,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-20T01:42:33Z",
-      "lastSuccessAt": "2026-07-20T01:42:33Z",
-      "articlesRetrieved": 142,
-      "responseTimeMs": 287,
+      "lastAttemptAt": "2026-07-20T05:10:56Z",
+      "lastSuccessAt": "2026-07-20T05:10:57Z",
+      "articlesRetrieved": 141,
+      "responseTimeMs": 829,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-20T01:42:33Z",
-      "lastSuccessAt": "2026-07-20T01:42:34Z",
-      "articlesRetrieved": 9,
-      "responseTimeMs": 512,
+      "lastAttemptAt": "2026-07-20T05:10:56Z",
+      "lastSuccessAt": "2026-07-20T05:10:58Z",
+      "articlesRetrieved": 10,
+      "responseTimeMs": 1110,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,45 +49,12 @@
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
       "status": "success",
-      "lastAttemptAt": "2026-07-20T01:42:33Z",
-      "lastSuccessAt": "2026-07-20T01:42:33Z",
+      "lastAttemptAt": "2026-07-20T05:10:56Z",
+      "lastSuccessAt": "2026-07-20T05:10:57Z",
       "articlesRetrieved": 100,
-      "responseTimeMs": 198,
+      "responseTimeMs": 750,
       "errorType": null,
       "errorMessage": null
-    },
-    {
-      "sourceId": "google-news-GB-top",
-      "sourceName": "Google News",
-      "status": "success",
-      "lastAttemptAt": "2026-07-20T01:42:33Z",
-      "lastSuccessAt": "2026-07-20T01:42:33Z",
-      "articlesRetrieved": 38,
-      "responseTimeMs": 141,
-      "errorType": null,
-      "errorMessage": null
-    },
-    {
-      "sourceId": "google-news-GB-2026-07-16",
-      "sourceName": "Google News",
-      "status": "success",
-      "lastAttemptAt": "2026-07-20T01:42:34Z",
-      "lastSuccessAt": "2026-07-20T01:42:37Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 2995,
-      "errorType": null,
-      "errorMessage": null
-    },
-    {
-      "sourceId": "gdelt-GB-2026-07-16",
-      "sourceName": "GDELT",
-      "status": "failed",
-      "lastAttemptAt": "2026-07-20T01:42:34Z",
-      "lastSuccessAt": null,
-      "articlesRetrieved": 0,
-      "responseTimeMs": null,
-      "errorType": "RuntimeError",
-      "errorMessage": "Client error '429 Too Many Requests' for url 'https://api.gdeltproject.org/api/v2/doc/doc?query=sourcecountry%3AUK&mode=ArtList&format=json&maxrecords=250&sort=HybridRel&startdatet"
     }
   ],
   "articles": [
@@ -271,5 +238,6 @@
       "related": [],
       "rankingScore": 3.65348
     }
-  ]
+  ],
+  "warning": "Latest collection produced 6 articles versus 6 retained articles."
 }
