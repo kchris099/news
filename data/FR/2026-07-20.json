@@ -4,33 +4,33 @@
   "countryName": "France",
   "timeZone": "Europe/Paris",
   "date": "2026-07-20",
-  "generatedAt": "2026-07-20T05:00:49Z",
-  "lastAttemptAt": "2026-07-20T05:00:49Z",
-  "lastSuccessfulUpdate": "2026-07-20T05:00:49Z",
-  "status": "current",
+  "generatedAt": "2026-07-20T05:05:35Z",
+  "lastAttemptAt": "2026-07-20T05:05:35Z",
+  "lastSuccessfulUpdate": "2026-07-20T05:05:35Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 28,
+  "articleCount": 29,
   "publisherCount": 6,
   "sourceHealth": [
     {
       "sourceId": "france24-en",
       "sourceName": "France 24",
-      "status": "success",
-      "lastAttemptAt": "2026-07-20T05:00:49Z",
-      "lastSuccessAt": "2026-07-20T05:00:49Z",
-      "articlesRetrieved": 24,
-      "responseTimeMs": 141,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-20T05:05:35Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "ValueError",
+      "errorMessage": "Malformed feed: <unknown>:10:92: not well-formed (invalid token)"
     },
     {
       "sourceId": "lemonde-une",
       "sourceName": "Le Monde",
       "status": "success",
-      "lastAttemptAt": "2026-07-20T05:00:49Z",
-      "lastSuccessAt": "2026-07-20T05:00:49Z",
+      "lastAttemptAt": "2026-07-20T05:05:35Z",
+      "lastSuccessAt": "2026-07-20T05:05:35Z",
       "articlesRetrieved": 16,
-      "responseTimeMs": 93,
+      "responseTimeMs": 111,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "franceinfo-top",
       "sourceName": "Franceinfo",
       "status": "success",
-      "lastAttemptAt": "2026-07-20T05:00:49Z",
-      "lastSuccessAt": "2026-07-20T05:00:49Z",
-      "articlesRetrieved": 0,
-      "responseTimeMs": 250,
+      "lastAttemptAt": "2026-07-20T05:05:35Z",
+      "lastSuccessAt": "2026-07-20T05:05:35Z",
+      "articlesRetrieved": 31,
+      "responseTimeMs": 146,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,10 +49,10 @@
       "sourceId": "le-figaro-top",
       "sourceName": "Le Figaro",
       "status": "success",
-      "lastAttemptAt": "2026-07-20T05:00:49Z",
-      "lastSuccessAt": "2026-07-20T05:00:49Z",
+      "lastAttemptAt": "2026-07-20T05:05:35Z",
+      "lastSuccessAt": "2026-07-20T05:05:35Z",
       "articlesRetrieved": 18,
-      "responseTimeMs": 234,
+      "responseTimeMs": 347,
       "errorType": null,
       "errorMessage": null
     }
@@ -78,7 +78,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T05:00:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -86,7 +86,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.09632
+      "rankingScore": 7.08666
     },
     {
       "id": "38239687352b935787eba8a4",
@@ -108,7 +108,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T05:00:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -116,7 +116,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.74368
+      "rankingScore": 5.73403
     },
     {
       "id": "7a2f66466d0024c6388c5670",
@@ -138,7 +138,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T05:00:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -146,7 +146,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.74145
+      "rankingScore": 5.73181
     },
     {
       "id": "10b3fcbe90e801967e85ef23",
@@ -168,11 +168,11 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T05:00:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d60d02971222ce54848e",
+      "clusterId": "2cd2b279c7a17a633fd3",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
@@ -200,7 +200,7 @@
           "dataSources": [
             "google-news"
           ],
-          "clusterId": "d60d02971222ce54848e",
+          "clusterId": "2cd2b279c7a17a633fd3",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "rankingScore": 4.43477,
@@ -231,11 +231,192 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "d60d02971222ce54848e",
+          "clusterId": "2cd2b279c7a17a633fd3",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "espagne argentine en vidéo le but du sacre espagnol de ferran torres"
+        }
+      ],
+      "rankingScore": 7.12089
+    },
+    {
+      "id": "2c40f5cc6f69876d136752d8",
+      "title": "« Je veux arrêter le plus tard possible » : Didier Deschamps, et maintenant en club ou en sélection ?",
+      "translatedTitle": null,
+      "description": "Le sélectionneur des Bleus en a terminé avec sa mission en équipe de France. Mais il compte bien repartir sur un nouveau projet.",
+      "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/je-veux-arreter-le-plus-tard-possible-didier-deschamps-et-maintenant-en-club-ou-en-selection-20260720",
+      "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/je-veux-arreter-le-plus-tard-possible-didier-deschamps-et-maintenant-en-club-ou-en-selection-20260720",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T04:50:22Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/07/19/fd07bf3b7cb1f78a38f7ded80958948aa15e1aab9ce6c5730ce523b3da61de9e.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T05:05:35Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bde80333f400a0514154",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.71918
+    },
+    {
+      "id": "f0d1c60988d41ad3796dceae",
+      "title": "Coupe du monde 2026 : Trump et Infantino sifflés lors de leur arrivée sur la pelouse pour la remise du trophée",
+      "translatedTitle": null,
+      "description": "Après la victoire de l’Espagne en finale du Mondial contre l’Argentine, Donald Trump et Gianni Infantino ont été sifflés lors de leur arrivée sur la pelouse.",
+      "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-trump-et-infantino-siffles-lors-de-leur-arrivee-sur-la-pelouse-pour-la-remise-du-trophee-20260720",
+      "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-trump-et-infantino-siffles-lors-de-leur-arrivee-sur-la-pelouse-pour-la-remise-du-trophee-20260720",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T04:48:12Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/2998x1686_crop/2026/07/20/d82971ef074bd17d0efabd649ba77a6c41b9538c97505917e27a4a9e547b0f77.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T05:05:35Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f029b29fac33669ea93d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.71484
+    },
+    {
+      "id": "147076f1ac329ce13ef0bdbe",
+      "title": "Guerre au Moyen-Orient : les Gardiens iraniens disent avoir frappé des cibles militaires américaines au Koweït",
+      "translatedTitle": null,
+      "description": "L'armée idéologique de Téhéran affirme que ses forces ont \"complètement détruit un système de radar d'alerte précoce américain dans une frappe de drone. De leur côté, les Etats-Unis ont annoncé avoir mené des frappes sur l'Iran pour la neuvième nuit consécutive.",
+      "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-les-gardiens-iraniens-disent-avoir-frappe-des-cibles-militaires-americaines-au-koweit_8114603.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-les-gardiens-iraniens-disent-avoir-frappe-des-cibles-militaires-americaines-au-koweit_8114603.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T04:42:57Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/dQw65vUArRVh8aPxWZ56ZHL9U0w/0x0:1024x576/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5da6cbcb8a7689720643.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T05:05:35Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dda14dc9e505b3b9d6fe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.14434
+    },
+    {
+      "id": "9f8fb3b917e0e2c7c5bee3f1",
+      "title": "Une charnière fiable, une attaque encore jeune, un entrejeu à rénover, des latéraux à trouver... Comment se présente l'avenir de l'équipe de France pour l'Euro 2028 et le Mondial 2030 ?",
+      "translatedTitle": null,
+      "description": "Les Bleus seront de nouveau parmi les candidats au titre européen puis mondial, après avoir atteint le dernier carré des trois dernières grandes compétitions.",
+      "url": "https://www.franceinfo.fr/coupe-du-monde/une-charniere-fiable-une-attaque-encore-jeune-un-entrejeu-a-renover-des-lateraux-a-trouver-comment-se-presente-l-avenir-de-l-equipe-de-france-pour-l-euro-2028-et-le-mondial-2030_8114417.html",
+      "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/une-charniere-fiable-une-attaque-encore-jeune-un-entrejeu-a-renover-des-lateraux-a-trouver-comment-se-presente-l-avenir-de-l-equipe-de-france-pour-l-euro-2028-et-le-mondial-2030_8114417.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T04:30:01Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/hYUFJS8T2meW7mk16MzkuMLSF2k/0x601:3010x2295/432x243/filters:format(jpg):quality(50)/2026/07/19/6a5d35a39b07c100386922.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T05:05:35Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6adaced02765ba2e5d30",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.76869
+    },
+    {
+      "id": "2e4de807484ba310b7659a24",
+      "title": "Les buteurs au rendez-vous, l'omniprésence de Donald Trump, les prix exorbitants... Ce qu'on a aimé et moins aimé lors de la Coupe du monde 2026",
+      "translatedTitle": null,
+      "description": "La finale entre l'Espagne et l'Argentine a refermé dimanche le plus long Mondial de l'histoire et le premier organisé dans trois pays.",
+      "url": "https://www.franceinfo.fr/coupe-du-monde/les-buteurs-au-rendez-vous-l-omnipresence-de-donald-trump-les-prix-exorbitants-ce-qu-on-a-aime-et-moins-aime-lors-de-la-coupe-du-monde-2026_8110256.html",
+      "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/les-buteurs-au-rendez-vous-l-omnipresence-de-donald-trump-les-prix-exorbitants-ce-qu-on-a-aime-et-moins-aime-lors-de-la-coupe-du-monde-2026_8110256.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T04:20:01Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/P5jf_rcl0eHzC-FGhWs6N9YjFXE/0x0:5982x3364/432x243/filters:format(jpg):quality(50)/2026/07/19/6a5cfdb915c84607032819.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T05:05:35Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f3be859827e36837d17d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "c4235af56c1b210cc347f1ce",
+          "title": "Coupe du monde 2026 : au bout du suspense et de l’ennui, l’Espagne sur le toit du monde",
+          "translatedTitle": null,
+          "description": "L’Espagne a eu raison de l’Argentine dimanche, en finale de la Coupe du monde, pour décrocher son deuxième sacre planétaire.",
+          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-au-bout-du-suspense-l-espagne-s-offre-une-deuxieme-etoile-face-a-l-argentine-20260720",
+          "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-au-bout-du-suspense-l-espagne-s-offre-une-deuxieme-etoile-face-a-l-argentine-20260720",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-20T04:59:29Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/07/20/73909de3d4434a8c1fca18d0b68e6edbe3a3800f20ad1745f40b78f8d57540ce.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T05:05:35Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "f3be859827e36837d17d",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "coupe du monde 2026 au bout du suspense et de l ennui l espagne sur le toit du monde"
         },
         {
           "id": "8c002056e4cde5a165ac7033",
@@ -257,16 +438,15 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-07-20T04:59:49Z",
+          "retrievedAt": "2026-07-20T05:05:35Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "d60d02971222ce54848e",
+          "clusterId": "f3be859827e36837d17d",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "rankingScore": 8.35413,
-          "normalizedTitle": "l espagne s offre une deuxième étoile en venant à bout de l argentine en finale de la coupe du monde 2026",
-          "sourceQuality": 1.0
+          "sourceQuality": 1.05,
+          "normalizedTitle": "l espagne s offre une deuxième étoile en venant à bout de l argentine en finale de la coupe du monde 2026"
         },
         {
           "id": "53c1f256f589f0f8ee8e0578",
@@ -288,11 +468,11 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-07-20T05:00:49Z",
+          "retrievedAt": "2026-07-20T05:05:35Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "d60d02971222ce54848e",
+          "clusterId": "f3be859827e36837d17d",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -322,7 +502,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "d60d02971222ce54848e",
+          "clusterId": "f3be859827e36837d17d",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "rankingScore": 5.47141,
@@ -330,189 +510,7 @@
           "sourceQuality": 1.0
         }
       ],
-      "rankingScore": 8.88049
-    },
-    {
-      "id": "2c40f5cc6f69876d136752d8",
-      "title": "« Je veux arrêter le plus tard possible » : Didier Deschamps, et maintenant en club ou en sélection ?",
-      "translatedTitle": null,
-      "description": "Le sélectionneur des Bleus en a terminé avec sa mission en équipe de France. Mais il compte bien repartir sur un nouveau projet.",
-      "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/je-veux-arreter-le-plus-tard-possible-didier-deschamps-et-maintenant-en-club-ou-en-selection-20260720",
-      "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/je-veux-arreter-le-plus-tard-possible-didier-deschamps-et-maintenant-en-club-ou-en-selection-20260720",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T04:50:22Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/07/19/fd07bf3b7cb1f78a38f7ded80958948aa15e1aab9ce6c5730ce523b3da61de9e.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T05:00:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bde80333f400a0514154",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72877
-    },
-    {
-      "id": "f0d1c60988d41ad3796dceae",
-      "title": "Coupe du monde 2026 : Trump et Infantino sifflés lors de leur arrivée sur la pelouse pour la remise du trophée",
-      "translatedTitle": null,
-      "description": "Après la victoire de l’Espagne en finale du Mondial contre l’Argentine, Donald Trump et Gianni Infantino ont été sifflés lors de leur arrivée sur la pelouse.",
-      "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-trump-et-infantino-siffles-lors-de-leur-arrivee-sur-la-pelouse-pour-la-remise-du-trophee-20260720",
-      "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-trump-et-infantino-siffles-lors-de-leur-arrivee-sur-la-pelouse-pour-la-remise-du-trophee-20260720",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T04:48:12Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/2998x1686_crop/2026/07/20/d82971ef074bd17d0efabd649ba77a6c41b9538c97505917e27a4a9e547b0f77.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T05:00:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6e7e54a34cb90c7adff1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "2e4de807484ba310b7659a24",
-          "title": "Les buteurs au rendez-vous, l'omniprésence de Donald Trump, les prix exorbitants... Ce qu'on a aimé et moins aimé lors de la Coupe du monde 2026",
-          "translatedTitle": null,
-          "description": "La finale entre l'Espagne et l'Argentine a refermé dimanche le plus long Mondial de l'histoire et le premier organisé dans trois pays.",
-          "url": "https://www.franceinfo.fr/coupe-du-monde/les-buteurs-au-rendez-vous-l-omnipresence-de-donald-trump-les-prix-exorbitants-ce-qu-on-a-aime-et-moins-aime-lors-de-la-coupe-du-monde-2026_8110256.html",
-          "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/les-buteurs-au-rendez-vous-l-omnipresence-de-donald-trump-les-prix-exorbitants-ce-qu-on-a-aime-et-moins-aime-lors-de-la-coupe-du-monde-2026_8110256.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-20T04:20:01Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/P5jf_rcl0eHzC-FGhWs6N9YjFXE/0x0:5982x3364/432x243/filters:format(jpg):quality(50)/2026/07/19/6a5cfdb915c84607032819.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T04:59:49Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "6e7e54a34cb90c7adff1",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 7.16033,
-          "normalizedTitle": "les buteurs au rendez vous l omniprésence de donald trump les prix exorbitants ce qu on a aimé et moins aimé lors de la coupe du monde 2026",
-          "sourceQuality": 1.0
-        },
-        {
-          "id": "c4235af56c1b210cc347f1ce",
-          "title": "Coupe du monde 2026 : au bout du suspense et de l’ennui, l’Espagne sur le toit du monde",
-          "translatedTitle": null,
-          "description": "L’Espagne a eu raison de l’Argentine dimanche, en finale de la Coupe du monde, pour décrocher son deuxième sacre planétaire.",
-          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-au-bout-du-suspense-l-espagne-s-offre-une-deuxieme-etoile-face-a-l-argentine-20260720",
-          "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-au-bout-du-suspense-l-espagne-s-offre-une-deuxieme-etoile-face-a-l-argentine-20260720",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-20T04:06:23Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/07/20/73909de3d4434a8c1fca18d0b68e6edbe3a3800f20ad1745f40b78f8d57540ce.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T05:00:49Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "6e7e54a34cb90c7adff1",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "coupe du monde 2026 au bout du suspense et de l ennui l espagne sur le toit du monde"
-        }
-      ],
-      "rankingScore": 7.1244
-    },
-    {
-      "id": "147076f1ac329ce13ef0bdbe",
-      "title": "Guerre au Moyen-Orient : les Gardiens iraniens disent avoir frappé des cibles militaires américaines au Koweït",
-      "translatedTitle": null,
-      "description": "L'armée idéologique de Téhéran affirme que ses forces ont \"complètement détruit un système de radar d'alerte précoce américain dans une frappe de drone. De leur côté, les Etats-Unis ont annoncé avoir mené des frappes sur l'Iran pour la neuvième nuit consécutive.",
-      "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-les-gardiens-iraniens-disent-avoir-frappe-des-cibles-militaires-americaines-au-koweit_8114603.html",
-      "canonicalUrl": "https://franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-les-gardiens-iraniens-disent-avoir-frappe-des-cibles-militaires-americaines-au-koweit_8114603.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T04:42:57Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/dQw65vUArRVh8aPxWZ56ZHL9U0w/0x0:1024x576/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5da6cbcb8a7689720643.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T04:59:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dda14dc9e505b3b9d6fe",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.06386,
-      "related": []
-    },
-    {
-      "id": "9f8fb3b917e0e2c7c5bee3f1",
-      "title": "Une charnière fiable, une attaque encore jeune, un entrejeu à rénover, des latéraux à trouver... Comment se présente l'avenir de l'équipe de France pour l'Euro 2028 et le Mondial 2030 ?",
-      "translatedTitle": null,
-      "description": "Les Bleus seront de nouveau parmi les candidats au titre européen puis mondial, après avoir atteint le dernier carré des trois dernières grandes compétitions.",
-      "url": "https://www.franceinfo.fr/coupe-du-monde/une-charniere-fiable-une-attaque-encore-jeune-un-entrejeu-a-renover-des-lateraux-a-trouver-comment-se-presente-l-avenir-de-l-equipe-de-france-pour-l-euro-2028-et-le-mondial-2030_8114417.html",
-      "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/une-charniere-fiable-une-attaque-encore-jeune-un-entrejeu-a-renover-des-lateraux-a-trouver-comment-se-presente-l-avenir-de-l-equipe-de-france-pour-l-euro-2028-et-le-mondial-2030_8114417.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T04:30:01Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/hYUFJS8T2meW7mk16MzkuMLSF2k/0x601:3010x2295/432x243/filters:format(jpg):quality(50)/2026/07/19/6a5d35a39b07c100386922.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T04:59:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6adaced02765ba2e5d30",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.6881,
-      "related": []
+      "rankingScore": 7.49907
     },
     {
       "id": "89680e647f8683df34838ce4",
@@ -534,15 +532,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T04:59:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "d47489f1803716c096bd",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.6489,
-      "related": []
+      "related": [],
+      "rankingScore": 5.72967
     },
     {
       "id": "73f44cea372453f5928cd662",
@@ -564,15 +562,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T04:59:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "a47c73f7a2a138a4c6fa",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.6393,
-      "related": []
+      "related": [],
+      "rankingScore": 5.72011
     },
     {
       "id": "f20d9ec3114ed678b1b76231",
@@ -594,15 +592,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T04:59:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "57c826ee97d1433025e6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.6386,
-      "related": []
+      "related": [],
+      "rankingScore": 5.71941
     },
     {
       "id": "cc67b8c3feef595f449d8473",
@@ -624,15 +622,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T04:59:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "de66356aa68ab596f340",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.63203,
-      "related": []
+      "related": [],
+      "rankingScore": 5.71287
     },
     {
       "id": "cd1d118821e53f4e402971ac",
@@ -654,15 +652,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T04:59:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "1091acdf9913cce63eda",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.63181,
-      "related": []
+      "related": [],
+      "rankingScore": 5.71265
     },
     {
       "id": "d460c2c0fd904251fa97a519",
@@ -684,15 +682,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T04:59:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "745635b06e16e96b8f3b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.63161,
-      "related": []
+      "related": [],
+      "rankingScore": 5.71245
     },
     {
       "id": "8fce3f926c62f72a4cab72ff",
@@ -714,15 +712,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T04:59:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "816d976359b7d37f570f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.63139,
-      "related": []
+      "related": [],
+      "rankingScore": 5.71223
     },
     {
       "id": "7086855cfe92bbd7c07e35aa",
@@ -751,7 +749,7 @@
       "clusterId": "328ddd7b60f553ddf466",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.61603,
+      "rankingScore": 5.60694,
       "related": []
     },
     {
@@ -781,16 +779,16 @@
       "clusterId": "92bb01be6d20fec3a2df",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61004
+      "rankingScore": 5.42176,
+      "related": []
     },
     {
-      "id": "4d498a22b40a88449962a263",
-      "title": "Madrid fans react to Spain's World Cup win",
+      "id": "0b61958dcf1efc4206d99e4d",
+      "title": "World Cup 2026: Spanish fans celebrate their team's victory in New York",
       "translatedTitle": null,
-      "description": "Fans in #Madrid celebrated #Spain's second #WorldCup title win. Luis de la #Fuente's #Roja beat #Argentina 1-0 in Sunday's final, with Ferran Torres' clinical finish in the extra period.",
-      "url": "https://www.france24.com/en/video/20260720-madrid-fans-react-to-spain-s-world-cup-win",
-      "canonicalUrl": "https://france24.com/en/video/20260720-madrid-fans-react-to-spain-s-world-cup-win",
+      "description": "As Spain were crowned champions after extra-time thriller against Argentina, fans in New York celebrated the second World Cup title for La Roja.",
+      "url": "https://www.france24.com/en/world-cup-2026-spanish-fans-celebrate-their-team-s-victory-in-new-york",
+      "canonicalUrl": "https://france24.com/en/world-cup-2026-spanish-fans-celebrate-their-team-s-victory-in-new-york",
       "sourceName": "France 24",
       "sourceDomain": "france24.com",
       "sourceCountry": "FR",
@@ -799,10 +797,70 @@
         "FR"
       ],
       "language": "en",
-      "publishedAt": "2026-07-20T01:04:48Z",
-      "imageUrl": "https://s.france24.com/media/display/1367b9ee-83d4-11f1-be36-005056a90284/w:1024/p:16x9/Montage-916-00-00-00-19-Still002.png",
+      "publishedAt": "2026-07-20T00:49:17Z",
+      "imageUrl": "https://s.france24.com/media/display/b65457a2-83d4-11f1-a5e1-005056a90284/w:1024/p:16x9/EN-Vignette-victoire-Espagne.jpg",
       "imageAlt": null,
       "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T05:00:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b9edc131d0de8079a597",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.2852,
+      "related": []
+    },
+    {
+      "id": "896e111767f6b2061416c27b",
+      "title": "World Cup 2026: Spain crowned champions, fans in jubilation",
+      "translatedTitle": null,
+      "description": "Relief and joy for Spanish fans all over the world after Spain's victory over Argentina (1-0).",
+      "url": "https://www.france24.com/en/video/20260720-world-cup-2026-spain-crowned-champions-fans-in-jubilation",
+      "canonicalUrl": "https://france24.com/en/video/20260720-world-cup-2026-spain-crowned-champions-fans-in-jubilation",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-20T00:42:41Z",
+      "imageUrl": "https://s.france24.com/media/display/c44fb734-83cf-11f1-9a60-005056bfb2b6/w:1024/p:16x9/vignette-EN-1.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T05:00:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "befa83ed7db37cfc8192",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.27463,
+      "related": []
+    },
+    {
+      "id": "7acc656c0f608117de00cc5b",
+      "title": "Trump says World Cup made US a 'soccer country' as he presents trophy to Spain",
+      "translatedTitle": null,
+      "description": "President Donald Trump presented Spain with the World Cup 2026 trophy after its victory over Argentina on Sunday, declaring the tournament showed the United States had become \"a soccer country.\" The final capped more than a year of logistical planning by US, Canadian and Mexican hosts amid controversy over US immigration restrictions on some fans.",
+      "url": "https://www.france24.com/en/sport/20260720-trump-world-cup-spain-us-soccer",
+      "canonicalUrl": "https://france24.com/en/sport/20260720-trump-world-cup-spain-us-soccer",
+      "sourceName": "France 24",
+      "sourceDomain": "s.france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-20T00:26:24Z",
+      "imageUrl": "https://s.france24.com/media/display/71c6d5a4-83cc-11f1-b172-005056bfb2b6/w:1024/p:16x9/d0f54b8a95371777322218b7669abcd45b0e2602.jpg",
+      "imageAlt": null,
+      "category": "Sports",
       "topics": [],
       "retrievedAt": "2026-07-20T05:00:49Z",
       "dataSources": [
@@ -813,24 +871,24 @@
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "7acc656c0f608117de00cc5b",
-          "title": "Trump says World Cup made US a 'soccer country' as he presents trophy to Spain",
+          "id": "4d498a22b40a88449962a263",
+          "title": "Madrid fans react to Spain's World Cup win",
           "translatedTitle": null,
-          "description": "President Donald Trump presented Spain with the World Cup 2026 trophy after its victory over Argentina on Sunday, declaring the tournament showed the United States had become \"a soccer country.\" The final capped more than a year of logistical planning by US, Canadian and Mexican hosts amid controversy over US immigration restrictions on some fans.",
-          "url": "https://www.france24.com/en/sport/20260720-trump-world-cup-spain-us-soccer",
-          "canonicalUrl": "https://france24.com/en/sport/20260720-trump-world-cup-spain-us-soccer",
+          "description": "Fans in #Madrid celebrated #Spain's second #WorldCup title win. Luis de la #Fuente's #Roja beat #Argentina 1-0 in Sunday's final, with Ferran Torres' clinical finish in the extra period.",
+          "url": "https://www.france24.com/en/video/20260720-madrid-fans-react-to-spain-s-world-cup-win",
+          "canonicalUrl": "https://france24.com/en/video/20260720-madrid-fans-react-to-spain-s-world-cup-win",
           "sourceName": "France 24",
-          "sourceDomain": "s.france24.com",
+          "sourceDomain": "france24.com",
           "sourceCountry": "FR",
           "editionCountry": "FR",
           "coverageCountries": [
             "FR"
           ],
           "language": "en",
-          "publishedAt": "2026-07-20T00:26:24Z",
-          "imageUrl": "https://s.france24.com/media/display/71c6d5a4-83cc-11f1-b172-005056bfb2b6/w:1024/p:16x9/d0f54b8a95371777322218b7669abcd45b0e2602.jpg",
+          "publishedAt": "2026-07-20T01:04:48Z",
+          "imageUrl": "https://s.france24.com/media/display/1367b9ee-83d4-11f1-be36-005056a90284/w:1024/p:16x9/Montage-916-00-00-00-19-Still002.png",
           "imageAlt": null,
-          "category": "Sports",
+          "category": "Domestic",
           "topics": [],
           "retrievedAt": "2026-07-20T05:00:49Z",
           "dataSources": [
@@ -839,8 +897,9 @@
           "clusterId": "2e53b03fe10f08c63950",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.1,
-          "normalizedTitle": "trump says world cup made us a soccer country as he presents trophy to spain"
+          "rankingScore": 6.89809,
+          "normalizedTitle": "madrid fans react to spain s world cup win",
+          "sourceQuality": 1.0
         },
         {
           "id": "ffc6ea3cb2aa7492d98cbc6c",
@@ -873,67 +932,7 @@
           "normalizedTitle": "spain win world cup by beating argentina 1 0"
         }
       ],
-      "rankingScore": 6.89809
-    },
-    {
-      "id": "0b61958dcf1efc4206d99e4d",
-      "title": "World Cup 2026: Spanish fans celebrate their team's victory in New York",
-      "translatedTitle": null,
-      "description": "As Spain were crowned champions after extra-time thriller against Argentina, fans in New York celebrated the second World Cup title for La Roja.",
-      "url": "https://www.france24.com/en/world-cup-2026-spanish-fans-celebrate-their-team-s-victory-in-new-york",
-      "canonicalUrl": "https://france24.com/en/world-cup-2026-spanish-fans-celebrate-their-team-s-victory-in-new-york",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-20T00:49:17Z",
-      "imageUrl": "https://s.france24.com/media/display/b65457a2-83d4-11f1-a5e1-005056a90284/w:1024/p:16x9/EN-Vignette-victoire-Espagne.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T05:00:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b9edc131d0de8079a597",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47287
-    },
-    {
-      "id": "896e111767f6b2061416c27b",
-      "title": "World Cup 2026: Spain crowned champions, fans in jubilation",
-      "translatedTitle": null,
-      "description": "Relief and joy for Spanish fans all over the world after Spain's victory over Argentina (1-0).",
-      "url": "https://www.france24.com/en/video/20260720-world-cup-2026-spain-crowned-champions-fans-in-jubilation",
-      "canonicalUrl": "https://france24.com/en/video/20260720-world-cup-2026-spain-crowned-champions-fans-in-jubilation",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-20T00:42:41Z",
-      "imageUrl": "https://s.france24.com/media/display/c44fb734-83cf-11f1-9a60-005056bfb2b6/w:1024/p:16x9/vignette-EN-1.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T05:00:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "befa83ed7db37cfc8192",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.46225
+      "rankingScore": 8.52883
     },
     {
       "id": "1e69fb692432faf819218649",
@@ -962,7 +961,7 @@
       "clusterId": "c377256f0bdfcfeff2c3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.03949,
+      "rankingScore": 6.03236,
       "related": []
     },
     {
@@ -992,7 +991,7 @@
       "clusterId": "4b9fc6cc00476f5add29",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.16869,
+      "rankingScore": 5.16156,
       "related": []
     },
     {
@@ -1022,8 +1021,8 @@
       "clusterId": "fed1745baea9afb35bf2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.68955
+      "rankingScore": 6.50246,
+      "related": []
     },
     {
       "id": "20d841ea592975bdf383b804",
@@ -1052,7 +1051,7 @@
       "clusterId": "a90fc32982a86408072f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.12354,
+      "rankingScore": 5.11662,
       "related": []
     },
     {
@@ -1075,7 +1074,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T05:00:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -1083,7 +1082,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.12068
+      "rankingScore": 5.11377
     },
     {
       "id": "53a1931481912a4363b9fbf9",
@@ -1112,8 +1111,8 @@
       "clusterId": "28fbb82bb1532f23da60",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.63649
+      "rankingScore": 6.44964,
+      "related": []
     },
     {
       "id": "d4fe401197961d5e67d347a8",
@@ -1135,7 +1134,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T05:00:49Z",
+      "retrievedAt": "2026-07-20T05:05:35Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -1143,7 +1142,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.05553
+      "rankingScore": 5.04891
     },
     {
       "id": "f93762cfbb4c911d05223a13",
@@ -1172,8 +1171,8 @@
       "clusterId": "83a81468278aefdd375a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.22396
+      "rankingScore": 5.03739,
+      "related": []
     }
   ]
 }
