@@ -34,12 +34,12 @@ jobs:
       - name: Run automated tests
         run: python -m pytest -q -c development/pytest.ini development/tests
 
-      - name: Generate seven-day news archive
+      - name: Refresh most recent news day
         env:
           TRANSLATION_PROVIDER: ${{ vars.TRANSLATION_PROVIDER || 'none' }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
           DEEPL_API_URL: ${{ vars.DEEPL_API_URL || 'https://api-free.deepl.com/v2/translate' }}
-        run: python -m scripts.aggregate_news
+        run: python -m scripts.aggregate_news --latest-only
 
       - name: Validate generated output
         run: python -m scripts.validate_output

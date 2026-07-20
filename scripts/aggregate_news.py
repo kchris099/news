@@ -60,6 +60,24 @@ def publisher_count(articles: list[dict[str, Any]]) -> int:
     return len({article.get("sourceDomain") or article.get("sourceName") for article in articles if article.get("sourceName")})
 
 
+def merge_country_manifest_dates(
+    current: dict[str, Any],
+    previous: dict[str, Any] | None,
+    date_keys: list[str],
+) -> dict[str, Any]:
+    """Merge a newest-day refresh into the existing seven-day manifest."""
+    previous = previous or {}
+    current_dates = current.get("dates", {})
+    previous_dates = previous.get("dates", {})
+    merged = {
+        date_key: current_dates.get(date_key, previous_dates.get(date_key, {}))
+        for date_key in date_keys
+    }
+    result = dict(current)
+    result["dates"] = merged
+    return result
+
+
 def trusted_source(country: dict[str, Any], domain: str | None) -> dict[str, Any] | None:
     if not domain:
         return None
@@ -107,9 +125,12 @@ async def collect_country(
     translation_cache: dict[str, Any],
     image_cache: dict[str, Any],
     skip_gdelt: bool = False,
+    latest_only: bool = False,
+    reference_time: datetime | None = None,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     code = country["code"]
-    date_keys = local_date_keys(country["timeZone"], settings["archiveDays"])
+    archive_date_keys = local_date_keys(country["timeZone"], settings["archiveDays"], reference_time)
+    date_keys = archive_date_keys[:1] if latest_only else archive_date_keys
     buckets: dict[str, list[dict[str, Any]]] = defaultdict(list)
 
     feed_tasks = [fetch_feed(fetcher, source, code) for source in country.get("sources", []) if source.get("enabled", True)]
@@ -148,9 +169,9 @@ async def collect_country(
             if date_key in date_keys:
                 buckets[date_key].append(article)
 
-    # GDELT throttles bursts, but fully serializing seven day windows makes a
-    # refresh unnecessarily slow. Keep two requests in flight and space their
-    # starts so the optional provider cannot monopolize the collection.
+    # GDELT is optional and rate-limited. Keep its queue independent from
+    # publisher feeds and Google News, so those providers can continue in
+    # parallel while GDELT waits for its next permitted request.
     gdelt_settings = providers.get("gdelt", {})
     gdelt_gate = asyncio.Semaphore(max(1, int(gdelt_settings.get("maxConcurrentRequests", 1))))
     gdelt_spacing_lock = asyncio.Lock()
@@ -298,12 +319,13 @@ async def collect_country(
             "path": f"data/{code}/{date_key}.json",
         }
 
-    allowed = set(date_keys)
-    country_dir = root / "data" / code
-    if country_dir.exists():
-        for path in country_dir.glob("*.json"):
-            if path.stem not in allowed:
-                path.unlink()
+    if not latest_only:
+        allowed = set(date_keys)
+        country_dir = root / "data" / code
+        if country_dir.exists():
+            for path in country_dir.glob("*.json"):
+                if path.stem not in allowed:
+                    path.unlink()
     return country_manifest, all_health
 
 
@@ -311,6 +333,7 @@ async def run(
     root: Path,
     only_countries: set[str] | None = None,
     skip_gdelt: bool = False,
+    latest_only: bool = False,
 ) -> None:
     countries = load_json(root / "config" / "countries.json", [])
     settings = load_json(root / "config" / "settings.json", {})
@@ -321,7 +344,9 @@ async def run(
     http_cache = load_json(root / "data" / "http-cache.json", {})
     translation_cache = load_json(root / "data" / "translation-cache.json", {})
     image_cache = load_json(root / "data" / "image-cache.json", {})
+    existing_manifest = load_json(root / "data" / "manifest.json", {})
     generated_at = iso_z()
+    reference_time = parse_iso(generated_at)
     manifest = {
         "schemaVersion": 1,
         "generatedAt": generated_at,
@@ -338,13 +363,19 @@ async def run(
             LOGGER.info("Collecting %s", country["name"])
             country_manifest, health = await collect_country(
                 root, country, settings, ranking, providers, fetcher, translation_cache, image_cache,
-                skip_gdelt,
+                skip_gdelt, latest_only, reference_time,
             )
+            if latest_only:
+                archive_date_keys = local_date_keys(country["timeZone"], settings["archiveDays"], reference_time)
+                country_manifest = merge_country_manifest_dates(
+                    country_manifest,
+                    existing_manifest.get("countries", {}).get(country["code"]),
+                    archive_date_keys,
+                )
             manifest["countries"][country["code"]] = country_manifest
             all_health.extend(health)
 
     if only_countries:
-        existing_manifest = load_json(root / "data" / "manifest.json", {})
         for code, value in existing_manifest.get("countries", {}).items():
             manifest["countries"].setdefault(code, value)
 
@@ -384,6 +415,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Skip the optional GDELT backfill for a fast refresh",
     )
+    parser.add_argument(
+        "--latest-only",
+        action="store_true",
+        help="Refresh only the newest local day and preserve the previous archive days",
+    )
     return parser.parse_args()
 
 
@@ -391,7 +427,7 @@ def main() -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     args = parse_args()
     only = {item.strip().upper() for item in args.countries.split(",")} if args.countries else None
-    asyncio.run(run(args.root, only, args.skip_gdelt))
+    asyncio.run(run(args.root, only, args.skip_gdelt, args.latest_only))
     return 0
 
 
