@@ -27,6 +27,16 @@
   };
 
   document.addEventListener('DOMContentLoaded', init);
+  window.addEventListener('pageshow', handlePageShow);
+
+  async function handlePageShow(event) {
+    // A browser can restore /news/ from the back-forward cache without
+    // firing DOMContentLoaded. Re-apply the landing defaults in that case.
+    if (!event.persisted || !state.settings || location.search) return;
+    restoreInitialState();
+    renderCountryTabs();
+    await selectView({ updateHistory: false });
+  }
 
   async function init() {
     cacheElements();

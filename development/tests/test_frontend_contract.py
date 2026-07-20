@@ -8,6 +8,7 @@ def test_project_page_assets_use_relative_paths():
     assert 'href="/assets/' not in html
     assert 'src="/assets/' not in html
     assert 'href="assets/css/styles.css"' in html
+    assert 'src="assets/js/app.js?v=3"' in html
 
 
 def test_frontend_guarantees_seven_date_controls_from_time_zone():
@@ -33,6 +34,15 @@ def test_bare_entry_route_ignores_saved_country():
     restore_initial_state = js[js.index("function restoreInitialState"):js.index("function restoreStateFromUrl")]
     assert "state.countryCode = urlCountry || state.settings.defaultCountry || 'US';" in restore_initial_state
     assert "normalizeCountry(savedCountry)" not in restore_initial_state
+
+
+def test_bare_entry_route_resets_after_back_forward_cache_restore():
+    js = (ROOT / "assets" / "js" / "app.js").read_text(encoding="utf-8")
+    assert "window.addEventListener('pageshow', handlePageShow);" in js
+    page_show = js[js.index("async function handlePageShow"):js.index("async function init")]
+    assert "event.persisted" in page_show
+    assert "location.search" in page_show
+    assert "restoreInitialState();" in page_show
 
 
 def test_missing_today_falls_back_to_latest_prepared_archive_day():
