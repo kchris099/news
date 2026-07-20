@@ -2,7 +2,8 @@ name: Update News Data
 
 on:
   schedule:
-    - cron: "17 */4 * * *"
+    # Temporary high-frequency cadence used to verify scheduled execution.
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
