@@ -48,6 +48,16 @@ def test_frontend_filters_to_configured_active_countries():
     assert "activeCodes.has(country.code)" in js
 
 
+def test_initial_shell_avoids_fullscreen_loading_splash_without_control_flash():
+    css = (ROOT / "assets" / "css" / "styles.css").read_text(encoding="utf-8")
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    assert "html.app-loading body::before" not in css
+    assert "html.app-loading body > *" not in css
+    assert "html.app-loading .country-tabs" in css
+    assert "html.app-loading .date-tabs" in css
+    assert '<span class="sr-only">Loading headlines</span>' in html
+
+
 def test_production_copy_does_not_use_legacy_missing_archive_warning():
     for relative_path in ("index.html", "about.html", "assets/js/app.js"):
         content = (ROOT / relative_path).read_text(encoding="utf-8")
