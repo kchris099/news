@@ -40,3 +40,10 @@ def test_missing_today_uses_preparation_message_without_fallback_warning():
     assert "This archive file is currently unavailable." not in js
     assert "Today's archive is not ready yet." not in js
     assert "function isTodayDate(dateKey)" in js
+
+
+def test_production_copy_does_not_use_legacy_missing_archive_warning():
+    for relative_path in ("index.html", "about.html", "assets/js/app.js"):
+        content = (ROOT / relative_path).read_text(encoding="utf-8")
+        assert "Archive File Missing" not in content
+        assert "This archive file is currently unavailable." not in content
