@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import asyncio
 import os
+import re
 from typing import Any
 
 import httpx
@@ -9,6 +10,16 @@ import httpx
 from .utilities import iso_z, stable_hash
 
 ENGLISH_CODES = {"en", "en-us", "en-gb", "english"}
+NON_LATIN_HEADLINE = re.compile(
+    r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af\u0400-\u04ff\u0600-\u06ff\u0900-\u097f]"
+)
+
+
+def needs_translation(article: dict[str, Any]) -> bool:
+    language = str(article.get("language") or "").casefold()
+    if language in ENGLISH_CODES or language.startswith("en-"):
+        return bool(NON_LATIN_HEADLINE.search(str(article.get("title") or "")))
+    return True
 
 
 async def translate_articles(
@@ -29,8 +40,7 @@ async def translate_articles(
 
     async with httpx.AsyncClient(timeout=20, headers={"User-Agent": settings.get("userAgent", "Worldline/1.0")}) as client:
         async def translate_one(article: dict[str, Any]) -> None:
-            language = str(article.get("language") or "").casefold()
-            if language in ENGLISH_CODES or language.startswith("en-"):
+            if not needs_translation(article):
                 return
             key = stable_hash(article["id"], article["title"], "deepl", length=32)
             cached = cache.get(key)

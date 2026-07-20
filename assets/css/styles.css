@@ -127,8 +127,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .publisher { min-width: 0; max-width: 62%; overflow: hidden; color: var(--text); font-weight: 780; text-overflow: ellipsis; white-space: nowrap; }
 .lead-story .story-meta { color: rgba(255, 255, 255, 0.76); font-size: 0.82rem; }
 .lead-story .publisher { max-width: min(60%, 460px); color: #fff; }
-.translation-label { display: inline-flex; align-items: center; min-height: 20px; padding: 2px 7px; border-radius: 6px; background: var(--blue-soft); color: #2355ae; font-size: 0.62rem; font-weight: 800; letter-spacing: 0.035em; text-transform: uppercase; }
-.lead-story .translation-label { background: rgba(255, 255, 255, 0.16); color: #fff; backdrop-filter: blur(8px); }
+.translation-dot { display: inline-block; width: 8px; height: 8px; flex: 0 0 auto; border-radius: 50%; background: var(--blue); box-shadow: 0 0 0 2px var(--blue-soft); }
+.lead-story .translation-dot { background: #7db2ff; box-shadow: 0 0 0 2px rgba(125, 178, 255, 0.22); }
 .lead-title { max-width: 1080px; display: -webkit-box; overflow: hidden; margin: 12px 0 0; padding-bottom: 0; color: #fff; font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif; font-size: clamp(2.35rem, 4.55vw, 4rem); font-weight: 790; line-height: 1.02; letter-spacing: -0.055em; text-wrap: balance; -webkit-box-orient: vertical; line-clamp: 3; -webkit-line-clamp: 3; }
 .lead-title a { color: inherit; text-decoration: none; }
 .lead-title a::after { content: ""; position: absolute; z-index: 1; inset: 0; }
@@ -151,7 +151,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .story-title a:hover { text-decoration: underline; text-underline-offset: 0.12em; }
 .story-title a::after { content: ""; position: absolute; z-index: 2; inset: 0; }
 .story-title a:focus-visible { position: relative; z-index: 3; border-radius: 3px; }
-.story-card .translation-label { min-height: 18px; padding-inline: 5px; font-size: 0.56rem; }
 .load-more-wrap { display: flex; justify-content: center; padding-top: 26px; }
 .button { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; padding: 10px 24px; border-radius: 12px; font-weight: 760; text-decoration: none; cursor: pointer; transition: background var(--duration) var(--ease), box-shadow var(--duration) var(--ease), color var(--duration) var(--ease), transform var(--duration) var(--ease); }
 .button-primary,

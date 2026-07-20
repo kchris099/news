@@ -99,3 +99,13 @@ def test_non_english_headlines_have_client_translation_fallback():
     assert "tl=en" in js
     assert "TRANSLATION_CACHE_KEY" in js
     assert "isNonEnglishArticle" in js
+
+
+def test_translated_headlines_use_an_accessible_blue_dot():
+    js = (ROOT / "assets" / "js" / "app.js").read_text(encoding="utf-8")
+    css = (ROOT / "assets" / "css" / "styles.css").read_text(encoding="utf-8")
+    assert "translation-dot" in js
+    assert "Translated headline" in js
+    assert ".translation-dot" in css
+    assert "translation-label" not in js
+    assert "translation-label" not in css

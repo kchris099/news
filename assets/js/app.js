@@ -14,6 +14,7 @@
 
   const elements = {};
   const ENGLISH_LANGUAGE_CODES = new Set(['en', 'en-us', 'en-gb', 'english']);
+  const NON_LATIN_HEADLINE_RE = /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af\u0400-\u04ff\u0600-\u06ff\u0900-\u097f]/;
   const TRANSLATION_CACHE_KEY = 'worldline-translation-cache-v1';
   const STATUS_LABELS = {
     current: 'Current',
@@ -380,7 +381,10 @@
 
   function isNonEnglishArticle(article) {
     const language = String(article.language || '').trim().toLowerCase().replaceAll('_', '-');
-    return Boolean(language) && !ENGLISH_LANGUAGE_CODES.has(language) && !language.startsWith('en-');
+    if (ENGLISH_LANGUAGE_CODES.has(language) || language.startsWith('en-')) {
+      return NON_LATIN_HEADLINE_RE.test(String(article.title || ''));
+    }
+    return Boolean(language) || NON_LATIN_HEADLINE_RE.test(String(article.title || ''));
   }
 
   function evenSecondaryCount(articleCount) {
@@ -448,8 +452,10 @@
     meta.append(publisher, time);
     if (showTranslation && isTranslated(article)) {
       const translated = document.createElement('span');
-      translated.className = 'translation-label';
-      translated.textContent = 'Translated';
+      translated.className = 'translation-dot';
+      translated.setAttribute('role', 'img');
+      translated.setAttribute('aria-label', 'Translated headline');
+      translated.title = 'Translated headline';
       meta.append(translated);
     }
     return meta;
