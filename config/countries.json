@@ -1,0 +1,529 @@
+[
+  {
+    "code": "US",
+    "name": "United States",
+    "order": 1,
+    "flag": "🇺🇸",
+    "timeZone": "America/New_York",
+    "googleNewsLocale": "en-US",
+    "googleNewsCountry": "US",
+    "googleNewsLanguage": "en",
+    "primaryLanguage": "en",
+    "gdeltSourceCountry": "US",
+    "aliases": [
+      "United States",
+      "U.S.",
+      "US",
+      "America"
+    ],
+    "sources": [
+      {
+        "id": "npr-news",
+        "name": "NPR",
+        "url": "https://feeds.npr.org/1001/rss.xml",
+        "homepage": "https://www.npr.org/",
+        "language": "en",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "pbs-newshour",
+        "name": "PBS NewsHour",
+        "url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+        "homepage": "https://www.pbs.org/newshour/",
+        "language": "en",
+        "qualityWeight": 1.1,
+        "enabled": true
+      },
+      {
+        "id": "ap-top-news",
+        "name": "Associated Press",
+        "url": "https://apnews.com/hub/ap-top-news?output=rss",
+        "homepage": "https://apnews.com/",
+        "language": "en",
+        "qualityWeight": 1.2,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "order": 2,
+    "flag": "🇬🇧",
+    "timeZone": "Europe/London",
+    "googleNewsLocale": "en-GB",
+    "googleNewsCountry": "GB",
+    "googleNewsLanguage": "en",
+    "primaryLanguage": "en",
+    "gdeltSourceCountry": "UK",
+    "aliases": [
+      "United Kingdom",
+      "UK",
+      "Britain",
+      "British"
+    ],
+    "sources": [
+      {
+        "id": "bbc-news",
+        "name": "BBC News",
+        "url": "https://feeds.bbci.co.uk/news/rss.xml",
+        "homepage": "https://www.bbc.com/news",
+        "language": "en",
+        "qualityWeight": 1.2,
+        "enabled": true
+      },
+      {
+        "id": "guardian-uk",
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/uk/rss",
+        "homepage": "https://www.theguardian.com/uk",
+        "language": "en",
+        "qualityWeight": 1.05,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "order": 3,
+    "flag": "🇨🇦",
+    "timeZone": "America/Toronto",
+    "googleNewsLocale": "en-CA",
+    "googleNewsCountry": "CA",
+    "googleNewsLanguage": "en",
+    "primaryLanguage": "en",
+    "gdeltSourceCountry": "CA",
+    "aliases": [
+      "Canada",
+      "Canadian"
+    ],
+    "sources": [
+      {
+        "id": "cbc-top",
+        "name": "CBC News",
+        "url": "https://www.cbc.ca/cmlink/rss-topstories",
+        "homepage": "https://www.cbc.ca/news",
+        "language": "en",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "global-news-ca",
+        "name": "Global News",
+        "url": "https://globalnews.ca/feed/",
+        "homepage": "https://globalnews.ca/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "order": 4,
+    "flag": "🇦🇺",
+    "timeZone": "Australia/Sydney",
+    "googleNewsLocale": "en-AU",
+    "googleNewsCountry": "AU",
+    "googleNewsLanguage": "en",
+    "primaryLanguage": "en",
+    "gdeltSourceCountry": "AS",
+    "aliases": [
+      "Australia",
+      "Australian"
+    ],
+    "sources": [
+      {
+        "id": "abc-au",
+        "name": "ABC News Australia",
+        "url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+        "homepage": "https://www.abc.net.au/news/",
+        "language": "en",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "sbs-au",
+        "name": "SBS News",
+        "url": "https://www.sbs.com.au/news/topic/latest/feed",
+        "homepage": "https://www.sbs.com.au/news",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "order": 5,
+    "flag": "🇩🇪",
+    "timeZone": "Europe/Berlin",
+    "googleNewsLocale": "de",
+    "googleNewsCountry": "DE",
+    "googleNewsLanguage": "de",
+    "primaryLanguage": "de",
+    "gdeltSourceCountry": "GM",
+    "aliases": [
+      "Germany",
+      "German",
+      "Deutschland"
+    ],
+    "sources": [
+      {
+        "id": "tagesschau",
+        "name": "Tagesschau",
+        "url": "https://www.tagesschau.de/xml/rss2/",
+        "homepage": "https://www.tagesschau.de/",
+        "language": "de",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "dw-all",
+        "name": "Deutsche Welle",
+        "url": "https://rss.dw.com/rdf/rss-en-all",
+        "homepage": "https://www.dw.com/",
+        "language": "en",
+        "qualityWeight": 1.1,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "order": 6,
+    "flag": "🇫🇷",
+    "timeZone": "Europe/Paris",
+    "googleNewsLocale": "fr",
+    "googleNewsCountry": "FR",
+    "googleNewsLanguage": "fr",
+    "primaryLanguage": "fr",
+    "gdeltSourceCountry": "FR",
+    "aliases": [
+      "France",
+      "French",
+      "Français"
+    ],
+    "sources": [
+      {
+        "id": "france24-en",
+        "name": "France 24",
+        "url": "https://www.france24.com/en/rss",
+        "homepage": "https://www.france24.com/en/",
+        "language": "en",
+        "qualityWeight": 1.1,
+        "enabled": true
+      },
+      {
+        "id": "lemonde-une",
+        "name": "Le Monde",
+        "url": "https://www.lemonde.fr/rss/une.xml",
+        "homepage": "https://www.lemonde.fr/",
+        "language": "fr",
+        "qualityWeight": 1.15,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "order": 7,
+    "flag": "🇯🇵",
+    "timeZone": "Asia/Tokyo",
+    "googleNewsLocale": "ja",
+    "googleNewsCountry": "JP",
+    "googleNewsLanguage": "ja",
+    "primaryLanguage": "ja",
+    "gdeltSourceCountry": "JA",
+    "aliases": [
+      "Japan",
+      "Japanese",
+      "日本"
+    ],
+    "sources": [
+      {
+        "id": "nhk-main",
+        "name": "NHK",
+        "url": "https://www3.nhk.or.jp/rss/news/cat0.xml",
+        "homepage": "https://www3.nhk.or.jp/news/",
+        "language": "ja",
+        "qualityWeight": 1.2,
+        "enabled": true
+      },
+      {
+        "id": "japan-times",
+        "name": "The Japan Times",
+        "url": "https://www.japantimes.co.jp/feed/top-stories/",
+        "homepage": "https://www.japantimes.co.jp/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "order": 8,
+    "flag": "🇰🇷",
+    "timeZone": "Asia/Seoul",
+    "googleNewsLocale": "ko",
+    "googleNewsCountry": "KR",
+    "googleNewsLanguage": "ko",
+    "primaryLanguage": "ko",
+    "gdeltSourceCountry": "KS",
+    "aliases": [
+      "South Korea",
+      "Korea",
+      "Korean",
+      "대한민국",
+      "한국"
+    ],
+    "sources": [
+      {
+        "id": "yonhap-en",
+        "name": "Yonhap News Agency",
+        "url": "https://en.yna.co.kr/RSS/news.xml",
+        "homepage": "https://en.yna.co.kr/",
+        "language": "en",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "korea-herald",
+        "name": "The Korea Herald",
+        "url": "https://www.koreaherald.com/rss/020100000000.xml",
+        "homepage": "https://www.koreaherald.com/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "order": 9,
+    "flag": "🇮🇳",
+    "timeZone": "Asia/Kolkata",
+    "googleNewsLocale": "en-IN",
+    "googleNewsCountry": "IN",
+    "googleNewsLanguage": "en",
+    "primaryLanguage": "en",
+    "gdeltSourceCountry": "IN",
+    "aliases": [
+      "India",
+      "Indian"
+    ],
+    "sources": [
+      {
+        "id": "the-hindu-national",
+        "name": "The Hindu",
+        "url": "https://www.thehindu.com/news/national/feeder/default.rss",
+        "homepage": "https://www.thehindu.com/",
+        "language": "en",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "indian-express",
+        "name": "The Indian Express",
+        "url": "https://indianexpress.com/section/india/feed/",
+        "homepage": "https://indianexpress.com/",
+        "language": "en",
+        "qualityWeight": 1.05,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "order": 10,
+    "flag": "🇸🇬",
+    "timeZone": "Asia/Singapore",
+    "googleNewsLocale": "en-SG",
+    "googleNewsCountry": "SG",
+    "googleNewsLanguage": "en",
+    "primaryLanguage": "en",
+    "gdeltSourceCountry": "SN",
+    "aliases": [
+      "Singapore",
+      "Singaporean"
+    ],
+    "sources": [
+      {
+        "id": "cna-latest",
+        "name": "CNA",
+        "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml",
+        "homepage": "https://www.channelnewsasia.com/",
+        "language": "en",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "straits-times-sg",
+        "name": "The Straits Times",
+        "url": "https://www.straitstimes.com/news/singapore/rss.xml",
+        "homepage": "https://www.straitstimes.com/",
+        "language": "en",
+        "qualityWeight": 1.05,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "order": 11,
+    "flag": "🇪🇸",
+    "timeZone": "Europe/Madrid",
+    "googleNewsLocale": "es",
+    "googleNewsCountry": "ES",
+    "googleNewsLanguage": "es",
+    "primaryLanguage": "es",
+    "gdeltSourceCountry": "SP",
+    "aliases": [
+      "Spain",
+      "Spanish",
+      "España"
+    ],
+    "sources": [
+      {
+        "id": "rtve-news",
+        "name": "RTVE Noticias",
+        "url": "https://www.rtve.es/api/noticias.rss",
+        "homepage": "https://www.rtve.es/noticias/",
+        "language": "es",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "elpais-front",
+        "name": "El País",
+        "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
+        "homepage": "https://elpais.com/",
+        "language": "es",
+        "qualityWeight": 1.1,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "order": 12,
+    "flag": "🇮🇹",
+    "timeZone": "Europe/Rome",
+    "googleNewsLocale": "it",
+    "googleNewsCountry": "IT",
+    "googleNewsLanguage": "it",
+    "primaryLanguage": "it",
+    "gdeltSourceCountry": "IT",
+    "aliases": [
+      "Italy",
+      "Italian",
+      "Italia"
+    ],
+    "sources": [
+      {
+        "id": "ansa-english",
+        "name": "ANSA",
+        "url": "https://www.ansa.it/english/news/english_rss.xml",
+        "homepage": "https://www.ansa.it/english/",
+        "language": "en",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "rainews-all",
+        "name": "RaiNews",
+        "url": "https://www.rainews.it/rss/tutti",
+        "homepage": "https://www.rainews.it/",
+        "language": "it",
+        "qualityWeight": 1.05,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "order": 13,
+    "flag": "🇧🇷",
+    "timeZone": "America/Sao_Paulo",
+    "googleNewsLocale": "pt-BR",
+    "googleNewsCountry": "BR",
+    "googleNewsLanguage": "pt-419",
+    "primaryLanguage": "pt",
+    "gdeltSourceCountry": "BR",
+    "aliases": [
+      "Brazil",
+      "Brazilian",
+      "Brasil"
+    ],
+    "sources": [
+      {
+        "id": "agencia-brasil",
+        "name": "Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
+        "homepage": "https://agenciabrasil.ebc.com.br/",
+        "language": "pt",
+        "qualityWeight": 1.15,
+        "enabled": true
+      },
+      {
+        "id": "g1-brasil",
+        "name": "G1",
+        "url": "https://g1.globo.com/rss/g1/",
+        "homepage": "https://g1.globo.com/",
+        "language": "pt",
+        "qualityWeight": 1.05,
+        "enabled": true
+      }
+    ]
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "order": 14,
+    "flag": "🇶🇦",
+    "timeZone": "Asia/Qatar",
+    "googleNewsLocale": "en",
+    "googleNewsCountry": "QA",
+    "googleNewsLanguage": "en",
+    "primaryLanguage": "ar",
+    "gdeltSourceCountry": "QA",
+    "aliases": [
+      "Qatar",
+      "Qatari",
+      "قطر"
+    ],
+    "sources": [
+      {
+        "id": "aljazeera-all",
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/xml/rss/all.xml",
+        "homepage": "https://www.aljazeera.com/",
+        "language": "en",
+        "qualityWeight": 1.1,
+        "enabled": true
+      },
+      {
+        "id": "gulf-times",
+        "name": "Gulf Times",
+        "url": "https://www.gulf-times.com/rss",
+        "homepage": "https://www.gulf-times.com/",
+        "language": "en",
+        "qualityWeight": 1.0,
+        "enabled": true
+      }
+    ]
+  }
+]

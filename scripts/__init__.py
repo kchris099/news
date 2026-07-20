@@ -1,0 +1,1 @@
+"""Worldline news aggregation package."""

@@ -1,0 +1,21 @@
+{
+  "weights": {
+    "independentSources": 2.8,
+    "recency": 2.2,
+    "sourceQuality": 1.8,
+    "validImage": 0.55,
+    "usefulDescription": 0.4,
+    "domesticRelevance": 0.8,
+    "categoryDiversity": 0.35,
+    "aggregatorPenalty": -0.75,
+    "syndicationPenalty": -0.45
+  },
+  "balancing": {
+    "firstWindowSize": 12,
+    "maxPerPublisherInFirstWindow": 3,
+    "minimumDistinctPublishers": 5,
+    "maxPerCluster": 1,
+    "maxAggregatorOnlyInFirstWindow": 4
+  },
+  "explanation": "Scores combine source diversity, recency, configured source quality, available metadata, and market relevance. The score is an automated presentation aid, not an objective measure of importance."
+}

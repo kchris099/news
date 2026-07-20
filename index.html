@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#F6F8FB">
+  <meta name="description" content="Browse a transparent seven-day archive of global news headlines by country, with direct links to original publishers.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Worldline | Global Headlines">
+  <meta property="og:description" content="A transparent seven-day global headline reader.">
+  <meta property="og:image" content="assets/icons/social-preview.svg">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="./">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self' https: data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
+  <title>Worldline | Global Headlines</title>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"Worldline","description":"A transparent seven-day global headline reader.","inLanguage":"en-US","url":"./"}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to headlines</a>
+  <header class="site-header">
+    <div class="shell header-grid">
+      <div class="brand-block">
+        <a class="brand" href="./" aria-label="Worldline home">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span>Worldline</span>
+        </a>
+        <p class="tagline">Global headlines, organized by market and date.</p>
+      </div>
+      <div class="header-meta">
+        <div class="update-line">
+          <span id="global-status-dot" class="status-dot status-neutral" aria-hidden="true"></span>
+          <span id="global-status">Loading news status</span>
+        </div>
+        <time id="last-updated" datetime="">Last updated: checking</time>
+        <nav class="header-links" aria-label="Information">
+          <a href="#methodology">Sources &amp; Methodology</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <noscript>
+    <div class="shell no-script">This headline reader requires JavaScript to load its generated news files. No publisher feeds are contacted by your browser.</div>
+  </noscript>
+
+  <main id="main-content">
+    <section class="selector-section" aria-labelledby="edition-heading">
+      <div class="shell">
+        <div class="section-heading-row">
+          <div>
+            <p class="eyebrow">Edition</p>
+            <h1 id="edition-heading">Global News</h1>
+          </div>
+          <p id="edition-summary" class="section-summary">Choose a market to view its local news edition.</p>
+        </div>
+        <nav id="country-tabs" class="scroll-tabs country-tabs" aria-label="Country editions"></nav>
+      </div>
+    </section>
+
+    <section class="date-section" aria-label="Archive dates">
+      <div class="shell">
+        <nav id="date-tabs" class="scroll-tabs date-tabs" aria-label="Select archive date"></nav>
+      </div>
+    </section>
+
+    <div class="shell content-grid">
+      <section class="news-column" aria-labelledby="top-stories-heading">
+        <div id="sample-banner" class="notice notice-sample" hidden>
+          <strong>Sample preview data</strong>
+          <span>This repository has not completed its first live collection yet.</span>
+        </div>
+        <div id="data-notice" class="notice" role="status" aria-live="polite" hidden></div>
+
+        <div class="stories-heading-row">
+          <div>
+            <p class="eyebrow" id="selected-date-label">Today</p>
+            <h2 id="top-stories-heading">Top Stories</h2>
+          </div>
+          <span id="result-count" class="result-count"></span>
+        </div>
+
+        <nav id="category-filters" class="filter-bar" aria-label="Filter stories by category"></nav>
+
+        <div id="loading-state" class="loading-state" role="status" aria-live="polite">
+          <span class="spinner" aria-hidden="true"></span>
+          Loading headlines
+        </div>
+
+        <section id="lead-story" class="lead-story" aria-label="Lead story" hidden></section>
+        <div id="story-list" class="story-list"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <div class="empty-icon" aria-hidden="true">i</div>
+          <h3 id="empty-title">No Articles Retrieved</h3>
+          <p id="empty-message">No articles were retrieved for this date.</p>
+        </div>
+        <div class="load-more-wrap">
+          <button id="load-more" class="button button-secondary" type="button" hidden>Load More</button>
+        </div>
+      </section>
+
+      <aside class="status-sidebar" aria-labelledby="status-heading">
+        <section class="panel sticky-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Data quality</p>
+              <h2 id="status-heading">Archive Status</h2>
+            </div>
+            <span id="day-status-badge" class="status-badge">Checking</span>
+          </div>
+          <dl class="metrics-list">
+            <div><dt>Articles</dt><dd id="metric-articles">0</dd></div>
+            <div><dt>Publishers</dt><dd id="metric-publishers">0</dd></div>
+            <div><dt>Sources updated</dt><dd id="metric-sources">0 of 0</dd></div>
+            <div><dt>Local time zone</dt><dd id="metric-timezone">-</dd></div>
+          </dl>
+          <p id="status-detail" class="status-detail">Loading archive status.</p>
+          <details class="source-health-details">
+            <summary>Source health</summary>
+            <div id="source-health-list" class="source-health-list"></div>
+          </details>
+        </section>
+
+        <section id="methodology" class="panel methodology-panel">
+          <p class="eyebrow">How it works</p>
+          <h2>Sources &amp; Methodology</h2>
+          <p>Headlines are collected by a scheduled GitHub Actions workflow, then normalized, deduplicated, clustered, and stored as static JSON.</p>
+          <p>Ranking is automated and is not an objective measure of importance. Full article text is not hosted here.</p>
+          <a class="text-link" href="about.html">Read the full methodology</a>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <p>Headlines and images belong to their respective publishers. Links open the original articles.</p>
+      <p><a href="about.html#copyright">Copyright and source removal</a></p>
+    </div>
+  </footer>
+
+  <div id="live-region" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

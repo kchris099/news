@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "siteName": "Worldline",
+  "siteDescription": "A transparent seven-day global headline reader.",
+  "defaultCountry": "US",
+  "archiveDays": 7,
+  "perDayTarget": 45,
+  "initialStoryCount": 12,
+  "loadMoreCount": 12,
+  "maxArticleCountPerDay": 60,
+  "minimumSafeArticleCount": 8,
+  "suspiciousDropRatio": 0.35,
+  "requestTimeoutSeconds": 18,
+  "maxResponseBytes": 5000000,
+  "maxConcurrency": 8,
+  "retryAttempts": 3,
+  "retryBaseSeconds": 1.0,
+  "userAgent": "Worldline/1.0 (+https://github.com/OWNER/REPOSITORY; headline aggregation for a public GitHub Pages site)",
+  "translation": {
+    "enabled": false,
+    "provider": "none"
+  },
+  "cache": {
+    "maxLocalFiles": 3
+  },
+  "categories": [
+    "All",
+    "Domestic",
+    "World",
+    "Business",
+    "Technology",
+    "Culture",
+    "Sports",
+    "Science & Health"
+  ],
+  "trackingParameters": [
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_term",
+    "utm_content",
+    "gclid",
+    "fbclid",
+    "mc_cid",
+    "mc_eid",
+    "ref",
+    "ref_src"
+  ]
+}

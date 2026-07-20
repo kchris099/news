@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Learn how Worldline collects, ranks, clusters, translates, and displays global news headlines.">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
+  <title>Sources &amp; Methodology | Worldline</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header compact-header">
+    <div class="shell header-grid">
+      <div class="brand-block">
+        <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">W</span><span>Worldline</span></a>
+        <p class="tagline">Sources, methodology, and limitations</p>
+      </div>
+      <nav class="header-links" aria-label="Information"><a href="./">Back to headlines</a></nav>
+    </div>
+  </header>
+  <main id="main-content" class="shell prose-layout">
+    <article class="prose-card">
+      <p class="eyebrow">Documentation</p>
+      <h1>Sources &amp; Methodology</h1>
+      <p class="lede">Worldline is a static headline reader. A scheduled GitHub Actions workflow gathers public feed metadata and writes daily JSON files that GitHub Pages serves directly.</p>
+
+      <h2>Collection</h2>
+      <p>The build process supports configured RSS and Atom feeds, local Google News RSS editions and date searches, and date-bounded GDELT DOC API requests. Publisher feeds are requested by the workflow, not by a visitor's browser.</p>
+      <p>Each market has its own time zone. The collector creates a separate archive file for each local calendar date and retains seven dates. Failed feeds are recorded, and valid historical files are protected against suspicious drops.</p>
+
+      <h2>Normalization and safety</h2>
+      <p>Feed content is treated as untrusted. The pipeline validates URLs and timestamps, removes tracking parameters, strips HTML from summaries, limits response sizes, rejects unsafe schemes, and never executes publisher-provided code or styles.</p>
+
+      <h2>Duplicates and related coverage</h2>
+      <p>Exact duplicates are identified by normalized URLs and stable publisher identifiers. Near duplicates use conservative headline token and character similarity plus publication-time proximity. Separate articles about the same event may be grouped as related coverage while preserving alternate publisher links.</p>
+
+      <h2>Ranking and balance</h2>
+      <p>The lead story is not selected only by recency. Configurable signals include independent-source count, recency, source-quality settings, useful source metadata, and domestic relevance. Publisher and provider limits reduce source concentration in the first results.</p>
+      <p>Automated ranking is a presentation aid, not an objective assessment of importance, quality, or truth.</p>
+
+      <h2>Translations</h2>
+      <p>Original headlines are always retained. Optional English translations can be created at build time through a configured provider. Machine translations are labeled and may contain errors. The site remains functional without a translation provider.</p>
+
+      <h2>Status meanings</h2>
+      <dl class="definition-list">
+        <div><dt>Current</dt><dd>The daily file was generated successfully from the latest collection.</dd></div>
+        <div><dt>Partially Updated</dt><dd>Enough new data was produced, but one or more sources failed.</dd></div>
+        <div><dt>Retained From Previous Update</dt><dd>The latest attempt was unsafe or incomplete, so the last valid daily file remains authoritative.</dd></div>
+        <div><dt>No Articles Retrieved</dt><dd>No valid articles are available for the selected date.</dd></div>
+      </dl>
+
+      <h2>Known limitations</h2>
+      <p>RSS availability varies by publisher. Some feeds omit images, descriptions, or precise timestamps. GDELT and Google News may contain aggregator links or incomplete metadata. Event clustering can miss related reporting or, occasionally, group similar stories too broadly. Date-specific historical results depend on what upstream sources expose.</p>
+
+      <h2 id="copyright">Copyright and publisher handling</h2>
+      <p>Worldline stores limited feed metadata: headlines, optional short source-provided descriptions, publication times, source names, image URLs, and links. It does not reproduce full articles or bypass paywalls. Headlines and images belong to their respective publishers.</p>
+      <p>A publisher can request removal by opening an issue in the repository and identifying the source configuration entry.</p>
+    </article>
+  </main>
+  <footer class="site-footer"><div class="shell"><p><a href="./">Return to Worldline</a></p></div></footer>
+</body>
+</html>
