@@ -252,13 +252,14 @@ async def collect_country(
         await translate_articles(clustered, settings, translation_cache)
         daily_limit = min(int(settings.get("perDayTarget", 45)), int(settings.get("maxArticleCountPerDay", 60)))
         ranked = rank_and_balance(clustered, country, ranking, daily_limit)
-        await enrich_google_images(
-            fetcher,
-            ranked,
-            image_cache,
-            f'{country["googleNewsCountry"]}:{country["googleNewsLanguage"]}',
-            int(settings.get("imageEnrichmentLimit", 12)),
-        )
+        if providers.get("googleNews", {}).get("enabled", True):
+            await enrich_google_images(
+                fetcher,
+                ranked,
+                image_cache,
+                f'{country["googleNewsCountry"]}:{country["googleNewsLanguage"]}',
+                int(settings.get("imageEnrichmentLimit", 12)),
+            )
         # Google News can resolve to a publisher URL whose page blocks bots,
         # even though another RSS section from that same publisher exposes the
         # article image. Reuse that verified feed image by canonical URL.
@@ -356,6 +357,9 @@ async def run(
     settings = load_json(root / "config" / "settings.json", {})
     ranking = load_json(root / "config" / "ranking.json", {})
     providers = load_json(root / "config" / "sources.json", {})
+    active_codes = {str(code).upper() for code in settings.get("activeCountries", [])}
+    if active_codes:
+        countries = [country for country in countries if country["code"] in active_codes]
     if only_countries:
         countries = [country for country in countries if country["code"] in only_countries]
     http_cache = load_json(root / "data" / "http-cache.json", {})
@@ -377,12 +381,19 @@ async def run(
     all_health: list[dict[str, Any]] = []
 
     async with AsyncFetcher(settings, http_cache) as fetcher:
-        for country in countries:
-            LOGGER.info("Collecting %s", country["name"])
-            country_manifest, health = await collect_country(
-                root, country, settings, ranking, providers, fetcher, translation_cache, image_cache,
-                skip_gdelt, latest_only, reference_time,
-            )
+        country_gate = asyncio.Semaphore(max(1, int(settings.get("countryConcurrency", 1))))
+
+        async def collect_one(country: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any], list[dict[str, Any]]]:
+            async with country_gate:
+                LOGGER.info("Collecting %s", country["name"])
+                country_manifest, health = await collect_country(
+                    root, country, settings, ranking, providers, fetcher, translation_cache, image_cache,
+                    skip_gdelt, latest_only, reference_time,
+                )
+                return country, country_manifest, health
+
+        results = await asyncio.gather(*(collect_one(country) for country in countries))
+        for country, country_manifest, health in results:
             if latest_only:
                 archive_date_keys = local_date_keys(country["timeZone"], settings["archiveDays"], reference_time)
                 country_manifest = merge_country_manifest_dates(
@@ -399,6 +410,8 @@ async def run(
 
     ordered_manifest = {}
     full_countries = load_json(root / "config" / "countries.json", [])
+    if active_codes:
+        full_countries = [country for country in full_countries if country["code"] in active_codes]
     for country in full_countries:
         if country["code"] in manifest["countries"]:
             ordered_manifest[country["code"]] = manifest["countries"][country["code"]]

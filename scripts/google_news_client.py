@@ -47,7 +47,7 @@ async def _google_decoding_params(fetcher: AsyncFetcher, article_url: str) -> di
     if not token:
         return None
     try:
-        response = await fetcher.get(article_url, expected=("html", "xhtml", "text/plain"))
+        response = await fetcher.get(article_url, expected=("html", "xhtml", "text/plain"), retry_attempts=1)
         text = response.content.decode("utf-8", errors="replace")
         signature = re.search(r'data-n-a-sg="([^"]+)"', text)
         timestamp = re.search(r'data-n-a-ts="([^"]+)"', text)
@@ -212,6 +212,7 @@ async def enrich_google_images(
                     direct_url,
                     expected=("html", "xhtml", "text/plain"),
                     max_bytes=max(fetcher.max_bytes, 8_000_000),
+                    retry_attempts=1,
                 ),
                 timeout=8.0,
             )
@@ -242,7 +243,7 @@ async def fetch_google_news(fetcher: AsyncFetcher, country: dict[str, Any], prov
     url = date_search_url(country, date_key, providers) if date_key else top_stories_url(country, providers)
     attempted = iso_z()
     try:
-        response = await fetcher.get(url, expected=("xml", "rss", "text/plain"))
+        response = await fetcher.get(url, expected=("xml", "rss", "text/plain"), retry_attempts=1)
         articles = [] if response.status_code == 304 else parse_feed_bytes(response.content, source, country["code"], "google-news")
         for article in articles:
             article["sourceName"] = article.get("sourceName") or "Google News"

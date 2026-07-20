@@ -35,7 +35,10 @@
         fetchJson('config/settings.json'),
         fetchManifest(),
       ]);
-      state.countries = [...countries].sort((a, b) => a.order - b.order);
+      const activeCodes = new Set((settings.activeCountries || []).map((code) => String(code).toUpperCase()));
+      state.countries = countries
+        .filter((country) => !activeCodes.size || activeCodes.has(country.code))
+        .sort((a, b) => a.order - b.order);
       state.settings = settings;
       state.manifest = manifest;
       state.visibleCount = settings.initialStoryCount || 12;

@@ -74,6 +74,9 @@ def validate_day(payload: dict[str, Any], country: dict[str, Any]) -> list[str]:
 
 def validate_manifest(manifest: dict[str, Any], countries: list[dict[str, Any]], settings: dict[str, Any]) -> list[str]:
     errors: list[str] = []
+    active_codes = {str(code).upper() for code in settings.get("activeCountries", [])}
+    if active_codes:
+        countries = [country for country in countries if country["code"] in active_codes]
     if manifest.get("archiveDays") != settings["archiveDays"]:
         errors.append("manifest archiveDays mismatch")
     if manifest.get("defaultCountry") != settings["defaultCountry"]:
@@ -100,6 +103,9 @@ def validate_manifest(manifest: dict[str, Any], countries: list[dict[str, Any]],
 def validate_repository(root: Path) -> list[str]:
     countries = load_json(root / "config" / "countries.json", [])
     settings = load_json(root / "config" / "settings.json", {})
+    active_codes = {str(code).upper() for code in settings.get("activeCountries", [])}
+    if active_codes:
+        countries = [country for country in countries if country["code"] in active_codes]
     manifest = load_json(root / "data" / "manifest.json", {})
     errors = validate_manifest(manifest, countries, settings)
     generated_at = parse_iso(manifest.get("generatedAt"))

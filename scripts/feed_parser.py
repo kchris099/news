@@ -74,6 +74,7 @@ async def enrich_missing_images(
                     page_url,
                     expected=("html", "xhtml", "text/plain"),
                     max_bytes=max(fetcher.max_bytes, 8_000_000),
+                    retry_attempts=1,
                 ),
                 timeout=8.0,
             )
@@ -196,7 +197,11 @@ def parse_feed_bytes(content: bytes, source: dict[str, Any], edition_country: st
 async def fetch_feed(fetcher: AsyncFetcher, source: dict[str, Any], edition_country: str) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     attempted = iso_z()
     try:
-        response = await fetcher.get(source["url"], expected=("xml", "rss", "atom", "text/plain"))
+        response = await fetcher.get(
+            source["url"],
+            expected=("xml", "rss", "atom", "text/plain"),
+            retry_attempts=1,
+        )
         data_source = str(source.get("dataSource") or "publisher-rss")
         articles = [] if response.status_code == 304 else parse_feed_bytes(response.content, source, edition_country, data_source)
         health = {

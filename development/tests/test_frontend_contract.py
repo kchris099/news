@@ -42,6 +42,12 @@ def test_missing_today_uses_preparation_message_without_fallback_warning():
     assert "function isTodayDate(dateKey)" in js
 
 
+def test_frontend_filters_to_configured_active_countries():
+    js = (ROOT / "assets" / "js" / "app.js").read_text(encoding="utf-8")
+    assert "settings.activeCountries" in js
+    assert "activeCodes.has(country.code)" in js
+
+
 def test_production_copy_does_not_use_legacy_missing_archive_warning():
     for relative_path in ("index.html", "about.html", "assets/js/app.js"):
         content = (ROOT / relative_path).read_text(encoding="utf-8")

@@ -24,7 +24,7 @@
         "homepage": "https://apnews.com/",
         "language": "en",
         "qualityWeight": 1.2,
-        "enabled": true
+        "enabled": false
       },
       {
         "id": "nytimes-home",
@@ -87,7 +87,7 @@
         "homepage": "https://www.cnn.com/",
         "language": "en",
         "qualityWeight": 1.1,
-        "enabled": true
+        "enabled": false
       },
       {
         "id": "fox-news-latest",
@@ -115,7 +115,7 @@
         "language": "en",
         "qualityWeight": 1.0,
         "dataSource": "google-news",
-        "enabled": true
+        "enabled": false
       }
     ]
   },
@@ -232,7 +232,7 @@
   {
     "code": "AU",
     "name": "Australia",
-    "order": 4,
+    "order": 8,
     "flag": "AU",
     "timeZone": "Australia/Sydney",
     "googleNewsLocale": "en-AU",
@@ -286,7 +286,7 @@
   {
     "code": "DE",
     "name": "Germany",
-    "order": 5,
+    "order": 3,
     "flag": "DE",
     "timeZone": "Europe/Berlin",
     "googleNewsLocale": "de",
@@ -341,7 +341,7 @@
   {
     "code": "FR",
     "name": "France",
-    "order": 6,
+    "order": 4,
     "flag": "FR",
     "timeZone": "Europe/Paris",
     "googleNewsLocale": "fr",
@@ -396,7 +396,7 @@
   {
     "code": "JP",
     "name": "Japan",
-    "order": 7,
+    "order": 5,
     "flag": "JP",
     "timeZone": "Asia/Tokyo",
     "googleNewsLocale": "ja",
@@ -422,7 +422,7 @@
       {
         "id": "japan-times",
         "name": "The Japan Times",
-        "url": "https://www.japantimes.co.jp/feed/top-stories/",
+        "url": "https://www.japantimes.co.jp/feed/",
         "homepage": "https://www.japantimes.co.jp/",
         "language": "en",
         "qualityWeight": 1.0,
@@ -435,12 +435,12 @@
         "homepage": "https://english.kyodonews.net/",
         "language": "en",
         "qualityWeight": 1.1,
-        "enabled": true
+        "enabled": false
       },
       {
         "id": "asahi-top",
         "name": "The Asahi Shimbun",
-        "url": "https://www.asahi.com/ajw/rss/",
+        "url": "https://www.asahi.com/rss/asahi/newsheadlines.rdf",
         "homepage": "https://www.asahi.com/ajw/",
         "language": "en",
         "qualityWeight": 1.05,
@@ -478,7 +478,7 @@
   {
     "code": "KR",
     "name": "South Korea",
-    "order": 8,
+    "order": 6,
     "flag": "KR",
     "timeZone": "Asia/Seoul",
     "googleNewsLocale": "ko",
@@ -556,14 +556,14 @@
         "language": "en",
         "qualityWeight": 1.0,
         "dataSource": "google-news",
-        "enabled": true
+        "enabled": false
       }
     ]
   },
   {
     "code": "IN",
     "name": "India",
-    "order": 9,
+    "order": 7,
     "flag": "IN",
     "timeZone": "Asia/Kolkata",
     "googleNewsLocale": "en-IN",
