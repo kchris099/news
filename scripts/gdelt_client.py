@@ -27,7 +27,14 @@ async def fetch_gdelt(fetcher: AsyncFetcher, country: dict[str, Any], providers:
     source_id = f'gdelt-{country["code"]}-{date_key}'
     attempted = iso_z()
     try:
-        response = await fetcher.get(build_gdelt_url(country, date_key, providers), expected=("json", "text/plain"))
+        # GDELT is an optional backfill provider and rate-limits aggressively.
+        # Let the scheduler move on to other dates/providers after one attempt
+        # instead of retrying the same URL while the rest of the refresh waits.
+        response = await fetcher.get(
+            build_gdelt_url(country, date_key, providers),
+            expected=("json", "text/plain"),
+            retry_attempts=1,
+        )
         payload = {"articles": []} if response.status_code == 304 else json.loads(response.content.decode("utf-8-sig"))
         retrieved = iso_z()
         articles: list[dict[str, Any]] = []

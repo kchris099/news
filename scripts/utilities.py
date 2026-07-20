@@ -179,7 +179,13 @@ class AsyncFetcher:
     async def __aexit__(self, *_: Any) -> None:
         await self.client.aclose()
 
-    async def get(self, url: str, expected: tuple[str, ...] = (), max_bytes: int | None = None) -> FetchResult:
+    async def get(
+        self,
+        url: str,
+        expected: tuple[str, ...] = (),
+        max_bytes: int | None = None,
+        retry_attempts: int | None = None,
+    ) -> FetchResult:
         safe = safe_url(url)
         if not safe:
             raise ValueError("Unsafe or invalid request URL")
@@ -192,7 +198,8 @@ class AsyncFetcher:
             headers["If-Modified-Since"] = cached["lastModified"]
 
         last_error: Exception | None = None
-        for attempt in range(self.attempts):
+        attempts = max(1, int(retry_attempts or self.attempts))
+        for attempt in range(attempts):
             try:
                 started = asyncio.get_running_loop().time()
                 async with self.client.stream("GET", safe, headers=headers) as response:
@@ -234,7 +241,7 @@ class AsyncFetcher:
             except (httpx.TimeoutException, httpx.NetworkError, httpx.HTTPStatusError, ValueError, RuntimeError) as exc:
                 last_error = exc
                 retryable = not isinstance(exc, httpx.HTTPStatusError) or exc.response.status_code in {408, 429, 500, 502, 503, 504}
-                if attempt + 1 >= self.attempts or not retryable:
+                if attempt + 1 >= attempts or not retryable:
                     break
                 delay = self.base_delay * (2 ** attempt) + random.uniform(0, 0.25)
                 if isinstance(exc, httpx.HTTPStatusError) and exc.response.status_code == 429:
