@@ -106,6 +106,16 @@ def trusted_source(country: dict[str, Any], domain: str | None) -> dict[str, Any
     return None
 
 
+def is_excluded_article(article: dict[str, Any], country: dict[str, Any]) -> bool:
+    """Return whether a country-specific feed item is known to be non-news content."""
+    title = normalize_title(str(article.get("title") or ""))
+    excluded_titles = {
+        normalize_title(str(excluded_title))
+        for excluded_title in country.get("excludedTitles", [])
+    }
+    return bool(title) and title in excluded_titles
+
+
 def keep_provider_article(raw: dict[str, Any], country: dict[str, Any]) -> bool:
     data_source = raw.get("dataSource")
     if not data_source:
@@ -125,6 +135,8 @@ def keep_provider_article(raw: dict[str, Any], country: dict[str, Any]) -> bool:
 
 
 def keep_existing_article(article: dict[str, Any], country: dict[str, Any]) -> bool:
+    if is_excluded_article(article, country):
+        return False
     if not keep_provider_article(article, country):
         return False
     domain = str(article.get("sourceDomain") or "")
@@ -179,6 +191,8 @@ async def collect_country(
 
     for raw_articles, _ in feed_results:
         for raw in raw_articles:
+            if is_excluded_article(raw, country):
+                continue
             if not keep_provider_article(raw, country):
                 continue
             article = normalize_article(raw, settings)
@@ -229,6 +243,8 @@ async def collect_country(
     for date_key, raw_articles, health in date_results:
         date_health_map[date_key] = health
         for raw in raw_articles:
+            if is_excluded_article(raw, country):
+                continue
             if not keep_provider_article(raw, country):
                 continue
             article = normalize_article(raw, settings)
