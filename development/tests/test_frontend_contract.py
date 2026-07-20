@@ -8,7 +8,7 @@ def test_project_page_assets_use_relative_paths():
     assert 'href="/assets/' not in html
     assert 'src="/assets/' not in html
     assert 'href="assets/css/styles.css"' in html
-    assert 'src="assets/js/app.js?v=3"' in html
+    assert 'src="assets/js/app.js?v=4"' in html
 
 
 def test_frontend_guarantees_seven_date_controls_from_time_zone():
