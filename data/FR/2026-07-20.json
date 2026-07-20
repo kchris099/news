@@ -4,33 +4,33 @@
   "countryName": "France",
   "timeZone": "Europe/Paris",
   "date": "2026-07-20",
-  "generatedAt": "2026-07-20T20:17:38Z",
-  "lastAttemptAt": "2026-07-20T20:17:38Z",
-  "lastSuccessfulUpdate": "2026-07-20T20:17:38Z",
-  "status": "current",
+  "generatedAt": "2026-07-20T21:33:32Z",
+  "lastAttemptAt": "2026-07-20T21:33:32Z",
+  "lastSuccessfulUpdate": "2026-07-20T21:33:32Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
-  "publisherCount": 5,
+  "publisherCount": 6,
   "sourceHealth": [
     {
       "sourceId": "france24-en",
       "sourceName": "France 24",
-      "status": "success",
-      "lastAttemptAt": "2026-07-20T20:17:37Z",
-      "lastSuccessAt": "2026-07-20T20:17:37Z",
-      "articlesRetrieved": 24,
-      "responseTimeMs": 417,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-20T21:33:32Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "ValueError",
+      "errorMessage": "Malformed feed: <unknown>:10:92: not well-formed (invalid token)"
     },
     {
       "sourceId": "lemonde-une",
       "sourceName": "Le Monde",
       "status": "success",
-      "lastAttemptAt": "2026-07-20T20:17:37Z",
-      "lastSuccessAt": "2026-07-20T20:17:37Z",
+      "lastAttemptAt": "2026-07-20T21:33:32Z",
+      "lastSuccessAt": "2026-07-20T21:33:32Z",
       "articlesRetrieved": 16,
-      "responseTimeMs": 652,
+      "responseTimeMs": 93,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "franceinfo-top",
       "sourceName": "Franceinfo",
       "status": "success",
-      "lastAttemptAt": "2026-07-20T20:17:37Z",
-      "lastSuccessAt": "2026-07-20T20:17:38Z",
+      "lastAttemptAt": "2026-07-20T21:33:32Z",
+      "lastSuccessAt": "2026-07-20T21:33:32Z",
       "articlesRetrieved": 31,
-      "responseTimeMs": 1035,
+      "responseTimeMs": 122,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,10 +49,10 @@
       "sourceId": "le-figaro-top",
       "sourceName": "Le Figaro",
       "status": "success",
-      "lastAttemptAt": "2026-07-20T20:17:37Z",
-      "lastSuccessAt": "2026-07-20T20:17:37Z",
+      "lastAttemptAt": "2026-07-20T21:33:32Z",
+      "lastSuccessAt": "2026-07-20T21:33:32Z",
       "articlesRetrieved": 18,
-      "responseTimeMs": 792,
+      "responseTimeMs": 109,
       "errorType": null,
       "errorMessage": null
     }
@@ -78,20 +78,50 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fa8663ae57a16aebf135",
+      "clusterId": "c9c4d14e91c5c51671a5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 9.44646,
+      "rankingScore": 9.37002,
       "related": [
         {
-          "id": "2f9565d74390bd3662e7943b",
-          "title": "EN DIRECT - Guerre au Moyen-Orient : pour chaque soldat américain tué, l’Iran payera «plusieurs fois» le prix, menace Donald Trump",
+          "id": "43ad5b0aa0ec2f356f7ff649",
+          "title": "Guerre au Moyen-Orient : l'armée américaine annonce mener une nouvelle série de frappes contre l'Iran, pour la dixième nuit consécutive",
           "translatedTitle": null,
-          "description": "L’Iran a dit lundi faire face à une «guerre totale» avec les États-Unis, qui ont frappé une grande partie de son territoire dans la nuit, au neuvième jour consécutif d’hostilités d’une intensité inédite depuis le cessez-le-feu d’avril.",
+          "description": "Trois militaires américains ont été tués ces derniers jours en Jordanie et en Irak. Il s'agit des premiers décès depuis la reprise des hostilités entre Washington et Téhéran, début juillet.",
+          "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-les-gardiens-iraniens-disent-avoir-frappe-des-cibles-militaires-americaines-au-koweit_8114603.html",
+          "canonicalUrl": "https://franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/direct-guerre-au-moyen-orient-les-gardiens-iraniens-disent-avoir-frappe-des-cibles-militaires-americaines-au-koweit_8114603.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-20T20:54:18Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/85HwakTBp76vXGqfROD65HhFUvE/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e898fe033d574669731.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T21:33:32Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "c9c4d14e91c5c51671a5",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "guerre au moyen orient l armée américaine annonce mener une nouvelle série de frappes contre l iran pour la dixième nuit consécutive"
+        },
+        {
+          "id": "cb7b0b025709862bfc4df347",
+          "title": "EN DIRECT - Guerre au Moyen-Orient : l’armée américaine annonce avoir lancé de nouvelles frappes contre l’Iran, Trump menace Téhéran",
+          "translatedTitle": null,
+          "description": "L’Iran a dit lundi faire face à une «guerre totale» avec les États-Unis, qui ont frappé une grande partie de son territoire dans la nuit.",
           "url": "https://www.lefigaro.fr/international/en-direct-guerre-au-moyen-orient-trump-affirme-frapper-l-iran-tres-durement-pour-venger-les-militaires-americains-tues-20260720",
           "canonicalUrl": "https://lefigaro.fr/international/en-direct-guerre-au-moyen-orient-trump-affirme-frapper-l-iran-tres-durement-pour-venger-les-militaires-americains-tues-20260720",
           "sourceName": "Le Figaro",
@@ -102,419 +132,21 @@
             "FR"
           ],
           "language": "fr",
-          "publishedAt": "2026-07-20T19:43:02Z",
+          "publishedAt": "2026-07-20T20:49:02Z",
           "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/07/20/cda4387703ff0e0a720e346919fcacbf6e759980d1f7ceb21fac1c117d081cdb.jpg",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-07-20T20:17:37Z",
+          "retrievedAt": "2026-07-20T21:33:32Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "fa8663ae57a16aebf135",
+          "clusterId": "c9c4d14e91c5c51671a5",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
-          "normalizedTitle": "en direct guerre au moyen orient pour chaque soldat américain tué l iran payera plusieurs fois le prix menace donald trump",
+          "normalizedTitle": "en direct guerre au moyen orient l armée américaine annonce avoir lancé de nouvelles frappes contre l iran trump menace téhéran",
           "rankingScore": 7.00925
-        },
-        {
-          "id": "ce9f26bfdcfcbd94e17d2f60",
-          "title": "Un soldat américain est mort en Irak samedi, le troisième tué en deux jours au Moyen-Orient",
-          "translatedTitle": null,
-          "description": "Vendredi, des frappes iraniennes contre une base en Jordanie avaient tué au moins deux Américains. Les Etats-Unis avaient lancé une puissante réplique.",
-          "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/un-troisieme-soldat-americain-mort-durant-le-week-end-au-moyen-orient_8114816.html",
-          "canonicalUrl": "https://franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/un-troisieme-soldat-americain-mort-durant-le-week-end-au-moyen-orient_8114816.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-20T08:44:11Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/elE3h6_OyfLNNfnF-bBFzj7xDrc/0x0:1022x575/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5ddf4a23ad0882097116.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T20:17:38Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "fa8663ae57a16aebf135",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "un soldat américain est mort en irak samedi le troisième tué en deux jours au moyen orient"
-        }
-      ]
-    },
-    {
-      "id": "c5469cacc0872cc61360872c",
-      "title": "Who is Khalil al-Hayya, Hamas’s new leader?",
-      "translatedTitle": null,
-      "description": "Hamas on Monday named Khalil al-Hayya, one of the founding members of the Palestinian militant group, as its new leader. Hayya is seen as a respected and pragmatic Hamas veteran “who doesn’t get carried away easily”. Last year, he survived an Israeli attack in Doha targeting the Hamas leadership which left several people dead, including one of his sons.",
-      "url": "https://www.france24.com/en/middle-east/20260720-who-is-khalil-al-hayya-hamas-s-new-leader",
-      "canonicalUrl": "https://france24.com/en/middle-east/20260720-who-is-khalil-al-hayya-hamas-s-new-leader",
-      "sourceName": "France 24",
-      "sourceDomain": "s.france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-20T14:05:17Z",
-      "imageUrl": "https://s.france24.com/media/display/34b4e08e-a547-11f0-9061-005056a97e36/w:1024/p:16x9/AP25015795253955.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e3bbaac84ded6a1e3de2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 8.03836,
-      "related": [
-        {
-          "id": "00101fd7ff2a12cf65ed57d0",
-          "title": "Le Hamas annonce l'élection de Khalil al-Hayya comme nouveau chef du mouvement",
-          "translatedTitle": null,
-          "description": "Sa candidature a reçu un soutien quasi unanime, de Gaza comme de l'étranger, selon un haut responsable du mouvement islamiste palestinien.",
-          "url": "https://www.franceinfo.fr/monde/palestine/gaza/le-hamas-annonce-l-election-de-khalil-al-hayya-comme-nouveau-chef-du-mouvement_8115125.html",
-          "canonicalUrl": "https://franceinfo.fr/monde/palestine/gaza/le-hamas-annonce-l-election-de-khalil-al-hayya-comme-nouveau-chef-du-mouvement_8115125.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-20T13:38:47Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/BLJYRiWbUa651Qd0jFY0WtsIEn8/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e2227cd0f4571213330.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T20:17:38Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "e3bbaac84ded6a1e3de2",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "le hamas annonce l élection de khalil al hayya comme nouveau chef du mouvement"
-        }
-      ]
-    },
-    {
-      "id": "c26d5ef1b34fac02a3fac3a0",
-      "title": "Les explosions de joie des supporters ont provoqué des ondes sismiques en Espagne lors de la finale de la Coupe du monde",
-      "translatedTitle": null,
-      "description": "Ces mouvements constituent un exemple de \"sismicité induite\" provoquée par l'activité humaine, en l'occurrence les sauts et cris des supporters après le but et le coup de sifflet final, ont expliqué des scientifiques.",
-      "url": "https://www.franceinfo.fr/coupe-du-monde/une-onde-sismique-enregistree-en-espagne-apres-le-but-de-ferran-torres-en-finale-de-la-coupe-du-monde_8115095.html",
-      "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/une-onde-sismique-enregistree-en-espagne-apres-le-but-de-ferran-torres-en-finale-de-la-coupe-du-monde_8115095.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T13:44:20Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/YDcIyVJaf5Gyt6T64gd92LTxD_A/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e1d8e8016a721567800.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d9def2268519d0d24f93",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.96843,
-      "related": [
-        {
-          "id": "ef5cb9e82fed5107794f1823",
-          "title": "EN DIRECT - Coupe du monde 2026 : les héros espagnols de retour en Espagne, la parade a commencé avec plus d’un million de personnes à Madrid",
-          "translatedTitle": null,
-          "description": "Journée de célébration(s) en vue en Espagne, mais aussi en Argentine, au lendemain d’une finale aussi peu spectaculaire qu’électrique.",
-          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/en-direct-coupe-du-monde-2026-le-retour-des-heros-espagnols-la-presse-etrille-l-argentine-leandro-paredes-le-tres-mauvais-perdant-20260720",
-          "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/en-direct-coupe-du-monde-2026-le-retour-des-heros-espagnols-la-presse-etrille-l-argentine-leandro-paredes-le-tres-mauvais-perdant-20260720",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-20T20:06:03Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/2990x1682_crop/2026/07/20/61f1bd24984a073440fa778545425935bfaf20e4fcc03f2e251f23fc8dc135ac.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T20:17:37Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d9def2268519d0d24f93",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "en direct coupe du monde 2026 les héros espagnols de retour en espagne la parade a commencé avec plus d un million de personnes à madrid",
-          "rankingScore": 5.70796
-        },
-        {
-          "id": "d2f617daf7b8f1283f68b48c",
-          "title": "Kylian Mbappé finit meilleur buteur de la Coupe du monde 2026 et devient le meilleur de l'histoire devant Lionel Messi",
-          "translatedTitle": null,
-          "description": "Après cinq semaines d'intense bataille, Lionel Messi a dû s'incliner devant Kylian Mbappé dans la course au meilleur buteur de la compétition.",
-          "url": "https://www.franceinfo.fr/coupe-du-monde/infographie-lionel-messi-kylian-mbappe-suivez-l-intense-lutte-pour-le-statut-de-meilleur-buteur-de-la-coupe-du-monde-2026-et-de-toute-l-histoire-de-la-competition_8075294.html",
-          "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/infographie-lionel-messi-kylian-mbappe-suivez-l-intense-lutte-pour-le-statut-de-meilleur-buteur-de-la-coupe-du-monde-2026-et-de-toute-l-histoire-de-la-competition_8075294.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-20T08:55:22Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/cCtoLGcEz0MZDvrmVIFBLW_nsfc/0x49:3500x2018/432x243/filters:format(jpg):quality(50)/2026/06/23/6a3a53e108051866463745.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T20:17:38Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d9def2268519d0d24f93",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "kylian mbappé finit meilleur buteur de la coupe du monde 2026 et devient le meilleur de l histoire devant lionel messi",
-          "rankingScore": 7.7433
-        },
-        {
-          "id": "cabe59e0a3441491cdaeee64",
-          "title": "Audiences : 12 millions de téléspectateurs devant la victoire de l’Espagne en finale de la Coupe du monde 2026",
-          "translatedTitle": null,
-          "description": "Les audiences du dimanche 19 juillet 2026 pour les programmes diffusés en première partie de soirée.",
-          "url": "https://tvmag.lefigaro.fr/programme-tv/audiences-tv/audiences-12-millions-de-telespectateurs-devant-la-victoire-de-l-espagne-en-finale-de-la-coupe-du-monde-2026-20260720",
-          "canonicalUrl": "https://tvmag.lefigaro.fr/programme-tv/audiences-tv/audiences-12-millions-de-telespectateurs-devant-la-victoire-de-l-espagne-en-finale-de-la-coupe-du-monde-2026-20260720",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "tvmag.lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-20T07:47:14Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/07/20/d0c0e593c5af66eaa6f76bd07b24a2019f02695b1d3f34cb413a0e4e65f3f3fc.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T15:11:15Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d9def2268519d0d24f93",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "audiences 12 millions de téléspectateurs devant la victoire de l espagne en finale de la coupe du monde 2026"
-        },
-        {
-          "id": "c4235af56c1b210cc347f1ce",
-          "title": "Coupe du monde 2026 : au bout du suspense et de l’ennui, l’Espagne sur le toit du monde",
-          "translatedTitle": null,
-          "description": "L’Espagne a eu raison de l’Argentine dimanche, en finale de la Coupe du monde, pour décrocher son deuxième sacre planétaire.",
-          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-au-bout-du-suspense-l-espagne-s-offre-une-deuxieme-etoile-face-a-l-argentine-20260720",
-          "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-au-bout-du-suspense-l-espagne-s-offre-une-deuxieme-etoile-face-a-l-argentine-20260720",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-20T04:59:29Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/07/20/73909de3d4434a8c1fca18d0b68e6edbe3a3800f20ad1745f40b78f8d57540ce.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T05:05:35Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d9def2268519d0d24f93",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "coupe du monde 2026 au bout du suspense et de l ennui l espagne sur le toit du monde"
-        },
-        {
-          "id": "f0d1c60988d41ad3796dceae",
-          "title": "Coupe du monde 2026 : Trump et Infantino sifflés lors de leur arrivée sur la pelouse pour la remise du trophée",
-          "translatedTitle": null,
-          "description": "Après la victoire de l’Espagne en finale du Mondial contre l’Argentine, Donald Trump et Gianni Infantino ont été sifflés lors de leur arrivée sur la pelouse.",
-          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-trump-et-infantino-siffles-lors-de-leur-arrivee-sur-la-pelouse-pour-la-remise-du-trophee-20260720",
-          "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-trump-et-infantino-siffles-lors-de-leur-arrivee-sur-la-pelouse-pour-la-remise-du-trophee-20260720",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-20T04:48:12Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/2998x1686_crop/2026/07/20/d82971ef074bd17d0efabd649ba77a6c41b9538c97505917e27a4a9e547b0f77.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T05:05:35Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d9def2268519d0d24f93",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 5.71484,
-          "normalizedTitle": "coupe du monde 2026 trump et infantino sifflés lors de leur arrivée sur la pelouse pour la remise du trophée",
-          "sourceQuality": 1.0
-        },
-        {
-          "id": "2e4de807484ba310b7659a24",
-          "title": "Les buteurs au rendez-vous, l'omniprésence de Donald Trump, les prix exorbitants... Ce qu'on a aimé et moins aimé lors de la Coupe du monde 2026",
-          "translatedTitle": null,
-          "description": "La finale entre l'Espagne et l'Argentine a refermé dimanche le plus long Mondial de l'histoire et le premier organisé dans trois pays.",
-          "url": "https://www.franceinfo.fr/coupe-du-monde/les-buteurs-au-rendez-vous-l-omnipresence-de-donald-trump-les-prix-exorbitants-ce-qu-on-a-aime-et-moins-aime-lors-de-la-coupe-du-monde-2026_8110256.html",
-          "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/les-buteurs-au-rendez-vous-l-omnipresence-de-donald-trump-les-prix-exorbitants-ce-qu-on-a-aime-et-moins-aime-lors-de-la-coupe-du-monde-2026_8110256.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-20T04:20:01Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/P5jf_rcl0eHzC-FGhWs6N9YjFXE/0x0:5982x3364/432x243/filters:format(jpg):quality(50)/2026/07/19/6a5cfdb915c84607032819.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T05:05:35Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d9def2268519d0d24f93",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 7.49907,
-          "normalizedTitle": "les buteurs au rendez vous l omniprésence de donald trump les prix exorbitants ce qu on a aimé et moins aimé lors de la coupe du monde 2026",
-          "sourceQuality": 1.0
-        },
-        {
-          "id": "8c002056e4cde5a165ac7033",
-          "title": "L'Espagne s'offre une deuxième étoile en venant à bout de l'Argentine en finale de la Coupe du monde 2026",
-          "translatedTitle": null,
-          "description": "Au terme d'une finale cadenassée, Ferran Torres a libéré l'Espagne en prolongation, dimanche, à New York.",
-          "url": "https://www.franceinfo.fr/coupe-du-monde/l-espagne-s-offre-une-deuxieme-etoile-en-venant-a-bout-de-l-argentine-en-finale-de-la-coupe-du-monde-2026_8114348.html",
-          "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/l-espagne-s-offre-une-deuxieme-etoile-en-venant-a-bout-de-l-argentine-en-finale-de-la-coupe-du-monde-2026_8114348.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-19T22:51:26Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/SX-3v3Wo4kbDt0JZ_4xYCChtJAY/0x0:5843x3286/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5d548f7b024387148213.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T05:05:35Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d9def2268519d0d24f93",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 7.32795,
-          "normalizedTitle": "l espagne s offre une deuxième étoile en venant à bout de l argentine en finale de la coupe du monde 2026",
-          "sourceQuality": 1.0
-        },
-        {
-          "id": "53c1f256f589f0f8ee8e0578",
-          "title": "Coupe du monde 2026 : l'Espagnol Rodri élu meilleur joueur du tournoi",
-          "translatedTitle": null,
-          "description": "Le milieu de terrain espagnol, Rodri, a été élu meilleur joueur de la Coupe du monde 2026 après le sacre de la Roja.",
-          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-l-espagnol-rodri-elu-meilleur-joueur-du-tournoi-20260720",
-          "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-l-espagnol-rodri-elu-meilleur-joueur-du-tournoi-20260720",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-19T22:48:23Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/2333x1600_crop/2026/07/20/fc86cc9154be9dd04f5ad529adfb53ef1ee1ee352759bf4924631e3defc95011.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T05:05:35Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d9def2268519d0d24f93",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "coupe du monde 2026 l espagnol rodri élu meilleur joueur du tournoi"
-        },
-        {
-          "id": "59c34003fa15a312a025f28a",
-          "title": "Coupe du monde 2026 : Lionel Messi fantomatique en finale, sur une pelouse où il avait déjà mis à terme à sa carrière internationale",
-          "translatedTitle": null,
-          "description": "En 2016, après une finale de Copa America perdue au MetLife Stadium de New York, Lionel Messi avait annoncé sa retraite internationale.",
-          "url": "https://www.franceinfo.fr/coupe-du-monde/coupe-du-monde-2026-lionel-messi-fantomatique-en-finale-sur-une-pelouse-ou-il-avait-deja-mis-a-terme-a-sa-carriere-internationale_8114447.html",
-          "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/coupe-du-monde-2026-lionel-messi-fantomatique-en-finale-sur-une-pelouse-ou-il-avait-deja-mis-a-terme-a-sa-carriere-internationale_8114447.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-07-19T22:29:25Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/fbHyNOxuBVnZ7bH6QWxcNlKYXb4/0x0:1024x576/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5d4f98ee3be653508427.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-20T01:46:49Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d9def2268519d0d24f93",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 5.47141,
-          "normalizedTitle": "coupe du monde 2026 lionel messi fantomatique en finale sur une pelouse où il avait déjà mis à terme à sa carrière internationale",
-          "sourceQuality": 1.0
         }
       ]
     },
@@ -545,7 +177,7 @@
       "clusterId": "49fad618ca5a1d7a5736",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.91857,
+      "rankingScore": 7.64094,
       "related": [
         {
           "id": "7acc656c0f608117de00cc5b",
@@ -612,6 +244,128 @@
       ]
     },
     {
+      "id": "d2f617daf7b8f1283f68b48c",
+      "title": "Kylian Mbappé finit meilleur buteur de la Coupe du monde 2026 et devient le meilleur de l'histoire devant Lionel Messi",
+      "translatedTitle": null,
+      "description": "Après cinq semaines d'intense bataille, Lionel Messi a dû s'incliner devant Kylian Mbappé dans la course au meilleur buteur de la compétition.",
+      "url": "https://www.franceinfo.fr/coupe-du-monde/infographie-lionel-messi-kylian-mbappe-suivez-l-intense-lutte-pour-le-statut-de-meilleur-buteur-de-la-coupe-du-monde-2026-et-de-toute-l-histoire-de-la-competition_8075294.html",
+      "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/infographie-lionel-messi-kylian-mbappe-suivez-l-intense-lutte-pour-le-statut-de-meilleur-buteur-de-la-coupe-du-monde-2026-et-de-toute-l-histoire-de-la-competition_8075294.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T08:55:22Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/cCtoLGcEz0MZDvrmVIFBLW_nsfc/0x49:3500x2018/432x243/filters:format(jpg):quality(50)/2026/06/23/6a3a53e108051866463745.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "99755ef88def82ca98a2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.53024,
+      "related": [
+        {
+          "id": "4896ed043136a145e6e03e91",
+          "title": "Coupe du monde 2026 : à Madrid, deux millions de personnes célèbrent le triomphe «mérité» de la Roja",
+          "translatedTitle": null,
+          "description": "REPORTAGE - Dans une ambiance familiale, les supporters ont accueilli leurs héros, vainqueurs en finale face à l’Argentine, dimanche soir.",
+          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-a-madrid-deux-millions-de-personnes-celebrent-le-triomphe-merite-de-la-roja-20260720",
+          "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-a-madrid-deux-millions-de-personnes-celebrent-le-triomphe-merite-de-la-roja-20260720",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-20T21:06:04Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/07/20/e6fd1c2d3a3febf53bf34c79b39cbbfaee5aaf95e7431528b378da57964955a2.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T21:33:32Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "99755ef88def82ca98a2",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "coupe du monde 2026 à madrid deux millions de personnes célèbrent le triomphe mérité de la roja"
+        },
+        {
+          "id": "cabe59e0a3441491cdaeee64",
+          "title": "Audiences : 12 millions de téléspectateurs devant la victoire de l’Espagne en finale de la Coupe du monde 2026",
+          "translatedTitle": null,
+          "description": "Les audiences du dimanche 19 juillet 2026 pour les programmes diffusés en première partie de soirée.",
+          "url": "https://tvmag.lefigaro.fr/programme-tv/audiences-tv/audiences-12-millions-de-telespectateurs-devant-la-victoire-de-l-espagne-en-finale-de-la-coupe-du-monde-2026-20260720",
+          "canonicalUrl": "https://tvmag.lefigaro.fr/programme-tv/audiences-tv/audiences-12-millions-de-telespectateurs-devant-la-victoire-de-l-espagne-en-finale-de-la-coupe-du-monde-2026-20260720",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "tvmag.lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-20T07:47:14Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/07/20/d0c0e593c5af66eaa6f76bd07b24a2019f02695b1d3f34cb413a0e4e65f3f3fc.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T15:11:15Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "99755ef88def82ca98a2",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "audiences 12 millions de téléspectateurs devant la victoire de l espagne en finale de la coupe du monde 2026"
+        },
+        {
+          "id": "f0d1c60988d41ad3796dceae",
+          "title": "Coupe du monde 2026 : Trump et Infantino sifflés lors de leur arrivée sur la pelouse pour la remise du trophée",
+          "translatedTitle": null,
+          "description": "Après la victoire de l’Espagne en finale du Mondial contre l’Argentine, Donald Trump et Gianni Infantino ont été sifflés lors de leur arrivée sur la pelouse.",
+          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-trump-et-infantino-siffles-lors-de-leur-arrivee-sur-la-pelouse-pour-la-remise-du-trophee-20260720",
+          "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-trump-et-infantino-siffles-lors-de-leur-arrivee-sur-la-pelouse-pour-la-remise-du-trophee-20260720",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-20T04:48:12Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/2998x1686_crop/2026/07/20/d82971ef074bd17d0efabd649ba77a6c41b9538c97505917e27a4a9e547b0f77.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T05:05:35Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "99755ef88def82ca98a2",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.71484,
+          "normalizedTitle": "coupe du monde 2026 trump et infantino sifflés lors de leur arrivée sur la pelouse pour la remise du trophée",
+          "sourceQuality": 1.0
+        }
+      ]
+    },
+    {
       "id": "4ec3c0e72d7a0b22780a1882",
       "title": "EN DIRECT, guerre en Ukraine : la région de Moscou visée par plus de 400 drones, « la plupart » interceptés, selon le maire de la capitale russe, Sergueï Sobianine",
       "translatedTitle": null,
@@ -631,14 +385,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "9034bd31693e8d29334d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.45131,
+      "rankingScore": 7.3915,
       "related": [
         {
           "id": "7086855cfe92bbd7c07e35aa",
@@ -674,6 +428,190 @@
       ]
     },
     {
+      "id": "f5f83baf5769c15fb4ec716e",
+      "title": "\"Ça fait peur\" : un incendie dans un camp de Roms à Nantes, 10 hectares brûlés, une cinquantaine d'habitations évacuées",
+      "translatedTitle": null,
+      "description": "Un incendie s’est déclaré dans un camp de Roms situé à la Prairie de Mauves, à Nantes, ce lundi 20 juillet en fin de journée. Les sapeurs-pompiers de Loire-Atlantique sont sur place. Le feu est fixé mais plusieurs riverains ont dû quitter leur domicile par précaution.",
+      "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/un-incendie-est-en-cours-dans-un-camp-de-roms-a-nantes-3389503.html",
+      "canonicalUrl": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/un-incendie-est-en-cours-dans-un-camp-de-roms-a-nantes-3389503.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "france3-regions.franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T20:49:15Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/WB_zH8bgEYp8jDH7804BbIghS3g/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e4fc331be2658119183.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T21:33:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c49f8afc8246ebf75526",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "c1c96c3c18c2b35ad19424e6",
+          "title": "Nantes : un incendie en cours dans un camp de Roms, des personnes évacuées et 10 hectares emportés par le feu",
+          "translatedTitle": null,
+          "description": "Un violent incendie s’est déclaré lundi soir dans le quartier Doulon-Bottière à Nantes, ravageant une dizaine d’hectares. Près de 150 pompiers ont été mobilisés et plusieurs habitants évacués.",
+          "url": "https://www.lefigaro.fr/nantes/nantes-un-incendie-en-cours-dans-un-camp-de-roms-des-personnes-evacuees-et-10-hectares-emportes-par-le-feu-20260720",
+          "canonicalUrl": "https://lefigaro.fr/nantes/nantes-un-incendie-en-cours-dans-un-camp-de-roms-des-personnes-evacuees-et-10-hectares-emportes-par-le-feu-20260720",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-20T20:16:59Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/07/20/5c02f34ad9975e350a18e9e2c77181347996f4f4372a915dee44ed5b8cfc3e82.JPG",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T20:17:37Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "c49f8afc8246ebf75526",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.74856,
+          "normalizedTitle": "nantes un incendie en cours dans un camp de roms des personnes évacuées et 10 hectares emportés par le feu",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 7.1515
+    },
+    {
+      "id": "1be043e8b199b28c9563f7df",
+      "title": "Guerre en Ukraine : au moins 14 personnes sont mortes lundi dans des frappes russes et ukrainiennes",
+      "translatedTitle": null,
+      "description": "Des bombardements ukrainiens ont fait au moins six morts dans la région russe de Belgorod, tandis qu'au moins huit personnes ont été tuées en Ukraine par plusieurs frappes russes, selon les autorités locales.",
+      "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-au-moins-14-personnes-sont-mortes-lundi-dans-des-frappes-russes-et-ukrainiennes_8115578.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-au-moins-14-personnes-sont-mortes-lundi-dans-des-frappes-russes-et-ukrainiennes_8115578.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T21:13:18Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/EHJpuSWQBERO2PJ89XPGBaMdWgA/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e8f2fd9e02846661353.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T21:33:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5487f8898a6f11ee1ed9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.14905
+    },
+    {
+      "id": "5c056becb64154bb61112b37",
+      "title": "Guerre au Moyen-Orient : les houthistes yéménites annoncent un blocus maritime de Riyad",
+      "translatedTitle": null,
+      "description": "Intervenant au neuvième jour consécutif d’hostilités entre les États-Unis et l’Iran, ces menaces «contre la liberté de navigation (...) risquent de mener à une escalade régionale encore plus grande», s’est inquiétée l’ONU.",
+      "url": "https://www.lefigaro.fr/international/guerre-au-moyen-orient-les-houthistes-yemenites-annoncent-un-blocus-maritime-de-riyad-20260720",
+      "canonicalUrl": "https://lefigaro.fr/international/guerre-au-moyen-orient-les-houthistes-yemenites-annoncent-un-blocus-maritime-de-riyad-20260720",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T20:42:49Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/07/20/0da5d272366c9da63d4b2d4971021c4776178bb2fe8839f2852a7871490a016e.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T21:33:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bf754c99abffc3ee91fc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.99896
+    },
+    {
+      "id": "ef5cb9e82fed5107794f1823",
+      "title": "EN DIRECT - Coupe du monde 2026 : les héros espagnols de retour en Espagne, la parade a commencé avec plus d’un million de personnes à Madrid",
+      "translatedTitle": null,
+      "description": "Journée de célébration(s) en vue en Espagne, mais aussi en Argentine, au lendemain d’une finale aussi peu spectaculaire qu’électrique.",
+      "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/en-direct-coupe-du-monde-2026-le-retour-des-heros-espagnols-la-presse-etrille-l-argentine-leandro-paredes-le-tres-mauvais-perdant-20260720",
+      "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/en-direct-coupe-du-monde-2026-le-retour-des-heros-espagnols-la-presse-etrille-l-argentine-leandro-paredes-le-tres-mauvais-perdant-20260720",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T20:06:03Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/2990x1682_crop/2026/07/20/61f1bd24984a073440fa778545425935bfaf20e4fcc03f2e251f23fc8dc135ac.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T20:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "39d015c984777cef36fe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.97871,
+      "related": [
+        {
+          "id": "c26d5ef1b34fac02a3fac3a0",
+          "title": "Les explosions de joie des supporters ont provoqué des ondes sismiques en Espagne lors de la finale de la Coupe du monde",
+          "translatedTitle": null,
+          "description": "Ces mouvements constituent un exemple de \"sismicité induite\" provoquée par l'activité humaine, en l'occurrence les sauts et cris des supporters après le but et le coup de sifflet final, ont expliqué des scientifiques.",
+          "url": "https://www.franceinfo.fr/coupe-du-monde/une-onde-sismique-enregistree-en-espagne-apres-le-but-de-ferran-torres-en-finale-de-la-coupe-du-monde_8115095.html",
+          "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/une-onde-sismique-enregistree-en-espagne-apres-le-but-de-ferran-torres-en-finale-de-la-coupe-du-monde_8115095.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-20T13:44:20Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/YDcIyVJaf5Gyt6T64gd92LTxD_A/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e1d8e8016a721567800.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T20:17:38Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "39d015c984777cef36fe",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 7.96843,
+          "normalizedTitle": "les explosions de joie des supporters ont provoqué des ondes sismiques en espagne lors de la finale de la coupe du monde",
+          "sourceQuality": 1.0
+        }
+      ]
+    },
+    {
       "id": "cfdfb8387e8e9f3f75da3f6f",
       "title": "Senegal changes course to back ex-leader Macky Sall as UN chief",
       "translatedTitle": null,
@@ -700,8 +638,252 @@
       "clusterId": "e65865056bf9477bacac",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.20399
+      "rankingScore": 6.87984,
+      "related": []
+    },
+    {
+      "id": "7e70d4f2f49b173a3e7e5d48",
+      "title": "On vous résume l'affaire des contrôles antidopage inopinés en pleine nuit ayant visé Tadej Pogacar et Jonas Vingegaard sur le Tour de France 2026",
+      "translatedTitle": null,
+      "description": "Les deux coureurs ont été réveillés, dans la nuit de samedi à dimanche, pour un contrôle inopiné avant le départ de la 15e étape.",
+      "url": "https://www.franceinfo.fr/tour-de-france/on-vous-resume-l-affaire-des-controles-antidopage-inopines-en-pleine-nuit-ayant-vise-tadej-pogacar-et-jonas-vingegaard-sur-le-tour-de-france-2026_8115230.html",
+      "canonicalUrl": "https://franceinfo.fr/tour-de-france/on-vous-resume-l-affaire-des-controles-antidopage-inopines-en-pleine-nuit-ayant-vise-tadej-pogacar-et-jonas-vingegaard-sur-le-tour-de-france-2026_8115230.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T16:17:20Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/EXVLZyCbG4XB4yLItFFFqekLWSM/0x0:1024x576/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e493da9ff9794750765.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T21:33:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b4a7cbde1de6051f2d18",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "0dd71bbe591eba6a8276e0c0",
+          "title": "Tour de France : le syndicat des coureurs prend la défense de Pogacar et Vingegaard, contrôlés en pleine nuit, et appelle à une lutte antidopage «toujours plus efficace»",
+          "translatedTitle": null,
+          "description": "Près de deux jours après les contrôlés antidopage nocturnes de Jonas Vingegaard et de Tadej Pogacar avant la 15e étape du Tour de France, le syndicat des coureurs professionnels (CPA) a dénoncé lundi cette pratique et appelé à un changement.",
+          "url": "https://www.lefigaro.fr/sports/cyclisme/tour-de-france/tour-de-france-le-syndicat-des-coureurs-prend-la-defense-de-pogacar-et-vingegaard-controles-en-pleine-nuit-et-appelle-a-une-lutte-antidopage-toujours-plus-efficace-20260720",
+          "canonicalUrl": "https://lefigaro.fr/sports/cyclisme/tour-de-france/tour-de-france-le-syndicat-des-coureurs-prend-la-defense-de-pogacar-et-vingegaard-controles-en-pleine-nuit-et-appelle-a-une-lutte-antidopage-toujours-plus-efficace-20260720",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-20T21:16:00Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/2996x1685_crop/2026/07/20/a7478b50baa20c342bb94b9ef5a6f8da1a83228b8420b9700668701d67d8f645.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T21:33:32Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "b4a7cbde1de6051f2d18",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "tour de france le syndicat des coureurs prend la défense de pogacar et vingegaard contrôlés en pleine nuit et appelle à une lutte antidopage toujours plus efficace"
+        },
+        {
+          "id": "dc8b41fa5d6c9222c855aa4a",
+          "title": "Tour de France : \"Je comprends la réaction des coureurs\", réagit Christian Prudhomme, après des contrôles antidopage en pleine nuit",
+          "translatedTitle": null,
+          "description": "Un mécontentement général a gagné le peloton, dimanche, après les contrôles en pleine nuit de Tadej Pogacar et Jonas Vingegaard.",
+          "url": "https://www.franceinfo.fr/tour-de-france/tour-de-france-je-comprends-la-reaction-des-coureurs-reagit-christian-prudhomme-apres-des-controles-antidopage-en-pleine-nuit_8114663.html",
+          "canonicalUrl": "https://franceinfo.fr/tour-de-france/tour-de-france-je-comprends-la-reaction-des-coureurs-reagit-christian-prudhomme-apres-des-controles-antidopage-en-pleine-nuit_8114663.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-20T05:25:54Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/aN5wtosLm6q-TbwZOD1R78lQLZ8/0x0:4528x2547/432x243/filters:format(jpg):quality(50)/2026/07/12/6a5373cb61746857349283.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T21:33:32Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "b4a7cbde1de6051f2d18",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "tour de france je comprends la réaction des coureurs réagit christian prudhomme après des contrôles antidopage en pleine nuit"
+        },
+        {
+          "id": "c4235af56c1b210cc347f1ce",
+          "title": "Coupe du monde 2026 : au bout du suspense et de l’ennui, l’Espagne sur le toit du monde",
+          "translatedTitle": null,
+          "description": "L’Espagne a eu raison de l’Argentine dimanche, en finale de la Coupe du monde, pour décrocher son deuxième sacre planétaire.",
+          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-au-bout-du-suspense-l-espagne-s-offre-une-deuxieme-etoile-face-a-l-argentine-20260720",
+          "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-au-bout-du-suspense-l-espagne-s-offre-une-deuxieme-etoile-face-a-l-argentine-20260720",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-20T04:59:29Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/07/20/73909de3d4434a8c1fca18d0b68e6edbe3a3800f20ad1745f40b78f8d57540ce.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T05:05:35Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "b4a7cbde1de6051f2d18",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "coupe du monde 2026 au bout du suspense et de l ennui l espagne sur le toit du monde"
+        },
+        {
+          "id": "2e4de807484ba310b7659a24",
+          "title": "Les buteurs au rendez-vous, l'omniprésence de Donald Trump, les prix exorbitants... Ce qu'on a aimé et moins aimé lors de la Coupe du monde 2026",
+          "translatedTitle": null,
+          "description": "La finale entre l'Espagne et l'Argentine a refermé dimanche le plus long Mondial de l'histoire et le premier organisé dans trois pays.",
+          "url": "https://www.franceinfo.fr/coupe-du-monde/les-buteurs-au-rendez-vous-l-omnipresence-de-donald-trump-les-prix-exorbitants-ce-qu-on-a-aime-et-moins-aime-lors-de-la-coupe-du-monde-2026_8110256.html",
+          "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/les-buteurs-au-rendez-vous-l-omnipresence-de-donald-trump-les-prix-exorbitants-ce-qu-on-a-aime-et-moins-aime-lors-de-la-coupe-du-monde-2026_8110256.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-20T04:20:01Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/P5jf_rcl0eHzC-FGhWs6N9YjFXE/0x0:5982x3364/432x243/filters:format(jpg):quality(50)/2026/07/19/6a5cfdb915c84607032819.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T05:05:35Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "b4a7cbde1de6051f2d18",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 7.49907,
+          "normalizedTitle": "les buteurs au rendez vous l omniprésence de donald trump les prix exorbitants ce qu on a aimé et moins aimé lors de la coupe du monde 2026",
+          "sourceQuality": 1.0
+        },
+        {
+          "id": "8c002056e4cde5a165ac7033",
+          "title": "L'Espagne s'offre une deuxième étoile en venant à bout de l'Argentine en finale de la Coupe du monde 2026",
+          "translatedTitle": null,
+          "description": "Au terme d'une finale cadenassée, Ferran Torres a libéré l'Espagne en prolongation, dimanche, à New York.",
+          "url": "https://www.franceinfo.fr/coupe-du-monde/l-espagne-s-offre-une-deuxieme-etoile-en-venant-a-bout-de-l-argentine-en-finale-de-la-coupe-du-monde-2026_8114348.html",
+          "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/l-espagne-s-offre-une-deuxieme-etoile-en-venant-a-bout-de-l-argentine-en-finale-de-la-coupe-du-monde-2026_8114348.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-19T22:51:26Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/SX-3v3Wo4kbDt0JZ_4xYCChtJAY/0x0:5843x3286/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5d548f7b024387148213.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T05:05:35Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "b4a7cbde1de6051f2d18",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 7.32795,
+          "normalizedTitle": "l espagne s offre une deuxième étoile en venant à bout de l argentine en finale de la coupe du monde 2026",
+          "sourceQuality": 1.0
+        },
+        {
+          "id": "53c1f256f589f0f8ee8e0578",
+          "title": "Coupe du monde 2026 : l'Espagnol Rodri élu meilleur joueur du tournoi",
+          "translatedTitle": null,
+          "description": "Le milieu de terrain espagnol, Rodri, a été élu meilleur joueur de la Coupe du monde 2026 après le sacre de la Roja.",
+          "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-l-espagnol-rodri-elu-meilleur-joueur-du-tournoi-20260720",
+          "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-l-espagnol-rodri-elu-meilleur-joueur-du-tournoi-20260720",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-19T22:48:23Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/2333x1600_crop/2026/07/20/fc86cc9154be9dd04f5ad529adfb53ef1ee1ee352759bf4924631e3defc95011.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T05:05:35Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "b4a7cbde1de6051f2d18",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "coupe du monde 2026 l espagnol rodri élu meilleur joueur du tournoi"
+        },
+        {
+          "id": "59c34003fa15a312a025f28a",
+          "title": "Coupe du monde 2026 : Lionel Messi fantomatique en finale, sur une pelouse où il avait déjà mis à terme à sa carrière internationale",
+          "translatedTitle": null,
+          "description": "En 2016, après une finale de Copa America perdue au MetLife Stadium de New York, Lionel Messi avait annoncé sa retraite internationale.",
+          "url": "https://www.franceinfo.fr/coupe-du-monde/coupe-du-monde-2026-lionel-messi-fantomatique-en-finale-sur-une-pelouse-ou-il-avait-deja-mis-a-terme-a-sa-carriere-internationale_8114447.html",
+          "canonicalUrl": "https://franceinfo.fr/coupe-du-monde/coupe-du-monde-2026-lionel-messi-fantomatique-en-finale-sur-une-pelouse-ou-il-avait-deja-mis-a-terme-a-sa-carriere-internationale_8114447.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-07-19T22:29:25Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/fbHyNOxuBVnZ7bH6QWxcNlKYXb4/0x0:1024x576/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5d4f98ee3be653508427.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T01:46:49Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "b4a7cbde1de6051f2d18",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.47141,
+          "normalizedTitle": "coupe du monde 2026 lionel messi fantomatique en finale sur une pelouse où il avait déjà mis à terme à sa carrière internationale",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 6.68152
     },
     {
       "id": "608ad12c2fa5ca29fde4d33a",
@@ -730,67 +912,7 @@
       "clusterId": "e5c5a668e6655c7b2901",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.95746,
-      "related": []
-    },
-    {
-      "id": "1663b69566f27f4bc5ed5266",
-      "title": "Two French diplomats subjected to ‘extremely serious act of intimidation’ in Iran, FM Barrot says",
-      "translatedTitle": null,
-      "description": "France’s Foreign Minister Jean-Noël Barrot on Monday said two French embassy officials had been subject to an “extremely serious act of intimidation” by Iranian security services in Iran the day before, having been held and interrogated for hours. One of them was also subjected to physical abuse, he said.",
-      "url": "https://www.france24.com/en/france/20260720-two-french-diplomats-subjected-extremely-serious-intimidation-iran-fm-says",
-      "canonicalUrl": "https://france24.com/en/france/20260720-two-french-diplomats-subjected-extremely-serious-intimidation-iran-fm-says",
-      "sourceName": "France 24",
-      "sourceDomain": "s.france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-20T16:14:22Z",
-      "imageUrl": "https://s.france24.com/media/display/19c638f4-bf64-11f0-b39c-005056a90284/w:1024/p:16x9/AP25282669795015.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1983c677148fc580dac7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.83621,
-      "related": []
-    },
-    {
-      "id": "9ecf5b3623a9bdcc687ea79c",
-      "title": "Fears over Gulf shipping and water rise as US-Iran trade strikes",
-      "translatedTitle": null,
-      "description": "The United States and Iran have continued to exchange fire on July 20th, raising fears for Gulf shipping and water supplies in the region. After Kuwait reported Iranian attacks on water and electricity plants as well as oil facilities over the weekend, Bahrain said Iran this Monday, July 20th attacked civil air navigation systems. Despite this, Tehran says communication with Washington remains active through diplomatic channels.",
-      "url": "https://www.france24.com/en/video/20260720-fears-over-gulf-shipping-and-water-rise-as-us-iran-trade-strikes",
-      "canonicalUrl": "https://france24.com/en/video/20260720-fears-over-gulf-shipping-and-water-rise-as-us-iran-trade-strikes",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-20T15:36:40Z",
-      "imageUrl": "https://s.france24.com/media/display/d4e3f3ec-844e-11f1-b38b-005056bfb2b6/w:1024/p:16x9/capture-16960121806a5e3d397a8106-30664656.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "02beea131c95a4a00834",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.77596,
+      "rankingScore": 6.65004,
       "related": []
     },
     {
@@ -813,14 +935,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T18:20:45Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "05ab99dd5c73660497df",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.75863,
+      "rankingScore": 6.63249,
       "related": []
     },
     {
@@ -843,14 +965,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "fd022b3e6fddecf02e64",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.71708,
+      "rankingScore": 6.59986,
       "related": []
     },
     {
@@ -880,8 +1002,130 @@
       "clusterId": "1cbb41addf805b6a952a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.68182,
+      "rankingScore": 6.56089,
       "related": []
+    },
+    {
+      "id": "1663b69566f27f4bc5ed5266",
+      "title": "Two French diplomats subjected to ‘extremely serious act of intimidation’ in Iran, FM Barrot says",
+      "translatedTitle": null,
+      "description": "France’s Foreign Minister Jean-Noël Barrot on Monday said two French embassy officials had been subject to an “extremely serious act of intimidation” by Iranian security services in Iran the day before, having been held and interrogated for hours. One of them was also subjected to physical abuse, he said.",
+      "url": "https://www.france24.com/en/france/20260720-two-french-diplomats-subjected-extremely-serious-intimidation-iran-fm-says",
+      "canonicalUrl": "https://france24.com/en/france/20260720-two-french-diplomats-subjected-extremely-serious-intimidation-iran-fm-says",
+      "sourceName": "France 24",
+      "sourceDomain": "s.france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-20T16:14:22Z",
+      "imageUrl": "https://s.france24.com/media/display/19c638f4-bf64-11f0-b39c-005056a90284/w:1024/p:16x9/AP25282669795015.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T20:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1983c677148fc580dac7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.53702,
+      "related": []
+    },
+    {
+      "id": "9ecf5b3623a9bdcc687ea79c",
+      "title": "Fears over Gulf shipping and water rise as US-Iran trade strikes",
+      "translatedTitle": null,
+      "description": "The United States and Iran have continued to exchange fire on July 20th, raising fears for Gulf shipping and water supplies in the region. After Kuwait reported Iranian attacks on water and electricity plants as well as oil facilities over the weekend, Bahrain said Iran this Monday, July 20th attacked civil air navigation systems. Despite this, Tehran says communication with Washington remains active through diplomatic channels.",
+      "url": "https://www.france24.com/en/video/20260720-fears-over-gulf-shipping-and-water-rise-as-us-iran-trade-strikes",
+      "canonicalUrl": "https://france24.com/en/video/20260720-fears-over-gulf-shipping-and-water-rise-as-us-iran-trade-strikes",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-20T15:36:40Z",
+      "imageUrl": "https://s.france24.com/media/display/d4e3f3ec-844e-11f1-b38b-005056bfb2b6/w:1024/p:16x9/capture-16960121806a5e3d397a8106-30664656.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T20:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "02beea131c95a4a00834",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.48086,
+      "related": []
+    },
+    {
+      "id": "00101fd7ff2a12cf65ed57d0",
+      "title": "Le Hamas annonce l'élection de Khalil al-Hayya comme nouveau chef du mouvement",
+      "translatedTitle": null,
+      "description": "Sa candidature a reçu un soutien quasi unanime, de Gaza comme de l'étranger, selon un haut responsable du mouvement islamiste palestinien.",
+      "url": "https://www.franceinfo.fr/monde/palestine/gaza/le-hamas-annonce-l-election-de-khalil-al-hayya-comme-nouveau-chef-du-mouvement_8115125.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/palestine/gaza/le-hamas-annonce-l-election-de-khalil-al-hayya-comme-nouveau-chef-du-mouvement_8115125.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T13:38:47Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/BLJYRiWbUa651Qd0jFY0WtsIEn8/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e2227cd0f4571213330.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e3bbaac84ded6a1e3de2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "c5469cacc0872cc61360872c",
+          "title": "Who is Khalil al-Hayya, Hamas’s new leader?",
+          "translatedTitle": null,
+          "description": "Hamas on Monday named Khalil al-Hayya, one of the founding members of the Palestinian militant group, as its new leader. Hayya is seen as a respected and pragmatic Hamas veteran “who doesn’t get carried away easily”. Last year, he survived an Israeli attack in Doha targeting the Hamas leadership which left several people dead, including one of his sons.",
+          "url": "https://www.france24.com/en/middle-east/20260720-who-is-khalil-al-hayya-hamas-s-new-leader",
+          "canonicalUrl": "https://france24.com/en/middle-east/20260720-who-is-khalil-al-hayya-hamas-s-new-leader",
+          "sourceName": "France 24",
+          "sourceDomain": "s.france24.com",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-20T14:05:17Z",
+          "imageUrl": "https://s.france24.com/media/display/34b4e08e-a547-11f0-9061-005056a97e36/w:1024/p:16x9/AP25015795253955.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-20T20:17:37Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e3bbaac84ded6a1e3de2",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 8.03836,
+          "normalizedTitle": "who is khalil al hayya hamas s new leader",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 6.45739
     },
     {
       "id": "d0f64ae48f691e33c80ecd43",
@@ -910,8 +1154,8 @@
       "clusterId": "10f9999a9a0e1dd1e6fc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.67715
+      "rankingScore": 6.38876,
+      "related": []
     },
     {
       "id": "054a9e72e6d417cd96d9245a",
@@ -940,37 +1184,7 @@
       "clusterId": "a312dce02d9c19d88ec7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.65126
-    },
-    {
-      "id": "44c28e68d3f4174836761105",
-      "title": "At least six dead after earthquake hits Peru's Andes",
-      "translatedTitle": null,
-      "description": "In the Andes, a 5.5 magnitude earthquake has hit Peru. At least six people died in the quake and more than 30 have been injured, according to local authorities. Damage was compounded by the area's rustic constructions - adding to that that the earthquake's epicenter was close to the surface.",
-      "url": "https://www.france24.com/en/at-least-six-dead-after-earthquake-hits-peru-s-andes",
-      "canonicalUrl": "https://france24.com/en/at-least-six-dead-after-earthquake-hits-peru-s-andes",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-20T11:54:23Z",
-      "imageUrl": "https://s.france24.com/media/display/343ef74a-8398-11f1-98c7-005056bfb2b6/w:1024/p:16x9/AP26200582193077.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "67f3ce62b5aed6ef2a74",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.46048,
+      "rankingScore": 6.36462,
       "related": []
     },
     {
@@ -993,14 +1207,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "5e0d2c953a97d3556f95",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.2712,
+      "rankingScore": 6.19986,
       "related": [
         {
           "id": "e6621d99b25eb70fbc26904d",
@@ -1022,7 +1236,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-07-20T20:17:38Z",
+          "retrievedAt": "2026-07-20T21:33:32Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -1066,6 +1280,36 @@
       ]
     },
     {
+      "id": "44c28e68d3f4174836761105",
+      "title": "At least six dead after earthquake hits Peru's Andes",
+      "translatedTitle": null,
+      "description": "In the Andes, a 5.5 magnitude earthquake has hit Peru. At least six people died in the quake and more than 30 have been injured, according to local authorities. Damage was compounded by the area's rustic constructions - adding to that that the earthquake's epicenter was close to the surface.",
+      "url": "https://www.france24.com/en/at-least-six-dead-after-earthquake-hits-peru-s-andes",
+      "canonicalUrl": "https://france24.com/en/at-least-six-dead-after-earthquake-hits-peru-s-andes",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-20T11:54:23Z",
+      "imageUrl": "https://s.france24.com/media/display/343ef74a-8398-11f1-98c7-005056bfb2b6/w:1024/p:16x9/AP26200582193077.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T20:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "67f3ce62b5aed6ef2a74",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.18679,
+      "related": []
+    },
+    {
       "id": "e4fce7cfb202db938c928853",
       "title": "US strikes Iran for ninth consecutive day as more ships targeted in Strait of Hormuz",
       "translatedTitle": null,
@@ -1092,8 +1336,38 @@
       "clusterId": "a21bce1f4f9de4f0bab1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.17238,
+      "rankingScore": 6.08603,
       "related": []
+    },
+    {
+      "id": "ce9f26bfdcfcbd94e17d2f60",
+      "title": "Un soldat américain est mort en Irak samedi, le troisième tué en deux jours au Moyen-Orient",
+      "translatedTitle": null,
+      "description": "Vendredi, des frappes iraniennes contre une base en Jordanie avaient tué au moins deux Américains. Les Etats-Unis avaient lancé une puissante réplique.",
+      "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/un-troisieme-soldat-americain-mort-durant-le-week-end-au-moyen-orient_8114816.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/un-troisieme-soldat-americain-mort-durant-le-week-end-au-moyen-orient_8114816.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T08:44:11Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/elE3h6_OyfLNNfnF-bBFzj7xDrc/0x0:1022x575/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5ddf4a23ad0882097116.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T21:33:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "096d0b3ef1b0a632edb4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.06901
     },
     {
       "id": "421493b01bc3487749b2b66c",
@@ -1122,7 +1396,7 @@
       "clusterId": "558dd65c39a5b35ce1c8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.10676,
+      "rankingScore": 6.02486,
       "related": []
     },
     {
@@ -1152,7 +1426,7 @@
       "clusterId": "2cd2b279c7a17a633fd3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.88296,
+      "rankingScore": 5.81965,
       "related": [
         {
           "id": "454e61cfe4110b998778437a",
@@ -1218,34 +1492,94 @@
       ]
     },
     {
-      "id": "381867e6c49d28f8e717544d",
-      "title": "Spain PM Sanchez visits Algeria for first time in four years as ties thaw",
+      "id": "250e1cd531dda32b999a16ae",
+      "title": "Bébés mort-nés, mères grièvement blessées… En Angleterre, les défaillances des maternités au cœur d'un scandale national",
       "translatedTitle": null,
-      "description": "Spain’s Prime Minister Pedro Sanchez on Monday visited Algeria for the first time in four years in a bid to mend diplomatic ties between the two countries after they were frayed by a row over Western Sahara. In 2022, Madrid abandoned its neutrality stance over the disputed territory and backed Morocco’s sovereignty claim, angering Algiers. The thaw began last year, when Algeria reactivated a friendship treaty it had suspended over the dispute.",
-      "url": "https://www.france24.com/en/africa/20260720-spain-pm-sanchez-visits-algeria-first-time-four-years-ties-thaw",
-      "canonicalUrl": "https://france24.com/en/africa/20260720-spain-pm-sanchez-visits-algeria-first-time-four-years-ties-thaw",
-      "sourceName": "France 24",
-      "sourceDomain": "s.france24.com",
+      "description": "En Angleterre, les scandales se succèdent dans les maternités. Des bébés mort-nés, des mères grièvement blessées, des familles qui racontent ne pas avoir été écoutées… Un problème qui dépasse quelques établissements : sur les dernières maternités inspectées, deux sur trois présentent de sérieuses insuffisances. Beaucoup dénoncent désormais un scandale national.",
+      "url": "https://www.franceinfo.fr/sante/bebes-mort-nes-meres-grievement-blessees-en-angleterre-les-defaillances-des-maternites-au-c-ur-d-un-scandale-national_8115566.html",
+      "canonicalUrl": "https://franceinfo.fr/sante/bebes-mort-nes-meres-grievement-blessees-en-angleterre-les-defaillances-des-maternites-au-c-ur-d-un-scandale-national_8115566.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
-      "language": "en",
-      "publishedAt": "2026-07-20T19:49:50Z",
-      "imageUrl": "https://s.france24.com/media/display/cb902b00-846f-11f1-9e15-005056bf30b7/w:1024/p:16x9/2026-07-20T000000Z-1949506916-MT1IMGOST0006HCIFE-RTRMADP-3-IMAGO-IMAGES.jpg",
+      "language": "fr",
+      "publishedAt": "2026-07-20T20:56:59Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/ybFzJlywDURsvLYvLwdIPiY84WU/0x7:1332x757/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e8b6bb37d4961577302.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ad916270beab5e39af02",
+      "clusterId": "3085f973c5c159a0317f",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.87398
+      "rankingScore": 5.76668
+    },
+    {
+      "id": "5af9f9832e8444ba8cfbff7a",
+      "title": "Une tempête au Chili fait au moins cinq morts et d'importants dégâts, l'état de catastrophe décrété dans le nord du pays",
+      "translatedTitle": null,
+      "description": "Ces intempéries, d'une ampleur inédite, ont fait au moins cinq morts, quatre disparus et détruit ou gravement endommagé plus de 1 100 habitations, selon un premier bilan des autorités.",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/tempetes/une-tempete-au-chili-fait-au-moins-quatre-morts-et-d-importants-degats-l-etat-de-catastrophe-decrete-dans-le-nord-du-pays_8115554.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/tempetes/une-tempete-au-chili-fait-au-moins-quatre-morts-et-d-importants-degats-l-etat-de-catastrophe-decrete-dans-le-nord-du-pays_8115554.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T20:41:05Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/pm_94Oc5yfq7no3VWJxVlNK21eA/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e86e7244e6442960455.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T21:33:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "216285c65e2289eb8f2b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.7356
+    },
+    {
+      "id": "b09d2d0f61d5fe2aa5de1ae6",
+      "title": "Trump impose 50% de droits de douane supplémentaires sur une série de produits canadiens",
+      "translatedTitle": null,
+      "description": "Ces nouveaux droits de douane, qui doivent entrer en vigueur dans un mois, s’appliqueront à des produits aussi variés que le vin, les crosses de hockey ou encore le ciment.",
+      "url": "https://www.lefigaro.fr/conjoncture/trump-impose-50-de-droits-de-douane-supplementaires-sur-une-serie-de-produits-canadiens-20260720",
+      "canonicalUrl": "https://lefigaro.fr/conjoncture/trump-impose-50-de-droits-de-douane-supplementaires-sur-une-serie-de-produits-canadiens-20260720",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T21:19:43Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/2728x1819_crop/2026/07/20/5d418bb0bb338e8cba1140c4382ee03692a968cf6d798eff2b183e60ad71ede1.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T21:33:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "81e4f4486d043d93ec02",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.72192
     },
     {
       "id": "678e959d358c29415858e32b",
@@ -1267,15 +1601,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "6c12cb3d5ca8ea87f6fc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80673
+      "rankingScore": 5.65968,
+      "related": []
     },
     {
       "id": "f65740246111ca42f766d35b",
@@ -1297,15 +1631,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "1aa201e6eb5f5d37e4c1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80152
+      "rankingScore": 5.65483,
+      "related": []
     },
     {
       "id": "07ad66e06c1fa441a55e4e18",
@@ -1327,53 +1661,23 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "68c8c1ae6f93a429620e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.79499,
+      "rankingScore": 5.64874,
       "related": []
     },
     {
-      "id": "d4bd8d02674c200eb5fd1d07",
-      "title": "'Labour thinks it has responsibility to prevent the rise of Reform UK', historian says",
+      "id": "5968a3db0aad78654e533ad9",
+      "title": "Smartphones du futur, robots de combat, interfaces neuronales de pointe... Les folles technologies du salon mondial de l’IA en Chine",
       "translatedTitle": null,
-      "description": "Speaking with FRANCE 24's Sharon Gaffney, Martin Farr, Senior Lecturer in Contemporary British History at Newcastle University, explains that \"the Labour Party members and its MPs think that it's their responsibility to prevent\" the rise to power of right-wing populist party Reform UK, and that has motivated the decision to replace Keir Starmer with Andy Burnham at 10 Downing Street.",
-      "url": "https://www.france24.com/en/labour-thinks-it-has-responsibility-to-prevent-the-rise-of-reform-uk-historian-says",
-      "canonicalUrl": "https://france24.com/en/labour-thinks-it-has-responsibility-to-prevent-the-rise-of-reform-uk-historian-says",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-20T18:47:30Z",
-      "imageUrl": "https://s.france24.com/media/display/79bdd8c8-8469-11f1-9e15-005056a97e36/w:1024/p:16x9/EN-20260720-200952-201931-CS.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5e61052bf802d17ddc73",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.75374
-    },
-    {
-      "id": "c1c96c3c18c2b35ad19424e6",
-      "title": "Nantes : un incendie en cours dans un camp de Roms, des personnes évacuées et 10 hectares emportés par le feu",
-      "translatedTitle": null,
-      "description": "Un violent incendie s’est déclaré lundi soir dans le quartier Doulon-Bottière à Nantes, ravageant une dizaine d’hectares. Près de 150 pompiers ont été mobilisés et plusieurs habitants évacués.",
-      "url": "https://www.lefigaro.fr/nantes/nantes-un-incendie-en-cours-dans-un-camp-de-roms-des-personnes-evacuees-et-10-hectares-emportes-par-le-feu-20260720",
-      "canonicalUrl": "https://lefigaro.fr/nantes/nantes-un-incendie-en-cours-dans-un-camp-de-roms-des-personnes-evacuees-et-10-hectares-emportes-par-le-feu-20260720",
+      "description": "DÉCRYPTAGE - Face à l’hégémonie américaine dans le secteur de l’intelligence artificielle, la Chine a axé son sommet international sur l’accessibilité et les technologies grand public.",
+      "url": "https://www.lefigaro.fr/secteur/high-tech/smartphones-du-futur-robots-de-combat-interfaces-neuronales-de-pointe-les-folles-technologies-du-salon-mondial-de-l-ia-en-chine-20260720",
+      "canonicalUrl": "https://lefigaro.fr/secteur/high-tech/smartphones-du-futur-robots-de-combat-interfaces-neuronales-de-pointe-les-folles-technologies-du-salon-mondial-de-l-ia-en-chine-20260720",
       "sourceName": "Le Figaro",
       "sourceDomain": "lefigaro.fr",
       "sourceCountry": "FR",
@@ -1382,20 +1686,20 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-07-20T20:16:59Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/07/20/5c02f34ad9975e350a18e9e2c77181347996f4f4372a915dee44ed5b8cfc3e82.JPG",
+      "publishedAt": "2026-07-20T20:19:22Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/07/20/05e421b0b0730f304fedaef4ef9e82a89f148b941e514f597e1763a437b69487.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "67e8d98df25d076be9a7",
+      "clusterId": "25d335e738424539917c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.74856
+      "rankingScore": 5.60388
     },
     {
       "id": "832f58ccd15dd8bb45555df5",
@@ -1424,26 +1728,26 @@
       "clusterId": "25b4df08ec62d74bd4ef",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70353
+      "rankingScore": 5.55738,
+      "related": []
     },
     {
-      "id": "38cd69c58c2c93f648530c87",
-      "title": "Didier Deschamps a dîné avec Emmanuel Macron à l’Élysée dimanche",
+      "id": "381867e6c49d28f8e717544d",
+      "title": "Spain PM Sanchez visits Algeria for first time in four years as ties thaw",
       "translatedTitle": null,
-      "description": "De retour en France dimanche après la défaite contre l’Angleterre lors de la «petite finale» samedi, le sélectionneur des Bleus a été reçu par le président de la République.",
-      "url": "https://www.lefigaro.fr/sports/football/equipe-de-france/didier-deschamps-a-dine-avec-emmanuel-macron-a-l-elysee-dimanche-20260720",
-      "canonicalUrl": "https://lefigaro.fr/sports/football/equipe-de-france/didier-deschamps-a-dine-avec-emmanuel-macron-a-l-elysee-dimanche-20260720",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
+      "description": "Spain’s Prime Minister Pedro Sanchez on Monday visited Algeria for the first time in four years in a bid to mend diplomatic ties between the two countries after they were frayed by a row over Western Sahara. In 2022, Madrid abandoned its neutrality stance over the disputed territory and backed Morocco’s sovereignty claim, angering Algiers. The thaw began last year, when Algeria reactivated a friendship treaty it had suspended over the dispute.",
+      "url": "https://www.france24.com/en/africa/20260720-spain-pm-sanchez-visits-algeria-first-time-four-years-ties-thaw",
+      "canonicalUrl": "https://france24.com/en/africa/20260720-spain-pm-sanchez-visits-algeria-first-time-four-years-ties-thaw",
+      "sourceName": "France 24",
+      "sourceDomain": "s.france24.com",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T19:48:03Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x1967_crop/2026/07/20/81a5dbafa6c4496a56dda4c9459d8ff9e8461e94725f4ab3e2ce29873b267bf8.jpg",
+      "language": "en",
+      "publishedAt": "2026-07-20T19:49:50Z",
+      "imageUrl": "https://s.france24.com/media/display/cb902b00-846f-11f1-9e15-005056bf30b7/w:1024/p:16x9/2026-07-20T000000Z-1949506916-MT1IMGOST0006HCIFE-RTRMADP-3-IMAGO-IMAGES.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
@@ -1451,11 +1755,11 @@
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "cfe80bc049b3827e22d5",
+      "clusterId": "ad916270beab5e39af02",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69044
+      "rankingScore": 5.54848,
+      "related": []
     },
     {
       "id": "1dc59ef786be4f43ceb4d79f",
@@ -1477,113 +1781,23 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "aeba8fa0f1e57ae9025b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68699
+      "rankingScore": 5.54806,
+      "related": []
     },
     {
-      "id": "b516dda69c6a5cc1532ecc61",
-      "title": "L'obligation vaccinale contre la grippe recommandée par la HAS \"est une bonne chose\" pour le Syndicat national des professionnels infirmiers",
+      "id": "38cd69c58c2c93f648530c87",
+      "title": "Didier Deschamps a dîné avec Emmanuel Macron à l’Élysée dimanche",
       "translatedTitle": null,
-      "description": "Le porte-parole du syndicat, Thierry Amouroux, est favorable à l'obligation et souhaite aussi que l'accès à cette vaccination soit facilitée.",
-      "url": "https://www.franceinfo.fr/sante/l-obligation-vaccinale-contre-la-grippe-recommandee-par-la-has-est-une-bonne-chose-pour-le-syndicat-national-des-professionnels-infirmiers_8115509.html",
-      "canonicalUrl": "https://franceinfo.fr/sante/l-obligation-vaccinale-contre-la-grippe-recommandee-par-la-has-est-une-bonne-chose-pour-le-syndicat-national-des-professionnels-infirmiers_8115509.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T18:40:29Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/wLco6vIjE7KZoyNmckdP2upuXRA/0x130:2500x1537/432x243/filters:format(jpg):quality(50)/2026/05/05/69f976a29f0f8281346234.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9b924ab112e034211878",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65064
-    },
-    {
-      "id": "9cf21a3605226e442dc45934",
-      "title": "Incendies : près de 40 000 hectares partis en fumée en France depuis le début de l'année",
-      "translatedTitle": null,
-      "description": "Les pompiers ont combattu le feu sur plusieurs fronts, lundi 20 juillet. Depuis début 2026, les incendies ont déjà ravagé près de 40 000 hectares en France. Un chiffre plus élevé que sur toute l'année dernière.",
-      "url": "https://www.franceinfo.fr/faits-divers/incendie/incendies-pres-de-40-000-hectares-partis-en-fumee-en-france-depuis-le-debut-de-l-annee_8115506.html",
-      "canonicalUrl": "https://franceinfo.fr/faits-divers/incendie/incendies-pres-de-40-000-hectares-partis-en-fumee-en-france-depuis-le-debut-de-l-annee_8115506.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T18:31:13Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/I1FUqrk25rn0wiVnBO5B93J8bMg/0x4:1106x627/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e688411ad8349213773.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6777b03871bb00c47aae",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.63346
-    },
-    {
-      "id": "ee130b5c9f5aec73e65b787e",
-      "title": "Incendies dans le Var : le feu à Taradeau et aux Arcs désormais \"fixé\" mais \"la vigilance reste de mise\", indique la préfecture",
-      "translatedTitle": null,
-      "description": "Pour contenir le feu, les pompiers ont notamment créé \"une barrière de retardant d'1,5 km\" en utilisant un avion Dash.",
-      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-dans-le-var-le-feu-a-taradeau-et-aux-arcs-desormais-fixe-mais-la-vigilance-reste-de-mise-indique-la-prefecture_8115503.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-dans-le-var-le-feu-a-taradeau-et-aux-arcs-desormais-fixe-mais-la-vigilance-reste-de-mise-indique-la-prefecture_8115503.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T18:15:44Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/NNaq7LhtVd0sY_yzPxZfkz7uJLI/0x209:4027x2475/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e65b22ef36603756319.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ac96eda26a6c374fb912",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60508
-    },
-    {
-      "id": "f34786a09520b570ccafccb5",
-      "title": "L’incroyable découverte d’une « règle d’or » mathématique cachée dans les œuvres d’art abstraites",
-      "translatedTitle": null,
-      "description": "DÉCRYPTAGE - Des chercheurs ont comparé des toiles produites par des artistes humains à des œuvres de même style générées par IA, avec des différences notables. Ils constatent aussi des propriétés assez proches - mais cachées - dans des œuvres produites par différents artistes.",
-      "url": "https://www.lefigaro.fr/sciences/decouverte-inattendue-d-une-regle-d-or-mathematique-cachee-dans-les-oeuvres-d-art-abstraites-20260522",
-      "canonicalUrl": "https://lefigaro.fr/sciences/decouverte-inattendue-d-une-regle-d-or-mathematique-cachee-dans-les-oeuvres-d-art-abstraites-20260522",
+      "description": "De retour en France dimanche après la défaite contre l’Angleterre lors de la «petite finale» samedi, le sélectionneur des Bleus a été reçu par le président de la République.",
+      "url": "https://www.lefigaro.fr/sports/football/equipe-de-france/didier-deschamps-a-dine-avec-emmanuel-macron-a-l-elysee-dimanche-20260720",
+      "canonicalUrl": "https://lefigaro.fr/sports/football/equipe-de-france/didier-deschamps-a-dine-avec-emmanuel-macron-a-l-elysee-dimanche-20260720",
       "sourceName": "Le Figaro",
       "sourceDomain": "lefigaro.fr",
       "sourceCountry": "FR",
@@ -1592,20 +1806,20 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-07-20T19:02:20Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/1890x1063_crop/2026/07/20/8cb00c364bc1ffd51bc1ca47b07b5d36605d474dc439613c017a15cc175b1a74.jpg",
+      "publishedAt": "2026-07-20T19:48:03Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x1967_crop/2026/07/20/81a5dbafa6c4496a56dda4c9459d8ff9e8461e94725f4ab3e2ce29873b267bf8.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "66a9185ec40423a6f672",
+      "clusterId": "cfe80bc049b3827e22d5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60173
+      "rankingScore": 5.54518,
+      "related": []
     },
     {
       "id": "24c7d52f193577e2a1a9d698",
@@ -1634,7 +1848,157 @@
       "clusterId": "fed1745baea9afb35bf2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.58868,
+      "rankingScore": 5.54194,
+      "related": []
+    },
+    {
+      "id": "53a1931481912a4363b9fbf9",
+      "title": "Middle East live: US launches strikes to 'punish' Iran after troops killed",
+      "translatedTitle": null,
+      "description": "The United States began a new round of airstrikes early Monday targeting Iran after announcing the death of another American service member, and Iran fired missiles toward Jordan that risked widening the conflict into neighboring Israel. Follow our liveblog for the latest updates.",
+      "url": "https://www.france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed",
+      "canonicalUrl": "https://france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed",
+      "sourceName": "France 24",
+      "sourceDomain": "s.france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-19T22:47:08Z",
+      "imageUrl": "https://s.france24.com/media/display/15fbb27a-83c3-11f1-aa48-005056a97e36/w:1024/p:16x9/AP26194774981470.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T05:00:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "28fbb82bb1532f23da60",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.52078,
+      "related": []
+    },
+    {
+      "id": "b516dda69c6a5cc1532ecc61",
+      "title": "L'obligation vaccinale contre la grippe recommandée par la HAS \"est une bonne chose\" pour le Syndicat national des professionnels infirmiers",
+      "translatedTitle": null,
+      "description": "Le porte-parole du syndicat, Thierry Amouroux, est favorable à l'obligation et souhaite aussi que l'accès à cette vaccination soit facilitée.",
+      "url": "https://www.franceinfo.fr/sante/l-obligation-vaccinale-contre-la-grippe-recommandee-par-la-has-est-une-bonne-chose-pour-le-syndicat-national-des-professionnels-infirmiers_8115509.html",
+      "canonicalUrl": "https://franceinfo.fr/sante/l-obligation-vaccinale-contre-la-grippe-recommandee-par-la-has-est-une-bonne-chose-pour-le-syndicat-national-des-professionnels-infirmiers_8115509.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T18:40:29Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/wLco6vIjE7KZoyNmckdP2upuXRA/0x130:2500x1537/432x243/filters:format(jpg):quality(50)/2026/05/05/69f976a29f0f8281346234.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T21:33:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9b924ab112e034211878",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.51418,
+      "related": []
+    },
+    {
+      "id": "9cf21a3605226e442dc45934",
+      "title": "Incendies : près de 40 000 hectares partis en fumée en France depuis le début de l'année",
+      "translatedTitle": null,
+      "description": "Les pompiers ont combattu le feu sur plusieurs fronts, lundi 20 juillet. Depuis début 2026, les incendies ont déjà ravagé près de 40 000 hectares en France. Un chiffre plus élevé que sur toute l'année dernière.",
+      "url": "https://www.franceinfo.fr/faits-divers/incendie/incendies-pres-de-40-000-hectares-partis-en-fumee-en-france-depuis-le-debut-de-l-annee_8115506.html",
+      "canonicalUrl": "https://franceinfo.fr/faits-divers/incendie/incendies-pres-de-40-000-hectares-partis-en-fumee-en-france-depuis-le-debut-de-l-annee_8115506.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T18:31:13Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/I1FUqrk25rn0wiVnBO5B93J8bMg/0x4:1106x627/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e688411ad8349213773.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T21:33:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6777b03871bb00c47aae",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.49817,
+      "related": []
+    },
+    {
+      "id": "ee130b5c9f5aec73e65b787e",
+      "title": "Incendies dans le Var : le feu à Taradeau et aux Arcs désormais \"fixé\" mais \"la vigilance reste de mise\", indique la préfecture",
+      "translatedTitle": null,
+      "description": "Pour contenir le feu, les pompiers ont notamment créé \"une barrière de retardant d'1,5 km\" en utilisant un avion Dash.",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-dans-le-var-le-feu-a-taradeau-et-aux-arcs-desormais-fixe-mais-la-vigilance-reste-de-mise-indique-la-prefecture_8115503.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-dans-le-var-le-feu-a-taradeau-et-aux-arcs-desormais-fixe-mais-la-vigilance-reste-de-mise-indique-la-prefecture_8115503.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T18:15:44Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/NNaq7LhtVd0sY_yzPxZfkz7uJLI/0x209:4027x2475/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e65b22ef36603756319.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T21:33:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ac96eda26a6c374fb912",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.47172,
+      "related": []
+    },
+    {
+      "id": "f34786a09520b570ccafccb5",
+      "title": "L’incroyable découverte d’une « règle d’or » mathématique cachée dans les œuvres d’art abstraites",
+      "translatedTitle": null,
+      "description": "DÉCRYPTAGE - Des chercheurs ont comparé des toiles produites par des artistes humains à des œuvres de même style générées par IA, avec des différences notables. Ils constatent aussi des propriétés assez proches - mais cachées - dans des œuvres produites par différents artistes.",
+      "url": "https://www.lefigaro.fr/sciences/decouverte-inattendue-d-une-regle-d-or-mathematique-cachee-dans-les-oeuvres-d-art-abstraites-20260522",
+      "canonicalUrl": "https://lefigaro.fr/sciences/decouverte-inattendue-d-une-regle-d-or-mathematique-cachee-dans-les-oeuvres-d-art-abstraites-20260522",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-07-20T19:02:20Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/1890x1063_crop/2026/07/20/8cb00c364bc1ffd51bc1ca47b07b5d36605d474dc439613c017a15cc175b1a74.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-20T20:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "66a9185ec40423a6f672",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.46248,
       "related": []
     },
     {
@@ -1657,14 +2021,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
+      "retrievedAt": "2026-07-20T21:33:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "60bbf7f0ea1b249e4e00",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.57637,
+      "rankingScore": 5.44495,
       "related": []
     },
     {
@@ -1694,86 +2058,26 @@
       "clusterId": "e4b12ea1f825261ffc06",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.57624
+      "rankingScore": 5.43873,
+      "related": []
     },
     {
-      "id": "53a1931481912a4363b9fbf9",
-      "title": "Middle East live: US launches strikes to 'punish' Iran after troops killed",
+      "id": "d4bd8d02674c200eb5fd1d07",
+      "title": "'Labour thinks it has responsibility to prevent the rise of Reform UK', historian says",
       "translatedTitle": null,
-      "description": "The United States began a new round of airstrikes early Monday targeting Iran after announcing the death of another American service member, and Iran fired missiles toward Jordan that risked widening the conflict into neighboring Israel. Follow our liveblog for the latest updates.",
-      "url": "https://www.france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed",
-      "canonicalUrl": "https://france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed",
+      "description": "Speaking with FRANCE 24's Sharon Gaffney, Martin Farr, Senior Lecturer in Contemporary British History at Newcastle University, explains that \"the Labour Party members and its MPs think that it's their responsibility to prevent\" the rise to power of right-wing populist party Reform UK, and that has motivated the decision to replace Keir Starmer with Andy Burnham at 10 Downing Street.",
+      "url": "https://www.france24.com/en/labour-thinks-it-has-responsibility-to-prevent-the-rise-of-reform-uk-historian-says",
+      "canonicalUrl": "https://france24.com/en/labour-thinks-it-has-responsibility-to-prevent-the-rise-of-reform-uk-historian-says",
       "sourceName": "France 24",
-      "sourceDomain": "s.france24.com",
+      "sourceDomain": "france24.com",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
       "language": "en",
-      "publishedAt": "2026-07-19T22:47:08Z",
-      "imageUrl": "https://s.france24.com/media/display/15fbb27a-83c3-11f1-aa48-005056a97e36/w:1024/p:16x9/AP26194774981470.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T05:00:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "28fbb82bb1532f23da60",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.56598,
-      "related": []
-    },
-    {
-      "id": "688228b44182fdf1f2af1196",
-      "title": "Le baron de la drogue \"El Mayo\" condamné à la prison à vie à New York",
-      "translatedTitle": null,
-      "description": "A 76 ans, l'ancien cofondateur du cartel de Sinaloa a été condamné à la prison à perpétuité par la justice américaine. Son arrestation, rendue possible par la trahison d'un fils d'\"El Chapo\", a déclenché une guerre interne au sein du groupe criminel.",
-      "url": "https://www.franceinfo.fr/societe/drogue/le-baron-de-la-drogue-el-mayo-condamne-a-la-prison-a-vie-a-new-york_8115467.html",
-      "canonicalUrl": "https://franceinfo.fr/societe/drogue/le-baron-de-la-drogue-el-mayo-condamne-a-la-prison-a-vie-a-new-york_8115467.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T17:54:00Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/onJWwd0SEm2t1X8Mzvv0kQftsow/0x28:1024x604/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e5bb862564178472434.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "921d3cb230ba555184c7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.56593,
-      "related": []
-    },
-    {
-      "id": "c6d3667c9ec3bc5968b23b2c",
-      "title": "La Coupe du monde de football aux États-Unis, la plus politique de l’histoire ?",
-      "translatedTitle": null,
-      "description": "RÉCIT - Hormis l’affaire du carton rouge annulé après un appel de Donald Trump au patron de la FIFA, le président américain est resté relativement en retrait pendant la compétition qui a rencontré un vrai succès populaire aux États-Unis.",
-      "url": "https://www.lefigaro.fr/international/la-coupe-du-monde-de-football-aux-etats-unis-la-plus-politique-de-l-histoire-20260720",
-      "canonicalUrl": "https://lefigaro.fr/international/la-coupe-du-monde-de-football-aux-etats-unis-la-plus-politique-de-l-histoire-20260720",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T18:41:21Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x1971_crop/2026/07/20/e919fe330e98fec54d2a75a03663e9e284b365ac9d2bb5ef18441096ae0feb70.jpg",
+      "publishedAt": "2026-07-20T18:47:30Z",
+      "imageUrl": "https://s.france24.com/media/display/79bdd8c8-8469-11f1-9e15-005056a97e36/w:1024/p:16x9/EN-20260720-200952-201931-CS.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
@@ -1781,220 +2085,10 @@
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3bc15dcb09db1e63460c",
+      "clusterId": "5e61052bf802d17ddc73",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.56225
-    },
-    {
-      "id": "edd730645ef46d37be48af0c",
-      "title": "\"Les moyens aériens nationaux engagés ne sont plus à la hauteur des risques\", alerte le président des pompiers du département de Haute-Corse",
-      "translatedTitle": null,
-      "description": "Le président du Sis 2B estime que que les sapeurs-pompiers interviennent \"au péril de leur sécurité\" mais que \"leur courage ne peut compenser indéfiniment les insuffisances des moyens aériens de l'État\".",
-      "url": "https://www.franceinfo.fr/faits-divers/incendie/les-moyens-aeriens-nationaux-engages-ne-sont-plus-a-la-hauteur-des-risques-alerte-le-president-des-pompiers-du-departement-de-haute-corse_8115479.html",
-      "canonicalUrl": "https://franceinfo.fr/faits-divers/incendie/les-moyens-aeriens-nationaux-engages-ne-sont-plus-a-la-hauteur-des-risques-alerte-le-president-des-pompiers-du-departement-de-haute-corse_8115479.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T17:44:26Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/FaZqPqgjQR1AbepPu9IrdQM73q0/0x340:4724x2997/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e5e7300012130657606.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dac3269ace772004cc5a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.54895,
-      "related": []
-    },
-    {
-      "id": "48eee2de7a91d30ebfb1f63c",
-      "title": "Le gouvernement s'en remet au Parlement pour trancher la réintroduction de l'acétamipride avant le vote solennel du projet de loi agricole",
-      "translatedTitle": null,
-      "description": "Réuni à Matignon avec plusieurs ministres et chefs des groupes du centre et de la droite, l'exécutif a également décidé d'allonger le délai laissé à l'Anses pour rendre son avis sur d'éventuelles dérogations et de revoir une disposition contestée sur la gestion de l'eau.",
-      "url": "https://www.franceinfo.fr/environnement/transition-ecologique-de-l-agriculture/pesticides/le-gouvernement-s-en-remet-au-parlement-pour-trancher-la-reintroduction-de-l-acetamipride-avant-le-vote-solennel-du-projet-de-loi-agricole_8115428.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/transition-ecologique-de-l-agriculture/pesticides/le-gouvernement-s-en-remet-au-parlement-pour-trancher-la-reintroduction-de-l-acetamipride-avant-le-vote-solennel-du-projet-de-loi-agricole_8115428.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T17:42:27Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/E6jqZz6-cUKxEFLpHbaKSZDajd4/0x12:1024x588/432x243/filters:format(jpg):quality(50)/2026/07/20/6a5e5512b2b2d999835876.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5c510a1117f189d3ca6e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.54545,
-      "related": []
-    },
-    {
-      "id": "60f2009e8878c944be14e5cd",
-      "title": "Coupe du monde : le président du foot sud-américain, proche de Gianni Infantino, tease un Mondial 2030 à 64 équipes",
-      "translatedTitle": null,
-      "description": "Le président de la CONMEBOL, Alejandro Domínguez, a affirmé ce lundi que la prochaine Coupe du monde se jouera à 64 équipes, contre 48 actuellement. Ce nouvel élargissement de la compétition doit encore être débattu.",
-      "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-le-president-du-foot-sud-americain-proche-de-gianni-infantino-tease-un-mondial-2030-a-64-equipes-20260720",
-      "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-le-president-du-foot-sud-americain-proche-de-gianni-infantino-tease-un-mondial-2030-a-64-equipes-20260720",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T18:27:08Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/07/20/69b3cba6165c35e81df985eed04b545a5977f6a511482623957a37695827d22d.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e4d136e9326fcc201616",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.53594,
-      "related": []
-    },
-    {
-      "id": "d4b1fd7049dc40caff0137c8",
-      "title": "Coupe du monde 2026 : «La douleur est immense, il faudra du temps pour que cette blessure guérisse», confesse Lionel Messi après la défaite en finale",
-      "translatedTitle": null,
-      "description": "La légende de la sélection argentine est sortie du silence au lendemain de la désillusion en finale de Coupe du monde face à l’Espagne (1-0), dimanche.",
-      "url": "https://www.lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-la-douleur-est-immense-il-faudra-du-temps-pour-que-cette-blessure-guerisse-confesse-lionel-messi-apres-la-defaite-en-finale-20260720",
-      "canonicalUrl": "https://lefigaro.fr/sports/football/coupe-du-monde/coupe-du-monde-2026-la-douleur-est-immense-il-faudra-du-temps-pour-que-cette-blessure-guerisse-confesse-lionel-messi-apres-la-defaite-en-finale-20260720",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T18:18:50Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/07/20/d4df3e5ecb85f9120b3e4616b1a2aadf9395dde6e16963b2a09c02340abdb770.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T18:20:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ef4c9bf6defd38117ffc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.52073
-    },
-    {
-      "id": "1d5659ae899e3c2ae46b0442",
-      "title": "Royaume-Uni : le suspect du meurtre de l’ancienne députée anti-immigration Ann Widdecombe inculpé",
-      "translatedTitle": null,
-      "description": "Joshua Kerry, qui avait été arrêté deux jours après la découverte du corps d’Ann Widdecombe, une porte-parole du parti anti-immigration Reform UK âgée de 78 ans",
-      "url": "https://www.lefigaro.fr/flash-actu/royaume-uni-le-suspect-du-meurtre-de-l-ancienne-deputee-anti-immigration-ann-widdecombe-inculpe-20260720",
-      "canonicalUrl": "https://lefigaro.fr/flash-actu/royaume-uni-le-suspect-du-meurtre-de-l-ancienne-deputee-anti-immigration-ann-widdecombe-inculpe-20260720",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T18:15:29Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/07/20/f3f17b3883b06425d2d7cbe25af9a484078ff1a0c3212c63afca95eec3d558ab.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T18:20:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1658a06ed9c1d4d9d758",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.51463,
-      "related": []
-    },
-    {
-      "id": "e575b640badcc744405eea98",
-      "title": "La loi d’urgence agricole une nouvelle fois sous tension à l’Assemblée",
-      "translatedTitle": null,
-      "description": "DÉCRYPTAGE - Lundi soir, les députés doivent voter le projet de loi d’urgence agricole, qui autorise une dérogation potentielle de deux pesticides. Le groupe Liot hésite encore à déposer un amendement pour supprimer l’article en question.",
-      "url": "https://www.lefigaro.fr/politique/la-loi-d-urgence-agricole-une-nouvelle-fois-sous-tension-a-l-assemblee-20260720",
-      "canonicalUrl": "https://lefigaro.fr/politique/la-loi-d-urgence-agricole-une-nouvelle-fois-sous-tension-a-l-assemblee-20260720",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T18:15:00Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/07/20/2f051ed0291256a15893aaac0fefe383cc5a81c542eafab71c09418ce1950119.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T18:20:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bd17669f9e02b21d5cf7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.51375,
-      "related": []
-    },
-    {
-      "id": "d058aadf1853713408f536f2",
-      "title": "«Le premier pays d’Europe à instaurer une majorité numérique» : la France veut interdire les réseaux sociaux aux moins de 15 ans",
-      "translatedTitle": null,
-      "description": "DÉCRYPTAGE - Le Parlement devrait voter mardi un texte de compromis, auquel sont parvenus députés et sénateurs après d’intenses négociations. Il devrait entrer en vigueur à la rentrée.",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/interdiction-des-reseaux-sociaux-aux-moins-de-15-ans-accord-entre-deputes-et-senateurs-le-vote-definitif-prevu-ce-mardi-20260720",
-      "canonicalUrl": "https://lefigaro.fr/secteur/high-tech/interdiction-des-reseaux-sociaux-aux-moins-de-15-ans-accord-entre-deputes-et-senateurs-le-vote-definitif-prevu-ce-mardi-20260720",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-07-20T18:03:09Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/07/20/ee332c05c069a64996c9d3610ee6180d2fb4d918160cd4d00803ed79cfc903b7.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-20T20:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "08b7b9f7bacf16312750",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.49232,
+      "rankingScore": 5.4364,
       "related": []
     }
   ]
