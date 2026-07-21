@@ -236,7 +236,7 @@
     elements.editionHeading.textContent = `${country.name} News`;
     elements.editionSummary.textContent = `Headlines are shown in ${friendlyTimeZone(country.timeZone)} local time.`;
     elements.selectedDateLabel.textContent = longDateLabel(state.date, country.timeZone);
-    document.title = `${country.name} Headlines | Worldline`;
+    document.title = `Worldline | ${country.name} Headlines`;
     if (updateHistory) writeUrl('push');
 
     try {
