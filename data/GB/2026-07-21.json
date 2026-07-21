@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-21",
-  "generatedAt": "2026-07-21T06:42:09Z",
-  "lastAttemptAt": "2026-07-21T06:42:09Z",
-  "lastSuccessfulUpdate": "2026-07-21T06:42:09Z",
-  "status": "current",
+  "generatedAt": "2026-07-21T08:17:22Z",
+  "lastAttemptAt": "2026-07-21T08:17:22Z",
+  "lastSuccessfulUpdate": "2026-07-21T08:17:22Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-21T06:42:08Z",
-      "lastSuccessAt": "2026-07-21T06:42:09Z",
-      "articlesRetrieved": 39,
-      "responseTimeMs": 645,
+      "lastAttemptAt": "2026-07-21T08:17:21Z",
+      "lastSuccessAt": "2026-07-21T08:17:21Z",
+      "articlesRetrieved": 40,
+      "responseTimeMs": 220,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-21T06:42:08Z",
-      "lastSuccessAt": "2026-07-21T06:42:08Z",
-      "articlesRetrieved": 146,
-      "responseTimeMs": 328,
+      "lastAttemptAt": "2026-07-21T08:17:21Z",
+      "lastSuccessAt": "2026-07-21T08:17:22Z",
+      "articlesRetrieved": 145,
+      "responseTimeMs": 266,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-21T06:42:08Z",
-      "lastSuccessAt": "2026-07-21T06:42:09Z",
+      "lastAttemptAt": "2026-07-21T08:17:21Z",
+      "lastSuccessAt": "2026-07-21T08:17:22Z",
       "articlesRetrieved": 6,
-      "responseTimeMs": 875,
+      "responseTimeMs": 540,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-07-21T06:42:08Z",
-      "lastSuccessAt": "2026-07-21T06:42:09Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 762,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-21T08:17:21Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -73,16 +73,16 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-21T06:40:40Z",
+      "publishedAt": "2026-07-21T07:57:43Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0ede/live/8badd4d0-8463-11f1-b976-0b9c15b0ccfc.png",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
+      "retrievedAt": "2026-07-21T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "8923de3d7189e7877753",
+      "clusterId": "e1d5ca3cd44a37cc4d23",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
@@ -110,41 +110,11 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "8923de3d7189e7877753",
+          "clusterId": "e1d5ca3cd44a37cc4d23",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
           "normalizedTitle": "andy burnham to cut vat on electricity bills as first cost of living move"
-        },
-        {
-          "id": "a04504a5f337091785a58ab9",
-          "title": "Andy Burnham latest: New PM cuts VAT on electricity bills in first major policy announcement",
-          "translatedTitle": null,
-          "description": "Chancellor John Healey said the cut to Britons electricity bills to be funded by cancelling Keir Starmer’s controversial Digital ID programme",
-          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-prime-minister-uk-cabinet-tax-live-updates-policies-b3018564.html",
-          "canonicalUrl": "https://independent.co.uk/news/uk/politics/andy-burnham-prime-minister-uk-cabinet-tax-live-updates-policies-b3018564.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-21T06:09:14Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/21/02/e85af2b8d19b2d25fe8835a14e9d7d3fY29udGVudHNlYXJjaGFwaSwxNzg0NjgxMzMy-2.85363473.jpg?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-21T06:42:09Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "8923de3d7189e7877753",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "andy burnham latest new pm cuts vat on electricity bills in first major policy announcement"
         },
         {
           "id": "48c8fec0e8b91f5671b8cdf4",
@@ -170,7 +140,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "8923de3d7189e7877753",
+          "clusterId": "e1d5ca3cd44a37cc4d23",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -196,11 +166,11 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-07-21T06:42:08Z",
+          "retrievedAt": "2026-07-21T08:17:22Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "8923de3d7189e7877753",
+          "clusterId": "e1d5ca3cd44a37cc4d23",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
@@ -230,7 +200,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "8923de3d7189e7877753",
+          "clusterId": "e1d5ca3cd44a37cc4d23",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
@@ -261,7 +231,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "8923de3d7189e7877753",
+          "clusterId": "e1d5ca3cd44a37cc4d23",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -269,7 +239,98 @@
           "rankingScore": 5.60108
         }
       ],
-      "rankingScore": 9.25689
+      "rankingScore": 9.22027
+    },
+    {
+      "id": "72df10c59525febc1a1d1b72",
+      "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
+      "translatedTitle": null,
+      "description": "The duties mark a major escalation in trade tensions between the North American neighbours.",
+      "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cg4dzq3x3e1o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T07:56:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d92/live/ef104d10-84c6-11f1-b976-0b9c15b0ccfc.jpg",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "73f2068b1aecc19839e8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "a20503cda6a01959009729f8",
+          "title": "Trump imposes 50% tariffs on Canadian goods in response to ‘continued discrimination’",
+          "translatedTitle": null,
+          "description": "The White House said the tariffs would go into effect in 30 days",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-tariffs-canada-trade-carney-b3018482.html",
+          "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-tariffs-canada-trade-carney-b3018482.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-20T23:04:08Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/20/02/2286821260..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-21T06:42:09Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "73f2068b1aecc19839e8",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "trump imposes 50 tariffs on canadian goods in response to continued discrimination"
+        }
+      ],
+      "rankingScore": 9.16728
+    },
+    {
+      "id": "0d644cd1f5261cd5ee16a6ba",
+      "title": "UK employers cut job vacancies as Burnham aims to lift living standards",
+      "translatedTitle": null,
+      "description": "Unemployment holds steady at 4.9%, underlining the challenge facing the new prime minister Business live – latest updates Employers cut the number of job vacancies in May, according to official figures that highlight the UK’s “fragile” economic outlook amid the conflict in the Middle East. Job vacancies fell to 712,000 – almost half the level in 2022 – as employers put off hiring new staff in the three months to May, the Office for National Statistics said. Continue reading...",
+      "url": "https://www.theguardian.com/business/2026/jul/21/uk-employers-job-vacancies-andy-burnham-unemployment",
+      "canonicalUrl": "https://theguardian.com/business/2026/jul/21/uk-employers-job-vacancies-andy-burnham-unemployment",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T07:01:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e520561c60460c71ddda524b7974625243c0f926/176_0_4113_3291/master/4113.jpg?width=140&quality=85&auto=format&fit=max&s=7e96c7409c494bef0b0b9c95881b1f5a",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "26226899e653863ca888",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.38985
     },
     {
       "id": "be0512485f8b8246fe7efc38",
@@ -298,7 +359,7 @@
       "clusterId": "e07b7debb1060992841d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.34284,
+      "rankingScore": 8.16626,
       "related": []
     },
     {
@@ -328,69 +389,8 @@
       "clusterId": "267880885f5423941fb0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.19495
-    },
-    {
-      "id": "6646e3a02406e544eb9f6b93",
-      "title": "Donald Trump to impose 50% tariff on most Canadian goods, White House says",
-      "translatedTitle": null,
-      "description": "Turmoil likely as Trump officials say Canada unfairly discriminated against US autos, alcohol and dairy products Donald Trump is imposing 50% tariffs on most Canadian goods in response to the country retaliating against previous US tariffs, the White House announced Monday, declaring Canada has unfairly discriminated against American cars, alcohol and dairy products. The tariffs will hit a wide range of products, the White House said, including wine, hockey sticks and cement. They also include g",
-      "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/jul/20/trump-canada-tariffs",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T02:29:47Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/b676e070a3802a4c0fb7894918f91ff7fab08845/294_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=5ccf1dbc07a20acb768e162eb321eb44",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c570acb38e9bf01af30a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "a20503cda6a01959009729f8",
-          "title": "Trump imposes 50% tariffs on Canadian goods in response to ‘continued discrimination’",
-          "translatedTitle": null,
-          "description": "The White House said the tariffs would go into effect in 30 days",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-tariffs-canada-trade-carney-b3018482.html",
-          "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-tariffs-canada-trade-carney-b3018482.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-20T23:04:08Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/20/02/2286821260..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-21T06:42:09Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "c570acb38e9bf01af30a",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "trump imposes 50 tariffs on canadian goods in response to continued discrimination"
-        }
-      ],
-      "rankingScore": 8.13149
+      "rankingScore": 8.03084,
+      "related": []
     },
     {
       "id": "df0f5e031e0af34be6338c36",
@@ -419,8 +419,69 @@
       "clusterId": "04269e418718559f92d5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.78736,
+      "rankingScore": 7.65764,
       "related": []
+    },
+    {
+      "id": "cb29a8d14f9c29b3c76e0a0d",
+      "title": "UK government borrowing lower than expected in June",
+      "translatedTitle": null,
+      "description": "Public finances for last month were better than expected but the UK is carrying major debt.",
+      "url": "https://www.bbc.co.uk/news/articles/cx2vd3qgjy9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cx2vd3qgjy9o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T07:45:04Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26ce/live/b883f0a0-84ce-11f1-bc1a-3f050829cba4.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "de16095918897e35baf5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "5cfe7d8e459566d425553361",
+          "title": "UK borrows less than expected in June in boost for Burnham",
+          "translatedTitle": null,
+          "description": "Figure of £16bn from ONS comes after new prime minister revealed plans to cut VAT on electricity bills Business live – latest updates The UK government borrowed less than expected in June, in a boost for Andy Burnham as he set out plans to cut VAT on household electricity bills and promised a new direction for the British economy. The Office for National Statistics (ONS) said public sector net borrowing – the difference between government spending and income – was £16bn last month, £7.9bn less t",
+          "url": "https://www.theguardian.com/business/2026/jul/21/uk-borrowing-june-andy-burnham-ons-vat-electricity-bills",
+          "canonicalUrl": "https://theguardian.com/business/2026/jul/21/uk-borrowing-june-andy-burnham-ons-vat-electricity-bills",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-21T06:46:06Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/c5f773c69f0fa7951366455f30ac91a2f0d532e2/252_0_4585_3668/master/4585.jpg?width=140&quality=85&auto=format&fit=max&s=074e6974377d3f9e7054be7be7e7c8ae",
+          "imageAlt": null,
+          "category": "Business",
+          "topics": [],
+          "retrievedAt": "2026-07-21T08:17:22Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "de16095918897e35baf5",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "uk borrows less than expected in june in boost for burnham"
+        }
+      ],
+      "rankingScore": 7.44512
     },
     {
       "id": "49bb92d3da0bf4f1680d55b1",
@@ -438,25 +499,25 @@
       ],
       "language": "en",
       "publishedAt": "2026-07-21T06:00:04Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/78e255eea424e5a5b37006672b2169a3a7838e85/1002_230_4314_3451/master/4314.jpg?width=140&quality=85&auto=format&fit=max&s=84a6f96e60f321100919516f2c3b153d",
+      "imageUrl": "https://i.guim.co.uk/img/media/78e255eea424e5a5b37006672b2169a3a7838e85/325_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=f65d64b5a569ece66127fc1861fc4b60",
       "imageAlt": null,
       "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
+      "retrievedAt": "2026-07-21T08:17:22Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "7826c014de9dd4ac1eb6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.45584
+      "rankingScore": 7.27731,
+      "related": []
     },
     {
       "id": "38cd3988c5909680f02ed15d",
       "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
       "translatedTitle": null,
-      "description": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
+      "description": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
       "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://bbc.co.uk/news/articles/cx25wg2x26do?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
@@ -472,7 +533,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
+      "retrievedAt": "2026-07-21T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -480,7 +541,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.40748
+      "rankingScore": 7.22628
     },
     {
       "id": "05ba9d0506eef8c2f4a9f8cf",
@@ -502,15 +563,105 @@
       "imageAlt": null,
       "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
+      "retrievedAt": "2026-07-21T08:17:22Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "bf92bad79eeeb3833fcb",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.19816,
+      "related": []
+    },
+    {
+      "id": "0d9759100dd3c03fbab4f4dc",
+      "title": "Iran claims attacks on strait of Hormuz ships amid fresh US strikes – Middle East crisis live",
+      "translatedTitle": null,
+      "description": "Revolutionary Guard claims attack on oil tanker and two other ships as US carries out tenth consecutive night of strikes Full report: Almost 100 troops injured in recent weeks, Pentagon admits, as Iran launches reprisals on US allies The Jordanian military said it shot down five drones that were launched from Iran, the official Petra news agency reported. It added that the overnight attack did not cause casualties or damage. Continue reading...",
+      "url": "https://www.theguardian.com/world/live/2026/jul/21/us-iran-war-live-updates-strait-of-hormuz-attacks-houthis-blockade-red-sea-middle-east-crisis-latest-news",
+      "canonicalUrl": "https://theguardian.com/world/live/2026/jul/21/us-iran-war-live-updates-strait-of-hormuz-attacks-houthis-blockade-red-sea-middle-east-crisis-latest-news",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T08:00:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/121f1ffb7a89c93833d4865ab7c38437478ae8f2/518_0_2412_1932/master/2412.jpg?width=140&quality=85&auto=format&fit=max&s=0493f0a07d37ee9b270bfab3ed780563",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dd396f65c2e40f1b6b19",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.15575,
+      "related": []
+    },
+    {
+      "id": "e3391eef66c01945a48541fe",
+      "title": "The Fires review – volcanoes and passions erupt in Iceland disaster-romance",
+      "translatedTitle": null,
+      "description": "A volcanologist and a photographer try to save Reykjavik in impressive and plausible drama This scientifically plausible, CGI-tastic disaster film will either do wonders for Iceland’s tourist industry or destroy it completely. Vigdís Hrefna Pálsdóttir stars as a volcanologist called Anna, who is descended from a short line of volcanologists (just her dad). When mini volcanos start erupting and earthquakes get more frequent, Anna begins to suspect the subterranean systems everyone thought were se",
+      "url": "https://www.theguardian.com/film/2026/jul/21/the-fires-review-volcanoes-and-passions-erupt-in-iceland-disaster-romance",
+      "canonicalUrl": "https://theguardian.com/film/2026/jul/21/the-fires-review-volcanoes-and-passions-erupt-in-iceland-disaster-romance",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T08:00:04Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d2e985eac9549f1a5ff95752203c903c2807198a/273_0_2734_2187/master/2734.jpg?width=140&quality=85&auto=format&fit=max&s=bee73032dc5ab685dade40606701c54d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e9fcdc6fc166e92de4d9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.36939
+      "rankingScore": 7.15498
+    },
+    {
+      "id": "ae59d147b40fe74ac18488cb",
+      "title": "Russia attacks Ukraine’s gas facilities as Zelenskyy faces further protests – Europe live",
+      "translatedTitle": null,
+      "description": "Plants in Kharkiv have faced three days of attacks as anger over the sacking of defence minister continues Russian has launched more ballistic missiles against Ukraine in July so far than it is thought to produce each month, the Institute for the Study of War thinktank said. “Russia appears to be dipping into its stockpiles to continue increasing the number of ballistic missiles it launches against Ukraine, as these missiles have a higher success rate than drones and cruise missiles.” Continue r",
+      "url": "https://www.theguardian.com/world/live/2026/jul/21/ukraine-russia-zelenskyy-greece-italy-spain-france-social-media-latest-news-updates",
+      "canonicalUrl": "https://theguardian.com/world/live/2026/jul/21/ukraine-russia-zelenskyy-greece-italy-spain-france-social-media-latest-news-updates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T07:58:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b4f132f748656dd33964c511708d45223da3b136/490_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=6ca26bc2b880572c8f0bebcb74880934",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3ac71a195448c1848f6d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15251
     },
     {
       "id": "4452438cef8b712a68baf036",
@@ -532,7 +683,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
+      "retrievedAt": "2026-07-21T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -540,15 +691,15 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.28414
+      "rankingScore": 7.11335
     },
     {
-      "id": "3c300740f67f2bf88d4604da",
-      "title": "Iran claims attacks in strait of Hormuz; Houthis announce blockade of Red Sea shipping route – Middle East crisis live",
+      "id": "c59df25c333d78cbd7b6b1ef",
+      "title": "‘A partnership between settlers and the army’: two shot dead in latest West Bank raid",
       "translatedTitle": null,
-      "description": "Revolutionary Guard claims attack on oil tanker and two other ships; Houthis in Yemen say they are imposing an immediate maritime blockade of Saudi Arabia in the Red Sea Full report: Almost 100 troops injured in recent weeks, Pentagon admits, as Iran launches reprisals on US allies Nearly 100 US service members have been injured over the last two weeks of escalating strikes on Iran, the Pentagon has said, as Tehran launched a wave of reprisals to the tenth consecutive night of attacks. Iran’s Re",
-      "url": "https://www.theguardian.com/world/live/2026/jul/21/us-iran-war-live-updates-strait-of-hormuz-attacks-houthis-blockade-red-sea-middle-east-crisis-latest-news",
-      "canonicalUrl": "https://theguardian.com/world/live/2026/jul/21/us-iran-war-live-updates-strait-of-hormuz-attacks-houthis-blockade-red-sea-middle-east-crisis-latest-news",
+      "description": "Residents of Deir Jarir say raids late on Sunday, also involving security forces, are part of pattern of violence Even by the brutal standards of militant settler violence in the West Bank, the raid on Deir Jarir late on Sunday night that killed two Palestinians and left another in hospital with a gunshot wound was extreme. Palestinians in the town said settlers from a nearby outpost arrived after 9pm on Sunday claiming that they were searching for stolen livestock. Israeli soldiers and police s",
+      "url": "https://www.theguardian.com/world/2026/jul/20/israeli-settlers-partnership-army-palestinians-bury-dead-west-bank",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/20/israeli-settlers-partnership-army-palestinians-bury-dead-west-bank",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -557,20 +708,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-21T06:25:28Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/121f1ffb7a89c93833d4865ab7c38437478ae8f2/518_0_2412_1932/master/2412.jpg?width=140&quality=85&auto=format&fit=max&s=0493f0a07d37ee9b270bfab3ed780563",
+      "publishedAt": "2026-07-21T07:12:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/cd95ddd8a76d0e9517dd1021c7c7c2f394789079/81_0_4560_3648/master/4560.jpg?width=140&quality=85&auto=format&fit=max&s=12d510ba3ebd95bf0cd6b2261a8beb37",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
+      "retrievedAt": "2026-07-21T08:17:22Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "db9008462509493cd355",
+      "clusterId": "8e3f5957d6ffaf6d1cd4",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.15619
+      "rankingScore": 7.0623
     },
     {
       "id": "3d3585dc9dc74af3ad852ee6",
@@ -592,15 +743,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
+      "retrievedAt": "2026-07-21T08:17:22Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "74bdd8665d09ebddad33",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.1058
+      "rankingScore": 6.92728,
+      "related": []
     },
     {
       "id": "6040ab8b3432917326bda952",
@@ -622,15 +773,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
+      "retrievedAt": "2026-07-21T08:17:22Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "8687f4ac4bcf92d15116",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.10577
+      "rankingScore": 6.92725,
+      "related": []
     },
     {
       "id": "e6cbaf0a42b08b81033cb6bd",
@@ -659,8 +810,8 @@
       "clusterId": "d80f5cf74e0580b60e6d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.04924
+      "rankingScore": 6.86789,
+      "related": []
     },
     {
       "id": "1694580dd7a75f6c16fe4f54",
@@ -689,8 +840,8 @@
       "clusterId": "6521f3404bd87f0ebb23",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.02815
+      "rankingScore": 6.84858,
+      "related": []
     },
     {
       "id": "eb518652b0a2551ab4ff2228",
@@ -719,8 +870,38 @@
       "clusterId": "a7224975f9dbaf1796df",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.02257
+      "rankingScore": 6.84348,
+      "related": []
+    },
+    {
+      "id": "a04abb3317031e0df1ed78f5",
+      "title": "Russian warship carries out live-fire weapons exercise 46 miles off UK coast, MoD says",
+      "translatedTitle": null,
+      "description": "A Russian warship has carried out a live-fire military exercise around 40 nautical miles (46 miles) off the UK coast.",
+      "url": "https://news.sky.com/story/russian-warship-carries-out-live-fire-weapons-exercise-46-miles-off-uk-coast-mod-says-13561289",
+      "canonicalUrl": "https://news.sky.com/story/russian-warship-carries-out-live-fire-weapons-exercise-46-miles-off-uk-coast-mod-says-13561289",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T05:10:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-russian-warship-north-sea_7298404.jpg?20260715165533",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "17d87b974da390473287",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.83955,
+      "related": []
     },
     {
       "id": "b487667d89f6d8b17adc899f",
@@ -749,68 +930,8 @@
       "clusterId": "53d1b4247cbfb16850c2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.01528
-    },
-    {
-      "id": "a04abb3317031e0df1ed78f5",
-      "title": "Russian warship carries out live-fire weapons exercise 46 miles off UK coast, MoD says",
-      "translatedTitle": null,
-      "description": "A Russian warship has carried out a live-fire military exercise around 40 nautical miles (46 miles) off the UK coast.",
-      "url": "https://news.sky.com/story/russian-warship-carries-out-live-fire-weapons-exercise-46-miles-off-uk-coast-mod-says-13561289",
-      "canonicalUrl": "https://news.sky.com/story/russian-warship-carries-out-live-fire-weapons-exercise-46-miles-off-uk-coast-mod-says-13561289",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T05:10:00Z",
-      "imageUrl": "https://e3.365dm.com/26/04/1920x1080/skynews-breaking-breakingnews_7210863.png?20260516142605",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "17d87b974da390473287",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.00999
-    },
-    {
-      "id": "75fbbe7016294ecf9ffb1b82",
-      "title": "Election voting advice from AI chatbots ‘inaccurate and unreliable’",
-      "translatedTitle": null,
-      "description": "Research during Hungary election shows AI recommended parties not running and gave highly volatile answers to identical prompts AI chatbots provide inaccurate, inconsistent and unreliable guidance to voters asking which party they should back, a study suggests, often recommending the wrong party, not mentioning the right one, or listing parties not even running. “The results raise serious concerns about the reliability of general-purpose AI systems in electoral contexts,” the study, published by",
-      "url": "https://www.theguardian.com/technology/2026/jul/21/election-voting-advice-ai-chatbots-inaccurate-unreliable-hungary",
-      "canonicalUrl": "https://theguardian.com/technology/2026/jul/21/election-voting-advice-ai-chatbots-inaccurate-unreliable-hungary",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T05:00:01Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/fb9fb4791540eb607b72629f7d348a9cd01bd704/250_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=9e9ebc2b9791b89d5f151da821bc99c7",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f22206796986cea1d3b3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.9914
+      "rankingScore": 6.8368,
+      "related": []
     },
     {
       "id": "24d9bec0536a368632be8a26",
@@ -832,7 +953,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
+      "retrievedAt": "2026-07-21T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -840,7 +961,67 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.97954
+      "rankingScore": 6.83445
+    },
+    {
+      "id": "75fbbe7016294ecf9ffb1b82",
+      "title": "Election voting advice from AI chatbots ‘inaccurate and unreliable’",
+      "translatedTitle": null,
+      "description": "Research during Hungary election shows AI recommended parties not running and gave highly volatile answers to identical prompts AI chatbots provide inaccurate, inconsistent and unreliable guidance to voters asking which party they should back, a study suggests, often recommending the wrong party, not mentioning the right one, or listing parties not even running. “The results raise serious concerns about the reliability of general-purpose AI systems in electoral contexts,” the study, published by",
+      "url": "https://www.theguardian.com/technology/2026/jul/21/election-voting-advice-ai-chatbots-inaccurate-unreliable-hungary",
+      "canonicalUrl": "https://theguardian.com/technology/2026/jul/21/election-voting-advice-ai-chatbots-inaccurate-unreliable-hungary",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T05:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fb9fb4791540eb607b72629f7d348a9cd01bd704/250_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=9e9ebc2b9791b89d5f151da821bc99c7",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f22206796986cea1d3b3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.82253,
+      "related": []
+    },
+    {
+      "id": "a2b50566baf5124d6475e685",
+      "title": "Chinese warship holds live-fire drills inside Japan’s economic waters for first time",
+      "translatedTitle": null,
+      "description": "Exercise took place about 180km from Okinotori, Japan’s southernmost island, and comes as Chinese and Philippine sailors clashed in the South China Sea A Chinese missile destroyer fired live rounds for the first time inside Japan’s exclusive economic zone (EEZ) during a drill on Sunday, a day before Chinese and Philippine sailors clashed in the South China Sea. Three Chinese warships and a Russian frigate were spotted sailing between Okinawa’s main island and Miyako island into the Pacific on Th",
+      "url": "https://www.theguardian.com/world/2026/jul/21/chinese-ship-opens-fire-japan-economic-zone-south-china-sea",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/21/chinese-ship-opens-fire-japan-economic-zone-south-china-sea",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T04:20:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/159f1bd9b2cbe8963aff8ee1c2498b1a38ef6ab3/0_0_4556_3647/master/4556.jpg?width=140&quality=85&auto=format&fit=max&s=eead7c00b48efaf67db6051909a3e53f",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0203e243939ea9dc59a4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.75658,
+      "related": []
     },
     {
       "id": "89bf80da1a582c43afe7392b",
@@ -869,38 +1050,8 @@
       "clusterId": "90d0a586a7bced57df48",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92648
-    },
-    {
-      "id": "a2b50566baf5124d6475e685",
-      "title": "Chinese warship holds live-fire drills inside Japan’s economic waters for first time",
-      "translatedTitle": null,
-      "description": "Exercise took place about 180km from Okinotori, Japan’s southernmost island, and comes as Chinese and Philippine sailors clashed in the South China Sea A Chinese missile destroyer fired live rounds for the first time inside Japan’s exclusive economic zone (EEZ) during a drill on Sunday, a day before Chinese and Philippine sailors clashed in the South China Sea. Three Chinese warships and a Russian frigate were spotted sailing between Okinawa’s main island and Miyako island into the Pacific on Th",
-      "url": "https://www.theguardian.com/world/2026/jul/21/chinese-ship-opens-fire-japan-economic-zone-south-china-sea",
-      "canonicalUrl": "https://theguardian.com/world/2026/jul/21/chinese-ship-opens-fire-japan-economic-zone-south-china-sea",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T04:20:26Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/159f1bd9b2cbe8963aff8ee1c2498b1a38ef6ab3/0_0_4556_3647/master/4556.jpg?width=140&quality=85&auto=format&fit=max&s=eead7c00b48efaf67db6051909a3e53f",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0203e243939ea9dc59a4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.91938
+      "rankingScore": 6.75549,
+      "related": []
     },
     {
       "id": "bdfe3ff43affd8a6c14e012e",
@@ -929,367 +1080,7 @@
       "clusterId": "495c939994d03eecf947",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.90737
-    },
-    {
-      "id": "6d043e537f6a882b9a88cb78",
-      "title": "‘I was Russia’s Michael McIntyre – but I’ve now fled Putin and may never go back’",
-      "translatedTitle": null,
-      "description": "Russian sitcom star Sasha Nezlobin left his life behind in Moscow to flee the rule of Putin, after speaking out about his country’s war with Ukraine. He talks to Lauren Morris about how he may never return, his new life in the US and taking his story to Edinburgh Fringe",
-      "url": "https://www.independent.co.uk/arts-entertainment/comedy/features/edinburgh-fringe-festival-sasha-nezlobin-russia-b3018195.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/comedy/features/edinburgh-fringe-festival-sasha-nezlobin-russia-b3018195.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T05:00:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/20/13/37/Sasha-Nezlobin_4.JPG?width=1200&auto=webp&trim=201%2C254%2C232%2C395",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bcd71f1c1707dda6c336",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.90137
-    },
-    {
-      "id": "42d549ea3a0bc7f30e4497bf",
-      "title": "Sam Neill fans send sales of his Two Paddocks wine soaring in tribute to late actor",
-      "translatedTitle": null,
-      "description": "Thousands of dollars’ worth of donations also flood in to charity that Neill joined in protest against a controversial mine near his vineyard ‘He made wine and he shared it. What more do you want?’: Sam Neill remembered by his co-stars New Zealand stores have been selling out of Sam Neill’s wine label, and the causes he held dear have had an influx of support, as fans find ways to pay tribute to the adored late actor. The 78-year-old New Zealander died on 13 July of pneumonia, just three months",
-      "url": "https://www.theguardian.com/film/2026/jul/21/sam-neill-wine-sales-two-paddocks-label",
-      "canonicalUrl": "https://theguardian.com/film/2026/jul/21/sam-neill-wine-sales-two-paddocks-label",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T04:01:21Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a0fff9efc4b9209e08a7c0b312403ce61ddfabdb/494_222_3980_3185/master/3980.jpg?width=140&quality=85&auto=format&fit=max&s=292d3fe6282dbf550444c1fccb6ba455",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ce1fb96e05a9763d047a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.88558
-    },
-    {
-      "id": "f1e601d944a61ad042fd0bbd",
-      "title": "‘A guy did a runner in a Jaguar’: the petrol theft scandal – and the garage owner struggling to stop it",
-      "translatedTitle": null,
-      "description": "Since the start of the Iran war in February, there has been a 23% rise in fuel theft, with more than £1.2m stolen from British forecourts each week. Why aren’t the police doing more to apprehend the culprits? A petrol station tucked away in the suburbs of Birmingham seems an unlikely place for a crime spree. But this garage has become a prime target for thieves. Some fuel runners are easy to spot, approaching the petrol pumps in face masks, but after a recent spate of fill-and-dashes by less con",
-      "url": "https://www.theguardian.com/uk-news/2026/jul/21/petrol-theft-crisis-uk",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/21/petrol-theft-crisis-uk",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T04:00:10Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9548d8c4bb48f21ea705a8c90598d47c402cea83/2318_525_5118_4095/master/5118.jpg?width=140&quality=85&auto=format&fit=max&s=1977101fae0ab12f9c0b40f6ce0fc94f",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "03c9666efaf4e03321ea",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.88351
-    },
-    {
-      "id": "a1a8f42e7d31ac4fd3ddfc42",
-      "title": "As Sudan’s war crosses borders and millions are made refugees, could Ethiopia’s plan solve ‘humanity’s migration issue’?",
-      "translatedTitle": null,
-      "description": "Amid fears of fresh bloodshed, the country is hoping its offer of education and employment can provide a model for other nations to follow It didn’t matter that he was so frail he could barely walk. Rahmatalla Abdeen knew if they found him he would be shot. For two days, the 65-year-old had clung to the back of a moped as it navigated an area teeming with militia. The Rapid Support Forces (RSF) had seized this corner of Sudan after crossing the border from Ethiopia. Abdeen was lucky: on 17 May,",
-      "url": "https://www.theguardian.com/global-development/2026/jul/21/ethiopian-plan-sudanese-refugees-migration-crisis-education-work",
-      "canonicalUrl": "https://theguardian.com/global-development/2026/jul/21/ethiopian-plan-sudanese-refugees-migration-crisis-education-work",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T04:00:09Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/3fce1ffaa6e09bdb149a3a269b01c89f11af3a8e/488_158_3136_2509/master/3136.jpg?width=140&quality=85&auto=format&fit=max&s=14d37d8d072b4eb4cd4b11ab47d14165",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f8d8d27bcbd4fe96290d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.88348
-    },
-    {
-      "id": "11475be372028b2c5fc29d5a",
-      "title": "‘She was almost a Batman figure’: Mexico’s avenging Mother Courage",
-      "translatedTitle": null,
-      "description": "After her son disappeared, Isabel Miranda de Wallace swore she would bring the culprits to justice. She became a national hero. But did she go too far? When her son, Hugo, failed to answer his phone on the morning of 12 July 2005, Isabel Miranda de Wallace did not waste a moment. Everyone knew that kidnappings were rife in Mexico City, and Wallace immediately enlisted her brother and nephew to help with the search. They walked the streets near Hugo’s last known location until they came across hi",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/21/she-was-almost-a-batman-figure-mexicos-avenging-mother-courage",
-      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/jul/21/she-was-almost-a-batman-figure-mexicos-avenging-mother-courage",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T04:00:08Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d751d4c77eb1327261b6beca5a963f249a5c3336/0_175_3962_3170/master/3962.jpg?width=140&quality=85&auto=format&fit=max&s=648ef6de19c48977f098b69257173870",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "20e8c397a93dd314bbbf",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.88345
-    },
-    {
-      "id": "72df10c59525febc1a1d1b72",
-      "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-      "translatedTitle": null,
-      "description": "The duties mark a major escalation in trade tensions between the North American neighbours.",
-      "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cg4dzq3x3e1o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T00:34:47Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d92/live/ef104d10-84c6-11f1-b976-0b9c15b0ccfc.jpg",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cf3d38f53735150777b0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.82559
-    },
-    {
-      "id": "645cddd9317ad22c2a64f88a",
-      "title": "Dermatologists issue warning over viral ‘tanmaxxing’ trend",
-      "translatedTitle": null,
-      "description": "A riff on the ‘looksmaxxing’ self-improvement trend, tanmaxxing is about achieving the deepest tan possible by any means necessary",
-      "url": "https://www.independent.co.uk/life-style/tanmaxxing-what-sun-damage-dermatologists-warning-b3018526.html",
-      "canonicalUrl": "https://independent.co.uk/life-style/tanmaxxing-what-sun-damage-dermatologists-warning-b3018526.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T03:45:34Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/20/13/35/tan.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "94ecb5fbfa0dcf197a19",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.76808,
-      "related": []
-    },
-    {
-      "id": "54e594e9817a1756b1fc4345",
-      "title": "US launches further strikes on Iran; Houthis threaten Saudi shipping blockade – Middle East crisis live",
-      "translatedTitle": null,
-      "description": "US says latest attack aimed at further degrading Iranian military capabilities; Yemen militant group threatens traffic moving through Bab el-Mandeb strait US launches 10th round of strikes as Iran says it is in ‘full-scale war’ The price of oil jumped in early Asian trade on Monday after the US carried out its latest wave of strikes on Iran and a vessel caught fire in the strait of Hormuz. Brent crude for September delivery rose 2.72% to $90.50 a barrel by around 0100 GMT, after briefly crossing",
-      "url": "https://www.theguardian.com/world/live/2026/jul/20/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-latest-news",
-      "canonicalUrl": "https://theguardian.com/world/live/2026/jul/20/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-latest-news",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T03:22:49Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/7d0a4df1cbf2275cce86803c5752930d1362970a/197_0_1690_1352/master/1690.jpg?width=140&quality=85&auto=format&fit=max&s=7a80eef326a274e86ca66232a356f01f",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0cefe68f567778d4683e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.72914,
-      "related": []
-    },
-    {
-      "id": "19207094adb6a733d7581d66",
-      "title": "The alarming milestone America’s measles outbreak is about to reach",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/measles-2025-unvaccinated-outbreak-b3018570.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/measles-2025-unvaccinated-outbreak-b3018570.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T06:37:48Z",
-      "imageUrl": "https://static.independent.co.uk/2026/04/27/16/1140192021.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6936eb96b6c414ef99cb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.69107
-    },
-    {
-      "id": "d3fc8015a078664330c7d3f9",
-      "title": "Ukraine war briefing: Moscow targeted as Wildberries warehouse attacks continue",
-      "translatedTitle": null,
-      "description": "Russia using up more ballistic missiles than it makes, thinktank says; military chief may go in fallout from defence minister’s sacking. What we know on day 1,609 Ukraine fired more than 400 drones toward Moscow, the city’s mayor said on Monday. Russia had earlier bombarded Kyiv and other Ukrainian cities with ballistic missiles. The Ukrainian attack around Russia’s capital started a fire at the Yuzhnye Vrata industrial park – another Wildberries warehouse site like those hit over the weekend in",
-      "url": "https://www.theguardian.com/world/2026/jul/21/ukraine-war-briefing-moscow-targeted-as-wildberries-warehouse-attacks-continue",
-      "canonicalUrl": "https://theguardian.com/world/2026/jul/21/ukraine-war-briefing-moscow-targeted-as-wildberries-warehouse-attacks-continue",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T01:24:35Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0d224d8d84dcc72bb82cca1fc7d9d18a16042488/1000_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=380cf45802b3a42754e9818768a4460b",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1f7c300a2fe3f119c2eb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.62947,
-      "related": []
-    },
-    {
-      "id": "6ec3165d2a861281bcbc3dd4",
-      "title": "Warning over death of woman who tripped while crossing the road",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/pothole-death-warsop-nottinghamshire-beryl-barrett-b3018563.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/pothole-death-warsop-nottinghamshire-beryl-barrett-b3018563.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T05:59:07Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/20/16/54/pothole_death_canva-copy.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "69280c6f0ff6708f52c6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.61397
-    },
-    {
-      "id": "bdbba3183e94854540cbb0c0",
-      "title": "Robotaxi firm Zoox issues recall after vehicle drives into smoke near Vegas fire scene",
-      "translatedTitle": null,
-      "description": "About 100 vehicles from the Amazon-owned company were potentially affected by a software issue",
-      "url": "https://www.independent.co.uk/news/world/americas/robotaxi-zoox-recall-vegas-fire-b3018504.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/robotaxi-zoox-recall-vegas-fire-b3018504.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T01:51:54Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/21/1/47/GettyImages-2254554663.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8d402d555b86ee372708",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.58147,
+      "rankingScore": 6.738,
       "related": []
     },
     {
@@ -1312,293 +1103,53 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
+      "retrievedAt": "2026-07-21T08:17:22Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "7e8e0861a8ecb8f32628",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.57047,
+      "rankingScore": 6.43711,
       "related": []
     },
     {
-      "id": "dfd7501b09c4dbf8c55348c0",
-      "title": "Couple and 3 sons killed in flash flooding at scenic Utah canyon",
+      "id": "e1c626631502996fadc717ef",
+      "title": "Private sector wage growth hits six year low",
       "translatedTitle": null,
-      "description": "The family had arrived at the Sunglow Campground near Bicknell, Utah, for a day of hiking before sudden, heavy rains caused the fatal flooding",
-      "url": "https://www.independent.co.uk/news/world/americas/provo-utah-family-death-flooding-canyon-b3018448.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/provo-utah-family-death-flooding-canyon-b3018448.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Private sector wage growth has fallen below 3% for the first time since 2020, official figures show.",
+      "url": "https://news.sky.com/story/private-sector-wage-growth-hits-six-year-low-falling-below-3-13565466",
+      "canonicalUrl": "https://news.sky.com/story/private-sector-wage-growth-hits-six-year-low-falling-below-3-13565466",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-21T00:01:53Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/21/01/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-07-21T05:10:00Z",
+      "imageUrl": "https://e3.365dm.com/26/02/1920x1080/skynews-job-centre-unemployment_7168407.jpg?20260218161905",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
+      "retrievedAt": "2026-07-21T08:17:22Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "77079b30ca9f51f3976d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.41861,
-      "related": []
-    },
-    {
-      "id": "2e489fbfd688f92b698fd268",
-      "title": "Five people died while trying to rescue drowning swimmer on Ohio River",
-      "translatedTitle": null,
-      "description": "The emergency was first reported by a passing motorist who called 911 after noticing a child running along a nearby road",
-      "url": "https://www.independent.co.uk/news/world/americas/ohio-scioto-river-rescue-deaths-b3018430.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/ohio-scioto-river-rescue-deaths-b3018430.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-20T23:50:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/20/19/00/screenshot_2026-07-20_at_3-44-04___pm_720.png?width=1200&auto=webp&trim=0%2C57%2C0%2C57",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "40a661ba6c7a787d6f12",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.402,
-      "related": []
-    },
-    {
-      "id": "4c244ffbd11b335f6cdec5a1",
-      "title": "Trump slaps new tariffs on Canadian imports",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/trump-canada-imports-tariffs-carney-b3018508.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-canada-imports-tariffs-carney-b3018508.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T01:34:16Z",
-      "imageUrl": "https://static.independent.co.uk/2026/06/16/13/2281267274..?width=1200&auto=webp&trim=0%2C0%2C1%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e3da35a6a823e9af0f77",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.15423,
-      "related": []
-    },
-    {
-      "id": "3b6fe9e85050fe16e63f7675",
-      "title": "Man due in court charged with murder of Ann Widdecombe",
-      "translatedTitle": null,
-      "description": "Joshua Kerry from South Yorkshire, is set to appear at Westminister Magistrates' Court on Tuesday.",
-      "url": "https://www.bbc.co.uk/news/articles/cq89q0yyqz4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cq89q0yyqz4o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T06:26:07Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cef/live/bf35b650-84c8-11f1-bee8-53ce494e1abc.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1e4d178b7063fc1ab1b8",
+      "clusterId": "a36e7065e28fb2ac70a9",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.07749
+      "rankingScore": 5.48955
     },
     {
-      "id": "f8e14bbc9ff6c41cbc1ad920",
-      "title": "Utah fire captain and four family members killed in flash flooding",
+      "id": "b129b847f5e09a1a79935a6f",
+      "title": "Meta’s smartglasses mean any child can be covertly filmed. In the age of AI, how do we tackle that risk?",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/provo-utah-family-killed-flash-flooding-b3018496.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/provo-utah-family-killed-flash-flooding-b3018496.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T00:21:07Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/21/01/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "08dacd5da25bbb3ec75a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.0459,
-      "related": []
-    },
-    {
-      "id": "a59ab55829cce62d470c3451",
-      "title": "Monkey abandoned in laundry bag on London bus",
-      "translatedTitle": null,
-      "description": "A marmoset monkey is rescued by animal welfare officers on the 302 service in north-west London.",
-      "url": "https://www.bbc.co.uk/news/articles/c70g8wez8r1o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c70g8wez8r1o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T05:56:23Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/341f/live/dcddca90-847c-11f1-8f17-6fca617ac634.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "873794ae42c7a8f7e2d1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.01863
-    },
-    {
-      "id": "de48e0cbd4449de021e90012",
-      "title": "The Papers: 'Burnham era begins' and 'King Kev'",
-      "translatedTitle": null,
-      "description": "The papers are dominated by Andy Burnham's first day as prime minister.",
-      "url": "https://www.bbc.co.uk/news/articles/c0qv0zgq741o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c0qv0zgq741o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T05:38:42Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7bdf/live/c5ed4700-8483-11f1-b4a3-ff90d93e1201.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "34b20dff3d40456d945e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98439
-    },
-    {
-      "id": "9f29c861d7449c5ebd1ef517",
-      "title": "Northern Ireland's deputy first minster was 'floored' by news of Donaldson arrest",
-      "translatedTitle": null,
-      "description": "The deputy first minister says people who worked alongside Jeffrey Donaldson are \"floored, shocked and utterly repulsed\".",
-      "url": "https://www.bbc.co.uk/news/articles/c87nx97zlyno?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c87nx97zlyno?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T05:34:49Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/23d8/live/063e6cf0-845f-11f1-bee8-53ce494e1abc.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ab17071b3a9fdccebc67",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.97694
-    },
-    {
-      "id": "7fd772d0245f81eb0415921a",
-      "title": "Chris Mason: Cull of Starmer allies as new chancellor faces crunching spending choices",
-      "translatedTitle": null,
-      "description": "The appointment of John Healey is particularly fascinating, writes BBC political editor Chris Mason.",
-      "url": "https://www.bbc.co.uk/news/articles/c24mnnnd18do?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c24mnnnd18do?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T05:30:45Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6529/live/2035d300-84c8-11f1-b976-0b9c15b0ccfc.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-21T06:42:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c4a17814fd369fb8df6a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.96917
-    },
-    {
-      "id": "51ce0cd84be2956a2914caff",
-      "title": "UK military ‘eyes innovative electric flying taxi’ as 2029 launch planned",
-      "translatedTitle": null,
-      "description": "Vertical Aerospace says government has given £10m backing, taking its total investment in the project to £48m British flying taxi startup Vertical Aerospace has said the UK government has expressed interest in buying a military variant of its aircraft as it races to gain approval for flights with paying passengers. Vertical also welcomed another £10m grant from the government, taking its total UK state funding to £48m. Continue reading...",
-      "url": "https://www.theguardian.com/business/2026/jul/21/uk-military-electric-flying-taxi-vertical-aerospace-evtol",
-      "canonicalUrl": "https://theguardian.com/business/2026/jul/21/uk-military-electric-flying-taxi-vertical-aerospace-evtol",
+      "description": "The company argues that it’s for individuals to ensure they don’t ‘actively exploit’ this technology. That won’t keep children safe It took me a while to realise what the man sitting next to me on the train was doing. He was flicking through pictures of a little girl on his phone; zooming in on some, cropping the images. Hardly unusual, of course, except that on closer inspection the pictures were very clearly of the toddler sitting opposite us, playing with her parents. On a crowded train of pe",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/21/meta-smartglasses-child-filmed-ai-risk-technology",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/21/meta-smartglasses-child-filmed-ai-risk-technology",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1607,20 +1158,470 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-21T06:00:03Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/80c98c28f3557c69327149535ab5d9dd95eb2644/794_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=4af8c75a50a17532be93bfa49e52c5c4",
+      "publishedAt": "2026-07-21T05:00:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/67b57494983948c140e7be703392fe6d49cac634/1704_136_5545_4436/master/5545.jpg?width=140&quality=85&auto=format&fit=max&s=8941f90aaff77e728d1896fac8074665",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-21T06:42:08Z",
+      "retrievedAt": "2026-07-21T08:17:22Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "40a5820f11b70e9231c8",
+      "clusterId": "963691f7b2424701b7cb",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.7558
+      "rankingScore": 5.47256
+    },
+    {
+      "id": "d7397aafa3ab20bf09169452",
+      "title": "UK surrogacy law ‘creaking at seams’ as demand rises sharply",
+      "translatedTitle": null,
+      "description": "Experts urge ministers to update legislation to prevent intended parents resorting to riskier arrangements abroad Surrogates, parents and children are being failed by the UK’s archaic laws, which are “creaking at the seams” as demand for surrogacy grows rapidly, experts have said. Figures obtained by the Guardian show there were just under 1,000 children born to surrogates in 2025, double the number in 2015. The rise has been driven by a rise in the number of gay couples seeking to be parents, i",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/jul/21/uk-surrogacy-law-creaking-at-seams-as-demand-rises-sharply",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/jul/21/uk-surrogacy-law-creaking-at-seams-as-demand-rises-sharply",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T05:00:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c19c0a80f6081873eeac143ed6eba44b78f3785e/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5b2cac8faad41507b1b2bc74ba0f9d19",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a86ffab1969448f3efab",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47256
+    },
+    {
+      "id": "3636ece52868ab68d04478d1",
+      "title": "Gruel and graft: museum asks if you could survive a Victorian workhouse",
+      "translatedTitle": null,
+      "description": "Revamped Ripon attraction reopens as a more immersive experience telling ‘national story’ of poverty and welfare Visitors to one of Britain’s most complete surviving Victorian workhouses won’t have to strip and bathe in someone else’s bath water. But they might get some gruel, they can sweep the yard and there are “schoolmaster” volunteers happy to tell children how to behave. “You are literally going to walk in the footsteps of people who have experienced this place,” said the director of the R",
+      "url": "https://www.theguardian.com/culture/2026/jul/21/ripon-museum-that-asks-if-you-could-survive-victorian-workhouse",
+      "canonicalUrl": "https://theguardian.com/culture/2026/jul/21/ripon-museum-that-asks-if-you-could-survive-victorian-workhouse",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T05:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b22fbaafde11e968ea0875adf3e5124e71d6e912/1193_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=81103f51f6b5910fecbe637694e3341e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9449e2d98040454942b3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47253
+    },
+    {
+      "id": "3b6ae117ad4ebb1ef737fee9",
+      "title": "José Pizarro’s recipe for tomato and bread salad with boquerones",
+      "translatedTitle": null,
+      "description": "Spanish white pickled anchovies top this full-flavoured dish that’s easy to make and made for sharing In Spain, some of our most loved dishes come from making something special out of very little. This salad is exactly that kind of food: it’s about using what is already in the house and turning it into something generous and full-flavoured. I have always loved how these dishes bring people together, because they’re designed to be placed in the middle of the table for everyone to share. They remi",
+      "url": "https://www.theguardian.com/food/2026/jul/21/tomato-bread-salad-boquerones-recipe-jose-pizarro",
+      "canonicalUrl": "https://theguardian.com/food/2026/jul/21/tomato-bread-salad-boquerones-recipe-jose-pizarro",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T05:00:00Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1e4dc2fa8428023047aef3a6599bac83580d35de/162_346_3979_3180/master/3979.jpg?width=140&quality=85&auto=format&fit=max&s=bd3d58581b2356fb0689ad239811ee1a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "61d08c10dce3362936d1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4725
+    },
+    {
+      "id": "f8f6b8dd627d9f94399e5163",
+      "title": "At least 27 dead and 83 missing after passenger ferry capsizes off Guyana",
+      "translatedTitle": null,
+      "description": "An investigation into the tragedy has been launched, the island's prime minister says, adding he hopes more will be found alive.",
+      "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm2gm99nrm7o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T02:07:48Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be5c/live/801f6fc0-838c-11f1-a4c3-dfd0ee4be073.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "883b5756a60529d5fdf9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47242
+    },
+    {
+      "id": "dd827016e0a36eef671a4f2c",
+      "title": "Andy Burnham’s plans could bring the UK closer to Europe than he realises",
+      "translatedTitle": null,
+      "description": "The new PM’s priorities are domestic, but he will soon realise that closer engagement with the EU is a no-brainer What will European leaders make of Andy Burnham, the seventh UK prime minister they have had to deal with in a decade of chronic political instability in London unleashed by the fateful 2016 referendum vote to leave the European Union? The “king of the north” is largely an unknown quantity in continental Europe and has given priority to a domestic agenda of devolving powers to region",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/21/andy-burnhams-plans-could-bring-the-uk-closer-to-europe-than-he-realises",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/21/andy-burnhams-plans-could-bring-the-uk-closer-to-europe-than-he-realises",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T04:00:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c37500382030b3251ffa5be7a2299716a7660b55/0_10_4000_3198/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=e407b95366be53e2fc3e2cbc243a87b8",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3f3bb807b36ad781603f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37374
+    },
+    {
+      "id": "024d8171f41b05b68ac7015e",
+      "title": "Not enough water for UK’s datacentre plans, trade body says",
+      "translatedTitle": null,
+      "description": "Industry says government’s failure to address cooling demands means AI growth plans are ‘fatally flawed’ The UK will not have enough water for future datacentres, the water industry has said in stark criticism of the government’s AI growth plans. Datacentres rely on large amounts of water to manage the heat generated by densely packed servers. Cooling towers, chillers and humidification systems make direct use of this water, with large volumes also consumed indirectly through high electrical pow",
+      "url": "https://www.theguardian.com/environment/2026/jul/21/not-enough-water-for-uks-datacentre-plans-trade-body-says",
+      "canonicalUrl": "https://theguardian.com/environment/2026/jul/21/not-enough-water-for-uks-datacentre-plans-trade-body-says",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T04:00:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/89fc321daea16d577416580c9a8647aa91c825ae/99_0_5800_4640/master/5800.jpg?width=140&quality=85&auto=format&fit=max&s=db2884c2fbac4279cd6ac1593e3fb271",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a4e16fd1dea3fadb883d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37371
+    },
+    {
+      "id": "af5dca5cc16537dad66826ca",
+      "title": "‘New Girl was so scary I had to stop smoking pot’: Jake Johnson on perseverance, pickleball and Prince",
+      "translatedTitle": null,
+      "description": "As Nick in the blockbuster TV comedy, the actor was adored by millions. So will his new comedy The Dink, which he jokes is a ‘sexier Challengers’, make him even more popular? You might assume that Jake Johnson would know a little something about pickleball. The actor is starring in The Dink, a sort of spiritual heir to Dodgeball – it has a Ben Stiller cameo – and he plays Dusty Boyd, a former tennis pro turned plucky pickleball upstart. Presumably Johnson took the gig because he has a deep love",
+      "url": "https://www.theguardian.com/film/2026/jul/21/new-girl-was-so-scary-i-had-to-stop-smoking-pot-jake-johnson-on-perseverance-pickleball-and-prince",
+      "canonicalUrl": "https://theguardian.com/film/2026/jul/21/new-girl-was-so-scary-i-had-to-stop-smoking-pot-jake-johnson-on-perseverance-pickleball-and-prince",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T04:00:08Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4689febaa648303ba66c074bfc36f2e9f4e4690c/716_0_5002_4002/master/5002.jpg?width=140&quality=85&auto=format&fit=max&s=66abbee7d6e57b332bf01e1de6fac2fc",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a1a4119fcfe6d6530795",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37369
+    },
+    {
+      "id": "b3ad17d069d3a520f28d2d4c",
+      "title": "Your tips on getting a fussy child to eat, and six recipes they'll love",
+      "translatedTitle": null,
+      "description": "Want to avoid battles over broccoli and squabbles over spinach? We've asked you for your advice on how to cope at mealtimes over the summer holidays.",
+      "url": "https://www.bbc.co.uk/news/articles/c5yrjgj984qo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c5yrjgj984qo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T00:16:08Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a5ec/live/5e399080-8435-11f1-bee8-53ce494e1abc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "06e00b29722b0af91e19",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.31895
+    },
+    {
+      "id": "865a30611cf4d105b437eaf4",
+      "title": "Is UK facing drought for second summer in a row?",
+      "translatedTitle": null,
+      "description": "The longest dry spell in over 30 years for central England raises concerns about drought and when it might rain.",
+      "url": "https://www.bbc.co.uk/weather/articles/cjwx0xv571eo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/weather/articles/cjwx0xv571eo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T00:12:17Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9fce/live/c622f500-84db-11f1-b976-0b9c15b0ccfc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dd2f98d9b59c60d7a5bf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.31393
+    },
+    {
+      "id": "8c1a3120d7b9961152d8a3c4",
+      "title": "Bumblebees are struggling in UK heatwaves - but you can help them",
+      "translatedTitle": null,
+      "description": "The furry bodies of UK bumblebees are specially adapted for cold weather - making heatwaves a struggle.",
+      "url": "https://www.bbc.co.uk/news/articles/c141lymnl2yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c141lymnl2yo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T00:01:32Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d8f/live/15884120-842a-11f1-96d8-4b9d5565f166.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "702ebb725dfd78a1f853",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.30003
+    },
+    {
+      "id": "de3621842ef96c02ede2633b",
+      "title": "Why Andy Burnham will find it so tricky to unite Britain",
+      "translatedTitle": null,
+      "description": "Is there any common ground left?",
+      "url": "https://www.bbc.co.uk/news/articles/c17y7r9yv1ro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c17y7r9yv1ro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-20T23:49:02Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c72/live/b768c240-8442-11f1-b976-0b9c15b0ccfc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "93c77556069bdc669bcc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28403
+    },
+    {
+      "id": "975ffb833794e11db4a2462f",
+      "title": "Will the Tate brothers be extradited from the US to the UK?",
+      "translatedTitle": null,
+      "description": "Andrew and Tristan Tate are set to face extradition proceedings in the US as British prosecutors issued 38 new charges against the brothers.",
+      "url": "https://www.bbc.co.uk/news/articles/cjej0j0lzkno?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cjej0j0lzkno?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-20T23:25:44Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e51/live/ca7996d0-848c-11f1-b976-0b9c15b0ccfc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "233ecdc99187da9b12f9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.25471
+    },
+    {
+      "id": "b35a0c8685a72165eaf65706",
+      "title": "Who's landed the top jobs in the cabinet?",
+      "translatedTitle": null,
+      "description": "The BBC's Annita McVeigh talks us through some key appointments as Andy Burnham takes office.",
+      "url": "https://www.bbc.co.uk/news/videos/cp3rz5k713yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/cp3rz5k713yo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-20T23:08:17Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d97/live/d9e39830-848e-11f1-bee8-53ce494e1abc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4af938c6312c1846f6bb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.23315
+    },
+    {
+      "id": "ab81d23f90e2388d193a1ecc",
+      "title": "'I made £100,000 of TikTok sales in one day': The business of live shopping",
+      "translatedTitle": null,
+      "description": "Buying on social media livestreams is fast becoming regular consumer behaviour for many.",
+      "url": "https://www.bbc.co.uk/news/articles/cm2j22w8k0po?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm2j22w8k0po?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-20T23:06:04Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e6c/live/07f87140-8418-11f1-b3ec-1d7f0502d196.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0e369831fe2cca3cdaa5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.23044
+    },
+    {
+      "id": "066b731d99837f635184ce56",
+      "title": "Richard Dadd review – can his mental illness help explain these arresting, bizarre images?",
+      "translatedTitle": null,
+      "description": "Royal Academy, LondonDadd was already a remarkable artist – with fairies as his hit theme – before he was locked up for murder. Yet it was within the confines of Bedlam that he saw nature and art afresh The young man in the garden must be one of Richard Dadd’s fellow patients in Bedlam, you think. His unkempt hair and ruffled clothes are sure indications of a distracted mind as he sits, half his face in shadow, hands nervously clasped, on a fabulously twisted wooden bench surrounded by greenery",
+      "url": "https://www.theguardian.com/artanddesign/2026/jul/21/richard-dadd-review-royal-academy-london-beyond-bedlam",
+      "canonicalUrl": "https://theguardian.com/artanddesign/2026/jul/21/richard-dadd-review-royal-academy-london-beyond-bedlam",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-20T23:01:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/46e7f5121379f5d65d1654416fbacaa5daf9bd28/0_76_5277_4220/master/5277.jpg?width=140&quality=85&auto=format&fit=max&s=ce9ef42cd81d2c35005a85e11b30faa5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-21T08:17:22Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "584f31e666325d4d2942",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.9543
     }
   ]
 }
