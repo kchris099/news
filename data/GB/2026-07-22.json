@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-22",
-  "generatedAt": "2026-07-22T00:17:17Z",
-  "lastAttemptAt": "2026-07-22T00:17:17Z",
-  "lastSuccessfulUpdate": "2026-07-22T00:17:17Z",
-  "status": "current",
+  "generatedAt": "2026-07-22T04:17:18Z",
+  "lastAttemptAt": "2026-07-22T04:17:18Z",
+  "lastSuccessfulUpdate": "2026-07-22T04:17:18Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 29,
-  "publisherCount": 3,
+  "articleCount": 45,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-22T00:17:16Z",
-      "lastSuccessAt": "2026-07-22T00:17:17Z",
+      "lastAttemptAt": "2026-07-22T04:17:17Z",
+      "lastSuccessAt": "2026-07-22T04:17:17Z",
       "articlesRetrieved": 34,
-      "responseTimeMs": 552,
+      "responseTimeMs": 389,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-22T00:17:16Z",
-      "lastSuccessAt": "2026-07-22T00:17:17Z",
+      "lastAttemptAt": "2026-07-22T04:17:17Z",
+      "lastSuccessAt": "2026-07-22T04:17:17Z",
       "articlesRetrieved": 147,
-      "responseTimeMs": 562,
+      "responseTimeMs": 482,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,61 +38,31 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-22T00:17:16Z",
-      "lastSuccessAt": "2026-07-22T00:17:17Z",
+      "lastAttemptAt": "2026-07-22T04:17:17Z",
+      "lastSuccessAt": "2026-07-22T04:17:18Z",
       "articlesRetrieved": 10,
-      "responseTimeMs": 718,
+      "responseTimeMs": 985,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-07-22T00:17:16Z",
-      "lastSuccessAt": "2026-07-22T00:17:17Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 499,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-22T04:17:17Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
     {
-      "id": "aa46f3b8eecccd417791da6e",
-      "title": "Trump announces new tariffs on generic drugs to take effect in 2028 – US politics live",
-      "translatedTitle": null,
-      "description": "President says 100% tariff would be imposed on generic drugs made overseas after 1 August 2028 ‘for a one year period of time, and 200% thereafter’ Sign up for US Breaking News email US gas prices have continued to rise since the conflict with Iran resumed this month. According to the American Automobile Association (AAA), a gallon of fuel is now just over $4 – almost a dollar more than a year ago. It comes as Brent Crude, the international oil benchmark, is now up by almost 2% to $90.92 a barre",
-      "url": "https://www.theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates",
-      "canonicalUrl": "https://theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T23:44:54Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/711e9e024befa91d305f5db5ff6746677317db4d/360_0_4451_3561/master/4451.jpg?width=140&quality=85&auto=format&fit=max&s=5ce29318617bb3d74cbf8a00f8f44c20",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cf8a444e6ee2098a4a32",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 10.17498
-    },
-    {
-      "id": "43dc15d4d230dba14f8822ae",
+      "id": "40ac617f07ed67581608af85",
       "title": "Iran war has cost US $37.5bn so far, Hegseth says, as Pentagon seeks billions more",
       "translatedTitle": null,
-      "description": "Some senators pushed back on Hegseth's funding request as he testified at a pivotal time in the war.",
+      "description": "The hearing was disrupted by protests and a shouting match as Hegseth testified at a pivotal time in the war.",
       "url": "https://www.bbc.co.uk/news/articles/c70gek2kqyno?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://bbc.co.uk/news/articles/c70gek2kqyno?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
@@ -103,16 +73,16 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-22T00:11:58Z",
+      "publishedAt": "2026-07-22T02:15:05Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd9c/live/8cde08d0-8552-11f1-b976-0b9c15b0ccfc.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
+      "retrievedAt": "2026-07-22T04:17:17Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f4097fe20146892e4ffc",
+      "clusterId": "30894780e6bb1f5c86c0",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
@@ -140,14 +110,194 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "f4097fe20146892e4ffc",
+          "clusterId": "30894780e6bb1f5c86c0",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "iran us war latest hegseth reveals staggering cost of conflict so far as he faces senate to ask for more"
+        },
+        {
+          "id": "66256650179fb4814f85ca88",
+          "title": "Hegseth tells Senate war on Iran has so far cost $37.5bn at hearing to request more funds",
+          "translatedTitle": null,
+          "description": "Defense secretary has asked Senate appropriations committee for nearly $88bn more to continue effort The US defense secretary, Pete Hegseth told the Senate on Tuesday that the US-Israel war on Iran had cost $37.5bn so far, as he faced lawmakers furious over the conflict’s soaring price tag and the deaths last week of three American service members. During an appearance before the Senate appropriations committee, Hegseth, whose opening remarks were repeatedly interrupted by protesters, provided a",
+          "url": "https://www.theguardian.com/us-news/2026/jul/21/hegseth-pentagon-supplemental-funding-request-senate",
+          "canonicalUrl": "https://theguardian.com/us-news/2026/jul/21/hegseth-pentagon-supplemental-funding-request-senate",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-21T23:15:10Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/58baadc97da4d45e2a71eb2217181be677f35768/458_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=e494679d5ade6f42d73dc3ab582e31d2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-22T04:17:17Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "30894780e6bb1f5c86c0",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "hegseth tells senate war on iran has so far cost 37 5bn at hearing to request more funds"
         }
       ],
-      "rankingScore": 8.84916
+      "rankingScore": 10.37458
+    },
+    {
+      "id": "f8c02aa985ac4d56c83ba465",
+      "title": "What is Pickaxe Mountain, Iran’s underground nuclear facility Trump is threatening to attack?",
+      "translatedTitle": null,
+      "description": "Little is known about the complex near the Natanz nuclear facility, but it is estimated it is buried almost 100 metres inside a mountain With the conflict between the US and Iran facing its most sustained outbreak of violence since a ceasefire was agreed in April, Donald Trump has returned to threatening Iranian nuclear sites. The current run of US strikes is aimed at forcing Iran to reopen the strait of Hormuz, but in comments on Tuesday, the president said that his administration remained comm",
+      "url": "https://www.theguardian.com/world/2026/jul/22/pickaxe-mountain-iran-nuclear-site-trump",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/22/pickaxe-mountain-iran-nuclear-site-trump",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T03:02:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/17291efc00b9c0d4daea258b176ddf8a3954e1ca/894_0_4606_3686/master/4606.jpg?width=140&quality=85&auto=format&fit=max&s=415095e13666469d2f8b20f034b80f33",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "63f5b8e992dd88c35623",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 9.7419
+    },
+    {
+      "id": "aa46f3b8eecccd417791da6e",
+      "title": "Trump announces new tariffs on generic drugs to take effect in 2028 – US politics live",
+      "translatedTitle": null,
+      "description": "President says 100% tariff would be imposed on generic drugs made overseas after 1 August 2028 ‘for a one year period of time, and 200% thereafter’ Sign up for US Breaking News email US gas prices have continued to rise since the conflict with Iran resumed this month. According to the American Automobile Association (AAA), a gallon of fuel is now just over $4 – almost a dollar more than a year ago. It comes as Brent Crude, the international oil benchmark, is now up by almost 2% to $90.92 a barre",
+      "url": "https://www.theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates",
+      "canonicalUrl": "https://theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T23:44:54Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/711e9e024befa91d305f5db5ff6746677317db4d/360_0_4451_3561/master/4451.jpg?width=140&quality=85&auto=format&fit=max&s=5ce29318617bb3d74cbf8a00f8f44c20",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T00:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cf8a444e6ee2098a4a32",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 9.30953,
+      "related": []
+    },
+    {
+      "id": "82252eaf91d6ec51dffda368",
+      "title": "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
+      "translatedTitle": null,
+      "description": "The US president's threat to target a key Iranian nuclear site came ahead of the 11th consecutive night of attacks.",
+      "url": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cdrv0p37k8jo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T03:05:08Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a13/live/5d582620-8572-11f1-bee8-53ce494e1abc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f101e438f5907bae9cf5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.66777
+    },
+    {
+      "id": "caefe31b8ab0587913713002",
+      "title": "Tropical Storm Bertha expected to weaken as it moves toward US",
+      "translatedTitle": null,
+      "description": "Storm warnings stretch from Florida to Louisiana as Bertha brings heavy rain, flooding risk and possible tornadoes Tropical Storm Bertha strengthened in the Gulf of Mexico on Tuesday but was expected to weaken this week as it chugs closer to the US, potentially bringing coastal flooding and heavy rain from the Florida Panhandle to Louisiana. Those areas along the northern Gulf coast were under a tropical storm warning through Wednesday and could see rain and flooding into Thursday morning, the M",
+      "url": "https://www.theguardian.com/us-news/2026/jul/21/storm-bertha-gulf-mexico",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/jul/21/storm-bertha-gulf-mexico",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T01:37:45Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/aeb8005f2d3a6c79eae532bfb3156ac8ca09abb1/386_0_1349_1080/master/1349.jpg?width=140&quality=85&auto=format&fit=max&s=8e0599be0dcbcc0664015f89de022983",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ae96b61dcfca12c7d6b4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.23783
+    },
+    {
+      "id": "82ac28ddbcf5476b2b5235b1",
+      "title": "Zelenskyy left with little choice but to sack his army chief - and it's a spectacular fall from grace",
+      "translatedTitle": null,
+      "description": "In a significant move in the middle of a war, Ukraine's president has sacked his military chief and is seeking to woo a former defence minister back into the fold – just days after ousting him too.",
+      "url": "https://news.sky.com/story/why-zelenskyy-has-sacked-ukraines-armed-forces-chief-13565831",
+      "canonicalUrl": "https://news.sky.com/story/why-zelenskyy-has-sacked-ukraines-armed-forces-chief-13565831",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T00:16:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-zelenskyy-syrskyi-ukraine_7303841.jpg?20260722013008",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f40a499a112c2ce15153",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.09948
     },
     {
       "id": "4420c4747a581fa92e5e6231",
@@ -176,8 +326,128 @@
       "clusterId": "06d720ce891dee611cf6",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.98829,
+      "related": []
+    },
+    {
+      "id": "3cd58e115f7f9368f3a60542",
+      "title": "Ex-Australia batter David Warner pleads guilty to drink driving",
+      "translatedTitle": null,
+      "description": "Star cricketer was charged after failing a random breath test in Sydney earlier this year.",
+      "url": "https://www.bbc.co.uk/news/articles/c2dkxkp8wrpo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c2dkxkp8wrpo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T03:14:38Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c159/live/ac0e5960-3275-11f1-b297-95b0a0a8331e.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "91120b66e2e5535f96dc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.51089
+      "rankingScore": 7.33595
+    },
+    {
+      "id": "269d1c9335c07f3604061141",
+      "title": "My friends left Ukraine after the Russian invasion. Now I wonder if we live in the same world | Diana Berg",
+      "translatedTitle": null,
+      "description": "Anger, guilt, shame: the deepest unseen wound of this war is the rift between those who left and those who stayed behind “Can we reschedule?” Over the years of working with western colleagues, I had learned to accept that they don’t fully understand what war feels like from the inside. They would ask me to find someone in occupied Mariupol for an interview, or seem genuinely puzzled that I couldn’t just log on at a time that suited them. I made my peace with this long ago – they don’t have to un",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/22/my-friends-left-ukraine-after-the-russian-invasion-now-i-wonder-if-we-live-in-the-same-world",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/22/my-friends-left-ukraine-after-the-russian-invasion-now-i-wonder-if-we-live-in-the-same-world",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T04:00:05Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4e36e0c5a209a3b8984b1e51d5c6facc65f8c94d/268_0_2729_2183/master/2729.jpg?width=140&quality=85&auto=format&fit=max&s=9230b5c87469a24fbc49c5857b0433a1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5d26f2e1114a8f25361d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15517
+    },
+    {
+      "id": "2ac0581124a96620911f20d2",
+      "title": "Japan records its first ‘cruelly hot day’ as cities swelter in 40-degree heat",
+      "translatedTitle": null,
+      "description": "In April Japan coined new term kokushobi for days above 40C as country advises workers to wear shorts to the office to cope with stifling heat Japan logged its first official kokushobi or “cruelly hot day” on Tuesday since the new term for when temperatures top 40 degrees Celsius was introduced in April. The Japan Meteorological Agency coined the new designation to warn the public of the heat dangers of days that were once freak weather events but have now become more common. The central Japan c",
+      "url": "https://www.theguardian.com/world/2026/jul/22/japan-heat-kokushobi-cruelly-hot-40c-weather",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/22/japan-heat-kokushobi-cruelly-hot-40c-weather",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T03:48:04Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e51a86cc375e69a00f0b0f08fb1d463572f095bb/413_0_4174_3340/master/4174.jpg?width=140&quality=85&auto=format&fit=max&s=4ece210b5eeaa829a01530035973c4f1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a63ead1ceb0dff0196c6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.13122
+    },
+    {
+      "id": "1fbc4836a47c941a71b9f349",
+      "title": "India’s Rahul Gandhi briefly detained as cockroach protests rock Delhi",
+      "translatedTitle": null,
+      "description": "Opposition leader taken away after accusing Narendra Modi of ‘destroying the future of India’s youth’ during protest in solidarity with cockroach movement Indian police briefly detained opposition leader Rahul Gandhi on Tuesday during protests calling for prime minister Narendra Modi’s resignation, in solidarity with the new youth-led cockroach party movement. Gandhi, the leader of India’s Congress party, staged a sit-in outside Modi’s house on Tuesday afternoon, stating that Modi must resign “f",
+      "url": "https://www.theguardian.com/world/2026/jul/22/india-cockroach-janta-party-cjp-protests-rahul-gandhi-detained",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/22/india-cockroach-janta-party-cjp-protests-rahul-gandhi-detained",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T03:05:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6443e02f649eec8222ac8beb0b748c5236fa5668/879_132_2775_2220/master/2775.jpg?width=140&quality=85&auto=format&fit=max&s=0c7fbf92071bbd5402e0cd58959211b0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "15b8217cd60bd272313b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.04859
     },
     {
       "id": "6afdc7ef413c3439a6fddbe7",
@@ -199,7 +469,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
+      "retrievedAt": "2026-07-22T04:17:17Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -207,7 +477,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.42417
+      "rankingScore": 6.99291
+    },
+    {
+      "id": "2b79ab3aaa7633d7fbb3d0c0",
+      "title": "Mamdani says New York City does not have legal authority to arrest Netanyahu",
+      "translatedTitle": null,
+      "description": "Mayor had said he was reviewing ability to execute arrest warrant issued by the ICC for Israeli prime minister Zohran Mamdani, the New York City mayor, acknowledged on Tuesday he does not have the authority to arrest Benjamin Netanyahu, but urged US federal authorities to do so if the Israeli prime minister visits the US later this year. “Benjamin Netanyahu is a war criminal, the architect of a horrific genocide against the Palestinian people,” Mamdani said in a video posted to social media. Con",
+      "url": "https://www.theguardian.com/us-news/2026/jul/21/mamdani-benjamin-netanyahu-arrest-authority",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/jul/21/mamdani-benjamin-netanyahu-arrest-authority",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T01:08:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/76a310c7b26b92bedf0e6253cdc72fc6f66dd0a7/21_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=160f19a439ba56a5a4a33a8fd5d9ac24",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6aa080a2a850f1add5de",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.83706
     },
     {
       "id": "e67c3df9425111ff221808e1",
@@ -236,8 +536,8 @@
       "clusterId": "85248b5dd78442a6b04b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.08083
+      "rankingScore": 6.64625,
+      "related": []
     },
     {
       "id": "39e87c335f3453d9fc78af99",
@@ -266,8 +566,8 @@
       "clusterId": "0622eac581aca75d59d1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.99019
+      "rankingScore": 6.57366,
+      "related": []
     },
     {
       "id": "6f58de63cb66825477b9a1cc",
@@ -296,8 +596,8 @@
       "clusterId": "6de030a7ac3742415a94",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.94994
+      "rankingScore": 6.54144,
+      "related": []
     },
     {
       "id": "bcf557984f99152ce625ba24",
@@ -326,8 +626,248 @@
       "clusterId": "165b950fab3b128ed1af",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.22041,
+      "related": []
+    },
+    {
+      "id": "75134345d0ce39a0deee8913",
+      "title": "France passes law banning under-15s from social media",
+      "translatedTitle": null,
+      "description": "The law will require social media platforms in France to verify all users age from January.",
+      "url": "https://www.bbc.co.uk/news/articles/cq56l9p4y93o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cq56l9p4y93o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T03:50:55Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e4c4/live/46825250-8580-11f1-a2a8-afc39501b832.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0ca213f39eabf429dab6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.64856
+      "rankingScore": 6.05687
+    },
+    {
+      "id": "b5dd6f3e6944c03f06c3c880",
+      "title": "Gruesome images in D4vd hearing are 'worst nightmare' for teen girl's family",
+      "translatedTitle": null,
+      "description": "The court hears the singer ordered a body bag, chainsaws and an inflatable pool to dispose of the teen's body.",
+      "url": "https://www.bbc.co.uk/news/articles/c4g4lyze30vo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c4g4lyze30vo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T02:33:11Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9840/live/f8135f10-856b-11f1-926f-c90d1bcfbc84.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "08d7feb383f162bf7b70",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.90778
+    },
+    {
+      "id": "fb9308b3df5847b35666f22d",
+      "title": "Burnham pulls back on suggestion to increase income tax allowance",
+      "translatedTitle": null,
+      "description": "The new prime minister previously said voters were frustrated over the freeze in tax-free personal allowance.",
+      "url": "https://www.bbc.co.uk/news/articles/c935g67wyvgo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c935g67wyvgo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T01:43:54Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0f0/live/aef0e940-855e-11f1-bee8-53ce494e1abc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "30dc59fb7a48346abe25",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.81867
+    },
+    {
+      "id": "dccb48721be323799bea85d7",
+      "title": "First ‘puffling’ sighting in three decades give hope for Dorset's struggling puffin colony – video",
+      "translatedTitle": null,
+      "description": "A rare glimpse of a young puffin emerging from its nest has given conservationists fresh hope for the future of Dorset’s dwindling puffin population. The ‘puffling’ was spotted by volunteers working with the National Trust, who renewed their monitoring efforts at the site in March 2026 to understand why mainland England’s last breeding colony on the south coast was failing to produce chicks. It is the first time in 30 years a puffling sighting has been confirmed at the colony. ‘A great thrill’:",
+      "url": "https://www.theguardian.com/uk-news/video/2026/jul/22/dorset-rare-puffling-sighting-baby-puffin-video",
+      "canonicalUrl": "https://theguardian.com/uk-news/video/2026/jul/22/dorset-rare-puffling-sighting-baby-puffin-video",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T04:05:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9ceef0405442d36baadffc36d7230fc842e7bd15/0_480_1541_1233/master/1541.jpg?width=140&quality=85&auto=format&fit=max&s=f4620e1f21f1e4fe7a78605ce06864e2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "70abb762b1d93a923af3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.81515
+    },
+    {
+      "id": "e241c53467c3e9f544c7c198",
+      "title": "‘The bed you thought was safe, isn’t safe’: how Zoe Watts survived drug-facilitated rape – and fought back",
+      "translatedTitle": null,
+      "description": "For years, her husband was adding sedatives to her evening cup of tea. Now, with fellow survivor Amanda Stanhope, she is lifting the lid on a hidden and diabolical crime In September 2024, Amanda Stanhope watched, transfixed, from her home in Manchester, as the Gisèle Pelicot case made headlines around the world. “Gisèle’s case was the first time I knew of somebody else who had been raped while they were drugged,” says Stanhope. “I remember feeling: ‘Thank God I’m not alone. There’s one other pe",
+      "url": "https://www.theguardian.com/society/2026/jul/22/the-bed-you-thought-was-safe-isnt-safe-how-zoe-watts-survived-drug-facilitated-and-fought-back",
+      "canonicalUrl": "https://theguardian.com/society/2026/jul/22/the-bed-you-thought-was-safe-isnt-safe-how-zoe-watts-survived-drug-facilitated-and-fought-back",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T04:00:06Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/752985974337d25a31d90678d9b89188825fa0e9/1979_773_6413_5129/master/6413.jpg?width=140&quality=85&auto=format&fit=max&s=0b35227ec7b324ed43aa38d8a57cca86",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2772bbd09f8c0123f9c9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80521
+    },
+    {
+      "id": "3fc1d428ac43b8c4278c1d0e",
+      "title": "'Burnham's power play' and Widdecombe 'hit 21 times with a hammer'",
+      "translatedTitle": null,
+      "description": "The papers are dominated by reports about the former MP's death and the prime minister's first full day in office.",
+      "url": "https://www.bbc.co.uk/news/articles/cr7kv3xd8j1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cr7kv3xd8j1o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T01:06:24Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/89f7/live/91a81200-8568-11f1-b77f-cdbd6f8d03de.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5a4a3981fef0e30c5b20",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.75353
+    },
+    {
+      "id": "ee5981e75964bcc096e41337",
+      "title": "UK humanitarian worker monitored for Ebola in London hospital",
+      "translatedTitle": null,
+      "description": "The health worker was evacuated to the UK from the DR Congo after being potentially exposed to the virus.",
+      "url": "https://www.bbc.co.uk/news/articles/cdewk5r308jo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cdewk5r308jo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T00:52:35Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/22c0/live/117a7b30-8555-11f1-b976-0b9c15b0ccfc.jpg",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b5784f8313393f1548bb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.7301
+    },
+    {
+      "id": "afc87faccca2f06cba54743c",
+      "title": "'Play music loud to remember Ozzy' says Sharon on first anniversary of his death",
+      "translatedTitle": null,
+      "description": "Sharon Osbourne shares with the BBC her memories and hopes for the future.",
+      "url": "https://www.bbc.co.uk/news/articles/cd7lnl9jzgyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cd7lnl9jzgyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T00:14:19Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c58/live/5026ad40-853c-11f1-ab57-69b83adbeeff.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f6fd19b1f913f4209100",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66674
     },
     {
       "id": "e9bcef7b34f9820c16a5999f",
@@ -349,7 +889,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
+      "retrievedAt": "2026-07-22T04:17:17Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -357,7 +897,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.0825
+      "rankingScore": 5.64958
     },
     {
       "id": "15369835bf79f82989469c6b",
@@ -379,7 +919,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
+      "retrievedAt": "2026-07-22T04:17:17Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -387,7 +927,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.07067
+      "rankingScore": 5.6401
     },
     {
       "id": "dc1c1990229e638f86c3d6cd",
@@ -409,7 +949,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
+      "retrievedAt": "2026-07-22T04:17:17Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -417,7 +957,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.05237
+      "rankingScore": 5.62545
+    },
+    {
+      "id": "472194be0810c8c94038ecf4",
+      "title": "Why WhatsApp usernames could upset Somalia's anti-terror fight",
+      "translatedTitle": null,
+      "description": "People will be able to chat without revealing their contact number once the new feature is rolled out.",
+      "url": "https://www.bbc.co.uk/news/articles/ce97zxdkeyyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ce97zxdkeyyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T23:46:35Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16d2/live/9d562d60-8529-11f1-b976-0b9c15b0ccfc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5098a57f381043b193d5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.6222
     },
     {
       "id": "9bb89a14a42327794f90a37f",
@@ -439,7 +1009,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
+      "retrievedAt": "2026-07-22T04:17:17Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -447,15 +1017,15 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.0457
+      "rankingScore": 5.62011
     },
     {
-      "id": "3d4e7ecf669fcea95bb93e33",
-      "title": "Burnham tells cabinet to tackle living costs at first meeting",
+      "id": "27ffc06e13fce22f0d740de2",
+      "title": "Will AI help you do your job or replace you?",
       "translatedTitle": null,
-      "description": "The new prime minister chaired his first cabinet after announcing a cut to VAT on household electricity.",
-      "url": "https://www.bbc.co.uk/news/articles/cx2vp4x7gkxo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cx2vp4x7gkxo?at_campaign=rss&at_medium=RSS",
+      "description": "Artificial Intelligence companies make vast claims about their tools replacing human labour - our charts show what's happening.",
+      "url": "https://www.bbc.co.uk/news/articles/cn7nllr4vd6o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cn7nllr4vd6o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -464,20 +1034,50 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-21T23:15:33Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/868c/live/fac66860-852f-11f1-926f-c90d1bcfbc84.jpg",
+      "publishedAt": "2026-07-21T23:04:42Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/280a/live/5a31cec0-8062-11f1-926f-c90d1bcfbc84.png",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
+      "retrievedAt": "2026-07-22T04:17:17Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fd7fe93908de827d0b9a",
+      "clusterId": "77496fa497e119a16841",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.98774
+      "rankingScore": 5.55707
+    },
+    {
+      "id": "18cc924239c881f058726ee8",
+      "title": "Trump must divulge financial details about businesses in $10bn BBC lawsuit",
+      "translatedTitle": null,
+      "description": "US judge’s ruling could open up window into first family’s multiple ventures, in drawback of lawsuit on media Donald Trump must divulge detailed financial information from his many businesses as part of his $10bn defamation lawsuit against the British Broadcasting Corporation, a federal judge ruled during a discovery hearing on Tuesday, according to news reports. The ruling by US magistrate judge Enjoliqué Lett could open a unique window into the hundreds of businesses owned by Trump’s family tr",
+      "url": "https://www.theguardian.com/us-news/2026/jul/21/trump-financial-details-bbc-lawsuit",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/jul/21/trump-financial-details-bbc-lawsuit",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T23:52:33Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4279867a09d14ef732e41ef57950a045eff13b76/663_0_6628_5303/master/6628.jpg?width=140&quality=85&auto=format&fit=max&s=cd599019aff9cd2bb10ecc79dda610fc",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T04:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e7c3f5fd45a6e1977c2e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.36168
     },
     {
       "id": "4dfbb5a644d0aff08af49682",
@@ -499,45 +1099,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
+      "retrievedAt": "2026-07-22T04:17:17Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "59cab024c9b1e5468f42",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72603
-    },
-    {
-      "id": "033493b2c408963001c726f9",
-      "title": "US immigration agents arrested a record number of people in June, data shows",
-      "translatedTitle": null,
-      "description": "Guardian analysis shows officers arrested 43,138 people as quiet and steady operations ramp up across the country The Trump administration arrested a record number of immigrants last month, according to newly released government data that reveals how US immigration agents are quietly but steadily ramping up operations across the country. A Guardian analysis of the latest data published by US Immigration and Customs Enforcement (ICE) found that federal immigration agents arrested 43,138 people in",
-      "url": "https://www.theguardian.com/us-news/2026/jul/21/immigration-agents-arrest-june-data",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/jul/21/immigration-agents-arrest-june-data",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T23:06:20Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e65bda425176c903a0adf546ba04e0f18503cad3/621_0_6182_4949/master/6182.jpg?width=140&quality=85&auto=format&fit=max&s=03cc93460d4a5b70db642bf80ee4e108",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "37f3fbbf64fe4d28964b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70008
+      "rankingScore": 5.31034,
+      "related": []
     },
     {
       "id": "cfd6391f6c7027fce9db5899",
@@ -566,8 +1136,8 @@
       "clusterId": "69a23d4edd3335c6843f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6835
+      "rankingScore": 5.25834,
+      "related": []
     },
     {
       "id": "56ed71ea381a7d96ccf1e581",
@@ -596,8 +1166,8 @@
       "clusterId": "82c89ef25302d1fd31ff",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68178
+      "rankingScore": 5.25697,
+      "related": []
     },
     {
       "id": "0395af98414861ae7d1661ae",
@@ -626,8 +1196,8 @@
       "clusterId": "666613045a892dc03f54",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66772
+      "rankingScore": 5.24571,
+      "related": []
     },
     {
       "id": "cc5fae32f6d0da88e5a5715b",
@@ -656,8 +1226,8 @@
       "clusterId": "3b71710784125e4861f0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65973
+      "rankingScore": 5.23931,
+      "related": []
     },
     {
       "id": "c350fc1016cd978b6f755f7b",
@@ -686,8 +1256,38 @@
       "clusterId": "a6a6eca77c6573057a65",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61282
+      "rankingScore": 5.20175,
+      "related": []
+    },
+    {
+      "id": "033493b2c408963001c726f9",
+      "title": "US immigration agents arrested a record number of people in June, data shows",
+      "translatedTitle": null,
+      "description": "Guardian analysis shows officers arrested 43,138 people as quiet and steady operations ramp up across the country The Trump administration arrested a record number of immigrants last month, according to newly released government data that reveals how US immigration agents are quietly but steadily ramping up operations across the country. A Guardian analysis of the latest data published by US Immigration and Customs Enforcement (ICE) found that federal immigration agents arrested 43,138 people in",
+      "url": "https://www.theguardian.com/us-news/2026/jul/21/immigration-agents-arrest-june-data",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/jul/21/immigration-agents-arrest-june-data",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-21T23:06:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e65bda425176c903a0adf546ba04e0f18503cad3/621_0_6182_4949/master/6182.jpg?width=140&quality=85&auto=format&fit=max&s=03cc93460d4a5b70db642bf80ee4e108",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-22T00:17:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "37f3fbbf64fe4d28964b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.19956,
+      "related": []
     },
     {
       "id": "3a9bfc219a87e86e864816a9",
@@ -716,8 +1316,8 @@
       "clusterId": "90cfd2110170be8f2273",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60767
+      "rankingScore": 5.19763,
+      "related": []
     },
     {
       "id": "fb492dec2a40f6501fd9f8df",
@@ -746,8 +1346,8 @@
       "clusterId": "2f0c203829b2b2fb8e2b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60621
+      "rankingScore": 5.19646,
+      "related": []
     },
     {
       "id": "2dd510ba4b7fe9d500099bb1",
@@ -776,8 +1376,8 @@
       "clusterId": "4cdca3751bcf7005a0ea",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59994
+      "rankingScore": 5.19144,
+      "related": []
     },
     {
       "id": "bf8ad75494b4fe6b535f41e4",
@@ -806,8 +1406,8 @@
       "clusterId": "20f7855b78c65bf87caa",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59994
+      "rankingScore": 5.19144,
+      "related": []
     },
     {
       "id": "15d885b98ce0409ad8f07d46",
@@ -836,8 +1436,8 @@
       "clusterId": "e45243b2ed5c9f35457f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59994
+      "rankingScore": 5.19144,
+      "related": []
     },
     {
       "id": "956a04305f122c3a85f12440",
@@ -866,98 +1466,8 @@
       "clusterId": "d9fa05859300ddfce4b6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59994
-    },
-    {
-      "id": "6ec83f81eed34cd3e43936e1",
-      "title": "Mexican man killed by truck after ICE encounter was visiting US legally, reports say",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/florida-ice-killing-mexico-tourist-b3019161.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/florida-ice-killing-mexico-tourist-b3019161.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T23:47:30Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/15/00/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "37507fe6d8b51e2d0ff8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.29012
-    },
-    {
-      "id": "1c3f20704d271a9f1fce1806",
-      "title": "Pc Andrew Harper’s killers eligible for early release",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/pc-andrew-harper-killers-prison-release-labour-b3019156.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/pc-andrew-harper-killers-prison-release-labour-b3019156.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T23:35:19Z",
-      "imageUrl": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/08/16/16/pc-andrew-harper.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "81aceee54960904752c8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.26612
-    },
-    {
-      "id": "ea240e3db37093fa4da5de1a",
-      "title": "Downing Street reveals details of Burnham and Trump’s first call",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/andy-burnham-trump-call-prime-minister-b3019155.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/andy-burnham-trump-call-prime-minister-b3019155.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-21T23:24:23Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/21/13/d2c0050cb18a51dc714804d5cbfd75e2Y29udGVudHNlYXJjaGFwaSwxNzg0NzIzNDE4-2.85363141.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-22T00:17:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3d388ca03dc5ebfd1249",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.2448
+      "rankingScore": 5.19144,
+      "related": []
     }
   ]
 }
