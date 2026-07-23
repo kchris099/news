@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-23",
-  "generatedAt": "2026-07-23T04:17:15Z",
-  "lastAttemptAt": "2026-07-23T04:17:15Z",
-  "lastSuccessfulUpdate": "2026-07-23T04:17:15Z",
-  "status": "current",
+  "generatedAt": "2026-07-23T08:17:22Z",
+  "lastAttemptAt": "2026-07-23T08:17:22Z",
+  "lastSuccessfulUpdate": "2026-07-23T08:17:22Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 3,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-23T04:17:14Z",
-      "lastSuccessAt": "2026-07-23T04:17:14Z",
-      "articlesRetrieved": 37,
-      "responseTimeMs": 312,
+      "lastAttemptAt": "2026-07-23T08:17:21Z",
+      "lastSuccessAt": "2026-07-23T08:17:21Z",
+      "articlesRetrieved": 33,
+      "responseTimeMs": 192,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-23T04:17:14Z",
-      "lastSuccessAt": "2026-07-23T04:17:14Z",
+      "lastAttemptAt": "2026-07-23T08:17:21Z",
+      "lastSuccessAt": "2026-07-23T08:17:21Z",
       "articlesRetrieved": 137,
-      "responseTimeMs": 327,
+      "responseTimeMs": 298,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-23T04:17:14Z",
-      "lastSuccessAt": "2026-07-23T04:17:14Z",
-      "articlesRetrieved": 10,
-      "responseTimeMs": 500,
+      "lastAttemptAt": "2026-07-23T08:17:21Z",
+      "lastSuccessAt": "2026-07-23T08:17:21Z",
+      "articlesRetrieved": 9,
+      "responseTimeMs": 460,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-07-23T04:17:14Z",
-      "lastSuccessAt": "2026-07-23T04:17:14Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 532,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-23T08:17:21Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -78,7 +78,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -178,7 +178,7 @@
           "normalizedTitle": "iran backed houthis strike saudi oil tankers amid escalating conflict"
         }
       ],
-      "rankingScore": 10.55207
+      "rankingScore": 10.12504
     },
     {
       "id": "592ecb128c09d338fc3e8eac",
@@ -200,15 +200,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "0b6debea16a7a68b0c6f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.50627
+      "rankingScore": 8.07442,
+      "related": []
     },
     {
       "id": "bdbd64a88f153c3d65c45fb2",
@@ -237,8 +237,8 @@
       "clusterId": "e489b50baefce024ca65",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.18586
+      "rankingScore": 7.72788,
+      "related": []
     },
     {
       "id": "5525ea4294d425aed16bf544",
@@ -267,16 +267,198 @@
       "clusterId": "fd9e0412117e3939e094",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.8948,
+      "rankingScore": 7.56691,
       "related": []
     },
     {
-      "id": "ad7c12c93a6de1c7faf9fb27",
-      "title": "US senator wants urgent answers from Barclays over Jes Staley’s ties to Jeffrey Epstein",
+      "id": "f5656719a557d9f35b770ea0",
+      "title": "Firm hacked by rogue OpenAI models says it is 'a wake-up call'",
       "translatedTitle": null,
-      "description": "Exclusive: Elizabeth Warren says it is unclear how bank failed to uncover former CEO’s links with sex offender The leading US senator Elizabeth Warren has called for urgent answers from Barclays over what she claimed was its “apparent failure to meaningfully investigate” ties between the bank’s former boss, Jes Staley, and the late sex offender Jeffrey Epstein. In a letter sent privately to Barclays’s chair, Nigel Higgins, and seen by the Guardian, Warren – the most senior Democrat on the US sen",
-      "url": "https://www.theguardian.com/business/2026/jul/23/us-senator-barclays-jes-staley-jeffrey-epstein-failure-links-elizabeth-warren",
-      "canonicalUrl": "https://theguardian.com/business/2026/jul/23/us-senator-barclays-jes-staley-jeffrey-epstein-failure-links-elizabeth-warren",
+      "description": "A co-founder of start-up Hugging Face told the BBC that most firms are not aware that the \"game has changed\".",
+      "url": "https://www.bbc.co.uk/news/articles/cdrvy3pn3r0o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cdrvy3pn3r0o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T06:18:37Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c57c/live/927f2eb0-8645-11f1-bb06-cd4aa2d50a91.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "be2e6bda32abdfa77d2b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.23088
+    },
+    {
+      "id": "c4fcab6b5c7ad9198a7035be",
+      "title": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+      "translatedTitle": null,
+      "description": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days.",
+      "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cvg9n2y61w6o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T06:15:35Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c64/live/d7b13ca0-85f3-11f1-8ade-a7a676c613b9.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "afe9fd05a777849f7006",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.22535
+    },
+    {
+      "id": "49bf9f2a9eed9999fd465f88",
+      "title": "Ann Widdecombe public memorial to be held later this year, family says",
+      "translatedTitle": null,
+      "description": "It will follow a private funeral for family and close friends, which will be held in the coming weeks.",
+      "url": "https://www.bbc.co.uk/news/articles/cddj9edj76eo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cddj9edj76eo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T05:46:48Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f063/live/3e0d49d0-862b-11f1-b47f-49d416ef5858.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d09513750227149a177e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "270fe8cef79bbeee4f24068c",
+          "title": "Ann Widdecombe to be honoured with private service ahead of public memorial",
+          "translatedTitle": null,
+          "description": "A public memorial for Ann Widdecombe will be held later this year following a private funeral in the coming weeks, her family said.",
+          "url": "https://news.sky.com/story/ann-widdecombe-to-be-honoured-with-private-service-ahead-of-public-memorial-13566167",
+          "canonicalUrl": "https://news.sky.com/story/ann-widdecombe-to-be-honoured-with-private-service-ahead-of-public-memorial-13566167",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-23T05:29:00Z",
+          "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-ann-widdecombe_7304685.jpg?20260723072434",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-23T08:17:21Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "d09513750227149a177e",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "ann widdecombe to be honoured with private service ahead of public memorial"
+        }
+      ],
+      "rankingScore": 7.22367
+    },
+    {
+      "id": "2006ffa668645fdffb56f074",
+      "title": "Is 2026 the Commonwealth Games' last dance or a future-proofing revamp?",
+      "translatedTitle": null,
+      "description": "It's been going for 96 years - but many doubted the 2026 Commonwealth Games, which open in Glasgow on Thursday, would happen. So what could the future hold for the event?",
+      "url": "https://www.bbc.co.uk/sport/articles/cj9dnk2p2dlo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/articles/cj9dnk2p2dlo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T05:25:35Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/209c/live/f463b0d0-85a8-11f1-a300-4537eea2be58.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c7771b02cec7a7534392",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "3dfe31b5bf385429e461e6af",
+          "title": "Commonwealth Games: 10 things to look out for at Glasgow 2026",
+          "translatedTitle": null,
+          "description": "With the Games about to get under way, here are 10 of the most intriguing subplots to the event Twelve years after winning his first major international title in the 100m breaststroke at Glasgow 2014, Adam Peaty, now 31, heads back to Scotland hoping to remind everyone why he is one of Britain’s greatest swimmers. Peaty has won three Olympic gold medals and dominated the event for much of the past decade, but his aura of invincibility has faded since losing his unbeaten streak in 2022 and dealin",
+          "url": "https://www.theguardian.com/sport/2026/jul/23/glasgow-commonwealth-games-2026-adam-peaty-shericka-jackson",
+          "canonicalUrl": "https://theguardian.com/sport/2026/jul/23/glasgow-commonwealth-games-2026-adam-peaty-shericka-jackson",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-23T07:00:38Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/0aa43a0f0f0e9dd49ba0853dbc8224eaddb9fbc5/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=7cf7bab726c6e7355f9a9decbfaeb88a",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-23T08:17:21Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "c7771b02cec7a7534392",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "commonwealth games 10 things to look out for at glasgow 2026"
+        }
+      ],
+      "rankingScore": 7.18644
+    },
+    {
+      "id": "bcd020f48956e3a8324a569d",
+      "title": "EU signs off on 21st package of sanctions against Russia – Europe live",
+      "translatedTitle": null,
+      "description": "The agreement comes after previous meetings of EU ambassadors failed to result in consensus Rubio says there will need to be “new ideas” put on the table to reach an agreement on ending the war in Ukraine, as the proposals put forward so far were “not acceptable to Ukraine at the time, and I don’t think it’d be acceptable to them either; in fact, probably less acceptable to them.” “If, when peace comes, it’ll be because of some new idea and some new concepts, and we’re prepared to offer some of",
+      "url": "https://www.theguardian.com/world/live/2026/jul/23/eu-sanctions-russia-ukraine-marcio-rubio-sergei-lavrov-kallas-google-latest-news-updates",
+      "canonicalUrl": "https://theguardian.com/world/live/2026/jul/23/eu-sanctions-russia-ukraine-marcio-rubio-sergei-lavrov-kallas-google-latest-news-updates",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -285,20 +467,80 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-23T04:00:35Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/2b9a42ad12e63ca0840d6464623cea6d33e2f87c/762_0_3234_2587/master/3234.jpg?width=140&quality=85&auto=format&fit=max&s=42d906293a3b521efe77d907dcb44c2b",
+      "publishedAt": "2026-07-23T08:04:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9f956fbb56ae754f32e57e45259f3d0df0c38e9f/134_0_1333_1066/master/1333.jpg?width=140&quality=85&auto=format&fit=max&s=ccaff98795e6bfdbb09bf5e3ee7543dc",
       "imageAlt": null,
-      "category": "Business",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "68aaae01f33334467a5b",
+      "clusterId": "f3229ed9806b2e68de10",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.50627
+      "rankingScore": 7.16379
+    },
+    {
+      "id": "b8310f38ca18ff5745ba8e78",
+      "title": "'What was their crime?': BBC visits Iran school where strike killed 120 children",
+      "translatedTitle": null,
+      "description": "Nearly five months on, grief is still raw as a teacher and a mother recall the horror of the attack in Minab.",
+      "url": "https://www.bbc.co.uk/news/articles/cewrx0ldlkko?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cewrx0ldlkko?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T04:49:24Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ae2/live/eca7eb90-8666-11f1-bee8-53ce494e1abc.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "286937328133ca325aa6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.07461
+    },
+    {
+      "id": "d20d056db58e9dadbe849aac",
+      "title": "How LNZ Cherkasy become a wartime success story with few modern parallels",
+      "translatedTitle": null,
+      "description": "Ukrainian club were in fourth tier in 2021 but, despite war with Russia, will contest European qualifiers for first time It is time for set-piece training at LNZ Cherkasy’s smart, shiny training facility. “Arsenal!” one player says with a laugh as the grappling at a corner begins, the joke spreading among others clustered in the six-yard box. That is a level everyone here must aspire to but they are edging nearer. This week a club from what used to be one of Ukraine’s football backwaters will ma",
+      "url": "https://www.theguardian.com/football/2026/jul/23/lnz-cherkasy-have-become-a-force-in-ukrainian-football",
+      "canonicalUrl": "https://theguardian.com/football/2026/jul/23/lnz-cherkasy-have-become-a-force-in-ukrainian-football",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T07:00:39Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e1fd452cf265675c37eb29bdfca86b7f6e7c8d96/472_0_4706_3767/master/4706.jpg?width=140&quality=85&auto=format&fit=max&s=be3b9330e3a2dc6b9ee6f20564508545",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e6f5fa9aac2b77ad7dc0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.0391
     },
     {
       "id": "e407d2f4c80483164f40478f",
@@ -327,8 +569,38 @@
       "clusterId": "3e8bb0af9944ad217429",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.95039,
+      "related": []
+    },
+    {
+      "id": "5a0cce2ac08826a87ec67dd7",
+      "title": "Why Scotland’s cinematic Moray coast made it a perfect location to shoot The Odyssey",
+      "translatedTitle": null,
+      "description": "‘Legends cling like barnacles to these shores,’ says our local writer, who reveals how the lore of these craggy cliffs and beaches resonates with the Homeric classic The incoming tide has made a labyrinth of the beach. As silvery rivulets spread across Culbin Sands to meet the mudflats, my walk becomes increasingly circuitous: weaving inland towards the pine forest, backtracking closer to the waves, skirting tidal pools and scaling dunes constantly resculpted by the North Sea breeze. In this sha",
+      "url": "https://www.theguardian.com/travel/2026/jul/23/scotland-cinematic-moray-coastline-perfect-location-to-shoot-the-odyssey",
+      "canonicalUrl": "https://theguardian.com/travel/2026/jul/23/scotland-cinematic-moray-coastline-perfect-location-to-shoot-the-odyssey",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T06:00:36Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1460059207092fabc9a6160d588add1dc866ddf4/332_191_2185_1748/master/2185.jpg?width=140&quality=85&auto=format&fit=max&s=a163f36bdf270daf1871344147572e7b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0d94694ecc9151b8b72e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.37377
+      "rankingScore": 6.92827
     },
     {
       "id": "4d241aa489adcb656fa22a27",
@@ -357,8 +629,8 @@
       "clusterId": "8475dd39aad156023b12",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.31164
+      "rankingScore": 6.90064,
+      "related": []
     },
     {
       "id": "21f1016b9dbd96785406cad5",
@@ -387,8 +659,189 @@
       "clusterId": "ad78fe3634ed275034cd",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.83249,
+      "related": []
+    },
+    {
+      "id": "95068f9a42f204cbdc6b7785",
+      "title": "‘Overdue reunion’: aviation hero’s long lost granddaughter uncovers secret past",
+      "translatedTitle": null,
+      "description": "Judy Bain, 81, spent most of her life unaware she was a direct descendant of the daring pilot Arthur Whitten Brown In the spring of 1944, Elsie Barber, a member of the Women’s Auxiliary Air Force, had a fling with a Royal Air Force pilot named Arthur Brown, known as Buster. The liaison at the RAF base near High Ercall in Shropshire was clandestine. She was 24 and single, he was a recently married 21-year-old. Buster died months later, on D-day, when his Mosquito fighter plane crashed in the Neth",
+      "url": "https://www.theguardian.com/world/2026/jul/23/aviation-hero-arthur-whitten-brown-long-lost-granddaughter-uncovers-secret-past",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/23/aviation-hero-arthur-whitten-brown-long-lost-granddaughter-uncovers-secret-past",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T05:00:35Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/67839615fd8f23b1391a2c3b881a4bc5d541d5a2/97_0_2221_1777/master/2221.jpg?width=140&quality=85&auto=format&fit=max&s=c68c5f4ccaa4f0a224e24afd52dea57f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e8fab2b288837ad65186",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.22403
+      "rankingScore": 6.8235
+    },
+    {
+      "id": "129f08b80c6a3bead8333501",
+      "title": "‘People are scared their neighbours will call the police on them’: how the hosepipe ban got caught up in the culture wars",
+      "translatedTitle": null,
+      "description": "While many people in the UK recognise the need to preserve water, others are furious and planning to flout the ban in their area. The target of their anger? Failing water companies and frighteningly thirsty datacentres ‘Plants are like your babies,” says Harry. And accordingly, he argues, most people would do anything to keep them alive, including break the law. This is what he plans to do this week – defying a hosepipe ban in place across large parts of England, to ensure his shrubs maintain a",
+      "url": "https://www.theguardian.com/environment/2026/jul/23/how-hosepipe-ban-got-caught-up-in-culture-war",
+      "canonicalUrl": "https://theguardian.com/environment/2026/jul/23/how-hosepipe-ban-got-caught-up-in-culture-war",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T04:00:36Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4622845f5f691deaa1b29147e5049250f2a1465a/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=fb63b6a00e6f1f10abcb3de4421f0bab",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6529842aaf91e6d44b89",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.72444
+    },
+    {
+      "id": "7af9f734d155f802ee1df8e6",
+      "title": "‘People are looking at Scotland for good fun’: Glasgow prepares for Commonwealth Games",
+      "translatedTitle": null,
+      "description": "Glasgow stepped in at the last minute to host the games, after Victoria in Australia pulled out “A lot of people aren’t fully aware it’s happening,” says one man working on a stall selling Commonwealth Games merchandise in Glasgow city centre on Wednesday, a day before the competition begins. “It’s been slow – the first two days we didn’t really sell anything but it’s picking up now.” Continue reading...",
+      "url": "https://www.theguardian.com/sport/2026/jul/23/people-are-looking-at-scotland-for-good-fun-glasgow-prepares-for-commonwealth-games",
+      "canonicalUrl": "https://theguardian.com/sport/2026/jul/23/people-are-looking-at-scotland-for-good-fun-glasgow-prepares-for-commonwealth-games",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T04:00:36Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5702bba8cc2cca202bbaf0500014fab9f7f9b9ed/518_0_3752_3001/master/3752.jpg?width=140&quality=85&auto=format&fit=max&s=b5dc5a0b8c4fdc5e97094a6529d84254",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "521dc284c1ea62bb8146",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.72444
+    },
+    {
+      "id": "ad7c12c93a6de1c7faf9fb27",
+      "title": "US senator wants urgent answers from Barclays over Jes Staley’s ties to Jeffrey Epstein",
+      "translatedTitle": null,
+      "description": "Exclusive: Elizabeth Warren says it is unclear how bank failed to uncover former CEO’s links with sex offender The leading US senator Elizabeth Warren has called for urgent answers from Barclays over what she claimed was its “apparent failure to meaningfully investigate” ties between the bank’s former boss, Jes Staley, and the late sex offender Jeffrey Epstein. In a letter sent privately to Barclays’s chair, Nigel Higgins, and seen by the Guardian, Warren – the most senior Democrat on the US sen",
+      "url": "https://www.theguardian.com/business/2026/jul/23/us-senator-barclays-jes-staley-jeffrey-epstein-failure-links-elizabeth-warren",
+      "canonicalUrl": "https://theguardian.com/business/2026/jul/23/us-senator-barclays-jes-staley-jeffrey-epstein-failure-links-elizabeth-warren",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T04:00:35Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2b9a42ad12e63ca0840d6464623cea6d33e2f87c/762_0_3234_2587/master/3234.jpg?width=140&quality=85&auto=format&fit=max&s=42d906293a3b521efe77d907dcb44c2b",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "68aaae01f33334467a5b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.72442,
+      "related": []
+    },
+    {
+      "id": "df5ba618e20ca9dc6d208960",
+      "title": "Life-changing MS drug to help people walk now on NHS in England",
+      "translatedTitle": null,
+      "description": "Fampridine boosts nerve signals to make it easier to walk, with up to 5,000 eligible.",
+      "url": "https://www.bbc.co.uk/news/articles/cgmkygjk9g2o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cgmkygjk9g2o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-22T23:38:58Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41e4/live/9d09f630-85fa-11f1-b976-0b9c15b0ccfc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4631098ae0c239bcae34",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "8902a50a3814c25313ed9670",
+          "title": "Twice-a-day ‘life-changing’ pill which helps MS patients walk easier to be rolled out on NHS",
+          "translatedTitle": null,
+          "description": "It is the first drug designed to improve walking ability in people with MS, an incurable autoimmune disease which affects the brain and spinal cord",
+          "url": "https://www.independent.co.uk/life-style/health-and-families/health-news/nhs-multiple-sclerosis-fampridine-treatment-b3019687.html",
+          "canonicalUrl": "https://independent.co.uk/life-style/health-and-families/health-news/nhs-multiple-sclerosis-fampridine-treatment-b3019687.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-22T23:01:00Z",
+          "imageUrl": "https://static.independent.co.uk/2025/09/16/23/16085358-3ae0d4c3-31cd-4f37-a2d5-b327aa400f5e.jpg?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-23T04:17:14Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "4631098ae0c239bcae34",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "twice a day life changing pill which helps ms patients walk easier to be rolled out on nhs"
+        }
+      ],
+      "rankingScore": 6.67129
     },
     {
       "id": "012ca710a2b6ab1a32b47088",
@@ -417,99 +870,8 @@
       "clusterId": "15fe0c89bec1e997bc8c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.07286
-    },
-    {
-      "id": "e626e1c9445127cea17ec11f",
-      "title": "Hope for thousands of MS patients as 'life-changing' drug now on NHS in England",
-      "translatedTitle": null,
-      "description": "Fampridine boosts nerve signals to make it easier to walk, with up to 5,000 eligible.",
-      "url": "https://www.bbc.co.uk/news/articles/cgmkygjk9g2o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cgmkygjk9g2o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-22T23:38:58Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41e4/live/9d09f630-85fa-11f1-b976-0b9c15b0ccfc.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "36d1094f4bd210faabe9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "8902a50a3814c25313ed9670",
-          "title": "Twice-a-day ‘life-changing’ pill which helps MS patients walk easier to be rolled out on NHS",
-          "translatedTitle": null,
-          "description": "It is the first drug designed to improve walking ability in people with MS, an incurable autoimmune disease which affects the brain and spinal cord",
-          "url": "https://www.independent.co.uk/life-style/health-and-families/health-news/nhs-multiple-sclerosis-fampridine-treatment-b3019687.html",
-          "canonicalUrl": "https://independent.co.uk/life-style/health-and-families/health-news/nhs-multiple-sclerosis-fampridine-treatment-b3019687.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-22T23:01:00Z",
-          "imageUrl": "https://static.independent.co.uk/2025/09/16/23/16085358-3ae0d4c3-31cd-4f37-a2d5-b327aa400f5e.jpg?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-23T04:17:14Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "36d1094f4bd210faabe9",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "twice a day life changing pill which helps ms patients walk easier to be rolled out on nhs"
-        }
-      ],
-      "rankingScore": 7.01024
-    },
-    {
-      "id": "c4fcab6b5c7ad9198a7035be",
-      "title": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
-      "translatedTitle": null,
-      "description": "Ukrainian drones have hit several retail warehouses belonging to Russia's biggest online retailer Wildberries in a matter of days.",
-      "url": "https://www.bbc.co.uk/news/articles/cvg9n2y61w6o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cvg9n2y61w6o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-22T23:06:08Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c64/live/d7b13ca0-85f3-11f1-8ade-a7a676c613b9.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "afe9fd05a777849f7006",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.90933
+      "rankingScore": 6.6397,
+      "related": []
     },
     {
       "id": "c3b8396b392c215a753b216a",
@@ -538,8 +900,8 @@
       "clusterId": "9bf65dd55765797d3c2d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.84662
+      "rankingScore": 6.45855,
+      "related": []
     },
     {
       "id": "0535e126f5599092e72e2f7f",
@@ -568,8 +930,8 @@
       "clusterId": "5c0b7d72b53fe5fbc7c5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.83676
+      "rankingScore": 6.45066,
+      "related": []
     },
     {
       "id": "c4d729514f8daf3aefc04804",
@@ -598,8 +960,8 @@
       "clusterId": "1385efe80fd001ec4c9e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.67034
+      "rankingScore": 6.31742,
+      "related": []
     },
     {
       "id": "bb43211733c813697a538c3b",
@@ -628,8 +990,8 @@
       "clusterId": "611fe339475ef2862a2f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.62431
+      "rankingScore": 6.28056,
+      "related": []
     },
     {
       "id": "da521bb224b00e3f487115d0",
@@ -658,7 +1020,7 @@
       "clusterId": "1c75b66f63df270aad64",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.55121,
+      "rankingScore": 6.22204,
       "related": []
     },
     {
@@ -688,584 +1050,44 @@
       "clusterId": "6a7fd78caf2be4a7211a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.48248
-    },
-    {
-      "id": "c84f966533dcc7c264adadbf",
-      "title": "The Papers: 'Row over early prison release' and 'Gary's back of the net tax'",
-      "translatedTitle": null,
-      "description": "A number of the papers are focusing on a review of the early prison release programme.",
-      "url": "https://www.bbc.co.uk/news/articles/c1e1znjyy7eo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c1e1znjyy7eo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T04:08:00Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36bb/live/b895bde0-8621-11f1-8236-573c021e2a15.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b3889c1d1204279ce8a8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.0912
-    },
-    {
-      "id": "0faa73ef6b6f51d790f18bb2",
-      "title": "Hosepipe ban in force for millions of households - is your area affected?",
-      "translatedTitle": null,
-      "description": "More than eight million households have been placed under hosepipe bans - which has raised questions about how effectively water resources are being managed.",
-      "url": "https://www.bbc.co.uk/news/articles/crk661074ejo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/crk661074ejo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T02:11:48Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c74b/live/69a57380-7fa8-11f1-a5f4-433bb9aa2e5a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4ef303115dd0b146cd74",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8687
-    },
-    {
-      "id": "f5f6038408c5e5644d2191e5",
-      "title": "China's Moonshot AI stole from Anthropic, Trump tech adviser says",
-      "translatedTitle": null,
-      "description": "The allegations come as Chinese AI companies are facing increased US government scrutiny.",
-      "url": "https://www.bbc.co.uk/news/articles/c5ye2gyz0x4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c5ye2gyz0x4o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T01:52:10Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b7e/live/ab7d6920-8629-11f1-8e14-33590a929431.jpg",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0e0dbf0ca258e784b8cc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.83341
-    },
-    {
-      "id": "ee4d38ac41fb5ae09197fba7",
-      "title": "Nobody in Europe knows or cares what Kemi Badenoch thinks. That’s a big mistake | Simon Nixon",
-      "translatedTitle": null,
-      "description": "The opposition leader wants to pull the UK out of the ECHR, wrecking treaties from the Good Friday agreement to the Gibraltar deal Sitting in Brussels, or one of the EU’s 27 chancelleries, one could be forgiven for tuning out the latest psychodramas in Britain’s Conservative party. After all, the country has a new Labour prime minister who is a pro-European keen to build upon the “reset” begun by Keir Starmer. Who cares what a party in opposition thinks about anything when it is still reeling fr",
-      "url": "https://www.theguardian.com/commentisfree/2026/jul/23/europe-kemi-badenoch-uk-echr-treaties",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/23/europe-kemi-badenoch-uk-echr-treaties",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T04:00:35Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/235d72463c0b866c34151490d61ba2dee54a2b4e/825_4_3988_3191/master/3988.jpg?width=140&quality=85&auto=format&fit=max&s=2f32800f815ba714f9b326aa9afe3615",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1f37238b7a3f89d63c87",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80627
-    },
-    {
-      "id": "1133d9c98c482df731790662",
-      "title": "Climate crisis-driven heat ‘sucking soils dry’ as extreme drought hits Europe",
-      "translatedTitle": null,
-      "description": "Analysis shows how heatwaves are making atmosphere thirstier, damaging water supplies, food production and power generation Extreme heat supercharged by the climate crisis is sucking Europe dry in summer and intensifying the drought hitting the continent, a scientific analysis has found. Record-breaking heatwaves meant the hot atmosphere strongly evaporated water from rivers, lakes, soils and plants – conditions made 80 times more likely by global heating in western Europe and 40 times more like",
-      "url": "https://www.theguardian.com/environment/2026/jul/23/climate-crisis-heat-sucking-soils-dry-extreme-drought-europe-analysis",
-      "canonicalUrl": "https://theguardian.com/environment/2026/jul/23/climate-crisis-heat-sucking-soils-dry-extreme-drought-europe-analysis",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T04:00:34Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/104c14efdb4c9354100b3345f74cc5ae16027c8b/0_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=aea4960a2d81926b133dbd27c84c552a",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7ce60a3b8d2f6f9e3a92",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80624
-    },
-    {
-      "id": "ef31bb51ac3b01327e323135",
-      "title": "Orcas seen ramming prey so hard it explodes may be playing game",
-      "translatedTitle": null,
-      "description": "Scientists believe sunfish-smashing behaviour could be form of entertainment or to help younger whales feed Orcas have been observed ramming into giant fish so hard that the prey explode, possibly as a form of gory entertainment. On several occasions, orcas were observed to hold sunfish in their jaws while a second whale smashed into the target at high speed, causing it to break into thousands of pieces. Since the fish had already been killed, scientists suggested the behaviour may represent a f",
-      "url": "https://www.theguardian.com/environment/2026/jul/23/orcas-ramming-prey-hard-explodes-playing-game",
-      "canonicalUrl": "https://theguardian.com/environment/2026/jul/23/orcas-ramming-prey-hard-explodes-playing-game",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T04:00:34Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d416e37861f66d650a0cb57dd96bc62ad21bc51c/487_0_4392_3514/master/4392.jpg?width=140&quality=85&auto=format&fit=max&s=a0de7c22634117239afbceeb6b53ec28",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c6f237bb62871cabe79c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80624
-    },
-    {
-      "id": "b40dc69b47fda92f6c6baafe",
-      "title": "The countries set to follow France in banning social media for children",
-      "translatedTitle": null,
-      "description": "More than a dozen countries look set to follow Australia and France by introducing a social media ban for children, writes Anthony Cuthbertson",
-      "url": "https://www.independent.co.uk/tech/french-social-media-ban-under-15-which-countries-b3019936.html",
-      "canonicalUrl": "https://independent.co.uk/tech/french-social-media-ban-under-15-which-countries-b3019936.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T04:05:29Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/22/09/2284525802..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c1c09e130c0eec092986",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72612
-    },
-    {
-      "id": "be2bc6b0198a35277b5090ba",
-      "title": "Trump bashes his hometown baseball team as Braves fans lap it up in Georgia rally: ‘They lose all the time’",
-      "translatedTitle": null,
-      "description": "Trump drags his hometown team through the mud as he panders for votes in key swing state Georgia",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-georgia-rally-mets-atlanta-b3019873.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-georgia-rally-mets-atlanta-b3019873.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T04:03:04Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/22/23/2026-07-22T211349Z_617962568_RC24JMALC6GE_RTRMADP_3_USA-TRUMP-ELECTION-GEORGIA.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "43ce9f7191c443874377",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.72126,
+      "rankingScore": 6.08727,
       "related": []
     },
     {
-      "id": "0e7aaf67aa93937c6dd328ab",
-      "title": "FDA reviews peptide injections favored by RFK Jr. and wellness influencers",
+      "id": "2076f69a108d7f3276cbf3d0",
+      "title": "Scottish police officer was rapist who attacked women over 14 years",
       "translatedTitle": null,
-      "description": "Federal health advisers are meeting to review a group of controversial chemicals called peptides",
-      "url": "https://www.independent.co.uk/news/fda-joe-biden-joe-rogan-washington-drug-companies-b3019938.html",
-      "canonicalUrl": "https://independent.co.uk/news/fda-joe-biden-joe-rogan-washington-drug-companies-b3019938.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Alan Greer, who killed himself after officers visited his home, could be ‘Police Scotland’s Wayne Couzens moment’ A police officer who took his own life in May was a rapist who attacked at least nine women over 14 years. PC Alan Greer’s offending came to light when his first known victim, a woman he raped in her home in Glasgow in 2012 after she had called the police to report being the victim of a crime, reported the attack late last year. Continue reading...",
+      "url": "https://www.theguardian.com/society/2026/jul/23/scottish-police-officer-alan-greer-rapist-over-14-years",
+      "canonicalUrl": "https://theguardian.com/society/2026/jul/23/scottish-police-officer-alan-greer-rapist-over-14-years",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-23T04:02:51Z",
-      "imageUrl": "https://static.independent.co.uk/2026/06/29/21/Peptides_FDA_Experts_47626.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-07-23T07:29:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3afb67cc62488503c0a13588282fee8455ea9785/295_5_1325_1060/master/1325.jpg?width=140&quality=85&auto=format&fit=max&s=f3e6f354619b65a3d088e3d43baaa743",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ab7cc9616930de82acec",
+      "clusterId": "0583436c8c14404efff9",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.72082
-    },
-    {
-      "id": "63f4f60332aeee548dab6b48",
-      "title": "Orcas spotted ramming into giant fish carcasses and watching them explode for fun",
-      "translatedTitle": null,
-      "description": "Behaviour may also be strategy to portion food for juveniles, researchers say",
-      "url": "https://www.independent.co.uk/news/science/orcas-giant-fish-explode-fun-b3019353.html",
-      "canonicalUrl": "https://independent.co.uk/news/science/orcas-giant-fish-explode-fun-b3019353.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T04:01:15Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/22/9/49/Killer-whales-with-whale-shark-carrion-in-their-mouths.jpeg?width=1200&auto=webp&trim=15%2C0%2C16%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dcf9333e8fda40108588",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71761
-    },
-    {
-      "id": "9d8b12fdc81a9680baa415db",
-      "title": "Something we’ve never seen before is coming out of a solar system in our galaxy, astronomers say",
-      "translatedTitle": null,
-      "description": "Blasts of gas travelling as fast as 20 million miles per hour are shooting out of the rarest stellar explosion in our galaxy",
-      "url": "https://www.independent.co.uk/space/milky-way-galaxy-universe-explosion-helium-nova-b3019931.html",
-      "canonicalUrl": "https://independent.co.uk/space/milky-way-galaxy-universe-explosion-helium-nova-b3019931.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T03:33:19Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/22/16/1242038184..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "59dda842e74e05707397",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66226
-    },
-    {
-      "id": "6532bd6480c1d38a8572c51d",
-      "title": "Brad Pitt and Angelina Jolie’s youngest daughter files to drop ‘Pitt’ from last name",
-      "translatedTitle": null,
-      "description": "Vivienne is the fourth of the former Hollywood couple’s children to do so in the last two years",
-      "url": "https://www.independent.co.uk/arts-entertainment/films/news/brad-pitt-kids-angelina-jolie-vivienne-airplane-incident-b3019928.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/films/news/brad-pitt-kids-angelina-jolie-vivienne-airplane-incident-b3019928.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T03:26:21Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/22/7/30/Screenshot-2026-07-22-at-08-16-48.png?width=1200&auto=webp&trim=70%2C0%2C70%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5523964be819c0fa2480",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64868
-    },
-    {
-      "id": "91137aa7dfae6c15be58bea6",
-      "title": "Why the UK is dithering over what to do about e-scooters",
-      "translatedTitle": null,
-      "description": "Why is it taking so long for the government to regulate them, and what are the consequences of delay?",
-      "url": "https://www.bbc.co.uk/news/articles/cn4nvn9w00no?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cn4nvn9w00no?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-22T23:51:24Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7db6/live/f8819640-8423-11f1-bee8-53ce494e1abc.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "10d9d0d9bdf25bc799e2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.62993
-    },
-    {
-      "id": "5984704ef4c6472bd70d9cca",
-      "title": "Most sewage spills in England may be illegal, new research suggests",
-      "translatedTitle": null,
-      "description": "The new analysis from a prominent water campaigner emerged after secret court documents were leaked.",
-      "url": "https://www.bbc.co.uk/news/articles/cn0nxd1jgw5o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cn0nxd1jgw5o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-22T23:47:27Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af6e/live/65772b70-85f0-11f1-8ade-a7a676c613b9.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6d14fb5f94279a19fae4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.62365
-    },
-    {
-      "id": "16dd694990a735530cca7cd1",
-      "title": "Rebel Wilson cleared of defaming an actor who starred in her directorial debut",
-      "translatedTitle": null,
-      "description": "An Australian court has cleared Rebel Wilson of defaming the star of her directorial debut, “The Deb,” in social media posts",
-      "url": "https://www.independent.co.uk/news/rebel-wilson-seoul-south-korea-australian-instagram-b3019927.html",
-      "canonicalUrl": "https://independent.co.uk/news/rebel-wilson-seoul-south-korea-australian-instagram-b3019927.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T03:06:39Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/23/04/Rebel-Wilson-Defamation-Case_69427.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0dd945be4c3e993ffd81",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61075
-    },
-    {
-      "id": "92ac2f2a3cba715f93e15028",
-      "title": "Rain to return this weekend as parts of UK on brink of drought",
-      "translatedTitle": null,
-      "description": "Following weeks of mainly dry weather, we can welcome some rain this weekend, but it is not going to be that much, as Chris Fawkes explains.",
-      "url": "https://www.bbc.co.uk/weather/articles/cx2rvej7lk7o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/weather/articles/cx2rvej7lk7o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-22T23:32:02Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d60/live/c9df9ae0-85b7-11f1-b976-0b9c15b0ccfc.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2c3242a8495f6d8e1d9a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59936
-    },
-    {
-      "id": "cc1de7426a76bec21d8127e2",
-      "title": "What coffee and energy drinks are really doing to your heart",
-      "translatedTitle": null,
-      "description": "Energy drinks and energy shots can contain three to four times more caffeine than regular coffee",
-      "url": "https://www.independent.co.uk/news/uk/home-news/coffee-energy-drinks-redbull-caffeine-heart-health-b3019924.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/coffee-energy-drinks-redbull-caffeine-heart-health-b3019924.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T02:55:36Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/16/13/16110037-4735290a-4f24-4330-af11-0c4cf4c0acb6.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "326c66d7a4747e2e77f5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.58977
-    },
-    {
-      "id": "007147fdedf75800d17098c7",
-      "title": "Even camels can't cope: Africa's ships of the desert hit by rising temperatures",
-      "translatedTitle": null,
-      "description": "Herders and experts tell the BBC how Africa's camels are suffering because of extreme heat.",
-      "url": "https://www.bbc.co.uk/news/articles/cqlxvvw06pqo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqlxvvw06pqo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-22T23:22:53Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d00/live/a41b6b40-85f8-11f1-b976-0b9c15b0ccfc.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "82e17168c2440ae5b47a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.58511
-    },
-    {
-      "id": "74b200e5d07fd82c967f78eb",
-      "title": "Doctors share what air conditioning does to your body and health",
-      "translatedTitle": null,
-      "description": "Air conditioning offers lots of benefits, but there are some notable drawbacks",
-      "url": "https://www.independent.co.uk/life-style/health-and-families/air-conditioner-heatwave-uk-weather-health-b3019923.html",
-      "canonicalUrl": "https://independent.co.uk/life-style/health-and-families/air-conditioner-heatwave-uk-weather-health-b3019923.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-23T02:53:05Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/22/13/23/iStock-1413585870.jpg?width=1200&auto=webp&trim=0%2C32%2C0%2C32",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5e84f8b69d7b685c1c45",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.58502
+      "rankingScore": 6.01415
     },
     {
       "id": "ce0627b5aa43e73d11b41b07",
       "title": "Airport drop-off fees up by a third - here are the priciest",
       "translatedTitle": null,
-      "description": "The cost of parking closest to the terminal just for a few minutes has hit £10 at two of the UK's busiest airports.",
+      "description": "The cost of parking closest to the terminal has hit £10 at two of the UK's airports.",
       "url": "https://www.bbc.co.uk/news/articles/c2lqd72d4lqo?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://bbc.co.uk/news/articles/c2lqd72d4lqo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
@@ -1276,12 +1098,12 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-22T23:21:40Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/37bb/live/4f2cc100-85f9-11f1-bee8-53ce494e1abc.jpg",
+      "publishedAt": "2026-07-23T07:03:20Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7cb0/live/357c7500-865f-11f1-b976-0b9c15b0ccfc.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -1289,15 +1111,15 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.58322
+      "rankingScore": 5.9642
     },
     {
-      "id": "deea4f6e426ef1c7058e4aa2",
-      "title": "Google burning through cash with spiralling AI costs",
+      "id": "75e3dbfda3bfb1fc014afe99",
+      "title": "Ex-UFC champion Andrade working as delivery driver",
       "translatedTitle": null,
-      "description": "The company said earlier this year it expected to spend as much as $190bn on AI investments.",
-      "url": "https://www.bbc.co.uk/news/articles/c235n47g8g8o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c235n47g8g8o?at_campaign=rss&at_medium=RSS",
+      "description": "Jessica Andrade says she will do \"whatever it takes\" to earn a living as she recovers from injury. has been working as a delivery driver to earn extra money while she is recovering from injury.",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/crmr7e7r328o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/mixed-martial-arts/articles/crmr7e7r328o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -1306,28 +1128,118 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-22T23:02:32Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f610/live/9cc8bdc0-8616-11f1-8dd8-4d5cff7c66df.jpg",
+      "publishedAt": "2026-07-23T06:52:29Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/022e/live/0e190860-8660-11f1-93cb-95d7eb12ec49.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "8cd96d3c2cd655b76cc1",
+      "clusterId": "972732b4f5a3f768268b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.55384
+      "rankingScore": 5.94366
     },
     {
-      "id": "86a946b68c957800dd4ea586",
-      "title": "‘A statement of freedom’: T-shirt slogan goes viral and book sales rocket in Taiwan after Hong Kong raids",
+      "id": "58318fb8a8332517d883daae",
+      "title": "How Sri Lanka is using drones to fight dengue fever",
       "translatedTitle": null,
-      "description": "Taiwanese people look on with concern at fate of Hong Kong’s independent booksellers, after series of arrests in recent months Walking out of one of Hong Kong’s last remaining independent bookstores, hands behind her back but head held high, the woman’s T-shirt was emblazoned with a simple slogan: “I am a bookstore employee”. Escorted by police, the woman was among five people arrested during raids on two bookstores last week, suspected of displaying and selling publications with “seditious” con",
-      "url": "https://www.theguardian.com/world/2026/jul/23/taiwan-hong-kong-independent-bookstore-raids-china-censorship",
-      "canonicalUrl": "https://theguardian.com/world/2026/jul/23/taiwan-hong-kong-independent-bookstore-raids-china-censorship",
+      "description": "Dengue has killed 56 people and infected more than 77,000 in the South Asian nation this year.",
+      "url": "https://www.bbc.co.uk/news/articles/cvgw8e0k1jyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cvgw8e0k1jyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T06:24:58Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15b8/live/3a5a4560-8656-11f1-8bc3-95f8c3a93002.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "058a2643104ad3b3be1c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.8925
+    },
+    {
+      "id": "59637fc509fbf00a99ec6a3a",
+      "title": "Two waste paper bins, one Olympic dream",
+      "translatedTitle": null,
+      "description": "Derived from basketball and developed by teenagers in late-Victorian England, netball is sport's great misunderstood \"girly game\". It could be heading to the Olympics in 2032.",
+      "url": "https://www.bbc.co.uk/sport/netball/articles/cze9zwlwy42o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/netball/articles/cze9zwlwy42o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T06:20:17Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c92/live/9bd81010-85b1-11f1-b976-0b9c15b0ccfc.png",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "98d88329d7f76a98d1d6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.88392
+    },
+    {
+      "id": "591413bfecd49364eeac234b",
+      "title": "Blocked by censors, China's animal lovers take fight against abuse offline and overseas",
+      "translatedTitle": null,
+      "description": "The killing of a dog and her puppies in Guangdong has sparked outrage inside and outside the country.",
+      "url": "https://www.bbc.co.uk/news/articles/cqx7wd3x420o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqx7wd3x420o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T05:46:09Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5395/live/0daae1a0-840d-11f1-b3ec-1d7f0502d196.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d199a7c13d623376f25e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.82251
+    },
+    {
+      "id": "3a6119852a9b82006990e4a9",
+      "title": "Business rates to be cut by 20% for pubs, clubs and music venues in England",
+      "translatedTitle": null,
+      "description": "Burnham says relief for vape shops and other ‘non-positive’ businesses to be reviewed as part of £100m plan to fund cut Pubs, clubs and live music venues in England will receive a 20% cut to their business rates bills from next April under a plan from Andy Burnham to support local high streets, in his latest measure to tackle costs for working people and communities. The prime minister said the £100m package would be fully funded including through reviewing reliefs for businesses that do not mak",
+      "url": "https://www.theguardian.com/business/2026/jul/23/business-rates-to-be-cut-by-20-for-england-pubs-clubs-and-music-venues",
+      "canonicalUrl": "https://theguardian.com/business/2026/jul/23/business-rates-to-be-cut-by-20-for-england-pubs-clubs-and-music-venues",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1336,28 +1248,118 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-23T01:36:07Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/263ad565bd4c56623e5764cda8ab87cf2b11060f/1010_683_2632_2106/master/2632.jpg?width=140&quality=85&auto=format&fit=max&s=9c49c2d3a699736b0f078998085f6463",
+      "publishedAt": "2026-07-23T07:52:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b21e7a33e9753dd638cbf5d0c219ee1fd4a2e1cd/659_0_4269_3415/master/4269.jpg?width=140&quality=85&auto=format&fit=max&s=be21b5680c5d972e7ccc40893d4bd0ad",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f8b65c74a9b42fecafa4",
+      "clusterId": "bde0b27b7893695a3575",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.53504
+      "rankingScore": 5.78891
     },
     {
-      "id": "e5c540b961091b2ad68f8be0",
-      "title": "Seinfeld’s Jason Alexander apologizes to Courtney Stodden for ‘inappropriate’ sketch made when she was a teenager",
+      "id": "03f7149fb1acab1901882b9b",
+      "title": "I became a nurse after my husband died from Covid - now I'm determined to get a job",
       "translatedTitle": null,
-      "description": "The actor, who is one of the writers credited for the Funny or Die sketch, said he was ‘deeply sorry for any harm or distress’ caused by the 2012 skit Seinfeld star Jason Alexander has apologized to the model Courtney Stodden for a decade-old comedy sketch in which he rubbed a mobile phone on her breasts when she was 17, saying, “It was inappropriate and I truly regret it”. Stodden made international headlines in 2011 when she married her ex-husband, The Green Mile actor Doug Hutchison, when she",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/jul/23/seinfelds-jason-alexander-apologizes-to-courtney-stodden-for-inappropriate-sketch-made-when-she-was-a-teenager",
-      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/jul/23/seinfelds-jason-alexander-apologizes-to-courtney-stodden-for-inappropriate-sketch-made-when-she-was-a-teenager",
+      "description": "Rachel Ohene-Adjei took her GCSEs after her husband died, and has now graduated with a nursing degree.",
+      "url": "https://www.bbc.co.uk/news/articles/cz7dq4p7qneo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cz7dq4p7qneo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T05:18:18Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c7b/live/2fc7a030-8655-11f1-8bc3-95f8c3a93002.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "10bfea377a8da3883912",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.77383
+    },
+    {
+      "id": "7cd3750dcecf376d0ea6e8b7",
+      "title": "One month, two record transfers - why English midfielders are in demand",
+      "translatedTitle": null,
+      "description": "Elliot Anderson and Morgan Rogers both sold for record transfer fees, so why are English midfielders so in demand?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr596gzy8j3o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cr596gzy8j3o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T05:15:52Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/511a/live/06cf37f0-85e3-11f1-8ade-a7a676c613b9.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d5fd8346087861b25d1d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.76963
+    },
+    {
+      "id": "330155ed72f78ea9840babd5",
+      "title": "Fatboy Slim helps to save 'lifeblood' music venue",
+      "translatedTitle": null,
+      "description": "The DJ is among investors including Andy Burnham helping to buy the Brighton home of The Pipeline.",
+      "url": "https://www.bbc.co.uk/news/articles/cevmgv9g77do?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cevmgv9g77do?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T05:12:43Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e93d/live/b1460240-7396-11f1-b38b-37f255239404.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5716d255e738d9c7ec87",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.76422
+    },
+    {
+      "id": "04e11668f79707d5587833df",
+      "title": "Palestine Action trial lawyer’s prosecution criticised as ‘chilling’ for profession",
+      "translatedTitle": null,
+      "description": "CBA chair says contempt charge over closing speech by Rajiv Menon KC has left lawyers fearful of doing their job The prosecution of a leading human rights barrister for contempt of court over his closing speech during a trial of Palestine Action activists has left lawyers fearful of doing their job, the chair of the Criminal Bar Association (CBA) has said. Rajiv Menon KC is due to stand trial next week, accused of breaching the judge’s directions in the trial of six people for a 2024 direct acti",
+      "url": "https://www.theguardian.com/uk-news/2026/jul/23/palestine-action-trial-lawyer-prosecution-criticised-rajiv-menon-kc",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/23/palestine-action-trial-lawyer-prosecution-criticised-rajiv-menon-kc",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1366,170 +1368,230 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-23T01:25:01Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/3a3b8dee3ee4c0713d7f9107bbfeab46b478e7db/629_0_6288_5031/master/6288.jpg?width=140&quality=85&auto=format&fit=max&s=a151f5c2f4fe007585bd3e15bd1b3ae0",
+      "publishedAt": "2026-07-23T07:11:33Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0d83442106ee0760a459b6efbb0112f88854e9d6/320_40_585_468/master/585.jpg?width=140&quality=85&auto=format&fit=max&s=c7ba37eb8cf9d9d775a1e2fe1899db06",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e7be5592cfd042821c8f",
+      "clusterId": "6dfb853763c31d29e209",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.51566
+      "rankingScore": 5.70988
     },
     {
-      "id": "a7f5d5127376bea095075edf",
-      "title": "Wisconsin police officer shoots, kills man on city street near state Capitol in Madison",
+      "id": "47922036476705ec5c249e18",
+      "title": "How powerful is your passport? Explore the global rankings",
       "translatedTitle": null,
-      "description": "Madison's chief of police says an officer in Wisconsin's capital city shot and killed a man who had injured him with a knife while resisting arrest",
-      "url": "https://www.independent.co.uk/news/wisconsin-tony-robinson-police-protesters-black-b3019916.html",
-      "canonicalUrl": "https://independent.co.uk/news/wisconsin-tony-robinson-police-protesters-black-b3019916.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "A symbol of global inequalities and shifting geopolitical fortunes, some passports offer their holders far more freedom to travel than others Passports can resemble abridged memoirs, their stamps telling romantic stories of wanderlust, freedom and belonging. But they are also a symbol of global inequalities and shifting geopolitical fortunes. Passports from some places allow their holders to travel abroad simply by booking a flight and packing a bag. Others, however, entail booking an appointmen",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/jul/23/most-powerful-passports-ranked",
+      "canonicalUrl": "https://theguardian.com/world/ng-interactive/2026/jul/23/most-powerful-passports-ranked",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-23T01:55:41Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/23/03/APTOPIX_Madison_Police_Shooting_6667_.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-07-23T07:00:39Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ec91b66a6c2fb1c5cf5938f618715e29c89bdd15/0_1_1872_1498/master/1872.jpg?width=140&quality=85&auto=format&fit=max&s=cb2ecebb0fdfd11b618fd02c8354419b",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "48e57e316d549d0f3be8",
+      "clusterId": "d69d44a97240b4a12d1b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.47969
+      "rankingScore": 5.6891
     },
     {
-      "id": "7ad51f9b714e3f6b44d6ffec",
-      "title": "Wisconsin police officer fatally shoots armed man who injured him with knife",
+      "id": "589fd26cdf54f1cfe425af94",
+      "title": "Carmakers lobbied UK to revoke ban on petrol and diesel cars after 2035",
       "translatedTitle": null,
-      "description": "Cellphone footage of the shooting spread on social media shortly after the incident",
-      "url": "https://www.independent.co.uk/news/world/americas/wisconsin-madison-police-shooting-arrest-b3019914.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/wisconsin-madison-police-shooting-arrest-b3019914.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "BMW, Ford, Nissan and Toyota, plus parts maker Bosch, wrote joint letter to ministers in April Major carmakers privately lobbied the UK government to revoke a ban on new petrol and diesel cars after 2035, according to documents that reveal for the first time the efforts to overturn a key decarbonisation policy. BMW, Ford, Nissan and Toyota, plus the parts maker Bosch, wrote a joint letter to ministers in April calling for an “open technology approach” including petrol and diesel cars after 2035,",
+      "url": "https://www.theguardian.com/environment/2026/jul/23/carmakers-lobbied-uk-revoke-ban-petrol-diesel-cars-2035",
+      "canonicalUrl": "https://theguardian.com/environment/2026/jul/23/carmakers-lobbied-uk-revoke-ban-petrol-diesel-cars-2035",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-23T01:46:45Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/23/02/download.-1.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-07-23T07:00:39Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7136a32c753cc504a52d9f7b15141d4d0ca66298/8_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=9686b0878c6943513c3574450059a529",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "9d8e81f149c00faf7db0",
+      "clusterId": "e619be499e2a8a8161c4",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.46379
+      "rankingScore": 5.6891
     },
     {
-      "id": "827a115d7e8b62850422c2f7",
-      "title": "Prosecutors reveal alleged blood stains found in D4vd’s garage during hearing",
+      "id": "cc61ebe4925f6d0698a7129e",
+      "title": "Ken Turner, the 100-year-old artist who flattened a Tesla with a tank: ‘I’m not a revolutionary, I’m a simple rebel’",
       "translatedTitle": null,
-      "description": "A criminalist testified that she found apparent blood stains on rubber mats on the floor of the garage in the singer’s Hollywood home",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/d4vd-hearing-celeste-rivas-hernandez-evidence-b3019913.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/crime/d4vd-hearing-celeste-rivas-hernandez-evidence-b3019913.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "The painter, sculptor and performance artist has devoted his life to making art available to the masses. Now with a new exhibition, the centenarian discusses inequality, inspiration, and why he won’t be stopping any time soon ‘Life is short, art long,” says Ken Turner, reading from a book of aphorisms by ancient Greek physician Hippocrates. And he’s half right, really, because at 100 years old – and very possibly the world’s oldest performance artist – art might have been long, but life hasn’t b",
+      "url": "https://www.theguardian.com/artanddesign/2026/jul/23/ken-turner-100-year-old-artist-crushed-tesla-with-tank",
+      "canonicalUrl": "https://theguardian.com/artanddesign/2026/jul/23/ken-turner-100-year-old-artist-crushed-tesla-with-tank",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-23T01:29:09Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/22/19/D4vd_Girl_Killed__9_34.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-07-23T07:00:38Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/72c270d01ceb232a8d61cc8a359b7520b84e4a7f/0_331_2362_1888/master/2362.jpg?width=140&quality=85&auto=format&fit=max&s=a0a5c860c0f2ff52375d4a976088e862",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "8902daac0d70ea7afd9e",
+      "clusterId": "395a50602372d53bda9c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.43286
+      "rankingScore": 5.68907
     },
     {
-      "id": "6b0a6e3c5bc578df78e80aa8",
-      "title": "Disgruntled tenant guns down three people over parking garage contract dispute, police say",
+      "id": "f185ecf80a1547b6429238b5",
+      "title": "Don’t like the result? Don’t worry, sport no longer ends on the field of play | Jonathan Liew",
       "translatedTitle": null,
-      "description": "Tsegaab A. Binessu, a 30-year-old from Saint Paul, Minnesota, was arrested Monday in connection with the triple homicide",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/minnesota-arrest-parking-garage-contract-shooting-b3019898.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/crime/minnesota-arrest-parking-garage-contract-shooting-b3019898.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "From the wrong headset in an F2 garage to Fifa overturning a red card, we are in a landscape where fairness is the enemy A funny and very small thing happened at the Formula Two race at Spa on Sunday. Noel León, of Campos Racing, carved his way through the field to finish seventh, earning himself six points in the drivers’ championship, and promptly left the circuit to go and do whatever it is Noel León likes to do after a race. Take a nap, hit the Belgian brews, congratulate himself on his pali",
+      "url": "https://www.theguardian.com/sport/2026/jul/23/sport-fairness-fifa-world-cup-2026-fia-motor-sport-golf-open-championship",
+      "canonicalUrl": "https://theguardian.com/sport/2026/jul/23/sport-fairness-fifa-world-cup-2026-fia-motor-sport-golf-open-championship",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-23T01:21:44Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/23/0/35/Screenshot-2026-07-22-at-8-04-37-PM.jpg?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
+      "publishedAt": "2026-07-23T07:00:38Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f2ce427ef904c69d4e6cb30e955f5bb548ff9acb/224_0_1847_1477/master/1847.jpg?width=140&quality=85&auto=format&fit=max&s=18240ac43655aac79df389a49f7b55f0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6c77d477b9aae830c840",
+      "clusterId": "403a2dcbec0be8237c79",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.41997
+      "rankingScore": 5.68907
     },
     {
-      "id": "a04fee12ecfda254f706e032",
-      "title": "Dr. Phil reveals the White House had him review UFO files to see how the public would react to them",
+      "id": "8004912fd3122cb1cc6607aa",
+      "title": "You be the judge: should my girlfriend stop insisting we queue for hours at concerts?",
       "translatedTitle": null,
-      "description": "Dr. Phil claims the files he has seen reveal a sprawling government ‘cover-up’ about UFOs",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/dr-phil-trump-ufo-files-b3019901.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/dr-phil-trump-ufo-files-b3019901.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Fay likes to get a good spot and watch the support acts, but Odysseus would rather rock up for the main band. Who is hitting a false note? You decide • Find out how to get a disagreement settled or become a juror Fay likes to be on the front row but I think it’s overrated Continue reading...",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/jul/23/you-be-the-judge-should-girlfriend-stop-queuing-concerts-turning-up-early",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/jul/23/you-be-the-judge-should-girlfriend-stop-queuing-concerts-turning-up-early",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-23T01:18:20Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/23/01/2282952692..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-07-23T07:00:37Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c646a4838886b813f7fae0c05ef48f8c33d7d456/126_82_1591_1273/master/1591.jpg?width=140&quality=85&auto=format&fit=max&s=953b868c093c33aaf888cebc8feed74e",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-23T04:17:14Z",
+      "retrievedAt": "2026-07-23T08:17:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1d03a825f7860432d043",
+      "clusterId": "e9dfead23c8aeba77f86",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.41409
+      "rankingScore": 5.68904
+    },
+    {
+      "id": "5cffcd82728ff8c2c1d1b651",
+      "title": "If you’ve heard that London is dystopian and dangerous – read this. It just isn’t | Sadiq Khan",
+      "translatedTitle": null,
+      "description": "Britain's capital has faced social media, press and political attacks designed to make residents and tourists feel unsafe. Ignore that: we have the facts Over the summer months, 5 million people will visit London, with its free museums and galleries, massive events featuring the biggest names in music and sport, and everything Britain’s capital city has to offer. And, as new figures released today show, they’ll be able to do so knowing London is one of the safest cities of its size in the world.",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/23/london-safe-city-crime-stats-sadiq-khan",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/23/london-safe-city-crime-stats-sadiq-khan",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T07:00:37Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0eed0e0063547286b62b9743c57c06b72fc2aff2/326_0_4549_3640/master/4549.jpg?width=140&quality=85&auto=format&fit=max&s=c2637517ede554f15c9b9f946a5a5eaf",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cee856d4a223d7bb111c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68904
+    },
+    {
+      "id": "fb6745cb453df490c32c5e8b",
+      "title": "‘A surprising success’: US, Mexico and Canada fans on hosting the World Cup",
+      "translatedTitle": null,
+      "description": "The joy, love, hope and fun provided by fans outweighed the commercialism, extortionate prices and ugly politics This summer has been so vibrant and full of life. I had my doubts but, as the World Cup approached and Boston got ready to host its first game, I started feeling the excitement and enthusiasm in the air. That mainly had to do with the huge numbers of Scottish fans who arrived for their match against Haiti. They were a delight, what with their shenanigans of putting cones everywhere, w",
+      "url": "https://www.theguardian.com/football/2026/jul/23/surprising-success-us-mexico-canada-fans-hosting-world-cup-joy-love-hope-fun-prices-politics",
+      "canonicalUrl": "https://theguardian.com/football/2026/jul/23/surprising-success-us-mexico-canada-fans-hosting-world-cup-joy-love-hope-fun-prices-politics",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-23T07:00:37Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9500b16fda8961b42153408a7857fff62acb2571/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=6fe46eb3a5efe7dd92c430f774c5d8bf",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-23T08:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d11225341fc74b108175",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68904
     }
   ]
 }
