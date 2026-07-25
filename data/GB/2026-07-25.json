@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-25",
-  "generatedAt": "2026-07-25T00:17:20Z",
-  "lastAttemptAt": "2026-07-25T00:17:20Z",
-  "lastSuccessfulUpdate": "2026-07-25T00:17:20Z",
-  "status": "current",
+  "generatedAt": "2026-07-25T04:17:17Z",
+  "lastAttemptAt": "2026-07-25T04:17:17Z",
+  "lastSuccessfulUpdate": "2026-07-25T04:17:17Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 19,
+  "articleCount": 29,
   "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-25T00:17:18Z",
-      "lastSuccessAt": "2026-07-25T00:17:19Z",
+      "lastAttemptAt": "2026-07-25T04:17:16Z",
+      "lastSuccessAt": "2026-07-25T04:17:16Z",
       "articlesRetrieved": 37,
-      "responseTimeMs": 638,
+      "responseTimeMs": 146,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-25T00:17:18Z",
-      "lastSuccessAt": "2026-07-25T00:17:19Z",
+      "lastAttemptAt": "2026-07-25T04:17:16Z",
+      "lastSuccessAt": "2026-07-25T04:17:16Z",
       "articlesRetrieved": 137,
-      "responseTimeMs": 493,
+      "responseTimeMs": 487,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,86 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-25T00:17:18Z",
-      "lastSuccessAt": "2026-07-25T00:17:19Z",
-      "articlesRetrieved": 10,
-      "responseTimeMs": 676,
+      "lastAttemptAt": "2026-07-25T04:17:16Z",
+      "lastSuccessAt": "2026-07-25T04:17:16Z",
+      "articlesRetrieved": 9,
+      "responseTimeMs": 721,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-07-25T00:17:18Z",
-      "lastSuccessAt": "2026-07-25T00:17:19Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 439,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-25T04:17:16Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
+    {
+      "id": "f6f46300d2317c2b313a63ae",
+      "title": "More than 220,000 evacuated in France and Spain due to wildfires",
+      "translatedTitle": null,
+      "description": "French firefighters battle a blaze heading towards Bordeaux while officials in Madrid say they face the \"worst fire in the history of the region\".",
+      "url": "https://www.bbc.co.uk/news/articles/czjlenp0xk8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/czjlenp0xk8o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-25T02:29:36Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/638c/live/3592d2f0-87ae-11f1-9e55-1d545cca1941.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-25T04:17:16Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "13b4defd956c45f052bd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.95121
+    },
+    {
+      "id": "9f0bd25f7da250c2a8943c95",
+      "title": "Ukraine war briefing: Russia launches deadly attack on weapons exhibition near Kyiv",
+      "translatedTitle": null,
+      "description": "Zelenskyy says defence industry event should not have taken place; US influencer Laura Loomer visits Kyiv. What we know on day 1,613 A Russian ballistic missile strike in Ukraine’s Kyiv region has killed 10 people and ⁠injured almost 100 at ⁠the site of ​a defence industry event that Volodymyr Zelenskyy said should never have taken place. Pictures posted online by the Ukraine Emergency Services showed teams sifting through piles of rubble at the site north of the capital, adjacent to several hou",
+      "url": "https://www.theguardian.com/world/2026/jul/25/ukraine-war-briefing-ten-killed-russian-attack-weapons-exhibition-near-kyiv",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/25/ukraine-war-briefing-ten-killed-russian-attack-weapons-exhibition-near-kyiv",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-25T01:33:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/692985c692c45518f0ecc9fa1e4350daf565b74d/597_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ad2e3a3098b2d104ea0111434378180d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-25T04:17:16Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1c1c99c01a3872ba4781",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.23004
+    },
     {
       "id": "da91bb2421eaaa9976042001",
       "title": "Zelensky denies bizarre claim he took cocaine with Macron in interview with far-right MAGA influencer",
@@ -85,8 +145,8 @@
       "clusterId": "ecf6679da2980d52acf9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.66482
+      "rankingScore": 7.90345,
+      "related": []
     },
     {
       "id": "fb15747d8090c00144e2e3dd",
@@ -103,12 +163,12 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-25T00:03:21Z",
+      "publishedAt": "2026-07-25T04:13:28Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69e0/live/0292e380-87b4-11f1-a7ab-8b30adf0800a.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -116,7 +176,127 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.43169
+      "rankingScore": 7.45223
+    },
+    {
+      "id": "252383f00063162be038bc71",
+      "title": "Police declare 'major incident' as wind change increases Cairngorms wildfire risk",
+      "translatedTitle": null,
+      "description": "All residents in the village of Nethy Bridge have been evacuated over the threat the wildfire spreading.",
+      "url": "https://www.bbc.co.uk/news/articles/c2k7g15v3epo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c2k7g15v3epo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-25T04:01:00Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d86e/live/21ff53b0-87ce-11f1-befd-5b1f20fd5b65.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-25T04:17:16Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2afa451cd56471cd04d7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.42707
+    },
+    {
+      "id": "c541e9fa28f9843eab26ae2a",
+      "title": "Trump orders Smithsonian to post warnings about 'inaccurate' US history",
+      "translatedTitle": null,
+      "description": "The Trump administration has often accused the world's largest research museum of harbouring an anti-American bias.",
+      "url": "https://www.bbc.co.uk/news/articles/c1w10gwnj74o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c1w10gwnj74o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-25T02:23:09Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ada/live/69a18890-87cf-11f1-b948-61d0d1524256.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-25T04:17:16Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3f96dc462043c9579b2e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.23936
+    },
+    {
+      "id": "cfecd6654468dabc70e62e29",
+      "title": "Houthis vow retaliation after Saudi Arabia strikes Yemen in widening of Middle East war",
+      "translatedTitle": null,
+      "description": "Saudi-led coalition said it hit Houthi sites and destroyed targets that were threatening Red Sea ships Iran-backed Houthi rebels vowed to retaliate against Saudi Arabia on Saturday after they accused the kingdom of targeting civilian infrastructure, as the Middle East war widens across the region. Riyadh struck Houthi military targets in Hodeida in Yemen on Friday, with rebel media reporting two wounded after the Yemeni group announced a maritime blockade of the top oil producer and hit its ship",
+      "url": "https://www.theguardian.com/world/2026/jul/25/houthis-vow-retaliate-saudi-strikes-yemen-iran-war",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/25/houthis-vow-retaliate-saudi-strikes-yemen-iran-war",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-25T02:43:57Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3b23528b400aed20e124a840d4aa14c1d90e7f40/344_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=3f339b0d30a9995f9d09b577e2e482e3",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-25T04:17:16Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2fecb7d91faa842650d5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.00785
+    },
+    {
+      "id": "b07493646eb464ba46e0f5fe",
+      "title": "Trump’s address takes bitter turn after hailing ‘amazing job’ by reporters at gala",
+      "translatedTitle": null,
+      "description": "President took aim again at ‘fake media’ despite praising journalists and attacked opponents in rambling speech Donald Trump, who has regularly attacked the press over its coverage of him and his presidency, praised journalists for doing an “amazing job” as he addressed the White House correspondents’ dinner. A day after the Trump administration abandoned, for now, an extraordinary bid to subpoena reporters over their coverage, the US president attended the rescheduled White House correspondents",
+      "url": "https://www.theguardian.com/us-news/2026/jul/24/white-house-correspondents-dinner-trump-washington",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/jul/24/white-house-correspondents-dinner-trump-washington",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-25T02:16:07Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b869f8c482bea933bfa9b6a12cb6bdcc299a98c1/394_0_3970_3176/master/3970.jpg?width=140&quality=85&auto=format&fit=max&s=19b35feec97f0f0fed3fd9e7afeabd91",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-25T04:17:16Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "79b601ee3584af037e19",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.95651,
+      "related": []
     },
     {
       "id": "cb17fc51272a34e83a6bcec6",
@@ -138,7 +318,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -146,10 +326,10 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.32935
+      "rankingScore": 6.91708
     },
     {
-      "id": "84eca91203a7f4cf21c30b7f",
+      "id": "a7942fa84d46536ffbf5b385",
       "title": "Wildfire burning one month on is 'the size of a small town'",
       "translatedTitle": null,
       "description": "More than a month on, and firefighting shows no sign of immediate end at Tintwistle Moor.",
@@ -168,7 +348,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -176,7 +356,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.32578
+      "rankingScore": 6.91422
     },
     {
       "id": "75fa778d551d55226de47139",
@@ -205,8 +385,128 @@
       "clusterId": "6b9ad09e0153ceb7ef2a",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.54444,
+      "related": []
+    },
+    {
+      "id": "744e4c72d029f7e79d3a8acb",
+      "title": "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion",
+      "translatedTitle": null,
+      "description": "Prosecutors allege D4vd started abusing the girl when she was 13 and she had threatened to expose him.",
+      "url": "https://www.bbc.co.uk/news/articles/cr592qdj1ldo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cr592qdj1ldo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-25T02:14:50Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f8b/live/a675bbc0-87b5-11f1-88ae-859397b768ed.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-25T04:17:16Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e53c085fb5f37edcc165",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.95357
+      "rankingScore": 5.87417
+    },
+    {
+      "id": "cf0d8ebbd3ed119c78d659b4",
+      "title": "Teenage boy dies after stabbing in Luton as police launch murder investigation",
+      "translatedTitle": null,
+      "description": "The 17-year-old was taken to hospital with multiple stab wounds but was pronounced dead shortly after, Bedfordshire Police says.",
+      "url": "https://www.bbc.co.uk/news/articles/cjejvkk70z1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cjejvkk70z1o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-25T02:02:15Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b98/live/6de255a0-87c6-11f1-b8ee-9b3c26ad07bb.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-25T04:17:16Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "85ba1e322feb7e1e5a77",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.85142
+    },
+    {
+      "id": "5b1b659dd42046df5f1de506",
+      "title": "‘No time to waste’: Greece bids for Mount Olympus to be included on Unesco list of world heritage sites",
+      "translatedTitle": null,
+      "description": "Officials have long lobbied for peak that rises 2,918 metres above sea level to be given coveted designation More than four decades have elapsed since Evangelos Geroliolios made his first ascent to the home of the ancient gods. At the top of Mount Olympus, on the rocky peak of Greece’s highest mountain, he felt unalloyed awe. “I’ve never forgotten that unique moment, that unique feeling up there on the throne of Zeus,” recalled Geroliolios, who as mayor of Dion-Olympus now spends a great deal of",
+      "url": "https://www.theguardian.com/world/2026/jul/25/no-time-to-waste-greece-bids-for-mount-olympus-to-be-included-on-unesco-list-of-world-heritage-sites",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/25/no-time-to-waste-greece-bids-for-mount-olympus-to-be-included-on-unesco-list-of-world-heritage-sites",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-25T04:00:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7fede4e2b21fc872be299ce3e8230801313be0d7/354_0_3543_2835/master/3543.jpg?width=140&quality=85&auto=format&fit=max&s=10538ccf948f805dc4332077b29a0968",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-25T04:17:16Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "eb7f326e2777df740443",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80613
+    },
+    {
+      "id": "a42e6c6ee71f61c21c176dcb",
+      "title": "Heatwave conditions to return for many as UK temperatures to peak at 35C",
+      "translatedTitle": null,
+      "description": "Following weeks of mainly dry weather, we can welcome some rain this weekend, but it is not going to be that much.",
+      "url": "https://www.bbc.co.uk/weather/articles/c70gwq88gz7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/weather/articles/c70gwq88gz7o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-25T01:08:38Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/194a/live/6580e4c0-8777-11f1-b430-afa19a42b819.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-25T04:17:16Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c3d73d0d04f8704d268b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.75739
     },
     {
       "id": "3374918233694ac1dd219682",
@@ -228,7 +528,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -236,7 +536,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.02226
+      "rankingScore": 5.60144
     },
     {
       "id": "85a0f9ef8c7156d13dd396bc",
@@ -258,7 +558,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -266,7 +566,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01797
+      "rankingScore": 5.598
     },
     {
       "id": "2df82eea53a12d9d297e4761",
@@ -288,7 +588,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -296,7 +596,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.0141
+      "rankingScore": 5.5949
     },
     {
       "id": "0ceed357aec9faee675c8dc9",
@@ -318,7 +618,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -326,7 +626,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01105
+      "rankingScore": 5.59246
     },
     {
       "id": "ef7fbb00804cff9824aba8ad",
@@ -348,7 +648,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -356,7 +656,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00377
+      "rankingScore": 5.58663
     },
     {
       "id": "43949451619903cfc3dce495",
@@ -378,7 +678,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -386,7 +686,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.96019
+      "rankingScore": 5.55173
     },
     {
       "id": "b32c53d7b04ecc7feb695d2f",
@@ -408,7 +708,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -416,10 +716,10 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.96006
+      "rankingScore": 5.55163
     },
     {
-      "id": "463f2303594571269cff4214",
+      "id": "8c472bdde49141a7b48dbb42",
       "title": "'I just wanted them to survive': Couple tell of attempt to save drowning girl and mum",
       "translatedTitle": null,
       "description": "A couple have told the BBC how they attempted to save a mother and daughter who drowned off an Essex beach.",
@@ -438,7 +738,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -446,7 +746,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.95816
+      "rankingScore": 5.55011
+    },
+    {
+      "id": "7a450a6c517c0e3723394c51",
+      "title": "Lofty ambitions: can puffer jackets be made more sustainable?",
+      "translatedTitle": null,
+      "description": "As temperatures dip, the puffer’s appeal inflates. But quality and filler are factors to consider before buying new Change by degrees offers life hacks and sustainable living tips each Saturday to help reduce your household’s carbon footprint Got a question or tip for reducing household emissions? Email us at changebydegrees@theguardian.com Whether you call it a parka, puffer or Tassie tuxedo, the insulated jacket has become a cold-weather closet staple. A 1920s version by Australian mountaineer",
+      "url": "https://www.theguardian.com/australia-news/2026/jul/25/lofty-ambitions-can-puffer-jackets-be-made-more-sustainable",
+      "canonicalUrl": "https://theguardian.com/australia-news/2026/jul/25/lofty-ambitions-can-puffer-jackets-be-made-more-sustainable",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-25T00:00:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f025de4cc07e8df407808206c6e900e96a7792b0/889_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=66d99d80e8fe4cda7850cb6b5a663361",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-25T04:17:16Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a3ddcf325a726a417ede",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37437
     },
     {
       "id": "4ed4040597dfea1c1e36e9e4",
@@ -468,15 +798,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "03c2c8c4d3256784b903",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.75739
+      "rankingScore": 5.33555,
+      "related": []
     },
     {
       "id": "214a3b15d4dc1d97b865c583",
@@ -498,45 +828,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "9e179e712125fc89d7a3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.7465
-    },
-    {
-      "id": "c2a1518056eeb27f5ec326fb",
-      "title": "White House says Trump to give ‘unifying yet vicious’ speech at rescheduled press gala",
-      "translatedTitle": null,
-      "description": "Correspondents’ dinner begins in Washington, three months after original event was halted by a shooting The rescheduled White House correspondents’ dinner is under way in Washington, three months after the original event was scrapped in April when a man fired a shotgun at a security checkpoint outside the ballroom. Donald Trump arrived at the Waldorf Astoria for the rescheduled gala, which organizers say will feel smaller and closer than the one that had been evacuated after shots were fired in",
-      "url": "https://www.theguardian.com/us-news/2026/jul/24/white-house-correspondents-dinner-trump-washington",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/jul/24/white-house-correspondents-dinner-trump-washington",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-24T23:28:45Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/b869f8c482bea933bfa9b6a12cb6bdcc299a98c1/394_0_3970_3176/master/3970.jpg?width=140&quality=85&auto=format&fit=max&s=19b35feec97f0f0fed3fd9e7afeabd91",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c91aa25c0b0c34465027",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74322
+      "rankingScore": 5.32683,
+      "related": []
     },
     {
       "id": "5c3217e84e6527ec9b8101b2",
@@ -558,15 +858,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-25T00:17:19Z",
+      "retrievedAt": "2026-07-25T04:17:16Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "49508d0b936ff7c51f91",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73609
+      "rankingScore": 5.31849,
+      "related": []
     },
     {
       "id": "b32842a036d83d21fc067606",
@@ -595,8 +895,8 @@
       "clusterId": "f89575aad2c8b6ab84dc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70573
+      "rankingScore": 5.27625,
+      "related": []
     },
     {
       "id": "90957bdb709d18a7c6a91eb1",
@@ -625,8 +925,8 @@
       "clusterId": "ca02f7dcb65c542aee74",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60095
+      "rankingScore": 5.19234,
+      "related": []
     }
   ]
 }
