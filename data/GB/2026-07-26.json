@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-26",
-  "generatedAt": "2026-07-26T00:17:18Z",
-  "lastAttemptAt": "2026-07-26T00:17:18Z",
-  "lastSuccessfulUpdate": "2026-07-26T00:17:18Z",
-  "status": "current",
+  "generatedAt": "2026-07-26T04:17:20Z",
+  "lastAttemptAt": "2026-07-26T04:17:20Z",
+  "lastSuccessfulUpdate": "2026-07-26T04:17:20Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 19,
+  "articleCount": 32,
   "publisherCount": 3,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-26T00:17:17Z",
-      "lastSuccessAt": "2026-07-26T00:17:17Z",
-      "articlesRetrieved": 32,
-      "responseTimeMs": 304,
+      "lastAttemptAt": "2026-07-26T04:17:19Z",
+      "lastSuccessAt": "2026-07-26T04:17:19Z",
+      "articlesRetrieved": 35,
+      "responseTimeMs": 358,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-26T00:17:17Z",
-      "lastSuccessAt": "2026-07-26T00:17:18Z",
+      "lastAttemptAt": "2026-07-26T04:17:19Z",
+      "lastSuccessAt": "2026-07-26T04:17:19Z",
       "articlesRetrieved": 141,
-      "responseTimeMs": 531,
+      "responseTimeMs": 397,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,28 +38,148 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-26T00:17:17Z",
-      "lastSuccessAt": "2026-07-26T00:17:18Z",
-      "articlesRetrieved": 10,
-      "responseTimeMs": 700,
+      "lastAttemptAt": "2026-07-26T04:17:19Z",
+      "lastSuccessAt": "2026-07-26T04:17:19Z",
+      "articlesRetrieved": 9,
+      "responseTimeMs": 887,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-07-26T00:17:17Z",
-      "lastSuccessAt": "2026-07-26T00:17:17Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 344,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-26T04:17:19Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
     {
-      "id": "c77a14eaeaba05a035f4f1eb",
+      "id": "ba939128de1c36e8565cb7eb",
+      "title": "More than 300,000 flee wildfires in France and Spain",
+      "translatedTitle": null,
+      "description": "Spain's PM warns of \"complex hours\" ahead as authorities in France say they are far from bringing blazes burning near Bordeaux under control.",
+      "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cd7le0d53y2o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T00:54:06Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8783/live/30d9e7b0-880f-11f1-afbe-b9a38c21b1d6.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "691911ae95f7f76f3952",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.78262
+    },
+    {
+      "id": "2c99a03b1aa09b470a677e16",
+      "title": "Beaten, robbed and driven out: violent demonstrations target immigrants in South Africa",
+      "translatedTitle": null,
+      "description": "Thousands have fled amid months of anti-immigration protests as campaigners demand undocumented people leave the country In Thembelihle, an informal settlement south of Johannesburg where thousands of breeze-block houses and metal shacks line dirt streets flooded with filthy water, Malawians had lived for years alongside South Africans without any problems. But in the last few weeks, a series of armed robberies has shaken the community. On 29 June, several men broke into the compound of Eibrahee",
+      "url": "https://www.theguardian.com/world/2026/jul/26/violent-demonstrations-target-immigrants-south-africa",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/26/violent-demonstrations-target-immigrants-south-africa",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T04:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e70d585408c4b85942ab05c9ffd7bc041d69f32f/621_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=886397b3f6a33f255878d80896aefee9",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "64b4bc2fe81304128ade",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.155
+    },
+    {
+      "id": "0e463b7a8d547e018b55742b",
+      "title": "How the Met police spent £2.5m hiding spycop from former partner",
+      "translatedTitle": null,
+      "description": "Spycops inquiry has revealed how Helen Steel was secretly monitored in her search for undercover officer who deceived her into relationship At 2pm on 14 December 2002, Helen Steel, a well-known leftwing campaigner, and her parents landed at Auckland airport for a family holiday. It had been a tiring journey, so they were irritated when they were delayed leaving the airport for an hour. What they did not know until recently is the reason for that delay. Their arrival had triggered a secret warnin",
+      "url": "https://www.theguardian.com/uk-news/2026/jul/26/how-the-met-police-spent-25m-hiding-spycop-from-former-partner",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/26/how-the-met-police-spent-25m-hiding-spycop-from-former-partner",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T03:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/12a068dbc7f8f1ab7d2c91b12244ebc13f3f0aca/61_0_600_480/master/600.jpg?width=140&quality=85&auto=format&fit=max&s=863c26067212755737ad5dc82cc6e5d0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2b479a38f88bc8e49de1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.038
+    },
+    {
+      "id": "fc50a0cc56a68e9c4187980e",
+      "title": "Primark's new 'supermarket tactic' to woo customers in online price war",
+      "translatedTitle": null,
+      "description": "Competition from ultra-cheap Chinese retailers and the cost of living crisis could be putting some people off shopping at the store, analysts say.",
+      "url": "https://www.bbc.co.uk/news/articles/c4g3x4j8pgro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c4g3x4j8pgro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T00:17:50Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a888/live/501dd8b0-86b2-11f1-8c61-e72dd81a46e3.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a0d42ec0993b878f8c23",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.02243
+    },
+    {
+      "id": "565c18ed28e9a1d008448a06",
       "title": "Residents allowed to return after Cairngorms wildfire evacuation",
       "translatedTitle": null,
       "description": "The fire was declared a major incident on Friday, but that has now been stood down by Police Scotland.",
@@ -78,7 +198,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:17Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -86,13 +206,43 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.71204
+      "rankingScore": 6.94314
     },
     {
-      "id": "c907004175757cd12d097d60",
-      "title": "One killed and 16 injured after van mows into crowd at Berlin Pride",
+      "id": "7cf5e9aa91997e0c8b835456",
+      "title": "Ukraine war briefing: Iran accuses Kyiv of deadly attack on Iranian vessel in Caspian Sea",
       "translatedTitle": null,
-      "description": "Police call off annual parade after crowd struck by vehicle in Tiergarten park The German chancellor, Friedrich Merz, vowed to punish those responsible after a car struck people on the outskirts of Berlin’s Gay Pride celebrations, killing at least one person and wounding 16 others. The attack on Saturday night forced organisers to cut short one of Europe’s largest Pride events and comes as Germany remains on edge after a series of deadly vehicle and knife attacks in recent years. Continue readin",
+      "description": "Zelenskyy says Iran is using Russian satellite images to help direct strikes in Middle East. What we know on day 1,614 Iran’s foreign ministry on Saturday condemned what it called a ⁠Ukrainian attack on an Iranian commercial vessel in the Caspian Sea, saying it killed one sailor and ⁠injured another. Tehran called the apparent attack an act of aggression and said it would defend its national ​interests and security. Ukraine’s diplomatic representative to Iran was summoned, Iranian state media re",
+      "url": "https://www.theguardian.com/world/2026/jul/26/ukraine-war-briefing-iran-accuses-kyiv-vessel-caspian-sea",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/26/ukraine-war-briefing-iran-accuses-kyiv-vessel-caspian-sea",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T02:08:07Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8e45ef85b2d0479655d397d29a16ad6538d940eb/1969_45_5080_4064/master/5080.jpg?width=140&quality=85&auto=format&fit=max&s=d4125a30cc498011b022f2919fc8ca7e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1d4517389e274f93c17d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.94191
+    },
+    {
+      "id": "1c4c4fa6b500d5901f2c72e9",
+      "title": "One killed and 16 injured after van crashes into crowd at Berlin Pride",
+      "translatedTitle": null,
+      "description": "Suspected ⁠perpetrator ⁠identified by police as member of ⁠city’s ‘Islamist scene’ The German chancellor, Friedrich Merz, vowed to punish those responsible after a car struck people on the outskirts of Berlin’s Gay Pride celebrations, killing at least one person and wounding 16 others. A suspected ⁠perpetrator of the apparent attack on ⁠Saturday night has been ⁠identified as a member of the ⁠city’s “Islamist scene” but he ​has not ‌yet ‌been arrested, a Berlin police spokesperson said. Continue",
       "url": "https://www.theguardian.com/world/2026/jul/25/berlin-pride-march-called-off-after-car-crashes-into-crowd-of-people-near-route",
       "canonicalUrl": "https://theguardian.com/world/2026/jul/25/berlin-pride-march-called-off-after-car-crashes-into-crowd-of-people-near-route",
       "sourceName": "The Guardian",
@@ -108,13 +258,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:18Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "aeddbfbe6fd9a538a0b9",
+      "clusterId": "28f3da8614255d409bd6",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.75939,
       "related": [
         {
           "id": "3e9b7dcef728d0ea1625dc74",
@@ -140,14 +291,13 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "aeddbfbe6fd9a538a0b9",
+          "clusterId": "28f3da8614255d409bd6",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "berlin pride crash latest one dead and 16 injured after vehicle driven into crowd at lgbt event"
         }
-      ],
-      "rankingScore": 7.18731
+      ]
     },
     {
       "id": "5f632f543edf3295699aea2c",
@@ -176,8 +326,218 @@
       "clusterId": "b7795f217766951b3243",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.57764,
+      "related": []
+    },
+    {
+      "id": "55c2cb761438863a9a1aa612",
+      "title": "UK papers: Mayors to get tax cash and Streeting 'bid to win back Trump'",
+      "translatedTitle": null,
+      "description": "Prime Minister Andy Burnham's policy proposals are prominent across Sunday's papers.",
+      "url": "https://www.bbc.co.uk/news/articles/cx2592ynxgyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cx2592ynxgyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T03:54:01Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed91/live/94813380-88a6-11f1-a7ab-8b30adf0800a.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "87edc71541140e706910",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.99517
+      "rankingScore": 6.063
+    },
+    {
+      "id": "34cb96d0df9c253b16e7828c",
+      "title": "Man charged with possession of explosive substance after bomb found in car",
+      "translatedTitle": null,
+      "description": "The Dublin man appeared at the Criminal Courts of Justice on Saturday evening.",
+      "url": "https://www.bbc.co.uk/news/articles/cj637j9gkd9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cj637j9gkd9o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T01:46:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd8c/live/753bc030-8874-11f1-846d-87a2f19d073f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5683b6c4fb2e5c2e2033",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.82273
+    },
+    {
+      "id": "56330bfc1d636c965dac81b3",
+      "title": "Gold dresses, flower markets and sitars: Pirelli’s 2027 calendar features all-Indian cast",
+      "translatedTitle": null,
+      "description": "Latest edition of one of world’s most influential fashion photography publications is also shot entirely in India Against the ancient, weathered walls of Jaigarh fort, high on the hills above Jaipur, Bhavitha Mandava stood barefoot and draped in gold. Just a few months earlier, the Indian model had been catapulted from a life of obscurity as a student at New York University to become one of the most recognisable and celebrated new faces of fashion. This year, she became the first Indian woman to",
+      "url": "https://www.theguardian.com/world/2026/jul/26/pirelli-2027-calendar-features-all-indian-cast",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/26/pirelli-2027-calendar-features-all-indian-cast",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T04:00:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f2fb0d71d09e445ffb855f32302e00b01216a3ba/265_0_4860_3888/master/4860.jpg?width=140&quality=85&auto=format&fit=max&s=e635f4421cc886fca3d2676879ed3c3f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d0ea57e181fe295bc547",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80503
+    },
+    {
+      "id": "11fe307ad066590750dcf55f",
+      "title": "The Curse of Love Island review – the deaths are more complex than this documentary can handle",
+      "translatedTitle": null,
+      "description": "This show tries to grapple with the fact that three people associated with the reality juggernaut have killed themselves. But it forgets that the dating series doesn’t exist in a vacuum In summer 2015, ITV revived its 00s reality format Celebrity Love Island, a show that was remembered mostly as a drunken, downmarket rival to Big Brother. Its new, slick, civilian Love Island was a slow-burn at first, but by 2017 it was one of British TV’s biggest hits. While it remains among ITV’s hottest proper",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/jul/26/the-curse-of-love-island-review-amazon-prime-video",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/jul/26/the-curse-of-love-island-review-amazon-prime-video",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T04:00:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5bdb02f60d2572d58523cedeed410ee746184393/229_0_2310_1848/master/2310.jpg?width=140&quality=85&auto=format&fit=max&s=6395b6eebd8fd367ceec305d0c53db41",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d6b50e61ff723b778885",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80503
+    },
+    {
+      "id": "325f798a3deec16089296e6f",
+      "title": "‘I panic. It turns to rubber’: could I learn to make omurice, the ‘world’s hardest omelette’?",
+      "translatedTitle": null,
+      "description": "These unctuous rice-filled Japanese egg dishes are all over social media. But what does it cost to make them? A lot of eggs and a whole lot of pans ... Among the endless videos of cute animals, influencer vlogs and celebrity content, something unusual has been going viral across social media recently: omelettes. A far cry from the usual solid egg slabs served in cafes, these bright yellow omelettes are a fluffy, oval-shaped treat filled with unctuous liquid curds, which are typically sliced open",
+      "url": "https://www.theguardian.com/food/2026/jul/26/i-panic-it-turns-to-rubber-could-i-learn-to-make-omurice-the-worlds-hardest-omelette",
+      "canonicalUrl": "https://theguardian.com/food/2026/jul/26/i-panic-it-turns-to-rubber-could-i-learn-to-make-omurice-the-worlds-hardest-omelette",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T04:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/78db96b94e8c5d9ab2fa262f0016f01eb9437fef/464_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=e63560a7affbe87fcd0ea92ab98347d6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d21b4635cb87887a72f8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.805
+    },
+    {
+      "id": "05da3032f4bad680e216fd3c",
+      "title": "Joshua's emotional win over Prenga in pictures",
+      "translatedTitle": null,
+      "description": "A pictorial view as Anthony Joshua beats Kristian Prenga in dramatic fashion in Saudi Arabia to tee up a super-fight with Tyson Fury.",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c141x88p30ko?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/boxing/articles/c141x88p30ko?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T00:58:10Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0dde/live/abf7eaf0-8887-11f1-ac17-c7dc04328b37.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b0cba9420e9e7410339c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.73949
+    },
+    {
+      "id": "624bc8f459806a9cbf356ff7",
+      "title": "The notorious Cameroonian prison with its own record label",
+      "translatedTitle": null,
+      "description": "New Bell's inmates have become mini stars, recording songs and music videos from the confines of the jail.",
+      "url": "https://www.bbc.co.uk/news/articles/czxqlkrlj7no?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/czxqlkrlj7no?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T00:24:30Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce2e/live/8eb036e0-8117-11f1-926f-c90d1bcfbc84.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d68ac66374af91551c61",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68334
     },
     {
       "id": "17ccfbb0276516ec590f4e48",
@@ -199,7 +559,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:17Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -207,7 +567,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.08131
+      "rankingScore": 5.6486
     },
     {
       "id": "f0984b68cd46c268526794e6",
@@ -229,7 +589,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:17Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -237,7 +597,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.07665
+      "rankingScore": 5.64488
     },
     {
       "id": "883054e5dfdfe3e7950adb2b",
@@ -259,7 +619,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:17Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -267,7 +627,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.07251
+      "rankingScore": 5.64156
     },
     {
       "id": "52f2e45b9b1c616e7ccf1ed3",
@@ -289,7 +649,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:17Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -297,7 +657,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.06149
+      "rankingScore": 5.63274
     },
     {
       "id": "194e0e506871477a5df4113a",
@@ -319,7 +679,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:17Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -327,7 +687,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.03087
+      "rankingScore": 5.60822
     },
     {
       "id": "386695b775a7beb2db68e97e",
@@ -349,7 +709,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:17Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -357,7 +717,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01925
+      "rankingScore": 5.59891
     },
     {
       "id": "73de50a578a717c4e206469c",
@@ -379,7 +739,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:17Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -387,7 +747,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01785
+      "rankingScore": 5.59779
     },
     {
       "id": "715badaffffcc1a9573546a9",
@@ -405,11 +765,11 @@
       ],
       "language": "en",
       "publishedAt": "2026-07-25T23:30:07Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c2c/live/178edaf0-8769-11f1-a7ab-8b30adf0800a.jpg",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0e2/live/d0bf8120-841f-11f1-b976-0b9c15b0ccfc.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:17Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -417,7 +777,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01593
+      "rankingScore": 5.59626
     },
     {
       "id": "ad211299429c5135cfdb8e8d",
@@ -439,7 +799,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:17Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -447,10 +807,10 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01457
+      "rankingScore": 5.59516
     },
     {
-      "id": "35f74f3b29797406a8526cfa",
+      "id": "fe8d6e9f3375054bd65f7b89",
       "title": "Joshua knocked down twice as dramatic win sets up Fury fight",
       "translatedTitle": null,
       "description": "Anthony Joshua suffers two knockdowns before recovering to dramatically stop Kristian Prenga in the second round.",
@@ -469,7 +829,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:17Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -477,7 +837,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.97092
+      "rankingScore": 5.56022
+    },
+    {
+      "id": "7398ad4bcbe56b4074b73917",
+      "title": "Liverpool start Iraola era in style to beat Sunderland but Gomez injury deepens defensive worries",
+      "translatedTitle": null,
+      "description": "Liverpool defeat Sunderland 4-2 in friendly in Nashville When Gomez went down, central defence formed by two teenagers The Andoni Iraola era at Liverpool opened with a victory over Sunderland in Nashville – and a deepening of concerns over the defensive options at his disposal. The sight of Joe Gomez hobbling off after 10 minutes of the new head coach’s first game and two teenagers forming a raw central defence partnership in his absence intensified the spotlight on a department in need of work.",
+      "url": "https://www.theguardian.com/football/2026/jul/26/liverpool-start-iraola-era-in-style-to-beat-sunderland-but-gomez-injury-puts-spotlight-on-defence",
+      "canonicalUrl": "https://theguardian.com/football/2026/jul/26/liverpool-start-iraola-era-in-style-to-beat-sunderland-but-gomez-injury-puts-spotlight-on-defence",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-26T00:49:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5cd10b7a0a9a2e1cc049ab7fdcf68d0396993d0a/59_96_1593_1274/master/1593.jpg?width=140&quality=85&auto=format&fit=max&s=37ab705e33fada934a46f0c2879eca0d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-26T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "44a4d3e3c7c641a80c5d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4547
     },
     {
       "id": "84afeabb65c4ac7ba50ceee8",
@@ -499,15 +889,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-26T00:17:18Z",
+      "retrievedAt": "2026-07-26T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e0893a60e21630a11369",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.75734
+      "rankingScore": 5.33539,
+      "related": []
     },
     {
       "id": "91e09d134504464d2125ce6e",
@@ -536,8 +926,8 @@
       "clusterId": "725ed718048b5698f0ee",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.7476
+      "rankingScore": 5.30966,
+      "related": []
     },
     {
       "id": "69b793e6d50a5a8d399ddee8",
@@ -566,8 +956,8 @@
       "clusterId": "a89dffbe40ab8909a754",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74232
+      "rankingScore": 5.30543,
+      "related": []
     },
     {
       "id": "b26534861510a39bee0280cd",
@@ -596,8 +986,8 @@
       "clusterId": "a2112365f77fb9fdaef6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.62001
+      "rankingScore": 5.20749,
+      "related": []
     },
     {
       "id": "272593babc976981fe29b100",
@@ -626,8 +1016,8 @@
       "clusterId": "438409978d594aee85e9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6033
+      "rankingScore": 5.19411,
+      "related": []
     },
     {
       "id": "40abae49d188d4b53148ecd9",
@@ -656,8 +1046,8 @@
       "clusterId": "ef1cedb373d37cd72f84",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60181
+      "rankingScore": 5.19292,
+      "related": []
     }
   ]
 }
