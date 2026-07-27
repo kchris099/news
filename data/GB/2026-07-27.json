@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-27",
-  "generatedAt": "2026-07-27T04:17:20Z",
-  "lastAttemptAt": "2026-07-27T04:17:20Z",
-  "lastSuccessfulUpdate": "2026-07-27T04:17:20Z",
-  "status": "partial",
+  "generatedAt": "2026-07-27T08:17:28Z",
+  "lastAttemptAt": "2026-07-27T08:17:28Z",
+  "lastSuccessfulUpdate": "2026-07-27T08:17:28Z",
+  "status": "current",
   "samplePreview": false,
-  "articleCount": 24,
-  "publisherCount": 3,
+  "articleCount": 45,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-27T04:17:19Z",
-      "lastSuccessAt": "2026-07-27T04:17:19Z",
+      "lastAttemptAt": "2026-07-27T08:17:27Z",
+      "lastSuccessAt": "2026-07-27T08:17:28Z",
       "articlesRetrieved": 34,
-      "responseTimeMs": 525,
+      "responseTimeMs": 326,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-27T04:17:19Z",
-      "lastSuccessAt": "2026-07-27T04:17:19Z",
-      "articlesRetrieved": 135,
-      "responseTimeMs": 356,
+      "lastAttemptAt": "2026-07-27T08:17:27Z",
+      "lastSuccessAt": "2026-07-27T08:17:28Z",
+      "articlesRetrieved": 136,
+      "responseTimeMs": 395,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,269 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-27T04:17:19Z",
-      "lastSuccessAt": "2026-07-27T04:17:19Z",
-      "articlesRetrieved": 8,
-      "responseTimeMs": 578,
+      "lastAttemptAt": "2026-07-27T08:17:27Z",
+      "lastSuccessAt": "2026-07-27T08:17:28Z",
+      "articlesRetrieved": 9,
+      "responseTimeMs": 593,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "failed",
-      "lastAttemptAt": "2026-07-27T04:17:19Z",
-      "lastSuccessAt": null,
-      "articlesRetrieved": 0,
-      "responseTimeMs": null,
-      "errorType": "RuntimeError",
-      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      "status": "success",
+      "lastAttemptAt": "2026-07-27T08:17:27Z",
+      "lastSuccessAt": "2026-07-27T08:17:28Z",
+      "articlesRetrieved": 100,
+      "responseTimeMs": 669,
+      "errorType": null,
+      "errorMessage": null
     }
   ],
   "articles": [
+    {
+      "id": "8a7d2ae59245f3531e81792e",
+      "title": "Trump paused attacks on Iran to make space for talks, US ambassador says",
+      "translatedTitle": null,
+      "description": "Neither the US nor Iran have launched attacks in the last two nights, after almost two weeks of tit-for-tat strikes risked derailing talks to permanently end the war.",
+      "url": "https://www.bbc.co.uk/news/articles/c5y45kdkynpo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c5y45kdkynpo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T08:14:46Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77dd/live/1590f3b0-890c-11f1-84f3-d921f52926a2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e16e0c11e4b4e5c9344f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "b240a99a083a5f0574b6cf32",
+          "title": "Trump halts attacks on Iran to resume negotiations",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://www.independent.co.uk/bulletin/news/iran-war-us-trump-strikes-negotiations-b3021975.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/news/iran-war-us-trump-strikes-negotiations-b3021975.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-27T06:58:22Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/27/07/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-27T08:17:28Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e16e0c11e4b4e5c9344f",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "trump halts attacks on iran to resume negotiations"
+        },
+        {
+          "id": "737ab323306650d33ffbf495",
+          "title": "US pauses Iran attacks after Trump advised to halt bombing",
+          "translatedTitle": null,
+          "description": "Top military officials say campaign has reached its limit of effectiveness and warn of dwindling stocks of munitions The US has paused strikes on Iran for a third night as top military officials advised Donald Trump to halt his bombing campaign, and diplomatic negotiations have continued to avoid a return to all-out war. Oil prices fell on Monday as markets responded to the pause in combat. Continue reading...",
+          "url": "https://www.theguardian.com/world/2026/jul/26/us-pauses-trump-netanyahu-attacks-on-iran-talks-hormuz",
+          "canonicalUrl": "https://theguardian.com/world/2026/jul/26/us-pauses-trump-netanyahu-attacks-on-iran-talks-hormuz",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-27T06:33:40Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/958908be634d62903516d0230827dc129ed254f4/200_78_2464_1972/master/2464.jpg?width=140&quality=85&auto=format&fit=max&s=0f368e9e440ff16810332bede58e954c",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-27T08:17:28Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e16e0c11e4b4e5c9344f",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "us pauses iran attacks after trump advised to halt bombing"
+        },
+        {
+          "id": "922c5f23b3da58693bacfc37",
+          "title": "Oil prices ease after US and Iran pause their attacks",
+          "translatedTitle": null,
+          "description": "Oil prices have fallen further in early trading after setting a two-month high set last week",
+          "url": "https://www.independent.co.uk/news/persian-gulf-iran-new-york-brent-brent-crude-b3021903.html",
+          "canonicalUrl": "https://independent.co.uk/news/persian-gulf-iran-new-york-brent-brent-crude-b3021903.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-26T23:15:45Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/27/00/Oil_Prices_43_51.jpg?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-27T08:17:28Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e16e0c11e4b4e5c9344f",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "oil prices ease after us and iran pause their attacks",
+          "rankingScore": 8.26397
+        }
+      ],
+      "rankingScore": 10.60432
+    },
+    {
+      "id": "b894195eff4545c8297fd88a",
+      "title": "PM pledges continued support for Ukraine ahead of Zelensky visit",
+      "translatedTitle": null,
+      "description": "The Ukrainian president will be Andy Burnham's first international visitor since taking office.",
+      "url": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cy8me5vyjg2o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:48:02Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66ed/live/5bc7b570-8980-11f1-b2ab-0dd01740f9f6.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0fabc035b9aa66144a10",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.63498
+    },
+    {
+      "id": "ba4f561bb01602f5a639ce6b",
+      "title": "Europe wildfires live: Macron to chair crisis meeting as France and Spain continue to battle major blazes",
+      "translatedTitle": null,
+      "description": "Firefighters in France and Spain face another day battling wildfires that have seen hundreds of thousands of people evacuated Pedro Sánchez says Spain is suffering effects of climate crisis as firefighters battle wildfires in France in Bordeaux France is facing “a race against time” to control wildfires before heatwave temperatures soar again this week, said Eric Brocardi, a fire service spokesperson. Continue reading...",
+      "url": "https://www.theguardian.com/world/live/2026/jul/27/europe-wildfires-france-spain-emmanuel-macron-crisis-meeting-pedro-sanchez-castillon-latest-news-updates",
+      "canonicalUrl": "https://theguardian.com/world/live/2026/jul/27/europe-wildfires-france-spain-emmanuel-macron-crisis-meeting-pedro-sanchez-castillon-latest-news-updates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T08:09:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a2100f7ba30dcadfc896c80d36e7442e2534a775/499_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=fbc8addae1b642fdeba9e845670ac8af",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f6bd8be46242352376c2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "94f15df070ec8e9f4e240fdc",
+          "title": "Mapped: The areas in France and Spain affected by raging wildfires",
+          "translatedTitle": null,
+          "description": "French prime minster Lecornu said the fires have reached ‘a level that has never been seen before’",
+          "url": "https://www.independent.co.uk/news/world/europe/spain-bordeaux-france-wildfires-map-b3021927.html",
+          "canonicalUrl": "https://independent.co.uk/news/world/europe/spain-bordeaux-france-wildfires-map-b3021927.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-27T03:40:42Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/25/14/2026-07-25T114924Z_1351752906_RC2ZKMAJG4G0_RTRMADP_3_EUROPE-WEATHER-WILDFIRE-SPAIN.JPG?width=1200&auto=webp&trim=0%2C62%2C0%2C62",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-27T08:17:28Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "f6bd8be46242352376c2",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "mapped the areas in france and spain affected by raging wildfires"
+        }
+      ],
+      "rankingScore": 8.57266
+    },
+    {
+      "id": "43995071304a59a417b53c9f",
+      "title": "Iran-US war latest: Tehran threatens retaliation after accusing Ukraine of missile strike on tanker in Caspian Sea",
+      "translatedTitle": null,
+      "description": "Oil prices fall as US and Iran pause their attacks for a second straight day",
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-iranian-strikes-pause-ceasefire-hormuz-b3021934.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/middle-east/iran-us-war-live-trump-iranian-strikes-pause-ceasefire-hormuz-b3021934.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T08:09:00Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/26/15/2286944647..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "52ae989139f2f2d3cec9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.43263
+    },
     {
       "id": "4d2ab20b56336d39bd3f8e16",
       "title": "Pedro Sánchez says Spain is suffering effects of climate crisis as firefighters battle wildfires in France",
@@ -85,8 +328,188 @@
       "clusterId": "07d597a3b353a0d940a3",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.33139,
+      "related": []
+    },
+    {
+      "id": "350147ccd864ac1c5ea60c8d",
+      "title": "President Macron calls crisis meeting as wildfires rage, driving 250,000 people from their homes",
+      "translatedTitle": null,
+      "description": "French President Emmanuel Macron calls a crisis meeting to address uncontrolled wildfires forcing over 250,000 people to flee their homes",
+      "url": "https://www.independent.co.uk/bulletin/news/france-spain-bordeux-wildfires-europe-macron-b3021980.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/france-spain-bordeux-wildfires-europe-macron-b3021980.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:58:59Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/26/21/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "aca55e2e50ce3e503234",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.85269
+      "rankingScore": 8.29562
+    },
+    {
+      "id": "1642cdb715a08fc28dc13e49",
+      "title": "Bulletin AM briefing: Wildfires just 15km from Bordeaux and Burnham issues NHS warning",
+      "translatedTitle": null,
+      "description": "Here’s five of the biggest stories this morning",
+      "url": "https://www.independent.co.uk/bulletin/news/bulletin-am-briefing-on-monday-july-27-b3021962.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/bulletin-am-briefing-on-monday-july-27-b3021962.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:16:36Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/27/07/2026-07-26T205343Z_1288382684_RC2WLMAM4TNK_RTRMADP_3_EUROPE-WEATHER-FRANCE-WILDFIRE.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "35817fdb053d0424e71d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.2169
+    },
+    {
+      "id": "6e972eee69854898a67f4b34",
+      "title": "Europe wildfires latest: Bordeaux Airport evacuates hotel zone with fires ‘moving erratically’ towards city",
+      "translatedTitle": null,
+      "description": "Wildfires in Europe have displaced around 300,000 people this week",
+      "url": "https://www.independent.co.uk/news/world/europe/france-spain-bordeaux-wildfires-europe-map-live-updates-b3021950.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/europe/france-spain-bordeaux-wildfires-europe-map-live-updates-b3021950.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:09:16Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/27/06/2287122806..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "04596eebf68bb3c65e72",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.20359
+    },
+    {
+      "id": "85c868fbded4f9e57b5dac07",
+      "title": "Oil prices sink 4% while Asian shares gain as Chinese chipmaker CXMT soars in Shanghai trading debut",
+      "translatedTitle": null,
+      "description": "Shares are mostly higher in Asia as oil prices slipped more than 4% after the U.S. and Iran paused their attacks for a second night",
+      "url": "https://www.independent.co.uk/news/nasdaq-composite-index-shares-shanghai-chinese-iran-b3021951.html",
+      "canonicalUrl": "https://independent.co.uk/news/nasdaq-composite-index-shares-shanghai-chinese-iran-b3021951.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T05:35:07Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/27/06/South_Korea_Financial_Markets_45391.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4ed5fa3da8d5e7e83e32",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.14278
+    },
+    {
+      "id": "14d39e25fd1979c56264962f",
+      "title": "He’s commander-in-chief of chaos. Now we’re all victims of Trump’s wars | Nesrine Malik",
+      "translatedTitle": null,
+      "description": "New tariffs, gas price rises, the deaths of thousands, insecurity … We’re living at the whim of one capricious, vain, easily bored man and his gang of stooges You would be forgiven, as the US and Iran traded strikes over the past few days, for thinking that it was only last month that the two signed the Islamabad Memorandum, which formalised the process of ending the war and established a 60-day period to negotiate the final terms of a deal. That’s because it was only last month. But there has b",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/27/commander-in-chief-of-chaos-victims-trump-wars",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/27/commander-in-chief-of-chaos-victims-trump-wars",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T04:00:31Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/894468e7cd042ab782e54c38a4690bc70a3f610b/0_0_2400_1920/master/2400.jpg?width=140&quality=85&auto=format&fit=max&s=5eeb39429eec60171239c9a56a3ea6cd",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2fd8000c9c627d8ac3dc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.07404
+    },
+    {
+      "id": "fd80079916b05a6a8e9bf4e3",
+      "title": "Infantino tells Fifa critics to 'meditate, pray or watch football'",
+      "translatedTitle": null,
+      "description": "Fifa president Gianni Infantino tells critics to \"meditate, pray or watch a football match\" instead of \"spreading hate and false rumours\" about him and the World Cup.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cz0515973gpo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cz0515973gpo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T08:07:28Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0be/live/28678820-8987-11f1-88b2-635548373e92.jpg",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9949c8bc8cc2030925e7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.78953
     },
     {
       "id": "0e75179501f6d001c3c4388f",
@@ -115,16 +538,77 @@
       "clusterId": "2dd205d39704f219944c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.33199,
+      "rankingScore": 7.56453,
       "related": []
     },
     {
-      "id": "922c5f23b3da58693bacfc37",
-      "title": "Oil prices ease after US and Iran pause their attacks",
+      "id": "b72e6e92c7abc15a6efb1dbb",
+      "title": "Behind-the-scenes at No 10 as Andy Burnham became PM",
       "translatedTitle": null,
-      "description": "Oil prices have fallen further in early trading after setting a two-month high set last week",
-      "url": "https://www.independent.co.uk/news/persian-gulf-iran-new-york-brent-brent-crude-b3021903.html",
-      "canonicalUrl": "https://independent.co.uk/news/persian-gulf-iran-new-york-brent-brent-crude-b3021903.html",
+      "description": "Laura Kuenssberg was given unprecedented access to the new prime minister’s first days in power.",
+      "url": "https://www.bbc.co.uk/news/articles/c79gdjlv78wo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c79gdjlv78wo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T05:00:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20af/live/b1af89f0-8754-11f1-b8ee-9b3c26ad07bb.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a65f14b85003c5581229",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "410b64e1a9615f0a620e99e3",
+          "title": "Andy Burnham explains why rescue dog Axel won’t be joining him at No 10",
+          "translatedTitle": null,
+          "description": "Axel the Bichon-Poo was adopted by Andy Burnham and his wife nearly 10 years ago",
+          "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-axel-dog-larry-cat-b3022017.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/politics/andy-burnham-axel-dog-larry-cat-b3022017.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-27T08:02:23Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/27/7/45/0_DQIDQt3XkAEk2vdjpeg-(1)-copy.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-27T08:17:28Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "a65f14b85003c5581229",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "andy burnham explains why rescue dog axel won t be joining him at no 10"
+        }
+      ],
+      "rankingScore": 7.14259
+    },
+    {
+      "id": "48e53376b71256a47827961d",
+      "title": "Two people die after being pulled from sea at popular Cornish beach",
+      "translatedTitle": null,
+      "description": "Emergency services, including the police, coastguard and ambulance, responded to the incident",
+      "url": "https://www.independent.co.uk/news/uk/home-news/fistral-beach-newquay-death-police-b3022023.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/fistral-beach-newquay-death-police-b3022023.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -133,20 +617,684 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-26T23:15:45Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/27/00/Oil_Prices_43_51.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-07-27T08:07:42Z",
+      "imageUrl": "https://static.independent.co.uk/2025/04/07/9/15/GettyImages-1222841025.jpeg?width=1200&auto=webp&trim=0%2C1%2C0%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
+      "retrievedAt": "2026-07-27T08:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "4a6add0980d5f3052615",
+      "clusterId": "df5b494415975eefa112",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.26397,
-      "related": []
+      "related": [],
+      "rankingScore": 7.08
+    },
+    {
+      "id": "96fa45ba43cece32a78534c1",
+      "title": "Seattle Center shooting latest: Suspect in custody after three killed in mass shooting at popular food festival",
+      "translatedTitle": null,
+      "description": "Two-year-old boy among the injured, one of four people who were rushed to hospital after deadly attack",
+      "url": "https://www.independent.co.uk/news/world/americas/crime/seattle-center-shooting-latest-updates-police-space-needle-food-festival-b3021966.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/crime/seattle-center-shooting-latest-updates-police-space-needle-food-festival-b3021966.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T08:06:29Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/27/2/20/Shooting.png?width=1200&auto=webp&trim=0%2C81%2C0%2C80",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8edb64d072350129f8d8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.07755
+    },
+    {
+      "id": "00f4aafc846562e2e9c4981a",
+      "title": "Gianni Infantino goes on Trump-like tirade as he blasts World Cup critics for ‘spreading hate’",
+      "translatedTitle": null,
+      "description": "Fifa president Infantino has faced intense scrutiny, including calls to resign, after staging a World Cup plagued by controversy",
+      "url": "https://www.independent.co.uk/sport/football/gianni-infantino-donald-trump-fifa-world-cup-post-hate-b3022009.html",
+      "canonicalUrl": "https://independent.co.uk/sport/football/gianni-infantino-donald-trump-fifa-world-cup-post-hate-b3022009.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T08:03:35Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/27/7/35/GettyImages-2286558313.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "451316362ae4e69edae1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.07171
+    },
+    {
+      "id": "f7610bfe540240ac4a45bcce",
+      "title": "Andy Burnham vows to use his ‘political capital’ to fix social care system",
+      "translatedTitle": null,
+      "description": "PM says that without rapid action the NHS could effectively collapse, in first full interview since entering No 10 Andy Burnham has promised to use “whatever political capital I have” to finally fix the crumbling social care system in England, saying that without rapid action the NHS could effectively collapse. In his first full interview since becoming prime minister last week, Burnham said he could not put a timetable on the arrival of a new system for social care but that its creation would t",
+      "url": "https://www.theguardian.com/society/2026/jul/27/andy-burnham-vows-to-use-his-political-capital-to-fix-social-care-system",
+      "canonicalUrl": "https://theguardian.com/society/2026/jul/27/andy-burnham-vows-to-use-his-political-capital-to-fix-social-care-system",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:50:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1d7d00a6b9cb560f4f8521a00469a9b3738251e8/250_0_2501_2000/master/2501.jpg?width=140&quality=85&auto=format&fit=max&s=dae6802aaac64daed0ed6c4ac7ea9bc8",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b99e6b27843b7482f579",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "42a437bac2de9c44b5741598",
+          "title": "Andy Burnham warns NHS will ‘collapse’ without social care reforms",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://www.independent.co.uk/bulletin/news/andy-burnham-nhs-dwp-benefits-changes-b3021949.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/news/andy-burnham-nhs-dwp-benefits-changes-b3021949.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-27T05:59:03Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/27/06/529152aea2e1740e97a9d40e32203ec6Y29udGVudHNlYXJjaGFwaSwxNzg1MTcxNjYx-2.85400234.jpg?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-27T08:17:28Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "b99e6b27843b7482f579",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "andy burnham warns nhs will collapse without social care reforms"
+        }
+      ],
+      "rankingScore": 7.06924
+    },
+    {
+      "id": "d424feb01db51ec4d97a3edd",
+      "title": "Salmonella outbreak linked to recalled eggs leaves nearly 100 people ill",
+      "translatedTitle": null,
+      "description": "Twenty-six people have been hospitalized with the infection, which causes severe diarrhea and vomiting",
+      "url": "https://www.independent.co.uk/news/world/americas/salmonella-eggs-recall-symptoms-kroger-b3022004.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/salmonella-eggs-recall-symptoms-kroger-b3022004.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T07:52:11Z",
+      "imageUrl": "https://static.independent.co.uk/2026/06/04/12/54/iStock-1134757909.jpeg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3a4e098faa20603e24ad",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.04891
+    },
+    {
+      "id": "8415e7386be42393a22ff3dd",
+      "title": "UK preparing for wildfires similar to those that have torn through France and Spain, minister confirms",
+      "translatedTitle": null,
+      "description": "Fires have wrought destruction in mainland Europe this week, with 220,000 forced out of their homes in south-west France and 116,000 evacuated in Spain",
+      "url": "https://www.independent.co.uk/news/uk/politics/wildfires-france-spain-map-uk-scotland-heatwave-b3022008.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/politics/wildfires-france-spain-map-uk-scotland-heatwave-b3022008.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T07:49:06Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/27/06/2287122806..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e89e1491bd645af5947b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.04278
+    },
+    {
+      "id": "e099f415e856e049bfba9ea5",
+      "title": "Uganda begins emergency food handouts after 19 die from hunger",
+      "translatedTitle": null,
+      "description": "Government move follows months of drought and crop failures in Karamoja, with 1.5m people facing malnutrition Uganda has launched emergency food relief distribution after at least 19 deaths from hunger were reported in an area of prolonged drought in the east of the country. A crisis has been building in the Karamoja region of Uganda as crops have failed without the season’s expected rains, leaving the region’s 1.5 million people facing acute food shortages and rising malnutrition. Continue read",
+      "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T07:00:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/21b4a5f72cda8e63545a7c656551964538e140e9/80_0_1695_1356/master/1695.jpg?width=140&quality=85&auto=format&fit=max&s=ca3b137a7f80ede603d90d07c7754981",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e24acf7ebd1c7dd39cc1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03862
+    },
+    {
+      "id": "7c22b04eb12ed318b65045ba",
+      "title": "Shein slumps to loss as sales hit by Trump’s tariff blow",
+      "translatedTitle": null,
+      "description": "The fast fashion group swung to a 99 million US dollar (£74 million) bottom line loss in the first quarter of 2026.",
+      "url": "https://www.independent.co.uk/news/business/trump-sales-rachel-reeves-europe-china-b3022013.html",
+      "canonicalUrl": "https://independent.co.uk/news/business/trump-sales-rachel-reeves-europe-china-b3022013.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T07:39:59Z",
+      "imageUrl": "https://static.independent.co.uk/2022/12/05/11/05102917-62ae9fd0-716b-4e88-b4eb-afd289cfda04.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "669c899b9eca013cdb39",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.02477
+    },
+    {
+      "id": "903fe40d0434553d94274c22",
+      "title": "Chinook crash: Victims’ families urge Burnham to order fresh review into tragedy",
+      "translatedTitle": null,
+      "description": "The cause of the crash, which killed 29 serving military personnel, has never been established",
+      "url": "https://www.independent.co.uk/news/uk/politics/chinook-crash-mull-of-kintyre-andy-burnham-b3021982.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/politics/chinook-crash-mull-of-kintyre-andy-burnham-b3021982.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T07:07:25Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/13/00/445ba3b38dc1079398beffe00c5f15a5Y29udGVudHNlYXJjaGFwaSwxNzgzNzY1NDE5-2.84579532.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e909e4e022750dab293e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "f382aec34c0cb3541b641dfc",
+          "title": "RAF Chinook crash victims’ families ask Andy Burnham for review of disaster",
+          "translatedTitle": null,
+          "description": "PM urged to end ‘cover-up culture’ and order independent review taking in evidence that has emerged on 1994 crash The families of those killed in an RAF Chinook crash in 1994 have urged Andy Burnham to end Britain’s “cover-up culture” and order an independent review into the disaster. Twenty-nine serving military personnel died when the Chinook HC2 helicopter crashed on the Mull of Kintyre in south-west Scotland during a flight from Northern Ireland. Continue reading...",
+          "url": "https://www.theguardian.com/uk-news/2026/jul/27/raf-chinook-crash-victims-families-ask-andy-burnham-fresh-review",
+          "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/27/raf-chinook-crash-victims-families-ask-andy-burnham-fresh-review",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-26T23:01:24Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/dd39151ee0bb9609df799918406c3b054d3b564c/248_0_3765_3013/master/3765.jpg?width=140&quality=85&auto=format&fit=max&s=7436e8be3d97c3d411467c006ea6b656",
+          "imageAlt": null,
+          "category": "Culture",
+          "topics": [],
+          "retrievedAt": "2026-07-27T04:17:19Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e909e4e022750dab293e",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.68201,
+          "normalizedTitle": "raf chinook crash victims families ask andy burnham for review of disaster",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 7.01166
+    },
+    {
+      "id": "8a71d816f4a5b230030946b8",
+      "title": "The Ukrainian start-up taking the missile fight deep into Russia",
+      "translatedTitle": null,
+      "description": "Fire Point makes 100 long-range missiles and thousands of drones a month and is vital to Kyiv’s deep strike capability, says CEO Iryna Terekh Ukraine’s leading arms company is manufacturing about 100 long-range Flamingo cruise missiles a month, a rate able to support an enduring campaign of deep strike against targets hundreds of miles inside Russia. Fire Point is also making FP-1 and FP-2 fixed-wing drones at a rate of “hundreds per day”, according to chief executive Iryna Terekh. Manufacturing",
+      "url": "https://www.theguardian.com/world/2026/jul/27/fire-point-ukraine-cruise-missiles-russia",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/27/fire-point-ukraine-cruise-missiles-russia",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:30:33Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e4f7e52323ea400573510f2f046540c04d813fca/386_129_3734_2989/master/3734.jpg?width=140&quality=85&auto=format&fit=max&s=54ac1c68408e58183fa24c5b9f481081",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7f00127646a95a4ed08f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.98247
+    },
+    {
+      "id": "5b971856c527087097c63f03",
+      "title": "Days disrupted: Across the world, Iran war's effects trickle into everyday life one human at a time",
+      "translatedTitle": null,
+      "description": "Across seven countries, seven people woke up to days that no longer looked the way they once did",
+      "url": "https://www.independent.co.uk/news/iran-who-united-states-hanoi-vietnam-b3021993.html",
+      "canonicalUrl": "https://independent.co.uk/news/iran-who-united-states-hanoi-vietnam-b3021993.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T07:04:46Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/27/08/Days_Disrupted_Philippines_128_4.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c9c4225b5b7229bbebda",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.9566
+    },
+    {
+      "id": "ca607b4b9ce1a29d2841a572",
+      "title": "US-Russia space crew lands back on Earth after eight-month ISS stint",
+      "translatedTitle": null,
+      "description": "Both nations have agreed to work with each other despite Russia’s invasion of Ukraine in 2022",
+      "url": "https://www.independent.co.uk/space/us-russia-iss-soyuz-ms28-b3021978.html",
+      "canonicalUrl": "https://independent.co.uk/space/us-russia-iss-soyuz-ms28-b3021978.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:55:22Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/27/07/2287087482..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6a554793a8470d1a3801",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.93878
+    },
+    {
+      "id": "c20df5b553fdef14ac782b83",
+      "title": "‘The city isn’t built for heat’: how extreme weather puts London’s rough sleepers at risk",
+      "translatedTitle": null,
+      "description": "As heatwaves make the capital increasingly dangerous, outreach workers warn that vulnerable people face barriers to finding water and cool spaces “You’ve just got to bear it. It’s like being in a hot country. It drains you,” said Tom*, a man in his 60s who has been homeless for a number of years. “I haven’t seen weather like this for as long as I’ve been outside. “I keep to my routines, but you need to find somewhere to sit down and rest. Either some cardboard outside or you find somewhere they’",
+      "url": "https://www.theguardian.com/society/2026/jul/27/london-rough-sleepers-homeless-heatwaves-extreme-weather",
+      "canonicalUrl": "https://theguardian.com/society/2026/jul/27/london-rough-sleepers-homeless-heatwaves-extreme-weather",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:00:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/cef58ef1d5d647383b9887dabc2df16b61bc6768/58_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=858ff77861e135af186abd1b5bca2b19",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c5e6aea78021783171b5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92791
+    },
+    {
+      "id": "537a1deca4ac94e67b4a285e",
+      "title": "Misleading AI-generated doctors pose ‘huge danger to public safety’",
+      "translatedTitle": null,
+      "description": "Research shows AI accounts are gaining millions of views on TikTok by spreading dubious health advice Misleading health claims online pose a “huge danger to public safety”, experts have warned, after research has shown that AI-generated doctors are gaining millions of views on TikTok by spreading dubious health advice. The British Medical Association council deputy chair, Dr Emma Runswick, flagged the risks posed by AI accounts that “peddle medical myths and promote so-called miracle cures”. Con",
+      "url": "https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok",
+      "canonicalUrl": "https://theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:00:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d59ca8b070ab53a9545020ec368b10d9d484f8d0/0_348_828_662/master/828.jpg?width=140&quality=85&auto=format&fit=max&s=39c4b1a80bcd6c41406eee3d35c17421",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8ab88dc8d06173840667",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92791
+    },
+    {
+      "id": "6e02fa22d6781208b6c09bf9",
+      "title": "The No 1 Ladies Detective Agency creator makes the world happier: best podcasts of the week",
+      "translatedTitle": null,
+      "description": "Author Alexander McCall Smith’s new series is an attempt to use short fiction to make listeners feel better about the world. Plus, what happened when two London gangsters decided to make a film? While he is best known for his No 1 Ladies’ Detective Agency novels, Alexander McCall Smith has something of a soft spot for short stories, which can “cover a whole sweep of history in a couple of paragraphs”. His new series features a selection of short original works that he hopes will make listeners f",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/jul/27/the-no-1-ladies-detective-agency-creator-best-podcasts-of-the-week",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/jul/27/the-no-1-ladies-detective-agency-creator-best-podcasts-of-the-week",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:00:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d8e2745cf451204d75ff229b17460bc2d94e3e59/133_107_1735_1388/master/1735.jpg?width=140&quality=85&auto=format&fit=max&s=aabb7a968db368b215572166d487f610",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "19c1bd8b0a4314430047",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92791
+    },
+    {
+      "id": "9bf64924bde281656669320f",
+      "title": "Valentina and the MUOSters review – US military surveillance in Sicily triggers family discord on the ground",
+      "translatedTitle": null,
+      "description": "A young woman strives for self-reliance as local people protest the US military communications system that has landed in their rural town The title of Francesca Scalisi’s documentary evokes a 1950s sci-fi yarn, even if the film’s visuals are rooted in the drama of the everyday. The acronym MUOS stands for Mobile User Objective System, an advanced satellite communications system used by the US military to direct drones, missiles and other kinds of attacks from a distance. One of the key MUOS grou",
+      "url": "https://www.theguardian.com/film/2026/jul/27/valentina-and-the-muosters-review-satellites-sicily",
+      "canonicalUrl": "https://theguardian.com/film/2026/jul/27/valentina-and-the-muosters-review-satellites-sicily",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:00:33Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9e4d11df827cf2eecd9b4c1f50bd5d348724d57c/90_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=35ad0e1f3eb1cfbfe9e8a3b8a046a362",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cc03c480cc2518722560",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92788
+    },
+    {
+      "id": "3570f63fa5dceaecabda8f6f",
+      "title": "Honor Magic V6 review: sleek foldable phone lacking a bit of polish",
+      "translatedTitle": null,
+      "description": "Super-premium Android has top performance, long battery life and good cameras, but is let down by software Honor’s svelte Android phone-tablet has been given a glow-up for its sixth version, offering a great alternative to Samsung for a fancy foldable with a red suede-like back framed in gold. The Magic V6 continues the Chinese challenger brand’s strategy of taking a razor-thin device and slapping a giant circular lump on the back to fit in top-class cameras, something others often forgo. It cos",
+      "url": "https://www.theguardian.com/technology/2026/jul/27/honor-magic-v6-review-android-sleek-foldable-phone-battery-cameras",
+      "canonicalUrl": "https://theguardian.com/technology/2026/jul/27/honor-magic-v6-review-android-sleek-foldable-phone-battery-cameras",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:00:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5f45693e72a500e2f45fc27c7a84571b2ceded42/560_238_5121_4097/master/5121.jpg?width=140&quality=85&auto=format&fit=max&s=6a7ff610f0da8f3eda6d12abbcd0b280",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "eb2612b1441ca2ca1c91",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92785
+    },
+    {
+      "id": "151d2247970868006e35d35e",
+      "title": "Luke Littler warns he can still get better after retaining World Matchplay title",
+      "translatedTitle": null,
+      "description": "Littler was in imperious form as he set a new record for the final with an average of 111.53",
+      "url": "https://www.independent.co.uk/sport/darts/luke-littler-gerwyn-price-premier-league-fallon-sherrock-michael-van-gerwen-b3021877.html",
+      "canonicalUrl": "https://independent.co.uk/sport/darts/luke-littler-gerwyn-price-premier-league-fallon-sherrock-michael-van-gerwen-b3021877.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:36:10Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/26/22/8f594ab9d7d9d8a383a8e1fdfe531256Y29udGVudHNlYXJjaGFwaSwxNzg1MTg3MTQx-2.84704544.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a3bcadf5a5ca596ee955",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.90286
+    },
+    {
+      "id": "eec14204ded6f159cb7354f3",
+      "title": "‘I smell like I’ve been in a barbecue’: Bordeaux resident explains what life in city is like as wildfire edges closer",
+      "translatedTitle": null,
+      "description": "Skies filled with smoke and the smell of fumes fill the city of Bordeaux as residents struggle to sleep and breathe amid raging wildfires",
+      "url": "https://www.independent.co.uk/news/world/europe/bordeaux-france-wildfires-europe-map-evacuations-b3021970.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/europe/bordeaux-france-wildfires-europe-map-evacuations-b3021970.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T06:29:43Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/26/14/40/WhatsApp-Image-2026-07-26-at-15-40-28.jpeg?width=1200&auto=webp&trim=89%2C0%2C1%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5281540f0bc221ad819b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.89093
+    },
+    {
+      "id": "6305bdc8babcdfc8e82597d0",
+      "title": "Palestine Action activists face being sentenced as terrorists over bank damage",
+      "translatedTitle": null,
+      "description": "Exclusive: Judge intends to consider ‘terrorist connection’ after convicting five for damage to Barclays in Burnley Five Palestine Action activists face being sentenced as terrorists for breaking windows and throwing red paint at a branch of Barclays Bank in Lancashire. Brendon O’Hagan, 28; Amanda Kelly, 31; Hmeera Atiqnisar, 31; Mohammed Malik, 28; and Alma Yaniv, 70, were found guilty of causing £212,000 of damage during a direct action protest in Burnley in August 2024. They targeted the bank",
+      "url": "https://www.theguardian.com/uk-news/2026/jul/27/palestine-action-activists-face-being-sentenced-terrorists-damage-barclays-bank-burnley",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/27/palestine-action-activists-face-being-sentenced-terrorists-damage-barclays-bank-burnley",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T05:00:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/47ee906a6f5cb195463e2738e9e28130c16da412/292_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=acc316cf912fa78932ada3abdca1b742",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "11e8bec1ffff205e6083",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "58aeba15d7ff8484fd01db35",
+          "title": "Palestine Action activists who ransacked a Barclays bank could be jailed as terrorists",
+          "translatedTitle": null,
+          "description": "Five activists were convicted of criminal damage after causing £200,000 worth of damage to a Barclays branch",
+          "url": "https://www.independent.co.uk/news/uk/home-news/palestine-action-barclays-bank-burnley-terrorists-b3022002.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/palestine-action-barclays-bank-burnley-terrorists-b3022002.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-27T07:30:12Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/27/08/2285322149..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-27T08:17:28Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "11e8bec1ffff205e6083",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "palestine action activists who ransacked a barclays bank could be jailed as terrorists"
+        }
+      ],
+      "rankingScore": 6.87313
     },
     {
       "id": "754ac1e6ea97a5abcf897a29",
@@ -168,7 +1316,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
+      "retrievedAt": "2026-07-27T08:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -176,45 +1324,15 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.21278
+      "rankingScore": 6.82334
     },
     {
-      "id": "9929ed3cc7e4d8c408fdd528",
-      "title": "Macron calls crisis meeting as wildfires threaten Bordeaux and heatwave looms",
+      "id": "9cba740d056c2d613a7b7480",
+      "title": "A TV and cinema calamity could be disastrous for what you watch and what you know. Act now to stop that | Alan Cumming, Benedict Cumberbatch and Benedict Wong",
       "translatedTitle": null,
-      "description": "Blazes are about 15km from Bordeaux, but the city's mayor says there are no plans to evacuate.",
-      "url": "https://www.bbc.co.uk/news/articles/c2350zlyy1yo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c2350zlyy1yo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-27T02:04:10Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b2e4/live/a5e80750-894d-11f1-b8ee-9b3c26ad07bb.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a42166d6017671513405",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.20478
-    },
-    {
-      "id": "2c34b858a68f78dd66c482fe",
-      "title": "‘I thought it didn’t stand a cat’s chance in hell’: Andrew Ridgeley on Wham’s surreal trip to China",
-      "translatedTitle": null,
-      "description": "Four decades after he and George Michael became the first western pop act to tour the country, Ridgeley recalls silent gigs, awkward embassy receptions – and the ‘bloody ludicrous’ hiring of Lindsay Anderson as director There has always been something surreal about Wham!’s 1985 trip to China. George Michael and Andrew Ridgeley looked like alien visitors on the streets of Beijing, their bouffant hair and flamboyant outfits setting them apart from the Mao jackets and drab uniforms of the Chinese p",
-      "url": "https://www.theguardian.com/film/2026/jul/27/andrew-ridgeley-wham-china-george-michael-lindsay-anderson",
-      "canonicalUrl": "https://theguardian.com/film/2026/jul/27/andrew-ridgeley-wham-china-george-michael-lindsay-anderson",
+      "description": "The Paramount-Warner Bros merger is being fought in the US and UK. Britain’s culture secretary knows the risks and can intervene. She should Though it has yet to become front-page news in the UK, you should know about the proposed Paramount-Warner Bros merger. It threatens to inflict immense harm on the British public. As actors and public figures who have spent our careers in the arts in Britain – working with British crews, on British stages and sets – we have a responsibility to the public wh",
+      "url": "https://www.theguardian.com/commentisfree/ng-interactive/2026/jul/27/tv-cinema-paramount-warner-bros-merger-benedict-cumberbatch-alan-cumming-benedict-wong",
+      "canonicalUrl": "https://theguardian.com/commentisfree/ng-interactive/2026/jul/27/tv-cinema-paramount-warner-bros-merger-benedict-cumberbatch-alan-cumming-benedict-wong",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -223,149 +1341,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-27T04:00:32Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/61fa146c121e575a6501a779068fbae089267556/0_564_3123_2496/master/3123.jpg?width=140&quality=85&auto=format&fit=max&s=94fd7c7bdeea289517a38302b34e0057",
+      "publishedAt": "2026-07-27T05:00:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/401ed02c9ef817b7ab64734b93ef56f4d4133be9/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=4fe73a7bc5e1f75087941b3faa76bdf5",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
+      "retrievedAt": "2026-07-27T08:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "8ba08283f994f0089391",
+      "clusterId": "72669904a7cb98253780",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.15603
+      "rankingScore": 6.82313
     },
     {
-      "id": "bf28fc3531a589d73db4e088",
-      "title": "Bodies of five climbers found on Russia’s highest mountain",
+      "id": "d138184b1f3b152aa0635e82",
+      "title": "Andy Burnham to make it harder for people to claim benefits as he vows to ‘get serious’ about cutting welfare bill",
       "translatedTitle": null,
-      "description": "Two others on Mount Elbrus survive after group of foreign climbers ‘strayed from route’ amid deteriorating weather, say authorities Russia says it has found the bodies of five foreign climbers – believed to be Bosnian – on Mount Elbrus, authorities and state media say. Authorities said earlier that out of a group of seven climbing Russia’s highest mountain, they had recovered two bodies and were searching for three more. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/jul/27/mount-elbrus-climbers-bodies-found-russia-highest-mountain",
-      "canonicalUrl": "https://theguardian.com/world/2026/jul/27/mount-elbrus-climbers-bodies-found-russia-highest-mountain",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-27T03:49:19Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/2230e107beacae024e7df7b7196c681f874fd000/1630_733_2922_2338/master/2922.jpg?width=140&quality=85&auto=format&fit=max&s=e325118cead5231395ac51e90d8b0afe",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d27b88f89c5c5d4ccbd5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.13365
-    },
-    {
-      "id": "d4fc9bd8fc1878379728df28",
-      "title": "Netanyahu accuses NYC Mayor Mamdani of 'fomenting hate' after arrest threat",
-      "translatedTitle": null,
-      "description": "Mamdani walked back his threat last week, acknowledging he lacked the legal power to arrest Netanyahu on a warrant issued by the International Criminal Court.",
-      "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c5yegvd9ddeo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-27T00:27:58Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/806d/live/8cf56f00-8950-11f1-aee1-9f17574ebbb3.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d0ec619b38df8b42212d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03904
-    },
-    {
-      "id": "f382aec34c0cb3541b641dfc",
-      "title": "RAF Chinook crash victims’ families ask Andy Burnham for review of disaster",
-      "translatedTitle": null,
-      "description": "PM urged to end ‘cover-up culture’ and order independent review taking in evidence that has emerged on 1994 crash The families of those killed in an RAF Chinook crash in 1994 have urged Andy Burnham to end Britain’s “cover-up culture” and order an independent review into the disaster. Twenty-nine serving military personnel died when the Chinook HC2 helicopter crashed on the Mull of Kintyre in south-west Scotland during a flight from Northern Ireland. Continue reading...",
-      "url": "https://www.theguardian.com/uk-news/2026/jul/27/raf-chinook-crash-victims-families-ask-andy-burnham-fresh-review",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/27/raf-chinook-crash-victims-families-ask-andy-burnham-fresh-review",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-26T23:01:24Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/dd39151ee0bb9609df799918406c3b054d3b564c/248_0_3765_3013/master/3765.jpg?width=140&quality=85&auto=format&fit=max&s=7436e8be3d97c3d411467c006ea6b656",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e909e4e022750dab293e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.68201,
-      "related": [
-        {
-          "id": "c8b3839e36a6cbbe2d1d7a2d",
-          "title": "Chinook crash victims’ families urge Burnham to order fresh review into tragedy",
-          "translatedTitle": null,
-          "description": "The cause of the crash, which killed 29 serving military personnel, has never been established",
-          "url": "https://www.independent.co.uk/news/uk/politics/burnham-chinook-helicopter-crash-inquiry-b3021775.html",
-          "canonicalUrl": "https://independent.co.uk/news/uk/politics/burnham-chinook-helicopter-crash-inquiry-b3021775.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-26T23:01:00Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/13/00/445ba3b38dc1079398beffe00c5f15a5Y29udGVudHNlYXJjaGFwaSwxNzgzNzY1NDE5-2.84579532.jpg?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-27T00:17:20Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "e909e4e022750dab293e",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "chinook crash victims families urge burnham to order fresh review into tragedy"
-        }
-      ]
-    },
-    {
-      "id": "9f1b057bdc514b2bd310c6d8",
-      "title": "Barack Obama to return to UK to discuss ‘what comes next for America’",
-      "translatedTitle": null,
-      "description": "The 44th president will appear in three major cities",
-      "url": "https://www.independent.co.uk/news/uk/home-news/barack-obama-live-belfast-glasgow-manchester-b3021770.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/barack-obama-live-belfast-glasgow-manchester-b3021770.html",
+      "description": "New prime minister has also warned that ‘the NHS will collapse’ unless he fixes social care",
+      "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-welfare-bill-benefits-conditional-b3021822.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/politics/andy-burnham-welfare-bill-benefits-conditional-b3021822.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -374,110 +1371,50 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-26T23:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/26/15/download.-7.?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
+      "publishedAt": "2026-07-27T05:44:55Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/26/10/760bee6a5ad192752496263d8b9fd22dY29udGVudHNlYXJjaGFwaSwxNzg1MTQyNTE0-2.85416674.jpg?width=1200&auto=webp&crop=3%3A2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
+      "retrievedAt": "2026-07-27T08:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f421ab99a9c4f9f21fd8",
+      "clusterId": "0002f6e97afd5f8a4970",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.5414,
-      "related": []
+      "related": [],
+      "rankingScore": 6.81003
     },
     {
-      "id": "f8d88bed86dd0c44dbfeaee7",
-      "title": "Four men charged with murder after Leicester stabbing",
+      "id": "cbd85a2dba6b8df7be4c98c1",
+      "title": "Burnham hosts Zelensky and offers ‘stone cloak’ devices just a week after taking PM job",
       "translatedTitle": null,
-      "description": "Arad Niakan, 24, died after being stabbed on Wednesday.",
-      "url": "https://www.bbc.co.uk/news/articles/cj03zpzl267o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cj03zpzl267o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Britain will hand over the intellectual property behind its new ‘Stone Cloak’ electronic warfare system to Ukraine",
+      "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-ukraine-zelensky-stone-cloak-b3021805.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/politics/andy-burnham-ukraine-zelensky-stone-cloak-b3021805.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-27T03:38:27Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6594/live/6fe05420-8969-11f1-bd61-c9440c6e5891.jpg",
+      "publishedAt": "2026-07-27T05:32:23Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/25/13/2026-07-20T122738Z_1346716733_RC2OHMAJBP17_RTRMADP_3_BRITAIN-POLITICS.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
+      "retrievedAt": "2026-07-27T08:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b7ad4cecdd0df6cca5b8",
+      "clusterId": "4251cf1b1eba489299eb",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.03219
-    },
-    {
-      "id": "5c7f815b05f90f3fa97ed625",
-      "title": "‘Her screams echo in my ears’: the trauma of so-called ‘honour killings’ in Pakistan",
-      "translatedTitle": null,
-      "description": "There were 470 women killed in such circumstances across the country last year, with rights groups saying the true toll will be even higher, reflecting a system that still protects the accused Mohammad Ramzan was on the night shift at the cement factory outside Karachi when he answered a phone call from home. His 20-year-old daughter, Khalida Chandio, had been shot dead in their village in Pakistan’s southern Sindh province. Now back home, with Khalida’s mother, Nabul, at his side, the devastate",
-      "url": "https://www.theguardian.com/global-development/2026/jul/27/her-screams-echo-in-my-ears-the-trauma-of-so-called-honour-killings-in-pakistan",
-      "canonicalUrl": "https://theguardian.com/global-development/2026/jul/27/her-screams-echo-in-my-ears-the-trauma-of-so-called-honour-killings-in-pakistan",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-27T04:00:31Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f701087d40a9548965393cb7f1fd0f1ecdfe6d33/410_264_3498_2799/master/3498.jpg?width=140&quality=85&auto=format&fit=max&s=1bf9c83b1368ff9da707eda45d46e6a8",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e41945ad78817518c8dc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.806
-    },
-    {
-      "id": "c86ab4390b42dd691256f148",
-      "title": "‘My mother was 4ft 11in and scared the hell out of people’ – Sean Astin on child stardom, The Lord of the Rings and surviving 45 years in Hollywood",
-      "translatedTitle": null,
-      "description": "His mother was an Oscar-winning actor who had been exploited from a young age; Astin appeared in The Goonies at just 13. Now, he has followed in his mother’s footsteps again as a union leader. He talks Stranger Things, AI and why playing Samwise Gamgee cost him his house Sean Astin is showing me around his new office. There’s framed movie prints on the walls, piles of paperwork and a stack of boxes of Stranger Things Funko Pops. “If you were here, you could look out this window and see a 10-stor",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/jul/27/sean-astin-interview-samwise-gamgee-lotr-child-stardom-stranger-things",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/jul/27/sean-astin-interview-samwise-gamgee-lotr-child-stardom-stranger-things",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-27T04:00:30Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9fcd03d8aec4b4f463f6207b9eed5bc7e4d2579e/1712_841_2339_1871/master/2339.jpg?width=140&quality=85&auto=format&fit=max&s=e9bbfa623d74810c7458004d3aaab4df",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "304bfca5e1fe9cafd4d7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80596
+      "rankingScore": 6.78799
     },
     {
       "id": "145bdb0a2d4a979b5089f853",
@@ -499,23 +1436,144 @@
       "imageAlt": null,
       "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
+      "retrievedAt": "2026-07-27T08:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "4f0bf5a7058f5b4b7409",
+      "clusterId": "eb1244459eb9b2c30495",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.76827,
+      "related": [
+        {
+          "id": "b798a0ab32977dcd3956a20d",
+          "title": "Two dead and boy, 2, among those injured in shooting at popular Seattle food festival",
+          "translatedTitle": null,
+          "description": "A shooting at the Bite of Seattle food festival near the Space Needle on Sunday evening resulted in two dead and five injuries.",
+          "url": "https://www.independent.co.uk/bulletin/news/seattle-shooting-centre-bite-victims-latest-news-b3022027.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/news/seattle-shooting-centre-bite-victims-latest-news-b3022027.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-27T07:54:07Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/27/06/2026-07-27T045541Z_641605099_RC23MMA95TN3_RTRMADP_3_USA-SHOOTING-SEATTLE.JPG?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
+          "imageAlt": null,
+          "category": "Culture",
+          "topics": [],
+          "retrievedAt": "2026-07-27T08:17:28Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "eb1244459eb9b2c30495",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "two dead and boy 2 among those injured in shooting at popular seattle food festival"
+        }
+      ]
+    },
+    {
+      "id": "2c34b858a68f78dd66c482fe",
+      "title": "‘I thought it didn’t stand a cat’s chance in hell’: Andrew Ridgeley on Wham’s surreal trip to China",
+      "translatedTitle": null,
+      "description": "Four decades after he and George Michael became the first western pop act to tour the country, Ridgeley recalls silent gigs, awkward embassy receptions – and the ‘bloody ludicrous’ hiring of Lindsay Anderson as director There has always been something surreal about Wham!’s 1985 trip to China. George Michael and Andrew Ridgeley looked like alien visitors on the streets of Beijing, their bouffant hair and flamboyant outfits setting them apart from the Mao jackets and drab uniforms of the Chinese p",
+      "url": "https://www.theguardian.com/film/2026/jul/27/andrew-ridgeley-wham-china-george-michael-lindsay-anderson",
+      "canonicalUrl": "https://theguardian.com/film/2026/jul/27/andrew-ridgeley-wham-china-george-michael-lindsay-anderson",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T04:00:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/61fa146c121e575a6501a779068fbae089267556/0_564_3123_2496/master/3123.jpg?width=140&quality=85&auto=format&fit=max&s=94fd7c7bdeea289517a38302b34e0057",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8ba08283f994f0089391",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.72407,
+      "related": []
+    },
+    {
+      "id": "b0dbf5f0f9721f79ef6abf76",
+      "title": "Ukraine-Russia war latest: Trump and Zelensky to discuss air ceasefire after Russian attack triggers Kyiv fires",
+      "translatedTitle": null,
+      "description": "Zelensky will meet new UK PM Andy Burnham in London today before flying to Washington DC to see Trump",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-air-ceasefire-b3021941.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-air-ceasefire-b3021941.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T04:47:47Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/27/05/2285206793..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f14eef1951c75aa145e8",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.79879
+      "rankingScore": 6.71162
     },
     {
-      "id": "364cfd4dc16b891ed6713d38",
-      "title": "'South Asian programmes helped us settle into our new lives'",
+      "id": "bf28fc3531a589d73db4e088",
+      "title": "Bodies of five climbers found on Russia’s highest mountain",
       "translatedTitle": null,
-      "description": "Early South Asian programming included music and practical tips to settle into British life.",
-      "url": "https://www.bbc.co.uk/news/articles/c14y05enyd0o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c14y05enyd0o?at_campaign=rss&at_medium=RSS",
+      "description": "Two others on Mount Elbrus survive after group of foreign climbers ‘strayed from route’ amid deteriorating weather, say authorities Russia says it has found the bodies of five foreign climbers – believed to be Bosnian – on Mount Elbrus, authorities and state media say. Authorities said earlier that out of a group of seven climbing Russia’s highest mountain, they had recovered two bodies and were searching for three more. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/jul/27/mount-elbrus-climbers-bodies-found-russia-highest-mountain",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/27/mount-elbrus-climbers-bodies-found-russia-highest-mountain",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T03:49:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2230e107beacae024e7df7b7196c681f874fd000/1630_733_2922_2338/master/2922.jpg?width=140&quality=85&auto=format&fit=max&s=e325118cead5231395ac51e90d8b0afe",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T08:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d27b88f89c5c5d4ccbd5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.70615,
+      "related": []
+    },
+    {
+      "id": "98ff95692d5cc3693b1e3ad0",
+      "title": "Netanyahu accuses NYC Mayor Mamdani of 'fomenting hate' after arrest threat",
+      "translatedTitle": null,
+      "description": "Mamdani walked back his threat last week, acknowledging he lacked the legal power to arrest Netanyahu on a warrant issued by the International Criminal Court.",
+      "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c5yegvd9ddeo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -524,290 +1582,110 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-26T23:29:39Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d02/live/05cb5840-7f5b-11f1-a97a-9b1029617ccb.jpg",
+      "publishedAt": "2026-07-27T00:27:58Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/806d/live/8cf56f00-8950-11f1-aee1-9f17574ebbb3.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
+      "retrievedAt": "2026-07-27T08:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "cd6c49ca574a78faecb0",
+      "clusterId": "d0ec619b38df8b42212d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.59553
+      "rankingScore": 6.68425
     },
     {
-      "id": "5769b8ca3b0075c047666e63",
-      "title": "Would you choose £50,000 over the chance of £1m?",
+      "id": "fe86534d46540a7699b68ebb",
+      "title": "Two dead after major emergency service response at beach in Cornwall",
       "translatedTitle": null,
-      "description": "The vast majority of people - particularly women - answer a survey saying they'd take the certainty over chance.",
-      "url": "https://www.bbc.co.uk/news/articles/cn0njd4e2evo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cn0njd4e2evo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": null,
+      "url": "https://www.independent.co.uk/bulletin/news/fistral-beach-newquay-deaths-rescue-b3022041.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/fistral-beach-newquay-deaths-rescue-b3022041.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-26T23:11:36Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3199/live/4c39d8c0-8757-11f1-95ec-a30de4e448c4.jpg",
+      "publishedAt": "2026-07-27T08:08:55Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/27/8/06/iStock-2237668246-22e79a4e.jpeg?width=1200&auto=webp&trim=96%2C268%2C0%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
+      "retrievedAt": "2026-07-27T08:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "072a5208ca3b69864e84",
+      "clusterId": "f180223d7c7bf288b95e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.56759
+      "rankingScore": 6.68246
     },
     {
-      "id": "d46b31ba7f2feac8fd1577b9",
-      "title": "UK's most parched regions miss chance for rain ahead of next heatwave",
+      "id": "968ebeb42f8d4b17716094c9",
+      "title": "Kremlin refuses to comment on reported US-Ukraine air ceasefire talks",
       "translatedTitle": null,
-      "description": "Much of the UK continues to experience very dry conditions after a summer marked by low rainfall and recurring heatwaves.",
-      "url": "https://www.bbc.co.uk/weather/articles/c9w08gkvvjdo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/weather/articles/c9w08gkvvjdo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": null,
+      "url": "https://www.independent.co.uk/bulletin/news/ukraine-russia-air-ceasefire-trump-b3022028.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/ukraine-russia-air-ceasefire-trump-b3022028.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-26T23:09:44Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99c4/live/4bca7500-88df-11f1-aeef-edf7e578a56d.png",
+      "publishedAt": "2026-07-27T07:59:03Z",
+      "imageUrl": "https://static.independent.co.uk/2026/01/22/15/55/TOPSHOT-SWITZERLAND-US-UKRAINE-RUSSIA-CONFLICT-WAR-POLITICS-DIPLOMACY-jc0cja3j.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
+      "retrievedAt": "2026-07-27T08:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "4011471275ee42773631",
+      "clusterId": "f7dbf99e704cc0633d18",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.56473
+      "rankingScore": 6.66261
     },
     {
-      "id": "5051a23f8ab22165a5816362",
-      "title": "Girlguiding unveils first major uniform redesign since 1990",
+      "id": "59a8299661df916f3c02a0bb",
+      "title": "Man and woman found dead after being pulled from water at Cornwall beach",
       "translatedTitle": null,
-      "description": "Under the new rules, members will be able to wear a top from the new range with their own trousers.",
-      "url": "https://www.bbc.co.uk/news/articles/c2dkez2g07po?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c2dkez2g07po?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Two people have died after being pulled from the water at a beach in Cornwall.",
+      "url": "https://news.sky.com/story/man-and-woman-found-dead-after-being-pulled-from-water-at-cornwall-beach-13566619",
+      "canonicalUrl": "https://news.sky.com/story/man-and-woman-found-dead-after-being-pulled-from-water-at-cornwall-beach-13566619",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-26T23:06:21Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb7/live/9c9d7150-8932-11f1-a7ab-8b30adf0800a.jpg",
+      "publishedAt": "2026-07-27T05:32:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-cornwall-sea_7307525.jpg?20260727085506",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T04:17:19Z",
+      "retrievedAt": "2026-07-27T08:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a1032f29dfea65b1d911",
+      "clusterId": "dd86a5ea0b21ca049700",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.55955
-    },
-    {
-      "id": "5dc66ee7129449e91c341ffa",
-      "title": "Multiple people injured after LA accident involving Waymo",
-      "translatedTitle": null,
-      "description": "The two-vehicle accident took place at around 5.44am on Sunday in the Pico-Union area of the city",
-      "url": "https://www.independent.co.uk/news/world/americas/waymo-robotaxi-accident-los-angeles-b3021907.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/waymo-robotaxi-accident-los-angeles-b3021907.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-27T00:08:52Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/26/23/03/iStock-2149191965.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "386894607cc6b438d9c0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.29786,
-      "related": []
-    },
-    {
-      "id": "8b871cd706ae051a354d743f",
-      "title": "Democratic rep says Barron Trump shouldn’t escape scrutiny over Andrew and Tristan Tate: ‘He’s a full-blown adult’",
-      "translatedTitle": null,
-      "description": "‘There have long been ties between the Tates and the Trump family,’ Arizona Democrat Yassamin Ansari says",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/barron-trump-andrew-tristan-tate-yassamin-ansari-b3021874.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/barron-trump-andrew-tristan-tate-yassamin-ansari-b3021874.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-26T23:39:14Z",
-      "imageUrl": "https://static.independent.co.uk/2026/06/20/16/56/GettyImages-2263411880.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e7cc0c97dba19f1e8ab9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.25055,
-      "related": []
-    },
-    {
-      "id": "144ae3ffbcaae4c71a1ba5a0",
-      "title": "2-year-old boy overdoses on cocaine on the Jersey Shore",
-      "translatedTitle": null,
-      "description": "Alexander Moles was charged after the youngster fell ill in North Wildwood at Jersey Shore",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/boy-cocaine-overdose-jersey-shore-b3021895.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/crime/boy-cocaine-overdose-jersey-shore-b3021895.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-26T23:14:06Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/26/23/32/Cocaine.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ba17e7329d391cc918f4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.21143,
-      "related": []
-    },
-    {
-      "id": "f858691a9d4ffda11cd55f51",
-      "title": "Study indicates how much home buyers could save by picking less pricey postcodes",
-      "translatedTitle": null,
-      "description": "Looking just beyond the most sought-after postcodes can reveal more affordable options, Lloyds said.",
-      "url": "https://www.independent.co.uk/money/lloyds-study-whitley-bay-hampstead-london-b3021894.html",
-      "canonicalUrl": "https://independent.co.uk/money/lloyds-study-whitley-bay-hampstead-london-b3021894.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-26T23:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/27/00/24100236-72edd6dd-53cd-4d30-ac55-b1d6e53709f9.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "acc90f409034c5fdbd8d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.1914,
-      "related": []
-    },
-    {
-      "id": "9f9450530c1c496792cd584c",
-      "title": "Motor finance customers do not need to pay to claim compensation – regulator",
-      "translatedTitle": null,
-      "description": "Some 59% of motor finance customers said they have made or are considering a claim, according to a survey for the FCA.",
-      "url": "https://www.independent.co.uk/money/fca-city-b3021896.html",
-      "canonicalUrl": "https://independent.co.uk/money/fca-city-b3021896.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-26T23:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/27/00/722047d8b93bdb33f49eb31976d25d5eY29udGVudHNlYXJjaGFwaSwxNzg0OTc2ODgx-2.34653078.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a6cffc978f6109ee966a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.1914,
-      "related": []
-    },
-    {
-      "id": "f7f399c9e742b7265bbb06ae",
-      "title": "Two-thirds of adults ‘spend time worrying about money during a typical week’",
-      "translatedTitle": null,
-      "description": "Those affected said their concerns had stopped them from relaxing or prevented them from seeing friends or family as often as they would like.",
-      "url": "https://www.independent.co.uk/money/people-south-west-scotland-b3021897.html",
-      "canonicalUrl": "https://independent.co.uk/money/people-south-west-scotland-b3021897.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-26T23:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/27/00/0c721ea979463380958703b542cbfa6aY29udGVudHNlYXJjaGFwaSwxNzg0NjQ2MDU3-2.22508623.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ed39ff874de75096ab71",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.1914,
-      "related": []
+      "rankingScore": 5.52732
     }
   ]
 }
