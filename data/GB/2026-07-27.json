@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-27",
-  "generatedAt": "2026-07-27T00:17:21Z",
-  "lastAttemptAt": "2026-07-27T00:17:21Z",
-  "lastSuccessfulUpdate": "2026-07-27T00:17:21Z",
-  "status": "current",
+  "generatedAt": "2026-07-27T04:17:20Z",
+  "lastAttemptAt": "2026-07-27T04:17:20Z",
+  "lastSuccessfulUpdate": "2026-07-27T04:17:20Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 14,
+  "articleCount": 24,
   "publisherCount": 3,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-27T00:17:19Z",
-      "lastSuccessAt": "2026-07-27T00:17:20Z",
-      "articlesRetrieved": 35,
-      "responseTimeMs": 337,
+      "lastAttemptAt": "2026-07-27T04:17:19Z",
+      "lastSuccessAt": "2026-07-27T04:17:19Z",
+      "articlesRetrieved": 34,
+      "responseTimeMs": 525,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-27T00:17:19Z",
-      "lastSuccessAt": "2026-07-27T00:17:20Z",
-      "articlesRetrieved": 136,
-      "responseTimeMs": 381,
+      "lastAttemptAt": "2026-07-27T04:17:19Z",
+      "lastSuccessAt": "2026-07-27T04:17:19Z",
+      "articlesRetrieved": 135,
+      "responseTimeMs": 356,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,56 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-27T00:17:19Z",
-      "lastSuccessAt": "2026-07-27T00:17:20Z",
+      "lastAttemptAt": "2026-07-27T04:17:19Z",
+      "lastSuccessAt": "2026-07-27T04:17:19Z",
       "articlesRetrieved": 8,
-      "responseTimeMs": 659,
+      "responseTimeMs": 578,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-07-27T00:17:19Z",
-      "lastSuccessAt": "2026-07-27T00:17:20Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 559,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-27T04:17:19Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
+    {
+      "id": "4d2ab20b56336d39bd3f8e16",
+      "title": "Pedro Sánchez says Spain is suffering effects of climate crisis as firefighters battle wildfires in France",
+      "translatedTitle": null,
+      "description": "Blazes near Madrid coming under control but efforts to contain huge fire near Bordeaux hampered by windy conditions Authorities in France battled to contain a huge wildfire near Bordeaux as the forecast of another heatwave threatened to deepen the crisis and the Spanish prime minister, Pédro Saánchez, warned Spain and the Iberian peninsula were suffering the effects of the climate emergency. Windy conditions on Saturday night hampered efforts to extinguish the blaze in the Gironde region of sout",
+      "url": "https://www.theguardian.com/world/2026/jul/26/firefighters-in-france-battle-to-prevent-huge-blaze-from-approaching-bordeaux",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/26/firefighters-in-france-battle-to-prevent-huge-blaze-from-approaching-bordeaux",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T03:58:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/14a92955b0ddb84523f4f694fb76473d080a714a/1236_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=700e4ec5c945faab34b91d9a77a99b5d",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-07-27T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "07d597a3b353a0d940a3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.85269
+    },
     {
       "id": "0e75179501f6d001c3c4388f",
       "title": "Rising oil prices could force up UK interest rates, say economists",
@@ -78,15 +108,15 @@
       "imageAlt": null,
       "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
+      "retrievedAt": "2026-07-27T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "2dd205d39704f219944c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.74057
+      "rankingScore": 8.33199,
+      "related": []
     },
     {
       "id": "922c5f23b3da58693bacfc37",
@@ -115,8 +145,158 @@
       "clusterId": "4a6add0980d5f3052615",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.26397,
+      "related": []
+    },
+    {
+      "id": "754ac1e6ea97a5abcf897a29",
+      "title": "Shein swings to $99m loss as Trump tariffs hit sales",
+      "translatedTitle": null,
+      "description": "The announcement comes as the fast fashion giant prepares for its stock market debut in Hong Kong.",
+      "url": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/clyj8v0rek8o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T02:08:36Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a66/live/d66cf590-8950-11f1-aee1-9f17574ebbb3.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a638e10931df3ec0f8d8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.67803
+      "rankingScore": 7.21278
+    },
+    {
+      "id": "9929ed3cc7e4d8c408fdd528",
+      "title": "Macron calls crisis meeting as wildfires threaten Bordeaux and heatwave looms",
+      "translatedTitle": null,
+      "description": "Blazes are about 15km from Bordeaux, but the city's mayor says there are no plans to evacuate.",
+      "url": "https://www.bbc.co.uk/news/articles/c2350zlyy1yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c2350zlyy1yo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T02:04:10Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b2e4/live/a5e80750-894d-11f1-b8ee-9b3c26ad07bb.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a42166d6017671513405",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.20478
+    },
+    {
+      "id": "2c34b858a68f78dd66c482fe",
+      "title": "‘I thought it didn’t stand a cat’s chance in hell’: Andrew Ridgeley on Wham’s surreal trip to China",
+      "translatedTitle": null,
+      "description": "Four decades after he and George Michael became the first western pop act to tour the country, Ridgeley recalls silent gigs, awkward embassy receptions – and the ‘bloody ludicrous’ hiring of Lindsay Anderson as director There has always been something surreal about Wham!’s 1985 trip to China. George Michael and Andrew Ridgeley looked like alien visitors on the streets of Beijing, their bouffant hair and flamboyant outfits setting them apart from the Mao jackets and drab uniforms of the Chinese p",
+      "url": "https://www.theguardian.com/film/2026/jul/27/andrew-ridgeley-wham-china-george-michael-lindsay-anderson",
+      "canonicalUrl": "https://theguardian.com/film/2026/jul/27/andrew-ridgeley-wham-china-george-michael-lindsay-anderson",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T04:00:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/61fa146c121e575a6501a779068fbae089267556/0_564_3123_2496/master/3123.jpg?width=140&quality=85&auto=format&fit=max&s=94fd7c7bdeea289517a38302b34e0057",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8ba08283f994f0089391",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15603
+    },
+    {
+      "id": "bf28fc3531a589d73db4e088",
+      "title": "Bodies of five climbers found on Russia’s highest mountain",
+      "translatedTitle": null,
+      "description": "Two others on Mount Elbrus survive after group of foreign climbers ‘strayed from route’ amid deteriorating weather, say authorities Russia says it has found the bodies of five foreign climbers – believed to be Bosnian – on Mount Elbrus, authorities and state media say. Authorities said earlier that out of a group of seven climbing Russia’s highest mountain, they had recovered two bodies and were searching for three more. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/jul/27/mount-elbrus-climbers-bodies-found-russia-highest-mountain",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/27/mount-elbrus-climbers-bodies-found-russia-highest-mountain",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T03:49:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2230e107beacae024e7df7b7196c681f874fd000/1630_733_2922_2338/master/2922.jpg?width=140&quality=85&auto=format&fit=max&s=e325118cead5231395ac51e90d8b0afe",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d27b88f89c5c5d4ccbd5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.13365
+    },
+    {
+      "id": "d4fc9bd8fc1878379728df28",
+      "title": "Netanyahu accuses NYC Mayor Mamdani of 'fomenting hate' after arrest threat",
+      "translatedTitle": null,
+      "description": "Mamdani walked back his threat last week, acknowledging he lacked the legal power to arrest Netanyahu on a warrant issued by the International Criminal Court.",
+      "url": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c5yegvd9ddeo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T00:27:58Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/806d/live/8cf56f00-8950-11f1-aee1-9f17574ebbb3.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d0ec619b38df8b42212d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03904
     },
     {
       "id": "f382aec34c0cb3541b641dfc",
@@ -138,13 +318,14 @@
       "imageAlt": null,
       "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
+      "retrievedAt": "2026-07-27T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e909e4e022750dab293e",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.68201,
       "related": [
         {
           "id": "c8b3839e36a6cbbe2d1d7a2d",
@@ -176,8 +357,7 @@
           "sourceQuality": 1.0,
           "normalizedTitle": "chinook crash victims families urge burnham to order fresh review into tragedy"
         }
-      ],
-      "rankingScore": 7.4406
+      ]
     },
     {
       "id": "9f1b057bdc514b2bd310c6d8",
@@ -206,8 +386,128 @@
       "clusterId": "f421ab99a9c4f9f21fd8",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.5414,
+      "related": []
+    },
+    {
+      "id": "f8d88bed86dd0c44dbfeaee7",
+      "title": "Four men charged with murder after Leicester stabbing",
+      "translatedTitle": null,
+      "description": "Arad Niakan, 24, died after being stabbed on Wednesday.",
+      "url": "https://www.bbc.co.uk/news/articles/cj03zpzl267o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cj03zpzl267o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T03:38:27Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6594/live/6fe05420-8969-11f1-bd61-c9440c6e5891.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b7ad4cecdd0df6cca5b8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.94984
+      "rankingScore": 6.03219
+    },
+    {
+      "id": "5c7f815b05f90f3fa97ed625",
+      "title": "‘Her screams echo in my ears’: the trauma of so-called ‘honour killings’ in Pakistan",
+      "translatedTitle": null,
+      "description": "There were 470 women killed in such circumstances across the country last year, with rights groups saying the true toll will be even higher, reflecting a system that still protects the accused Mohammad Ramzan was on the night shift at the cement factory outside Karachi when he answered a phone call from home. His 20-year-old daughter, Khalida Chandio, had been shot dead in their village in Pakistan’s southern Sindh province. Now back home, with Khalida’s mother, Nabul, at his side, the devastate",
+      "url": "https://www.theguardian.com/global-development/2026/jul/27/her-screams-echo-in-my-ears-the-trauma-of-so-called-honour-killings-in-pakistan",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/jul/27/her-screams-echo-in-my-ears-the-trauma-of-so-called-honour-killings-in-pakistan",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T04:00:31Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f701087d40a9548965393cb7f1fd0f1ecdfe6d33/410_264_3498_2799/master/3498.jpg?width=140&quality=85&auto=format&fit=max&s=1bf9c83b1368ff9da707eda45d46e6a8",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e41945ad78817518c8dc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.806
+    },
+    {
+      "id": "c86ab4390b42dd691256f148",
+      "title": "‘My mother was 4ft 11in and scared the hell out of people’ – Sean Astin on child stardom, The Lord of the Rings and surviving 45 years in Hollywood",
+      "translatedTitle": null,
+      "description": "His mother was an Oscar-winning actor who had been exploited from a young age; Astin appeared in The Goonies at just 13. Now, he has followed in his mother’s footsteps again as a union leader. He talks Stranger Things, AI and why playing Samwise Gamgee cost him his house Sean Astin is showing me around his new office. There’s framed movie prints on the walls, piles of paperwork and a stack of boxes of Stranger Things Funko Pops. “If you were here, you could look out this window and see a 10-stor",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/jul/27/sean-astin-interview-samwise-gamgee-lotr-child-stardom-stranger-things",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/jul/27/sean-astin-interview-samwise-gamgee-lotr-child-stardom-stranger-things",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T04:00:30Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9fcd03d8aec4b4f463f6207b9eed5bc7e4d2579e/1712_841_2339_1871/master/2339.jpg?width=140&quality=85&auto=format&fit=max&s=e9bbfa623d74810c7458004d3aaab4df",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-27T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "304bfca5e1fe9cafd4d7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80596
+    },
+    {
+      "id": "145bdb0a2d4a979b5089f853",
+      "title": "Two dead in shootings at Bite of Seattle food festival, say authorities",
+      "translatedTitle": null,
+      "description": "At least four people taken to hospital after gunfire at Seattle Center near Space Needle, with one reported to be in a critical condition Two people were killed and five others wounded in a shooting on Sunday evening during a food festival at an events complex near the Space Needle in Seattle, a city fire department spokesperson said. The Seattle Center was hosting the Bite of Seattle food festival over the weekend. After the shooting, police urged people to avoid the area. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/jul/27/bite-of-seattle-shooting-center-food-festival",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/27/bite-of-seattle-shooting-center-food-festival",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T03:56:55Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/cb5244f1e63797c7cbca66e2e56344fbcb0e7e96/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=7a96f61382b00c3b15a95966517b1511",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-07-27T04:17:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4f0bf5a7058f5b4b7409",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.79879
     },
     {
       "id": "364cfd4dc16b891ed6713d38",
@@ -229,7 +529,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
+      "retrievedAt": "2026-07-27T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -237,7 +537,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01495
+      "rankingScore": 5.59553
     },
     {
       "id": "5769b8ca3b0075c047666e63",
@@ -259,7 +559,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
+      "retrievedAt": "2026-07-27T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -267,7 +567,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.98006
+      "rankingScore": 5.56759
     },
     {
       "id": "d46b31ba7f2feac8fd1577b9",
@@ -289,7 +589,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
+      "retrievedAt": "2026-07-27T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -297,7 +597,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.97648
+      "rankingScore": 5.56473
     },
     {
       "id": "5051a23f8ab22165a5816362",
@@ -319,7 +619,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-27T00:17:20Z",
+      "retrievedAt": "2026-07-27T04:17:19Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -327,7 +627,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.97002
+      "rankingScore": 5.55955
     },
     {
       "id": "5dc66ee7129449e91c341ffa",
@@ -356,8 +656,8 @@
       "clusterId": "386894607cc6b438d9c0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73278
+      "rankingScore": 5.29786,
+      "related": []
     },
     {
       "id": "8b871cd706ae051a354d743f",
@@ -386,8 +686,8 @@
       "clusterId": "e7cc0c97dba19f1e8ab9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.67371
+      "rankingScore": 5.25055,
+      "related": []
     },
     {
       "id": "144ae3ffbcaae4c71a1ba5a0",
@@ -416,8 +716,8 @@
       "clusterId": "ba17e7329d391cc918f4",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.62486
+      "rankingScore": 5.21143,
+      "related": []
     },
     {
       "id": "f858691a9d4ffda11cd55f51",
@@ -446,8 +746,8 @@
       "clusterId": "acc90f409034c5fdbd8d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59984
+      "rankingScore": 5.1914,
+      "related": []
     },
     {
       "id": "9f9450530c1c496792cd584c",
@@ -476,8 +776,8 @@
       "clusterId": "a6cffc978f6109ee966a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59984
+      "rankingScore": 5.1914,
+      "related": []
     },
     {
       "id": "f7f399c9e742b7265bbb06ae",
@@ -506,8 +806,8 @@
       "clusterId": "ed39ff874de75096ab71",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59984
+      "rankingScore": 5.1914,
+      "related": []
     }
   ]
 }
