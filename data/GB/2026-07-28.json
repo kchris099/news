@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-28",
-  "generatedAt": "2026-07-28T12:17:25Z",
-  "lastAttemptAt": "2026-07-28T12:17:25Z",
-  "lastSuccessfulUpdate": "2026-07-28T12:17:25Z",
-  "status": "current",
+  "generatedAt": "2026-07-28T16:17:18Z",
+  "lastAttemptAt": "2026-07-28T16:17:18Z",
+  "lastSuccessfulUpdate": "2026-07-28T16:17:18Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-28T12:17:24Z",
-      "lastSuccessAt": "2026-07-28T12:17:24Z",
+      "lastAttemptAt": "2026-07-28T16:17:17Z",
+      "lastSuccessAt": "2026-07-28T16:17:18Z",
       "articlesRetrieved": 36,
-      "responseTimeMs": 327,
+      "responseTimeMs": 382,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-28T12:17:24Z",
-      "lastSuccessAt": "2026-07-28T12:17:24Z",
-      "articlesRetrieved": 137,
-      "responseTimeMs": 395,
+      "lastAttemptAt": "2026-07-28T16:17:17Z",
+      "lastSuccessAt": "2026-07-28T16:17:18Z",
+      "articlesRetrieved": 138,
+      "responseTimeMs": 265,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,239 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-28T12:17:24Z",
-      "lastSuccessAt": "2026-07-28T12:17:24Z",
-      "articlesRetrieved": 6,
-      "responseTimeMs": 647,
+      "lastAttemptAt": "2026-07-28T16:17:17Z",
+      "lastSuccessAt": "2026-07-28T16:17:18Z",
+      "articlesRetrieved": 8,
+      "responseTimeMs": 699,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-07-28T12:17:24Z",
-      "lastSuccessAt": "2026-07-28T12:17:24Z",
-      "articlesRetrieved": 20,
-      "responseTimeMs": 657,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-28T16:17:17Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
+    {
+      "id": "98a39ea2ae9bca02a8e70a3d",
+      "title": "Uefa reacts with fury to Infantino World Cup plan",
+      "translatedTitle": null,
+      "description": "European football's governing body Uefa reacts furiously to proposals from Fifa to seek private investment in its competitions, including the World Cup.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8xng9894z0o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c8xng9894z0o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T15:36:29Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03c2/live/50869960-8a93-11f1-b8ee-9b3c26ad07bb.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f3cb71ff0bc3cd749708",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "90917a96c8e0f844c2a6bcc1",
+          "title": "UEFA fury as FIFA boss Infantino wants to sell shares in World Cup spin-off venture",
+          "translatedTitle": null,
+          "description": "FIFA president Gianni Infantino wants to sell shares in a new World Cup spin-off venture in plans already opening up ruptures in world football, with fury at UEFA.",
+          "url": "https://news.sky.com/story/uefa-fury-as-fifa-boss-wants-to-sell-shares-in-world-cup-spin-off-venture-13567834",
+          "canonicalUrl": "https://news.sky.com/story/uefa-fury-as-fifa-boss-wants-to-sell-shares-in-world-cup-spin-off-venture-13567834",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-28T15:12:00Z",
+          "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-gianni-infantino-fifa-president_7308706.jpg?20260728162521",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-28T16:17:18Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "f3cb71ff0bc3cd749708",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "uefa fury as fifa boss infantino wants to sell shares in world cup spin off venture"
+        },
+        {
+          "id": "0c592384e50b0cb8d76a29e0",
+          "title": "Who dares ridicule Gianni Infantino as the World Cup boss creates global peace? Not me: is it you? | Marina Hyde",
+          "translatedTitle": null,
+          "description": "If you thought he was just a shady rule-dodging reprobate, the Fifa boss’s latest 15-page Instagram rant might make you think again I hope you have found time to enjoy Fifa president Gianni Infantino’s 15-page Instagram meltdown about his World Cup. The last time I saw this many defiant words, they were inked on someone sitting cross-legged on the floor of a Salvadoran supermax prison. Infantino has been clapping back at his haters – putting them on blast, in the parlance of our times – and on t",
+          "url": "https://www.theguardian.com/commentisfree/2026/jul/28/gianni-infantino-world-cup-fifa-instagram",
+          "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/28/gianni-infantino-world-cup-fifa-instagram",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-28T11:42:24Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/79a215815491d6536c5be0eccae9842285e40299/181_0_2120_1696/master/2120.jpg?width=140&quality=85&auto=format&fit=max&s=e02f9b829089a72596c8bf32a0d24357",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-28T16:17:18Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "f3cb71ff0bc3cd749708",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "who dares ridicule gianni infantino as the world cup boss creates global peace not me is it you marina hyde"
+        }
+      ],
+      "rankingScore": 9.17828
+    },
+    {
+      "id": "c0b90f1d62c8ca4d7546a6fa",
+      "title": "Netanyahu arrives to meet Trump following Zelenskyy meeting before Lindsey Graham funeral service – US politics live",
+      "translatedTitle": null,
+      "description": "Israeli prime minister to meet US president after Trump’s closed-door meeting with Ukrainian president Sign up for the Breaking News US email to get newsletter alerts in your inbox Trump’s meeting with Ukrainian president Volodymyr Zelenskyy, set for 9:30am ET on Tuesday, will be closed to the media, the New York Times is reporting. The meeting is expected to be much more cordial than the one last year where Trump openly berated Zelenskyy and said, “you don’t have the cards”. The administration",
+      "url": "https://www.theguardian.com/us-news/live/2026/jul/28/lindsey-graham-funeral-donald-trump-benjamin-netanyahu-volodymyr-zelenskyy-iran-israel-hormuz-ukraine-russia-latest-news-updates",
+      "canonicalUrl": "https://theguardian.com/us-news/live/2026/jul/28/lindsey-graham-funeral-donald-trump-benjamin-netanyahu-volodymyr-zelenskyy-iran-israel-hormuz-ukraine-russia-latest-news-updates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T16:14:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/666621247cfd4c1a887cb5f0e1468884af2038c5/236_0_2523_2019/master/2523.jpg?width=140&quality=85&auto=format&fit=max&s=923547b6477e1b928f8fe05e0e68168a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "91ef472a7db5be769c94",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.53387
+    },
+    {
+      "id": "81d69f44a8e3bd7dac4b8791",
+      "title": "Richard Hammond fined £999 for speeding offences",
+      "translatedTitle": null,
+      "description": "The TV host is caught speeding twice in Herefordshire in the space of three weeks, magistrates hear.",
+      "url": "https://www.bbc.co.uk/news/articles/cvgv7n0k57eo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cvgv7n0k57eo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T12:43:07Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7341/live/68f36d70-8a70-11f1-924e-bfa32777c3ff.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a496b39b207b2d491f72",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "af54c827b2fe1c38c6e54489",
+          "title": "Former Top Gear host Richard Hammond fined for speeding",
+          "translatedTitle": null,
+          "description": "Former Top Gear host Richard Hammond was fined £999 for speeding twice in three weeks.",
+          "url": "https://news.sky.com/story/former-top-gear-host-richard-hammond-fined-for-speeding-13567669",
+          "canonicalUrl": "https://news.sky.com/story/former-top-gear-host-richard-hammond-fined-for-speeding-13567669",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-28T08:35:00Z",
+          "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-porsche-richard-hammond_7308269.jpg?20260728085112",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-28T12:17:24Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "a496b39b207b2d491f72",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.83042,
+          "normalizedTitle": "former top gear host richard hammond fined for speeding",
+          "sourceQuality": 1.0
+        },
+        {
+          "id": "c8abe63bf1155ac7309837ea",
+          "title": "Top Gear’s Richard Hammond fined for speeding in Bentley and Porsche",
+          "translatedTitle": null,
+          "description": "Former co-presenter of BBC motoring show given penalty after being caught twice in three weeks The former Top Gear host Richard Hammond has been fined £999 by a court after being caught speeding twice in three weeks while driving his luxury cars. The 56-year-old was in a Porsche when he broke the speed limit on 2 December last year, and was caught out again 20 days later while driving a Bentley. Continue reading...",
+          "url": "https://www.theguardian.com/tv-and-radio/2026/jul/28/top-gear-richard-hammond-fined-speeding-bentley-porche",
+          "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/jul/28/top-gear-richard-hammond-fined-speeding-bentley-porche",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-28T08:27:03Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/05e67e51694234263d3719d887ab37e0b058e6f2/46_2_681_545/master/681.jpg?width=140&quality=85&auto=format&fit=max&s=4bf745658fa35824f290ada2fccb322f",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-28T12:17:24Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "a496b39b207b2d491f72",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "top gear s richard hammond fined for speeding in bentley and porsche"
+        }
+      ],
+      "rankingScore": 8.51413
+    },
     {
       "id": "5456ed8ccbb451e59b2444b5",
       "title": "​France and Spain race to control wildfires as fresh heatwave hits, as UN warns ‘the climate alarm is blaring’ – Europe live",
@@ -85,7 +298,7 @@
       "clusterId": "5b8f830d0bf1086bc6d5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.82066,
+      "rankingScore": 8.3063,
       "related": []
     },
     {
@@ -115,8 +328,8 @@
       "clusterId": "bf48a85fbd4975d01e11",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.79308
+      "rankingScore": 8.00628,
+      "related": []
     },
     {
       "id": "4cc5f8615308106b1123fba8",
@@ -145,8 +358,8 @@
       "clusterId": "13f237c3f2a81f37b634",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.44085
+      "rankingScore": 8.00449,
+      "related": []
     },
     {
       "id": "5dec7df834bcc73f757eb60f",
@@ -175,8 +388,8 @@
       "clusterId": "58f55f79694a0cca0d03",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.41153
+      "rankingScore": 7.98101,
+      "related": []
     },
     {
       "id": "30f6c786be23178401408a3e",
@@ -205,46 +418,16 @@
       "clusterId": "9ded3c60fc5c2f4aa32e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.27703
-    },
-    {
-      "id": "7181402c9d1ed0df5babdde2",
-      "title": "France and Spain race to contain huge wildfires before fresh heatwave begins",
-      "translatedTitle": null,
-      "description": "Coming days are ‘absolutely critical’ for firefighters before temperatures rise again this week, officials say Firefighters in France and Spain are racing to bring huge wildfires under control before another heatwave this week that will complicate efforts to tame the flames. Spain’s interior minister, Fernando Grande-Marlaska, said Monday and Tuesday were “absolutely crucial days” before temperatures rise again from Wednesday, prompting prime minister, Pedro Sánchez, to warn: “We face difficult",
-      "url": "https://www.theguardian.com/world/2026/jul/27/france-and-spain-race-to-contain-huge-wildfires-before-fresh-heatwave-begins",
-      "canonicalUrl": "https://theguardian.com/world/2026/jul/27/france-and-spain-race-to-contain-huge-wildfires-before-fresh-heatwave-begins",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T02:37:27Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9719db8f2716e9050d9cb16570f425a1fd8d11ce/131_0_2720_2176/master/2720.jpg?width=140&quality=85&auto=format&fit=max&s=52af21ce3ebb3aecf509d507838803d8",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T04:17:18Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "041ac056d4808eed01d0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.53581,
+      "rankingScore": 7.80123,
       "related": []
     },
     {
-      "id": "87fa38f4964623d7360f8cd5",
-      "title": "'It's a hell of a situation': Spain grapples with destructive wildfires",
+      "id": "361680d44086fdd2c9e2376b",
+      "title": "Gironde wildfires flare up as French region braces for new 40C heatwave",
       "translatedTitle": null,
-      "description": "Three fires in the Madrid region have caused special concerns, with a new heatwave expected to hit Spain from Wednesday.",
-      "url": "https://www.bbc.co.uk/news/articles/c235m71mrreo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c235m71mrreo?at_campaign=rss&at_medium=RSS",
+      "description": "Firefighters are braced for a sharp rise in temperatures on Wednesday, which could complicate the containment of wildfires.",
+      "url": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c5yd8gly1ydo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -253,88 +436,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T12:03:50Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c94d/live/6b019120-8a69-11f1-a086-7507d7c35703.jpg",
+      "publishedAt": "2026-07-28T16:14:03Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a258/live/0c48a680-8a84-11f1-83c5-cf36fe4b083e.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3c77937e43c8f4fe4533",
+      "clusterId": "9b367519a26c89ee8b04",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.43236
+      "rankingScore": 7.45326
     },
     {
-      "id": "4c1e22987cc105f6daf3e114",
-      "title": "Badenoch calls for emergency legislation to stop early release scheme",
+      "id": "6453f1e7d012f92d2007b695",
+      "title": "Ebola outbreak in DR Congo 'fastest on record'",
       "translatedTitle": null,
-      "description": "Last week Andy Burnham announced he was pausing early release plans for September after backlash from survivors and victims.",
-      "url": "https://www.bbc.co.uk/news/articles/cjwxvw5ppw0o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cjwxvw5ppw0o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T11:21:25Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63f5/live/4ce887f0-89cb-11f1-b9d9-13fd1053d899.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1b4acdc9a43b3797fa5f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.3487
-    },
-    {
-      "id": "59e0123bc8205e5ec0c7a51d",
-      "title": "Zelensky to press Trump on air defences while in Washington",
-      "translatedTitle": null,
-      "description": "Ukraine's leader is hoping to firm up US commitments to bolstering Kyiv's anti-ballistic missile defences, as Russia has escalated deadly attacks.",
-      "url": "https://www.bbc.co.uk/news/articles/c9v4g7e047zo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c9v4g7e047zo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T10:41:41Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce2e/live/eef58e80-8a6b-11f1-924e-bfa32777c3ff.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cbcf5fe3454cb848832e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.27325
-    },
-    {
-      "id": "af54c827b2fe1c38c6e54489",
-      "title": "Former Top Gear host Richard Hammond fined for speeding",
-      "translatedTitle": null,
-      "description": "Former Top Gear host Richard Hammond was fined £999 for speeding twice in three weeks.",
-      "url": "https://news.sky.com/story/former-top-gear-host-richard-hammond-fined-for-speeding-13567669",
-      "canonicalUrl": "https://news.sky.com/story/former-top-gear-host-richard-hammond-fined-for-speeding-13567669",
+      "description": "Ebola cases in DR Congo have reached 3,262 - making it the 'fastest outbreak on record', according to officials.",
+      "url": "https://news.sky.com/story/ebola-outbreak-in-dr-congo-fastest-on-record-13567760",
+      "canonicalUrl": "https://news.sky.com/story/ebola-outbreak-in-dr-congo-fastest-on-record-13567760",
       "sourceName": "Sky News",
       "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
@@ -343,51 +466,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T08:35:00Z",
-      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-porsche-richard-hammond_7308269.jpg?20260728085112",
+      "publishedAt": "2026-07-28T11:59:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-congo-drc_7308552.jpg?20260728131523",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1a3e6b9f488fd5fd8f8c",
+      "clusterId": "bd3eb161c50f68c448c5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "c8abe63bf1155ac7309837ea",
-          "title": "Top Gear’s Richard Hammond fined for speeding in Bentley and Porsche",
-          "translatedTitle": null,
-          "description": "Former co-presenter of BBC motoring show given penalty after being caught twice in three weeks The former Top Gear host Richard Hammond has been fined £999 by a court after being caught speeding twice in three weeks while driving his luxury cars. The 56-year-old was in a Porsche when he broke the speed limit on 2 December last year, and was caught out again 20 days later while driving a Bentley. Continue reading...",
-          "url": "https://www.theguardian.com/tv-and-radio/2026/jul/28/top-gear-richard-hammond-fined-speeding-bentley-porche",
-          "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/jul/28/top-gear-richard-hammond-fined-speeding-bentley-porche",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-28T08:27:03Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/05e67e51694234263d3719d887ab37e0b058e6f2/46_2_681_545/master/681.jpg?width=140&quality=85&auto=format&fit=max&s=4bf745658fa35824f290ada2fccb322f",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-28T12:17:24Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "1a3e6b9f488fd5fd8f8c",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "top gear s richard hammond fined for speeding in bentley and porsche"
-        }
-      ],
-      "rankingScore": 6.83042
+      "related": [],
+      "rankingScore": 6.72192
     },
     {
       "id": "c6e3f4eb78ea4c0242aba7d3",
@@ -409,13 +501,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "f31b4c62f3e52540f434",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.06192,
       "related": [
         {
           "id": "bdab626a05538eec28cdd1e1",
@@ -448,8 +541,7 @@
           "normalizedTitle": "police probing image shared by zack polanski on social media after report from reform uk",
           "sourceQuality": 1.0
         }
-      ],
-      "rankingScore": 6.41556
+      ]
     },
     {
       "id": "2ee5feb14c3fbe0ce4445cf2",
@@ -478,158 +570,8 @@
       "clusterId": "529a47f7d8f1e538547c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.10241,
+      "rankingScore": 5.79085,
       "related": []
-    },
-    {
-      "id": "5cbb4c71f44a5d9ac0f020dc",
-      "title": "Rodri out for 'short period' after back surgery",
-      "translatedTitle": null,
-      "description": "Manchester City midfielder Rodri will be sidelined for a \"short period of rehabilitation\" following back surgery on Monday.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1j158w2dxlo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c1j158w2dxlo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T12:03:03Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3297/live/9e070ec0-8a77-11f1-b7a2-89c39e80e970.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "20755bace5936602061f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.08079
-    },
-    {
-      "id": "99b0a80d75d49c00a0d394a6",
-      "title": "House of the Dragon star Bethany Antonia joins Strictly line-up",
-      "translatedTitle": null,
-      "description": "She plays Lady Baela Targaryen in HBO's Game of Thrones prequel, and is the ninth celebrity to be confirmed.",
-      "url": "https://www.bbc.co.uk/news/articles/cg74gvy8lgjo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cg74gvy8lgjo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T12:02:45Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eaca/live/95a125e0-8a7c-11f1-82f1-411b076ec7a9.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a691e8737790d2c22e44",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.08019
-    },
-    {
-      "id": "a8ddd568cb48c8ac44f035fd",
-      "title": "French patrol boat appears to fire gunshots in the Channel during MP's BBC interview",
-      "translatedTitle": null,
-      "description": "Shadow Home Secretary Chris Philp says the vessel fired 17 shots as he was giving a BBC interview.",
-      "url": "https://www.bbc.co.uk/news/articles/cy4ker2y1mko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cy4ker2y1mko?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T12:01:51Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb86/live/0c7ab500-8a6e-11f1-924e-bfa32777c3ff.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "809da836eb4ae939ba17",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.07838
-    },
-    {
-      "id": "8e466834c97bb7e9f9cba97a",
-      "title": "Naga Munchetty to leave BBC Breakfast after 17 years",
-      "translatedTitle": null,
-      "description": "The BBC One show's co-host will swap the TV sofa for the presenter's chair on Radio 5 Live Breakfast.",
-      "url": "https://www.bbc.co.uk/news/articles/cn0ngrpp2p5o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cn0ngrpp2p5o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T11:38:26Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed6a/live/09653f00-8a6b-11f1-b8ee-9b3c26ad07bb.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "27dc6b26fcaa5082307c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.03187
-    },
-    {
-      "id": "5cd429ae1385857546f14408",
-      "title": "Only use VAR when error blatant - referee chiefs",
-      "translatedTitle": null,
-      "description": "Video assistant referees should only be used to change \"blatantly incorrect\" decisions and clear missed incidents, say European refereeing officials.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm2gyzme6gno?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cm2gyzme6gno?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T11:30:00Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cb6/live/96f704d0-8a6f-11f1-924e-bfa32777c3ff.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a1e1c394a1ba593a4233",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.01536
     },
     {
       "id": "98672336a20d3338b586266b",
@@ -658,16 +600,16 @@
       "clusterId": "7613e537c8d574e85eef",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.00413,
+      "rankingScore": 5.78422,
       "related": []
     },
     {
-      "id": "95bf98a991ac1e7b39cc4588",
-      "title": "Former boxing world champion denies assaulting man, court hears",
+      "id": "d95491b700c14417a878d21f",
+      "title": "Search begins for King's new top aide",
       "translatedTitle": null,
-      "description": "Joe Cordina, 34, was charged in connection with an incident outside a petrol station in February.",
-      "url": "https://www.bbc.co.uk/news/articles/ceqeg288l29o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ceqeg288l29o?at_campaign=rss&at_medium=RSS",
+      "description": "The King will need a new private secretary, with Sir Clive Alderton stepping down next year.",
+      "url": "https://www.bbc.co.uk/news/articles/c1m1g3y1jvdo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c1m1g3y1jvdo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -676,20 +618,110 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T11:23:44Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/58d3/live/29258870-8a6d-11f1-924e-bfa32777c3ff.jpg",
+      "publishedAt": "2026-07-28T13:23:35Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfb7/live/e78dcb00-8a8c-11f1-85ad-552e4e770d8f.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "89da9a42a22e6f85045e",
+      "clusterId": "746f613e9126efbcc421",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00318
+      "rankingScore": 5.78302
+    },
+    {
+      "id": "ba459141fda002c0931d4658",
+      "title": "Portrait of a City review – master photographers capture the US cityscape in all its grime, grit and glory",
+      "translatedTitle": null,
+      "description": "Dulwich Picture Gallery, LondonEra-defining photographs from the likes of Alfred Stieglitz, Saul Leiter and Dorothea Lange showcase the urban landscape, from midnight crime scenes to gloomy corridors This – only the second photography exhibition in Dulwich Picture Gallery’s history – is a quietly contemplative but gripping show that traces two intersecting developments: the construction of the modern urban environment and the language of photography. Focusing exclusively on works from era-defini",
+      "url": "https://www.theguardian.com/artanddesign/2026/jul/28/portrait-of-a-city-a-century-of-american-photography-review-london",
+      "canonicalUrl": "https://theguardian.com/artanddesign/2026/jul/28/portrait-of-a-city-a-century-of-american-photography-review-london",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T15:45:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/df70150ae89c741b8cd4ac6e5a096385952278c4/0_2427_3375_2700/master/3375.jpg?width=140&quality=85&auto=format&fit=max&s=12e73e9a595d78f4cfebd7b4f462ba19",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e42b0fd26b060fc6de21",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.77555
+    },
+    {
+      "id": "b8d5d89fa4839a5826ce6217",
+      "title": "In an era of hyperpolitics, the left needs to organise | Letters",
+      "translatedTitle": null,
+      "description": "Mark Bergfeld and Derrick Joad on Zoe Williams’ interview of the political theorist Anton Jäger Zoe Williams’ article on Anton Jäger (Meet the man whose groundbreaking book is being devoured by the left, 23 July) reminded me of something that I encounter in trade union meetings: people no longer come to them. But neither do they go to church or the synagogue, nor do they volunteer as the youth football coach. They work intolerable hours or are logged in, like me, writing this from my beach vacat",
+      "url": "https://www.theguardian.com/politics/2026/jul/27/organise-to-counter-corporate-power",
+      "canonicalUrl": "https://theguardian.com/politics/2026/jul/27/organise-to-counter-corporate-power",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T15:43:35Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b3e92689b2748435d7f7d10687e1516100f0f980/204_0_4592_3672/master/4592.jpg?width=140&quality=85&auto=format&fit=max&s=830f838bc45bf499c94bbb08cb60e633",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "453a524da0fa3b642116",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.77225
+    },
+    {
+      "id": "b33dabebd53f611240d46dd9",
+      "title": "LPO/Gardner review – squirrels, shepherdesses and a tumultuous storm",
+      "translatedTitle": null,
+      "description": "Royal Albert Hall, London From Kristine Tjøgersen’s tranquil woodland reverie to Canteloube’s Auvergne and Strauss’s thunderous mountainscape, the London Philharmonic – with Louise Alder – conjured colours and brought drama to this vivid programme What do you get if you blow into a tuba full of water? With a little imagination it’s the sound of a squirrel eating, the opening salvo of Between Trees by Kristine Tjøgersen. The Norwegian composer’s ingenious nature poem drew on extended techniques a",
+      "url": "https://www.theguardian.com/music/2026/jul/28/lpo-gardner-review-louise-alder-kristine-tjgersen-strauss-proms",
+      "canonicalUrl": "https://theguardian.com/music/2026/jul/28/lpo-gardner-review-louise-alder-kristine-tjgersen-strauss-proms",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T15:42:45Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/eeef260fbd2d9ac9b06b1d5c8ff33ad3f0ad9b74/200_0_1280_1024/master/1280.jpg?width=140&quality=85&auto=format&fit=max&s=2285d729f8bcaa7241b831fb112dd802",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e8f5a961f846f2ff22d8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.77061
     },
     {
       "id": "55095dcdef45d6c1f984cda7",
@@ -718,8 +750,38 @@
       "clusterId": "d3e72cf0b60a40adf7fd",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.98295,
+      "rankingScore": 5.76726,
       "related": []
+    },
+    {
+      "id": "421069462b8ae74918959940",
+      "title": "Xabi Alonso plays down Welbeck and Henderson moves after Chelsea win",
+      "translatedTitle": null,
+      "description": "‘There will be a lot of transfer links, a lot of rumours’ Chelsea hit back to beat Western Sydney Wanderers 6-4 Xabi Alonso refused to confirm Chelsea are interested in signing the veterans Danny Welbeck and Jordan Henderson after his first game in charge of the team, a 6-4 pre-season victory against Western Sydney Wanderers on Tuesday, but said he was looking to build a squad that had “proper balance”. Chelsea are understood to be in talks over a surprise move to sign the 35-year-old Welbeck fr",
+      "url": "https://www.theguardian.com/football/2026/jul/28/xabi-alonso-danny-welbeck-jordan-henderson-chelsea-western-sydney-wanderers",
+      "canonicalUrl": "https://theguardian.com/football/2026/jul/28/xabi-alonso-danny-welbeck-jordan-henderson-chelsea-western-sydney-wanderers",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T15:40:45Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/af95550fc7990d132518c3fcb0af6eabec3975a2/456_0_2721_2177/master/2721.jpg?width=140&quality=85&auto=format&fit=max&s=1bc535e098ccc9a0db63bb1e37d6ce28",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "74e65988125fa3855aa1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.76667
     },
     {
       "id": "855c149c58c99dee5a4c05b3",
@@ -748,76 +810,16 @@
       "clusterId": "8e27fd88a07924f36f7b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.9801,
+      "rankingScore": 5.76497,
       "related": []
     },
     {
-      "id": "1056c2a92d8574c4462c3133",
-      "title": "Schools to offer technical subjects from age 14 in England, Burnham says",
+      "id": "95c62b40d212e06e37a7ad53",
+      "title": "Chicken farms and the reality of food production in Britain | Letters",
       "translatedTitle": null,
-      "description": "The government wants pupils to take courses like AI and manufacturing which are linked to local jobs.",
-      "url": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cj4k2djd5qpo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T10:25:52Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5eca/live/e45eb050-8a7a-11f1-b8ee-9b3c26ad07bb.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "aee15f435b704392a983",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.89398
-    },
-    {
-      "id": "17ccfbb0276516ec590f4e48",
-      "title": "How to see July's full Buck Moon as it rises in the night sky",
-      "translatedTitle": null,
-      "description": "July's full Moon, know as the Buck Moon, is set to light up the night sky on Wednesday.",
-      "url": "https://www.bbc.co.uk/weather/articles/cx2lvg855x8o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/weather/articles/cx2lvg855x8o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T09:55:08Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1c9/live/bd9f0120-85c2-11f1-bee8-53ce494e1abc.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f53b54d4316c7d6ff568",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.83832
-    },
-    {
-      "id": "674ead614ef543f875bc3360",
-      "title": "Commonwealth Games 2026: athletics, weightlifting and gymnastics on day five – live",
-      "translatedTitle": null,
-      "description": "Follow updates from Tuesday’s action around Glasgow Full medal table | Sprinter slams no-shows | Mail Martin Check out the medal table. Swimming: Another impressive swim from 16-year-old Amalie Smith who wins her 200m medley heat comfortably. This comes after taking silver in the 400m event. Continue reading...",
-      "url": "https://www.theguardian.com/sport/live/2026/jul/28/commonwealth-games-2026-athletics-weightlifting-gymnastics-day-five-live",
-      "canonicalUrl": "https://theguardian.com/sport/live/2026/jul/28/commonwealth-games-2026-athletics-weightlifting-gymnastics-day-five-live",
+      "description": "Richard Griffiths and Will Raw respond to an article by George Monbiot in which he argues that industrial poultry farming is killing our rivers George Monbiot is wrong in his belief that chicken farms harm rivers (Besieged by lobbyists, will UK ministers protect our ecosystems? No, they’ll chicken out, 23 July). Our farms have no direct contact with the soil and operate under permits issued and regulated by the Environment Agency, giving transparency on how manure is managed on site and where it",
+      "url": "https://www.theguardian.com/environment/2026/jul/28/chicken-farms-and-the-reality-of-food-production-in-britain",
+      "canonicalUrl": "https://theguardian.com/environment/2026/jul/28/chicken-farms-and-the-reality-of-food-production-in-britain",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -826,58 +828,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T12:08:33Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f7a5385bc1a2c463dfe929d553aebef87589bc76/158_0_5977_4781/master/5977.jpg?width=140&quality=85&auto=format&fit=max&s=b55357214709ab231f973959aeafbaad",
+      "publishedAt": "2026-07-28T15:37:47Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ad35582c19c6b31ac6ad6f73ede079854c125de5/199_0_3103_2482/master/3103.jpg?width=140&quality=85&auto=format&fit=max&s=b4bbc99c63c3e68ea5551f99ab246269",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3c86525f92d8a6839e44",
+      "clusterId": "c022823e72088fac385e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.82187
+      "rankingScore": 5.76083
     },
     {
-      "id": "389a27acd80848fe1280d220",
-      "title": "Odyssey translator writes scathing review of Nolan film adaptation",
+      "id": "24d997ad9d77b33e1e7ea672",
+      "title": "Why migraines are often undiagnosed | Letters",
       "translatedTitle": null,
-      "description": "The film has won rave reviews from film critics but a translator of Homer's work was less than impressed.",
-      "url": "https://www.bbc.co.uk/news/articles/cd692n215ndo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cd692n215ndo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T09:45:10Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3bfb/live/fcffd7d0-8a78-11f1-b8ee-9b3c26ad07bb.jpg",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "126191739e0c626ffa92",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.82061
-    },
-    {
-      "id": "d0eb8ab534105e78baefaf8b",
-      "title": "There’s a science to rolling out fresh pasta | Kitchen aide",
-      "translatedTitle": null,
-      "description": "Tearing is a common problem with pasta dough say our experts. Culprits include the wrong type of flour, cold dough – or it could even boil down to the size of your egg When making fresh pasta, why does the dough sometimes tear when rolling, and other times not?Thomas, by email “I’m sorry to hear your pasta is rippy,” sympathises Jacob Kenedy, chef-patron of Bocca di Lupo in London, who is teaming up with fellow chef Merlin Labron-Johnson to celebrate the Italian midsummer holiday ferragosto with",
-      "url": "https://www.theguardian.com/food/2026/jul/28/tears-at-dinner-time-the-science-to-rolling-out-fresh-pasta",
-      "canonicalUrl": "https://theguardian.com/food/2026/jul/28/tears-at-dinner-time-the-science-to-rolling-out-fresh-pasta",
+      "description": "Dr Sally Cheseldine reflects on the experience of people who cannot articulate their pain and the significance of cravings During my clinical career, I noticed that migraine was rarely diagnosed in individuals with severe intellectual disabilities or autism who were non-verbal and therefore unable to say that they had a sore head (Letters, 24 July). Instead, there was a high level of damaging head-banging, something that others say they feel tempted to do if they don’t have access to rapid pain",
+      "url": "https://www.theguardian.com/society/2026/jul/28/why-migraines-are-often-undiagnosed",
+      "canonicalUrl": "https://theguardian.com/society/2026/jul/28/why-migraines-are-often-undiagnosed",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -886,28 +858,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T12:00:02Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5f6e6c793f5e45a5e9017a8af7b2ae86d7cfc9af/490_0_5200_4160/master/5200.jpg?width=140&quality=85&auto=format&fit=max&s=3f853a0f0f34baf5de811cd9d35eb7af",
+      "publishedAt": "2026-07-28T15:37:40Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/cc2ea8558b17194c01232d52287996de71109887/270_0_4617_3694/master/4617.jpg?width=140&quality=85&auto=format&fit=max&s=b55781b4bebbd0495bc60263885c6f82",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3f1c39ee0ac0f031939d",
+      "clusterId": "76e2b5c5d25b96d8475e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80473
+      "rankingScore": 5.7606
     },
     {
-      "id": "826fa7162b7312d08c3b4323",
-      "title": "GSK invests £400m to move research centre to Cambridge as Burnham praises ‘vote of confidence’ in UK - business live",
+      "id": "b7b912d1252aeece114cfeef",
+      "title": "The mystery of the vanished beef joint | Brief letters",
       "translatedTitle": null,
-      "description": "Rolling coverage of the latest economic and financial news BT’s Openreach could be forced to pull a discount scheme for new fibre broadband customers, after the industry regulator said the deal was “not fair and reasonable” and could damage competition in the market. Ofcom said the “New To Openreach” scheme, which offers discounts of up to £9.50 for up to 30 months, was targeting “aggressive” discounted pricing at new customers that rival fibre broadband providers rely on to grow. Matching these",
-      "url": "https://www.theguardian.com/business/live/2026/jul/28/ai-sell-off-chip-stocks-slump-market-south-korea-japan-economy-latest-news",
-      "canonicalUrl": "https://theguardian.com/business/live/2026/jul/28/ai-sell-off-chip-stocks-slump-market-south-korea-japan-economy-latest-news",
+      "description": "Dog’s dinner | Short illnesses | Andy Burnham’s smart move | Missing brunch | Making a meal of it The humorous tale of Morris the staffie (The pet I’ll never forget, 27 July) reminded me of when I returned from work one evening wondering why my husband hadn’t roasted the joint of beef I’d taken out from the freezer that morning for the evening meal. There was no trace of it anywhere, nor the plate it was on. Next day, evidence of the butcher’s string tied round the meat appeared during our dog w",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/jul/28/the-mystery-of-the-vanished-beef-joint",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/jul/28/the-mystery-of-the-vanished-beef-joint",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -916,28 +888,58 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T11:55:44Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/73341c379e966aef74ab78eff45724cb38933f14/343_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=5e8734909fc8058064871807f16784b9",
+      "publishedAt": "2026-07-28T15:37:33Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fb0e912ba38bde039c7ab3d8022e848303b5b37a/0_0_4261_3411/master/4261.jpg?width=140&quality=85&auto=format&fit=max&s=2da0ee383c9b210d03874040ce923103",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3ae4bf2c94dc9b82c8a8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.76038
+    },
+    {
+      "id": "54d4ffb7af69f94c0a9deda7",
+      "title": "More rail services in England set to slow as heatwave shrinks soil",
+      "translatedTitle": null,
+      "description": "South Western Railway joins operators in east of England in reducing train speeds and changing timetables Business live – latest updates Persistent drought conditions caused by the climate crisis are expected to cause further disruption to trains across England, as the lack of rainfall affects the ground supporting railway embankments. On Tuesday, South Western Railway (SWR) became the latest large rail company to announce timetable changes and reduced speeds to cope with the effects of hot and",
+      "url": "https://www.theguardian.com/uk-news/2026/jul/28/rail-services-train-england-slow-heatwave-south-western-railway-greater-anglia",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/28/rail-services-train-england-slow-heatwave-south-western-railway-greater-anglia",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T15:37:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d83542f2b44d4dcb0c475140a3e3e0b4ffa3a40c/90_0_2418_1935/master/2418.jpg?width=140&quality=85&auto=format&fit=max&s=5b3a45765d85713340786d5232c63b1c",
       "imageAlt": null,
       "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "5d6a8946be2fe7a54f40",
+      "clusterId": "9360f1cc97580027d2af",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.79613,
-      "related": []
+      "related": [],
+      "rankingScore": 5.75995
     },
     {
-      "id": "b8a5043c4543c3d57014cc8a",
-      "title": "Sunderland close in on Dayann Methalie signing after Newcastle back off",
+      "id": "4062ec55fe68230128d0f45b",
+      "title": "‘Above all, it’s the symbolism that matters’ – Polly Toynbee answered your questions on Andy Burnham’s first week",
       "translatedTitle": null,
-      "description": "Toulouse defender expected to cost about £26m Newcastle still looking for defensive reinforcements Sunderland are poised to sign the long-time Newcastle target Dayann Methalie from Toulouse. The France Under-21s defender, who can play left-back or wingback and also operate in the centre, has attracted widespread interest this summer but Régis Le Bris now appears close to acquiring him for about £26m. Newcastle had extensively scouted Methalie, who made 27 Ligue 1 appearances for Toulouse last se",
-      "url": "https://www.theguardian.com/football/2026/jul/28/sunderland-newcastle-transfer-window-dayann-methalie",
-      "canonicalUrl": "https://theguardian.com/football/2026/jul/28/sunderland-newcastle-transfer-window-dayann-methalie",
+      "description": "After seven days in charge, how is the new UK PM doing? You asked our political columnist about electoral reform, social care and more. SonOfTheDesert asks: Given that nothing in this world ever turns out quite as intended, and that good intentions in politics are always hit by unforeseen misfortune, which of the commitments that Burnham has made so far do you think is most likely to fall by the wayside between now and 2029? Polly says: I think I will answer your question the other way round, if",
+      "url": "https://www.theguardian.com/community/live/2026/jul/28/andy-burnham-first-week-prime-minister-ask-polly-toynbee-reader-questions",
+      "canonicalUrl": "https://theguardian.com/community/live/2026/jul/28/andy-burnham-first-week-prime-minister-ask-polly-toynbee-reader-questions",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -946,28 +948,88 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T11:40:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a94cb6c8fe289e96c95ca2fca8428e7b3e24407f/561_131_3464_2772/master/3464.jpg?width=140&quality=85&auto=format&fit=max&s=30a837306bd5ca3a9df692beb8d7dd0b",
+      "publishedAt": "2026-07-28T15:34:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/97c02eafb295c940d516e3b2ebecfebf7c209140/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d2b67f13d76243c3501bfc42f0c5097b",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "5077d50827e3159d2599",
+      "clusterId": "7b45364cec9e2f0151d0",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.76629
+      "rankingScore": 5.75391
     },
     {
-      "id": "658e2267d890783671300aa7",
-      "title": "Local match goes viral over 'finger-clicking' cheating claim",
+      "id": "b6b8c746a361a74db67c3134",
+      "title": "‘A control freak’: murderer James Desborough convicted of two further killings",
       "translatedTitle": null,
-      "description": "A viral video appears to show a fielder in a local match clicking his fingers as the ball passes the bat, before the batter is given out caught behind.",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c86n10548yeo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/cricket/articles/c86n10548yeo?at_campaign=rss&at_medium=RSS",
+      "description": "Man already serving life for killing his cellmate while awaiting trial also murdered and dismembered his friends Claudio Aquilino and Daniel Coleman On a spring day last year, James Desborough marched up to Cornwall’s county hall in Truro and began bombarding the offices with dozens of eggs stolen from a supermarket. It was a drug and drink-addled protest at his plight – homeless, jobless and generally angry at the world. He expected to be arrested and messaged a friend: “If I’m going to get nic",
+      "url": "https://www.theguardian.com/uk-news/2026/jul/28/james-desborough-convicted-murder-claudio-aquilino-daniel-coleman-cornwall",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/28/james-desborough-convicted-murder-claudio-aquilino-daniel-coleman-cornwall",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T15:29:45Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f670cde34448256993c32460aba52a73de7efa8e/0_188_1080_864/master/1080.jpg?width=140&quality=85&auto=format&fit=max&s=c631e7de2634ff7ef91288aabe3fcde1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "073c0d247dd662066ec9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.74512
+    },
+    {
+      "id": "518b8fa7bac0135c72d7cf45",
+      "title": "Fan of serial killer TV show guilty of double murder",
+      "translatedTitle": null,
+      "description": "A man has been found guilty of murdering two men he lived with in a homeless shelter - after being convicted of killing his cellmate while on remand.",
+      "url": "https://news.sky.com/story/man-inspired-by-serial-killer-show-guilty-of-double-murder-13567463",
+      "canonicalUrl": "https://news.sky.com/story/man-inspired-by-serial-killer-show-guilty-of-double-murder-13567463",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T15:20:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-james-desborough-murder-trial_7307994.jpg?20260727182840",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0ab3e2e69c6301fa258a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.7262
+    },
+    {
+      "id": "ad0e2fa828aa37fa1bc3cb73",
+      "title": "Mother and boyfriend guilty of murder of girl, two",
+      "translatedTitle": null,
+      "description": "Prosecutors say Isabelle Welsh was subjected to a \"wicked\" campaign of abuse before her death.",
+      "url": "https://www.bbc.co.uk/news/articles/cvg9lv27v69o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cvg9lv27v69o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -976,28 +1038,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T09:11:45Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b97a/live/5728bd90-8a5f-11f1-b6c7-397f42881d1e.jpg",
+      "publishedAt": "2026-07-28T12:49:20Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e750/live/4c2e6410-8507-11f1-aa7a-11be4e3a8eab.jpg",
       "imageAlt": null,
-      "category": "Sports",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "4fc217be0ff298d8404f",
+      "clusterId": "1e1f16ddf3a9739806a5",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.76239
+      "rankingScore": 5.72455
     },
     {
-      "id": "a15d7a82ccaabdaf936c74e5",
-      "title": "Pokémon plane, Japan quake and a US tornado: photos of the day – Tuesday",
+      "id": "2170639c0c4ff613f3bc3a93",
+      "title": "Michael McNay",
       "translatedTitle": null,
-      "description": "The Guardian’s picture editors select photographs from around the world Continue reading...",
-      "url": "https://www.theguardian.com/news/gallery/2026/jul/28/pokemon-aeroplane-japan-quake-us-tornado-tuesday-photos-of-the-day",
-      "canonicalUrl": "https://theguardian.com/news/gallery/2026/jul/28/pokemon-aeroplane-japan-quake-us-tornado-tuesday-photos-of-the-day",
+      "description": "Design editor of the Guardian who changed the look of the paper in the 1980s Michael McNay, who has died aged 91, may not have been an immediately recognisable name to many Guardian readers, but he more than anyone else shaped the modern appearance of the paper. During a 37-year career he covered many areas of the paper as a subeditor, but also as a writer mainly on arts subjects and as the Guardian’s design editor at the time of its radical remodelling in 1988. Continue reading...",
+      "url": "https://www.theguardian.com/artanddesign/2026/jul/28/michael-mcnay-obituary",
+      "canonicalUrl": "https://theguardian.com/artanddesign/2026/jul/28/michael-mcnay-obituary",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1006,58 +1068,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T11:36:27Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0952d42a1ac2c55d33b7ce4703a3a263483945ac/0_0_3250_2600/master/3250.png?width=140&quality=85&auto=format&fit=max&s=8a90e5fbc26638ff3fe04239c314f8a3",
+      "publishedAt": "2026-07-28T15:08:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1b1080f2e3ba5cf8329f3dac2ee71d8fc99cc736/1883_82_4779_3825/master/4779.jpg?width=140&quality=85&auto=format&fit=max&s=aea0f391874bea6c4e19cbab85116ded",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d8dce36571636ceb2d28",
+      "clusterId": "ddd1b962d6a21919e9f9",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.75798
+      "rankingScore": 5.70321
     },
     {
-      "id": "0b4c056326524a326119d376",
-      "title": "Mother and boyfriend found guilty of murdering her two-year-old daughter",
+      "id": "62038a8b99c6899eb66e7fdb",
+      "title": "Black people’s risk factors for stroke ‘rising faster than for white people’",
       "translatedTitle": null,
-      "description": "Alexandra Walker and boyfriend Harrison Simpson convicted of the murder of Isabelle Welsh",
-      "url": "https://www.independent.co.uk/news/uk/crime/isabelle-welsh-murder-alexandra-walker-harrison-simpson-b3022981.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/crime/isabelle-welsh-murder-alexandra-walker-harrison-simpson-b3022981.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T12:13:20Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/28/13/01KY7CBY8FZ0161FASW595P64X.jpg?width=1200&auto=webp&trim=0%2C17%2C0%2C17",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c72cd51e41b1b525d0c7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74156
-    },
-    {
-      "id": "1d65f5784f8d2ac0bbd51607",
-      "title": "Dawn raid targets ‘umbrella cheaters’ reserving beach spots in Naples",
-      "translatedTitle": null,
-      "description": "Umbrellas, deck chairs and loungers seized in Torre del Greco authorities’ crackdown on people reserving spots overnight Authorities in a coastal suburb of Naples seized umbrellas, loungers and deck chairs during a dawn sweep of a beach aimed at cracking down on the growing trend of people attempting to reserve prime spots overnight. Torre del Greco’s port authority said coastguard staff and local police had together collected 40 items as part of a national beach and lake safety operation that t",
-      "url": "https://www.theguardian.com/world/2026/jul/28/umbrellas-deck-chairs-crackdown-reserving-beach-spots-naples",
-      "canonicalUrl": "https://theguardian.com/world/2026/jul/28/umbrellas-deck-chairs-crackdown-reserving-beach-spots-naples",
+      "description": "Exclusive: King’s College London analysis finds diabetes and hypertension are more common in Black African and Caribbean people Stroke risk factors including high blood pressure and diabetes are rising faster among people from Black African and Caribbean backgrounds compared with their white counterparts, according to analysis. Researchers at King’s College London analysed data from more than 8,500 adults over a 30-year period from the South London Stroke Register, one of the longest-running pop",
+      "url": "https://www.theguardian.com/society/2026/jul/28/black-african-caribbean-risk-factor-stroke-diabetes-high-blood-pressure-hypertension",
+      "canonicalUrl": "https://theguardian.com/society/2026/jul/28/black-african-caribbean-risk-factor-stroke-diabetes-high-blood-pressure-hypertension",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1066,88 +1098,118 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T11:24:49Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/37b3b3014b778a44aae811026e53b0c737b008c8/632_23_3558_2846/master/3558.jpg?width=140&quality=85&auto=format&fit=max&s=c6ac5e0bf3c2b913eac280addd705ad5",
+      "publishedAt": "2026-07-28T15:08:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fcc69cdc63a552ef228828011ce409efcd46bc82/548_0_4406_3525/master/4406.jpg?width=140&quality=85&auto=format&fit=max&s=bca6cb643f55b405da3c496963e7f69a",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1e1effbc5de0f6ce8a68",
+      "clusterId": "701b1b603a18848222fd",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.73528
+      "rankingScore": 5.70318
     },
     {
-      "id": "7621433d8001939539b243bf",
-      "title": "South Korean officials order residents to evacuate after reported white phosphorus leak at US base",
+      "id": "b39a9cc40b8d50cbb26bb3da",
+      "title": "‘He liked to get people’s blood boiling’: metal masters Mastodon on the loss of bandmate Brent Hinds – and his shocking words before his death",
       "translatedTitle": null,
-      "description": "South Korean authorities briefly ordered evacuations on Tuesday due to what they said was a white phosphorus leak at a U.S. military base near Seoul",
-      "url": "https://www.independent.co.uk/news/south-korean-seoul-white-phosphorus-police-b3022988.html",
-      "canonicalUrl": "https://independent.co.uk/news/south-korean-seoul-white-phosphorus-police-b3022988.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "The Grammy-winning band had an acrimonious rift with Hinds – then he died in a motorbike crash. They explain how they’re paying tribute on their new album, and why their love for each other never ended Mastodon are near the end of a tour where they’re playing 22 shows in 14 different European countries during a record-breaking heatwave, when they video-call me outside a Bordeaux venue. Bassist and co-lead singer Troy Sanders says the experience has been “31 days of musical bliss”. He’s not being",
+      "url": "https://www.theguardian.com/music/2026/jul/28/metal-masters-mastodon-on-loss-of-brent-hinds-new-album-marrow-deep-interview",
+      "canonicalUrl": "https://theguardian.com/music/2026/jul/28/metal-masters-mastodon-on-loss-of-brent-hinds-new-album-marrow-deep-interview",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T12:06:29Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/28/13/South_Korea_US_White_Phosphorus_32785.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-07-28T15:00:07Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/612c8c827b5f90f14c9bad6b642b7dae84260b29/0_1020_2001_1600/master/2001.jpg?width=140&quality=85&auto=format&fit=max&s=15f48b94c012d8962572829e95c28b00",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ff673313e8d4c7cf1a1d",
+      "clusterId": "0a8262e5e8f940cc237b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.7277
+      "rankingScore": 5.68814
     },
     {
-      "id": "43b90b70cf03132b75487921",
-      "title": "Tesla manager says self-driving vehicle team was so overworked that cars were ‘rolling hazards on public streets,’ lawsuit reveals",
+      "id": "1e3e10caf75f419c69edaf65",
+      "title": "Hosta hideout and a queen bee – readers’ best photographs",
       "translatedTitle": null,
-      "description": "Exclusive: ‘I was really trying to let them know how serious this was,’ fired Tesla manager Javier Medrano told The Independent. ‘‘But there was no sense of urgency’",
-      "url": "https://www.independent.co.uk/news/world/americas/tesla-self-driving-safety-lapses-whistleblower-lawsuit-b3022635.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/tesla-self-driving-safety-lapses-whistleblower-lawsuit-b3022635.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Click here to submit a picture for publication in these online galleries and/or on the Guardian letters page Continue reading...",
+      "url": "https://www.theguardian.com/community/gallery/2026/jul/28/hosta-hideout-and-a-queen-bee-readers-best-photographs",
+      "canonicalUrl": "https://theguardian.com/community/gallery/2026/jul/28/hosta-hideout-and-a-queen-bee-readers-best-photographs",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T12:06:14Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/28/1/28/GettyImages-1183851343.jpeg?width=1200&auto=webp&trim=0%2C280%2C0%2C280",
+      "publishedAt": "2026-07-28T15:00:06Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/07c6ecb51753ae7ed590e6f9c9550f9a52ec6c62/0_1118_2736_2189/master/2736.jpg?width=140&quality=85&auto=format&fit=max&s=b835ea3c80cbfc837bdd2ea1a848a04b",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a139374a70e52df8d62f",
+      "clusterId": "3840c30d92191d03ada2",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.7272
+      "rankingScore": 5.68811
     },
     {
-      "id": "dd5e311cfc2f15e1ccd8891d",
-      "title": "Is it safe to travel to Spain and France right now?",
+      "id": "43b7b3b4635c189ace843944",
+      "title": "Captain Chris ‘Hunter-Killer’ Philp takes on French navy single-handed | John Crace",
       "translatedTitle": null,
-      "description": "For those who have upcoming holidays to the affected regions, here is what you should know about how it might impact your plans.",
-      "url": "https://www.bbc.co.uk/news/articles/ce3qv0ggndno?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ce3qv0ggndno?at_campaign=rss&at_medium=RSS",
+      "description": "Shots fired in the Channel are all in a day’s work for the intrepid shadow home secretary C’est magnifique, mais ce n’est pas la guerre. Captain Chris “Hunter-Killer” Philp had been on patrol since first light in the Channel. While the rest of the country was still asleep, the Philpster was scanning the horizon for rubber dinghies full of illegal immigrants. Something he had never done in his previous life as immigration minister. Back then he had sought to rehouse new arrivals in hotels. Now he",
+      "url": "https://www.theguardian.com/politics/2026/jul/28/conservative-chris-philp-channel-french-navy",
+      "canonicalUrl": "https://theguardian.com/politics/2026/jul/28/conservative-chris-philp-channel-french-navy",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T14:50:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/837a33f03a238568c5fc8df3edf662b95b6da97b/349_0_3900_3120/master/3900.jpg?width=140&quality=85&auto=format&fit=max&s=5be0c0a44bdd6b56af10bee55149417d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "59c58e9e3373e82cb4e3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67067
+    },
+    {
+      "id": "99b0a80d75d49c00a0d394a6",
+      "title": "House of the Dragon star Bethany Antonia joins Strictly line-up",
+      "translatedTitle": null,
+      "description": "She plays Lady Baela Targaryen in HBO's Game of Thrones prequel, and is the ninth celebrity to be confirmed.",
+      "url": "https://www.bbc.co.uk/news/articles/cg74gvy8lgjo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cg74gvy8lgjo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -1156,208 +1218,88 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T08:50:39Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/506a/live/7dd51360-8a57-11f1-b6c7-397f42881d1e.jpg",
+      "publishedAt": "2026-07-28T12:02:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eaca/live/95a125e0-8a7c-11f1-82f1-411b076ec7a9.png",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b337d2fbcbb53a115dc9",
+      "clusterId": "a691e8737790d2c22e44",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.72656
+      "rankingScore": 5.64795
     },
     {
-      "id": "4eb3036b8f6ff0f89ac2969f",
-      "title": "Conor McGregor eyes ‘Last Dance’ against Max Holloway as he reveals proposed UFC return date",
+      "id": "a2473c9f1c2b06d1280c94fe",
+      "title": "Teenage girl and mother who drowned at Essex beach named",
       "translatedTitle": null,
-      "description": "Conor McGregor wants to return to the UFC again after suffering a serious knee injury in his comeback bout against Max Holloway earlier this month",
-      "url": "https://www.independent.co.uk/sport/ufc/conor-mcgregor-max-holloway-ifw-2027-b3022831.html",
-      "canonicalUrl": "https://independent.co.uk/sport/ufc/conor-mcgregor-max-holloway-ifw-2027-b3022831.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "A 15-year-old girl and her mother who drowned after getting into difficulty on the Essex coast have been named by police.",
+      "url": "https://news.sky.com/story/teenage-girl-and-mother-who-drowned-at-essex-beach-named-13567820",
+      "canonicalUrl": "https://news.sky.com/story/teenage-girl-and-mother-who-drowned-at-essex-beach-named-13567820",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T12:05:45Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/16/11/2285941374..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-07-28T14:36:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-west-mersea-mersea_7304739.jpg?20260723085414",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "95817801fd0981daa546",
+      "clusterId": "aaee083ed6d759882414",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.72622
+      "rankingScore": 5.64291
     },
     {
-      "id": "472dd321c548128d84c635cd",
-      "title": "Voices: Is Andy Burnham’s opening blitz of policies enough to keep Labour ahead of Reform?",
+      "id": "8e466834c97bb7e9f9cba97a",
+      "title": "Naga Munchetty to leave BBC Breakfast after 17 years",
       "translatedTitle": null,
-      "description": "With three polls now putting Labour ahead of Reform for the first time in over a year, has the new prime minister’s flurry of early policies genuinely reversed Labour’s fortunes, or is it Reform doing the work for him?",
-      "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-policies-labour-reform-polls-b3022967.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/andy-burnham-policies-labour-reform-polls-b3022967.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "The BBC One show's co-host will swap the TV sofa for the presenter's chair on Radio 5 Live Breakfast.",
+      "url": "https://www.bbc.co.uk/news/articles/cn0ngrpp2p5o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cn0ngrpp2p5o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T12:05:07Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/28/11/57/Engagement-overlays-2026-07-28T125622-897.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-07-28T11:38:26Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed6a/live/09653f00-8a6b-11f1-b8ee-9b3c26ad07bb.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "593c5f19f46df67d8d1c",
+      "clusterId": "27dc6b26fcaa5082307c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.72495
+      "rankingScore": 5.60925
     },
     {
-      "id": "599dae62651d73ff634960bc",
-      "title": "UN chief makes rare Cyprus visit to help ease decades-old ethnic division",
+      "id": "fb27ecb681eb00ef063e4e1e",
+      "title": "Black motorcycle clubs come alive in the summer: ‘The best way to build community is on two wheels’",
       "translatedTitle": null,
-      "description": "U.N. Secretary-General António Guterres is visiting Cyprus to show commitment to resolving its ethnic division",
-      "url": "https://www.independent.co.uk/news/antonio-guterres-cyprus-nicosia-turkish-european-union-b3022986.html",
-      "canonicalUrl": "https://independent.co.uk/news/antonio-guterres-cyprus-nicosia-turkish-european-union-b3022986.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T12:03:50Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/28/13/Cyprus_Peace_Talks_97124.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "056f5b026f8a28c672c8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72236
-    },
-    {
-      "id": "6433eb1ce0f9147258d62c38",
-      "title": "Do you toss food once the date on the label has passed? Experts say that's often a waste",
-      "translatedTitle": null,
-      "description": "Many people throw away food based on confusing expiration labels like “Best By” or “Sell By.”",
-      "url": "https://www.independent.co.uk/news/people-california-san-francisco-experts-kathy-hochul-b3022985.html",
-      "canonicalUrl": "https://independent.co.uk/news/people-california-san-francisco-experts-kathy-hochul-b3022985.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T12:03:10Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/01/05/Food_Labeling_California_35391.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "22fe471af8955970bc9b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72102
-    },
-    {
-      "id": "24e7cb7135597cf67633f1e6",
-      "title": "Josko Gvardiol signs new Manchester City deal as defensive rebuild begins",
-      "translatedTitle": null,
-      "description": "Croatia international Josko Gvardiol has signed a new five-year deal with the club",
-      "url": "https://www.independent.co.uk/sport/football/josko-gvardiol-man-city-new-contract-b3022921.html",
-      "canonicalUrl": "https://independent.co.uk/sport/football/josko-gvardiol-man-city-new-contract-b3022921.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T12:02:19Z",
-      "imageUrl": "https://static.independent.co.uk/2026/06/15/20/01KB83ZH33Y3KP0ET41KB0GHZ0.jpg?width=1200&auto=webp&trim=0%2C117%2C0%2C117",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "050f026ee2e479cfeb03",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71932
-    },
-    {
-      "id": "bb30fdfac78b61155bf35e89",
-      "title": "Massachusetts museum goes viral for merchandise featuring bad Google review",
-      "translatedTitle": null,
-      "description": "How to turn a negative review into a hit merchandise line",
-      "url": "https://www.independent.co.uk/news/world/americas/new-bedford-whaling-museum-review-b3022748.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/new-bedford-whaling-museum-review-b3022748.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-28T12:00:19Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/28/08/download.-1.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "92bb58ac5c64f8f8bfe9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.7153
-    },
-    {
-      "id": "5d24551f661abbff470f1358",
-      "title": "Trump administration forced treatment on hunger striker in ICE detention, document reveals",
-      "translatedTitle": null,
-      "description": "ICE report reviewed by the Guardian discloses a patient was ‘subject to force feeding, hydration or urinary catheterization’, which experts have described as torture The Trump administration subjected at least one person undertaking a hunger strike in immigrant detention to forcible medical treatment – engaging in medical practice that healthcare associations and international human rights groups have described as torture. A document from the Immigration and Customs Enforcement’s (ICE) health se",
-      "url": "https://www.theguardian.com/us-news/2026/jul/28/trump-administration-forced-treatment-ice-hunger-striker",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/jul/28/trump-administration-forced-treatment-ice-hunger-striker",
+      "description": "Building on decades-long traditions, Black bikers host rides, picnics and other gatherings nearly every summer weekend to celebrate community and freedom The trip was only supposed to be a Memorial Day weekend girls’ getaway to Myrtle Beach, South Carolina, for Patrice “Foxy” Johnson. But once Johnson and her crew arrived, they inadvertently found themselves in the middle of an annual bike week where several thousand riders had convened. Johnson watched the “backpacks”, or the women who rode on",
+      "url": "https://www.theguardian.com/culture/2026/jul/28/black-motorcycle-clubs-culture",
+      "canonicalUrl": "https://theguardian.com/culture/2026/jul/28/black-motorcycle-clubs-culture",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1366,28 +1308,88 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T11:00:03Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/b225ffe93aaca30bfb4579ee38bccddee09e6672/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=71fbc6359fa2b2c9193ba2f4dc91b223",
+      "publishedAt": "2026-07-28T14:13:40Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/89471a5c21b2413b65a54a951cfa16b26d973438/344_0_3337_2671/master/3337.jpg?width=140&quality=85&auto=format&fit=max&s=64d8ad0844968a6256edf7ff85d245e8",
       "imageAlt": null,
-      "category": "Science & Health",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "8e52083086fea4fa7311",
+      "clusterId": "043d795e0524b9441e18",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.68778
+      "rankingScore": 5.60192
     },
     {
-      "id": "c9112aea632b2e53204e0bcd",
-      "title": "Mary Beth Barone on provocative jokes, Palestine and manosphere misogyny: ‘It’s hard to stomach that those are my co-workers’",
+      "id": "ff9d706af3b137efb8448dbe",
+      "title": "Speedboat killer admits punching woman and assaulting her with barbecue tongs",
       "translatedTitle": null,
-      "description": "The comedian and actor’s new Netflix special is a gleefully absurd take on politics and potty-mouthed humor Mary Beth Barone knows exactly who will be offended by her new Netflix special. “JK Rowling, Republicans, establishment Democrats, the British, the Irish and Zionists,” she tells me, reading a list from her Notes app. Then there’s “Katy Kats – which is what Katy Perry calls her fans – and male comedians and one specific girl named Tatiana”. When informed that this encompasses over half of",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/jul/28/mary-beth-barone-netflix-special-interview",
-      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/jul/28/mary-beth-barone-netflix-special-interview",
+      "description": "A man jailed for manslaughter over the death of a woman in a 2015 speedboat crash has admitted violently assaulting another woman last year.",
+      "url": "https://news.sky.com/story/speedboat-killer-jack-shepherd-admits-punching-woman-and-assaulting-her-with-barbecue-tongs-13567814",
+      "canonicalUrl": "https://news.sky.com/story/speedboat-killer-jack-shepherd-admits-punching-woman-and-assaulting-her-with-barbecue-tongs-13567814",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T14:12:00Z",
+      "imageUrl": "https://e3.365dm.com/19/03/1920x1080/skynews-jack-shepherd-speedboat-killer_4618556.jpg?20190325075610",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5366d7bc4081947c78a0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.59889
+    },
+    {
+      "id": "5cd429ae1385857546f14408",
+      "title": "Only use VAR when error blatant - referee chiefs",
+      "translatedTitle": null,
+      "description": "Video assistant referees should only be used to change \"blatantly incorrect\" decisions and clear missed incidents, say European refereeing officials.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm2gyzme6gno?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cm2gyzme6gno?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T11:30:00Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cb6/live/96f704d0-8a6f-11f1-924e-bfa32777c3ff.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a1e1c394a1ba593a4233",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.59604
+    },
+    {
+      "id": "3fc189d8c5ca77cedca74e75",
+      "title": "‘Topless modelling never aligned with me’: inside Everyone’s Seen My Tits, the play by a former page 3 model",
+      "translatedTitle": null,
+      "description": "As she brings her memoir to the Edinburgh festival, Keeley Hazell talks about trauma, exploitation, the hollowness of the high life – and her new career as a writer on Ted Lasso There was a time in the mid-2000s when it felt as though “everyone” had seen her topless, says Keeley Hazell. Page 3 was a staple of the tabloid press, lads’ mags were booming and she was one of the country’s most recognisable glamour models. “There was excitement, but also a lot of shame and embarrassment,” the softly s",
+      "url": "https://www.theguardian.com/stage/2026/jul/28/topless-everyones-seen-my-tits-page-3-model-keeley-hazell-ted-lasso",
+      "canonicalUrl": "https://theguardian.com/stage/2026/jul/28/topless-everyones-seen-my-tits-page-3-model-keeley-hazell-ted-lasso",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1396,28 +1398,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T11:00:02Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/c0dfa359e881c1c20dbcae3d877ebaba84d1dec9/1186_1255_2471_1976/master/2471.jpg?width=140&quality=85&auto=format&fit=max&s=b2e3c132069d3ad5d5d48303807ead4c",
+      "publishedAt": "2026-07-28T14:03:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/19ae7e437c20ad088482226ae6e294f28b919aea/724_136_5139_4111/master/5139.jpg?width=140&quality=85&auto=format&fit=max&s=9307bf97b6937d9633a1252d75db4c83",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c8c74284880f4f1dad04",
+      "clusterId": "33ebd99764bae8fe409a",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.68775
+      "rankingScore": 5.5827
     },
     {
-      "id": "e62eeaf353c2dfd48beb4eb8",
-      "title": "What makes the perfect news image? Ask our head of photography your questions now",
+      "id": "58b8eed28eccaf897fb826af",
+      "title": "Qantas plane flies for more than 24 hours in record-breaking flight",
       "translatedTitle": null,
-      "description": "How do you choose what makes the front page? How hard is genAI making the job of the picture editor? Fiona Shields is the Guardian’s global head of photography, overseeing all the images across our websites and print publications. She’ll be taking your questions at 3pm on Wednesday BST Sign in or create your Guardian account to join the discussion Join us as 3pm on Wednesday 29 July, as the Guardian’s Fiona Shields answers your questions about the art, sciences (and logistics) of covering the wo",
-      "url": "https://www.theguardian.com/artanddesign/photography-blog/live/2026/jul/28/what-makes-the-perfect-news-image-ask-our-head-of-photography-your-questions-now",
-      "canonicalUrl": "https://theguardian.com/artanddesign/photography-blog/live/2026/jul/28/what-makes-the-perfect-news-image-ask-our-head-of-photography-your-questions-now",
+      "description": "The A350 landed in Toulouse 24 hours and 24 minutes after leaving Melbourne as airline plans direct London service Qantas completed what is believed to be the longest-ever commercial flight when its Airbus jet landed in Toulouse on Tuesday after a flight from Melbourne lasting 24 hours and 24 minutes. The flight, which triggered a surge in online tracking, is part of the airline’s Project Sunrise in which it plans to use a new A350 jet to fly non-stop from Australia to London. Continue reading..",
+      "url": "https://www.theguardian.com/business/2026/jul/28/qantas-plane-flies-for-more-than-24-hours-in-record-breaking-flight",
+      "canonicalUrl": "https://theguardian.com/business/2026/jul/28/qantas-plane-flies-for-more-than-24-hours-in-record-breaking-flight",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1426,28 +1428,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T11:00:02Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/24f4709623688a4d6431b7ad29cec6071df71c77/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=3e6c50011100cbc81aabd53bde64484b",
+      "publishedAt": "2026-07-28T14:02:31Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6e03fc583bbf111ec40da3ce9e5e96851a103425/361_0_3744_2995/master/3744.jpg?width=140&quality=85&auto=format&fit=max&s=86e39c47a9fd25e7abb25a0b8128f0cc",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "59fda0d115c3f3a9a77d",
+      "clusterId": "dd63783f4d396300fc44",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.68775
+      "rankingScore": 5.58177
     },
     {
-      "id": "617bfd3fc15b4e4b8949e786",
-      "title": "I took a standup class to cope with the end of the world",
+      "id": "20686d80aa5c1b05da65eaeb",
+      "title": "It’s time to prosecute climate crimes – with laws that already exist | Aaron Regunberg",
       "translatedTitle": null,
-      "description": "My climate dread was becoming unbearable. I never thought I would do comedy, but what if I channeled my anxiety into something lighter? If you had told me six months ago that I would soon be performing standup comedy to dozens of strangers, I would have assumed it was a bad dream. Public speaking ranks about as high as driving in rush hour traffic through downtown Boston on my list of favorite activities. That I would choose to do standup, with its potential for public humiliation, is basically",
-      "url": "https://www.theguardian.com/culture/ng-interactive/2026/jul/28/climate-comedy-standup-class",
-      "canonicalUrl": "https://theguardian.com/culture/ng-interactive/2026/jul/28/climate-comedy-standup-class",
+      "description": "Some have called for Nuremberg-style trials against big oil. But there are laws already on the books to describe companies’ conduct The sky outside is hazy orange, and my five-year-old son is screaming bloody murder. “Sorry, buddy, we have to stay inside,” I say. “It’s not safe to breathe out there.” I had told him we’d be going to the beach today. Something inside me tears a little as I wonder how many promises he’ll see similarly broken in the coming years. Far too many parents were forced to",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/28/prosecute-climate-crimes-big-oil",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/28/prosecute-climate-crimes-big-oil",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1456,20 +1458,110 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T11:00:01Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a4342fdaf6104db0948b0d3ada994fbd4d3a54a9/0_327_2400_1919/master/2400.jpg?width=140&quality=85&auto=format&fit=max&s=6852294f68b043a6cfe3716c19c9371f",
+      "publishedAt": "2026-07-28T14:00:05Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5b003a0820daacfddb4334e5a886a55ad00e9286/451_0_4510_3608/master/4510.jpg?width=140&quality=85&auto=format&fit=max&s=0b8478cb616473068eefa2519a362046",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T12:17:24Z",
+      "retrievedAt": "2026-07-28T16:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6f43af253dc89b69a1a3",
+      "clusterId": "80c7b2e3deca7f5bf883",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.68772
+      "rankingScore": 5.5774
+    },
+    {
+      "id": "f1d46942db5412c0f2889871",
+      "title": "Geraint Thomas and rebranded Ineos face hard truths after Tour de France misery | Jeremy Whittle",
+      "translatedTitle": null,
+      "description": "Oscar Onley’s pre-race injury presaged three bleak weeks and new director of racing knows he has his work cut out Crashes, punctures and injuries ensured that the 2026 Tour de France campaign was one of the worst for the beleaguered Netcompany Ineos team. From the first stage, when Dave Brailsford’s team came close to winning the team time trial in Montjuic, the 2026 Tour was, in the words of their director of racing, Geraint Thomas, “tough going”. “I’m happy to not be racing any more, because I",
+      "url": "https://www.theguardian.com/sport/2026/jul/28/geraint-thomas-ineos-tour-de-france-cycling",
+      "canonicalUrl": "https://theguardian.com/sport/2026/jul/28/geraint-thomas-ineos-tour-de-france-cycling",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T13:57:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/747281da87b6b4ba5fcb969036356a104be2f086/0_0_3739_2992/master/3739.jpg?width=140&quality=85&auto=format&fit=max&s=ec0eb73454ce6ef7960c861c42ceced0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "da4052f99881ce83365b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57337
+    },
+    {
+      "id": "cebcbda37b754bfcd99b03d6",
+      "title": "AI sell-off intensifies as investors ditch chip stocks",
+      "translatedTitle": null,
+      "description": "Samsung and SK Hynix fall by more than 10% amid renewed fears over AI spending and Chinese competition Business live – latest updates The sell-off in AI stocks has intensified, driving South Korea’s stock market down to its lowest level in three months. Investors continued to ditch chip stocks on Tuesday, amid rising concerns about the huge amount of borrowing among AI companies to fund their datacentre expansion plans. Continue reading...",
+      "url": "https://www.theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung",
+      "canonicalUrl": "https://theguardian.com/business/2026/jul/28/ai-sell-off-chip-stocks-sk-hynix-samsung",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T13:53:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/eed769a799be66f4834320b43e40a5f5b9900b16/742_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=a8d4211e8ac61921a44c7d0183e79297",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "58c1b655c087f2346c37",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.56551
+    },
+    {
+      "id": "dc01dc806e4a7a19a0049bd8",
+      "title": "Man charged with stealing £1m worth of streetlamps and ornate lanterns across UK",
+      "translatedTitle": null,
+      "description": "A man has been charged with stealing approximately £1m worth of streetlamps and lanterns from places including churches and schools, police have said.",
+      "url": "https://news.sky.com/story/man-charged-with-stealing-1m-worth-of-streetlamps-and-ornate-lanterns-across-uk-13567798",
+      "canonicalUrl": "https://news.sky.com/story/man-charged-with-stealing-1m-worth-of-streetlamps-and-ornate-lanterns-across-uk-13567798",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T13:52:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-cambridge-richardson-candles_7308677.jpg?20260728155224",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T16:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f7f621f7d42bf83ec2d4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.56295
     }
   ]
 }
