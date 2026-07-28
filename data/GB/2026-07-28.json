@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-28",
-  "generatedAt": "2026-07-28T00:17:20Z",
-  "lastAttemptAt": "2026-07-28T00:17:20Z",
-  "lastSuccessfulUpdate": "2026-07-28T00:17:20Z",
-  "status": "current",
+  "generatedAt": "2026-07-28T04:17:19Z",
+  "lastAttemptAt": "2026-07-28T04:17:19Z",
+  "lastSuccessfulUpdate": "2026-07-28T04:17:19Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 23,
-  "publisherCount": 3,
+  "articleCount": 43,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-28T00:17:18Z",
-      "lastSuccessAt": "2026-07-28T00:17:18Z",
+      "lastAttemptAt": "2026-07-28T04:17:18Z",
+      "lastSuccessAt": "2026-07-28T04:17:18Z",
       "articlesRetrieved": 41,
-      "responseTimeMs": 436,
+      "responseTimeMs": 654,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-28T00:17:18Z",
-      "lastSuccessAt": "2026-07-28T00:17:19Z",
-      "articlesRetrieved": 138,
-      "responseTimeMs": 498,
+      "lastAttemptAt": "2026-07-28T04:17:18Z",
+      "lastSuccessAt": "2026-07-28T04:17:18Z",
+      "articlesRetrieved": 139,
+      "responseTimeMs": 464,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,56 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-28T00:17:18Z",
-      "lastSuccessAt": "2026-07-28T00:17:19Z",
+      "lastAttemptAt": "2026-07-28T04:17:18Z",
+      "lastSuccessAt": "2026-07-28T04:17:18Z",
       "articlesRetrieved": 10,
-      "responseTimeMs": 771,
+      "responseTimeMs": 692,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-07-28T00:17:18Z",
-      "lastSuccessAt": "2026-07-28T00:17:19Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 777,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-28T04:17:18Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
+    {
+      "id": "7181402c9d1ed0df5babdde2",
+      "title": "France and Spain race to contain huge wildfires before fresh heatwave begins",
+      "translatedTitle": null,
+      "description": "Coming days are ‘absolutely critical’ for firefighters before temperatures rise again this week, officials say Firefighters in France and Spain are racing to bring huge wildfires under control before another heatwave this week that will complicate efforts to tame the flames. Spain’s interior minister, Fernando Grande-Marlaska, said Monday and Tuesday were “absolutely crucial days” before temperatures rise again from Wednesday, prompting prime minister, Pedro Sánchez, to warn: “We face difficult",
+      "url": "https://www.theguardian.com/world/2026/jul/27/france-and-spain-race-to-contain-huge-wildfires-before-fresh-heatwave-begins",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/27/france-and-spain-race-to-contain-huge-wildfires-before-fresh-heatwave-begins",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T02:37:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9719db8f2716e9050d9cb16570f425a1fd8d11ce/131_0_2720_2176/master/2720.jpg?width=140&quality=85&auto=format&fit=max&s=52af21ce3ebb3aecf509d507838803d8",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "041ac056d4808eed01d0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.69568
+    },
     {
       "id": "5c0cdd734e07a106166baff4",
       "title": "Russia and North Korea finalising first road crossing amid concerns it serves as Ukraine war supply route",
@@ -78,15 +108,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T00:17:19Z",
+      "retrievedAt": "2026-07-28T04:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "13ad2196fa909f99d755",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.84759
+      "rankingScore": 8.06769,
+      "related": []
     },
     {
       "id": "daa43b4d64a3f1388764bd7b",
@@ -115,8 +145,160 @@
       "clusterId": "629f1f61e9c58757d017",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.89142,
+      "related": []
+    },
+    {
+      "id": "1a561f104ce5d2102125f821",
+      "title": "BBC reports from outside court after judge rules singer D4vd will stand trial for murder",
+      "translatedTitle": null,
+      "description": "The body of 14-year-old Celeste Rivas Hernandez was found last September inside the trunk of a Tesla registered to singer D4vd.",
+      "url": "https://www.bbc.co.uk/news/videos/cy745x171rjo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/cy745x171rjo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T01:29:25Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49b4/live/4f708a60-8a23-11f1-b2ab-0dd01740f9f6.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a017864526fa3f2bbd9f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "c6a8a3e7466f3722d86c8808",
+          "title": "D4vd set to stand trial on murder charges in teen’s death",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://www.independent.co.uk/bulletin/news/d4vd-celeste-rivas-hernandez-murder-trial-b3022646.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/news/d4vd-celeste-rivas-hernandez-murder-trial-b3022646.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-27T23:17:25Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/24/20/42/AP26198808563228.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-28T00:17:19Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "a017864526fa3f2bbd9f",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.23126,
+          "normalizedTitle": "d4vd set to stand trial on murder charges in teen s death",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 7.19323
+    },
+    {
+      "id": "44d8aa911d67b22675389e61",
+      "title": "‘We have lost everything’: extreme rainfall across Asia brings flash floods and typhoons",
+      "translatedTitle": null,
+      "description": "From Afghanistan to Taiwan, unprecedented deluge highlights devastating impact of climate breakdown “It rained for 10 days and 10 nights, non-stop – I’d never seen anything like it,” says Anar Gul, a construction worker who lives in the remote district of Dur Baba in eastern Afghanistan. The houses in his village are built from stone and mud, which makes them extremely vulnerable to heavy rains. After days of rain, Gul’s kitchen collapsed and his neighbour, Sayed Afsar Sadat, saw a large part of",
+      "url": "https://www.theguardian.com/environment/2026/jul/28/extreme-rainfall-asia-flash-floods-typhoons-climate-change",
+      "canonicalUrl": "https://theguardian.com/environment/2026/jul/28/extreme-rainfall-asia-flash-floods-typhoons-climate-change",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T04:00:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f97c494a14e06042be09c06340904e88917b1525/306_0_2822_2258/master/2822.jpg?width=140&quality=85&auto=format&fit=max&s=e76c101286f2228afe71f53f63e08556",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4df1707697215f2b8f5c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.29987
+      "rankingScore": 7.15593
+    },
+    {
+      "id": "6422331e22a699a9d08799fa",
+      "title": "Nudists, peaceniks and freeloading travellers: the people keeping the Esperanto dream alive",
+      "translatedTitle": null,
+      "description": "Esperanto had always seemed to me like an idealistic movement that had failed. So why was its annual congress so vibrant and full of young people? The summer issue of the Long Read magazine is out now. Click here to order One day, as a 16-year-old in the late 2000s, I received an AOL instant message from my friend Kenyon. He wanted to know whether I had heard of Esperanto, the universal language. Kenyon was several years older than me, and something of a mentor. Like me, he was a musician – he e",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/28/nudists-peaceniks-freeloading-travellers-esperanto",
+      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/jul/28/nudists-peaceniks-freeloading-travellers-esperanto",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T04:00:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6c48a6228fe675fdd4f56abe84d08f0d27d4bf4c/0_874_3989_3190/master/3989.jpg?width=140&quality=85&auto=format&fit=max&s=70dbc9d11fcc20bedd2d9aa7722f8eaa",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e2d82c4f73970eec0a37",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15593
+    },
+    {
+      "id": "772fedf6432d8496b219fce6",
+      "title": "What to expect from Zelensky and Netanyahu's visit to Washington",
+      "translatedTitle": null,
+      "description": "Republican Senator Lindsay Graham's funeral is bringing the two world leaders to town, where they'll separately visit the White House to discuss their region's wars.",
+      "url": "https://www.bbc.co.uk/news/videos/cd0xlnz2yk1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/cd0xlnz2yk1o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T00:30:11Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4abf/live/3a7f1ae0-8a19-11f1-b8ee-9b3c26ad07bb.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "82260b3e6c4c80097ff5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.04272
     },
     {
       "id": "61f35fe9bf380e141baf287d",
@@ -138,7 +320,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T00:17:18Z",
+      "retrievedAt": "2026-07-28T04:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -146,7 +328,67 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.39336
+      "rankingScore": 6.96828
+    },
+    {
+      "id": "977bf04ca7333aafca281e56",
+      "title": "Ukraine war briefing: Disastrous drone expo’s organiser appears in Kyiv court",
+      "translatedTitle": null,
+      "description": "Russian attack killed 11 at publicly promoted event attended by military and state officials; Zelenskyy heads for Washington. What we know on day 1,616 Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/jul/28/ukraine-war-briefing-disastrous-drone-expos-organiser-appears-in-kyiv-court",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/28/ukraine-war-briefing-disastrous-drone-expos-organiser-appears-in-kyiv-court",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T01:51:11Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9c4a222c7ba09a04da92c83dedd8e8a3442a9371/311_0_3833_3067/master/3833.jpg?width=140&quality=85&auto=format&fit=max&s=7275a1836ef231b9c5542edcb4b7359f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0942625038da59d2d4f8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.91157
+    },
+    {
+      "id": "2ee5feb14c3fbe0ce4445cf2",
+      "title": "Trump to hold talks that could prove crucial to two wars",
+      "translatedTitle": null,
+      "description": "👉 Follow Trump100 on your podcast app 👈",
+      "url": "https://news.sky.com/story/has-trump-destroyed-the-president-press-relationship-forever-13567602",
+      "canonicalUrl": "https://news.sky.com/story/has-trump-destroyed-the-president-press-relationship-forever-13567602",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T00:01:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-trump-100-podcast_7308184.jpg?20260728010502",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "529a47f7d8f1e538547c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.72519
     },
     {
       "id": "98672336a20d3338b586266b",
@@ -175,8 +417,8 @@
       "clusterId": "7613e537c8d574e85eef",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.05085
+      "rankingScore": 6.62228,
+      "related": []
     },
     {
       "id": "55095dcdef45d6c1f984cda7",
@@ -205,8 +447,8 @@
       "clusterId": "d3e72cf0b60a40adf7fd",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.00959
+      "rankingScore": 6.58925,
+      "related": []
     },
     {
       "id": "855c149c58c99dee5a4c05b3",
@@ -235,8 +477,308 @@
       "clusterId": "8e27fd88a07924f36f7b",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.5848,
+      "related": []
+    },
+    {
+      "id": "62be7f082e7c7b6db140f7a9",
+      "title": "Chip firms fall in US and Asia as AI jitters rattle investors",
+      "translatedTitle": null,
+      "description": "Trading on South Korea's Kospi index was paused temporarily on Tuesday morning after sliding by 8%.",
+      "url": "https://www.bbc.co.uk/news/articles/cly8zng43npo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cly8zng43npo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T03:49:33Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e056/live/347f61f0-8a31-11f1-949c-5b05e00ab03c.jpg",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ff84c6c5403cf1311a73",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.00403
+      "rankingScore": 6.05414
+    },
+    {
+      "id": "8800292151f2e04c2c740eba",
+      "title": "'I just found all the classified stuff downstairs' - Biden to ghostwriter",
+      "translatedTitle": null,
+      "description": "Recordings between Biden and his ghostwriter reveal references to classified information and memory gaps.",
+      "url": "https://www.bbc.co.uk/news/articles/cr49znlz5ggo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cr49znlz5ggo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T03:20:20Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d22/live/4a472780-8a2b-11f1-8577-7fb0b5f56b15.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5e760ab7408b520db6c9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.99692
+    },
+    {
+      "id": "5d33e642e90c2eaf4919c44d",
+      "title": "Burnham says pupils in England need clearer pathway into work",
+      "translatedTitle": null,
+      "description": "The government wants pupils to take subjects like AI and manufacturing which are linked to local jobs.",
+      "url": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cj4k2djd5qpo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T02:56:21Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb38/live/76a92500-89f7-11f1-ad85-33848ec6bcfe.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "549814c40955c08dd6cc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.95108
+    },
+    {
+      "id": "1f1104a26b671cc0aa4b8e26",
+      "title": "Johnson & Johnson offers up to $5.5bn to settle baby powder lawsuits",
+      "translatedTitle": null,
+      "description": "The proposed settlement aims to close a years-long legal battle over claims its talcs products cause cancer.",
+      "url": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/clyqnz52rp6o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T01:53:58Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/988d/live/89834e70-8a1b-11f1-8e1d-ab6aa2cf2cd1.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ae46fc6cf9753191ff47",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.83653
+    },
+    {
+      "id": "00d74dbc625c32ca78f8d686",
+      "title": "Scoop of the year! We taste-test 99 of 2026’s most unusual ice creams, from the unbeatable to the unlickable",
+      "translatedTitle": null,
+      "description": "From olive oil to matcha, soy sauce to sage and onion stuffing, there’s a frozen designer dessert out there to tickle even the most jaded palate. Here’s the best – and worst – of what’s on offer in Britain this summer What’s with all the weird ice-cream flavours this year? It feels as if supermarkets and independent companies are vying to make the most novel alternatives to a good old scoop of vanilla. But which are actually worth having? I tried 99 varieties of ice-cream tubs and ranked them fr",
+      "url": "https://www.theguardian.com/food/2026/jul/28/taste-test-99-unusual-ice-cream-flavours",
+      "canonicalUrl": "https://theguardian.com/food/2026/jul/28/taste-test-99-unusual-ice-cream-flavours",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T04:00:29Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8444c42d6806d3c2c7a06f3cded7bbb108ee2aa0/0_645_4220_3376/master/4220.jpg?width=140&quality=85&auto=format&fit=max&s=ab0238360a1c9bff0e1cab47b1eaa1d5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "243e9847b3619ed80392",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80596
+    },
+    {
+      "id": "f12e59d0ab511e9a95f8077c",
+      "title": "Train drivers in Great Britain consider strike action over lack of toilets",
+      "translatedTitle": null,
+      "description": "Unions say basic needs still not being met a year after regulator told operators to improve facilities Train drivers are considering strike action over a lack of toilets, with unions saying basic needs are still not addressed a year after the rail regulator told operators to provide more facilities and breaks. Aslef said it was “putting the industry on notice”. The train drivers’ union added that companies had failed to deliver adequate toilets and reduce maximum driving times without a toilet b",
+      "url": "https://www.theguardian.com/business/2026/jul/28/train-drivers-consider-strike-action-lack-of-toilets",
+      "canonicalUrl": "https://theguardian.com/business/2026/jul/28/train-drivers-consider-strike-action-lack-of-toilets",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T04:00:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/98f41ef87cf86bc60aa06074eb9882c1d6ec15b6/956_0_6703_5366/master/6703.jpg?width=140&quality=85&auto=format&fit=max&s=abca5dcd81b4764eec68dbb4481928f5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a37d5de4d7c67f47be30",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80593
+    },
+    {
+      "id": "36f8d7ed29691930327babaf",
+      "title": "Burnham appoints Phillipson as Labour Party chair",
+      "translatedTitle": null,
+      "description": "She will work closely with Lucy Powell, having lost out to her in the deputy leadership contest.",
+      "url": "https://www.bbc.co.uk/news/articles/cjd4zl0v8kvo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cjd4zl0v8kvo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T01:35:28Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6436/live/b85cbe20-89f3-11f1-ad85-33848ec6bcfe.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d68b7b15cfb70f35aa24",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.80381,
+      "related": []
+    },
+    {
+      "id": "304e00462bd3061d1585e054",
+      "title": "Why attachment theory is everywhere right now and how it can help you",
+      "translatedTitle": null,
+      "description": "Attachment theory is everywhere right now, but what is it and how can you use it to improve your relationships?",
+      "url": "https://www.bbc.co.uk/news/articles/cnv95790mgpo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cnv95790mgpo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T00:21:34Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f567/live/eca661b0-8997-11f1-b2ab-0dd01740f9f6.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "506b39d24fd649634cf0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67856
+    },
+    {
+      "id": "64392b59647168ba6dc2ecbb",
+      "title": "Fourth heatwave grips parts of UK with 35C forecast",
+      "translatedTitle": null,
+      "description": "A fourth heatwave of the year is now under way for parts of the UK, with temperatures expected to climb into the mid-30s Celsius later this week.",
+      "url": "https://www.bbc.co.uk/weather/articles/cg4d190z6xko?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/weather/articles/cg4d190z6xko?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T00:18:58Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41a3/live/3e4c4490-89ce-11f1-a7ab-8b30adf0800a.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ac9ee34e162b41de9769",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.6743
+    },
+    {
+      "id": "8177f438bf0d935118af45c9",
+      "title": "Hundreds of thousands of women get morning-after pill via free pharmacy service",
+      "translatedTitle": null,
+      "description": "Since October, the morning-after pill has been made available free-of-charge at high street pharmacies under a new scheme in England.",
+      "url": "https://www.bbc.co.uk/news/articles/cn9n1rg3n81o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cn9n1rg3n81o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T00:14:41Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4585/live/380a4a50-8a19-11f1-831c-e5ac62e791c5.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e08a6d9b035e90676945",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66732
     },
     {
       "id": "f5d3942bfcb89679c2789bc6",
@@ -258,7 +800,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T00:17:18Z",
+      "retrievedAt": "2026-07-28T04:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -266,37 +808,187 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.07363
+      "rankingScore": 5.64252
     },
     {
-      "id": "3e9e04a5b97dffd9a2a09071",
-      "title": "Andy Burnham appoints equalities minister Bridget Phillipson as Labour party chair",
+      "id": "f8cb81166a4c606f61dd60bb",
+      "title": "Asia ‘scraping the bottom of the barrel’ as Red Sea oil blockade worsens energy crisis",
       "translatedTitle": null,
-      "description": "The Prime Minister said Ms Phillipson will help drive ‘culture change’ in the party",
-      "url": "https://www.independent.co.uk/news/uk/politics/bridget-phillipson-labour-chairwoman-burnham-b3022655.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/bridget-phillipson-labour-chairwoman-burnham-b3022655.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "The Houthi threat to Saudi oil exports comes as Japan, South Korea and the Philippines are still reeling from the closure of the strait of Hormuz Governments in Asia are scrambling to avoid their second major energy crisis in six months, as another maritime chokepoint in the Middle East faces a violent blockade, leaving only the Suez canal completely open for the free movement of gulf oil. Countries like Japan, the Philippines, Thailand and South Korea – which rely on Middle East oil for up to 9",
+      "url": "https://www.theguardian.com/world/2026/jul/28/asia-energy-oil-crisis-red-sea-blockade-houthis",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/28/asia-energy-oil-crisis-red-sea-blockade-houthis",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-28T00:01:05Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/28/00/2026-07-21T132721Z_29341590_RC2DIMATSJRZ_RTRMADP_3_BRITAIN-POLITICS-CABINET.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-07-28T01:37:05Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fcc9efbf60936f70258e466770fbc094e903e225/414_0_4728_3783/master/4728.jpg?width=140&quality=85&auto=format&fit=max&s=56a3699ca7090500a18134cf90eb2d9a",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-28T00:17:19Z",
+      "retrievedAt": "2026-07-28T04:17:18Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "57b912226292da76c61a",
+      "clusterId": "8cc1a906af96b8dfd8ab",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.71714
+      "rankingScore": 5.53664
+    },
+    {
+      "id": "67dd9810dd12b1b108a9bf78",
+      "title": "Betye Saar, pioneering figure of Black arts movement, dies at 99",
+      "translatedTitle": null,
+      "description": "Leading assemblage artist was known for reclaiming Jim Crow-era memorabilia as images of Black liberation Artist Betye Saar, the pioneering figure of the Black arts movement, died on Sunday morning in her home town of Los Angeles. She was 99. Saar, a famous practitioner of assemblage, an artistic style that builds sculpture from everyday objects, was best known for reclaiming Jim Crow era memorabilia such as dolls and washboards and recasting them as images of Black liberation. Saar also worked",
+      "url": "https://www.theguardian.com/artanddesign/2026/jul/27/betye-saar-death",
+      "canonicalUrl": "https://theguardian.com/artanddesign/2026/jul/27/betye-saar-death",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T01:33:45Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8ec5238ef770bf2ee437f0d08faa1fe5c45509aa/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=fc21cb38e3dfd84857c953200181da90",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f4ecfdcfb78fe21f7837",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.5308
+    },
+    {
+      "id": "6b30b839e6eae9bc37bf1456",
+      "title": "US singer set to face murder trial over death of 14-year-old girl",
+      "translatedTitle": null,
+      "description": "US singer D4vd is set to stand trial over the death of a 14-year-old girl after a judge ruled prosecutors had presented sufficient evidence.",
+      "url": "https://news.sky.com/story/us-singer-d4vd-set-to-face-murder-trial-over-death-of-14-year-old-girl-13567603",
+      "canonicalUrl": "https://news.sky.com/story/us-singer-d4vd-set-to-face-murder-trial-over-death-of-14-year-old-girl-13567603",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T00:57:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-court-d4vd_7308186.jpg?20260728023412",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "903170a5bfef4f29f790",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.46754
+    },
+    {
+      "id": "338f36b851bbdef2ad2d981b",
+      "title": "India’s youth-led Cockroach movement demands detained protesters be released",
+      "translatedTitle": null,
+      "description": "Cockroach Janta party says it has received reports of students held in detention in states of Assam, West Bengal and Bihar India’s youth-led “cockroach” movement, whose nationwide protests forced the resignation of the education minister, has urged authorities to release all detained demonstrators. The online Cockroach Janta party (CJP), which organised protests over exam paper leaks and other irregularities, said they had received reports of students held in detention, particularly in the state",
+      "url": "https://www.theguardian.com/world/2026/jul/28/india-cockroach-janta-party-cjp-demands-protesters-release",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/28/india-cockroach-janta-party-cjp-demands-protesters-release",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-28T00:48:00Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/68bdbbc529c2dc2c677063f5809ff76f24f30d57/318_0_3781_3025/master/3781.jpg?width=140&quality=85&auto=format&fit=max&s=f37b411c63238804f6e0a9fcee6dfac0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "240b55ab06ced38b982b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.45238
+    },
+    {
+      "id": "8bc75715eb1a40a29a3b6a7b",
+      "title": "Machine could make more donated lungs suitable for transplant",
+      "translatedTitle": null,
+      "description": "Nice backs wider use of system that keeps organs alive outside the body, to help improve low transplantation rates A machine that keeps organs alive outside the body could save four in every five donated lungs that currently go to waste in England and Wales. The UK has one of the poorest lung transplantation rates in the world. The latest figures from NHS Blood and Transplant show that 170 patients in the UK, including six children, are waiting for new lungs. Continue reading...",
+      "url": "https://www.theguardian.com/society/2026/jul/28/machine-donated-lungs-organ-transplant-nhs-nice",
+      "canonicalUrl": "https://theguardian.com/society/2026/jul/28/machine-donated-lungs-organ-transplant-nhs-nice",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T23:01:22Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a051b9af02b2e8cc2b15eca7a29f555a16d0a7ee/591_219_1345_1076/master/1345.jpg?width=140&quality=85&auto=format&fit=max&s=a10ae63f875e86aae19478e3633b2346",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "446700d58af39de1be73",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.28198,
+      "related": []
+    },
+    {
+      "id": "3e6defd668f5c5715e8eb08d",
+      "title": "Why criminal cases go cold - and the key to solving them",
+      "translatedTitle": null,
+      "description": "How much do police spend when they launch a cold case review? Inevitably, a lot.",
+      "url": "https://news.sky.com/story/why-criminal-cases-go-cold-and-the-key-to-solving-them-13567354",
+      "canonicalUrl": "https://news.sky.com/story/why-criminal-cases-go-cold-and-the-key-to-solving-them-13567354",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-27T23:01:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-lamplugh-police_7307724.jpg?20260727120707",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-28T04:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0624936914686d45da3e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28142
     },
     {
       "id": "f1f6bee59fcfb4a51fdad81f",
@@ -325,38 +1017,8 @@
       "clusterId": "a3cfb091e931048c4402",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69223
-    },
-    {
-      "id": "8bc75715eb1a40a29a3b6a7b",
-      "title": "Machine could make more donated lungs suitable for transplant",
-      "translatedTitle": null,
-      "description": "Nice backs wider use of system that keeps organs alive outside the body, to help improve low transplantation rates A machine that keeps organs alive outside the body could save four in every five donated lungs that currently go to waste in England and Wales. The UK has one of the poorest lung transplantation rates in the world. The latest figures from NHS Blood and Transplant show that 170 patients in the UK, including six children, are waiting for new lungs. Continue reading...",
-      "url": "https://www.theguardian.com/society/2026/jul/28/machine-donated-lungs-organ-transplant-nhs-nice",
-      "canonicalUrl": "https://theguardian.com/society/2026/jul/28/machine-donated-lungs-organ-transplant-nhs-nice",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-27T23:01:22Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a051b9af02b2e8cc2b15eca7a29f555a16d0a7ee/591_219_1345_1076/master/1345.jpg?width=140&quality=85&auto=format&fit=max&s=a10ae63f875e86aae19478e3633b2346",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T00:17:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "446700d58af39de1be73",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69056
+      "rankingScore": 5.26539,
+      "related": []
     },
     {
       "id": "49d3117a830d0e92d88c603f",
@@ -385,8 +1047,8 @@
       "clusterId": "8afc1afea85fefbaa62d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66742
+      "rankingScore": 5.24552,
+      "related": []
     },
     {
       "id": "ad7ecc98b142806aa9bb29f7",
@@ -415,8 +1077,8 @@
       "clusterId": "18d5c55ae8861653b69f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64076
+      "rankingScore": 5.22417,
+      "related": []
     },
     {
       "id": "4991169677e9eb29bc98d74c",
@@ -445,8 +1107,8 @@
       "clusterId": "bf3e82c51d4ea3c3e0bf",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.62472
+      "rankingScore": 5.21133,
+      "related": []
     },
     {
       "id": "cb64f4d6553261579e4c2eef",
@@ -475,8 +1137,8 @@
       "clusterId": "75de38b10333ea458118",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.62319
+      "rankingScore": 5.2101,
+      "related": []
     },
     {
       "id": "6cc46edfdcf7cb07e3880189",
@@ -505,8 +1167,8 @@
       "clusterId": "b97d55a042e31313b68c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61562
+      "rankingScore": 5.20404,
+      "related": []
     },
     {
       "id": "30393aee1a28a2ee6e7fc274",
@@ -535,8 +1197,8 @@
       "clusterId": "a5ecd93b9a57ce12e377",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61176
+      "rankingScore": 5.20095,
+      "related": []
     },
     {
       "id": "4477673928b73758909aca50",
@@ -565,8 +1227,8 @@
       "clusterId": "40a29e4c7570c3520f44",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60554
+      "rankingScore": 5.19596,
+      "related": []
     },
     {
       "id": "c8131b26da6d009a7b2aac57",
@@ -595,8 +1257,8 @@
       "clusterId": "74b934c55e7f8f41939e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.34159
+      "rankingScore": 4.90491,
+      "related": []
     },
     {
       "id": "e75d3f9da7445ffc0f941e20",
@@ -625,8 +1287,8 @@
       "clusterId": "e593f0acaa05492b74ab",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.27498
+      "rankingScore": 4.85157,
+      "related": []
     },
     {
       "id": "bdab626a05538eec28cdd1e1",
@@ -655,38 +1317,8 @@
       "clusterId": "5dd9c5c70ddb931780be",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.23831
-    },
-    {
-      "id": "c6a8a3e7466f3722d86c8808",
-      "title": "D4vd set to stand trial on murder charges in teen’s death",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/d4vd-celeste-rivas-hernandez-murder-trial-b3022646.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/d4vd-celeste-rivas-hernandez-murder-trial-b3022646.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-27T23:17:25Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/24/20/42/AP26198808563228.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-28T00:17:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8f305433b17b244ac440",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.23126
+      "rankingScore": 4.82221,
+      "related": []
     },
     {
       "id": "c191f8f7fe7e341595935fb0",
@@ -715,8 +1347,8 @@
       "clusterId": "3e90f14579ad39f4fdd3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.22818
+      "rankingScore": 4.8141,
+      "related": []
     },
     {
       "id": "5a231ea9ef8e9bb5ad336052",
@@ -745,8 +1377,8 @@
       "clusterId": "0d48dc87d40158f90ef9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.22226
+      "rankingScore": 4.80935,
+      "related": []
     }
   ]
 }
