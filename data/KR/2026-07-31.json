@@ -4,33 +4,33 @@
   "countryName": "South Korea",
   "timeZone": "Asia/Seoul",
   "date": "2026-07-31",
-  "generatedAt": "2026-07-30T16:17:47Z",
-  "lastAttemptAt": "2026-07-30T16:17:47Z",
-  "lastSuccessfulUpdate": "2026-07-30T16:17:47Z",
+  "generatedAt": "2026-07-30T20:17:58Z",
+  "lastAttemptAt": "2026-07-30T20:17:58Z",
+  "lastSuccessfulUpdate": "2026-07-30T20:17:58Z",
   "status": "partial",
   "samplePreview": false,
-  "articleCount": 10,
-  "publisherCount": 1,
+  "articleCount": 35,
+  "publisherCount": 2,
   "sourceHealth": [
     {
       "sourceId": "yonhap-en",
       "sourceName": "Yonhap News Agency",
-      "status": "success",
-      "lastAttemptAt": "2026-07-30T16:17:41Z",
-      "lastSuccessAt": "2026-07-30T16:17:43Z",
-      "articlesRetrieved": 83,
-      "responseTimeMs": 1344,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-30T20:17:52Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "ConnectError"
     },
     {
       "sourceId": "korea-herald",
       "sourceName": "The Korea Herald",
       "status": "success",
-      "lastAttemptAt": "2026-07-30T16:17:41Z",
-      "lastSuccessAt": "2026-07-30T16:17:43Z",
+      "lastAttemptAt": "2026-07-30T20:17:52Z",
+      "lastSuccessAt": "2026-07-30T20:17:57Z",
       "articlesRetrieved": 0,
-      "responseTimeMs": 1640,
+      "responseTimeMs": 5032,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "korea-times",
       "sourceName": "The Korea Times",
       "status": "success",
-      "lastAttemptAt": "2026-07-30T16:17:41Z",
-      "lastSuccessAt": "2026-07-30T16:17:45Z",
+      "lastAttemptAt": "2026-07-30T20:17:52Z",
+      "lastSuccessAt": "2026-07-30T20:17:57Z",
       "articlesRetrieved": 0,
-      "responseTimeMs": 4079,
+      "responseTimeMs": 5504,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,10 +49,10 @@
       "sourceId": "yna-ko",
       "sourceName": "Yonhap News Agency (Korean)",
       "status": "success",
-      "lastAttemptAt": "2026-07-30T16:17:41Z",
-      "lastSuccessAt": "2026-07-30T16:17:43Z",
+      "lastAttemptAt": "2026-07-30T20:17:52Z",
+      "lastSuccessAt": "2026-07-30T20:17:58Z",
       "articlesRetrieved": 120,
-      "responseTimeMs": 1559,
+      "responseTimeMs": 6177,
       "errorType": null,
       "errorMessage": null
     },
@@ -60,26 +60,776 @@
       "sourceId": "kbs-world-news",
       "sourceName": "KBS News",
       "status": "success",
-      "lastAttemptAt": "2026-07-30T16:17:41Z",
-      "lastSuccessAt": "2026-07-30T16:17:42Z",
+      "lastAttemptAt": "2026-07-30T20:17:52Z",
+      "lastSuccessAt": "2026-07-30T20:17:57Z",
       "articlesRetrieved": 30,
-      "responseTimeMs": 292,
+      "responseTimeMs": 5189,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "sbs-headline",
       "sourceName": "SBS News",
-      "status": "failed",
-      "lastAttemptAt": "2026-07-30T16:17:41Z",
-      "lastSuccessAt": null,
-      "articlesRetrieved": 0,
-      "responseTimeMs": null,
-      "errorType": "RuntimeError",
-      "errorMessage": "Client error '403 Forbidden' for url 'https://news.sbs.co.kr/news/headlineRssFeed.do?plink=RSSREADER' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
+      "status": "success",
+      "lastAttemptAt": "2026-07-30T20:17:52Z",
+      "lastSuccessAt": "2026-07-30T20:17:57Z",
+      "articlesRetrieved": 15,
+      "responseTimeMs": 5363,
+      "errorType": null,
+      "errorMessage": null
     }
   ],
   "articles": [
+    {
+      "id": "788de02bd793984acd597c6c",
+      "title": "檢보완수사권 폐지법, 오늘 본회의 표결…패트 심사 단축법 상정",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 김정진 기자 = 더불어민주당은 31일 국회 본회의에서 검사의 보완 수사권 완전 폐지가 핵심인 형사소송법 개정안 표결에 나선다.",
+      "url": "https://www.yna.co.kr/view/AKR20260730187100001",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260730187100001",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T20:03:01Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/30/PYH2026073020990001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5e4de526ce3da91eaa12",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.33973
+    },
+    {
+      "id": "76af4672293b89c5953f8d11",
+      "title": "유럽, FIFA에 반기…\"민간에 지분매각 강행시 월드컵 보이콧\"",
+      "translatedTitle": null,
+      "description": "(브뤼셀·런던=연합뉴스) 현윤경 김지연 특파원 = 국제축구연맹(FIFA)이 월드컵의 지분을 민간 투자자들에게 매각하려는 계획을 강행할 경우 유럽...",
+      "url": "https://www.yna.co.kr/view/AKR20260731007400098",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731007400098",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T20:00:56Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/07/31/AKR20260731007400098_02_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8a899660346c09fb406a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.98555
+    },
+    {
+      "id": "bde0c769a0c0d906a55beb10",
+      "title": "[사이테크+] \"현생인류 게놈서 정체미상 고인류 계통 2개의 DNA 흔적 발견\"",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 이주영 기자 = 현생인류의 게놈에 네안데르탈인·데니소바인의 DNA 외에도 현생인류와 약 5만년 전 이전에 교배한 미확인 고인류...",
+      "url": "https://www.yna.co.kr/view/AKR20260730141300017",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260730141300017",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T20:00:01Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/07/30/AKR20260730141300017_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1c74da8badb1222130d0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.98371
+    },
+    {
+      "id": "a815f7a310a8021bf9f83b2a",
+      "title": "국제유가, 홍해 다국적 해상방위 논의에 반락…WTI 1%↓",
+      "translatedTitle": null,
+      "description": "(뉴욕=연합뉴스) 이지헌 특파원 = 사우디아라비아 주도로 홍해의 항행 자유를 보장하기 위한 다국적 연합 창설이 논의되면서 30일(현지시간) 국제...",
+      "url": "https://www.yna.co.kr/view/AKR20260731006900072",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731006900072",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T19:32:44Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/07/31/AKR20260731006900072_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "08627c91b142ed0b602e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.92973
+    },
+    {
+      "id": "77b2e5c34e79a300c3ca742e",
+      "title": "美中 경제수장, 9월 정상회담 샅바싸움…희토류·무역제재 논의(종합)",
+      "translatedTitle": null,
+      "description": "(워싱턴·베이징=연합뉴스) 홍정규 정성조 특파원 = 미국과 중국의 경제수장이 9월 워싱턴DC에서 열릴 예정인 정상회담을 앞두고 양국 간 현안을 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260731001451083",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731001451083",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T19:28:35Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/xi/2026/05/13/PXI20260513022301009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c761ed96403691ef1c38",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.92164
+    },
+    {
+      "id": "03c8113862ab8f80596efa24",
+      "title": "\"트럼프정부, 외국인 졸업생에 '美 취업수수료' 1.4억원 검토\"",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 박성민 특파원 = 도널드 트럼프 미국 행정부가 미국 대학을 졸업한 외국인 유학생이 미국에서 취업할 때 10만 달러(약 1억4...",
+      "url": "https://www.yna.co.kr/view/AKR20260731006700071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731006700071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T19:11:35Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/07/31/AKR20260731006700071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0d75f0b58ebb31b49631",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.88882
+    },
+    {
+      "id": "9695a65ab5088a8b49b35f25",
+      "title": "李대통령, 칠레 대통령에 '일월오봉도' 나전칠기 선물",
+      "translatedTitle": null,
+      "description": "(산티아고=연합뉴스) 임형섭 황윤기 기자 = 칠레를 공식 방문한 이재명 대통령은 30일(현지시간) 호세 안토니오 카스트 대통령에게 나전칠기 일월...",
+      "url": "https://www.yna.co.kr/view/AKR20260731006600001",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731006600001",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T19:09:15Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073100820001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8c9a12975bef9bac2410",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.88435
+    },
+    {
+      "id": "3672644d37d5aa078be25ee2",
+      "title": "사우디, '홍해 선박 보호' 14개국 해상 방위 연합 창설 발표",
+      "translatedTitle": null,
+      "description": "(요하네스버그=연합뉴스) 나확진 특파원 = 사우디아라비아가 30일(현지시간) 홍해에서 국제 선박과 에너지 수송로를 보호하기 위해 14개국이 참여...",
+      "url": "https://www.yna.co.kr/view/AKR20260731006400099",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731006400099",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T19:04:43Z",
+      "imageUrl": "https://img.yna.co.kr/photo/reuters/2026/07/25/PRU20260725240701009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5e98efcabb27a5fd4927",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.87571
+    },
+    {
+      "id": "35727ebb8e84ebf730acbf0e",
+      "title": "AI 성능경쟁에서 가성비경쟁으로…오픈AI, 기업요금 최대 80%↓",
+      "translatedTitle": null,
+      "description": "(샌프란시스코=연합뉴스) 권영전 특파원 = 인공지능(AI) 모델 성능 경쟁을 이어왔던 주요 AI 기업들이 가격 인하 경쟁에 뛰어들었다.",
+      "url": "https://www.yna.co.kr/view/AKR20260731006100091",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731006100091",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T19:02:18Z",
+      "imageUrl": "https://img.yna.co.kr/photo/reuters/2026/07/25/PRU20260725045701009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d666239e9f7372a5e513",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.87111
+    },
+    {
+      "id": "efde42e232014f988d9991a6",
+      "title": "엘살바도르 법원, 마약 밀매조직원에 1천48년 징역형",
+      "translatedTitle": null,
+      "description": "(멕시코시티=연합뉴스) 송광호 특파원 = 엘살바도르 법원이 마약 밀매조직원 3명에게 1천년이 넘는 징역형을 선고했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260731005800087",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731005800087",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T18:57:24Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/07/31/AKR20260731005800087_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "66240eba4c4f15e90e16",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.86183
+    },
+    {
+      "id": "0f33ad0c65fbcae8f1683710",
+      "title": "美국무차관, 탈북민 사례 언급하며 \"자유로운 정보의 힘 목격\"",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 이유미 특파원 = 미국 글로벌미디어국(USAGM) 국장 후보로 지명된 사라 로저스 미국 국무부 공공외교 담당 차관이 30일(...",
+      "url": "https://www.yna.co.kr/view/AKR20260731005400071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731005400071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T18:47:14Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/07/31/AKR20260731005400071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7f344a245e76aba80073",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.8427
+    },
+    {
+      "id": "c8127ad0a081c4bae1ce0068",
+      "title": "실탄 4발에도…\"죽는 줄\" 사찰 난입 괴한 공포의 추격전",
+      "translatedTitle": null,
+      "description": "절에서 장난감 총으로 스님을 위협한 뒤 달아난 50대 남성이 추격전 끝에 경찰에 붙잡혔습니다. 도주 과정에서 순찰차를 잇따라 들이받기까지 했는데, 음주 측정 결과 면허 정지 수준이었던 것으로 확인됐습니다.KNN 정효정 기자입니다.",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008683384&plink=RSSLINK&cooper=RSSREADER",
+      "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=RSSREADER&news_id=N1008683384&plink=RSSLINK",
+      "sourceName": "SBS News",
+      "sourceDomain": "news.sbs.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T20:02:00Z",
+      "imageUrl": "https://img.sbs.co.kr/newimg/news/20260730/202207556.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "90a28c84e7badf5c5647",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80769
+    },
+    {
+      "id": "6518ec84dd35a480fb838d93",
+      "title": "젤렌스키 \"러, 오랜만에 우크라에 북한 미사일 쏴\"(종합)",
+      "translatedTitle": null,
+      "description": "(이스탄불=연합뉴스) 김동호 특파원 = 러시아가 약 1년 만에 우크라이나 공습에 북한제 미사일을 사용했다는 주장이 제기됐다.",
+      "url": "https://www.yna.co.kr/view/AKR20260730192151108",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260730192151108",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T18:27:04Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2024/10/18/PYH2024101815710001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d52050b0822364be0461",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80528
+    },
+    {
+      "id": "019593b9dbd02c089fa4125a",
+      "title": "칠레 대통령 \"광물협력, 백지장도 맞들면\"…李대통령 남극 초대",
+      "translatedTitle": null,
+      "description": "(산티아고=연합뉴스) 임형섭 황윤기 기자 = 호세 안토니오 카스트 칠레 대통령은 30일(현지시간) \"한국에는 '백지장도 맞들면 낫다'라는 말이 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260731004400001",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731004400001",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T18:01:57Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073101820001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8101b558e38adbe61da3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.75964
+    },
+    {
+      "id": "ee09455e26372d58de1d64ad",
+      "title": "李대통령 \"한-칠레 FTA委 10년만에 재가동…광물 공급망 협력\"",
+      "translatedTitle": null,
+      "description": "(산티아고=연합뉴스) 임형섭 황윤기 기자 = 칠레를 공식 방문 중인 이재명 대통령은 30일(현지시간) \"한국과 칠레는 양국 자유무역협정(FTA)...",
+      "url": "https://www.yna.co.kr/view/AKR20260730194000001",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260730194000001",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T17:50:46Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073101860001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f01dc3120fbe0d951a8c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.73966
+    },
+    {
+      "id": "14ce830b435925f960748bfc",
+      "title": "브라질, 미국 추가 관세 부과에 WTO 제소…\"무역협정 위반\"",
+      "translatedTitle": null,
+      "description": "(멕시코시티=연합뉴스) 송광호 특파원 = 브라질 정부가 미국 행정부가 부과한 고율의 추가 관세 조치에 반발해 세계무역기구(WTO)에 미국을 공식...",
+      "url": "https://www.yna.co.kr/view/AKR20260731004000087",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731004000087",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T17:39:24Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/07/31/AKR20260731004000087_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "aa6064127e93ff8fb924",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.71956
+    },
+    {
+      "id": "d041f232164fad401e28d127",
+      "title": "운전대·페달없는 아마존 '죽스', 美로봇택시 상업운행 첫 승인",
+      "translatedTitle": null,
+      "description": "(샌프란시스코=연합뉴스) 권영전 특파원 = 운전대도 페달도 없는 아마존의 자율주행 자동차 '죽스'가 미국 정부에서 처음으로 로봇 택시 상업운행 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260731003900091",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731003900091",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T17:28:05Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/gt/2025/11/20/PGT20251120079001009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5b00065000b0f909ecc8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69976
+    },
+    {
+      "id": "63f5de02f9b13028f6402e5d",
+      "title": "'리튬 매장 1위' 칠레와 자원협력 강화…초국가범죄도 공동대응",
+      "translatedTitle": null,
+      "description": "(산티아고=연합뉴스) 임형섭 황윤기 기자 = 이재명 대통령의 공식방문을 계기로 정부는 30일(현지시간) 칠레와 광물 협력 및 초국가 범죄 공동 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260730194500001",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260730194500001",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T17:21:24Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073100460001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c2e21315a276f275e0a5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68816
+    },
+    {
+      "id": "8c32a153fb28c9e65ea10b81",
+      "title": "李대통령, 칠레 건국영웅 동상 헌화…카스트와 웃으며 '손하트'",
+      "translatedTitle": null,
+      "description": "(산티아고=연합뉴스) 임형섭 황윤기 기자 = 칠레를 공식 방문한 이재명 대통령은 30일(현지시간) 칠레 산티아고의 건국 영웅 동상에 헌화했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260731002800001",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731002800001",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T17:19:44Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/31/PYH2026073100040001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f6451cf3fdc812e12aaf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68528
+    },
+    {
+      "id": "5c99f6c002f8da81886c5a17",
+      "title": "홍해서 지중해까지…美·이란 공격 재개에 넓어지는 '제2전선'",
+      "translatedTitle": null,
+      "description": "(요하네스버그=연합뉴스) 나확진 특파원 = 최근 며칠간 소강 국면을 보였던 미국과 이란의 전쟁이 양측의 공격 재개로 다시 격화하고 있다.",
+      "url": "https://www.yna.co.kr/view/AKR20260731003500099",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731003500099",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T17:09:26Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/af/2026/07/30/PAF20260730191401009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "681071d1fbdafabaa2b5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66758
+    },
+    {
+      "id": "9a6279c587eb8625bda98674",
+      "title": "일론 머스크, 중간선거 앞두고 공화당에 힘 싣는다…슈퍼팩 복원",
+      "translatedTitle": null,
+      "description": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = 세계 최고 부자인 일론 머스크 스페이스X·테슬라 최고경영자(CEO)가 오는 11월 중간선거를 앞두고 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260731003300075",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731003300075",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T17:00:41Z",
+      "imageUrl": "https://img.yna.co.kr/photo/ap/2026/05/14/PAP20260514316201009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "891e9e134d3f5a13582f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.65267
+    },
+    {
+      "id": "ab200af694539b1143bb8691",
+      "title": "미셸 스틸 주한美대사, 부임 전 강경화 대사 만나 한미동맹 논의",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 백나리 특파원 = 미셸 스틸 주한미국대사가 한국으로 부임하기 전 강경화 주미대사를 만나 한미동맹 발전 방안을 논의했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260731002500071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731002500071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T16:49:10Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/07/31/AKR20260731002500071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "eb8e3ac8eb9c822b8a8a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.63323
+    },
+    {
+      "id": "413015c6c8f81474ac91522e",
+      "title": "모로코서 수백명 한꺼번에 스페인 세우타 진입…국경 대혼란",
+      "translatedTitle": null,
+      "description": "(런던=연합뉴스) 김지연 특파원 = 30일(현지시간) 북아프리카 모로코와 국경을 접한 스페인 자치도시 세우타에 이주민들이 한꺼번에 몰려들면서 큰...",
+      "url": "https://www.yna.co.kr/view/AKR20260731002600085",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731002600085",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T16:42:51Z",
+      "imageUrl": "https://img.yna.co.kr/photo/ap/2026/07/31/PAP20260731007201009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "166e80e246908a7da95f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.62266
+    },
+    {
+      "id": "3c5d7d1b338dd48a0964dd18",
+      "title": "'아르헨티나 혐오' 외국인 입국금지·추방…밀레이 긴급명령",
+      "translatedTitle": null,
+      "description": "(멕시코시티=연합뉴스) 송광호 특파원 = 아르헨티나 정부가 자국에 대한 혐오 메시지를 유포하거나 폭력을 선동하는 외국인에 대한 입국 금지와 추방...",
+      "url": "https://www.yna.co.kr/view/AKR20260731001700087",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731001700087",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T16:20:15Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/07/31/AKR20260731001700087_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4e6d09210b6441e5a0ff",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.58533
+    },
+    {
+      "id": "8ea3db17238d46b0082be91d",
+      "title": "美 \"이란 '美전투기 파괴' 주장 거짓…미사일 요격되거나 도달 실패\"",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 이유미 특파원 = 미군은 30일(현지시간) 최근 이란의 공격으로 미군 전투기 6대가 파괴되거나 손상됐다는 이란 측 주장에 대...",
+      "url": "https://www.yna.co.kr/view/AKR20260731002000071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260731002000071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-07-30T16:17:09Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/07/31/AKR20260731002000071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T20:17:58Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a3e9d21be1099775cdbb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.58027
+    },
     {
       "id": "ef00b9ee40dc42a389f5d8ed",
       "title": "EU, 'AI 기가팩토리' 7곳 건설…기술 주권 강화 차원",
@@ -100,15 +850,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T16:17:43Z",
+      "retrievedAt": "2026-07-30T20:17:58Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "3303044e222a57bd1f26",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.3113
+      "rankingScore": 5.53432,
+      "related": []
     },
     {
       "id": "85421cde6e8ca9def8209141",
@@ -130,21 +880,21 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T16:17:43Z",
+      "retrievedAt": "2026-07-30T20:17:58Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "023afbe67cf3b74a49a6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.95036
+      "rankingScore": 5.52556,
+      "related": []
     },
     {
       "id": "dad009519b2568fccd8f5f02",
       "title": "교전 재개한 美·이란 폭풍전야…중동전역 포화에 트럼프 선택은",
       "translatedTitle": null,
-      "description": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국과 이란이 사흘 만에 교전을 재개하면서 전면전 우려가 고조되고 있다. 그사이 중동 전역으로 확대된 전선...",
+      "description": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국과 이란이 나흘 만에 교전을 재개하면서 전면전 우려가 고조되고 있다. 그사이 중동 전역으로 확대된 전선...",
       "url": "https://www.yna.co.kr/view/AKR20260731001100071",
       "canonicalUrl": "https://yna.co.kr/view/AKR20260731001100071",
       "sourceName": "Yonhap News Agency (Korean)",
@@ -160,15 +910,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T16:17:43Z",
+      "retrievedAt": "2026-07-30T20:17:58Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "88907288e3e6c62c4112",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.94536
+      "rankingScore": 5.52156,
+      "related": []
     },
     {
       "id": "6974ffe59a2319f4a7ca43c2",
@@ -190,15 +940,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T16:17:43Z",
+      "retrievedAt": "2026-07-30T20:17:58Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "bc17fa6d81749703ecff",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.93176
+      "rankingScore": 5.51067,
+      "related": []
     },
     {
       "id": "01b864f1098ffe20b7f4dac2",
@@ -220,15 +970,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T16:17:43Z",
+      "retrievedAt": "2026-07-30T20:17:58Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "6c33a4cfac072f205fdd",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.91611
+      "rankingScore": 5.49814,
+      "related": []
     },
     {
       "id": "74e5af0bb31c097efa696cdc",
@@ -250,15 +1000,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T16:17:43Z",
+      "retrievedAt": "2026-07-30T20:17:58Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "f775e7ab5abba77b6994",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.90408
+      "rankingScore": 5.48851,
+      "related": []
     },
     {
       "id": "1ffce87aeaeebeb86dbe8af7",
@@ -280,15 +1030,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T16:17:43Z",
+      "retrievedAt": "2026-07-30T20:17:58Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "ae86d480790da18966fe",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.89049
+      "rankingScore": 5.47763,
+      "related": []
     },
     {
       "id": "f3e0e74458b3ec530f5723e1",
@@ -310,15 +1060,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T16:17:43Z",
+      "retrievedAt": "2026-07-30T20:17:58Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "d8ac21746760823c52e5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.88778
+      "rankingScore": 5.47546,
+      "related": []
     },
     {
       "id": "befb9204ca158755f01ff045",
@@ -340,15 +1090,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T16:17:43Z",
+      "retrievedAt": "2026-07-30T20:17:58Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "6ba437ca6752b6957711",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.87677
+      "rankingScore": 5.46664,
+      "related": []
     },
     {
       "id": "0cd941c9b3aa5b34257f5761",
@@ -370,15 +1120,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T16:17:43Z",
+      "retrievedAt": "2026-07-30T20:17:58Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "0a6c35a3ce0269a1207f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.86711
+      "rankingScore": 5.45891,
+      "related": []
     }
   ]
 }
