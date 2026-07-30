@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-30",
-  "generatedAt": "2026-07-30T12:17:29Z",
-  "lastAttemptAt": "2026-07-30T12:17:29Z",
-  "lastSuccessfulUpdate": "2026-07-30T12:17:29Z",
-  "status": "current",
+  "generatedAt": "2026-07-30T16:17:27Z",
+  "lastAttemptAt": "2026-07-30T16:17:27Z",
+  "lastSuccessfulUpdate": "2026-07-30T16:17:27Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-30T12:17:28Z",
-      "lastSuccessAt": "2026-07-30T12:17:28Z",
-      "articlesRetrieved": 34,
-      "responseTimeMs": 350,
+      "lastAttemptAt": "2026-07-30T16:17:26Z",
+      "lastSuccessAt": "2026-07-30T16:17:27Z",
+      "articlesRetrieved": 33,
+      "responseTimeMs": 309,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-30T12:17:28Z",
-      "lastSuccessAt": "2026-07-30T12:17:28Z",
+      "lastAttemptAt": "2026-07-30T16:17:26Z",
+      "lastSuccessAt": "2026-07-30T16:17:27Z",
       "articlesRetrieved": 137,
-      "responseTimeMs": 405,
+      "responseTimeMs": 407,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,240 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-30T12:17:28Z",
-      "lastSuccessAt": "2026-07-30T12:17:29Z",
+      "lastAttemptAt": "2026-07-30T16:17:26Z",
+      "lastSuccessAt": "2026-07-30T16:17:27Z",
       "articlesRetrieved": 10,
-      "responseTimeMs": 1147,
+      "responseTimeMs": 602,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-07-30T12:17:28Z",
-      "lastSuccessAt": "2026-07-30T12:17:28Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 573,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-30T16:17:26Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
+    {
+      "id": "50cc154ffea4f02167096149",
+      "title": "Palestine Action ban to be reviewed by Supreme Court",
+      "translatedTitle": null,
+      "description": "The UK's highest court gives Palestine Action permission to appeal the government's proscription of the group under anti-terrorism legislation.",
+      "url": "https://www.bbc.co.uk/news/articles/c87n321w9qlo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c87n321w9qlo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T16:05:40Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1315/live/d346b740-8c2d-11f1-9fe2-97492b603d93.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bfebeacd054018937d9f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "7fe34722f1cddf7b24dc2197",
+          "title": "Palestine Action terror ban to go to Supreme Court as 117 arrested at protest",
+          "translatedTitle": null,
+          "description": "Palestine Action's co-founder can take her case to the Supreme Court after the group's ban was ruled lawful.",
+          "url": "https://news.sky.com/story/palestine-action-terror-ban-to-go-to-supreme-court-as-117-arrested-at-protest-13568520",
+          "canonicalUrl": "https://news.sky.com/story/palestine-action-terror-ban-to-go-to-supreme-court-as-117-arrested-at-protest-13568520",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-30T15:24:00Z",
+          "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-palestine-action-supreme-court_7310581.jpg?20260730171312",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-30T16:17:27Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "bfebeacd054018937d9f",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "palestine action terror ban to go to supreme court as 117 arrested at protest"
+        },
+        {
+          "id": "6d266b183e5a30cc1bd9f54b",
+          "title": "Supreme court says Palestine Action co-founder can challenge ban on group",
+          "translatedTitle": null,
+          "description": "UK’s highest court gives permission for Huda Ammori to challenge court of appeal ruling The co-founder of Palestine Action has won permission to challenge the ban against the group at the UK’s highest court. The direct action group was proscribed as a terrorist organisation in July last year but its co-founder, Huda Ammori, has been fighting to have it overturned amid a mass civil disobedience campaign. Continue reading...",
+          "url": "https://www.theguardian.com/uk-news/2026/jul/30/supreme-court-says-palestine-action-co-founder-can-challenge-ban-on-group",
+          "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/30/supreme-court-says-palestine-action-co-founder-can-challenge-ban-on-group",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-30T15:03:21Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/6d2287d82274494f208077d1f771c7ded858f00b/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=41edc3ddf94ebb4241ae90997e0ba8f9",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-30T16:17:27Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "bfebeacd054018937d9f",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "supreme court says palestine action co founder can challenge ban on group"
+        }
+      ],
+      "rankingScore": 10.58596
+    },
+    {
+      "id": "ffc99f1bbfb2c811b8ce8d0d",
+      "title": "Bank of England holds interest rates at 3.75% as inflation fears mount",
+      "translatedTitle": null,
+      "description": "Split vote comes as Iran war is rekindled and oil price climbs back above $90 a barrel Business live – latest updates Only Middle East crisis is preventing drop in UK interest rates The Bank of England has kept UK interest rates on hold as it warned that a further escalation in the Iran war could drive inflation above 4% next year, adding to cost of living pressures on households. Against a volatile backdrop in the Middle East conflict, the Bank’s monetary policy committee (MPC) voted by six to",
+      "url": "https://www.theguardian.com/business/2026/jul/30/bank-of-england-holds-interest-rates-inflation-fears-mount",
+      "canonicalUrl": "https://theguardian.com/business/2026/jul/30/bank-of-england-holds-interest-rates-inflation-fears-mount",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T15:47:35Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/53cf458a65df5b5937800d8d1b053a84f8abfbbf/698_0_6432_5147/master/6432.jpg?width=140&quality=85&auto=format&fit=max&s=8d2656b0e68814ccff8128b443195c6a",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "da81ce04640804e45d88",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 10.22983,
+      "related": [
+        {
+          "id": "fdac5f23027d5423f5ab3a79",
+          "title": "Bank of England holds interest rates – but raise this year ‘not off the table’",
+          "translatedTitle": null,
+          "description": "The Bank Rate has remained at 3.75 per cent since December 2025 – but a hike is now expected this year",
+          "url": "https://www.independent.co.uk/news/uk/home-news/interest-rates-bank-of-england-vote-inflation-mpc-b3023961.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/interest-rates-bank-of-england-vote-inflation-mpc-b3023961.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-30T11:40:17Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/30/7/50/GettyImages-1229472876.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Business",
+          "topics": [],
+          "retrievedAt": "2026-07-30T12:17:28Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "da81ce04640804e45d88",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "bank of england holds interest rates but raise this year not off the table"
+        },
+        {
+          "id": "a3f57108774f88c19e25e9fd",
+          "title": "Bank of England makes interest rate decision with inflation expected to rise",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://www.independent.co.uk/bulletin/news/interest-rates-bank-of-england-inflation-b3024531.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/news/interest-rates-bank-of-england-inflation-b3024531.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-30T11:13:02Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/30/00/3d5bfe68fbe98546be75ed96d998792dY29udGVudHNlYXJjaGFwaSwxNzg1NDIyMjIy-2.81157813.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Business",
+          "topics": [],
+          "retrievedAt": "2026-07-30T12:17:28Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "da81ce04640804e45d88",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.57221,
+          "normalizedTitle": "bank of england makes interest rate decision with inflation expected to rise",
+          "sourceQuality": 1.0
+        },
+        {
+          "id": "eecfae8ed34fc2aa40356bab",
+          "title": "Bank of England set to hold interest rates at 3.75%",
+          "translatedTitle": null,
+          "description": "A number of economists have predicted another seven-to-two vote in favour of holding the current rate.",
+          "url": "https://www.independent.co.uk/news/business/bank-of-england-andrew-bailey-monetary-policy-committee-oxford-economics-donald-trump-b3024206.html",
+          "canonicalUrl": "https://independent.co.uk/news/business/bank-of-england-andrew-bailey-monetary-policy-committee-oxford-economics-donald-trump-b3024206.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-29T23:01:14Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/30/00/3d5bfe68fbe98546be75ed96d998792dY29udGVudHNlYXJjaGFwaSwxNzg1NDIyMjIy-2.81157813.jpg?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-30T00:17:18Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "da81ce04640804e45d88",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.21447,
+          "normalizedTitle": "bank of england set to hold interest rates at 3 75",
+          "sourceQuality": 1.0
+        }
+      ]
+    },
     {
       "id": "83063698b4a7610cfc34ea9d",
       "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
@@ -78,7 +292,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
+      "retrievedAt": "2026-07-30T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -240,166 +454,165 @@
           "normalizedTitle": "us launches strikes on iran in powerful response to surprise attack"
         }
       ],
-      "rankingScore": 10.43704
+      "rankingScore": 9.68332
     },
     {
-      "id": "ffc99f1bbfb2c811b8ce8d0d",
-      "title": "Bank of England holds interest rates at 3.75% as inflation fears mount",
+      "id": "95193d487f3bf168df11af0e",
+      "title": "European nations to boycott World Cup if Fifa goes ahead with investment plan",
       "translatedTitle": null,
-      "description": "Split vote comes as Iran war is rekindled and oil price climbs back above $90 a barrel Business live – latest updates The Bank of England has kept UK interest rates on hold as it warned that a further escalation in the Iran war could drive inflation above 4% next year, adding to cost of living pressures on households. Against a volatile backdrop in the Middle East conflict, the Bank’s monetary policy committee (MPC) voted by six to three to keep its key base rate at the current level of 3.75%. C",
-      "url": "https://www.theguardian.com/business/2026/jul/30/bank-of-england-holds-interest-rates-inflation-fears-mount",
-      "canonicalUrl": "https://theguardian.com/business/2026/jul/30/bank-of-england-holds-interest-rates-inflation-fears-mount",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "Uefa's 55 member associations vote to boycott the World Cup if Fifa proceeds with its plan to sell stakes in its competitions.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c5y67zrrdddo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T11:00:52Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/53cf458a65df5b5937800d8d1b053a84f8abfbbf/698_0_6432_5147/master/6432.jpg?width=140&quality=85&auto=format&fit=max&s=8d2656b0e68814ccff8128b443195c6a",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d54ca531bafd187f0137",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "fdac5f23027d5423f5ab3a79",
-          "title": "Bank of England holds interest rates – but raise this year ‘not off the table’",
-          "translatedTitle": null,
-          "description": "The Bank Rate has remained at 3.75 per cent since December 2025 – but a hike is now expected this year",
-          "url": "https://www.independent.co.uk/news/uk/home-news/interest-rates-bank-of-england-vote-inflation-mpc-b3023961.html",
-          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/interest-rates-bank-of-england-vote-inflation-mpc-b3023961.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-30T11:40:17Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/30/7/50/GettyImages-1229472876.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Business",
-          "topics": [],
-          "retrievedAt": "2026-07-30T12:17:28Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d54ca531bafd187f0137",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "bank of england holds interest rates but raise this year not off the table"
-        },
-        {
-          "id": "eecfae8ed34fc2aa40356bab",
-          "title": "Bank of England set to hold interest rates at 3.75%",
-          "translatedTitle": null,
-          "description": "A number of economists have predicted another seven-to-two vote in favour of holding the current rate.",
-          "url": "https://www.independent.co.uk/news/business/bank-of-england-andrew-bailey-monetary-policy-committee-oxford-economics-donald-trump-b3024206.html",
-          "canonicalUrl": "https://independent.co.uk/news/business/bank-of-england-andrew-bailey-monetary-policy-committee-oxford-economics-donald-trump-b3024206.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-29T23:01:14Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/30/00/3d5bfe68fbe98546be75ed96d998792dY29udGVudHNlYXJjaGFwaSwxNzg1NDIyMjIy-2.81157813.jpg?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-30T00:17:18Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d54ca531bafd187f0137",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 6.21447,
-          "normalizedTitle": "bank of england set to hold interest rates at 3 75",
-          "sourceQuality": 1.0
-        }
-      ],
-      "rankingScore": 10.139
-    },
-    {
-      "id": "14af442a928b61807eba6c69",
-      "title": "Major incident declared in Suffolk as 90 firefighters tackle wildfire on heathland",
-      "translatedTitle": null,
-      "description": "Several people evacuated after ‘large-scale, wind-driven’ fire about 5km away from Sizewell B nuclear plant A major incident has been declared as firefighters battle a large heathland fire on the Suffolk coast about 5km (3 miles) away from the Sizewell B nuclear power plant. Suffolk fire and rescue service was called to reports of a wildfire at Dunwich Heath, near Leiston, shortly after 5.30pm on Wednesday, and crews remained at the scene on Thursday morning. About 90 firefighters were tackling",
-      "url": "https://www.theguardian.com/uk-news/2026/jul/30/major-incident-fire-suffolk-coast-dunwich-heath-leiston",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/30/major-incident-fire-suffolk-coast-dunwich-heath-leiston",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T12:02:24Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f3417f016360c683c341bc10cb94060ee818cb82/317_0_1406_1126/master/1406.jpg?width=140&quality=85&auto=format&fit=max&s=5711ea611db4ba9291ede8bdc0ea8c53",
+      "publishedAt": "2026-07-30T16:05:40Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5aae/live/be7e8ec0-8c30-11f1-89bb-9b3e3c6f25f4.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
+      "retrievedAt": "2026-07-30T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f29816978a38b658dc4b",
+      "clusterId": "64a0fe09d3a5102e303e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 9.90913,
       "related": [
         {
-          "id": "a735b04f3d863de8d80a61ba",
-          "title": "Major incident declared as firefighters battle large Suffolk heathland blaze",
+          "id": "cd5294939d43b78c40e23f7b",
+          "title": "Uefa agrees to boycott Fifa competitions if World Cup sell-off plans proceed",
           "translatedTitle": null,
-          "description": "Residents have been told to shut their doors and windows as firefighters tackle the wildfire",
-          "url": "https://www.independent.co.uk/news/uk/home-news/dunwich-heath-fire-leiston-suffolk-b3024300.html",
-          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/dunwich-heath-fire-leiston-suffolk-b3024300.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
+          "description": "Uefa vote passes 55-0 at emergency meeting on Thursday Boycott would begin with Under-20 Women’s World Cup European countries have agreed to boycott all Fifa competitions if Gianni Infantino pushes forward with his proposals to sell chunks of the World Cup to US-based private investment. In an extraordinary development all 55 Uefa members resolved not to participate in future World Cups or other Fifa-run events, saying in a statement that they “unanimously and unequivocally reject” the proposals",
+          "url": "https://www.theguardian.com/football/2026/jul/30/uefa-agrees-to-boycott-fifa-competitions-if-world-cup-sell-off-plans-proceed",
+          "canonicalUrl": "https://theguardian.com/football/2026/jul/30/uefa-agrees-to-boycott-fifa-competitions-if-world-cup-sell-off-plans-proceed",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
           "sourceCountry": "GB",
           "editionCountry": "GB",
           "coverageCountries": [
             "GB"
           ],
           "language": "en",
-          "publishedAt": "2026-07-30T11:12:19Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/30/7/25/759373272_281783841a91753508_4385259117674965070_n-copy.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "publishedAt": "2026-07-30T15:35:09Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/a8217deda6db2f6e833e02bb59bcfab25230ca4f/130_0_2657_2126/master/2657.jpg?width=140&quality=85&auto=format&fit=max&s=3efc9b2de28b6c8e7436fa98cf009084",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-07-30T12:17:28Z",
+          "retrievedAt": "2026-07-30T16:17:27Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "f29816978a38b658dc4b",
+          "clusterId": "64a0fe09d3a5102e303e",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "major incident declared as firefighters battle large suffolk heathland blaze"
+          "sourceQuality": 1.05,
+          "normalizedTitle": "uefa agrees to boycott fifa competitions if world cup sell off plans proceed"
+        },
+        {
+          "id": "c6ae1db0992e21c83282562b",
+          "title": "UEFA to boycott World Cup - read statement in full",
+          "translatedTitle": null,
+          "description": "European nations have agreed to boycott the World Cup if Gianni Infantino goes ahead with selling off part of the tournament to private investors.",
+          "url": "https://news.sky.com/story/european-nations-agree-to-boycott-world-cup-if-fifa-goes-ahead-with-world-cup-sell-off-13568508",
+          "canonicalUrl": "https://news.sky.com/story/european-nations-agree-to-boycott-world-cup-if-fifa-goes-ahead-with-world-cup-sell-off-13568508",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-30T15:00:00Z",
+          "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-uefa-fifa-sell-off_7310521.jpg?20260730161838",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-30T16:17:27Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "64a0fe09d3a5102e303e",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "uefa to boycott world cup read statement in full"
+        },
+        {
+          "id": "1de28d06e6831700015d2727",
+          "title": "FIFA plans to speed up launch of new World Cup spin-off",
+          "translatedTitle": null,
+          "description": "FIFA already has plans to receive the first financing in less than 100 days from private investors in an accelerated launch of a new World Cup spinoff venture, Sky News can reveal.",
+          "url": "https://news.sky.com/story/fifa-plans-to-speed-up-launch-of-new-world-cup-spin-off-13568338",
+          "canonicalUrl": "https://news.sky.com/story/fifa-plans-to-speed-up-launch-of-new-world-cup-spin-off-13568338",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-30T08:05:00Z",
+          "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-gianni-infantino-fifa-president_7308706.jpg?20260728162521",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-30T12:17:29Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "64a0fe09d3a5102e303e",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.78109,
+          "normalizedTitle": "fifa plans to speed up launch of new world cup spin off",
+          "sourceQuality": 1.0
         }
-      ]
+      ],
+      "rankingScore": 8.88596
+    },
+    {
+      "id": "1289cef511e20a326879de6e",
+      "title": "Thousands of migrants enter tiny Spanish enclave of Ceuta from Morocco",
+      "translatedTitle": null,
+      "description": "Territory’s president calls for help from Spanish government as crowds of people arrive by sea or on foot The leader of Spain’s north African enclave of Ceuta has called on the government in Madrid to declare a national emergency after thousands of people swam and waded into the tiny territory from neighbouring Morocco in a matter of hours. Videos shot at Tarajal beach on Thursday showed crowds of people walking around the breakwaters and running on the beach and roads. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/jul/30/thousands-enter-spanish-enclave-ceuta-morocco-africa",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/30/thousands-enter-spanish-enclave-ceuta-morocco-africa",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T16:11:58Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8fdefc1a7d705bacefb26ace5f887259cf318e58/41_0_1212_969/master/1212.jpg?width=140&quality=85&auto=format&fit=max&s=8d1df4d8ecc1bfd6a3bcfd285b27c363",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "78f071859b00bd0119c7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.52869
     },
     {
       "id": "6525eb63a556a65845a79ef4",
       "title": "‘The crude language of Maga folks’: Joyce Carol Oates criticises Emily Wilson for criticising Nolan’s Odyssey",
       "translatedTitle": null,
-      "description": "The novelist suggested Wilson should have been ‘a wee bit more thoughtful and respectful’ towards a film-maker who may have helped her book sales The off-screen drama surrounding Christopher Nolan’s blockbuster version of the Odyssey stepped up a gear overnight, as the novelist Joyce Carol Oates sought to defend the film-maker from an attack by classicist Emily Wilson. Writing on X, Oates took issue with the style as well as the rhetoric of Wilson’s essay published earlier this week in the Londo",
+      "description": "The novelist suggested Wilson should have been ‘a wee bit more thoughtful and respectful’ towards a film-maker who may have helped boost her book sales The off-screen drama surrounding Christopher Nolan’s blockbuster version of the Odyssey stepped up a gear overnight, as the novelist Joyce Carol Oates sought to defend the film-maker from an attack by classicist Emily Wilson. Writing on X, Oates took issue with the style as well as the rhetoric of Wilson’s essay published earlier this week in the",
       "url": "https://www.theguardian.com/film/2026/jul/30/maga-joyce-carol-oates-criticises-emily-wilson-for-criticising-nolans-odyssey",
       "canonicalUrl": "https://theguardian.com/film/2026/jul/30/maga-joyce-carol-oates-criticises-emily-wilson-for-criticising-nolans-odyssey",
       "sourceName": "The Guardian",
@@ -415,13 +628,14 @@
       "imageAlt": null,
       "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
+      "retrievedAt": "2026-07-30T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "b35962dcc8f0501182be",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.42585,
       "related": [
         {
           "id": "49fb922630c617c9ef8d04ef",
@@ -453,191 +667,7 @@
           "sourceQuality": 1.0,
           "normalizedTitle": "joyce carol oates defends the odyssey from emily wilson s inappropriate attack on movie"
         }
-      ],
-      "rankingScore": 8.84512
-    },
-    {
-      "id": "72b1402e97efd38c1e883d38",
-      "title": "Joe Root returns as England Test cricket captain with Stephen Fleming named head coach",
-      "translatedTitle": null,
-      "description": "Former New Zealand captain Stephen Fleming is appointed as England Test coach, with Joe Root as captain.",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cx2mjk24lymo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/cricket/articles/cx2mjk24lymo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T11:13:50Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9b4/live/b4236a90-8bfe-11f1-a7ab-8b30adf0800a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e5a74c5d43dc09622619",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "9a8d215cc4e0af5c8001183a",
-          "title": "Root to captain England after Fleming confirmed as new men’s Test coach",
-          "translatedTitle": null,
-          "description": "New Zealander will take over for South Africa series Trescothick named interim coach for Pakistan Tests Stephen Fleming has been confirmed as the new coach of the England men’s Test team, with Joe Root returning for a second spell as captain. Marcus Trescothick will take interim charge for the three-game series against Pakistan which starts at Headingley in three weeks, with Fleming due to arrive in the country “later this summer” and assume the reins for this winter’s trip to South Africa. Foll",
-          "url": "https://www.theguardian.com/sport/2026/jul/30/joe-root-captain-england-stephen-fleming-test-coach-cricket",
-          "canonicalUrl": "https://theguardian.com/sport/2026/jul/30/joe-root-captain-england-stephen-fleming-test-coach-cricket",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-30T09:52:03Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/a901402b48bb3cd72fa2941709b28df58ae54f5a/408_0_4204_3363/master/4204.jpg?width=140&quality=85&auto=format&fit=max&s=36fc0be66698b7f12f0de941b1451fb6",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-30T12:17:28Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "e5a74c5d43dc09622619",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "root to captain england after fleming confirmed as new men s test coach"
-        },
-        {
-          "id": "6eb638c14c448769409a8f90",
-          "title": "Joe Root returns as England men's Test captain, replacing Ben Stokes",
-          "translatedTitle": null,
-          "description": "Joe Root is to return as England Test captain, replacing Ben Stokes, the England and Wales Cricket Board (ECB) has announced.",
-          "url": "https://news.sky.com/story/joe-root-returns-as-england-mens-test-captain-replacing-ben-stokes-13568372",
-          "canonicalUrl": "https://news.sky.com/story/joe-root-returns-as-england-mens-test-captain-replacing-ben-stokes-13568372",
-          "sourceName": "Sky News",
-          "sourceDomain": "news.sky.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-30T09:25:00Z",
-          "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-joe-root-england-cricket_7310217.jpg?20260730114226",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-30T12:17:29Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "e5a74c5d43dc09622619",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "joe root returns as england men s test captain replacing ben stokes"
-        }
-      ],
-      "rankingScore": 8.78375
-    },
-    {
-      "id": "6f52b880eadf4da1e6370aef",
-      "title": "Howe to leave Newcastle with Jaissle expected to replace him",
-      "translatedTitle": null,
-      "description": "Newcastle manager Eddie Howe is set to leave the club with immediate effect, sources tell BBC Sport.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5yd23l95vgo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c5yd23l95vgo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T10:11:52Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/945a/live/6cb01ca0-8bf7-11f1-9127-6b0fc0b6fa67.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e8acb6ce61b4508ceea7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "f46e2b8ebcf0876379872eaf",
-          "title": "Who is Matthias Jaissle? Newcastle’s next manager after shock Eddie Howe exit",
-          "translatedTitle": null,
-          "description": "Newcastle United's Eddie Howe has left his job as head coach, Sky Sports understands.",
-          "url": "https://www.independent.co.uk/bulletin/sport/matthias-jaissle-eddie-howe-newcastle-manager-b3024546.html",
-          "canonicalUrl": "https://independent.co.uk/bulletin/sport/matthias-jaissle-eddie-howe-newcastle-manager-b3024546.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-30T11:31:45Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/30/09/2272243440..?width=1200&auto=webp&trim=38%2C0%2C38%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-30T12:17:28Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "e8acb6ce61b4508ceea7",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "who is matthias jaissle newcastle s next manager after shock eddie howe exit",
-          "rankingScore": 7.53478
-        },
-        {
-          "id": "d277d31c9c5086d7ead9d08e",
-          "title": "Eddie Howe leaves Newcastle United with Matthias Jaissle set to replace him",
-          "translatedTitle": null,
-          "description": "Howe leaves after five years in charge at St James’ Park Al-Ahli’s German coach in line to take over Eddie Howe has left Newcastle and is set to be replaced by the German coach Matthias Jaissle, who is currently in charge of the Saudi Arabian club Al-Ahli. Although the timing of Howe’s abrupt departure following almost five years in charge at St James’ Park is unexpected, his position had been under intense scrutiny from Newcastle’s Saudi Arabian owners for some time. Continue reading...",
-          "url": "https://www.theguardian.com/football/2026/jul/30/eddie-howe-leaves-newcastle-united-premier-league",
-          "canonicalUrl": "https://theguardian.com/football/2026/jul/30/eddie-howe-leaves-newcastle-united-premier-league",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-30T08:26:06Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/3964adb65e6e80e0a56af64d41825928cad16d67/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=fd397806a48c8ebf9199ed1c9601ea7e",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-30T12:17:28Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "e8acb6ce61b4508ceea7",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "eddie howe leaves newcastle united with matthias jaissle set to replace him"
-        }
-      ],
-      "rankingScore": 8.66811
+      ]
     },
     {
       "id": "66f040bf8056dec75011c003",
@@ -666,7 +696,7 @@
       "clusterId": "344638669685ebd313b3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.43934,
+      "rankingScore": 8.00329,
       "related": []
     },
     {
@@ -696,8 +726,8 @@
       "clusterId": "ad860f1ccf49faa20398",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.23764
+      "rankingScore": 7.84177,
+      "related": []
     },
     {
       "id": "07509e2366af2ea3da9c5dde",
@@ -726,7 +756,7 @@
       "clusterId": "111e508d91785410004e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.6516,
+      "rankingScore": 7.37244,
       "related": []
     },
     {
@@ -756,7 +786,7 @@
       "clusterId": "87c9f19dd20a3d05555d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.41385,
+      "rankingScore": 7.18205,
       "related": []
     },
     {
@@ -786,6 +816,7 @@
       "clusterId": "d669bae011c7dacf35f6",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.43081,
       "related": [
         {
           "id": "d75ce2c5d3947bfa19e46430",
@@ -817,129 +848,7 @@
           "sourceQuality": 1.0,
           "normalizedTitle": "three die off coast of france after attempting to cross english channel in taxi boat"
         }
-      ],
-      "rankingScore": 6.88909
-    },
-    {
-      "id": "1de28d06e6831700015d2727",
-      "title": "FIFA plans to speed up launch of new World Cup spin-off",
-      "translatedTitle": null,
-      "description": "FIFA already has plans to receive the first financing in less than 100 days from private investors in an accelerated launch of a new World Cup spinoff venture, Sky News can reveal.",
-      "url": "https://news.sky.com/story/fifa-plans-to-speed-up-launch-of-new-world-cup-spin-off-13568338",
-      "canonicalUrl": "https://news.sky.com/story/fifa-plans-to-speed-up-launch-of-new-world-cup-spin-off-13568338",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T08:05:00Z",
-      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-gianni-infantino-fifa-president_7308706.jpg?20260728162521",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:29Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c1b6689b00fa31c5b0ff",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "61554a51f94c12b91cae92ea",
-          "title": "Fifa aiming to finalise funding for controversial World Cup sell-off plan within months",
-          "translatedTitle": null,
-          "description": "Fifa unveiled its controversial World Cup sell-off plan earlier this week",
-          "url": "https://www.independent.co.uk/sport/football/fifa-world-cup-funding-infantino-kushner-trump-b3024536.html",
-          "canonicalUrl": "https://independent.co.uk/sport/football/fifa-world-cup-funding-infantino-kushner-trump-b3024536.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-30T11:22:56Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/30/12/2274184286..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-30T12:17:28Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "c1b6689b00fa31c5b0ff",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "fifa aiming to finalise funding for controversial world cup sell off plan within months"
-        }
-      ],
-      "rankingScore": 6.78109
-    },
-    {
-      "id": "daef8777f95f015d6c2f37a9",
-      "title": "Israel building new land barriers in Gaza and displacing families",
-      "translatedTitle": null,
-      "description": "Experts have told the BBC that the earthworks suggest Israel is planning for a long-term internal border.",
-      "url": "https://www.bbc.co.uk/news/articles/cpvwjmme3p0o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cpvwjmme3p0o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T05:05:24Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d78b/live/3e5491c0-8b6a-11f1-b2ab-0dd01740f9f6.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "381f3005adc019e0c73a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.73435
-    },
-    {
-      "id": "e8d4486a9d3a801ec6167d24",
-      "title": "‘Grey lump with orange wings’: hummingbird hawk-moths descend on UK gardens",
-      "translatedTitle": null,
-      "description": "Boom in migrating moth sightings put down to hot weather, strong winds and food scarcity in Europe He had just sat down to dinner in the garden when a speedy visitor whizzed by – a “grey lump with orange wings”, recalled Luke Burstow, from Sussex. It was a hummingbird hawk-moth, a flying insect that migrates to the UK from continental Europe and north Africa. “I was like: ‘Wow!’,” said the software project manager. “I didn’t even know they existed.” Continue reading...",
-      "url": "https://www.theguardian.com/environment/2026/jul/30/hummingbird-hawk-moth-sightings-migrating-uk",
-      "canonicalUrl": "https://theguardian.com/environment/2026/jul/30/hummingbird-hawk-moth-sightings-migrating-uk",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T08:00:01Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0189581954ee2410dba0041f14a5321ea0f20003/332_0_1647_1319/master/1647.jpg?width=140&quality=85&auto=format&fit=max&s=1e915381b53705b72bd8459a74d6a0e2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5fa807c8ae8ee16db825",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.72307,
-      "related": []
+      ]
     },
     {
       "id": "ca6dd8657224f5a30f794304",
@@ -968,16 +877,16 @@
       "clusterId": "fa7514c1a6443fdd3083",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.71664
+      "rankingScore": 6.28275,
+      "related": []
     },
     {
-      "id": "46705b0e4ba93c841284dfa7",
-      "title": "Shell’s profits more than double after jump in oil and gas prices",
+      "id": "6f51b97e61d23bf1f5ddca04",
+      "title": "Polls open in Greater Manchester mayoral byelection overshadowed by new PM and Farage’s antics",
       "translatedTitle": null,
-      "description": "Environmentalists renew calls for windfall tax to support households after Q2 earnings rise to almost $10bn Shell has recorded its second highest quarterly earnings on record as the energy market surge caused by the Middle East crisis helped to double its net profit to almost $10bn in the three months to June. Europe’s biggest oil and gas company reported a quarterly profit of $9.8bn (£7.4bn), more than double the figure for the second quarter last year and the highest since its record high earn",
-      "url": "https://www.theguardian.com/business/2026/jul/30/shell-profits-double-jump-oil-gas-prices",
-      "canonicalUrl": "https://theguardian.com/business/2026/jul/30/shell-profits-double-jump-oil-gas-prices",
+      "description": "Labour’s Bev Craig expected to win contest that lost column inches to Andy Burnham’s ascent and Reform UK leader’s self-imposed Clacton vote Voting has begun in the biggest byelection in British political history, with more than 2 million people eligible to choose Andy Burnham’s successor as Greater Manchester mayor. In normal times, such a large and politically significant byelection would have dominated the headlines for weeks, particularly as senior Labour figures only weeks ago feared losing",
+      "url": "https://www.theguardian.com/politics/2026/jul/30/greater-manchester-mayoral-byelection-overshadowed-labour-andy-burnham-bev-craig",
+      "canonicalUrl": "https://theguardian.com/politics/2026/jul/30/greater-manchester-mayoral-byelection-overshadowed-labour-andy-burnham-bev-craig",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -986,109 +895,19 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T07:08:01Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/377f5d0d34842f9e43249096b1b96762485a0bbe/493_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=0b164cdcb91d6f31fa6c7f69df79f355",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bb1ced6b8c3d3e2a49df",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.64161,
-      "related": []
-    },
-    {
-      "id": "b9cbf701e33c390c0a428c78",
-      "title": "Will interest rates go up today? Bank of England’s key factors and 2026 predictions",
-      "translatedTitle": null,
-      "description": "The Monetary Policy Committee cut rates four times last year but 2026 remains far more uncertain",
-      "url": "https://www.independent.co.uk/money/interest-rates-july-inflation-bank-of-england-mpc-b3024315.html",
-      "canonicalUrl": "https://independent.co.uk/money/interest-rates-july-inflation-bank-of-england-mpc-b3024315.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T07:59:31Z",
-      "imageUrl": "https://static.independent.co.uk/2025/06/13/10/15/iStock-485047832.jpeg?width=1200&auto=webp&trim=225%2C0%2C0%2C698",
+      "publishedAt": "2026-07-30T06:00:53Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1cbcde3d813fd7890ae0b539c5df7a95720fa93d/1881_318_6759_5407/master/6759.jpg?width=140&quality=85&auto=format&fit=max&s=a1f5f9f8e9254833443ddd0b42cd9d5f",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T08:17:25Z",
+      "retrievedAt": "2026-07-30T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "29fee4d2d37128ca4c3c",
+      "clusterId": "7092372a42f0cd3a61b6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.63227,
-      "related": []
-    },
-    {
-      "id": "e986e517218d05697e5e2bab",
-      "title": "Hundreds of invasive species are flooding the Mediterranean – and they are traveling north",
-      "translatedTitle": null,
-      "description": "1,000 invasive species have been identified in the Mediterranean",
-      "url": "https://www.independent.co.uk/news/world/europe/mediterranean-rome-greece-greeks-italian-b3024353.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/mediterranean-rome-greece-greeks-italian-b3024353.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T07:58:54Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/30/05/Climate_Mediterranean_Sea_Hotter_Waters_48942.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T08:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "45d6bb91f3a323c75569",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.63128,
-      "related": []
-    },
-    {
-      "id": "aa680cbc389a396a4625b3c9",
-      "title": "Donald Trump says Andy Burnham told him he will ‘open up North Sea oil’",
-      "translatedTitle": null,
-      "description": "The US president, who is a vocal supporter of fossil fuels, argues the move would make the UK ‘a wealthy country’.",
-      "url": "https://www.independent.co.uk/news/business/andy-burnham-donald-trump-north-sea-keir-starmer-ed-miliband-b3024141.html",
-      "canonicalUrl": "https://independent.co.uk/news/business/andy-burnham-donald-trump-north-sea-keir-starmer-ed-miliband-b3024141.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T07:56:51Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/29/21/29-9e6bfbd70d464ae1a2deda0f2b70333f.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T08:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5371d77168daf90a26e9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.628,
+      "rankingScore": 6.23295,
       "related": []
     },
     {
@@ -1118,38 +937,68 @@
       "clusterId": "39c8edb2ef7304270009",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.5941
+      "rankingScore": 6.17703,
+      "related": []
     },
     {
-      "id": "a3f57108774f88c19e25e9fd",
-      "title": "Bank of England makes interest rate decision with inflation expected to rise",
+      "id": "f55bc7a419d910600b99b04f",
+      "title": "Weatherwatch: rainclouds are travelling farther in warmer world",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/interest-rates-bank-of-england-inflation-b3024531.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/interest-rates-bank-of-england-inflation-b3024531.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Climate crisis affects not only the amount of rain that falls but where, with implications for land use and water security Have you ever wondered how far a raindrop has travelled before it lands on you? It may have journeyed thousands of kilometres from the ocean, sea or lake it evaporated from – and now research shows raindrops are travelling even farther than they used to. Warmer air can hold more water vapour, and that is changing not only how much rain we receive but also where it falls. Tra",
+      "url": "https://www.theguardian.com/news/2026/jul/30/weatherwatch-rainclouds-are-travelling-farther-in-warmer-world",
+      "canonicalUrl": "https://theguardian.com/news/2026/jul/30/weatherwatch-rainclouds-are-travelling-farther-in-warmer-world",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T11:13:02Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/30/00/3d5bfe68fbe98546be75ed96d998792dY29udGVudHNlYXJjaGFwaSwxNzg1NDIyMjIy-2.81157813.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-07-30T05:00:53Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4e79c6bf3a7ebf0609d30be8fe255cb8cbc7608f/366_0_4580_3665/master/4580.jpg?width=140&quality=85&auto=format&fit=max&s=e870194fe8a73d9d65eb5012df80b47a",
       "imageAlt": null,
-      "category": "Business",
+      "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
+      "retrievedAt": "2026-07-30T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "feea75904bd2b4924444",
+      "clusterId": "6de0f0dc9f970e44b443",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.57221
+      "rankingScore": 6.16578,
+      "related": []
+    },
+    {
+      "id": "0dd11abde3c6c99c141252b1",
+      "title": "I’ve seen what can confound Farage on his home turf: optimism. People need a politics that offers them that | Owen Jones",
+      "translatedTitle": null,
+      "description": "You can’t blame his constituents in Clacton for their pessimism – because they have been let down for years Under battered England flags, cynicism, pessimism and exhaustion stalk the streets of Clacton. As the byelection called by Nigel Farage approaches, one young couple do not know which candidates are standing. Neither has ever voted. Living in Britain is “depressing”, says the woman in a black floral dress. “The cost of living these days is stupid,” says her partner, wearing a black and grey",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/30/farage-home-turf-people-need-politics-optimism",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/30/farage-home-turf-people-need-politics-optimism",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T05:00:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/38b2a5da0fd0c9f045101bdb110463b18fb71033/408_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=ca43f482d742d096b41d104f8427ec02",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e084d3a404b9fde28d6b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.16576,
+      "related": []
     },
     {
       "id": "0732bfa8085fb6b5ef3ab53f",
@@ -1178,8 +1027,8 @@
       "clusterId": "c3b9414c74d6f0d8ba21",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.55156
+      "rankingScore": 6.14296,
+      "related": []
     },
     {
       "id": "72903d5737957486ad48dfa2",
@@ -1208,127 +1057,7 @@
       "clusterId": "2d8ebf1e810be605d125",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.54729
-    },
-    {
-      "id": "6f51b97e61d23bf1f5ddca04",
-      "title": "Polls open in Greater Manchester mayoral byelection overshadowed by new PM and Farage’s antics",
-      "translatedTitle": null,
-      "description": "Labour’s Bev Craig expected to win contest that lost column inches to Andy Burnham’s ascent and Reform UK leader’s self-imposed Clacton vote Voting has begun in the biggest byelection in British political history, with more than 2 million people eligible to choose Andy Burnham’s successor as Greater Manchester mayor. In normal times, such a large and politically significant byelection would have dominated the headlines for weeks, particularly as senior Labour figures only weeks ago feared losing",
-      "url": "https://www.theguardian.com/politics/2026/jul/30/greater-manchester-mayoral-byelection-overshadowed-labour-andy-burnham-bev-craig",
-      "canonicalUrl": "https://theguardian.com/politics/2026/jul/30/greater-manchester-mayoral-byelection-overshadowed-labour-andy-burnham-bev-craig",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T06:00:53Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1cbcde3d813fd7890ae0b539c5df7a95720fa93d/1881_318_6759_5407/master/6759.jpg?width=140&quality=85&auto=format&fit=max&s=a1f5f9f8e9254833443ddd0b42cd9d5f",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7092372a42f0cd3a61b6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.54207,
-      "related": []
-    },
-    {
-      "id": "f55bc7a419d910600b99b04f",
-      "title": "Weatherwatch: rainclouds are travelling farther in warmer world",
-      "translatedTitle": null,
-      "description": "Climate crisis affects not only the amount of rain that falls but where, with implications for land use and water security Have you ever wondered how far a raindrop has travelled before it lands on you? It may have journeyed thousands of kilometres from the ocean, sea or lake it evaporated from – and now research shows raindrops are travelling even farther than they used to. Warmer air can hold more water vapour, and that is changing not only how much rain we receive but also where it falls. Tra",
-      "url": "https://www.theguardian.com/news/2026/jul/30/weatherwatch-rainclouds-are-travelling-farther-in-warmer-world",
-      "canonicalUrl": "https://theguardian.com/news/2026/jul/30/weatherwatch-rainclouds-are-travelling-farther-in-warmer-world",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T05:00:53Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/4e79c6bf3a7ebf0609d30be8fe255cb8cbc7608f/366_0_4580_3665/master/4580.jpg?width=140&quality=85&auto=format&fit=max&s=e870194fe8a73d9d65eb5012df80b47a",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6de0f0dc9f970e44b443",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.45819,
-      "related": []
-    },
-    {
-      "id": "0dd11abde3c6c99c141252b1",
-      "title": "I’ve seen what can confound Farage on his home turf: optimism. People need a politics that offers them that | Owen Jones",
-      "translatedTitle": null,
-      "description": "You can’t blame his constituents in Clacton for their pessimism – because they have been let down for years Under battered England flags, cynicism, pessimism and exhaustion stalk the streets of Clacton. As the byelection called by Nigel Farage approaches, one young couple do not know which candidates are standing. Neither has ever voted. Living in Britain is “depressing”, says the woman in a black floral dress. “The cost of living these days is stupid,” says her partner, wearing a black and grey",
-      "url": "https://www.theguardian.com/commentisfree/2026/jul/30/farage-home-turf-people-need-politics-optimism",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/30/farage-home-turf-people-need-politics-optimism",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T05:00:52Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/38b2a5da0fd0c9f045101bdb110463b18fb71033/408_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=ca43f482d742d096b41d104f8427ec02",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e084d3a404b9fde28d6b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.45817,
-      "related": []
-    },
-    {
-      "id": "f5783f4bf7f507ac2eeeca9b",
-      "title": "One big chart: deaths in the Odyssey",
-      "translatedTitle": null,
-      "description": "Would you rather be eaten by a Cyclops or fall off a roof and break your neck? Here’s how the plucky adventurers perish during the course of the story If you have watched or read the Odyssey then you are aware that – SPOILER (do you need spoiler warnings on a 2,700-2,800 year-old poem?) – all of Odysseus’s crew die, some in strange and horrible ways. In this chart, I have tracked the decline in the crew over time, as well as the causes of death, until only one man is left. Continue reading...",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/30/the-odyssey-deaths-chart-data-visualisation",
-      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/jul/30/the-odyssey-deaths-chart-data-visualisation",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T04:31:32Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/46c5a0e5f600f19c928ed47b0690d80e8851a143/0_0_1000_800/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=945588c3b1f65bc26aca5ba3f8c62fe5",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "82925f15e133467b1f22",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.41883,
+      "rankingScore": 6.13954,
       "related": []
     },
     {
@@ -1351,14 +1080,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
+      "retrievedAt": "2026-07-30T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "45072067f114da67a814",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.37881,
+      "rankingScore": 6.1022,
       "related": []
     },
     {
@@ -1388,8 +1117,38 @@
       "clusterId": "82fdf279e85dd1f64634",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.36819,
+      "rankingScore": 6.07578,
       "related": []
+    },
+    {
+      "id": "5b08a678d2e0b0b71d1536ee",
+      "title": "Man impaled by a hiking pole treks 10 miles down mountain",
+      "translatedTitle": null,
+      "description": "Instead of calling for a helicopter rescue, David Cifaldi hiked down Montana's Granite Peak with a hiking pole piercing his side.",
+      "url": "https://www.bbc.co.uk/news/videos/cvg0nlkmzewo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/cvg0nlkmzewo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T15:47:09Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f62/live/bc2bb760-8c2b-11f1-a7ab-8b30adf0800a.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c5a6b469025303bccaf1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.04897
     },
     {
       "id": "e3cac0c85715d77803899ab0",
@@ -1418,7 +1177,37 @@
       "clusterId": "050323b318abd6ac8463",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.33342,
+      "rankingScore": 6.04793,
+      "related": []
+    },
+    {
+      "id": "f5783f4bf7f507ac2eeeca9b",
+      "title": "One big chart: deaths in the Odyssey",
+      "translatedTitle": null,
+      "description": "Would you rather be eaten by a Cyclops or fall off a roof and break your neck? Here’s how the plucky adventurers perish during the course of the story If you have watched or read the Odyssey then you are aware that – SPOILER (do you need spoiler warnings on a 2,700-2,800 year-old poem?) – all of Odysseus’s crew die, some in strange and horrible ways. In this chart, I have tracked the decline in the crew over time, as well as the causes of death, until only one man is left. Continue reading...",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/30/the-odyssey-deaths-chart-data-visualisation",
+      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/jul/30/the-odyssey-deaths-chart-data-visualisation",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T04:31:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/46c5a0e5f600f19c928ed47b0690d80e8851a143/0_0_1000_800/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=945588c3b1f65bc26aca5ba3f8c62fe5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T12:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "82925f15e133467b1f22",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.04425,
       "related": []
     },
     {
@@ -1448,7 +1237,7 @@
       "clusterId": "6c1a8b3e37c54904a21f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.2968,
+      "rankingScore": 6.01861,
       "related": []
     },
     {
@@ -1478,7 +1267,7 @@
       "clusterId": "955ef0514f5b00697642",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.29409,
+      "rankingScore": 6.01643,
       "related": []
     },
     {
@@ -1508,7 +1297,7 @@
       "clusterId": "f60412678298aeaca324",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.27092,
+      "rankingScore": 5.99788,
       "related": []
     },
     {
@@ -1538,8 +1327,38 @@
       "clusterId": "80c1a3301012cf8adc77",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.26891,
+      "rankingScore": 5.99627,
       "related": []
+    },
+    {
+      "id": "a81d9166b0cdaabc18877baa",
+      "title": "Challenging times ahead for Newcastle - Shearer",
+      "translatedTitle": null,
+      "description": "MOTD pundit and Newcastle United legend Alan Shearer explains why he is worried about what will happen next at his old club after the departure of manager Eddie Howe.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cd0xvpmny55o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cd0xvpmny55o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T15:10:54Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70a9/live/1c667320-8c29-11f1-9488-69577cd5e4e0.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "564c4903da0c4dc4468e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.97837
     },
     {
       "id": "2041785a62c9731fe73a7374",
@@ -1568,8 +1387,98 @@
       "clusterId": "2768c305b464c93c3a87",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.23968,
+      "rankingScore": 5.97286,
       "related": []
+    },
+    {
+      "id": "2ceaef7e3dd569534857256e",
+      "title": "Four people die after busiest day for small-boat crossings this year",
+      "translatedTitle": null,
+      "description": "Two deadly incidents occurred as 752 people crossed the Channel into the UK on Wednesday, new figures show.",
+      "url": "https://www.bbc.co.uk/news/articles/c5yd2j93r7ro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c5yd2j93r7ro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T14:56:47Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e34c/live/b9083d30-591b-11f1-96dc-73641c5ce48f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3787c89e1df27758f521",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.95151
+    },
+    {
+      "id": "46f5f6c26537da4c29328d15",
+      "title": "Why do parts of England and Wales keep falling into drought?",
+      "translatedTitle": null,
+      "description": "More than half of England and the whole of Wales has been declared to be in drought this week - the third such event over the past five years.",
+      "url": "https://www.bbc.co.uk/news/articles/c9d8gnx8w8qo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c9d8gnx8w8qo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T14:54:42Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f54/live/dcb3f770-8bfb-11f1-a52a-dba993a97936.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "540aabaa891bb92c7138",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.94757
+    },
+    {
+      "id": "711ae82f8a0a639bf1431715",
+      "title": "Xbox tech boss says 'unacceptable' outage should not have affected disc games",
+      "translatedTitle": null,
+      "description": "The outage meant Xbox users had trouble signing into their accounts, seeing their game library and launching games",
+      "url": "https://www.bbc.co.uk/news/articles/cq5637p7qpno?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cq5637p7qpno?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T14:53:20Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b5b8/live/368c8130-8c0c-11f1-8665-e382dc49dfdb.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "32f2a2f3ce4b942fee5f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.945
     },
     {
       "id": "36022b04fe8330b7543136f5",
@@ -1598,8 +1507,98 @@
       "clusterId": "7b66be26b514dd99127b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.19654,
+      "rankingScore": 5.93831,
       "related": []
+    },
+    {
+      "id": "6f96f6f807cf115d80fa0bfa",
+      "title": "Glen Hansard: A life in song and stories",
+      "translatedTitle": null,
+      "description": "Glen Hansard, who died in a motorbike crash on Wednesday, travelled an unusual journey to stardom.",
+      "url": "https://www.bbc.co.uk/news/articles/clyl1g0kknxo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/clyl1g0kknxo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T14:41:50Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd67/live/449550a0-8c29-11f1-9488-69577cd5e4e0.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e3e565998f9ddac1974d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.92344
+    },
+    {
+      "id": "3a5c4c9c5361630e7497cbf0",
+      "title": "Drought declared across the whole of Wales",
+      "translatedTitle": null,
+      "description": "Drought has been declared across the whole of Wales, with this July on course to be the driest in the country since records began.",
+      "url": "https://news.sky.com/story/drought-declared-across-the-whole-of-wales-with-july-on-course-to-be-driest-in-190-years-13568491",
+      "canonicalUrl": "https://news.sky.com/story/drought-declared-across-the-whole-of-wales-with-july-on-course-to-be-driest-in-190-years-13568491",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T14:29:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-wales-resevoir-weather_7310494.jpg?20260730154509",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bbe4b630de0df0c4926c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.89966
+    },
+    {
+      "id": "c184c8dce4252c4d17213235",
+      "title": "Dad pays tribute to son who died after sea rescue",
+      "translatedTitle": null,
+      "description": "Seven-year-old Musa Ahmed is remembered as a boy who \"never failed to bring happiness\" to others.",
+      "url": "https://www.bbc.co.uk/news/articles/c5yd2xx923yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c5yd2xx923yo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T14:28:03Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70dc/live/a8c309f0-876f-11f1-b430-afa19a42b819.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a90713d79620c750abed",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.89791
     },
     {
       "id": "977faaaa222a0470065c7383",
@@ -1628,7 +1627,7 @@
       "clusterId": "e1ff09811e75d3f2edc0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.12169,
+      "rankingScore": 5.87837,
       "related": []
     },
     {
@@ -1658,46 +1657,46 @@
       "clusterId": "96d7678c98bfe76df07a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.10914,
+      "rankingScore": 5.86832,
       "related": []
     },
     {
-      "id": "522f27a54f4f89a233fde443",
-      "title": "Mum and boyfriend jailed for girl's murder",
+      "id": "32a572b5a3f775be13569fb5",
+      "title": "Commonwealth Games 2026: weightlifting, track cycling and netball on day seven – live",
       "translatedTitle": null,
-      "description": "Isabelle Welsh was subjected to \"sadistic\" violence and abuse before her murder, a court hears.",
-      "url": "https://www.bbc.co.uk/news/articles/cn9nyz12xe8o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cn9nyz12xe8o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Women’s 1500m wheelchair race to be restaged Medal table | Day six in pictures | Mail Taha Hi everyone, good afternoon (or evening or morning, depending etc). Netball! Cycling! Athletics! Bowls! It is all happening on my shift today. Although Scotland might be wishing the netball wasn’t happening as the hosts are 54-41 down to Uganda in the fourth quarter. P.S. do my quiz! It’s time for Martin Belam to run the show. Continue reading...",
+      "url": "https://www.theguardian.com/sport/live/2026/jul/30/commonwealth-games-2026-track-cycling-athletics-and-weightlifting-on-day-seven-live",
+      "canonicalUrl": "https://theguardian.com/sport/live/2026/jul/30/commonwealth-games-2026-track-cycling-athletics-and-weightlifting-on-day-seven-live",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T12:16:28Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e750/live/4c2e6410-8507-11f1-aa7a-11be4e3a8eab.jpg",
+      "publishedAt": "2026-07-30T16:13:35Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0303e53007d77e47cbc441b0988bdb8de61c8a13/418_5_2885_2308/master/2885.jpg?width=140&quality=85&auto=format&fit=max&s=8389dae221a740dff3eda6ce61988d83",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
+      "retrievedAt": "2026-07-30T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "531b4990c8e975760af0",
+      "clusterId": "9eb9e699efb950ee1514",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.10757
+      "rankingScore": 5.83197
     },
     {
-      "id": "30050364d1a398fbf746e967",
-      "title": "Four people die trying to cross Channel in small boats",
+      "id": "5f143081bbb212904de18854",
+      "title": "Greek police probe 'foul play' in death of woman found in suitcase",
       "translatedTitle": null,
-      "description": "French officials said the people had died in two separate incidents off its coast overnight.",
-      "url": "https://www.bbc.co.uk/news/articles/c5yd2j93r7ro?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c5yd2j93r7ro?at_campaign=rss&at_medium=RSS",
+      "description": "Elisabeth-Jane Ross's body was found in an abandoned building in the Kypseli district in Athens on 18 July.",
+      "url": "https://www.bbc.co.uk/news/articles/cy07w28jn5lo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cy07w28jn5lo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -1706,110 +1705,80 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T11:45:37Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e34c/live/b9083d30-591b-11f1-96dc-73641c5ce48f.jpg",
+      "publishedAt": "2026-07-30T13:47:19Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a27/live/aa58ee00-8c16-11f1-a7ab-8b30adf0800a.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
+      "retrievedAt": "2026-07-30T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "38a44375a54408c571fc",
+      "clusterId": "4679d7f64e7b8ac2dd56",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.04568
+      "rankingScore": 5.82433
     },
     {
-      "id": "30b1eb1636fc45fbd0c59f46",
-      "title": "Victims of disgraced funeral boss 'unable to get refunds'",
+      "id": "179e4e33980e04058fe688a1",
+      "title": "Man dies after getting into difficulty in sea off Essex coastal town",
       "translatedTitle": null,
-      "description": "Robert Bush defrauded 172 people who bought funeral plans out of £562,000, a court hears.",
-      "url": "https://www.bbc.co.uk/news/articles/ce347krneeno?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ce347krneeno?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "A man has died after getting into difficulty in the sea off Frinton, Essex Police have said.",
+      "url": "https://news.sky.com/story/man-dies-after-getting-into-difficulty-in-sea-off-essex-coastal-town-13568535",
+      "canonicalUrl": "https://news.sky.com/story/man-dies-after-getting-into-difficulty-in-sea-off-essex-coastal-town-13568535",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T11:38:19Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd71/live/93c4fad0-89d7-11f1-a7ab-8b30adf0800a.jpg",
+      "publishedAt": "2026-07-30T16:08:00Z",
+      "imageUrl": "https://e3.365dm.com/26/04/1920x1080/skynews-breaking-breakingnews_7210863.png?20260516142605",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
+      "retrievedAt": "2026-07-30T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "bbef66e953e1dbe244a9",
+      "clusterId": "eace4d4395f8b903ed1e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.03129
+      "rankingScore": 5.82066
     },
     {
-      "id": "c20ac462b415a704b436b062",
-      "title": "Gold medallist Woods must redo race after appeal",
+      "id": "36dbf74c6551b529ec37f39c",
+      "title": "Football Daily | Thought leader Eddie Howe runs out of time and ideas at Newcastle",
       "translatedTitle": null,
-      "description": "Scottish Para-athlete Melanie Woods faces losing her Commonwealth Games women’s 1500m T54 gold medal - and her Games record - after it is decide to stage the race again following an appeal.",
-      "url": "https://www.bbc.co.uk/sport/athletics/articles/cgmkw1k29x9o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/athletics/articles/cgmkw1k29x9o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Sign up now! Sign up now! Sign up now? Sign up now! That a vote of confidence isn’t worth the paper it’s written on has long been a footballing cliche. But not until this day did we know that this even applies to a vote of confidence that comes from Jonjo Shelvey – a man so devoted to the righteously upstanding that he once accused Alex Ferguson of grassing, following a high tackle committed in front of 45,000 fans, a worldwide television audience of millions and in full view of the referee. Re:",
+      "url": "https://www.theguardian.com/football/2026/jul/30/eddie-howe-newcastle-football-daily-newsletter",
+      "canonicalUrl": "https://theguardian.com/football/2026/jul/30/eddie-howe-newcastle-football-daily-newsletter",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T11:26:51Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f27/live/161c9fa0-8b82-11f1-970c-93d4bd0f04d3.jpg",
+      "publishedAt": "2026-07-30T15:29:57Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d997600540ef42f2810a874965cb45ac4a883753/754_0_4916_3932/master/4916.jpg?width=140&quality=85&auto=format&fit=max&s=f944bda4f22f6a0a9f57a477b6c72bf3",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
+      "retrievedAt": "2026-07-30T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "27a5fb9a98aeca1e705b",
+      "clusterId": "a0f57295fd46b124b841",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00889
-    },
-    {
-      "id": "36735e496fa3c4a8008ba41f",
-      "title": "UK on track for record heat-related deaths this year, UKHSA estimates",
-      "translatedTitle": null,
-      "description": "In a preliminary assessment, the agency said there were an estimated 2,877 heat-related deaths during the May and June heatwaves, almost double the figure for last year.",
-      "url": "https://www.bbc.co.uk/news/articles/c0m78g01r8jo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c0m78g01r8jo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T11:23:54Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43f2/live/f9315470-8c09-11f1-a7ab-8b30adf0800a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7c2acbc8d7578a26d703",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.00317
+      "rankingScore": 5.74517
     },
     {
       "id": "249be00f5e61b3694575b29c",
@@ -1838,16 +1807,46 @@
       "clusterId": "de777bbe3b1a792fe407",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.95212,
+      "rankingScore": 5.74257,
       "related": []
     },
     {
-      "id": "0ea17b201b27cdc130a81ff9",
-      "title": "Watch: Giant iceberg turns over near Greenland's coast",
+      "id": "eec39a33b75aaed65b8c853f",
+      "title": "Labour asks Electoral Commission to investigate Reform UK over donations",
       "translatedTitle": null,
-      "description": "Video captured by a passerby showed the moment the iceberg collapsed, creating a big wave.",
-      "url": "https://www.bbc.co.uk/news/videos/cdx7lg950gdo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/videos/cdx7lg950gdo?at_campaign=rss&at_medium=RSS",
+      "description": "Exclusive: Reform’s Robert Jenrick says party confident it followed all rules at the time, after latest Guardian revelations The Electoral Commission has been asked to investigate whether Reform UK has broken donations rules, after the Guardian revealed that the convicted fraudster George Cottrell transferred more than $2m to his mother in the days before her donations to the party in 2024. Labour’s new chair, Bridget Phillipson, wrote to the commission on Thursday asking for it to examine the d",
+      "url": "https://www.theguardian.com/politics/2026/jul/30/electoral-commission-reform-uk-donations-george-cottrell",
+      "canonicalUrl": "https://theguardian.com/politics/2026/jul/30/electoral-commission-reform-uk-donations-george-cottrell",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T15:18:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1783c02e148513740a53d627a6eb59692d836261/591_256_2507_2006/master/2507.jpg?width=140&quality=85&auto=format&fit=max&s=c3c75be6f74c556558c07e8e11791ab4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ac012a59fe54897e2fde",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.7231
+    },
+    {
+      "id": "573d41a3be4a5c412a856b0d",
+      "title": "Howe going as spending rules bite - troubles for Newcastle's Saudi owners",
+      "translatedTitle": null,
+      "description": "Newcastle United wanted to become one of the world's top clubs under their Saudi owners - but Eddie Howe's decision to leave is a sign of the troubles they are facing.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c78g4jn43zko?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c78g4jn43zko?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -1856,20 +1855,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T10:54:36Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7883/live/88064aa0-8bf8-11f1-a7ab-8b30adf0800a.jpg",
+      "publishedAt": "2026-07-30T12:31:22Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be2a/live/123cb6d0-8c05-11f1-b8ee-9b3c26ad07bb.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T12:17:28Z",
+      "retrievedAt": "2026-07-30T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d5dc523514c126579d6f",
+      "clusterId": "c13148bdb5b0dc1ce583",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.94714
+      "rankingScore": 5.69433
     }
   ]
 }
