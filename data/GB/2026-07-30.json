@@ -4,33 +4,33 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-30",
-  "generatedAt": "2026-07-30T04:17:22Z",
-  "lastAttemptAt": "2026-07-30T04:17:22Z",
-  "lastSuccessfulUpdate": "2026-07-30T04:17:22Z",
-  "status": "current",
+  "generatedAt": "2026-07-30T08:17:25Z",
+  "lastAttemptAt": "2026-07-30T08:17:25Z",
+  "lastSuccessfulUpdate": "2026-07-30T08:17:25Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
-  "publisherCount": 4,
+  "publisherCount": 3,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
-      "status": "success",
-      "lastAttemptAt": "2026-07-30T04:17:21Z",
-      "lastSuccessAt": "2026-07-30T04:17:21Z",
-      "articlesRetrieved": 37,
-      "responseTimeMs": 350,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-30T08:17:24Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '404 Not Found' for url 'https://feeds.bbci.co.uk/news/rss.xml' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-30T04:17:21Z",
-      "lastSuccessAt": "2026-07-30T04:17:21Z",
-      "articlesRetrieved": 138,
-      "responseTimeMs": 371,
+      "lastAttemptAt": "2026-07-30T08:17:24Z",
+      "lastSuccessAt": "2026-07-30T08:17:25Z",
+      "articlesRetrieved": 137,
+      "responseTimeMs": 399,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-30T04:17:21Z",
-      "lastSuccessAt": "2026-07-30T04:17:22Z",
+      "lastAttemptAt": "2026-07-30T08:17:24Z",
+      "lastSuccessAt": "2026-07-30T08:17:25Z",
       "articlesRetrieved": 10,
-      "responseTimeMs": 783,
+      "responseTimeMs": 643,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,43 +49,164 @@
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
       "status": "success",
-      "lastAttemptAt": "2026-07-30T04:17:21Z",
-      "lastSuccessAt": "2026-07-30T04:17:21Z",
+      "lastAttemptAt": "2026-07-30T08:17:24Z",
+      "lastSuccessAt": "2026-07-30T08:17:25Z",
       "articlesRetrieved": 20,
-      "responseTimeMs": 575,
+      "responseTimeMs": 609,
       "errorType": null,
       "errorMessage": null
     }
   ],
   "articles": [
     {
-      "id": "83063698b4a7610cfc34ea9d",
-      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
+      "id": "14af442a928b61807eba6c69",
+      "title": "Major incident declared in Suffolk as 90 firefighters tackle wildfire on heathland",
       "translatedTitle": null,
-      "description": "The US military said the strikes were in response to Iran firing missiles at US forces in the Middle East on Tuesday.",
-      "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c74gwdzywmeo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Several people evacuated after ‘large-scale, wind-driven’ fire breaks out at Dunwich Heath near Leiston A major incident has been declared as firefighters battle a large heathland fire on the Suffolk coast. Suffolk fire and rescue service was called to reports of a wildfire at Dunwich Heath, near Leiston, shortly after 5.30pm on Wednesday, and crews remained at the scene on Thursday morning. About 90 firefighters were tackling the blaze, while several people had been evacuated. Leiston is about",
+      "url": "https://www.theguardian.com/uk-news/2026/jul/30/major-incident-fire-suffolk-coast-dunwich-heath-leiston",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/30/major-incident-fire-suffolk-coast-dunwich-heath-leiston",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T03:33:01Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7724/live/4674b810-8bb2-11f1-b2ab-0dd01740f9f6.jpg",
+      "publishedAt": "2026-07-30T08:01:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f3417f016360c683c341bc10cb94060ee818cb82/317_0_1406_1126/master/1406.jpg?width=140&quality=85&auto=format&fit=max&s=5711ea611db4ba9291ede8bdc0ea8c53",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1b839c1a3ca5420d9bdd",
+      "clusterId": "f29816978a38b658dc4b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
+        {
+          "id": "a735b04f3d863de8d80a61ba",
+          "title": "Major incident declared as firefighters battle large Suffolk heathland blaze",
+          "translatedTitle": null,
+          "description": "Residents have been told to shut their doors and windows as firefighters tackle the wildfire",
+          "url": "https://www.independent.co.uk/news/uk/home-news/dunwich-heath-fire-leiston-suffolk-b3024300.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/dunwich-heath-fire-leiston-suffolk-b3024300.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-30T08:00:12Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/30/6/01/SUFFOLK-FFIRE.png?width=1200&auto=webp&trim=0%2C155%2C0%2C191",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-30T08:17:25Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "f29816978a38b658dc4b",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "major incident declared as firefighters battle large suffolk heathland blaze"
+        }
+      ],
+      "rankingScore": 8.9078
+    },
+    {
+      "id": "46705b0e4ba93c841284dfa7",
+      "title": "Shell’s profits more than double after jump in oil and gas prices",
+      "translatedTitle": null,
+      "description": "Environmental groups renew calls for windfall tax to support households following Q2 earnings rise to $9.84bn Shell more than doubled its profit in its second quarter of the year, as Europe’s biggest oil and gas company reaped the benefits from the jump in oil and gas prices triggered by war in the Middle East. The FTSE 100 company’s net profit hit $9.84bn (£7.4bn) in the three months ended in June, more than double compared with the same period last year. Continue reading...",
+      "url": "https://www.theguardian.com/business/2026/jul/30/shell-profits-double-jump-oil-gas-prices",
+      "canonicalUrl": "https://theguardian.com/business/2026/jul/30/shell-profits-double-jump-oil-gas-prices",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T07:08:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/377f5d0d34842f9e43249096b1b96762485a0bbe/493_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=0b164cdcb91d6f31fa6c7f69df79f355",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bb1ced6b8c3d3e2a49df",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.753
+    },
+    {
+      "id": "c03da4c1b3f7e4f39b1dfae8",
+      "title": "Middle East crisis live: Jordan says it foiled Iranian missile attack as US launches ‘heavy’ strikes on Iran after pause",
+      "translatedTitle": null,
+      "description": "Jordanian military says it intercepted five missiles targeting the kingdom after US military says it hit dozens of Revolutionary Guard targets on Thursday US launches fresh strikes on Iran after days-long pause, amid fears the war is widening A liquefied natural gas tanker controlled by QatarEnergy exited the strait of Hormuz overnight – the first such vessel ⁠visible on ship-tracking data to ⁠leave the waterway ​since 11 July, data from analytics firms showed on Thursday. The Al Areesh tanker,",
+      "url": "https://www.theguardian.com/world/live/2026/jul/30/us-iran-war-live-updates-missile-strikes-attacks-iraq-egypt-middle-east-crisis-latest-news",
+      "canonicalUrl": "https://theguardian.com/world/live/2026/jul/30/us-iran-war-live-updates-missile-strikes-attacks-iraq-egypt-middle-east-crisis-latest-news",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T07:48:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b9cd31be409236e6a4f7ec829de9e6f0e2910980/586_0_7136_5712/master/7136.jpg?width=140&quality=85&auto=format&fit=max&s=b97cad7499f725457227ee21c5795e02",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0ae42d4e7a20ba2090e8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "7250c66088afcb9604610311",
+          "title": "Jordan intercepts Iranian missiles after US launches ‘heavy’ strikes on Iran",
+          "translatedTitle": null,
+          "description": "No casualties were reported from Jordan's interception of the missiles",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iran-jordan-attack-war-trump-b3024313.html",
+          "canonicalUrl": "https://independent.co.uk/news/world/middle-east/iran-jordan-attack-war-trump-b3024313.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-30T08:01:35Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/30/07/download.-3.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-30T08:17:25Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "0ae42d4e7a20ba2090e8",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "jordan intercepts iranian missiles after us launches heavy strikes on iran"
+        },
         {
           "id": "590938d4264f5f1818302ae4",
           "title": "US launches fresh strikes on Iran after days-long pause, amid fears the war is widening",
@@ -110,41 +231,11 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "1b839c1a3ca5420d9bdd",
+          "clusterId": "0ae42d4e7a20ba2090e8",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
           "normalizedTitle": "us launches fresh strikes on iran after days long pause amid fears the war is widening"
-        },
-        {
-          "id": "9abf47eec6541f43db91d4eb",
-          "title": "Iran-US war latest: American forces resume strikes after Trump promised Iran would ‘get a beating’",
-          "translatedTitle": null,
-          "description": "Iran targeted US bases in Jordan and claims to have struck three tankers in Strait of Hormuz",
-          "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-tehran-surprise-attack-saudi-b3023470.html",
-          "canonicalUrl": "https://independent.co.uk/news/world/middle-east/iran-us-war-live-trump-tehran-surprise-attack-saudi-b3023470.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-30T01:55:55Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/29/09/2287463820..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-30T04:17:21Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "1b839c1a3ca5420d9bdd",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "iran us war latest american forces resume strikes after trump promised iran would get a beating"
         },
         {
           "id": "2e66286e10d4f38fd273a649",
@@ -170,81 +261,80 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "1b839c1a3ca5420d9bdd",
+          "clusterId": "0ae42d4e7a20ba2090e8",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "us launches strikes on iran in powerful response to surprise attack"
         }
       ],
-      "rankingScore": 10.52144
+      "rankingScore": 8.53147
     },
     {
-      "id": "58a74652eec49e0abcb0184f",
-      "title": "Interest rates expected to be held again by Bank of England",
+      "id": "d5d6dc51d8fd4b7e3231b5f5",
+      "title": "More deaths and injuries in major Russian attacks on Ukraine as Poland investigates airspace violation – Europe live",
       "translatedTitle": null,
-      "description": "It would be the fifth hold in a row, with the Bank rate standing at 3.75% - the lowest since February 2023.",
-      "url": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cp8e6m4rndgo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Huge missile and drone attack on Ukraine as Poland’s Tusk prepares to travel to impact site discovered in east of country European Council president António Costa stressed that “Russia’s aggression is a threat to the security of Europe as a whole,” as he condemned the overnight strikes on Ukraine and an airspace violation in Poland. In a post on X, he said: “Last night, Russia launched a massive combined strike against Ukraine. During the attack, Polish airspace was also violated, underlining on",
+      "url": "https://www.theguardian.com/world/live/2026/jul/30/europe-ukraine-russia-poland-wildfires-france-spain-greece-latest-news-updates",
+      "canonicalUrl": "https://theguardian.com/world/live/2026/jul/30/europe-ukraine-russia-poland-wildfires-france-spain-greece-latest-news-updates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-29T23:01:56Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38e0/live/7b090d20-8b3e-11f1-b2d7-b96c6bc9d7f5.jpg",
+      "publishedAt": "2026-07-30T08:03:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/045a986ce399db1acbdc03aac286c8e5ff35c09c/409_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=f3d899fee0b8d349ca6a454106f61cb5",
       "imageAlt": null,
-      "category": "Business",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d24175b67505785a1a67",
+      "clusterId": "b5f1d8ce61ae916485d2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "eecfae8ed34fc2aa40356bab",
-          "title": "Bank of England set to hold interest rates at 3.75%",
-          "translatedTitle": null,
-          "description": "A number of economists have predicted another seven-to-two vote in favour of holding the current rate.",
-          "url": "https://www.independent.co.uk/news/business/bank-of-england-andrew-bailey-monetary-policy-committee-oxford-economics-donald-trump-b3024206.html",
-          "canonicalUrl": "https://independent.co.uk/news/business/bank-of-england-andrew-bailey-monetary-policy-committee-oxford-economics-donald-trump-b3024206.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-29T23:01:14Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/30/00/3d5bfe68fbe98546be75ed96d998792dY29udGVudHNlYXJjaGFwaSwxNzg1NDIyMjIy-2.81157813.jpg?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-30T00:17:18Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "d24175b67505785a1a67",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "bank of england set to hold interest rates at 3 75"
-        }
-      ],
-      "rankingScore": 8.65274
+      "related": [],
+      "rankingScore": 8.51165
     },
     {
-      "id": "6872a764cab1b54b0d1c0150",
-      "title": "Death toll in Japan earthquake rises to 23 as aftershock and heat complicate rescue efforts",
+      "id": "6acb3d8e9b528c44e99d8230",
+      "title": "Suffolk wildfire latest: Firefighters battle blaze near huge nuclear power plant with major incident declared",
       "translatedTitle": null,
-      "description": "Soldiers and emergency workers are combing through a badly damaged shopping mall and collapsed houses looking for trapped survivors The death toll from the major earthquake that hit Japan on Tuesday rose to at least 23 as the search for trapped survivors inside a badly damaged shopping mall and collapsed houses in the country’s south-west continued. The magnitude 6.8 earthquake that struck the Kumamoto prefecture on the island of Kyushu has injured at least 62, the prefectural government said. T",
+      "description": "Fire crews are warning people to stay away from the area as residents are evacuated",
+      "url": "https://www.independent.co.uk/news/uk/home-news/suffolk-wildfire-dunwich-heath-sizewell-b-live-updates-b3024339.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/suffolk-wildfire-dunwich-heath-sizewell-b-live-updates-b3024339.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T08:03:26Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/30/7/53/759253451_1964073764402261_4756666842386007341_n-93c2cf80.jpeg?width=1200&auto=webp&trim=85%2C0%2C85%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "68b42b967d404854a6d6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.42162
+    },
+    {
+      "id": "a5bd26f59c69887d86c1f572",
+      "title": "Death toll in Japan earthquake rises to 30 as aftershock and heat hamper rescue efforts",
+      "translatedTitle": null,
+      "description": "Soldiers and emergency teams search devastated shopping centre, paper mill and homes for survivors Earthquake rocks southern Japanese island of Kyushu – in pictures The death toll from the powerful earthquake that hit Japan on Tuesday has risen to 30, as the search for survivors trapped in a badly damaged shopping centre, paper mill and collapsed homes across the south-west of the country continues. The 6.8-magnitude quake, which struck Kumamoto prefecture on the island of Kyushu, injured at lea",
       "url": "https://www.theguardian.com/world/2026/jul/30/japan-earthquake-death-toll-rises",
       "canonicalUrl": "https://theguardian.com/world/2026/jul/30/japan-earthquake-death-toll-rises",
       "sourceName": "The Guardian",
@@ -255,26 +345,27 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T02:59:32Z",
+      "publishedAt": "2026-07-30T06:49:55Z",
       "imageUrl": "https://i.guim.co.uk/img/media/bb27f9a2323803dfc653cb9bf288d8465f10c4ad/34_0_6465_5175/master/6465.jpg?width=140&quality=85&auto=format&fit=max&s=e550eaa42d0267d4a707a6b1bd8e0405",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "9d971179c26bd8d78d18",
+      "clusterId": "3e9fe6b472b9746d93bd",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.41871,
       "related": [
         {
-          "id": "36022b04fe8330b7543136f5",
-          "title": "Hope dwindles for rescue in southwestern Japan quake as death toll climbs to 23",
+          "id": "e2e429ec3d9f3af3f2c9878d",
+          "title": "Japan earthquake death toll rises to 30 as another body pulled from collapsed mall",
           "translatedTitle": null,
-          "description": "The Kumamoto prefectural government says the powerful earthquake that hit southwestern Japan earlier this week has now killed at least 23 people",
-          "url": "https://www.independent.co.uk/news/japan-kumamoto-kyushu-b3024242.html",
-          "canonicalUrl": "https://independent.co.uk/news/japan-kumamoto-kyushu-b3024242.html",
+          "description": "Crews still searching the rubble on Thursday in Kumamoto region",
+          "url": "https://www.independent.co.uk/asia/japan/japan-earthquake-death-toll-rescue-b3024264.html",
+          "canonicalUrl": "https://independent.co.uk/asia/japan/japan-earthquake-death-toll-rescue-b3024264.html",
           "sourceName": "The Independent",
           "sourceDomain": "independent.co.uk",
           "sourceCountry": "GB",
@@ -283,23 +374,22 @@
             "GB"
           ],
           "language": "en",
-          "publishedAt": "2026-07-30T02:46:36Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/30/03/Japan_Earthquake_93328.jpg?width=1200&auto=webp&crop=3%3A2",
+          "publishedAt": "2026-07-30T07:52:03Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/30/05/2287579401..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-07-30T04:17:21Z",
+          "retrievedAt": "2026-07-30T08:17:25Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "9d971179c26bd8d78d18",
+          "clusterId": "3e9fe6b472b9746d93bd",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
-          "normalizedTitle": "hope dwindles for rescue in southwestern japan quake as death toll climbs to 23"
+          "normalizedTitle": "japan earthquake death toll rises to 30 as another body pulled from collapsed mall"
         }
-      ],
-      "rankingScore": 8.43699
+      ]
     },
     {
       "id": "07509e2366af2ea3da9c5dde",
@@ -328,8 +418,8 @@
       "clusterId": "111e508d91785410004e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.43652
+      "rankingScore": 8.00072,
+      "related": []
     },
     {
       "id": "bef4411029bdffec888e792c",
@@ -358,8 +448,8 @@
       "clusterId": "5b0a22598fde13d58394",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.42595
+      "rankingScore": 7.9202,
+      "related": []
     },
     {
       "id": "de919c93559a75748ce7258a",
@@ -381,15 +471,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:22Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "87c9f19dd20a3d05555d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.15563
+      "rankingScore": 7.79375,
+      "related": []
     },
     {
       "id": "5e5c1b51b4566f34e48ec2fd",
@@ -418,8 +508,8 @@
       "clusterId": "bb16317c8c5876557c40",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.13768
+      "rankingScore": 7.76144,
+      "related": []
     },
     {
       "id": "a8e53b1f1d2c683781432bbc",
@@ -448,7 +538,7 @@
       "clusterId": "ab14dbd6e706fdb484ff",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.98587,
+      "rankingScore": 7.63989,
       "related": []
     },
     {
@@ -478,74 +568,44 @@
       "clusterId": "4623fa4c20dd88979b74",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.89133,
+      "rankingScore": 7.56419,
       "related": []
     },
     {
-      "id": "89857048adecee8e6cd88e50",
-      "title": "Two children among seven dead in Russian strikes on Ukraine, officials say",
+      "id": "b91393c98a6a20f114673750",
+      "title": "Eddie Howe leaves job as Newcastle head coach, Sky Sports News reports",
       "translatedTitle": null,
-      "description": "Two girls, aged 5 and 12, were among the six killed in a village near the central Ukrainian city of Kryvyi Rih, while a seventh person was killed in Kyiv.",
-      "url": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cy8mk59l5jzo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Newcastle head coach Eddie Howe has left his job as head coach, Sky Sports News (SSN) understands.",
+      "url": "https://news.sky.com/story/eddie-howe-leaves-job-as-newcastle-head-coach-13568324",
+      "canonicalUrl": "https://news.sky.com/story/eddie-howe-leaves-job-as-newcastle-head-coach-13568324",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T03:53:14Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ace1/live/67a4a3d0-8bc4-11f1-aa97-991a1c52dcc6.jpg",
+      "publishedAt": "2026-07-30T07:50:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-newcastle-eddie-howe_7309989.jpg?20260730090306",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "10d3bb8b5260f81ea844",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.41134
-    },
-    {
-      "id": "1608b9e7718c0316151ae910",
-      "title": "Singapore fines French teen $465 for viral straw-licking stunt",
-      "translatedTitle": null,
-      "description": "The 19-year-old was \"truly sorry\" for causing trouble, his lawyers said.",
-      "url": "https://www.bbc.co.uk/news/articles/crrvqjw8epko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/crrvqjw8epko?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T02:54:54Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bcf7/live/fa355690-8bbf-11f1-842d-097f342ad5c4.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a2619fb63a4caf5fd20e",
+      "clusterId": "5f66babccf7a5770b28a",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "8a1da58904270db89b0f39f2",
-          "title": "French student pleads guilty and is fined for a straw-licking stunt in Singapore",
+          "id": "9e624fad76b949aa1e7dae99",
+          "title": "Eddie Howe leaves Newcastle",
           "translatedTitle": null,
-          "description": "A French student has been fined in Singapore for licking a straw from a juice vending machine and putting it back in what lawyers described as a social media stunt",
-          "url": "https://www.independent.co.uk/news/singapore-french-b3024253.html",
-          "canonicalUrl": "https://independent.co.uk/news/singapore-french-b3024253.html",
+          "description": "The Newcastle manager guided the club to their first domestic trophy in 70 years when they won the Carabao Cup",
+          "url": "https://www.independent.co.uk/sport/football/eddie-howe-newcastle-next-manager-b3024356.html",
+          "canonicalUrl": "https://independent.co.uk/sport/football/eddie-howe-newcastle-next-manager-b3024356.html",
           "sourceName": "The Independent",
           "sourceDomain": "independent.co.uk",
           "sourceCountry": "GB",
@@ -554,113 +614,353 @@
             "GB"
           ],
           "language": "en",
-          "publishedAt": "2026-07-30T03:55:45Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/30/05/Singapore_French_Teen_77635.jpg?width=1200&auto=webp&crop=3%3A2",
+          "publishedAt": "2026-07-30T08:13:27Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/26/10/01KYCNXKM6FVDEXDF8N3J7XP63.jpg?width=1200&auto=webp&trim=45%2C0%2C45%2C0",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-07-30T04:17:21Z",
+          "retrievedAt": "2026-07-30T08:17:25Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "a2619fb63a4caf5fd20e",
+          "clusterId": "5f66babccf7a5770b28a",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
-          "normalizedTitle": "french student pleads guilty and is fined for a straw licking stunt in singapore"
+          "normalizedTitle": "eddie howe leaves newcastle"
         }
       ],
-      "rankingScore": 7.34822
+      "rankingScore": 7.53478
     },
     {
-      "id": "ce270bade8c560a263388190",
-      "title": "Fauci to face contempt vote after refusing to answer Covid questions in Congress",
+      "id": "04909e8ebb6f1cdb148989eb",
+      "title": "‘Grey lump with orange wings’: migrating moth descends on UK gardens",
       "translatedTitle": null,
-      "description": "Senator Rand Paul says: \"I think there is a very real chance that he could be prosecuted for that.\"",
-      "url": "https://www.bbc.co.uk/news/articles/czdmv0vyv4zo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/czdmv0vyv4zo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Boom in hummingbird hawk-moth sightings put down to hot weather, strong winds and food scarcity in Europe He had just sat down to dinner in the garden when a speedy visitor whizzed by – a “grey lump with orange wings”, recalled Luke Burstow, from Sussex. It was a hummingbird hawk-moth, a flying insect that migrates to the UK from continental Europe and north Africa. “I was like: ‘Wow!’,” said the software project manager. “I didn’t even know they existed.” Continue reading...",
+      "url": "https://www.theguardian.com/environment/2026/jul/30/hummingbird-hawk-moth-sightings-migrating-uk",
+      "canonicalUrl": "https://theguardian.com/environment/2026/jul/30/hummingbird-hawk-moth-sightings-migrating-uk",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T02:39:49Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a41f/live/7f66f650-8bbd-11f1-b8ee-9b3c26ad07bb.jpg",
+      "publishedAt": "2026-07-30T08:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0189581954ee2410dba0041f14a5321ea0f20003/332_0_1647_1319/master/1647.jpg?width=140&quality=85&auto=format&fit=max&s=1e915381b53705b72bd8459a74d6a0e2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "84fa009ee910516dace1",
+      "clusterId": "8cf34bda8832486a61ee",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.26995
+      "rankingScore": 7.15476
     },
     {
-      "id": "4c598fbae431b58024d59e87",
-      "title": "Burnham says nuclear sub investment will protect UK and boost jobs",
+      "id": "b9cbf701e33c390c0a428c78",
+      "title": "Will interest rates go up today? Bank of England’s key factors and 2026 predictions",
       "translatedTitle": null,
-      "description": "Speaking ahead of a visit to Barrow-in-Furness, the PM seeks to stress the economic benefits of defence spending.",
-      "url": "https://www.bbc.co.uk/news/articles/crl70x0nxr9o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/crl70x0nxr9o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "The Monetary Policy Committee cut rates four times last year but 2026 remains far more uncertain",
+      "url": "https://www.independent.co.uk/money/interest-rates-july-inflation-bank-of-england-mpc-b3024315.html",
+      "canonicalUrl": "https://independent.co.uk/money/interest-rates-july-inflation-bank-of-england-mpc-b3024315.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T02:36:53Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c653/live/f6fd7a60-8b8e-11f1-9432-3dcf466331f0.png",
+      "publishedAt": "2026-07-30T07:59:31Z",
+      "imageUrl": "https://static.independent.co.uk/2025/06/13/10/15/iStock-485047832.jpeg?width=1200&auto=webp&trim=225%2C0%2C0%2C698",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "5b24f5d5ba2e93da55e9",
+      "clusterId": "29fee4d2d37128ca4c3c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.2645
+      "rankingScore": 7.06376
     },
     {
-      "id": "2b63487f3e23098c5a5f4a97",
-      "title": "Three Greek firefighters die as wildfires threaten parts of southern Europe",
+      "id": "e986e517218d05697e5e2bab",
+      "title": "Hundreds of invasive species are flooding the Mediterranean – and they are traveling north",
       "translatedTitle": null,
-      "description": "Gale-force winds on Crete have whipped up flames prompting the evacuation of several villages, as parts of the continent continue to tackle fires.",
-      "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cwyjgwg8jddo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "1,000 invasive species have been identified in the Mediterranean",
+      "url": "https://www.independent.co.uk/news/world/europe/mediterranean-rome-greece-greeks-italian-b3024353.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/europe/mediterranean-rome-greece-greeks-italian-b3024353.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T01:53:25Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f48/live/2a7fb530-8bb5-11f1-b2ab-0dd01740f9f6.jpg",
+      "publishedAt": "2026-07-30T07:58:54Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/30/05/Climate_Mediterranean_Sea_Hotter_Waters_48942.jpg?width=1200&auto=webp&crop=3%3A2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d20b425f6b525b4fd782",
+      "clusterId": "45d6bb91f3a323c75569",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.18543
+      "rankingScore": 7.06252
+    },
+    {
+      "id": "aa680cbc389a396a4625b3c9",
+      "title": "Donald Trump says Andy Burnham told him he will ‘open up North Sea oil’",
+      "translatedTitle": null,
+      "description": "The US president, who is a vocal supporter of fossil fuels, argues the move would make the UK ‘a wealthy country’.",
+      "url": "https://www.independent.co.uk/news/business/andy-burnham-donald-trump-north-sea-keir-starmer-ed-miliband-b3024141.html",
+      "canonicalUrl": "https://independent.co.uk/news/business/andy-burnham-donald-trump-north-sea-keir-starmer-ed-miliband-b3024141.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T07:56:51Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/29/21/29-9e6bfbd70d464ae1a2deda0f2b70333f.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5371d77168daf90a26e9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.05842,
+      "related": []
+    },
+    {
+      "id": "82678770ecf2a9ededf038a7",
+      "title": "Iran-US war latest: Tehran threatens to ‘punish the aggressor’ after Trump launches heavy wave of strikes",
+      "translatedTitle": null,
+      "description": "Iran targeted US bases in Jordan and claims to have struck three tankers in Strait of Hormuz",
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-surprise-attack-saudi-israel-b3024286.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/middle-east/iran-us-war-live-trump-surprise-attack-saudi-israel-b3024286.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T07:54:33Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/29/09/2287463820..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "660ff7421446bbdcbd0d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.05383
+    },
+    {
+      "id": "6f51b97e61d23bf1f5ddca04",
+      "title": "Polls open in Greater Manchester mayoral byelection overshadowed by new PM and Farage’s antics",
+      "translatedTitle": null,
+      "description": "Labour’s Bev Craig expected to win contest that lost column inches to Andy Burnham’s ascent and Reform UK leader’s self-imposed Clacton vote Voting has begun in the biggest byelection in British political history, with more than 2 million people eligible to choose Andy Burnham’s successor as Greater Manchester mayor. In normal times, such a large and politically significant byelection would have dominated the headlines for weeks, particularly as senior Labour figures only weeks ago feared losing",
+      "url": "https://www.theguardian.com/politics/2026/jul/30/greater-manchester-mayoral-byelection-overshadowed-labour-andy-burnham-bev-craig",
+      "canonicalUrl": "https://theguardian.com/politics/2026/jul/30/greater-manchester-mayoral-byelection-overshadowed-labour-andy-burnham-bev-craig",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T06:00:53Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1cbcde3d813fd7890ae0b539c5df7a95720fa93d/1881_318_6759_5407/master/6759.jpg?width=140&quality=85&auto=format&fit=max&s=a1f5f9f8e9254833443ddd0b42cd9d5f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7092372a42f0cd3a61b6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92867
+    },
+    {
+      "id": "97c7330c0d2f4dbba8177a90",
+      "title": "‘Lenin was an enemy of humanity’: Why Kyiv wants to put Cossack chief statue in place of Soviet leader",
+      "translatedTitle": null,
+      "description": "Removal of Soviet-era statues sped up when Russia seized Crimea in 2014, and since Putin’s 2022 invasion has moved at pace as Ukrainians question their identity Since 2013 the plinth at the bottom of Taras Shevchenko Boulevard in Kyiv has been eerily empty. The scruffy monument is daubed in white paint and graffiti. Someone has stuck a Ukrainian trident where Lenin once stood, gazing down during the years of Soviet communism. A crowd toppled the sculpture during Ukraine’s Maidan revolution, whic",
+      "url": "https://www.theguardian.com/world/2026/jul/30/ukraine-kyiv-replace-lenin-statue-with-cossack-chief-ivan-mazepa",
+      "canonicalUrl": "https://theguardian.com/world/2026/jul/30/ukraine-kyiv-replace-lenin-statue-with-cossack-chief-ivan-mazepa",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T05:00:53Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/456e5e1677e80835d7e486abe060c07ead986bd5/775_317_5203_4163/master/5203.jpg?width=140&quality=85&auto=format&fit=max&s=a3cf2f258549244f7d0305ab4b174e8b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "82fdf279e85dd1f64634",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.8239
+    },
+    {
+      "id": "f55bc7a419d910600b99b04f",
+      "title": "Weatherwatch: rainclouds are travelling farther in warmer world",
+      "translatedTitle": null,
+      "description": "Climate crisis affects not only the amount of rain that falls but where, with implications for land use and water security Have you ever wondered how far a raindrop has travelled before it lands on you? It may have journeyed thousands of kilometres from the ocean, sea or lake it evaporated from – and now research shows raindrops are travelling even farther than they used to. Warmer air can hold more water vapour, and that is changing not only how much rain we receive but also where it falls. Tra",
+      "url": "https://www.theguardian.com/news/2026/jul/30/weatherwatch-rainclouds-are-travelling-farther-in-warmer-world",
+      "canonicalUrl": "https://theguardian.com/news/2026/jul/30/weatherwatch-rainclouds-are-travelling-farther-in-warmer-world",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T05:00:53Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4e79c6bf3a7ebf0609d30be8fe255cb8cbc7608f/366_0_4580_3665/master/4580.jpg?width=140&quality=85&auto=format&fit=max&s=e870194fe8a73d9d65eb5012df80b47a",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6de0f0dc9f970e44b443",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.8239
+    },
+    {
+      "id": "0dd11abde3c6c99c141252b1",
+      "title": "I’ve seen what can confound Farage on his home turf: optimism. People need a politics that offers them that | Owen Jones",
+      "translatedTitle": null,
+      "description": "You can’t blame his constituents in Clacton for their pessimism – because they have been let down for years Under battered England flags, cynicism, pessimism and exhaustion stalk the streets of Clacton. As the byelection called by Nigel Farage approaches, one young couple do not know which candidates are standing. Neither has ever voted. Living in Britain is “depressing”, says the woman in a black floral dress. “The cost of living these days is stupid,” says her partner, wearing a black and grey",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/30/farage-home-turf-people-need-politics-optimism",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/30/farage-home-turf-people-need-politics-optimism",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T05:00:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/38b2a5da0fd0c9f045101bdb110463b18fb71033/408_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=ca43f482d742d096b41d104f8427ec02",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e084d3a404b9fde28d6b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82387
+    },
+    {
+      "id": "e3cac0c85715d77803899ab0",
+      "title": "'A lot of discounting' as Chinese cars flood UK market",
+      "translatedTitle": null,
+      "description": "Established car manufacturers are being forced to discount heavily in the face of cheap competition from China, the head of the UK's industry lobby group has admitted.",
+      "url": "https://news.sky.com/story/a-lot-of-discounting-as-chinese-cars-flood-uk-market-13568292",
+      "canonicalUrl": "https://news.sky.com/story/a-lot-of-discounting-as-chinese-cars-flood-uk-market-13568292",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T04:35:00Z",
+      "imageUrl": "https://e3.365dm.com/25/04/1920x1080/skynews-factory-car-china-hefei_6879517.jpg?20250408074839",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "050323b318abd6ac8463",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.78047
+    },
+    {
+      "id": "f5783f4bf7f507ac2eeeca9b",
+      "title": "One big chart: deaths in the Odyssey",
+      "translatedTitle": null,
+      "description": "Would you rather be eaten by a Cyclops or fall off a roof and break your neck? Here’s how the plucky adventurers perish during the course of the story If you have watched or read the Odyssey then you are aware that – SPOILER (do you need spoiler warnings on a 2,700-2,800 year-old poem?) – all of Odysseus’s crew die, some in strange and horrible ways. In this chart, I have tracked the decline in the crew over time, as well as the causes of death, until only one man is left. Continue reading...",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/30/the-odyssey-deaths-chart-data-visualisation",
+      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/jul/30/the-odyssey-deaths-chart-data-visualisation",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T04:31:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/46c5a0e5f600f19c928ed47b0690d80e8851a143/0_0_1000_800/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=945588c3b1f65bc26aca5ba3f8c62fe5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "82925f15e133467b1f22",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.77473
     },
     {
       "id": "a5af106dd5f14d82bfda33cd",
@@ -682,15 +982,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "45072067f114da67a814",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.15657
+      "rankingScore": 6.72474,
+      "related": []
     },
     {
       "id": "b50f93609f8ad65eb97b8cab",
@@ -719,8 +1019,8 @@
       "clusterId": "6c1a8b3e37c54904a21f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.07904
+      "rankingScore": 6.64473,
+      "related": []
     },
     {
       "id": "0ff1193bd4d32b87ba1fdb1a",
@@ -749,8 +1049,8 @@
       "clusterId": "955ef0514f5b00697642",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.07481
+      "rankingScore": 6.64134,
+      "related": []
     },
     {
       "id": "5503c3ff0602aff3f81c02ec",
@@ -779,8 +1079,8 @@
       "clusterId": "f60412678298aeaca324",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03866
+      "rankingScore": 6.6124,
+      "related": []
     },
     {
       "id": "c4f8a023c79f1c437d9a8bb5",
@@ -809,8 +1109,8 @@
       "clusterId": "80c1a3301012cf8adc77",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03553
+      "rankingScore": 6.60989,
+      "related": []
     },
     {
       "id": "2041785a62c9731fe73a7374",
@@ -839,16 +1139,16 @@
       "clusterId": "2768c305b464c93c3a87",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.98992
+      "rankingScore": 6.57337,
+      "related": []
     },
     {
-      "id": "8ec8b5654d0d25f24f07479a",
-      "title": "Trump insists Andy Burnham will ‘open up North Sea’ for oil drilling",
+      "id": "36022b04fe8330b7543136f5",
+      "title": "Hope dwindles for rescue in southwestern Japan quake as death toll climbs to 23",
       "translatedTitle": null,
-      "description": "US President Donald Trump has claimed that Prime Minister Andy Burnham told him he would \"open up the North Sea\" for oil drilling, asserting that this action would make the UK \"a really rich country\" due to vast reserves.",
-      "url": "https://www.independent.co.uk/bulletin/news/trump-north-sea-oil-drilling-andy-burnham-b3024144.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-north-sea-oil-drilling-andy-burnham-b3024144.html",
+      "description": "The Kumamoto prefectural government says the powerful earthquake that hit southwestern Japan earlier this week has now killed at least 23 people",
+      "url": "https://www.independent.co.uk/news/japan-kumamoto-kyushu-b3024242.html",
+      "canonicalUrl": "https://independent.co.uk/news/japan-kumamoto-kyushu-b3024242.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -857,8 +1157,8 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T01:56:48Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/29/20/48/GettyImages-2287527644.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-07-30T02:46:36Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/30/03/Japan_Earthquake_93328.jpg?width=1200&auto=webp&crop=3%3A2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
@@ -866,11 +1166,41 @@
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "699fb2cdb5d013eb9cd9",
+      "clusterId": "7b66be26b514dd99127b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.83147
+      "rankingScore": 6.51949
+    },
+    {
+      "id": "9abf47eec6541f43db91d4eb",
+      "title": "Iran-US war latest: American forces resume strikes after Trump promised Iran would ‘get a beating’",
+      "translatedTitle": null,
+      "description": "Iran targeted US bases in Jordan and claims to have struck three tankers in Strait of Hormuz",
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-tehran-surprise-attack-saudi-b3023470.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/middle-east/iran-us-war-live-trump-tehran-surprise-attack-saudi-b3023470.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T01:55:55Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/29/09/2287463820..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T04:17:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1d2e49227a687ccac0d0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.44524
     },
     {
       "id": "977faaaa222a0470065c7383",
@@ -899,8 +1229,8 @@
       "clusterId": "e1ff09811e75d3f2edc0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.80586
+      "rankingScore": 6.426,
+      "related": []
     },
     {
       "id": "3e2572af7045dd5dddee9ae4",
@@ -929,8 +1259,38 @@
       "clusterId": "96d7678c98bfe76df07a",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.41033,
+      "related": []
+    },
+    {
+      "id": "eecfae8ed34fc2aa40356bab",
+      "title": "Bank of England set to hold interest rates at 3.75%",
+      "translatedTitle": null,
+      "description": "A number of economists have predicted another seven-to-two vote in favour of holding the current rate.",
+      "url": "https://www.independent.co.uk/news/business/bank-of-england-andrew-bailey-monetary-policy-committee-oxford-economics-donald-trump-b3024206.html",
+      "canonicalUrl": "https://independent.co.uk/news/business/bank-of-england-andrew-bailey-monetary-policy-committee-oxford-economics-donald-trump-b3024206.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-29T23:01:14Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/30/00/3d5bfe68fbe98546be75ed96d998792dY29udGVudHNlYXJjaGFwaSwxNzg1NDIyMjIy-2.81157813.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T00:17:18Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8531f05b6b05dfe35e53",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.78628
+      "rankingScore": 6.21447
     },
     {
       "id": "249be00f5e61b3694575b29c",
@@ -959,196 +1319,16 @@
       "clusterId": "de777bbe3b1a792fe407",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.54133,
+      "rankingScore": 6.21419,
       "related": []
     },
     {
-      "id": "5716bdd02d01c61f7ac26de7",
-      "title": "Australia takes Telegram to court over alleged failure to remove 'pro-terror' material",
+      "id": "b3a20635f2194692955afaea",
+      "title": "Man shot after female police officer stabbed in the neck during confrontation in Australia",
       "translatedTitle": null,
-      "description": "Telegram told the BBC it rejects the allegations and will contest them in court.",
-      "url": "https://www.bbc.co.uk/news/articles/crmrv4pnexmo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/crmrv4pnexmo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T03:03:12Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb1a/live/c8c335c0-f81a-11f0-8652-4de4e28f2840.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7b126d2cdb24f03c2ed2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.96395
-    },
-    {
-      "id": "830c53caddb96310c1699d65",
-      "title": "Cooler conditions on way for parts of UK - but still no rain for drought-hit areas",
-      "translatedTitle": null,
-      "description": "After another day of record-breaking temperatures for some parts of England, a cold front is moving in.",
-      "url": "https://www.bbc.co.uk/weather/articles/c1k183p9ddpo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/weather/articles/c1k183p9ddpo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T01:40:07Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8edf/live/75359650-8b40-11f1-b2d7-b96c6bc9d7f5.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "109f9f6a0e0a4d497c48",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.81186
-    },
-    {
-      "id": "b3c1a9b0dc3a868abcaa3031",
-      "title": "The body snatchers: how a young Nigerian man was lured to London in an organ-trafficking plot",
-      "translatedTitle": null,
-      "description": "David Nwamini was working at a market in Lagos when he was given the chance to start anew in the UK. He had no idea what was expected of him in return • The summer issue of the Long Read magazine is out now. Click here to order David Nwamini arrived in Lagos for the first time in 2016. He had come from a village in Ebonyi, a state in southeastern Nigeria. He was 15 years old, the eldest of nine siblings and his parents were farmers. When he was a boy, his father became sick and David started wor",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/jul/30/body-snatchers-young-nigerian-man-lured-london-organ-trafficking-plot",
-      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/jul/30/body-snatchers-young-nigerian-man-lured-london-organ-trafficking-plot",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T04:00:53Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a06ca555a27dea4cde43fdf8c41efcca01b0a22a/0_1148_4000_3200/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=f6d808ddccf404031db1ada5fb1dc59e",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fa53ca91a473abed224b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80663
-    },
-    {
-      "id": "d63134be22c5ca0188cb0bd3",
-      "title": "‘It makes you feel you’ve got a really dirty house’: what’s behind the UK’s plagues of flies?",
-      "translatedTitle": null,
-      "description": "From Leicestershire to Carmarthenshire, neighbourhoods are struggling with wave after wave of houseflies. Why are they suffering while others are spared? And is there no alternative to nets and zappers? Francesca Davies’s living room is absolutely teeming with flies. You can’t enter the contact centre worker’s home without a cluster of insects rising from the sofa or the floor to buzz around your face. Davies and her family live in West Heath, a suburb of the Cheshire town Congleton. Davies’s hu",
-      "url": "https://www.theguardian.com/environment/2026/jul/30/house-files-uk-plague-homes",
-      "canonicalUrl": "https://theguardian.com/environment/2026/jul/30/house-files-uk-plague-homes",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T04:00:52Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f5954f569ae361a5442a9084c594e73eb022d038/426_0_3292_2633/master/3292.jpg?width=140&quality=85&auto=format&fit=max&s=2e86729d716d951be73a338cfbb5d78d",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b9b2798772610dc1a720",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8066
-    },
-    {
-      "id": "af3d90006d0bbf69e7799b32",
-      "title": "A rain festival with no rain: the Indian farmers bracing for a ‘super’ El Niño as monsoon arrives late",
-      "translatedTitle": null,
-      "description": "Raja is normally a celebration of the start of the monsoon, but in the eastern state of Odisha, the rains came so late the seeds were sown under clear skies Kasturi Gamango and Pramila Sabar cannot contain their giggles as they explain one of the big attractions of the Raja festival, which they attended a few days earlier along with 20 other farmer families in Laxmipur, in Odisha’s Ganjam district. “We do no work for three days during the festival,” they say. “Our husbands cook and clean while w",
-      "url": "https://www.theguardian.com/global-development/2026/jul/30/rain-festival-indian-farmers-super-el-nino-raja-odisha",
-      "canonicalUrl": "https://theguardian.com/global-development/2026/jul/30/rain-festival-indian-farmers-super-el-nino-raja-odisha",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T04:00:51Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/b1d7dd51a89193f8639cca6828b0336692c6673a/36_401_4056_3245/master/4056.jpg?width=140&quality=85&auto=format&fit=max&s=5f77674006a8c537c98f623fdcd5e4d8",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "19713e6213c0b18ca497",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80657
-    },
-    {
-      "id": "350383f7a87f8c2554e6e9ad",
-      "title": "Major incident declared over coastal heath fire in Suffolk",
-      "translatedTitle": null,
-      "description": "Suffolk Fire and Rescue Service says 17 crews are involved at the scene of the large blaze.",
-      "url": "https://www.bbc.co.uk/news/articles/c78gnj1qqyyo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c78gnj1qqyyo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T01:01:06Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6b19/live/7de7b8e0-8b87-11f1-af36-51c4f770e76f.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "163961ea2ebeb2cb2d0a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74438
-    },
-    {
-      "id": "e8502bdb6eaec57a64fb2d44",
-      "title": "Montana man hikes out of the mountains to get help after he was impaled by a trekking pole",
-      "translatedTitle": null,
-      "description": "David Cifaldi was approaching the top of Montana’s highest peak with two friends when their hiking adventure took a dangerous turn: Cifaldi slipped and impaled himself on his trekking pole",
-      "url": "https://www.independent.co.uk/news/montana-minnesota-b3024260.html",
-      "canonicalUrl": "https://independent.co.uk/news/montana-minnesota-b3024260.html",
+      "description": "The 27-year-old suspect was shot in the leg by police",
+      "url": "https://www.independent.co.uk/news/world/australasia/police-officer-stabbed-adelaide-street-attack-b3024320.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/australasia/police-officer-stabbed-adelaide-street-attack-b3024320.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1157,28 +1337,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T04:13:03Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/30/05/Impaled_Hiker_72588.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-07-30T08:12:54Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/13/10/2232549604..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0db1617221f2d43b265c",
+      "clusterId": "2c6a54bd851ae9bba66a",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.74118
+      "rankingScore": 5.74074
     },
     {
-      "id": "26c2e57bca440a0ce15fd5d9",
-      "title": "Voters in Manchester choose a mayor to replace Andy Burnham, who left city hall for Downing Street",
+      "id": "ad247e4e0577c947528904f4",
+      "title": "A town haunted by the smell of rotting fish for 20 years is finally getting some relief",
       "translatedTitle": null,
-      "description": "Voters in Manchester are electing a new mayor Thursday to replace Andy Burnham, who left the job to become Britain’s prime minister",
-      "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-greater-manchester-labour-party-keir-starmer-english-b3024255.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/andy-burnham-greater-manchester-labour-party-keir-starmer-english-b3024255.html",
+      "description": "About 110 tanks that were left behind — each holding 3,000 gallons of fermented fish sauce — when the Atlantic Seafood Sauce Company was abandoned more than 20 years ago",
+      "url": "https://www.independent.co.uk/news/world/americas/st-marys-newfoundland-rotten-fish-cleanup-b3024359.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/st-marys-newfoundland-rotten-fish-cleanup-b3024359.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1187,118 +1367,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T04:04:53Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/30/05/Britain_Politics_76883.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-07-30T08:10:14Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/29/23/Canada_Abandoned_Fish_Sauce__6173.jpg?width=1200&auto=webp&crop=3%3A2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e545ef93e67ed0bc85a3",
+      "clusterId": "67fb52e8fa7b98b662b4",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.72467
+      "rankingScore": 5.73534
     },
     {
-      "id": "1de7e22c98d4ced33283c391",
-      "title": "Trump considering AI controls after OpenAI hacking incidents",
+      "id": "0f31c085a5ccd0dafa57b1c0",
+      "title": "Liberty Mitchell: ‘Reckless’ driver who filmed herself speeding before fatal crash has sentence increased",
       "translatedTitle": null,
-      "description": "It marks a change of tone for his administration, which has taken a more hands-off approach to the technology.",
-      "url": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c20dppq3y90o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T00:41:28Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ade/live/8444b290-8ba7-11f1-97f2-db346fdb1706.jpg",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f6e34bcc7138e4fccf55",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71134
-    },
-    {
-      "id": "48af01231afd711746ae093a",
-      "title": "How to do neon festival make-up - without harming your skin",
-      "translatedTitle": null,
-      "description": "Neon is on trend, but some make-up products pose a serious risk to your health. Here's what to check for, and how to dazzle.",
-      "url": "https://www.bbc.co.uk/news/articles/c0m71plpj0mo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c0m71plpj0mo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T00:22:27Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6fed/live/26a1ea00-8a9d-11f1-a7ab-8b30adf0800a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4ec2c9e2228d898ae31a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6799
-    },
-    {
-      "id": "90c6bd5e47b6dfec711dbfde",
-      "title": "Your burger costs more this summer, but farmers say they're not cashing in",
-      "translatedTitle": null,
-      "description": "The prices of beef, bread buns and bagged salad have risen sharply over the past year, figures show.",
-      "url": "https://www.bbc.co.uk/news/articles/c1519n0d01jo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c1519n0d01jo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T00:04:19Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2df4/live/121c89e0-8b2f-11f1-b2c5-873bffcd48e7.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4120a7b4be7188d27c85",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65043
-    },
-    {
-      "id": "28412dfb7d049dbba1e3c863",
-      "title": "Zendaya trades ‘spider bangs’ for delicate webs at Spider-Man: Brand New Day London premiere",
-      "translatedTitle": null,
-      "description": "Her hair and beauty styling also saw a notable shift from the Los Angeles premiere",
-      "url": "https://www.independent.co.uk/arts-entertainment/films/news/zendaya-spider-man-brand-new-day-london-premiere-tom-holland-b3024246.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/films/news/zendaya-spider-man-brand-new-day-london-premiere-tom-holland-b3024246.html",
+      "description": "She was driving on the wrong side of the road and nearly 40mph over the speed limit",
+      "url": "https://www.independent.co.uk/news/uk/crime/liberty-mitchell-sentence-car-crash-b3024355.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/crime/liberty-mitchell-sentence-car-crash-b3024355.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1307,58 +1397,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T03:11:06Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/29/21/e5557ab34b9e193fbc8ffad6736dc889Y29udGVudHNlYXJjaGFwaSwxNzg1NDQwMTQw-2.85447314.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-07-30T08:09:17Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/30/8/57/e8a8abb0-8a9e-11f1-b8ee-9b3c26ad07bb-copy.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b723d81807ed4bc71da4",
+      "clusterId": "b0a3a79af747e9ca5ee0",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.61903
+      "rankingScore": 5.73342
     },
     {
-      "id": "9d50f430e484178662e3e697",
-      "title": "Parents 'missing important family time' due to aimless phone use",
+      "id": "4d68e82ef444aff4aa244521",
+      "title": "Inside rogue agent Gianni Infantino’s secret plan to sell off the World Cup",
       "translatedTitle": null,
-      "description": "More than half of children say their parents' phone use causes them to miss important family moments, according to a survey.",
-      "url": "https://news.sky.com/story/parents-missing-important-family-time-due-to-aimless-phone-use-13568288",
-      "canonicalUrl": "https://news.sky.com/story/parents-missing-important-family-time-due-to-aimless-phone-use-13568288",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T02:22:00Z",
-      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-family-phone_7309858.jpg?20260730035029",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:22Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ef0d9ee8ae2e11abbd50",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61707
-    },
-    {
-      "id": "570578592cf690c49b778cb5",
-      "title": "Blanche nomination on hold as White House stand-off with GOP senators deepens",
-      "translatedTitle": null,
-      "description": "Cornyn, Tillis lead latest Senate revolt against Trump’s demands",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/todd-blanche-senate-nomination-fight-b3024198.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/todd-blanche-senate-nomination-fight-b3024198.html",
+      "description": "Not even Infantino’s inner circle or closest advisors at Fifa knew about his privatisation project, writes Miguel Delaney – and were angered when the news emerged",
+      "url": "https://www.independent.co.uk/sport/football/gianni-infantino-fifa-selling-world-cup-latest-news-b3024155.html",
+      "canonicalUrl": "https://independent.co.uk/sport/football/gianni-infantino-fifa-selling-world-cup-latest-news-b3024155.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1367,118 +1427,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T03:08:36Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/29/23/2288183384..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-07-30T08:05:55Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/29/09/01KYPGV0K2327VJ5X4T10YRM37.jpg?width=1200&auto=webp&trim=0%2C2%2C0%2C2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "293169a2ff823ec8a978",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.61424,
-      "related": []
-    },
-    {
-      "id": "e7e8cadd4e691e82b055f2e3",
-      "title": "The Papers: 'Future looking droughtful' and 'Dinghy flotilla'",
-      "translatedTitle": null,
-      "description": "Drought leaves UK parched and a \"dinghy flotilla\" crossing the English Channel lead Thursday's papers.",
-      "url": "https://www.bbc.co.uk/news/articles/c1m1zg9j5plo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c1m1zg9j5plo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-29T23:40:54Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98f1/live/c5bc89f0-8b9d-11f1-a7ab-8b30adf0800a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "77c5f1fa9120ac1a15e8",
+      "clusterId": "fa5a7d5be02db6393553",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.6131
+      "rankingScore": 5.72662
     },
     {
-      "id": "ff469652e85a737506758ba4",
-      "title": "He watched the 1966 World Cup final at Wembley aged 16 - no day since has matched it",
+      "id": "dee0b16e03eba76c500e67db",
+      "title": "Transfer news LIVE: Eddie Howe leaves role as Newcastle boss, Rashford could exit Man Utd, Liverpool target Barcola",
       "translatedTitle": null,
-      "description": "Kenneth Farrington shares his memories of the 1966 World Cup Final, 60 years on.",
-      "url": "https://www.bbc.co.uk/news/articles/c9d377g4nxyo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c9d377g4nxyo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-29T23:35:49Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/127b/live/fbddc520-8b6c-11f1-b2ab-0dd01740f9f6.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4a5873360d6e5581d76a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6051
-    },
-    {
-      "id": "e1672129d955e90a8e5fc7fa",
-      "title": "How the UK's extreme heat is shifting the conversation about air-con",
-      "translatedTitle": null,
-      "description": "Should we embrace air conditioning despite its costs and consequences, and how much should we spend on adapting homes versus cutting carbon?",
-      "url": "https://www.bbc.co.uk/news/articles/cy5dw4plzvlo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cy5dw4plzvlo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-29T23:33:01Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/555e/live/7e207690-8b4f-11f1-b8ee-9b3c26ad07bb.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "42fe0db7022190919699",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60071
-    },
-    {
-      "id": "bd259816afe6852c5f162269",
-      "title": "Sandra Oh’s thoughts on leaving Grey’s Anatomy: ‘I did my job’",
-      "translatedTitle": null,
-      "description": "Oh has repeatedly shut down fan requests to return to the ongoing medical drama",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/greys-anatomy-sandra-oh-yang-exit-b3024243.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/greys-anatomy-sandra-oh-yang-exit-b3024243.html",
+      "description": "Manchester United’s Rashford is being tipped with a possible move to Tottenham while PSG winger Barcola has agreed to join Liverpool with a record £140m price tag",
+      "url": "https://www.independent.co.uk/sport/football/transfer-news-live-rashford-barcola-vinicius-jr-arsenal-man-utd-liverpool-chelsea-b3024296.html",
+      "canonicalUrl": "https://independent.co.uk/sport/football/transfer-news-live-rashford-barcola-vinicius-jr-arsenal-man-utd-liverpool-chelsea-b3024296.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1487,110 +1457,140 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T02:59:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/29/16/36/Sandra-Oh.jpeg?width=1200&auto=webp&trim=59%2C0%2C176%2C0",
+      "publishedAt": "2026-07-30T08:01:53Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/30/08/01KYCK8FJ5W96JNAME9B0S814C.jpg?width=1200&auto=webp&trim=82%2C0%2C81%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "07a9f6777166c9813b23",
+      "clusterId": "a9f10f1fd5a49e6d2c20",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.59598
+      "rankingScore": 5.71851
     },
     {
-      "id": "eebbd2970fa4d672af53aaf1",
-      "title": "Inquiry finds MoD Afghan data breach was foreseeable failure",
+      "id": "548e761f48c30e12143d3e21",
+      "title": "Tom Holland says he ‘hated’ Spider-Man: Brand New Day cut made specifically for fans",
       "translatedTitle": null,
-      "description": "The Commons' Defence Committee says in a report that the MoD used secrecy as a \"shield\" against proper expertise.",
-      "url": "https://www.bbc.co.uk/news/articles/c77gvr4172vo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c77gvr4172vo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "‘It totally didn’t work – and it’s what the people were asking for,’ Marvel and ‘Odyssey’ star said",
+      "url": "https://www.independent.co.uk/arts-entertainment/films/news/spider-man-brand-new-day-tom-holland-b3024324.html",
+      "canonicalUrl": "https://independent.co.uk/arts-entertainment/films/news/spider-man-brand-new-day-tom-holland-b3024324.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-29T23:13:43Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de8c/live/c24cee30-8b67-11f1-aeab-95d4580645f0.jpg",
+      "publishedAt": "2026-07-30T07:57:54Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/30/7/01/Screenshot-2026-07-30-at-08-15-19.png?width=1200&auto=webp&trim=63%2C0%2C63%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3bdec4b093c586ab9c0a",
+      "clusterId": "f4e0c92e49dc7266ccc9",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.57077
+      "rankingScore": 5.71052
     },
     {
-      "id": "05bc2bf42d3e92a93c93f4c0",
-      "title": "Experimental Liverpool down Wrexham thanks to Rio Ngumoha’s deflected strike",
+      "id": "4375251f62d606a2981dceb9",
+      "title": "Australia launches proceedings against Telegram over terrorist content",
       "translatedTitle": null,
-      "description": "Substitute’s 75th-minute shot gives Liverpool 1-0 win in New York Chances few and far between in pre-season friendly that fails to ignite Liverpool turned the Empire State Building red when launching a new away kit on Tuesday but neither they nor Wrexham could illuminate Yankee Stadium 24 hours later. It was rough in the diamond, although Rio Ngumoha’s deflected goal made it two wins out of two for Andoni Iraola on his first pre-season tour as Liverpool head coach. Ngumoha, a second half substit",
-      "url": "https://www.theguardian.com/football/2026/jul/30/liverpool-wrexham-pre-season-friendly-rio-ngumoha-goal-match-report",
-      "canonicalUrl": "https://theguardian.com/football/2026/jul/30/liverpool-wrexham-pre-season-friendly-rio-ngumoha-goal-match-report",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "Australia’s internet commissioner alleges some of the content hosted on platform includes material related to Christchurch and Buffalo attacks as well as Isis beheading",
+      "url": "https://www.independent.co.uk/news/world/australasia/australia-telegram-pavel-durov-terrorism-b3024312.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/australasia/australia-telegram-pavel-durov-terrorism-b3024312.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T01:53:17Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/7549f7a24eb7681614b0582bd78e58455ad6d594/0_292_3722_2977/master/3722.jpg?width=140&quality=85&auto=format&fit=max&s=fbc87063b05d7a43bfbbc48d12a9df80",
+      "publishedAt": "2026-07-30T07:55:47Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/29/11/2026-07-29T061624Z_1159271338_RC2INMA4NG2G_RTRMADP_3_RUSSIA-TELEGRAM-DUROV.JPG?width=1200&auto=webp&trim=0%2C144%2C0%2C144",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e4f54eed867389a09318",
+      "clusterId": "82758fa204b4fa37d9d1",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.56519
+      "rankingScore": 5.70629
     },
     {
-      "id": "d214f2725170d8f7aa6034d4",
-      "title": "Red Cross declares crisis over blood supply shortage in US for second time its history",
+      "id": "a8cc7233ed7f98f4d78bfe72",
+      "title": "Lloyds targets another £2bn cost-cutting as half-year profit jumps by 23%",
       "translatedTitle": null,
-      "description": "Fewer donations and higher demand has seen a supply shortage worsen, the American Red Cross tells the BBC.",
-      "url": "https://www.bbc.co.uk/news/articles/c74gze89783o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c74gze89783o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "The banking group unveiled the new four-year strategy which will come into effect from 2027.",
+      "url": "https://www.independent.co.uk/news/business/lloyds-halifax-b3024321.html",
+      "canonicalUrl": "https://independent.co.uk/news/business/lloyds-halifax-b3024321.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-29T23:04:35Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf16/live/51651f60-8b8c-11f1-b2ab-0dd01740f9f6.jpg",
+      "publishedAt": "2026-07-30T07:53:18Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/30/08/29143908-a84203af-e1ba-44a0-be3c-42713f11db2e.jpg?width=1200&auto=webp&crop=3%3A2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-30T04:17:21Z",
+      "retrievedAt": "2026-07-30T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "28bb2f5de79316b70511",
+      "clusterId": "37a39f56084c8c63d21a",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.55678
+      "rankingScore": 5.70134
+    },
+    {
+      "id": "9083b5b8a08f2a5a816ce41c",
+      "title": "First-time mum diagnosed with leukaemia after dismissing ‘common pregnancy symptoms’",
+      "translatedTitle": null,
+      "description": "Rebecca Robinson was diagnosed with acute myeloid leukaemia (AML) just 10 days after giving birth",
+      "url": "https://www.independent.co.uk/life-style/health-and-families/acute-myeloid-leukaemia-symptoms-pregnancy-b3024337.html",
+      "canonicalUrl": "https://independent.co.uk/life-style/health-and-families/acute-myeloid-leukaemia-symptoms-pregnancy-b3024337.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T07:52:17Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/30/06/27175100-fad976ee-9e28-4292-a603-0d8871d75a2a.jpg?width=1200&auto=webp&trim=482%2C0%2C542%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-30T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d6cf7052d2c75a36a6ef",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69932
     }
   ]
 }
