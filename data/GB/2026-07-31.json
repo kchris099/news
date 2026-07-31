@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-07-31",
-  "generatedAt": "2026-07-31T04:17:22Z",
-  "lastAttemptAt": "2026-07-31T04:17:22Z",
-  "lastSuccessfulUpdate": "2026-07-31T04:17:22Z",
-  "status": "current",
+  "generatedAt": "2026-07-31T08:17:26Z",
+  "lastAttemptAt": "2026-07-31T08:17:26Z",
+  "lastSuccessfulUpdate": "2026-07-31T08:17:26Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 42,
+  "articleCount": 45,
   "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-07-31T04:17:21Z",
-      "lastSuccessAt": "2026-07-31T04:17:21Z",
+      "lastAttemptAt": "2026-07-31T08:17:25Z",
+      "lastSuccessAt": "2026-07-31T08:17:25Z",
       "articlesRetrieved": 33,
-      "responseTimeMs": 294,
+      "responseTimeMs": 602,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-07-31T04:17:21Z",
-      "lastSuccessAt": "2026-07-31T04:17:21Z",
+      "lastAttemptAt": "2026-07-31T08:17:25Z",
+      "lastSuccessAt": "2026-07-31T08:17:25Z",
       "articlesRetrieved": 136,
-      "responseTimeMs": 359,
+      "responseTimeMs": 435,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-07-31T04:17:21Z",
-      "lastSuccessAt": "2026-07-31T04:17:22Z",
+      "lastAttemptAt": "2026-07-31T08:17:25Z",
+      "lastSuccessAt": "2026-07-31T08:17:25Z",
       "articlesRetrieved": 10,
-      "responseTimeMs": 578,
+      "responseTimeMs": 656,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-07-31T04:17:21Z",
-      "lastSuccessAt": "2026-07-31T04:17:21Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 530,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-31T08:17:25Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -78,13 +78,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
+      "retrievedAt": "2026-07-31T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "a4a34580dfdcd67d0858",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 9.65711,
       "related": [
         {
           "id": "13b1840315b2dfab6e35d548",
@@ -146,8 +147,159 @@
           "sourceQuality": 1.0,
           "normalizedTitle": "trump claims board of peace has reached historic gaza deal to disarm hamas and withdraw israeli troops"
         }
+      ]
+    },
+    {
+      "id": "83a44103dcca07172b99d72f",
+      "title": "BP puts North Sea oil and gas business up for sale",
+      "translatedTitle": null,
+      "description": "Move, which will end six decades of production in area, comes as new CEO tries to simplify firm and cut debt Business live – latest updates BP has put its North Sea oil and gas business up for sale, as it looks to end six decades of production from the region. The oil major announced on Friday morning that it had launched a formal process to market its North Sea business for a potential sale. The move comes as BP’s new chief executive, Meg O’Neill, tries to simplify the company and cut its debt",
+      "url": "https://www.theguardian.com/business/2026/jul/31/bp-north-sea-oil-and-gas-business-up-for-sale",
+      "canonicalUrl": "https://theguardian.com/business/2026/jul/31/bp-north-sea-oil-and-gas-business-up-for-sale",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
       ],
-      "rankingScore": 10.04723
+      "language": "en",
+      "publishedAt": "2026-07-31T07:18:48Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2f9871761aba480fc8aef48dedda5f5ea0fb100b/483_270_2510_2010/master/2510.jpg?width=140&quality=85&auto=format&fit=max&s=707fe78c3bbc6cbeb49a88422c92d013",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d2dc59ae3ce757235413",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "cb4de90d150509e75645e595",
+          "title": "BP hangs for sale sign over North Sea operations",
+          "translatedTitle": null,
+          "description": "BP has placed its North Sea oil and gas business up for sale.",
+          "url": "https://news.sky.com/story/bp-hangs-for-sale-sign-over-north-sea-operations-13568673",
+          "canonicalUrl": "https://news.sky.com/story/bp-hangs-for-sale-sign-over-north-sea-operations-13568673",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-31T06:35:00Z",
+          "imageUrl": "https://e3.365dm.com/21/08/1920x1080/skynews-north-sea-oil-drilling_5496902.jpg?20210831232556",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-31T08:17:25Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "d2dc59ae3ce757235413",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "bp hangs for sale sign over north sea operations"
+        },
+        {
+          "id": "bc0e73783c266189d6ff3c43",
+          "title": "Burnham told Trump the UK will be ‘pragmatic’ about North Sea oil and gas",
+          "translatedTitle": null,
+          "description": "Despite vowing to stick to Labour’s 2024 manifesto promises, Burnham appears to have left the door open for further drilling in the North Sea",
+          "url": "https://www.independent.co.uk/news/uk/politics/burnham-trump-north-sea-oil-pragmatic-b3025007.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/politics/burnham-trump-north-sea-oil-pragmatic-b3025007.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-30T23:38:57Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/30/17/01KYSPA073F5184RV2VGV8MQG9.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-31T04:17:21Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "d2dc59ae3ce757235413",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.25004,
+          "normalizedTitle": "burnham told trump the uk will be pragmatic about north sea oil and gas",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 8.87369
+    },
+    {
+      "id": "0fd851e5fc6c7a0cee197678",
+      "title": "UK house prices up 0.1% in July as buyers remain cautious on interest rates",
+      "translatedTitle": null,
+      "description": "Price of an average home now £277,542, up from £277,484 the previous month but lower than in May, says Nationwide Business live – latest updates Economic uncertainty dampened UK house price growth in July as prospective house buyers remained cautious about interest rates during the US war with Iran in what should be peak housebuying season. House prices rose by just 0.1% in July from a month earlier, according to the lender Nationwide, while annual price growth slowed to 1.8% this month, down fr",
+      "url": "https://www.theguardian.com/business/2026/jul/31/uk-house-prices-july-buyers-cautious-interest-rates",
+      "canonicalUrl": "https://theguardian.com/business/2026/jul/31/uk-house-prices-july-buyers-cautious-interest-rates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T07:56:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ab578bf8e29bbea27d3a21764fbfa2b9ad00d384/251_4_1397_1118/master/1397.jpg?width=140&quality=85&auto=format&fit=max&s=32d715717d590647ff351c9d3abaf0f0",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "edbc6fde94204cb612d5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.49751
+    },
+    {
+      "id": "50f05cdd3d567062cdb7ddcf",
+      "title": "Suffolk wildfire near Sizewell nuclear plant ‘stabilising’ after 24 hours",
+      "translatedTitle": null,
+      "description": "More than 100 firefighters remain at scene after Dunwich Heath blaze spread across 150 hectares and forced evacuations Fire crews tackling a large wildfire burning for more than 24 hours near Britain’s biggest nuclear power station have said the situation is “stabilising”. More than 100 firefighters have been battling the blaze in Dunwich Heath, near Leiston, on the Suffolk coast since Wednesday evening. Continue reading...",
+      "url": "https://www.theguardian.com/uk-news/2026/jul/31/suffolk-wildfire-sizewell-nuclear-plant-dunwich-heath",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/jul/31/suffolk-wildfire-sizewell-nuclear-plant-dunwich-heath",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T07:48:44Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fcd48dcfd793e074babac2321e1d00f2b5571094/983_0_4917_3935/master/4917.jpg?width=140&quality=85&auto=format&fit=max&s=6883d768358a8840cb2a02fd1fca67dd",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6289bfbd0be3342b568a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.48225
     },
     {
       "id": "1574ec0afacedc4602a92b1d",
@@ -169,82 +321,21 @@
       "imageAlt": null,
       "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
+      "retrievedAt": "2026-07-31T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "60d0868a81540d642103",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.85498
-    },
-    {
-      "id": "d863e47caa41f951eaee4caf",
-      "title": "Anthropic says Claude AI hacked three organisations during cyber tests",
-      "translatedTitle": null,
-      "description": "It comes just days after rival OpenAI said rogue AI agents had breached other firms' networks.",
-      "url": "https://www.bbc.co.uk/news/articles/cz7dl7w8y7po?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cz7dl7w8y7po?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T01:31:14Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73c5/live/4de13040-8c72-11f1-a862-d9831bf8751b.jpg",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8bae7ede1d2df93ca30b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "24edc51e947074977789e4ce",
-          "title": "Anthropic’s AI Claude escaped testing environment and hacked organizations",
-          "translatedTitle": null,
-          "description": "Company says it discovered unauthorized access during ‘proactive review’ after rival OpenAI revealed rogue agent Anthropic ⁠said on Thursday its AI Claude model hacked ⁠systems of ⁠three ​organizations during testing, days after rival OpenAI ⁠revealed a rogue agent had gone on a days-long ⁠hacking spree at AI ​firm Hugging ‌Face. Claude gained ‌unauthorized access to the ‌systems during cybersecurity evaluations after a misconfiguration allowed the models to reach the internet from testing envir",
-          "url": "https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack",
-          "canonicalUrl": "https://theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-31T00:22:16Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/aa13c4d41c91dd3087da043d229ffc335478f87d/489_0_2893_2314/master/2893.jpg?width=140&quality=85&auto=format&fit=max&s=24cbad2d609ae229ac46c9da3b0a2cd0",
-          "imageAlt": null,
-          "category": "Technology",
-          "topics": [],
-          "retrievedAt": "2026-07-31T04:17:21Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "8bae7ede1d2df93ca30b",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "anthropic s ai claude escaped testing environment and hacked organizations"
-        }
-      ],
-      "rankingScore": 7.5463
+      "rankingScore": 8.07345,
+      "related": []
     },
     {
       "id": "1df64adbba328bd82960c46d",
       "title": "Spain sending troops as thousands enter enclave of Ceuta from Morocco",
       "translatedTitle": null,
-      "description": "At least 15 people drown as migrants try to swim to Spanish territory amid scenes of chaos at the border.",
+      "description": "At least 18 people drown as migrants try to swim to Spanish territory amid scenes of chaos at the border.",
       "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://bbc.co.uk/news/articles/cg4drwzkrkxo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
@@ -255,12 +346,12 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-31T02:41:09Z",
+      "publishedAt": "2026-07-31T08:09:17Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0fd/live/af9c6590-8c2f-11f1-b8ee-9b3c26ad07bb.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
+      "retrievedAt": "2026-07-31T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -268,7 +359,278 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.27246
+      "rankingScore": 7.4434
+    },
+    {
+      "id": "20305e6fc05d33d52cf13aef",
+      "title": "AC Milan and Italy great Baresi dies aged 66",
+      "translatedTitle": null,
+      "description": "AC Milan and Italy great Franco Baresi has died at the age of 66, the Italian club announces.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckgvlz45l3eo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/ckgvlz45l3eo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T07:27:00Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a661/live/91ce3570-8cac-11f1-a1f4-f50057266998.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1ec285ceda2e0f10983a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "a1840c3dcfbab138ace6acf9",
+          "title": "Franco Baresi, iconic former Milan and Italy defender, dies aged 66",
+          "translatedTitle": null,
+          "description": "Italian icon had undergone surgery on pulmonary nodule ‘The entire history of ⁠Milan is in ⁠tears,’ Serie A club says The former Milan and Italy defender Franco Baresi, one of the most recognisable players of the ⁠golden era of Italian football in the 1980s and 1990s, has died at the age of 66. “The entire history of ⁠AC Milan is in ⁠tears following the ​passing of Franco Baresi,” his former club said on Friday. “His example and integrity will be forever etched into the club’s DNA, just as his i",
+          "url": "https://www.theguardian.com/football/2026/jul/31/franco-baresi-iconic-former-milan-and-italy-defender-dies-aged-66",
+          "canonicalUrl": "https://theguardian.com/football/2026/jul/31/franco-baresi-iconic-former-milan-and-italy-defender-dies-aged-66",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-31T06:54:38Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/92f08656d113b54a4901ae3d0b696f294a3beec8/0_294_2342_1872/master/2342.jpg?width=140&quality=85&auto=format&fit=max&s=1e798dada59e7cbc86037eef2c494ed6",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-31T08:17:25Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "1ec285ceda2e0f10983a",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "franco baresi iconic former milan and italy defender dies aged 66"
+        }
+      ],
+      "rankingScore": 7.40957
+    },
+    {
+      "id": "a3e12bf759afb6e1c9875cfb",
+      "title": "British man accused of spying on Cyprus RAF base for Iran",
+      "translatedTitle": null,
+      "description": "Rashad Sultanov, a UK-Azerbaijan national, was arrested in Cyprus on suspicion of spying on RAF Akrotiri.",
+      "url": "https://www.bbc.co.uk/news/articles/ce853y7yq7yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ce853y7yq7yo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T06:42:16Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18fd/live/4e844910-8ca9-11f1-a39d-c51ae246fd82.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f16d16a534daf8930663",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.27438
+    },
+    {
+      "id": "a3acc88eea2d8d25ac54c30b",
+      "title": "MP Diane Abbott readmitted into Labour Party after suspension",
+      "translatedTitle": null,
+      "description": "The long-serving MP apologises for past comments and says she has been issued with a \"formal warning\".",
+      "url": "https://www.bbc.co.uk/news/articles/cy5dwd1p374o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cy5dwd1p374o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T06:39:12Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/54ad/live/81988240-8c3f-11f1-89bb-9b3e3c6f25f4.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b4a9ada9814dd1eae0de",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.26867
+    },
+    {
+      "id": "1caf8b38318903ff32351168",
+      "title": "Apple warns of memory chip shortage for key devices",
+      "translatedTitle": null,
+      "description": "Apple has warned it is seeking alternative memory chip suppliers as \"very significant\" constraints threaten future sales of its key devices.",
+      "url": "https://news.sky.com/story/apple-warns-of-memory-chip-shortage-for-key-devices-13568655",
+      "canonicalUrl": "https://news.sky.com/story/apple-warns-of-memory-chip-shortage-for-key-devices-13568655",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T05:02:00Z",
+      "imageUrl": "https://e3.365dm.com/26/06/1920x1080/skynews-apple-logo_7280742.jpg?20260623103248",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dbcae6bc3dadce599826",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.17579
+    },
+    {
+      "id": "11d2798aea4b2e80061148d8",
+      "title": "How India's 'cockroach' protests toppled a government minister – video",
+      "translatedTitle": null,
+      "description": "For the first time in more than a decade, a government minister in India has resigned following pressure from a street protest movement. The demonstrations erupted after the chief justice compared unemployed youths to cockroaches. For many young Indians, the remark became the tipping point after years of high unemployment and repeated exam paper leaks that had shattered the hopes of millions of job seekers. The Guardian spent a week embedded with protesters as they faced police crackdowns, arres",
+      "url": "https://www.theguardian.com/news/video/2026/jul/31/how-indias-cockroach-protests-toppled-a-government-minister-video",
+      "canonicalUrl": "https://theguardian.com/news/video/2026/jul/31/how-indias-cockroach-protests-toppled-a-government-minister-video",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T08:03:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fb488c6e323d6a8bf04ebc54e6aa57b3d2ab4dc0/343_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=7493abf7b49cba160a2c8570ddb61a19",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "94da0d582b2548e59ca0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.16127
+    },
+    {
+      "id": "61984d0e50db000353d022c0",
+      "title": "Ebola outbreak in DRC the fastest growing in the history of the virus",
+      "translatedTitle": null,
+      "description": "As the death toll rises to almost 1,500, and with a vaccine against the Bundibugyo strain potentially still months away, health workers face a battle to slow the outbreak The latest numbers of confirmed cases of Ebola in the Democratic Republic of the Congo has made this latest outbreak the fastest growing in the known history of the virus. At 3,360 confirmed cases, the disease is now affecting people in five provinces in the east of the DRC, with 1,487 deaths recorded, representing an overall c",
+      "url": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T08:00:08Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/478165b289e55c3652218208eea3674625ebce76/983_0_4914_3931/master/4914.jpg?width=140&quality=85&auto=format&fit=max&s=fa6716df08a32b40e2b9582678beab2b",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c7fceed8676faa65405b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15498
+    },
+    {
+      "id": "7b4eb4377e0a024f1b92d40d",
+      "title": "Heretic to Love Me: the seven best films to watch on TV this week",
+      "translatedTitle": null,
+      "description": "Hugh Grant gives a gleeful, career-best performance in A24’s terrifying horror, while Kristen Stewart and Steven Yeun star in a fun post-apocalyptic love story Sophie Thatcher (Yellowjackets) and Chloe East (The Fabelmans) play a pair of unworldly Mormon missionaries who arrive at the door of an avuncular Englishman hoping to make a new convert. That Englishman, however, is played by Hugh Grant – once a foppish romcom idol, now deep into his villain era – and what at first seems like a playful w",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/jul/31/the-seven-best-films-to-watch-on-tv-this-week",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/jul/31/the-seven-best-films-to-watch-on-tv-this-week",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T08:00:08Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/dd7250615050577a932ffad913391a199cece81b/202_1_1375_1100/master/1375.jpg?width=140&quality=85&auto=format&fit=max&s=374c2a91375a22f4bbdde108ff1120b9",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d1801db723b3a8b989d7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15498
+    },
+    {
+      "id": "39e477810a259fa7a2d184e4",
+      "title": "Is Infantino finished? Could Uefa boycott World Cup? What happens now?",
+      "translatedTitle": null,
+      "description": "It's been a seismic 48 hours for football after Uefa threatened to boycott the World Cup and Concacaf rejected Gianni Infantino's funding plan - what happens now, and can Fifa's president survive?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9984d9x1eyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c9984d9x1eyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T05:14:17Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad54/live/495f4a10-8c50-11f1-b8ee-9b3c26ad07bb.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ae66880f3e75b8f06376",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.11678
     },
     {
       "id": "17d50ace6a0792c523f83e06",
@@ -285,12 +647,12 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-31T01:38:59Z",
+      "publishedAt": "2026-07-31T04:54:13Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed4b/live/d54ae6b0-8c64-11f1-a7ab-8b30adf0800a.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
+      "retrievedAt": "2026-07-31T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -298,15 +660,45 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.15989
+      "rankingScore": 7.0826
     },
     {
-      "id": "e07df97fef81581ac1acc9e4",
-      "title": "Crews tackling Suffolk wildfire say they are in better position",
+      "id": "9f50543b7e5b2c28a04a1058",
+      "title": "The Burnham bounce is eclipsing the Green surge – and Zack Polanski’s radical hope is being tested | Gaby Hinsliff",
       "translatedTitle": null,
-      "description": "The Suffolk Fire and Rescue Service says \"the situation appears to be stabilising\" but at least 12 fire engines will remain on scene.",
-      "url": "https://www.bbc.co.uk/news/articles/c78gnj1qqyyo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c78gnj1qqyyo?at_campaign=rss&at_medium=RSS",
+      "description": "The new PM is enjoying a honeymoon period but, longer-term, the Greens have the freedom to say whatever Labour won’t Cackling happily into their pints, the two most powerful men in the country scoff their way through a selection of pub snacks. Pork scratchings or scampi fries? Or maybe old-school peanuts? It’s hardly the toughest choice currently facing Andy Burnham and the chancellor, John Healey, so some may find this week’s made-to-go-viral Instagram reel of them gleefully ranking crisps a bi",
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/31/andy-burnham-bounce-green-surge-zack-polanski",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/31/andy-burnham-bounce-green-surge-zack-polanski",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T07:00:07Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/98330b648b4b00ba4cac3a2c61f90b7871fbed2f/595_0_3413_2731/master/3413.jpg?width=140&quality=85&auto=format&fit=max&s=b852882ba7b4d6575fbf5a5bda4b5259",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "49a43e859816a967e939",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03795
+    },
+    {
+      "id": "acddea09b42c29d74ad81b98",
+      "title": "If Hamas disarmament plan holds, it could mark first credible step to ending Gaza war",
+      "translatedTitle": null,
+      "description": "The plan - if successful - potentially removes the most significant obstacle to advancing the Trump-backed peace initiative in Gaza.",
+      "url": "https://www.bbc.co.uk/news/articles/c9d8gd87d83o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c9d8gd87d83o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -315,20 +707,50 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-31T01:12:58Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a91f/live/cc363ee0-8c77-11f1-b8ee-9b3c26ad07bb.jpg",
+      "publishedAt": "2026-07-31T04:25:49Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2db1/live/201701f0-8c7f-11f1-8972-83c327826a89.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
+      "retrievedAt": "2026-07-31T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fa0791121e9e5abb55db",
+      "clusterId": "d5e964f8b67ce1bb5112",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.11467
+      "rankingScore": 7.0353
+    },
+    {
+      "id": "a011b0103288980ab61d0c14",
+      "title": "Fifa to push ahead with consultation plan despite backlash and insists ‘nobody is selling football’",
+      "translatedTitle": null,
+      "description": "Body responds after Uefa’s World Cup boycott threat Claims ‘process disrupted by incorrect media reports’ Fifa has responded to the threat of a boycott from European nations with a statement saying that “nobody is selling football”, while blaming the media for disrupting its consultation process over controversial plans to sell chunks of the World Cup to US-based private investment. After an emergency meeting on Thursday, Uefa member associations agreed to boycott all Fifa tournaments, including",
+      "url": "https://www.theguardian.com/football/2026/jul/31/fifa-world-cup-privatisation-consultation-sell-off-plan",
+      "canonicalUrl": "https://theguardian.com/football/2026/jul/31/fifa-world-cup-privatisation-consultation-sell-off-plan",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T04:55:54Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f47ef33e9fe9c8e36356543458eb75995af743c4/274_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=5c8af9d9172b1cfb14bad938a8eccbad",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "702ef66488625ab35a66",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.81545
     },
     {
       "id": "76d50e54ddd92ec764b84b63",
@@ -357,8 +779,8 @@
       "clusterId": "fc8acce3a55e7df9e855",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.93312
+      "rankingScore": 6.52787,
+      "related": []
     },
     {
       "id": "1845f615bb8e082a0b593eb9",
@@ -387,8 +809,8 @@
       "clusterId": "56c56144cd0d60c52486",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.91578
+      "rankingScore": 6.51399,
+      "related": []
     },
     {
       "id": "edb80d6a12f0455e652eb45d",
@@ -417,7 +839,7 @@
       "clusterId": "0f69faa6a12df3bbb8e1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.67259,
+      "rankingScore": 6.31927,
       "related": []
     },
     {
@@ -447,7 +869,7 @@
       "clusterId": "c78396cc4691a0aba5a0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.57316,
+      "rankingScore": 6.23965,
       "related": []
     },
     {
@@ -477,166 +899,16 @@
       "clusterId": "57cd4346e41577da33c3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.54677,
+      "rankingScore": 6.21853,
       "related": []
     },
     {
-      "id": "c5481a4a41f9e8d8d4934476",
-      "title": "Satellite company restricted Iran war images at Trump administration’s request",
+      "id": "fcdbc0c46f4ff8fe8255b161",
+      "title": "Sainsbury's agrees to sell Argos for £120m",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/satellite-company-planet-iran-war-images-b3025021.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/satellite-company-planet-iran-war-images-b3025021.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T23:26:35Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/30/07/download.-3.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f22222a7cd3fe3f2fd69",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.18069,
-      "related": []
-    },
-    {
-      "id": "7d9feb0b85e9efac373c9131",
-      "title": "‘I was so self-assured in my early 20s. Then my frontal lobe hit’: Rachel Chinouriri, every pop star’s favourite UK pop star",
-      "translatedTitle": null,
-      "description": "​She faced racist bullying as a child – then pigeonholing as an artist. Now following up a hit debut album championed by the A-list, the Croydon singer-songwriter says she finally understands who she really is In October 2017, Rachel Chinouriri had her first panic attack. It couldn’t have come at a worse time. She’d just landed her first major gig as a professional musician, supporting Celeste at the London members’ club Laylow. Out of nowhere, she began to spiral. “I don’t know what happened,”",
-      "url": "https://www.theguardian.com/music/2026/jul/31/rachel-chinouriri-interview-favourite-uk-pop-star-second-album",
-      "canonicalUrl": "https://theguardian.com/music/2026/jul/31/rachel-chinouriri-interview-favourite-uk-pop-star-second-album",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T04:00:04Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/35f37d553f9ffa3a6be34cacd59b4efb8a8438dd/0_0_5615_4492/master/5615.jpg?width=140&quality=85&auto=format&fit=max&s=11f08687ae62742b5da853787d1323a5",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8efed4da200f77728491",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80502
-    },
-    {
-      "id": "2730b32a3067f4a22e39b589",
-      "title": "Experience: I drive a bus for dogs",
-      "translatedTitle": null,
-      "description": "I worked with children for years, so the noise doesn’t bother me. You know you’ve done a good job if they’re quiet on the way home I’ve been a bus driver for 25 years. Before that, I worked in engineering sales and was on the road a lot, but it became impractical once I had young children. I took my kids to soft play centres and I thought: “I could run a place like this.” I opened my own centre in a Victorian shopping arcade in Otley, West Yorkshire, in 1995. It was great as my daughters could c",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/jul/31/experience-i-drive-a-bus-for-dogs",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/jul/31/experience-i-drive-a-bus-for-dogs",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T04:00:04Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/4bece5b2ab839afffb763637889f592d8cd9d9fd/681_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=bf338150b6f666166235147358862106",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a69dfcadee780df85905",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80502
-    },
-    {
-      "id": "c7d5618a537dbc2ed920ce9e",
-      "title": "Soy sauce refills and reused jars: can Philippines’ tingi culture hold back deluge of plastic waste?",
-      "translatedTitle": null,
-      "description": "A zero-waste shop set up by a district council provides plastic-free products at affordable prices in a country that gets through 164m sachets a day Just after classes finish for the day in Malabon City, in the Philippines, a corner shop begins to fill. Mothers arrive with their children, handing over empty bottles to be refilled with soy sauce and cooking oil. Plastic tubs that previously held ice-cream or biscuits are weighed and filled with flour or sugar. The kids get some sweets and banana",
-      "url": "https://www.theguardian.com/environment/2026/jul/31/philippines-tingi-zero-waste-shop-reuse-refill-plastic",
-      "canonicalUrl": "https://theguardian.com/environment/2026/jul/31/philippines-tingi-zero-waste-shop-reuse-refill-plastic",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T04:00:03Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/c8ba95cf0e745551366e0fb494956ff6c264f251/390_0_3898_3119/master/3898.jpg?width=140&quality=85&auto=format&fit=max&s=aed643493f818764b619a2931740ae6c",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9e261952d94d9c46e29a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80498
-    },
-    {
-      "id": "3d4f53e03463827c9daaf8c4",
-      "title": "After teargas, protests and legal strife, Turkey has a new opposition party. Is this the man who can oust Erdoğan? | Kaya Genç",
-      "translatedTitle": null,
-      "description": "Under Özgür Özel, the CHP became Turkey’s most popular party. Now his Yeni (New) movement is growing fast In May this year, police in Ankara stormed the headquarters of the Republican People’s party (CHP), the oldest political party in Turkey. Officers used teargas to enforce a controversial appeal court decision that reinstated the CHP’s 77-year-old former leader Kemal Kılıçdaroğlu – seen as less of a threat to the ruling Justice and Development party (AKP). CHP members aligned with Kılıçdaroğl",
-      "url": "https://www.theguardian.com/commentisfree/2026/jul/31/teargas-legal-strife-turkey-chp-opposition-split-new-party-oust-erdogan",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/jul/31/teargas-legal-strife-turkey-chp-opposition-split-new-party-oust-erdogan",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T04:00:03Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/4e79027f3d16c7b0b5cc47cf3ab42754e4e20975/82_0_4763_3810/master/4763.jpg?width=140&quality=85&auto=format&fit=max&s=92970fd2bce3ae41cd0f3adc6f4a2f26",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f186c6bd81c4887c9b07",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80498
-    },
-    {
-      "id": "cc30d7a9f3e1f8ab2f5edfa4",
-      "title": "Teen hackers tell BBC how police are helping them use their skills for good",
-      "translatedTitle": null,
-      "description": "Cyber Prevent is targeting predominantly boys and young men at risk of being drawn to cyber criminality.",
-      "url": "https://www.bbc.co.uk/news/articles/cn0nqpy1rk4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cn0nqpy1rk4o?at_campaign=rss&at_medium=RSS",
+      "description": "Under the terms of the deal, Argos will still operate in Sainsbury's shops, sell Habitat products, and offer Nectar points.",
+      "url": "https://www.bbc.co.uk/news/articles/cpw9yrl4p2qo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cpw9yrl4p2qo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -645,88 +917,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-31T00:42:48Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e04/live/545ff320-8c2c-11f1-a7ab-8b30adf0800a.jpg",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "90e0fabd433669338951",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71358
-    },
-    {
-      "id": "649cc08db475a800529f6fe6",
-      "title": "China’s factory activity unexpectedly slips into contraction in July",
-      "translatedTitle": null,
-      "description": "An official survey shows China's factory activity slowed in July, the first time it has contracted in in five months",
-      "url": "https://www.independent.co.uk/news/pmi-hong-kong-capital-economics-beijing-politburo-b3025059.html",
-      "canonicalUrl": "https://independent.co.uk/news/pmi-hong-kong-capital-economics-beijing-politburo-b3025059.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T03:58:27Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/31/05/China_Economy_24663.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-07-31T08:08:23Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/984f/live/3817e570-8cb7-11f1-b2ab-0dd01740f9f6.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
+      "retrievedAt": "2026-07-31T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ac6a11a3d7ff3a64836d",
+      "clusterId": "5d767a3effc99fecbf0e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.71178
+      "rankingScore": 6.09158
     },
     {
-      "id": "c4f0921b1c4137c40d6ace84",
-      "title": "‘A car in the bus!’: Toyota becomes airborne and then wedges in side of Brisbane bus",
+      "id": "02eb87fae2b8e1bac553f2cc",
+      "title": "The Premier League clubs fighting a World Cup hangover",
       "translatedTitle": null,
-      "description": "Queensland police fine driver of another car that allegedly caused Yaris to swerve before it hit kerb and catapulted into air – and bus A Queensland driver has been fined after being involved in a stunning crash that saw a car become airborne and then stuck in the side of a bus. The drama unfolded at Rocklea in Brisbane’s south on Wednesday evening. A blue Toyota Yaris hit a traffic island and was catapulted into the air before smashing into the side of the council bus. The back of the car was l",
-      "url": "https://www.theguardian.com/australia-news/2026/jul/31/brisbane-bus-car-crash",
-      "canonicalUrl": "https://theguardian.com/australia-news/2026/jul/31/brisbane-bus-car-crash",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T03:04:40Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/6965a30ae80c91abbed84d3aa7b692355dc8731d/21_320_1148_918/master/1148.jpg?width=140&quality=85&auto=format&fit=max&s=c281e0c19af837aa71c871f4ee830caf",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "257cc0299a44aecc7da0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69676
-    },
-    {
-      "id": "7cf59b8f5e63ffab1a021254",
-      "title": "What your summer reading list says about you",
-      "translatedTitle": null,
-      "description": "Just picked your holiday book? Our choices can subconsciously reveal important parts of our personality, studies show.",
-      "url": "https://www.bbc.co.uk/news/articles/cd69glgl2jzo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cd69glgl2jzo?at_campaign=rss&at_medium=RSS",
+      "description": "Which Premier League clubs have carried the biggest World Cup workload?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c87n3wydzjzo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c87n3wydzjzo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -735,118 +947,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-31T00:26:02Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c46c/live/28b7c900-8c0e-11f1-8665-e382dc49dfdb.jpg",
+      "publishedAt": "2026-07-31T08:08:23Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/93e1/live/8be9f630-8c34-11f1-89bb-9b3e3c6f25f4.jpg",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
+      "retrievedAt": "2026-07-31T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "2c1ecdecc793557cc490",
+      "clusterId": "5f8a5d2f2d06a74e5429",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.6858
+      "rankingScore": 6.09158
     },
     {
-      "id": "da0dfe1680e7b8d0aafb8157",
-      "title": "World-renowned climber Nirmal Purja among 10 feared missing after avalanche on Pakistan mountain",
+      "id": "03ab59c10634bee704a3b90e",
+      "title": "Bournemouth agree £26m fee for Benfica defender Silva",
       "translatedTitle": null,
-      "description": "Expedition on Broad Peak includes mountaineers from Nepal, the US, Pakistan, Oman and China The world-renowned climber Nirmal Purja – a former British Special Forces member – is among 10 climbers feared missing after an avalanche struck Broad Peak in Pakistan, one of the world’s highest mountains. Purja, who is Nepalese born and also known as Nims Dai, made history in 2019, climbing all of the world’s 14 peaks over 8,000 metres in just over six months. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/jul/31/nirmal-purja-10-climbers-missing-pakistan-broad-peak-mountain",
-      "canonicalUrl": "https://theguardian.com/world/2026/jul/31/nirmal-purja-10-climbers-missing-pakistan-broad-peak-mountain",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T02:54:13Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f99504dd2c2163221943dadab03878d9168436d3/1206_89_2188_1751/master/2188.jpg?width=140&quality=85&auto=format&fit=max&s=6c4a8fe255ccb706346053cccc20c638",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d1e4bd946c0ada1eb355",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.67695
-    },
-    {
-      "id": "6dabfb6dfc1aebed48a6c6aa",
-      "title": "Ten climbers led by Nepalese mountaineer Nirmal Purja missing after avalanche strikes Pakistan peak",
-      "translatedTitle": null,
-      "description": "Alpine Club of Pakistan received initial reports that an avalanche struck the team led by Purja and the climbers have been out of communication since then",
-      "url": "https://www.independent.co.uk/asia/south-asia/climbers-missing-avalanche-nirmal-purja-pakistan-b3025051.html",
-      "canonicalUrl": "https://independent.co.uk/asia/south-asia/climbers-missing-avalanche-nirmal-purja-pakistan-b3025051.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T03:33:52Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/31/03/Pakistan_Mountaineers_Missing_692_9.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a3cd614688a44c27b236",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66313
-    },
-    {
-      "id": "0381c76d88031f1a46e8044c",
-      "title": "Could AI take your job? Some workers in China already know the answer",
-      "translatedTitle": null,
-      "description": "Across the country, workers are fearful about the impact of AI on their livelihoods in an increasingly fragile labour market On the tree-lined streets of Wuhan, where cars jostle for space with mopeds and cargo trucks, the malfunctioning of a new type of vehicle has recently been causing chaos on the city’s roads. In March, several cars from a fleet of driverless taxis stopped abruptly in the streets. The “system malfunction” left distressed riders stranded for hours. The robotaxis, known as Apo",
-      "url": "https://www.theguardian.com/world/2026/jul/31/china-ai-jobs-workers-labour-market-technology",
-      "canonicalUrl": "https://theguardian.com/world/2026/jul/31/china-ai-jobs-workers-labour-market-technology",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T02:22:05Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/3ce356aad9a745854a5c27720db1c03216959a5a/1364_788_3114_2492/master/3114.jpg?width=140&quality=85&auto=format&fit=max&s=a0ac91e1359cda86ccbab3b9392da136",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f76ecf00fcd0d9356ca3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61724
-    },
-    {
-      "id": "fbfc02ed4e13991b4019ae8f",
-      "title": "Watch: Moment empty building collapses in New York",
-      "translatedTitle": null,
-      "description": "Surveillance video shows the building – which was under construction – crumbling over and sending debris spilling onto a road.",
-      "url": "https://www.bbc.co.uk/news/videos/crl70g6ekleo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/videos/crl70g6ekleo?at_campaign=rss&at_medium=RSS",
+      "description": "Bournemouth agree a deal worth up to almost £26m for Benfica centre-back Antonio Silva.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/crr8r4zvj5jo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -855,56 +977,56 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T23:31:18Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f270/live/aa606010-8c6e-11f1-b2ab-0dd01740f9f6.jpg",
+      "publishedAt": "2026-07-31T08:03:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8221/live/f769cfb0-8028-11f1-8ae2-1d238eb2d791.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
+      "retrievedAt": "2026-07-31T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3967514ae7456b7d67a6",
+      "clusterId": "e949a08c76bf55bfedb8",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.59804
+      "rankingScore": 6.08117
     },
     {
-      "id": "dc84573f33ac8202124c8288",
-      "title": "'I pay £580 a month to live in a disused care home': Property guardians show us around",
+      "id": "f93957aead44a879bd9a7617",
+      "title": "Man arrested in Cyprus in first overseas National Security Act investigation",
       "translatedTitle": null,
-      "description": "Could you live communally in a disused building in exchange for a heavily discounted rent? Property guardians show us around.",
-      "url": "https://www.bbc.co.uk/news/articles/cj4kvge1pyvo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cj4kvge1pyvo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "A man has been arrested in Cyprus as part of the first investigation using the National Security Act in relation to alleged offences in an overseas territory.",
+      "url": "https://news.sky.com/story/man-arrested-in-cyprus-in-first-overseas-national-security-act-investigation-13568067",
+      "canonicalUrl": "https://news.sky.com/story/man-arrested-in-cyprus-in-first-overseas-national-security-act-investigation-13568067",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-07-30T23:05:41Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39df/live/81725880-842f-11f1-8db9-6b4471749e2a.jpg",
+      "publishedAt": "2026-07-31T05:06:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-s-raf-akrotiri-raf-akrotiri_7310899.jpg?20260731074927",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
+      "retrievedAt": "2026-07-31T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6bc8ff2eff04d23f4629",
+      "clusterId": "378fb173d1990e81e207",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.55847
+      "rankingScore": 5.4826
     },
     {
-      "id": "5e2e6b4672ee285ad4626b69",
-      "title": "British climber who starred in Netflix documentary missing after avalanche",
+      "id": "51119252044184607b01a4c7",
+      "title": "Renowned climber missing after avalanche - as four bodies found",
       "translatedTitle": null,
-      "description": "A renowned climber who served in the British military for 16 years is among 10 people missing after an avalanche struck one of the world's highest mountains.",
+      "description": "A renowned climber who served in the British special forces is missing after an avalanche on one of the world's highest mountains.",
       "url": "https://news.sky.com/story/nirmal-purja-ex-british-special-forces-soldier-missing-after-avalanche-13568650",
       "canonicalUrl": "https://news.sky.com/story/nirmal-purja-ex-british-special-forces-soldier-missing-after-avalanche-13568650",
       "sourceName": "Sky News",
@@ -916,19 +1038,19 @@
       ],
       "language": "en",
       "publishedAt": "2026-07-31T01:48:00Z",
-      "imageUrl": "https://e3.365dm.com/19/10/1920x1080/skynews-nirmal-purja-himalayas_4819752.jpg?20191029145101",
+      "imageUrl": "https://e3.365dm.com/19/10/1920x1080/skynews-nirmal-purja-himalayas_4819756.jpg?20260731091224",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T04:17:22Z",
+      "retrievedAt": "2026-07-31T08:17:25Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e2cdd91dcd340a2cd78a",
+      "clusterId": "cce5a987b1e07a06464b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.55582
+      "rankingScore": 5.17395,
+      "related": []
     },
     {
       "id": "a4d214fd32628a7e90f22051",
@@ -957,8 +1079,38 @@
       "clusterId": "5c5061bea3c558a0ceaa",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 5.06216,
+      "related": []
+    },
+    {
+      "id": "24edc51e947074977789e4ce",
+      "title": "Anthropic’s AI Claude escaped testing environment and hacked organizations",
+      "translatedTitle": null,
+      "description": "Company says it discovered unauthorized access during ‘proactive review’ after rival OpenAI revealed rogue agent Anthropic ⁠said on Thursday its AI Claude model hacked ⁠systems of ⁠three ​organizations during testing, days after rival OpenAI ⁠revealed a rogue agent had gone on a days-long ⁠hacking spree at AI ​firm Hugging ‌Face. Claude gained ‌unauthorized access to the ‌systems during cybersecurity evaluations after a misconfiguration allowed the models to reach the internet from testing envir",
+      "url": "https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack",
+      "canonicalUrl": "https://theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T00:22:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/aa13c4d41c91dd3087da043d229ffc335478f87d/489_0_2893_2314/master/2893.jpg?width=140&quality=85&auto=format&fit=max&s=24cbad2d609ae229ac46c9da3b0a2cd0",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "21d81a31391984efc520",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.4386
+      "rankingScore": 5.05688
     },
     {
       "id": "67f4f399de45270fd77276b0",
@@ -987,8 +1139,8 @@
       "clusterId": "52d27867eb64ba423adc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.39439
+      "rankingScore": 5.02676,
+      "related": []
     },
     {
       "id": "5dd8cbb5c8c218a6695c94ab",
@@ -1017,8 +1169,38 @@
       "clusterId": "60d9f217df100cfe0c43",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 5.01254,
+      "related": []
+    },
+    {
+      "id": "8a4f214de36e6510d2693ca0",
+      "title": "Australia’s golden sprinters speak out on cycling defector: ‘Good riddance’",
+      "translatedTitle": null,
+      "description": "Views on Matt Richardson aired after gold in team sprint One of three Australian cycling golds won on day seven Leigh Hoffman has bid Matt Richardson good riddance after Australia’s gold medal in the team sprint on day one of the Commonwealth Games track cycling program. Teammate Ryan Elliott also joked they had cleared Hoffman as their leader, checking his passport to make sure he will stay in the Australian program. While expressing sympathy for Richardson after a recent nasty race crash in Ja",
+      "url": "https://www.theguardian.com/sport/2026/jul/30/australias-men-lose-commonwealth-cycling-pursuit-to-england-but-women-triumph",
+      "canonicalUrl": "https://theguardian.com/sport/2026/jul/30/australias-men-lose-commonwealth-cycling-pursuit-to-england-but-women-triumph",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-30T23:42:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a10f84a755c278073510f2f805b0c3e83ff4946c/345_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=422430f7757e6c455298d0e547eafe94",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T08:17:25Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "34d3cb4c14b2be874d68",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.37663
+      "rankingScore": 5.00613
     },
     {
       "id": "f1a1f734a70d4f47f614b7f5",
@@ -1047,8 +1229,8 @@
       "clusterId": "0396e96b433e7e1aad91",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.36458
+      "rankingScore": 5.00289,
+      "related": []
     },
     {
       "id": "ec48e1d53789a079229a70de",
@@ -1077,8 +1259,8 @@
       "clusterId": "34e9fb22f8493a5b2590",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.34983
+      "rankingScore": 4.99108,
+      "related": []
     },
     {
       "id": "fb080f9e0d05abab70f784c6",
@@ -1107,8 +1289,8 @@
       "clusterId": "b46f322e73435d6e5696",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.31798
+      "rankingScore": 4.96557,
+      "related": []
     },
     {
       "id": "34655aaa398cf0b529110c5c",
@@ -1137,8 +1319,8 @@
       "clusterId": "0d54b9b9c2abdf987854",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.31174
+      "rankingScore": 4.96058,
+      "related": []
     },
     {
       "id": "ec6d5ce1ade1e1b1408cd3ad",
@@ -1167,7 +1349,7 @@
       "clusterId": "57a1e859e0dc39a801c3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.30455,
+      "rankingScore": 4.95482,
       "related": []
     },
     {
@@ -1197,7 +1379,7 @@
       "clusterId": "9c261acffaaace8f5045",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.28452,
+      "rankingScore": 4.93879,
       "related": []
     },
     {
@@ -1227,7 +1409,7 @@
       "clusterId": "6659558d9dfe165fbfe2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.28118,
+      "rankingScore": 4.93611,
       "related": []
     },
     {
@@ -1257,37 +1439,7 @@
       "clusterId": "0d43ffa1416e61c2c712",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.25088,
-      "related": []
-    },
-    {
-      "id": "bc0e73783c266189d6ff3c43",
-      "title": "Burnham told Trump the UK will be ‘pragmatic’ about North Sea oil and gas",
-      "translatedTitle": null,
-      "description": "Despite vowing to stick to Labour’s 2024 manifesto promises, Burnham appears to have left the door open for further drilling in the North Sea",
-      "url": "https://www.independent.co.uk/news/uk/politics/burnham-trump-north-sea-oil-pragmatic-b3025007.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/burnham-trump-north-sea-oil-pragmatic-b3025007.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-30T23:38:57Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/30/17/01KYSPA073F5184RV2VGV8MQG9.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T04:17:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1e62fa50b79155fb8932",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.25004,
+      "rankingScore": 4.91185,
       "related": []
     },
     {
@@ -1317,7 +1469,7 @@
       "clusterId": "d7e3f6ce33ab5767d3d6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.23022,
+      "rankingScore": 4.89531,
       "related": []
     },
     {
@@ -1347,7 +1499,7 @@
       "clusterId": "314916a916ac4013dbe0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.19134,
+      "rankingScore": 4.86418,
       "related": []
     },
     {
@@ -1377,8 +1529,8 @@
       "clusterId": "4dfc1fe0c58f8bb89d60",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.06121
+      "rankingScore": 4.68026,
+      "related": []
     },
     {
       "id": "a98d3a1f5685197420b68603",
@@ -1407,8 +1559,8 @@
       "clusterId": "607d58a79cce67f4cd10",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.02536
+      "rankingScore": 4.65155,
+      "related": []
     }
   ]
 }
