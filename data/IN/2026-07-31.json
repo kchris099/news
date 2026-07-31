@@ -4,10 +4,10 @@
   "countryName": "India",
   "timeZone": "Asia/Kolkata",
   "date": "2026-07-31",
-  "generatedAt": "2026-07-31T12:18:03Z",
-  "lastAttemptAt": "2026-07-31T12:18:03Z",
-  "lastSuccessfulUpdate": "2026-07-31T12:18:03Z",
-  "status": "current",
+  "generatedAt": "2026-07-31T16:17:49Z",
+  "lastAttemptAt": "2026-07-31T16:17:49Z",
+  "lastSuccessfulUpdate": "2026-07-31T16:17:49Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,32 +16,32 @@
       "sourceId": "the-hindu-national",
       "sourceName": "The Hindu",
       "status": "success",
-      "lastAttemptAt": "2026-07-31T12:17:51Z",
-      "lastSuccessAt": "2026-07-31T12:17:53Z",
+      "lastAttemptAt": "2026-07-31T16:17:44Z",
+      "lastSuccessAt": "2026-07-31T16:17:45Z",
       "articlesRetrieved": 60,
-      "responseTimeMs": 2231,
+      "responseTimeMs": 1187,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "indian-express",
       "sourceName": "The Indian Express",
-      "status": "success",
-      "lastAttemptAt": "2026-07-31T12:17:51Z",
-      "lastSuccessAt": "2026-07-31T12:17:53Z",
-      "articlesRetrieved": 200,
-      "responseTimeMs": 2027,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-07-31T16:17:44Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '403 Forbidden' for url 'https://indianexpress.com/section/india/feed/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "sourceId": "hindustan-times-india",
       "sourceName": "Hindustan Times",
       "status": "success",
-      "lastAttemptAt": "2026-07-31T12:17:51Z",
-      "lastSuccessAt": "2026-07-31T12:17:53Z",
+      "lastAttemptAt": "2026-07-31T16:17:44Z",
+      "lastSuccessAt": "2026-07-31T16:17:45Z",
       "articlesRetrieved": 100,
-      "responseTimeMs": 2196,
+      "responseTimeMs": 1310,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,18 +49,18 @@
       "sourceId": "ndtv-top",
       "sourceName": "NDTV",
       "status": "success",
-      "lastAttemptAt": "2026-07-31T12:17:51Z",
-      "lastSuccessAt": "2026-07-31T12:17:54Z",
+      "lastAttemptAt": "2026-07-31T16:17:44Z",
+      "lastSuccessAt": "2026-07-31T16:17:45Z",
       "articlesRetrieved": 20,
-      "responseTimeMs": 3810,
+      "responseTimeMs": 1406,
       "errorType": null,
       "errorMessage": null
     }
   ],
   "articles": [
     {
-      "id": "47ca3a6a991bff8b20088a09",
-      "title": "Hyderabad cybercrime police book Meta India head over posts targeting PM Modi",
+      "id": "e0d3cf51d86803964fc6e2e1",
+      "title": "Hyderabad cybercrime police book Meta India head over posts targeting PM Modi by users on Facebook and Instagram",
       "translatedTitle": null,
       "description": "The cases were registered following complaints filed by S. Aravind Reddy, a businessman, and T. Saikiran Goud, a Telangana BJP activist",
       "url": "https://www.thehindu.com/news/national/hyderabad-cybercrime-police-book-meta-india-head-over-posts-targeting-pm-modi/article71289036.ece",
@@ -73,19 +73,19 @@
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-07-31T06:10:05Z",
+      "publishedAt": "2026-07-31T15:52:28Z",
       "imageUrl": "https://th-i.thgim.com/public/incoming/ixmrzs/article71289081.ece/alternates/LANDSCAPE_1200/2026-07-30T113737Z_535547214_RC29C3ALMDTG_RTRMADP_3_INDIA-POLITICS-META.JPG",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T08:17:37Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0f76d607416ceeaaf78f",
+      "clusterId": "5ca76fc4f679e99e5144",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 9.61462,
+      "rankingScore": 10.46872,
       "related": [
         {
           "id": "94d0912e8e5eb55a17416c3a",
@@ -111,7 +111,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "0f76d607416ceeaaf78f",
+          "clusterId": "5ca76fc4f679e99e5144",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
@@ -137,11 +137,11 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-07-31T12:17:53Z",
+          "retrievedAt": "2026-07-31T16:17:45Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "0f76d607416ceeaaf78f",
+          "clusterId": "5ca76fc4f679e99e5144",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -149,6 +149,189 @@
           "rankingScore": 7.04163
         }
       ]
+    },
+    {
+      "id": "2bdfa29bf512451e0b1783f6",
+      "title": "Who is Tahir Hussain? From AAP councillor to life convict in Ankit Sharma murder case during Delhi riots",
+      "translatedTitle": null,
+      "description": "Hussain, who represented the Nehru Vihar ward in northeast Delhi, was a sitting AAP councillor when the communal violence broke out in February 2020.",
+      "url": "https://www.hindustantimes.com/india-news/delhi-riots-case-who-is-tahir-hussain-the-ex-aap-councillor-sentenced-to-life-ankit-sharma-murder-case-aimim-101785501364548.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/delhi-riots-case-who-is-tahir-hussain-the-ex-aap-councillor-sentenced-to-life-ankit-sharma-murder-case-aimim-101785501364548.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T13:52:37Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/PTI07-31-2026-000370A-0_1785507584949_1785507598242_e234b652-ff19-4c3e-81bd-3cbd1d890eb4.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9c8bc04e851fac2ba902",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "6a0faa0df3b4f2c0b5c5df78",
+          "title": "Tahir Hussain, four others sentenced to life imprisonment in IB staff Ankit Sharma murder case",
+          "translatedTitle": null,
+          "description": "The Delhi police had sought death penalty for the former Councillor",
+          "url": "https://www.thehindu.com/news/national/tahir-hussain-ib-staff-ankit-sharma-murder-case-life-imprisonment/article71290118.ece",
+          "canonicalUrl": "https://thehindu.com/news/national/tahir-hussain-ib-staff-ankit-sharma-murder-case-life-imprisonment/article71290118.ece",
+          "sourceName": "The Hindu",
+          "sourceDomain": "thehindu.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-31T12:07:04Z",
+          "imageUrl": "https://th-i.thgim.com/public/incoming/q5mpw0/article70757715.ece/alternates/LANDSCAPE_1200/DELHI%20ELECTION%20TAHIR%20HUSSAIN%20DELHI%202025_29_01_8.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-31T12:17:53Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "9c8bc04e851fac2ba902",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 7.39752,
+          "normalizedTitle": "tahir hussain four others sentenced to life imprisonment in ib staff ankit sharma murder case",
+          "sourceQuality": 1.0
+        },
+        {
+          "id": "8b55fa4568ec3d0daef6c9fc",
+          "title": "\"Savagery\": Ex-AAP Leader Tahir Hussain Gets Life For Intel Officer's Murder",
+          "translatedTitle": null,
+          "description": "Tahir Hussain (left) has been sentenced to life for killing Ankit Sharma",
+          "url": "https://www.ndtv.com/india-news/ex-aap-leader-tahir-hussain-gets-life-term-for-intelligence-officers-murder-11848296",
+          "canonicalUrl": "https://ndtv.com/india-news/ex-aap-leader-tahir-hussain-gets-life-term-for-intelligence-officers-murder-11848296",
+          "sourceName": "NDTV",
+          "sourceDomain": "ndtv.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-31T11:39:16Z",
+          "imageUrl": "https://c.ndtvimg.com/2026-07/7psa4ihk_tahir-hussain_650x400_31_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-31T16:17:45Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "9c8bc04e851fac2ba902",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "savagery ex aap leader tahir hussain gets life for intel officer s murder"
+        }
+      ],
+      "rankingScore": 9.62302
+    },
+    {
+      "id": "18aedf3d6d34f324f742bfe8",
+      "title": "Rajya Sabha adjourned amid protests over Ram Temple donation scam",
+      "translatedTitle": null,
+      "description": "Chairman C.P. Radhakrishnan declines the Congress’s demand to allow Leader of the Opposition Mallikarjun Kharge to speak immediately, saying the party was still in “Emergency mode”",
+      "url": "https://www.thehindu.com/news/national/rajya-sabha-adjourned-amid-protests-over-ram-temple-donation-scam/article71289993.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/rajya-sabha-adjourned-amid-protests-over-ram-temple-donation-scam/article71289993.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T16:04:37Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/vqrk11/article71291741.ece/alternates/LANDSCAPE_1200/20260731264L.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2e6f9ca1a78c4c9dad31",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.69303
+    },
+    {
+      "id": "5d0fafb096769431b04a2e8c",
+      "title": "24 Indians still with Russian army, says MEA",
+      "translatedTitle": null,
+      "description": "Ministry confirms 139 citizens have been successfully repatriated following diplomatic talks",
+      "url": "https://www.thehindu.com/news/national/24-indians-still-with-russian-army-says-mea/article71290906.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/24-indians-still-with-russian-army-says-mea/article71290906.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T15:30:31Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/seis89/article71291511.ece/alternates/LANDSCAPE_1200/20260731343L.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d9eb0cecf71357faaff1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "227f013c0d0371552a55c4e2",
+          "title": "India pursuing release of about 24 nationals serving in Russian Army, MEA says",
+          "translatedTitle": null,
+          "description": "India is pursuing the release of around 24 nationals still serving in the Russian Army, with 139 Indians already brought back, the MEA said.",
+          "url": "https://www.hindustantimes.com/india-news/india-pursuing-release-of-about-24-nationals-serving-in-russian-army-mea-says-101785506099357.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/india-pursuing-release-of-about-24-nationals-serving-in-russian-army-mea-says-101785506099357.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-07-31T13:54:58Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/IMore-than-30-Indians-have-died-so-far-while-servi_1785506092780.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-07-31T16:17:45Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "d9eb0cecf71357faaff1",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "india pursuing release of about 24 nationals serving in russian army mea says"
+        }
+      ],
+      "rankingScore": 8.67549
     },
     {
       "id": "7ab938aed53543027d5ff273",
@@ -170,44 +353,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "23104b8991c9f018d645",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.13119
-    },
-    {
-      "id": "959842d349071b327f8260c5",
-      "title": "First flood warning issued as Godavari crosses 43-ft mark at Bhadrachalam",
-      "translatedTitle": null,
-      "description": "15 gates of Yellampalli Project lifted amid heavy inflows",
-      "url": "https://www.thehindu.com/news/national/telangana/first-flood-warning-issued-as-godavari-crosses-43-ft-mark-at-bhadrachalam/article71289337.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/telangana/first-flood-warning-issued-as-godavari-crosses-43-ft-mark-at-bhadrachalam/article71289337.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T07:11:40Z",
-      "imageUrl": "https://www.thehindu.com/theme/images/og-image.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T08:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e57e9920cf8e464811dc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.90643,
+      "rankingScore": 7.75665,
       "related": []
     },
     {
@@ -230,14 +383,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "d54d99312593f1b0c035",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.54637,
+      "rankingScore": 7.29822,
       "related": [
         {
           "id": "682c3c0c9b29d99e8ecbaff0",
@@ -273,65 +426,64 @@
       ]
     },
     {
-      "id": "6a0faa0df3b4f2c0b5c5df78",
-      "title": "Tahir Hussain, four others sentenced to life imprisonment in IB staff Ankit Sharma murder case",
+      "id": "c82ec3649559f285304c903e",
+      "title": "Iran Strikes 2 Tankers Trying To Cross Strait Of Hormuz Under US \"Air Escort\"",
       "translatedTitle": null,
-      "description": "The Delhi police had sought death penalty for the former Councillor",
-      "url": "https://www.thehindu.com/news/national/tahir-hussain-ib-staff-ankit-sharma-murder-case-life-imprisonment/article71290118.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/tahir-hussain-ib-staff-ankit-sharma-murder-case-life-imprisonment/article71290118.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
+      "description": "Iran has effectively maintained control over navigation through Hormuz",
+      "url": "https://www.ndtv.com/world-news/us-iran-war-iran-strikes-2-tankers-trying-to-cross-strait-of-hormuz-under-us-air-escort-11849717",
+      "canonicalUrl": "https://ndtv.com/world-news/us-iran-war-iran-strikes-2-tankers-trying-to-cross-strait-of-hormuz-under-us-air-escort-11849717",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
       "sourceCountry": "IN",
       "editionCountry": "IN",
       "coverageCountries": [
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-07-31T12:07:04Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/q5mpw0/article70757715.ece/alternates/LANDSCAPE_1200/DELHI%20ELECTION%20TAHIR%20HUSSAIN%20DELHI%202025_29_01_8.jpg",
+      "publishedAt": "2026-07-31T15:19:26Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-05/obrtkbsg_missile-is-dead-long-live-the-map-story_625x300_18_May_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "038a893e0ca94bfc7d4e",
+      "clusterId": "9bc422c6f40951885ac2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "69e588ac015dc1880e877bc5",
-          "title": "Delhi riots: Ex-AAP councillor Tahir Hussain gets life term in IB official Ankit Sharma murder case",
-          "translatedTitle": null,
-          "description": "The order was pronounced by additional sessions judge Parveen Singh of the Karkardooma courts.",
-          "url": "https://www.hindustantimes.com/india-news/exaap-councillor-tahir-hussain-gets-jail-term-imprisonment-in-ib-officer-ankit-sharma-murder-case-101785494955256.html",
-          "canonicalUrl": "https://hindustantimes.com/india-news/exaap-councillor-tahir-hussain-gets-jail-term-imprisonment-in-ib-officer-ankit-sharma-murder-case-101785494955256.html",
-          "sourceName": "Hindustan Times",
-          "sourceDomain": "hindustantimes.com",
-          "sourceCountry": "IN",
-          "editionCountry": "IN",
-          "coverageCountries": [
-            "IN"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-31T10:50:22Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/PTI01-09-2020_000060B_1616012505857_1785495176487_f775b181-bccf-48bf-9674-95936e2d93bf.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-31T12:17:53Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "038a893e0ca94bfc7d4e",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "delhi riots ex aap councillor tahir hussain gets life term in ib official ankit sharma murder case"
-        }
+      "related": [],
+      "rankingScore": 6.98399
+    },
+    {
+      "id": "a2b9b7843665a5efb726864d",
+      "title": "'Longest Nightmare': Voices From Gaza As Hamas Agrees To Disarm",
+      "translatedTitle": null,
+      "description": "While Hamas has agreed to the plan, Israel has yet to comment. (Representational)",
+      "url": "https://www.ndtv.com/world-news/longest-nightmare-voices-from-gaza-as-hamas-agrees-to-disarm-11848904",
+      "canonicalUrl": "https://ndtv.com/world-news/longest-nightmare-voices-from-gaza-as-hamas-agrees-to-disarm-11848904",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
       ],
-      "rankingScore": 7.39752
+      "language": "en",
+      "publishedAt": "2026-07-31T15:12:21Z",
+      "imageUrl": "https://c.ndtvimg.com/2023-10/7ndvfk08_israelgaza-war-reuters_625x300_17_October_23.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "23c31f0e2e691f711339",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.97037
     },
     {
       "id": "32b093c48a9e96200891fb0a",
@@ -360,38 +512,8 @@
       "clusterId": "aad6f9f9fb95b1abde41",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.11013,
+      "rankingScore": 6.93888,
       "related": []
-    },
-    {
-      "id": "ef9c51e151b8db2fee0eb883",
-      "title": "SC grants anticipatory bail to ex-Tamil Nadu minister Balaji in corruption case",
-      "translatedTitle": null,
-      "description": "The Supreme Court said that Balaji was no longer a serving minister and it was unlikely he exercises any clout to influence the investigation",
-      "url": "https://www.hindustantimes.com/india-news/sc-grants-anticipatory-bail-to-ex-tamil-nadu-minister-balaji-in-corruption-case-101785489665343.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/sc-grants-anticipatory-bail-to-ex-tamil-nadu-minister-balaji-in-corruption-case-101785489665343.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T09:21:04Z",
-      "imageUrl": "https://www.hindustantimes.com/images/default/default-621.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "97d5e5949cc60cb124ac",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.76728
     },
     {
       "id": "611db82f457b188341cb5459",
@@ -420,8 +542,8 @@
       "clusterId": "f99d499ba63b5cd0b241",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.63631
+      "rankingScore": 6.13889,
+      "related": []
     },
     {
       "id": "3b19ccfa693a7130c4999a83",
@@ -450,98 +572,7 @@
       "clusterId": "d2a85ac1b1f5d605cc92",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.54558
-    },
-    {
-      "id": "78c28fcc60e71b5e46f5ea83",
-      "title": "Skylift Failed, Cables Blocked Rescue: Probe Into Delhi Fire That Killed 9",
-      "translatedTitle": null,
-      "description": "Nine members of a family died in the fire at Delhi's Palam.",
-      "url": "https://www.ndtv.com/delhi-news/delhi-fire-palam-skylift-failed-cables-blocked-rescue-probe-into-delhi-fire-that-killed-9-11846159",
-      "canonicalUrl": "https://ndtv.com/delhi-news/delhi-fire-palam-skylift-failed-cables-blocked-rescue-probe-into-delhi-fire-that-killed-9-11846159",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T01:50:10Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-03/cudj06q4_delhi-fire_625x300_18_March_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3a505d6d70387d7f64b8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.17996,
-      "related": [
-        {
-          "id": "b09807a2c2f0553bf42b6530",
-          "title": "No backup plan, serious lapses: Delhi fire probe that killed 9 in Palam Vihar finds tangled trail of missteps",
-          "translatedTitle": null,
-          "description": "The damning report raises concerns about fire safety, the unpreparedness of agencies to tackle emergencies and the brittle backbone of Delhi’s civic systems.",
-          "url": "https://www.hindustantimes.com/india-news/no-backup-plan-serious-lapses-delhi-fire-probe-that-killed-9-in-palam-vihar-finds-tangled-trail-of-missteps-101785461313243.html",
-          "canonicalUrl": "https://hindustantimes.com/india-news/no-backup-plan-serious-lapses-delhi-fire-probe-that-killed-9-in-palam-vihar-finds-tangled-trail-of-missteps-101785461313243.html",
-          "sourceName": "Hindustan Times",
-          "sourceDomain": "hindustantimes.com",
-          "sourceCountry": "IN",
-          "editionCountry": "IN",
-          "coverageCountries": [
-            "IN"
-          ],
-          "language": "en",
-          "publishedAt": "2026-07-31T01:40:45Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/ANI-20260722491-0_1785461683734_1785461701871_1e440fc4-240b-4244-86a0-5c03875d621a.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-07-31T12:17:53Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "3a505d6d70387d7f64b8",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "no backup plan serious lapses delhi fire probe that killed 9 in palam vihar finds tangled trail of missteps"
-        }
-      ]
-    },
-    {
-      "id": "440d346c456cc647896e84c7",
-      "title": "Trump Announces \"Historic\" Deal For Hamas' \"Complete Disarmament\" In Gaza",
-      "translatedTitle": null,
-      "description": "Under Trump's peace plan for Gaza, the second phase of the ceasefire was to involve Hamas's disarmament",
-      "url": "https://www.ndtv.com/world-news/israel-hamas-war-gaza-board-of-peace-trump-announces-historic-deal-for-hamas-complete-disarmament-in-gaza-11846098",
-      "canonicalUrl": "https://ndtv.com/world-news/israel-hamas-war-gaza-board-of-peace-trump-announces-historic-deal-for-hamas-complete-disarmament-in-gaza-11846098",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T01:27:10Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-07/7u2a85pk_trump-netanyahu-gaza_625x300_31_July_26.jpeg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a32030e7dc1eb2f9f0cb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.10404,
+      "rankingScore": 6.06622,
       "related": []
     },
     {
@@ -571,8 +602,248 @@
       "clusterId": "b33f51022294515cb758",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.61955,
+      "rankingScore": 5.32457,
       "related": []
+    },
+    {
+      "id": "abf57685b7274c80976afc1b",
+      "title": "'Not too late, HC will ensure justice': Tahir Hussain on life term in Ankit Sharma murder case",
+      "translatedTitle": null,
+      "description": "The Delhi Police argued for the death penalty, describing the killing of Ankit Sharma as \"exceptionally brutal\" and \"cold-blooded\".",
+      "url": "https://www.hindustantimes.com/india-news/not-too-late-hc-will-ensure-justice-tahir-hussain-on-life-term-in-ankit-sharma-murder-case-delhi-riots-case-101785499970393.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/not-too-late-hc-will-ensure-justice-tahir-hussain-on-life-term-in-ankit-sharma-murder-case-delhi-riots-case-101785499970393.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T12:20:30Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/tahir_1785500018945_1785500019169_4bf76022-9eb4-4e4b-8447-ad5e2a71f4ee_1785501330554_d295600e-cd6b-4e72-8d5b-d1b527cfef59.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "37b7e9e4802c72faa116",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.3158
+    },
+    {
+      "id": "43c46a15602b1ea6f35bc95f",
+      "title": "Indian High Commissioner Dinesh Trivedi Meets US Envoy Sergio Gor In Dhaka",
+      "translatedTitle": null,
+      "description": "Analysts of diplomacy view Gor's visit to Bangladesh as a significant one",
+      "url": "https://www.ndtv.com/world-news/indian-high-commissioner-dinesh-trivedi-meets-us-envoy-sergio-gor-in-dhaka-11848784",
+      "canonicalUrl": "https://ndtv.com/world-news/indian-high-commissioner-dinesh-trivedi-meets-us-envoy-sergio-gor-in-dhaka-11848784",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T12:07:55Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-07/0ka7gm5_gor-trivedi_625x300_31_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5b0cd90794f189aa4bce",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.29535
+    },
+    {
+      "id": "fad2aa17349f24ddab1ae8db",
+      "title": "'BJP goons, not students, attacked police': Dipke expresses sympathy for Delhi cops injured during Jantar Mantar protest",
+      "translatedTitle": null,
+      "description": "Abhijeet Dipke said that brutality on police was not done by student protestors, but by goons sent by BJP.",
+      "url": "https://www.hindustantimes.com/india-news/bjp-goons-not-students-attacked-police-dipke-expresses-sympathy-for-delhi-cops-injured-during-jantar-mantar-protest-101785494216101.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/bjp-goons-not-students-attacked-police-dipke-expresses-sympathy-for-delhi-cops-injured-during-jantar-mantar-protest-101785494216101.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T12:00:52Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/ANI-20260730121-0_1785494449280_1785494455540_b79572a6-0c90-43f3-807f-7db4d9c46fef.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c1915678dbc49ef5393d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28399
+    },
+    {
+      "id": "2c1b863ff80334be617ccd8f",
+      "title": "\"Laughable\": High Court On Food Regulator's 98% Score To Secretariat Canteen",
+      "translatedTitle": null,
+      "description": "The court directed an FDA team, accompanied by four lawyers, to conduct a re-inspection of the canteen.",
+      "url": "https://www.ndtv.com/india-news/laughable-high-court-on-food-regulators-98-score-to-secretariat-canteen-11848700",
+      "canonicalUrl": "https://ndtv.com/india-news/laughable-high-court-on-food-regulators-98-score-to-secretariat-canteen-11848700",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T11:53:23Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-07/s4p0qvf8_fda_625x300_31_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "21312e17cc2cd2c19f20",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27202
+    },
+    {
+      "id": "4022514f0854a59dec6ea5c2",
+      "title": "Legendary Mountaineer's Voice Message To NDTV's Vishnu Som Hours Before He Vanished",
+      "translatedTitle": null,
+      "description": "Mountaineer Nirmal 'Nims' Purja sent a voice note to Vishnu Som hours before he disappeared",
+      "url": "https://www.ndtv.com/world-news/the-great-climber-nims-purja-missing-in-avalanche-sent-me-vishnu-som-voice-message-14-hours-before-he-vanished-11847824",
+      "canonicalUrl": "https://ndtv.com/world-news/the-great-climber-nims-purja-missing-in-avalanche-sent-me-vishnu-som-voice-message-14-hours-before-he-vanished-11847824",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T11:51:29Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-07/sc3vj4uc_nirmal-nims-purja_625x300_31_July_26.jpeg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0c363f508951c285a75b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.26899
+    },
+    {
+      "id": "fe90c4b0548198f2127e73cb",
+      "title": "Cabinet Approves Rs 84,084-Crore Offshore Oil, Gas Exploration Scheme",
+      "translatedTitle": null,
+      "description": "It encompasses a comprehensive set of interventions across the offshore exploration value chain.",
+      "url": "https://www.ndtv.com/india-news/cabinet-approves-rs-84-084-crore-offshore-oil-gas-exploration-scheme-11848657",
+      "canonicalUrl": "https://ndtv.com/india-news/cabinet-approves-rs-84-084-crore-offshore-oil-gas-exploration-scheme-11848657",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T11:44:22Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-07/36mfbu9o_national-offshore-exploration-scheme_625x300_31_July_26.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "44182bd131c2c9c5712a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.2577
+    },
+    {
+      "id": "d4da46959f76995e7b9b80a7",
+      "title": "Protesters Branded Enemies: India Slams Pak For Crackdown On Civilians In PoK",
+      "translatedTitle": null,
+      "description": "Randhir Jaiswal urged the international community to hold Pak accountable over the situation in PoK",
+      "url": "https://www.ndtv.com/world-news/protesters-branded-enemies-india-slams-pak-for-crackdown-on-civilians-in-pok-11848596",
+      "canonicalUrl": "https://ndtv.com/world-news/protesters-branded-enemies-india-slams-pak-for-crackdown-on-civilians-in-pok-11848596",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T11:41:07Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-07/vdurbn64_pok_625x300_31_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ba793975212ddd37be31",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.25257
+    },
+    {
+      "id": "30c37028d53aaea055f1fa71",
+      "title": "Cabinet Approves Rs 36,441-Crore Sports Push Under Khelo India, NSF Schemes",
+      "translatedTitle": null,
+      "description": "The assistance to NSFs has been pegged at Rs 7387 crore over the next five years.",
+      "url": "https://www.ndtv.com/india-news/cabinet-approves-rs-36-441-crore-sports-push-under-khelo-india-nsf-schemes-11848572",
+      "canonicalUrl": "https://ndtv.com/india-news/cabinet-approves-rs-36-441-crore-sports-push-under-khelo-india-nsf-schemes-11848572",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T11:40:07Z",
+      "imageUrl": "https://c.ndtvimg.com/2025-08/gmq3mrgk_water-sports_625x300_20_August_25.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3eb1c1ccb382a1a945a1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.251
     },
     {
       "id": "61cc1c2ee690689a5c2981b0",
@@ -594,15 +865,45 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "0a3c8158529ab07245a2",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 5.2059,
+      "related": []
+    },
+    {
+      "id": "19bb6d7bfdb76ac539482ead",
+      "title": "Shivakumar postpones meeting with Vijay amid protests over Cauvery water sharing",
+      "translatedTitle": null,
+      "description": "Farmers and Kannada outfits have staged protests against the direction to release 3,500 cusecs of water daily to Tamil Nadu for 15 days",
+      "url": "https://www.hindustantimes.com/india-news/shivakumar-postpones-meeting-with-vijay-amid-protests-over-cauvery-water-sharing-101785496207062.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/shivakumar-postpones-meeting-with-vijay-amid-protests-over-cauvery-water-sharing-101785496207062.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T11:10:06Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/Karnataka-chief-minister-DK-Shivakumar-chairing-a-_1785497150847.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "32eaaf0d35de5db13523",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.61755
+      "rankingScore": 5.20437
     },
     {
       "id": "3c568395313b56ac081eac30",
@@ -624,15 +925,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "1437af1a9274b0c5edd8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59663
+      "rankingScore": 5.18915,
+      "related": []
     },
     {
       "id": "b2022a3f3081307687bf8055",
@@ -654,45 +955,315 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "56998fb0c49b2e07e922",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.56647
+      "rankingScore": 5.16499,
+      "related": []
     },
     {
-      "id": "0bb22483dd807a59d0de8148",
-      "title": "The Muthanga land agitation and the 2026 verdict | Explained",
+      "id": "2e39daca8d57476d5d0c6ff7",
+      "title": "'Punish miscreants, free students after verification': Wife of Delhi cop injured during Jantar Mantar protest",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.thehindu.com/news/national/kerala/explainer-the-muthanga-land-agitation-and-the-2026-verdict/article71289918.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/kerala/explainer-the-muthanga-land-agitation-and-the-2026-verdict/article71289918.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
+      "description": "Family members of Delhi police personnel injured in the July 20 parliament march, organised by the CJP, held a press conference in Delhi on Friday.",
+      "url": "https://www.hindustantimes.com/india-news/delhi-police-brutality-student-protests-cjp-cockroach-janta-party-jantar-mantar-education-cop-pellet-guns-injuries-101785488380021.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/delhi-police-brutality-student-protests-cjp-cockroach-janta-party-jantar-mantar-education-cop-pellet-guns-injuries-101785488380021.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
       "sourceCountry": "IN",
       "editionCountry": "IN",
       "coverageCountries": [
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-07-31T11:51:17Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/qwqx5q/article71290128.ece/alternates/LANDSCAPE_1200/CCI_HINDU_NEWSDESK_GTDO151A.1.II2",
+      "publishedAt": "2026-07-31T10:19:05Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/ANI-20260731025-0_1785488573299_1785488598146_118cc932-0807-4194-9331-d4481f3f942c.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "856d765421ec1faecd65",
+      "clusterId": "b2972a4d8f9a6e19851b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.12804,
+      "related": []
+    },
+    {
+      "id": "aa3d8d129e0135deb2053698",
+      "title": "Maharashtra court cites doubtful evidence, acquits 3 in cattle slaughter case",
+      "translatedTitle": null,
+      "description": "The court pointed to material contradictions in the evidence of the prosecution witnesses regarding the collection of the seized meat samples",
+      "url": "https://www.hindustantimes.com/india-news/maharashtra-court-cites-doubtful-evidence-acquits-3-in-cattle-slaughter-case-101785491646077.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/maharashtra-court-cites-doubtful-evidence-acquits-3-in-cattle-slaughter-case-101785491646077.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T09:54:05Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/One-of-the-accused-died-during-the-pendency-of-the_1785491629474_1785491654131_bb789c44-fc03-47bd-9b17-2dd6888dac1b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f297973983aeea436fab",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.09193,
+      "related": []
+    },
+    {
+      "id": "9f305f988fe55a867807c914",
+      "title": "ED raids 30+ locations in Jharkhand, identifies ₹600 crore assets in illegal coal case: Reports",
+      "translatedTitle": null,
+      "description": "ED searched over 30 locations in Jharkhand, froze ₹160 crore in mutual funds, seized ₹1.02 crore cash and traced suspected assets worth ₹600 crore.",
+      "url": "https://www.hindustantimes.com/india-news/ed-raids-30-locations-in-jharkhand-identifies-600-crore-assets-in-illegal-coal-case-reports-101785480751919.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/ed-raids-30-locations-in-jharkhand-identifies-600-crore-assets-in-illegal-coal-case-reports-101785480751919.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T09:47:07Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/PTI07-16-2026-000521B-0_1785481390493_1785481407225_c85922b5-f610-484e-832e-95e6002c96c8.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "10d4f58572159fe2c098",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.08201,
+      "related": []
+    },
+    {
+      "id": "91350bf01b98f5793b4f0f57",
+      "title": "Heavy rainfall batters south, central Gujarat; ‘red alert’ in 13 districts",
+      "translatedTitle": null,
+      "description": "According to the state government’s media statement issued on Friday noon, as many as 5,167 people had been shifted to safer locations",
+      "url": "https://www.hindustantimes.com/india-news/heavy-rainfall-batters-south-central-gujarat-red-alert-in-13-districts-101785489896013.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/heavy-rainfall-batters-south-central-gujarat-red-alert-in-13-districts-101785489896013.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T09:24:55Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/Navsari-recorded-the-highest-number-of-evacuations_1785489889094.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9e756dd0f155148ec06b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.05084,
+      "related": []
+    },
+    {
+      "id": "99337a4fc9c3a284bcf83fea",
+      "title": "'Only BJP can give self-made person like Modi': Shehzad Poonawalla amid resignation buzz",
+      "translatedTitle": null,
+      "description": "“The rest will only promote their children and dynasties,” Shehzad Poonawalla said on X.",
+      "url": "https://www.hindustantimes.com/india-news/only-bjp-can-give-self-made-person-like-modi-shehzad-poonawalla-after-quitting-party-101785488668916.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/only-bjp-can-give-self-made-person-like-modi-shehzad-poonawalla-after-quitting-party-101785488668916.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T09:20:58Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/poonawala_modi_1785489472587_1785489508658_b54491be-bcb9-4124-aa38-d8075478f39e.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "622dce7eb02d871279d4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.04537,
+      "related": []
+    },
+    {
+      "id": "b7d98759e8dd755684465b8f",
+      "title": "'BJP ke ho kya?': Rahul Gandhi's response to reporter over Delhi Police kin's presser",
+      "translatedTitle": null,
+      "description": "The relatives of the injured Delhi police personnel addressed the media and sought justice for those who were injured during the protest.",
+      "url": "https://www.hindustantimes.com/india-news/bjp-ke-ho-kya-rahul-gandhi-on-question-over-injured-delhi-police-kin-presser-cjp-jantar-mantar-protest-101785487224097.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/bjp-ke-ho-kya-rahul-gandhi-on-question-over-injured-delhi-police-kin-presser-cjp-jantar-mantar-protest-101785487224097.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T09:16:17Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/rahul_gandhi_1785487750807_1785487762045_4b28a415-9198-4f44-ac99-f9931c6544c9.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7c5348a7c8e0b58f62aa",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.0389,
+      "related": []
+    },
+    {
+      "id": "392ce96e624711df2a8e0ebf",
+      "title": "Last day to file ITR today: Eligibility, step-by-step guide, and ₹5,000 late fee explained",
+      "translatedTitle": null,
+      "description": "The government has not announced any extension to the July 31 deadline.",
+      "url": "https://www.hindustantimes.com/india-news/last-day-to-file-itr-today-eligibility-step-by-step-guide-and-5000-late-fee-explained-itr-filing-extension-101785487971514.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/last-day-to-file-itr-today-eligibility-step-by-step-guide-and-5000-late-fee-explained-itr-filing-extension-101785487971514.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T09:09:25Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/Income_tax_return_1757896858186_1757896858322_1785488462343_7dc5329e-6ac7-44b8-ba7e-cfb2b74a95c4.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "29995e9ff356ad5a7bfa",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.02946,
+      "related": []
+    },
+    {
+      "id": "0214db0fe24da249b8389b59",
+      "title": "'When did it become criminal offence?': CJP's Saurav Das after woman booked over 'abusive' remarks against PM Modi",
+      "translatedTitle": null,
+      "description": "The police said that they filed a ‘zero FIR’ in Noida and sent it to the Parliament Street police station in New Delhi for further investigation.",
+      "url": "https://www.hindustantimes.com/india-news/cjp-saurav-das-on-woman-booked-over-abusive-remarks-against-pm-modi-jantar-mantar-protest-101785483243310.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/cjp-saurav-das-on-woman-booked-over-abusive-remarks-against-pm-modi-jantar-mantar-protest-101785483243310.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T08:33:38Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/Saurav_das_1785486434322_1785486434475_24ed91ec-d2d7-439d-9f90-2247ca293361.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f537f7bda7b318811b84",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.56593
+      "rankingScore": 4.98124
+    },
+    {
+      "id": "d5a40b521eff4adc2d6a0a2b",
+      "title": "Former Army chief Gen VN Sharma passes away",
+      "translatedTitle": null,
+      "description": "An alumnus of Indian Military Academy, Dehradun, General Sharma was commissioned into the 16 Light Cavalry in June 1950",
+      "url": "https://www.hindustantimes.com/india-news/former-army-chief-gen-vn-sharma-passes-away-101785486424432.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/former-army-chief-gen-vn-sharma-passes-away-101785486424432.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T08:27:03Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/The-Indian-Army-also-extended-its-condolences-to-h_1785486408324_1785486430548_e3899e65-3345-4217-844f-ba5487194e75.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9dff085b7a76c9b2a658",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 4.97255,
+      "related": []
+    },
+    {
+      "id": "ea6aa8181acdc43edd8b4a5c",
+      "title": "When PM Modi's reel briefly vanished: What is — and isn't — known about how Meta moderates VVIP accounts",
+      "translatedTitle": null,
+      "description": "Meta's mechanism is 'cross-check”, which routes content from VIP accounts for human review. At one point, it had 5.8 million high-profile accounts globally.",
+      "url": "https://www.hindustantimes.com/ht-explainers/pm-modis-facebook-reel-on-neet-paper-leak-protests-meta-twitter-x-youtube-vvip-social-media-accounts-content-moderation-101785480356095.html",
+      "canonicalUrl": "https://hindustantimes.com/ht-explainers/pm-modis-facebook-reel-on-neet-paper-leak-protests-meta-twitter-x-youtube-vvip-social-media-accounts-content-moderation-101785480356095.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T08:12:18Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/Modi_Meta_1785480951527_1785480967890_7c9a77e4-d2fe-4761-b83a-b2a2e9cfed13.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b978ea8cd4823c67ee6f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 4.95325,
+      "related": []
     },
     {
       "id": "da10b7b78eaf38c72631198f",
@@ -721,8 +1292,38 @@
       "clusterId": "e295571748a65632b1a1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5654
+      "rankingScore": 4.94789,
+      "related": []
+    },
+    {
+      "id": "f5c9b9b149588cb6d3206369",
+      "title": "Delhi HC refuses to fix timeline for trial in Shraddha Walkar murder case",
+      "translatedTitle": null,
+      "description": "The court passed the order in a petition filed by Walkar’s brother seeking a direction to the trial court to conclude the proceedings within a fixed timeframe",
+      "url": "https://www.hindustantimes.com/india-news/delhi-hc-refuses-to-fix-timeline-for-trial-in-shraddha-walkar-murder-case-101785485164256.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/delhi-hc-refuses-to-fix-timeline-for-trial-in-shraddha-walkar-murder-case-101785485164256.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T08:06:03Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/Shraddha-s-brother-argued-that-the-delay-had-impos_1785485148095_1785485177961_72df1544-8c0d-4a5c-85be-b21031b0b9d5.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5a12da11b241cb01ddd1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 4.94515,
+      "related": []
     },
     {
       "id": "d8b0f9e247dde48524987a38",
@@ -751,8 +1352,38 @@
       "clusterId": "19bb656cccbd174260b3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.55683
+      "rankingScore": 4.94102,
+      "related": []
+    },
+    {
+      "id": "f3e7c98666b876355896981c",
+      "title": "‘It’s urgent’: How a job fresher was nearly duped of thousands of rupees on Instagram",
+      "translatedTitle": null,
+      "description": "Scammers rely on the fact that the message is coming from a loved one with a known name, picture, and even, to some extent, information.",
+      "url": "https://www.hindustantimes.com/india-news/its-urgent-how-a-job-fresher-was-nearly-duped-of-thousands-of-rupees-on-instagram-101785477500891.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/its-urgent-how-a-job-fresher-was-nearly-duped-of-thousands-of-rupees-on-instagram-101785477500891.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-07-31T08:02:44Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/photo-1562813733-b31f71025d54_1785477642988_1785477652910_aef22664-2865-41ae-be3b-a3cfc56ea4df.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-07-31T16:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f7617f2f8c0ad5ee7ca8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 4.94087,
+      "related": []
     },
     {
       "id": "d68d41849029631623ddeb93",
@@ -781,8 +1412,8 @@
       "clusterId": "3768a924880c3d0e3a57",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.54931
+      "rankingScore": 4.93501,
+      "related": []
     },
     {
       "id": "4ec464bc41428fd3df72678a",
@@ -811,428 +1442,8 @@
       "clusterId": "ae8d269d4c90ae24712b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.54731
-    },
-    {
-      "id": "2e39daca8d57476d5d0c6ff7",
-      "title": "'Punish miscreants, free students after verification': Wife of Delhi cop injured during Jantar Mantar protest",
-      "translatedTitle": null,
-      "description": "Family members of Delhi police personnel injured in the July 20 parliament march, organised by the CJP, held a press conference in Delhi on Friday.",
-      "url": "https://www.hindustantimes.com/india-news/delhi-police-brutality-student-protests-cjp-cockroach-janta-party-jantar-mantar-education-cop-pellet-guns-injuries-101785488380021.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/delhi-police-brutality-student-protests-cjp-cockroach-janta-party-jantar-mantar-education-cop-pellet-guns-injuries-101785488380021.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T10:19:05Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/ANI-20260731025-0_1785488573299_1785488598146_118cc932-0807-4194-9331-d4481f3f942c.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b2972a4d8f9a6e19851b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.52033
-    },
-    {
-      "id": "29fb42b4c821c78a79fb50bf",
-      "title": "Can the National Commission for Scheduled Castes issue binding directions? | Explained",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.thehindu.com/news/national/can-the-national-commission-for-scheduled-castes-issue-binding-directions-explained/article71289651.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/can-the-national-commission-for-scheduled-castes-issue-binding-directions-explained/article71289651.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T11:12:28Z",
-      "imageUrl": "https://th-i.thgim.com/public/news/national/f7f5mc/article71289707.ece/alternates/LANDSCAPE_1200/Untitled%20design%2057.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8dbaebd76798448cd9a2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.49017
-    },
-    {
-      "id": "aa3d8d129e0135deb2053698",
-      "title": "Maharashtra court cites doubtful evidence, acquits 3 in cattle slaughter case",
-      "translatedTitle": null,
-      "description": "The court pointed to material contradictions in the evidence of the prosecution witnesses regarding the collection of the seized meat samples",
-      "url": "https://www.hindustantimes.com/india-news/maharashtra-court-cites-doubtful-evidence-acquits-3-in-cattle-slaughter-case-101785491646077.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/maharashtra-court-cites-doubtful-evidence-acquits-3-in-cattle-slaughter-case-101785491646077.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T09:54:05Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/One-of-the-accused-died-during-the-pendency-of-the_1785491629474_1785491654131_bb789c44-fc03-47bd-9b17-2dd6888dac1b.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f297973983aeea436fab",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47524
-    },
-    {
-      "id": "9f305f988fe55a867807c914",
-      "title": "ED raids 30+ locations in Jharkhand, identifies ₹600 crore assets in illegal coal case: Reports",
-      "translatedTitle": null,
-      "description": "ED searched over 30 locations in Jharkhand, froze ₹160 crore in mutual funds, seized ₹1.02 crore cash and traced suspected assets worth ₹600 crore.",
-      "url": "https://www.hindustantimes.com/india-news/ed-raids-30-locations-in-jharkhand-identifies-600-crore-assets-in-illegal-coal-case-reports-101785480751919.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/ed-raids-30-locations-in-jharkhand-identifies-600-crore-assets-in-illegal-coal-case-reports-101785480751919.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T09:47:07Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/PTI07-16-2026-000521B-0_1785481390493_1785481407225_c85922b5-f610-484e-832e-95e6002c96c8.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "10d4f58572159fe2c098",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.46286
-    },
-    {
-      "id": "91350bf01b98f5793b4f0f57",
-      "title": "Heavy rainfall batters south, central Gujarat; ‘red alert’ in 13 districts",
-      "translatedTitle": null,
-      "description": "According to the state government’s media statement issued on Friday noon, as many as 5,167 people had been shifted to safer locations",
-      "url": "https://www.hindustantimes.com/india-news/heavy-rainfall-batters-south-central-gujarat-red-alert-in-13-districts-101785489896013.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/heavy-rainfall-batters-south-central-gujarat-red-alert-in-13-districts-101785489896013.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T09:24:55Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/Navsari-recorded-the-highest-number-of-evacuations_1785489889094.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9e756dd0f155148ec06b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.42395
-    },
-    {
-      "id": "99337a4fc9c3a284bcf83fea",
-      "title": "'Only BJP can give self-made person like Modi': Shehzad Poonawalla amid resignation buzz",
-      "translatedTitle": null,
-      "description": "“The rest will only promote their children and dynasties,” Shehzad Poonawalla said on X.",
-      "url": "https://www.hindustantimes.com/india-news/only-bjp-can-give-self-made-person-like-modi-shehzad-poonawalla-after-quitting-party-101785488668916.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/only-bjp-can-give-self-made-person-like-modi-shehzad-poonawalla-after-quitting-party-101785488668916.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T09:20:58Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/poonawala_modi_1785489472587_1785489508658_b54491be-bcb9-4124-aa38-d8075478f39e.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "622dce7eb02d871279d4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.4171
-    },
-    {
-      "id": "b7d98759e8dd755684465b8f",
-      "title": "'BJP ke ho kya?': Rahul Gandhi's response to reporter over Delhi Police kin's presser",
-      "translatedTitle": null,
-      "description": "The relatives of the injured Delhi police personnel addressed the media and sought justice for those who were injured during the protest.",
-      "url": "https://www.hindustantimes.com/india-news/bjp-ke-ho-kya-rahul-gandhi-on-question-over-injured-delhi-police-kin-presser-cjp-jantar-mantar-protest-101785487224097.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/bjp-ke-ho-kya-rahul-gandhi-on-question-over-injured-delhi-police-kin-presser-cjp-jantar-mantar-protest-101785487224097.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T09:16:17Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/rahul_gandhi_1785487750807_1785487762045_4b28a415-9198-4f44-ac99-f9931c6544c9.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7c5348a7c8e0b58f62aa",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.40903
-    },
-    {
-      "id": "392ce96e624711df2a8e0ebf",
-      "title": "Last day to file ITR today: Eligibility, step-by-step guide, and ₹5,000 late fee explained",
-      "translatedTitle": null,
-      "description": "The government has not announced any extension to the July 31 deadline.",
-      "url": "https://www.hindustantimes.com/india-news/last-day-to-file-itr-today-eligibility-step-by-step-guide-and-5000-late-fee-explained-itr-filing-extension-101785487971514.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/last-day-to-file-itr-today-eligibility-step-by-step-guide-and-5000-late-fee-explained-itr-filing-extension-101785487971514.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T09:09:25Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/Income_tax_return_1757896858186_1757896858322_1785488462343_7dc5329e-6ac7-44b8-ba7e-cfb2b74a95c4.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "29995e9ff356ad5a7bfa",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.39724
-    },
-    {
-      "id": "8dcf7f6e083bb895cc1e228a",
-      "title": "‘No truth to reports of O. Panneerselvam contemplating switch to TVK’",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/no-truth-to-reports-of-ops-contemplating-switch-to-tvk/article71287484.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/tamil-nadu/no-truth-to-reports-of-ops-contemplating-switch-to-tvk/article71287484.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T10:00:53Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/l1fptp/article71289525.ece/alternates/LANDSCAPE_1200/DSC_8809.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1f0439eb35489c3b633a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.3574
-    },
-    {
-      "id": "d5a40b521eff4adc2d6a0a2b",
-      "title": "Former Army chief Gen VN Sharma passes away",
-      "translatedTitle": null,
-      "description": "An alumnus of Indian Military Academy, Dehradun, General Sharma was commissioned into the 16 Light Cavalry in June 1950",
-      "url": "https://www.hindustantimes.com/india-news/former-army-chief-gen-vn-sharma-passes-away-101785486424432.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/former-army-chief-gen-vn-sharma-passes-away-101785486424432.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T08:27:03Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/The-Indian-Army-also-extended-its-condolences-to-h_1785486408324_1785486430548_e3899e65-3345-4217-844f-ba5487194e75.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9dff085b7a76c9b2a658",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.32618
-    },
-    {
-      "id": "ea6aa8181acdc43edd8b4a5c",
-      "title": "When PM Modi's reel briefly vanished: What is — and isn't — known about how Meta moderates VVIP accounts",
-      "translatedTitle": null,
-      "description": "Meta's mechanism is 'cross-check”, which routes content from VIP accounts for human review. At one point, it had 5.8 million high-profile accounts globally.",
-      "url": "https://www.hindustantimes.com/ht-explainers/pm-modis-facebook-reel-on-neet-paper-leak-protests-meta-twitter-x-youtube-vvip-social-media-accounts-content-moderation-101785480356095.html",
-      "canonicalUrl": "https://hindustantimes.com/ht-explainers/pm-modis-facebook-reel-on-neet-paper-leak-protests-meta-twitter-x-youtube-vvip-social-media-accounts-content-moderation-101785480356095.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T08:12:18Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/Modi_Meta_1785480951527_1785480967890_7c9a77e4-d2fe-4761-b83a-b2a2e9cfed13.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b978ea8cd4823c67ee6f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.30209
-    },
-    {
-      "id": "f5c9b9b149588cb6d3206369",
-      "title": "Delhi HC refuses to fix timeline for trial in Shraddha Walkar murder case",
-      "translatedTitle": null,
-      "description": "The court passed the order in a petition filed by Walkar’s brother seeking a direction to the trial court to conclude the proceedings within a fixed timeframe",
-      "url": "https://www.hindustantimes.com/india-news/delhi-hc-refuses-to-fix-timeline-for-trial-in-shraddha-walkar-murder-case-101785485164256.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/delhi-hc-refuses-to-fix-timeline-for-trial-in-shraddha-walkar-murder-case-101785485164256.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T08:06:03Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/Shraddha-s-brother-argued-that-the-delay-had-impos_1785485148095_1785485177961_72df1544-8c0d-4a5c-85be-b21031b0b9d5.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5a12da11b241cb01ddd1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.29198
-    },
-    {
-      "id": "f3e7c98666b876355896981c",
-      "title": "‘It’s urgent’: How a job fresher was nearly duped of thousands of rupees on Instagram",
-      "translatedTitle": null,
-      "description": "Scammers rely on the fact that the message is coming from a loved one with a known name, picture, and even, to some extent, information.",
-      "url": "https://www.hindustantimes.com/india-news/its-urgent-how-a-job-fresher-was-nearly-duped-of-thousands-of-rupees-on-instagram-101785477500891.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/its-urgent-how-a-job-fresher-was-nearly-duped-of-thousands-of-rupees-on-instagram-101785477500891.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T08:02:44Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/photo-1562813733-b31f71025d54_1785477642988_1785477652910_aef22664-2865-41ae-be3b-a3cfc56ea4df.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f7617f2f8c0ad5ee7ca8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28664
-    },
-    {
-      "id": "8df88372f6838b4806a6e1c4",
-      "title": "Gurugram District Court, Mini Secretariat receive bomb threat",
-      "translatedTitle": null,
-      "description": "The District and Sessions Judge was requested to postpone the hearing of all cases scheduled for the day and assign new dates",
-      "url": "https://www.thehindu.com/news/national/haryana/gurugram-district-court-mini-secretariat-receive-bomb-threat/article71289742.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/haryana/gurugram-district-court-mini-secretariat-receive-bomb-threat/article71289742.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T10:35:18Z",
-      "imageUrl": null,
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "acff9ac814eebd298332",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.27014
+      "rankingScore": 4.9334,
+      "related": []
     },
     {
       "id": "5895bda5281b6f7bd3ffc459",
@@ -1254,45 +1465,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "fb1e1519d582ed6bb4e5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.26308
-    },
-    {
-      "id": "49f1ac2bc73f9a4659fd8467",
-      "title": "How Telangana’s July rainfall reduced deficit from 61% to near normal in 15 days",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.thehindu.com/news/national/telangana/how-telanganas-july-rainfall-reduced-deficit-from-61-to-near-normal-in-15-days/article71289261.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/telangana/how-telanganas-july-rainfall-reduced-deficit-from-61-to-near-normal-in-15-days/article71289261.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T08:53:21Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/70vaqg/article71289704.ece/alternates/LANDSCAPE_1200/MEMAU_31_7_2026_13_6_55_1_4002.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2acf8acefd07a8452609",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.23997
+      "rankingScore": 4.92201,
+      "related": []
     },
     {
       "id": "c040caa740004ff6442b5ecc",
@@ -1314,15 +1495,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "8af67e8b87cf8ee54a07",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.22639
+      "rankingScore": 4.89262,
+      "related": []
     },
     {
       "id": "20f5c9cdd2ae381f7b14ac5a",
@@ -1344,15 +1525,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "495494473b589be7551d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.21916
+      "rankingScore": 4.88683,
+      "related": []
     },
     {
       "id": "1fec2f23efce88e6cfc12b9e",
@@ -1374,53 +1555,23 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
+      "retrievedAt": "2026-07-31T16:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "03049bf4caf0148432d7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.21818
+      "rankingScore": 4.88605,
+      "related": []
     },
     {
-      "id": "5a98313923e5add33abdbd6a",
-      "title": "Will Pakistan invite PM Modi for SCO Summit next year? What Islamabad said",
+      "id": "0bb22483dd807a59d0de8148",
+      "title": "The Muthanga land agitation and the 2026 verdict | Explained",
       "translatedTitle": null,
-      "description": "The statement was issued in response to a query on whether Prime Minister Narendra Modi would be invited for the high-level meeting next year.",
-      "url": "https://www.hindustantimes.com/india-news/will-pakistan-invite-india-pm-narendra-modi-for-sco-summit-next-year-what-islamabad-said-101785480441345.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/will-pakistan-invite-india-pm-narendra-modi-for-sco-summit-next-year-what-islamabad-said-101785480441345.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T07:02:22Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/Modi_shehbaz_sharif_1785481120480_1785481140734_7ee56cf6-0b2a-4ad5-80ff-159997a03552_1785491861045_1b794823-f786-4f75-871c-24d51f83f258.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "aae37b15bc5807e20aeb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.19223
-    },
-    {
-      "id": "4ab9ede1d8e52d9655c6e16c",
-      "title": "Karimnagar constable plants marijuana at friend’s house to frame him, lands in police net",
-      "translatedTitle": null,
-      "description": "Constable Nagaraju, who is about a year into the police department, allegedly placed 940 grams of marijuana at the house of his father’s friend following a personal dispute",
-      "url": "https://www.thehindu.com/news/national/telangana/karimnagar-constable-plants-marijuana-at-friends-house-to-frame-him-lands-in-police-net/article71289671.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/telangana/karimnagar-constable-plants-marijuana-at-friends-house-to-frame-him-lands-in-police-net/article71289671.ece",
+      "description": null,
+      "url": "https://www.thehindu.com/news/national/kerala/explainer-the-muthanga-land-agitation-and-the-2026-verdict/article71289918.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/kerala/explainer-the-muthanga-land-agitation-and-the-2026-verdict/article71289918.ece",
       "sourceName": "The Hindu",
       "sourceDomain": "thehindu.com",
       "sourceCountry": "IN",
@@ -1429,8 +1580,8 @@
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-07-31T09:43:52Z",
-      "imageUrl": null,
+      "publishedAt": "2026-07-31T11:51:17Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/qwqx5q/article71290128.ece/alternates/LANDSCAPE_1200/CCI_HINDU_NEWSDESK_GTDO151A.1.II2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
@@ -1438,131 +1589,11 @@
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "5165ee33cbe804e521d2",
+      "clusterId": "856d765421ec1faecd65",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.17712
-    },
-    {
-      "id": "04007e90d46f9c827411e3e7",
-      "title": "SC Judge V Mohana recuses from hearing Senthil Balaji's anticipatory bail plea",
-      "translatedTitle": null,
-      "description": "SC Judge V Mohana recuses from hearing Senthil Balaji's anticipatory bail plea",
-      "url": "https://www.hindustantimes.com/india-news/sc-judge-v-mohana-recuses-from-hearing-senthil-balaji-s-anticipatory-bail-plea-101785480575776.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/sc-judge-v-mohana-recuses-from-hearing-senthil-balaji-s-anticipatory-bail-plea-101785480575776.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T06:49:35Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/logo/ht-generic_india3_1751287297962_1751287304722.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6c10c4664d7d8d6b2213",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.17291
-    },
-    {
-      "id": "6af9df68b0cdc08889ef94bf",
-      "title": "TDB denies role in alleged Sabarimala ghee irregularity, says no outside procurement this season",
-      "translatedTitle": null,
-      "description": "TDB denies role in alleged Sabarimala ghee irregularity, says no outside procurement this season",
-      "url": "https://www.hindustantimes.com/india-news/tdb-denies-role-in-alleged-sabarimala-ghee-irregularity-says-no-outside-procurement-this-season-101785480011866.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/tdb-denies-role-in-alleged-sabarimala-ghee-irregularity-says-no-outside-procurement-this-season-101785480011866.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T06:40:11Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/logo/ht-generic_india1_1751287243850_1751287256749.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "109f87f800076a37360e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.15884
-    },
-    {
-      "id": "5fd5d9b5bf00f7d7014b56a6",
-      "title": "One case filed on basis of CAG reports in past 5 years: Union Law Minister",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://indianexpress.com/article/india/cbi-cag-reports-five-years-lok-sabha-coal-scam-10811992/",
-      "canonicalUrl": "https://indianexpress.com/article/india/cbi-cag-reports-five-years-lok-sabha-coal-scam-10811992",
-      "sourceName": "The Indian Express",
-      "sourceDomain": "indianexpress.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T09:35:40Z",
-      "imageUrl": "https://images.indianexpress.com/2026/07/Union-Law-Minister.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8a2369dbf6245dd96573",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.13269
-    },
-    {
-      "id": "876cf88b140c3128a6c91fc6",
-      "title": "Loud cracking sounds and a collapse: A blow-by-blow account of Maharashtra building horror that killed 9",
-      "translatedTitle": null,
-      "description": "In a statement, the Thane collectorate said search and rescue operations are being carried out with the help of trained sniffer dogs.",
-      "url": "https://www.hindustantimes.com/india-news/loud-cracking-sounds-and-a-collapse-a-blow-by-blow-account-of-maharashtra-building-horror-death-toll-rescue-ops-101785475208435.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/loud-cracking-sounds-and-a-collapse-a-blow-by-blow-account-of-maharashtra-building-horror-death-toll-rescue-ops-101785475208435.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-07-31T06:04:33Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/PTI07-31-2026-000044B-0_1785475383920_1785475404690_8bd93375-4837-4843-85e3-e05f7baf6675.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-07-31T12:17:53Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e0ebfdb6d9a534ffd999",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10663
+      "rankingScore": 4.86867,
+      "related": []
     }
   ]
 }
