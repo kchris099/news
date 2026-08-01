@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-08-01",
-  "generatedAt": "2026-08-01T12:17:21Z",
-  "lastAttemptAt": "2026-08-01T12:17:21Z",
-  "lastSuccessfulUpdate": "2026-08-01T12:17:21Z",
-  "status": "current",
+  "generatedAt": "2026-08-01T16:17:28Z",
+  "lastAttemptAt": "2026-08-01T16:17:28Z",
+  "lastSuccessfulUpdate": "2026-08-01T16:17:28Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-08-01T12:17:20Z",
-      "lastSuccessAt": "2026-08-01T12:17:20Z",
-      "articlesRetrieved": 26,
-      "responseTimeMs": 495,
+      "lastAttemptAt": "2026-08-01T16:17:27Z",
+      "lastSuccessAt": "2026-08-01T16:17:27Z",
+      "articlesRetrieved": 30,
+      "responseTimeMs": 636,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-08-01T12:17:20Z",
-      "lastSuccessAt": "2026-08-01T12:17:20Z",
+      "lastAttemptAt": "2026-08-01T16:17:27Z",
+      "lastSuccessAt": "2026-08-01T16:17:27Z",
       "articlesRetrieved": 142,
-      "responseTimeMs": 540,
+      "responseTimeMs": 386,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-08-01T12:17:20Z",
-      "lastSuccessAt": "2026-08-01T12:17:20Z",
-      "articlesRetrieved": 8,
-      "responseTimeMs": 768,
+      "lastAttemptAt": "2026-08-01T16:17:27Z",
+      "lastSuccessAt": "2026-08-01T16:17:28Z",
+      "articlesRetrieved": 9,
+      "responseTimeMs": 765,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-08-01T12:17:20Z",
-      "lastSuccessAt": "2026-08-01T12:17:20Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 693,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-08-01T16:17:27Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -78,7 +78,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -136,7 +136,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-01T12:17:20Z",
+          "retrievedAt": "2026-08-01T16:17:27Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -257,7 +257,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-01T12:17:20Z",
+          "retrievedAt": "2026-08-01T16:17:28Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -269,7 +269,7 @@
           "rankingScore": 4.9539
         }
       ],
-      "rankingScore": 11.73113
+      "rankingScore": 11.34825
     },
     {
       "id": "587b4b3bde44e99c8740d269",
@@ -298,11 +298,132 @@
       "clusterId": "8684a8890cd2f67b75e2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 9.84244
+      "rankingScore": 9.32346,
+      "related": []
     },
     {
-      "id": "36d3ec5a5b7b2e407931e347",
+      "id": "dc850cb7a61739c5a0cbc618",
+      "title": "William and Kate bring children to Commonwealth Games netball and cycling events",
+      "translatedTitle": null,
+      "description": "Spectators at Glasgow's OVO Hydro were treated to exhilarating performances during New Zealand's 61-54 win over England.",
+      "url": "https://www.bbc.co.uk/news/articles/cz7d1xpn5e8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cz7d1xpn5e8o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T15:28:33Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea25/live/92b0de80-8dc3-11f1-b8ee-9b3c26ad07bb.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "99ae7b2e4c74cf3ad79e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "ba2bc984f26f8a518157aa88",
+          "title": "Commonwealth Games 2026: Jamaica stun Australia in netball, plus cycling and boxing – live",
+          "translatedTitle": null,
+          "description": "Updates from Saturday’s live action around Glasgow Medal table | How ‘mop man’ Miller stole the show Boxing The first hands will be thrown just after 11am in women’s 54kg final between Scarlett Savannah Delgado and Preeti Preeti. That’s the first of 14 finals day on the last day of boxing at this year’s Games. Men’s 1500m T54 final Nathan Maguire powered to victory in the last lap, with Daniel Sidbury (England) taking silver and Sam Rizzo (Australia) the bronze. I was so boxed. And then I felt l",
+          "url": "https://www.theguardian.com/sport/live/2026/aug/01/commonwealth-games-2026-netball-semi-finals-athletics-cycling-and-more-live",
+          "canonicalUrl": "https://theguardian.com/sport/live/2026/aug/01/commonwealth-games-2026-netball-semi-finals-athletics-cycling-and-more-live",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-08-01T16:01:08Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/445595599cab576ff9731ea28013491c2a3a5d72/416_0_4654_3723/master/4654.jpg?width=140&quality=85&auto=format&fit=max&s=430566b9223da3bc43b0d57c4f840738",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-01T16:17:27Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "99ae7b2e4c74cf3ad79e",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "commonwealth games 2026 jamaica stun australia in netball plus cycling and boxing live"
+        },
+        {
+          "id": "4a04f9caa5e7d05902f7cdcb",
+          "title": "Commonwealth Games 2026 schedule, start times and how to watch",
+          "translatedTitle": null,
+          "description": "The 10-sport programme, including six Para sports, will include athletics, gymnastics, cycling and swimming",
+          "url": "https://www.independent.co.uk/sport/commonwealth-games/commonwealth-games-2026-schedule-start-times-tv-channel-b3022717.html",
+          "canonicalUrl": "https://independent.co.uk/sport/commonwealth-games/commonwealth-games-2026-schedule-start-times-tv-channel-b3022717.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-08-01T07:33:48Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/23/08/1412847646..?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-01T12:17:20Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "99ae7b2e4c74cf3ad79e",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "commonwealth games 2026 schedule start times and how to watch"
+        },
+        {
+          "id": "b28d55c25bac55bff4b0e03c",
+          "title": "Commonwealth Games 2026 medal table: Standings as Australia dominate in Glasgow",
+          "translatedTitle": null,
+          "description": "Team England won the first gold of the Games but since then, Australia have been sweeping up the medals in Glasgow",
+          "url": "https://www.independent.co.uk/sport/commonwealth-games/commonwealth-games-2026-medal-table-standings-b3021106.html",
+          "canonicalUrl": "https://independent.co.uk/sport/commonwealth-games/commonwealth-games-2026-medal-table-standings-b3021106.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-08-01T07:33:17Z",
+          "imageUrl": "https://static.independent.co.uk/2026/07/25/16/2287521925..?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-01T12:17:20Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "99ae7b2e4c74cf3ad79e",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "commonwealth games 2026 medal table standings as australia dominate in glasgow"
+        }
+      ],
+      "rankingScore": 8.81248
+    },
+    {
+      "id": "9b5586c188c99cbb675de34c",
       "title": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
       "translatedTitle": null,
       "description": "The attack comes as Moscow escalates deadly ballistic missile attacks on the Ukrainian capital.",
@@ -316,12 +437,12 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-01T11:52:29Z",
+      "publishedAt": "2026-08-01T13:35:39Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e537/live/b81c7060-8d8e-11f1-b8ee-9b3c26ad07bb.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -360,134 +481,13 @@
           "normalizedTitle": "russian strikes on kyiv kill nine people and injure dozens"
         }
       ],
-      "rankingScore": 8.80968
+      "rankingScore": 8.55379
     },
     {
-      "id": "52e172a2d87ab904b564dd01",
-      "title": "England beaten by New Zealand in netball semi-final",
+      "id": "ab7298309343294b8818bbfb",
+      "title": "Dozens injured as earthquake hits near Naples in seismic swarm",
       "translatedTitle": null,
-      "description": "England's netballers miss out on a place in the Commonwealth Games gold-medal match after a 61-54 semi-final defeat by a powerful New Zealand side.",
-      "url": "https://www.bbc.co.uk/sport/netball/articles/c151l288y9xo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/netball/articles/c151l288y9xo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T09:41:15Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f32/live/a4c5f5c0-8d90-11f1-800e-433295bded5e.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "90192c61ec00ef863cad",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "efc56cd5d1673c4afa412795",
-          "title": "Commonwealth Games 2026: New Zealand beat England in netball semis; athletics and cycling updates – live",
-          "translatedTitle": null,
-          "description": "Updates from Saturday’s live action around Glasgow Medal table | How ‘mop man’ Miller stole the show Boxing The first hands will be thrown just after 11am in women’s 54kg final between Scarlett Savannah Delgado and Preeti Preeti. That’s the first of 14 finals day on the last day of boxing at this year’s Games. Men’s 1500m T54 final Nathan Maguire powered to victory in the last lap, with Daniel Sidbury (England) taking silver and Sam Rizzo (Australia) the bronze. I was so boxed. And then I felt l",
-          "url": "https://www.theguardian.com/sport/live/2026/aug/01/commonwealth-games-2026-netball-semi-finals-athletics-cycling-and-more-live",
-          "canonicalUrl": "https://theguardian.com/sport/live/2026/aug/01/commonwealth-games-2026-netball-semi-finals-athletics-cycling-and-more-live",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-08-01T11:59:59Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/d21cbe3a3eef1b0c83aae95a90d2dd9ef926d201/526_54_3964_3172/master/3964.jpg?width=140&quality=85&auto=format&fit=max&s=e5bb1d086cb5b15fc3528dad370e3502",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-01T12:17:20Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "90192c61ec00ef863cad",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "commonwealth games 2026 new zealand beat england in netball semis athletics and cycling updates live"
-        },
-        {
-          "id": "4a04f9caa5e7d05902f7cdcb",
-          "title": "Commonwealth Games 2026 schedule, start times and how to watch",
-          "translatedTitle": null,
-          "description": "The 10-sport programme, including six Para sports, will include athletics, gymnastics, cycling and swimming",
-          "url": "https://www.independent.co.uk/sport/commonwealth-games/commonwealth-games-2026-schedule-start-times-tv-channel-b3022717.html",
-          "canonicalUrl": "https://independent.co.uk/sport/commonwealth-games/commonwealth-games-2026-schedule-start-times-tv-channel-b3022717.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-08-01T07:33:48Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/23/08/1412847646..?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-01T12:17:20Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "90192c61ec00ef863cad",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "commonwealth games 2026 schedule start times and how to watch"
-        },
-        {
-          "id": "b28d55c25bac55bff4b0e03c",
-          "title": "Commonwealth Games 2026 medal table: Standings as Australia dominate in Glasgow",
-          "translatedTitle": null,
-          "description": "Team England won the first gold of the Games but since then, Australia have been sweeping up the medals in Glasgow",
-          "url": "https://www.independent.co.uk/sport/commonwealth-games/commonwealth-games-2026-medal-table-standings-b3021106.html",
-          "canonicalUrl": "https://independent.co.uk/sport/commonwealth-games/commonwealth-games-2026-medal-table-standings-b3021106.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-08-01T07:33:17Z",
-          "imageUrl": "https://static.independent.co.uk/2026/07/25/16/2287521925..?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-01T12:17:20Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "90192c61ec00ef863cad",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "commonwealth games 2026 medal table standings as australia dominate in glasgow"
-        }
-      ],
-      "rankingScore": 8.61372
-    },
-    {
-      "id": "60b9c348654a9143f525423b",
-      "title": "Scores injured as earthquake hits near Naples in seismic swarm",
-      "translatedTitle": null,
-      "description": "At least 21 injured and more than 250 evacuated in strongest quake to hit southern Italian region in 40 years At least 21 people have been injured after a 4.7-magnitude earthquake rocked a region near Naples, in southern Italy. The quake, which occurred at 7.46pm on Friday night, caused power outages, disrupted public transport and damaged buildings and a pier in Campi Flegrei, the site of Europe’s largest volcanic crater. Continue reading...",
+      "description": "At least five taken to hospital and about 300 evacuated in strongest quake to hit southern Italian region in 40 years At least 26 people have been injured after a 4.7-magnitude earthquake rocked a region near Naples, in southern Italy. The quake, which occurred at 7.46pm on Friday night, caused power outages, disrupted public transport and damaged a pier in Campi Flegrei, the site of Europe’s largest volcanic crater. Continue reading...",
       "url": "https://www.theguardian.com/world/2026/aug/01/scores-injured-as-earthquake-hits-near-naples-in-seismic-swarm",
       "canonicalUrl": "https://theguardian.com/world/2026/aug/01/scores-injured-as-earthquake-hits-near-naples-in-seismic-swarm",
       "sourceName": "The Guardian",
@@ -498,20 +498,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-01T10:26:22Z",
+      "publishedAt": "2026-08-01T13:49:15Z",
       "imageUrl": "https://i.guim.co.uk/img/media/9c236ad6dd6b0bb19d8ebfd868b4e035bf4755e0/256_0_2560_2048/master/2560.jpg?width=140&quality=85&auto=format&fit=max&s=8480797b8cb63d39ed0cf47047bcaa10",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "4bcee485861b0ed9ed9a",
+      "clusterId": "1e47c0e887e8a5657bdf",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.32493
+      "rankingScore": 8.25779,
+      "related": []
     },
     {
       "id": "275dd170ee96e4250c682d8b",
@@ -540,7 +540,7 @@
       "clusterId": "71e98baf04ae0f2bd7b7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.22573,
+      "rankingScore": 7.83197,
       "related": []
     },
     {
@@ -563,15 +563,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "8a8e2d9d8dae39005105",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.17376
+      "rankingScore": 7.8083,
+      "related": []
     },
     {
       "id": "ca53ec40892854020e843509",
@@ -600,8 +600,8 @@
       "clusterId": "b83f301c50a1136471b1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.0862
+      "rankingScore": 7.72025,
+      "related": []
     },
     {
       "id": "bdd6a9e5ee4c0f2afdf2c74b",
@@ -630,8 +630,8 @@
       "clusterId": "02702515b62fad7a1ba8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.06899
+      "rankingScore": 7.70647,
+      "related": []
     },
     {
       "id": "c3ff8b358ba1008d0a4e794b",
@@ -653,14 +653,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e2a2c86944787b915b19",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.30991,
+      "rankingScore": 6.05682,
       "related": [
         {
           "id": "c17029c43f30c17b5ded957a",
@@ -696,6 +696,486 @@
       ]
     },
     {
+      "id": "05bdd94fc4528f58cd0760b1",
+      "title": "Manhunt launched after burglary suspect escapes from court on foot",
+      "translatedTitle": null,
+      "description": "Police are hunting for a man who escaped custody before a court appearance in Liverpool.",
+      "url": "https://news.sky.com/story/stephen-grzyb-manhunt-after-burglary-suspect-escapes-from-liverpool-court-13569032",
+      "canonicalUrl": "https://news.sky.com/story/stephen-grzyb-manhunt-after-burglary-suspect-escapes-from-liverpool-court-13569032",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T13:37:00Z",
+      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-stephen-grzyb-merseyside-police_7311836.jpg?20260801143701",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d3049a4edc519db7b227",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.53616
+    },
+    {
+      "id": "4b7fb7c34ac373e100fb3537",
+      "title": "Comfortable victory, but uncomfortable numbers for Labour in Greater Manchester",
+      "translatedTitle": null,
+      "description": "In the end it wasn't close. Labour's Bev Craig comfortably held the Greater Manchester (GM) mayoralty, vacated last month by Andy Burnham.",
+      "url": "https://news.sky.com/story/comfortable-victory-but-uncomfortable-numbers-for-labour-in-greater-manchester-13569010",
+      "canonicalUrl": "https://news.sky.com/story/comfortable-victory-but-uncomfortable-numbers-for-labour-in-greater-manchester-13569010",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T11:43:00Z",
+      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-bev-craig-andy-burnham_7311780.jpg?20260801124258",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:28Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1d51f3ee16ae0abd39ed",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.34621
+    },
+    {
+      "id": "32e4d9c4ca4f7ad2c9b4308c",
+      "title": "‘Worst we’ve known’: UK turns to imports as drought and heat hit vegetable crops",
+      "translatedTitle": null,
+      "description": "Growers in dismay after scorching weather and lack of rain affect yields, sending wholesale prices rocketing Pubs, restaurants and supermarkets are having to buy lettuce and broccoli from Spain at what should be the height of UK growing season, as drought and extreme heat hit crops. The wholesale price of tomatoes is up by more than 60%, iceberg lettuce by 90% and potatoes by more than 40% as a number of farmers struggle to grow in consistently high temperatures. Even those with irrigation syste",
+      "url": "https://www.theguardian.com/business/2026/aug/01/uk-importing-vegetabless-drough-heat-hit-british-crops-price-rises",
+      "canonicalUrl": "https://theguardian.com/business/2026/aug/01/uk-importing-vegetabless-drough-heat-hit-british-crops-price-rises",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T11:00:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/420f4c8c62c8dd4cd3857ff453d7f5a6996325dc/479_0_5493_4396/master/5493.jpg?width=140&quality=85&auto=format&fit=max&s=57e6366931541976acce0b8db7ea80b9",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4563085be661890d218d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28093
+    },
+    {
+      "id": "6b87928ab855ae0425d0cb03",
+      "title": "If you think kids will respect a robot teacher, you have never met a kid | Dave Schilling",
+      "translatedTitle": null,
+      "description": "A New York school district has paused plans to bring an android into the classroom. Is this our educational future? What’s more harrowing than sending your child to school? Maybe getting stuck on a city bus that can’t drop below 55 miles per hour or it will explode, but that’s about it. Once your kid hits school age, you have to decide (if you’re lucky) between public and private education, vet the teachers, and neurotically worry about whether they’re learning enough and are socializing effecti",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/01/new-york-salamanca-school-robot-teacher-plan",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/01/new-york-salamanca-school-robot-teacher-plan",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T11:00:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d01002863e751c83ac09e45c485806940292dcee/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=96ca0b1795d51271f726e8e4899d12c0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fcb3e46e1e7e91306e16",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28093
+    },
+    {
+      "id": "681de6f1ca849b2195084374",
+      "title": "A forgotten Victorian children’s book helped me grieve my father",
+      "translatedTitle": null,
+      "description": "The stories in Mrs Leicester’s School, written by a woman who killed her own mother, were suffused with grief, and finally triggered mine as I was teaching a class of students When my dad went into hospital for what would be the final time, shortly before Christmas last year, I had been finishing up a lecture series on early children’s literature for the university where I teach. My dad had had a drinking problem practically my whole life, but his alcoholism had worsened across decades. Then sud",
+      "url": "https://www.theguardian.com/culture/2026/aug/01/my-cultural-awakening-little-princess-book-helped-me-grieve",
+      "canonicalUrl": "https://theguardian.com/culture/2026/aug/01/my-cultural-awakening-little-princess-book-helped-me-grieve",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T11:00:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2a66b4a0b2c4e7b32502cc85d6267c99d7009e15/27_0_3773_3019/master/3773.jpg?width=140&quality=85&auto=format&fit=max&s=e5f3e2708c18e99f165a9df21a919b85",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e2863953724cc0e18dc5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28093
+    },
+    {
+      "id": "73b2f03e1d327c371d6b89e1",
+      "title": "Why generations swear by hot caldo – ‘a Mexican Gatorade’ – in summer",
+      "translatedTitle": null,
+      "description": "Across Latin American households in the US, the steaming broth nourishes while keeping family traditions alive When Patty Rodriguez hears the word caldo now, she thinks fondly of home. But as a child growing up in southern California, she despised eating the piping-hot soup-like meal during the summers. Rodriguez would swirl around the chunks of fish with her spoon and imagine that she was performing a magic trick where the dish disappeared. She would roll her eyes as she asked her family why th",
+      "url": "https://www.theguardian.com/us-news/2026/aug/01/caldo-summer-soup-latin-america",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/aug/01/caldo-summer-soup-latin-america",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T11:00:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4f62b7de8a2fc061b3dd3aecf1d5d2b706fd0698/0_630_4421_3538/master/4421.jpg?width=140&quality=85&auto=format&fit=max&s=c7ef748dc9ef4dee4ceee67694f876c9",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b2023e2d88bf5a119b28",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28093
+    },
+    {
+      "id": "49f4fb4fd1b75fd9690756a0",
+      "title": "The great British switch-off: how floating retreats, mobile-free pubs and sauna book groups are freeing people from their smartphones",
+      "translatedTitle": null,
+      "description": "Sick of doomscrolling? From venues with smartphone swear jars to cabins with absolutely no signal, here are the fun and freeing ways to ditch your device There’s a ritual at the start of every event hosted by the Offline Project. Run by Pelé Zachariah, the activities vary – it could be a group walk, a collage‑making class or a supper club – but each one begins in the same way, *with an invitation to hand over your phone. Devices go in a lockbox. Once they’re all in, Zachariah closes the door and",
+      "url": "https://www.theguardian.com/technology/2026/aug/01/great-british-switch-off-fun-freeing-ways-ditch-smartphone-doomscrolling",
+      "canonicalUrl": "https://theguardian.com/technology/2026/aug/01/great-british-switch-off-fun-freeing-ways-ditch-smartphone-doomscrolling",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T11:00:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6b42c3746cfdd05043f25836119a504f5e5340d7/460_0_4835_3868/master/4835.jpg?width=140&quality=85&auto=format&fit=max&s=e446cd4d18e6f237ebb864b0c951ae08",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "de6d6177e01133b8bd4e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.2809
+    },
+    {
+      "id": "cc7e4c4c765c7fb59c0eb596",
+      "title": "In the battle of Elon Musk v the press, we can’t let truth be the loser | Jane Martinson",
+      "translatedTitle": null,
+      "description": "The trillionaire Tesla owner has called the editor of the Economist a ‘traitor to the west’ after a clash-filled interview. How should the media respond? Elon Musk’s long interview with the editor of the Economist is as good a representation as any of the current clash between two worlds. In one corner, the editor of an 182-year-old news organisation which promotes economic liberalism and freedom. In the other, the world’s first trillionaire, who spreads misinformation to his hundreds of million",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/01/elon-musk-truth-interview-editor-economist",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/01/elon-musk-truth-interview-editor-economist",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T11:00:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/723c623b125b49ffaf4b48765ad2e07315105c0d/0_0_3607_2885/master/3607.jpg?width=140&quality=85&auto=format&fit=max&s=10fe8dfd6fddbf158acf0a7d084216a0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f3b344228c9649989573",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28088
+    },
+    {
+      "id": "ac640de423e2659c10cc48dd",
+      "title": "Boxer secures Tuvalu’s first Commonwealth Games medal without winning a bout",
+      "translatedTitle": null,
+      "description": "Tarona Taafaki makes history in women’s 75kg category All boxers eliminated in semis receive bronze medals A boxer has made history for ⁠Tuvalu by winning the tiny Pacific island nation’s first Commonwealth ⁠Games medal without winning a single fight. Twenty-year-old Tarona Taafaki, ⁠one of five entrants in the women’s 75kg category, received a bye to the semi-finals where she lost on an unanimous points decision to India’s Lovlina Borgohain on Friday. At Commonwealth Games, all boxers eliminate",
+      "url": "https://www.theguardian.com/sport/2026/aug/01/boxer-tarona-taafaki-secures-tuvalu-first-commonwealth-games-medal-without-winning",
+      "canonicalUrl": "https://theguardian.com/sport/2026/aug/01/boxer-tarona-taafaki-secures-tuvalu-first-commonwealth-games-medal-without-winning",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T10:07:05Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/26b8bb94b8314a59cd22de2845c0545a1adc6e33/3_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=a0c1560be6471b2db05b2940328b9fa5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a61ecbaedf1bc3e1184c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.20121
+    },
+    {
+      "id": "95185c99225916b6a88ff3c1",
+      "title": "Christopher Harry on buying an SUV – cartoon",
+      "translatedTitle": null,
+      "description": "Continue reading...",
+      "url": "https://www.theguardian.com/commentisfree/picture/2026/aug/01/christopher-harry-buying-suv-cartoon",
+      "canonicalUrl": "https://theguardian.com/commentisfree/picture/2026/aug/01/christopher-harry-buying-suv-cartoon",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T10:00:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/51be927fb1de5af64a8cb748ad0859f3ef042efb/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=aaa842c59064adf9ba74f0daf75a0bdc",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b755a04062939bf905b2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19218
+    },
+    {
+      "id": "c20ee5a0f156d708a2a13b4d",
+      "title": "‘The machine turned into a lonely character gazing at an empty beach’: Alon Goldsmith’s best phone picture",
+      "translatedTitle": null,
+      "description": "On his daily bike ride, the LA-based photographer stumbled upon the perfect subject for this black-and-white portrait On New Year’s Day 2026, Alon Goldsmith began what he calls a “365-day project, which involves taking and posting a photo every day for a year. On some days, it’s a struggle to find something worthy of being included and on others it’s a challenge to make a choice,” he says. This image was taken on day 111. Johannesburg-born, LA-based Goldsmith was on his daily bike ride, which us",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/aug/01/alon-goldsmith-best-phone-picture",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/aug/01/alon-goldsmith-best-phone-picture",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T10:00:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7eb29ab0e1f33cd36a7a22442d4b5fdf38676fc6/0_604_2686_2148/master/2686.jpg?width=140&quality=85&auto=format&fit=max&s=4424be07b44c67bb1d6cfcb3ccf2949f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fb20baa2186e7c616f21",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19218
+    },
+    {
+      "id": "78046d887213924ddce5f1b2",
+      "title": "From Ozempic to eye creams: demand for bathroom mini fridges is heating up",
+      "translatedTitle": null,
+      "description": "Sales soar as consumers seek maximum convenience, though experts say most products don’t need to be kept cool When it comes to essential fixtures and fittings for bathrooms, the most common are tubs and taps. But now there is a new must-have emerging: a mini fridge. Used to store everything from beauty products to GLP-1 medication, the growing demand reflects a wider trend in how the wellness industry and weight-loss drugs are reshaping homes. Continue reading...",
+      "url": "https://www.theguardian.com/fashion/2026/aug/01/bathroom-mini-fridges-sales-ozempic-skincare",
+      "canonicalUrl": "https://theguardian.com/fashion/2026/aug/01/bathroom-mini-fridges-sales-ozempic-skincare",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T09:00:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5c8d708b9f479a6ec5ef9e3589405d6dccf548e4/1123_0_5365_4292/master/5365.jpg?width=140&quality=85&auto=format&fit=max&s=d57244b6856d0bf4bb62f154b5e78e5c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d666840de47d0e27fb5e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.1083
+    },
+    {
+      "id": "d63ba062983dd161ad33e65d",
+      "title": "Gregg Araki on sex, film and queer resistance: ‘All the terrible shit in the world is because of sexual repression’",
+      "translatedTitle": null,
+      "description": "As his 12th feature film, I Want Your Sex, hits theaters, the cult gay film-maker is as fired up as ever Is straight sex the most perverse sex of all? Gregg Araki’s new film makes a convincing case. Titled I Want Your Sex, the movie is a deliriously fun and often hilarious study of desire, power and art that features bondage, full-frontal and a vagina made out of pink chewed-up bubble gum. “For me, it is a very queer story,” the director says, speaking the week of the film’s release in a video c",
+      "url": "https://www.theguardian.com/film/2026/aug/01/gregg-araki-film-i-want-your-sex",
+      "canonicalUrl": "https://theguardian.com/film/2026/aug/01/gregg-araki-film-i-want-your-sex",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T09:00:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/576bf3fc12c289a352fe0f051dd2a379af63c582/568_0_3069_2456/master/3069.jpg?width=140&quality=85&auto=format&fit=max&s=cbef94f7101fe6bdc130018c16355437",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "738cd8974dfeb0043c43",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.1083
+    },
+    {
+      "id": "83b5bec9ff2670f026bae408",
+      "title": "‘We didn’t feel safe’: Booking.com users face battle to get money back",
+      "translatedTitle": null,
+      "description": "From melted electric sockets to shabby alternatives, readers tell of dealings with platform when things go wrong Jane Ripley* spent some time researching the best apartment to stay in for her family’s trip to Batumi in Georgia, eventually settling on one with an “exceptional” rating on Booking.com. But when the Ripleys arrived at 11pm on the first day, they were directed to another property that was shabby and had stains on the furniture and ceiling. Continue reading...",
+      "url": "https://www.theguardian.com/money/2026/aug/01/bookingcom-money-back-refund",
+      "canonicalUrl": "https://theguardian.com/money/2026/aug/01/bookingcom-money-back-refund",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T09:00:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/54833081131fac1f4bb767f87adfa9ba2a069b57/509_0_4516_3617/master/4516.jpg?width=140&quality=85&auto=format&fit=max&s=9a957471130baf2c38ed05dc765acac1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "66f763bdc8d73967df27",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.1083
+    },
+    {
+      "id": "ac815c24d8bdddc26c90f62e",
+      "title": "Local media needs support if devolution push is to succeed, publishers say",
+      "translatedTitle": null,
+      "description": "Shift from Westminster risks weakening scrutiny as regional titles battle hostility, big tech and ‘news deserts’ Greater support for local media is needed to hold mayors and councils to account under Andy Burnham’s plans for devolution, which would involve a massive transfer of power into local government, publishers have said. A range of figures involved with local news broadly welcomed new plans unveiled by the prime minister, but said that monetising content, barriers erected by populist poli",
+      "url": "https://www.theguardian.com/politics/2026/aug/01/publishers-call-for-stronger-local-media-under-andy-burnham-devolution",
+      "canonicalUrl": "https://theguardian.com/politics/2026/aug/01/publishers-call-for-stronger-local-media-under-andy-burnham-devolution",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T09:00:48Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/95cf370a780b229a78b88d453319d2ff63868d9d/1715_568_2696_2157/master/2696.jpg?width=140&quality=85&auto=format&fit=max&s=88250402f22b7fe0a25694927b6c674e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d8142c9b4e4bbc8a9a49",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.10828
+    },
+    {
+      "id": "598dabea95a16d4f2a6a3b1c",
+      "title": "Fiona Allen: ‘The closest I’ve come to death? A trip in a black cab with John Worboys. I had a lucky escape’",
+      "translatedTitle": null,
+      "description": "The actor and comedian on her hatred of selfishness, her unhappy resting face, and why she dropped her agent Born in Lancashire, Fiona Allen, 61, went to drama school in Salford. From 1999, she co-wrote and starred in the Emmy-winning and Bafta-nominated TV sketch show Smack the Pony. She had roles in Shameless, Skins, Waterloo Road and EastEnders, and her films include 24 Hour Party People, Fat Slags, Gladiatress and Finding Emily. In 2023, she took her show On the Run to the Edinburgh festival",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/aug/01/fiona-allen-actor-writer-edinburgh-festival-fringe",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/aug/01/fiona-allen-actor-writer-edinburgh-festival-fringe",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T09:00:48Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/886f572511771eeb7b6df4fec0135d7651fee60b/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=7a5fe8665efc828a2498f5faaa6bf945",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6d9fc23f444be092de50",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.10828
+    },
+    {
       "id": "00d2d5a229a5228f3851e5b2",
       "title": "'Tech Titan' Arora spearheads $1bn shot at NBA's London basketball team",
       "translatedTitle": null,
@@ -715,15 +1195,75 @@
       "imageAlt": null,
       "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "69dfb1ab62cca7ff2ce5",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 5.05253,
+      "related": []
+    },
+    {
+      "id": "fb41f4b83be16155106a55a1",
+      "title": "Knickers in a twist: why M&S selling crotchless underwear isn’t as outrageous as it seems",
+      "translatedTitle": null,
+      "description": "Some have called it ‘S&M’, but partnership with Ann Summers is less a scandal than another step in a century of evolving underwear trends, experts say The news that Marks & Spencer is selling Ann Summers crotchless knickers on their website has been greeted – as might be expected – with outrage online, being described as everything from “tawdry” to “S & M”. But it could be this is just the latest evolution in what the UK’s biggest underwear retailer has available for the smalls drawer. In recent",
+      "url": "https://www.theguardian.com/business/2026/aug/01/marks-and-spencers-ann-summers-lingerie",
+      "canonicalUrl": "https://theguardian.com/business/2026/aug/01/marks-and-spencers-ann-summers-lingerie",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T08:00:47Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6fda1bfe004f19453970daf09ff17237cbfc7bf9/266_0_3147_2518/master/3147.jpg?width=140&quality=85&auto=format&fit=max&s=3336f43f4a833ccb6b7267275bf8228c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "500a4d3a68ce89a111a0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.75412
+      "rankingScore": 5.02891
+    },
+    {
+      "id": "feea2d510cbbc4b2783cc070",
+      "title": "‘A towering piece of monoculture’: how The Odyssey discourse has dominated this summer",
+      "translatedTitle": null,
+      "description": "Christopher Nolan’s smash hit epic has continued to excite and enrage everyone from rightwingers to academics, an old-fashioned throwback to a uniting big-screen event Peter Bradshaw reviews The Odyssey The Odyssey: jaw-dropping action, dark magic and dolphin cameos – discuss with spoilers Go woke, get rich: why rightwing hate campaigns don’t affect the box office If a high-profile academic is reviewing a movie for the London Review of Books, that movie in question must be making some kind of ma",
+      "url": "https://www.theguardian.com/film/2026/aug/01/the-odyssey-movie-discourse",
+      "canonicalUrl": "https://theguardian.com/film/2026/aug/01/the-odyssey-movie-discourse",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T08:00:47Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5cdead412672d4162bea86fe224d3306ceae76d6/0_418_3298_2637/master/3298.jpg?width=140&quality=85&auto=format&fit=max&s=ed6aedc2bb20dec5a168939c53b60037",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f43a3a0f5c4ee9045b94",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.02891
     },
     {
       "id": "a06582ec5189f5e920c4f1ea",
@@ -745,15 +1285,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:28Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "c13f23d91f1fd25227a6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.3542
+      "rankingScore": 5.01257,
+      "related": []
     },
     {
       "id": "c1c80c5d7fd1de2b800cad39",
@@ -782,8 +1322,8 @@
       "clusterId": "f94c8ac1a0bf5ee0f71b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.34937
+      "rankingScore": 4.99076,
+      "related": []
     },
     {
       "id": "58ca344e5d51afc7883d961c",
@@ -812,8 +1352,128 @@
       "clusterId": "d9e597306de231d18677",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.322
+      "rankingScore": 4.96885,
+      "related": []
+    },
+    {
+      "id": "ff442b2617623a10e933d81b",
+      "title": "The hill I will die on: Games are the opposite of fun, and I’d ban them for anyone over 12 | Emily Watkins",
+      "translatedTitle": null,
+      "description": "Get your balls, pucks, Scrabble boards and packs of cards away from me – all I want is space to be together, ideally with a coffee or a glass of wine The other day, I met a friend at the park for a catch-up. After 45 minutes of blissful note-swapping – my new tabi shoes, his new boyfriend – he pulled out a pair of ping-pong paddles and indicated a nearby table. “Fancy a quick game?” We are no longer speaking. I’m joking, but only sort of. As far as I’m concerned, games of any sort ought to be il",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/01/the-hill-i-will-die-on-games-are-the-opposite-of-fun",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/01/the-hill-i-will-die-on-games-are-the-opposite-of-fun",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T07:00:46Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/32081fc7de96b79460960a3af68d9497f68d1b8f/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=43e3b6bffc131adca2ef19d3c59b0f2a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "71f67a9e11fb9dff727e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 4.95383,
+      "related": []
+    },
+    {
+      "id": "411cbf4e743a972f251000b7",
+      "title": "The best theatre to stream this month: Self Esteem dazzles with Teeth ’n’ Smiles",
+      "translatedTitle": null,
+      "description": "Rebecca Lucy Taylor leads David Hare’s rock’n’roll drama, Michaela Coel tells us Chewing Gum Dreams and Stranger Things’ Gaten Matarazzo stars in a murder mystery Like a time capsule crowbarred open, its fug filling the auditorium, this year’s 50th anniversary production of David Hare’s drama about a 60s rock band’s unravelling made for a fascinating evening. The tunes by brothers Nick and Tony Bicât – plus Rebecca Lucy Taylor AKA Self Esteem’s new number, Maggie’s Song, which expertly matches t",
+      "url": "https://www.theguardian.com/stage/2026/aug/01/the-best-theatre-to-stream-this-month-self-esteem-teeth-n-smiles",
+      "canonicalUrl": "https://theguardian.com/stage/2026/aug/01/the-best-theatre-to-stream-this-month-self-esteem-teeth-n-smiles",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T07:00:46Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5c72fc60e47c663662d4f78802c7aa99bea5ced9/0_1367_5371_4298/master/5371.jpg?width=140&quality=85&auto=format&fit=max&s=d6769e6376d16d1df81b44203679f757",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dcfd520cbbbf95de186f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 4.95383,
+      "related": []
+    },
+    {
+      "id": "72720d91c628cfacf37dccf1",
+      "title": "No apologies, no freebies: the man who makes Andy Burnham’s jackets on how to weather a storm",
+      "translatedTitle": null,
+      "description": "Private White VC’s James Eden says PM should not be criticised for wearing a high-quality British-made brand It has not yet been two weeks since James Eden, the founder of the Manchester men’s clothier Private White VC, saw one of his best-known customers move in to No 10 Downing Street. In any sane world the man who makes the prime minister’s jackets would be popping open the champagne. His garments have been seen by millions of people and described by journalists all over the world writing abo",
+      "url": "https://www.theguardian.com/fashion/2026/aug/01/andy-burnham-jackets-private-white-vc-james-eden",
+      "canonicalUrl": "https://theguardian.com/fashion/2026/aug/01/andy-burnham-jackets-private-white-vc-james-eden",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T07:00:46Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/95446f30b48ab814f1e69bab82947730fdd3fcc5/0_0_4706_3763/master/4706.jpg?width=140&quality=85&auto=format&fit=max&s=17b29b7c3cd906e4e3a4fef5fbcef783",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9859e87545995aef33c9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 4.95383,
+      "related": []
+    },
+    {
+      "id": "b77c2a1212ae1ae4e2417ec1",
+      "title": "EU relations, climate crisis and Gaza: why Ed Miliband is fired up by Foreign Office challenges",
+      "translatedTitle": null,
+      "description": "Labour veteran is said to relish role that requires careful negotiation of Trump and impending G20 leadership Extraordinarily, given the importance of geopolitics, the office of foreign secretary has sometimes appeared a consolation prize in British politics, perhaps reflecting the transfer of responsibility to Downing Street or the Cabinet Office. That is not how Ed Miliband views the job. His allies say suggestions that he nurses resentment after he was deprived of the chance to be chancellor",
+      "url": "https://www.theguardian.com/politics/2026/aug/01/eu-relations-climate-crisis-gaza-ed-miliband-foreign-office-challenges",
+      "canonicalUrl": "https://theguardian.com/politics/2026/aug/01/eu-relations-climate-crisis-gaza-ed-miliband-foreign-office-challenges",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-01T07:00:45Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/272009bfcd22578175053f0dfd6ead5bac0b7ce3/1779_216_3287_2631/master/3287.jpg?width=140&quality=85&auto=format&fit=max&s=806f3e125632a25d95c6bb749c083623",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-01T16:17:27Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c0df736ebc1e385e1cac",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 4.95381,
+      "related": []
     },
     {
       "id": "a593776ecd95020f6e75c7a8",
@@ -842,188 +1502,8 @@
       "clusterId": "65f80fb246e502d9dc81",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28576
-    },
-    {
-      "id": "2b3d03c933ba2644e25b8876",
-      "title": "‘MPs have had their stomachs pumped’: concerns over ‘alcohol-soaked’ culture in Westminster",
-      "translatedTitle": null,
-      "description": "Alcohol is embedded in profession where long hours, loneliness and lobbying are the norm, report finds Parliament is “Britain’s last alcohol-soaked workplace” where MPs are offered free drinks as early as midday despite alcohol-related scandals, a report has revealed. Drinking is commonplace and some MPs have had their stomachs pumped after consuming so much alcohol that they ended up in hospital, one disclosed. Continue reading...",
-      "url": "https://www.theguardian.com/politics/2026/aug/01/mps-stomachs-pumped-uk-parliament-alcohol-culture-report",
-      "canonicalUrl": "https://theguardian.com/politics/2026/aug/01/mps-stomachs-pumped-uk-parliament-alcohol-culture-report",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T07:00:47Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/7f75306822343caaa2e368852d216a3c5a28c076/1501_55_3548_2838/master/3548.jpg?width=140&quality=85&auto=format&fit=max&s=120f98f3dd5e5062dfa7310387e081ce",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "283a3d5bd187ca176fa9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28087
-    },
-    {
-      "id": "ba624e9f86fb0af54aa2dabf",
-      "title": "Have you ever switched allegiance as a football fan? You are not alone | Luke McLaughlin",
-      "translatedTitle": null,
-      "description": "If professional athletes can represent more than one country, let alone multiple clubs, why shouldn’t fans change teams? “I was fanatically pro-German when the Germans were here to protect us against the Americans, and now that Americans are here to protect us against the Germans, I am fanatically pro-American … you and your country will have no more loyal partisan in Italy than me – but only as long as you remain in Italy.” This passage from Joseph Heller’s Catch-22 – as an old Italian man expl",
-      "url": "https://www.theguardian.com/football/2026/aug/01/switch-allegiance-football-fan",
-      "canonicalUrl": "https://theguardian.com/football/2026/aug/01/switch-allegiance-football-fan",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T07:00:47Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/396252955b16e28adc3b7fe4233787039f799ca3/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=3f0140af053595a546ed5a6377c5c899",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "63aed2a4a77a4c5d852b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28087
-    },
-    {
-      "id": "ff442b2617623a10e933d81b",
-      "title": "The hill I will die on: Games are the opposite of fun, and I’d ban them for anyone over 12 | Emily Watkins",
-      "translatedTitle": null,
-      "description": "Get your balls, pucks, Scrabble boards and packs of cards away from me – all I want is space to be together, ideally with a coffee or a glass of wine The other day, I met a friend at the park for a catch-up. After 45 minutes of blissful note-swapping – my new tabi shoes, his new boyfriend – he pulled out a pair of ping-pong paddles and indicated a nearby table. “Fancy a quick game?” We are no longer speaking. I’m joking, but only sort of. As far as I’m concerned, games of any sort ought to be il",
-      "url": "https://www.theguardian.com/commentisfree/2026/aug/01/the-hill-i-will-die-on-games-are-the-opposite-of-fun",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/01/the-hill-i-will-die-on-games-are-the-opposite-of-fun",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T07:00:46Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/32081fc7de96b79460960a3af68d9497f68d1b8f/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=43e3b6bffc131adca2ef19d3c59b0f2a",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "71f67a9e11fb9dff727e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28085
-    },
-    {
-      "id": "411cbf4e743a972f251000b7",
-      "title": "The best theatre to stream this month: Self Esteem dazzles with Teeth ’n’ Smiles",
-      "translatedTitle": null,
-      "description": "Rebecca Lucy Taylor leads David Hare’s rock’n’roll drama, Michaela Coel tells us Chewing Gum Dreams and Stranger Things’ Gaten Matarazzo stars in a murder mystery Like a time capsule crowbarred open, its fug filling the auditorium, this year’s 50th anniversary production of David Hare’s drama about a 60s rock band’s unravelling made for a fascinating evening. The tunes by brothers Nick and Tony Bicât – plus Rebecca Lucy Taylor AKA Self Esteem’s new number, Maggie’s Song, which expertly matches t",
-      "url": "https://www.theguardian.com/stage/2026/aug/01/the-best-theatre-to-stream-this-month-self-esteem-teeth-n-smiles",
-      "canonicalUrl": "https://theguardian.com/stage/2026/aug/01/the-best-theatre-to-stream-this-month-self-esteem-teeth-n-smiles",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T07:00:46Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5c72fc60e47c663662d4f78802c7aa99bea5ced9/0_1367_5371_4298/master/5371.jpg?width=140&quality=85&auto=format&fit=max&s=d6769e6376d16d1df81b44203679f757",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dcfd520cbbbf95de186f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28085
-    },
-    {
-      "id": "72720d91c628cfacf37dccf1",
-      "title": "No apologies, no freebies: the man who makes Andy Burnham’s jackets on how to weather a storm",
-      "translatedTitle": null,
-      "description": "Private White VC’s James Eden says PM should not be criticised for wearing a high-quality British-made brand It has not yet been two weeks since James Eden, the founder of the Manchester men’s clothier Private White VC, saw one of his best-known customers move in to No 10 Downing Street. In any sane world the man who makes the prime minister’s jackets would be popping open the champagne. His garments have been seen by millions of people and described by journalists all over the world writing abo",
-      "url": "https://www.theguardian.com/fashion/2026/aug/01/andy-burnham-jackets-private-white-vc-james-eden",
-      "canonicalUrl": "https://theguardian.com/fashion/2026/aug/01/andy-burnham-jackets-private-white-vc-james-eden",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T07:00:46Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/95446f30b48ab814f1e69bab82947730fdd3fcc5/0_0_4706_3763/master/4706.jpg?width=140&quality=85&auto=format&fit=max&s=17b29b7c3cd906e4e3a4fef5fbcef783",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9859e87545995aef33c9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28085
-    },
-    {
-      "id": "b77c2a1212ae1ae4e2417ec1",
-      "title": "EU relations, climate crisis and Gaza: why Ed Miliband is fired up by Foreign Office challenges",
-      "translatedTitle": null,
-      "description": "Labour veteran is said to relish role that requires careful negotiation of Trump and impending G20 leadership Extraordinarily, given the importance of geopolitics, the office of foreign secretary has sometimes appeared a consolation prize in British politics, perhaps reflecting the transfer of responsibility to Downing Street or the Cabinet Office. That is not how Ed Miliband views the job. His allies say suggestions that he nurses resentment after he was deprived of the chance to be chancellor",
-      "url": "https://www.theguardian.com/politics/2026/aug/01/eu-relations-climate-crisis-gaza-ed-miliband-foreign-office-challenges",
-      "canonicalUrl": "https://theguardian.com/politics/2026/aug/01/eu-relations-climate-crisis-gaza-ed-miliband-foreign-office-challenges",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T07:00:45Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/272009bfcd22578175053f0dfd6ead5bac0b7ce3/1779_216_3287_2631/master/3287.jpg?width=140&quality=85&auto=format&fit=max&s=806f3e125632a25d95c6bb749c083623",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c0df736ebc1e385e1cac",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28082
+      "rankingScore": 4.93983,
+      "related": []
     },
     {
       "id": "8527446387bbdc7110a98425",
@@ -1052,8 +1532,8 @@
       "clusterId": "83b5ba0d82773b019400",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.27937
+      "rankingScore": 4.93471,
+      "related": []
     },
     {
       "id": "94e6b7cb0fec31e07f35af97",
@@ -1082,8 +1562,8 @@
       "clusterId": "c794553dd08109d8ce63",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.25826
+      "rankingScore": 4.91781,
+      "related": []
     },
     {
       "id": "f7faa93854d6e0fb68bcce9d",
@@ -1105,15 +1585,15 @@
       "imageAlt": null,
       "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "de5fc9e608273e256111",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.19218
+      "rankingScore": 4.88283,
+      "related": []
     },
     {
       "id": "b33f18b16c1df16e1ccb8b41",
@@ -1135,15 +1615,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e6736ad439aeb47cb810",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.19215
+      "rankingScore": 4.88281,
+      "related": []
     },
     {
       "id": "927b10a84bb66be09589640d",
@@ -1165,15 +1645,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "2b9573e9135e0a41aa19",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.19215
+      "rankingScore": 4.88281,
+      "related": []
     },
     {
       "id": "e4bb10cc21bd7cb80f5af798",
@@ -1195,15 +1675,15 @@
       "imageAlt": null,
       "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "0c51eaa0feba7624bf1b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.19215
+      "rankingScore": 4.88281,
+      "related": []
     },
     {
       "id": "e2ebaf70dcc1c82eb881c646",
@@ -1225,15 +1705,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "340915ddbc8415057e63",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.19213
+      "rankingScore": 4.88279,
+      "related": []
     },
     {
       "id": "ca874b6cb70308602eca85d6",
@@ -1255,495 +1735,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
+      "retrievedAt": "2026-08-01T16:17:27Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "b76511e4d522bc915c4f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.19213
-    },
-    {
-      "id": "efec4b7d49467bab2ba19554",
-      "title": "Is it safe to travel to Morocco? Latest advice during Ceuta migrant crisis at border with Spanish enclave",
-      "translatedTitle": null,
-      "description": "Ceuta is several hours from Morocco’s main tourist hotspots",
-      "url": "https://www.independent.co.uk/travel/news-and-advice/morocco-is-it-safe-ceuta-spain-migrant-crisis-travel-flights-b3025718.html",
-      "canonicalUrl": "https://independent.co.uk/travel/news-and-advice/morocco-is-it-safe-ceuta-spain-migrant-crisis-travel-flights-b3025718.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T06:39:09Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/31/10/2026-07-31T095456Z_1317439629_RC2WOMASD19C_RTRMADP_3_MIGRATION-EUROPE-SPAIN-MOROCCO.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b96b95b6470992a9ba0d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.15833
-    },
-    {
-      "id": "0425b81c4adbadecf62050f0",
-      "title": "Heat pumps can make your home ‘easier to sell’ – but won’t always add value",
-      "translatedTitle": null,
-      "description": "A heat pump may not add its full installation cost to your property’s price, but experts say it could make an energy-efficient home more attractive to buyers",
-      "url": "https://www.independent.co.uk/home-improvement/heat-pump-home-value-b3023792.html",
-      "canonicalUrl": "https://independent.co.uk/home-improvement/heat-pump-home-value-b3023792.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T06:32:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/01/09/12/07/2K3A4749.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "da272acf4668748c2dfe",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.14772
-    },
-    {
-      "id": "ef05f0ff78d4f85680eb8684",
-      "title": "Voices: ‘We are keeping people alive longer, not living longer’: Readers on the true cost of caring for a loved one",
-      "translatedTitle": null,
-      "description": "As Andy Burnham vows to overhaul social care, our readers shared the raw reality of caring for a loved one, from the exhausting grind of professional care work to a devastating account of watching a wife decline, day after day, in a care home",
-      "url": "https://www.independent.co.uk/news/health/social-care-homes-unpaid-carers-experience-b3024629.html",
-      "canonicalUrl": "https://independent.co.uk/news/health/social-care-homes-unpaid-carers-experience-b3024629.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T06:30:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/30/13/18/Engagement-overlays-2026-07-30T143059-275.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e608cdd2859762776159",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.14476
-    },
-    {
-      "id": "0311ebefe166dca365220f09",
-      "title": "Uefa demands Fifa leadership change in bombshell statement against Gianni Infantino",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/sport/uefa-infantino-fifa-world-cup-b3025755.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/sport/uefa-infantino-fifa-world-cup-b3025755.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T10:17:06Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/01/10/01KYSTRZWMF51F32AJNGRTWR8X.jpg?width=1200&auto=webp&trim=46%2C0%2C46%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6a48fdbff314e8172e4d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.11797
-    },
-    {
-      "id": "709156c2e851c8d01d03c1a1",
-      "title": "The idealism of the Esperanto movement, a plague of flies and a clinic in a deep salt mine",
-      "translatedTitle": null,
-      "description": "Need something brilliant to read this weekend? Here are six of our favourite pieces from the last seven days Continue reading...",
-      "url": "https://www.theguardian.com/news/2026/aug/01/the-idealism-of-the-esperanto-movement-a-plague-of-flies-and-a-clinic-in-a-deep-salt-mine",
-      "canonicalUrl": "https://theguardian.com/news/2026/aug/01/the-idealism-of-the-esperanto-movement-a-plague-of-flies-and-a-clinic-in-a-deep-salt-mine",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T05:00:45Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/7727d09c9f88ceb52b70c0c4cc1bc0a099e6df0a/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=33a87dbcd98641c1a1495d904d470fb2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e60ebbb63e6800a22ff1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10827
-    },
-    {
-      "id": "14fb21785fcdf2bafbb6ce83",
-      "title": "From Spider-Man: Brand New Day to Ariana Grande: your complete entertainment guide to the week ahead",
-      "translatedTitle": null,
-      "description": "Your friendly neighbourhood superhero spins a new web of adventures, and the singer returns from Oz with her hopeful eighth album Spider-Man: Brand New DayOut now The – sequel to No Way Home maintains the focus on what’s now Spidey’s day job: protecting the city. New characters include crime boss Tombstone, played by Marvin Jones III who, like his character, is an African American with albinism. Continue reading...",
-      "url": "https://www.theguardian.com/culture/2026/aug/01/entertainment-week-ahead-spider-man-brand-new-day-ariana-grande-album-ted-lasso",
-      "canonicalUrl": "https://theguardian.com/culture/2026/aug/01/entertainment-week-ahead-spider-man-brand-new-day-ariana-grande-album-ted-lasso",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T05:00:45Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/8d0e1b487e20edeb8220ef9353b38b7f57393ba5/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=f54d28e18a63b357fd637b773373a21b",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "75ff132c67e125457574",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10827
-    },
-    {
-      "id": "9fc595646414fe6f82ad9287",
-      "title": "From Ish to Jared Leto: Hollywood’s Dark Secret – the week in rave reviews",
-      "translatedTitle": null,
-      "description": "A poetic coming-of-age tale haunted by racial profiling among the Asian community in Luton, while a BBC documentary unearths troubling allegations against the high-profile celeb. Here’s the pick of the week’s culture, taken from the Guardian’s best-rated reviews Continue reading...",
-      "url": "https://www.theguardian.com/culture/2026/aug/01/from-ish-to-jared-leto-hollywoods-dark-secret-the-week-in-rave-reviews",
-      "canonicalUrl": "https://theguardian.com/culture/2026/aug/01/from-ish-to-jared-leto-hollywoods-dark-secret-the-week-in-rave-reviews",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T05:00:45Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a5729ce5712aba7462af83f839a425307d849b68/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=8519b7dbbf47cdb64fc2172be60f0078",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e091d21d4e718827a135",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10827
-    },
-    {
-      "id": "b2029c42e89a70c07254f7be",
-      "title": "Like Burnham, I was an altar boy. His Catholic upbringing is shaping the way he governs |Julian Coman",
-      "translatedTitle": null,
-      "description": "With a prime minister raised in a tradition that emphasises our mutual dependency, we may finally have a leader who can address the anomie gripping our country Like Andy Burnham, I was once an enthusiastic altar boy, although I don’t recall competing to be at the front with the communion plate as the prime minister apparently did. Much of my motivation had little to do with piety. The tips received for serving at weddings were often very generous and I got on well with Father Jerome, an engaging",
-      "url": "https://www.theguardian.com/commentisfree/2026/aug/01/andy-burnham-catholic-faith-shaping-way-governs",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/01/andy-burnham-catholic-faith-shaping-way-governs",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T05:00:44Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/994a61423d4c1a477ea1273df6de2c5b63b68f67/440_0_4798_3840/master/4798.jpg?width=140&quality=85&auto=format&fit=max&s=312622b4a205167865472d70806a7b81",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9593243ed569f9f7556d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10825
-    },
-    {
-      "id": "5ab3dba6e7277f37c10d42db",
-      "title": "Two weeks into the school holidays … and counting: the Becky Barnicoat cartoon",
-      "translatedTitle": null,
-      "description": "Continue reading...",
-      "url": "https://www.theguardian.com/lifeandstyle/picture/2026/aug/01/school-holidays-roll-on-september-becky-barnicoat-cartoon",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/picture/2026/aug/01/school-holidays-roll-on-september-becky-barnicoat-cartoon",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T05:00:44Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/007f4c68fcff7a4b7b72e5fc460b5ac5dd26d1b8/0_1_1173_938/master/1173.jpg?width=140&quality=85&auto=format&fit=max&s=26499d5ec1d5becf3e589cb7615db351",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b3564752852e7e8311c5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10825
-    },
-    {
-      "id": "8e0eb9daedf1b7613d13d6ea",
-      "title": "‘Pretty much the downfall of society’: Adam Ramsay-Peaty on press intrusion, forgiveness and going all in for LA 2028",
-      "translatedTitle": null,
-      "description": "After a rollercoaster week at the Commonwealth Games, the double Olympic champion says he will never stop believing what he can achieve “I couldn’t switch off because it’s been a real rollercoaster of a week,” Adam Ramsay-Peaty says with a weary smile on a quiet Thursday morning in Glasgow. He has just endured a rough night in which, after winning his third medal of the Commonwealth Games, he managed less than three hours of sleep. The medals consist of bronze in the 100m and 50m breaststroke an",
-      "url": "https://www.theguardian.com/sport/2026/aug/01/adam-ramsay-peaty-interview-on-press-intrusion-forgiveness-la-2028-olympics",
-      "canonicalUrl": "https://theguardian.com/sport/2026/aug/01/adam-ramsay-peaty-interview-on-press-intrusion-forgiveness-la-2028-olympics",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T05:00:44Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a78c54ef7b90df1103f4dfe3b728ce0bb14b212f/196_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=b8fe958a5a1a32be0d8afdb2e795829f",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ddbb7d1de19929effce8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10825
-    },
-    {
-      "id": "a99ffce90288275982fe8d7e",
-      "title": "Tim Dowling: can I conquer my wife’s book club? I can certainly divide it",
-      "translatedTitle": null,
-      "description": "She says I’m not allowed to select books as I’m the only man and not a full member. But how could they not love Death Comes for the Archbishop? My wife would have everyone in our book club believe that the First Rule of Book Club is: Tim Is Never Allowed to Pick the Book. Having failed in her several attempts to have me removed from book club, she has settled for imposing restrictions on my participation to make my membership seem second tier. “You’re not allowed to pick because you’re not reall",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/aug/01/tim-dowling-can-i-conquer-book-club-can-certainly-divide-it",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/aug/01/tim-dowling-can-i-conquer-book-club-can-certainly-divide-it",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T05:00:44Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/78b1ca1d723b0a15b4deb05535e1dffe52172ce0/384_243_4061_3249/master/4061.jpg?width=140&quality=85&auto=format&fit=max&s=74b46efc9c583e37099522d2b996c55f",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2e1225b0ea2b378c3271",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10825
-    },
-    {
-      "id": "cdf55ecf12b335d42164b6ae",
-      "title": "Noma restaurant prepares to reopen under new leadership after abuse allegations",
-      "translatedTitle": null,
-      "description": "World-class venue puts renewed focus on staff wellbeing under new head chef after René Redzepi stepped down and apologised for his behaviour The Copenhagen restaurant Noma – often ranked among the world’s best – is preparing to reopen next week under new leadership for the first time since its star chef and co-founder, René Redzepi, stepped down amid accusations of physical and psychological abuse. The new executive head chef, Pablo Soto, who has worked at the restaurant for nearly a decade, sai",
-      "url": "https://www.theguardian.com/world/2026/aug/01/noma-restaurant-reopens-new-leadership-abuse-allegations",
-      "canonicalUrl": "https://theguardian.com/world/2026/aug/01/noma-restaurant-reopens-new-leadership-abuse-allegations",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T05:00:43Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/141e8fbf6f4edd508cf237493de7575b80b98816/208_0_4220_3376/master/4220.jpg?width=140&quality=85&auto=format&fit=max&s=4aaf868ecc6fc380f06ff73780f82728",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d2363f10e3024a526acf",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10823
-    },
-    {
-      "id": "08d29039ba12ea93e62a0141",
-      "title": "Blind date: ‘I joked we should join the young people for a club night. We didn’t’",
-      "translatedTitle": null,
-      "description": "Richard, 63, a communications consultant, meets Katrina, 60, a GP What were you hoping for? Easy conversation with someone interesting, smart and relaxed. Continue reading...",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/aug/01/blind-date-richard-katrina",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/aug/01/blind-date-richard-katrina",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T05:00:43Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/678c6fdf8166880b295759dd04908c18a74f7284/0_0_5000_4001/master/5000.png?width=140&quality=85&auto=format&fit=max&s=96e56e14b20614d92a1facee72909cee",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4fdae8be3a9cd91d071f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10823
-    },
-    {
-      "id": "5611019fef714b7d3b0bb4a6",
-      "title": "Meera Sodha’s vegetarian recipe for oyster mushroom burgers with five-spice cabbage | Meera Sodha recipes",
-      "translatedTitle": null,
-      "description": "These roasted oyster mushrooms are meaty, savoury and chewy, made even more satisfying in a south-east Asian-style dressing Not every plant makes a great burger filling. You might think pulses or potatoes for heft, but the lack of texture and propensity to mush can be unsatisfying. This is where mushrooms excel; they trade in satisfaction. Roasting them brings out their natural umami and removes water content, leaving them chewy, caramelised and occasionally crisp. They can also make friends wit",
-      "url": "https://www.theguardian.com/food/2026/aug/01/vegetarian-burgers-recipe-oyster-mushrooms-five-spice-cabbage-slaw-meera-sodha",
-      "canonicalUrl": "https://theguardian.com/food/2026/aug/01/vegetarian-burgers-recipe-oyster-mushrooms-five-spice-cabbage-slaw-meera-sodha",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T05:00:43Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/750f9994ea89205bab7ada350459b999d8a6711d/249_1564_5035_4029/master/5035.jpg?width=140&quality=85&auto=format&fit=max&s=95fa92d43c700f5925ae58cd7ce4fc6a",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "76fed1c0d798c7946a2e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10823
-    },
-    {
-      "id": "28ca5a252c7f44c0d2b66d40",
-      "title": "Former workers fight for wages they say they're owed: 'It makes me sick'",
-      "translatedTitle": null,
-      "description": "Sonia Garcia Monuz is among ex-catering firm employees who claim they are owed unpaid wages.",
-      "url": "https://www.bbc.co.uk/news/articles/cx2rv3899g8o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cx2rv3899g8o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T01:04:30Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e9e4/live/5ef93bf0-8c15-11f1-94b2-05bc97107049.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b5dcbc849d74dee06544",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.08979
-    },
-    {
-      "id": "0d4b8436dd2625b8cc955e05",
-      "title": "Country diary: Pity the poor limpets – must the summer holidays mean they get smashed by a child? | Sara Hudston",
-      "translatedTitle": null,
-      "description": "Lyme Regis, Dorset: Busy beaches can be bad news for shellfish. If curious children don’t know they are live creatures, then let’s educate them My favourite beach at Lyme Regis is the capricious East Cliff, visible only at low tide. The best way to reach it is down a 114-step walkway. The path drops through rough scrub, a feral mix of wild plants and garden escapes, sizzling with grasshoppers. Buddleia flourishes next to sallow bushes, hazel and gorse. Sour blackberries are already reddening amo",
-      "url": "https://www.theguardian.com/environment/2026/aug/01/country-diary-pity-the-poor-limpets-must-the-summer-holidays-mean-they-get-smashed-by-a-child",
-      "canonicalUrl": "https://theguardian.com/environment/2026/aug/01/country-diary-pity-the-poor-limpets-must-the-summer-holidays-mean-they-get-smashed-by-a-child",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T04:30:42Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0350ee354a67aef066af7f90513c523deec1aa39/0_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=de2bbebf2e65a0bd36d2f8261aaa5c4a",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-01T12:17:20Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f5456aa441b2ab2b5135",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.06798
+      "rankingScore": 4.88279,
+      "related": []
     }
   ]
 }
