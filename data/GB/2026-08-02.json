@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-08-02",
-  "generatedAt": "2026-08-02T04:17:25Z",
-  "lastAttemptAt": "2026-08-02T04:17:25Z",
-  "lastSuccessfulUpdate": "2026-08-02T04:17:25Z",
-  "status": "current",
+  "generatedAt": "2026-08-02T08:17:25Z",
+  "lastAttemptAt": "2026-08-02T08:17:25Z",
+  "lastSuccessfulUpdate": "2026-08-02T08:17:25Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 24,
+  "articleCount": 45,
   "publisherCount": 3,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-08-02T04:17:24Z",
-      "lastSuccessAt": "2026-08-02T04:17:25Z",
+      "lastAttemptAt": "2026-08-02T08:17:24Z",
+      "lastSuccessAt": "2026-08-02T08:17:24Z",
       "articlesRetrieved": 31,
-      "responseTimeMs": 527,
+      "responseTimeMs": 364,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-08-02T04:17:24Z",
-      "lastSuccessAt": "2026-08-02T04:17:25Z",
-      "articlesRetrieved": 140,
-      "responseTimeMs": 337,
+      "lastAttemptAt": "2026-08-02T08:17:24Z",
+      "lastSuccessAt": "2026-08-02T08:17:24Z",
+      "articlesRetrieved": 141,
+      "responseTimeMs": 394,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-08-02T04:17:24Z",
-      "lastSuccessAt": "2026-08-02T04:17:25Z",
-      "articlesRetrieved": 7,
-      "responseTimeMs": 739,
+      "lastAttemptAt": "2026-08-02T08:17:24Z",
+      "lastSuccessAt": "2026-08-02T08:17:24Z",
+      "articlesRetrieved": 8,
+      "responseTimeMs": 623,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-08-02T04:17:24Z",
-      "lastSuccessAt": "2026-08-02T04:17:25Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 543,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-08-02T08:17:24Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -85,14 +85,14 @@
       "clusterId": "123ef86c64da6f8b8f13",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 9.89156
+      "rankingScore": 9.50468,
+      "related": []
     },
     {
-      "id": "05cdf48f8c61b84c6f6d10f8",
-      "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+      "id": "3ed042ec58454e836318dcac",
+      "title": "Trump says he is cancelling strikes on Iran subject to deal being made 'rapidly'",
       "translatedTitle": null,
-      "description": "The US president's message came amid media reports that he was planning new, intense strikes on Iran over the weekend.",
+      "description": "The US president claims Iran and other Middle Eastern countries asked Washington to hold off on any attack as the \"perimeters\" of a deal had been agreed.",
       "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://bbc.co.uk/news/articles/cjwx74qgld2o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
@@ -103,20 +103,80 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-02T03:05:16Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c36/live/eb797180-8e18-11f1-b916-5b9500660788.jpg",
+      "publishedAt": "2026-08-02T06:24:01Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f054/live/47777f10-8e44-11f1-b92b-e77f734e2374.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
+      "retrievedAt": "2026-08-02T08:17:24Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0c67254cb97db78e15f4",
+      "clusterId": "438cce5c7f4d8fbb60d9",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.6678
+      "rankingScore": 8.5907
+    },
+    {
+      "id": "fd1d68a52a25191409a95ba5",
+      "title": "From occupied Crimea to Oxfordshire: the Kremlin links to new £600m UK theme park",
+      "translatedTitle": null,
+      "description": "Exclusive: Puy du Fou worked with under-sanctions oligarch on plans for Crimea resort longer than disclosed, and later courted Iran and China In February 2014, thousands of “little green men” – Russian soldiers in unmarked uniforms – flooded into Crimea, seizing control of military bases and infrastructure. Their arrival marked the opening salvo of Vladimir Putin’s annexation of the peninsula, an operation that ultimately escalated into the full-scale invasion of Ukraine. Continue reading...",
+      "url": "https://www.theguardian.com/business/2026/aug/02/kremlin-links-new-uk-theme-park-puy-du-fou",
+      "canonicalUrl": "https://theguardian.com/business/2026/aug/02/kremlin-links-new-uk-theme-park-puy-du-fou",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T06:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/28528f140b311168a376daabef094a0d598e73c4/16_0_4906_3925/master/4906.jpg?width=140&quality=85&auto=format&fit=max&s=85c250e9bedd51bbe8d522c12afec886",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7397b23975d69aae2310",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.27756
+    },
+    {
+      "id": "4fbc51ebee25c744df4c9d42",
+      "title": "Trump climbs down on Iran strikes after Saudi alarm and threats from Tehran",
+      "translatedTitle": null,
+      "description": "President claims delay is ‘subject to being able to rapidly make a deal’ as intervention by Saudi crown prince is revealed and Iran warns neighbours Donald Trump said on Saturday night that the US would hold off on any new strikes on Iran provided a deal to end the months-long conflict is quickly reached – marking the president’s latest climbdown from extravagant threats to hit the Tehran regime hard. The Saudi crown prince Mohammed bin Salman called Trump on Saturday to express concerns about h",
+      "url": "https://www.theguardian.com/world/2026/aug/02/trump-climbs-down-on-iran-strikes-after-saudi-alarm-and-threats-from-tehran",
+      "canonicalUrl": "https://theguardian.com/world/2026/aug/02/trump-climbs-down-on-iran-strikes-after-saudi-alarm-and-threats-from-tehran",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T04:45:37Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/644a3d991ac481989ea97a3977c47e2f3677c714/0_0_3862_3088/master/3862.jpg?width=140&quality=85&auto=format&fit=max&s=da5b0b0fd643f7a0f8f8e7ed21b565dd",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9a5e4b970e1010bfa885",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.14821
     },
     {
       "id": "1f6fcbdf8be3e5fee099f186",
@@ -145,8 +205,8 @@
       "clusterId": "ea7e1357ab9db3d02a89",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.42466
+      "rankingScore": 7.99134,
+      "related": []
     },
     {
       "id": "180370e7e48c9326cb7d2d10",
@@ -175,8 +235,248 @@
       "clusterId": "8e8a9441fe2029c19f76",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.793,
+      "related": []
+    },
+    {
+      "id": "ab001e6504027d5bcef75eb0",
+      "title": "‘The simplest, coolest item in your wardrobe’: 14 of the best white T-shirts for men",
+      "translatedTitle": null,
+      "description": "Fabric, fit, weight and drape – there’s more to picking the perfect tee than meets the eye. Our menswear expert rounds up his favourites • How to buy secondhand clothes online that you’ll actually wear I didn’t think about Marlon Brando when I got dressed this morning. Or James Dean or Steve McQueen, for that matter. But every time you pull a white T-shirt over your head, they’re the ones you should have in the back of your mind. Before they came along, a white T-shirt was just underwear. They m",
+      "url": "https://www.theguardian.com/thefilter/2026/aug/02/best-white-t-shirts-for-men",
+      "canonicalUrl": "https://theguardian.com/thefilter/2026/aug/02/best-white-t-shirts-for-men",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T08:00:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/30db0407d7a0f48b87f3f07b00e8ab3671fc474a/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=8764741ec879c2f6fec4231bfb549697",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "417326c8661d637a7f0b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.26696
+      "rankingScore": 7.15532
+    },
+    {
+      "id": "e4421270661a9b2355961512",
+      "title": "‘I have an understanding housemate’: the student who makes videos of fungus on faeces",
+      "translatedTitle": null,
+      "description": "Alfred Drummond-Herdman’s extraordinary timelapses have been viewed by millions – and led him to identify new species Alfred Drummond-Herdman is possibly the only person in the UK who is sent animal faeces in the post out of goodwill. His bedroom in Edinburgh is full of the stuff: clothes have been removed from his wardrobe and cupboards, replaced with terrariums and plastic containers housing sections of cowpats, grouse droppings and rabbit pellets. “I have a very understanding housemate,” he s",
+      "url": "https://www.theguardian.com/environment/2026/aug/02/alfred-drummond-herdman-animal-dung-fungi-films-aoe",
+      "canonicalUrl": "https://theguardian.com/environment/2026/aug/02/alfred-drummond-herdman-animal-dung-fungi-films-aoe",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T08:00:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/059a3cd5a3a7fa85bbe95c346182ad24d8570b0d/569_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d8e1414606e2f6420a0a9c759e9a536c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "606fedcca509b16b1996",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15529
+    },
+    {
+      "id": "84dffc4aec4efff885f16a7d",
+      "title": "The Papers: Chancellor 'warns' supermarkets and 'own goal'",
+      "translatedTitle": null,
+      "description": "John Healey's vow to crackdown on grocery \"price gouging\" and the Fifa World Cup scandal dominate Sunday's front pages.",
+      "url": "https://www.bbc.co.uk/news/articles/crk5jd6r1rmo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/crk5jd6r1rmo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T04:36:03Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5356/live/605d93e0-8df7-11f1-b2ab-0dd01740f9f6.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fa932bbea2b1f760acf7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.05226
+    },
+    {
+      "id": "4acba8acdea0a4d0633837ab",
+      "title": "Gianni Infantino could face leadership challenge as Fifa Council members rebel",
+      "translatedTitle": null,
+      "description": "Council wants to trigger emergency general meeting Members demand review of Balogun decision Gianni Infantino is facing a rebellion from members of the Fifa Council who are attempting to force an extraordinary general meeting (EGM) that could develop into a full blown leadership challenge. The Guardian has learned that moves to call an EGM were already under way before the emergence of Infantino’s abortive plan to sell off stakes in the World Cup, with council members demanding an independent re",
+      "url": "https://www.theguardian.com/football/2026/aug/02/gianni-infantino-could-face-leadership-challenge-as-fifa-council-members-rebel",
+      "canonicalUrl": "https://theguardian.com/football/2026/aug/02/gianni-infantino-could-face-leadership-challenge-as-fifa-council-members-rebel",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T07:00:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/84b8a376ce7a1bc6fd5742cc4175e66aa2bbb8a5/356_0_3276_2620/master/3276.jpg?width=140&quality=85&auto=format&fit=max&s=aae5d2364dfb8a22159efc71a0d0cab6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "860760a2cc85ff5ad2b2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03827
+    },
+    {
+      "id": "e0d96008591af4417ec36128",
+      "title": "‘You owe parking fees’: experts warn of fake RingGo text scam",
+      "translatedTitle": null,
+      "description": "Criminals hope by using threats of enforcement action, people will panic and click link to bogus parking app site You use parking apps a lot – you have several on your phone – but it is not always straightforward. Sometimes there is a lack of reliable mobile signal, or the app crashes or behaves oddly, or it does not seem to want to accept your bank card. Also, it is sometimes hard to keep track of which apps you have used when. So when you receive a text from RingGo saying you owe it money, you",
+      "url": "https://www.theguardian.com/money/2026/aug/02/parking-apps-experts-warn-of-ringgo-text-scam",
+      "canonicalUrl": "https://theguardian.com/money/2026/aug/02/parking-apps-experts-warn-of-ringgo-text-scam",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T07:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/88c181a8b746c66b4e4eba755ddbe585405223af/1142_444_4971_3977/master/4971.jpg?width=140&quality=85&auto=format&fit=max&s=e6e871c7ec1904e4d690ccc0d34982a9",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a3e79f8d3de5174e3732",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03824
+    },
+    {
+      "id": "527cd5c00a6721c880e7224c",
+      "title": "I’m all for the nanny state – but we should abolish fines for holidays in term time | Rhiannon Lucy Cosslett",
+      "translatedTitle": null,
+      "description": "Some parents are sticklers for the rules, yet mass civil disobedience by parents in England and Wales suggests many agree with me Perhaps it’s my stage of parenthood, or the fact that I’ve been lying awake at night, but I think I have an idea that could secure the electoral future of the Labour party. All Andy Burnham needs to do to win a landslide at the next general election is abolish fines for parents who take their children on term-time holidays. More than 2 million – around a fifth – have",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/02/children-summer-holidays-term-time-civil-disobedience-parents-england-wales",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/02/children-summer-holidays-term-time-civil-disobedience-parents-england-wales",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T07:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a204e271678d6b0ae93975b8564f90464c65076d/348_0_4267_3414/master/4267.jpg?width=140&quality=85&auto=format&fit=max&s=28f635ef8081a7d7c88d8dca486ac86b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cd51ad033f6851a1247c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03824
+    },
+    {
+      "id": "3249b9fe52cce6cf33cd81ff",
+      "title": "‘We cannot magic up more water’: the supply problems putting housing targets in England at risk",
+      "translatedTitle": null,
+      "description": "Council leaders say crumbling infrastructure and lack of water are jeopardising government’s plans for new homes The government’s housebuilding agenda is hitting the stark reality of a lack of water and crumbling infrastructure across the east and south-east of England. Half the country was declared to be in serious drought this week, for the second consecutive year, with the Environment Agency warning of dire consequences for the economy, environment and wildlife. Continue reading...",
+      "url": "https://www.theguardian.com/environment/2026/aug/02/we-cannot-magic-up-more-water-the-supply-problems-putting-housing-targets-in-england-at-risk",
+      "canonicalUrl": "https://theguardian.com/environment/2026/aug/02/we-cannot-magic-up-more-water-the-supply-problems-putting-housing-targets-in-england-at-risk",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T06:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/01100570125b7be60fc504536dab5b9b022e2d24/383_0_6353_5083/master/6353.jpg?width=140&quality=85&auto=format&fit=max&s=b6001cdc509913fc555b54e5e288873c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "44e4a9f5d7f702831aac",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92756
+    },
+    {
+      "id": "0e584e249d656eb74b48ccf0",
+      "title": "‘This is where democracy beats totalitarianism’: Ukraine’s drone strike force takes the fight to Russia",
+      "translatedTitle": null,
+      "description": "Exclusive: At a launch site in the Ukrainian countryside, members of the elite ‘Magyar’s Birds’ brigade are turning Russia’s vast size into a weakness Sparrows were cheeping as the sun set over a field of tall yellow sunflowers when a moped-like growl suddenly disturbed the evening calm. The noise rose, dipped, and rose again. Lt Col Ray – a Ukrainian commander with the 414th aviation brigade – took cover in a leafy ditch. Seconds later a Ukrainian drone roared into a mauve sky. It jerked upward",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/02/this-is-where-democracy-beats-totalitarianism-ukraines-drone-strike-force-takes-the-fight-to-russia",
+      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/aug/02/this-is-where-democracy-beats-totalitarianism-ukraines-drone-strike-force-takes-the-fight-to-russia",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T05:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7aedbc8177d78b97d5a658851bfc1d18ac7e3dc0/1974_1061_3120_2496/master/3120.jpg?width=140&quality=85&auto=format&fit=max&s=d9225b816b830d2b63e0c97e9555a0bc",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3281cebfcdfcd575c23a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82279
     },
     {
       "id": "0c0abf975000785a5c969b1c",
@@ -198,7 +498,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
+      "retrievedAt": "2026-08-02T08:17:24Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -237,37 +537,97 @@
           "normalizedTitle": "plane carrying tourists crashes in peru killing 13 on a nazca lines sightseeing flight"
         }
       ],
-      "rankingScore": 7.09211
+      "rankingScore": 6.73701
     },
     {
-      "id": "84dffc4aec4efff885f16a7d",
-      "title": "The Papers: Chancellor 'warns' supermarkets and 'own goal'",
+      "id": "cace813539dbcbde071722f0",
+      "title": "Anti-LGBTQ+ laws are on the rise across west Africa, campaigners warn",
       "translatedTitle": null,
-      "description": "John Healey's vow to crackdown on grocery \"price gouging\" and the Fifa World Cup scandal dominate Sunday's front pages.",
-      "url": "https://www.bbc.co.uk/news/articles/crk5jd6r1rmo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/crk5jd6r1rmo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Activists in the region say politicians regard LGBTQ+ people as ‘the easiest scapegoats to maintain their power’ A growing number of west African countries are implementing or strengthening anti-LGBTQ+ laws, amid local political pressures and a global pushback against LGBTQ+ rights. In March, Senegal doubled the maximum prison sentence for gay sex to 10 years and criminalised the “promotion” of homosexuality. Niger criminalised “sexual relations with a person of the same sex” in February, the fi",
+      "url": "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn",
+      "canonicalUrl": "https://theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-01T23:03:50Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5356/live/605d93e0-8df7-11f1-b2ab-0dd01740f9f6.jpg",
+      "publishedAt": "2026-08-02T04:00:11Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/725aee047802b1eb39e000a019d0566950c75641/742_425_2422_1938/master/2422.jpg?width=140&quality=85&auto=format&fit=max&s=31547ec23a7b4de1d24cbe7d80fa594a",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
+      "retrievedAt": "2026-08-02T08:17:24Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fa932bbea2b1f760acf7",
+      "clusterId": "b9fee64285db61bf0fbd",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.90558
+      "rankingScore": 6.72372
+    },
+    {
+      "id": "7c5486369d53f3003e2d92d0",
+      "title": "‘Climate change kills’: Pedro Sánchez speaks plain truth to Spain’s deniers",
+      "translatedTitle": null,
+      "description": "PM has long history of speaking out on realities of global heating but political opponents remain unnmoved Just over four years ago, Spain’s prime minister, Pedro Sánchez, visited a small town in the south-western region of Extremadura that had been affected by one of the wildfires devouring tens of thousands of hectares of land across the country. That summer’s blazes had left two people dead in the northern region of Castilla y León and another man there fatally burned after the excavator he w",
+      "url": "https://www.theguardian.com/environment/2026/aug/02/climate-change-kills-pedro-sanchez-speaks-plain-truth-to-spains-deniers",
+      "canonicalUrl": "https://theguardian.com/environment/2026/aug/02/climate-change-kills-pedro-sanchez-speaks-plain-truth-to-spains-deniers",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T04:00:11Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7c5a7e7361f628e7a11c1045c590794dcc1d7cdd/585_234_3311_2650/master/3311.jpg?width=140&quality=85&auto=format&fit=max&s=c4920b3044f65542b2c743c8ce6b7225",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1136b4ebf1065c4ac38d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.72372
+    },
+    {
+      "id": "b38ad32c906692aaf2873c27",
+      "title": "Apparently, I’ve got ‘comfort creep’. I prefer to think of it as finally knowing what I like | Polly Hudson",
+      "translatedTitle": null,
+      "description": "Routine isn’t a failure of imagination – it’s the reward for having done enough experimenting. So, yes, I’m going to my favourite restaurant again – and ordering my favourite dish Feeling seen isn’t always a positive thing. “Comfort creep: do YOU have it?” Good Housekeeping asked, accusingly. I was certain that I did, even before knowing what it was. And that this was not good. “Same holidays, same TV shows, same restaurants, same wine … If your life lacks excitement, it’s time for an anti-comfo",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/02/comfort-creep",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/02/comfort-creep",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T04:00:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2522391b7f27b48c4f10346cb687362892d4c909/526_0_5200_4160/master/5200.jpg?width=140&quality=85&auto=format&fit=max&s=3f83972e0fae345777f5cdf3a4854107",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2334ba89d81c0b9b66f0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.72369
     },
     {
       "id": "4aa8ffc6e83b0a4b267a717c",
@@ -289,7 +649,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
+      "retrievedAt": "2026-08-02T08:17:24Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -297,7 +657,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.90489
+      "rankingScore": 6.57713
     },
     {
       "id": "eda70dcccfe2599e8a89cd53",
@@ -326,8 +686,8 @@
       "clusterId": "e903e1456624b2595c6b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.89508
+      "rankingScore": 6.49754,
+      "related": []
     },
     {
       "id": "7bfecd20a6478a0c852cd35d",
@@ -356,8 +716,8 @@
       "clusterId": "d2b9e0421ddc0be98f34",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.75478
+      "rankingScore": 6.3852,
+      "related": []
     },
     {
       "id": "5c6329baeef17b1fb4df8cf3",
@@ -386,8 +746,8 @@
       "clusterId": "9a7dfa9977e1cf7d4b45",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.6038
+      "rankingScore": 6.2643,
+      "related": []
     },
     {
       "id": "75265fa561576f7d70fce5b7",
@@ -416,12 +776,462 @@
       "clusterId": "2c2aa7232d8d2cc7d08d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.55176
+      "rankingScore": 6.22263,
+      "related": []
     },
     {
-      "id": "ef0f51faaf5f3285714b1d75",
-      "title": "Wicker Man sequel director Justin Hardy dies aged 61",
+      "id": "7f3ef9ede59d900acfe589c6",
+      "title": "Ginger hair portraits show unexpected 'golden thread' connecting Americans",
+      "translatedTitle": null,
+      "description": "For Kieran Dodds, photographing people with red hair has become something of an obsession over the past decade or more.",
+      "url": "https://www.bbc.co.uk/news/articles/ce97nyz4rvmo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ce97nyz4rvmo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T07:58:51Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6857/live/90b8ce50-868c-11f1-926f-c90d1bcfbc84.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "78477dc31a58bbac4c29",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.07248
+    },
+    {
+      "id": "48f86e651073dee2d945df7d",
+      "title": "Trust, grief and betrayal: Inside the Legacy funeral case",
+      "translatedTitle": null,
+      "description": "From a police tip-off to sentencing, a correspondent reflects on covering an unprecedented case.",
+      "url": "https://www.bbc.co.uk/news/articles/ce3456dw32no?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ce3456dw32no?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T06:55:52Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d12/live/18285d90-8a63-11f1-b329-01e04c1ebb9b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "185ab288044d571a2074",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.94998
+    },
+    {
+      "id": "5001ea50af5caf3b7cdc9182",
+      "title": "What happened to star signings your club never made?",
+      "translatedTitle": null,
+      "description": "BBC Sport takes a look at some star players who were close to moving to the Premier League, only for the deals to fall through.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5y32lgr67no?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c5y32lgr67no?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T05:42:58Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e7a/live/ccbf0990-8d09-11f1-bbc4-4d8950e3863d.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9a6f371a1cb4cb2209b4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.81682
+    },
+    {
+      "id": "9c4e4011b47e4c460773dcc9",
+      "title": "Three killed after bomb detonated at Moscow restaurant, state media say",
+      "translatedTitle": null,
+      "description": "Security officials said a woman tried to enter the restaurant with explosives but was stopped by a security guard.",
+      "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c86n4ljxp63o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T05:40:42Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b3a/live/f29cb820-8dda-11f1-9d54-295807679b3c.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "87362ed7e09839e281f1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.81283
+    },
+    {
+      "id": "f7c93f9735ac9c75c9c50f0d",
+      "title": "‘Free up the ganja’: Rastafarians in Kenya fight to legalise marijuana",
+      "translatedTitle": null,
+      "description": "Marijuana plays a sacred role among Rastafari followers and they say a ruling to criminalise it violates their rights About a dozen people sang along to the pulsing vibrations of drums and a tambourine in a dimly lit room in Nairobi’s sprawling Kibera neighbourhood. For more than an hour they belted out song after song, the lyrics suffused with references to Ethiopia, Jah, Zion, Rastafari and Haile Selassie I. One song went: “No night in a Zion, there is no night there / Hallelujah there is no n",
+      "url": "https://www.theguardian.com/world/2026/aug/02/kenya-rastafari-fight-legalise-marijuana-cannabis-religion",
+      "canonicalUrl": "https://theguardian.com/world/2026/aug/02/kenya-rastafari-fight-legalise-marijuana-cannabis-religion",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T08:00:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/39c804520c04e7c2ae0ede8b725a145e9b403063/453_0_5020_4016/master/5020.jpg?width=140&quality=85&auto=format&fit=max&s=b07e0c19740539aba68a45f40b0cc34e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a4162da108d67016f2fa",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80532
+    },
+    {
+      "id": "8296d4dd33c4b14fe8740cdc",
+      "title": "‘The language of Pokémon is universal’: why fans are still catching ‘em all after 30 years",
+      "translatedTitle": null,
+      "description": "As Pokémon Go celebrates its 10th anniversary, its devoted players explain how the game has created a vibrant intergenerational community spanning the globe Most Pokémon obsessives count rare, absurdly expensive playing cards or pristine, fully boxed game cartridges that have survived decades in the attic among their most prized possessions. But for Mairead Ralph, her Pokémon-related crown jewel is a bit different. “Technically, it’s my husband!” she says. The pair first locked eyes amid decks o",
+      "url": "https://www.theguardian.com/games/2026/aug/02/the-language-of-pokemon-is-universal-why-fans-are-still-catching-em-all-after-30-years",
+      "canonicalUrl": "https://theguardian.com/games/2026/aug/02/the-language-of-pokemon-is-universal-why-fans-are-still-catching-em-all-after-30-years",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T07:00:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/127abbad9324f63c69415f8be3f1f85ee8b2e697/0_0_4856_3884/master/4856.jpg?width=140&quality=85&auto=format&fit=max&s=7284328184e804dff80acbb654905bcd",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bdd4603526c2ec453f7c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68827
+    },
+    {
+      "id": "d99e6933978b1bb21865c80c",
+      "title": "The five big beasts are gone: who will be the Premier League’s next alpha manager? | Jonathan Wilson",
+      "translatedTitle": null,
+      "description": "Arsenal’s Mikel Arteta is perhaps best placed to fill the void but the coaching contenders are legion as another season looms This used to be a land of giants. This used to be a land where big men fought. This used to be a land where Sir Alex Ferguson and Arsène Wenger tussled, then José Mourinho joined the fray. This used to be a land where Jürgen Klopp made Pep Guardiola reconsider, and he changed his style and won anyway. Not any more. Next season will be the first since the inaugural Premier",
+      "url": "https://www.theguardian.com/football/2026/aug/02/premier-league-managers-arteta-alonso-de-zerbi-carrick-klopp-guardiola",
+      "canonicalUrl": "https://theguardian.com/football/2026/aug/02/premier-league-managers-arteta-alonso-de-zerbi-carrick-klopp-guardiola",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T07:00:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4e4edf2754e332a379c814ff14cdb76b9e039d43/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=27bda46f1f8c971f125de53fab24d37f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2216c4dad58cb36fbeb3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68827
+    },
+    {
+      "id": "9baaf1531528e6ea7acce495",
+      "title": "Callas, Beethoven, bee-eaters or storks: competition seeks to redesign euro notes",
+      "translatedTitle": null,
+      "description": "The EU is using a currency redesign as an opportunity to be less neutral and try some finely balanced identity-building Is Europe best represented by the bold intellect of Marie Curie, the sprawling imagination of Miguel de Cervantes and the intense musical genius of Ludwig van Beethoven? Or by a migrating stork and a bee-eater, swooping across borderless plains and enjoying freedom of movement across European countries? The quest to settle this issue has engaged a surprising number of people ac",
+      "url": "https://www.theguardian.com/world/2026/aug/02/european-central-bank-notes-new-design",
+      "canonicalUrl": "https://theguardian.com/world/2026/aug/02/european-central-bank-notes-new-design",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T06:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/783bff783bd5f9cc087fe1db66bcd93d2b1e6efe/0_0_3937_3150/master/3937.jpg?width=140&quality=85&auto=format&fit=max&s=b8c50c7e128f3005f67d5eb8735bff39",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a3c4c5c336b78eb5f227",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57756
+    },
+    {
+      "id": "599d2bab777724952fd13669",
+      "title": "Clicky Ponting and ‘known cheats’ on the golf course: the crisis in UK sportsmanship",
+      "translatedTitle": null,
+      "description": "Some blame social media and the behaviour of world leaders for a perceived decline in honesty When a cricket team in North Yorkshire became the centre of a cheating scandal that made headlines around the world, it made many think – is this a very British form of cheating? Cricket in England is regarded as a genteel sport, so allegations of cheating tend to reverberate. A video of Saturday’s game between Saltburn second XI and Norton second XI has been viewed more than 7m times after viewers spot",
+      "url": "https://www.theguardian.com/sport/2026/aug/02/clicky-ponting-golf-course-cheats-uk-sportsmanship-crisis",
+      "canonicalUrl": "https://theguardian.com/sport/2026/aug/02/clicky-ponting-golf-course-cheats-uk-sportsmanship-crisis",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T06:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ef8b46b72564bd4d2de6e2f15f97753f3b336d89/83_0_4478_3583/master/4478.jpg?width=140&quality=85&auto=format&fit=max&s=34f87bbbd455fde3942e2f4aeb5818a6",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "96bdaeb3374f5de3cc61",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57753
+    },
+    {
+      "id": "7c5205232a5c4b2e0d288922",
+      "title": "UK’s state investments agency hit by data breach",
+      "translatedTitle": null,
+      "description": "Security lapse leaves sensitive information and contact details of 51 government officials exposed for 40 hours The public body in charge of the UK’s state investments has been pushed to improve its internal security after a data breach left “high-level management information” publicly accessible for nearly two days. UK Government Investments (UKGI), the agency that manages the taxpayers’ interest in a swathe of companies including Channel 4 and the Post Office, said the security failure also le",
+      "url": "https://www.theguardian.com/business/2026/aug/02/uk-state-investments-agency-data-breach",
+      "canonicalUrl": "https://theguardian.com/business/2026/aug/02/uk-state-investments-agency-data-breach",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T06:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c24b73fd1d29d040bef47aaa6eb42c8cfac65aed/520_0_5200_4160/master/5200.jpg?width=140&quality=85&auto=format&fit=max&s=b93401b133970845b8d97ef78f6d802e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dcd15333215da97bf314",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57753
+    },
+    {
+      "id": "c71fdc753aef2515e62f99de",
+      "title": "‘Poirot’s hotel was the place to stay in Istanbul’: the book that inspired my travels",
+      "translatedTitle": null,
+      "description": "Falling in love with a novel motivated these five travel writers to immerse themselves in locations from the Yukon and Kyrgyzstan to the Côte d’Azur Inspired by Agatha Christie’s Murder on the Orient Express Continue reading...",
+      "url": "https://www.theguardian.com/travel/2026/aug/02/poirot-istanbul-jack-london-yukon-francoise-sagan-france-kyrgyzstan-cornwall-du-maurier",
+      "canonicalUrl": "https://theguardian.com/travel/2026/aug/02/poirot-istanbul-jack-london-yukon-francoise-sagan-france-kyrgyzstan-cornwall-du-maurier",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T06:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3ccf12b29548e07a333ae107bcde5b072826a940/203_0_5363_4291/master/5363.jpg?width=140&quality=85&auto=format&fit=max&s=c0c6324b1a634d8c73d9ff42ccdb8e6f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c39a4421acb42b4b89c0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57753
+    },
+    {
+      "id": "ff6f56bb2c32a704d47c2aef",
+      "title": "TV tonight: Richard E Grant on his obsession with The Odyssey",
+      "translatedTitle": null,
+      "description": "The actor is a charismatic tour guide as he follows in Homer’s footsteps. Plus: Amsterdam cop Van Der Valk is back. Here’s what to watch this evening 8pm, Channel 4 Continue reading...",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/aug/02/tv-tonight-richard-e-grant-on-his-obsession-with-the-odyssey",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/aug/02/tv-tonight-richard-e-grant-on-his-obsession-with-the-odyssey",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T05:15:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/22ae7ac6b585728c65f73469c6bc614830b67654/353_1424_2324_1859/master/2324.jpg?width=140&quality=85&auto=format&fit=max&s=548bd7ea7f7375d9006791f1f65b4a80",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "329f8250b53bd4a5cf18",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.49843
+    },
+    {
+      "id": "dcdeb0da2cdd2c179df6ac30",
+      "title": "Undercover police unit closed down over unjustified surveillance, spycops inquiry told",
+      "translatedTitle": null,
+      "description": "Senior officer behind closure says SDS caused ‘incalculable harm’ by infiltrating groups that posed no threat An undercover police unit that spied on tens of thousands of political activists had to be shut down amid severe criticisms and recriminations, the spycops public inquiry has heard. Jon Boutcher, a senior police officer who took over responsibility for the Special Demonstration Squad (SDS) unit, concluded within months that it had to be wound up because it was conducting unjustified surv",
+      "url": "https://www.theguardian.com/uk-news/2026/aug/02/spycops-inquiry-undercover-police-unit-sds-closed-john-boutcher-unjustified-surveillance",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/aug/02/spycops-inquiry-undercover-police-unit-sds-closed-john-boutcher-unjustified-surveillance",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T05:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a9775fdb47053dfb3aa78009cfbc10191133a907/200_0_2000_1600/master/2000.jpg?width=140&quality=85&auto=format&fit=max&s=73b848394c52718fb2ba84a0c3e3791b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "30c917b1d2cc37ec55b1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47282
+    },
+    {
+      "id": "321c5890abf77fb721b9ae0d",
+      "title": "‘£5,800 on a watch?!’ What happened when five couples kept separate money diaries – then revealed all to their partners?",
+      "translatedTitle": null,
+      "description": "Rachel forked out £700 for beauty treatments, Kojo confessed to a £25 cigarette habit, and Jake indulged his love of fancy timepieces. Were their other halves forgiving or furious? Rachel and Kojo, Northampton Continue reading...",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/aug/02/five-couples-separate-money-diaries-revealed-all-partners",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/aug/02/five-couples-separate-money-diaries-revealed-all-partners",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T05:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c9f8d059ab2041d1321dfd866837a7e5b3a2f5db/0_0_1378_1102/master/1378.jpg?width=140&quality=85&auto=format&fit=max&s=3c2dc10611f79c77d163ea3721ee42b5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "79b2e1367afedc708561",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47279
+    },
+    {
+      "id": "4816f78aa87b3d0fee99571f",
+      "title": "Chez Rose, London W1: ‘One of the dining highlights of 2026’ – restaurant review",
+      "translatedTitle": null,
+      "description": "Chez Rose offers a sort of hospitality that feels centuries old, but when done well, will never be old hat Chez Rose has just appeared on Pollen Street, Mayfair, but to the casual passerby, it looks as if it could have been established in 1974. This is, of course, poudre aux yeux; until recently, this was Jason Atherton’s Little Social. Yet, with some strategically placed tables en terrasse, vintage mirrors, thoughtfully scattered doilies and, later, bread baskets, and what you have is France in",
+      "url": "https://www.theguardian.com/food/2026/aug/02/chez-rose-london-w1-grace-dent-restaurant-review",
+      "canonicalUrl": "https://theguardian.com/food/2026/aug/02/chez-rose-london-w1-grace-dent-restaurant-review",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-02T05:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/97cc6e068b75ffcd185777f7af32e98e81ec706c/0_0_3938_3150/master/3938.jpg?width=140&quality=85&auto=format&fit=max&s=0ed97325612d7d654d0a16bcc1633c1a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-02T08:17:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3edb708b8d028bc4caa8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47279
+    },
+    {
+      "id": "8b6180457dfce6823197832f",
+      "title": "Son of Wicker Man maker dies just weeks before his sequel to film premieres",
       "translatedTitle": null,
       "description": "The British filmmaker died on Friday after suffering a heart attack, his family said in a statement.",
       "url": "https://www.bbc.co.uk/news/articles/cvgwj0wnyydo?at_medium=RSS&at_campaign=rss",
@@ -439,18 +1249,18 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
+      "retrievedAt": "2026-08-02T08:17:24Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f55c0f70a43ba208371d",
+      "clusterId": "c2c127166517b7446f99",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.76698
+      "rankingScore": 5.39696
     },
     {
-      "id": "467bfac3ea6e5736568c0347",
+      "id": "679695ceaa7373c9e8dda986",
       "title": "How Spain's migrant crisis created a political storm - whipped up by social media",
       "translatedTitle": null,
       "description": "The Ceuta crossings have shaken Europe politically, exposing divisions over the sensitive issue of migration, the BBC's Sarah Rainsford writes.",
@@ -469,7 +1279,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
+      "retrievedAt": "2026-08-02T08:17:24Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -477,37 +1287,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.73443
-    },
-    {
-      "id": "9c4e4011b47e4c460773dcc9",
-      "title": "Three killed after bomb detonated at Moscow restaurant, state media say",
-      "translatedTitle": null,
-      "description": "Security officials said a woman tried to enter the restaurant with explosives but was stopped by a security guard.",
-      "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c86n4ljxp63o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-02T00:02:18Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b3a/live/f29cb820-8dda-11f1-9d54-295807679b3c.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "87362ed7e09839e281f1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64712
+      "rankingScore": 5.3709
     },
     {
       "id": "d7c660d4148d4149e75835c4",
@@ -529,7 +1309,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
+      "retrievedAt": "2026-08-02T08:17:24Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -537,7 +1317,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.63752
+      "rankingScore": 5.29329
     },
     {
       "id": "5ff20a07067f5608c68f2896",
@@ -559,7 +1339,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
+      "retrievedAt": "2026-08-02T08:17:24Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -567,11 +1347,11 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.63217
+      "rankingScore": 5.28901
     },
     {
-      "id": "e047d3bae905520c7c45b313",
-      "title": "Does Love Island UK need to pull the US version for a chat?",
+      "id": "1825b0ced3dfd6b76b00d84a",
+      "title": "Love Island has a problem, say fans - 'there hasn't been much love'",
       "translatedTitle": null,
       "description": "Fans, commentators and an ex-Islander reflect on what the dating series could do to draw in more viewers again.",
       "url": "https://www.bbc.co.uk/news/articles/cy8edx4dp5qo?at_medium=RSS&at_campaign=rss",
@@ -585,19 +1365,19 @@
       ],
       "language": "en",
       "publishedAt": "2026-08-01T23:46:48Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d737/live/59736580-8cff-11f1-a7ab-8b30adf0800a.jpg",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35f5/live/c0889ef0-8e46-11f1-b8ee-9b3c26ad07bb.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
+      "retrievedAt": "2026-08-02T08:17:24Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "eed4e8acacdb30b36847",
+      "clusterId": "c25c79ccfc6de6a6be46",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.62236
+      "rankingScore": 5.28116
     },
     {
       "id": "1371e5c4028ad467a87227aa",
@@ -619,7 +1399,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
+      "retrievedAt": "2026-08-02T08:17:24Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -627,11 +1407,11 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.61206
+      "rankingScore": 5.27291
     },
     {
-      "id": "f0562b996f42aeb6c62fc327",
-      "title": "I had a vasectomy in my 20s after the trauma of my sons' births",
+      "id": "29bc81c530c1f742fbad0970",
+      "title": "Why I don't regret choosing a vasectomy in my 20s",
       "translatedTitle": null,
       "description": "As the number of young men having vasectomies rises, BBC News spoke to two about why they chose to have the snip.",
       "url": "https://www.bbc.co.uk/news/articles/c04kdk9v590o?at_medium=RSS&at_campaign=rss",
@@ -649,165 +1429,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
+      "retrievedAt": "2026-08-02T08:17:24Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "8966d281b0bd3e6e2d30",
+      "clusterId": "02274fabffe9eecab32a",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.60449
-    },
-    {
-      "id": "d64d6db465f258dc16dcb670",
-      "title": "Young guns for hire - the teenage hitmen recruited to kill across Europe",
-      "translatedTitle": null,
-      "description": "The Foxtrot Network is thought to be responsible for about 35 murders in Europe, and uses violence-as-a-service tactics.",
-      "url": "https://www.bbc.co.uk/news/articles/czrjyevmv61o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/czrjyevmv61o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T23:03:35Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe10/live/f5b8a870-8c09-11f1-8665-e382dc49dfdb.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "afe88c76d4b99fda546f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.55519
-    },
-    {
-      "id": "4f75163aaa190174b1a5b769",
-      "title": "Shooting at In-N-Out Burger restaurant in Idaho leaves multiple people dead, police say",
-      "translatedTitle": null,
-      "description": "Police chief says the shooter is among the dead in ‘very chaotic scene’ near busy shopping area in Twin Falls A shooting at an In-N-Out Burger restaurant in southern Idaho on Saturday afternoon left multiple people dead and others injured, police said. The shooter was among the dead, Twin Falls police chief Matthew Hicks said in a news conference. Police were still trying to determine the shooter’s identity and motive. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/aug/02/shooting-at-in-n-out-burger-restaurant-in-idaho-leaves-multiple-people-dead-police-say",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/aug/02/shooting-at-in-n-out-burger-restaurant-in-idaho-leaves-multiple-people-dead-police-say",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-02T01:03:46Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9ce514be75ec9e85c7aa22ed79c2cbcd64011d59/0_500_3230_2583/master/3230.jpg?width=140&quality=85&auto=format&fit=max&s=11aab8562fcc83bfb18149a5554f741c",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "80d079b2a9448e8febef",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47885
-    },
-    {
-      "id": "1541beb9a103d55374a70434",
-      "title": "Moscow restaurant bombing kills three people as device carried by woman explodes",
-      "translatedTitle": null,
-      "description": "More than 20 people injured in explosion near Italian restaurant on Saturday night, authorities say A homemade bomb carried by a woman killed three people and injured at least 21 in ⁠an explosion near a restaurant in central Moscow on Saturday evening, authorities said. The explosion occurred just before 8pm close to an Italian restaurant located in one of Moscow’s seven Stalin-era skyscrapers at Kudrinskaya ​Square, the police said. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/aug/02/moscow-restaurant-bombing-kills-three-people-as-device-carried-by-woman-explodes",
-      "canonicalUrl": "https://theguardian.com/world/2026/aug/02/moscow-restaurant-bombing-kills-three-people-as-device-carried-by-woman-explodes",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-02T00:22:48Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/220ac724f33d1d565d98abcebac259d79c6fb324/0_0_6691_5353/master/6691.jpg?width=140&quality=85&auto=format&fit=max&s=0ad3573a7e4116010f0e6f062d7c4bae",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "34720e192b06472f359c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.4104
-    },
-    {
-      "id": "f25329797f72e56a090d5fe3",
-      "title": "Multiple people dead after shooting at fast food restaurant in southern Idaho",
-      "translatedTitle": null,
-      "description": "Authorities in southern Idaho say a shooting near a shopping center has left multiple people injured",
-      "url": "https://www.independent.co.uk/news/police-jack-johnson-boise-nevada-b3025920.html",
-      "canonicalUrl": "https://independent.co.uk/news/police-jack-johnson-boise-nevada-b3025920.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-02T00:06:56Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/02/01/Idaho_Shooting_1_547.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f7789a11b8e1783b336c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.29458
-    },
-    {
-      "id": "1acb2d65d9641c8cac65ca21",
-      "title": "Devolution plans strengthen case for written UK constitution, says Burnham",
-      "translatedTitle": null,
-      "description": "PM argues for codified model of decentralisation that would fundamentally change centuries-old workings of state Andy Burnham has said his programme of devolution strengthens the case for a written constitution for the UK, a move that would fundamentally alter the workings of the state that have developed over centuries. The prime minister has long believed the UK’s “antiquated” political system needs a dramatic overhaul if opportunity is to be shared equally across the country. Continue reading",
-      "url": "https://www.theguardian.com/politics/2026/aug/02/devolution-programme-written-uk-constitution-andy-burnham",
-      "canonicalUrl": "https://theguardian.com/politics/2026/aug/02/devolution-programme-written-uk-constitution-andy-burnham",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-01T23:01:04Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/64de17ad4df7ab69524bbc80e0ed543b68c4d331/216_82_2784_2227/master/2784.jpg?width=140&quality=85&auto=format&fit=max&s=35edba0297e9225fbd23d34b7d0b66b3",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-02T04:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4fd74f35652744291646",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.28137,
-      "related": []
+      "rankingScore": 5.26684
     }
   ]
 }
