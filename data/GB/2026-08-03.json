@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-08-03",
-  "generatedAt": "2026-08-03T04:17:31Z",
-  "lastAttemptAt": "2026-08-03T04:17:31Z",
-  "lastSuccessfulUpdate": "2026-08-03T04:17:31Z",
-  "status": "current",
+  "generatedAt": "2026-08-03T08:18:21Z",
+  "lastAttemptAt": "2026-08-03T08:18:21Z",
+  "lastSuccessfulUpdate": "2026-08-03T08:18:21Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 44,
-  "publisherCount": 3,
+  "articleCount": 45,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-08-03T04:17:30Z",
-      "lastSuccessAt": "2026-08-03T04:17:31Z",
-      "articlesRetrieved": 32,
-      "responseTimeMs": 377,
+      "lastAttemptAt": "2026-08-03T08:18:20Z",
+      "lastSuccessAt": "2026-08-03T08:18:21Z",
+      "articlesRetrieved": 33,
+      "responseTimeMs": 355,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-08-03T04:17:30Z",
-      "lastSuccessAt": "2026-08-03T04:17:31Z",
+      "lastAttemptAt": "2026-08-03T08:18:20Z",
+      "lastSuccessAt": "2026-08-03T08:18:21Z",
       "articlesRetrieved": 136,
-      "responseTimeMs": 537,
+      "responseTimeMs": 437,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-08-03T04:17:30Z",
-      "lastSuccessAt": "2026-08-03T04:17:31Z",
-      "articlesRetrieved": 8,
-      "responseTimeMs": 443,
+      "lastAttemptAt": "2026-08-03T08:18:20Z",
+      "lastSuccessAt": "2026-08-03T08:18:21Z",
+      "articlesRetrieved": 9,
+      "responseTimeMs": 829,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-08-03T04:17:30Z",
-      "lastSuccessAt": "2026-08-03T04:17:31Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 272,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-08-03T08:18:20Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -73,16 +73,16 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-03T00:11:18Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13fa/live/ad119c30-8ec5-11f1-942d-9772a4b2ac54.jpg",
+      "publishedAt": "2026-08-03T08:03:15Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84f8/live/c0137640-8f07-11f1-b2ab-0dd01740f9f6.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6d1927e987bde3dac747",
+      "clusterId": "fee355ff28fa99ce7c6d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
@@ -110,14 +110,105 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "6d1927e987bde3dac747",
+          "clusterId": "fee355ff28fa99ce7c6d",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "iran us war live trump says peace talks to resume monday after canceling world war ii level strikes"
+        },
+        {
+          "id": "1995108097ad3d6e7c0645bd",
+          "title": "Trump says Iran talks set for Monday as Tehran and Oman discuss strait of Hormuz deal",
+          "translatedTitle": null,
+          "description": "The US president did not provide details of where Monday meeting would take place or who would be involved Donald Trump said talks with Iran will happen on Monday but declined to set a deadline for an agreement after earlier saying he had called ⁠off an imminent attack in the hope ⁠of quickly reaching a deal to ​reopen the strait of Hormuz and resolve the impasse over Tehran’s nuclear capabilities. For its part, Iran said it was nearing a deal with Oman over a new route through the strait of Hor",
+          "url": "https://www.theguardian.com/world/2026/aug/03/trump-us-iran-talks-strait-of-hormuz-nuclear-programme",
+          "canonicalUrl": "https://theguardian.com/world/2026/aug/03/trump-us-iran-talks-strait-of-hormuz-nuclear-programme",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-08-03T01:31:53Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/1e9db8fe78ef9eaa1213258beaf74019933721ed/9_364_4932_3945/master/4932.jpg?width=140&quality=85&auto=format&fit=max&s=54af8a41e8ed1343e39e117c6c992720",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-03T08:18:21Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "fee355ff28fa99ce7c6d",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "trump says iran talks set for monday as tehran and oman discuss strait of hormuz deal",
+          "rankingScore": 8.22716
         }
       ],
-      "rankingScore": 8.76147
+      "rankingScore": 10.57939
+    },
+    {
+      "id": "9ba0c4a2254296ecaad205bd",
+      "title": "Hide the Pain Harold and Rubik’s Cube creator among social media’s picks for Hungarian president",
+      "translatedTitle": null,
+      "description": "Newly elected Tisza party asked public to put forward names, which have ranged from the sensible to the bizarre Eszter Jámbor, a 46-year-old content creator who focuses on sex education, had a different kind of question for her Instagram followers last week: who did they think should be Hungary’s next president? The suggestions ranged from reality TV stars to bodybuilders and the Victoria’s Secret model Barbara Palvin. But another anonymous online poll asking Hungarians the same question reveale",
+      "url": "https://www.theguardian.com/world/2026/aug/03/hungary-president-poll-hide-the-pain-harold",
+      "canonicalUrl": "https://theguardian.com/world/2026/aug/03/hungary-president-poll-hide-the-pain-harold",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T06:10:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e1bc4a6cdb3336c25e7b77e5ece1b3baffabbe18/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=52b7b198c87ff44d63a948b9fad7e3c8",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "660898bb8156510af260",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.29394
+    },
+    {
+      "id": "2b3a4b6a0dc3c97d312efaff",
+      "title": "Trump’s hypocritical new tariffs are a chance for the world to fight back | Joseph Stiglitz",
+      "translatedTitle": null,
+      "description": "The president’s pretext of stopping forced labour is only a ruse – he is trying to grab a share of global trade for the US Here he goes again. The US President, Donald Trump, is increasing and decreasing tariffs willy-nilly, violating international agreements that he himself signed and almost surely violating federal law. The only difference this time is that he has a new pretext for abusing tariffs: stopping forced labour. Of course, the administration is right that too little is being done abo",
+      "url": "https://www.theguardian.com/business/2026/aug/03/donald-trump-tariffs-us-eu-forced-labour",
+      "canonicalUrl": "https://theguardian.com/business/2026/aug/03/donald-trump-tariffs-us-eu-forced-labour",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T06:00:42Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/813340f2281db113e9714247132c4a9dc9a4e6c3/241_0_1907_1527/master/1907.jpg?width=140&quality=85&auto=format&fit=max&s=0a94872e731fceb317c2c7fd6929e277",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "479efcce6a32861407eb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.27668
     },
     {
       "id": "0c92f4e74bddabba16f03285",
@@ -146,44 +237,14 @@
       "clusterId": "e0ee769c4d600e696677",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.2411,
+      "rankingScore": 7.91306,
       "related": []
-    },
-    {
-      "id": "1995108097ad3d6e7c0645bd",
-      "title": "Trump says Iran talks set for Monday as Tehran and Oman discuss strait of Hormuz deal",
-      "translatedTitle": null,
-      "description": "The US president did not provide details of where Monday meeting would take place or who would be involved Donald Trump said talks with Iran will happen on Monday but declined to set a deadline for an agreement after earlier saying he had called ⁠off an imminent attack in the hope ⁠of quickly reaching a deal to ​reopen the strait of Hormuz and resolve the impasse over Tehran’s nuclear capabilities. For its part, Iran said it was nearing a deal with Oman over a new route through the strait of Hor",
-      "url": "https://www.theguardian.com/world/2026/aug/03/trump-us-iran-talks-strait-of-hormuz-nuclear-programme",
-      "canonicalUrl": "https://theguardian.com/world/2026/aug/03/trump-us-iran-talks-strait-of-hormuz-nuclear-programme",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-03T01:31:53Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1e9db8fe78ef9eaa1213258beaf74019933721ed/9_364_4932_3945/master/4932.jpg?width=140&quality=85&auto=format&fit=max&s=54af8a41e8ed1343e39e117c6c992720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e2a5096db91d82127d50",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.22716
     },
     {
       "id": "6d8540cbfe5c33fefd24a019",
       "title": "Ukraine war briefing: Kyiv’s forces hit Wildberries again amid deadly trade of strikes with Russia",
       "translatedTitle": null,
-      "description": "Drone attack on warehouse of Russian retailer triggers fire as at least 14 killed in cross-border exchanges; EU force boards Russian ‘shadow fleet’ tanker. What we know on day 1,622 Ukrainian drone strikes killed at least nine people in Russia on Sunday, with targets again including retail giant Wildberries, while Russian attacks on Ukraine killed at least five, according to officials in both countries. Drones attacked a Wildberries warehouse in the Samara region, about 800km (500 ​miles) from U",
+      "description": "Attacks on Russian retailer’s facilities in two regions trigger fires as at least 14 killed in cross-border exchanges; EU force boards Russian ‘shadow fleet’ tanker. What we know on day 1,622 Ukrainian drone strikes killed at least nine people in Russia on Sunday, with targets again including retail giant Wildberries, while Russian attacks on Ukraine killed at least five, according to officials in both countries. Drones attacked a Wildberries warehouse in the Samara region, about 800km (500 ​mil",
       "url": "https://www.theguardian.com/world/2026/aug/03/ukraine-war-briefing-kyiv-hit-wildberries-again",
       "canonicalUrl": "https://theguardian.com/world/2026/aug/03/ukraine-war-briefing-kyiv-hit-wildberries-again",
       "sourceName": "The Guardian",
@@ -199,13 +260,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "1482f76e57366a29f45a",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.85855,
       "related": [
         {
           "id": "8f1aac494ac22ea18224dc54",
@@ -238,8 +300,7 @@
           "normalizedTitle": "ukraine russia war latest kyiv hits wildberries again as zelensky launches hundreds of drones in mass attack",
           "rankingScore": 6.98823
         }
-      ],
-      "rankingScore": 8.22543
+      ]
     },
     {
       "id": "c165f006adee70fd57c92405",
@@ -268,8 +329,250 @@
       "clusterId": "524f74f65ead4f8927d1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.8911,
+      "rankingScore": 7.56306,
       "related": []
+    },
+    {
+      "id": "59c52eeb965ef914b814496d",
+      "title": "Semenyo hails Maresca style of play as 'music to my ears'",
+      "translatedTitle": null,
+      "description": "Manchester City forward Antoine Semenyo hails new manager Enzo Maresca's style of play as \"music to my ears\" after showcasing early signs of his role under the Italian.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cglj1zz5g92o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cglj1zz5g92o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T06:00:26Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66b1/live/4bfa7ae0-8e5f-11f1-8e9e-b531e03c09f9.jpg",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e310e55e50779e1ff5d2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.5462
+    },
+    {
+      "id": "0b3911c6f6c79c1d0b2acd97",
+      "title": "Ariana Grande to take a break from public life citing 'endless, ongoing scrutiny'",
+      "translatedTitle": null,
+      "description": "The US singer, 33, will \"step back from visibility\" at the end of her world tour next month, her representative says.",
+      "url": "https://www.bbc.co.uk/news/articles/c80ngjjvevyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c80ngjjvevyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T07:31:21Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7080/live/0395c5a0-8ee8-11f1-b2ab-0dd01740f9f6.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e0bd644a51306427485e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.41625,
+      "related": [
+        {
+          "id": "83f1913087cdbeb5c77e1c72",
+          "title": "Ariana Grande to take a 'step back' amid 'endless' public scrutiny",
+          "translatedTitle": null,
+          "description": "Ariana Grande has announced she will step back from public-facing engagements, citing concerns about \"endless, ongoing public scrutiny\".",
+          "url": "https://news.sky.com/story/ariana-grande-takes-a-step-back-from-visibility-in-the-face-of-endless-public-scrutiny-13569290",
+          "canonicalUrl": "https://news.sky.com/story/ariana-grande-takes-a-step-back-from-visibility-in-the-face-of-endless-public-scrutiny-13569290",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-08-03T02:42:00Z",
+          "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-ariana-grande_7312514.jpg?20260803044901",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-03T08:18:21Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e0bd644a51306427485e",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "ariana grande to take a step back amid endless public scrutiny"
+        }
+      ]
+    },
+    {
+      "id": "4e61a3e3f8bcaa5ca2688c46",
+      "title": "Wales first nation to withdraw support for Infantino",
+      "translatedTitle": null,
+      "description": "Wales become the first nation to publicly withdraw backing for Gianni Infantino's bid to continue his leadership of Fifa.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg9z094v8go?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/ckg9z094v8go?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T06:54:07Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cfe6/live/9de50870-8f04-11f1-8f9d-578946cd8ec9.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3fdd2c4b69e954fa6af9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "24d49b60818f9e5944849bb0",
+          "title": "Wales become first nation to drop support for Fifa president Gianni Infantino",
+          "translatedTitle": null,
+          "description": "FAW says under-fire president has lost its confidence ‘This is a failure we cannot accept’ The Football Association of Wales has withdrawn its support for the Fifa president Gianni Infantino’s re-election bid over his bungled effort to sell off stakes in the World Cup to private investors. Infantino announced last week he was shelving the widely denounced plan that was rejected by three confederations but his decade-long reign at the head of Fifa remains under intense scrutiny. Continue reading.",
+          "url": "https://www.theguardian.com/football/2026/aug/03/wales-become-first-nation-to-drop-support-for-fifa-president-gianni-infantino",
+          "canonicalUrl": "https://theguardian.com/football/2026/aug/03/wales-become-first-nation-to-drop-support-for-fifa-president-gianni-infantino",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-08-03T07:35:05Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/ec012c56405d2892fd92da8f812621d17c15b181/789_0_5340_4272/master/5340.jpg?width=140&quality=85&auto=format&fit=max&s=bb33c05b80aea89ba3412eca4c82b8f3",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-03T08:18:21Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "3fdd2c4b69e954fa6af9",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "wales become first nation to drop support for fifa president gianni infantino"
+        }
+      ],
+      "rankingScore": 7.34487
+    },
+    {
+      "id": "f607712a35f2bc5af5249132",
+      "title": "Memory review – a cinematic exorcism through a child’s eye view of terror in the Chechen wars",
+      "translatedTitle": null,
+      "description": "Vladlena Sandu’s extraordinary portrait of an upbringing during the 1990s Chechen wars blends surreal tableaux with flights of imagination to lament a collective loss of innocence Born in Feodosia, a Ukrainian city on the Crimean coast, Vladlena Sandu moved to her mother’s home town of Grozny in Chechnya when she was only six. Blue skies and cerulean waters dominated her childhood, but as the Chechen–Russian conflicts erupted into full-blown wars during the 1990s, she experienced terror, bloodsh",
+      "url": "https://www.theguardian.com/film/2026/aug/03/memory-review-a-childs-eye-view-of-terror-in-chechnya-vladlena-sandu",
+      "canonicalUrl": "https://theguardian.com/film/2026/aug/03/memory-review-a-childs-eye-view-of-terror-in-chechnya-vladlena-sandu",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T08:00:45Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c9a2936585085ef44b1aeb53291a17c11e3980d4/297_45_1256_1004/master/1256.jpg?width=140&quality=85&auto=format&fit=max&s=868de3f5818c8235fc24353a71ce2079",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4db4c8f711d9c61f5629",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15437
+    },
+    {
+      "id": "c30d51b413b240c55d01053a",
+      "title": "The Papers: Police warn on early release and 'le rip-off'",
+      "translatedTitle": null,
+      "description": "A range of stories feature on Monday's front pages, with Andy Burnham's vow to cut the number of people arriving in the UK on small boats a focus for some.",
+      "url": "https://www.bbc.co.uk/news/articles/c5ywj4z65xwo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c5ywj4z65xwo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T05:26:44Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bd0/live/e6f595d0-8ec2-11f1-b2ab-0dd01740f9f6.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f13f9f2378d97c25e9ca",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.13672
+    },
+    {
+      "id": "19e0eb3210875da98784c147",
+      "title": "Almost £200,000 of fuel stolen from UK forecourts every day since start of Iran war",
+      "translatedTitle": null,
+      "description": "Drivers have stolen an average of almost £200,000 worth of fuel from UK forecourts every day since the start of the Iran oil crisis, analysis shows.",
+      "url": "https://news.sky.com/story/almost-200000-of-fuel-stolen-from-uk-forecourts-every-day-since-start-of-iran-war-13569296",
+      "canonicalUrl": "https://news.sky.com/story/almost-200000-of-fuel-stolen-from-uk-forecourts-every-day-since-start-of-iran-war-13569296",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T04:54:00Z",
+      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-petrol-pump-station_7312553.jpg?20260803072726",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "859ecf480bee5013c366",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.08069
     },
     {
       "id": "3b5d7443c3b50bf164584e4c",
@@ -287,11 +590,11 @@
       ],
       "language": "en",
       "publishedAt": "2026-08-03T04:10:16Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0d2/live/86e16b80-8ede-11f1-893f-93ecdb580a16.jpg",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcb2/live/d2005950-8f06-11f1-b8ee-9b3c26ad07bb.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -319,7 +622,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-03T04:17:31Z",
+          "retrievedAt": "2026-08-03T08:18:21Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -330,7 +633,37 @@
           "normalizedTitle": "spider man brand new day makes debut to 927m box office to land second biggest opening weekend in history"
         }
       ],
-      "rankingScore": 7.49523
+      "rankingScore": 7.05843
+    },
+    {
+      "id": "ec19976dc5b796bc658df95f",
+      "title": "The right hates The Odyssey because of its ‘wokeness’ – but it missed an even bigger threat to its worldview | Peter Swallow",
+      "translatedTitle": null,
+      "description": "The new film extols the value of a rules-based world order. That’s far more radical than any casting decision Peter Swallow is Labour MP for Bracknell, and the chair of the all-party parliamentary group on classics. Before his election, he was a classics teacher and academic For years, a small but vocal corner of the extremely online right has looked to the ancient world to justify its polluted brand of politics. The classicist Donna Zuckerberg (sister of Facebook founder Mark) wrote a book abou",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/03/the-odyssey-the-right-woke-xenia-threat",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/03/the-odyssey-the-right-woke-xenia-threat",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T07:00:43Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/28cad69f88f86d498ea30495d0bb7d459a8965be/513_0_2561_2049/master/2561.jpg?width=140&quality=85&auto=format&fit=max&s=7efd38e8a3f0f6bf51772038280c7930",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "878364b7c1e3612a5010",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03735
     },
     {
       "id": "884f5f288a67079fdc027887",
@@ -359,12 +692,12 @@
       "clusterId": "a9f8e6c12a850f04f1d1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.44426
+      "rankingScore": 7.00565,
+      "related": []
     },
     {
-      "id": "98df8e78a57c171c17e0f34e",
-      "title": "Outside the Moscow restaurant where bomb killed three",
+      "id": "31f67812ae6fb6107d709f69",
+      "title": "Steve Rosenberg at the Moscow restaurant where bomb killed three",
       "translatedTitle": null,
       "description": "The BBC's Russia editor reports from Kudrinskaya Square, where the blast took place.",
       "url": "https://www.bbc.co.uk/news/articles/cdx8qp451lko?at_medium=RSS&at_campaign=rss",
@@ -382,84 +715,23 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "afe50ae7c918c0212786",
+      "clusterId": "c755968e294312d0ed07",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.41074
+      "rankingScore": 6.98084
     },
     {
-      "id": "ca4324e1cafc1d2efd9ea988",
-      "title": "Massive Attack respond after Singapore ban over Palestine display",
+      "id": "17ca5d7a387d5d869ee8db30",
+      "title": "Atlas of Disappearance review – forensic quest for thousands of forgotten victims of the Spanish civil war",
       "translatedTitle": null,
-      "description": "The UK band says they are \"surprised and disappointed\" by their treatment over shouting \"free Palestine\" at a concert there.",
-      "url": "https://www.bbc.co.uk/news/articles/cr59qe86yj4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cr59qe86yj4o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-03T01:31:05Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c11/live/7f672550-8e9a-11f1-8ceb-4b76ef213a3d.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "eed3426ed147183278fb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "66c3352844aafc2eb345fa73",
-          "title": "Massive Attack speak about ‘surreal experience’ of being banned from Singapore over Palestinian flag",
-          "translatedTitle": null,
-          "description": "British band say they are ‘proud to have made this impromptu expression with our fans in Singapore’, where open display of all foreign flags is banned Massive Attack have called being banned from Singapore a “surreal experience” after displaying a Palestinian flag during their show. On Wednesday, the English trip-hop collective – whose current lineup includes Robert “3D” Del Naja and Grant “Daddy G” Marshall – played a show at the Star theatre. Continue reading...",
-          "url": "https://www.theguardian.com/music/2026/aug/03/massive-attack-singapore-ban-palestine-flag",
-          "canonicalUrl": "https://theguardian.com/music/2026/aug/03/massive-attack-singapore-ban-palestine-flag",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-08-03T02:19:26Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/132cffa8f83bc6661286491e77773254ea7fe2d7/561_0_5010_4008/master/5010.jpg?width=140&quality=85&auto=format&fit=max&s=5062eab73aec2bd9ecc38f7dc6bbd428",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-03T04:17:31Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "eed3426ed147183278fb",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "massive attack speak about surreal experience of being banned from singapore over palestinian flag"
-        }
-      ],
-      "rankingScore": 7.19576
-    },
-    {
-      "id": "05ee8ea11fcfdf82a5d8757b",
-      "title": "Is Ireland’s unprotected ocean the weak link in European defence?",
-      "translatedTitle": null,
-      "description": "Russian presence in Irish waters underscores the fact that, rather than being out of sight and out of mind, the country is on the frontline For a long time, Ireland paid little attention to its surrounding seas, a vast maritime area, 10 times the size of the land. Alarm bells began ringing only when a Russian spy ship, the Yantar, began visiting Irish waters. The vessel, ostensibly a research ship, is believed to be capable of attaching spy equipment to undersea cables and has advertised its pre",
-      "url": "https://www.theguardian.com/world/2026/aug/03/is-irelands-unprotected-ocean-the-weak-link-in-european-defence",
-      "canonicalUrl": "https://theguardian.com/world/2026/aug/03/is-irelands-unprotected-ocean-the-weak-link-in-european-defence",
+      "description": "Researchers employ technology in a bid to identify and retrieve remains in Spain’s Valley of the Fallen, in Manuel Correa’s emotional documentary Perched on the Sierra de Guadarrama mountain range overlooking Madrid is the Valle de los Caídos, a colossal memorial site constructed under the Franco regime. Supposedly a symbol of atonement and reconciliation, it has been criticised as an emblem of fascist glorification; it was where Franco was buried until his exhumation in 2019. There are, however",
+      "url": "https://www.theguardian.com/film/2026/aug/03/atlas-of-disappearance-review-forensic-quest-for-families-robbed-of-graves-by-franco",
+      "canonicalUrl": "https://theguardian.com/film/2026/aug/03/atlas-of-disappearance-review-forensic-quest-for-families-robbed-of-graves-by-franco",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -468,239 +740,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-03T04:00:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/047070666626e901ad3d864b36c6b361748b78bd/1041_8_1702_1361/master/1702.jpg?width=140&quality=85&auto=format&fit=max&s=3b0e87ff7476e72b1cf205115cc936d5",
+      "publishedAt": "2026-08-03T06:00:43Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3c4dd656b150e2faf02443306f570ddc2e89c02d/0_185_2469_1975/master/2469.jpg?width=140&quality=85&auto=format&fit=max&s=74b757c0dc9854b233984afa86ba93ca",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "46af237085cfa41a0e53",
+      "clusterId": "fcf137ab2613b91445c5",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.15593
+      "rankingScore": 6.92671
     },
     {
-      "id": "51b1059554ccc87b44cd0b94",
-      "title": "At least five Al Fayed survivors confirmed as modern slavery victims",
+      "id": "68453e5d534938d8d85c7481",
+      "title": "The August Coup by Robert Service review – the drink-soaked collapse of the Soviet Union",
       "translatedTitle": null,
-      "description": "The rulings include women trafficked internationally and within the UK, and one case found to have taken place entirely within Harrods.",
-      "url": "https://www.bbc.co.uk/news/articles/c151k0k4eqgo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c151k0k4eqgo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-03T01:02:10Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5555/live/918eec80-8eaf-11f1-9745-d1e5ae126085.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3209d2dae124bb6d0547",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.14594,
-      "related": [
-        {
-          "id": "ac1eb87ff2fe5abcee04e5b6",
-          "title": "At least five Mohamed Al Fayed abuse survivors confirmed as human-trafficking victims",
-          "translatedTitle": null,
-          "description": "Decision comes after group of survivors claimed ex-Harrods owner’s associates must have helped facilitate his crimes At least five victims of the former Harrods owner Mohamed Al Fayed have been confirmed by the Home Office as victims of human trafficking. A group of survivors of abuse by the deceased businessman had called for the Metropolitan police to make trafficking the main focus of its investigation, arguing that Fayed could not have committed his offences without a steady stream of women",
-          "url": "https://www.theguardian.com/world/2026/aug/03/mohamed-al-fayed-abuse-survivors-confirmed-human-trafficking-victims",
-          "canonicalUrl": "https://theguardian.com/world/2026/aug/03/mohamed-al-fayed-abuse-survivors-confirmed-human-trafficking-victims",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-08-02T23:01:33Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/100f98b7449fec29e8191df2b206f16772219677/0_0_2775_2220/master/2775.jpg?width=140&quality=85&auto=format&fit=max&s=63ce8549347b33878d05d92dcbc11eff",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-03T04:17:31Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "3209d2dae124bb6d0547",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "at least five mohamed al fayed abuse survivors confirmed as human trafficking victims"
-        }
-      ]
-    },
-    {
-      "id": "704646cb7a7bfa0b50de0391",
-      "title": "Almost £200,000 of fuel stolen from UK forecourts every day since Iran war began",
-      "translatedTitle": null,
-      "description": "Incidents of fuel being taken without payment have risen by a fifth in five months, according to industry analysis.",
-      "url": "https://www.bbc.co.uk/news/articles/cy8mrrlkjppo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cy8mrrlkjppo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-03T01:04:23Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/42db/live/1194f890-8e8b-11f1-b8ee-9b3c26ad07bb.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f520768840d205abc0d4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.09971
-    },
-    {
-      "id": "890be9c50a3c71aa1b7235b3",
-      "title": "Starting uni? What to know about the free NHS meningitis B jab in England",
-      "translatedTitle": null,
-      "description": "It follows the UK's largest and fastest growing meningitis B outbreak to date in Kent earlier this year.",
-      "url": "https://www.bbc.co.uk/news/articles/cvgmyggpg42o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cvgmyggpg42o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-03T01:00:09Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c68/live/efd847f0-7c76-11f1-917a-91e958a7e786.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5b764f8a1ad58423b6b0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.09251
-    },
-    {
-      "id": "c30d51b413b240c55d01053a",
-      "title": "The Papers: Police warn on early release and 'le rip-off'",
-      "translatedTitle": null,
-      "description": "A range of stories feature on Monday's front pages, with Andy Burnham's vow to cut the number of people arriving in the UK on small boats a focus for some.",
-      "url": "https://www.bbc.co.uk/news/articles/c5ywj4z65xwo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c5ywj4z65xwo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-03T00:47:23Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2bd0/live/e6f595d0-8ec2-11f1-b2ab-0dd01740f9f6.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f13f9f2378d97c25e9ca",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.07098
-    },
-    {
-      "id": "782ad7f7bd19e9f29f761b7c",
-      "title": "US dollar weakens sharply against the Japanese yen after market interventions",
-      "translatedTitle": null,
-      "description": "The U.S. dollar has weakened sharply against the Japanese yen after U.S. President Donald Trump and Japan's finance minister confirmed both sides had intervened in markets",
-      "url": "https://www.independent.co.uk/news/washington-donald-trump-japanese-tokyo-b3026160.html",
-      "canonicalUrl": "https://independent.co.uk/news/washington-donald-trump-japanese-tokyo-b3026160.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-03T02:16:52Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/03/03/Japan_Financial_Markets_54884.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7ef7e036a61176f9ec7c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.86742
-    },
-    {
-      "id": "5ec8dbe883a8e4955617a886",
-      "title": "Trump says canceled Iran attack would have been biggest ‘since World War II’",
-      "translatedTitle": null,
-      "description": "‘We were all set to go, but when the allies ask to call it off, you gotta sort of say ‘well let’s see,’ Trump said",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-canceled-iran-attack-war-b3026149.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-canceled-iran-attack-war-b3026149.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-03T01:26:37Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/02/23/39/GettyImages-2288066294.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9d438e5effec3dc1c03e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.77798
-    },
-    {
-      "id": "98cc6ba2c99cb41546ca1651",
-      "title": "Healey’s profiteering warning on food and fuel risks row with retailers",
-      "translatedTitle": null,
-      "description": "Chancellor says the government wants to prevent shoppers being ‘taken for a ride’ at the pump or till The chancellor, John Healey, has said the government is standing by to prevent the public from “being taken for a ride at the pump or the till” as the Iran war continues to hit prices. While he said there had been “no significant evidence of so-called price gouging” during the crisis, he used a weekend column to tell the big retailers that ministers were “watching closely” for any signs of profi",
-      "url": "https://www.theguardian.com/business/2026/aug/02/john-healey-profiteering-warning-retailers-backlash",
-      "canonicalUrl": "https://theguardian.com/business/2026/aug/02/john-healey-profiteering-warning-retailers-backlash",
+      "description": "This brilliant account of attempts by the old guard to take back control captures the ludicrousness of it all beautifully Marxist-Leninist rule in Russia lasted 74 years, and in August 1991 it effectively collapsed in just three days: clear evidence of how hollowed out it had become. In the period that followed, Russia tried parliamentary democracy and unalloyed capitalism, then sank back into autocracy. Now it’s struggling under a wholly unnecessary war against its neighbour and former possessi",
+      "url": "https://www.theguardian.com/books/2026/aug/03/the-august-coup-by-robert-service-review-the-drink-soaked-collapse-of-the-soviet-union",
+      "canonicalUrl": "https://theguardian.com/books/2026/aug/03/the-august-coup-by-robert-service-review-the-drink-soaked-collapse-of-the-soviet-union",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -709,110 +770,140 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-02T23:01:18Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e6a3cd2698b4e119649a9eb464bab631b757fd43/964_277_3941_3154/master/3941.jpg?width=140&quality=85&auto=format&fit=max&s=7a03aeb8573d75a479110e4a8bbee185",
+      "publishedAt": "2026-08-03T06:00:43Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c60a53fd33b60b594494c7d995208c8ef96f61c1/424_0_4629_3704/master/4629.jpg?width=140&quality=85&auto=format&fit=max&s=d65f3f41b3679de4f3a7f5c982b6966f",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d0deaad2bafed55a0d1e",
+      "clusterId": "c20f2ad3e9260c31029e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.63155,
-      "related": []
+      "related": [],
+      "rankingScore": 6.92671
     },
     {
-      "id": "0ee5dc172548875353edb18d",
-      "title": "'My only son was shot standing up for justice' - inside city gripped by deadly protests in Pakistan-administered Kashmir",
+      "id": "58ae73be8a2ec3f3e9530c4d",
+      "title": "Hungary to shut down sole nuclear power plant as Danube falls to record low",
       "translatedTitle": null,
-      "description": "The BBC gains unique access to Rawalakot, scene of violent clashes between security forces and protesters in Pakistan-administered Kashmir.",
-      "url": "https://www.bbc.co.uk/news/articles/c5yvqk69enko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c5yvqk69enko?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Hungary's prime minister has warned the country is facing the \"most critical five days ahead\" with its sole nuclear power plant expected to be shut down this week due to record-low water levels of the River Danube.",
+      "url": "https://news.sky.com/story/hungary-to-shut-down-sole-nuclear-power-plant-as-danube-falls-to-record-low-13569304",
+      "canonicalUrl": "https://news.sky.com/story/hungary-to-shut-down-sole-nuclear-power-plant-as-danube-falls-to-record-low-13569304",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-03T03:32:21Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac2b/live/2be8ca90-8eb4-11f1-a122-d789962f080e.jpg",
+      "publishedAt": "2026-08-03T05:33:00Z",
+      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-danube-river_7312555.jpg?20260803073049",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1b6eb0cd55d515d825f2",
+      "clusterId": "8624d0fec1724572286a",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01985
+      "rankingScore": 6.87764
     },
     {
-      "id": "8c06d827494f303a6364b7cf",
-      "title": "US and Japan take action to prop up yen in rare joint move",
+      "id": "1cfad9802f016ed2ba3dcfb7",
+      "title": "Girl, 9, dies after being found seriously injured at industrial estate - as man arrested",
       "translatedTitle": null,
-      "description": "Both countries have said that they will not hesitate to conduct joint interventions in the future.",
-      "url": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cglj1pr0wjwo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "A man has been arrested following the death of a nine-year-old girl who was found seriously injured at an industrial estate in Angus.",
+      "url": "https://news.sky.com/story/man-arrested-after-death-of-nine-year-old-girl-13568731",
+      "canonicalUrl": "https://news.sky.com/story/man-arrested-after-death-of-nine-year-old-girl-13568731",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-03T02:43:06Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717b/live/62dcb0b0-8ed3-11f1-b2f6-e1f7eea93d58.jpg",
+      "publishedAt": "2026-08-03T05:00:00Z",
+      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-police-scotland-police_7312615.jpg?20260803091256",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "24d65274f16e81ce56d7",
+      "clusterId": "f07c361b6215843b4b00",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.92579
+      "rankingScore": 5.47083
     },
     {
-      "id": "158b9d28e104d020db7760d8",
-      "title": "Heat health alerts in England as temperatures set to reach 34C",
+      "id": "36691b77de14cd0493d2004e",
+      "title": "Blanche formally rescinds Trump’s $1.8bn ‘anti-weaponization fund’ ahead of nomination hearing",
       "translatedTitle": null,
-      "description": "Temperatures are expected to reach 34C in some areas of England.",
-      "url": "https://www.bbc.co.uk/weather/articles/c17199dy4yxo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/weather/articles/c17199dy4yxo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Todd Blanche issues formal order terminating measure widely derided as a ‘slush fund’, in move that could clear path for his nomination as attorney general Acting US attorney general Todd Blanche issued a formal order late on Sunday terminating Donald Trump’s $1.8bn “anti-weaponization fund” to compensate his political allies, a move that follows weeks of negotiations with two Republican senators who were blocking his nomination to become attorney general. While Blanche has repeatedly said publi",
+      "url": "https://www.theguardian.com/us-news/2026/aug/03/blanche-formally-rescinds-trumps-18bn-anti-weaponization-fund-ahead-of-nomination-hearing",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/aug/03/blanche-formally-rescinds-trumps-18bn-anti-weaponization-fund-ahead-of-nomination-hearing",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-03T02:06:27Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/147d/live/ada09660-8e70-11f1-b8ee-9b3c26ad07bb.jpg",
+      "publishedAt": "2026-08-03T04:46:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/18230b5c5478f4e5d8b00f03821a5508e218edb1/531_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=e06beabf44641cbdd86575796ab1a1f2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "39fb20d979d3f1bcaad4",
+      "clusterId": "b9f822ac90b930242710",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.85854
+      "rankingScore": 5.44865
+    },
+    {
+      "id": "5c391b2da09216abdebb01aa",
+      "title": "Why has Trump stepped in to prop up Japan’s currency?",
+      "translatedTitle": null,
+      "description": "The US has bought up yen to strengthen the currency for the first time in almost 30 years, with the moves raising questions about America’s motives The US has launched a bid to prop up the value of the yen, marking an extraordinary coordinated intervention with Japan’s government to halt the currency’s fall as it approaches 40-year lows. Japan has been struggling to stop an accelerating slide in the yen, which has been piling pressure on its already flailing economy. Japan is reliant on imports",
+      "url": "https://www.theguardian.com/world/2026/aug/03/trump-japan-currency-yen-explainer",
+      "canonicalUrl": "https://theguardian.com/world/2026/aug/03/trump-japan-currency-yen-explainer",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T04:45:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/facb0ce4be3fc414e2693192fde47c853c4a3a39/154_0_1538_1231/master/1538.jpg?width=140&quality=85&auto=format&fit=max&s=0de00c099f10cf4b5a656c5fc52bcf7b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7ebe817ed3c987327866",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.447
     },
     {
       "id": "afb60ee9c3e17088714c605b",
@@ -834,7 +925,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -842,7 +933,67 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.81715
+      "rankingScore": 5.43594
+    },
+    {
+      "id": "f0f25d25a409e6d60b4838a4",
+      "title": "New Zealand legislation making English an official language ridiculed as ‘pathetic’",
+      "translatedTitle": null,
+      "description": "Passing of bill gives English same status as Māori and sign language but, with it already spoken by 95% of country, critics call it ‘a pointless exercise’ Legislation recognising English as an official language of New Zealand has been passed by parliament, prompting derision from linguists and legal experts and a now-viral broadside from a Māori MP who called it “pathetic”. The English language bill became law on 30 July giving English, which is spoken by 95% of the country, the same official st",
+      "url": "https://www.theguardian.com/world/2026/aug/03/new-zealand-english-an-official-language-bill",
+      "canonicalUrl": "https://theguardian.com/world/2026/aug/03/new-zealand-english-an-official-language-bill",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T04:06:41Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/25e0f42bef1b243987da186a6fe242e1c60be42b/581_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=eb15529800046a5bd96024ce36d03531",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2d3aa62f6037e9269463",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.38264
+    },
+    {
+      "id": "13defbface255892c06a43e1",
+      "title": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
+      "translatedTitle": null,
+      "description": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived.",
+      "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c1417713ve6o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-03T01:03:31Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bf8/live/a535ae60-8ecb-11f1-b8ee-9b3c26ad07bb.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-03T08:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "982cf0da6667f6730f66",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.3808
     },
     {
       "id": "f64471716cd796495ee04d0c",
@@ -864,15 +1015,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "295e962bc31732a6a312",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80593
+      "rankingScore": 5.37299,
+      "related": []
     },
     {
       "id": "eeb29a41edf594031309db1c",
@@ -894,15 +1045,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "ba3d0fd4960f8ecb375d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8059
+      "rankingScore": 5.37296,
+      "related": []
     },
     {
       "id": "78e2872ab883f660f82bb7c1",
@@ -924,15 +1075,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "84efceee8e2b2cff97ec",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8059
+      "rankingScore": 5.37296,
+      "related": []
     },
     {
       "id": "ddea0661b4906b28ace51c13",
@@ -954,49 +1105,19 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e7174667dcce8b6559ab",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80586
+      "rankingScore": 5.37294,
+      "related": []
     },
     {
-      "id": "9aa12ba795409d54b5bf29da",
-      "title": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
-      "translatedTitle": null,
-      "description": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived.",
-      "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c1417713ve6o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-03T01:03:31Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bf8/live/a535ae60-8ecb-11f1-b8ee-9b3c26ad07bb.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "982cf0da6667f6730f66",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74824
-    },
-    {
-      "id": "542289530fff69b4372b161c",
-      "title": "What are the 'luteal uglies'? And how they're affecting women",
+      "id": "482c74a3c8578f792d74d82f",
+      "title": "What are the 'luteal uglies' and how are they affecting women?",
       "translatedTitle": null,
       "description": "More women than ever are talking about the luteal phase on social media, but how does it actually affect you?",
       "url": "https://www.bbc.co.uk/news/articles/cy0jk6wjkn0o?at_medium=RSS&at_campaign=rss",
@@ -1014,15 +1135,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "8053d178e9fad8b6717a",
+      "clusterId": "1796701429d16b761281",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.7378
+      "rankingScore": 5.37245
     },
     {
       "id": "34ac696c097ee24aede93465",
@@ -1051,8 +1172,8 @@
       "clusterId": "e2009dd7678b36dad60f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.7279
+      "rankingScore": 5.29256,
+      "related": []
     },
     {
       "id": "ec9535369d96e2e63d42ebcc",
@@ -1081,8 +1202,8 @@
       "clusterId": "60f90eb59db0800761e9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72628
+      "rankingScore": 5.29127,
+      "related": []
     },
     {
       "id": "d6ba8d7e040beb8f6c9f3a83",
@@ -1111,74 +1232,14 @@
       "clusterId": "6c707592ab9dddb3f846",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68151
-    },
-    {
-      "id": "5d9529c86c11886914e2edf8",
-      "title": "'What was my fault?': How India's exam paper leak ended young lives",
-      "translatedTitle": null,
-      "description": "Two families reveal the human toll of India's medical entrance examination paper leak.",
-      "url": "https://www.bbc.co.uk/news/articles/crl7jl1d95eo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/crl7jl1d95eo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-02T23:35:54Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/874d/live/87621610-8b21-11f1-aaf3-8dae78dd0f1a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "717ffe70e2c29e9aa87f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.605
-    },
-    {
-      "id": "c20ed3541cf5645f9fadcc92",
-      "title": "Ariana Grande to take ‘a step back’ from public life due to ‘endless, ongoing scrutiny’",
-      "translatedTitle": null,
-      "description": "Singer was due to reunite with Wicked co-star Jonathan Bailey in London production of Sunday in the Park With George Ariana Grande has announced plans to take a break from public-facing work after her tour ends due to “endless, ongoing public scrutiny”. She is pulling out of the upcoming London revival of Sunday in the Park With George. The pop singer was due to appear opposite her Wicked co-star Jonathan Bailey in a new production of Stephen Sondheim’s critically acclaimed musical at the Barbic",
-      "url": "https://www.theguardian.com/music/2026/aug/03/ariana-grande-statement-step-back-public-life-eternal-sunshine-tour",
-      "canonicalUrl": "https://theguardian.com/music/2026/aug/03/ariana-grande-statement-step-back-public-life-eternal-sunshine-tour",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-02T23:23:22Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/cf1ecc2c157d0e770da388b0823f51f3d3d5af7b/85_0_2217_1774/master/2217.jpg?width=140&quality=85&auto=format&fit=max&s=10f66fe4dcdd618dbeab33a1a8e6c8d8",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c14b4c8b985618a09d7c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.58544,
+      "rankingScore": 5.25545,
       "related": []
     },
     {
-      "id": "397eb1f788e674d41a80a702",
-      "title": "Tale of two halves leaves Iraola with plenty to ponder",
+      "id": "ac8e88c805bf9c613efb70ba",
+      "title": "Liverpool ship four second-half goals to leave Iraola with much to ponder",
       "translatedTitle": null,
-      "description": "On the overnight flight from Chicago back to England, Andoni Iraola will have plenty of thinking to do after the conclusion of Liverpool's pre-season US tour.",
+      "description": "Liverpool conclude their pre-season US tour with a 4-2 defeat against Leeds, having held a two-goal half-time lead in Chicago.",
       "url": "https://www.bbc.co.uk/sport/football/articles/cr7k03gy028o?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cr7k03gy028o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
@@ -1194,15 +1255,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "37534f42654177084a81",
+      "clusterId": "fecc7831c125903182c7",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.57806
+      "rankingScore": 5.24464
     },
     {
       "id": "e939b27a5fbfb223084133ad",
@@ -1224,7 +1285,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -1232,7 +1293,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.57487
+      "rankingScore": 5.24209
     },
     {
       "id": "19b84c63b773ed3242cc070c",
@@ -1254,15 +1315,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "20e5b8f82ddd87d01ab8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47818
+      "rankingScore": 5.11075,
+      "related": []
     },
     {
       "id": "347fa93889dd5644c11d99d6",
@@ -1291,8 +1352,8 @@
       "clusterId": "7711302095da32ce2d95",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.46358
+      "rankingScore": 5.08108,
+      "related": []
     },
     {
       "id": "358f781f3015c48f3de416e2",
@@ -1314,15 +1375,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "cf470e0de362b7c8372d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.37418
+      "rankingScore": 5.02754,
+      "related": []
     },
     {
       "id": "b4cddfbc653ecc1e61fb42ff",
@@ -1344,14 +1405,14 @@
       "imageAlt": null,
       "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-08-03T04:17:31Z",
+      "retrievedAt": "2026-08-03T08:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "8a4cf637a9f34a842d5a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.28196,
+      "rankingScore": 4.95375,
       "related": []
     },
     {
@@ -1381,7 +1442,7 @@
       "clusterId": "642143a6d2bc12ede4b1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.22707,
+      "rankingScore": 4.89184,
       "related": []
     },
     {
@@ -1411,7 +1472,7 @@
       "clusterId": "e5509372a8e7102bc6a8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.1911,
+      "rankingScore": 4.86306,
       "related": []
     },
     {
@@ -1441,7 +1502,7 @@
       "clusterId": "b91b6c58b354675ac264",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.1911,
+      "rankingScore": 4.86306,
       "related": []
     },
     {
@@ -1471,7 +1532,7 @@
       "clusterId": "c10d151b9f0518fc4d10",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.1911,
+      "rankingScore": 4.86306,
       "related": []
     },
     {
@@ -1501,7 +1562,7 @@
       "clusterId": "0694eec582870b459b1e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.1911,
+      "rankingScore": 4.86306,
       "related": []
     },
     {
@@ -1531,7 +1592,7 @@
       "clusterId": "8f78121661a6e2290765",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.1911,
+      "rankingScore": 4.86306,
       "related": []
     }
   ]
