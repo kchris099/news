@@ -4,10 +4,10 @@
   "countryName": "South Korea",
   "timeZone": "Asia/Seoul",
   "date": "2026-08-04",
-  "generatedAt": "2026-08-04T08:17:56Z",
-  "lastAttemptAt": "2026-08-04T08:17:56Z",
-  "lastSuccessfulUpdate": "2026-08-04T08:17:56Z",
-  "status": "current",
+  "generatedAt": "2026-08-04T12:17:54Z",
+  "lastAttemptAt": "2026-08-04T12:17:54Z",
+  "lastSuccessfulUpdate": "2026-08-04T12:17:54Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "yonhap-en",
       "sourceName": "Yonhap News Agency",
       "status": "success",
-      "lastAttemptAt": "2026-08-04T08:17:43Z",
-      "lastSuccessAt": "2026-08-04T08:17:45Z",
-      "articlesRetrieved": 93,
-      "responseTimeMs": 2090,
+      "lastAttemptAt": "2026-08-04T12:17:41Z",
+      "lastSuccessAt": "2026-08-04T12:17:44Z",
+      "articlesRetrieved": 94,
+      "responseTimeMs": 3778,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,32 +27,32 @@
       "sourceId": "korea-herald",
       "sourceName": "The Korea Herald",
       "status": "success",
-      "lastAttemptAt": "2026-08-04T08:17:43Z",
-      "lastSuccessAt": "2026-08-04T08:17:47Z",
+      "lastAttemptAt": "2026-08-04T12:17:41Z",
+      "lastSuccessAt": "2026-08-04T12:17:45Z",
       "articlesRetrieved": 0,
-      "responseTimeMs": 4181,
+      "responseTimeMs": 4218,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "korea-times",
       "sourceName": "The Korea Times",
-      "status": "success",
-      "lastAttemptAt": "2026-08-04T08:17:43Z",
-      "lastSuccessAt": "2026-08-04T08:17:52Z",
-      "articlesRetrieved": 23,
-      "responseTimeMs": 9807,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-08-04T12:17:41Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '403 Forbidden' for url 'https://www.koreatimes.co.kr/www/rss/nation.xml' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "sourceId": "yna-ko",
       "sourceName": "Yonhap News Agency (Korean)",
       "status": "success",
-      "lastAttemptAt": "2026-08-04T08:17:43Z",
-      "lastSuccessAt": "2026-08-04T08:17:45Z",
+      "lastAttemptAt": "2026-08-04T12:17:41Z",
+      "lastSuccessAt": "2026-08-04T12:17:45Z",
       "articlesRetrieved": 120,
-      "responseTimeMs": 2152,
+      "responseTimeMs": 4416,
       "errorType": null,
       "errorMessage": null
     },
@@ -60,23 +60,23 @@
       "sourceId": "kbs-world-news",
       "sourceName": "KBS News",
       "status": "success",
-      "lastAttemptAt": "2026-08-04T08:17:43Z",
-      "lastSuccessAt": "2026-08-04T08:17:44Z",
+      "lastAttemptAt": "2026-08-04T12:17:41Z",
+      "lastSuccessAt": "2026-08-04T12:17:44Z",
       "articlesRetrieved": 30,
-      "responseTimeMs": 1412,
+      "responseTimeMs": 3742,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "sbs-headline",
       "sourceName": "SBS News",
-      "status": "success",
-      "lastAttemptAt": "2026-08-04T08:17:43Z",
-      "lastSuccessAt": "2026-08-04T08:17:44Z",
-      "articlesRetrieved": 15,
-      "responseTimeMs": 1831,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-08-04T12:17:41Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '403 Forbidden' for url 'https://news.sbs.co.kr/news/headlineRssFeed.do?plink=RSSREADER' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
     }
   ],
   "articles": [
@@ -107,8 +107,38 @@
       "clusterId": "4c0060220988482ec034",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.63007,
+      "related": []
+    },
+    {
+      "id": "f5f9dc38cd8368ac0919c935",
+      "title": "Korea Baseball Organization Cancels 2 Games Tuesday amid Extreme Heat Wave",
+      "translatedTitle": null,
+      "description": "[Sports] : The Korea Baseball Organization(KBO) has canceled a match set for Tuesday in Seoul and another in Gwangju after heat wave emergency warnings were issued for both areas. The KBO reached the decision in line with guidelines established by its secretariat after the Korea Meteorological Administration ...[more...]",
+      "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203349",
+      "canonicalUrl": "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=203349&lang=e",
+      "sourceName": "KBS News",
+      "sourceDomain": "world.kbs.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T08:55:46Z",
+      "imageUrl": "https://worldimg.kbs.co.kr/src/images/news/202608/260804065617_91_e.jpg",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:44Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d46acdd47c3958b3db29",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 9.06796
+      "rankingScore": 8.60432
     },
     {
       "id": "b3d13561f72b2136247612b9",
@@ -137,8 +167,8 @@
       "clusterId": "d4fa46ac141232a0bb90",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.44796
+      "rankingScore": 8.01007,
+      "related": []
     },
     {
       "id": "22ae370f883db8bd9dae5ee8",
@@ -160,15 +190,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:44Z",
+      "retrievedAt": "2026-08-04T12:17:44Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "b9498a26510397935783",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.28583
+      "rankingScore": 7.91611,
+      "related": []
     },
     {
       "id": "d9e240f69cb306b18443797b",
@@ -190,15 +220,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:44Z",
+      "retrievedAt": "2026-08-04T12:17:44Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "18beeaccc57a6f554ff0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.22518
+      "rankingScore": 7.86754,
+      "related": []
     },
     {
       "id": "a45ad22d1ab5daea634f6bef",
@@ -220,14 +250,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:44Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "1650f741d37479f1b7cc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.18079,
+      "rankingScore": 7.85989,
       "related": [
         {
           "id": "bd4e0eb427e9436f3ea62e22",
@@ -249,7 +279,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-04T08:17:44Z",
+          "retrievedAt": "2026-08-04T12:17:44Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -279,7 +309,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-04T08:17:44Z",
+          "retrievedAt": "2026-08-04T12:17:44Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -290,36 +320,6 @@
           "normalizedTitle": "lee resists calls to veto changes to criminal procedure act"
         }
       ]
-    },
-    {
-      "id": "7741acdad2559cc1286be2eb",
-      "title": "Heat Wave Emergency Warnings Issued in Seoul for First Time",
-      "translatedTitle": null,
-      "description": "[Science] : Seoul’s first heat wave emergency warning took effect at 11 a.m. on Tuesday. The Korea Meteorological Administration said it was issuing the city’s highest-level heat wave warning for the first time since it expanded the alert system in June, and it applies to all 25 of Seoul’s administrative ...[more...]",
-      "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=203334",
-      "canonicalUrl": "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=203334&lang=e",
-      "sourceName": "KBS News",
-      "sourceDomain": "world.kbs.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T02:08:48Z",
-      "imageUrl": "https://worldimg.kbs.co.kr/src/images/news/202608/260804111049_14_e.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:44Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6759ddc4ed8d0022b61c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.99292,
-      "related": []
     },
     {
       "id": "cf0741c2be6a56090b060096",
@@ -341,14 +341,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:44Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "00f862f24bd3eb470a10",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.97241,
+      "rankingScore": 7.69302,
       "related": [
         {
           "id": "fa05beab54ca21c10f040e62",
@@ -370,7 +370,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-04T08:17:44Z",
+          "retrievedAt": "2026-08-04T12:17:44Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -400,7 +400,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-04T08:17:45Z",
+          "retrievedAt": "2026-08-04T12:17:44Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -432,14 +432,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:44Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "f8c2171b68cb6fd8f5f8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.61341,
+      "rankingScore": 7.39558,
       "related": []
     },
     {
@@ -469,16 +469,16 @@
       "clusterId": "a265b6d51e504e3c9065",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.44796
+      "rankingScore": 7.01007,
+      "related": []
     },
     {
-      "id": "2725870f42f8a3a772a0ed22",
-      "title": "대만총통 \"대만·일본 단결해야…최대 위협은 지진 아닌 中\"",
+      "id": "271504a209ca5656bb58bbb6",
+      "title": "폭염중대경보 서울 어제 온열질환자 23명…올여름 최다",
       "translatedTitle": null,
-      "description": "(베이징=연합뉴스) 김현정 특파원 = 라이칭더 대만 총통이 대만과 일본이 공동으로 직면한 최대 위협으로 중국을 지목하며 양국 협력의 필요성을 강...",
-      "url": "https://www.yna.co.kr/view/AKR20260804142400083",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804142400083",
+      "description": "(서울=연합뉴스) 황재하 김준태 기자 = 연일 이어지는 극한 폭염 속에 서울에서 올해 여름 들어 가장 많은 온열질환자가 발생했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804164100004",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804164100004",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -487,28 +487,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:13:56Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804142400083_01_i_P2.jpg",
+      "publishedAt": "2026-08-04T12:12:35Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080413990001300_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "12ffc94544e76477ca5b",
+      "clusterId": "3d53a4a5afd22ce60a6e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01163
+      "rankingScore": 6.009
     },
     {
-      "id": "74539ea54b409b698028eef0",
-      "title": "[북한단신] 박태성 총리, 김종태전기기관차연합기업소 등 현지 시찰",
+      "id": "736bb358e435e3355f41c629",
+      "title": "한국거래소, 변동성 장세에 선물·옵션 증거금률 대거 인상",
       "translatedTitle": null,
-      "description": "(서울=연합뉴스) ▲ 박태성 내각총리가 김종태전기기관차연합기업소와 보산제철소를 현지 요해(파악)했다고 조선중앙통신이 4일 보도했다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804142800504",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804142800504",
+      "description": "(서울=연합뉴스) 황철환 기자 = 국내 주식시장이 여전히 높은 변동성을 보이는 가운데 한국거래소가 코스피200과 코스닥150, 삼성전자[0059...",
+      "url": "https://www.yna.co.kr/view/AKR20260804163200008",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804163200008",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -517,28 +517,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:13:52Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080401680004200_P2.jpg",
+      "publishedAt": "2026-08-04T12:12:28Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072917940001300_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "9d6157f6efd26f943262",
+      "clusterId": "2152600a3a3bc1792841",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01149
+      "rankingScore": 6.00876
     },
     {
-      "id": "bded7ad88f4a4824dc85fc24",
-      "title": "용인 등 경기 남부권 5개 시 오존주의보 발령",
+      "id": "c87e87cd4f1dd07f256c1d4b",
+      "title": "제주 찾아온 최고 '빅 클럽'…뮌헨 방한 경기에 축구 팬 몰려",
       "translatedTitle": null,
-      "description": "(수원=연합뉴스) 4일 오후 5시를 기해 경기 남부권 5개 시에 오존주의보가 내려졌다고 환경부 한국환경공단이 전했다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804144000527",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804144000527",
+      "description": "(서귀포=연합뉴스) 최송아 기자 = 독일은 물론 유럽에서도 최고의 클럽 중 하나로 꼽히는 분데스리가의 명문 바이에른 뮌헨이 제주도를 찾아와 폭염...",
+      "url": "https://www.yna.co.kr/view/AKR20260804164000007",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804164000007",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -547,28 +547,598 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:13:33Z",
+      "publishedAt": "2026-08-04T12:08:17Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080418840005600_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "75cd5ef2bfca66f5baa5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.0003
+    },
+    {
+      "id": "733e3e32d5a6f062928b8e1f",
+      "title": "日 정부, 구마모토 지진 '특별재해' 지정 추진",
+      "translatedTitle": null,
+      "description": "(도쿄=연합뉴스) 이도연 특파원 = 일본 정부가 지난달 28일 발생한 규슈 구마모토 지진을 '격심재해'(특별재해)로 지정하는 방안을 추진한다고 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260804163300073",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804163300073",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T12:06:38Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804163300073_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "78670d9f8de16bf7c187",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.99697
+    },
+    {
+      "id": "d34434b638752d3718228561",
+      "title": "폭염 속 전남광주 아파트 화재·정전 잇따라(종합)",
+      "translatedTitle": null,
+      "description": "(전남광주=연합뉴스) 민현기 기자 = 전남광주 전역에 폭염특보가 내려진 가운데 아파트 화재로 인한 정전 피해가 잇따라 주민들이 불편을 겪었다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804155751054",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804155751054",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:58:15Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804155751054_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5271fc0a2f7f7e30d8e5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.98014
+    },
+    {
+      "id": "a509314af67d37f35e8fba62",
+      "title": "\"트럼프 행정부, 데이터센터 中부품 수입 금지 추진\"",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 오수진 기자 = 도널드 트럼프 미국 행정부가 국가 안보 강화를 위해 데이터센터에서 쓰이는 중국산 일부 부품의 수입 금지 법안을...",
+      "url": "https://www.yna.co.kr/view/AKR20260804162200009",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804162200009",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:54:07Z",
+      "imageUrl": "https://img.yna.co.kr/photo/reuters/2026/08/04/PRU20260804135501009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cf96c5897c6b473c13ea",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.97188
+    },
+    {
+      "id": "8d42919352c2fbbd167c93f0",
+      "title": "\"후보 접촉·보직약속 금지\"…서울대 총장추천위 행동강령 발표",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 조현영 기자 = 서울대 총장추천위원회가 차기 총장 선출 절차에 본격적으로 들어가면서 위원 행동강령을 발표했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804162300004",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804162300004",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:54:03Z",
+      "imageUrl": "https://img.yna.co.kr/photo/cms/2025/08/16/13/PCM20250816000013990_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "20e5183024012d3cd8d2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.97175
+    },
+    {
+      "id": "41a475bdbb4eafb4a9a3067c",
+      "title": "카타르 \"美·이란 직접 대화 계획 없어…중재국 통해 접촉\"",
+      "translatedTitle": null,
+      "description": "(카이로=연합뉴스) 김상훈 특파원 = 호르무즈 해협 통제권을 둘러싼 갈등 끝에 무력 충돌을 이어온 미국과 이란이 당장은 대화하지 않지만, 중재자...",
+      "url": "https://www.yna.co.kr/view/AKR20260804161300079",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804161300079",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:30:04Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804161300079_03_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "06c6da4d0bbd90123494",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.92449
+    },
+    {
+      "id": "e5b027876d234c939f477ae2",
+      "title": "국힘 서범수, '돌려차기' 실언 논란…徐 \"깊이 사죄\"",
+      "translatedTitle": null,
+      "description": "(서울·부산=연합뉴스) 조다운 박성제 기자 = 국민의힘 서범수 의원이 4일 '부산 돌려차기' 사건 피해자 김진주(가명)씨가 참석한 형사소송법 개...",
+      "url": "https://www.yna.co.kr/view/AKR20260804159100001",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804159100001",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:24:00Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080415400001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "742853fbbc613e719440",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.91271
+    },
+    {
+      "id": "04fcafccfdebe4afbe687215",
+      "title": "與선관위, '생일별 투표'·'金 구호 현수막' 제소안건 내일 결론",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 오규진 안정훈 기자 = 더불어민주당 8·17 전당대회 선거관리위원회가 이른바 '생일별 최고위원 투표 가이드'와 '전 당원 10...",
+      "url": "https://www.yna.co.kr/view/AKR20260804159700001",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804159700001",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:20:58Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/08/PYH2026070818410001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "03f09fa466939bee522f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.90684
+    },
+    {
+      "id": "ae663213d3e3fe49eadc9bef",
+      "title": "\"이란, 호르무즈 진입 선박 통제권 요구…빠져나가는 선박도 감시\"",
+      "translatedTitle": null,
+      "description": "(카이로=연합뉴스) 김상훈 특파원 = 이란이 오만과의 호르무즈 해협 관리 방안 협상에서 해협으로 들어오는 선박에 대한 통제권과 해협을 빠져나가는...",
+      "url": "https://www.yna.co.kr/view/AKR20260804160700079",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804160700079",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:19:12Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804160700079_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c7f3c111926916049681",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.90343
+    },
+    {
+      "id": "e8b3e264c32c33e37975f1d5",
+      "title": "'이흥구 후임' 대법관 후보 4명 압축…두명 동시 제청하나(종합2보)",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 이미령 기자 = 오는 9월 7일 퇴임하는 이흥구 대법관 후임 후보가 김문관(62·사법연수원 23기) 부산지방법원장, 김성수(5...",
+      "url": "https://www.yna.co.kr/view/AKR20260804155552004",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804155552004",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:15:54Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080413210001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1d7f23decf93468ff821",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.89707
+    },
+    {
+      "id": "8a24935be1cfcfc634cd6b87",
+      "title": "이강인, AT마드리드 유니폼 입고 훈련…9일 맨시티 상대 데뷔전",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 안홍석 기자 = 이강인(25)이 스페인 프로축구 아틀레티코 마드리드(AT마드리드) 입단 '옷피셜'과 함께 서울에서의 데뷔전을 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260804160900007",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804160900007",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:11:30Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804160900007_03_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1aaab414cfe9cd8ab7b3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.88862
+    },
+    {
+      "id": "cec6536e0f6f3642f719f799",
+      "title": "메가프로젝트·제조 AX 박차…반도체 클러스터 조성 속도↑(종합)",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 장보인 기자 = 정부가 3대 메가프로젝트와 제조 인공지능(AI) 전환(M.AX) 추진 속도를 높인다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804088751003",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804088751003",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:06:49Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080411190001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b35b9110cb8ffabfb51b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.87967
+    },
+    {
+      "id": "116fc8b29f79b6ff91b7a1c5",
+      "title": "현대차그룹 미국 워싱턴사무소장에 국무부 출신 클라이네",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 김윤구 기자 = 현대자동차그룹은 미국 대관 업무를 총괄하는 워싱턴DC 사무소장에 미국 국무부 출신 마이클 클라이네를 임명했다고...",
+      "url": "https://www.yna.co.kr/view/AKR20260804159200003",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804159200003",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:01:44Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804159200003_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "98872bff70010d5857d4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.87
+    },
+    {
+      "id": "b3e22c87b49fa7506377440b",
+      "title": "도심 추격전 끝에 붙잡힌 운전자, 음주 측정 거부하다 결국 구속",
+      "translatedTitle": null,
+      "description": "(천안=연합뉴스) 이주형 기자 = 도심 추격전 끝에 경찰에 붙잡혀 놓고 음주 측정을 끝내 거부한 50대 운전자가 구속됐다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804154100063",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804154100063",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:01:07Z",
+      "imageUrl": "https://img.yna.co.kr/photo/cms/2026/07/22/07/PCM20260722000107063_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e9dfc5a97dda0df9a0d9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.86883
+    },
+    {
+      "id": "cc45c5014facecd05a924b25",
+      "title": "스틸 美대사, 조현 외교장관 예방…한미관계 발전방안 논의(종합2보)",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 김동현 김지헌 기자 = 한국에 최근 부임한 미셸 스틸 주한미국대사가 4일 조현 외교부 장관을 만나며 대사로서 공식 활동을 개시...",
+      "url": "https://www.yna.co.kr/view/AKR20260804107452504",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804107452504",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:00:14Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080411260001301_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0f8c007cf9d3388778d9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.86716
+    },
+    {
+      "id": "78916ecf32431af1904f519c",
+      "title": "[날씨] 수도권·전라권 최고기온 39도 폭염…인천·충남 등 소나기",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 조현영 기자 = 수요일인 5일은 전국 대부분 지역에서 최고 체감온도가 35도 안팎으로 올라 무덥겠다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804151300004",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804151300004",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T11:00:00Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080412030001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d09f11cc56e09ccbe2f9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.86671
+    },
+    {
+      "id": "fb52c7618d5c235e69cd1fd2",
+      "title": "\"내 사건은 어디로\" 불안한 의뢰인들…부실·지연수사 우려도(종합)",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 김빛나 기자 = \"그래서 내 사건은 중대범죄수사청(중수청)으로 가나요? 아니면 다시 경찰이 수사하나요?\"",
+      "url": "https://www.yna.co.kr/view/AKR20260804115651004",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804115651004",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T10:50:05Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2017/02/15/PYH2017021521640001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d6283114c4d383a807c3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.84801
+    },
+    {
+      "id": "54115adbd1d8ecf7fe0be09a",
+      "title": "안 풀리는 LG…선발 웰스, 타구에 종아리 맞고 조기 강판",
+      "translatedTitle": null,
+      "description": "(인천=연합뉴스) 김경윤 기자 = LG 트윈스의 아시아 쿼터 선발 투수 라클란 웰스가 경기 중 타구에 맞는 불운 속에 조기 강판했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804159600007",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804159600007",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T10:44:53Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072921000001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d479e3119b33bb81fff9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.83827
+    },
+    {
+      "id": "749006845b5659d8dbfc296c",
+      "title": "예멘 후티 반군 \"사우디 나즈란 공항에 드론 공격\"",
+      "translatedTitle": null,
+      "description": "(카이로=연합뉴스) 김상훈 특파원 = 이란의 지원을 받는 예멘 후티 반군이 4일(현지시간) 사우디아라비아의 공항을 공격했다고 주장했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804159900079",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804159900079",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T10:42:23Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804159900079_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "879411fcced1cfecc856",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.8336
+    },
+    {
+      "id": "7e37c8965ff9ec6827644a74",
+      "title": "RFHIC, 애프터마켓서 10%대 급등",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 코스닥 상장사 RFHIC[218410]가 4일 애프터마켓에서 10%대 급등 중이다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804158700008",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804158700008",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-04T10:32:29Z",
       "imageUrl": "https://r.yna.co.kr/global/home/v01/img/yonhapnews_logo_1200x800_kr01.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6f5bf94fc8528cff821a",
+      "clusterId": "ba9acc1b1f236294728e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.01085
+      "rankingScore": 5.81523,
+      "related": []
     },
     {
-      "id": "8b2d48e72045143d01b18a08",
-      "title": "[동포의 창] 고려인 청년 60명, 한국에서 정체성 찾고 미래 설계",
+      "id": "3d2963dc15ac2e324904f50c",
+      "title": "뮌헨 김민재, 제주와 프리시즌 경기 선발…주장 완장 차고 뛴다",
       "translatedTitle": null,
-      "description": "(서울=연합뉴스) 박현수 기자 = 국내외 고려인 청소년과 청년 60명이 한국에 모여 고려인의 역사와 정체성을 배우고, 서로의 경험을 나누며 미래...",
-      "url": "https://www.yna.co.kr/view/AKR20260804143700371",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804143700371",
+      "description": "(서귀포=연합뉴스) 최송아 기자 = 한국 축구 국가대표팀 수비의 핵심 김민재가 제주에서 펼쳐지는 소속팀 바이에른 뮌헨(독일)의 프리시즌 경기에 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260804158800007",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804158800007",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -577,28 +1147,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:13:31Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804143700371_02_i_P2.jpg",
+      "publishedAt": "2026-08-04T10:31:30Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/03/PYH2026080318040005600_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e8c361a0e5b4c2ad9bfe",
+      "clusterId": "1d5d61a68400418687ed",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01078
+      "rankingScore": 5.81341
     },
     {
-      "id": "845a51ba98c4ebfebfd6f132",
-      "title": "'현장 목소리 하나로'…전남광주 농업대전환 협의회 출범",
+      "id": "b5e4da17e75e224fa9245d76",
+      "title": "스페인-모로코 '세우타 월경' 두고 책임 공방 고조",
       "translatedTitle": null,
-      "description": "(무안=연합뉴스) 조근영 기자 = 농협중앙회 전남본부가 4일 '전남광주 농업대전환 협의회'를 출범했다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804143800054",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804143800054",
+      "description": "(요하네스버그=연합뉴스) 나확진 특파원 = 북아프리카 모로코에서 스페인령 세우타로 수만 명이 한꺼번에 무단으로 넘어간 월경 사태를 두고 양국 간...",
+      "url": "https://www.yna.co.kr/view/AKR20260804158200099",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804158200099",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -607,28 +1177,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:12:51Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804143800054_01_i_P2.jpg",
+      "publishedAt": "2026-08-04T10:31:12Z",
+      "imageUrl": "https://img.yna.co.kr/photo/reuters/2026/08/04/PRU20260804110101009_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1141b3c6681f6349d88e",
+      "clusterId": "a109d70f51780753095b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00943
+      "rankingScore": 5.81286
     },
     {
-      "id": "c4f94a99c41ace84d4186cde",
-      "title": "울산 18일째 폭염특보…온열질환자 100명 돌파",
+      "id": "1d202b3872ae5cdc81473d39",
+      "title": "'들끓는 폭염'에 전남광주 가축·양식어류 폐사 급증",
       "translatedTitle": null,
-      "description": "(울산=연합뉴스) 장지현 기자 = 18일째 폭염특보가 발효 중인 울산지역에서 올해 누적 온열질환자가 100명을 돌파했다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804142600057",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804142600057",
+      "description": "(전남광주=연합뉴스) 민현기 기자 = 연일 이어지는 폭염에 전남광주의 가축과 양식 어류 폐사 피해가 급증하고 있다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804157500054",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804157500054",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -637,28 +1207,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:12:11Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/23/PYH2026072317660005700_P2.jpg",
+      "publishedAt": "2026-08-04T10:26:50Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/30/PYH2026073009890001300_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "cfeb3413fe6f958ff2df",
+      "clusterId": "96afb361c9b249c50974",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00808
+      "rankingScore": 5.80482
     },
     {
-      "id": "419b859b9526ef9f96b9d4f5",
-      "title": "국토위, 11일 전체회의…부동산 실황·세제개편 현안질의",
+      "id": "3e9114b398fabbe2ddf85520",
+      "title": "거제 함목해수욕장 인근서 수상레저객 4명 표류…해경 구조",
       "translatedTitle": null,
-      "description": "(서울=연합뉴스) 노선웅 기자 = 국회 국토교통위원회는 정부의 부동산 세제 개편안 관련, 다음 주 전체회의를 열고 현안 질의를 한다고 4일 밝혔...",
-      "url": "https://www.yna.co.kr/view/AKR20260804139500001",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804139500001",
+      "description": "(거제=연합뉴스) 박영민 기자 = 경남 거제시 남부면 함목해수욕장 인근 해상에서 수상레저 활동을 하던 4명이 잇따라 표류했다가 해경에 구조됐다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804158100052",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804158100052",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -667,28 +1237,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:11:53Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/07/29/PYH2026072916460001300_P2.jpg",
+      "publishedAt": "2026-08-04T10:23:48Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804158100052_01_i_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "7fe5e2c2814f6b71d742",
+      "clusterId": "4b0d8a6466a8a0a7896e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00747
+      "rankingScore": 5.79925
     },
     {
-      "id": "2ee890f8afaf0402a73d9e82",
-      "title": "철원군, 관급 계약 시 '이행 통합 서약서' 시행",
+      "id": "734d2358bd46eac66180f3a3",
+      "title": "영국 우익당, 불법이민 차단 위해 해군 투입 공약…프랑스 반발(종합)",
       "translatedTitle": null,
-      "description": "(철원=연합뉴스) 양지웅 기자 = 강원 철원군 계약 절차 간소화와 행정효율성 강화를 위해 '계약 이행 통합 서약서'를 시행한다고 4일 밝혔다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804142900062",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804142900062",
+      "description": "(파리=연합뉴스) 송진원 특파원 = 영국 내 반이민 노선을 걷는 영국개혁당이 영국해협 건너의 프랑스가 불법 이민자 송환에 협력하지 않을 경우 영...",
+      "url": "https://www.yna.co.kr/view/AKR20260804151751081",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804151751081",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -697,28 +1267,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:11:20Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804142900062_01_i_P2.jpg",
+      "publishedAt": "2026-08-04T10:23:43Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804151751081_05_i_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "9116997864c8eb58f9e0",
+      "clusterId": "80e804bd39925c194942",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00636
+      "rankingScore": 5.7991
     },
     {
-      "id": "e1a1b44f38e069764ba9025c",
-      "title": "국고채 단기물 강세·장기물 약세…3년물 연 3.740%(종합)",
+      "id": "ffb6713df548e0555f1b8ec4",
+      "title": "'이흥구 후임' 대법관 후보에 김문관·김성수·김예영·김정중(종합)",
       "translatedTitle": null,
-      "description": "(서울=연합뉴스) 김태종 기자 = 4일 국고채 단기물이 강세(금리 하락)를 보이고, 장기물은 약세를 나타내는 등 혼조세로 마감했다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804137651008",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804137651008",
+      "description": "(서울=연합뉴스) 이미령 기자 = 오는 9월 7일 퇴임하는 이흥구 대법관 후임 후보가 김문관(62·사법연수원 23기) 부산지방법원장, 김성수(5...",
+      "url": "https://www.yna.co.kr/view/AKR20260804155551004",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804155551004",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -727,28 +1297,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:11:10Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804137651008_01_i_P2.jpg",
+      "publishedAt": "2026-08-04T10:22:13Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080413210001300_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "5834eafc3e7bb1afe1a8",
+      "clusterId": "13ebd47c901071242722",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00602
+      "rankingScore": 5.79635
     },
     {
-      "id": "f09667ffde6da203f55b710c",
-      "title": "\"영화 스포일러는 '유죄'\"…日법원, 관련 기사에 \"저작권 침해\"",
+      "id": "80228a52f46336b0088ce5dd",
+      "title": "봉황대기 전국고교야구, 7∼9일 경기 일정 조정…폭염에 대응",
       "translatedTitle": null,
-      "description": "(서울=연합뉴스) 김병규 기자 = 일본에서 의도적으로 영화의 내용을 유출하는 '스포일러' 기사를 무단으로 온라인에 게재한 사이트 운영자들에게 유...",
-      "url": "https://www.yna.co.kr/view/AKR20260804142100009",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804142100009",
+      "description": "(서울=연합뉴스) 김경윤 기자 = 대한야구소프트볼협회는 4일 폭염 중대경보 발령에 따라 7일부터 9일까지 열리는 제54회 봉황대기 전국고교야구대...",
+      "url": "https://www.yna.co.kr/view/AKR20260804157100007",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804157100007",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -757,28 +1327,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:09:13Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804142100009_01_i_P2.jpg",
+      "publishedAt": "2026-08-04T10:15:13Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804157100007_01_i_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a2f2f099df7200d09637",
+      "clusterId": "729e3dffa367fe901fd4",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00208
+      "rankingScore": 5.78358
     },
     {
-      "id": "f4f71928effa3065e6a6cccc",
-      "title": "[전남광주소식] 소방본부 \"폭염 속 물놀이 안전수칙 지켜야\"",
+      "id": "18bdff76057481195577bf4c",
+      "title": "도망치는 상인 뒤쫓아 쾅…자폭드론 영상에 우크라 격분",
       "translatedTitle": null,
-      "description": "(전남광주=연합뉴스) 전남광주통합특별시소방본부는 4일 폭염으로 계곡과 바다를 찾는 피서객이 늘어남에 따라 물놀이 안전수칙 준수를 당부한다고 밝혔...",
-      "url": "https://www.yna.co.kr/view/AKR20260804137000054",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804137000054",
+      "description": "(로마=연합뉴스) 민경락 특파원 = 러시아군이 조종한 것으로 추정되는 드론이 우크라이나 시장 상인을 공격하는 영상이 소셜미디어에 퍼지면서 비난이...",
+      "url": "https://www.yna.co.kr/view/AKR20260804156100109",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804156100109",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -787,28 +1357,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:08:58Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804137000054_01_i_P2.jpg",
+      "publishedAt": "2026-08-04T10:13:14Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804156100109_01_i_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "9ed1f2347784b4035aa6",
+      "clusterId": "9d2c61d77ff222ee93e6",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00157
+      "rankingScore": 5.77998
     },
     {
-      "id": "0fdfe3d099eea329c21cdc0e",
-      "title": "대전 인구, 13년 만에 순유입 전환…지난해 2천800명 늘어",
+      "id": "8a6c333476e82fb943172aaa",
+      "title": "러 \"모스크바 식당 테러, 우크라가 계획\" 주장",
       "translatedTitle": null,
-      "description": "(대전=연합뉴스) 변선진 기자 = 2012년 세종시 출범 이후 감소세를 이어온 대전지역 인구가 지난해 순유입으로 전환된 것으로 나타났다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804140200063",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804140200063",
+      "description": "(이스탄불=연합뉴스) 김동호 특파원 = 러시아 당국은 수도 모스크바의 한 식당에서 발생한 폭탄 공격의 배후로 우크라이나를 지목했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260804156500108",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804156500108",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -817,298 +1387,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:08:27Z",
-      "imageUrl": "https://img.yna.co.kr/photo/cms/2017/07/30/01/C0A8CA3C0000015D91D2B6CE000AD538_P2.jpeg",
+      "publishedAt": "2026-08-04T10:09:56Z",
+      "imageUrl": "https://img.yna.co.kr/photo/reuters/2026/08/02/PRU20260802216601009_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b2da599acc3e5edd6b0b",
+      "clusterId": "49ca349fc9548195ae79",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00053
+      "rankingScore": 5.774
     },
     {
-      "id": "f895726a97e7f57f1a51925c",
-      "title": "대만 국방 \"美와 군사협력\" 이례적 언급…中 겨냥 결속력 과시",
+      "id": "549f55d8c1ba9c1887e0c012",
+      "title": "Team K League not backing down against Man City in friendly: coach",
       "translatedTitle": null,
-      "description": "(서울=연합뉴스) 권숙희 기자 = 대만의 국방 수장이 그간 공식적으로 인정한 적 없었던 미군의 군사 훈련 지원 사실을 이례적으로 공개했다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804136200009",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804136200009",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T08:08:00Z",
-      "imageUrl": "https://img.yna.co.kr/photo/etc/epa/2026/07/24/PEP20260724123001009_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "63be8f35472f56cd6a9e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.99962
-    },
-    {
-      "id": "a6e6ea69a98161b9a6ae2dce",
-      "title": "폭염·가뭄에 저수지 마른 고창…일부 지역 제한 급수",
-      "translatedTitle": null,
-      "description": "(고창=연합뉴스) 나보배 기자 = 폭염과 가뭄으로 수돗물 사용량이 늘어나자 전북 고창군이 일부 지역·시간대 급수를 제한했다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804136900055",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804136900055",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T08:07:27Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804136900055_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2f1b0ac2b98d0a973d15",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.99851
-    },
-    {
-      "id": "b90fd8cf6897827bd6d4282a",
-      "title": "자발적 이직 청년도 생애 1회 실업급여…정년연장 연내 입법",
-      "translatedTitle": null,
-      "description": "(서울·세종=연합뉴스) 한혜원 옥성구 기자 = 정부가 자발적으로 이직하려는 청년에게도 생애 한 차례 실업급여(구직급여)를 주는 방안을 추진한다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804066400530",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804066400530",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T08:07:07Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080417100001300_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dc71593197448ee64e7e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.99784
-    },
-    {
-      "id": "8723c876aa47e9988311f4e8",
-      "title": "방문간호사 스토킹 60대 체포…70차례 전화하고 직장 찾아간 혐의",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 양수연 기자 = 방문간호사에게 70차례 전화를 걸고 근무지까지 찾아간 60대 남성이 경찰에 붙잡혔다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804140900004",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804140900004",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T08:06:41Z",
-      "imageUrl": "https://img.yna.co.kr/photo/cms/2019/08/02/71/PCM20190802000071990_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2d2d823f590be4a76aac",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.99696
-    },
-    {
-      "id": "4db2418b00c71ca96b16fdcb",
-      "title": "'첫 폭염중대경보' 전주 39도…펄펄 끓은 전북",
-      "translatedTitle": null,
-      "description": "(전주=연합뉴스) 김문경 기자 = 4일 전주에 첫 폭염중대경보가 발효되는 등 전북지역에 극한 폭염이 이어졌다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804138700055",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804138700055",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T08:03:50Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080414770005500_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "896921976e02291638bb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.99123
-    },
-    {
-      "id": "270216f356aea42e1e1ea095",
-      "title": "강원교육청, 각 시군과 교육혁신선도지역 선정 준비 속도",
-      "translatedTitle": null,
-      "description": "(춘천=연합뉴스) 양지웅 기자 = 강원특별자치도교육청은 교육부의 '교육혁신선도지역' 공모에 대응한 자체 추진 현황과 지역별 공모 지원 방안을 4...",
-      "url": "https://www.yna.co.kr/view/AKR20260804141300062",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804141300062",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T08:03:36Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804141300062_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "22bf65a93c997e13b537",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.99076
-    },
-    {
-      "id": "2a10d9f8c4317099a1855ca8",
-      "title": "'오케이 마담 2' 엄정화 \"경쾌하고 멋진 액션…시리즈 이어지길\"",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 박원희 기자 = '오케이 마담'(2020)에서 배우 엄정화가 연기한 미영이 관객을 놀라게 한 순간은 비행기 화장실에서 납치범을...",
-      "url": "https://www.yna.co.kr/view/AKR20260804137900005",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804137900005",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T08:03:24Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804137900005_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fea8cdf60a619d7c4ea9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.99036
-    },
-    {
-      "id": "7698001a4281e76dc866ae48",
-      "title": "산업 전기요금, 하반기 전국 4개권역 나눠 차등해 인하(종합)",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 이재영 기자 = 정부가 전국을 크게 4개 권역으로 나눈 뒤 산업용 전기요금을 달리 적용해 사실상 전기요금을 인하하기로 했다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804083651530",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804083651530",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T08:02:53Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804083651530_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1354bf0b273efe2409eb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98932
-    },
-    {
-      "id": "94619b9e315df5f628b78bfb",
-      "title": "성동구서 외국인 여성에 흉기 휘두른 40대 구속…\"도주 우려\"(종합)",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 조현영 기자 = 서울 성동구에서 일면식도 없는 외국인 여성에게 흉기를 휘두르고 달아난 40대 남성이 구속됐다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804095151004",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804095151004",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T08:02:34Z",
-      "imageUrl": "https://img.yna.co.kr/photo/cms/2021/12/20/01/PCM20211220000101990_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "133af81259761842c154",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98868
-    },
-    {
-      "id": "d40ba272c9e01674dd3ab720",
-      "title": "Yonhap News Summary",
-      "translatedTitle": null,
-      "description": "The following is the second summary of major stories moved by Yonhap News Agency...",
-      "url": "https://en.yna.co.kr/view/AEN20260804008300320",
-      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260804008300320",
+      "description": "SEOUL, Aug. 4 (Yonhap) -- The All-Star squad of the top South Korean football le...",
+      "url": "https://en.yna.co.kr/view/AEN20260804008900315",
+      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260804008900315",
       "sourceName": "Yonhap News Agency",
       "sourceDomain": "en.yna.co.kr",
       "sourceCountry": "KR",
@@ -1117,28 +1417,28 @@
         "KR"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T08:01:28Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/EN/2026/08/04/AEN20260804008300320_01_i_P2.jpg",
+      "publishedAt": "2026-08-04T10:08:00Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/EN/2026/08/04/AEN20260804008900315_01_i_P2.jpg",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:44Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "767826b1ebc47ce2e54d",
+      "clusterId": "eb8afaa860ff426ee8f0",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.98647
+      "rankingScore": 5.7705
     },
     {
-      "id": "705523f8db4163a7b5ca23ec",
-      "title": "목포해경, 해수욕장·선착장 등 피서객 사고 예방 총력",
+      "id": "ce7ef7752385265ecc33f478",
+      "title": "폭염경보 무안 아파트 화재로 이틀째 정전…주민 60여명 대피",
       "translatedTitle": null,
-      "description": "(목포=연합뉴스) 조근영 기자 = 목포해양경찰서는 해수욕장 등 피서객 급증에 따라 안전 사고 예방에 총력을 쏟기로 했다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804140500054",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804140500054",
+      "description": "(무안=연합뉴스) 민현기 기자 = 폭염경보가 내려진 전남광주 무안군 한 아파트에서 화재로 이틀째 전력 공급이 끊겨 주민들이 큰 불편을 겪고 있다...",
+      "url": "https://www.yna.co.kr/view/AKR20260804155700054",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804155700054",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -1147,28 +1447,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T08:01:01Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804140500054_01_i_P2.jpg",
+      "publishedAt": "2026-08-04T10:00:42Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804155700054_01_i_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "40f360c2f6ce19e69eb0",
+      "clusterId": "8844e570f206214a1927",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.98557
+      "rankingScore": 5.75736
     },
     {
-      "id": "37230251af675ea76fd254f5",
-      "title": "\"애스턴마틴 신규 대출에 기존 채권자들 소송 경고\"",
+      "id": "34e13490248f8e26e3f52295",
+      "title": "중수청 인력 영입전에 검찰 내부는 미온적…\"옮길 유인 부족\"",
       "translatedTitle": null,
-      "description": "(서울=연합뉴스) 설원태 기자 = 자동차업체 애스턴 마틴의 채권자들이 이 회사의 브랜드 사용권 일부를 매각하려는 계획에 대해 법적 대응을 경고하...",
-      "url": "https://www.yna.co.kr/view/AKR20260804130400009",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804130400009",
+      "description": "(서울=연합뉴스) 박재현 기자 = 오는 10월 출범을 앞둔 중대범죄수사청이 '검찰 인력 영입'을 위해 채용 시험 면제·보수 유지 등 유인책을 내...",
+      "url": "https://www.yna.co.kr/view/AKR20260804155400004",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804155400004",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -1177,28 +1477,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T07:59:52Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804130400009_01_i_P2.jpg",
+      "publishedAt": "2026-08-04T10:00:40Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080404870001300_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "9cf21bd44e4a070ce709",
+      "clusterId": "fb302eb96d6c68e00ea2",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.98327
+      "rankingScore": 5.7573
     },
     {
-      "id": "cd7d0a5011ac99e1bd82401e",
-      "title": "李대통령 \"공정위, 경제檢 역할 제대로…담합 꿈 못꾸게 해달라\"",
+      "id": "5499498d75ed577e96d1b905",
+      "title": "\"폭염 중대경보인데 29도?\"…서울 재난안전 전광판 곳곳 '오류'",
       "translatedTitle": null,
-      "description": "(서울=연합뉴스) 임형섭 설승은 기자 = 이재명 대통령은 4일 \"공정거래위원회가 최근 담합, 매점매석 단속을 열심히 하면서 '경제 검찰' 역할을...",
-      "url": "https://www.yna.co.kr/view/AKR20260804138100001",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804138100001",
+      "description": "(서울=연합뉴스) 김동규 황재하 김준태 기자 = 서울에 첫 폭염중대경보가 발효된 4일 시내 일부 재난안전 전광판에 잘못된 온도가 표출되면서 시민...",
+      "url": "https://www.yna.co.kr/view/AKR20260804155600004",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804155600004",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -1207,28 +1507,28 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T07:59:30Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080412750001300_P2.jpg",
+      "publishedAt": "2026-08-04T10:00:35Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080413840001300_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "64ecab2f3dab49bc9d93",
+      "clusterId": "374a8115a5755b0686ba",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.98253
+      "rankingScore": 5.75716
     },
     {
-      "id": "4193d08513683109309fc4e5",
-      "title": "경남 기온 꺾여도 '찜통더위' 여전…온열질환자 하루 21명 늘어(종합)",
+      "id": "131f9a2145817f36946cb934",
+      "title": "리딩사기 조직원이 수거한 5천만원 빼앗아…피싱조직 일당 구속",
       "translatedTitle": null,
-      "description": "(창원=연합뉴스) 이준영 박영민 기자 = 연일 40도 안팎까지 치솟았던 경남지역 기온이 4일 다소 꺾였지만, 일부 지역의 낮 최고기온이 38도를...",
-      "url": "https://www.yna.co.kr/view/AKR20260804076751052",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804076751052",
+      "description": "(보령=연합뉴스) 이주형 기자 = 충남보령경찰서는 투자 리딩방 사기 조직원을 위협해 수천만 원에 달하는 사기 피해금을 빼앗은 혐의(특수강도)로 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260804155900063",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260804155900063",
       "sourceName": "Yonhap News Agency (Korean)",
       "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
@@ -1237,320 +1537,20 @@
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-08-04T07:59:07Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/02/PYH2026080206390005200_P2.jpg",
+      "publishedAt": "2026-08-04T09:57:46Z",
+      "imageUrl": "https://img.yna.co.kr/photo/cms/2021/06/14/60/PCM20210614000060990_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
+      "retrievedAt": "2026-08-04T12:17:45Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b30b348d8814113bdfa1",
+      "clusterId": "2a4982be95290c4b7e62",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.98176
-    },
-    {
-      "id": "10877f1ceecb0e934f8d2a42",
-      "title": "전남광주특별시, 노조에 조직개편 초안 공개",
-      "translatedTitle": null,
-      "description": "(전남광주=연합뉴스) 형민우 기자 = 전남광주통합특별시는 4일 광주·무안청사 공무원 노조에 조직개편안 초안을 공개하고 본격적인 논의에 착수했다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804139700054",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804139700054",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T07:57:59Z",
-      "imageUrl": "https://img.yna.co.kr/photo/cms/2026/07/02/35/PCM20260702000135990_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d9f648a5eebc2c70e891",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.9795
-    },
-    {
-      "id": "acc42de876b5a2b034e6f8e7",
-      "title": "안트로젠, 애프터마켓서 10%대 급등",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 코스닥 상장사 안트로젠[065660]이 4일 애프터마켓에서 10%대 급등 중이다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804140600008",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804140600008",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T07:57:52Z",
-      "imageUrl": "https://r.yna.co.kr/global/home/v01/img/yonhapnews_logo_1200x800_kr01.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c5f4cfa2debb13bfeb68",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.97926
-    },
-    {
-      "id": "768f2dff166cda9dcbd47faf",
-      "title": "[부고] 남승현(대구신문 편집국 사회부 부국장)씨 모친상",
-      "translatedTitle": null,
-      "description": "▲ 김송지(향년 82세)씨 별세, 남승현(대구신문 편집국 사회부 부국장)씨 모친상, 최혜정씨 시모상, 남서형씨 조모상 = 4일 오후 3시 30분...",
-      "url": "https://www.yna.co.kr/view/AKR20260804140100053",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804140100053",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T07:56:04Z",
-      "imageUrl": "https://r.yna.co.kr/global/home/v01/img/yonhapnews_logo_1200x800_kr01.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "59027f04d4787cdcbc1d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.97567
-    },
-    {
-      "id": "bab796e940d191f7d40df9fe",
-      "title": "택배 절도가 점유이탈물횡령?…성남수정경찰서 직원교육 논란",
-      "translatedTitle": null,
-      "description": "(성남=연합뉴스) 강영훈 김지원 기자 = 경기지역 한 경찰서가 직원 교육 과정에서 아파트 택배절도 사건의 적용 혐의에 대해 절도가 아닌 점유이탈...",
-      "url": "https://www.yna.co.kr/view/AKR20260804122400061",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804122400061",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T07:55:42Z",
-      "imageUrl": "https://img.yna.co.kr/photo/cms/2022/03/28/93/PCM20220328000093990_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "180940b6918a29956304",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.97494
-    },
-    {
-      "id": "55ff883a64e0762042f4c8b9",
-      "title": "與 \"꼼꼼히 점검·보완\"…부동산 세제개편안에 '면밀심사' 기조(종합)",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 김정진 박재하 오규진 기자 = 더불어민주당은 4일 정부의 부동산 세제 개편안에 대해 조세 정상화라는 측면에서 환영하면서도 세부...",
-      "url": "https://www.yna.co.kr/view/AKR20260804084151001",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804084151001",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T07:54:26Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080403330001300_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cc06cc70d3052675a64e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.97241
-    },
-    {
-      "id": "e5f576769922c230f74a8286",
-      "title": "지휘자 멘데스 \"국립심포니와 스페인의 열정 전할게요\"",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 조윤희 기자 = \"스페인 음악은 제 안에 너무나도 자연스럽게 스며들어 있어서 가끔 설명하기가 어려워요. 외국 오케스트라와 연주...",
-      "url": "https://www.yna.co.kr/view/AKR20260804124600005",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804124600005",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T07:53:32Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/04/PYH2026080409360001300_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ad5813b6d81db05588f6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.97062
-    },
-    {
-      "id": "4d1856c5e9682241dec38814",
-      "title": "전력망 구축에 국민성장펀드 투입…정부·한전과 분담",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 이재영 기자 = 정부가 국가기간 전력망 구축에 국민성장펀드를 동원하는 방안을 본격적으로 검토 중이다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804131600530",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804131600530",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T07:51:36Z",
-      "imageUrl": "https://img.yna.co.kr/photo/cms/2026/06/15/54/PCM20260615000454530_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ac8a59cd148e9484b372",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.96677
-    },
-    {
-      "id": "a91f0e23e049cf4861581a8c",
-      "title": "K리그2 12위로 처진 성남, 전경준 감독과 결별",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 배진남 기자 = 프로축구 K리그2 성남FC가 전경준(52) 감독과 2년 가까이 이어온 동행을 마무리한다.",
-      "url": "https://www.yna.co.kr/view/AKR20260804139400007",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804139400007",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T07:51:24Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804139400007_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "97ecc4ca600ea1c4ff5a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.96637
-    },
-    {
-      "id": "bae6b0f40f99d9a053c28afd",
-      "title": "완도군의회, 가격 하락 등 전복산업 위기 극복 방안 논의",
-      "translatedTitle": null,
-      "description": "(완도=연합뉴스) 조근영 기자 = 전남광주통합특별시 완도군의회는 4일 군의회 소회의실에서 '전복 생산어가 의견청취 간담회'를 열고 가격 하락과 ...",
-      "url": "https://www.yna.co.kr/view/AKR20260804138900054",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804138900054",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T07:50:36Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804138900054_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "190d0283e51ecad632f2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.96478
-    },
-    {
-      "id": "f33eee5757352318a0859f8b",
-      "title": "마산해수청, 남해 원천항에 갑오징어 형태 등대 한 쌍 설치",
-      "translatedTitle": null,
-      "description": "(창원=연합뉴스) 김동민 기자 = 해양수산부 마산지방해양수산청은 경남 남해군 이동면 원천항에 갑오징어를 형상화한 방파제 등대 한 쌍을 설치했다고...",
-      "url": "https://www.yna.co.kr/view/AKR20260804138300052",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260804138300052",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-04T07:48:42Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/04/AKR20260804138300052_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T08:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "42a9640f646801307115",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.96101
+      "rankingScore": 5.75211
     }
   ]
 }
