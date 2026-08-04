@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-08-04",
-  "generatedAt": "2026-08-04T16:17:25Z",
-  "lastAttemptAt": "2026-08-04T16:17:25Z",
-  "lastSuccessfulUpdate": "2026-08-04T16:17:25Z",
-  "status": "partial",
+  "generatedAt": "2026-08-04T20:17:33Z",
+  "lastAttemptAt": "2026-08-04T20:17:33Z",
+  "lastSuccessfulUpdate": "2026-08-04T20:17:33Z",
+  "status": "current",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-08-04T16:17:24Z",
-      "lastSuccessAt": "2026-08-04T16:17:25Z",
-      "articlesRetrieved": 35,
-      "responseTimeMs": 733,
+      "lastAttemptAt": "2026-08-04T20:17:32Z",
+      "lastSuccessAt": "2026-08-04T20:17:32Z",
+      "articlesRetrieved": 33,
+      "responseTimeMs": 617,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-08-04T16:17:24Z",
-      "lastSuccessAt": "2026-08-04T16:17:24Z",
+      "lastAttemptAt": "2026-08-04T20:17:32Z",
+      "lastSuccessAt": "2026-08-04T20:17:32Z",
       "articlesRetrieved": 136,
-      "responseTimeMs": 415,
+      "responseTimeMs": 410,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,118 +38,26 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-08-04T16:17:24Z",
-      "lastSuccessAt": "2026-08-04T16:17:25Z",
+      "lastAttemptAt": "2026-08-04T20:17:32Z",
+      "lastSuccessAt": "2026-08-04T20:17:32Z",
       "articlesRetrieved": 10,
-      "responseTimeMs": 946,
+      "responseTimeMs": 630,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "failed",
-      "lastAttemptAt": "2026-08-04T16:17:24Z",
-      "lastSuccessAt": null,
-      "articlesRetrieved": 0,
-      "responseTimeMs": null,
-      "errorType": "RuntimeError",
-      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      "status": "success",
+      "lastAttemptAt": "2026-08-04T20:17:32Z",
+      "lastSuccessAt": "2026-08-04T20:17:32Z",
+      "articlesRetrieved": 100,
+      "responseTimeMs": 551,
+      "errorType": null,
+      "errorMessage": null
     }
   ],
   "articles": [
-    {
-      "id": "53423f2a4dac1638968c9a22",
-      "title": "BP's $5.7bn profit highest since 2022 as Iran war pushes up oil price",
-      "translatedTitle": null,
-      "description": "Higher oil prices boost the energy giant's results while environmental groups accuse it of profiteering.",
-      "url": "https://www.bbc.co.uk/news/articles/cg5l11m02j3o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cg5l11m02j3o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T10:07:05Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d288/live/6e9f5aa0-8ff6-11f1-b2ab-0dd01740f9f6.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "923cb82b1028f0ca27f4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "d5ed7d1f69fcd1cb8d5055cf",
-          "title": "BP profit doubles to $5.7bn as war between US and Iran drives up oil prices",
-          "translatedTitle": null,
-          "description": "The five majors, BP, Shell, ExxonMobil, Chevron and TotalEnergies, together made about $46bn between April and June",
-          "url": "https://www.independent.co.uk/news/business/bp-profits-oil-companies-iran-war-b3027159.html",
-          "canonicalUrl": "https://independent.co.uk/news/business/bp-profits-oil-companies-iran-war-b3027159.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-08-04T11:53:34Z",
-          "imageUrl": "https://static.independent.co.uk/2026/08/04/12/2288973983..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-04T12:17:23Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "923cb82b1028f0ca27f4",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "bp profit doubles to 5 7bn as war between us and iran drives up oil prices"
-        },
-        {
-          "id": "4626204c0157e0ad4505b073",
-          "title": "BP slammed as profits more than double during Iran war",
-          "translatedTitle": null,
-          "description": "Campaigners have also accused BP of ‘profiteering’ from a ‘climate crisis’",
-          "url": "https://www.independent.co.uk/news/business/bp-iran-war-share-price-b3026968.html",
-          "canonicalUrl": "https://independent.co.uk/news/business/bp-iran-war-share-price-b3026968.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-08-04T07:53:28Z",
-          "imageUrl": "https://static.independent.co.uk/2026/08/04/08/2026-07-06T102842Z_1866823323_RC2A8MAH12TS_RTRMADP_3_BP-EQUINOR-CANADA.JPG?width=1200&auto=webp&trim=0%2C170%2C0%2C170",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-04T08:17:32Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "923cb82b1028f0ca27f4",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 7.14133,
-          "normalizedTitle": "bp slammed as profits more than double during iran war",
-          "sourceQuality": 1.05
-        }
-      ],
-      "rankingScore": 9.92126
-    },
     {
       "id": "5ab60aa52bbe62fa8c6c986d",
       "title": "Seoul braces for heatwave sweeping South Korea as death toll reaches 16",
@@ -177,7 +85,7 @@
       "clusterId": "5fec64350a2ef32926ae",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.7655,
+      "rankingScore": 8.82099,
       "related": [
         {
           "id": "d344034c474506888ada9559",
@@ -212,6 +120,36 @@
       ]
     },
     {
+      "id": "5312c4eae63a4ffbe90440b9",
+      "title": "Iran’s president denies threatening to resign during talks over strait of Hormuz",
+      "translatedTitle": null,
+      "description": "Masoud Pezeshkian dismisses talk of internal rift as hardline Assembly of Experts call US negotiations ‘futile’ Middle East crisis live – latest updates Masoud Pezeshkian, Iran’s president, has been forced to deny claims that he has repeatedly threatened to resign as he battles hardline factions opposed to reaching a settlement with the US over the strait of Hormuz. The US and Europe hope a deal is imminent to reopen the strait and they are putting pressure on Oman to accept a temporary agreemen",
+      "url": "https://www.theguardian.com/world/2026/aug/04/irans-president-denies-threatening-to-resign-during-talks-over-strait-of-hormuz",
+      "canonicalUrl": "https://theguardian.com/world/2026/aug/04/irans-president-denies-threatening-to-resign-during-talks-over-strait-of-hormuz",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T18:24:35Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b11d26d7d61c7930c27e4e57dc4a1656237d8a34/1035_244_1163_930/master/1163.jpg?width=140&quality=85&auto=format&fit=max&s=dd6141e2708c390b9a5a48e4e95e88d2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8ebbbe441e53503efa59",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.32121
+    },
+    {
       "id": "e6f6727457b473760a678ce2",
       "title": "Mass funeral in Gaza for 112 Palestinians killed in 2023 Israeli strike",
       "translatedTitle": null,
@@ -231,7 +169,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T16:17:25Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -259,7 +197,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-04T16:17:25Z",
+          "retrievedAt": "2026-08-04T20:17:32Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -270,15 +208,135 @@
           "normalizedTitle": "funeral held for 112 victims buried under rubble of gaza flats for nearly three years"
         }
       ],
-      "rankingScore": 8.72266
+      "rankingScore": 8.3113
     },
     {
-      "id": "2d79e58cf0ceb6ab955dd35a",
-      "title": "Top Fifa official Wenger says scrapping World Cup plan 'absolutely necessary'",
+      "id": "84616e6cf5dcc4fa24a4880b",
+      "title": "Calls to ban disposable barbecues in England and Wales over wildfire risk",
       "translatedTitle": null,
-      "description": "Fifa's chief of global football development Arsene Wenger says the decision to scrap the plan to have private investment in Fifa competitions was \"absolutely necessary\".",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c2k7p4nxdy4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c2k7p4nxdy4o?at_campaign=rss&at_medium=RSS",
+      "description": "Lib Dems and many Labour MPs join farmers, landowners and firefighters in urging temporary prohibition Farmers and landowners are calling for a temporary ban on disposable barbecues in England and Wales, as they warn of the risk of igniting wildfires. The call, which has also been made by firefighters and is backed by the Liberal Democrats and many Labour MPs, comes as much of England faces further hot dry weather, despite rain in some areas. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/aug/04/call-to-ban-disposable-barbecues-in-england-and-wales-over-wildfire-risk",
+      "canonicalUrl": "https://theguardian.com/world/2026/aug/04/call-to-ban-disposable-barbecues-in-england-and-wales-over-wildfire-risk",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T17:46:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4e3062fed85837374cb05b288b7ba470a4a2d5d1/430_0_4300_3440/master/4300.jpg?width=140&quality=85&auto=format&fit=max&s=eb1b97e1a06833c9b36cf38a084d7c1c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "57443c2eff0074d17eff",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.25239
+    },
+    {
+      "id": "1ac46bedb1df9f65dad3c47c",
+      "title": "States, judges and election officials warn Supreme Court against Trump ‘chaos’ with mail-in ballot order",
+      "translatedTitle": null,
+      "description": "Justices will soon decide whether the president’s sweeping changes to mail-in ballots can move forward before crucial midterms",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-mail-in-ballots-supreme-court-chaos-b3027354.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-mail-in-ballots-supreme-court-chaos-b3027354.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T17:53:09Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/16/2277841693..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b04c358585e73485670d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.17438
+    },
+    {
+      "id": "280726329370a4ac83c3dcc5",
+      "title": "Firefighters forced to escort dog walkers away from wildfire scorched Dunwich Heath",
+      "translatedTitle": null,
+      "description": "Firefighters warned parts of the burnt ground could be hiding temperatures higher than 60C at the surface level of the scorched heath",
+      "url": "https://www.independent.co.uk/news/uk/home-news/firefighters-warning-dog-walkers-suffolk-wildfire-dunwich-heath-b3027293.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/firefighters-warning-dog-walkers-suffolk-wildfire-dunwich-heath-b3027293.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T16:48:30Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/14/24/764975776_2532730297191621_2807266027495617582_n.jpeg?width=1200&auto=webp&trim=66%2C0%2C67%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a1c41e7a6fb9dde629cf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.06256
+    },
+    {
+      "id": "d5ed7d1f69fcd1cb8d5055cf",
+      "title": "BP profit doubles to $5.7bn as war between US and Iran drives up oil prices",
+      "translatedTitle": null,
+      "description": "The five majors, BP, Shell, ExxonMobil, Chevron and TotalEnergies, together made about $46bn between April and June",
+      "url": "https://www.independent.co.uk/news/business/bp-profits-oil-companies-iran-war-b3027159.html",
+      "canonicalUrl": "https://independent.co.uk/news/business/bp-profits-oil-companies-iran-war-b3027159.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T11:53:34Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/12/2288973983..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T12:17:23Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9d827dd232352b63b72c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.62941
+    },
+    {
+      "id": "273354593ed6fc1b1ac6aefb",
+      "title": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
+      "translatedTitle": null,
+      "description": "About 70,000 of the 72,000 people who came to Ceuta illegally last week have been returned to Morocco, Spain says.",
+      "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c80n3j55g0do?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -287,26 +345,26 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T10:45:14Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/64df/live/e2ebdfd0-8ff3-11f1-a7ab-8b30adf0800a.jpg",
+      "publishedAt": "2026-08-04T19:30:43Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fde3/live/82720620-9020-11f1-a7ab-8b30adf0800a.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T16:17:25Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "12382b0e730e39727e75",
+      "clusterId": "41a2e0842184601d0746",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "ddfc2f8887f881a7f6d18d79",
-          "title": "Wenger and Infantino’s No 2 Grafström criticise ‘sad and reproachable’ World Cup plan",
+          "id": "8154e97679e1665012d3b8d4",
+          "title": "EU chief criticises Spain’s migrant plan after Ceuta crisis meeting",
           "translatedTitle": null,
-          "description": "Senior Fifa duo pile pressure on under-fire president Wenger reveals he knew nothing about investment plan Gianni Infantino’s authority was dealt a further blow after his No 2, the Fifa secretary general, Mattias Grafström, called the failed World Cup private investment plan a “sad and reproachable series of events”. In further evidence that senior Fifa personnel continue to distance themselves from Infantino and his botched scheme, Arsène Wenger issued a statement on Tuesday morning saying the",
-          "url": "https://www.theguardian.com/football/2026/aug/04/arsene-wenger-gianni-infantino-grafstrom-criticise-world-cup-plan-fifa",
-          "canonicalUrl": "https://theguardian.com/football/2026/aug/04/arsene-wenger-gianni-infantino-grafstrom-criticise-world-cup-plan-fifa",
+          "description": "Migration commissioner says scheme regularising undocumented people ‘not a good signal’ for Europe Explainer: Why is Ceuta a migration flashpoint? The EU’s top official on migration has criticised Spain’s plan to regularise undocumented migrants as “not a good signal” for Europe, after an emergency meeting intended to draw a line under divisions on the Ceuta crisis. Magnus Brunner, the European commissioner for migration, said that while the EU could not currently see a direct link between event",
+          "url": "https://www.theguardian.com/world/2026/aug/04/eu-criticises-spain-migrant-plan-ceuta-crisis-meeting",
+          "canonicalUrl": "https://theguardian.com/world/2026/aug/04/eu-criticises-spain-migrant-plan-ceuta-crisis-meeting",
           "sourceName": "The Guardian",
           "sourceDomain": "theguardian.com",
           "sourceCountry": "GB",
@@ -315,233 +373,144 @@
             "GB"
           ],
           "language": "en",
-          "publishedAt": "2026-08-04T11:36:24Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/3e6e8459eb4fd26969df11fd89e951d87007c120/1327_323_4115_3292/master/4115.jpg?width=140&quality=85&auto=format&fit=max&s=6cb21cadf9f54ceb899bf92657e84e00",
+          "publishedAt": "2026-08-04T16:51:51Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/0c71ab15b981c832daa15302a63c679ba0b2ef78/154_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=0b71f7896bd77352798a9008280a83df",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-04T16:17:24Z",
+          "retrievedAt": "2026-08-04T20:17:32Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "12382b0e730e39727e75",
+          "clusterId": "41a2e0842184601d0746",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
-          "normalizedTitle": "wenger and infantino s no 2 grafström criticise sad and reproachable world cup plan"
-        },
-        {
-          "id": "dbcf16838e048b92aebc4550",
-          "title": "Arsene Wenger breaks silence on Gianni Infantino’s failed World Cup sell-off plan",
-          "translatedTitle": null,
-          "description": "Fifa’s chief of global development Arsene Wenger welcomes Infantino’s decision to scrap controversial proposal",
-          "url": "https://www.independent.co.uk/sport/football/arsene-wenger-gianni-infantino-fifa-world-cup-b3027093.html",
-          "canonicalUrl": "https://independent.co.uk/sport/football/arsene-wenger-gianni-infantino-fifa-world-cup-b3027093.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-08-04T11:10:59Z",
-          "imageUrl": "https://static.independent.co.uk/2026/08/04/12/01KZ62W8Z77HBS66QKTZFXDQDD.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-04T12:17:23Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "12382b0e730e39727e75",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "arsene wenger breaks silence on gianni infantino s failed world cup sell off plan"
-        },
-        {
-          "id": "1d188b8c337c3132e1160737",
-          "title": "Arsene Wenger says he was not involved in plan to sell World Cup stakes",
-          "translatedTitle": null,
-          "description": null,
-          "url": "https://www.independent.co.uk/bulletin/sport/wenger-infantino-fifa-world-cup-stake-b3027123.html",
-          "canonicalUrl": "https://independent.co.uk/bulletin/sport/wenger-infantino-fifa-world-cup-stake-b3027123.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-08-04T10:57:01Z",
-          "imageUrl": "https://static.independent.co.uk/2026/08/04/11/2026-07-18T180400Z_2087928960_UP1EM7I1E6N58_RTRMADP_3_SOCCER-WORLDCUP-FIFA.JPG?width=1200&auto=webp&trim=0%2C89%2C0%2C89",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-04T12:17:23Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "12382b0e730e39727e75",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "arsene wenger says he was not involved in plan to sell world cup stakes"
+          "normalizedTitle": "eu chief criticises spain s migrant plan after ceuta crisis meeting"
         }
       ],
-      "rankingScore": 8.3274
+      "rankingScore": 7.41632
     },
     {
-      "id": "f6d056dd36bf8dabd93312e6",
-      "title": "We launched a war on nature. Now we are in a climate warzone | Rebecca Solnit",
+      "id": "eaa4233deedd4d3a422f9248",
+      "title": "Paramount chief executive David Ellison breaks silence on Warner Bros mega merger",
       "translatedTitle": null,
-      "description": "Summer is not what it once was. We have been robbed of one of life’s great joys Far beyond the fires raging across Europe and North America, the smoke, dangerous to breathe, hangs in the air, dimming the view, changing the very color of sunlight into something grimly unsettling. An estimated 20,000 are said to have died in the extreme heat in Europe earlier this year, and heat is climate change’s quiet killer, compared to the dramatic violence of death by fire or flood. In eastern Washington, 60",
-      "url": "https://www.theguardian.com/commentisfree/2026/aug/04/summer-heat-climate-war-zone",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/04/summer-heat-climate-war-zone",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "The chief executive of Paramount-Skydance says criticism of $110bn (£82m) merger with Warner Bros. relies on outdated Hollywood model.",
+      "url": "https://www.bbc.co.uk/news/articles/c0qvp2nkxd9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c0qvp2nkxd9o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T10:00:47Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/81531c39c97e347358c0934cbf71d0f15f7849af/421_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=969a53e577f26aea1d7fd0ef1c03022b",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "52c92e6252e0a7b3cade",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 8.24218,
-      "related": []
-    },
-    {
-      "id": "2ddee421068fcf79e46e1f4b",
-      "title": "Jerusalem’s most important Muslim religious site facing ‘imminent’ threat of Israeli takeover, says Jordan",
-      "translatedTitle": null,
-      "description": "Country convenes emergency meeting of ministers from Arab and Islamic world, fearing such a move could ‘trigger a religious conflict’ Middle East crisis live – latest updates Jordan is convening an emergency meeting of foreign ministers from the Arab and Islamic world over what it says is an “imminent” threat of an Israeli takeover of the most important Muslim site in Jerusalem, with the potential to “trigger a religious conflict”. The meeting on Wednesday – and the Jordanian warning – follow an",
-      "url": "https://www.theguardian.com/world/2026/aug/04/jordan-convenes-emergency-meeting-israel-religious-conflict-jerusalem",
-      "canonicalUrl": "https://theguardian.com/world/2026/aug/04/jordan-convenes-emergency-meeting-israel-religious-conflict-jerusalem",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T13:15:34Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a6d444e9564511fa1a879b531aaff4271caaea93/326_0_6361_5088/master/6361.jpg?width=140&quality=85&auto=format&fit=max&s=ed15345ee4d40cc4b7922e7168566df3",
+      "publishedAt": "2026-08-04T19:48:06Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d59/live/6d72db30-903b-11f1-a691-e5bd21941ac1.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3f0c9d0de09002423719",
+      "clusterId": "ffcf755dbe9d848e199d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.19896
+      "rankingScore": 7.40049
     },
     {
-      "id": "ed6f55782d872368c8bf905c",
-      "title": "Pressure mounts on Gianni Infantino as top Fifa chief warns ‘individuals come and go’",
+      "id": "c202f8af53a3978ab4239160",
+      "title": "Sunken Nazi warships emerge from the Danube as water levels drop to record lows",
       "translatedTitle": null,
-      "description": "Fifa secretary general Mattias Grafstrom labelled Infantino’s plans as ‘sad’ in an internal email to staff, while Arsene Wenger has also distanced himself from the Fifa president",
-      "url": "https://www.independent.co.uk/sport/football/gianni-infantino-latest-fifa-world-cup-sell-off-b3027114.html",
-      "canonicalUrl": "https://independent.co.uk/sport/football/gianni-infantino-latest-fifa-world-cup-sell-off-b3027114.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Water levels in the river Danube have fallen so low due to this summer's dry weather in Europe that sunken Nazi warships are appearing into view.",
+      "url": "https://news.sky.com/story/sunken-nazi-warships-emerge-from-the-danube-as-water-levels-drop-to-record-lows-13569774",
+      "canonicalUrl": "https://news.sky.com/story/sunken-nazi-warships-emerge-from-the-danube-as-water-levels-drop-to-record-lows-13569774",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T11:07:58Z",
-      "imageUrl": "https://static.independent.co.uk/2026/03/01/17/29/IFAB-AGM-2026-Saturday-February-28th-ektx7ija.jpeg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-08-04T15:03:00Z",
+      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-danube-warship_7313807.jpg?20260804154726",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T12:17:23Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fecfa9439a0d5881f26f",
+      "clusterId": "23d767b2642a9a79de92",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.9018,
-      "related": []
+      "related": [],
+      "rankingScore": 6.63387
     },
     {
-      "id": "8a37ac59937b0becf7938abd",
-      "title": "South Korean president declares ‘national disaster’ as heatwave death toll rises to 19",
+      "id": "18ed6cb918ddaca4924b4cd6",
+      "title": "Boy, 14, drowns in dock",
       "translatedTitle": null,
-      "description": "South Korea has treated more than 2,000 people for heat-related illnesses since May",
-      "url": "https://www.independent.co.uk/asia/east-asia/south-korea-heatwave-seoul-temperature-b3026941.html",
-      "canonicalUrl": "https://independent.co.uk/asia/east-asia/south-korea-heatwave-seoul-temperature-b3026941.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "A 14-year-old boy drowned in London on Monday, police said.",
+      "url": "https://news.sky.com/story/a-14-year-old-boy-drowns-in-dock-13569613",
+      "canonicalUrl": "https://news.sky.com/story/a-14-year-old-boy-drowns-in-dock-13569613",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T10:32:57Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/04/07/2026-08-04T051449Z_441131319_RC2DRMAZZDW1_RTRMADP_3_ASIA-WEATHER-SOUTHKOREA.JPG?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
+      "publishedAt": "2026-08-04T07:03:00Z",
+      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-millwall-outer-dock_7313691.jpg?20260804133127",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T12:17:23Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b3e5b784990ed8650789",
+      "clusterId": "2c679e108996f38f0562",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.8491,
-      "related": []
-    },
-    {
-      "id": "b0ff0fa6f433ef91d794c5aa",
-      "title": "Warwick Castle discount codes for August 2026",
-      "translatedTitle": null,
-      "description": "Save big on tickets with a Warwick Castle promo code this summer",
-      "url": "https://www.independent.co.uk/deals/warwick-castle-discount-code-b2712189.html",
-      "canonicalUrl": "https://independent.co.uk/deals/warwick-castle-discount-code-b2712189.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T12:12:59Z",
-      "imageUrl": "https://static.independent.co.uk/2026/03/16/17/57/Warwick-Castle-deals-and-discount-codes-2026.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T12:17:23Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c8eb5898c64928fd8813",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.6543,
-      "related": []
+      "rankingScore": 6.09402,
+      "related": [
+        {
+          "id": "6d3192dbccea7c576e58a496",
+          "title": "Boy, 14, dies after going into River Thames",
+          "translatedTitle": null,
+          "description": "The teen was pronounced dead at the scene on London’s Isle of Dogs",
+          "url": "https://www.independent.co.uk/news/uk/home-news/river-thames-london-boy-death-b3027204.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/river-thames-london-boy-death-b3027204.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-08-04T12:42:50Z",
+          "imageUrl": "https://static.independent.co.uk/2026/08/04/14/01KZ6G501F40BQNSYZM3Z7KS5Z.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-04T20:17:32Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "2c679e108996f38f0562",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "boy 14 dies after going into river thames"
+        }
+      ]
     },
     {
       "id": "2de63804978de0a8394edd8e",
@@ -570,76 +539,16 @@
       "clusterId": "3b6a7c6f305e95ed7081",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.28153,
+      "rankingScore": 6.00601,
       "related": []
     },
     {
-      "id": "baf413690fd47cd2102942f1",
-      "title": "Stars attend funeral of Oscar-winning musician Glen Hansard",
+      "id": "5eb77dbf564869435631a0fb",
+      "title": "After five brutal years of Taliban rule, Afghan women and girls need our help – and I have a plan | Gordon Brown",
       "translatedTitle": null,
-      "description": "Stars and fans of Irish music have gathered in Dublin for the funeral of Oscar-winning musician Glen Hansard.",
-      "url": "https://news.sky.com/story/stars-and-fans-gather-for-funeral-of-oscar-winning-musician-glen-hansard-13569741",
-      "canonicalUrl": "https://news.sky.com/story/stars-and-fans-gather-for-funeral-of-oscar-winning-musician-glen-hansard-13569741",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T13:46:00Z",
-      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-glen-hansard-funeral_7313724.jpg?20260804141521",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b9c6427f7b562877d11a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.55208
-    },
-    {
-      "id": "9e7d9dbd854f1eb5c1053aec",
-      "title": "Doctor struck off after leaving patient in 'uncontrollable pain' following botched operation",
-      "translatedTitle": null,
-      "description": "A doctor who wrongly connected a young man's organs, which meant his bowel contents were re-deposited into his stomach, has been struck off the medical register.",
-      "url": "https://news.sky.com/story/doctor-who-left-patient-in-uncontrollable-pain-after-wrongly-connecting-organs-in-botched-operation-is-struck-off-13569689",
-      "canonicalUrl": "https://news.sky.com/story/doctor-who-left-patient-in-uncontrollable-pain-after-wrongly-connecting-organs-in-botched-operation-is-struck-off-13569689",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T11:14:00Z",
-      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-royal-oldham-hospital_7313615.jpg?20260804122935",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "43538ae9226fed1ff472",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.30106
-    },
-    {
-      "id": "db0bd764d492f5acbffa507f",
-      "title": "A rail nightmare: what it’s like on England’s busiest commuter-only train",
-      "translatedTitle": null,
-      "description": "This evening service from London to Crewe is hot, sweaty and heaving with people, many having to stand or sit in the gangways The 5.46pm train from London Euston to Crewe is the low point of Nikhil Patel’s week. “I’ve never gotten a seat. I always stand up even when I get here early,” says the 22-year-old, struggling to keep his balance while the gangway underneath sways from side to side. Painfully for Patel, who is commuting back and forth to the capital for a computer science internship, it’s",
-      "url": "https://www.theguardian.com/uk-news/2026/aug/04/a-rail-nightmare-what-its-like-on-englands-busiest-commuter-only-train",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/aug/04/a-rail-nightmare-what-its-like-on-englands-busiest-commuter-only-train",
+      "description": "Even in the face of appalling repression, girls yearn to fulfil their educational potential. We must set up a global fund to help them Next weekmarks the fifth anniversary of the takeover of Afghanistan by the Taliban as US coalition troops were evacuated from the country. That’s five years for the terrorists to have consolidated their grip, so now is a good time to reflect on what the “coalition of the willing” left behind. Through vindictive edict after edict, these five years have brought an",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/04/five-years-taliban-rule-afghan-women-and-girls-need-our-help",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/04/five-years-taliban-rule-afghan-women-and-girls-need-our-help",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -648,28 +557,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T11:00:49Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/332276ea1c89d2c6ded48844b95c8be2a99f203c/925_0_2670_2136/master/2670.jpg?width=140&quality=85&auto=format&fit=max&s=f3b33a992fa839a38a3cbb66712c8ce5",
+      "publishedAt": "2026-08-04T06:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c691541f995a5b3e866a299b0715dbaefb3fea20/1661_2278_1982_1586/master/1982.jpg?width=140&quality=85&auto=format&fit=max&s=0d7187d5cadf9827f3066b76687f3d03",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "8a7a51057683a7a1ee3b",
+      "clusterId": "4e6b3734555f9f9ca51d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.2809
+      "rankingScore": 5.98451
     },
     {
-      "id": "eaa6c613a52409bc4273fe96",
-      "title": "Sex, drugs and serial killers: inside Ryan Murphy and Bret Easton Ellis’s lurid TV thriller",
+      "id": "7d4f66b9e1df43372b9f9b56",
+      "title": "Secondhand EV leasing hits the fast lane as more UK drivers explore ways to cut motoring costs",
       "translatedTitle": null,
-      "description": "The Shards brings the cocaine-addled teens of a 1980s prep school to life with a cast of newcomers and a heavy dose of sleaze One of the first things Ryan Murphy’s TV adaptation of Bret Easton Ellis’s The Shards will make you ask is: where the hell are these kids’ parents? The answer is simple. This is Los Angeles in 1981, and these fabulously benumbed kids aren’t being helicopter-parented. They’re going to parties, drinking whiskey, listening to Ultravox’s Vienna on repeat and doing copious amo",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/aug/04/the-shards-tv-show-thriller-cast-interview",
-      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/aug/04/the-shards-tv-show-thriller-cast-interview",
+      "description": "Numbers using finance rises 170% in a year as leasing firms boom alongside leapin secondhand vehicle supply and surging fuel prices The number of people leasing used electric cars in the UK has more than doubled in the last year as drivers look for cheaper ways to avoid soaring petrol prices during Donald Trump’s war on Iran. Used electric car leasing has risen by 170% in the last year across members of the British Vehicle Rental and Leasing Association (BVRLA), a lobby group whose members buy a",
+      "url": "https://www.theguardian.com/business/2026/aug/04/secondhand-ev-leasing-growth-uk-drivers-cut-petrol-costs",
+      "canonicalUrl": "https://theguardian.com/business/2026/aug/04/secondhand-ev-leasing-growth-uk-drivers-cut-petrol-costs",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -678,628 +587,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T11:00:48Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d1acff7b18b09a889663fdf8d7b826f6dc84ff07/426_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=45b83bb4a99b7976d7eba7d894f58488",
+      "publishedAt": "2026-08-04T06:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4da903e8d3d40e038a793a030873f435e740f0fa/327_0_2846_2277/master/2846.jpg?width=140&quality=85&auto=format&fit=max&s=51328c022da946b501e2f3f20c40db6b",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a0f62134765aafc363a2",
+      "clusterId": "719ce2d0c3f5316cef6c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.28088
+      "rankingScore": 5.98451
     },
     {
-      "id": "49197b7a2e04e5f69ca01de0",
-      "title": "‘When you kill it, it doesn’t die’: the jellyfish that has cracked the secret of immortality",
+      "id": "f682baf54b7ea7cb659e5782",
+      "title": "Princess Eugenie gives birth to third child in Portugal",
       "translatedTitle": null,
-      "description": "Turritopsis dohrnii has the ability to turn back into a baby jellyfish and grow up all over again Revealed: the top ten invertebrates of the year Immortality is generally considered the realm of the gods or science fiction, a fantasy that’s actively pursued by tech entrepreneurs in macabre experiments that include injecting “young blood”, cryopreservation, or resurrection in an AI afterlife. But one ethereal, thimble-shaped jellyfish has already cracked the code. It’s Invertebrate of the Year ag",
-      "url": "https://www.theguardian.com/environment/2026/aug/04/when-you-kill-it-it-doesnt-die-the-jellyfish-that-has-cracked-the-secret-of-immortality",
-      "canonicalUrl": "https://theguardian.com/environment/2026/aug/04/when-you-kill-it-it-doesnt-die-the-jellyfish-that-has-cracked-the-secret-of-immortality",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T11:00:47Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/badd7363c69ae851ab92dac99182c3ae6756af57/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=21947e322b0c32319acf2aebef0be7f7",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "48beed4a62a129274acd",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28085
-    },
-    {
-      "id": "37a8e2aed6bee40480b0ff83",
-      "title": "Big Walk review – larking around with mates elevated to an artform",
-      "translatedTitle": null,
-      "description": "Switch 2, PlayStation 5, PC; House HouseThe creators of Untitled Goose Game return with an online, open-world adventure that delivers slapstick silliness and bucolic majesty in nearly equal measure Radiant sunsets glinting on lapping waves; bushland valleys that beckon with secrets; modernist buildings sat atop craggy ridges: Big Walk’s setting is as arresting as it is beguiling – a kind of architectural fever dream transplanted to a handsome Australian wilderness – but it is the images created",
-      "url": "https://www.theguardian.com/games/2026/aug/04/big-walk-review-larking-around-with-mates-elevated-to-an-artform",
-      "canonicalUrl": "https://theguardian.com/games/2026/aug/04/big-walk-review-larking-around-with-mates-elevated-to-an-artform",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T10:41:57Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/7baf9975cb0d5cb10efe4cd91c6f7054a8c5ac57/332_521_2776_2220/master/2776.jpg?width=140&quality=85&auto=format&fit=max&s=d889e8dadcff0b589664c8cf3cf5a17d",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "543166f7e0c702b404cb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.25249
-    },
-    {
-      "id": "e23ee6d40f1a64c36d1fd770",
-      "title": "Ariana Grande expands on decision to ‘step back from visibility’, telling fans it was ‘not reactive or impulsive’",
-      "translatedTitle": null,
-      "description": "Singer and actor, whose world tour ends next month, told audience in Chicago that she had been quietly planning the move for a long time Ariana Grande has expanded upon her recent decision to take “a step back from visibility” when her tour ends next month, as a result of what a spokesperson called “endless, ongoing public scrutiny”. On Monday night during the first show of a three-night run in Chicago, the 33-year-old musician and actor read from notes as she told fans: “The announcement that w",
-      "url": "https://www.theguardian.com/music/2026/aug/04/ariana-grande-decision-to-step-back-from-visibility-chicago-petal",
-      "canonicalUrl": "https://theguardian.com/music/2026/aug/04/ariana-grande-decision-to-step-back-from-visibility-chicago-petal",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T10:32:58Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f4482999ab227dd4295a701157de4ded5baacb5e/1563_619_3946_3156/master/3946.jpg?width=140&quality=85&auto=format&fit=max&s=03dc3c82441248d7a42b77647579bf1a",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cb95f09bfad31efb0635",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.23913
-    },
-    {
-      "id": "69401b234910f274ab2af3d9",
-      "title": "I would never go on holiday to France and come back with a pig. But I’ll admit I was tempted | Zoe Williams",
-      "translatedTitle": null,
-      "description": "The animal was no bigger than a pug and, when you scratched it, lay on its side and snorted with joy. Who could ask for more? I went to a market recently in the Cévennes, in southern France. It was piled high with things that in principle I’m interested in, but wouldn’t want to own – giant Victorian scissors, tomatoes in the shape of a heart, 70s airline trays, carafe after carafe for the distribution of Ricard, art deco atomisers and vintage cycling tops. It wasn’t purpose-built entertainment f",
-      "url": "https://www.theguardian.com/commentisfree/2026/aug/04/holiday-france-pig",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/04/holiday-france-pig",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T10:00:46Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9c3b81282f06fecc4311b4b0d907c37ad6656721/1371_831_5210_4170/master/5210.jpg?width=140&quality=85&auto=format&fit=max&s=be1049bbab02cca37d387e068aa8d710",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1a64d7459dc290996748",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.19216
-    },
-    {
-      "id": "e9bd537ab69654f0c0477307",
-      "title": "A pressing issue: why are vinyl albums becoming so different from their digital versions?",
-      "translatedTitle": null,
-      "description": "They’re expensive, elaborate – and may not contain all the music. After Olivia Rodrigo, Charli xcx and more sent out incomplete or unfinished vinyl versions, fans are feeling shortchanged It was one of the most anticipated collaborations of the year: Charli xcx teaming up with film-maker David Cronenberg for No One Lasts Forever, the closing track on her new album Music, Fashion, Film, which debuted at No 1 in the UK. But for fans who pre-ordered what was advertised as the “full-length” album on",
-      "url": "https://www.theguardian.com/music/2026/aug/04/a-pressing-issue-vinyl-albums-riddled-with-mistakes-charli-xcx-olivia-rodrigo",
-      "canonicalUrl": "https://theguardian.com/music/2026/aug/04/a-pressing-issue-vinyl-albums-riddled-with-mistakes-charli-xcx-olivia-rodrigo",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T09:40:24Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/53a92e411b01c23e5d9ef08b6d125853a39aad26/0_0_1440_1152/master/1440.jpg?width=140&quality=85&auto=format&fit=max&s=f5d9ef9d4eefad93361f6d03ea2ba079",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4f4f68ca6d34f78f4071",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.16316
-    },
-    {
-      "id": "63a6d9ad8d96e552babd1db4",
-      "title": "The best suitcases in the UK for your next holiday, rigorously tested",
-      "translatedTitle": null,
-      "description": "Most suitcases look hardwearing, but which ones actually are? We dropped bestselling brands’ luggage from a ladder to find out … • The best carry-on luggage A suitcase is like the portrait in the traveller’s attic, accumulating more than its fair share of knocks and scrapes while we refresh ourselves on the road. We trundle them over cobbles, see them tumble from luggage racks on the train – and if we choose to fly, there’s a fair chance they’ll be mishandled before we reunite at the carousel. F",
-      "url": "https://www.theguardian.com/thefilter/2025/may/18/best-suitcases-luggage-uk",
-      "canonicalUrl": "https://theguardian.com/thefilter/2025/may/18/best-suitcases-luggage-uk",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T09:06:52Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/15ff786cd38af0d2193751fb74b93c5db4d74385/0_0_3167_2534/master/3167.jpg?width=140&quality=85&auto=format&fit=max&s=386a1e19a12b58cc14b821e18561c881",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "80c2298fd00dbc2a45a4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.11659
-    },
-    {
-      "id": "ce4082c2c4ac84389d6e09cd",
-      "title": "‘Nobody cares’: the Turkish farmers bearing the burden of UK’s plastic waste problem",
-      "translatedTitle": null,
-      "description": "Britain exported 139,000 tonnes of rubbish to Turkey last year, leaving smallholders and poor districts of Adana to cope with the debris, microplastics and toxic smoke UK plastic ‘waste colonialism’ found to be polluting Turkey’s farming heartland Plastic debris clings to the reeds in a waterway metres from where Ayhan*, a farmer in Adana, southern Turkey, is harvesting aubergines. “We get pollution from all sides here,” he says, referring to the plastic recycling zone upstream, as well as a nea",
-      "url": "https://www.theguardian.com/environment/2026/aug/04/plastic-waste-microplastics-exports-recycling-turkey-farmers-pollution-environment-recycling",
-      "canonicalUrl": "https://theguardian.com/environment/2026/aug/04/plastic-waste-microplastics-exports-recycling-turkey-farmers-pollution-environment-recycling",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T09:00:18Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/af87ec6bdff3b602538e870d4cbbffb5ef56f3db/201_0_3957_3165/master/3957.jpg?width=140&quality=85&auto=format&fit=max&s=8e18d10d7fa1b6af1ca1d194569892b8",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "418a8d8add4f5c21e073",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10764
-    },
-    {
-      "id": "33f39797cb41a3688628002c",
-      "title": "The truth about blushing: why we do it, how we can resist it – and why it’s actually good for us",
-      "translatedTitle": null,
-      "description": "Humans are the only animals whose faces redden with embarrassment. Should we see that as an affliction, or as a blessing? ‘Blushing is the most peculiar and most human of all expressions,” Charles Darwin once wrote, and he wasn’t wrong. Though certain species of bird pinken up as a means of communication, and uakari monkeys have red faces when in good health, we seem to be the only animal that flushes as a sign of embarrassment. “It’s a very truthful signal,” says Prof Sophie Scott, the director",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/aug/04/why-we-blush-how-to-resist-why-good-for-us",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/aug/04/why-we-blush-how-to-resist-why-good-for-us",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T09:00:17Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/59f8d8130a6cea8142dee0bc3d68fd87a62ce3c9/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=4631103ca050aea7e4131d2924f0f844",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "badad154d81096388ceb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10762
-    },
-    {
-      "id": "b0c2d1aa360b39199b15fb97",
-      "title": "Web of billions: how Spider-Man became the most heroic franchise in Hollywood",
-      "translatedTitle": null,
-      "description": "Tom Holland’s fourth outing as Peter Parker broke box office records but how did the web-slinger avoid growing superhero fatigue? A year ago, the superhero-industrial complex looked like it was on the wane. All three of Marvel’s big movies for 2025 underperformed to some degree or another, outgrossed by DC’s newest reboot of Superman – which itself made less than any number of previous-regime DC movies, and was followed up by this summer’s Supergirl, a costly bomb. It looked as if the age of her",
-      "url": "https://www.theguardian.com/film/2026/aug/04/spider-man-brand-new-day-performance",
-      "canonicalUrl": "https://theguardian.com/film/2026/aug/04/spider-man-brand-new-day-performance",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T09:00:17Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/45bcb8fc9fbd0fd617dae3d137dbda5e01c77bef/180_0_3332_2666/master/3332.jpg?width=140&quality=85&auto=format&fit=max&s=ad353b01234845324bbfb4e4321618d2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "570d0f51723ea60813b5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.10762
-    },
-    {
-      "id": "978483ef7ebc589a7a08f7e7",
-      "title": "Are you part of a community environmental action group? We’d like to hear about your experience",
-      "translatedTitle": null,
-      "description": "We want to hear from people around the world who have been getting involved in local action on the climate We’d like to hear from people across the world who have been involved in a local environmental action group or community project tackling climate change from where they live. What made you get involved? What has the group achieved, and what obstacles have you faced? Has it changed how you feel about your local area, or led to wider change? We’d also like to hear from anyone who tried to set",
-      "url": "https://www.theguardian.com/environment/2026/aug/04/local-community-environmental-climate-action-group-tell-us-your-experience",
-      "canonicalUrl": "https://theguardian.com/environment/2026/aug/04/local-community-environmental-climate-action-group-tell-us-your-experience",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T08:59:32Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/4530bbba1e2f79b0701ab8dd0f96bd63e33e1fdb/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=9ee458f2a52025358265c15e38162eb6",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4692b2dd7558457bc61c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.1066
-    },
-    {
-      "id": "810e69879584f616be2a9e8b",
-      "title": "Ben Stokes rules out 2027 Ashes return but ambition is ‘to coach England one day’",
-      "translatedTitle": null,
-      "description": "Captain also voices concern over Root’s return as captain Stokes expresses surprise Brook was not made Test captain Ben Stokes has trained his sights on becoming England head coach in the future and expressed concerns about Joe Root’s impending second stint as Test captain. In his first interview since retiring from England duty in June – a two-hour chat with his former teammates Stuart Broad and Jos Buttler on the For The Love Of Cricket Podcast –Stokes again ruled out returning for next summer",
-      "url": "https://www.theguardian.com/sport/2026/aug/04/ben-stokes-rules-out-2027-ashes-return-ambition-coach-england-one-day-cricket",
-      "canonicalUrl": "https://theguardian.com/sport/2026/aug/04/ben-stokes-rules-out-2027-ashes-return-ambition-coach-england-one-day-cricket",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T08:12:56Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/010158d997a3b7c68e0e1b5eb35bda5d8f18d8c2/423_148_3481_2785/master/3481.jpg?width=140&quality=85&auto=format&fit=max&s=07838d9dbcbb3e974e2e2428793a6acb",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "020006423037b520421a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.04467
-    },
-    {
-      "id": "6453c48cb26faf20f29ae086",
-      "title": "Love Me Tender review – Vicky Krieps custody-battle drama is intelligent, sensual and bitter slice of life",
-      "translatedTitle": null,
-      "description": "Anna Cazenave Cambet’s adaptation of Constance Debré’s novel is a superbly acted and affecting – if restrained – portrait of child access and interpersonal strife Vicky Krieps gives an intelligent, finely calibrated and sensitive performance in this marital-breakdown drama from writer-director Anna Cazenave Cambet. Cambet has adapted the autobiographical novel of the same title by Constance Debré, about her bitter experience of being denied contact with her young son after her marriage breakup –",
-      "url": "https://www.theguardian.com/film/2026/aug/04/love-me-tender-review-vicky-krieps-constance-debre-anna-cazenave-cambet",
-      "canonicalUrl": "https://theguardian.com/film/2026/aug/04/love-me-tender-review-vicky-krieps-constance-debre-anna-cazenave-cambet",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T08:00:17Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0278fcb382cd69a2571f900b9b96842a351eaf53/362_30_1279_1023/master/1279.jpg?width=140&quality=85&auto=format&fit=max&s=7797657e837ef4871df23fe2041c27bb",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c12f119a686148ae2150",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.02831
-    },
-    {
-      "id": "2a7d835a8b10132dc3a9fdd0",
-      "title": "Ceuta was a carnival of anti-migrant content for hateful opportunists on the right – and a lesson for the left | Jonathan Liew",
-      "translatedTitle": null,
-      "description": "It was framed as a perfect storm because nativists dearly wanted it to be. Looking on, progressives failed to meet the moment too The live streams are still running, training their cameras on the beach at Ceuta, where nothing is happening. The self-styled citizen journalists are still pounding the streets, capturing their shaky smartphone footage. Zia Yusuf of Reform UK was out there at the weekend, wearing a crisp white shirt and smart tailored trousers, lest anyone confuse him with the other b",
-      "url": "https://www.theguardian.com/commentisfree/2026/aug/04/ceuta-carnival-anti-migrant-content-opportunists-on-right-lesson-for-left",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/04/ceuta-carnival-anti-migrant-content-opportunists-on-right-lesson-for-left",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T08:00:16Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1e5b14a585c6e326599e1910997567a7d30d5996/0_135_4832_3865/master/4832.jpg?width=140&quality=85&auto=format&fit=max&s=0ce1233ba349786b5cadf904102fa711",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a098cf9511f6307b24b3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.02829
-    },
-    {
-      "id": "f3d93c5b6c267d518b6963dc",
-      "title": "Geography of Heaven by Rory MacLean – soul-searching journeys into the afterlife",
-      "translatedTitle": null,
-      "description": "From an ashram in India to an ayahuasca ceremony in Peru, a travel writer searches for meaning after the death of his wife In this moving, sometimes grandiloquent grief-memoir-cum-travelogue, Rory MacLean pairs an affinity for new-age thinking with a habit of loftily holding forth (“none of us are created for naught”, “love can but lead to truth”) and a proclivity for arresting one-liners (“I watched gods walk on fire”). In his search for meaning in the five years after his wife’s untimely death",
-      "url": "https://www.theguardian.com/books/2026/aug/04/geography-of-heaven-by-rory-maclean-soul-searching-journeys-into-the-afterlife",
-      "canonicalUrl": "https://theguardian.com/books/2026/aug/04/geography-of-heaven-by-rory-maclean-soul-searching-journeys-into-the-afterlife",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T08:00:16Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/2f6bc2be1328e04c70affee07c896efd690e6b67/117_0_1045_836/master/1045.jpg?width=140&quality=85&auto=format&fit=max&s=804f6928b6fcc6be4a302b4d291a9e72",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "31de7718a7fbc3c3bd4a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.02829
-    },
-    {
-      "id": "3ac033b096c866f128f8c95e",
-      "title": "Two more men charged with plotting to murder £54m Securitas robber",
-      "translatedTitle": null,
-      "description": "Two more men have been charged with plotting the shooting of a member of the gang that carried out Britain's biggest ever cash robbery.",
-      "url": "https://news.sky.com/story/two-more-men-charged-with-plotting-to-murder-54m-securitas-robber-paul-allen-13569627",
-      "canonicalUrl": "https://news.sky.com/story/two-more-men-charged-with-plotting-to-murder-54m-securitas-robber-paul-allen-13569627",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T07:36:00Z",
-      "imageUrl": "https://e3.365dm.com/25/03/1920x1080/skynews-paul-allen-securitas_6858758.jpg?20250316161011",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6a442f3a47ce33baaf07",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.99744,
-      "related": []
-    },
-    {
-      "id": "8c22b3f7abc61ed45c5def55",
-      "title": "Is it time to ban boozing in parliament?",
-      "translatedTitle": null,
-      "description": "Green MP Hannah Spencer \"had a point\" when she complained about drinking in parliament, ex-deputy Labour leader Harriet Harman has said.",
-      "url": "https://news.sky.com/story/is-it-time-to-ban-boozing-in-parliament-13569616",
-      "canonicalUrl": "https://news.sky.com/story/is-it-time-to-ban-boozing-in-parliament-13569616",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T07:21:00Z",
-      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-bar-pub-pint-pints_7313443.jpg?20260804093024",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "26cf8f1c992157e586a9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.97872,
-      "related": []
-    },
-    {
-      "id": "18ed6cb918ddaca4924b4cd6",
-      "title": "Boy, 14, drowns in dock",
-      "translatedTitle": null,
-      "description": "A 14-year-old boy drowned in London on Monday, police said.",
-      "url": "https://news.sky.com/story/a-14-year-old-boy-drowns-in-dock-13569613",
-      "canonicalUrl": "https://news.sky.com/story/a-14-year-old-boy-drowns-in-dock-13569613",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T07:03:00Z",
-      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-millwall-outer-dock_7313691.jpg?20260804133127",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cc85a121c969ee4cbaaa",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.95659
-    },
-    {
-      "id": "c420dec6956e6a85fbbaf7bd",
-      "title": "Daphne Caruana Galizia was investigating suspected corruption when killed, jury told",
-      "translatedTitle": null,
-      "description": "Journalist’s son says his mother was examining leak from Electrogas, part owned by Yorgen Fenech who is on trial Daphne Caruana Galizia was investigating suspected corruption by the businessman Yorgen Fenech and members of Malta’s government when she was killed, a jury has heard. The heir to one of Malta’s biggest fortunes, Fenech is on trial for murder, accused of commissioning and paying for Caruana Galizia’s killing in a car bombing in October 2017. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/aug/04/daphne-caruana-galizia-investigating-suspected-corruption-when-killed-jury-told",
-      "canonicalUrl": "https://theguardian.com/world/2026/aug/04/daphne-caruana-galizia-investigating-suspected-corruption-when-killed-jury-told",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T07:00:16Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a7a718745ba49c8d4a1fefba5b1488155d424b14/0_12_2036_1628/master/2036.jpg?width=140&quality=85&auto=format&fit=max&s=d0be46f9c858ecaaff9255dc94d9af0c",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "98623ec2388ad57b8da5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.95326,
-      "related": []
-    },
-    {
-      "id": "ea7333c3427a5de27b7d3d00",
-      "title": "Post your questions for Imelda Staunton",
-      "translatedTitle": null,
-      "description": "She’s acting royalty – literally, having played Queen Elizabeth II in The Crown – but what questions would you ask her? It is perhaps fitting that Imelda Staunton ended up playing Queen Elizabeth II in the last two series of The Crown, considering she has been acting royalty for years. Her film career has seen her voice champion egg-layer Bunty in 2000’s Chicken Run, followed by roles in Mike Leigh’s 2004 drama Vera Drake and the 2005 comedy Nanny McPhee. In 2014, she played the formidable Welsh",
-      "url": "https://www.theguardian.com/film/2026/aug/04/post-your-questions-for-imelda-staunton",
-      "canonicalUrl": "https://theguardian.com/film/2026/aug/04/post-your-questions-for-imelda-staunton",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T07:00:15Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/755ee4dec3a24177ac3387d45a081df6797e429d/89_0_2822_2258/master/2822.jpg?width=140&quality=85&auto=format&fit=max&s=3807e492ed134a279fabbc9466a6dca2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "97c12ef2cd169a3bdd29",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.95324,
-      "related": []
-    },
-    {
-      "id": "1a640ffb5e4e1975d492239d",
-      "title": "Women under 50 at risk of breast cancer are not being referred - study",
-      "translatedTitle": null,
-      "description": "The criteria given to GPs to refer women at risk of breast cancer for further action miss nearly all under-50s who go on to develop the disease within a decade, analysis suggests.",
-      "url": "https://news.sky.com/story/women-under-50-at-risk-of-breast-cancer-are-not-being-referred-study-13569611",
-      "canonicalUrl": "https://news.sky.com/story/women-under-50-at-risk-of-breast-cancer-are-not-being-referred-study-13569611",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T06:52:00Z",
-      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-breast-cancer-cancer_7313394.jpg?20260804080702",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:25Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "44dcaab2108a764a80de",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.94325
-    },
-    {
-      "id": "0ef8b15875dc297b7157a90e",
-      "title": "Ariana Grande addresses decision to take break from public life: ‘I made it a long time ago’",
-      "translatedTitle": null,
-      "description": "In a prepared note read to fans during tour, singer said hiatus ‘was not a reactive or impulsive thing’",
-      "url": "https://www.independent.co.uk/arts-entertainment/music/news/ariana-grande-petal-tour-break-b3026948.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/music/news/ariana-grande-petal-tour-break-b3026948.html",
+      "description": "The daughter of Andrew Mountbatten-Windsor and Sarah Ferguson welcomed her third child on Monday.",
+      "url": "https://www.independent.co.uk/bulletin/news/princess-eugenie-jack-brooksbank-baby-girl-portugal-b3027448.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/princess-eugenie-jack-brooksbank-baby-girl-portugal-b3027448.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1308,58 +617,58 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T07:44:36Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/04/7/30/Screenshot-2026-08-04-at-08-06-06.png?width=1200&auto=webp&trim=56%2C0%2C57%2C0",
+      "publishedAt": "2026-08-04T18:33:55Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/18/01KZ6WZWGEWQGG3K12ABNF69P6.jpg?width=1200&auto=webp&trim=73%2C0%2C727%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T08:17:32Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "cbcb70db923b37e35bbe",
+      "clusterId": "3e4c2a51ec6fe970975c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.91829,
-      "related": []
+      "related": [],
+      "rankingScore": 5.9084
     },
     {
-      "id": "ca34a6f4dc34b9864472ea07",
-      "title": "Rain is on the way - but not for everyone",
+      "id": "6f534c06265b939d57c7d467",
+      "title": "How Italians are avoiding the worst of the heat this summer",
       "translatedTitle": null,
-      "description": "Britons are set for another day of heat following record-breaking temperatures, but rain is forecast in parts of the UK.",
-      "url": "https://news.sky.com/story/britons-can-expect-another-day-of-heat-but-rain-is-forecast-13569601",
-      "canonicalUrl": "https://news.sky.com/story/britons-can-expect-another-day-of-heat-but-rain-is-forecast-13569601",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
+      "description": "From supermarkets to night-time tours, experts share how to make the most of Italy during this latest heatwave.",
+      "url": "https://www.bbc.co.uk/news/articles/c05q1gz0p1yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c05q1gz0p1yo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T06:18:00Z",
-      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-uk-weather-heatwave_7312992.jpg?20260803151832",
+      "publishedAt": "2026-08-04T18:21:00Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb0a/live/67b4c860-8f51-11f1-99e6-95543b07d23d.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T16:17:25Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "217e3417302637094b45",
+      "clusterId": "ff63781072e4b0520216",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.90286,
-      "related": []
+      "related": [],
+      "rankingScore": 5.88465
     },
     {
-      "id": "75d091a14f18bfcf7f9e3085",
-      "title": "Metro Bank customer fights for £14,000 refund after AI-linked fraud",
+      "id": "3e38ada8207b92bab33c5231",
+      "title": "‘The war leaked into every lesson’: learning Ukrainian in a country under siege",
       "translatedTitle": null,
-      "description": "Lender was told money was being taken without authorisation, with cash used to buy credits for Claude chatbot A Metro Bank customer has told of his fight to get more than £14,000 back after its systems failed to stop a fraud involving the AI chatbot Claude. Zoli Rutter, a businessman from Sussex, had a total of £14,244 taken from his bank account. The scam involved fraudsters buying credits to use Claude. Continue reading...",
-      "url": "https://www.theguardian.com/money/2026/aug/04/metro-bank-refund-ai-fraud",
-      "canonicalUrl": "https://theguardian.com/money/2026/aug/04/metro-bank-refund-ai-fraud",
+      "description": "Soon after my first visit to Ukraine four years ago, I began language lessons. It taught me more than I ever expected Almost as soon as I returned from my first reporting trip to Ukraine, in October 2022, I decided to start Ukrainian lessons. Not as an act of solidarity, exactly, but as a marker that I was committed to returning. I wanted to know some Ukrainian in order to feel less helpless, to edge towards a better understanding of what I was reporting, and to be more courteous to those whom I",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/04/war-lesson-learning-ukrainian-culture-ukraine",
+      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/aug/04/war-lesson-learning-ukrainian-culture-ukraine",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1368,148 +677,238 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T06:00:15Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/6c7873490cf4f46df61186b00b7a8683dd0fff34/953_34_6542_5236/master/6542.jpg?width=140&quality=85&auto=format&fit=max&s=3cec91e0b1714b75e4f67fa4b786b7f1",
+      "publishedAt": "2026-08-04T04:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d778d2be7b0775bf1b370a007373eb8961104db4/0_1444_4000_3200/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=badbadc0ca99c57c028546c6d1cbab71",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "541e7599c73272903408",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.8799
+    },
+    {
+      "id": "5bf1430d2cf8993ccbb8b735",
+      "title": "What, no sequinned crooners? How cruises became the home for world class theatre",
+      "translatedTitle": null,
+      "description": "Forget cheesy acts, these days cruise ships boast the cutting edge tech to stage hip West End productions and Olivier award-winning musicals – and young people are loving it The phrase “cruise ship entertainment” conjures vivid images, even to those who have never set foot on an oceangoing vessel. Starry backcloths, sequined frocks, tunes and croons from yesteryear, the lite-ent values of the 1970s preserved in aspic. Perhaps those stereotypes held water way back when the singer Jane McDonald ru",
+      "url": "https://www.theguardian.com/stage/2026/aug/04/cruise-ships-theatre-west-end-musicals",
+      "canonicalUrl": "https://theguardian.com/stage/2026/aug/04/cruise-ships-theatre-west-end-musicals",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T04:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/308524faec2ef799858697145b9a08792a950e4e/208_0_2084_1667/master/2084.jpg?width=140&quality=85&auto=format&fit=max&s=19de20cafc200ef4b1efda4108b8a339",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9cfcac787d9f295bf902",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.8799
+    },
+    {
+      "id": "fb5976a00ec343871ad85af3",
+      "title": "Tributes paid to 'quietly seismic' theatre director and playwright Peter Gill",
+      "translatedTitle": null,
+      "description": "Gill performed with the Royal Shakespeare Company before embarking on a successful directing career.",
+      "url": "https://www.bbc.co.uk/news/articles/crl72p33018o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/crl72p33018o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T18:11:48Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bca5/live/acd05150-9021-11f1-b2ab-0dd01740f9f6.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b4898f6da766be2edcaa",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.8679
+    },
+    {
+      "id": "4d761176db9d05cfdaa21173",
+      "title": "Ireland risk ECB ire by agreeing to play five matches against Afghanistan",
+      "translatedTitle": null,
+      "description": "First ODI of series will take place in Bready on Wednesday England refuse to face Afghanistan due to Taliban regime Ireland’s decision to stage a full one-day international series for their men’s team against Afghanistan this summer could cost them lucrative future fixtures against England. The England and Wales Cricket Board is understood to be unhappy about the series, which starts on Wednesday, taking place as England refuse to play Afghanistan outside International Cricket Council global eve",
+      "url": "https://www.theguardian.com/sport/2026/aug/04/ireland-five-matches-against-afghanistan-england-ecb-cricket",
+      "canonicalUrl": "https://theguardian.com/sport/2026/aug/04/ireland-five-matches-against-afghanistan-england-ecb-cricket",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T19:56:08Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/07399e1eac806fd891d2972dff4114e71eeab1ea/289_0_3610_2888/master/3610.jpg?width=140&quality=85&auto=format&fit=max&s=922f0d589c8ccd2ff070bd311af705ba",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5c80780d7cde145559ac",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.79648
+    },
+    {
+      "id": "bb952fd82fea76173faf5f9c",
+      "title": "New York deputy police commissioner fired after attempted murder arrest",
+      "translatedTitle": null,
+      "description": "Mount Vernon official is accused of driving getaway car after son allegedly opened fire outside Bronx court A New York state police department fired its deputy commissioner on Tuesday after she allegedly acted as a getaway driver for her son in what is being investigated as an attempted murder. The city of Mount Vernon said in an Instagram post that it had terminated Jennifer Lackard, deputy police commissioner for safety, for conduct “unrelated to her duties”. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/aug/04/new-york-police-official-fired-attempted-murder-arrest",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/aug/04/new-york-police-official-fired-attempted-murder-arrest",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T19:51:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e339ba401c6febe7710662e9f99d62940caa3fb1/250_47_1205_964/master/1205.jpg?width=140&quality=85&auto=format&fit=max&s=6187baf27dcf7ad7749a71ec1562dbcf",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "32e90cc9cfd37b10123a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.78678
+    },
+    {
+      "id": "3bc96cc6702335111818a75c",
+      "title": "After share price crash following IPO, SpaceX to report first earnings as a public company",
+      "translatedTitle": null,
+      "description": "The company will release its second quarter earnings on Tuesday, giving investors a look at its potential profit For the first time since SpaceX went public, the world will get a first-hand look into the trillion-dollar corporation’s financials. The Elon Musk-run business will report its second quarter earnings on Tuesday, while nervous investors look to gain more insight into the rocket ship company’s potential for profit. SpaceX had a blockbuster initial public offering in June with the larges",
+      "url": "https://www.theguardian.com/science/2026/aug/04/spacex-first-earnings-report",
+      "canonicalUrl": "https://theguardian.com/science/2026/aug/04/spacex-first-earnings-report",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T19:45:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0c9b4c3d418e6b5ceb70e1dbbc49d466347f8b17/300_0_2952_2362/master/2952.jpg?width=140&quality=85&auto=format&fit=max&s=c7ef4fe8764e92ff4af691870999c32c",
       "imageAlt": null,
       "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ef3bfe36fd7623becbf7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.88227,
-      "related": []
-    },
-    {
-      "id": "d5a4fb894918f73dd34008ec",
-      "title": "Get in the ring! Inside California’s top boxing club – in pictures",
-      "translatedTitle": null,
-      "description": "These images of Lee Espinoza’s iconic gym in the Coachella Valley weren’t just about sport – they also helped photographer Darren Vargas deal with the death of his grandfather Continue reading...",
-      "url": "https://www.theguardian.com/artanddesign/gallery/2026/aug/04/lee-espinoza-darren-vargas-california-boxing-club-in-pictures",
-      "canonicalUrl": "https://theguardian.com/artanddesign/gallery/2026/aug/04/lee-espinoza-darren-vargas-california-boxing-club-in-pictures",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T06:00:14Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/2b821d86cc96d2c9993054119e3629e9bb92ccdc/0_628_3413_2729/master/3413.jpg?width=140&quality=85&auto=format&fit=max&s=8f79945778ccad715fc8c28f386841a9",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8bdff2799b55a53ac301",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.88226,
-      "related": []
-    },
-    {
-      "id": "63145855cd0107b579a2a815",
-      "title": "The Scottish explorer who fancied an adventure closer to home: hiking the Highlands’ Affric Kintail Way",
-      "translatedTitle": null,
-      "description": "Globetrotter and TV presenter Alice Morrison trades in her camels and backup team for wild camping in one of Scotland’s most beautiful glens ‘I miss my camels. I miss the sun. I miss the vast emptiness of the desert plains …” These are my thoughts as I trudge through thick conifer plantations and my fifth consecutive hour of rain at the start of the Affric Kintail Way in the Scottish Highlands. My last big adventure was a world first. I became the first recorded person to walk the full length of",
-      "url": "https://www.theguardian.com/travel/2026/aug/04/alice-morrison-hiking-wild-camping-highlands-scotland-affric-kintail-way",
-      "canonicalUrl": "https://theguardian.com/travel/2026/aug/04/alice-morrison-hiking-wild-camping-highlands-scotland-affric-kintail-way",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T06:00:14Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/b089548bc3f2aaf26d7c4a9fc5d44e131b7c54ff/734_511_3773_3018/master/3773.jpg?width=140&quality=85&auto=format&fit=max&s=00343125fc88318e845b4b86b96cbf9a",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0080b566ac18c1887cb6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.88226,
-      "related": []
-    },
-    {
-      "id": "5fa528978224ea3a5e48aa83",
-      "title": "Aston Villa cleared to register teenage star after winning court appeal against Fifa ruling",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/sport/brian-madjo-aston-villa-fifa-appeal-b3027169.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/sport/brian-madjo-aston-villa-fifa-appeal-b3027169.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T11:57:03Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/04/12/2287103053..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T12:17:23Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "48d9399df84ce50df4a9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.8786,
-      "related": []
-    },
-    {
-      "id": "21f846a56a7598e818459024",
-      "title": "Three lions die of suspected heatstroke at Tokyo zoo as Japan swelters",
-      "translatedTitle": null,
-      "description": "Most of the zoo’s 16 lions have struggled to cope with high humidity this summer Three lions from a Tokyo zoo have died from suspected heatstroke and others are undergoing treatment, a spokesperson said on Tuesday, as the big cats struggle in Japan’s high levels of humidity. Japan sweltered through its hottest summer on record last year and parts of the country have hit 40C in recent weeks, qualifying for the new “cruelly hot day” designation. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/aug/04/three-lions-dead-suspected-heatstroke-japan-zoo-heatwave",
-      "canonicalUrl": "https://theguardian.com/world/2026/aug/04/three-lions-dead-suspected-heatstroke-japan-zoo-heatwave",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-04T05:46:06Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/04514260d6d38e9e1a0ff13351bbd57563ce31bd/133_0_904_723/master/904.jpg?width=140&quality=85&auto=format&fit=max&s=43fed8a1b37c54fb532543ad687853cd",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8b3a7c6b41d8bc272260",
+      "clusterId": "f59252cb702df2050296",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 4.8661
+      "rankingScore": 5.77525
     },
     {
-      "id": "3910f7c223138a956494a4c8",
-      "title": "Scottish swimmer with terminal cancer issues tearful plea to Burnham in BBC interview",
+      "id": "312bfb8111bd82571a560731",
+      "title": "Bono, Eddie Vedder and Hozier among mourners at Glen Hansard's funeral",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/sport/archie-goodburn-burnham-bbc-commonwealth-games-b3027158.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/sport/archie-goodburn-burnham-bbc-commonwealth-games-b3027158.html",
+      "description": "The 56-year-old, who shot to prominence in 1991 musical comedy film The Commitments, died in a motorcycle crash last week.",
+      "url": "https://www.bbc.co.uk/news/articles/crk5lmglkdno?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/crk5lmglkdno?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T17:01:19Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a45d/live/9df096f0-9011-11f1-aabc-c3c7aa714117.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "115ee8fc9134efd46b55",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.7442
+    },
+    {
+      "id": "e531a92d253a30337979b9fc",
+      "title": "Burnham invites swimmer Goodburn to meeting after cancer funding plea",
+      "translatedTitle": null,
+      "description": "Prime Minister Andy Burnham responds to Archie Goodburn's impassioned plea for more money and resources to be put into brain cancer research by inviting the Scottish swimmer to a personal meeting.",
+      "url": "https://www.bbc.co.uk/sport/articles/c5y4pp7q1wko?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/articles/c5y4pp7q1wko?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T17:01:17Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d624/live/48cd80f0-8feb-11f1-b8ee-9b3c26ad07bb.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b797cda7959e18f44ebb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.74414
+    },
+    {
+      "id": "2b125bab0e9e3493c69e1ba9",
+      "title": "Trump’s contentious AG pick Todd Blanche promises faith leaders he’s working to roll back abortion access ‘in every state’",
+      "translatedTitle": null,
+      "description": "‘We don’t have complete victory yet, but we will have victory, and victory will be soon, and it will be permanent,’ Blanche said during a conference call",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/todd-blanche-restrict-abortion-access-justice-department-b3027400.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/todd-blanche-restrict-abortion-access-justice-department-b3027400.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1518,28 +917,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T11:40:41Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/04/12/01KYJGNYX3R4XMYSHBPWN3JM7P.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-08-04T20:07:02Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/20/2285600475..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T12:17:23Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "70104f20ddd863520625",
+      "clusterId": "500b1ff58f9701713f3f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.85261,
-      "related": []
+      "related": [],
+      "rankingScore": 5.72835
     },
     {
-      "id": "8c086a107f7eafa034287062",
-      "title": "Man United to have betting firm as training kit sponsor after striking lucrative deal",
+      "id": "63846e2cb45b00d01e062c18",
+      "title": "Salvadoran man complained of access to medication before death at NJ immigration jail, family says",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/sport/man-united-betway-training-kit-sponsor-b3027154.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/sport/man-united-betway-training-kit-sponsor-b3027154.html",
+      "description": "Federal officials say a man from El Salvador has died at a New Jersey immigration jail",
+      "url": "https://www.independent.co.uk/news/world/americas/donald-trump-geo-group-newark-cory-booker-spanish-b3027494.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/donald-trump-geo-group-newark-cory-booker-spanish-b3027494.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1548,28 +947,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T11:33:06Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/23/15/31/GettyImages-2266625082.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-08-04T20:05:18Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/21/APTOPIX_ICE_Detention_Death_28536.jpg?width=1200&auto=webp&crop=3%3A2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T12:17:23Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c95b7a4745f3d286f192",
+      "clusterId": "e78956573811e1f2a1cc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.84069,
-      "related": []
+      "related": [],
+      "rankingScore": 5.72486
     },
     {
-      "id": "1ef658adbad47a685d0c989e",
-      "title": "The heartbreaking reason Audrey Hepburn turned down one of Hollywood’s biggest roles",
+      "id": "8fb43ef0a2830c942e67ec44",
+      "title": "Children are turning to screens to beat boredom, and it’s killing their imaginations and love of toys",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/audrey-hepburn-anne-frank-wwii-role-trauma-b3027141.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/audrey-hepburn-anne-frank-wwii-role-trauma-b3027141.html",
+      "description": "Survey finds more than a quarter would reach for a gadget but less than half that number would go outdoors",
+      "url": "https://www.independent.co.uk/news/uk/home-news/children-bored-screens-toys-games-b3027466.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/children-bored-screens-toys-games-b3027466.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1578,28 +977,88 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T11:20:26Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/04/10/32/Screenshot-2026-08-04-at-11-09-45.png?width=1200&auto=webp&trim=43%2C0%2C191%2C0",
+      "publishedAt": "2026-08-04T20:03:26Z",
+      "imageUrl": "https://static.independent.co.uk/2025/12/09/12/57/iStock-2192131747.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T12:17:23Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "aacf8ac0e9cd4b2a2cbf",
+      "clusterId": "43527e45475224fc440f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.82098,
-      "related": []
+      "related": [],
+      "rankingScore": 5.7211
     },
     {
-      "id": "7cdf18e76f27ae782db96137",
-      "title": "Approval of east London datacentre labelled ‘slap in the face’ for local democracy",
+      "id": "5c850c78cc5ba84f0ea197d2",
+      "title": "Why £1m-a-season deal will be hard for Pollock and Hearn to find",
       "translatedTitle": null,
-      "description": "Campaigners decry Angela Rayner’s backing for Brick Lane project that has only 11 affordable homes A £500m redevelopment of the Truman Brewery estate in Brick Lane, east London, has been approved, clearing the way for the construction of a datacentre, offices and apartments despite opposition from Tower Hamlets council and local campaign groups. The housing secretary, Angela Rayner, made the decision in a letter issued on her behalf last week by the housing minister Matthew Pennycook, rejecting",
-      "url": "https://www.theguardian.com/uk-news/2026/aug/04/brick-lane-redevelopment-approval-datacentre-london",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/aug/04/brick-lane-redevelopment-approval-datacentre-london",
+      "description": "Salary cap regulations might not be high on everyone's holiday reading list, but Eddie Hearn might be interested if he's keen to get Henry Pollock's £1m pay-day.",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckg4y9ylr77o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/rugby-union/articles/ckg4y9ylr77o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T16:29:15Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ec3/live/742b6430-9020-11f1-b783-f784376ffc11.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1831609eff154a9c9a14",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69054
+    },
+    {
+      "id": "b51b34eeb7986f81a20bb8b8",
+      "title": "From bad omens to messages from the gods: ancient meaning of eclipses ahead of Europe’s historic event",
+      "translatedTitle": null,
+      "description": "Eclipses coinciding with periods of political crisis reinforced their ominous nature",
+      "url": "https://www.independent.co.uk/space/solar-eclipse-europe-meaning-b3027459.html",
+      "canonicalUrl": "https://independent.co.uk/space/solar-eclipse-europe-meaning-b3027459.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T19:47:50Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/18/23/GettyImages-2147613449.jpeg?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "84e617ab2c1324637377",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68997
+    },
+    {
+      "id": "3d99e8c05b141fd5766f100d",
+      "title": "Peter Gill: a theatrical visionary with an unsparing honesty",
+      "translatedTitle": null,
+      "description": "Gill’s dramas of divided class loyalties such as The York Realist had a clear-eyed precision matched by his rigorous work as a director Peter Gill, playwright who turned ordinary lives into extraordinary drama, dies aged 86 Peter Gill, who has died aged 86, was one of the unsung heroes of British theatre. As both director and playwright his work was characterised by its uncompromising honesty and unflinching integrity. Much admired by his fellow artists, he at last achieved a degree of public fa",
+      "url": "https://www.theguardian.com/stage/2026/aug/04/peter-gill-playwright-director-the-york-realist-royal-court",
+      "canonicalUrl": "https://theguardian.com/stage/2026/aug/04/peter-gill-playwright-director-the-york-realist-royal-court",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1608,20 +1067,470 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-04T05:00:14Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0d3e3334a4699dfc8eab071533b597ee53d9a639/129_0_3338_2672/master/3338.jpg?width=140&quality=85&auto=format&fit=max&s=affe5ee9aacd7aea0de96c38eecd76de",
+      "publishedAt": "2026-08-04T19:00:08Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/993dfa0fdaf388c22c88a99ae256cddb144a4a09/583_349_3204_2563/master/3204.jpg?width=140&quality=85&auto=format&fit=max&s=88a3057662295e7d8454e0cb3b1f9b50",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-04T16:17:24Z",
+      "retrievedAt": "2026-08-04T20:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6ee37c913ddca571e200",
+      "clusterId": "1acc2a93318f485565c3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.81512,
-      "related": []
+      "related": [],
+      "rankingScore": 5.68751
+    },
+    {
+      "id": "644fb1a32ae979c11d782d4e",
+      "title": "FAA launches investigation after door breaks off flight out of Las Vegas",
+      "translatedTitle": null,
+      "description": "The pilot of a small plane alerted Air Traffic Control that the back door had fallen off shortly after taking off from the North Las Vegas Airport earlier this summer",
+      "url": "https://www.independent.co.uk/news/world/americas/plane-door-off-las-vegas-faa-investigation-b3027422.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/plane-door-off-las-vegas-faa-investigation-b3027422.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T19:41:56Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/17/35/OH-DAC_Tour_de_Sky_Oulu_20140810_02.jpeg?width=1200&auto=webp&trim=45%2C0%2C45%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9e244c2d014a2d502366",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67831
+    },
+    {
+      "id": "575b7f6f36b82c28f551bb4a",
+      "title": "Phil Collins praises Taylor Swift and the song of hers that left him with a ‘soft spot’",
+      "translatedTitle": null,
+      "description": "Genesis drummer and singer said Swift deserves to be ‘the hugest thing in the world’",
+      "url": "https://www.independent.co.uk/arts-entertainment/music/news/phil-collins-taylor-swift-song-b3027417.html",
+      "canonicalUrl": "https://independent.co.uk/arts-entertainment/music/news/phil-collins-taylor-swift-song-b3027417.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T19:40:29Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/17/12/Phil-Collins-and-Taylor-Swift.png?width=1200&auto=webp&trim=0%2C7%2C0%2C7",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ab36df2c7dc45a4afbce",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67545
+    },
+    {
+      "id": "ca67937231432e96addbea7e",
+      "title": "Trump’s National Guard deployment in DC to cost $1.4B more",
+      "translatedTitle": null,
+      "description": "The figure offers a glimpse of how much taxpayer money will be spent on a deployment that has been criticized by local officials",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-national-guard-deployment-dc-2029-b3027476.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-national-guard-deployment-dc-2029-b3027476.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T19:38:27Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/20/2286935731..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "80f61dfd6c13f24937a1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67145
+    },
+    {
+      "id": "73002766a277c77b35ea972f",
+      "title": "Fires started 'deliberately' on mountain as crews tackle blaze",
+      "translatedTitle": null,
+      "description": "Firefighters have been tackling the blaze on the mountain in the Rhondda Valley since Saturday.",
+      "url": "https://www.bbc.co.uk/news/articles/cz05xp0vvpro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cz05xp0vvpro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T16:02:37Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a66/live/1ee9fa50-9006-11f1-9dfb-fd4408d16f2f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7a0bfcc4d31914573bf1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.64717
+    },
+    {
+      "id": "377465b87c63af785d85f57f",
+      "title": "Buc-ee’s sues tiny Ohio minimart over its beaver logo",
+      "translatedTitle": null,
+      "description": "‘I have two kids, and this store is how I feed them,’ the small business’s owner said",
+      "url": "https://www.independent.co.uk/news/world/americas/bucees-ohio-minimart-beaver-logo-b3027278.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/bucees-ohio-minimart-beaver-logo-b3027278.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T19:25:28Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/28/15/44/Bucc-ees.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5d218c87f6d6ed84b28f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.6461
+    },
+    {
+      "id": "39477ab214dddcef6e6c555b",
+      "title": "Justice secretary apologises to families affected by early release scheme",
+      "translatedTitle": null,
+      "description": "Some offenders will be barred from the scheme, but families say it comes \"at the expense of victims\".",
+      "url": "https://www.bbc.co.uk/news/articles/c20e15d0z6zo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c20e15d0z6zo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T15:58:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6100/live/a9a2a1c0-9005-11f1-9dfb-fd4408d16f2f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "113b80da0de803cc8979",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.6401
+    },
+    {
+      "id": "4d8e315eabf1ad69068a193f",
+      "title": "Reform back on top of Labour in new poll",
+      "translatedTitle": null,
+      "description": "‘Burnham bounce’ saw Labour’s popularity rise after the new prime minister entered Downing Street – but new poll suggests it could be shortlived",
+      "url": "https://www.independent.co.uk/news/uk/politics/reform-farage-top-yougov-poll-labour-burnham-b3027365.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/politics/reform-farage-top-yougov-poll-labour-burnham-b3027365.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T19:13:57Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/28/16/44/BurnhamFarage-split-a245f845.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8956007aa3d838f35abf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.62387
+    },
+    {
+      "id": "db1373b32aa1b87b64c4c350",
+      "title": "10-year-old boy doesn't remember dramatic rescue by lifeguard from pounding California surf",
+      "translatedTitle": null,
+      "description": "The 10-year-old boy rescued by a teen lifeguard from rough waves off the California coast says he doesn't remember anything after a giant wave swept him off his feet in shallow water",
+      "url": "https://www.independent.co.uk/news/dallas-california-donald-trump-san-francisco-santa-cruz-b3027465.html",
+      "canonicalUrl": "https://independent.co.uk/news/dallas-california-donald-trump-san-francisco-santa-cruz-b3027465.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T18:57:58Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/30/07/US_California_Lifeguard_Child_Rescue_38647.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1dcc431b418d819eab08",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.5934
+    },
+    {
+      "id": "28caf5209a3dc5ef85cac5a5",
+      "title": "Naked man survives 278-ft jump from the Brooklyn Bridge",
+      "translatedTitle": null,
+      "description": "A naked man jumped off the top of the Brooklyn Bridge and miraculously survived the 278-ft plunge.",
+      "url": "https://www.independent.co.uk/tv/news/brooklyn-bridge-naked-man-jump-video-b3027456.html",
+      "canonicalUrl": "https://independent.co.uk/tv/news/brooklyn-bridge-naked-man-jump-video-b3027456.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T18:55:35Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/18/09/Man-jumps-278-feet-into-the-East-River.png?width=1200&auto=webp&trim=22%2C0%2C22%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e5b113675a60f26f7482",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.5889
+    },
+    {
+      "id": "9d686c6534d62ca823a55d8e",
+      "title": "Oil spill from grounded tanker off Oman expands sharply, satellite images show",
+      "translatedTitle": null,
+      "description": "An oil spill from a sanctioned tanker off Oman is expanding dramatically, reaching shorelines and spreading far out to sea",
+      "url": "https://www.independent.co.uk/news/oman-germany-beirut-greenpeace-russia-b3027461.html",
+      "canonicalUrl": "https://independent.co.uk/news/oman-germany-beirut-greenpeace-russia-b3027461.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T18:54:39Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/19/Mideast_Oil_Tanker_Spill_93_61.jpg?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a8292393771f72e3451a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.58714
+    },
+    {
+      "id": "b85925010a71b0af26f39159",
+      "title": "Why Does The Government Keep Releasing Prisoners Early?",
+      "translatedTitle": null,
+      "description": "Government defends early release scheme, blaming prison capacity crisis.",
+      "url": "https://www.bbc.co.uk/sounds/play/p0p2fq40?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sounds/play/p0p2fq40?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T15:21:00Z",
+      "imageUrl": "https://ichef.bbci.co.uk/images/ic/240x135/p0l7jnbt.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "aa0c53f26d8673ebc206",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.5815
+    },
+    {
+      "id": "444dff7aaaf68bad3151fbe0",
+      "title": "$300M from GI Bill spent on training like grass-growing and making fake rocks, report reveals: ‘Get into this racket’",
+      "translatedTitle": null,
+      "description": "‘I always wondered why the mob stuck to drug dealing and organized crime. Get into this racket. It’s easier money,’ says one critic",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/gi-bll-spending-nonsense-classes-veterans-affairs-b3027254.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/gi-bll-spending-nonsense-classes-veterans-affairs-b3027254.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T18:51:14Z",
+      "imageUrl": "https://static.independent.co.uk/2026/07/29/14/31/iStock-2201431590-(1).jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "86e5196eb366f906ef75",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.5807
+    },
+    {
+      "id": "5d689c4f446846fec25b0b24",
+      "title": "Elon Musk under pressure as SpaceX shares plunge 50% from June high",
+      "translatedTitle": null,
+      "description": "Investors in Elon Musk’s space company get a chance to question him Tuesday in his first quarterly earnings call since an initial public offering",
+      "url": "https://www.independent.co.uk/tech/elon-musk-spacex-investors-starship-earnings-b3026945.html",
+      "canonicalUrl": "https://independent.co.uk/tech/elon-musk-spacex-investors-starship-earnings-b3026945.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T18:48:32Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/07/2026-07-15T201005Z_2046326618_RC2DSLANWPQW_RTRMADP_3_USA-SPACEX-STOCK.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "64dfe669dcd063ccbbe8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57563
+    },
+    {
+      "id": "ed42050fd34cdaae31d5f0cb",
+      "title": "How ICE and a data center turned a small Pittsburgh suburb into a civic battleground",
+      "translatedTitle": null,
+      "description": "Springdale is a small town near Pittsburgh that is facing tensions over immigration enforcement and a new data center",
+      "url": "https://www.independent.co.uk/news/pittsburgh-david-harris-star-jeep-honduras-b3027458.html",
+      "canonicalUrl": "https://independent.co.uk/news/pittsburgh-david-harris-star-jeep-honduras-b3027458.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T18:46:13Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/04/19/Pittsburgh_Suburb_Civic_Battleground_133_2.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9dc11cb99a65359e5af7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57129
+    },
+    {
+      "id": "cac688b3f23f0535fb77f1ec",
+      "title": "Dinghy carrying 173 people capsizes in Channel after engine catches fire",
+      "translatedTitle": null,
+      "description": "All passengers thought to have been taken to Boulogne after large air and sea rescue operation by France and UK A dinghy carrying 173 people has capsized after its engine caught fire as it attempted to cross the Channel from France. The people onboard were rescued from the water after a large air and sea operation was launched using UK border security and French vessels along with an RNLI boat. Continue reading...",
+      "url": "https://www.theguardian.com/uk-news/2026/aug/04/dinghy-capsizes-channel-engine-catches-fire-rescue-operation",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/aug/04/dinghy-capsizes-channel-engine-catches-fire-rescue-operation",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-04T17:52:33Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/364541824da55e2be2600ba899d8e99d5c2ecc31/806_0_4611_3689/master/4611.jpg?width=140&quality=85&auto=format&fit=max&s=2b1d0e5a1eadd0326ad28ee7a76fa6d9",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-04T20:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "14af01d64edb49511db2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.56331
     }
   ]
 }
