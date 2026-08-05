@@ -4,10 +4,10 @@
   "countryName": "France",
   "timeZone": "Europe/Paris",
   "date": "2026-08-05",
-  "generatedAt": "2026-08-05T16:17:36Z",
-  "lastAttemptAt": "2026-08-05T16:17:36Z",
-  "lastSuccessfulUpdate": "2026-08-05T16:17:36Z",
-  "status": "current",
+  "generatedAt": "2026-08-05T20:17:36Z",
+  "lastAttemptAt": "2026-08-05T20:17:36Z",
+  "lastSuccessfulUpdate": "2026-08-05T20:17:36Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 5,
@@ -15,22 +15,22 @@
     {
       "sourceId": "france24-en",
       "sourceName": "France 24",
-      "status": "success",
-      "lastAttemptAt": "2026-08-05T16:17:36Z",
-      "lastSuccessAt": "2026-08-05T16:17:36Z",
-      "articlesRetrieved": 23,
-      "responseTimeMs": 213,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-08-05T20:17:35Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "ValueError",
+      "errorMessage": "Malformed feed: <unknown>:10:92: not well-formed (invalid token)"
     },
     {
       "sourceId": "lemonde-une",
       "sourceName": "Le Monde",
       "status": "success",
-      "lastAttemptAt": "2026-08-05T16:17:36Z",
-      "lastSuccessAt": "2026-08-05T16:17:36Z",
+      "lastAttemptAt": "2026-08-05T20:17:35Z",
+      "lastSuccessAt": "2026-08-05T20:17:36Z",
       "articlesRetrieved": 16,
-      "responseTimeMs": 310,
+      "responseTimeMs": 606,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "franceinfo-top",
       "sourceName": "Franceinfo",
       "status": "success",
-      "lastAttemptAt": "2026-08-05T16:17:36Z",
-      "lastSuccessAt": "2026-08-05T16:17:36Z",
+      "lastAttemptAt": "2026-08-05T20:17:35Z",
+      "lastSuccessAt": "2026-08-05T20:17:36Z",
       "articlesRetrieved": 27,
-      "responseTimeMs": 299,
+      "responseTimeMs": 582,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,10 +49,10 @@
       "sourceId": "le-figaro-top",
       "sourceName": "Le Figaro",
       "status": "success",
-      "lastAttemptAt": "2026-08-05T16:17:36Z",
-      "lastSuccessAt": "2026-08-05T16:17:36Z",
-      "articlesRetrieved": 19,
-      "responseTimeMs": 438,
+      "lastAttemptAt": "2026-08-05T20:17:35Z",
+      "lastSuccessAt": "2026-08-05T20:17:36Z",
+      "articlesRetrieved": 20,
+      "responseTimeMs": 623,
       "errorType": null,
       "errorMessage": null
     }
@@ -85,8 +85,313 @@
       "clusterId": "411e2ff7dacbd275af18",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 9.42514,
+      "rankingScore": 9.13121,
       "related": []
+    },
+    {
+      "id": "da7a7f14c791919c7bbb4b51",
+      "title": "Tour de France Femmes : Demi Vollering et les favorites creusent un « écart irrécupérable » avec Pauline Ferrand-Prévot, à nouveau distancée",
+      "translatedTitle": null,
+      "description": "Vainqueure l’an passé, la coureuse française a de nouveau flanché, mercredi, et se retrouve à plus de cinq minutes de retard de Demi Vollering, vainqueure devant la maillot jaune, Marlen Reusser et Katarzyna Niewiadoma-Phinney.",
+      "url": "https://www.lemonde.fr/sport/article/2026/08/05/tour-de-france-femmes-demi-vollering-et-les-favorites-creusent-un-ecart-irrecuperable-avec-pauline-ferrand-prevot-a-nouveau-distancee_6739461_3242.html",
+      "canonicalUrl": "https://lemonde.fr/sport/article/2026/08/05/tour-de-france-femmes-demi-vollering-et-les-favorites-creusent-un-ecart-irrecuperable-avec-pauline-ferrand-prevot-a-nouveau-distancee_6739461_3242.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T18:49:17Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/05/0/0/6652/3326/644/322/60/0/e029141_ftp-1-4cu2f7pzjg0c-5779584-01-06.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T20:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "258f8e7fc6bff8271222",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "fa16b96a8e6be542a90ce1f0",
+          "title": "Demi Vollering impressionne et remporte la 5e étape du Tour de France femmes, Pauline Ferrand-Prévôt dit presque adieu à son rêve d'un second sacre",
+          "translatedTitle": null,
+          "description": "La Néerlandaise a réglé au sprint ses rivales Marlen Ruesser (Movistar) et Kasia Niewiadoma (Canyon-Sram), mercredi, après avoir lâché la tenante du titre française au forceps.",
+          "url": "https://www.franceinfo.fr/tour-de-france/femmes/demi-vollering-remporte-la-5e-etape-du-tour-de-france-femmes-en-reglant-le-groupe-des-favorites-pauline-ferrand-prevot-dit-adieu-a-son-reve-d-un-second-sacre_8136182.html",
+          "canonicalUrl": "https://franceinfo.fr/tour-de-france/femmes/demi-vollering-remporte-la-5e-etape-du-tour-de-france-femmes-en-reglant-le-groupe-des-favorites-pauline-ferrand-prevot-dit-adieu-a-son-reve-d-un-second-sacre_8136182.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-05T16:25:42Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/GGkG6-p9nuuhfDI5ySgmFVfFZxA/0x0:6365x3580/432x243/filters:format(jpg):quality(50)/2026/08/05/6a7360e86fa24099128384.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T20:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "258f8e7fc6bff8271222",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "demi vollering impressionne et remporte la 5e étape du tour de france femmes pauline ferrand prévôt dit presque adieu à son rêve d un second sacre"
+        },
+        {
+          "id": "43b96ae4f337db4f648b797b",
+          "title": "Tour de France femmes : Ferrand-Prévot perd très gros, Vollering s’impose au sprint devant Reusser",
+          "translatedTitle": null,
+          "description": "En perdition, Pauline Ferrand-Prévot a sans doute dit adieu au maillot jaune à l’issue de la cinquième étape remportée par Demi Vollering devant Marlen Reusser.",
+          "url": "https://www.lefigaro.fr/sports/cyclisme/tour-de-france/tour-de-france-femmes-ferrand-prevot-perd-tres-gros-vollering-s-impose-au-sprint-devant-reusser-20260805",
+          "canonicalUrl": "https://lefigaro.fr/sports/cyclisme/tour-de-france/tour-de-france-femmes-ferrand-prevot-perd-tres-gros-vollering-s-impose-au-sprint-devant-reusser-20260805",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-05T16:16:52Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/08/05/07e8d33a5b42edae3b63b05222761730cb793040ac53fd7134202d11b53205e8.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T16:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "258f8e7fc6bff8271222",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.74837,
+          "normalizedTitle": "tour de france femmes ferrand prévot perd très gros vollering s impose au sprint devant reusser",
+          "sourceQuality": 1.0
+        },
+        {
+          "id": "ecf1f05590ee7b1d47084e5c",
+          "title": "EN DIRECT - Tour de France femmes : Ferrand-Prévot en mission après son échec dans le chrono, suivez la 5e étape",
+          "translatedTitle": null,
+          "description": "Pauline Ferrand-Prévot doit réagir, à commencer par ce mercredi entre Mâcon et Belleville-en-Beaujolais, une étape réservée aux baroudeuses, si elle veut conserver sa couronne.",
+          "url": "https://www.lefigaro.fr/sports/cyclisme/tour-de-france/en-direct-tour-de-france-femmes-ferrand-prevot-en-mission-apres-son-echec-dans-le-chrono-suivez-la-5e-etape-20260805",
+          "canonicalUrl": "https://lefigaro.fr/sports/cyclisme/tour-de-france/en-direct-tour-de-france-femmes-ferrand-prevot-en-mission-apres-son-echec-dans-le-chrono-suivez-la-5e-etape-20260805",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-05T12:16:03Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/08/05/e05a28bc23e0f1d7876288148b829789a2eb12d26f6630afb7792a4b5d7b90c3.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T12:17:33Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "258f8e7fc6bff8271222",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "en direct tour de france femmes ferrand prévot en mission après son échec dans le chrono suivez la 5e étape"
+        },
+        {
+          "id": "639447cce73977b38881d69a",
+          "title": "EN DIRECT, Tour de France Femmes 2026 : Demi Vollering remporte la cinquième étape, Marlen Reusser conserve le maillot jaune",
+          "translatedTitle": null,
+          "description": "A l’attaque dans le mont Brouilly, la Neerlandaise n’a pas réussi à lâcher Kasia Niewiadoma et Marlen Reusser et a dû aller au sprint pour s’imposer mercredi. Pauline Ferrand-Prévot a une nouvelle fois été distancée.",
+          "url": "https://www.lemonde.fr/sport/live/2026/08/05/en-direct-tour-de-france-femmes-2026-suivez-la-cinquieme-etape-entre-macon-et-belleville-en-beaujolais_6739417_3242.html",
+          "canonicalUrl": "https://lemonde.fr/sport/live/2026/08/05/en-direct-tour-de-france-femmes-2026-suivez-la-cinquieme-etape-entre-macon-et-belleville-en-beaujolais_6739417_3242.html",
+          "sourceName": "Le Monde",
+          "sourceDomain": "lemonde.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-05T11:40:09Z",
+          "imageUrl": "https://img.lemde.fr/2026/08/05/0/0/6753/3376/644/322/60/0/7ac5154_ftp-1-ctlkjnw5xge9-5779483-01-06.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T16:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "258f8e7fc6bff8271222",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.92148,
+          "normalizedTitle": "en direct tour de france femmes 2026 demi vollering remporte la cinquième étape marlen reusser conserve le maillot jaune",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 8.64715
+    },
+    {
+      "id": "74c93e07cf6cf2c67fe42340",
+      "title": "Qui est Mehdi Laribi, alias « Tic », l’un des chefs de la DZ Mafia, arrêté en Algérie ?",
+      "translatedTitle": null,
+      "description": "Ce Franco-Algérien de 36 ans, natif de Marseille, a été arrêté le 20 juillet, en exécution d’un mandat d’arrêt français, dans un contexte de reprise de la coopération judiciaire entre Paris et Alger.",
+      "url": "https://www.lemonde.fr/societe/article/2026/08/05/qui-est-mehdi-laribi-alias-tic-l-un-des-chefs-de-la-dz-mafia-arrete-en-algerie_6739459_3224.html",
+      "canonicalUrl": "https://lemonde.fr/societe/article/2026/08/05/qui-est-mehdi-laribi-alias-tic-l-un-des-chefs-de-la-dz-mafia-arrete-en-algerie_6739459_3224.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T18:22:12Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/05/1120/0/6720/3360/644/322/60/0/3b7fbc2_upload-1-z08vwgzxjebw-maxnewsspecialtwo440740.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T20:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "36da35a6c2032d23b571",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "1a24db726856ce8e2cfa0d4b",
+          "title": "\"Je suis très satisfait\", réagit le procureur de la République de Marseille, après l'arrestation en Algérie de Mehdi Laribi, présenté comme l'un des fondateurs de la DZ Mafia",
+          "translatedTitle": null,
+          "description": "Mehdi Laribi, présenté comme l'un des fondateurs de la DZ Mafia, a été arrêté en Algérie il y a quelques jours.",
+          "url": "https://www.franceinfo.fr/faits-divers/je-suis-tres-satisfait-reagit-le-procureur-de-la-republique-de-marseille-apres-l-arrestation-en-algerie-de-mehdi-laribi-presente-comme-l-un-des-fondateurs-de-la-dz-mafia_8136122.html",
+          "canonicalUrl": "https://franceinfo.fr/faits-divers/je-suis-tres-satisfait-reagit-le-procureur-de-la-republique-de-marseille-apres-l-arrestation-en-algerie-de-mehdi-laribi-presente-comme-l-un-des-fondateurs-de-la-dz-mafia_8136122.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-05T15:11:03Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/1LCCpVCtYTnIxg3x-cm6Xo8lA50/0x0:5577x3137/432x243/filters:format(jpg):quality(50)/2025/11/17/maxnewsspecialtwo351427-691acbfbc9eba406835904.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T16:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "36da35a6c2032d23b571",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "je suis très satisfait réagit le procureur de la république de marseille après l arrestation en algérie de mehdi laribi présenté comme l un des fondateurs de la dz mafia"
+        },
+        {
+          "id": "8a48cd6c214c35ba86618dcc",
+          "title": "L’interpellation d’un chef de la DZ Mafia en Algérie relance la coopération judiciaire entre Alger et Paris",
+          "translatedTitle": null,
+          "description": "DÉCRYPTAGE - Arrêté fin juillet et placé sous contrôle judiciaire en Algérie, Mehdi Laribi est l’un des membres fondateurs de l’organisation criminelle marseillaise. Reste la question délicate de l’extradition.",
+          "url": "https://www.lefigaro.fr/actualite-france/l-interpellation-d-un-chef-de-la-dz-mafia-en-algerie-relance-la-cooperation-judiciaire-entre-alger-et-paris-20260805",
+          "canonicalUrl": "https://lefigaro.fr/actualite-france/l-interpellation-d-un-chef-de-la-dz-mafia-en-algerie-relance-la-cooperation-judiciaire-entre-alger-et-paris-20260805",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-05T10:15:52Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/08/05/c0fc2ca7d69b142628cddfd6d8c3ea754d2b4c8a6eda5106f5de71143c7f7789.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T12:17:33Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "36da35a6c2032d23b571",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "l interpellation d un chef de la dz mafia en algérie relance la coopération judiciaire entre alger et paris"
+        },
+        {
+          "id": "7508cfc05b7dd22b5becc68b",
+          "title": "Un chef présumé de la DZ Mafia, Mehdi Laribi, a été interpellé en Algérie",
+          "translatedTitle": null,
+          "description": "Mehdi Laribi, présenté comme l’un des fondateurs de la DZ Mafia, a été interpellé en Algérie fin juillet et placé sous contrôle judiciaire. Une interpellation saluée par Gérald Darmanin.",
+          "url": "https://www.lefigaro.fr/actualite-france/un-chef-presume-de-la-dz-mafia-mehdi-laribi-a-ete-interpelle-en-algerie-20260805",
+          "canonicalUrl": "https://lefigaro.fr/actualite-france/un-chef-presume-de-la-dz-mafia-mehdi-laribi-a-ete-interpelle-en-algerie-20260805",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-05T09:13:01Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/05/271647937a95c7e59fdcef899bc91f42c6a9cd55f6f8a70b7bf90d01b55cafe0.JPG",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T12:17:33Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "36da35a6c2032d23b571",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "un chef présumé de la dz mafia mehdi laribi a été interpellé en algérie"
+        },
+        {
+          "id": "cd17f35a7369370d3427a82b",
+          "title": "Mehdi Laribi, présenté comme l'un des fondateurs de la DZ Mafia, a été arrêté en Algérie fin juillet",
+          "translatedTitle": null,
+          "description": "Considéré comme l'un des cinq ou six membres fondateurs du groupe criminel, Mehdi Laribi a été placé sous contrôle judiciaire.",
+          "url": "https://www.franceinfo.fr/societe/drogue/info-franceinfo-mehdi-laribi-presente-comme-l-un-des-fondateurs-de-la-dz-mafia-arrete-en-algerie-il-y-a-quelques-jours_8135381.html",
+          "canonicalUrl": "https://franceinfo.fr/societe/drogue/info-franceinfo-mehdi-laribi-presente-comme-l-un-des-fondateurs-de-la-dz-mafia-arrete-en-algerie-il-y-a-quelques-jours_8135381.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-05T08:43:28Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/Rh5Lx7FwYscC92_7gg01WTqoAfE/0x350:6720x4130/432x243/filters:format(jpg):quality(50)/2026/08/05/6a72b89298784853385900.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T16:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "36da35a6c2032d23b571",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.6647,
+          "normalizedTitle": "mehdi laribi présenté comme l un des fondateurs de la dz mafia a été arrêté en algérie fin juillet",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 8.59694
     },
     {
       "id": "52329377c92fe18f15e8d642",
@@ -108,13 +413,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
+      "retrievedAt": "2026-08-05T20:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "8b90c8913467bff497f2",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.35321,
       "related": [
         {
           "id": "3a04d50f6d490fbe01bf2f72",
@@ -136,7 +442,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-05T16:17:36Z",
+          "retrievedAt": "2026-08-05T20:17:36Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -177,8 +483,7 @@
           "normalizedTitle": "affaire jean pormanove prison avec sursis et bannissement numérique pour les streameurs naruto et safine",
           "sourceQuality": 1.0
         }
-      ],
-      "rankingScore": 8.78451
+      ]
     },
     {
       "id": "5f6f66c28db034e921f975f4",
@@ -207,8 +512,8 @@
       "clusterId": "bd40e9d0c4c36bead37c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.52009
+      "rankingScore": 7.92363,
+      "related": []
     },
     {
       "id": "c6daabe60605d91af3bbfd40",
@@ -237,8 +542,8 @@
       "clusterId": "d3402882a176e7e40d52",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.40705
+      "rankingScore": 7.83311,
+      "related": []
     },
     {
       "id": "4fec4bd606289f4bfccc96e6",
@@ -267,6 +572,7 @@
       "clusterId": "fa34f1282923e3573b5e",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.71674,
       "related": [
         {
           "id": "6f051d1174d838c64de15771",
@@ -392,8 +698,7 @@
           "normalizedTitle": "en direct guerre en ukraine des bombardements sur kiev et sa région font au moins deux morts",
           "sourceQuality": 1.0
         }
-      ],
-      "rankingScore": 8.05684
+      ]
     },
     {
       "id": "23bb82695c2ab2ca9a118004",
@@ -422,7 +727,7 @@
       "clusterId": "6bce22701ebeb9eb3702",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.99109,
+      "rankingScore": 7.50004,
       "related": []
     },
     {
@@ -452,410 +757,14 @@
       "clusterId": "3f2bfb362003ecdb95c7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.45185,
+      "rankingScore": 7.21237,
       "related": []
-    },
-    {
-      "id": "0f0a72a4d16f61f41888552e",
-      "title": "Présidentielle 2027 : le patron de Renaissance Gabriel Attal à son tour visé par «une ingérence en provenance de Russie»",
-      "translatedTitle": null,
-      "description": "«Nous avons été informés par le Secrétariat général à la défense et à la Sécurité nationale d’ingérences extérieures provenant de Russie et d’organes liés au pouvoir central russe, à l’encontre de Gabriel Attal», a indiqué son entourage.",
-      "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-le-patron-de-renaissance-gabriel-attal-a-son-tour-vise-par-une-ingerence-en-provenance-de-russie-20260805",
-      "canonicalUrl": "https://lefigaro.fr/elections/presidentielles/presidentielle-2027-le-patron-de-renaissance-gabriel-attal-a-son-tour-vise-par-une-ingerence-en-provenance-de-russie-20260805",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T16:12:32Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/05/6e92168a9f1af9047bc3a543af0381f839337bd567eccf0d12040df9482092a4.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3cd50cd6b7abf72274c2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "fd7292277bd2c335fb5c96fd",
-          "title": "Le député PS de l'Eure Philippe Brun juge \"délirant\" un droit de vote à 15 euros pour la primaire socialiste en vue de la présidentielle de 2027",
-          "translatedTitle": null,
-          "description": "Candidat à la primaire, il menace de créer \"une caisse populaire\" pour financer les gens qui souhaitent participer, si ce prix de 15 euros est maintenu. Il propose plutôt un ticket d'entrée à cinq euros.",
-          "url": "https://www.franceinfo.fr/elections/presidentielle/le-depute-ps-de-l-eure-philippe-brun-juge-delirant-un-droit-de-vote-a-15-euros-pour-la-primaire-socialiste-en-vue-de-la-presidentielle-de-2027_8135654.html",
-          "canonicalUrl": "https://franceinfo.fr/elections/presidentielle/le-depute-ps-de-l-eure-philippe-brun-juge-delirant-un-droit-de-vote-a-15-euros-pour-la-primaire-socialiste-en-vue-de-la-presidentielle-de-2027_8135654.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-05T08:40:53Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/Wcwi5YGkAA-XWBBICiiI0hiD_UE/205x0:1130x520/432x243/filters:format(jpg):quality(50)/2026/08/05/6a72f617a51da805593379.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-05T12:17:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "3cd50cd6b7abf72274c2",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 6.78999,
-          "normalizedTitle": "le député ps de l eure philippe brun juge délirant un droit de vote à 15 euros pour la primaire socialiste en vue de la présidentielle de 2027",
-          "sourceQuality": 1.0
-        }
-      ],
-      "rankingScore": 7.40957
-    },
-    {
-      "id": "96cdab2e603ecfd52d0d6509",
-      "title": "Dans le Michigan, la victoire du « progressiste » Abdul El-Sayed à la primaire démocrate confirme la poussée de l’aile gauche au sein d’un parti fracturé",
-      "translatedTitle": null,
-      "description": "Le médecin de 41 ans représentera le Parti démocrate aux élections sénatoriales de novembre dans l’Etat des Grands Lacs, un scrutin à haut risque, au moment où l’aile gauche n’en finit plus de bousculer une direction jugée trop centriste.",
-      "url": "https://www.lemonde.fr/international/article/2026/08/05/dans-le-michigan-la-victoire-du-progressiste-abdul-el-sayed-a-la-primaire-democrate-confirme-la-poussee-de-l-aile-gauche-au-sein-d-un-parti-fracture_6739433_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/article/2026/08/05/dans-le-michigan-la-victoire-du-progressiste-abdul-el-sayed-a-la-primaire-democrate-confirme-la-poussee-de-l-aile-gauche-au-sein-d-un-parti-fracture_6739433_3210.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T14:14:48Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/04/140/0/4867/2433/644/322/60/0/1580e59_ftp-1-ebnvf6orzond-5774663-01-06.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4aa0ba4437f2afe4b543",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "c7cb37148f47ebcdbf2f1a0a",
-          "title": "Le progressiste Abdul El-Sayed a remporté la primaire démocrate du Michigan, selon les projections des médias américains",
-          "translatedTitle": null,
-          "description": "Dans cette primaire test pour l’avenir du Parti démocrate et qui s’est avérée plus disputée qu’attendu, ce médecin de 41 ans a battu la centriste Haley Stevens, selon NBC et CNN.",
-          "url": "https://www.lefigaro.fr/politique/le-progressiste-abdul-el-sayed-a-remporte-la-primaire-democrate-du-michigan-selon-les-projections-des-medias-americains-20260805",
-          "canonicalUrl": "https://lefigaro.fr/politique/le-progressiste-abdul-el-sayed-a-remporte-la-primaire-democrate-du-michigan-selon-les-projections-des-medias-americains-20260805",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-05T15:55:55Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/05/bec9e7a9265bbd508afa609dd90bb0f29b7dfcf30d36f55d8eef4a0f4a8d97c5.JPG",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-05T16:17:36Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "4aa0ba4437f2afe4b543",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "le progressiste abdul el sayed a remporté la primaire démocrate du michigan selon les projections des médias américains"
-        }
-      ],
-      "rankingScore": 7.18343
-    },
-    {
-      "id": "2acbdd3424ae105988036838",
-      "title": "EN DIRECT, guerre en Ukraine : après des bombardements russes meurtriers, Zelensky appelle ses alliés à accélérer la livraison de systèmes de défense aérienne ; des évacuations de familles ordonnées à Kramatorsk",
-      "translatedTitle": null,
-      "description": "Alors que l’armée ukrainienne n’a pu abattre aucun des missiles russes lancés contre Kiev et sa région, au moins 17 personnes sont mortes dans la nuit de mardi à mercredi. Selon le président ukrainien, des intercepteurs capables de neutraliser les missiles balistiques « auraient pu sauver des vies ».",
-      "url": "https://www.lemonde.fr/international/live/2026/08/05/en-direct-guerre-en-ukraine-apres-des-bombardements-russes-meurtriers-zelensky-appelle-ses-allies-a-accelerer-la-livraison-de-systemes-de-defense-aerienne-des-evacuations-de-familles-ordonnees-a-kramatorsk_6737250_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/live/2026/08/05/en-direct-guerre-en-ukraine-apres-des-bombardements-russes-meurtriers-zelensky-appelle-ses-allies-a-accelerer-la-livraison-de-systemes-de-defense-aerienne-des-evacuations-de-familles-ordonnees-a-kramatorsk_6737250_3210.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T14:34:41Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/05/803/0/5892/2946/644/322/60/0/869e934_ftp-1-3sn7cgy76l79-5777510-01-06.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c744f930a5ffb06c03ab",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.16991
-    },
-    {
-      "id": "f2f9c9ee9d4f9383a91e7d95",
-      "title": "Israel resumes military strikes on southern Lebanon as Rome hosts peace talks",
-      "translatedTitle": null,
-      "description": "Israel again fired on southern Lebanon on Wednesday, blaming Hezbollah for violating a ceasefire, as US-backed negotiations in Rome sought to end months of cross-border hostilities. Lebanon said at least one person was killed in the attacks, while Israel issued its first evacuation alert in weeks for a southern town, underscoring the fragility of the truce.",
-      "url": "https://www.france24.com/en/middle-east/20260805-israel-resumes-military-strikes-on-southern-lebanon-as-rome-hosts-peace-talks",
-      "canonicalUrl": "https://france24.com/en/middle-east/20260805-israel-resumes-military-strikes-on-southern-lebanon-as-rome-hosts-peace-talks",
-      "sourceName": "France 24",
-      "sourceDomain": "s.france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-05T15:20:14Z",
-      "imageUrl": "https://s.france24.com/media/display/04418a86-90df-11f1-a749-005056bfb2b6/w:1024/p:16x9/AP26217465863363.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d68c90af284bc4046af3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.16606
-    },
-    {
-      "id": "c8aa84ab75da0cff094a7eb2",
-      "title": "L’écrivain Didier Decoin, prix Goncourt en 1977 et ancien président de son jury, est mort",
-      "translatedTitle": null,
-      "description": "Fils du cinéaste Henri Decoin, l’auteur avait été couronné par le prix Goncourt pour son roman John l’Enfer en 1977 et avait présidé l’Académie Goncourt entre 2020 et 2024. Il avait 81 ans.",
-      "url": "https://www.lefigaro.fr/culture/l-ecrivain-didier-decoin-prix-goncourt-en-1977-et-ancien-president-de-son-jury-est-mort-20260805",
-      "canonicalUrl": "https://lefigaro.fr/culture/l-ecrivain-didier-decoin-prix-goncourt-en-1977-et-ancien-president-de-son-jury-est-mort-20260805",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T15:25:34Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/05/632d4ef3150883394fedc2cfa86f17d15c2f3c43b2d8ef1f32ee3b312ba6852d.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "49e70ebecd615cf135c2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.13639,
-      "related": [
-        {
-          "id": "cadbc21482ed77966446046c",
-          "title": "Mort de Didier Decoin : l'écrivain et scénariste en trois œuvres récompensées par de prestigieux prix",
-          "translatedTitle": null,
-          "description": "En littérature, au cinéma ou à la télévision, les textes de Didier Decoin ont souvent été salués par ses pairs et le public.",
-          "url": "https://www.franceinfo.fr/culture/livres/mort-de-didier-decoin-l-ecrivain-et-scenariste-en-trois-uvres-recompensees-par-de-prestigieux-prix_8135876.html",
-          "canonicalUrl": "https://franceinfo.fr/culture/livres/mort-de-didier-decoin-l-ecrivain-et-scenariste-en-trois-uvres-recompensees-par-de-prestigieux-prix_8135876.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-05T15:09:17Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/Bczk3tZlzGG9cUFSclrDiT8marI/0x388:3872x2566/432x243/filters:format(jpg):quality(50)/2026/08/05/6a732a4ed1182348996132.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-05T16:17:36Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "49e70ebecd615cf135c2",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "mort de didier decoin l écrivain et scénariste en trois œuvres récompensées par de prestigieux prix"
-        }
-      ]
-    },
-    {
-      "id": "9c217423b69df33b8d14aae8",
-      "title": "La femme portée disparue en Haute-Savoie après avoir été emportée par une rivière a été retrouvée morte, annonce le procureur",
-      "translatedTitle": null,
-      "description": "Une coulée de boue a également eu lieu dans le cirque du Fer-à-Cheval, un gigantesque amphithéâtre naturel calcaire très prisé des randonneurs et des touristes.",
-      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/une-femme-portee-disparue-en-haute-savoie-apres-avoir-ete-emportee-par-une-riviere-a-la-suite-d-un-violent-orage-des-evacuations-par-helicoptere_8135513.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/une-femme-portee-disparue-en-haute-savoie-apres-avoir-ete-emportee-par-une-riviere-a-la-suite-d-un-violent-orage-des-evacuations-par-helicoptere_8135513.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T15:07:22Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/hqqLq8UkGhrVTlOhW-Lzicpol_Y/0x314:4800x3014/432x243/filters:format(jpg):quality(50)/2026/08/05/6a72d4f3ceb76590091587.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8651a1ba3f5adf14964b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "29a29d244ffc335223d8a2ac",
-          "title": "Haute-Savoie : le corps de la randonneuse emportée par une coulée de boue retrouvé sans vie",
-          "translatedTitle": null,
-          "description": "Une femme de 56 ans avait été emportée par les eaux mardi, à Sixt-Fer-à-Cheval, où la rivière a débordé après de fortes intempéries.",
-          "url": "https://www.lefigaro.fr/faits-divers/haute-savoie-le-corps-de-la-randonneuse-emportee-par-une-coulee-de-boue-retrouvee-sans-vie-20260805",
-          "canonicalUrl": "https://lefigaro.fr/faits-divers/haute-savoie-le-corps-de-la-randonneuse-emportee-par-une-coulee-de-boue-retrouvee-sans-vie-20260805",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-05T15:13:54Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/05/19b937eb8891f613ceaffc98a6eb8d96f62153468627adf7df24c0dfa0e68db5.JPG",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-05T16:17:36Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "8651a1ba3f5adf14964b",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "haute savoie le corps de la randonneuse emportée par une coulée de boue retrouvé sans vie"
-        }
-      ],
-      "rankingScore": 7.10136
-    },
-    {
-      "id": "07ca2e1d3861983e2ab1b97c",
-      "title": "Theme park or political park: Did France's 'Puy du Fou' break Russian sanctions?",
-      "translatedTitle": null,
-      "description": "Is one of France’s favorite theme parks a ‘Disneyland for Dictators,’ as The Guardian claims? The British paper has uncovered documents that indicate the French theme park ‘Puy du Fou’ continued working with a Russian oligarch long after sanctions on him were in place, in addition to ties with Vladimir Putin. Solange Mougin has more on the popular French destination, its expansion plans abroad and how critics say it is re-writing history.",
-      "url": "https://www.france24.com/en/video/20260805-theme-park-or-political-park-did-france-s-puy-du-fou-break-russian-sanctions",
-      "canonicalUrl": "https://france24.com/en/video/20260805-theme-park-or-political-park-did-france-s-puy-du-fou-break-russian-sanctions",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-05T13:30:11Z",
-      "imageUrl": "https://s.france24.com/media/display/df4759e6-90c9-11f1-920c-005056bfb2b6/w:1024/p:16x9/capture-13676071546a732d9ce1fdc8-59095621.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a3b73f6032da0d952c70",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.96397
-    },
-    {
-      "id": "639447cce73977b38881d69a",
-      "title": "EN DIRECT, Tour de France Femmes 2026 : Demi Vollering remporte la cinquième étape, Marlen Reusser conserve le maillot jaune",
-      "translatedTitle": null,
-      "description": "A l’attaque dans le mont Brouilly, la Neerlandaise n’a pas réussi à lâcher Kasia Niewiadoma et Marlen Reusser et a dû aller au sprint pour s’imposer mercredi. Pauline Ferrand-Prévot a une nouvelle fois été distancée.",
-      "url": "https://www.lemonde.fr/sport/live/2026/08/05/en-direct-tour-de-france-femmes-2026-suivez-la-cinquieme-etape-entre-macon-et-belleville-en-beaujolais_6739417_3242.html",
-      "canonicalUrl": "https://lemonde.fr/sport/live/2026/08/05/en-direct-tour-de-france-femmes-2026-suivez-la-cinquieme-etape-entre-macon-et-belleville-en-beaujolais_6739417_3242.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T11:40:09Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/05/0/0/6753/3376/644/322/60/0/7ac5154_ftp-1-ctlkjnw5xge9-5779483-01-06.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "21a6ad5491a9c9147097",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.92148,
-      "related": [
-        {
-          "id": "ecf1f05590ee7b1d47084e5c",
-          "title": "EN DIRECT - Tour de France femmes : Ferrand-Prévot en mission après son échec dans le chrono, suivez la 5e étape",
-          "translatedTitle": null,
-          "description": "Pauline Ferrand-Prévot doit réagir, à commencer par ce mercredi entre Mâcon et Belleville-en-Beaujolais, une étape réservée aux baroudeuses, si elle veut conserver sa couronne.",
-          "url": "https://www.lefigaro.fr/sports/cyclisme/tour-de-france/en-direct-tour-de-france-femmes-ferrand-prevot-en-mission-apres-son-echec-dans-le-chrono-suivez-la-5e-etape-20260805",
-          "canonicalUrl": "https://lefigaro.fr/sports/cyclisme/tour-de-france/en-direct-tour-de-france-femmes-ferrand-prevot-en-mission-apres-son-echec-dans-le-chrono-suivez-la-5e-etape-20260805",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-05T12:16:03Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/08/05/e05a28bc23e0f1d7876288148b829789a2eb12d26f6630afb7792a4b5d7b90c3.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-05T12:17:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "21a6ad5491a9c9147097",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "en direct tour de france femmes ferrand prévot en mission après son échec dans le chrono suivez la 5e étape"
-        }
-      ]
     },
     {
       "id": "556cafcaaf6188ea1207bf5e",
       "title": "Un drone équipé d'un \"engin explosif\" découvert à l'aéroport de Leipzig, en Allemagne",
       "translatedTitle": null,
-      "description": "Le trafic a été interrompu mardi soir pendant près de deux heures à l'aéroport de Leipzig après la découverte d'un drone. Une enquête est en cours.",
+      "description": "Le trafic a été interrompu mardi soir pendant près de deux heures à l'aéroport de Leipzig après la découverte d'un drone.",
       "url": "https://www.franceinfo.fr/monde/europe/allemagne/un-drone-equipe-d-un-engin-explosif-decouvert-a-l-aeroport-de-leipzig-en-allemagne_8135885.html",
       "canonicalUrl": "https://franceinfo.fr/monde/europe/allemagne/un-drone-equipe-d-un-engin-explosif-decouvert-a-l-aeroport-de-leipzig-en-allemagne_8135885.html",
       "sourceName": "Franceinfo",
@@ -866,18 +775,19 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-05T13:18:19Z",
+      "publishedAt": "2026-08-05T18:11:27Z",
       "imageUrl": "https://www.franceinfo.fr/pictures/VNygG0KcH5-ceoT4BiGLkb1NQGQ/0x184:5392x3217/432x243/filters:format(jpg):quality(50)/2026/08/05/6a732f02cdb91808711607.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
+      "retrievedAt": "2026-08-05T20:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "9a5f367d16439b786b8c",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.99736,
       "related": [
         {
           "id": "497b477659db787327483ad1",
@@ -910,8 +820,282 @@
           "normalizedTitle": "en allemagne le trafic à l aéroport de leipzig temporairement interrompu en raison d un objet volant non identifié",
           "sourceQuality": 1.0
         }
+      ]
+    },
+    {
+      "id": "cadbc21482ed77966446046c",
+      "title": "Mort de Didier Decoin : l'écrivain et scénariste en trois œuvres récompensées par de prestigieux prix",
+      "translatedTitle": null,
+      "description": "En littérature, au cinéma ou à la télévision, les textes de Didier Decoin ont souvent été salués par ses pairs et le public.",
+      "url": "https://www.franceinfo.fr/culture/livres/mort-de-didier-decoin-l-ecrivain-et-scenariste-en-trois-uvres-recompensees-par-de-prestigieux-prix_8135876.html",
+      "canonicalUrl": "https://franceinfo.fr/culture/livres/mort-de-didier-decoin-l-ecrivain-et-scenariste-en-trois-uvres-recompensees-par-de-prestigieux-prix_8135876.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
       ],
-      "rankingScore": 6.90338
+      "language": "fr",
+      "publishedAt": "2026-08-05T15:09:17Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/Bczk3tZlzGG9cUFSclrDiT8marI/0x388:3872x2566/432x243/filters:format(jpg):quality(50)/2026/08/05/6a732a4ed1182348996132.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T20:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "49e70ebecd615cf135c2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "c8aa84ab75da0cff094a7eb2",
+          "title": "L’écrivain Didier Decoin, prix Goncourt en 1977 et ancien président de son jury, est mort",
+          "translatedTitle": null,
+          "description": "Fils du cinéaste Henri Decoin, l’auteur avait été couronné par le prix Goncourt pour son roman John l’Enfer en 1977 et avait présidé l’Académie Goncourt entre 2020 et 2024. Il avait 81 ans.",
+          "url": "https://www.lefigaro.fr/culture/l-ecrivain-didier-decoin-prix-goncourt-en-1977-et-ancien-president-de-son-jury-est-mort-20260805",
+          "canonicalUrl": "https://lefigaro.fr/culture/l-ecrivain-didier-decoin-prix-goncourt-en-1977-et-ancien-president-de-son-jury-est-mort-20260805",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-05T15:25:34Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/05/632d4ef3150883394fedc2cfa86f17d15c2f3c43b2d8ef1f32ee3b312ba6852d.JPG",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T16:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "49e70ebecd615cf135c2",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 7.13639,
+          "normalizedTitle": "l écrivain didier decoin prix goncourt en 1977 et ancien président de son jury est mort",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 6.69355
+    },
+    {
+      "id": "9c217423b69df33b8d14aae8",
+      "title": "La femme portée disparue en Haute-Savoie après avoir été emportée par une rivière a été retrouvée morte, annonce le procureur",
+      "translatedTitle": null,
+      "description": "Une coulée de boue a également eu lieu dans le cirque du Fer-à-Cheval, un gigantesque amphithéâtre naturel calcaire très prisé des randonneurs et des touristes.",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/une-femme-portee-disparue-en-haute-savoie-apres-avoir-ete-emportee-par-une-riviere-a-la-suite-d-un-violent-orage-des-evacuations-par-helicoptere_8135513.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/une-femme-portee-disparue-en-haute-savoie-apres-avoir-ete-emportee-par-une-riviere-a-la-suite-d-un-violent-orage-des-evacuations-par-helicoptere_8135513.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T15:07:22Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/hqqLq8UkGhrVTlOhW-Lzicpol_Y/0x314:4800x3014/432x243/filters:format(jpg):quality(50)/2026/08/05/6a72d4f3ceb76590091587.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T20:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8651a1ba3f5adf14964b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.69062,
+      "related": [
+        {
+          "id": "29a29d244ffc335223d8a2ac",
+          "title": "Haute-Savoie : le corps de la randonneuse emportée par une coulée de boue retrouvé sans vie",
+          "translatedTitle": null,
+          "description": "Une femme de 56 ans avait été emportée par les eaux mardi, à Sixt-Fer-à-Cheval, où la rivière a débordé après de fortes intempéries.",
+          "url": "https://www.lefigaro.fr/faits-divers/haute-savoie-le-corps-de-la-randonneuse-emportee-par-une-coulee-de-boue-retrouvee-sans-vie-20260805",
+          "canonicalUrl": "https://lefigaro.fr/faits-divers/haute-savoie-le-corps-de-la-randonneuse-emportee-par-une-coulee-de-boue-retrouvee-sans-vie-20260805",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-05T15:13:54Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/05/19b937eb8891f613ceaffc98a6eb8d96f62153468627adf7df24c0dfa0e68db5.JPG",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T16:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "8651a1ba3f5adf14964b",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "haute savoie le corps de la randonneuse emportée par une coulée de boue retrouvé sans vie"
+        }
+      ]
+    },
+    {
+      "id": "c7cb37148f47ebcdbf2f1a0a",
+      "title": "Le progressiste Abdul El-Sayed a remporté la primaire démocrate du Michigan, selon les projections des médias américains",
+      "translatedTitle": null,
+      "description": "Dans cette primaire test pour l’avenir du Parti démocrate et qui s’est avérée plus disputée qu’attendu, ce médecin de 41 ans a battu la centriste Haley Stevens, selon NBC et CNN.",
+      "url": "https://www.lefigaro.fr/politique/le-progressiste-abdul-el-sayed-a-remporte-la-primaire-democrate-du-michigan-selon-les-projections-des-medias-americains-20260805",
+      "canonicalUrl": "https://lefigaro.fr/politique/le-progressiste-abdul-el-sayed-a-remporte-la-primaire-democrate-du-michigan-selon-les-projections-des-medias-americains-20260805",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T15:55:55Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/05/bec9e7a9265bbd508afa609dd90bb0f29b7dfcf30d36f55d8eef4a0f4a8d97c5.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T16:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4aa0ba4437f2afe4b543",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "96cdab2e603ecfd52d0d6509",
+          "title": "Dans le Michigan, la victoire du « progressiste » Abdul El-Sayed à la primaire démocrate confirme la poussée de l’aile gauche au sein d’un parti fracturé",
+          "translatedTitle": null,
+          "description": "Le médecin de 41 ans représentera le Parti démocrate aux élections sénatoriales de novembre dans l’Etat des Grands Lacs, un scrutin à haut risque, au moment où l’aile gauche n’en finit plus de bousculer une direction jugée trop centriste.",
+          "url": "https://www.lemonde.fr/international/article/2026/08/05/dans-le-michigan-la-victoire-du-progressiste-abdul-el-sayed-a-la-primaire-democrate-confirme-la-poussee-de-l-aile-gauche-au-sein-d-un-parti-fracture_6739433_3210.html",
+          "canonicalUrl": "https://lemonde.fr/international/article/2026/08/05/dans-le-michigan-la-victoire-du-progressiste-abdul-el-sayed-a-la-primaire-democrate-confirme-la-poussee-de-l-aile-gauche-au-sein-d-un-parti-fracture_6739433_3210.html",
+          "sourceName": "Le Monde",
+          "sourceDomain": "lemonde.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-05T14:14:48Z",
+          "imageUrl": "https://img.lemde.fr/2026/08/04/140/0/4867/2433/644/322/60/0/1580e59_ftp-1-ebnvf6orzond-5774663-01-06.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T16:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "4aa0ba4437f2afe4b543",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 7.18343,
+          "normalizedTitle": "dans le michigan la victoire du progressiste abdul el sayed à la primaire démocrate confirme la poussée de l aile gauche au sein d un parti fracturé",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 6.67651
+    },
+    {
+      "id": "f2f9c9ee9d4f9383a91e7d95",
+      "title": "Israel resumes military strikes on southern Lebanon as Rome hosts peace talks",
+      "translatedTitle": null,
+      "description": "Israel again fired on southern Lebanon on Wednesday, blaming Hezbollah for violating a ceasefire, as US-backed negotiations in Rome sought to end months of cross-border hostilities. Lebanon said at least one person was killed in the attacks, while Israel issued its first evacuation alert in weeks for a southern town, underscoring the fragility of the truce.",
+      "url": "https://www.france24.com/en/middle-east/20260805-israel-resumes-military-strikes-on-southern-lebanon-as-rome-hosts-peace-talks",
+      "canonicalUrl": "https://france24.com/en/middle-east/20260805-israel-resumes-military-strikes-on-southern-lebanon-as-rome-hosts-peace-talks",
+      "sourceName": "France 24",
+      "sourceDomain": "s.france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-05T15:20:14Z",
+      "imageUrl": "https://s.france24.com/media/display/04418a86-90df-11f1-a749-005056bfb2b6/w:1024/p:16x9/AP26217465863363.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T16:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d68c90af284bc4046af3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.5704,
+      "related": []
+    },
+    {
+      "id": "2acbdd3424ae105988036838",
+      "title": "EN DIRECT, guerre en Ukraine : après des bombardements russes meurtriers, Zelensky appelle ses alliés à accélérer la livraison de systèmes de défense aérienne ; des évacuations de familles ordonnées à Kramatorsk",
+      "translatedTitle": null,
+      "description": "Alors que l’armée ukrainienne n’a pu abattre aucun des missiles russes lancés contre Kiev et sa région, au moins 17 personnes sont mortes dans la nuit de mardi à mercredi. Selon le président ukrainien, des intercepteurs capables de neutraliser les missiles balistiques « auraient pu sauver des vies ».",
+      "url": "https://www.lemonde.fr/international/live/2026/08/05/en-direct-guerre-en-ukraine-apres-des-bombardements-russes-meurtriers-zelensky-appelle-ses-allies-a-accelerer-la-livraison-de-systemes-de-defense-aerienne-des-evacuations-de-familles-ordonnees-a-kramatorsk_6737250_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/live/2026/08/05/en-direct-guerre-en-ukraine-apres-des-bombardements-russes-meurtriers-zelensky-appelle-ses-allies-a-accelerer-la-livraison-de-systemes-de-defense-aerienne-des-evacuations-de-familles-ordonnees-a-kramatorsk_6737250_3210.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T14:34:41Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/05/803/0/5892/2946/644/322/60/0/869e934_ftp-1-3sn7cgy76l79-5777510-01-06.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T16:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c744f930a5ffb06c03ab",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.50142,
+      "related": []
+    },
+    {
+      "id": "07ca2e1d3861983e2ab1b97c",
+      "title": "Theme park or political park: Did France's 'Puy du Fou' break Russian sanctions?",
+      "translatedTitle": null,
+      "description": "Is one of France’s favorite theme parks a ‘Disneyland for Dictators,’ as The Guardian claims? The British paper has uncovered documents that indicate the French theme park ‘Puy du Fou’ continued working with a Russian oligarch long after sanctions on him were in place, in addition to ties with Vladimir Putin. Solange Mougin has more on the popular French destination, its expansion plans abroad and how critics say it is re-writing history.",
+      "url": "https://www.france24.com/en/video/20260805-theme-park-or-political-park-did-france-s-puy-du-fou-break-russian-sanctions",
+      "canonicalUrl": "https://france24.com/en/video/20260805-theme-park-or-political-park-did-france-s-puy-du-fou-break-russian-sanctions",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-05T13:30:11Z",
+      "imageUrl": "https://s.france24.com/media/display/df4759e6-90c9-11f1-920c-005056bfb2b6/w:1024/p:16x9/capture-13676071546a732d9ce1fdc8-59095621.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T16:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a3b73f6032da0d952c70",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.40858,
+      "related": []
     },
     {
       "id": "fc4d64e79db101d5f8b903ac",
@@ -940,7 +1124,7 @@
       "clusterId": "8700fce72387c2d41e6b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.70659,
+      "rankingScore": 6.20248,
       "related": []
     },
     {
@@ -970,8 +1154,8 @@
       "clusterId": "622a948b742437409bae",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.6971
+      "rankingScore": 6.19488,
+      "related": []
     },
     {
       "id": "cd62b6b4211d74b6719e96e5",
@@ -1000,45 +1184,45 @@
       "clusterId": "0effd198d7e4d9797709",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.69678
+      "rankingScore": 6.19462,
+      "related": []
     },
     {
-      "id": "cd17f35a7369370d3427a82b",
-      "title": "Mehdi Laribi, présenté comme l'un des fondateurs de la DZ Mafia, a été arrêté en Algérie fin juillet",
+      "id": "6d65a65d881a50a5c4a9177f",
+      "title": "Guatemala : les images de l’éruption du volcan Fuego",
       "translatedTitle": null,
-      "description": "Considéré comme l'un des cinq ou six membres fondateurs du groupe criminel, Mehdi Laribi a été placé sous contrôle judiciaire.",
-      "url": "https://www.franceinfo.fr/societe/drogue/info-franceinfo-mehdi-laribi-presente-comme-l-un-des-fondateurs-de-la-dz-mafia-arrete-en-algerie-il-y-a-quelques-jours_8135381.html",
-      "canonicalUrl": "https://franceinfo.fr/societe/drogue/info-franceinfo-mehdi-laribi-presente-comme-l-un-des-fondateurs-de-la-dz-mafia-arrete-en-algerie-il-y-a-quelques-jours_8135381.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
+      "description": "Considéré comme le volcan le plus actif d’Amérique centrale, le Fuego est entré en phase éruptive lundi matin. Quelque 29 000 personnes sont directement exposées aux retombées de cendres, ce qui rend l’évacuation de la zone indispensable.",
+      "url": "https://www.lemonde.fr/international/video/2026/08/05/guatemala-les-images-de-l-eruption-du-volcan-fuego_6739412_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/video/2026/08/05/guatemala-les-images-de-l-eruption-du-volcan-fuego_6739412_3210.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-05T08:43:28Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/Rh5Lx7FwYscC92_7gg01WTqoAfE/0x350:6720x4130/432x243/filters:format(jpg):quality(50)/2026/08/05/6a72b89298784853385900.jpg",
+      "publishedAt": "2026-08-05T10:00:12Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/04/619/0/7430/3715/644/322/60/0/8f3b546_ftp-1-bcf0oxuaodra-5771633-01-06.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
+      "retrievedAt": "2026-08-05T12:17:33Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b0ab57eb2880cebba535",
+      "clusterId": "c2851fc263629fba7f9f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.6647,
+      "rankingScore": 6.19202,
       "related": [
         {
-          "id": "1a24db726856ce8e2cfa0d4b",
-          "title": "\"Je suis très satisfait\", réagit le procureur de la République de Marseille, après l'arrestation en Algérie de Mehdi Laribi, présenté comme l'un des fondateurs de la DZ Mafia",
+          "id": "a65845771047745df139d578",
+          "title": "Coulée de lave, colonne de gaz et nuages de cendres : au Guatemala, l'éruption du volcan de Fuego ravive la peur des habitants",
           "translatedTitle": null,
-          "description": "Mehdi Laribi, présenté comme l'un des fondateurs de la DZ Mafia, a été arrêté en Algérie il y a quelques jours.",
-          "url": "https://www.franceinfo.fr/faits-divers/je-suis-tres-satisfait-reagit-le-procureur-de-la-republique-de-marseille-apres-l-arrestation-en-algerie-de-mehdi-laribi-presente-comme-l-un-des-fondateurs-de-la-dz-mafia_8136122.html",
-          "canonicalUrl": "https://franceinfo.fr/faits-divers/je-suis-tres-satisfait-reagit-le-procureur-de-la-republique-de-marseille-apres-l-arrestation-en-algerie-de-mehdi-laribi-presente-comme-l-un-des-fondateurs-de-la-dz-mafia_8136122.html",
+          "description": "Au moins 1 700 riverains, situés près de la capitale, ont été évacués. L'éruption de ce volcan a causé la mort de plusieurs centaines de personnes depuis 2015.",
+          "url": "https://www.franceinfo.fr/environnement/catastrophes-naturelles/eruptions-volcaniques/en-images-coulee-de-lave-colonne-de-gaz-et-nuages-de-cendres-au-guatemala-l-eruption-du-volcan-de-fuego-ravive-la-peur-des-habitants_8135486.html",
+          "canonicalUrl": "https://franceinfo.fr/environnement/catastrophes-naturelles/eruptions-volcaniques/en-images-coulee-de-lave-colonne-de-gaz-et-nuages-de-cendres-au-guatemala-l-eruption-du-volcan-de-fuego-ravive-la-peur-des-habitants_8135486.html",
           "sourceName": "Franceinfo",
           "sourceDomain": "franceinfo.fr",
           "sourceCountry": "FR",
@@ -1047,8 +1231,8 @@
             "FR"
           ],
           "language": "fr",
-          "publishedAt": "2026-08-05T15:11:03Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/1LCCpVCtYTnIxg3x-cm6Xo8lA50/0x0:5577x3137/432x243/filters:format(jpg):quality(50)/2025/11/17/maxnewsspecialtwo351427-691acbfbc9eba406835904.jpg",
+          "publishedAt": "2026-08-05T09:04:05Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/bvBZMyDmgpH0qbu0Zts7ct1bodA/0x293:5641x3467/432x243/filters:format(jpg):quality(50)/2026/08/05/6a72d155c92c2199489840.jpg",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
@@ -1056,225 +1240,14 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "b0ab57eb2880cebba535",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "je suis très satisfait réagit le procureur de la république de marseille après l arrestation en algérie de mehdi laribi présenté comme l un des fondateurs de la dz mafia"
-        },
-        {
-          "id": "8a48cd6c214c35ba86618dcc",
-          "title": "L’interpellation d’un chef de la DZ Mafia en Algérie relance la coopération judiciaire entre Alger et Paris",
-          "translatedTitle": null,
-          "description": "DÉCRYPTAGE - Arrêté fin juillet et placé sous contrôle judiciaire en Algérie, Mehdi Laribi est l’un des membres fondateurs de l’organisation criminelle marseillaise. Reste la question délicate de l’extradition.",
-          "url": "https://www.lefigaro.fr/actualite-france/l-interpellation-d-un-chef-de-la-dz-mafia-en-algerie-relance-la-cooperation-judiciaire-entre-alger-et-paris-20260805",
-          "canonicalUrl": "https://lefigaro.fr/actualite-france/l-interpellation-d-un-chef-de-la-dz-mafia-en-algerie-relance-la-cooperation-judiciaire-entre-alger-et-paris-20260805",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-05T10:15:52Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/08/05/c0fc2ca7d69b142628cddfd6d8c3ea754d2b4c8a6eda5106f5de71143c7f7789.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-05T12:17:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "b0ab57eb2880cebba535",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "l interpellation d un chef de la dz mafia en algérie relance la coopération judiciaire entre alger et paris"
-        },
-        {
-          "id": "7508cfc05b7dd22b5becc68b",
-          "title": "Un chef présumé de la DZ Mafia, Mehdi Laribi, a été interpellé en Algérie",
-          "translatedTitle": null,
-          "description": "Mehdi Laribi, présenté comme l’un des fondateurs de la DZ Mafia, a été interpellé en Algérie fin juillet et placé sous contrôle judiciaire. Une interpellation saluée par Gérald Darmanin.",
-          "url": "https://www.lefigaro.fr/actualite-france/un-chef-presume-de-la-dz-mafia-mehdi-laribi-a-ete-interpelle-en-algerie-20260805",
-          "canonicalUrl": "https://lefigaro.fr/actualite-france/un-chef-presume-de-la-dz-mafia-mehdi-laribi-a-ete-interpelle-en-algerie-20260805",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-05T09:13:01Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/05/271647937a95c7e59fdcef899bc91f42c6a9cd55f6f8a70b7bf90d01b55cafe0.JPG",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-05T12:17:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "b0ab57eb2880cebba535",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "un chef présumé de la dz mafia mehdi laribi a été interpellé en algérie"
-        }
-      ]
-    },
-    {
-      "id": "b46366bc2629c93cfde56412",
-      "title": "Guatemala volcano eruption forces hundreds to flee ash, gas and lava",
-      "translatedTitle": null,
-      "description": "In Guatemala, authorities have declared a red alert – the most severe danger warning – in areas affected by the eruption of the Fuego Volcano, located about 35 kilometers from the country's capital. The alert covers the areas of Sacatepéquez, Chimaltenango, and Escuintla, home to around 1.6 million people. Story by Charlotte Hughes.",
-      "url": "https://www.france24.com/en/guatemala-volcano-eruption-forces-hundreds-to-flee-ash-gas-and-lava",
-      "canonicalUrl": "https://france24.com/en/guatemala-volcano-eruption-forces-hundreds-to-flee-ash-gas-and-lava",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-05T10:20:57Z",
-      "imageUrl": "https://s.france24.com/media/display/d18030b2-90b5-11f1-ae7d-005056bf30b7/w:1024/p:16x9/EN-20260805-080939-081057-CS.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8fac3942d70634131fd6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.66117
-    },
-    {
-      "id": "164af4770cf2e1db927410bf",
-      "title": "Ukrainian capital lit up by massive overnight Russian strikes, killing 17",
-      "translatedTitle": null,
-      "description": "At least two people were killed and a dozen more wounded in a Russian strike on Kyiv overnight. For several weeks, the Ukrainian capital has been the target of Russian missile and drone attacks that its air defences have struggled to repel. Ukraine has also increased its long-range attacks on Russia, with a growing number of victims on both sides.",
-      "url": "https://www.france24.com/en/ukrainian-capital-lit-up-by-massive-overnight-russian-strikes-killing-17",
-      "canonicalUrl": "https://france24.com/en/ukrainian-capital-lit-up-by-massive-overnight-russian-strikes-killing-17",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-05T09:51:46Z",
-      "imageUrl": "https://s.france24.com/media/display/a5fb5dae-90b0-11f1-b004-005056a90284/w:1024/p:16x9/AP26217188223210.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ba4e0065d704b52bfa9f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.61902,
-      "related": []
-    },
-    {
-      "id": "aca85cb16e60104a1109b40c",
-      "title": "DR Congo is set to open its largest ever Ebola treatment facility",
-      "translatedTitle": null,
-      "description": "The DR Congo is set to open its largest Ebola treatment facility. Construction is nearing completion as health authorities race to contain an outbreak that the World Health Organization has described as intensifying at an \"exceptional\" pace. As of July 30, the WHO reported 3,605 confirmed Ebola cases and 1,587 deaths in the DR Congo. Officials hope the expanded treatment capacity will strengthen response efforts and improve care for patients as the outbreak continues to spread.",
-      "url": "https://www.france24.com/en/video/20260805-dr-congo-is-set-to-open-its-largest-ever-ebola-treatment-facility",
-      "canonicalUrl": "https://france24.com/en/video/20260805-dr-congo-is-set-to-open-its-largest-ever-ebola-treatment-facility",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-05T09:29:55Z",
-      "imageUrl": "https://s.france24.com/media/display/4540b8be-90ac-11f1-8d19-005056a97e36/w:1024/p:16x9/2026-08-04T094621Z-2055939036-RC2CULAL037V-RTRMADP-3-HEALTH-EBOLA-WHO.jpg",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8ae2ef4651a55052b51d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.58819,
-      "related": []
-    },
-    {
-      "id": "a65845771047745df139d578",
-      "title": "Coulée de lave, colonne de gaz et nuages de cendres : au Guatemala, l'éruption du volcan de Fuego ravive la peur des habitants",
-      "translatedTitle": null,
-      "description": "Au moins 1 700 riverains, situés près de la capitale, ont été évacués. L'éruption de ce volcan a causé la mort de plusieurs centaines de personnes depuis 2015.",
-      "url": "https://www.franceinfo.fr/environnement/catastrophes-naturelles/eruptions-volcaniques/en-images-coulee-de-lave-colonne-de-gaz-et-nuages-de-cendres-au-guatemala-l-eruption-du-volcan-de-fuego-ravive-la-peur-des-habitants_8135486.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/catastrophes-naturelles/eruptions-volcaniques/en-images-coulee-de-lave-colonne-de-gaz-et-nuages-de-cendres-au-guatemala-l-eruption-du-volcan-de-fuego-ravive-la-peur-des-habitants_8135486.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T09:04:05Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/bvBZMyDmgpH0qbu0Zts7ct1bodA/0x293:5641x3467/432x243/filters:format(jpg):quality(50)/2026/08/05/6a72d155c92c2199489840.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c2851fc263629fba7f9f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "6d65a65d881a50a5c4a9177f",
-          "title": "Guatemala : les images de l’éruption du volcan Fuego",
-          "translatedTitle": null,
-          "description": "Considéré comme le volcan le plus actif d’Amérique centrale, le Fuego est entré en phase éruptive lundi matin. Quelque 29 000 personnes sont directement exposées aux retombées de cendres, ce qui rend l’évacuation de la zone indispensable.",
-          "url": "https://www.lemonde.fr/international/video/2026/08/05/guatemala-les-images-de-l-eruption-du-volcan-fuego_6739412_3210.html",
-          "canonicalUrl": "https://lemonde.fr/international/video/2026/08/05/guatemala-les-images-de-l-eruption-du-volcan-fuego_6739412_3210.html",
-          "sourceName": "Le Monde",
-          "sourceDomain": "lemonde.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-05T10:00:12Z",
-          "imageUrl": "https://img.lemde.fr/2026/08/04/619/0/7430/3715/644/322/60/0/8f3b546_ftp-1-bcf0oxuaodra-5771633-01-06.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-05T12:17:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
           "clusterId": "c2851fc263629fba7f9f",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "rankingScore": 7.15716,
-          "normalizedTitle": "guatemala les images de l éruption du volcan fuego",
+          "rankingScore": 6.51255,
+          "normalizedTitle": "coulée de lave colonne de gaz et nuages de cendres au guatemala l éruption du volcan de fuego ravive la peur des habitants",
           "sourceQuality": 1.0
         }
-      ],
-      "rankingScore": 6.51255
+      ]
     },
     {
       "id": "530b8dc47f10a30cd6914e7b",
@@ -1303,7 +1276,7 @@
       "clusterId": "32de4566f8e36dba20fa",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.50304,
+      "rankingScore": 6.18362,
       "related": []
     },
     {
@@ -1333,7 +1306,97 @@
       "clusterId": "b2f97e20d10af2ce268b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.48222,
+      "rankingScore": 6.16695,
+      "related": []
+    },
+    {
+      "id": "b46366bc2629c93cfde56412",
+      "title": "Guatemala volcano eruption forces hundreds to flee ash, gas and lava",
+      "translatedTitle": null,
+      "description": "In Guatemala, authorities have declared a red alert – the most severe danger warning – in areas affected by the eruption of the Fuego Volcano, located about 35 kilometers from the country's capital. The alert covers the areas of Sacatepéquez, Chimaltenango, and Escuintla, home to around 1.6 million people. Story by Charlotte Hughes.",
+      "url": "https://www.france24.com/en/guatemala-volcano-eruption-forces-hundreds-to-flee-ash-gas-and-lava",
+      "canonicalUrl": "https://france24.com/en/guatemala-volcano-eruption-forces-hundreds-to-flee-ash-gas-and-lava",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-05T10:20:57Z",
+      "imageUrl": "https://s.france24.com/media/display/d18030b2-90b5-11f1-ae7d-005056bf30b7/w:1024/p:16x9/EN-20260805-080939-081057-CS.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T16:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8fac3942d70634131fd6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.16611,
+      "related": []
+    },
+    {
+      "id": "164af4770cf2e1db927410bf",
+      "title": "Ukrainian capital lit up by massive overnight Russian strikes, killing 17",
+      "translatedTitle": null,
+      "description": "At least two people were killed and a dozen more wounded in a Russian strike on Kyiv overnight. For several weeks, the Ukrainian capital has been the target of Russian missile and drone attacks that its air defences have struggled to repel. Ukraine has also increased its long-range attacks on Russia, with a growing number of victims on both sides.",
+      "url": "https://www.france24.com/en/ukrainian-capital-lit-up-by-massive-overnight-russian-strikes-killing-17",
+      "canonicalUrl": "https://france24.com/en/ukrainian-capital-lit-up-by-massive-overnight-russian-strikes-killing-17",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-05T09:51:46Z",
+      "imageUrl": "https://s.france24.com/media/display/a5fb5dae-90b0-11f1-b004-005056a90284/w:1024/p:16x9/AP26217188223210.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T16:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ba4e0065d704b52bfa9f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.13236,
+      "related": []
+    },
+    {
+      "id": "aca85cb16e60104a1109b40c",
+      "title": "DR Congo is set to open its largest ever Ebola treatment facility",
+      "translatedTitle": null,
+      "description": "The DR Congo is set to open its largest Ebola treatment facility. Construction is nearing completion as health authorities race to contain an outbreak that the World Health Organization has described as intensifying at an \"exceptional\" pace. As of July 30, the WHO reported 3,605 confirmed Ebola cases and 1,587 deaths in the DR Congo. Officials hope the expanded treatment capacity will strengthen response efforts and improve care for patients as the outbreak continues to spread.",
+      "url": "https://www.france24.com/en/video/20260805-dr-congo-is-set-to-open-its-largest-ever-ebola-treatment-facility",
+      "canonicalUrl": "https://france24.com/en/video/20260805-dr-congo-is-set-to-open-its-largest-ever-ebola-treatment-facility",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-05T09:29:55Z",
+      "imageUrl": "https://s.france24.com/media/display/4540b8be-90ac-11f1-8d19-005056a97e36/w:1024/p:16x9/2026-08-04T094621Z-2055939036-RC2CULAL037V-RTRMADP-3-HEALTH-EBOLA-WHO.jpg",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-08-05T16:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8ae2ef4651a55052b51d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.10767,
       "related": []
     },
     {
@@ -1363,69 +1426,8 @@
       "clusterId": "34a96122394441719a22",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.40023,
+      "rankingScore": 6.1013,
       "related": []
-    },
-    {
-      "id": "f368e55414aee9f210f98e52",
-      "title": "Moyen-Orient : les négociations s’accélèrent autour d’une réouverture du détroit d’Ormuz",
-      "translatedTitle": null,
-      "description": "Selon des sources régionales citées par le média « Axios », un accord temporaire, qui pourrait être annoncé mercredi 5 août, est en discussion pour sécuriser le passage maritime, sans imposer de péage.",
-      "url": "https://www.lemonde.fr/international/article/2026/08/05/moyen-orient-les-negociations-s-accelerent-autour-d-une-reouverture-du-detroit-d-ormuz_6739360_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/article/2026/08/05/moyen-orient-les-negociations-s-accelerent-autour-d-une-reouverture-du-detroit-d-ormuz_6739360_3210.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T04:49:51Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/03/386/0/2609/1304/644/322/60/0/8f6cb8d_ftp-1-9xbsxkbwr3gb-2026-08-03t073334z-269669342-rc2rqma1tkmq-rtrmadp-3-iran-crisis-shipping.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e76a2d8908b739155762",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "7ff63dcea97a7235e4126fca",
-          "title": "Guerre au Moyen-Orient : l'Iran dit avoir trouvé un accord avec Oman sur une nouvelle voie de navigation dans le détroit d’Ormuz",
-          "translatedTitle": null,
-          "description": "«Les coordonnées géographiques du tracé envisagé par les deux parties ont été approuvées», a indiqué Esmaïl Baghaï, le porte-parole de la diplomatie iranienne cité par l’agence de presse officielle Irna.",
-          "url": "https://www.lefigaro.fr/international/guerre-au-moyen-orient-l-iran-dit-avoir-trouve-un-accord-avec-oman-sur-une-nouvelle-voie-de-navigation-dans-le-detroit-d-ormuz-20260805",
-          "canonicalUrl": "https://lefigaro.fr/international/guerre-au-moyen-orient-l-iran-dit-avoir-trouve-un-accord-avec-oman-sur-une-nouvelle-voie-de-navigation-dans-le-detroit-d-ormuz-20260805",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-05T16:04:24Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/08/05/5cbbaa0d9e4415755f80d07d82e69c7bafb5896707af14d366915067bd9f333d.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-05T16:17:36Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "e76a2d8908b739155762",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "guerre au moyen orient l iran dit avoir trouvé un accord avec oman sur une nouvelle voie de navigation dans le détroit d ormuz"
-        }
-      ],
-      "rankingScore": 6.38368
     },
     {
       "id": "4510682811dd6afaf74b9109",
@@ -1454,7 +1456,7 @@
       "clusterId": "2d3bebb54ca56e5af637",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.38116,
+      "rankingScore": 6.08603,
       "related": []
     },
     {
@@ -1484,8 +1486,98 @@
       "clusterId": "141c4f4d8977adb40fc0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.37098,
+      "rankingScore": 6.07788,
       "related": []
+    },
+    {
+      "id": "fd7292277bd2c335fb5c96fd",
+      "title": "Le député PS de l'Eure Philippe Brun juge \"délirant\" un droit de vote à 15 euros pour la primaire socialiste en vue de la présidentielle de 2027",
+      "translatedTitle": null,
+      "description": "Candidat à la primaire, il menace de créer \"une caisse populaire\" pour financer les gens qui souhaitent participer, si ce prix de 15 euros est maintenu. Il propose plutôt un ticket d'entrée à cinq euros.",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/le-depute-ps-de-l-eure-philippe-brun-juge-delirant-un-droit-de-vote-a-15-euros-pour-la-primaire-socialiste-en-vue-de-la-presidentielle-de-2027_8135654.html",
+      "canonicalUrl": "https://franceinfo.fr/elections/presidentielle/le-depute-ps-de-l-eure-philippe-brun-juge-delirant-un-droit-de-vote-a-15-euros-pour-la-primaire-socialiste-en-vue-de-la-presidentielle-de-2027_8135654.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T08:40:53Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/Wcwi5YGkAA-XWBBICiiI0hiD_UE/205x0:1130x520/432x243/filters:format(jpg):quality(50)/2026/08/05/6a72f617a51da805593379.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T12:17:33Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "92a7b13ee2507d4725cc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.05407,
+      "related": []
+    },
+    {
+      "id": "b46d6dc0900cb25050361915",
+      "title": "Les houthistes revendiquent l’attaque en mer Rouge d’un deuxième pétrolier saoudien en une journée",
+      "translatedTitle": null,
+      "description": "Le porte-parole militaire des rebelles yéménites a affirmé avoir frappé un tanker au large d’Aden après en avoir visé un autre plus tôt dans la journée près de Yanbu, dans le cadre du blocus décrété contre la flotte saoudienne.",
+      "url": "https://www.lemonde.fr/international/article/2026/08/05/les-houthistes-revendiquent-l-attaque-en-mer-rouge-d-un-deuxieme-petrolier-saoudien-en-une-journee_6739464_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/article/2026/08/05/les-houthistes-revendiquent-l-attaque-en-mer-rouge-d-un-deuxieme-petrolier-saoudien-en-une-journee_6739464_3210.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T19:26:42Z",
+      "imageUrl": "https://img.lemde.fr/2026/07/31/976/0/5500/2750/644/322/60/0/8a1b826_ftp-1-bibm7ekuwoek-2026-07-31t194632z-822414823-rc20pmafch40-rtrmadp-3-iran-crisis-yemen-saudi.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T20:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ce0ff59c4eb84cde033d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.91861
+    },
+    {
+      "id": "5d7c8b02f42dc234d5afd219",
+      "title": "Incendies : derrière l’annonce officielle des « 402 interpellations », des profils variés et des réalités contrastées",
+      "translatedTitle": null,
+      "description": "Si le détail des faits reprochés aux personnes interpellées n’a pas été communiqué, nombre d’entre elles ont été traduites en justice dans des délais qui n’ont pas toujours permis un examen circonstancié de leur dossier.",
+      "url": "https://www.lemonde.fr/societe/article/2026/08/05/incendies-derriere-l-annonce-officielle-des-402-interpellations-des-profils-varies-et-des-realites-contrastees_6739463_3224.html",
+      "canonicalUrl": "https://lemonde.fr/societe/article/2026/08/05/incendies-derriere-l-annonce-officielle-des-402-interpellations-des-profils-varies-et-des-realites-contrastees_6739463_3224.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T19:15:04Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/01/633/0/5892/2946/644/322/60/0/7e0f012_ftp-1-wq2aamqpqlfh-5754705-01-06.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T20:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9177b055018e7e17531a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.89612
     },
     {
       "id": "94ec4a0158988c982081faf1",
@@ -1514,38 +1606,98 @@
       "clusterId": "cd589f11542284626cf6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.11348,
+      "rankingScore": 5.87168,
       "related": []
     },
     {
-      "id": "0d246077c97936cfe3b162e3",
-      "title": "Comment traque-t-on l’origine des incendies ?",
+      "id": "dfd379781ea303d772a115d9",
+      "title": "Des millions de tonnes de bois à enlever après les incendies de Gironde",
       "translatedTitle": null,
-      "description": "Pour certains incendies complexes ou suspects, une « task force » spécialisée dans le comportement du feu peut être déployée, alors même que les pompiers luttent encore contre les flammes. Leur travail éclaire les enquêtes de police et permet d’orienter les politiques de lutte contre les incendies.",
-      "url": "https://www.lemonde.fr/videos/video/2026/08/05/comment-traque-t-on-l-origine-des-incendies_6739450_1669088.html",
-      "canonicalUrl": "https://lemonde.fr/videos/video/2026/08/05/comment-traque-t-on-l-origine-des-incendies_6739450_1669088.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
+      "description": "L'enjeu est vital : extraire le bois avant qu'il ne soit invendable et éviter l'effondrement des prix. Ce chantier titanesque devrait durer environ deux ans.",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/incendie-en-gironde-des-millions-de-tonnes-de-bois-a-enlever_8136365.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/incendie-en-gironde-des-millions-de-tonnes-de-bois-a-enlever_8136365.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-05T16:02:41Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/05/60/0/1920/960/644/322/60/0/0078d5d_upload-1-lx5yc4r5rzoy-vignette-00000.jpg",
+      "publishedAt": "2026-08-05T20:10:04Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/ro4UuMrDLPm6li0BBdw5O60XvNk/0x1:1398x788/432x243/filters:format(jpg):quality(50)/2026/08/05/6a7392012ec7a060884050.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
+      "retrievedAt": "2026-08-05T20:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1bfd273eaa84cade2f14",
+      "clusterId": "af9c9812d720af43c52e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.98969
+      "rankingScore": 5.82459
+    },
+    {
+      "id": "cfab8ec804294dc42f5ac86d",
+      "title": "Au cœur de l'été, un rapport interroge les causes de la forte mortalité infantile en France",
+      "translatedTitle": null,
+      "description": "Ce document a été rendu public six mois après avoir été terminé, après un article de presse révélant son existence.",
+      "url": "https://www.franceinfo.fr/societe/enfance-et-adolescence/au-c-ur-de-l-ete-un-rapport-interroge-les-causes-de-la-forte-mortalite-infantile-en-france_8136389.html",
+      "canonicalUrl": "https://franceinfo.fr/societe/enfance-et-adolescence/au-c-ur-de-l-ete-un-rapport-interroge-les-causes-de-la-forte-mortalite-infantile-en-france_8136389.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T20:06:15Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/L1h0s-8X7eRGo5-FrpBcfXV3qTE/0x345:6609x4063/432x243/filters:format(jpg):quality(50)/2026/08/05/6a739773a7bde283470889.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T20:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a229ebe803e3467f95cf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.81688
+    },
+    {
+      "id": "2a09fef4da9981f9ee9aec78",
+      "title": "\"Nos vies sont en suspens\" : des centaines de propriétaires ne verront jamais leur logement, le promoteur Fiducim au cœur des interrogations",
+      "translatedTitle": null,
+      "description": "Le promoteur nordiste Fiducim a été placé en liquidation judiciaire et les chantiers de quelque 1 200 logements sont à l’arrêt, certains depuis plusieurs années. Et des acquéreurs sont contraints de rembourser un crédit pour un logement qu’ils n’ont jamais reçu.",
+      "url": "https://www.franceinfo.fr/societe/justice/nos-vies-sont-en-suspens-des-centaines-de-proprietaires-ne-verront-jamais-leur-logement-le-promoteur-fiducim-au-c-ur-des-interrogations_8136374.html",
+      "canonicalUrl": "https://franceinfo.fr/societe/justice/nos-vies-sont-en-suspens-des-centaines-de-proprietaires-ne-verront-jamais-leur-logement-le-promoteur-fiducim-au-c-ur-des-interrogations_8136374.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T19:42:37Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/dsGBbmeHD6wG3DcIhCGBSeTwVNg/0x39:1492x879/432x243/filters:format(jpg):quality(50)/2026/08/05/6a7390e9cb5c4837502112.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T20:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e14de1a5258faacd6cb6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.76976
     },
     {
       "id": "cd9a3c41482b72587f846886",
@@ -1574,68 +1726,128 @@
       "clusterId": "0006b5f0d8eda8df1474",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.98608,
+      "rankingScore": 5.76967,
       "related": []
     },
     {
-      "id": "3564cce0e6ecf04056de8974",
-      "title": "« La France aime les gens gentils » : une vidéo embarrassante de l’ambassade française au Congo refait surface",
+      "id": "54bbd7944979841e15a9c910",
+      "title": "Au Yémen, les rebelles houthis affirment avoir mené une nouvelle attaque contre un pétrolier saoudien",
       "translatedTitle": null,
-      "description": "« Le Canard enchaîné » a exhumé, mardi 4 août, un clip vidéo produit par l’ambassade de France à Brazzaville, publié en juin et supprimé au bout de quelques heures. Centrée sur l’épineuse question des visas, la vidéo est jugée raciste par de nombreux internautes.",
-      "url": "https://www.lemonde.fr/afrique/article/2026/08/05/la-france-aime-les-gens-gentils-une-video-embarrassante-de-l-ambassade-francaise-au-congo-refait-surface_6739447_3212.html",
-      "canonicalUrl": "https://lemonde.fr/afrique/article/2026/08/05/la-france-aime-les-gens-gentils-une-video-embarrassante-de-l-ambassade-francaise-au-congo-refait-surface_6739447_3212.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
+      "description": "Ils ont annoncé fin juillet la mise en place d'un blocus contre la flotte de Ryad, et ont déjà ciblé neuf navires à ce stade.",
+      "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/au-yemen-les-rebelles-houthis-affirment-avoir-mene-une-nouvelle-attaque-contre-un-petrolier-saoudien_8136371.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/au-yemen-les-rebelles-houthis-affirment-avoir-mene-une-nouvelle-attaque-contre-un-petrolier-saoudien_8136371.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-05T16:00:06Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/05/558/0/874/437/644/322/60/0/423935a_upload-1-apxwflzkdsya-capture-d-e-cran-2026-08-05-a-15-31-00.png",
+      "publishedAt": "2026-08-05T19:37:03Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/7NqtFsUGS-VVyWIuVq5MWIQlOj4/0x311:6048x3713/432x243/filters:format(jpg):quality(50)/2026/08/05/6a73906530900220389092.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
+      "retrievedAt": "2026-08-05T20:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "641e80f515f1ccf67bb1",
+      "clusterId": "ff6be4f5e37744e6e314",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.98451
+      "rankingScore": 5.75882
     },
     {
-      "id": "969c4f377f441725994ffefe",
-      "title": "Les investissements record de la tech américaine ne font plus rêver les marchés",
+      "id": "057047bd9d4fe06b2dda6805",
+      "title": "Crise à la Fifa : «Je n’ai aucune confiance en lui», le Premier ministre canadien Mark Carney tacle Infantino",
       "translatedTitle": null,
-      "description": "La capacité des géants américains de convertir ces dépenses en profits n’est pas acquise. Le coût de la dette et le prix des puces mémoires, qui a sextuplé en 2025, rendent l’équation d’autant plus complexe.",
-      "url": "https://www.lemonde.fr/economie/article/2026/08/05/les-investissements-record-de-la-tech-americaine-ne-font-plus-rever-les-marches_6739441_3234.html",
-      "canonicalUrl": "https://lemonde.fr/economie/article/2026/08/05/les-investissements-record-de-la-tech-americaine-ne-font-plus-rever-les-marches_6739441_3234.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
+      "description": "En pleine crise traversée par la Fifa, Gianni Infantino fait une nouvelle fois l’objet de vives critiques. Cette fois, c’est le Premier ministre canadien Mark Carney qui a déclaré ce mercredi n’avoir aucune confiance envers le président de l’instance mondiale.",
+      "url": "https://www.lefigaro.fr/sports/football/crise-a-la-fifa-je-n-ai-aucune-confiance-en-lui-le-premier-ministre-canadien-mark-carney-tacle-infantino-20260805",
+      "canonicalUrl": "https://lefigaro.fr/sports/football/crise-a-la-fifa-je-n-ai-aucune-confiance-en-lui-le-premier-ministre-canadien-mark-carney-tacle-infantino-20260805",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-05T15:19:53Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/05/192/0/5553/2776/644/322/60/0/dd012d9_upload-1-rkjnw0wwmqee-000-b6vr3r3.jpg",
+      "publishedAt": "2026-08-05T20:06:07Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/2850x1603_crop/2026/08/05/edb15de3db32fe7e2035f3370990c524375e43cc70079a88ae063f04afef19d5.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
+      "retrievedAt": "2026-08-05T20:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f7935c2b990ee45a5f98",
+      "clusterId": "908a344dc886100309c9",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.90539
+      "rankingScore": 5.72661
+    },
+    {
+      "id": "9099def1485811f6e6611c39",
+      "title": "Colmar : une femme en garde à vue après avoir blessé grièvement un gendarme en civil en le poignardant",
+      "translatedTitle": null,
+      "description": "Les faits se sont produits vers midi à la gare de Colmar. Le militaire a rapidement été pris en charge par les pompiers et les médecins du SMUR. La femme a été interpellée sur place par la police et la gendarmerie.",
+      "url": "https://www.lefigaro.fr/flash-actu/colmar-une-femme-en-garde-a-vue-apres-avoir-blesse-grievement-un-gendarme-en-civil-en-le-poignardant-20260805",
+      "canonicalUrl": "https://lefigaro.fr/flash-actu/colmar-une-femme-en-garde-a-vue-apres-avoir-blesse-grievement-un-gendarme-en-civil-en-le-poignardant-20260805",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T20:02:50Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x1993_crop/2026/08/05/7fca3e705344b28e1d8c183c0e78d06720e9462520f62b554b02830e7fd470cc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T20:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bcd6ba8af144b7eec78a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.72001
+    },
+    {
+      "id": "3a69395aa21e448947a5c357",
+      "title": "Présidentielle 2027 : Gabriel Attal à son tour visé par \"une ingérence en provenance de Russie\"",
+      "translatedTitle": null,
+      "description": "Après Edouard Philippe et Raphaël Glucksmann, c'est au tour de Gabriel Attal d'être victime d'une campagne de désinformation prorusse sur les réseaux sociaux.",
+      "url": "https://www.franceinfo.fr/politique/gabriel-attal/presidentielle-2027-gabriel-attal-a-son-tour-vise-par-une-ingerence-en-provenance-de-russie_8136104.html",
+      "canonicalUrl": "https://franceinfo.fr/politique/gabriel-attal/presidentielle-2027-gabriel-attal-a-son-tour-vise-par-une-ingerence-en-provenance-de-russie_8136104.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T19:11:33Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/gj2vdGBezyZ0TdgSs8kVQsA7ayo/0x0:1280x720/432x243/filters:format(jpg):quality(50)/2026/06/18/6a33ac7c66260711578511.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T20:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c38840f19e7b849e122e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.70937,
+      "related": []
     },
     {
       "id": "fddd3c6305a9b85bf2e9bacd",
@@ -1664,258 +1876,16 @@
       "clusterId": "8ba6401f03fffe8f91d3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.90469,
+      "rankingScore": 5.7045,
       "related": []
     },
     {
-      "id": "11abc51f5483164436a30d57",
-      "title": "L'étage supérieur d'une fusée de SpaceX va s'écraser ce mercredi sur la Lune, et y laissera un cratère",
+      "id": "151bea3932c659999610206d",
+      "title": "Championnats d’Europe de natation : en argent, le plongeur Jules Bouyer apporte une première médaille à la France",
       "translatedTitle": null,
-      "description": "L'événement sera scruté par les scientifiques, afin de mesurer les risques induits par les débris spatiaux.",
-      "url": "https://www.franceinfo.fr/sciences/espace/l-etage-superieur-d-une-fusee-de-spacex-va-s-ecraser-ce-mercredi-sur-la-lune-et-y-laissera-un-cratere_8135024.html",
-      "canonicalUrl": "https://franceinfo.fr/sciences/espace/l-etage-superieur-d-une-fusee-de-spacex-va-s-ecraser-ce-mercredi-sur-la-lune-et-y-laissera-un-cratere_8135024.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-04T23:11:33Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/T6GM5xdaerAVNqlFT7fN0Wi_WY4/0x208:4000x2458/432x243/filters:format(jpg):quality(50)/2026/08/04/6a725c930238d755106625.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T08:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6c642cb43893ba0efb99",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.89074,
-      "related": [
-        {
-          "id": "40b62571e1aebc652021ad27",
-          "title": "Un étage d’une fusée de SpaceX devait s’écraser sur la Lune à plus de 8 500 kilomètres à l’heure, mercredi matin",
-          "translatedTitle": null,
-          "description": "Conséquence d’un changement de trajectoire inattendu, la collision devrait laisser un cratère sur la surface lunaire.",
-          "url": "https://www.lemonde.fr/sciences/article/2026/08/05/un-etage-d-une-fusee-de-spacex-va-s-ecraser-sur-la-lune-a-plus-de-8-500-km-h-mercredi-matin_6739081_1650684.html",
-          "canonicalUrl": "https://lemonde.fr/sciences/article/2026/08/05/un-etage-d-une-fusee-de-spacex-va-s-ecraser-sur-la-lune-a-plus-de-8-500-km-h-mercredi-matin_6739081_1650684.html",
-          "sourceName": "Le Monde",
-          "sourceDomain": "lemonde.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-05T00:33:23Z",
-          "imageUrl": "https://img.lemde.fr/2026/08/04/67/0/5500/2750/644/322/60/0/3bc5c07_ftp-1-scftbiwum2zs-2026-08-04t194316z-1517799024-rc26acan0wk0-rtrmadp-3-space-moon-impact.JPG",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-05T12:17:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "6c642cb43893ba0efb99",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 6.36613,
-          "normalizedTitle": "un étage d une fusée de spacex devait s écraser sur la lune à plus de 8 500 kilomètres à l heure mercredi matin",
-          "sourceQuality": 1.0
-        }
-      ]
-    },
-    {
-      "id": "afc0cacd8f68ff698aa5c3e4",
-      "title": "En Afghanistan, quelque 500 civils auraient été tués dans les affrontements avec le Pakistan depuis dix mois",
-      "translatedTitle": null,
-      "description": "Une mission des Nations unies a enquêté sur place pour établir un bilan des frappes pakistanaises depuis octobre 2025. Islamabad conteste les chiffres et affirme ne viser que des bases du Mouvement des talibans du Pakistan, qu’il accuse de lancer, depuis le sol afghan, des attaques contre son territoire.",
-      "url": "https://www.lemonde.fr/international/article/2026/08/05/en-afghanistan-quelque-500-civils-auraient-ete-tues-dans-les-affrontements-avec-le-pakistan-depuis-dix-mois_6739440_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/article/2026/08/05/en-afghanistan-quelque-500-civils-auraient-ete-tues-dans-les-affrontements-avec-le-pakistan-depuis-dix-mois_6739440_3210.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T15:00:05Z",
-      "imageUrl": "https://img.lemde.fr/2026/06/29/486/0/5837/2918/644/322/60/0/64c8d09_ftp-1-uam786kmkcav-5478747-01-06.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8d8aa109a351d5dac570",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8675
-    },
-    {
-      "id": "ce7f1cdbd35abc789c34a96c",
-      "title": "Daniel Bernard, l’ex-PDG de Carrefour, est mort à 80 ans",
-      "translatedTitle": null,
-      "description": "Sous son impulsion, l’enseigne a notamment accéléré son développement international et se hisse au rang de deuxième distributeur mondial derrière le géant américain Walmart.",
-      "url": "https://www.lemonde.fr/disparitions/article/2026/08/05/daniel-bernard-l-ex-pdg-de-carrefour-est-mort-a-80-ans_6739437_3382.html",
-      "canonicalUrl": "https://lemonde.fr/disparitions/article/2026/08/05/daniel-bernard-l-ex-pdg-de-carrefour-est-mort-a-80-ans_6739437_3382.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T14:55:01Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/05/229/0/2048/1024/644/322/60/0/5d7e68d_upload-1-zcsedoxozh7l-000-aph2000120731018.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4ff3679047853a209c9f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.85792
-    },
-    {
-      "id": "4ef0662563c2198ef833f771",
-      "title": "How to enjoy the most complete solar eclipse since 1989?",
-      "translatedTitle": null,
-      "description": "No matter how sharp your vision, you're going to need some special glasses next week… Wednesday August 12 will bring the most complete solar eclipse since 1989 – the moon will fully cover the sun. To fully appreciate the celestial spectacle,you will require dedicated spectacles. Bryan Quinn and our colleagues at France Televisions tell us how to pick the right ones.",
-      "url": "https://www.france24.com/en/how-to-enjoy-the-most-complete-solar-eclipse-since-1989",
-      "canonicalUrl": "https://france24.com/en/how-to-enjoy-the-most-complete-solar-eclipse-since-1989",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-05T15:23:45Z",
-      "imageUrl": "https://s.france24.com/media/display/5ffd2f22-90e1-11f1-9d9e-005056a90284/w:1024/p:16x9/EN-20260805-171241-171414-CS.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4c52b68f521aa61d572e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.82287
-    },
-    {
-      "id": "3ace68ec5a2d69c7e6755677",
-      "title": "Le chef Jean Imbert, visé par des plaintes pour violences conjugales, placé sous le statut de témoin assisté",
-      "translatedTitle": null,
-      "description": "L'ancien vainqueur de l'émission de cuisine \"Top Chef\" est visé par plusieurs plaintes d'ex-compagnes.",
-      "url": "https://www.franceinfo.fr/societe/violences-faites-aux-femmes/le-chef-etoile-jean-imbert-soupconne-de-violences-conjugales-transfere-au-tribunal-judiciaire-de-paris-a-l-issue-de-sa-garde-a-vue_8135615.html",
-      "canonicalUrl": "https://franceinfo.fr/societe/violences-faites-aux-femmes/le-chef-etoile-jean-imbert-soupconne-de-violences-conjugales-transfere-au-tribunal-judiciaire-de-paris-a-l-issue-de-sa-garde-a-vue_8135615.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T16:06:47Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/_YGtlbv9oIXzCA7htpUueJ7aQfs/0x27:1024x602/432x243/filters:format(jpg):quality(50)/2025/06/02/000-34td8hj-1-683d5c1eea72a084869773.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8eddfb619a442afe2350",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.81794,
-      "related": []
-    },
-    {
-      "id": "c6651419d7abe951fc68010b",
-      "title": "Au Népal, les lendemains désenchantés de la jeunesse ayant porté l’ancien rappeur Balendra Shah au pouvoir",
-      "translatedTitle": null,
-      "description": "Le premier ministre, élu en mars, a imposé une gouvernance centralisée et brutale, au mépris des institutions et de la génération Z, à qui il avait promis des réformes économiques.",
-      "url": "https://www.lemonde.fr/international/article/2026/08/05/au-nepal-les-lendemains-desenchantes-de-la-revolution_6739435_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/article/2026/08/05/au-nepal-les-lendemains-desenchantes-de-la-revolution_6739435_3210.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T14:30:06Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/05/587/0/7042/3521/644/322/60/0/8f64973_upload-1-hn1k7f1vwlku-000-a6te8tw.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "39b87eca4cc069e9e7bc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.81144
-    },
-    {
-      "id": "928ca5d424df02a7df6afc52",
-      "title": "Londres : quatre hommes poignardés à Covent Garden, une femme arrêtée",
-      "translatedTitle": null,
-      "description": "Les faits se sont produits mercredi, en début d’après-midi, à Endell Street, dans un quartier touristique très fréquenté qui compte de nombreux théâtres. L’incident serait lié à la santé mentale de la femme arrêtée, selon la police londonienne.",
-      "url": "https://www.lemonde.fr/international/article/2026/08/05/londres-quatre-hommes-poignardes-a-covent-garden-une-femme-arretee_6739434_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/article/2026/08/05/londres-quatre-hommes-poignardes-a-covent-garden-une-femme-arretee_6739434_3210.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-05T14:18:27Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/05/965/0/5789/2894/644/322/60/0/4a69eda_ftp-1-buhzul6g0n1a-5778665-01-06.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "03ff688387dbc75de422",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.79008
-    },
-    {
-      "id": "43b96ae4f337db4f648b797b",
-      "title": "Tour de France femmes : Ferrand-Prévot perd très gros, Vollering s’impose au sprint devant Reusser",
-      "translatedTitle": null,
-      "description": "En perdition, Pauline Ferrand-Prévot a sans doute dit adieu au maillot jaune à l’issue de la cinquième étape remportée par Demi Vollering devant Marlen Reusser.",
-      "url": "https://www.lefigaro.fr/sports/cyclisme/tour-de-france/tour-de-france-femmes-ferrand-prevot-perd-tres-gros-vollering-s-impose-au-sprint-devant-reusser-20260805",
-      "canonicalUrl": "https://lefigaro.fr/sports/cyclisme/tour-de-france/tour-de-france-femmes-ferrand-prevot-perd-tres-gros-vollering-s-impose-au-sprint-devant-reusser-20260805",
+      "description": "Ce mercredi à Saint-Denis, le plongeur français a pris la deuxième place sur l’épreuve du tremplin à trois mètres.",
+      "url": "https://www.lefigaro.fr/sports/autres-sports/championnats-d-europe-de-natation-en-argent-le-plongeur-jules-bouyer-apporte-une-premiere-medaille-a-la-france-20260805",
+      "canonicalUrl": "https://lefigaro.fr/sports/autres-sports/championnats-d-europe-de-natation-en-argent-le-plongeur-jules-bouyer-apporte-une-premiere-medaille-a-la-france-20260805",
       "sourceName": "Le Figaro",
       "sourceDomain": "lefigaro.fr",
       "sourceCountry": "FR",
@@ -1924,28 +1894,28 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-05T16:16:52Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/08/05/07e8d33a5b42edae3b63b05222761730cb793040ac53fd7134202d11b53205e8.jpg",
+      "publishedAt": "2026-08-05T19:54:43Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/05/34108082102a0453d4548ad04806f5bf63d85f2b63b17d43dfc3936aa72c35d4.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
+      "retrievedAt": "2026-08-05T20:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c0cf23b1b73a4010af1d",
+      "clusterId": "e755e74038a781bccaac",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.74837
+      "rankingScore": 5.70376
     },
     {
-      "id": "98f012b6efe1e5eac73d3123",
-      "title": "Un jeune homme de 17 ans retrouvé mort, à Nice, son père en garde à vue pour \"assassinat\"",
+      "id": "80886eadad5b8d299617786f",
+      "title": "La préfecture de Gironde débloque 300 000 euros pour lancer en urgence les premiers travaux après le passage du mégafeu",
       "translatedTitle": null,
-      "description": "Une autopsie va être pratiquée pour déterminer les causes exactes du décès.",
-      "url": "https://www.franceinfo.fr/faits-divers/un-jeune-homme-de-17-ans-retrouve-mort-a-nice-son-pere-en-garde-a-vue-pour-assassinat_8134628.html",
-      "canonicalUrl": "https://franceinfo.fr/faits-divers/un-jeune-homme-de-17-ans-retrouve-mort-a-nice-son-pere-en-garde-a-vue-pour-assassinat_8134628.html",
+      "description": "Cette première aide financière d'urgence doit permettre de lancer les premiers travaux urgents dans les secteurs touchés par le gigantesque incendie désormais maîtrisé.",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/la-prefecture-de-gironde-debloque-300-000-euros-pour-lancer-en-urgence-les-premiers-travaux-apres-le-passage-du-megafeu_8136347.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/la-prefecture-de-gironde-debloque-300-000-euros-pour-lancer-en-urgence-les-premiers-travaux-apres-le-passage-du-megafeu_8136347.html",
       "sourceName": "Franceinfo",
       "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
@@ -1954,20 +1924,112 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-05T15:25:52Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/hn1cFWMyftzd4_WbuLdNKbDQxPw/0x208:4000x2458/432x243/filters:format(jpg):quality(50)/2026/03/11/police-69b1ab7a18726252656094.jpg",
+      "publishedAt": "2026-08-05T19:05:30Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/vIaP0JtAPohkz7xsNmLWBkPoe7U/0x312:6000x3687/432x243/filters:format(jpg):quality(50)/2026/08/05/6a73879bf1d15759194368.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-05T16:17:36Z",
+      "retrievedAt": "2026-08-05T20:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0b38b9000f037d258e67",
+      "clusterId": "81dbd9b5cfc05861b9c3",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.73697
+      "rankingScore": 5.69781
+    },
+    {
+      "id": "40b62571e1aebc652021ad27",
+      "title": "Un étage d’une fusée de SpaceX devait s’écraser sur la Lune à plus de 8 500 kilomètres à l’heure, mercredi matin",
+      "translatedTitle": null,
+      "description": "Conséquence d’un changement de trajectoire inattendu, la collision devrait laisser un cratère sur la surface lunaire.",
+      "url": "https://www.lemonde.fr/sciences/article/2026/08/05/un-etage-d-une-fusee-de-spacex-va-s-ecraser-sur-la-lune-a-plus-de-8-500-km-h-mercredi-matin_6739081_1650684.html",
+      "canonicalUrl": "https://lemonde.fr/sciences/article/2026/08/05/un-etage-d-une-fusee-de-spacex-va-s-ecraser-sur-la-lune-a-plus-de-8-500-km-h-mercredi-matin_6739081_1650684.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T00:33:23Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/04/67/0/5500/2750/644/322/60/0/3bc5c07_ftp-1-scftbiwum2zs-2026-08-04t194316z-1517799024-rc26acan0wk0-rtrmadp-3-space-moon-impact.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T12:17:33Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6c642cb43893ba0efb99",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.68485,
+      "related": [
+        {
+          "id": "11abc51f5483164436a30d57",
+          "title": "L'étage supérieur d'une fusée de SpaceX va s'écraser ce mercredi sur la Lune, et y laissera un cratère",
+          "translatedTitle": null,
+          "description": "L'événement sera scruté par les scientifiques, afin de mesurer les risques induits par les débris spatiaux.",
+          "url": "https://www.franceinfo.fr/sciences/espace/l-etage-superieur-d-une-fusee-de-spacex-va-s-ecraser-ce-mercredi-sur-la-lune-et-y-laissera-un-cratere_8135024.html",
+          "canonicalUrl": "https://franceinfo.fr/sciences/espace/l-etage-superieur-d-une-fusee-de-spacex-va-s-ecraser-ce-mercredi-sur-la-lune-et-y-laissera-un-cratere_8135024.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-04T23:11:33Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/T6GM5xdaerAVNqlFT7fN0Wi_WY4/0x208:4000x2458/432x243/filters:format(jpg):quality(50)/2026/08/04/6a725c930238d755106625.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-05T08:17:37Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "6c642cb43893ba0efb99",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.89074,
+          "normalizedTitle": "l étage supérieur d une fusée de spacex va s écraser ce mercredi sur la lune et y laissera un cratère",
+          "sourceQuality": 1.0
+        }
+      ]
+    },
+    {
+      "id": "79990442702ed4a7deb21f65",
+      "title": "Le grand renoncement sécuritaire et judiciaire : ces décisions qui ont coulé la France depuis 50 ans",
+      "translatedTitle": null,
+      "description": "CES DÉCISIONS QUI ONT COULÉ LA FRANCE (1/10) - De Valéry Giscard d’Estaing à Emmanuel Macron, l’institut Thomas More dresse l’inventaire des mesures majeures et structurelles relatives à la sécurité et à la justice.",
+      "url": "https://www.lefigaro.fr/actualite-france/les-50-decisions-qui-ont-coule-la-france-le-grand-renoncement-securitaire-et-judiciaire-20260721",
+      "canonicalUrl": "https://lefigaro.fr/actualite-france/les-50-decisions-qui-ont-coule-la-france-le-grand-renoncement-securitaire-et-judiciaire-20260721",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-05T19:33:26Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/2755x1549_crop/2026/08/05/56893781e2fcf077e3361df6397bdbc5067cb06ce828960d926f515f76ee4a36.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-05T20:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d4a538773d358fa1347a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66173
     }
   ]
 }
