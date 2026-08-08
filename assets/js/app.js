@@ -334,34 +334,35 @@
         pending.push(article);
       }
     }
+
+    // Show cached translations immediately instead of waiting for the network
+    // pass; the final render below covers whatever else arrives.
     if (changed && requestId === state.requestId) renderStories();
-    if (!pending.length || requestId !== state.requestId) {
-      if (changed) safeStorageSet(TRANSLATION_CACHE_KEY, JSON.stringify(cache));
-      return;
+
+    if (pending.length && requestId === state.requestId) {
+      let cursor = 0;
+      const workers = Array.from({ length: 4 }, async () => {
+        while (cursor < pending.length) {
+          const article = pending[cursor++];
+          try {
+            const translatedTitle = await translateTitle(article.title);
+            if (!translatedTitle || translatedTitle.localeCompare(article.title, undefined, { sensitivity: 'accent' }) === 0) continue;
+            article.translatedTitle = translatedTitle;
+            article.translationProvider = 'Google Translate';
+            cache[article.id] = { sourceTitle: article.title, translatedTitle };
+            changed = true;
+          } catch {
+            // Translation is optional; keep the original title when it is unavailable.
+          }
+          if (requestId !== state.requestId) return;
+        }
+      });
+      await Promise.all(workers);
     }
 
-    let cursor = 0;
-    const workers = Array.from({ length: 4 }, async () => {
-      while (cursor < pending.length) {
-        const article = pending[cursor++];
-        try {
-          const translatedTitle = await translateTitle(article.title);
-          if (!translatedTitle || translatedTitle.localeCompare(article.title, undefined, { sensitivity: 'accent' }) === 0) continue;
-          article.translatedTitle = translatedTitle;
-          article.translationProvider = 'Google Translate';
-          cache[article.id] = { sourceTitle: article.title, translatedTitle };
-          safeStorageSet(TRANSLATION_CACHE_KEY, JSON.stringify(cache));
-          if (requestId === state.requestId) {
-            renderStories();
-            changed = true;
-          }
-        } catch {
-          // Translation is optional; keep the original title when it is unavailable.
-        }
-        if (requestId !== state.requestId) return;
-      }
-    });
-    await Promise.all(workers);
+    // Persist once and re-render once instead of rebuilding the whole list
+    // after every single translation.
+    if (changed) safeStorageSet(TRANSLATION_CACHE_KEY, JSON.stringify(cache));
     if (changed && requestId === state.requestId) renderStories();
   }
 
@@ -617,7 +618,7 @@
   }
 
   function dateKeyInTimeZone(date, timeZone) {
-    const parts = new Intl.DateTimeFormat('en-CA', {
+    const parts = cachedFormatter({
       timeZone, year: 'numeric', month: '2-digit', day: '2-digit'
     }).formatToParts(date).reduce((acc, part) => ({ ...acc, [part.type]: part.value }), {});
     return `${parts.year}-${parts.month}-${parts.day}`;
@@ -631,14 +632,14 @@
 
   function formatDateTab(dateKey) {
     const date = dateFromKey(dateKey);
-    return new Intl.DateTimeFormat('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' }).format(date);
+    return cachedFormatter({ weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' }).format(date);
   }
 
   function longDateLabel(dateKey, timeZone) {
     const keys = getSevenDateKeys(timeZone);
     if (dateKey === keys[0]) return 'Today';
     if (dateKey === keys[1]) return 'Yesterday';
-    return new Intl.DateTimeFormat('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(dateFromKey(dateKey));
+    return cachedFormatter({ weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(dateFromKey(dateKey));
   }
 
   function dateFromKey(dateKey) {
@@ -650,7 +651,7 @@
     if (!value) return 'Time unavailable';
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return 'Time unavailable';
-    return new Intl.DateTimeFormat('en-US', {
+    return cachedFormatter({
       timeZone, hour: 'numeric', minute: '2-digit', hour12: true, timeZoneName: 'short'
     }).format(date);
   }
@@ -658,13 +659,24 @@
   function formatTimestamp(value, timeZone) {
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return 'at an unknown time';
-    return new Intl.DateTimeFormat('en-US', {
+    return cachedFormatter({
       timeZone, month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true, timeZoneName: 'short'
     }).format(date);
   }
 
   function friendlyTimeZone(timeZone) {
     return timeZone.replaceAll('_', ' ').replace('/', ' / ');
+  }
+
+  // DateTimeFormat construction is expensive; reuse instances across renders.
+  // Note: en-US is used for all cached formatters, including formatToParts()
+  // callers (dateKeyInTimeZone); parts are collected by type, so display order
+  // and locale do not affect the resulting values.
+  const formatterCache = new Map();
+  function cachedFormatter(options) {
+    const key = JSON.stringify(options);
+    if (!formatterCache.has(key)) formatterCache.set(key, new Intl.DateTimeFormat('en-US', options));
+    return formatterCache.get(key);
   }
 
   function safeExternalUrl(value) {
@@ -700,8 +712,9 @@
 
   async function fetchManifest() {
     const url = assetUrl('data/manifest.json');
-    const separator = url.includes('?') ? '&' : '?';
-    const response = await fetch(`${url}${separator}t=${Date.now()}`, { cache: 'no-store', headers: { Accept: 'application/json' } });
+    // Revalidate on every visit (conditional request) instead of bypassing the
+    // cache entirely; GitHub Pages answers unchanged files with a 304.
+    const response = await fetch(url, { cache: 'no-cache', headers: { Accept: 'application/json' } });
     if (!response.ok) throw new Error(`Manifest request failed with ${response.status}`);
     return response.json();
   }
@@ -725,11 +738,14 @@
     const adjacent = [keys[index - 1], keys[index + 1]].filter(Boolean).find((key) => state.manifest.countries?.[state.countryCode]?.dates?.[key]);
     if (!adjacent) return;
     const entry = state.manifest.countries[state.countryCode].dates[adjacent];
+    const href = assetUrl(entry.path || `data/${state.countryCode}/${adjacent}.json`);
+    const existing = [...document.head.querySelectorAll('link[rel="prefetch"]')].some((link) => link.href === href);
+    if (existing) return;
     const link = document.createElement('link');
     link.rel = 'prefetch';
     link.as = 'fetch';
     link.crossOrigin = 'anonymous';
-    link.href = assetUrl(entry.path || `data/${state.countryCode}/${adjacent}.json`);
+    link.href = href;
     document.head.append(link);
   }
 
