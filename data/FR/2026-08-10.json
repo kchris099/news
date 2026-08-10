@@ -4,10 +4,10 @@
   "countryName": "France",
   "timeZone": "Europe/Paris",
   "date": "2026-08-10",
-  "generatedAt": "2026-08-10T08:18:06Z",
-  "lastAttemptAt": "2026-08-10T08:18:06Z",
-  "lastSuccessfulUpdate": "2026-08-10T08:18:06Z",
-  "status": "current",
+  "generatedAt": "2026-08-10T12:18:10Z",
+  "lastAttemptAt": "2026-08-10T12:18:10Z",
+  "lastSuccessfulUpdate": "2026-08-10T12:18:10Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 5,
@@ -15,22 +15,22 @@
     {
       "sourceId": "france24-en",
       "sourceName": "France 24",
-      "status": "success",
-      "lastAttemptAt": "2026-08-10T08:18:05Z",
-      "lastSuccessAt": "2026-08-10T08:18:06Z",
-      "articlesRetrieved": 23,
-      "responseTimeMs": 307,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-08-10T12:18:09Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "ValueError",
+      "errorMessage": "Malformed feed: <unknown>:10:92: not well-formed (invalid token)"
     },
     {
       "sourceId": "lemonde-une",
       "sourceName": "Le Monde",
       "status": "success",
-      "lastAttemptAt": "2026-08-10T08:18:05Z",
-      "lastSuccessAt": "2026-08-10T08:18:06Z",
+      "lastAttemptAt": "2026-08-10T12:18:09Z",
+      "lastSuccessAt": "2026-08-10T12:18:10Z",
       "articlesRetrieved": 16,
-      "responseTimeMs": 349,
+      "responseTimeMs": 456,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "franceinfo-top",
       "sourceName": "Franceinfo",
       "status": "success",
-      "lastAttemptAt": "2026-08-10T08:18:05Z",
-      "lastSuccessAt": "2026-08-10T08:18:06Z",
+      "lastAttemptAt": "2026-08-10T12:18:09Z",
+      "lastSuccessAt": "2026-08-10T12:18:10Z",
       "articlesRetrieved": 30,
-      "responseTimeMs": 424,
+      "responseTimeMs": 556,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,15 +49,168 @@
       "sourceId": "le-figaro-top",
       "sourceName": "Le Figaro",
       "status": "success",
-      "lastAttemptAt": "2026-08-10T08:18:05Z",
-      "lastSuccessAt": "2026-08-10T08:18:06Z",
-      "articlesRetrieved": 18,
-      "responseTimeMs": 469,
+      "lastAttemptAt": "2026-08-10T12:18:09Z",
+      "lastSuccessAt": "2026-08-10T12:18:10Z",
+      "articlesRetrieved": 19,
+      "responseTimeMs": 680,
       "errorType": null,
       "errorMessage": null
     }
   ],
   "articles": [
+    {
+      "id": "45f59c23a862b6c547b5d6c6",
+      "title": "Mehdi Laribi et Djamel Djeha, deux cadres présumés du narcotrafic interpellés en Algérie, ont été incarcérés, annonce Gérald Darmanin",
+      "translatedTitle": null,
+      "description": "Les deux narcotrafiquants franco-algériens « ne sont donc plus sous simple contrôle judiciaire », a précisé le ministre de la justice, lundi, remerciant les autorités judiciaires algériennes pour leur « collaboration ».",
+      "url": "https://www.lemonde.fr/societe/article/2026/08/10/mehdi-laribi-et-djamel-djeha-deux-cadres-presumes-du-narcotrafic-interpelles-en-algerie-ont-ete-incarceres-annonce-gerald-darmanin_6743300_3224.html",
+      "canonicalUrl": "https://lemonde.fr/societe/article/2026/08/10/mehdi-laribi-et-djamel-djeha-deux-cadres-presumes-du-narcotrafic-interpelles-en-algerie-ont-ete-incarceres-annonce-gerald-darmanin_6743300_3224.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T11:41:58Z",
+      "imageUrl": "https://img.lemde.fr/2026/07/14/241/0/7501/3750/644/322/60/0/a0a32f2_ftp-1-8vbfexg7uoeo-2026-07-14t122813z-80590702-rc2mdmadkrxv-rtrmadp-3-france-nationalday.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "62a8796bae6ad329c50e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "d3ff3a7e4710fd76c129872c",
+          "title": "Narcotrafic : les deux cadres marseillais interpellés en Algérie placés en détention provisoire, annonce Gérald Darmanin",
+          "translatedTitle": null,
+          "description": "Djamel Djeha et Mehdi Laribi, un des fondateurs présumés de la DZ Mafia, ont été placés en détention provisoire après leur interpellation ces dernières semaines par les autorités algériennes.",
+          "url": "https://www.lefigaro.fr/marseille/deux-importants-narcotrafiquants-marseillais-places-en-detention-provisoire-en-algerie-20260810",
+          "canonicalUrl": "https://lefigaro.fr/marseille/deux-importants-narcotrafiquants-marseillais-places-en-detention-provisoire-en-algerie-20260810",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-10T11:43:37Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/10/8cbcf7e654eace04964e549288fd7a83051a16ec82f68b3f00332124c8a59885.JPG",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-10T12:18:10Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "62a8796bae6ad329c50e",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "narcotrafic les deux cadres marseillais interpellés en algérie placés en détention provisoire annonce gérald darmanin"
+        },
+        {
+          "id": "e121f9793568a1309b3d6381",
+          "title": "Les narcotrafiquants Mehdi Laribi et Djamel Djeha ont été placés en détention provisoire en Algérie, annonce le ministre de la Justice Gérald Darmanin",
+          "translatedTitle": null,
+          "description": "Les deux hommes sont considérés comme des cibles prioritaires de la justice française, pour leur responsabilité dans le trafic de drogue dans l'Hexagone. Ils étaient auparavant sous contrôle judiciaire après leur interpellation.",
+          "url": "https://www.franceinfo.fr/societe/drogue/les-narcotrafiquants-mehdi-laribi-et-djamel-djeha-ont-ete-places-en-detention-provisoire-en-algerie-annonce-le-ministre-de-la-justice-gerald-darmanin_8141786.html",
+          "canonicalUrl": "https://franceinfo.fr/societe/drogue/les-narcotrafiquants-mehdi-laribi-et-djamel-djeha-ont-ete-places-en-detention-provisoire-en-algerie-annonce-le-ministre-de-la-justice-gerald-darmanin_8141786.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-10T11:24:56Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/3Ryvhk_wEEhNwW4yy-vHViDPqD4/0x449:5708x3660/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79b2d6a2d74661524379.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-10T12:18:10Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "62a8796bae6ad329c50e",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "les narcotrafiquants mehdi laribi et djamel djeha ont été placés en détention provisoire en algérie annonce le ministre de la justice gérald darmanin"
+        }
+      ],
+      "rankingScore": 9.09739
+    },
+    {
+      "id": "81bd116fb4333e058f62a22e",
+      "title": "EN DIRECT, guerre en Ukraine : Kiev revendique une attaque contre une raffinerie au Tatarstan ; la Russie fait état d’au moins 13 morts et de dizaines de blessés",
+      "translatedTitle": null,
+      "description": "Le raid a visé Nijnekamsk, une ville industrielle située à environ 1 600 kilomètres de la frontière ukrainienne, dans la République du Tatarstan, dans le centre-ouest de la Russie. L’armée ukrainienne dit y avoir frappé la raffinerie Taneko, « dans le cadre de la réduction du potentiel militaire de l’agresseur russe ».",
+      "url": "https://www.lemonde.fr/international/live/2026/08/10/en-direct-guerre-en-ukraine-kiev-revendique-une-attaque-contre-une-raffinerie-au-tatarstan-la-russie-fait-etat-d-au-moins-13-morts-et-des-dizaines-de-blesses_6741928_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/live/2026/08/10/en-direct-guerre-en-ukraine-kiev-revendique-une-attaque-contre-une-raffinerie-au-tatarstan-la-russie-fait-etat-d-au-moins-13-morts-et-des-dizaines-de-blesses_6741928_3210.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T11:07:23Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/10/805/0/8144/4072/644/322/60/0/3a448ce_ftp-1-7wg8wwv1rnpy-15142ab4ef7d42a5932ae50530325e22-3-59b753911223404bae7466408242091e.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cafc12b88010dd2882a3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 8.63035,
+      "related": [
+        {
+          "id": "d0244f5496b52d69e8da512b",
+          "title": "Guerre en Ukraine : une attaque de drones ukrainienne fait au moins 13 morts en Russie qui réplique et tue 5 Ukrainiens",
+          "translatedTitle": null,
+          "description": "Treize personnes ont été tuées et 39 autres ont été blessées lundi dans une attaque ukrainienne de drones au Tatarstan, dans le centre de la Russie. Moscou a répliqué et frappé la région de Kharkiv.",
+          "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-moscou-annonce-plusieurs-morts-apres-l-interception-de-456-drones-ukrainiens-20260810",
+          "canonicalUrl": "https://lefigaro.fr/international/guerre-en-ukraine-moscou-annonce-plusieurs-morts-apres-l-interception-de-456-drones-ukrainiens-20260810",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-10T09:25:16Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/10/9a72c78b70ba414bde4677b58f0b9c29a50bf64c7f7f453b64df71bb36d0b47d.JPG",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-10T12:18:10Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "cafc12b88010dd2882a3",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "guerre en ukraine une attaque de drones ukrainienne fait au moins 13 morts en russie qui réplique et tue 5 ukrainiens",
+          "rankingScore": 7.01232
+        }
+      ]
+    },
     {
       "id": "4350cd5643ade6ccf28d23a5",
       "title": "Western Europe lived through hottest June and July ever recorded",
@@ -85,8 +238,190 @@
       "clusterId": "c38903c2af209308dea4",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.50892,
+      "related": []
+    },
+    {
+      "id": "1c3e38c8378e6af1f89e6ae7",
+      "title": "A Montpellier, un adolescent de 16 ans tué dans une rixe",
+      "translatedTitle": null,
+      "description": "Trois jeunes ont été interpellés, dont l’un, âgé de 17 ans, s’est présenté lundi matin au commissariat « en se désignant comme l’auteur des coups de couteau », a annoncé le procureur de la Répubique de Montpellier.",
+      "url": "https://www.lemonde.fr/societe/article/2026/08/10/a-montpellier-un-adolescent-de-16-ans-tue-dans-une-rixe_6743234_3224.html",
+      "canonicalUrl": "https://lemonde.fr/societe/article/2026/08/10/a-montpellier-un-adolescent-de-16-ans-tue-dans-une-rixe_6743234_3224.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T10:24:09Z",
+      "imageUrl": "https://img.lemde.fr/2024/10/24/121/0/2250/1125/644/322/60/0/fb05b64_1729786778193-frame-157.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "208230166bfe83b2d021",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "93e2667a035e76898e66f69f",
+          "title": "Un mineur de 16 ans poignardé à mort dans une rixe à Montpellier, trois personnes placées en garde à vue",
+          "translatedTitle": null,
+          "description": "Transporté à l'hôpital, le jeune homme n'a pas survécu à ses blessures. Un mineur de 17 ans s'est présenté lundi matin au commissariat de police de Montpellier, \"se désignant comme l'auteur des coups de couteau\".",
+          "url": "https://www.franceinfo.fr/faits-divers/un-mineur-de-16-ans-poignarde-a-mort-dans-une-rixe-a-montpellier-trois-personnes-placees-en-garde-a-vue_8141699.html",
+          "canonicalUrl": "https://franceinfo.fr/faits-divers/un-mineur-de-16-ans-poignarde-a-mort-dans-une-rixe-a-montpellier-trois-personnes-placees-en-garde-a-vue_8141699.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-10T09:50:48Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/bidVGR6ay-KdFF5h3AT44iDSfQo/0x0:1948x1096/432x243/filters:format(jpg):quality(50)/2026/08/10/6a799ec1d926d421255073.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-10T12:18:10Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "208230166bfe83b2d021",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "un mineur de 16 ans poignardé à mort dans une rixe à montpellier trois personnes placées en garde à vue"
+        }
+      ],
+      "rankingScore": 7.1995
+    },
+    {
+      "id": "9c3e133955cbab9cdc373ea3",
+      "title": "Alors que près de 70% de l'Hexagone est soumis à des restrictions d'eau, vérifiez si vous êtes concernés par ces mesures",
+      "translatedTitle": null,
+      "description": "Franceinfo publie une carte, mise à jour quotidiennement, des zones touchées par la sécheresse et visées par des restrictions d'eau en France hexagonale. Vérifiez si c'est le cas dans votre commune.",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/secheresse/carte-verifiez-si-vous-etes-concernes-par-des-restrictions-d-eau-alors-que-la-france-souffre-de-la-secheresse-et-des-canicules_8109944.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/secheresse/carte-verifiez-si-vous-etes-concernes-par-des-restrictions-d-eau-alors-que-la-france-souffre-de-la-secheresse-et-des-canicules_8109944.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T11:50:41Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/5BUHgz3gkwiueEBRuaWnng7RsI0/0x0:3840x2159/432x243/filters:format(jpg):quality(50)/2025/07/21/v2-carte-restriciton-d-eau-france-687e26340de35201728360.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ace590f7fcdda112c672",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "2d366cf90e63ba4d6d31dd67",
+          "title": "Sécheresse en France : près de 70% du territoire sous des mesures de restrictions d'eau",
+          "translatedTitle": null,
+          "description": "Dans le détail, au 9 août, 99 départements, soit l’ensemble du territoire métropolitain, sont a minima en seuil de vigilance.",
+          "url": "https://www.lefigaro.fr/actualite-france/secheresse-en-france-pres-de-70-du-territoire-sous-des-mesures-de-restrictions-d-eau-20260810",
+          "canonicalUrl": "https://lefigaro.fr/actualite-france/secheresse-en-france-pres-de-70-du-territoire-sous-des-mesures-de-restrictions-d-eau-20260810",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-10T12:04:23Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/08/10/4760d8d41e5b853048d4a450e9a6ada0a3326210b1352e8e6e9fe1c6ffa123c5.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-10T12:18:10Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "ace590f7fcdda112c672",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "sécheresse en france près de 70 du territoire sous des mesures de restrictions d eau"
+        }
+      ],
+      "rankingScore": 7.18463
+    },
+    {
+      "id": "4d24ad37864a31e2048d67af",
+      "title": "Après le rejet du plan pour Gaza par Israël, Donald Trump est \"fragilisé politiquement\"",
+      "translatedTitle": null,
+      "description": "Le président américain peine à imposer sa stratégie dans le conflit avec l'Iran, alors que son allié, Benyamin Nétanyahou, refuse de suivre le calendrier proposé. Donald Trump reste puissant au sein de son parti, mais est \"fragilisé politiquement\", estime Jérôme Viala-Gaudefroy, spécialiste des présidents américains.",
+      "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/donald-trump-fragilise-politiquement-face-a-netanyahou-et-a-l-iran-le-president-americain-en-difficulte_8141723.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/donald-trump-fragilise-politiquement-face-a-netanyahou-et-a-l-iran-le-president-americain-en-difficulte_8141723.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T10:07:08Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/wtm9gM-jWxJGbJYvomjI7mq-PLk/0x0:5212x2931/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79a06dbef5a147599194.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "32738f9c326c94d9c64a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.35233
+      "rankingScore": 6.93856
+    },
+    {
+      "id": "565229e38c6fff8cf886bc0d",
+      "title": "Guerre Iran-États-Unis : les Iraniens sont «des joueurs d'échecs professionnels», rétorque Téhéran à Donald Trump",
+      "translatedTitle": null,
+      "description": "Le porte-parole de la diplomatie iranienne a répondu à une déclaration de Donald Trump, de ce dimanche. «Ça va s’arranger. Ça finit toujours par s’arranger», avait déclaré le président américain. «C’est comme une partie d’échecs».",
+      "url": "https://www.lefigaro.fr/international/guerre-iran-etats-unis-les-iraniens-sont-des-joueurs-d-echecs-professionnels-retorque-teheran-a-donald-trump-20260810",
+      "canonicalUrl": "https://lefigaro.fr/international/guerre-iran-etats-unis-les-iraniens-sont-des-joueurs-d-echecs-professionnels-retorque-teheran-a-donald-trump-20260810",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T10:44:13Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/10/00d640bc3c8affeae3af162c9e1a96731a5a460d0a32bbc1e138fe1a72bea3bf.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0dacaf6d43481ff28fe0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.91662
     },
     {
       "id": "08280552a3bab0611b3433ff",
@@ -115,26 +450,56 @@
       "clusterId": "53c0ea68d00479db6a1b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.45737
+      "rankingScore": 6.87326,
+      "related": []
     },
     {
-      "id": "502ff57aa87e2d1ee320fa50",
-      "title": "Revolut annonce l’obtention d’une licence bancaire en France",
+      "id": "a0d14486ae77cc653d42c077",
+      "title": "L'accord de défense Arabie saoudite-Pakistan-Turquie montre \"un changement de perception\" vis-à-vis des Etats-Unis, estime l'Iran",
       "translatedTitle": null,
-      "description": "La banque en ligne britannique a connu ces dernières années une croissance fulgurante. Elle disposait déjà d’une licence en Lituanie et au Royaume-Uni.",
-      "url": "https://www.lemonde.fr/economie/article/2026/08/10/revolut-annonce-l-obtention-d-une-licence-bancaire-en-france_6743157_3234.html",
-      "canonicalUrl": "https://lemonde.fr/economie/article/2026/08/10/revolut-annonce-l-obtention-d-une-licence-bancaire-en-france_6743157_3234.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
+      "description": "L'Iran a estimé que Téhéran n'avait \"pas de raison de s'inquiéter que ce traité soit dirigé contre lui\", mettant en avant les \"liens religieux, historiques et de civilisation profonds\" entre ces trois pays et la République islamique.",
+      "url": "https://www.franceinfo.fr/monde/iran/l-accord-de-defense-arabie-saoudite-pakistan-turquie-montre-un-changement-de-perception-vis-a-vis-des-etats-unis-estime-l-iran_8141591.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/iran/l-accord-de-defense-arabie-saoudite-pakistan-turquie-montre-un-changement-de-perception-vis-a-vis-des-etats-unis-estime-l-iran_8141591.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-10T07:37:02Z",
-      "imageUrl": "https://img.lemde.fr/2024/09/16/513/0/3076/1538/644/322/60/0/2df011b_1726522757770-000-33dm2n2.jpg",
+      "publishedAt": "2026-08-10T09:15:33Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/y7zyVXv-2td-h2LG0ngMWr_Aaww/0x0:3842x2161/432x243/filters:format(jpg):quality(50)/2026/08/10/6a7994609efe0902620797.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "80a565b2818fd06dc914",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.84768
+    },
+    {
+      "id": "af3774b727cf4dccc2406f9b",
+      "title": "Revolut décroche sa licence bancaire en France",
+      "translatedTitle": null,
+      "description": "La fintech britannique accélère son implantation dans l’Hexagone en obtenant une licence bancaire française. Une étape majeure pour l’entreprise, qui poursuit sa croissance en Europe.",
+      "url": "https://www.lefigaro.fr/societes/revolut-decroche-sa-licence-bancaire-en-france-20260810",
+      "canonicalUrl": "https://lefigaro.fr/societes/revolut-decroche-sa-licence-bancaire-en-france-20260810",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T08:15:50Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/08/10/d0616e8be6a3638367e50fa696252b6516317dacade76cb5cea5223cfb2dd65f.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
@@ -147,22 +512,22 @@
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "af3774b727cf4dccc2406f9b",
-          "title": "Revolut décroche sa licence bancaire en France",
+          "id": "502ff57aa87e2d1ee320fa50",
+          "title": "Revolut annonce l’obtention d’une licence bancaire en France",
           "translatedTitle": null,
-          "description": "La fintech britannique accélère son implantation dans l’Hexagone en obtenant une licence bancaire française. Une étape majeure pour l’entreprise, qui poursuit sa croissance en Europe.",
-          "url": "https://www.lefigaro.fr/societes/revolut-decroche-sa-licence-bancaire-en-france-20260810",
-          "canonicalUrl": "https://lefigaro.fr/societes/revolut-decroche-sa-licence-bancaire-en-france-20260810",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
+          "description": "La banque en ligne britannique a connu ces dernières années une croissance fulgurante. Elle disposait déjà d’une licence en Lituanie et au Royaume-Uni.",
+          "url": "https://www.lemonde.fr/economie/article/2026/08/10/revolut-annonce-l-obtention-d-une-licence-bancaire-en-france_6743157_3234.html",
+          "canonicalUrl": "https://lemonde.fr/economie/article/2026/08/10/revolut-annonce-l-obtention-d-une-licence-bancaire-en-france_6743157_3234.html",
+          "sourceName": "Le Monde",
+          "sourceDomain": "lemonde.fr",
           "sourceCountry": "FR",
           "editionCountry": "FR",
           "coverageCountries": [
             "FR"
           ],
           "language": "fr",
-          "publishedAt": "2026-08-10T08:15:50Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/08/10/d0616e8be6a3638367e50fa696252b6516317dacade76cb5cea5223cfb2dd65f.jpg",
+          "publishedAt": "2026-08-10T07:37:02Z",
+          "imageUrl": "https://img.lemde.fr/2024/09/16/513/0/3076/1538/644/322/60/0/2df011b_1726522757770-000-33dm2n2.jpg",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
@@ -173,71 +538,12 @@
           "clusterId": "962bc0556064f6adb261",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "revolut décroche sa licence bancaire en france"
+          "rankingScore": 7.33787,
+          "normalizedTitle": "revolut annonce l obtention d une licence bancaire en france",
+          "sourceQuality": 1.0
         }
       ],
-      "rankingScore": 7.33787
-    },
-    {
-      "id": "6f00a1a7f1ca4278ee0174c6",
-      "title": "EN DIRECT, guerre en Ukraine : une attaque de drones ukrainienne a fait au moins 13 morts et des dizaines de blessés au Tatarstan",
-      "translatedTitle": null,
-      "description": "Le raid a visé Nijnekamsk, une ville industrielle située à environ 1 600 kilomètres à l’est de la frontière ukrainienne, dans la République du Tatarstan, en Russie. Moscou a affirmé lundi avoir abattu plus de 450 drones ukrainiens dans la nuit au-dessus d’une quinzaine de régions et de la Crimée annexée.",
-      "url": "https://www.lemonde.fr/international/live/2026/08/10/en-direct-guerre-en-ukraine-une-attaque-de-drones-ukrainienne-fait-au-moins-douze-morts-et-des-dizaines-de-blesses-au-tatarstan_6741928_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/live/2026/08/10/en-direct-guerre-en-ukraine-une-attaque-de-drones-ukrainienne-fait-au-moins-douze-morts-et-des-dizaines-de-blesses-au-tatarstan_6741928_3210.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T07:05:47Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/10/805/0/8144/4072/644/322/60/0/3a448ce_ftp-1-7wg8wwv1rnpy-15142ab4ef7d42a5932ae50530325e22-3-59b753911223404bae7466408242091e.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d2637f60063c16793aa6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.22747
-    },
-    {
-      "id": "01df47d8c8f68be92446d48e",
-      "title": "La Russie annonce avoir abattu 456 drones dans la nuit, douze morts recensés face à cinq côté ukrainien",
-      "translatedTitle": null,
-      "description": "Plus de quatre ans après le début de l'offensive russe à grande échelle contre l'Ukraine, la diplomatie est au point mort et les deux pays font monter en puissance leurs frappes à longue portée, faisant un nombre croissant de victimes civiles.",
-      "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/la-russie-annonce-avoir-abattu-456-drones-dans-la-nuit-cinq-morts-recenses-cote-ukrainien_8141477.html",
-      "canonicalUrl": "https://franceinfo.fr/monde/europe/manifestations-en-ukraine/la-russie-annonce-avoir-abattu-456-drones-dans-la-nuit-cinq-morts-recenses-cote-ukrainien_8141477.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T08:10:52Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/PI1OLpAl2YszYOpx_xcKNxJ03ag/0x312:6000x3687/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79851522729550313524.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d450ff968f12e4dd3896",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.17527
+      "rankingScore": 6.70775
     },
     {
       "id": "dc357fb58b529d3cf63ce5c0",
@@ -266,38 +572,8 @@
       "clusterId": "97c70fe1ad84de10f7bc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.0782
-    },
-    {
-      "id": "2a17b2e70b37681166df1f64",
-      "title": "Guerre en Ukraine : une attaque de drones ukrainienne fait au moins 12 morts en Russie qui réplique et tue 5 Ukrainiens",
-      "translatedTitle": null,
-      "description": "Douze personnes ont été tuées et 39 autres ont été blessées lundi dans une attaque ukrainienne de drones au Tatarstan, dans le centre de la Russie. Moscou a répliqué et frappé la région de Kharkiv.",
-      "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-moscou-annonce-plusieurs-morts-apres-l-interception-de-456-drones-ukrainiens-20260810",
-      "canonicalUrl": "https://lefigaro.fr/international/guerre-en-ukraine-moscou-annonce-plusieurs-morts-apres-l-interception-de-456-drones-ukrainiens-20260810",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T07:34:12Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/10/9a72c78b70ba414bde4677b58f0b9c29a50bf64c7f7f453b64df71bb36d0b47d.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3983b9a1c194931c65f8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.01232
+      "rankingScore": 6.4999,
+      "related": []
     },
     {
       "id": "f576114bb626a5c0d1fd0030",
@@ -326,37 +602,7 @@
       "clusterId": "e025a6d10e52a2aa3301",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.96623
-    },
-    {
-      "id": "5cc0d40b0c444c786dd88ee6",
-      "title": "En Iran, la répression écrase la société civile",
-      "translatedTitle": null,
-      "description": "Les autorités intensifient la suppression des espaces de liberté. La photojournaliste Yalda Moaiery a été condamnée à quinze ans d’emprisonnement, les exécutions se multiplient, les artistes sont convoqués par les services de sécurité ou les autorités judiciaires et les cafés sont fermés.",
-      "url": "https://www.lemonde.fr/international/article/2026/08/10/en-iran-la-repression-s-est-intensifiee-depuis-le-debut-de-la-guerre_6743083_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/article/2026/08/10/en-iran-la-repression-s-est-intensifiee-depuis-le-debut-de-la-guerre_6743083_3210.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T04:00:27Z",
-      "imageUrl": "https://img.lemde.fr/2026/02/02/683/0/1125/562/644/322/60/0/fe11b63_ftp-1-u01eo9yea0uq-415248-3457284.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a90a46818be5e5bbdd87",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.90303,
+      "rankingScore": 6.41025,
       "related": []
     },
     {
@@ -386,14 +632,74 @@
       "clusterId": "4c6fed45d273c1ef9e76",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.84545
+      "rankingScore": 6.38561,
+      "related": []
     },
     {
-      "id": "9d8de36193687b58fac633c7",
-      "title": "Vingt-deux département placés en vigilance orange canicule lundi, au premier jour d'une semaine qui s'annonce particulièrement chaude",
+      "id": "5cc0d40b0c444c786dd88ee6",
+      "title": "En Iran, la répression écrase la société civile",
       "translatedTitle": null,
-      "description": "Météo-France avertit d'un \"nouvel épisode caniculaire\" mardi, la chaleur \"s'étendant à de nombreuses régions de France\" avec des maximales atteignant 39°C dans le Sud, avant un pic attendu \"vers le milieu de la semaine\".",
+      "description": "Les autorités intensifient la suppression des espaces de liberté. La photojournaliste Yalda Moaiery a été condamnée à quinze ans d’emprisonnement, les exécutions se multiplient, les artistes sont convoqués par les services de sécurité ou les autorités judiciaires et les cafés sont fermés.",
+      "url": "https://www.lemonde.fr/international/article/2026/08/10/en-iran-la-repression-s-est-intensifiee-depuis-le-debut-de-la-guerre_6743083_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/article/2026/08/10/en-iran-la-repression-s-est-intensifiee-depuis-le-debut-de-la-guerre_6743083_3210.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T04:00:27Z",
+      "imageUrl": "https://img.lemde.fr/2026/02/02/683/0/1125/562/644/322/60/0/fe11b63_ftp-1-u01eo9yea0uq-415248-3457284.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T08:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a90a46818be5e5bbdd87",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.28759,
+      "related": []
+    },
+    {
+      "id": "6d8afa2fb9e66579ea52554f",
+      "title": "Démarchage téléphonique : à partir du 11 août, les entreprises devront obtenir le consentement des consommateurs",
+      "translatedTitle": null,
+      "description": "Désormais, les entreprises devront recueillir le consentement des consommateurs avant toute prospection commerciale par téléphone, ce consentement étant « entendu comme une manifestation de volonté libre, spécifique, éclairée, univoque et révocable ».",
+      "url": "https://www.lemonde.fr/economie/article/2026/08/10/demarchage-telephonique-a-partir-du-11-aout-les-entreprises-devront-obtenir-le-consentement-des-consommateurs_6733043_3235.html",
+      "canonicalUrl": "https://lemonde.fr/economie/article/2026/08/10/demarchage-telephonique-a-partir-du-11-aout-les-entreprises-devront-obtenir-le-consentement-des-consommateurs_6733043_3235.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T11:14:23Z",
+      "imageUrl": "https://img.lemde.fr/2019/02/28/118/0/3500/1750/644/322/60/0/6f8a3b5_lVATzUNruwAe13wZ7vAd7E6j.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "76e1dc7099e457fb6343",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.89375
+    },
+    {
+      "id": "4b1d22f3af19f9d8c0bc1153",
+      "title": "Sécheresse : le Rhin en passe d'être coupé en deux à cause de la sécheresse en Allemagne, alerte la fédération de la navigation",
+      "translatedTitle": null,
+      "description": "Le niveau d'eau à Kaub, point de référence essentiel pour la navigation et l'économie, devrait tomber pour la première fois cette semaine sous les 10 centimètres. En France, vingt-deux département sont placés en vigilance orange canicule lundi.",
       "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/direct-quelque-22-departement-places-en-vigilance-orange-canicule-lundi-au-premier-jour-d-une-semaine-qui-s-annonce-particulierement-chaude_8141534.html",
       "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/direct-quelque-22-departement-places-en-vigilance-orange-canicule-lundi-au-premier-jour-d-une-semaine-qui-s-annonce-particulierement-chaude_8141534.html",
       "sourceName": "Franceinfo",
@@ -404,20 +710,800 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-10T08:04:59Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/DxKLfujzzTsEF4LBnc-pnOx_WSE/0x32:1024x608/432x243/filters:format(jpg):quality(50)/2026/08/10/6a7982e755714054523868.jpg",
+      "publishedAt": "2026-08-10T11:35:14Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/OrIJIgMnhb3xWvug0w0F6E8zS8w/0x52:1024x628/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79b6c4ce4d3229524390.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
+      "retrievedAt": "2026-08-10T12:18:10Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "56111086a41657d2615a",
+      "clusterId": "4831c51661151c3ffdc3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.75417,
+      "related": []
+    },
+    {
+      "id": "ceafb6d743d7ce1b61438611",
+      "title": "«On est déçu», l’amertume des maires de village qui espéraient un geste financier du Tour de France après l’étape raccourcie en Corrèze",
+      "translatedTitle": null,
+      "description": "Les communes rayées du tracé après le raccourcissement de la neuvième étape en pleine canicule espéraient une aide financière de la part des organisateurs. Ils n’ont pas été entendus.",
+      "url": "https://www.lefigaro.fr/sports/cyclisme/tour-de-france/on-est-decu-l-amertume-des-maires-de-villages-qui-esperaient-un-petit-geste-du-tour-de-france-apres-l-etape-raccourcie-en-correze-20260810",
+      "canonicalUrl": "https://lefigaro.fr/sports/cyclisme/tour-de-france/on-est-decu-l-amertume-des-maires-de-villages-qui-esperaient-un-petit-geste-du-tour-de-france-apres-l-etape-raccourcie-en-correze-20260810",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T12:10:53Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/1117x628_crop/2026/08/10/6af3ce5897579716aa7440d000845b76dffa7f5e2eff1d8cd61e3f5775ebdf50.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "414c044f6abbaeaff756",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.8134
+      "rankingScore": 5.73512
+    },
+    {
+      "id": "d622bc1c0fa680d16937c68f",
+      "title": "En Albanie, cette « révolution des flamants roses » contre le pouvoir et la famille Trump",
+      "translatedTitle": null,
+      "description": "REPORTAGE - La contestation envers le gouvernement d’Edi Rama, accusé de corruption, ne faiblit pas depuis qu’il a accordé à Ivanka Trump, la fille du président des États-Unis, la possibilité de bâtir un complexe touristique dans une zone protégée, jusqu’ici prisée par des flamants roses.",
+      "url": "https://www.lefigaro.fr/international/en-albanie-cette-revolution-des-flamants-roses-contre-le-pouvoir-et-la-famille-donald-trump-20260809",
+      "canonicalUrl": "https://lefigaro.fr/international/en-albanie-cette-revolution-des-flamants-roses-contre-le-pouvoir-et-la-famille-donald-trump-20260809",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T12:01:26Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/08/07/9e8eb1a563a33e86d33b6c4f56614f50bcdaa9fd979771ae4b39f4fe853f4722.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e297cfa5288ba8f6aab2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.71609
+    },
+    {
+      "id": "8185dd5161843a8357cdd909",
+      "title": "FIFA : le football « n’appartient à aucun individu », plaident l’UEFA, la Concacaf et l’AFC, désavouant un peu plus Gianni Infantino",
+      "translatedTitle": null,
+      "description": "« Il y a du silence là où il devrait y avoir des responsabilités, de la distance là où il devrait y avoir de la transparence », estiment les trois confédérations frondeuses, après le projet d’ouverture à des investisseurs privés, finalement abandonné par le patron de la FIFA.",
+      "url": "https://www.lemonde.fr/sport/article/2026/08/10/fifa-le-football-n-appartient-a-aucun-individu-plaident-l-uefa-la-concacaf-et-l-afc-desavouant-un-peu-plus-gianni-infantino_6743198_3242.html",
+      "canonicalUrl": "https://lemonde.fr/sport/article/2026/08/10/fifa-le-football-n-appartient-a-aucun-individu-plaident-l-uefa-la-concacaf-et-l-afc-desavouant-un-peu-plus-gianni-infantino_6743198_3242.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T09:28:16Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/07/0/0/3800/1900/644/322/60/0/ae8bbf0_ftp-1-siilpakviz67-4a2c4b70514c4722b5b9936ddf3ebf0f-1-a44f70f66975433caac0276c575a0265.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "632878e53eb56d8dc2d0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69968
+    },
+    {
+      "id": "4a2e4f1591ae596f6eb3dde3",
+      "title": "\"C’est l’histoire de beaucoup d’entre nous\" : en Grèce, les jeunes expatriés sont de retour au pays",
+      "translatedTitle": null,
+      "description": "Après des années de crise économiques, la Grèce apparaît désormais bien plus attrayante pour les jeunes hautement diplômés qui ont quitté le pays.",
+      "url": "https://www.franceinfo.fr/monde/grece/c-est-l-histoire-de-beaucoup-d-entre-nous-en-grece-les-jeunes-expatries-sont-de-retour-au-pays_8140988.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/grece/c-est-l-histoire-de-beaucoup-d-entre-nous-en-grece-les-jeunes-expatries-sont-de-retour-au-pays_8140988.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T11:06:17Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/bJpEsDVhvaT6rtSsGt8yHRTP1KE/0x235:4893x2985/432x243/filters:format(jpg):quality(50)/2020/01/27/phpffoJFM.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2578a3fd06526671ed5a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69825
+    },
+    {
+      "id": "996b4ebde2f286cdb1049a62",
+      "title": "Le ministre grec des Migrations se dit \"admirateur de Trump\" pour avoir \"changé\" la donne sur l'immigration en Europe",
+      "translatedTitle": null,
+      "description": "Le ministre grec Thanos Plevris estime que \"la meilleure chose que le président Trump ait faite, c'est d'avoir changé la politique migratoire aux Etats-Unis\".",
+      "url": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/le-ministre-grec-des-migrations-se-dit-admirateur-de-trump-pour-avoir-change-la-donne-sur-l-immigration-en-europe_8141681.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/usa/presidentielle/donald-trump/le-ministre-grec-des-migrations-se-dit-admirateur-de-trump-pour-avoir-change-la-donne-sur-l-immigration-en-europe_8141681.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T11:02:21Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/TwJCiQjrU2W5ffA2S-3nffxSJgw/0x0:1024x576/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79a9c73a927439420532.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "77e1f996fa9f0064956e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69077
+    },
+    {
+      "id": "ffae45f417a49c7e2ddf94f1",
+      "title": "Incendies : 17 départements en risque \"élevé\" de feux de forêt, les flammes poursuivent leur \"progression lente\" dans la Drôme",
+      "translatedTitle": null,
+      "description": "En Lozère, l'incendie qui s'est déclaré dimanche après-midi sur la commune de Massegros Causses Gorges est désormais \"fixé\".",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/direct-l-incendie-declare-dimanche-a-massegros-causses-gorges-en-lozere-a-parcouru-153-hectares-et-est-desormais-fixe-annonce-la-prefecture_8141315.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/direct-l-incendie-declare-dimanche-a-massegros-causses-gorges-en-lozere-a-parcouru-153-hectares-et-est-desormais-fixe-annonce-la-prefecture_8141315.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T10:41:04Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/7wop6uIkFkGT9EWN5kptMf4FCC0/0x0:3543x1992/432x243/filters:format(jpg):quality(50)/2026/08/10/6a799fed1cac1879610845.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "00eb8c11369a20dd237e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.65075
+    },
+    {
+      "id": "adb8b9668ebfc7862fa05cac",
+      "title": "Célibataire, vous avez arrêté de chercher l'amour ? Racontez-nous",
+      "translatedTitle": null,
+      "description": "La France compte de plus en plus de célibataires. Loin des clichés, ce statut n'est pas toujours subi : près d'une personne concernée sur deux assure avoir choisi son célibat, selon une étude de l'Institut national d'études démographiques.",
+      "url": "https://www.franceinfo.fr/societe/appel-a-temoignages-celibataire-vous-avez-arrete-de-chercher-l-amour-racontez-nous_8141615.html",
+      "canonicalUrl": "https://franceinfo.fr/societe/appel-a-temoignages-celibataire-vous-avez-arrete-de-chercher-l-amour-racontez-nous_8141615.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T10:40:42Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/CaBy7vpKjg4RfWGd2MHKp-mGlZI/0x32:1024x608/432x243/filters:format(jpg):quality(50)/2026/08/10/6a7997870749a885017452.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bcb33f04ca060f3ee353",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.65007
+    },
+    {
+      "id": "5bff98d9a00f76992aaf3900",
+      "title": "\"Le trafic de drogue est alimenté par ces bateaux\" : au Portugal, les forces de l'ordre traquent les \"narcolanchas\"",
+      "translatedTitle": null,
+      "description": "Les autorités s'inquiètent de la multiplication des \"narcolanchas\", ces embarcations utilisées par les trafiquants de drogue. Franceinfo a embarqué avec les garde-côtes de la gendarmerie portugaise lors d'une patrouille de nuit.",
+      "url": "https://www.franceinfo.fr/societe/drogue/reportage-le-trafic-de-drogue-est-alimente-par-ces-bateaux-au-portugal-les-forces-de-l-ordre-traquent-les-narcolanchas_8141759.html",
+      "canonicalUrl": "https://franceinfo.fr/societe/drogue/reportage-le-trafic-de-drogue-est-alimente-par-ces-bateaux-au-portugal-les-forces-de-l-ordre-traquent-les-narcolanchas_8141759.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T10:38:32Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/-1wrnYCNSKY5LurHB-M9aKrtVLU/0x0:6008x3379/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79a9ab7003c399899821.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "51dcea20a44b071c0d7b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.64604
+    },
+    {
+      "id": "7c06c05dae3188ca299d8d7c",
+      "title": "Espagne : les images de l’explosion d’un engin pyrotechnique dans le public lors d’un feu d’artifice à Alicante",
+      "translatedTitle": null,
+      "description": "VIDÉO - Ce qui devait être un moment de joie a tourné à la panique près d’Alicante en Espagne, dans la nuit du samedi 8 au dimanche 9 août.",
+      "url": "https://www.lefigaro.fr/flash-actu/espagne-les-images-de-l-explosion-d-un-engin-pyrotechnique-dans-le-public-lors-d-un-feu-d-artifice-a-alicante-20260810",
+      "canonicalUrl": "https://lefigaro.fr/flash-actu/espagne-les-images-de-l-explosion-d-un-engin-pyrotechnique-dans-le-public-lors-d-un-feu-d-artifice-a-alicante-20260810",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T11:24:29Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/10/865d1bedd7202fa12192edefc9c80f8bba17147936fbb3b7cf51dc2a0213c206.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a041c4c4f5733489dd4a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.64323
+    },
+    {
+      "id": "19e593cf042e15a02ac4d17a",
+      "title": "En Chine, le typhon Dolphin provoque de fortes pluies dans l’est du pays mais perd en intensité",
+      "translatedTitle": null,
+      "description": "Les autorités ont déclenché le niveau le plus élevé d’alerte aux crues soudaines dans l’est et le sud de la province du Zhejiang lundi, bien que la tempête tropicale ait perdu de son intensité après avoir touché terre le long des côtes de cette dernière.",
+      "url": "https://www.lemonde.fr/planete/article/2026/08/10/en-chine-le-typhon-dolphin-provoque-de-fortes-pluies-dans-l-est-du-pays-mais-perd-en-intensite_6743195_3244.html",
+      "canonicalUrl": "https://lemonde.fr/planete/article/2026/08/10/en-chine-le-typhon-dolphin-provoque-de-fortes-pluies-dans-l-est-du-pays-mais-perd-en-intensite_6743195_3244.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T08:54:37Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/10/341/0/4096/2048/644/322/60/0/e4cb94d_ftp-1-v7kf8pfkt163-5807441-01-06.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9fabecb568a28795b535",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.64202
+    },
+    {
+      "id": "6f5fd14b2ee98f3cabc53aae",
+      "title": "Royaume-Uni : des drones de la Royal Navy «ont secrètement transmis des données à la Chine»",
+      "translatedTitle": null,
+      "description": "Les caméras, qui équipent les drones de surveillance K3 Scout, comportaient des «composants fabriqués en Chine qui transmettaient des informations à un appareil situé dans ce pays», révèle le Telegraph.",
+      "url": "https://www.lefigaro.fr/international/royaume-uni-des-drones-de-la-royal-navy-ont-secretement-transmis-des-donnees-a-la-chine-20260810",
+      "canonicalUrl": "https://lefigaro.fr/international/royaume-uni-des-drones-de-la-royal-navy-ont-secretement-transmis-des-donnees-a-la-chine-20260810",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T11:22:47Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/2991x1682_crop/2026/08/10/3aadeca5d15494ebaada6754c0b83f772236c03e4028c5b435590cd6ae12215c.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d1e3b623c2799b3a648b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.63994
+    },
+    {
+      "id": "48e7c13caffcea8f7e417363",
+      "title": "Canicule, pic ou vague de chaleur : comment faire la différence ?",
+      "translatedTitle": null,
+      "description": "La France fait face à sa troisième vague de chaleur de l'année. Entre les différents termes employés par Météo-France lors des épisodes de fortes chaleurs, il est compliqué de s'y retrouver. Franceinfo fait le point.",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/canicule-pic-ou-vague-de-chaleur-comment-faire-la-difference_8141462.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/canicule-pic-ou-vague-de-chaleur-comment-faire-la-difference_8141462.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T10:24:31Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/G--HhSgti1IoedO3Ej3ZTCUb8-U/0x59:1024x635/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79743273c4b075946763.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e77be2963e34e23d9cb0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.62017
+    },
+    {
+      "id": "572d38812fcf2f011dbcdb55",
+      "title": "Le maire de Saumos demande à Emmanuel Macron \"d'entendre le rappel à l'ordre de la nature\" et d'écouter les élus locaux après l'incendie",
+      "translatedTitle": null,
+      "description": "Didier Chautard craint les propositions \"formulées dans l'urgence\" et appelle les pouvoirs publics à \"une réflexion collective\", afin que le territoire \"ne soit pas sacrifié une seconde fois au nom de décisions prises sans lui\".",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/le-maire-de-saumos-demande-a-emmanuel-macron-d-entendre-le-rappel-a-l-ordre-de-la-nature-et-d-ecouter-les-elus-locaux-apres-l-incendie_8141714.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/le-maire-de-saumos-demande-a-emmanuel-macron-d-entendre-le-rappel-a-l-ordre-de-la-nature-et-d-ecouter-les-elus-locaux-apres-l-incendie_8141714.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T10:13:09Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/AsR-CaXjg_F4mX9Zd4JHDzUumBc/0x73:1024x649/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79a254406ec498880782.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "170eecfffe3d94e1e752",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.59944
+    },
+    {
+      "id": "6d4aa79e834eae6370b15da7",
+      "title": "\"J'ai réservé un logement il y a deux ans\" : comment les passionnés d'astronomie s'organisent pour voir l'éclipse solaire du 12 août dans les meilleures conditions",
+      "translatedTitle": null,
+      "description": "De la location d'un camping-car au repérage des zones les plus éloignées de la foule, les personnes interrogées par franceinfo ont pensé à tout pour assister à un spectacle qui s'annonce grandiose, notamment dans le nord de l'Espagne. Seule incertitude : les conditions météo incertaines.",
+      "url": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/temoignages-j-ai-reserve-un-logement-il-y-a-deux-ans-comment-les-passionnes-d-astronomie-s-organisent-pour-voir-l-eclipse-solaire-du-12-aout-dans-les-meilleures-conditions_8120324.html",
+      "canonicalUrl": "https://franceinfo.fr/sciences/astronomie/eclipse-solaire/temoignages-j-ai-reserve-un-logement-il-y-a-deux-ans-comment-les-passionnes-d-astronomie-s-organisent-pour-voir-l-eclipse-solaire-du-12-aout-dans-les-meilleures-conditions_8120324.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T09:57:39Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/ewLNcB-D6ENOPX_5UP6cQb7kMxw/0x46:1024x622/432x243/filters:format(jpg):quality(50)/2026/07/24/6a6396023ba90198445280.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a30b0c9644f5f7eb9244",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.57152,
+      "related": []
+    },
+    {
+      "id": "24a6c2396bd405caf6bab4e0",
+      "title": "« Marc Bloch était aussi un historien du “rural”, attaché à défricher une histoire économique et sociale des campagnes »",
+      "translatedTitle": null,
+      "description": "En étudiant l’histoire de l’ensemble de la société et non seulement des élites, le médiéviste rencontra fatalement la ruralité. L’ouvrage majeur qu’il y consacra influença profondément ses collègues et ses successeurs, souligne l’historien Gérard Béaur dans une tribune au « Monde ».",
+      "url": "https://www.lemonde.fr/idees/article/2026/08/10/marc-bloch-etait-aussi-un-historien-du-rural-attache-a-defricher-une-histoire-economique-et-sociale-des-campagnes_6743161_3232.html",
+      "canonicalUrl": "https://lemonde.fr/idees/article/2026/08/10/marc-bloch-etait-aussi-un-historien-du-rural-attache-a-defricher-une-histoire-economique-et-sociale-des-campagnes_6743161_3232.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T08:00:03Z",
+      "imageUrl": "https://img.lemde.fr/2026/06/23/1000/0/6000/3000/644/322/60/0/3b1429a_ftp-1-xts1mdoxnkol-5417998-01-06.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0aa71522d2e2cd6aa453",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.55225
+    },
+    {
+      "id": "b5222033ef8a7593250a8fc5",
+      "title": "Jusqu’à 80.000 euros à rembourser : l’incroyable mésaventure d’une centaine de médecins contraints de rendre leurs primes",
+      "translatedTitle": null,
+      "description": "Les médecins du Grand hôpital de l’Est francilien (GHEF ) ont été sommés de rembourser jusqu’à 80 000 euros chacun pour des versements jugés indus par le Trésor Public.",
+      "url": "https://www.lefigaro.fr/conjoncture/jusqu-a-80-000-euros-a-rembourser-l-incroyable-mesaventure-d-une-centaine-de-medecins-contraints-de-rendre-leurs-primes-20260810",
+      "canonicalUrl": "https://lefigaro.fr/conjoncture/jusqu-a-80-000-euros-a-rembourser-l-incroyable-mesaventure-d-une-centaine-de-medecins-contraints-de-rendre-leurs-primes-20260810",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T10:34:42Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/10/3972522fc6a9f8db341c6c505789a2974c64386321d0024a93088fa9bb7b835d.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "16d9596a06686eb838ba",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.54893
+    },
+    {
+      "id": "6b6ed043b392e49f1b6e4c6d",
+      "title": "\"Autrefois vecteur tropical, le moustique tigre devient une menace française\" : plus de 70% de la France touchée d'ici 2085, selon une étude",
+      "translatedTitle": null,
+      "description": "En une vingtaine d'années, le moustique tigre a été détecté dans plus de 80 départements. Il n'était présent que dans un seul en 2004.",
+      "url": "https://www.franceinfo.fr/environnement/crise-climatique/autrefois-vecteur-tropical-le-moustique-tigre-devient-une-menace-francaise-plus-de-70-de-la-france-touchee-d-ici-2085-selon-une-etude_8141672.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/crise-climatique/autrefois-vecteur-tropical-le-moustique-tigre-devient-une-menace-francaise-plus-de-70-de-la-france-touchee-d-ici-2085-selon-une-etude_8141672.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T09:34:03Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/3asSNpkETEHICPTdaxSG2ol6Kuk/0x2:1200x677/432x243/filters:format(jpg):quality(50)/2026/08/10/6a799a5e812c1411281863.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c634c149d9c0f7ee1e67",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.52977
+    },
+    {
+      "id": "16fb2b548d8f1dd123bddb83",
+      "title": "Une édition inédite au Royaume-Uni, Gressier pour un premier sacre européen sur piste, Duplantis chasse le quadruplé... Ce qu'il faut savoir des championnats d'Europe d'athlétisme",
+      "translatedTitle": null,
+      "description": "La compétition continentale se tiendra du 10 au 16 août à Birmingham, en Angleterre.",
+      "url": "https://www.franceinfo.fr/sports/athletisme/championnats-d-europe/une-edition-inedite-au-royaume-uni-gressier-pour-un-premier-sacre-europeen-sur-piste-duplantis-chasse-le-quadruple-ce-qu-il-faut-savoir-des-championnats-d-europe-d-athletisme_8136887.html",
+      "canonicalUrl": "https://franceinfo.fr/sports/athletisme/championnats-d-europe/une-edition-inedite-au-royaume-uni-gressier-pour-un-premier-sacre-europeen-sur-piste-duplantis-chasse-le-quadruple-ce-qu-il-faut-savoir-des-championnats-d-europe-d-athletisme_8136887.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T09:33:16Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/DywoUtNWQXiRmsvcRvZUmVR9aV4/0x0:1920x1080/432x243/filters:format(jpg):quality(50)/2026/08/06/6a74571f0d60c819187607.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d109d328c9a9df1139d3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.5284,
+      "related": []
+    },
+    {
+      "id": "c82448b49256641eedded4b5",
+      "title": "Une femme enceinte et ses deux enfants meurent dans l'incendie de leur habitation de fortune à Mayotte",
+      "translatedTitle": null,
+      "description": "L'habitat précaire reste massif dans le département le plus pauvre de France : les cases en tôle représentaient encore quatre logements sur dix début 2024, une proportion stable depuis près de trente ans, selon une enquête de l'Insee.",
+      "url": "https://www.franceinfo.fr/faits-divers/incendie/une-femme-enceinte-et-ses-deux-enfants-meurent-dans-l-incendie-de-leur-habitation-de-fortune-a-mayotte_8141654.html",
+      "canonicalUrl": "https://franceinfo.fr/faits-divers/incendie/une-femme-enceinte-et-ses-deux-enfants-meurent-dans-l-incendie-de-leur-habitation-de-fortune-a-mayotte_8141654.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T09:32:28Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/vwWd3pzbRTtH-EeQiS2b5WBOXXY/0x253:4899x3009/432x243/filters:format(jpg):quality(50)/2026/08/10/6a7997e0a327e951099028.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1bb70d0e006b1d83a46a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.527
+    },
+    {
+      "id": "8a6909bf0c56dd97c6efeb1d",
+      "title": "La Syrie restreint la présence militaire de la Russie sur le littoral méditerranéen",
+      "translatedTitle": null,
+      "description": "Damas a annoncé, dimanche 9 août, un accord qui fixe un nouveau cadre à la présence militaire russe sur ses deux dernières bases en Syrie. Elle en rétrograde la portée, tout en laissant la porte ouverte à un rôle de Moscou dans la formation des forces syriennes.",
+      "url": "https://www.lemonde.fr/international/article/2026/08/10/la-syrie-restreint-la-presence-militaire-de-la-russie-sur-le-littoral-mediterraneen_6743158_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/article/2026/08/10/la-syrie-restreint-la-presence-militaire-de-la-russie-sur-le-littoral-mediterraneen_6743158_3210.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T07:40:07Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/09/458/0/5500/2750/644/322/60/0/8041c07_ftp-1-kt3ohb3kq5vg-2026-08-09t130436z-699510682-rc2ambabi4ju-rtrmadp-3-syria-russia.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "38559bc916e35cd8ca5a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.52057
+    },
+    {
+      "id": "71dd20842b395509dce3ed6d",
+      "title": "Présidentielle 2027 : François Bayrou souhaite une grande primaire entre « tous ceux qui rejettent les extrêmes », « du PS jusqu’aux gaullistes »",
+      "translatedTitle": null,
+      "description": "« Le risque maximum, c’est un deuxième tour entre l’extrême droite et l’extrême gauche », affirme l’ex-premier ministre, qui estime que cette « catastrophe » se produira « si nous ne portons pas au deuxième tour un candidat capable de rassembler tous les démocrates réformistes ».",
+      "url": "https://www.lemonde.fr/politique/article/2026/08/10/presidentielle-2027-francois-bayrou-souhaite-une-grande-primaire-entre-tous-ceux-qui-rejettent-les-extremes-du-ps-jusqu-aux-gaullistes_6743156_823448.html",
+      "canonicalUrl": "https://lemonde.fr/politique/article/2026/08/10/presidentielle-2027-francois-bayrou-souhaite-une-grande-primaire-entre-tous-ceux-qui-rejettent-les-extremes-du-ps-jusqu-aux-gaullistes_6743156_823448.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T07:06:51Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/10/639/0/6192/3096/644/322/60/0/f5ce1e3_upload-1-qegymw15rjga-000-a4bd83t.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a99f73277bbbf8891b6e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.46898
+    },
+    {
+      "id": "9308a6495c1c181227ca38cb",
+      "title": "Joueur et entraîneur emblématique des Boston Celtics en NBA, Don Nelson est décédé",
+      "translatedTitle": null,
+      "description": "La famille de celui qui a marqué l'histoire de la NBA a annoncé, lundi, sa disparition.",
+      "url": "https://www.franceinfo.fr/sports/basket/nba/joueur-et-entraineur-emblematique-des-boston-celtics-en-nba-don-nelson-est-decede_8141612.html",
+      "canonicalUrl": "https://franceinfo.fr/sports/basket/nba/joueur-et-entraineur-emblematique-des-boston-celtics-en-nba-don-nelson-est-decede_8141612.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T08:57:53Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/1gMOH3fRZwxj1SJQRYfIr4VEyoQ/0x0:1854x1042/432x243/filters:format(jpg):quality(50)/2026/08/10/6a798d7d2e512996746732.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b4a1fbe395d9a228989e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.46753
+    },
+    {
+      "id": "91e90988b04a693294380468",
+      "title": "Meurtre du rappeur Tupac : le procès de \"Keffe D\" Davis, principal suspect, s'ouvre trente ans après les faits",
+      "translatedTitle": null,
+      "description": "Le 13 septembre 1996, le rappeur américain Tupac meurt à l'hôpital des suites d'une attaque à l'arme à feu survenue six jours plus tôt. C'est encore aujourd'hui l'une des plus grandes affaires non résolues des Etats-Unis.",
+      "url": "https://www.franceinfo.fr/culture/musique/rap/meurtre-du-rappeur-tupac-un-nouveau-proces-s-ouvre-a-l-encontre-de-keffe-d-davis-le-principal-suspect-trente-ans-apres-les-faits_8141546.html",
+      "canonicalUrl": "https://franceinfo.fr/culture/musique/rap/meurtre-du-rappeur-tupac-un-nouveau-proces-s-ouvre-a-l-encontre-de-keffe-d-davis-le-principal-suspect-trente-ans-apres-les-faits_8141546.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T08:54:57Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/9OipfWHGekzMQXang3UEnKT2C-s/0x120:5212x3051/432x243/filters:format(jpg):quality(50)/2026/08/10/6a797f7f14305983971738.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "35f9ad1af0f4aebc0979",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.46258
+    },
+    {
+      "id": "df123b4f989d149d127aaed3",
+      "title": "Jouets antistress \"Squishy\" : parents et enfants doivent \"faire preuve de prudence\", alerte la Répression des fraudes",
+      "translatedTitle": null,
+      "description": "La DGCCRF conseille aussi de ne pas reproduire les vidéos diffusées sur les réseaux sociaux, \"où ces jouets sont soumis à des expériences dangereuses\", comme, par exemple, passer l'un de ces jouets au micro-ondes.",
+      "url": "https://www.franceinfo.fr/faits-divers/la-repression-des-fraudes-appelle-parents-et-enfants-a-faire-preuve-de-prudence-en-attendant-le-resultat-des-expertises-sur-des-jouets-antistress-squishy_8141621.html",
+      "canonicalUrl": "https://franceinfo.fr/faits-divers/la-repression-des-fraudes-appelle-parents-et-enfants-a-faire-preuve-de-prudence-en-attendant-le-resultat-des-expertises-sur-des-jouets-antistress-squishy_8141621.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T08:51:57Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/G4ZbMuByDVn7c5XEZ8zl9cw67aI/0x472:6000x3847/432x243/filters:format(jpg):quality(50)/2026/08/10/6a798eac06e53968931532.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "578a0afce0a3461da74b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.45752
+    },
+    {
+      "id": "363279a7e90b47c9b3d70b0d",
+      "title": "Organiser une primaire pour la présidentielle incluant les socialistes \"n'a pas de sens\", estime le secrétaire général des Républicains",
+      "translatedTitle": null,
+      "description": "Le centriste François Bayrou a plaidé dimanche pour que \"tous ceux qui rejettent les extrêmes\" se réunissent pour désigner un candidat unique. Othman Nasrou défend de son côté la nécessité \"d'un projet de rupture\".",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/organiser-une-primaire-pour-la-presidentielle-incluant-les-socialistes-n-a-pas-de-sens-estime-le-secretaire-general-des-republicains_8141564.html",
+      "canonicalUrl": "https://franceinfo.fr/elections/presidentielle/organiser-une-primaire-pour-la-presidentielle-incluant-les-socialistes-n-a-pas-de-sens-estime-le-secretaire-general-des-republicains_8141564.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T08:11:39Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/Uy5l3K1RSAbCZb5XmCKWciwgM0Q/224x0:1197x547/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79847f22219173079988.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "66b4d35a188264d2e4a0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.39095
+    },
+    {
+      "id": "1976b70b950ecbf98d047cc7",
+      "title": "Ni «déni» ni «caricature» : malgré la hausse du chômage, Sébastien Lecornu défend le bilan du macronisme",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.lefigaro.fr/flash-eco/ni-deni-ni-caricature-malgre-la-hausse-du-chomage-sebastien-lecornu-defend-le-bilan-du-macronisme-20260810",
+      "canonicalUrl": "https://lefigaro.fr/flash-eco/ni-deni-ni-caricature-malgre-la-hausse-du-chomage-sebastien-lecornu-defend-le-bilan-du-macronisme-20260810",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-10T12:02:59Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/08/10/69effc4a3d5393310ce05d488c31a2e30c5721a3f28f5502cebb9ba3f21b737d.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-10T12:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ded4de762d140a4e191c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.3192
     },
     {
       "id": "c3c66b2ab74fccd0595fd972",
@@ -446,98 +1532,8 @@
       "clusterId": "6e4820269f0b347639b7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74487
-    },
-    {
-      "id": "5c92e3435a5d2881ce652b0c",
-      "title": "EN DIRECT - Canicule : la vague de chaleur continue de gagner du terrain",
-      "translatedTitle": null,
-      "description": "Elle remonte progressivement vers le centre du pays, avec des températures souvent comprises entre 33 et 36°C, selon la Chaîne météo. Vingt-deux départements du centre et du sud-est seront en vigilance orange canicule.",
-      "url": "https://www.lefigaro.fr/sciences/en-direct-canicule-la-vague-de-chaleur-continue-de-gagner-du-terrain-20260810",
-      "canonicalUrl": "https://lefigaro.fr/sciences/en-direct-canicule-la-vague-de-chaleur-continue-de-gagner-du-terrain-20260810",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T08:13:03Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/08/10/35c15a4893e8179a89c395b00d6d537bfc0d277239e8a4bec8a2da5cdfc33265.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "47911231a7caadb50d91",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73969
-    },
-    {
-      "id": "f448c12fc370d38b5da8bd44",
-      "title": "Demi Vollering reine du Tour, Arthur Fils brille à Montréal, Léon Marchand forfait sur le 4 nages... Le récap' sport du week-end",
-      "translatedTitle": null,
-      "description": "La Néerlandaise a remporté, dimanche, le deuxième Tour de France de sa carrière en résistant à la Polonaise Kasia Niewiadoma.",
-      "url": "https://www.franceinfo.fr/sports/demi-vollering-reine-du-tour-arthur-fils-brille-a-montreal-leon-marchand-forfait-sur-le-4-nages-le-recap-sport-du-week-end_8140706.html",
-      "canonicalUrl": "https://franceinfo.fr/sports/demi-vollering-reine-du-tour-arthur-fils-brille-a-montreal-leon-marchand-forfait-sur-le-4-nages-le-recap-sport-du-week-end_8140706.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T07:27:26Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/SzHW_FtoqaYIjeM3b8g7cUFBgTg/0x0:2000x1125/432x243/filters:format(jpg):quality(50)/2026/08/09/6a78b20254c1b084088374.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "92c36320fa049fa0419b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.73913,
+      "rankingScore": 5.30737,
       "related": []
-    },
-    {
-      "id": "16fb2b548d8f1dd123bddb83",
-      "title": "Une édition inédite au Royaume-Uni, Gressier pour un premier sacre européen sur piste, Duplantis chasse le quadruplé... Ce qu'il faut savoir des championnats d'Europe d'athlétisme",
-      "translatedTitle": null,
-      "description": "La compétition continentale se tiendra du 10 au 16 août à Birmingham, en Angleterre.",
-      "url": "https://www.franceinfo.fr/sports/athletisme/championnats-d-europe/une-edition-inedite-au-royaume-uni-gressier-pour-un-premier-sacre-europeen-sur-piste-duplantis-chasse-le-quadruple-ce-qu-il-faut-savoir-des-championnats-d-europe-d-athletisme_8136887.html",
-      "canonicalUrl": "https://franceinfo.fr/sports/athletisme/championnats-d-europe/une-edition-inedite-au-royaume-uni-gressier-pour-un-premier-sacre-europeen-sur-piste-duplantis-chasse-le-quadruple-ce-qu-il-faut-savoir-des-championnats-d-europe-d-athletisme_8136887.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T07:25:16Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/DywoUtNWQXiRmsvcRvZUmVR9aV4/0x0:1920x1080/432x243/filters:format(jpg):quality(50)/2026/08/06/6a74571f0d60c819187607.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d109d328c9a9df1139d3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73492
     },
     {
       "id": "cf0c146e6492dbd7559149cc",
@@ -559,15 +1555,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
+      "retrievedAt": "2026-08-10T12:18:10Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "daabfa348c89bd4d7924",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73028
+      "rankingScore": 5.29569,
+      "related": []
     },
     {
       "id": "55c36569a29829065981c852",
@@ -596,847 +1592,7 @@
       "clusterId": "657c7d352bb9be0c7829",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72769
-    },
-    {
-      "id": "e6929d68ceb4dd2198fbb6f9",
-      "title": "Canicules à répétition : l’Europe occidentale a connu son début d’été le plus chaud jamais enregistré",
-      "translatedTitle": null,
-      "description": "La température moyenne a atteint un record de 21,62°C dans la région en juin et juillet, selon Copernicus. Vagues de chaleur, sécheresse et incendies se sont multipliés, tandis que les océans ont également connu leur mois de juillet le plus chaud.",
-      "url": "https://www.lefigaro.fr/sciences/canicules-a-repetition-l-europe-occidentale-connait-son-debut-d-ete-le-plus-chaud-jamais-enregistre-20260810",
-      "canonicalUrl": "https://lefigaro.fr/sciences/canicules-a-repetition-l-europe-occidentale-connait-son-debut-d-ete-le-plus-chaud-jamais-enregistre-20260810",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T07:50:18Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/10/26d324b173af393182d0755d00039834d1b497bbbf5b526153ef266359687ee4.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1c4463e450418423fb37",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69405
-    },
-    {
-      "id": "ff67b7f562190535d35efafb",
-      "title": "\"Ils viennent et prennent n'importe qui\" : aux Etats-Unis, la communauté haïtienne vit dans la peur depuis la fin de leur statut de protection",
-      "translatedTitle": null,
-      "description": "Des centaines de milliers d'Haïtiens risquent de devoir quitter d'eux-mêmes les États-Unis ou d'être expulsés, depuis la révocation d'un statut de protection temporaire qui leur permettait depuis 2010 de vivre et de travailler légalement dans le pays.",
-      "url": "https://www.franceinfo.fr/monde/usa/reportage-ils-viennent-et-prennent-n-importe-qui-aux-etats-unis-la-communaute-haitienne-vit-dans-la-peur-depuis-la-fin-de-leur-statut-de-protection_8140865.html",
-      "canonicalUrl": "https://franceinfo.fr/monde/usa/reportage-ils-viennent-et-prennent-n-importe-qui-aux-etats-unis-la-communaute-haitienne-vit-dans-la-peur-depuis-la-fin-de-leur-statut-de-protection_8140865.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T06:59:28Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/DNfV_5ygdqGSHeE_WIGQmYNz1RE/0x223:4300x2642/432x243/filters:format(jpg):quality(50)/2026/05/18/6a0ad3aba1b0c826094452.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "914e6aad7b287212b50b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68547
-    },
-    {
-      "id": "760031fbc263ff138656632b",
-      "title": "L'hôpital privé d'Arès en Gironde a retrouvé un \"fonctionnement normal\", plus de deux semaines après avoir été évacué à cause du feu",
-      "translatedTitle": null,
-      "description": "Tous les services ont rouvert et l'Ehpad a récupéré l'ensemble de ses résidents, annonce le directeur de l'établissement. Le nettoyage a nécessité plus d'une semaine de travail. L'incendie s'est arrêté à un kilomètre de l'hôpital.",
-      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/l-hopital-prive-d-ares-en-gironde-a-retrouve-un-fonctionnement-normal-plus-de-deux-semaines-apres-avoir-ete-evacue-a-cause-du-feu_8141498.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/l-hopital-prive-d-ares-en-gironde-a-retrouve-un-fonctionnement-normal-plus-de-deux-semaines-apres-avoir-ete-evacue-a-cause-du-feu_8141498.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T06:53:28Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/Xit0Ls6TCAgr8KkUeAujWCuyLN4/43x0:1236x671/432x243/filters:format(jpg):quality(50)/2026/08/10/6a797458bfbd0429586428.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0a221f8e8a73f50aa95c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.67414
-    },
-    {
-      "id": "ba1925946943fa7715f20d33",
-      "title": "Incendies : vingt maisons évacuées en Lozère, 370 hectares brûlés dans la Drôme",
-      "translatedTitle": null,
-      "description": "LE POINT SUR LA SITUATION - Alors que l’Europe occidentale a connu son début d’été le plus chaud jamais enregistré, plusieurs feux mobilisent encore les secours en France. Dans les Deux-Sèvres, un homme soupçonné d’avoir provoqué plusieurs incendies a par ailleurs été placé en détention provisoire.",
-      "url": "https://www.lefigaro.fr/actualite-france/incendies-vingt-maisons-evacuees-en-lozere-370-hectares-brules-dans-la-drome-20260810",
-      "canonicalUrl": "https://lefigaro.fr/actualite-france/incendies-vingt-maisons-evacuees-en-lozere-370-hectares-brules-dans-la-drome-20260810",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T07:39:03Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/08/10/31849ab3ca9f6f9064ffed6b066c22dbe4a989d05fd34b58bfd7c472a7f8b217.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8fec3b19879e48c54b39",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.67183
-    },
-    {
-      "id": "944ebb3c46deddf187515064",
-      "title": "Des cartes d’embarquement pour les doudous : l’adorable initiative de cette compagnie aérienne pour cet été",
-      "translatedTitle": null,
-      "description": "Durant le mois d’août, les familles voyageant avec easyJet pourront récupérer une carte d’embarquement pour la peluche de leur enfant dans certains aéroports français. Voici ce qu’il faut savoir.",
-      "url": "https://www.lefigaro.fr/voyages/des-cartes-d-embarquement-pour-les-doudous-l-adorable-initiative-de-cette-compagnie-aerienne-pour-cet-ete-20260810",
-      "canonicalUrl": "https://lefigaro.fr/voyages/des-cartes-d-embarquement-pour-les-doudous-l-adorable-initiative-de-cette-compagnie-aerienne-pour-cet-ete-20260810",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T07:36:45Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/10/311e1687cac8fe53fce3048b08dc63c7ad5849a32a80c4f178495af70b0f4993.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f70dbc939b3bf709b239",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66731
-    },
-    {
-      "id": "446c8b027e4f7861e2ead9fc",
-      "title": "A Birmingham, les championnats d’Europe d’athlétisme cherchent à exister au cœur d’un calendrier chargé",
-      "translatedTitle": null,
-      "description": "La ville anglaise accueille la compétition continentale, qui a lieu du 10 au 16 août. Entre spectacle et événement populaire, l’Association européenne d’athlétisme poursuit ses objectifs, dans un calendrier international de plus en plus dense.",
-      "url": "https://www.lemonde.fr/sport/article/2026/08/10/a-birmingham-les-championnats-d-europe-d-athletisme-cherchent-a-exister-au-c-ur-d-un-calendrier-charge_6743088_3242.html",
-      "canonicalUrl": "https://lemonde.fr/sport/article/2026/08/10/a-birmingham-les-championnats-d-europe-d-athletisme-cherchent-a-exister-au-c-ur-d-un-calendrier-charge_6743088_3242.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T05:00:08Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/08/0/0/5290/2645/644/322/60/0/a675139_upload-1-zc5azzk0eumh-000-b8l36n8.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "158547a6e1b5d6f8b69d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6515
-    },
-    {
-      "id": "05d3c5bbe34773b3cebcd787",
-      "title": "Visé par une nouvelle affaire, Gianni Infantino peut-il sauver sa tête ?",
-      "translatedTitle": null,
-      "description": "Le président de la FIFA, Gianni Infantino, est une nouvelle fois dans la tourmente. Une enquête du Telegraph évoque le versement d’une importante somme d’argent à une collaboratrice présentée comme sa maîtresse supposée, à l'époque où il était à la tête de l’UEFA.",
-      "url": "https://www.franceinfo.fr/sports/foot/giovanni-infantino/vise-par-une-nouvelle-affaire-gianni-infantino-peut-il-sauver-sa-tete_8141495.html",
-      "canonicalUrl": "https://franceinfo.fr/sports/foot/giovanni-infantino/vise-par-une-nouvelle-affaire-gianni-infantino-peut-il-sauver-sa-tete_8141495.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T06:27:25Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/2yzNUuhQcvnTmJ5wAmFCYD5qhJI/0x30:1342x785/432x243/filters:format(jpg):quality(50)/2026/08/10/6a796f037c9ab826070650.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4a75d81d894053b3c9e7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.62566
-    },
-    {
-      "id": "de6d4d7d6882349f12020d09",
-      "title": "From Solar corona to human emotions: What can we learn from eclipses? (2/4)",
-      "translatedTitle": null,
-      "description": "Total solar eclipse (2/4) A total solar eclipse will sweep across northern Spain on August 12 in one of Europe's most anticipated astronomical events of the decade. From the Sun's corona to animal behaviour and human emotions, these rare celestial events continue to provide scientists with valuable insights more than two millennia after they were first observed.",
-      "url": "https://www.france24.com/en/europe/20260810-from-solar-corona-to-human-emotions-what-can-we-learn-from-eclipses-2-4",
-      "canonicalUrl": "https://france24.com/en/europe/20260810-from-solar-corona-to-human-emotions-what-can-we-learn-from-eclipses-2-4",
-      "sourceName": "France 24",
-      "sourceDomain": "s.france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-10T05:17:46Z",
-      "imageUrl": "https://s.france24.com/media/display/e70addbc-9013-11f1-9b98-005056a90284/w:1024/p:16x9/msern3w0.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ee51e934ceada1b84175",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59164
-    },
-    {
-      "id": "789abb7f8d81748a5c3b60fb",
-      "title": "Une octogénaire meurt en tentant de quitter son domicile pour échapper au vaste feu de forêt qui ravage l'ouest du Canada",
-      "translatedTitle": null,
-      "description": "\"Il n'y a pas d'autre décès connu pour le moment\", a assuré la gendarmerie. Cet incendie, qui s'est déclaré vendredi après-midi près du lac Okanagan, a très rapidement pris de l'ampleur et entraîné l'évacuation de plus de 20 000 personnes.",
-      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/une-octogenaire-meurt-en-tentant-de-quitter-son-domicile-pour-echapper-au-vaste-feu-de-foret-qui-ravage-l-ouest-du-canada_8141318.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/une-octogenaire-meurt-en-tentant-de-quitter-son-domicile-pour-echapper-au-vaste-feu-de-foret-qui-ravage-l-ouest-du-canada_8141318.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T06:00:16Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/etA7KxF51OckWEwoteKTDek0C20/0x323:6500x3980/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79643a3c719815640809.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "815f784f8dbea754afb8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.57636
-    },
-    {
-      "id": "85a6f684815e1ef49538fe81",
-      "title": "\"C'est important de lui donner les moyens de faire entendre un message de paix\" : l'Église lance une collecte pour financer la visite du pape en France",
-      "translatedTitle": null,
-      "description": "Son, écrans, sanitaires... Selon le diocèse de Paris, le budget du déplacement du pape dans la capitale varie entre 10 et 15 millions d'euros.",
-      "url": "https://www.franceinfo.fr/monde/vatican/pape-leon-xiv/c-est-important-de-lui-donner-les-moyens-de-faire-entendre-un-message-de-paix-l-eglise-lance-une-collecte-pour-financer-la-visite-du-pape-en-france_8141468.html",
-      "canonicalUrl": "https://franceinfo.fr/monde/vatican/pape-leon-xiv/c-est-important-de-lui-donner-les-moyens-de-faire-entendre-un-message-de-paix-l-eglise-lance-une-collecte-pour-financer-la-visite-du-pape-en-france_8141468.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T06:00:09Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/R89tG-ECdxem5A12JW-neP5ZEVk/0x203:3900x2397/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79689b69e90156340767.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a9556c6252eee06ae820",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.57616
-    },
-    {
-      "id": "8512e8edc8a252d17507e0c2",
-      "title": "\"La parole publique doit être plus efficace\" : le gouvernement souhaite ramener les dépenses de communication de l'Etat d'un milliard à 700 millions d'euros",
-      "translatedTitle": null,
-      "description": "Selon le Premier ministre Sébastien Lecornu, les dépenses de communication de l'Etat ont augmenté de 45% entre 2019 et 2024. Ainsi, les campagnes destinées au grand public, notamment sur la santé, la sécurité routière ou la lutte contre le narcotrafic seront davantage interministérielles.",
-      "url": "https://www.franceinfo.fr/politique/la-parole-publique-doit-etre-plus-efficace-le-gouvernement-souhaite-ramener-les-depenses-de-communication-de-l-etat-de-1-milliard-a-700-millions-d-euros_8141450.html",
-      "canonicalUrl": "https://franceinfo.fr/politique/la-parole-publique-doit-etre-plus-efficace-le-gouvernement-souhaite-ramener-les-depenses-de-communication-de-l-etat-de-1-milliard-a-700-millions-d-euros_8141450.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T05:50:15Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/xZ21verFN-y8EyZMBjq5jd6kIkA/0x0:4710x2649/432x243/filters:format(jpg):quality(50)/2026/08/10/6a795f3225907897372152.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0a470aaf5396674c2fdb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.55849
-    },
-    {
-      "id": "8ee9feb99c827dbe45391d87",
-      "title": "Plus de 400 plaintes pour vols de câbles électriques déposées par des fournisseurs depuis le début de l'année, selon l'association Charge France",
-      "translatedTitle": null,
-      "description": "Les bornes de charge pour les voitures électriques sont devenues une nouvelle cible pour les voleurs d'or rouge, le cuivre. Un fléau qui se chiffre \"en millions\", selon le PDG d'Atlante.",
-      "url": "https://www.franceinfo.fr/faits-divers/plus-de-400-plaintes-pour-vols-de-cables-electriques-deposees-par-des-fournisseurs-depuis-le-debut-de-l-annee-selon-l-association-charge-france_8141447.html",
-      "canonicalUrl": "https://franceinfo.fr/faits-divers/plus-de-400-plaintes-pour-vols-de-cables-electriques-deposees-par-des-fournisseurs-depuis-le-debut-de-l-annee-selon-l-association-charge-france_8141447.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T05:47:55Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/WghBIOVbILWWSD4E8-bImR7kNnc/0x100:1920x1180/432x243/filters:format(jpg):quality(50)/2026/08/10/6a7965b132011431149327.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6dfcd58ef95ce6c494c0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.55435
-    },
-    {
-      "id": "93514c736c82da5a3e9a5024",
-      "title": "Suspecté d’être un « infiltré », un Afghan de Lourdes mis en examen pour terrorisme après un séjour clandestin chez les talibans",
-      "translatedTitle": null,
-      "description": "Bénéficiant du statut de réfugié, un homme de 28 ans est soupçonné d’avoir voyagé en Afghanistan pour se former militairement et d’être rentré en France animé d’intentions djihadistes. Interpellé à Lourdes par la direction générale de la sécurité intérieure, il a été placé en détention provisoire le 3 juillet.",
-      "url": "https://www.lemonde.fr/societe/article/2026/08/10/suspecte-d-etre-un-infiltre-un-afghan-de-lourdes-mis-en-examen-pour-terrorisme-apres-un-sejour-clandestin-chez-les-talibans_6743082_3224.html",
-      "canonicalUrl": "https://lemonde.fr/societe/article/2026/08/10/suspecte-d-etre-un-infiltre-un-afghan-de-lourdes-mis-en-examen-pour-terrorisme-apres-un-sejour-clandestin-chez-les-talibans_6743082_3224.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T04:00:16Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/09/367/0/5446/2723/644/322/60/0/eae0aff_upload-1-daq2h6oh4fur-000-1wv9ft.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c8f7bb4e9c7d6c17467d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.55274
-    },
-    {
-      "id": "3e8a37969425151d80dc4c4a",
-      "title": "Réseaux sociaux : « Nous pouvons concevoir un environnement numérique qui soutienne le bien-être »",
-      "translatedTitle": null,
-      "description": "Plutôt que d’interdire ou de limiter l’accès aux plateformes numériques, la psychologue Hedda van ’t Land estime, dans une tribune au « Monde », que les autorités devraient réfléchir à l’environnement numérique comme à un enjeu majeur de santé publique.",
-      "url": "https://www.lemonde.fr/idees/article/2026/08/10/reseaux-sociaux-nous-pouvons-concevoir-un-environnement-numerique-qui-soutienne-le-bien-etre_6743045_3232.html",
-      "canonicalUrl": "https://lemonde.fr/idees/article/2026/08/10/reseaux-sociaux-nous-pouvons-concevoir-un-environnement-numerique-qui-soutienne-le-bien-etre_6743045_3232.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T03:45:19Z",
-      "imageUrl": "https://img.lemde.fr/2026/02/25/125/0/1500/750/644/322/60/0/9a0326b_upload-1-mq3ugbir2dqk-frame-1045.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4912d6438a7e831c39b0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.52891
-    },
-    {
-      "id": "d6006dc1b601738bdbdfaaa3",
-      "title": "\"En l'espace de 15 jours, l'eau a changé\" : comment les cyanobactéries envahissent les lacs comme celui de Brionne, en Normandie",
-      "translatedTitle": null,
-      "description": "Des dizaines de plans d'eau sont interdits à la baignade cet été en France, à cause de la prolifération de cyanobactéries.",
-      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/en-l-espace-de-15-jours-l-eau-a-change-comment-les-cyanobacteries-envahissent-les-lacs-comme-celui-de-brionne-en-normandie_8141096.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-chaleur-canicules/en-l-espace-de-15-jours-l-eau-a-change-comment-les-cyanobacteries-envahissent-les-lacs-comme-celui-de-brionne-en-normandie_8141096.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T05:29:22Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/FElnU_VEEYALwu9YLhZVtXcKdRQ/432x243/filters:format(jpg):quality(50)/2026/07/03/6a474c6837c8c505040172.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "49435cfb0d679b5a9fc9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.52175
-    },
-    {
-      "id": "6ee1e18875893babd9e9eb92",
-      "title": "\"Il va tout faire pour faire capoter\" : les Israéliens divisés après le rejet du plan pour Gaza par Benyamin Nétanyahou",
-      "translatedTitle": null,
-      "description": "Le Premier ministre israélien Benyamin Nétanyahou a rejeté dimanche le plan américain pour Gaza. Ce refus net suscite de vives réactions au sein d'une opinion publique profondément divisée.",
-      "url": "https://www.franceinfo.fr/monde/proche-orient/israel-palestine/il-va-tout-faire-pour-faire-capoter-les-israeliens-divises-apres-le-rejet-du-plan-pour-gaza-par-benyamin-netanyahou_8141204.html",
-      "canonicalUrl": "https://franceinfo.fr/monde/proche-orient/israel-palestine/il-va-tout-faire-pour-faire-capoter-les-israeliens-divises-apres-le-rejet-du-plan-pour-gaza-par-benyamin-netanyahou_8141204.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T05:19:59Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/tKPSgJV7Q7bgD6bDQN4Zw4RVGgc/0x312:6000x3687/432x243/filters:format(jpg):quality(50)/2026/03/30/69ca16a9586d9878797793.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ed8c9fcb3b21474b7122",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.50547
-    },
-    {
-      "id": "aed7d80d307166a093797e1e",
-      "title": "En Europe occidentale, une sécheresse exceptionnelle qui pèse sur les activités humaines et les écosystèmes",
-      "translatedTitle": null,
-      "description": "L’ouest du continent est marqué par des niveaux d’humidité des sols très inférieurs à ceux de juillet 2022, le « dernier été marqué par une grave sécheresse dans toute l’Europe occidentale », selon l’observatoire climatique Copernicus.",
-      "url": "https://www.lemonde.fr/planete/article/2026/08/10/en-europe-occidentale-une-secheresse-exceptionnelle-qui-pese-sur-les-activites-humaines-et-les-ecosystemes_6743010_3244.html",
-      "canonicalUrl": "https://lemonde.fr/planete/article/2026/08/10/en-europe-occidentale-une-secheresse-exceptionnelle-qui-pese-sur-les-activites-humaines-et-les-ecosystemes_6743010_3244.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T03:30:19Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/05/679/0/8149/4074/644/322/60/0/15b7c4a_ftp-1-qqyjgk28a3dx-f1804648958d41dd9f087de9ab47c462-0-f3788242e97b4b3c872b6773a6699626.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T04:18:10Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f5a3d8e71ef31b144909",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.50534,
-      "related": []
-    },
-    {
-      "id": "a827df9b54ba1f1cec317f6c",
-      "title": "La Cité internationale de la tapisserie d'Aubusson dévoile un nouveau projet avec le studio d'animation Ghibli",
-      "translatedTitle": null,
-      "description": "Après avoir réalisé six œuvres inspirées du réalisateur japonais, l'institution creusoise s'attaque au \"Conte de la princesse Kaguya\", un film du co-fondateur du studio Ghibli, Isao Takahata, révèle ICI Creuse.",
-      "url": "https://www.franceinfo.fr/culture/cinema/films-animation/la-cite-internationale-de-la-tapisserie-d-aubusson-devoile-un-nouveau-projet-avec-le-studio-d-animation-ghibli_8141405.html",
-      "canonicalUrl": "https://franceinfo.fr/culture/cinema/films-animation/la-cite-internationale-de-la-tapisserie-d-aubusson-devoile-un-nouveau-projet-avec-le-studio-d-animation-ghibli_8141405.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T05:09:56Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/f5QKDytCSJdumqRpfGSqdVrZQg0/0x0:944x531/432x243/filters:format(jpg):quality(50)/2026/08/10/6a795babc3513804377020.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "382ae346c6e9852d07a5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.48819
-    },
-    {
-      "id": "1c245b48cc7bf5279e7ff8a1",
-      "title": "\"Je veux être double champion d'Europe, c'est l'objectif\"... Désormais champion du monde, Jimmy Gressier à l'épreuve de la confirmation aux Europe d'athlétisme",
-      "translatedTitle": null,
-      "description": "Le Nordiste a moins couru en compétition sur piste cette saison. Porté par le rêve d'un doublé doré, il espère engranger de la confiance sur sa première finale, le 5 000 m lundi, avant les 25 tours du 10 000 m samedi.",
-      "url": "https://www.franceinfo.fr/sports/athletisme/championnats-d-europe/je-veux-etre-double-champion-d-europe-c-est-l-objectif-desormais-champion-du-monde-jimmy-gressier-a-l-epreuve-de-la-confirmation-aux-europe-d-athletisme_8140778.html",
-      "canonicalUrl": "https://franceinfo.fr/sports/athletisme/championnats-d-europe/je-veux-etre-double-champion-d-europe-c-est-l-objectif-desormais-champion-du-monde-jimmy-gressier-a-l-epreuve-de-la-confirmation-aux-europe-d-athletisme_8140778.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T05:00:02Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/VU5gUB8JjvaQ420fKOyTKCuQqnc/0x255:4912x3018/432x243/filters:format(jpg):quality(50)/2026/08/09/6a78af2f4a2d3713468704.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "32e1f4c845303309983c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47133
-    },
-    {
-      "id": "3d22eeb8de28f4434fad2dc2",
-      "title": "\"Les gens étaient vraiment au bord de la crise de nerfs\" : la mairie de Boivre-la-Vallée dans la Vienne a pris un arrêté contre les aboiements de chiens",
-      "translatedTitle": null,
-      "description": "Avec la canicule, les gens ont dormi les fenêtres ouvertes mais c'était sans compter les concerts d'aboiements des chiens du voisinage. Les signalements se sont multipliés contraignant la maire à agir. Les propriétaires des chiens risquent des amendes de 135 euros.",
-      "url": "https://www.franceinfo.fr/environnement/biodiversite/animaux/les-gens-etaient-vraiment-au-bord-de-la-crise-de-nerfs-la-mairie-de-boivre-la-vallee-dans-la-vienne-a-pris-un-arrete-contre-les-aboiements-de-chiens_8141369.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/biodiversite/animaux/les-gens-etaient-vraiment-au-bord-de-la-crise-de-nerfs-la-mairie-de-boivre-la-vallee-dans-la-vienne-a-pris-un-arrete-contre-les-aboiements-de-chiens_8141369.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T04:47:27Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/3w15VzTBI77ajVSJcKA-3Txj-fs/0x471:5315x3461/432x243/filters:format(jpg):quality(50)/2026/08/10/6a79551d4c46c320728716.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f5ef79233ee13e8c876d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.45011
-    },
-    {
-      "id": "4a9ecb2c58d703d8c4f0d4ee",
-      "title": "La météo du lundi 10 août : vingt-deux départements placés en vigilance orange canicule",
-      "translatedTitle": null,
-      "description": "Un cinquième épisode de chaleur parcourt la France cette semaine, avec des pics de températures qui devraient atteindre les 38°C. Le Sud-Ouest sera secoué par des orages parfois violents.",
-      "url": "https://www.lefigaro.fr/meteo/la-meteo-du-lundi-10-aout-la-vague-de-chaleur-remonte-progressivement-vers-le-centre-du-pays-20260809",
-      "canonicalUrl": "https://lefigaro.fr/meteo/la-meteo-du-lundi-10-aout-la-vague-de-chaleur-remonte-progressivement-vers-le-centre-du-pays-20260809",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T05:39:09Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/09/0803dc4e5dc171584accca5cbce91be13fbf762d2e92c8db516b2fc39e098309.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9a3f2a2638a459e1a71d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.44887,
-      "related": []
-    },
-    {
-      "id": "263d5efc8d3c5ad590a8fdf8",
-      "title": "Les océans n'avaient jamais connu de mois de juillet aussi chaud qu'en 2026, annonce Copernicus",
-      "translatedTitle": null,
-      "description": "Dans son dernier bulletin, l'observatoire européen revient notamment sur une situation \"exceptionnelle\" marquée par des températures records en Europe occidentale.",
-      "url": "https://www.franceinfo.fr/environnement/crise-climatique/les-oceans-n-avaient-jamais-connu-de-mois-de-juillet-aussi-chaud-qu-en-2026-annonce-copernicus_8139884.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/crise-climatique/les-oceans-n-avaient-jamais-connu-de-mois-de-juillet-aussi-chaud-qu-en-2026-annonce-copernicus_8139884.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T04:16:45Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/bfyg8_5ZojNPsxE9zHNWV3gdGcQ/0x351:6829x4193/432x243/filters:format(jpg):quality(50)/2026/08/09/6a78421d8978b922468066.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d304a76b7acd7ca6ce6e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.39938,
-      "related": []
-    },
-    {
-      "id": "5c3f1f0f5b44b6918ed267a3",
-      "title": "\"Ça a pris une dimension incroyable\"... Après cinq ans d’existence, le Tour de France femmes s’est bien installé malgré un écosystème encore fragile",
-      "translatedTitle": null,
-      "description": "Relancé en 2022 après six éditions dans les années 1980, le Tour de France femmes est la locomotive d’un cyclisme féminin en plein essor.",
-      "url": "https://www.franceinfo.fr/tour-de-france/femmes/ca-a-pris-une-dimension-incroyable-apres-cinq-ans-d-existence-le-tour-de-france-femmes-s-est-bien-installe-malgre-un-ecosysteme-encore-fragile_8140682.html",
-      "canonicalUrl": "https://franceinfo.fr/tour-de-france/femmes/ca-a-pris-une-dimension-incroyable-apres-cinq-ans-d-existence-le-tour-de-france-femmes-s-est-bien-installe-malgre-un-ecosysteme-encore-fragile_8140682.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T04:15:01Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/0JPdRnm8FdsuDSEjL_MfGvQsFEI/0x414:4500x2945/432x243/filters:format(jpg):quality(50)/2026/08/09/6a784f1436de7320961358.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3a39ccb5f4884bb3d2ee",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.39656
-    },
-    {
-      "id": "6d4aa79e834eae6370b15da7",
-      "title": "\"J'ai réservé un logement il y a deux ans\" : comment les passionnés d'astronomie s'organisent pour voir l'éclipse solaire du 12 août dans les meilleures conditions",
-      "translatedTitle": null,
-      "description": "De la location d'un camping-car au repérage des zones les plus éloignées de la foule, les personnes interrogées par franceinfo ont pensé à tout pour assister à un spectacle qui s'annonce grandiose, notamment dans le nord de l'Espagne. Seule incertitude : les conditions météo incertaines.",
-      "url": "https://www.franceinfo.fr/sciences/astronomie/eclipse-solaire/temoignages-j-ai-reserve-un-logement-il-y-a-deux-ans-comment-les-passionnes-d-astronomie-s-organisent-pour-voir-l-eclipse-solaire-du-12-aout-dans-les-meilleures-conditions_8120324.html",
-      "canonicalUrl": "https://franceinfo.fr/sciences/astronomie/eclipse-solaire/temoignages-j-ai-reserve-un-logement-il-y-a-deux-ans-comment-les-passionnes-d-astronomie-s-organisent-pour-voir-l-eclipse-solaire-du-12-aout-dans-les-meilleures-conditions_8120324.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T03:48:22Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/ewLNcB-D6ENOPX_5UP6cQb7kMxw/0x46:1024x622/432x243/filters:format(jpg):quality(50)/2026/07/24/6a6396023ba90198445280.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a30b0c9644f5f7eb9244",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.35375,
-      "related": []
-    },
-    {
-      "id": "aa4074604ccabdf30a86db3a",
-      "title": "Face au risque d'avoir des incendiaires dans leurs rangs, comment les sapeurs-pompiers évaluent-ils le profil psychiatrique de leurs recrues ?",
-      "translatedTitle": null,
-      "description": "Bien qu'aucun règlement ne l'impose explicitement aux médecins chargés d'évaluer l'aptitude des candidats, certains Services départementaux d'incendie et de secours organisent des entretiens psychologiques, voire des questionnaires, pour tenter de détecter les profils de \"pompiers pyromanes\".",
-      "url": "https://www.franceinfo.fr/faits-divers/incendie/face-au-risque-d-avoir-des-incendiaires-dans-leurs-rangs-comment-les-sapeurs-pompiers-evaluent-ils-le-profil-psychiatrique-de-leurs-recrues_8109911.html",
-      "canonicalUrl": "https://franceinfo.fr/faits-divers/incendie/face-au-risque-d-avoir-des-incendiaires-dans-leurs-rangs-comment-les-sapeurs-pompiers-evaluent-ils-le-profil-psychiatrique-de-leurs-recrues_8109911.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T03:45:24Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/WNxotwmYzOIz4fbIZZjNyiCWQPQ/0x0:7707x4335/432x243/filters:format(jpg):quality(50)/2026/07/17/6a59ea1328768878947326.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "559ce177fa1bfb9422d5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.34905,
-      "related": []
-    },
-    {
-      "id": "f21b6593759334b192e4e2ca",
-      "title": "Canada: une femme meurt dans un vaste feu de forêt",
-      "translatedTitle": null,
-      "description": "Cet incendie, qui s’est déclaré vendredi après-midi près du lac Okanagan, dans le sud de cette province, et a très rapidement pris de l’ampleur, a entraîné l’évacuation de plus de 20.000 personnes.",
-      "url": "https://www.lefigaro.fr/international/canada-une-femme-meurt-dans-un-vaste-feu-de-foret-20260810",
-      "canonicalUrl": "https://lefigaro.fr/international/canada-une-femme-meurt-dans-un-vaste-feu-de-foret-20260810",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T03:39:49Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/08/10/4a3e41165cd0c8a4576302f875f5b576c4d968defa0e12613c141503a6f32e10.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T04:18:10Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "842c3f72c984f165d7e1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.25023,
-      "related": []
-    },
-    {
-      "id": "6a74ab7c065e0e0bf982b60b",
-      "title": "Thirty years on, man accused of orchestrating Tupac Shakur's murder goes on trial",
-      "translatedTitle": null,
-      "description": "The man charged in the 1996 killing of rapper Tupac Shakur, one of America's most notorious unresolved murders, goes on trial Monday in Las Vegas. Duane “Keffe D” Davis, 63, faces one charge of murder with a deadly weapon with the intent to promote, further or assist a criminal gang in Shakur's death.",
-      "url": "https://www.france24.com/en/americas/20260810-thirty-years-on-man-accused-of-orchestrating-tupac-shakur-s-1996-murder-goes-on-trial",
-      "canonicalUrl": "https://france24.com/en/americas/20260810-thirty-years-on-man-accused-of-orchestrating-tupac-shakur-s-1996-murder-goes-on-trial",
-      "sourceName": "France 24",
-      "sourceDomain": "s.france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-10T01:13:11Z",
-      "imageUrl": "https://s.france24.com/media/display/a6a39f68-9458-11f1-b941-005056bfb2b6/w:1024/p:16x9/01e71778fb034b4b9ce643a51775581d407aeef2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7a5e2643512a3c559107",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.21438
-    },
-    {
-      "id": "e7cbfe3debe399fd1d18bc0a",
-      "title": "La présidente mexicaine veut renommer un col de montagne en mémoire des indigènes",
-      "translatedTitle": null,
-      "description": "Le «Paso de Cortés» est un passage situé dans le centre du Mexique entre deux volcans. Il deviendra le «Paso de los Pueblos Indígenas» («le col des Peuples indigènes»).",
-      "url": "https://www.lefigaro.fr/flash-actu/la-presidente-mexicaine-veut-renommer-un-col-de-montagne-en-memoire-des-indigenes-20260810",
-      "canonicalUrl": "https://lefigaro.fr/flash-actu/la-presidente-mexicaine-veut-renommer-un-col-de-montagne-en-memoire-des-indigenes-20260810",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-10T02:00:29Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/644x362_crop/2026/08/10/1587e5dfd0ca0afa29af7b689c92f97cf8434688b4fa90b274c806d6b53fb2b1.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-10T04:18:10Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1f294f863dcffa66f8dd",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.10083,
+      "rankingScore": 5.29362,
       "related": []
     }
   ]
