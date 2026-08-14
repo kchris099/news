@@ -4,22 +4,22 @@
   "countryName": "South Korea",
   "timeZone": "Asia/Seoul",
   "date": "2026-08-15",
-  "generatedAt": "2026-08-14T16:18:42Z",
-  "lastAttemptAt": "2026-08-14T16:18:42Z",
-  "lastSuccessfulUpdate": "2026-08-14T16:18:42Z",
-  "status": "current",
+  "generatedAt": "2026-08-14T20:18:20Z",
+  "lastAttemptAt": "2026-08-14T20:18:20Z",
+  "lastSuccessfulUpdate": "2026-08-14T20:18:20Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 18,
-  "publisherCount": 2,
+  "articleCount": 34,
+  "publisherCount": 3,
   "sourceHealth": [
     {
       "sourceId": "yonhap-en",
       "sourceName": "Yonhap News Agency",
       "status": "success",
-      "lastAttemptAt": "2026-08-14T16:18:26Z",
-      "lastSuccessAt": "2026-08-14T16:18:30Z",
+      "lastAttemptAt": "2026-08-14T20:18:14Z",
+      "lastSuccessAt": "2026-08-14T20:18:19Z",
       "articlesRetrieved": 102,
-      "responseTimeMs": 4008,
+      "responseTimeMs": 4986,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "korea-herald",
       "sourceName": "The Korea Herald",
       "status": "success",
-      "lastAttemptAt": "2026-08-14T16:18:26Z",
-      "lastSuccessAt": "2026-08-14T16:18:29Z",
+      "lastAttemptAt": "2026-08-14T20:18:14Z",
+      "lastSuccessAt": "2026-08-14T20:18:19Z",
       "articlesRetrieved": 0,
-      "responseTimeMs": 3374,
+      "responseTimeMs": 4693,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "korea-times",
       "sourceName": "The Korea Times",
       "status": "success",
-      "lastAttemptAt": "2026-08-14T16:18:26Z",
-      "lastSuccessAt": "2026-08-14T16:18:30Z",
-      "articlesRetrieved": 4,
-      "responseTimeMs": 3983,
+      "lastAttemptAt": "2026-08-14T20:18:14Z",
+      "lastSuccessAt": "2026-08-14T20:18:20Z",
+      "articlesRetrieved": 5,
+      "responseTimeMs": 5862,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,10 +49,10 @@
       "sourceId": "yna-ko",
       "sourceName": "Yonhap News Agency (Korean)",
       "status": "success",
-      "lastAttemptAt": "2026-08-14T16:18:26Z",
-      "lastSuccessAt": "2026-08-14T16:18:39Z",
+      "lastAttemptAt": "2026-08-14T20:18:14Z",
+      "lastSuccessAt": "2026-08-14T20:18:20Z",
       "articlesRetrieved": 120,
-      "responseTimeMs": 12862,
+      "responseTimeMs": 5450,
       "errorType": null,
       "errorMessage": null
     },
@@ -60,23 +60,23 @@
       "sourceId": "kbs-world-news",
       "sourceName": "KBS News",
       "status": "success",
-      "lastAttemptAt": "2026-08-14T16:18:26Z",
-      "lastSuccessAt": "2026-08-14T16:18:29Z",
+      "lastAttemptAt": "2026-08-14T20:18:14Z",
+      "lastSuccessAt": "2026-08-14T20:18:19Z",
       "articlesRetrieved": 30,
-      "responseTimeMs": 3153,
+      "responseTimeMs": 4903,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "sbs-headline",
       "sourceName": "SBS News",
-      "status": "success",
-      "lastAttemptAt": "2026-08-14T16:18:26Z",
-      "lastSuccessAt": "2026-08-14T16:18:29Z",
-      "articlesRetrieved": 15,
-      "responseTimeMs": 3172,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-08-14T20:18:14Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '403 Forbidden' for url 'https://news.sbs.co.kr/news/headlineRssFeed.do?plink=RSSREADER' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
     }
   ],
   "articles": [
@@ -95,18 +95,19 @@
         "KR"
       ],
       "language": "en",
-      "publishedAt": "2026-08-14T16:17:03Z",
+      "publishedAt": "2026-08-14T20:17:04Z",
       "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/15/1f3b279f-55ab-4d10-8625-330f708111c1.jpeg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:30Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "1666c220e313691aae42",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 9.11739,
       "related": [
         {
           "id": "2085f6ce37eb11ae1e64c4b7",
@@ -128,7 +129,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-14T16:18:30Z",
+          "retrievedAt": "2026-08-14T20:18:19Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -138,8 +139,7 @@
           "sourceQuality": 1.15,
           "normalizedTitle": "urgent sk group chief appeals divorce ruling again to supreme court"
         }
-      ],
-      "rankingScore": 9.11663
+      ]
     },
     {
       "id": "88c78fabba3f761594c98e10",
@@ -156,20 +156,560 @@
         "KR"
       ],
       "language": "en",
-      "publishedAt": "2026-08-14T16:17:03Z",
+      "publishedAt": "2026-08-14T20:17:04Z",
       "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/15/269759fd-a156-4e08-866f-0295ded339ec.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:30Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "77ac14b5dfbcd0a89bbb",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.09739,
+      "related": []
+    },
+    {
+      "id": "ac6303ff8d37033280d81cac",
+      "title": "美법무부 '원자재 큰손' 레이디언트 대출서류 위조의혹 조사",
+      "translatedTitle": null,
+      "description": "(뉴욕=연합뉴스) 이지헌 특파원 = 미 법무부가 글로벌 원자재 무역업체인 레이디언트 월드의 대출 서류 위조 의혹에 대해 조사하고 있다고 블룸버그...",
+      "url": "https://www.yna.co.kr/view/AKR20260815004800072",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260815004800072",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T20:10:40Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/15/AKR20260815004800072_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "200750c9650de379fde1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.09663
+      "rankingScore": 6.00441
+    },
+    {
+      "id": "b03a1577c7f73850841bf52c",
+      "title": "트럼프 \"호르무즈 해협, 조만간 미국 영토로 선언할 것\"",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 홍정규 특파원 = 도널드 트럼프 미국 대통령은 14일(현지시간) \"호르무즈 해협을 조만간 미국 영토로 선언하게 될 것\"이라고...",
+      "url": "https://www.yna.co.kr/view/AKR20260815005200071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260815005200071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T20:07:57Z",
+      "imageUrl": "https://img.yna.co.kr/photo/ap/2026/08/15/PAP20260815073401009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fa4efcbfa890be7bfb5c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.99892
+    },
+    {
+      "id": "454c2cdb27fcaf565edfee0e",
+      "title": "국제유가, 호르무즈 유조선 피격·美 대이란 제재 예고에 1%대↑",
+      "translatedTitle": null,
+      "description": "(뉴욕=연합뉴스) 김연숙 특파원 = 14일(현지시간) 국제유가는 호르무즈 해협 내 유조선 피격 사건과 미국·이란 간 갈등에 따른 지정학적 위험이...",
+      "url": "https://www.yna.co.kr/view/AKR20260815004900072",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260815004900072",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T20:05:22Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/15/AKR20260815004900072_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6a9fa832d2848a4beee4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.99371
+    },
+    {
+      "id": "ab45d2f4a37f66e07df8a6f8",
+      "title": "\"앤트로픽 CEO 아내, 엡스틴에 여성향 포르노 투자제안 이력\"",
+      "translatedTitle": null,
+      "description": "(샌프란시스코=연합뉴스) 권영전 특파원 = 인공지능(AI) 모델 클로드를 개발하는 앤트로픽 최고경영자(CEO)의 아내가 성범죄자 제프리 엡스틴에...",
+      "url": "https://www.yna.co.kr/view/AKR20260815004700091",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260815004700091",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T20:03:39Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/epa/2026/02/19/PEP20260219270401009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "92ad883e6b0dcba1a468",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.99026
+    },
+    {
+      "id": "b8143a31fd12bbe0dc1b6257",
+      "title": "與전대, 오늘 호남권 경선…金·鄭 박빙승부 속 최대 승부처",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 안정훈 기자 = 더불어민주당은 15일 차기 지도부 선출을 위한 8·17 전당대회 전남광주·전북 순회경선을 실시한다.",
+      "url": "https://www.yna.co.kr/view/AKR20260814172700001",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260814172700001",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T20:00:00Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/14/PYH2026081412380001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f543723fdebf542fd694",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.98294
+    },
+    {
+      "id": "081a17eb495eaf0577d2ac60",
+      "title": "러 국방장관 \"쿠르스크서 북한군 영웅적, 기념비 세울것\"",
+      "translatedTitle": null,
+      "description": "(이스탄불=연합뉴스) 김동호 특파원 = 안드레이 벨루소프 러시아 국방장관은 \"올 가을 쿠르스크에 북한과 러시아 군인들의 영웅적 행위를 기리는 기...",
+      "url": "https://www.yna.co.kr/view/AKR20260815004600108",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260815004600108",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T19:46:35Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/ta/2026/04/27/PTA20260427069801009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c0fac06de5339ded27cb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.95624
+    },
+    {
+      "id": "33778e04934f8403307b5f31",
+      "title": "美, 고강도 이란 경제제재 예고…\"전례없는 고립 조치 적용\"",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 홍정규 특파원 = 미국이 다음 주 이란을 상대로 한 고강도 경제 제재를 예고했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260815003700071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260815003700071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T19:21:04Z",
+      "imageUrl": "https://img.yna.co.kr/photo/reuters/2026/08/03/PRU20260803182001009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0e90c91ae35752eb5322",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.90636
+    },
+    {
+      "id": "5d0b9012138d6ebc1b57112a",
+      "title": "후티 반군, 이틀 연속 사우디 국영석유회사 시설 공격 주장",
+      "translatedTitle": null,
+      "description": "(카이로=연합뉴스) 김상훈 특파원 = 예멘의 친이란 후티 반군이 이틀 연속 사우디아라비아 국영 석유회사 아람코 시설을 공격했다고 주장했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260815003200079",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260815003200079",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T18:58:17Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/15/AKR20260815003200079_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d99f64aa39445598a783",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.8628
+    },
+    {
+      "id": "3b34fdf88acf5aedee82c61d",
+      "title": "독일로 번진 산불…2차대전 불발탄 잇따라 폭발",
+      "translatedTitle": null,
+      "description": "(베를린=연합뉴스) 김계연 특파원 = 독일 서부에서 산불이 발생해 제2차 세계대전 이후 방치된 불발탄이 잇따라 터지고 있다고 일간 프랑크푸르터알...",
+      "url": "https://www.yna.co.kr/view/AKR20260815003000082",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260815003000082",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T18:54:55Z",
+      "imageUrl": "https://img.yna.co.kr/photo/ap/2026/08/14/PAP20260814236401009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f26651e8a94908a2dd6e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.85644
+    },
+    {
+      "id": "e4a02fec4a822eb8dfc26a8d",
+      "title": "美, 중동 다국적 공격드론TF 띄운다…'무기재고 부족' 우려 덜까",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 이유미 특파원 = 미군이 중동 지역에서 미국과 역내 파트너국들의 공중·해상·수중 공격 드론 전력을 통합 운용하는 사상 첫 다...",
+      "url": "https://www.yna.co.kr/view/AKR20260815003100071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260815003100071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T18:25:17Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/15/AKR20260815003100071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c5435dde4f69baf24e5f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80133
+    },
+    {
+      "id": "1bc83961d643307e8dcb76c1",
+      "title": "Julia Mellor's mission to globalize soju",
+      "translatedTitle": null,
+      "description": "Many people think of soju, Korea's iconic distilled alcoholic beverage, as a cheap, low-quality liquor that comes in a green bottle and causes a killer hangover. But Julia Mellor, founder of The Sool Company, has made it her mission to evangelize the traditional rice-based version of the drink. Recently, she set up a booth at the International Dutch Distillers Festival, where she gave two soju masterclasses for 110 guests introducing 3 craft sojus paired with Korean snacks. \"It was a totally Dut",
+      "url": "https://www.koreatimes.co.kr/southkorea/globalcommunity/20260815/julia-mellors-mission-to-globalize-soju?utm_source=rss",
+      "canonicalUrl": "https://koreatimes.co.kr/southkorea/globalcommunity/20260815/julia-mellors-mission-to-globalize-soju",
+      "sourceName": "The Korea Times",
+      "sourceDomain": "koreatimes.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-14T20:17:04Z",
+      "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/03/a5c46a60-63a2-45c8-a0a3-da2264fbdd15.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "74b78aeb22afcea4a99e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.74739
+    },
+    {
+      "id": "c8c05bb1a54efcf1d9780a8d",
+      "title": "In Korea, some savour last season of legal dog meat",
+      "translatedTitle": null,
+      "description": "SEONGNAM — For decades, the three days of summer considered the hottest of the year were among the busiest for South Korea's dog meat restaurants, as diners sought traditional stamina-boosting foods to endure the heat. The third \"boknal,\" or hot day, of 2026 on Friday carried an added sense of finality. It was the last before a nationwide ban on the breeding, slaughter and sale of dogs for meat takes full effect in February 2027. At the Moran Market in Seongnam, once the country's best-known hub",
+      "url": "https://www.koreatimes.co.kr/southkorea/20260815/in-korea-some-savour-last-season-of-legal-dog-meat?utm_source=rss",
+      "canonicalUrl": "https://koreatimes.co.kr/southkorea/20260815/in-korea-some-savour-last-season-of-legal-dog-meat",
+      "sourceName": "The Korea Times",
+      "sourceDomain": "koreatimes.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-14T20:17:04Z",
+      "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/15/52b94e15-b683-4c6b-bccf-a7c77bd6ac19.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5716249ece35b4ef53ae",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.74739,
+      "related": []
+    },
+    {
+      "id": "1bd30f1683010797e51dc993",
+      "title": "In Korea, more babies are born in places where chips are made",
+      "translatedTitle": null,
+      "description": "In Korea, the places where chips are made also happen to be where more children are born. “An obstetrician tells me everyone in this neighborhood has two or three kids,” said Shin Jung-won, 39, who has worked as a researcher at Samsung Electronics for 15 years. Due to give birth soon, she has a family plan shared by many residents in the neighborhood: to have two children. Shin lives in Dongtan District in Hwaseong Special City, the place she settled three years ago due to its close proximity to",
+      "url": "https://www.koreatimes.co.kr/southkorea/society/20260815/in-korea-more-babies-are-born-in-places-where-chips-are-made?utm_source=rss",
+      "canonicalUrl": "https://koreatimes.co.kr/southkorea/society/20260815/in-korea-more-babies-are-born-in-places-where-chips-are-made",
+      "sourceName": "The Korea Times",
+      "sourceDomain": "koreatimes.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-14T20:17:04Z",
+      "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/11/3fb5dc31-9ffd-44d4-8951-f7edeb59d068.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1e58cf7192d18cafbf73",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.74739,
+      "related": []
+    },
+    {
+      "id": "ae8a622fa076d36ac4b05733",
+      "title": "스페이스X, 코딩 스타트업 '커서' 85조원에 인수 완료",
+      "translatedTitle": null,
+      "description": "(샌프란시스코=연합뉴스) 권영전 특파원 = 일론 머스크의 우주기업 스페이스X가 인공지능(AI) 코딩 스타트업 커서의 인수를 마무리 지었다.",
+      "url": "https://www.yna.co.kr/view/AKR20260815002300091",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260815002300091",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T17:46:46Z",
+      "imageUrl": "https://img.yna.co.kr/photo/ap/2026/04/22/PAP20260422221101009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dadeb4540e33e564104c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.73191
+    },
+    {
+      "id": "ecc11e8aad51e3ba3d1f5cc3",
+      "title": "Rubio calls S. Korea 'indispensable partner' in Liberation Day message",
+      "translatedTitle": null,
+      "description": "WASHINGTON, Aug. 14 (Yonhap) -- U.S. Secretary of State Marco Rubio on Friday ca...",
+      "url": "https://en.yna.co.kr/view/AEN20260815000200315",
+      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260815000200315",
+      "sourceName": "Yonhap News Agency",
+      "sourceDomain": "en.yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-14T17:29:35Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/epa/2026/08/06/PEP20260806010501009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:19Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "613b3de462624ebbaca5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.70173
+    },
+    {
+      "id": "e5bc6f9440e699a708e0df33",
+      "title": "잠비아 대선 한때 개표 중단…폭력에 투표용지 도난도(종합)",
+      "translatedTitle": null,
+      "description": "(요하네스버그=연합뉴스) 나확진 특파원 = 지난 13일(현지시간) 대선과 총선, 지방선거를 치른 아프리카 잠비아에서 투표 다음 날 한동안 개표가...",
+      "url": "https://www.yna.co.kr/view/AKR20260814180651099",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260814180651099",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T16:55:47Z",
+      "imageUrl": "https://img.yna.co.kr/photo/ap/2026/08/14/PAP20260814079201009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "17d718a821edd07a0e09",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.64375
+    },
+    {
+      "id": "84deed71653ef3e469b96813",
+      "title": "美국무, 광복절 축하메시지…\"한국은 없어서는 안 될 파트너\"",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 박성민 특파원 = 마코 루비오 미국 국무장관은 14일(현지시간) 한미 관계에 대해 \"미국은, 번영을 확대하고 양국을 하나로 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260815002000071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260815002000071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T16:50:38Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/15/AKR20260815002000071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "108afa029a22f90e3156",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.63508
+    },
+    {
+      "id": "475b11502af62aeaba8e5bc7",
+      "title": "3분만에 털린 르누아르·세잔·마티스 작품 찾았다(종합)",
+      "translatedTitle": null,
+      "description": "(로마=연합뉴스) 민경락 특파원 = 이탈리아 경찰이 북부 파르마 근처의 한 미술관에서 도난당한 명화 3점을 회수했다고 로이터·AP통신 등이 14...",
+      "url": "https://www.yna.co.kr/view/AKR20260814178651109",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260814178651109",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-14T16:37:36Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/14/AKR20260814178651109_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-14T20:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1b4bca3f12c07a787797",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.61331
     },
     {
       "id": "d5ea33043f7cfd408151672b",
@@ -191,15 +731,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "66afb7a2ff82d191f780",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.99098
+      "rankingScore": 5.55896,
+      "related": []
     },
     {
       "id": "ed5d01426002b3c4bf09619d",
@@ -221,15 +761,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "cc1347e1ed3d7e7b6dcb",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98804
+      "rankingScore": 5.5566,
+      "related": []
     },
     {
       "id": "c6fc9662c31075886f841895",
@@ -251,15 +791,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "b4b970eaebcdeece3283",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.95754
+      "rankingScore": 5.53217,
+      "related": []
     },
     {
       "id": "da1b199f6d78bdb53c407f36",
@@ -281,15 +821,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "de8936d6d54590cecd20",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.95474
+      "rankingScore": 5.52993,
+      "related": []
     },
     {
       "id": "d0b4bc872551d083a3e1c4c4",
@@ -311,15 +851,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "4adf9908043c5693e6e8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.92747
+      "rankingScore": 5.50809,
+      "related": []
     },
     {
       "id": "14a38efd9ac04818c895becf",
@@ -341,15 +881,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "1d79f7cde59fdddda0f7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.91179
+      "rankingScore": 5.49553,
+      "related": []
     },
     {
       "id": "469d3fab3d9a30e70192cd6f",
@@ -371,15 +911,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "37403720b7c53919e33f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.89248
+      "rankingScore": 5.48006,
+      "related": []
     },
     {
       "id": "5831f8c23e0041ece1d1cc4e",
@@ -401,15 +941,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "847c489f97f3d15a9d7d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.89005
+      "rankingScore": 5.47811,
+      "related": []
     },
     {
       "id": "325d2bdd98ce5d73a36edc40",
@@ -431,15 +971,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "0ad64681260b07d8c126",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.88992
+      "rankingScore": 5.47801,
+      "related": []
     },
     {
       "id": "a59fb53095e7c5523f4bc965",
@@ -461,15 +1001,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "61d94885e0ba894c2f2e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.87969
+      "rankingScore": 5.46982,
+      "related": []
     },
     {
       "id": "2c4035898d2c1b4674f0af54",
@@ -491,15 +1031,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "16af92540682a5f363d7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.86939
+      "rankingScore": 5.46157,
+      "related": []
     },
     {
       "id": "ffb03faa2516053016561a74",
@@ -521,15 +1061,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "77fb599338c157580448",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.86888
+      "rankingScore": 5.46116,
+      "related": []
     },
     {
       "id": "e51358551e377f270f13a266",
@@ -551,15 +1091,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "ee79cb46d9c422dbe978",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.86812
+      "rankingScore": 5.46055,
+      "related": []
     },
     {
       "id": "f0154ddc09ba7f3f9e5d20bd",
@@ -581,75 +1121,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-14T16:18:39Z",
+      "retrievedAt": "2026-08-14T20:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "11c968a70bcf149adf48",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.868
-    },
-    {
-      "id": "c8c05bb1a54efcf1d9780a8d",
-      "title": "In Korea, some savour last season of legal dog meat",
-      "translatedTitle": null,
-      "description": "SEONGNAM — For decades, the three days of summer considered the hottest of the year were among the busiest for South Korea's dog meat restaurants, as diners sought traditional stamina-boosting foods to endure the heat. The third \"boknal,\" or hot day, of 2026 on Friday carried an added sense of finality. It was the last before a nationwide ban on the breeding, slaughter and sale of dogs for meat takes full effect in February 2027. At the Moran Market in Seongnam, once the country's best-known hub",
-      "url": "https://www.koreatimes.co.kr/southkorea/20260815/in-korea-some-savour-last-season-of-legal-dog-meat?utm_source=rss",
-      "canonicalUrl": "https://koreatimes.co.kr/southkorea/20260815/in-korea-some-savour-last-season-of-legal-dog-meat",
-      "sourceName": "The Korea Times",
-      "sourceDomain": "koreatimes.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-14T16:17:03Z",
-      "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/15/52b94e15-b683-4c6b-bccf-a7c77bd6ac19.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-14T16:18:30Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5716249ece35b4ef53ae",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74663
-    },
-    {
-      "id": "1bd30f1683010797e51dc993",
-      "title": "In Korea, more babies are born in places where chips are made",
-      "translatedTitle": null,
-      "description": "In Korea, the places where chips are made also happen to be where more children are born. “An obstetrician tells me everyone in this neighborhood has two or three kids,” said Shin Jung-won, 39, who has worked as a researcher at Samsung Electronics for 15 years. Due to give birth soon, she has a family plan shared by many residents in the neighborhood: to have two children. Shin lives in Dongtan District in Hwaseong Special City, the place she settled three years ago due to its close proximity to",
-      "url": "https://www.koreatimes.co.kr/southkorea/society/20260815/in-korea-more-babies-are-born-in-places-where-chips-are-made?utm_source=rss",
-      "canonicalUrl": "https://koreatimes.co.kr/southkorea/society/20260815/in-korea-more-babies-are-born-in-places-where-chips-are-made",
-      "sourceName": "The Korea Times",
-      "sourceDomain": "koreatimes.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-14T16:17:03Z",
-      "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/11/3fb5dc31-9ffd-44d4-8951-f7edeb59d068.jpeg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-14T16:18:30Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1e58cf7192d18cafbf73",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74663
+      "rankingScore": 5.46045,
+      "related": []
     }
   ]
 }
