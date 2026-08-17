@@ -4,33 +4,33 @@
   "countryName": "France",
   "timeZone": "Europe/Paris",
   "date": "2026-08-17",
-  "generatedAt": "2026-08-17T12:18:06Z",
-  "lastAttemptAt": "2026-08-17T12:18:06Z",
-  "lastSuccessfulUpdate": "2026-08-17T12:18:06Z",
-  "status": "partial",
+  "generatedAt": "2026-08-17T16:18:16Z",
+  "lastAttemptAt": "2026-08-17T16:18:16Z",
+  "lastSuccessfulUpdate": "2026-08-17T16:18:16Z",
+  "status": "current",
   "samplePreview": false,
   "articleCount": 45,
-  "publisherCount": 8,
+  "publisherCount": 5,
   "sourceHealth": [
     {
       "sourceId": "france24-en",
       "sourceName": "France 24",
-      "status": "failed",
-      "lastAttemptAt": "2026-08-17T12:18:06Z",
-      "lastSuccessAt": null,
-      "articlesRetrieved": 0,
-      "responseTimeMs": null,
-      "errorType": "ValueError",
-      "errorMessage": "Malformed feed: <unknown>:10:92: not well-formed (invalid token)"
+      "status": "success",
+      "lastAttemptAt": "2026-08-17T16:18:14Z",
+      "lastSuccessAt": "2026-08-17T16:18:15Z",
+      "articlesRetrieved": 24,
+      "responseTimeMs": 220,
+      "errorType": null,
+      "errorMessage": null
     },
     {
       "sourceId": "lemonde-une",
       "sourceName": "Le Monde",
       "status": "success",
-      "lastAttemptAt": "2026-08-17T12:18:06Z",
-      "lastSuccessAt": "2026-08-17T12:18:06Z",
+      "lastAttemptAt": "2026-08-17T16:18:14Z",
+      "lastSuccessAt": "2026-08-17T16:18:15Z",
       "articlesRetrieved": 16,
-      "responseTimeMs": 433,
+      "responseTimeMs": 91,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "franceinfo-top",
       "sourceName": "Franceinfo",
       "status": "success",
-      "lastAttemptAt": "2026-08-17T12:18:06Z",
-      "lastSuccessAt": "2026-08-17T12:18:06Z",
+      "lastAttemptAt": "2026-08-17T16:18:14Z",
+      "lastSuccessAt": "2026-08-17T16:18:15Z",
       "articlesRetrieved": 31,
-      "responseTimeMs": 529,
+      "responseTimeMs": 161,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,22 +49,114 @@
       "sourceId": "le-figaro-top",
       "sourceName": "Le Figaro",
       "status": "success",
-      "lastAttemptAt": "2026-08-17T12:18:06Z",
-      "lastSuccessAt": "2026-08-17T12:18:06Z",
+      "lastAttemptAt": "2026-08-17T16:18:14Z",
+      "lastSuccessAt": "2026-08-17T16:18:15Z",
       "articlesRetrieved": 20,
-      "responseTimeMs": 564,
+      "responseTimeMs": 232,
       "errorType": null,
       "errorMessage": null
     }
   ],
   "articles": [
     {
-      "id": "e8ecf2672981d5b44f05325a",
-      "title": "Olivier Nora crée sa propre maison d’édition, quatre mois après son éviction de la présidence de Grasset",
+      "id": "0b31ea6de3bd50ec11fc35e3",
+      "title": "Russia’s Supreme Court upholds ban on anti-war party Yabloko",
       "translatedTitle": null,
-      "description": "La nouvelle entité, Olivier Nora Editions, dans laquelle Editis prend une participation minoritaire, a vocation à publier, dès janvier 2027, entre une trentaine et une cinquantaine de titres par an.",
-      "url": "https://www.lemonde.fr/economie/article/2026/08/17/quatre-mois-apres-son-eviction-de-la-presidence-de-grasset-olivier-nora-cree-sa-propre-maison-d-edition_6748180_3234.html",
-      "canonicalUrl": "https://lemonde.fr/economie/article/2026/08/17/quatre-mois-apres-son-eviction-de-la-presidence-de-grasset-olivier-nora-cree-sa-propre-maison-d-edition_6748180_3234.html",
+      "description": "Russia’s Supreme Court on Monday upheld the exclusion of liberal opposition party Yabloko from September’s legislative elections, eliminating the country’s only explicitly anti-war party from the ballot, as dozens of the party's supporters were detained outside the court. The decision comes amid a wider crackdown on critics of Moscow’s war in Ukraine.",
+      "url": "https://www.france24.com/en/europe/20260817-russia-supreme-court-upholds-ban-anti-war-party-yabloko",
+      "canonicalUrl": "https://france24.com/en/europe/20260817-russia-supreme-court-upholds-ban-anti-war-party-yabloko",
+      "sourceName": "France 24",
+      "sourceDomain": "s.france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-17T15:51:35Z",
+      "imageUrl": "https://s.france24.com/media/display/38025686-9a51-11f1-aac6-005056bf30b7/w:1024/p:16x9/000-C4UE9NQ.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8546fdabcacb4985e894",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.92616
+    },
+    {
+      "id": "c0d19fc3b511908348fa5bbc",
+      "title": "Sept personnes sont mortes et 50 migrants ont été secourus au large de la Libye, rapporte une ONG",
+      "translatedTitle": null,
+      "description": "Deux personnes se trouvent dans \"un état critique, victimes d'asphyxie\", selon l'ONG italienne Emergency.",
+      "url": "https://www.franceinfo.fr/monde/europe/naufrage-a-lampedusa/sept-personnes-sont-mortes-et-50-migrants-ont-ete-secourus-au-large-de-la-libye-rapporte-une-ong_8151239.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/europe/naufrage-a-lampedusa/sept-personnes-sont-mortes-et-50-migrants-ont-ete-secourus-au-large-de-la-libye-rapporte-une-ong_8151239.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T16:02:05Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/yuB0UZ3xJjG9og1hD9A9VWPHZ28/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/08/17/6a832fda4bdca136539895.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8904652f59686f94593a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "fd6370d5bbddf0d0b3c12e4e",
+          "title": "Les incendies ont fait chuter la fréquentation touristique de 50% en Gironde, selon le Medef et la CCI",
+          "translatedTitle": null,
+          "description": "«Sur les deux premières semaines des feux - qui ont commencé le 22 juillet - la baisse a été bien plus marquée», a fait savoir le président du Medef Gironde, Mathias Saura.",
+          "url": "https://www.lefigaro.fr/conjoncture/les-incendies-ont-fait-chuter-la-frequentation-touristique-de-50-en-gironde-selon-le-medef-et-la-cci-20260817",
+          "canonicalUrl": "https://lefigaro.fr/conjoncture/les-incendies-ont-fait-chuter-la-frequentation-touristique-de-50-en-gironde-selon-le-medef-et-la-cci-20260817",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-17T08:15:24Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/17/9ee63a1cd3087283787a7b0a13f5dba21067b3b8aa718bf502bdfb3e9f4aef24.JPG",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-17T08:18:04Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "8904652f59686f94593a",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.30714,
+          "normalizedTitle": "les incendies ont fait chuter la fréquentation touristique de 50 en gironde selon le medef et la cci",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 8.55712
+    },
+    {
+      "id": "11475ac5f736fc46d8bfa9bf",
+      "title": "EN DIRECT, incendies et canicule : le gouvernement promet une aide de 12 millions d’euros et un fonds de garantie pour les sinistrés en Gironde et dans les Landes",
+      "translatedTitle": null,
+      "description": "« On assume de sortir l’artillerie lourde », a déclaré Sébastien Lecornu, en déplacement à Mérignac, où il a également annoncé des permis de construire « délivrés dans un délai d’un mois » et des aménagements fiscaux pour les entreprises.",
+      "url": "https://www.lemonde.fr/climat/live/2026/08/17/en-direct-incendies-et-canicule-le-gouvernement-promet-une-aide-de-12-millions-d-euros-et-un-fonds-de-garantie-pour-les-sinistres-en-gironde-et-dans-les-landes_6744636_1652612.html",
+      "canonicalUrl": "https://lemonde.fr/climat/live/2026/08/17/en-direct-incendies-et-canicule-le-gouvernement-promet-une-aide-de-12-millions-d-euros-et-un-fonds-de-garantie-pour-les-sinistres-en-gironde-et-dans-les-landes_6744636_1652612.html",
       "sourceName": "Le Monde",
       "sourceDomain": "lemonde.fr",
       "sourceCountry": "FR",
@@ -73,26 +165,56 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-17T10:48:00Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/17/416/0/5760/2880/644/322/60/0/c5ea2ad_upload-1-lnhcmf0hfb7x-opaleplus-diool260414a-02.jpg",
+      "publishedAt": "2026-08-17T13:12:11Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/17/688/0/8256/4128/644/322/60/0/1cd67f4_ftp-1-lrzbukivgpmz-5861154-01-06.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1a05ce449611cf6569ca",
+      "clusterId": "761df07ff7d4a302d7f0",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "8a631ca4b4f6a88a5456deae",
-          "title": "Olivier Nora lance sa propre maison d'édition \"indépendante\" et \"généraliste\", quatre mois après avoir été évincé de Grasset par Vincent Bolloré",
+          "id": "aa9dd4a0ecfc74abccab0f27",
+          "title": "EN DIRECT - Incendies : Sébastien Lecornu, en visite en Gironde, déplore «des dérives complotistes»",
           "translatedTitle": null,
-          "description": "Olivier Nora Editions (ONE) annonce publier ses deux premiers ouvrages en octobre 2026 et prévoit entre 30 et 50 titres par an.",
-          "url": "https://www.franceinfo.fr/culture/livres/ce-metier-est-un-acte-de-foi-dans-le-temps-long-olivier-nora-ex-pdg-de-grasset-lance-sa-propre-maison-d-edition-independante-et-generaliste_8150792.html",
-          "canonicalUrl": "https://franceinfo.fr/culture/livres/ce-metier-est-un-acte-de-foi-dans-le-temps-long-olivier-nora-ex-pdg-de-grasset-lance-sa-propre-maison-d-edition-independante-et-generaliste_8150792.html",
+          "description": "Lors d’un point presse tenu en Gironde, département français fortement marqué par les incendies, le premier ministre a assumé de «sortir l’artillerie lourde» pour aider la région à se relever du sinistre.",
+          "url": "https://www.lefigaro.fr/actualite-france/en-direct-incendie-le-feu-dans-les-landes-est-desormais-fixe-sebastien-lecornu-tres-attendu-en-gironde-ce-lundi-pour-lancer-la-reconstruction-20260817",
+          "canonicalUrl": "https://lefigaro.fr/actualite-france/en-direct-incendie-le-feu-dans-les-landes-est-desormais-fixe-sebastien-lecornu-tres-attendu-en-gironde-ce-lundi-pour-lancer-la-reconstruction-20260817",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-17T14:30:04Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/08/17/5c350e3c464fa8ea5008cbc793c133ec55c7c7339dfd7b47dc345be3d806b41a.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-17T16:18:15Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "761df07ff7d4a302d7f0",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "en direct incendies sébastien lecornu en visite en gironde déplore des dérives complotistes"
+        },
+        {
+          "id": "eb096253eaaa09f30aacf395",
+          "title": "Incendies : le coût des mesures d'aide pour la Gironde et les Landes pourrait dépasser 100 millions d'euros, estime Sébastien Lecornu",
+          "translatedTitle": null,
+          "description": "Le chef du gouvernement et plusieurs ministres étaient en déplacement en Gironde, lundi, afin d'y rencontrer des élus et représentants du département et présenter plusieurs mesures d'urgence.",
+          "url": "https://www.franceinfo.fr/faits-divers/incendie/direct-incendies-le-premier-ministre-sebastien-lecornu-et-plusieurs-ministres-attendus-en-gironde-le-feu-contenu-mais-pas-fixe-dans-les-landes_8150471.html",
+          "canonicalUrl": "https://franceinfo.fr/faits-divers/incendie/direct-incendies-le-premier-ministre-sebastien-lecornu-et-plusieurs-ministres-attendus-en-gironde-le-feu-contenu-mais-pas-fixe-dans-les-landes_8150471.html",
           "sourceName": "Franceinfo",
           "sourceDomain": "franceinfo.fr",
           "sourceCountry": "FR",
@@ -101,8 +223,405 @@
             "FR"
           ],
           "language": "fr",
-          "publishedAt": "2026-08-17T09:58:13Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/lHdFvU9xUf6jvhUne38t-T1F394/0x238:5250x3191/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82cbb072b93869907279.jpg",
+          "publishedAt": "2026-08-17T13:58:13Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/GCeE-hAfQKaGc0St-Z0m9QqnmaQ/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/08/17/6a8310c68d973755353733.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-17T16:18:15Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "761df07ff7d4a302d7f0",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "incendies le coût des mesures d aide pour la gironde et les landes pourrait dépasser 100 millions d euros estime sébastien lecornu"
+        },
+        {
+          "id": "b000f1e0b73aedfc797a27a0",
+          "title": "Le maire de Saint-Médard-en-Jalles dénonce \"des rustines\" après les mesures annoncées par Sébastien Lecornu concernant l'incendie en Gironde",
+          "translatedTitle": null,
+          "description": "L'édile de cette commune près de Bordeaux espère \"entendre le mot \"climat\" prononcé par le président de la République et par le Premier ministre\" afin que \"notre pays continue d'être un pays vivable\".",
+          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/le-maire-de-saint-medard-en-jalles-denonce-des-rustines-apres-les-mesures-annoncees-par-sebastien-lecornu-concernant-l-incendie-en-gironde_8151050.html",
+          "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/le-maire-de-saint-medard-en-jalles-denonce-des-rustines-apres-les-mesures-annoncees-par-sebastien-lecornu-concernant-l-incendie-en-gironde_8151050.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-17T13:26:11Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/E5I7EEmsjCmlKicQBqh0BReROic/0x570:5472x3648/432x243/filters:format(jpg):quality(50)/2026/08/13/6a7dbbcde08f7416808132.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-17T16:18:15Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "761df07ff7d4a302d7f0",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "le maire de saint médard en jalles dénonce des rustines après les mesures annoncées par sébastien lecornu concernant l incendie en gironde"
+        },
+        {
+          "id": "fa981cf6d539afe62ae462f4",
+          "title": "EN DIRECT, incendies et canicule : Sébastien Lecornu promet des permis « délivrés sous un délai d’un mois » pour des reconstructions à l’identique",
+          "translatedTitle": null,
+          "description": "Le chef du gouvernement a fustigé les « dérives complotistes » au sujet des incendies dans les Landes et en Gironde.",
+          "url": "https://www.lemonde.fr/climat/live/2026/08/17/en-direct-incendies-et-canicule-nous-n-avons-strictement-rien-a-cacher-affirme-sebastien-lecornu-en-gironde_6744636_1652612.html",
+          "canonicalUrl": "https://lemonde.fr/climat/live/2026/08/17/en-direct-incendies-et-canicule-nous-n-avons-strictement-rien-a-cacher-affirme-sebastien-lecornu-en-gironde_6744636_1652612.html",
+          "sourceName": "Le Monde",
+          "sourceDomain": "lemonde.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-17T09:20:18Z",
+          "imageUrl": "https://img.lemde.fr/2026/08/17/1387/0/3644/1822/644/322/60/0/9a9b7e9_upload-1-vmw313thql11-mfache-17082026-le-monde-deplacement-lecornu-en-gironde-france-004.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-17T12:18:06Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "761df07ff7d4a302d7f0",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 8.48597,
+          "normalizedTitle": "en direct incendies et canicule sébastien lecornu promet des permis délivrés sous un délai d un mois pour des reconstructions à l identique",
+          "sourceQuality": 1.0
+        },
+        {
+          "id": "c20270d5ad5433891a7305cd",
+          "title": "EN DIRECT, incendies et canicule : Sébastien Lecornu hué au Porge, commune girondine sinistrée par les incendies",
+          "translatedTitle": null,
+          "description": "Le chef du gouvernement se rendra ensuite à Mérignac, près de Bordeaux, pour une table ronde avec les « élus locaux et les acteurs de la reconstruction ». Une conférence de presse est prévue à 13 heures.",
+          "url": "https://www.lemonde.fr/climat/live/2026/08/17/en-direct-incendies-et-canicule-la-vigilance-orange-sera-levee-mardi-matin-sur-tout-le-territoire-alors-que-six-departements-sont-encore-concernes_6744636_1652612.html",
+          "canonicalUrl": "https://lemonde.fr/climat/live/2026/08/17/en-direct-incendies-et-canicule-la-vigilance-orange-sera-levee-mardi-matin-sur-tout-le-territoire-alors-que-six-departements-sont-encore-concernes_6744636_1652612.html",
+          "sourceName": "Le Monde",
+          "sourceDomain": "lemonde.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-17T04:40:58Z",
+          "imageUrl": "https://img.lemde.fr/2026/08/13/1053/0/8000/4000/644/322/60/0/469c9dc_ftp-1-6u84byqp2nuj-5833544-01-06.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-17T08:18:05Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "761df07ff7d4a302d7f0",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 8.76927,
+          "normalizedTitle": "en direct incendies et canicule sébastien lecornu hué au porge commune girondine sinistrée par les incendies",
+          "sourceQuality": 1.0
+        },
+        {
+          "id": "77182f9635a6449fe8027504",
+          "title": "\"Faites-nous un plan Marshall\" : après les incendies en Gironde, Sébastien Lecornu attendu sur place pour lancer la reconstruction et répondre aux critiques",
+          "translatedTitle": null,
+          "description": "Le Premier ministre est en déplacement lundi dans le département, après le mégafeu qui avait nécessité l'évacuation de 220 000 personnes en juillet.",
+          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/il-n-a-pas-bien-gere-la-crise-apres-les-incendies-en-gironde-sebastien-lecornu-sur-place-pour-lancer-sa-mission-reconstruction-et-repondre-aux-critiques_8148914.html",
+          "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/il-n-a-pas-bien-gere-la-crise-apres-les-incendies-en-gironde-sebastien-lecornu-sur-place-pour-lancer-sa-mission-reconstruction-et-repondre-aux-critiques_8148914.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-17T04:00:03Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/XhKG0-tnD8sC3QMbIuOQ_mfF-2U/0x64:3452x2006/432x243/filters:format(jpg):quality(50)/2026/08/16/6a817c4a40691976791269.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-17T12:18:06Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "761df07ff7d4a302d7f0",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "faites nous un plan marshall après les incendies en gironde sébastien lecornu attendu sur place pour lancer la reconstruction et répondre aux critiques",
+          "rankingScore": 5.37237
+        }
+      ],
+      "rankingScore": 8.47167
+    },
+    {
+      "id": "a703de936e77f93c8b31a911",
+      "title": "Guerre en Ukraine : la cheffe de la diplomatie européenne veut augmenter d'un tiers le nombre d'entités russes sanctionnées",
+      "translatedTitle": null,
+      "description": "\"Pour cet automne, je propose la liste de sanctions la plus ambitieuse depuis le début de la guerre\", a annoncé lundi Kaja Kallas au quotidien allemand \"Die Welt\".",
+      "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-la-cheffe-de-la-diplomatie-europeenne-veut-augmenter-d-un-tiers-les-entitees-russes-sanctionnees_8150972.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-la-cheffe-de-la-diplomatie-europeenne-veut-augmenter-d-un-tiers-les-entitees-russes-sanctionnees_8150972.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T12:42:10Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/2W6Cm2TmaapjJqWUsFptPlKwhBU/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82f160cdef5255410255.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e61fd11697959fe23e15",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "ee1921600dc83a9a3230b496",
+          "title": "Guerre en Ukraine : Kaja Kallas veut augmenter d'un tiers les entités russes sanctionnées",
+          "translatedTitle": null,
+          "description": "L’Union européenne a adopté 21 trains de sanctions contre la Russie depuis le début de la guerre, celles-ci visant aujourd’hui près de 3.000 personnes et entités, selon la Commission européenne.",
+          "url": "https://www.lefigaro.fr/international/ukraine-kaja-kallas-veut-augmenter-d-un-tiers-les-entites-russes-sanctionnees-20260817",
+          "canonicalUrl": "https://lefigaro.fr/international/ukraine-kaja-kallas-veut-augmenter-d-un-tiers-les-entites-russes-sanctionnees-20260817",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-17T04:16:16Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/08/17/f0c2c85f8a819ee28c9eecd39ac55342f4448a46c8f0f769dcfbbc842a75434d.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-17T04:17:58Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e61fd11697959fe23e15",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.30814,
+          "normalizedTitle": "guerre en ukraine kaja kallas veut augmenter d un tiers les entités russes sanctionnées",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 8.19091
+    },
+    {
+      "id": "078ed208153c755c4aa6050b",
+      "title": "Trump orders Pentagon to cut back military drills with Seoul hours before start",
+      "translatedTitle": null,
+      "description": "Joint military drills between South Korea and US troops went ahead as planned on Monday despite US President Donald Trump's statement that he had ordered them to be scaled back out of respect for North Korean leader Kim Jong-un.",
+      "url": "https://www.france24.com/en/video/20260817-trump-orders-pentagon-to-cut-back-military-drills-with-seoul-hours-before-start",
+      "canonicalUrl": "https://france24.com/en/video/20260817-trump-orders-pentagon-to-cut-back-military-drills-with-seoul-hours-before-start",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-17T10:56:44Z",
+      "imageUrl": "https://s.france24.com/media/display/2f808d66-9a29-11f1-b5f4-005056a90284/w:1024/p:16x9/mini-26.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dc7152972686537aea11",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 8.06341,
+      "related": []
+    },
+    {
+      "id": "c04adcd40905fdd7ad63a65d",
+      "title": "US-South Korea drills renew questions over North Korea’s military power",
+      "translatedTitle": null,
+      "description": "US President Donald Trump called for US-South Korean military drills to be scaled back just hours before they were due to begin, describing North Korea as 'unthreatening and respectful'. South Korea said it hoped Trump’s personal relationship with North Korean leader Kim Jong Un could help bring Pyongyang back to the negotiating table. FRANCE 24’s Chloé Borgnon examines the real threat posed by North Korea, from its military capabilities and growing nuclear arsenal to its increasingly close ties",
+      "url": "https://www.france24.com/en/us-south-korea-drills-renew-questions-over-north-korea-s-military-power",
+      "canonicalUrl": "https://france24.com/en/us-south-korea-drills-renew-questions-over-north-korea-s-military-power",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-17T10:36:41Z",
+      "imageUrl": "https://s.france24.com/media/display/7279b0e8-6351-11f1-8d73-005056a97e36/w:1024/p:16x9/Image-17.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a8dad2f58ca4a88f7f31",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.03337
+    },
+    {
+      "id": "c1c305a4f7ec8eba105b8219",
+      "title": "Trump’s Gaza plan: What is at stake for Netanyahu?",
+      "translatedTitle": null,
+      "description": "The Trump administration is stepping up diplomatic efforts to secure a peace plan for Gaza. US envoy Jared Kushner is set to meet Israeli Prime Minister Benjamin Netanyahu in a bid to persuade him to back the proposal. With Netanyahu facing major political and personal stakes ahead of a possible re-election, FRANCE 24’s Philip Turle examines whether the meeting could bring a breakthrough in Gaza and analyses what is at stake for all sides.",
+      "url": "https://www.france24.com/en/trump-s-gaza-plan-what-is-at-stake-for-netanyahu",
+      "canonicalUrl": "https://france24.com/en/trump-s-gaza-plan-what-is-at-stake-for-netanyahu",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-17T10:30:47Z",
+      "imageUrl": "https://s.france24.com/media/display/b384e806-68e6-11f1-8675-005056bf30b7/w:1024/p:16x9/2026-06-15T181805Z-842535677-RC2IULA84HV9-RTRMADP-3-IRAN-CRISIS-ISRAEL-NETANYAHU.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "75461d2d2fa273927d53",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.02463
+    },
+    {
+      "id": "b787ee0f1356acd25735aea8",
+      "title": "Ukraine and Russia intensify attacks, several killed in Belgorod border region",
+      "translatedTitle": null,
+      "description": "A ⁠Ukrainian ​missile ​strike killed six people ​and ‌wounded ⁠another ‌four, including a ⁠child, in ​Russia's border ‌Belgorod region, the ‌acting ​governor said on Monday. The assault came as Russia targeted port infrastructure in Ukraine's Izmail district in the southern region of ​Odesa ‌overnight.",
+      "url": "https://www.france24.com/en/europe/20260817-ukraine-and-russia-intensify-attacks-several-killed-in-belgorod-border-region",
+      "canonicalUrl": "https://france24.com/en/europe/20260817-ukraine-and-russia-intensify-attacks-several-killed-in-belgorod-border-region",
+      "sourceName": "France 24",
+      "sourceDomain": "s.france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-17T09:49:46Z",
+      "imageUrl": "https://s.france24.com/media/display/0db05648-99f8-11f1-9886-005056bf30b7/w:1024/p:16x9/2026-08-16T132621Z-1142941815-RC2JZMA7YR7J-RTRMADP-3-UKRAINE-CRISIS-DONETSK-ATTACK.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "af00038eb6d37e431b65",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "7b0a577d06ed93200033f0ea",
+          "title": "Ukraine launches one of its largest drone attacks on Russia",
+          "translatedTitle": null,
+          "description": "Ukraine launched one of its largest drone attacks on Russia, hitting a Wildberries warehouse and other sites. Meanwhile, Russian strikes continued across Ukraine, destroying civilian and industrial areas. The attacks are bringing the war closer to civilians on both sides.",
+          "url": "https://www.france24.com/en/video/20260817-ukraine-launches-one-of-its-largest-drone-attacks-on-russia",
+          "canonicalUrl": "https://france24.com/en/video/20260817-ukraine-launches-one-of-its-largest-drone-attacks-on-russia",
+          "sourceName": "France 24",
+          "sourceDomain": "france24.com",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "en",
+          "publishedAt": "2026-08-17T09:09:36Z",
+          "imageUrl": "https://s.france24.com/media/display/6903777c-9a17-11f1-a4a9-005056bfb2b6/w:1024/p:16x9/EN-20260817-070621-070750-CS.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-17T16:18:15Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "af00038eb6d37e431b65",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.1,
+          "normalizedTitle": "ukraine launches one of its largest drone attacks on russia"
+        }
+      ],
+      "rankingScore": 8.0152
+    },
+    {
+      "id": "8a631ca4b4f6a88a5456deae",
+      "title": "Olivier Nora lance sa propre maison d'édition \"indépendante\" et \"généraliste\", quatre mois après avoir été évincé de Grasset par Vincent Bolloré",
+      "translatedTitle": null,
+      "description": "Olivier Nora Editions (ONE) annonce publier ses deux premiers ouvrages en octobre 2026 et prévoit entre 30 et 50 titres par an.",
+      "url": "https://www.franceinfo.fr/culture/livres/ce-metier-est-un-acte-de-foi-dans-le-temps-long-olivier-nora-ex-pdg-de-grasset-lance-sa-propre-maison-d-edition-independante-et-generaliste_8150792.html",
+      "canonicalUrl": "https://franceinfo.fr/culture/livres/ce-metier-est-un-acte-de-foi-dans-le-temps-long-olivier-nora-ex-pdg-de-grasset-lance-sa-propre-maison-d-edition-independante-et-generaliste_8150792.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T09:58:13Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/lHdFvU9xUf6jvhUne38t-T1F394/0x238:5250x3191/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82cbb072b93869907279.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1a05ce449611cf6569ca",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "e8ecf2672981d5b44f05325a",
+          "title": "Olivier Nora crée sa propre maison d’édition, quatre mois après son éviction de la présidence de Grasset",
+          "translatedTitle": null,
+          "description": "La nouvelle entité, Olivier Nora Editions, dans laquelle Editis prend une participation minoritaire, a vocation à publier, dès janvier 2027, entre une trentaine et une cinquantaine de titres par an.",
+          "url": "https://www.lemonde.fr/economie/article/2026/08/17/quatre-mois-apres-son-eviction-de-la-presidence-de-grasset-olivier-nora-cree-sa-propre-maison-d-edition_6748180_3234.html",
+          "canonicalUrl": "https://lemonde.fr/economie/article/2026/08/17/quatre-mois-apres-son-eviction-de-la-presidence-de-grasset-olivier-nora-cree-sa-propre-maison-d-edition_6748180_3234.html",
+          "sourceName": "Le Monde",
+          "sourceDomain": "lemonde.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-08-17T10:48:00Z",
+          "imageUrl": "https://img.lemde.fr/2026/08/17/416/0/5760/2880/644/322/60/0/c5ea2ad_upload-1-lnhcmf0hfb7x-opaleplus-diool260414a-02.jpg",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
@@ -113,8 +632,9 @@
           "clusterId": "1a05ce449611cf6569ca",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "olivier nora lance sa propre maison d édition indépendante et généraliste quatre mois après avoir été évincé de grasset par vincent bolloré"
+          "rankingScore": 8.99381,
+          "normalizedTitle": "olivier nora crée sa propre maison d édition quatre mois après son éviction de la présidence de grasset",
+          "sourceQuality": 1.0
         },
         {
           "id": "e256021b374f90a827c09ae5",
@@ -148,15 +668,15 @@
           "sourceQuality": 1.0
         }
       ],
-      "rankingScore": 8.99381
+      "rankingScore": 7.98726
     },
     {
-      "id": "fa981cf6d539afe62ae462f4",
-      "title": "EN DIRECT, incendies et canicule : Sébastien Lecornu promet des permis « délivrés sous un délai d’un mois » pour des reconstructions à l’identique",
+      "id": "d433de530821db03453e664c",
+      "title": "EN DIRECT, guerre en Ukraine : Lev Shlossberg, vice-président du seul parti antiguerre en Russie, a été condamné à onze ans de prison pour « discrédit de l’armée »",
       "translatedTitle": null,
-      "description": "Le chef du gouvernement a fustigé les « dérives complotistes » au sujet des incendies dans les Landes et en Gironde.",
-      "url": "https://www.lemonde.fr/climat/live/2026/08/17/en-direct-incendies-et-canicule-nous-n-avons-strictement-rien-a-cacher-affirme-sebastien-lecornu-en-gironde_6744636_1652612.html",
-      "canonicalUrl": "https://lemonde.fr/climat/live/2026/08/17/en-direct-incendies-et-canicule-nous-n-avons-strictement-rien-a-cacher-affirme-sebastien-lecornu-en-gironde_6744636_1652612.html",
+      "description": "La justice reproche à cet homme de 63 ans le partage d’un message du média Echo de Moscou montrant la une du tabloïd britannique « Daily Mirror » avec le portrait de Vladimir Poutine, ainsi que d’avoir plaidé pour un cessez-le-feu.",
+      "url": "https://www.lemonde.fr/international/live/2026/08/17/en-direct-guerre-en-ukraine-lev-shlossberg-vice-president-du-seul-parti-antiguerre-en-russie-a-ete-condamne-a-onze-ans-de-prison-pour-discredit-de-l-armee_6746952_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/live/2026/08/17/en-direct-guerre-en-ukraine-lev-shlossberg-vice-president-du-seul-parti-antiguerre-en-russie-a-ete-condamne-a-onze-ans-de-prison-pour-discredit-de-l-armee_6746952_3210.html",
       "sourceName": "Le Monde",
       "sourceDomain": "lemonde.fr",
       "sourceCountry": "FR",
@@ -165,243 +685,148 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-17T09:20:18Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/17/1387/0/3644/1822/644/322/60/0/9a9b7e9_upload-1-vmw313thql11-mfache-17082026-le-monde-deplacement-lecornu-en-gironde-france-004.jpg",
+      "publishedAt": "2026-08-17T16:03:07Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/17/384/0/4603/2301/644/322/60/0/ef2e932_ftp-1-4jvsh10jtwwv-5862075-01-06.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6ab5163f7f488d1ce842",
+      "clusterId": "be40eab8dad6d3b6a894",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "bb4896d544f188d26ebcd9d6",
-          "title": "Incendies : Sébastien Lecornu promet des permis de construire \"dans un délai d'un mois\" et annonce des aménagements fiscaux pour les entreprises touchées",
-          "translatedTitle": null,
-          "description": "Le chef du gouvernement et plusieurs ministres sont en déplacement en Gironde, lundi, afin d'y rencontrer des élus et représentants du département, et faire des annonces.",
-          "url": "https://www.franceinfo.fr/faits-divers/incendie/direct-incendies-le-premier-ministre-sebastien-lecornu-et-plusieurs-ministres-attendus-en-gironde-le-feu-contenu-mais-pas-fixe-dans-les-landes_8150471.html",
-          "canonicalUrl": "https://franceinfo.fr/faits-divers/incendie/direct-incendies-le-premier-ministre-sebastien-lecornu-et-plusieurs-ministres-attendus-en-gironde-le-feu-contenu-mais-pas-fixe-dans-les-landes_8150471.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-17T12:13:00Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/be7l6aQWIKGYSm0buys5aDPprPM/0x0:1920x1080/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82f8487bcf3852075383.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-17T12:18:06Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "6ab5163f7f488d1ce842",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "incendies sébastien lecornu promet des permis de construire dans un délai d un mois et annonce des aménagements fiscaux pour les entreprises touchées"
-        },
-        {
-          "id": "4f85867afee96420dca31b09",
-          "title": "EN DIRECT - Incendies : Sébastien Lecornu annonce une aide de 12 millions d’euros pour la Gironde et les Landes",
-          "translatedTitle": null,
-          "description": "Lors d’un point presse tenu en Gironde, département français fortement marqué par les incendies, le premier ministre a assumé de «sortir l’artillerie lourde» pour aider la région à se relever du sinistre.",
-          "url": "https://www.lefigaro.fr/actualite-france/en-direct-incendie-le-feu-dans-les-landes-est-desormais-fixe-sebastien-lecornu-tres-attendu-en-gironde-ce-lundi-pour-lancer-la-reconstruction-20260817",
-          "canonicalUrl": "https://lefigaro.fr/actualite-france/en-direct-incendie-le-feu-dans-les-landes-est-desormais-fixe-sebastien-lecornu-tres-attendu-en-gironde-ce-lundi-pour-lancer-la-reconstruction-20260817",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-17T12:07:03Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/08/17/5c350e3c464fa8ea5008cbc793c133ec55c7c7339dfd7b47dc345be3d806b41a.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-17T12:18:06Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "6ab5163f7f488d1ce842",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "en direct incendies sébastien lecornu annonce une aide de 12 millions d euros pour la gironde et les landes"
-        },
-        {
-          "id": "c20270d5ad5433891a7305cd",
-          "title": "EN DIRECT, incendies et canicule : Sébastien Lecornu hué au Porge, commune girondine sinistrée par les incendies",
-          "translatedTitle": null,
-          "description": "Le chef du gouvernement se rendra ensuite à Mérignac, près de Bordeaux, pour une table ronde avec les « élus locaux et les acteurs de la reconstruction ». Une conférence de presse est prévue à 13 heures.",
-          "url": "https://www.lemonde.fr/climat/live/2026/08/17/en-direct-incendies-et-canicule-la-vigilance-orange-sera-levee-mardi-matin-sur-tout-le-territoire-alors-que-six-departements-sont-encore-concernes_6744636_1652612.html",
-          "canonicalUrl": "https://lemonde.fr/climat/live/2026/08/17/en-direct-incendies-et-canicule-la-vigilance-orange-sera-levee-mardi-matin-sur-tout-le-territoire-alors-que-six-departements-sont-encore-concernes_6744636_1652612.html",
-          "sourceName": "Le Monde",
-          "sourceDomain": "lemonde.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-17T04:40:58Z",
-          "imageUrl": "https://img.lemde.fr/2026/08/13/1053/0/8000/4000/644/322/60/0/469c9dc_ftp-1-6u84byqp2nuj-5833544-01-06.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-17T08:18:05Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "6ab5163f7f488d1ce842",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 8.76927,
-          "normalizedTitle": "en direct incendies et canicule sébastien lecornu hué au porge commune girondine sinistrée par les incendies",
-          "sourceQuality": 1.0
-        },
-        {
-          "id": "77182f9635a6449fe8027504",
-          "title": "\"Faites-nous un plan Marshall\" : après les incendies en Gironde, Sébastien Lecornu attendu sur place pour lancer la reconstruction et répondre aux critiques",
-          "translatedTitle": null,
-          "description": "Le Premier ministre est en déplacement lundi dans le département, après le mégafeu qui avait nécessité l'évacuation de 220 000 personnes en juillet.",
-          "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/il-n-a-pas-bien-gere-la-crise-apres-les-incendies-en-gironde-sebastien-lecornu-sur-place-pour-lancer-sa-mission-reconstruction-et-repondre-aux-critiques_8148914.html",
-          "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/il-n-a-pas-bien-gere-la-crise-apres-les-incendies-en-gironde-sebastien-lecornu-sur-place-pour-lancer-sa-mission-reconstruction-et-repondre-aux-critiques_8148914.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-17T04:00:03Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/XhKG0-tnD8sC3QMbIuOQ_mfF-2U/0x64:3452x2006/432x243/filters:format(jpg):quality(50)/2026/08/16/6a817c4a40691976791269.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-17T12:18:06Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "6ab5163f7f488d1ce842",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "faites nous un plan marshall après les incendies en gironde sébastien lecornu attendu sur place pour lancer la reconstruction et répondre aux critiques",
-          "rankingScore": 5.37237
-        }
-      ],
-      "rankingScore": 8.48597
+      "related": [],
+      "rankingScore": 7.3392
     },
     {
-      "id": "6979c16dd8a32cf097314a40",
-      "title": "Donald Trump annonce \"réduire considérablement\" des exercices militaires avec la Corée du Sud, et vante sa \"très bonne relation\" avec Kim Jong-un",
+      "id": "d4cfc6effe83804ca7bfb1d4",
+      "title": "Yémen : les Houthis affirment avoir ciblé un navire militaire saoudien dans la mer Rouge",
       "translatedTitle": null,
-      "description": "Le président américain voit ces exercices annuels, qui débutent lundi, comme un signal \"hostile\" envoyé à la Corée du Nord et à son dirigeant.",
-      "url": "https://www.franceinfo.fr/monde/usa/presidentielle/donald-trump/donald-trump-annonce-reduire-considerablement-des-exercices-militaires-avec-la-coree-du-sud_8150573.html",
-      "canonicalUrl": "https://franceinfo.fr/monde/usa/presidentielle/donald-trump/donald-trump-annonce-reduire-considerablement-des-exercices-militaires-avec-la-coree-du-sud_8150573.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
+      "description": "Avant cette annonce, une source au sein des forces loyales au gouvernement yéménite reconnu par la communauté internationale avait indiqué que sept missiles avaient visé le détroit de Bab el-Mandeb et, plus au nord, la zone côtière de Mokha.",
+      "url": "https://www.lefigaro.fr/international/yemen-les-houthis-affirment-avoir-cible-un-navire-militaire-saoudien-dans-la-mer-rouge-20260817",
+      "canonicalUrl": "https://lefigaro.fr/international/yemen-les-houthis-affirment-avoir-cible-un-navire-militaire-saoudien-dans-la-mer-rouge-20260817",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-17T05:51:09Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/iWm7Tu-ZGpSrNBarSbednOhHz0g/0x0:1024x576/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82a0d7dffd2543697452.jpg",
+      "publishedAt": "2026-08-17T13:52:44Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x1688_crop/2026/08/17/e35d5b694f5be31e54006784297278820ba0dd9f4c540b0ee8019cd5e28becb9.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T08:18:05Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "153e3f7c58f5409e50ee",
+      "clusterId": "bdcb015afbc5ae8f66de",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.88745,
-      "related": [
-        {
-          "id": "bc2535ffcf285fb8d95f6dfd",
-          "title": "Donald Trump a demandé à réduire les exercices militaires menés avec la Corée du Sud pour préserver ses liens avec le dirigeant nord-coréen, Kim Jong-un",
-          "translatedTitle": null,
-          "description": "Selon le président américain, ces exercices, qui ont commencé lundi, sont « coûteux » et « envoient un signal totalement inapproprié et hostile » envers Pyongyang. Séoul a annoncé que ces manœuvres avec les Etats-Unis ont commencé « comme prévu ».",
-          "url": "https://www.lemonde.fr/international/article/2026/08/17/donald-trump-demande-a-reduire-les-exercices-militaires-menes-avec-la-coree-du-sud-pour-preserver-ses-liens-avec-le-dirigeant-nord-coreen-kim-jong-un_6747888_3210.html",
-          "canonicalUrl": "https://lemonde.fr/international/article/2026/08/17/donald-trump-demande-a-reduire-les-exercices-militaires-menes-avec-la-coree-du-sud-pour-preserver-ses-liens-avec-le-dirigeant-nord-coreen-kim-jong-un_6747888_3210.html",
-          "sourceName": "Le Monde",
-          "sourceDomain": "lemonde.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-16T23:14:58Z",
-          "imageUrl": "https://img.lemde.fr/2026/08/04/727/0/8111/4055/644/322/60/0/1dca851_ftp-1-ahrm5wye4axd-959c3b14319945109ff61623eb11b24d-0-0c6e4d25de0840879eb2f4f134473748.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-17T04:17:57Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "153e3f7c58f5409e50ee",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 6.88179,
-          "normalizedTitle": "donald trump a demandé à réduire les exercices militaires menés avec la corée du sud pour préserver ses liens avec le dirigeant nord coréen kim jong un",
-          "sourceQuality": 1.0
-        },
-        {
-          "id": "f8bb1dfd85a941980415886b",
-          "title": "Trump réduit les exercices militaires avec Séoul au nom de sa relation avec Kim Jong Un",
-          "translatedTitle": null,
-          "description": "Le président américain juge ces manœuvres conjointes «coûteuses» et «hostiles» envers la Corée du Nord, qu’il estime désormais «non menaçante». Il s’est également félicité du récent pacte de défense conclu entre l’Arabie saoudite, la Turquie et le Pakistan.",
-          "url": "https://www.lefigaro.fr/international/trump-reduit-les-exercices-militaires-avec-seoul-au-nom-de-sa-relation-avec-kim-jong-un-20260816",
-          "canonicalUrl": "https://lefigaro.fr/international/trump-reduit-les-exercices-militaires-avec-seoul-au-nom-de-sa-relation-avec-kim-jong-un-20260816",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-08-16T22:02:15Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/08/16/60da6e69bbba580e1310f55a78c06e975733b030eb8a7df61d8712b3da6f34fb.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-17T08:18:04Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "153e3f7c58f5409e50ee",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "trump réduit les exercices militaires avec séoul au nom de sa relation avec kim jong un"
-        }
-      ]
+      "related": [],
+      "rankingScore": 6.82251
     },
     {
-      "id": "94b272febca8d6ba65ab6c6b",
-      "title": "Trump orders Pentagon to scale back military drills with South Korea hours before start",
+      "id": "8a484c81d44c1071d598f0a0",
+      "title": "L’Iran interdit le retour des deux diplomates français agressés au mois de juillet",
       "translatedTitle": null,
-      "description": "US President Donald Trump on Sunday ordered the Pentagon to scale back \"inappropriate and hostile\" military drills with South Korea, claiming that the ally had failed to help with the war against Iran and citing his \"good relationship\" with North Korean leader Kim Jong-un.",
-      "url": "https://www.france24.com/en/americas/20260817-trump-orders-pentagon-to-scale-back-military-drills-with-south-korea-hours-before-start",
-      "canonicalUrl": "https://france24.com/en/americas/20260817-trump-orders-pentagon-to-scale-back-military-drills-with-south-korea-hours-before-start",
+      "description": "Le 20 juillet, le chef de la diplomatie française, Jean-Noël Barrot, avait dénoncé «une action d’intimidation extrêmement grave de la part des services de sécurité iraniens» à l’encontre de deux diplomates, dont l’un avait été «molesté».",
+      "url": "https://www.lefigaro.fr/international/l-iran-interdit-le-retour-des-deux-diplomates-francais-agresses-au-mois-de-juillet-20260817",
+      "canonicalUrl": "https://lefigaro.fr/international/l-iran-interdit-le-retour-des-deux-diplomates-francais-agresses-au-mois-de-juillet-20260817",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T13:48:23Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/17/6d3cf90edd3151e6edf618a210b7a24bb85cc95fa1b6b72be89b3432af460ec5.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "830c38e7ccf3c263f927",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.81478
+    },
+    {
+      "id": "0e69753cdd8b96e47e298ba7",
+      "title": "French taxpayers warned after personal data stolen in major hack",
+      "translatedTitle": null,
+      "description": "More than 670,000 French taxpayers are being notified after their personal and tax information was stolen and allegedly offered online. Authorities warn the data could be used for scams and identity fraud, while Prime Minister Sébastien Lecornu is holding a meeting on the digital security of government institutions.",
+      "url": "https://www.france24.com/en/french-taxpayers-warned-after-personal-data-stolen-in-major-hack",
+      "canonicalUrl": "https://france24.com/en/french-taxpayers-warned-after-personal-data-stolen-in-major-hack",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-17T10:50:34Z",
+      "imageUrl": "https://s.france24.com/media/display/d8734916-4bb6-11f1-9acc-005056a97e36/w:1024/p:16x9/AP810270100436.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7d4aae7483177dbbfe96",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.70411
+    },
+    {
+      "id": "de1682b6444b5822bf71a912",
+      "title": "Indonesia earthquake leaves thousands homeless as rescue efforts continue",
+      "translatedTitle": null,
+      "description": "A 7.7-magnitude earthquake struck Indonesia last week, killing dozens, injuring hundreds and damaging more than 900 buildings. Nearly 13,000 people have been displaced, with many still sheltering in tents as rescue efforts continue and hospitals treat the wounded.",
+      "url": "https://www.france24.com/en/indonesia-earthquake-leaves-thousands-homeless-as-rescue-efforts-continue",
+      "canonicalUrl": "https://france24.com/en/indonesia-earthquake-leaves-thousands-homeless-as-rescue-efforts-continue",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-17T10:38:41Z",
+      "imageUrl": "https://s.france24.com/media/display/80076052-9a1f-11f1-9324-005056a97e36/w:1024/p:16x9/EN-20260817-110833-111008-CS.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ea26979e064d73a0b516",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.68634
+    },
+    {
+      "id": "6bb9f47d6dfc49bd98baeb5f",
+      "title": "French PM Lecornu unveils 'substantial' aid for fire-hit regions after being jeered by angry locals",
+      "translatedTitle": null,
+      "description": "French Prime Minister Sébastien Lecornu on Monday announced €12 million in aid and fast-track rebuilding measures for communities in southwest France devastated by wildfires, adding that the cost of relief measures including tax breaks could eventually exceed €100 million. He was heckled earlier in the day by dozens of locals in the town of Le Porge in the Gironde region, who said they were unhappy with the government's response.",
+      "url": "https://www.france24.com/en/france/20260817-french-pm-lecornu-booed-by-residents-on-visit-to-fire-ravaged-southwest",
+      "canonicalUrl": "https://france24.com/en/france/20260817-french-pm-lecornu-booed-by-residents-on-visit-to-fire-ravaged-southwest",
       "sourceName": "France 24",
       "sourceDomain": "s.france24.com",
       "sourceCountry": "FR",
@@ -410,38 +835,38 @@
         "FR"
       ],
       "language": "en",
-      "publishedAt": "2026-08-17T04:38:01Z",
-      "imageUrl": "https://s.france24.com/media/display/45b74abc-99c4-11f1-a872-005056bfb2b6/w:1024/p:16x9/000-72JR2KF.jpg",
+      "publishedAt": "2026-08-17T10:16:34Z",
+      "imageUrl": "https://s.france24.com/media/display/0d71d5fa-9a23-11f1-a03b-005056a90284/w:1024/p:16x9/AP26213698061369.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T08:18:04Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0b209d2f58167ec72e21",
+      "clusterId": "53da426c3a8d0c1c01a5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.68678,
-      "related": []
+      "related": [],
+      "rankingScore": 6.65378
     },
     {
-      "id": "c4aa67b8cc0718c5859a357d",
-      "title": "Un avion de l'armée de l'air tombe sur une route à Salon-de-Provence, deux militaires légèrement blessés",
+      "id": "6ce18da5b359e8aa488b5561",
+      "title": "Un avion de l’Armée de l’air se pose en catastrophe sur une route nationale à Salon-de-Provence et prend feu",
       "translatedTitle": null,
-      "description": "Le monomoteur a fini sa course sur la chaussée, évitant les commerces alentour, et aucun dommage à un tiers n'est à déplorer, selon le ministère des Armées.",
-      "url": "https://www.franceinfo.fr/faits-divers/deux-militaires-ont-ete-legerement-blesses-dans-l-accident-de-leur-avion-a-salon-de-provence_8150936.html",
-      "canonicalUrl": "https://franceinfo.fr/faits-divers/deux-militaires-ont-ete-legerement-blesses-dans-l-accident-de-leur-avion-a-salon-de-provence_8150936.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
+      "description": "EN IMAGES - Un avion de la base de Salon-de-Provence a dû atterrir en urgence sur une route au milieu de la circulation. Les deux personnes à bord sont légèrement blessées.",
+      "url": "https://www.lefigaro.fr/marseille/un-avion-de-l-armee-de-l-air-se-pose-en-catastrophe-sur-une-route-nationale-a-salon-de-provence-et-prend-feu-20260817",
+      "canonicalUrl": "https://lefigaro.fr/marseille/un-avion-de-l-armee-de-l-air-se-pose-en-catastrophe-sur-une-route-nationale-a-salon-de-provence-et-prend-feu-20260817",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-17T11:16:50Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/MzVS3rlq4AcXVagroP-ozya7nmk/0x0:4500x2531/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82ed6aab4f0673170703.jpg",
+      "publishedAt": "2026-08-17T11:18:56Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/17/027d1f080be3f5efe8d0d5e216be320fd28e4dadb5708cd2dce715087df0f54f.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
@@ -454,22 +879,22 @@
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "6ce18da5b359e8aa488b5561",
-          "title": "Un avion de l’Armée de l’air se pose en catastrophe sur une route nationale à Salon-de-Provence et prend feu",
+          "id": "c4aa67b8cc0718c5859a357d",
+          "title": "Un avion de l'armée de l'air tombe sur une route à Salon-de-Provence, deux militaires légèrement blessés",
           "translatedTitle": null,
-          "description": "EN IMAGES - Un avion de la base de Salon-de-Provence a dû atterrir en urgence sur une route au milieu de la circulation. Les deux personnes à bord sont légèrement blessées.",
-          "url": "https://www.lefigaro.fr/marseille/un-avion-de-l-armee-de-l-air-se-pose-en-catastrophe-sur-une-route-nationale-a-salon-de-provence-et-prend-feu-20260817",
-          "canonicalUrl": "https://lefigaro.fr/marseille/un-avion-de-l-armee-de-l-air-se-pose-en-catastrophe-sur-une-route-nationale-a-salon-de-provence-et-prend-feu-20260817",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
+          "description": "Le monomoteur a fini sa course sur la chaussée, évitant les commerces alentour, et aucun dommage à un tiers n'est à déplorer, selon le ministère des Armées.",
+          "url": "https://www.franceinfo.fr/faits-divers/deux-militaires-ont-ete-legerement-blesses-dans-l-accident-de-leur-avion-a-salon-de-provence_8150936.html",
+          "canonicalUrl": "https://franceinfo.fr/faits-divers/deux-militaires-ont-ete-legerement-blesses-dans-l-accident-de-leur-avion-a-salon-de-provence_8150936.html",
+          "sourceName": "Franceinfo",
+          "sourceDomain": "franceinfo.fr",
           "sourceCountry": "FR",
           "editionCountry": "FR",
           "coverageCountries": [
             "FR"
           ],
           "language": "fr",
-          "publishedAt": "2026-08-17T11:18:56Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/17/027d1f080be3f5efe8d0d5e216be320fd28e4dadb5708cd2dce715087df0f54f.jpg",
+          "publishedAt": "2026-08-17T11:16:50Z",
+          "imageUrl": "https://www.franceinfo.fr/pictures/MzVS3rlq4AcXVagroP-ozya7nmk/0x0:4500x2531/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82ed6aab4f0673170703.jpg",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
@@ -480,41 +905,72 @@
           "clusterId": "5041c85e2e74c4d66b8f",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "un avion de l armée de l air se pose en catastrophe sur une route nationale à salon de provence et prend feu"
+          "rankingScore": 7.11857,
+          "normalizedTitle": "un avion de l armée de l air tombe sur une route à salon de provence deux militaires légèrement blessés",
+          "sourceQuality": 1.0
         }
       ],
-      "rankingScore": 7.11857
+      "rankingScore": 6.61733
     },
     {
-      "id": "44774645dad54af2d5de65b4",
-      "title": "EN DIRECT, guerre en Ukraine : le groupe énergétique Naftogaz a recensé 13 attaques contre ses installations en une semaine",
+      "id": "8037a5bb8b9d9b395033a817",
+      "title": "Wildfires spread across Europe as thousands evacuated",
       "translatedTitle": null,
-      "description": "Une partie des installations a dû interrompre son activité, entraînant une baisse des volumes extraits. Depuis le début de l’année, le groupe a recensé 293 attaques russes contre ses installations.",
-      "url": "https://www.lemonde.fr/international/live/2026/08/17/en-direct-guerre-en-ukraine-le-groupe-energetique-naftogaz-a-recense-13-attaques-contre-ses-installations-en-une-semaine_6746952_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/live/2026/08/17/en-direct-guerre-en-ukraine-le-groupe-energetique-naftogaz-a-recense-13-attaques-contre-ses-installations-en-une-semaine_6746952_3210.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
+      "description": "Wildfires are spreading across Europe, forcing evacuations and causing deaths and major damage. Greece, Spain, Italy, Belgium, Germany and the UK have all battled severe fires, with Croatia also seeing multiple blazes and arrests over suspected arson.",
+      "url": "https://www.france24.com/en/video/20260817-wildfires-spread-across-europe-as-thousands-evacuated",
+      "canonicalUrl": "https://france24.com/en/video/20260817-wildfires-spread-across-europe-as-thousands-evacuated",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T10:01:48Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/17/598/0/8640/4320/644/322/60/0/b3d8e75_ftp-1-5ocvphllr3ws-f661e8196c414f38a7e042ab1169636c-2-dd7f753f7f9b41bfb9436a2875b968cc.jpg",
+      "language": "en",
+      "publishedAt": "2026-08-17T09:38:29Z",
+      "imageUrl": "https://s.france24.com/media/display/7b1a1fcc-9a19-11f1-8e39-005056bf30b7/w:1024/p:16x9/EN-20260817-100906-101056-CS.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0ea43033967fd89b320e",
+      "clusterId": "988ceb52ad1104ae5382",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.10906
+      "rankingScore": 6.59925
+    },
+    {
+      "id": "bdc900897c1f48afc74b890e",
+      "title": "US and South Korea begin military drills despite Trump call to scale back",
+      "translatedTitle": null,
+      "description": "US and South Korean forces began on Monday joint military drills as planned, despite Donald Trump calling for them to be scaled back. Trump said the exercises were too costly and hostile toward North Korea, while critics warned reducing them could weaken South Korea’s security. The drills are set to continue until August 28.",
+      "url": "https://www.france24.com/en/us-and-south-korea-begin-military-drills-despite-trump-call-to-scale-back",
+      "canonicalUrl": "https://france24.com/en/us-and-south-korea-begin-military-drills-despite-trump-call-to-scale-back",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-17T09:22:17Z",
+      "imageUrl": "https://s.france24.com/media/display/266c7d4e-9a19-11f1-b49b-005056bf30b7/w:1024/p:16x9/EN-20260817-100645-100829-CS.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b7c5c2fa4fadaf0c3ffb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.57663
     },
     {
       "id": "4ea4712438328e7c4e6af2d2",
@@ -536,13 +992,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "b125b6c7f027e83e163a",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.57556,
       "related": [
         {
           "id": "adee890aff41b83fac53730e",
@@ -575,38 +1032,127 @@
           "normalizedTitle": "gaza l émissaire américain jared kushner attendu en israël pour rencontrer benyamin nétanyahou et tenter de faire avancer le plan de paix",
           "sourceQuality": 1.0
         }
-      ],
-      "rankingScore": 6.95802
+      ]
     },
     {
-      "id": "de81a9cf59090e660f6d707b",
-      "title": "Middle East live: US envoy Kushner to meet Netanyahu after talks with Hamas",
+      "id": "e96d76c4b9572167e5d93382",
+      "title": "West Bank : UN delivers aid to besieged Palestinian families in Qusra",
       "translatedTitle": null,
-      "description": "US envoy Jared Kushner on Monday meets Israeli Prime Minister Benjamin Netanyahu following talks with Hamas leaders in Egypt aimed at reviving a US-backed Gaza peace plan that Israel has so far rejected. Follow our live blog for the latest updates.",
-      "url": "https://www.france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas",
-      "canonicalUrl": "https://france24.com/en/middle-east/20260817-middle-east-live-us-envoy-kushner-to-meet-netanyahu-after-talks-with-hamas",
+      "description": "The UN delivered aid to Qusra in the West Bank after Israeli settlers cut off several Palestinian families from food, water and electricity. Residents say they have faced months of harassment and attacks, while rights groups accuse settlers of trying to force Palestinians from the area. Critics warn that Israel’s plan to transfer law enforcement powers in the West Bank could further entrench control over the territory.",
+      "url": "https://www.france24.com/en/west-bank-un-delivers-aid-to-besieged-palestinian-families-in-qusra",
+      "canonicalUrl": "https://france24.com/en/west-bank-un-delivers-aid-to-besieged-palestinian-families-in-qusra",
       "sourceName": "France 24",
-      "sourceDomain": "s.france24.com",
+      "sourceDomain": "france24.com",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
       "language": "en",
-      "publishedAt": "2026-08-17T04:45:34Z",
+      "publishedAt": "2026-08-17T09:18:49Z",
+      "imageUrl": "https://s.france24.com/media/display/6da81aac-9a18-11f1-8f36-005056a90284/w:1024/p:16x9/EN-20260817-100434-100610-CS.jpg",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d1e2e644287e16e7e4aa",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.57183
+    },
+    {
+      "id": "c11083dfd4424628299bef84",
+      "title": "Middle East : Kushner to meet Netanyahu after talks with Hamas on Gaza plan",
+      "translatedTitle": null,
+      "description": "US envoy Jared Kushner is due to meet Israeli Prime Minister Benjamin Netanyahu on Monday after holding talks with Hamas leaders in Egypt aimed at reviving a US-backed Gaza peace plan that Israel has so far rejected. Noga Tarnopolsky, FRANCE 24's correspondent in Israel, has more on the stakes related to this visit.",
+      "url": "https://www.france24.com/en/middle-east-kushner-to-meet-netanyahu-after-talks-with-hamas-on-gaza-plan",
+      "canonicalUrl": "https://france24.com/en/middle-east-kushner-to-meet-netanyahu-after-talks-with-hamas-on-gaza-plan",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-17T09:00:36Z",
       "imageUrl": "https://s.france24.com/media/display/ba659922-99dd-11f1-bb59-005056a90284/w:1024/p:16x9/2026-08-16T230048Z-1232470912-RC2YZMAKU6OT-RTRMADP-3-ISRAEL-PALESTINIANS-EGYPT-KUSHNER.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T08:18:04Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "bda0073235f82cbbe6cf",
+      "clusterId": "75535518a2ee66dafd86",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.34686,
+      "related": [],
+      "rankingScore": 6.54688
+    },
+    {
+      "id": "44774645dad54af2d5de65b4",
+      "title": "EN DIRECT, guerre en Ukraine : le groupe énergétique Naftogaz a recensé 13 attaques contre ses installations en une semaine",
+      "translatedTitle": null,
+      "description": "Une partie des installations a dû interrompre son activité, entraînant une baisse des volumes extraits. Depuis le début de l’année, le groupe a recensé 293 attaques russes contre ses installations.",
+      "url": "https://www.lemonde.fr/international/live/2026/08/17/en-direct-guerre-en-ukraine-le-groupe-energetique-naftogaz-a-recense-13-attaques-contre-ses-installations-en-une-semaine_6746952_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/live/2026/08/17/en-direct-guerre-en-ukraine-le-groupe-energetique-naftogaz-a-recense-13-attaques-contre-ses-installations-en-une-semaine_6746952_3210.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T10:01:48Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/17/598/0/8640/4320/644/322/60/0/b3d8e75_ftp-1-5ocvphllr3ws-f661e8196c414f38a7e042ab1169636c-2-dd7f753f7f9b41bfb9436a2875b968cc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T12:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0ea43033967fd89b320e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.45241,
       "related": []
+    },
+    {
+      "id": "f8387caae9292d232f92c379",
+      "title": "Une frappe de missiles ukrainiens fait six morts dans la région de Belgorod en Russie",
+      "translatedTitle": null,
+      "description": "Une vague de drones avait déjà fait 12 morts dans le pays dimanche.",
+      "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/en-russie-une-frappe-de-missiles-ukrainiens-fait-six-morts-dans-la-region-de-belgorod_8150654.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/europe/manifestations-en-ukraine/en-russie-une-frappe-de-missiles-ukrainiens-fait-six-morts-dans-la-region-de-belgorod_8150654.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T07:37:39Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/Oz1jJhVWIOZlQl7yZZ9qwu9CROg/0x60:4999x2872/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82ba0fdc33e809397938.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9af3fee9167c4cee0a2d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.34843
     },
     {
       "id": "93b257e99b8ce7bf4ea0f14f",
@@ -635,406 +1181,16 @@
       "clusterId": "5b7c3545c3a516af1d52",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.33574,
+      "rankingScore": 6.04945,
       "related": []
     },
     {
-      "id": "ee1921600dc83a9a3230b496",
-      "title": "Guerre en Ukraine : Kaja Kallas veut augmenter d'un tiers les entités russes sanctionnées",
+      "id": "e75189feeef7b18cabde91d5",
+      "title": "L’allocation de rentrée scolaire sera versée mardi à 3 millions de familles",
       "translatedTitle": null,
-      "description": "L’Union européenne a adopté 21 trains de sanctions contre la Russie depuis le début de la guerre, celles-ci visant aujourd’hui près de 3.000 personnes et entités, selon la Commission européenne.",
-      "url": "https://www.lefigaro.fr/international/ukraine-kaja-kallas-veut-augmenter-d-un-tiers-les-entites-russes-sanctionnees-20260817",
-      "canonicalUrl": "https://lefigaro.fr/international/ukraine-kaja-kallas-veut-augmenter-d-un-tiers-les-entites-russes-sanctionnees-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T04:16:16Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/08/17/f0c2c85f8a819ee28c9eecd39ac55342f4448a46c8f0f769dcfbbc842a75434d.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T04:17:58Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "499a11ce3e28c4c44979",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.30814,
-      "related": []
-    },
-    {
-      "id": "3bc4da3deb5aed3e0994e487",
-      "title": "Yémen : le chef des droits de l’homme de l’ONU alerte sur le risque d’un «conflit à grande échelle»",
-      "translatedTitle": null,
-      "description": "Le Haut-Commissaire de l’ONU aux droits de l’homme appelle les belligérants à cesser toute offensive susceptible de replonger le pays dans un conflit de grande ampleur.",
-      "url": "https://www.lefigaro.fr/international/yemen-le-chef-des-droits-de-l-homme-de-l-onu-alerte-sur-le-risque-d-un-conflit-a-grande-echelle-20260817",
-      "canonicalUrl": "https://lefigaro.fr/international/yemen-le-chef-des-droits-de-l-homme-de-l-onu-alerte-sur-le-risque-d-un-conflit-a-grande-echelle-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T12:12:11Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x1686_crop/2026/08/17/d0a5ff1cb43f34a05e9e85ac19d46029bbce055934327b4a3ed90614b500122a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1a459d649aa39e057d7c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73788
-    },
-    {
-      "id": "95a7605dbd2b7131c8378c8d",
-      "title": "\"On va perdre sept degrés en 24 heures\" : après des semaines de canicule, que prévoit la météo des prochains jours dans la région Paca ?",
-      "translatedTitle": null,
-      "description": "Après plus de deux semaines de canicule, la vague de chaleur devrait prendre fin à partir de ce jeudi dans l'ensemble de la région PACA. En attendant, les Bouches-du-Rhône, le Var et le Vaucluse restent en vigilance orange \"canicule\" ce lundi.",
-      "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/on-va-perdre-sept-degres-en-24h-fin-de-la-vigilance-orange-canicule-orages-que-prevoit-la-meteo-des-prochains-jours-en-paca-3402391.html",
-      "canonicalUrl": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/on-va-perdre-sept-degres-en-24h-fin-de-la-vigilance-orange-canicule-orages-que-prevoit-la-meteo-des-prochains-jours-en-paca-3402391.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "france3-regions.franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T11:07:37Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/1m2C62C8ga9xBZZCtGc7ODpgG_E/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82cb47dd8e6439876561.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "461ec59abc9b6b92f61d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70091
-    },
-    {
-      "id": "b71067e9964eb49371d45630",
-      "title": "En Belgique, avec la pluie et la baisse des températures, la progression de l'incendie est \"limitée\"",
-      "translatedTitle": null,
-      "description": "Lundi, la pluie a commencé à s'abattre sur le pays, mobilisé face à l'un des pires incendies de son histoire, qui a déjà ravagé 3 000 hectares dans la réserve naturelle des Hautes Fagnes.",
-      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/en-belgique-malgre-la-pluie-et-la-baisse-des-temperatures-l-incendie-continue-de-progresser-et-la-polemique-enfle_8150663.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/en-belgique-malgre-la-pluie-et-la-baisse-des-temperatures-l-incendie-continue-de-progresser-et-la-polemique-enfle_8150663.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T10:57:38Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/aXnEZetRhFoi0Eo_6I0pePgsIuQ/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82c0b103ec7294842241.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "48bd400d8a71500756d4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68195
-    },
-    {
-      "id": "50aa908061be035121d2fd79",
-      "title": "Débats, universités d’été, colloques : les rentrées politiques relancent la campagne présidentielle",
-      "translatedTitle": null,
-      "description": "DÉCRYPTAGE - Tous les prétendants à l’Élysée vont chercher à se faire remarquer lors des divers événements politiques organisés après la trêve estivale.",
-      "url": "https://www.lefigaro.fr/elections/presidentielles/debats-universites-d-ete-colloques-les-rentrees-politiques-relancent-la-campagne-presidentielle-20260817",
-      "canonicalUrl": "https://lefigaro.fr/elections/presidentielles/debats-universites-d-ete-colloques-les-rentrees-politiques-relancent-la-campagne-presidentielle-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T11:33:33Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/08/17/fd759317117deaedcfa5b74451166ab147a64e8bfad867fd04dcbdb16aa24fa1.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "046230437ceacf910680",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.661
-    },
-    {
-      "id": "97ec1accba6eac4b796f73d1",
-      "title": "Royaume-Uni : le premier ministre a échangé des messages avec une personne se faisant passer pour la chef de cabinet de Trump",
-      "translatedTitle": null,
-      "description": "L’usurpation concernait le téléphone personnel du nouveau premier ministre anglais Andy Burnham. «Aucun message significatif» n’aurait, toutefois, été échangé avec la personne se faisant passer pour Susie Wiles.",
-      "url": "https://www.lefigaro.fr/international/royaume-uni-le-premier-ministre-a-echange-des-messages-avec-une-personne-se-faisant-passer-pour-la-cheffe-de-cabinet-de-trump-20260817",
-      "canonicalUrl": "https://lefigaro.fr/international/royaume-uni-le-premier-ministre-a-echange-des-messages-avec-une-personne-se-faisant-passer-pour-la-cheffe-de-cabinet-de-trump-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T11:26:58Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/08/17/ec969d7e902fadcf833d9254b094239feb517a3ef41d709b6f04b2cf50d735e8.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f4c0fca984f211c47d5a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64817
-    },
-    {
-      "id": "8230eb04ea844ee3fa13090f",
-      "title": "Loyers, transports, courses... Le coût de la vie étudiante augmente encore pour cette rentrée, alerte l'Unef",
-      "translatedTitle": null,
-      "description": "Selon l'étude annuelle de ce syndicat étudiant, la hausse est de +1,66% sur an, et plus de 35% depuis l'élection d'Emmanuel Macron en 2017.",
-      "url": "https://www.franceinfo.fr/societe/education/loyers-transports-courses-le-cout-de-la-vie-etudiante-augmente-encore-alerte-l-unef_8150909.html",
-      "canonicalUrl": "https://franceinfo.fr/societe/education/loyers-transports-courses-le-cout-de-la-vie-etudiante-augmente-encore-alerte-l-unef_8150909.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T10:38:51Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/y20b0q3_f2G-c07XhnzM0pcmNZI/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82e0001364b245645055.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7de7b9b8bbb00f65d973",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64674
-    },
-    {
-      "id": "9836de9c130af88dc3ebaf14",
-      "title": "L’actrice américaine Hayden Panettiere, connue pour ses rôles dans les séries Nashville et Heroes, est morte à l’âge de 36 ans",
-      "translatedTitle": null,
-      "description": "«Elle était une source de lumière incroyable et une force de la nature qui a apporté un amour et une joie incommensurables à tous ceux qui la connaissaient», a déclaré son agent à ABC News.",
-      "url": "https://tvmag.lefigaro.fr/programme-tv/series/l-actrice-americaine-hayden-panettiere-connue-pour-ses-roles-dans-les-series-nashville-et-heroes-est-morte-a-l-age-de-36-ans-20260817",
-      "canonicalUrl": "https://tvmag.lefigaro.fr/programme-tv/series/l-actrice-americaine-hayden-panettiere-connue-pour-ses-roles-dans-les-series-nashville-et-heroes-est-morte-a-l-age-de-36-ans-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "tvmag.lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T08:44:11Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/17/9e0dd6d34854b6a16347ad5ddd1ce9bf72424c4ea35b771d8c3990013ad579ec.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "eafe4c565b73b629f3d4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6246
-    },
-    {
-      "id": "9a3f65e5f8fe82da777d5592",
-      "title": "Notre classement 2026 des meilleures maternités de Paris et d’Île-de-France",
-      "translatedTitle": null,
-      "description": "EXCLUSIF - Le Figaro a classé les maternités de Paris et de sa région selon une série de critères médicaux et d’indicateurs de satisfaction des patientes. Découvrez les résultats de ce classement annuel de référence pour les futures mamans.",
-      "url": "https://sante.lefigaro.fr/medecine/notre-classement-2026-des-meilleures-maternites-de-paris-et-d-ile-de-france-20260613",
-      "canonicalUrl": "https://sante.lefigaro.fr/medecine/notre-classement-2026-des-meilleures-maternites-de-paris-et-d-ile-de-france-20260613",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "sante.lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T11:08:41Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/1920x1080_crop/2026/06/12/0f84b8228f7a684684839c2f3eee875a8c1553f8d53d0fb002fc35f74b34966a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e1b4dbc0d631e7283149",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61295
-    },
-    {
-      "id": "4b7a53bafdca8d87cf96cf4e",
-      "title": "Le nouveau film Spider-Man survole le box-office mondial et dépasse les deux milliards de dollars de recettes",
-      "translatedTitle": null,
-      "description": "Pour sa troisième semaine d'exploitation, \"Spider-Man : Brand New Day\" devient le huitième film de l'histoire à franchir ce cap et le deuxième plus rapide derrière \"Avengers : Endgame\".",
-      "url": "https://www.franceinfo.fr/culture/cinema/le-nouveau-film-spider-man-survole-le-box-office-mondial-et-depasse-les-deux-milliards-de-dollars-de-recettes_8150675.html",
-      "canonicalUrl": "https://franceinfo.fr/culture/cinema/le-nouveau-film-spider-man-survole-le-box-office-mondial-et-depasse-les-deux-milliards-de-dollars-de-recettes_8150675.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T10:15:29Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/nPIUdeeux52GNZhAa8uC1h-wtkQ/49x0:529x270/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82b7f4487da633243433.png",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "482422786da2d44fdaf3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60379
-    },
-    {
-      "id": "efe59791fec5aae5ab9c758c",
-      "title": "\"Une équipe de France performante mais sans athlète dominant\"... Un bilan en demi-teinte pour les Bleus aux championnats d'Europe d'athlétisme",
-      "translatedTitle": null,
-      "description": "Après avoir glané 16 médailles il y a deux ans à Rome, l’équipe de France repart de Birmingham dimanche avec 11 médailles, mais aucune en or.",
-      "url": "https://www.franceinfo.fr/sports/athletisme/championnats-d-europe/une-equipe-de-france-performante-mais-sans-athlete-dominant-un-bilan-en-demi-teinte-pour-les-bleus-aux-championnats-d-europe-d-athletisme_8150336.html",
-      "canonicalUrl": "https://franceinfo.fr/sports/athletisme/championnats-d-europe/une-equipe-de-france-performante-mais-sans-athlete-dominant-un-bilan-en-demi-teinte-pour-les-bleus-aux-championnats-d-europe-d-athletisme_8150336.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T09:42:25Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/_YOd7uiADFNhYcKrKuBC3JxW648/0x0:1920x1080/432x243/filters:format(jpg):quality(50)/2026/08/17/6a823df2349d8952227244.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "44501392e04af27f96b6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.54457,
-      "related": []
-    },
-    {
-      "id": "1db840c244335e960ad63130",
-      "title": "Piratage du fisc : l’administration doit commencer à contacter les victimes ce lundi",
-      "translatedTitle": null,
-      "description": "«Les usagers concernés seront contactés individuellement à compter de lundi 17 août, avec le détail des données susceptibles d’avoir été exposées et les mesures de vigilance à adopter», indiquent les services du premier ministre.",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/piratage-du-fisc-l-administration-doit-commencer-a-contacter-les-victimes-ce-lundi-20260817",
-      "canonicalUrl": "https://lefigaro.fr/secteur/high-tech/piratage-du-fisc-l-administration-doit-commencer-a-contacter-les-victimes-ce-lundi-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T10:18:02Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/17/ab105bd780b16e59dc5e3d385fcf9bd9c2a20004682e8ed90ee2a339c801ee1f.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1a8c2eceed1f5007d05e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.51843
-    },
-    {
-      "id": "ec3616c156a1bc0848307a56",
-      "title": "Championnats d’Europe de natation : les exploits de Marchand, la folle ambiance, la para-natation très mal servie…Les tops et les flops",
-      "translatedTitle": null,
-      "description": "Découvrez ce qui a retenu l’attention de notre envoyé spécial pendant une semaine au Centre aquatique olympique de Saint-Denis.",
-      "url": "https://www.lefigaro.fr/sports/autres-sports/championnats-d-europe-de-natation-les-exploits-de-marchand-la-folle-ambiance-la-para-natation-tres-mal-servie-les-tops-et-les-flops-20260817",
-      "canonicalUrl": "https://lefigaro.fr/sports/autres-sports/championnats-d-europe-de-natation-les-exploits-de-marchand-la-folle-ambiance-la-para-natation-tres-mal-servie-les-tops-et-les-flops-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T10:09:53Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/1920x1080_crop/2026/08/17/b232d740e10c2f173ec7887209248a9437ec853485f25fbba02f5eea5f39f4bf.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dfe05fe63aae9e7daed6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.50363
-    },
-    {
-      "id": "cff6efb48d428a72082bd105",
-      "title": "Grave épilepsie réfractaire chez un enfant : des années d’errance diagnostique après une simple griffure de chat",
-      "translatedTitle": null,
-      "description": "L’histoire d’une traque hors norme. Des années d’investigations vont progressivement dévoiler un tableau clinique d’une étonnante complexité.",
-      "url": "https://www.lemonde.fr/realites-biomedicales/article/2026/08/17/grave-epilepsie-refractaire-chez-un-enfant-des-annees-d-errance-diagnostique-apres-une-simple-griffure-de-chat_6747980_6579630.html",
-      "canonicalUrl": "https://lemonde.fr/realites-biomedicales/article/2026/08/17/grave-epilepsie-refractaire-chez-un-enfant-des-annees-d-errance-diagnostique-apres-une-simple-griffure-de-chat_6747980_6579630.html",
+      "description": "L’aide est versée aux familles dont les ressources pour l’année 2024 ne dépassent pas 28 956 euros pour un enfant, 35 638 euros pour deux enfants, 42 320 euros pour trois enfants.",
+      "url": "https://www.lemonde.fr/societe/article/2026/08/17/l-allocation-de-rentree-scolaire-sera-versee-mardi-a-3-millions-de-familles_6748401_3224.html",
+      "canonicalUrl": "https://lemonde.fr/societe/article/2026/08/17/l-allocation-de-rentree-scolaire-sera-versee-mardi-a-3-millions-de-familles_6748401_3224.html",
       "sourceName": "Le Monde",
       "sourceDomain": "lemonde.fr",
       "sourceCountry": "FR",
@@ -1043,178 +1199,28 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-17T07:09:05Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/16/157/0/375/187/644/322/60/0/658e152_upload-1-vjwfp3hcyrng-maladie-des-griifes-du-chat-enfant-e-pilepsie-bartonella-henselae.png",
+      "publishedAt": "2026-08-17T16:06:07Z",
+      "imageUrl": "https://img.lemde.fr/2024/09/13/154/0/1801/900/644/322/60/0/678ff6b_1726227305115-mei-dia-24.png",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "05dcf42fb0d93392af16",
+      "clusterId": "7d73eba5a0da8762640a",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.47249
+      "rankingScore": 5.99523
     },
     {
-      "id": "df2043a3f1873916db5255a4",
-      "title": "L'épidémie d'Ebola a fait plus de 2 300 morts en République démocratique du Congo, et est désormais la plus meurtrière de l'histoire du pays",
+      "id": "995b373257d53ca862fe9fff",
+      "title": "En Libye, l’autorité du maréchal Haftar écornée par la rivalité entre ses fils",
       "translatedTitle": null,
-      "description": "L'épidémie \"est la plus rapide jamais enregistrée\" et \"tue une personne toutes les 30 minutes\", selon le chef des affaires humanitaires de l'ONU.",
-      "url": "https://www.franceinfo.fr/sante/maladie/ebola/l-epidemie-d-ebola-devient-la-plus-meurtriere-de-l-histoire-de-la-republique-democratique-du-congo-avec-plus-de-2-300-morts_8150732.html",
-      "canonicalUrl": "https://franceinfo.fr/sante/maladie/ebola/l-epidemie-d-ebola-devient-la-plus-meurtriere-de-l-histoire-de-la-republique-democratique-du-congo-avec-plus-de-2-300-morts_8150732.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T08:54:22Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/ykkwFF2hwyUvB-xyI-7Czysbn9g/0x73:1024x649/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82cb8ec51a1669796035.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7dfc07d29bae767c95e3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.4617
-    },
-    {
-      "id": "afad735a0b942a5d38930017",
-      "title": "\"Ce n'est qu'une partie du chemin\" : vainqueur du Grand Smash, le Français Félix Lebrun a encore des ambitions",
-      "translatedTitle": null,
-      "description": "Félix Lebrun a remporté en simple le tournoi de tennis de table Europe Smash de Malmö, devenant le premier Français à inscrire son nom au palmarès d'un Grand Smash au lendemain de sa victoire en double. Cette victoire lui permet même d'atteindre la deuxième place mondiale.",
-      "url": "https://www.franceinfo.fr/sports/tennis-de-table/felix-lebrun/ce-n-est-qu-une-partie-du-chemin-vainqueur-du-grand-smash-le-francais-felix-lebrun-a-encore-des-ambitions_8150735.html",
-      "canonicalUrl": "https://franceinfo.fr/sports/tennis-de-table/felix-lebrun/ce-n-est-qu-une-partie-du-chemin-vainqueur-du-grand-smash-le-francais-felix-lebrun-a-encore-des-ambitions_8150735.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T08:44:08Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/lak1_HcYIBgyyyHHYrykS2FYMWU/0x403:6000x3778/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82c95548b36206462830.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8fa43380fe675073e0be",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.44452
-    },
-    {
-      "id": "21bf1c344e99b7111b3736d2",
-      "title": "Jonas Vingegaard met un terme à sa saison, après sa fracture de la clavicule sur le Tour de France 2026",
-      "translatedTitle": null,
-      "description": "Le coureur de la Visma-Lease a bike doit observer une période de convalescence et a annoncé, via un communiqué de son équipe lundi, qu'il ne courrait plus cette saison.",
-      "url": "https://www.franceinfo.fr/sports/cyclisme/jonas-vingegaard/jonas-vingegaard-met-un-terme-a-sa-saison-apres-sa-fracture-de-la-clavicule-sur-le-tour-de-france-2026_8150738.html",
-      "canonicalUrl": "https://franceinfo.fr/sports/cyclisme/jonas-vingegaard/jonas-vingegaard-met-un-terme-a-sa-saison-apres-sa-fracture-de-la-clavicule-sur-le-tour-de-france-2026_8150738.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T08:39:34Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/j-CuoKyJIjEiu8NMoqcaLj_Jzek/0x0:4073x2291/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82c83eb505d197959290.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "597e3166b536208853f1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.4369
-    },
-    {
-      "id": "e165bfa7517b8f3137963661",
-      "title": "«C’était à moi de le protéger» : 3 ans avant son décès, Hayden Panettiere perdait son jeune frère, Jansen",
-      "translatedTitle": null,
-      "description": "Ce lundi 17 août, Hayden Panettiere est décédée à l’âge de 36 ans. En 2023, la star de Heroes avait dû faire face à la mort de son frère de 28 ans, Jansen, lui aussi acteur.",
-      "url": "https://madame.lefigaro.fr/celebrites/actu-people/c-etait-a-moi-de-le-proteger-3-ans-avant-son-deces-hayden-panettiere-perdait-son-jeune-frere-jansen-20260817",
-      "canonicalUrl": "https://madame.lefigaro.fr/celebrites/actu-people/c-etait-a-moi-de-le-proteger-3-ans-avant-son-deces-hayden-panettiere-perdait-son-jeune-frere-jansen-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "madame.lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T09:25:07Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/2094x1177_crop/2026/08/17/e6dbe431c9238c2a7575650322a7365262823e33e5dc4194ecc4c6c751c3061a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4f2cb9ddb5464f6239fd",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.42431
-    },
-    {
-      "id": "331caf4564b051b16aee9437",
-      "title": "Landes : le feu qui a ravagé 1700 hectares est «fixé», la moitié des évacués vont pouvoir rentrer chez eux",
-      "translatedTitle": null,
-      "description": "Cette nuit, «la situation a évolué de façon plutôt très favorable. (...) le feu n’a pas progressé. (...) Néanmoins je le répète, feu fixé ne veut pas dire feu éteint», a affirmé à la presse la secrétaire générale de la préfecture de ce département du Sud-Ouest, Stéphanie Monteuil.",
-      "url": "https://www.lefigaro.fr/actualite-france/landes-le-feu-qui-a-ravage-1700-hectares-est-fixe-la-moitie-des-evacues-vont-pouvoir-rentrer-chez-eux-20260817",
-      "canonicalUrl": "https://lefigaro.fr/actualite-france/landes-le-feu-qui-a-ravage-1700-hectares-est-fixe-la-moitie-des-evacues-vont-pouvoir-rentrer-chez-eux-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T09:22:09Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/08/17/1ac8392a5598044595d33c8c394c2f14135cc5b488a0f8c20738f2ed77781e78.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f8e4ef1038ce160be53d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.41917
-    },
-    {
-      "id": "596c1071f00d4d49469e8fd9",
-      "title": "Le coût de la vie étudiante a augmenté de 1,66 % sur un an, et de plus de 35 % depuis l’élection d’Emmanuel Macron en 2017, alerte l’Unef",
-      "translatedTitle": null,
-      "description": "Etudier coûte deux fois plus cher pour les étudiants étrangers extracommunautaires, « premières victimes des politiques austéritaires du gouvernement », pointe également l’enquête du syndicat étudiant, tandis que les étudiants des outre-mer, « grands oubliés des politiques publiques », déboursent entre 314 et 408 euros de plus par an que les étudiants de l’Hexagone.",
-      "url": "https://www.lemonde.fr/campus/article/2026/08/17/le-cout-de-la-vie-etudiante-a-augmente-de-1-66-sur-un-an-et-de-plus-de-35-depuis-l-election-d-emmanuel-macron-en-2017-alerte-l-unef_6747977_4401467.html",
-      "canonicalUrl": "https://lemonde.fr/campus/article/2026/08/17/le-cout-de-la-vie-etudiante-a-augmente-de-1-66-sur-un-an-et-de-plus-de-35-depuis-l-election-d-emmanuel-macron-en-2017-alerte-l-unef_6747977_4401467.html",
+      "description": "Khalifa Haftar, 82 ans, a bâti son image d’homme fort de la Cyrénaïque en réprimant toute contestation. La stabilité dans l’Est libyen est aujourd’hui menacée, alors que le maréchal prépare sa succession et que le patron du renseignement militaire vient d’être assassiné.",
+      "url": "https://www.lemonde.fr/afrique/article/2026/08/17/en-libye-l-autorite-du-marechal-haftar-ecornee-par-la-rivalite-entre-ses-fils_6748399_3212.html",
+      "canonicalUrl": "https://lemonde.fr/afrique/article/2026/08/17/en-libye-l-autorite-du-marechal-haftar-ecornee-par-la-rivalite-entre-ses-fils_6748399_3212.html",
       "sourceName": "Le Monde",
       "sourceDomain": "lemonde.fr",
       "sourceCountry": "FR",
@@ -1223,178 +1229,28 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-17T06:19:09Z",
-      "imageUrl": "https://img.lemde.fr/2026/08/17/884/0/8256/4128/644/322/60/0/a60a529_upload-1-pcymke5sft7r-000-346q7vd.jpg",
+      "publishedAt": "2026-08-17T16:00:09Z",
+      "imageUrl": "https://img.lemde.fr/2026/04/07/0/0/4548/2274/644/322/60/0/b6a7a6d_upload-1-ff3ql7cudf4k-000-38hm963.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "dfdbcaff9f10fdadb66c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.39783,
-      "related": []
-    },
-    {
-      "id": "5a3a51be6deee8d486455b0a",
-      "title": "JO 2028 : Léon Marchand, un calendrier favorable pour une potentielle quête de 8 médailles d’or ?",
-      "translatedTitle": null,
-      "description": "DÉCRYPTAGE - Le nageur français de 24 ans, qui a enflammé les Championnats d’Europe à Saint-Denis, connaît déjà le calendrier des épreuves à Los Angeles dans deux ans.",
-      "url": "https://www.lefigaro.fr/sports/autres-sports/jo-2028-leon-marchand-un-calendrier-favorable-pour-une-potentielle-quete-de-8-medailles-d-or-20260817",
-      "canonicalUrl": "https://lefigaro.fr/sports/autres-sports/jo-2028-leon-marchand-un-calendrier-favorable-pour-une-potentielle-quete-de-8-medailles-d-or-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T09:00:25Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/2999x1687_crop/2026/08/16/90c2722be2179a3c299ef8c85c0cf10c360e86511458f6d0f97fb471c9ff9644.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bd411bda124b5d773db4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.38193,
-      "related": []
-    },
-    {
-      "id": "ece8068ee9eab1f7003c891e",
-      "title": "Date de versement, montants, conditions : l'allocation de rentrée scolaire 2026, une aide essentielle mais souvent insuffisante face au coût réel pour les familles",
-      "translatedTitle": null,
-      "description": "L'allocation de rentrée scolaire (ARS) 2026 sera versée le 18 août à trois millions de familles, avec des montants allant jusqu'à 466 euros selon l'âge de l'enfant. Jugée \"essentielle\" par les associations, cette aide peine pourtant à couvrir le coût réel de la rentrée pour les foyers les plus modestes qui font face à des besoins croissants.",
-      "url": "https://france3-regions.franceinfo.fr/date-de-versement-montants-conditions-l-allocation-de-rentree-scolaire-2026-une-aide-essentielle-mais-souvent-insuffisante-face-au-cout-reel-pour-les-familles-3400603.html",
-      "canonicalUrl": "https://france3-regions.franceinfo.fr/date-de-versement-montants-conditions-l-allocation-de-rentree-scolaire-2026-une-aide-essentielle-mais-souvent-insuffisante-face-au-cout-reel-pour-les-familles-3400603.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "france3-regions.franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T08:04:31Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/hV2MA-AgG2AOYovS6hJipu6Ldwo/432x243/filters:format(jpg):quality(50)/2026/08/15/6a7fe46f84395677981958.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4c8ce15c635c760517da",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.37952,
-      "related": []
-    },
-    {
-      "id": "fa3f28a39941ced494cc6cda",
-      "title": "L'incendie dans les Landes est \"fixé\" et une partie des habitants évacués peuvent rentrer chez eux, annonce la préfecture",
-      "translatedTitle": null,
-      "description": "\"Feu fixé ne veut pas dire feu éteint. Il faut rester évidemment très vigilant\", a rappelé la secrétaire générale de la préfecture lundi matin.",
-      "url": "https://www.franceinfo.fr/faits-divers/incendie/l-incendie-dans-les-landes-est-fixe-250-habitants-autorises-a-rentrer-chez-eux-annonce-la-prefecture_8150690.html",
-      "canonicalUrl": "https://franceinfo.fr/faits-divers/incendie/l-incendie-dans-les-landes-est-fixe-250-habitants-autorises-a-rentrer-chez-eux-annonce-la-prefecture_8150690.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T07:59:32Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/n-t2CZf_kc1bPJMZO8iyDrdtFw8/0x53:1024x629/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82bf1716bd8761461672.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f08d3a99aa83e6e52d69",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.37151,
-      "related": []
-    },
-    {
-      "id": "c38befaa650199dc545aaac0",
-      "title": "Beverley Mitchell, Selma Blair, Bethany Joy Lenz... Hollywood rend hommage à Hayden Panettiere",
-      "translatedTitle": null,
-      "description": "L’actrice américaine révélée dans les séries Heroes et Nashville est décédée à l’âge de 36 ans, ont rapporté dimanche plusieurs médias américains, dont ABC News, citant ‌un communiqué de son père",
-      "url": "https://tvmag.lefigaro.fr/programme-tv/people/beverley-mitchell-selma-blair-bethany-joy-lenz-hollywood-rend-hommage-a-hayden-panettiere-20260817",
-      "canonicalUrl": "https://tvmag.lefigaro.fr/programme-tv/people/beverley-mitchell-selma-blair-bethany-joy-lenz-hollywood-rend-hommage-a-hayden-panettiere-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "tvmag.lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T08:35:18Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/2364x1330_crop/2026/08/17/20562e19bff3a812522cec4ae99c6544d24b4d724759b074d6df6ccaa45db07f.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3898daaf2eea045487c7",
+      "clusterId": "c9959f21da1b5e5b006f",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.33982
+      "rankingScore": 5.98325
     },
     {
-      "id": "fd6370d5bbddf0d0b3c12e4e",
-      "title": "Les incendies ont fait chuter la fréquentation touristique de 50% en Gironde, selon le Medef et la CCI",
+      "id": "e533e9f95b9e9fe743598a63",
+      "title": "Affaire E. Jean Carroll : la Cour suprême rejette un ultime recours de Donald Trump contre une indemnisation pour agression sexuelle",
       "translatedTitle": null,
-      "description": "«Sur les deux premières semaines des feux - qui ont commencé le 22 juillet - la baisse a été bien plus marquée», a fait savoir le président du Medef Gironde, Mathias Saura.",
-      "url": "https://www.lefigaro.fr/conjoncture/les-incendies-ont-fait-chuter-la-frequentation-touristique-de-50-en-gironde-selon-le-medef-et-la-cci-20260817",
-      "canonicalUrl": "https://lefigaro.fr/conjoncture/les-incendies-ont-fait-chuter-la-frequentation-touristique-de-50-en-gironde-selon-le-medef-et-la-cci-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T08:15:24Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/17/9ee63a1cd3087283787a7b0a13f5dba21067b3b8aa718bf502bdfb3e9f4aef24.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T08:18:04Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2e11554f2610f42408f2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.30714,
-      "related": []
-    },
-    {
-      "id": "5b2e713e73d3139d8542382b",
-      "title": "Mortalité infantile : « Le débat se concentre sur l’organisation des maternités, alors que les déterminants sont ailleurs »",
-      "translatedTitle": null,
-      "description": "Si la restructuration de l’offre obstétricale est indispensable, l’organisation et la qualité des soins délivrés aux grands prématurés représentent un enjeu central et largement oublié, estiment la présidente de SOS Préma, Charlotte Bouvard, et le pédiatre Jean-Christophe Rozé, dans une tribune au « Monde ».",
-      "url": "https://www.lemonde.fr/idees/article/2026/08/17/mortalite-infantile-le-debat-se-concentre-sur-l-organisation-des-maternites-alors-que-les-determinants-sont-ailleurs_6747973_3232.html",
-      "canonicalUrl": "https://lemonde.fr/idees/article/2026/08/17/mortalite-infantile-le-debat-se-concentre-sur-l-organisation-des-maternites-alors-que-les-determinants-sont-ailleurs_6747973_3232.html",
+      "description": "Dans cette affaire, l’ancienne journaliste et chroniqueuse accuse le président américain de l’avoir agressée dans une cabine d’essayage à New York, en 1996.",
+      "url": "https://www.lemonde.fr/international/article/2026/08/17/affaire-e-jean-carroll-la-cour-supreme-rejette-un-ultime-recours-de-donald-trump-contre-une-indemnisation-pour-agression-sexuelle_6748398_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/article/2026/08/17/affaire-e-jean-carroll-la-cour-supreme-rejette-un-ultime-recours-de-donald-trump-contre-une-indemnisation-pour-agression-sexuelle_6748398_3210.html",
       "sourceName": "Le Monde",
       "sourceDomain": "lemonde.fr",
       "sourceCountry": "FR",
@@ -1403,148 +1259,328 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-17T05:00:16Z",
+      "publishedAt": "2026-08-17T15:34:16Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/17/474/0/7184/3592/644/322/60/0/ccf0ab1_ftp-1-lb8cgoolpn8r-5860213-01-06.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7b2564ec05961fda1906",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.93202
+    },
+    {
+      "id": "6cb4c1a3814c1104339e8e8f",
+      "title": "La Côte d’Opale fait le plein, profitant de l’été caniculaire dans le reste de la France : « Wimereux va devenir comme Saint-Tropez ! »",
+      "translatedTitle": null,
+      "description": "La fréquentation du littoral du Pas-de-Calais et du Nord, avec ses immenses plages de sable fin et sa température dépassant rarement les 30 °C, est en nette progression par rapport à 2025.",
+      "url": "https://www.lemonde.fr/economie/article/2026/08/17/la-cote-d-opale-profite-de-la-quete-de-fraicheur-des-touristes-il-y-a-des-sudistes-qui-montent-ici_6748395_3234.html",
+      "canonicalUrl": "https://lemonde.fr/economie/article/2026/08/17/la-cote-d-opale-profite-de-la-quete-de-fraicheur-des-touristes-il-y-a-des-sudistes-qui-montent-ici_6748395_3234.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T15:20:40Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/17/612/0/6000/3000/644/322/60/0/c0173c4_upload-1-i4mikp0wm7ib-000-62zx8ct.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c429a4e499ac1d983695",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.90559
+    },
+    {
+      "id": "cf2d4feb49b95200b5a201f1",
+      "title": "Jean-Noël Barrot, ministre des affaires étrangères : « Le cas de Xenia Fedorova illustre la menace d’ingérence à laquelle nous sommes confrontés »",
+      "translatedTitle": null,
+      "description": "Après l’arrêté d’expulsion prononcé contre la propagandiste russe, fin juillet, le ministre rappelle, dans une tribune au « Monde », l’importance de faire la distinction entre l’opinion, qui cherche à convaincre, la manipulation de l’information, qui vise à tromper, et l’ingérence, dont l’objectif consiste à peser de l’extérieur sur notre liberté de choix.",
+      "url": "https://www.lemonde.fr/idees/article/2026/08/17/jean-noel-barrot-ministre-des-affaires-etrangeres-le-cas-de-xenia-fedorova-illustre-la-menace-d-ingerence-a-laquelle-nous-sommes-confrontes_6748361_3232.html",
+      "canonicalUrl": "https://lemonde.fr/idees/article/2026/08/17/jean-noel-barrot-ministre-des-affaires-etrangeres-le-cas-de-xenia-fedorova-illustre-la-menace-d-ingerence-a-laquelle-nous-sommes-confrontes_6748361_3232.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T14:54:18Z",
+      "imageUrl": "https://img.lemde.fr/2026/08/17/67/0/6000/3000/644/322/60/0/27991c3_upload-1-3mts2rcnbhde-000-b4ut9r4.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5fb9e9d1e02d18b9c7a6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.85529
+    },
+    {
+      "id": "e97ca275a36f55d5a3234a9f",
+      "title": "\"'Posture', c'est une maladresse\" : Laurent Nuñez répond aux accusations de \"mensonges\" portées par Mediapart sur la gestion des incendies",
+      "translatedTitle": null,
+      "description": "Le site d'investigation a eu accès à un enregistrement du ministre de l'Intérieur face aux syndicats de pompiers professionnels, dans lequel il évoque une \"posture\" concernant ses propos sur les moyens suffisants alloués par le gouvernement pour lutter contre les feux de forêt.",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/posture-c-est-une-maladresse-laurent-nunez-repond-aux-accusations-de-mensonges-portees-par-mediapart-sur-la-gestion-des-incendies_8151041.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/posture-c-est-une-maladresse-laurent-nunez-repond-aux-accusations-de-mensonges-portees-par-mediapart-sur-la-gestion-des-incendies_8151041.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T15:54:19Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/Oq0MohwViTuyO7TDSiEmpyCj2F8/0x80:1024x656/432x243/filters:format(jpg):quality(50)/2026/08/17/6a83234cdfc6e165024173.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "afab6a4a82c278548966",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.7916
+    },
+    {
+      "id": "cb4d7d3e7a8efdfb31facaaa",
+      "title": "Présidentielle 2027: pour Monique Barbut, ministre de l’écologie, Jean-Luc Mélenchon est le candidat « qui intègre le plus la question du climat dans ses propositions »",
+      "translatedTitle": null,
+      "description": "Après avoir annoncé sa démission en juillet pour protester contre l’adoption de la loi d’urgence agricole, Monique Barbut était finalement restée à son poste. Dans un entretien à « Libération », elle prend un peu plus ses distances par rapport au gouvernement.",
+      "url": "https://www.lemonde.fr/politique/article/2026/08/17/presidentielle-pour-monique-barbut-ministre-de-l-ecologie-jean-luc-melenchon-est-le-candidat-qui-integre-le-plus-la-question-du-climat-dans-ses-propositions_6748291_823448.html",
+      "canonicalUrl": "https://lemonde.fr/politique/article/2026/08/17/presidentielle-pour-monique-barbut-ministre-de-l-ecologie-jean-luc-melenchon-est-le-candidat-qui-integre-le-plus-la-question-du-climat-dans-ses-propositions_6748291_823448.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T14:17:30Z",
+      "imageUrl": "https://img.lemde.fr/2026/07/22/365/0/2044/1022/644/322/60/0/a8686cd_ftp-1-tgwqq4jmpxl9-2026-07-22t100111z-2011837528-rc2yimakzjbl-rtrmadp-3-france-politics.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f49e21b8e465950806dc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.78711
+    },
+    {
+      "id": "aa2ca2c0df159b7b7d145504",
+      "title": "\"Des éliminations ciblées à Gaza\" : les déclarations polémiques du ministre israélien Itamar Ben Gvir divisent la société israélienne et inquiètent la communauté internationale",
+      "translatedTitle": null,
+      "description": "Même si le ministre d'extrême droite appelle à \"descendre chaque nuit entre 30 ou 40\" Palestiniens, l'homme politique n'a aucune autorité sur l'armée israélienne.",
+      "url": "https://www.franceinfo.fr/monde/proche-orient/israel-palestine/des-eliminations-ciblees-a-gaza-les-declarations-polemiques-du-ministre-israelien-itamar-ben-gvir-divisent-la-societe-israelienne-et-inquietent-la-communaute-internationale_8151071.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/proche-orient/israel-palestine/des-eliminations-ciblees-a-gaza-les-declarations-polemiques-du-ministre-israelien-itamar-ben-gvir-divisent-la-societe-israelienne-et-inquietent-la-communaute-internationale_8151071.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T15:46:39Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/7gjK3O9IF5yEis4RPlp4Q21O-HQ/0x177:4000x2427/432x243/filters:format(jpg):quality(50)/2026/08/17/6a8321928b983809390380.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e08ba9baad3264b69d79",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.77638
+    },
+    {
+      "id": "0d6baf3b5412a24e64e0f7fa",
+      "title": "Que faut-il faire si vos données fiscales sont concernées par le piratage du système d'information de la DGFiP ?",
+      "translatedTitle": null,
+      "description": "Les Français victimes du piratage du système informatique de la DGFiP vont être informés par courrier à partir de lundi. Franceinfo a interrogé des spécialistes de la cybersécurité qui nous livrent leur conseils pour mieux se protéger.",
+      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/que-faut-il-faire-si-vos-donnees-fiscales-sont-concernees-par-le-piratage-du-systeme-d-information-de-la-dgfip_8150648.html",
+      "canonicalUrl": "https://franceinfo.fr/internet/securite-sur-internet/cyberattaques/que-faut-il-faire-si-vos-donnees-fiscales-sont-concernees-par-le-piratage-du-systeme-d-information-de-la-dgfip_8150648.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T15:32:01Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/lUI-9oTdYuKct8ZEslCIgzkvqBY/0x285:5472x3363/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82eff27467a881570124.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ca892418d375b58cc104",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.74762
+    },
+    {
+      "id": "aa71ea8f365e2a0f6751ca59",
+      "title": "Crise à la Fifa : nouveau camouflet pour Gianni Infantino, la Fédération écossaise lui retire son soutien",
+      "translatedTitle": null,
+      "description": "À sept mois de l’élection du président de la Fifa, la Fédération écossaise a officiellement retiré son soutien à Gianni Infantino, «une ligne maintenue tout du long».",
+      "url": "https://www.lefigaro.fr/sports/football/crise-a-la-fifa-nouveau-camouflet-pour-gianni-infantino-la-federation-ecossaise-lui-retire-son-soutien-20260817",
+      "canonicalUrl": "https://lefigaro.fr/sports/football/crise-a-la-fifa-nouveau-camouflet-pour-gianni-infantino-la-federation-ecossaise-lui-retire-son-soutien-20260817",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T16:14:22Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x2069_crop/2026/08/17/49dff341d5ae2c56db2af047bc59f19b13e43a6acec6deea6c93ccf2844b4069.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "41cf2c6ff97af9deb987",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.74191
+    },
+    {
+      "id": "f997ddbd26d6b975219fd611",
+      "title": "Le numéro d’appel du Samu, le 15, en panne en Franche-Comté",
+      "translatedTitle": null,
+      "description": "La population est invitée à appeler le 18 ou le 112 en cas d’urgence vitale, a annoncé le CHU de Besançon.",
+      "url": "https://www.lefigaro.fr/social/le-numero-d-appel-du-samu-le-15-en-panne-en-franche-comte-20260817",
+      "canonicalUrl": "https://lefigaro.fr/social/le-numero-d-appel-du-samu-le-15-en-panne-en-franche-comte-20260817",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T16:09:53Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/08/17/c1d82921fc7165c06d7dc552b0b066f5a80c8cb8e6dd68f251e69a6a1cc20228.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1c0317863abece0aa5d2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.73283
+    },
+    {
+      "id": "05f8b4cb640e8ae97787c3ba",
+      "title": "Piratage du fisc : les hackers affirment qu'ils ont déjà vendu les données dérobées",
+      "translatedTitle": null,
+      "description": "Les fichiers ont été vendus pour \"quelques milliers\" d'euros à deux personnes, a appris franceinfo lundi auprès de ZeroBytes, alors que se tient au même moment une réunion de crise interministérielle.",
+      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/les-pirates-du-fisc-affirment-qu-ils-ont-deja-vendu-les-donnees-derobees_8151140.html",
+      "canonicalUrl": "https://franceinfo.fr/internet/securite-sur-internet/cyberattaques/les-pirates-du-fisc-affirment-qu-ils-ont-deja-vendu-les-donnees-derobees_8151140.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T15:20:30Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/6h8BjqR0e6zTTGAV69xmALFPGUc/0x18:1024x594/432x243/filters:format(jpg):quality(50)/2026/08/17/6a8324a50f5de199982861.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d40036e86802f0ae24fe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.72527
+    },
+    {
+      "id": "95678d6a6c68b832ad5b3b41",
+      "title": "Aide à mourir : « La liberté de refus d’un établissement privé pourrait rendre illusoire l’exercice d’un droit de la personne en fin de vie »",
+      "translatedTitle": null,
+      "description": "En reconnaissant le principe d’une clause de conscience collective dans sa décision du 14 août, le Conseil constitutionnel a tracé une limite, sans écrire le mode d’emploi, estime un collectif de militants du droit à l’aide à mourir, dans une tribune au « Monde ».",
+      "url": "https://www.lemonde.fr/idees/article/2026/08/17/aide-a-mourir-la-liberte-de-refus-d-un-etablissement-prive-pourrait-rendre-illusoire-l-exercice-d-un-droit-de-la-personne-en-fin-de-vie_6748223_3232.html",
+      "canonicalUrl": "https://lemonde.fr/idees/article/2026/08/17/aide-a-mourir-la-liberte-de-refus-d-un-etablissement-prive-pourrait-rendre-illusoire-l-exercice-d-un-droit-de-la-personne-en-fin-de-vie_6748223_3232.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T13:30:06Z",
       "imageUrl": "https://img.lemde.fr/2026/02/25/125/0/1500/750/644/322/60/0/16725db_upload-1-fstl8ibx7rsh-frame-895.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e5539fba7fbbba5bcb7d",
+      "clusterId": "f0dec013acd19c379c71",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.28669,
-      "related": []
+      "related": [],
+      "rankingScore": 5.70264
     },
     {
-      "id": "a190f3781433c9fda945ecdd",
-      "title": "\"Ça fait plaisir de rentrer à la maison\" : dans les Landes, l'incendie fixé permet à la moitié des habitants évacués de rentrer",
+      "id": "25a04953192c136c94ba4cb1",
+      "title": "Un homme a généré 7000 images pédopornographiques de sa belle-fille grâce à l’IA d’Elon Musk, Grok",
       "translatedTitle": null,
-      "description": "Quelque 250 personnes ont la permission de regagner leur domicile dans les commune de Garein et de Luglon, où le feu s'est déclaré, tandis que 400 autres attendent le feu vert de la préfecture.",
-      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/temoignages-ca-fait-plaisir-de-rentrer-a-la-maison-dans-les-landes-certains-habitants-evacues-a-cause-de-l-incendie-peuvent-rentrer_8150570.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/temoignages-ca-fait-plaisir-de-rentrer-a-la-maison-dans-les-landes-certains-habitants-evacues-a-cause-de-l-incendie-peuvent-rentrer_8150570.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T07:03:05Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/1AK6vIp_wBX8lK8bggTZabkE7Dw/0x362:6960x4277/432x243/filters:format(jpg):quality(50)/2026/08/17/6a829d46e83ce422870878.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c36efe442132ac9c9f61",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.28333,
-      "related": []
-    },
-    {
-      "id": "ecd110eaf05fd3dba92ad919",
-      "title": "Piratage du fisc : quels sont les risques pour les contribuables concernés ?",
-      "translatedTitle": null,
-      "description": "Ce lundi 17 août, nombre contribuables vont enfin savoir si leurs données d'impôts ont été piratées. Les autorités doivent contacter individuellement chaque victime : au total, 678 000 particuliers et professionnels sont concernés. Le Premier ministre présidera dans l'après-midi une cellule interministérielle de crise. La section cyber du parquet de Paris a ouvert une enquête.",
-      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/piratage-du-fisc-quels-sont-les-risques-pour-les-contribuables-concernes_8150696.html",
-      "canonicalUrl": "https://franceinfo.fr/internet/securite-sur-internet/cyberattaques/piratage-du-fisc-quels-sont-les-risques-pour-les-contribuables-concernes_8150696.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T07:59:06Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/vP3o0DyvR7JwxSF89M1NRbdCU4U/0x6:1415x802/432x243/filters:format(jpg):quality(50)/2026/08/17/6a82bf151e3c0417619958.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T08:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5cc29bdc86c529040cd3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.28082,
-      "related": []
-    },
-    {
-      "id": "e6135f864e43fd6ef18284b4",
-      "title": "La France a-t-elle donné de l'argent à la protection civile en Tunisie au lieu d'acheter deux Canadair ?",
-      "translatedTitle": null,
-      "description": "Selon la vice-présidente du RN, Edwige Diaz, Gabriel Attal a ôté 50 millions d'euros sur le budget de la Sécurité civile en France et donné autant à la Protection civile en Tunisie, quand il était Premier ministre. C'est faux, la France n'a jamais donné cette somme. C'est un prêt de l'Agence française de Développement.",
-      "url": "https://www.franceinfo.fr/replay-radio/le-vrai-du-faux/la-france-a-t-elle-donne-de-l-argent-a-la-protection-civile-en-tunisie-au-lieu-d-acheter-deux-canadair_8070440.html",
-      "canonicalUrl": "https://franceinfo.fr/replay-radio/le-vrai-du-faux/la-france-a-t-elle-donne-de-l-argent-a-la-protection-civile-en-tunisie-au-lieu-d-acheter-deux-canadair_8070440.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T06:50:17Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/1_ISRu3NHkj8hZF8T27Efs2xeeU/0x192:7557x4442/432x243/filters:format(jpg):quality(50)/2026/08/16/6a81c66644edb115885415.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9e6269d1f5f3e28c43c9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.26397,
-      "related": []
-    },
-    {
-      "id": "c9729439ea4b74670322fe1e",
-      "title": "La fréquentation touristique en Gironde a baissé de moitié depuis fin juillet et le gigantesque incendie qui a touché le département",
-      "translatedTitle": null,
-      "description": "Le Premier ministre Sébastien Lecornu est sur place, lundi, pour lancer la reconstruction des communes touchées par le mégafeu qui a dévasté une partie de la Gironde en juillet.",
-      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/apres-l-incendie-en-gironde-la-frequentation-touristique-a-baisse-de-moitie-depuis-fin-juillet-dans-le-departement_8150066.html",
-      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/apres-l-incendie-en-gironde-la-frequentation-touristique-a-baisse-de-moitie-depuis-fin-juillet-dans-le-departement_8150066.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T06:46:29Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/_5gEEhB97RXl1sdk2a6_RHofX2g/0x0:1024x576/1500x843/2026/08/07/6a756da149eb5515604689.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e55d0770bd8085073a72",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.25827,
-      "related": []
-    },
-    {
-      "id": "d5e5c4f646cd7117b263ac55",
-      "title": "Tupac Shakur : début des débats au procès d’un ex-membre de gang accusé d’avoir commandité le meurtre du rappeur",
-      "translatedTitle": null,
-      "description": "Duane « Keffe D » Davis, 63 ans, plaide non coupable et risque la perpétuité incompressible. L’accusation espère démontrer qu’il a orchestré la mort de la légende du hip-hop il y a trente ans.",
-      "url": "https://www.lefigaro.fr/culture/tupac-shakur-debut-des-debats-au-proces-d-un-ex-membre-de-gang-accuse-d-avoir-commandite-le-meurtre-du-rappeur-20260817",
-      "canonicalUrl": "https://lefigaro.fr/culture/tupac-shakur-debut-des-debats-au-proces-d-un-ex-membre-de-gang-accuse-d-avoir-commandite-le-meurtre-du-rappeur-20260817",
+      "description": "Selon le Washington Post, une jeune femme du Wyoming a rejoint une plainte fédérale contre xAI, relançant le débat sur les dérives des IA génératives et leurs conséquences juridiques.",
+      "url": "https://www.lefigaro.fr/societes/un-homme-a-genere-7000-images-pedopornographiques-de-sa-belle-fille-grace-a-l-ia-d-elon-musk-grok-20260817",
+      "canonicalUrl": "https://lefigaro.fr/societes/un-homme-a-genere-7000-images-pedopornographiques-de-sa-belle-fille-grace-a-l-ia-d-elon-musk-grok-20260817",
       "sourceName": "Le Figaro",
       "sourceDomain": "lefigaro.fr",
       "sourceCountry": "FR",
@@ -1553,148 +1589,58 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-17T07:44:30Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/2849x1603_crop/2026/08/17/8e1e649da1e4828020bf2dd81e7c527146fda1b0bb2cc1f62bfa21662b091f1f.jpg",
+      "publishedAt": "2026-08-17T15:41:22Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/08/17/f05ea4a033f14124cbbe3c843dfaf15bb5dd2976feff66fb824e44578fbb1ac1.JPG",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T08:18:04Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b0b1aa3e0fcf9caca6d0",
+      "clusterId": "29bd39f6662a675bc712",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.25758,
-      "related": []
+      "related": [],
+      "rankingScore": 5.67595
     },
     {
-      "id": "aa36a6627532d804b5949f3c",
-      "title": "Piratage des données du fisc : ces menaces qui pèsent désormais sur les particuliers et les entreprises",
+      "id": "43137f97b09bc031b48430ea",
+      "title": "A new generation of Catalans tries to rekindle the independence movement",
       "translatedTitle": null,
-      "description": "678.000 personnes ont vu des données sensibles piratées puis mises en vente sur internet. L’administration fiscale appelle les personnes touchées à la prudence. Quelles sont les bonnes pratiques pour se protéger ?",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/piratage-des-donnees-du-fisc-ces-menaces-qui-pesent-desormais-sur-les-particuliers-et-les-entreprises-20260815",
-      "canonicalUrl": "https://lefigaro.fr/secteur/high-tech/piratage-des-donnees-du-fisc-ces-menaces-qui-pesent-desormais-sur-les-particuliers-et-les-entreprises-20260815",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
+      "description": "Nearly 10 years after the attempted referendum on Catalan independence which led to violent clashes between the public and the police, the political demands of the independence movement have not been met. ENTR travelled to Catalonia in June to meet with young people there who are continuing the fight to preserve Catalan identity – not with politics, but with culture.",
+      "url": "https://www.france24.com/en/europe/20260817-new-generation-catalans-tries-rekindle-independence-movement",
+      "canonicalUrl": "https://france24.com/en/europe/20260817-new-generation-catalans-tries-rekindle-independence-movement",
+      "sourceName": "France 24",
+      "sourceDomain": "s.france24.com",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T07:34:19Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/08/16/00bbd50dee57950b175fb9ff395ad5864d273943c157d0d666c0bc26b8d91e77.jpg",
+      "language": "en",
+      "publishedAt": "2026-08-17T13:53:35Z",
+      "imageUrl": "https://s.france24.com/media/display/0031c4a8-9583-11f1-a21e-005056bfb2b6/w:1024/p:16x9/TN-CATALOGNE-PROTA-CLEAN.png",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T12:18:06Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "2f1a613b229ff0a11036",
+      "clusterId": "58d04791c143ef2e14f8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.24155,
-      "related": []
+      "related": [],
+      "rankingScore": 5.65403
     },
     {
-      "id": "76e7982db2b7881740b53378",
-      "title": "Lens-PSG : les valeurs lensoises, Bollaert en feu, les recrues parisiennes un ton en dessous... Coups de cœur et coups de griffe",
+      "id": "18215719a1984e7b21be961f",
+      "title": "Colis, repas… Ces robots autonomes vont pouvoir livrer en France",
       "translatedTitle": null,
-      "description": "Au-delà du résultat final et de la victoire lensoise sur le Paris-SG, découvrez ce qui a retenu l’attention de notre envoyé spécial à Lens pour le Trophée des champions.",
-      "url": "https://www.lefigaro.fr/sports/football/ligue-1/lens-psg-les-valeurs-lensoises-bollaert-en-feu-les-recrues-parisiennes-un-ton-en-dessous-coups-de-coeur-et-coups-de-griffe-20260817",
-      "canonicalUrl": "https://lefigaro.fr/sports/football/ligue-1/lens-psg-les-valeurs-lensoises-bollaert-en-feu-les-recrues-parisiennes-un-ton-en-dessous-coups-de-coeur-et-coups-de-griffe-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T07:30:00Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/08/17/9d81f2aa59c3df9f996d4ce5678f6065c80bcfe327c8d33ba890c22404deefb0.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T08:18:04Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "26169990460e663bb932",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.23481,
-      "related": []
-    },
-    {
-      "id": "99e25a4f9e8c7b928f0a1fd9",
-      "title": "Récompenser les meilleurs, licencier les pires, secouer les autres : la méthode de management sans concession de Jack Welch, ancien patron de General Electric",
-      "translatedTitle": null,
-      "description": "Celui qui a supervisé le conglomérat américain pendant deux décennies était réputé pour ne pas mâcher ses mots. Surnommé «Neutron Jack» pour sa capacité à licencier des salariés, il avait élaboré une méthode en trois étapes.",
-      "url": "https://www.lefigaro.fr/vie-professionnelle/recompenser-les-meilleurs-licencier-les-pires-secouer-les-autres-la-methode-de-management-sans-concession-de-jack-welch-ancien-patron-de-general-electric-20260817",
-      "canonicalUrl": "https://lefigaro.fr/vie-professionnelle/recompenser-les-meilleurs-licencier-les-pires-secouer-les-autres-la-methode-de-management-sans-concession-de-jack-welch-ancien-patron-de-general-electric-20260817",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T07:27:00Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2052_crop/2026/08/14/1ec9e3f96bbd4807baa32d293dd403ee2cc3da91262476546887b8df8ea7f91a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T08:18:04Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "74f296505535075373eb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.23013,
-      "related": []
-    },
-    {
-      "id": "db2754f5c69433a6212a8108",
-      "title": "Incendie dans les Landes : la carte du feu de forêt en cours près de Mont-de-Marsan",
-      "translatedTitle": null,
-      "description": "CARTE – L’incendie qui sévit dans la région landaise depuis jeudi soir a détruit 1700 hectares. Visualisez les zones touchées et l’évolution de la situation grâce à notre carte en direct.",
-      "url": "https://www.lefigaro.fr/actualite-france/incendie-dans-les-landes-la-carte-du-feu-de-foret-en-cours-pres-de-mont-de-marsan-20260814",
-      "canonicalUrl": "https://lefigaro.fr/actualite-france/incendie-dans-les-landes-la-carte-du-feu-de-foret-en-cours-pres-de-mont-de-marsan-20260814",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-08-17T07:26:15Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/08/14/386c3a8bfd0e53be3bb672bbff0b65e6923a1be666dc86b10675d2b968fb460d.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-17T08:18:04Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "09e3897c926e058018d9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.22897,
-      "related": []
-    },
-    {
-      "id": "0084f123363d33239c4a247b",
-      "title": "\"Ils nous traitent comme des animaux\" : le gouvernement américain prévoit d'équiper les policiers de l'ICE avec des gants électriques",
-      "translatedTitle": null,
-      "description": "Le projet d'équiper les policiers américains de l'immigration de gants à impulsion électrique a provoqué une vague d'inquiétudes aux Etats-Unis. Beaucoup craignent des abus de la part d'une force de police critiquée pour sa violence et son manque d'expérience.",
-      "url": "https://www.franceinfo.fr/monde/usa/police-de-l-immigration-americaine/ils-nous-traitent-comme-des-animaux-le-gouvernement-americain-prevoit-d-equiper-les-policiers-de-l-ice-avec-des-gants-electriques_8150330.html",
-      "canonicalUrl": "https://franceinfo.fr/monde/usa/police-de-l-immigration-americaine/ils-nous-traitent-comme-des-animaux-le-gouvernement-americain-prevoit-d-equiper-les-policiers-de-l-ice-avec-des-gants-electriques_8150330.html",
+      "description": "Votre colis ou votre repas livré par un robot... C'est désormais possible en France. Le gouvernement vient d'autoriser la mise en circulation des véhicules de livraison autonomes, une technologie déjà développée aux Etats-Unis ou au Royaume-Uni, où les piétons ont désormais l'habitude de partager la chaussée avec ces drôles d'engins.",
+      "url": "https://www.franceinfo.fr/internet/colis-repas-ces-robots-autonomes-vont-pouvoir-livrer-en-france_8151110.html",
+      "canonicalUrl": "https://franceinfo.fr/internet/colis-repas-ces-robots-autonomes-vont-pouvoir-livrer-en-france_8151110.html",
       "sourceName": "Franceinfo",
       "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
@@ -1703,20 +1649,170 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-08-17T07:14:56Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/w6JXgTs_6s_TDhNeZidqN0__1KY/0x80:6549x3763/432x243/filters:format(jpg):quality(50)/2026/04/11/69da71be4d4b3576279871.jpg",
+      "publishedAt": "2026-08-17T14:41:16Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/jq12sBHCygTbtZd4XHEFGf9oIEs/0x20:793x467/432x243/filters:format(jpg):quality(50)/2026/08/17/6a831c56e9fad256874424.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-17T08:18:05Z",
+      "retrievedAt": "2026-08-17T16:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "274a88d788820ded22fd",
+      "clusterId": "a6584710968ac3bf7ef9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.21146,
-      "related": []
+      "related": [],
+      "rankingScore": 5.65088
+    },
+    {
+      "id": "1162ec4e9e0ce9d8749b82ed",
+      "title": "L'aide de l'État dans la campagne de communication pour soutenir le tourisme en Gironde après l'incendie va permettre de toucher \"l'international\", assure le comité régional du tourisme",
+      "translatedTitle": null,
+      "description": "Ce plan devrait permettre de relancer le tourisme dans le département fortement touché après le feu qui a ravagé 42 000 hectares dans la région.",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/l-aide-de-l-etat-dans-la-campagne-de-communication-pour-soutenir-le-tourisme-en-gironde-apres-l-incendie-va-permettre-de-toucher-l-international-assure-le-comite-regional-du-tourisme-de-nouvelle-aquitaine_8151125.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/l-aide-de-l-etat-dans-la-campagne-de-communication-pour-soutenir-le-tourisme-en-gironde-apres-l-incendie-va-permettre-de-toucher-l-international-assure-le-comite-regional-du-tourisme-de-nouvelle-aquitaine_8151125.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T14:38:07Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/hkPGDp1F1_mIQZsRmHfqcEYE19Q/0x18:1600x918/432x243/filters:format(jpg):quality(50)/2026/07/28/6a68f21de0055092200971.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3e62cf3cf19749530725",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.64502
+    },
+    {
+      "id": "f1219265f5e1c5de793ae05c",
+      "title": "«Tout le monde lui faisait confiance aveuglément» : un ancien prêtre parisien mis en examen pour viols sur mineur",
+      "translatedTitle": null,
+      "description": "INFO LE FIGARO - Âgé de 81 ans, Francis B. est accusé d’abus sexuels sur des mineurs, notamment lors de camps de louveteaux ou à l’occasion des journées mondiales de la jeunesse. Une victime livre son témoignage au Figaro.",
+      "url": "https://www.lefigaro.fr/faits-divers/tout-le-monde-lui-faisait-confiance-aveuglement-un-ancien-pretre-parisien-mis-en-examen-pour-viols-sur-mineur-20260817",
+      "canonicalUrl": "https://lefigaro.fr/faits-divers/tout-le-monde-lui-faisait-confiance-aveuglement-un-ancien-pretre-parisien-mis-en-examen-pour-viols-sur-mineur-20260817",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T15:21:46Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/08/17/e85377f1569f77e2bc1f2abeb978026d90f08fc7c83035c5ac752e2b00cd6179.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5ab9e5ff2cec4a2624c7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.63772
+    },
+    {
+      "id": "602b6d6bef8228059636b73e",
+      "title": "Pour lutter contre les incendies, le projet d'une base aérienne à Mont-de-Marsan est de nouveau à l'étude, annonce Laurent Nuñez",
+      "translatedTitle": null,
+      "description": "Lors d'une conférence de presse aux côtés de Sébastien Lecornu, le ministre de l'Intérieur a défendu lundi le choix du gouvernement, au printemps 2025, de renoncer à ce projet dans les Landes.",
+      "url": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/pour-lutter-contre-les-incendies-le-projet-d-une-base-aerienne-a-mont-de-marsan-est-de-nouveau-a-l-etude-annonce-laurent-nunez_8151098.html",
+      "canonicalUrl": "https://franceinfo.fr/environnement/evenements-meteorologiques-extremes/incendies-et-feux-de-foret/incendies-en-gironde/pour-lutter-contre-les-incendies-le-projet-d-une-base-aerienne-a-mont-de-marsan-est-de-nouveau-a-l-etude-annonce-laurent-nunez_8151098.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T14:24:37Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/iP1rSFaolByeMNChsYU9sWCEX7Q/0x32:1024x608/432x243/filters:format(jpg):quality(50)/2026/08/17/6a8318b537127399575132.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2f3df6f20515720651a6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.62011
+    },
+    {
+      "id": "db8767e1afeb37984754a6cc",
+      "title": "Sicilian museum hit by €80 million art theft",
+      "translatedTitle": null,
+      "description": "Three works by Renaissance painter Antonello da Messina, valued at up to €80 million, were stolen from a museum in Messina, Sicily. Police are investigating the theft, which comes days after Italian authorities recovered three stolen works by Cézanne, Renoir and Matisse.",
+      "url": "https://www.france24.com/en/video/20260817-sicilian-museum-hit-by-%E2%82%AC80-million-art-theft",
+      "canonicalUrl": "https://france24.com/en/video/20260817-sicilian-museum-hit-by-%E2%82%AC80-million-art-theft",
+      "sourceName": "France 24",
+      "sourceDomain": "france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-17T13:20:15Z",
+      "imageUrl": "https://s.france24.com/media/display/df1496f4-9a39-11f1-a1b5-005056a90284/w:1024/p:16x9/EN-20260817-132601-132730-CS.jpg",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "814753377bcce6f2e58a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.59555
+    },
+    {
+      "id": "9a3bb19c75e6f76e0c2d1218",
+      "title": "« J’opte pour une cérémonie funéraire et fais appel à des comédiens pour la mettre en scène » : le pot de départ créatif de Christine pour enterrer sa société d’urbanisme culturel",
+      "translatedTitle": null,
+      "description": "« Bon vent ! » (13/18). Quand elle apprend la liquidation de sa structure, Christine Milleron, 43 ans, urbaniste culturelle, est sous le choc. Elle décide alors d’organiser un pot de départ « funéraire ».",
+      "url": "https://www.lemonde.fr/intimites/article/2026/08/17/j-opte-pour-une-ceremonie-funeraire-et-fais-appel-a-des-comediens-pour-la-mettre-en-scene-le-pot-de-depart-creatif-de-christine-pour-enterrer-sa-societe-d-urbanisme-culturel_6748215_6190330.html",
+      "canonicalUrl": "https://lemonde.fr/intimites/article/2026/08/17/j-opte-pour-une-ceremonie-funeraire-et-fais-appel-a-des-comediens-pour-la-mettre-en-scene-le-pot-de-depart-creatif-de-christine-pour-enterrer-sa-societe-d-urbanisme-culturel_6748215_6190330.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-08-17T12:24:49Z",
+      "imageUrl": "https://img.lemde.fr/2026/06/25/125/0/1500/750/644/322/60/0/35d4b59_upload-1-jr12f1pkstmi-ftanet-lemonde-potdedepart-ho-18.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-17T16:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "915a1efca3db9fd7d0a3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.59221
     }
   ]
 }
