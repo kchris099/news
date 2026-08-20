@@ -4,22 +4,22 @@
   "countryName": "South Korea",
   "timeZone": "Asia/Seoul",
   "date": "2026-08-21",
-  "generatedAt": "2026-08-20T16:18:30Z",
-  "lastAttemptAt": "2026-08-20T16:18:30Z",
-  "lastSuccessfulUpdate": "2026-08-20T16:18:30Z",
-  "status": "current",
+  "generatedAt": "2026-08-20T20:18:33Z",
+  "lastAttemptAt": "2026-08-20T20:18:33Z",
+  "lastSuccessfulUpdate": "2026-08-20T20:18:33Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 19,
-  "publisherCount": 2,
+  "articleCount": 45,
+  "publisherCount": 3,
   "sourceHealth": [
     {
       "sourceId": "yonhap-en",
       "sourceName": "Yonhap News Agency",
       "status": "success",
-      "lastAttemptAt": "2026-08-20T16:18:25Z",
-      "lastSuccessAt": "2026-08-20T16:18:26Z",
+      "lastAttemptAt": "2026-08-20T20:18:30Z",
+      "lastSuccessAt": "2026-08-20T20:18:32Z",
       "articlesRetrieved": 103,
-      "responseTimeMs": 1601,
+      "responseTimeMs": 1564,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "korea-herald",
       "sourceName": "The Korea Herald",
       "status": "success",
-      "lastAttemptAt": "2026-08-20T16:18:25Z",
-      "lastSuccessAt": "2026-08-20T16:18:26Z",
+      "lastAttemptAt": "2026-08-20T20:18:30Z",
+      "lastSuccessAt": "2026-08-20T20:18:31Z",
       "articlesRetrieved": 0,
-      "responseTimeMs": 1102,
+      "responseTimeMs": 770,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "korea-times",
       "sourceName": "The Korea Times",
       "status": "success",
-      "lastAttemptAt": "2026-08-20T16:18:25Z",
-      "lastSuccessAt": "2026-08-20T16:18:28Z",
+      "lastAttemptAt": "2026-08-20T20:18:30Z",
+      "lastSuccessAt": "2026-08-20T20:18:32Z",
       "articlesRetrieved": 2,
-      "responseTimeMs": 3034,
+      "responseTimeMs": 1860,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,10 +49,10 @@
       "sourceId": "yna-ko",
       "sourceName": "Yonhap News Agency (Korean)",
       "status": "success",
-      "lastAttemptAt": "2026-08-20T16:18:25Z",
-      "lastSuccessAt": "2026-08-20T16:18:27Z",
+      "lastAttemptAt": "2026-08-20T20:18:30Z",
+      "lastSuccessAt": "2026-08-20T20:18:32Z",
       "articlesRetrieved": 120,
-      "responseTimeMs": 1856,
+      "responseTimeMs": 1608,
       "errorType": null,
       "errorMessage": null
     },
@@ -60,26 +60,56 @@
       "sourceId": "kbs-world-news",
       "sourceName": "KBS News",
       "status": "success",
-      "lastAttemptAt": "2026-08-20T16:18:25Z",
-      "lastSuccessAt": "2026-08-20T16:18:25Z",
+      "lastAttemptAt": "2026-08-20T20:18:30Z",
+      "lastSuccessAt": "2026-08-20T20:18:32Z",
       "articlesRetrieved": 30,
-      "responseTimeMs": 648,
+      "responseTimeMs": 1190,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "sbs-headline",
       "sourceName": "SBS News",
-      "status": "success",
-      "lastAttemptAt": "2026-08-20T16:18:25Z",
-      "lastSuccessAt": "2026-08-20T16:18:26Z",
-      "articlesRetrieved": 15,
-      "responseTimeMs": 1146,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-08-20T20:18:30Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '403 Forbidden' for url 'https://news.sbs.co.kr/news/headlineRssFeed.do?plink=RSSREADER' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/"
     }
   ],
   "articles": [
+    {
+      "id": "7a3d40db3ce433724721e3d9",
+      "title": "U.S. military says it is aware of N.K. missile launches, reaffirms defense commitment to allies",
+      "translatedTitle": null,
+      "description": "WASHINGTON, May 26 (Yonhap) -- The U.S. military said Thursday that it is aware ...",
+      "url": "https://en.yna.co.kr/view/AEN20260821000400315",
+      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260821000400315",
+      "sourceName": "Yonhap News Agency",
+      "sourceDomain": "en.yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-20T19:57:55Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/EN/2026/08/21/AEN20260821000400315_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bc3bffa36b2b8c6f7775",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.67836
+    },
     {
       "id": "52bee8987608314072af92b0",
       "title": "Lee meets SK chairman for possible discussion on chip projects: sources",
@@ -95,50 +125,80 @@
         "KR"
       ],
       "language": "en",
-      "publishedAt": "2026-08-20T16:17:03Z",
+      "publishedAt": "2026-08-20T20:17:03Z",
       "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/21/2ebd3588-77dd-451a-ab3a-011a99081bc8.png",
       "imageAlt": null,
       "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:28Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "7a2e4a36f30f0e86831f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.44704
+      "rankingScore": 7.44694,
+      "related": []
     },
     {
-      "id": "e0088d424ac74d02c6ec5028",
-      "title": "美 \"우리편이냐 맞설거냐\"…'이란경제 붕괴' 동맹 동참 압박",
+      "id": "396692df5422bd6689c16740",
+      "title": "Bessent urges U.S. allies to join economic pressure campaign on Iran",
       "translatedTitle": null,
-      "description": "(워싱턴=연합뉴스) 백나리 특파원 = 스콧 베선트 미국 재무장관은 20일(현지시간) 이란 정권의 붕괴를 겨냥한 대대적 경제 압박에 나서겠다면서 ...",
-      "url": "https://www.yna.co.kr/view/AKR20260821002500071",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260821002500071",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
+      "description": "WASHINGTON, Aug. 20 (Yonhap) -- U.S. Treasury Secretary Scott Bessent on Thursda...",
+      "url": "https://en.yna.co.kr/view/AEN20260821000300315",
+      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260821000300315",
+      "sourceName": "Yonhap News Agency",
+      "sourceDomain": "en.yna.co.kr",
       "sourceCountry": "KR",
       "editionCountry": "KR",
       "coverageCountries": [
         "KR"
       ],
-      "language": "ko",
-      "publishedAt": "2026-08-20T16:10:46Z",
-      "imageUrl": "https://img.yna.co.kr/photo/etc/epa/2026/08/21/PEP20260821012101009_P2.jpg",
+      "language": "en",
+      "publishedAt": "2026-08-20T19:53:12Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/epa/2026/08/21/PEP20260821015301009_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "75e4be0936d17e6f0dd1",
+      "clusterId": "69da37b5ade36ec9836f",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.3543
+      "rankingScore": 7.31896
+    },
+    {
+      "id": "2bcfbf657a390d8e3a83b9df",
+      "title": "(News Focus) Questions grow over Trump's commitment to N. Korea denuclearization goal",
+      "translatedTitle": null,
+      "description": "WASHINGTON, Aug. 20 (Yonhap) -- As North Korea hews to its growing nuclear arsen...",
+      "url": "https://en.yna.co.kr/view/AEN20260821000200315",
+      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260821000200315",
+      "sourceName": "Yonhap News Agency",
+      "sourceDomain": "en.yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-20T19:28:50Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/af/2026/08/20/PAF20260820027301009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e36ac325b414dc20698c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.27101
     },
     {
       "id": "1c1febcf2876e072e88bc96a",
@@ -155,20 +215,830 @@
         "KR"
       ],
       "language": "en",
-      "publishedAt": "2026-08-20T16:17:03Z",
+      "publishedAt": "2026-08-20T20:17:03Z",
       "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/19/544cc4a5-2a50-418a-a897-f3cbd149e2bc.jpeg",
       "imageAlt": null,
       "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:28Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "040b8ce07de2b3a2f75c",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.09694,
+      "related": []
+    },
+    {
+      "id": "217f84bf0dd73d5f6f41d77d",
+      "title": "美항모 중동서 '교대'…워싱턴함 작전 개시·링컨함 귀항길(종합)",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 백나리 이유미 특파원 = 미국의 핵추진 항공모함 조지 워싱턴함이 20일(현지시간) 중동에 도착해 작전을 개시하고, 9개월간 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260820188051071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260820188051071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T20:11:43Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/20/AKR20260820188051071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0723feaa1082282825f3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.09704
+      "rankingScore": 6.00612
+    },
+    {
+      "id": "a72e759be9431688bf8d2900",
+      "title": "뉴욕증시, 美국채 금리 반등에 일제히 하락…다우 1.3%↓",
+      "translatedTitle": null,
+      "description": "(뉴욕=연합뉴스) 김연숙 특파원 = 20일(현지시간) 미국 뉴욕증시는 미 국채 금리가 다시 상승하고 유통 거물 월마트의 실적 부진 여파가 겹치면...",
+      "url": "https://www.yna.co.kr/view/AKR20260821007700072",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821007700072",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T20:09:31Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/epa/2026/08/17/PEP20260817185501009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "20799850bdd0ec4c7aff",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.00167
+    },
+    {
+      "id": "1f41c76689ec859e6fd06c5b",
+      "title": "절박한 트럼프, 11월 중간선거 전 북미대화 재개 성과 서두르나",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 백나리 특파원 = 도널드 트럼프 미국 대통령이 연내 북미대화 재개에 대한 의지를 확인하면서 11월 초 중간선거 이전에 외교적...",
+      "url": "https://www.yna.co.kr/view/AKR20260821007200071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821007200071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T20:08:16Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821007200071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1dea48d460cc47c16eca",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.99914
+    },
+    {
+      "id": "26a4563c8dc3ba4a8605ba89",
+      "title": "김민석, 오늘 강릉서 최고위 회의…지역 민심 청취",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 안정훈 기자 = 더불어민주당 김민석 대표는 21일 강원도 강릉을 찾아 지역 민심 청취 행보를 이어간다.",
+      "url": "https://www.yna.co.kr/view/AKR20260820167600001",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260820167600001",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T20:00:05Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/19/PYH2026081903800005100_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3f8dd2de9e2a26af0c4a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.9827
+    },
+    {
+      "id": "a41063c3bb732547c7035b8e",
+      "title": "美, 트럼프 대화손짓 후 北 미사일에 \"美본토·동맹 방어 전념\"",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 박성민 특파원 = 미군은 20일(현지시간) 북한의 탄도미사일 도발에 대해 \"현재 평가에 따르면, 이러한 사건들은 미국 인력이...",
+      "url": "https://www.yna.co.kr/view/AKR20260821007100071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821007100071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T20:00:04Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082022950001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3e6cb01e446504e2e321",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.98266
+    },
+    {
+      "id": "4b154d7f3846ff31e127a3b3",
+      "title": "[사이테크+] \"태양광 발전 확대 정책 강할수록 조류 다양성 줄어들 수 있다\"",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 이주영 기자 = 중국 전역 2천344개 현을 대상으로 한 태양광 발전 확대와 조류 다양성 관계 분석에서 태양광 발전 확대 정책...",
+      "url": "https://www.yna.co.kr/view/AKR20260820144700017",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260820144700017",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T20:00:01Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/20/AKR20260820144700017_02_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "81474c881d96759d5e14",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.98256
+    },
+    {
+      "id": "2cd6274760278254f83c9b5b",
+      "title": "李대통령, 첫 반부패정책협의회 주재…공직기강 다잡기",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 21일 오후 청와대 여민관에서 주요 부처 장관 및 공공기관장들이 참석한 가운데 이번 정부 들어...",
+      "url": "https://www.yna.co.kr/view/AKR20260820167700001",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260820167700001",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T20:00:00Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082016590001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6c3dc45c441325a815aa",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.98253
+    },
+    {
+      "id": "e0fea3c4459f747966d6db21",
+      "title": "美재무 \"국채 바이백 회당 40억달러 이상 가능…정책수단 많다\"(종합)",
+      "translatedTitle": null,
+      "description": "(뉴욕=연합뉴스) 김연숙 임수정 특파원 = 스콧 베선트 미국 재무장관은 20일(현지시간) 국채 바이백(재매입) 규모가 회당 40억달러(5조5천8...",
+      "url": "https://www.yna.co.kr/view/AKR20260821002351072",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821002351072",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T19:51:37Z",
+      "imageUrl": "https://img.yna.co.kr/photo/ap/2026/08/21/PAP20260821008901009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fb0c05a138c5057caa83",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.96581
+    },
+    {
+      "id": "1f83a44a54831a43b7613978",
+      "title": "페루 남부서 6.7 강진…\"인명 피해·쓰나미 위험 없어\"(종합)",
+      "translatedTitle": null,
+      "description": "(멕시코시티=연합뉴스) 송광호 특파원 = 페루 남부 안데스산맥 인근에서 규모 6.7의 강진이 발생했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260821007000087",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821007000087",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T19:46:56Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821007000087_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2870dc0fcc552b302c2f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.95652
+    },
+    {
+      "id": "8b369c51be5cf17f98d60a6d",
+      "title": "美 '이란 경제압박' 강화에 국제유가 2%대↑…브렌트유 93달러대",
+      "translatedTitle": null,
+      "description": "(뉴욕=연합뉴스) 김연숙 특파원 = 20일(현지시간) 미국이 이란에 대한 대대적인 경제 압박 방침을 거듭 밝히면서 국제유가가 급등했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260821006800072",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821006800072",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T19:45:07Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821006800072_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f185054c0c7323b62d09",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.95293
+    },
+    {
+      "id": "60bd0b685bfc1a251677371b",
+      "title": "마이크론, 美에 첫 '메모리 전문연구소' 설립…14조원 투입",
+      "translatedTitle": null,
+      "description": "(샌프란시스코=연합뉴스) 권영전 특파원 = 미국 메모리 반도체 기업 마이크론이 본사가 있는 아이다호주 보이시에 대규모 메모리 연구소를 설립한다.",
+      "url": "https://www.yna.co.kr/view/AKR20260821006200091",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821006200091",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T19:18:36Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/gt/2025/06/26/PGT20250626012201009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e281ba49b06daef97214",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.9012
+    },
+    {
+      "id": "607ab8b4b6d65f19995dd120",
+      "title": "美, 쿠바 건설부·국영기업·친정부 단체 등 무더기 제재",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 박성민 특파원 = 미국 도널드 트럼프 행정부는 20일(현지시간) 쿠바의 정부 기관, 국영기업 등 9곳과 친정부 단체 지도부 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260821005600071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821005600071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T19:15:29Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821005600071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "57154f3e3073417058a2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.8952
+    },
+    {
+      "id": "d76361ba4196d6cac689ad9b",
+      "title": "美전문가 \"김정은, 트럼프 만나도 핵증강할듯…회담결과 회의적\"",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 이유미 특파원 = 도널드 트럼프 미국 대통령과 김정은 북한 국무위원장 간의 정상회담이 성사되더라도 북한의 핵무기 증강을 막는...",
+      "url": "https://www.yna.co.kr/view/AKR20260821006100071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821006100071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T19:11:51Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821006100071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c227a5505696b14cbf82",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.88823
+    },
+    {
+      "id": "945f99caf0a72ba4e2af43c7",
+      "title": "美 주택구매 여력 3년 만에 악화…\"대출금리 상승 탓\"",
+      "translatedTitle": null,
+      "description": "(뉴욕=연합뉴스) 김연숙 특파원 = 미국의 주택 구매 여력을 보여주는 주요 지표가 약 3년 만에 처음으로 악화한 것으로 나타났다. 높은 주택담보...",
+      "url": "https://www.yna.co.kr/view/AKR20260821005800072",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821005800072",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T19:03:32Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/epa/2026/02/28/PEP20260228020701009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1fe042d67b739949a704",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.87237
+    },
+    {
+      "id": "9df7b3066e25f1dc298352b0",
+      "title": "美중간선거 새 '돈줄'로 떠오른 AI·가상화폐·베팅기업",
+      "translatedTitle": null,
+      "description": "(로스앤젤레스=연합뉴스) 김경윤 특파원 = 미국 중간선거를 앞두고 가상화폐와 인공지능(AI), 베팅 기업들이 미 정치권의 새로운 '돈줄'로 떠오...",
+      "url": "https://www.yna.co.kr/view/AKR20260821004100075",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821004100075",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T19:00:28Z",
+      "imageUrl": "https://img.yna.co.kr/photo/reuters/2026/07/23/PRU20260723272601009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1566bf03797708525498",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.86655
+    },
+    {
+      "id": "5f7eb7c35b6f1d119776f4ee",
+      "title": "'세계 최고령' 카메룬 대통령, 74일 만에 해외체류 마치고 귀국",
+      "translatedTitle": null,
+      "description": "(요하네스버그=연합뉴스) 나확진 특파원 = 세계 최고령 국가지도자 폴 비야(93) 카메룬 대통령이 두 달이 넘는 해외 체류를 마치고 귀국했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260821006000099",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821006000099",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T19:00:02Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/af/2026/08/21/PAF20260821041701009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "726e0f7ab9e0e4737726",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.86573
+    },
+    {
+      "id": "da44d1b831693de3d000b7cb",
+      "title": "요르단강 서안 두동강 내는 'E1 정착촌'은",
+      "translatedTitle": null,
+      "description": "(카이로=연합뉴스) 김상훈 특파원 = 이스라엘 정부가 최근 요르단강 서안 내 'E1' 구역에 유대인 정착촌 건설을 위한 시공사 입찰을 기습적으로...",
+      "url": "https://www.yna.co.kr/view/AKR20260821005700079",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821005700079",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T18:48:01Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821005700079_03_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "778a1a50ae4828d74af8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.84309
+    },
+    {
+      "id": "7860e2b3c5a59f739b7c6947",
+      "title": "페루서 규모 6.6∼6.7 강진…인적·물적 피해 확인 중",
+      "translatedTitle": null,
+      "description": "(멕시코시티=연합뉴스) 송광호 특파원 = 페루에서 규모 6.6∼6.7의 강진이 발생했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260821005500087",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821005500087",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T18:39:33Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821005500087_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9a4fd87604887ea05e85",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.82729
+    },
+    {
+      "id": "a1a284840bd3904b96c8a207",
+      "title": "美, 친이란 단체 헤즈볼라 자금 이동책 10명 제재",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 박성민 특파원 = 미국 재무부 해외자산통제국(OFAC)은 20일(현지시간) 레바논의 친이란 무장정파 헤즈볼라를 위한 자금 이...",
+      "url": "https://www.yna.co.kr/view/AKR20260821004200071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821004200071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T18:38:15Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821004200071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c2f78e0ed8ddf91d69f9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.82488
+    },
+    {
+      "id": "58bd1e241cd289ec87f819d4",
+      "title": "中 '미얀마계 미국 학자 체포'에 美 \"부당구금…석방 촉구\"",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 이유미 특파원 = 미국 도널드 트럼프 행정부가 20일(현지시간) 중국에서 간첩 혐의로 체포된 미얀마계 미 학자인 민 진을 '...",
+      "url": "https://www.yna.co.kr/view/AKR20260821003800071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821003800071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T18:34:57Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821003800071_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f4fe3f3cbbf92c54a950",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.81876
+    },
+    {
+      "id": "4d4817930727ad1e279d4578",
+      "title": "[속보] 페루 중부서 규모 6.6 강진",
+      "translatedTitle": null,
+      "description": "(",
+      "url": "https://www.yna.co.kr/view/AKR20260821004900087",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821004900087",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T18:16:57Z",
+      "imageUrl": "https://img.yna.co.kr/photo/cms/2023/08/24/52/PCM20230824000052990_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "16ac12bf0fa305440d41",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.78573
+    },
+    {
+      "id": "944179b8e6f7031e5103ec92",
+      "title": "비트코인, 규제완화법 청신호에 7만불 돌파…역대2위 공매도청산",
+      "translatedTitle": null,
+      "description": "(샌프란시스코=연합뉴스) 권영전 특파원 = 가상화폐 시총 1위 비트코인이 미국 국채 바이백과 도널드 트럼프 미국 대통령의 규제 완화 법안 통과 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260821003700091",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821003700091",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T17:58:35Z",
+      "imageUrl": "https://img.yna.co.kr/photo/ap/2026/06/03/PAP20260603088101009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3d59620ea196aa683f92",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.75258
+    },
+    {
+      "id": "9e4a8b729ef570ffbdb64759",
+      "title": "美 \"우리편이냐 맞설거냐\"…'이란경제 붕괴' 동맹 동참 압박(종합)",
+      "translatedTitle": null,
+      "description": "(워싱턴=연합뉴스) 백나리 특파원 = 스콧 베선트 미국 재무장관은 20일(현지시간) 이란 정권의 붕괴를 겨냥한 대대적 경제 압박에 나서겠다면서 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260821002551071",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821002551071",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T17:47:55Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/epa/2026/08/21/PEP20260821012101009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "81cad5cb7e2d8f52bd58",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.73359,
+      "related": []
+    },
+    {
+      "id": "44b1de53c6c63553bdaf9915",
+      "title": "나이지리아 선박 전복으로 최소 51명 사망…대부분 어린이",
+      "translatedTitle": null,
+      "description": "(요하네스버그=연합뉴스) 나확진 특파원 = 나이지리아 북서부 소코토주의 강에서 20일(현지시간) 선박이 전복돼 50명 넘게 사망했다고 AFP, ...",
+      "url": "https://www.yna.co.kr/view/AKR20260821003400099",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821003400099",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T17:35:02Z",
+      "imageUrl": "https://img.yna.co.kr/photo/ap/2025/02/22/PAP20250222020901009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bede95e852b25d6ee306",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.71089
+    },
+    {
+      "id": "3b11294137f7721e811df682",
+      "title": "엘니뇨에 말라붙은 중남미…온두라스 주민들 \"먹을 게 없다\"",
+      "translatedTitle": null,
+      "description": "(멕시코시티=연합뉴스) 송광호 특파원 = 지구 온난화와 결합한 '역대급' 엘니뇨 현상으로 중남미 지역이 극심한 가뭄과 식량 위기에 직면했다.",
+      "url": "https://www.yna.co.kr/view/AKR20260821003100087",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821003100087",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T17:22:49Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821003100087_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7b177aaa88d26d19e29d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68962
+    },
+    {
+      "id": "f348ad9603d5075d9fdb9fb6",
+      "title": "이스라엘, '서안 두동강' 정착촌 입찰 기습 개시…유럽, 규탄(종합2보)",
+      "translatedTitle": null,
+      "description": "(서울·런던=연합뉴스) 강훈상 기자 김지연 특파원 = 이스라엘 정부가 팔레스타인 거주지역인 서안 내 E1 지구의 정착촌 건설을 노린 시공사 입찰...",
+      "url": "https://www.yna.co.kr/view/AKR20260820040152009",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260820040152009",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T17:18:47Z",
+      "imageUrl": "https://img.yna.co.kr/photo/etc/epa/2026/08/20/PEP20260820029401009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1dda95fa5974e4acb5e9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68266
+    },
+    {
+      "id": "2d3f9f5cb98e6bf12b9ee4de",
+      "title": "美 국채금리 하루 만에 반등세…재무부 개입 '단기 처방' 그치나",
+      "translatedTitle": null,
+      "description": "(뉴욕=연합뉴스) 임수정 특파원 = 미국 장기 국채금리가 20일(현지시간) 재무부의 기습 바이백(재매입) 확대 발표 직후의 하락분을 하루 만에 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260821003000072",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260821003000072",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-08-20T17:17:43Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/21/AKR20260821003000072_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-20T20:18:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "17d8d9d1f5a4ca66c77e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68082
     },
     {
       "id": "069d337ae975d98a990abbba",
@@ -190,15 +1060,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "2dd231f7d33f95640755",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.00137
+      "rankingScore": 5.56662,
+      "related": []
     },
     {
       "id": "79eb7fa7738b0ff0fe547943",
@@ -220,15 +1090,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "90c4596541e407569317",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98046
+      "rankingScore": 5.54988,
+      "related": []
     },
     {
       "id": "5f02fcf8b8402e7fabf72567",
@@ -250,15 +1120,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "95ae3467b05e4dc599c7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.974
+      "rankingScore": 5.54471,
+      "related": []
     },
     {
       "id": "c02c622bc6e2bc01a3d45edd",
@@ -280,15 +1150,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "24120821b19bc73d38df",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.96926
+      "rankingScore": 5.54091,
+      "related": []
     },
     {
       "id": "7576496eef2685b35f0e1527",
@@ -310,15 +1180,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "82b55b0df441bec9c98c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.96124
+      "rankingScore": 5.53449,
+      "related": []
     },
     {
       "id": "5559492bde686ea350973844",
@@ -340,15 +1210,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "18b0105a0e74747443bf",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.95547
+      "rankingScore": 5.52987,
+      "related": []
     },
     {
       "id": "d32f05780a5d6ab3a7f532db",
@@ -370,15 +1240,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "5a6aa797f565968c1c34",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.95099
+      "rankingScore": 5.52628,
+      "related": []
     },
     {
       "id": "3074a15a54d7bdca7fe25bb4",
@@ -400,15 +1270,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "236120447c6baace69ac",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.93951
+      "rankingScore": 5.51709,
+      "related": []
     },
     {
       "id": "eeaf3d898b0e1653fa4f5638",
@@ -430,15 +1300,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "a2dabd3383210dd9ac4e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.90323
+      "rankingScore": 5.48804,
+      "related": []
     },
     {
       "id": "bef550e11d7a9e3f45cd7af3",
@@ -460,15 +1330,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "ed733c62a3fb334b67a1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.89076
+      "rankingScore": 5.47806,
+      "related": []
     },
     {
       "id": "34486074c8661fbd8b67eb4a",
@@ -490,15 +1360,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "ca13e6d3ac6751ce9729",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.88584
+      "rankingScore": 5.47412,
+      "related": []
     },
     {
       "id": "35ba0777913e75ac5480977a",
@@ -520,15 +1390,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "1446844cd04f6fbf53ad",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.87478
+      "rankingScore": 5.46526,
+      "related": []
     },
     {
       "id": "e1b522a7477500d3815bc234",
@@ -550,105 +1420,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
+      "retrievedAt": "2026-08-20T20:18:32Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "0d2909c3133e01e4f8cb",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8692
-    },
-    {
-      "id": "4cf5cbaf755af90cc4861302",
-      "title": "[재산공개] 정채교 국토부 항공정책실장 40억원",
-      "translatedTitle": null,
-      "description": "(세종=연합뉴스) 장보인 오진송 기자 = 정채교 국토교통부 항공정책실장이 39억7천697만5천원의 재산을 신고했다.",
-      "url": "https://www.yna.co.kr/view/AKR20260820138200003",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260820138200003",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-20T15:00:01Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/08/20/AKR20260820138200003_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "639da706645b51bda73d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.86579
-    },
-    {
-      "id": "9eabe768ee9e9bd1ae2fc263",
-      "title": "UFS 연습 오늘 조기종료…트럼프 지시로 기간·규모 대폭 축소",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 이은정 기자 = 유사시 한반도 방어를 위한 정례 한미 연합훈련인 '을지 자유의 방패'(UFS·을지프리덤실드) 연습이 21일 조...",
-      "url": "https://www.yna.co.kr/view/AKR20260820174500504",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260820174500504",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-20T15:00:00Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/20/PYH2026082006010006000_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8fae046387aa4605c3a9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.86576
-    },
-    {
-      "id": "1549e2a7dfd2771df35e1b3a",
-      "title": "고위공직자 73명 재산공개…박혜진 국립오페라단장 465억 최다",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 황윤기 기자 = 정부공직자윤리위원회는 21일 박혜진 국립오페라단 단장 겸 예술감독을 비롯해 지난 5월 2일부터 6월 1일까지 ...",
-      "url": "https://www.yna.co.kr/view/AKR20260820159000001",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260820159000001",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-08-20T15:00:00Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/05/28/PYH2026052809460001301_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-20T16:18:27Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c3bfa2a7c66e192d9a62",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.86576
+      "rankingScore": 5.4608,
+      "related": []
     }
   ]
 }
