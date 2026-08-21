@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-08-21",
-  "generatedAt": "2026-08-21T04:18:05Z",
-  "lastAttemptAt": "2026-08-21T04:18:05Z",
-  "lastSuccessfulUpdate": "2026-08-21T04:18:05Z",
-  "status": "current",
+  "generatedAt": "2026-08-21T08:18:05Z",
+  "lastAttemptAt": "2026-08-21T08:18:05Z",
+  "lastSuccessfulUpdate": "2026-08-21T08:18:05Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-08-21T04:18:04Z",
-      "lastSuccessAt": "2026-08-21T04:18:05Z",
-      "articlesRetrieved": 36,
-      "responseTimeMs": 542,
+      "lastAttemptAt": "2026-08-21T08:18:04Z",
+      "lastSuccessAt": "2026-08-21T08:18:05Z",
+      "articlesRetrieved": 35,
+      "responseTimeMs": 794,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-08-21T04:18:04Z",
-      "lastSuccessAt": "2026-08-21T04:18:05Z",
-      "articlesRetrieved": 142,
-      "responseTimeMs": 556,
+      "lastAttemptAt": "2026-08-21T08:18:04Z",
+      "lastSuccessAt": "2026-08-21T08:18:05Z",
+      "articlesRetrieved": 138,
+      "responseTimeMs": 417,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,31 +38,123 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-08-21T04:18:04Z",
-      "lastSuccessAt": "2026-08-21T04:18:05Z",
+      "lastAttemptAt": "2026-08-21T08:18:04Z",
+      "lastSuccessAt": "2026-08-21T08:18:05Z",
       "articlesRetrieved": 10,
-      "responseTimeMs": 782,
+      "responseTimeMs": 391,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-08-21T04:18:04Z",
-      "lastSuccessAt": "2026-08-21T04:18:05Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 479,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-08-21T08:18:04Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 Unknown Error' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
     {
+      "id": "dfc17264def41ca074dc15e8",
+      "title": "Pakistan ex-PM Imran Khan back in jail after hospital examination",
+      "translatedTitle": null,
+      "description": "It comes as the court had earlier this week ordered that he had to be taken for a hospital examination.",
+      "url": "https://www.bbc.co.uk/news/articles/ckgdr9vr50po?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ckgdr9vr50po?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T04:27:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f281/live/3dc58f60-9d09-11f1-a291-b542ee92de7c.jpg",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "816ddcae91034d506d95",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "4e8f432a9afa2d1f9ae70253",
+          "title": "Former Pakistan PM Imran Khan returned to prison after overnight hospital visit",
+          "translatedTitle": null,
+          "description": "Pakistan's former prime minister was examined after the Supreme Court ordered authorities to allow access to a private medical panel",
+          "url": "https://www.independent.co.uk/asia/south-asia/pakistan-imran-khan-adiala-jail-hospital-b3036780.html",
+          "canonicalUrl": "https://independent.co.uk/asia/south-asia/pakistan-imran-khan-adiala-jail-hospital-b3036780.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-08-21T04:06:09Z",
+          "imageUrl": "https://static.independent.co.uk/2026/08/19/11/2026-08-18T104232Z_1512440585_RC2ZVZ92VXTB_RTRMADP_3_PAKISTAN-POLITICS-KHAN.JPG?width=1200&auto=webp&trim=0%2C2%2C0%2C2",
+          "imageAlt": null,
+          "category": "Science & Health",
+          "topics": [],
+          "retrievedAt": "2026-08-21T04:18:05Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "816ddcae91034d506d95",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "former pakistan pm imran khan returned to prison after overnight hospital visit"
+        },
+        {
+          "id": "8aec86e21d9a985ffc665843",
+          "title": "Jailed ex-Pakistan PM Imran Khan allowed brief hospital visit after uproar over health",
+          "translatedTitle": null,
+          "description": "Supreme court ordered transfer of ex-leader whose health is reportedly deteriorating, but he was returned to prison several hours later Pakistan’s jailed former prime minister Imran Khan was briefly taken to a hospital in the country’s capital on supreme court orders after weeks of uproar about his deteriorating health. Khan, 73, was transferred to the hospital in the early hours of Friday, but then moved back to Adiala prison in Rawalpindi after a ⁠few hours, a spokesperson for his party said o",
+          "url": "https://www.theguardian.com/world/2026/aug/20/imran-khan-hospital-pakistan",
+          "canonicalUrl": "https://theguardian.com/world/2026/aug/20/imran-khan-hospital-pakistan",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-08-20T23:07:10Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/96766fdecb9254b8699c680a0c29d97bfc8e18d1/350_0_6801_5440/master/6801.jpg?width=140&quality=85&auto=format&fit=max&s=7ee4a22ef28d4039349bee6a942e786b",
+          "imageAlt": null,
+          "category": "Science & Health",
+          "topics": [],
+          "retrievedAt": "2026-08-21T08:18:05Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "816ddcae91034d506d95",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "jailed ex pakistan pm imran khan allowed brief hospital visit after uproar over health",
+          "rankingScore": 8.38962
+        }
+      ],
+      "rankingScore": 8.8365
+    },
+    {
       "id": "172dbf653882cdf4446cc910",
       "title": "Tiananmen Square vigil organisers found guilty in Hong Kong of ‘inciting subversion’",
       "translatedTitle": null,
-      "description": "Lee Cheuk-yan and Chow Hang-tung - leaders of the Hong Kong Alliance – were tried under under a 2020 national security law Two Hong Kong activists who organised annual vigils marking China’s deadly Tiananmen crackdown in 1989 were found guilty of “incitement to subversion”, in one of the most high-profile cases in Hong Kong since Beijing imposed its national security law in 2020. Lee Cheuk-yan, 69, and Chow Hang-tung, 41 “incited other persons to organise, plan, commit or participate in acts by",
+      "description": "Lee Cheuk-yan and Chow Hang-tung - leaders of the Hong Kong Alliance – were tried under a 2020 national security law Two Hong Kong activists who organised annual vigils marking China’s deadly Tiananmen crackdown in 1989 were found guilty of “incitement to subversion”, in one of the most high-profile cases in Hong Kong since Beijing imposed its national security law in 2020. Lee Cheuk-yan, 69, and Chow Hang-tung, 41 “incited other persons to organise, plan, commit or participate in acts by unlawf",
       "url": "https://www.theguardian.com/world/2026/aug/21/tiananmen-square-vigil-hong-kong-alliance-activists-guilty-verdict-lee-cheuk-yan-chow-hang-tung",
       "canonicalUrl": "https://theguardian.com/world/2026/aug/21/tiananmen-square-vigil-hong-kong-alliance-activists-guilty-verdict-lee-cheuk-yan-chow-hang-tung",
       "sourceName": "The Guardian",
@@ -78,13 +170,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "cd11a4e61ae6791aa475",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.47177,
       "related": [
         {
           "id": "fb357a24d61c260f019dce44",
@@ -106,7 +199,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-08-21T04:18:05Z",
+          "retrievedAt": "2026-08-21T08:18:05Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -178,16 +271,15 @@
           "normalizedTitle": "hong kong court to deliver verdict for 2 prominent former tiananmen vigil organizers",
           "rankingScore": 5.60238
         }
-      ],
-      "rankingScore": 8.89032
+      ]
     },
     {
-      "id": "b0b90c1e759a64fb92f03472",
-      "title": "Jailed ex-Pakistani PM Imran Khan in hospital after uproar over health",
+      "id": "9ae40876bbac91823510455f",
+      "title": "Anxiety over war, wildfires and cyber-attacks leads to growth in cash stocks in EU",
       "translatedTitle": null,
-      "description": "Supreme court ordered transfer of ex-leader whose health is reportedly deteriorating and following public protests Pakistan’s jailed former prime minister Imran Khan has been taken to a hospital in the country’s capital on supreme court orders after weeks of uproar about his deteriorating health. A spokesperson for Khan’s party, Zulfikar Bukhari, said: “Imran Khan has been shifted from Adiala jail to International Shifa hospital in Islamabad following the supreme court’s order.” Continue reading",
-      "url": "https://www.theguardian.com/world/2026/aug/20/imran-khan-hospital-pakistan",
-      "canonicalUrl": "https://theguardian.com/world/2026/aug/20/imran-khan-hospital-pakistan",
+      "description": "Value of banknotes in circulation rises from €1bn in 2016 to €1.6bn in 2026 as people advised to keep stash of cash The number of banknotes in circulation in the EU is increasing despite widespread smartphone payments, new data shows, with wildfires ripping through parts of Europe fuelling demand for an emergency stash of cash. While cash plays second fiddle to contactless payments in many cities across Europe, the amount in circulation is actually going up, Philip Lane, the chief economist of t",
+      "url": "https://www.theguardian.com/world/2026/aug/21/anxiety-over-war-wildfires-and-cyber-attacks-leads-to-growth-in-cash-stocks-in-eu",
+      "canonicalUrl": "https://theguardian.com/world/2026/aug/21/anxiety-over-war-wildfires-and-cyber-attacks-leads-to-growth-in-cash-stocks-in-eu",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -196,51 +288,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-20T23:07:10Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/96766fdecb9254b8699c680a0c29d97bfc8e18d1/350_0_6801_5440/master/6801.jpg?width=140&quality=85&auto=format&fit=max&s=7ee4a22ef28d4039349bee6a942e786b",
+      "publishedAt": "2026-08-21T04:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3d86e0a74d5b086fa0a264cb2c5d7c8a58d86989/202_0_3540_2832/master/3540.jpg?width=140&quality=85&auto=format&fit=max&s=73a4db73cc777f850d1a463a26abcaf6",
       "imageAlt": null,
-      "category": "Science & Health",
+      "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "55d5cd4046d8efc012ea",
+      "clusterId": "1a1326c550a3556567be",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.38962,
-      "related": [
-        {
-          "id": "4e8f432a9afa2d1f9ae70253",
-          "title": "Former Pakistan PM Imran Khan returned to prison after overnight hospital visit",
-          "translatedTitle": null,
-          "description": "Pakistan's former prime minister was examined after the Supreme Court ordered authorities to allow access to a private medical panel",
-          "url": "https://www.independent.co.uk/asia/south-asia/pakistan-imran-khan-adiala-jail-hospital-b3036780.html",
-          "canonicalUrl": "https://independent.co.uk/asia/south-asia/pakistan-imran-khan-adiala-jail-hospital-b3036780.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-08-21T04:06:09Z",
-          "imageUrl": "https://static.independent.co.uk/2026/08/19/11/2026-08-18T104232Z_1512440585_RC2ZVZ92VXTB_RTRMADP_3_PAKISTAN-POLITICS-KHAN.JPG?width=1200&auto=webp&trim=0%2C2%2C0%2C2",
-          "imageAlt": null,
-          "category": "Science & Health",
-          "topics": [],
-          "retrievedAt": "2026-08-21T04:18:05Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "55d5cd4046d8efc012ea",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "former pakistan pm imran khan returned to prison after overnight hospital visit"
-        }
-      ]
+      "related": [],
+      "rankingScore": 8.42294
     },
     {
       "id": "95ea06268c661e4e6e695d38",
@@ -269,16 +330,16 @@
       "clusterId": "1dd9b9d650d8f6ade299",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.2114
+      "rankingScore": 7.74847,
+      "related": []
     },
     {
-      "id": "7524049f5cda8e74698b6b7f",
-      "title": "How much could Trump's 'economic D-Day' hurt Iran?",
+      "id": "555cf0114dd8233e81648dce",
+      "title": "UK borrows more than expected in July as Healey prepares for first Budget",
       "translatedTitle": null,
-      "description": "Iran has so far proved adept at finding ways around years of already punishing sanctions on its economy.",
-      "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cre4gdvlj9ro?at_campaign=rss&at_medium=RSS",
+      "description": "Chancellor John Healey said the government is 'committed to meeting our fiscal rules'",
+      "url": "https://www.bbc.co.uk/news/articles/cly8kzkyvwgo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cly8kzkyvwgo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -287,20 +348,81 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-20T23:16:45Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ffc/live/12640900-9cdc-11f1-a291-b542ee92de7c.jpg",
+      "publishedAt": "2026-08-21T07:45:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5711/live/12719030-9d21-11f1-ab6e-831b967255ae.jpg",
       "imageAlt": null,
-      "category": "Business",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fbe475731845bf001d94",
+      "clusterId": "7b265a5bdfaefb370658",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "3938e28d9ab9c762852c5781",
+          "title": "UK reports unexpected deficit of £1.8bn as John Healey prepares for first budget",
+          "translatedTitle": null,
+          "description": "July data shows total public debt was £2.98tn, or 94% of GDP – up £96bn on a year earlier Business live – latest updates The UK government ran a larger than expected £1.8bn deficit in July, underlining the challenges facing the chancellor, John Healey, as he draws up his first budget. City economists had expected a shortfall of zero for July, a month when Treasury receipts tend to be swollen by self-assessment income tax payments. Continue reading...",
+          "url": "https://www.theguardian.com/politics/2026/aug/21/uk-unexpected-deficit-john-healey-prepares-for-first-budget",
+          "canonicalUrl": "https://theguardian.com/politics/2026/aug/21/uk-unexpected-deficit-john-healey-prepares-for-first-budget",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-08-21T06:34:11Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/eadf84d9e5d01ff500009590ac604fb156ba5f07/566_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=dd534bc3bd9a11318b1eb7f4a8b72b08",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-08-21T08:18:05Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "7b265a5bdfaefb370658",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "uk reports unexpected deficit of 1 8bn as john healey prepares for first budget"
+        }
+      ],
+      "rankingScore": 7.44396
+    },
+    {
+      "id": "2210c7d11449b2a420af7006",
+      "title": "El Niño warming set to be 'strongest in living memory', warns Met Office",
+      "translatedTitle": null,
+      "description": "Scientists say the growing El Niño weather pattern is an \"unprecedented event\" and means 2027 is likely to be the world's hottest year on record.",
+      "url": "https://www.bbc.co.uk/weather/articles/c3ekg93vjz9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/weather/articles/c3ekg93vjz9o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T07:43:30Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e42a/live/e1f0da90-9cc3-11f1-9182-d13e1a2797dc.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "40ce52e200b719b3b643",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.27432
+      "rankingScore": 7.39057
     },
     {
       "id": "36a374b3081edd9e722da9dd",
@@ -329,98 +451,8 @@
       "clusterId": "b91121a2c6509f0f66a4",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.09279
-    },
-    {
-      "id": "c47433a3ce660841ee3ca6c9",
-      "title": "El Niño weather system set to be 'strongest in living memory', warns Met Office",
-      "translatedTitle": null,
-      "description": "Scientists say the growing El Niño weather pattern is an \"unprecedented event\" and means 2027 is likely to be the world's hottest year on record.",
-      "url": "https://www.bbc.co.uk/weather/articles/c3ekg93vjz9o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/weather/articles/c3ekg93vjz9o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T00:33:21Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e42a/live/e1f0da90-9cc3-11f1-9182-d13e1a2797dc.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "527fcf134f0ec95e62a7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.04665
-    },
-    {
-      "id": "c4dbbd74f94ee13a1498695d",
-      "title": "Rain to stop in time for weekend as sun returns",
-      "translatedTitle": null,
-      "description": "The heavy downpours that have caused flash flooding will ease during Friday with sunshine returning for the weekend. But there are some chilly nights in store, as Ben Rich explains.",
-      "url": "https://www.bbc.co.uk/weather/articles/c2el98pkd3po?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/weather/articles/c2el98pkd3po?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T00:14:00Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b373/live/5f8e3620-9cc2-11f1-a9cd-fd8bcb95d396.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bdcbb0c40209f7bb937f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.01493
-    },
-    {
-      "id": "7eb1db2978874d7c92ec8de2",
-      "title": "Sycophancy in stereo as former Trump hater Michael Cohen loses his nerve",
-      "translatedTitle": null,
-      "description": "Fawning, deferential, oleaginous – this was the Untruth and Reconciliation Commission as Trump called in to 77 WABC “Our next guest is a ‘racist’, a ‘conman’ and a ‘cheat’ – someone who behaves more like a ‘mobster’ than a president. Please welcome Donald J Trump!” That is how Michael Cohen could have introduced Trump on his New York radio show on Thursday. After all, Cohen used such terms to describe the US president in his testimony to Congress in 2019. But now Trump’s former personal lawyer a",
-      "url": "https://www.theguardian.com/us-news/2026/aug/20/michael-cohen-trump-radio-interview",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/aug/20/michael-cohen-trump-radio-interview",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T01:11:39Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/15b1462c6ccd88e976846690643a60a8f282fed0/265_0_1601_1281/master/1601.jpg?width=140&quality=85&auto=format&fit=max&s=f0849f77d7e7e085fbf88694e24f2ccc",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cc6f12e9d0a55566382d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.84115
+      "rankingScore": 6.65582,
+      "related": []
     },
     {
       "id": "e43df717c796e15f3892c858",
@@ -449,100 +481,8 @@
       "clusterId": "29b185a5274714a64033",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.8371
-    },
-    {
-      "id": "658c3be473fb12194a2db451",
-      "title": "Zomi Frankcom was killed by IDF drones. Australia says Israel’s response ‘falls far short’. How did it happen and what’s next?",
-      "translatedTitle": null,
-      "description": "Two years after a deadly strike on the Australian aid worker and her colleagues, IDF officers have been cleared of criminal wrongdoing. Frankcom’s brother says it’s ‘an insult’ Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast “Serious failures in the process” was the euphemism of Israel’s military advocate general to describe a 2024 drone strike that killed an Australian aid worker. “An insult to my sister’s memory,” says Zomi Fra",
-      "url": "https://www.theguardian.com/australia-news/2026/aug/21/australian-aid-worker-zomi-frankcom-idf-cleared-what-happened-ntwnfb",
-      "canonicalUrl": "https://theguardian.com/australia-news/2026/aug/21/australian-aid-worker-zomi-frankcom-idf-cleared-what-happened-ntwnfb",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T00:57:36Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/fbf424c515f9b213f9cd8f694dcab6846293659a/0_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=2057fd5b9d385dabcf89dd9b2d0c5cd1",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3b3494ec5444dee01b04",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.81723
-    },
-    {
-      "id": "39ed87b338bd7b1d810918cf",
-      "title": "Tupac Shakur trial: ‘Keffe D’ told detectives years ago his nephew fired the shots",
-      "translatedTitle": null,
-      "description": "The former gang leader was charged with planning the drive-by shooting that killed Tupac Shakur in 1996 Jurors on Thursday heard Duane “Keffe D” Davis tell detectives in 2008 that his nephew Orlando “Baby Lane” Anderson fired the shots that killed Tupac Shakur. Davis, who said in the interview that he was also in the car with Anderson, is accused of orchestrating the 1996 killing of the 25-year-old hip-hop superstar in Las Vegas. At the time of the interview, his nephew had been dead for a decad",
-      "url": "https://www.theguardian.com/music/2026/aug/20/tupac-trial-keffe-davis-shooting",
-      "canonicalUrl": "https://theguardian.com/music/2026/aug/20/tupac-trial-keffe-davis-shooting",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T00:23:47Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9d91f85fe67405ffdca8d911d1c431b64d2c3dd2/363_0_3567_2856/master/3567.jpg?width=140&quality=85&auto=format&fit=max&s=41cc6684f692787b740f535f305ffce1",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1101e2c4094f6b8ec9bb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "7814c8937ffe5f5bf2e9253d",
-          "title": "Jurors hear 'Keffe D' say his nephew fired fatal shots at Tupac Shakur in 1996 drive-by shooting",
-          "translatedTitle": null,
-          "description": "Jurors heard Duane “Keffe D” Davis tell detectives in 2008 that his nephew Orlando “Baby Lane” Anderson fired the shots that killed Tupac Shakur",
-          "url": "https://www.independent.co.uk/news/world/americas/davis-tupac-shakur-anderson-orlando-las-vegas-b3036756.html",
-          "canonicalUrl": "https://independent.co.uk/news/world/americas/davis-tupac-shakur-anderson-orlando-las-vegas-b3036756.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-08-20T23:46:10Z",
-          "imageUrl": "https://static.independent.co.uk/2026/08/21/00/Tupac_Trial_85668.jpg?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-08-21T00:18:03Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "1101e2c4094f6b8ec9bb",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 5.68598,
-          "normalizedTitle": "jurors hear keffe d say his nephew fired fatal shots at tupac shakur in 1996 drive by shooting",
-          "sourceQuality": 1.0
-        }
-      ],
-      "rankingScore": 6.8109
+      "rankingScore": 6.45108,
+      "related": []
     },
     {
       "id": "9c3baaab9d3df6fd8b9b2439",
@@ -571,8 +511,8 @@
       "clusterId": "9461a202f18e499ca653",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.80773
+      "rankingScore": 6.42757,
+      "related": []
     },
     {
       "id": "032525e83ae827f1893c9628",
@@ -594,14 +534,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "68c15bf605ba7847da83",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.75954,
+      "rankingScore": 6.41688,
       "related": [
         {
           "id": "20b65f0c9062febf54008753",
@@ -666,72 +606,72 @@
       ]
     },
     {
-      "id": "bfdf72695ff2ece0667d5f62",
-      "title": "Iran, the economy and mending fences: Top takeaways from Trump interview with friend-turned-foe Michael Cohen",
+      "id": "7c9df41a5a6b64d2ae03dc8a",
+      "title": "British YouTuber to face retrial on rape charges in Australia",
       "translatedTitle": null,
-      "description": "Michael Cohen, Trump’s former fixer turned key witness against him, said it was their first public conversation in eight years",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-michael-cohen-iran-economy-interview-b3036744.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-michael-cohen-iran-economy-interview-b3036744.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "British YouTuber and rapper Yung Filly will face a retrial on allegations he raped a woman in Australia almost two years ago.",
+      "url": "https://news.sky.com/story/british-youtuber-yung-filly-to-face-retrial-on-rape-charges-in-australia-13575236",
+      "canonicalUrl": "https://news.sky.com/story/british-youtuber-yung-filly-to-face-retrial-on-rape-charges-in-australia-13575236",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-21T00:43:08Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/20/23/20/GettyImages-2289908104-(1).jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-08-21T06:54:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-yung-filly-barrientos_7310860.jpg?20260731062934",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d39413c1bb5fd00263ea",
+      "clusterId": "0ab8ecd0a4f72aa35b51",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.70291
+      "rankingScore": 5.94513
     },
     {
-      "id": "6babe2b2a2e3378c01a586b0",
-      "title": "US Treasury sanctions Ecuador-to-US cocaine trafficking network",
+      "id": "75548784e7037e17cdaabb9c",
+      "title": "Hunt for 'Chucky-style' masked man who chased woman",
       "translatedTitle": null,
-      "description": "The U.S. Treasury has sanctioned 15 people involved in a network allegedly shipping cocaine from Ecuador through Mexico to the U.S. The operation uses Ecuador-based fishing vessels to transfer cocaine to power boats heading north",
-      "url": "https://www.independent.co.uk/news/ecuador-us-treasury-donald-trump-quito-mexico-b3036760.html",
-      "canonicalUrl": "https://independent.co.uk/news/ecuador-us-treasury-donald-trump-quito-mexico-b3036760.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "A hunt has been launched for a man who chased a woman while wearing a \"Chucky-style Halloween mask\" in Philadelphia.",
+      "url": "https://news.sky.com/story/hunt-for-chucky-style-masked-man-who-chased-woman-in-philadelphia-13575261",
+      "canonicalUrl": "https://news.sky.com/story/hunt-for-chucky-style-masked-man-who-chased-woman-in-philadelphia-13575261",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-21T00:29:18Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/21/01/Ecuador_Drug_Trafficking_US_Sanctions_42721.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-08-21T06:38:00Z",
+      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-philadelphia-zymire-hughes_7327015.jpg?20260821081604",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "cf58ff175444bd754982",
+      "clusterId": "64698d983804fafcbcfc",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.67997
+      "rankingScore": 5.6452
     },
     {
-      "id": "f60ff0f63cfd574f583a74f7",
-      "title": "Zomi Frankcom did not deserve to die. Israel’s refusal to investigate her death and its failure to apologise is despicable | Geoffrey Robertson",
+      "id": "6a4691f1b590c96e3aafa5fd",
+      "title": "Anthony Hopkins: Life Is a Dream album review – easy on the ear melodies written from the heart",
       "translatedTitle": null,
-      "description": "The Israeli ambassador has claimed ‘a court came to a decision that there’s no criminal liability’ but there is no evidence that any court has been involved Zomi Frankcom did not deserve to die. She and her six colleagues were traveling in a clearly marked humanitarian convoy to distribute food to starving Palestinians on a route that had been communicated well in advance to the Israel Defense Forces (IDF). It bombed them deliberately and repeatedly. Israel’s prime minister, Benjamin Netanyahu,",
-      "url": "https://www.theguardian.com/world/commentisfree/2026/aug/21/zomi-frankcom-killing-death-israel-idf-ntwnfb",
-      "canonicalUrl": "https://theguardian.com/world/commentisfree/2026/aug/21/zomi-frankcom-killing-death-israel-idf-ntwnfb",
+      "description": "Philharmonia Orchestra/Dudamel(Decca)There’s a cinematic flourish to many of Hopkins’ compositions, together with fine arrangements of Welsh tunes and pieces dedicated to family Anthony Hopkins, it turns out, has been composing music all his life. Now, at the age of 88, the Welsh-born Hollywood actor makes his Decca debut, securing the services of LA Philharmonic’s outgoing music director Gustavo Dudamel to bring his music to life. So, what does an Oscar winner sound like? Not surprisingly, ther",
+      "url": "https://www.theguardian.com/music/2026/aug/21/anthony-hopkins-life-is-a-dream-album-review-philharmonia-dudamel",
+      "canonicalUrl": "https://theguardian.com/music/2026/aug/21/anthony-hopkins-life-is-a-dream-album-review-philharmonia-dudamel",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -740,110 +680,170 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-20T23:29:35Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/fbf424c515f9b213f9cd8f694dcab6846293659a/0_108_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=cccf2b92dc32266dee157ce03aa57653",
+      "publishedAt": "2026-08-21T06:30:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/531113f3e2ba5df0af71a0ed5d97f7d877d5b902/322_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ede24060ae55d134664607cbfc22abfd",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "673016388f49fd9d5860",
+      "clusterId": "90c8b639275f770d492b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.67422
+      "rankingScore": 5.63123
     },
     {
-      "id": "d80cf1edd719768d0301ba07",
-      "title": "Trump tells Michael Cohen he would win ‘by a lot’ if he ran for president today",
+      "id": "226091c1c3980f85b2599ca5",
+      "title": "‘Tuscany may be beautiful, but do they sell sticks of rock?’: readers’ favourite UK holidays",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/trump-michael-cohen-interview-third-term-b3036751.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-michael-cohen-interview-third-term-b3036751.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Your best UK breaks include an island off Mull, a rail journey along the County Antrim coast and Dorset’s best-kept secret• Tell us about your favourite under-the-radar European city – the best tip wins a £200 holiday voucher Mudeford feels like one of England’s best-kept secrets, the sort of place visitors from abroad might never imagine exists here. Golden sand and sparkling water give it an almost Mediterranean feel, while Hengistbury Head adds beautiful coastal walks and wide-open views. Our",
+      "url": "https://www.theguardian.com/travel/2026/aug/21/readers-favourite-uk-holidays",
+      "canonicalUrl": "https://theguardian.com/travel/2026/aug/21/readers-favourite-uk-holidays",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-20T23:17:47Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/20/16/51/GettyImages-1206477833.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-08-21T06:00:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/770a09db51589a34ee379482357ae450e9a797fc/551_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ed06678aed4352e50f308d8c66398d81",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "71b72045a7c2a4729154",
+      "clusterId": "ab63696b117a866c3f4e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.16592,
-      "related": []
+      "related": [],
+      "rankingScore": 5.57668
     },
     {
-      "id": "4a61d2acb203236c76929b9a",
-      "title": "Will Harry's return heal rift with his brother? Don't hold your breath",
+      "id": "d5dfb3cf32d5973c56428a00",
+      "title": "Life of M by Rachel Cusk review – is this story of a film star based on Natalie Portman?",
       "translatedTitle": null,
-      "description": "The Prince of Wales remains in no mood to forgive and forget. The hurt he feels lingers.",
-      "url": "https://www.bbc.co.uk/news/articles/clyx410xxyko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/clyx410xxyko?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "A teasing tale of the friendship between a writer and an actor explores the fallout from fame, and the blurring between pretence and reality M is a celebrated film actor. A star since childhood, now the face of a major fashion brand, she has been famous all her life. That her career closely resembles Natalie Portman’s has been gleefully seized upon by the press, something Rachel Cusk must surely have anticipated: in the novel, M’s first film has its sex scenes cut at her mother’s insistence, as",
+      "url": "https://www.theguardian.com/books/2026/aug/21/life-of-m-by-rachel-cusk-review-is-this-story-of-a-film-star-based-on-natalie-portman",
+      "canonicalUrl": "https://theguardian.com/books/2026/aug/21/life-of-m-by-rachel-cusk-review-is-this-story-of-a-film-star-based-on-natalie-portman",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-21T04:07:22Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a158/live/98f9f1e0-9d14-11f1-aed2-8d6da8d75094.jpg",
+      "publishedAt": "2026-08-21T06:00:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e2d02fb64aa98b09a48ba2b9003fe5f8a9efc520/0_541_3172_2536/master/3172.jpg?width=140&quality=85&auto=format&fit=max&s=a5aadf5a9bbb2658ee1513b5ae2c7ba0",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "472895f16a8acac940f6",
+      "clusterId": "c425e61fbc581deaa370",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.08822
+      "rankingScore": 5.57668
     },
     {
-      "id": "678df71394d73cec5c608dc8",
-      "title": "HK's Tiananmen activists guilty in national security trial",
+      "id": "9683860bd0bf479cd7d85ad5",
+      "title": "Meet the Owens to Dog Park: the seven best shows to stream this week",
       "translatedTitle": null,
-      "description": "Three activists were accused of inciting others to subvert state power under the China-introduced law.",
-      "url": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c1l10mdrld5o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Is Michael Owen really boring? That’s the elephant in the room in a new documentary that goes inside the former football star’s home and racing empire. Plus, a lovely canine-centred meet-cute comedy First the elephant in the room, which Michael Owen addresses head on. Is he really, as he describes himself, “a boring prick”? This documentary series sees the former Liverpool and England striker welcome cameras into both his racing empire (he owns 140 horses) and his family life (he has four childr",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/aug/21/meet-the-owens-to-dog-park-the-seven-best-shows-to-stream-this-week",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/aug/21/meet-the-owens-to-dog-park-the-seven-best-shows-to-stream-this-week",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-21T02:59:46Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d436/live/0a8eae40-9d0b-11f1-8a23-b9fc4847a391.jpg",
+      "publishedAt": "2026-08-21T06:00:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3f98a643bf546bb02dbd16c7dcc2aa43ffa1e8a7/252_190_2394_1914/master/2394.jpg?width=140&quality=85&auto=format&fit=max&s=57c9c19b00e93c7c18e0a9762541179d",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "94012fc60f4d5c1f8b64",
+      "clusterId": "2bed63291898b70922b8",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.95606
+      "rankingScore": 5.57668
+    },
+    {
+      "id": "d681c6a4277a6ce6056896c0",
+      "title": "Eco homes that can stay cool for sale in England and Wales – in pictures",
+      "translatedTitle": null,
+      "description": "From a triple-glazed barn conversion in a Welsh valley to a thermally regulated home in a busy area of London Continue reading...",
+      "url": "https://www.theguardian.com/money/gallery/2026/aug/21/eco-homes-that-can-stay-cool-for-sale-in-england-and-wales-in-pictures",
+      "canonicalUrl": "https://theguardian.com/money/gallery/2026/aug/21/eco-homes-that-can-stay-cool-for-sale-in-england-and-wales-in-pictures",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T06:00:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ff543ee78c940a2aacbe6e4ae72f68fd0e628b9c/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ccd29763c58584771c7db65c1d13a246",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d1efb8f6caba41bd40be",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57668
+    },
+    {
+      "id": "89a619a6f7c5a4eacc31afcd",
+      "title": "‘If I’m spending that kind of money, the shoe has to do everything’ – the backlash to the three figure trainer",
+      "translatedTitle": null,
+      "description": "From Nike’s infamous 110s to £250 and back again, sneakerheads are rediscovering why cheaper shoes can be worth just as much hype as much more expensive ones • Don’t get Fashion Statement delivered to your inbox? Sign up here When Nike’s Air Max 95 trainers first landed in Britain back in the mid-1990s, they looked unlike anything else. Created by footwear designer Sergio Lozano, the shoe had wavy layers running down its sides, neon yellow accents, and visible ‘Air’ bubbles underfoot. But in the",
+      "url": "https://www.theguardian.com/fashion/2026/aug/20/if-im-spending-that-kind-of-money-the-shoe-has-to-do-everything-the-backlash-to-the-three-figure-trainer",
+      "canonicalUrl": "https://theguardian.com/fashion/2026/aug/20/if-im-spending-that-kind-of-money-the-shoe-has-to-do-everything-the-backlash-to-the-three-figure-trainer",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T06:00:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ef321a9a396324efd431c2d7fade7571097590ef/0_1424_2258_1805/master/2258.jpg?width=140&quality=85&auto=format&fit=max&s=593e5fe684f069bdce95be0ebb4c1f34",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5e1b7e7f9964828d489e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57665
     },
     {
       "id": "e20a15ea3c20d0dc322151d3",
@@ -861,11 +861,11 @@
       ],
       "language": "en",
       "publishedAt": "2026-08-21T02:57:34Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/54f8/live/3968b500-9cf5-11f1-8cdc-014599ccd660.jpg",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d3a/live/c7e95f20-9d2f-11f1-aed2-8d6da8d75094.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -873,7 +873,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.9519
+      "rankingScore": 5.54499
     },
     {
       "id": "7d293e16bd10900c5d471df6",
@@ -891,11 +891,11 @@
       ],
       "language": "en",
       "publishedAt": "2026-08-21T02:52:29Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c7d5/live/7e5a0670-9d11-11f1-b081-9d24f7281d5a.jpg",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b37d/live/a753e0d0-9d2c-11f1-a291-b542ee92de7c.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -903,13 +903,13 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.94231
+      "rankingScore": 5.53731
     },
     {
       "id": "2f05027b253376c0e326b4dc",
       "title": "Bali jails Swiss tourist for insulting sacred Day of Silence",
       "translatedTitle": null,
-      "description": "The 26-year-old sparked anger with an expletive-laden post about the sacred holiday.",
+      "description": "The 26-year-old was jailed for a year after he sparked anger with an expletive-laden post about the sacred holiday.",
       "url": "https://www.bbc.co.uk/news/articles/cj4kr59r28ko?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://bbc.co.uk/news/articles/cj4kr59r28ko?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
@@ -925,7 +925,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -933,37 +933,307 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.90681
+      "rankingScore": 5.50889
     },
     {
-      "id": "bba95c3d49f6d2e7fdd403b3",
-      "title": "Five big talking points as the Premier League returns",
+      "id": "9524d64aa792815c133c8957",
+      "title": "TV tonight: Brooke Shields stars in a silly murder-mystery comedy",
       "translatedTitle": null,
-      "description": "The new Premier League season kicks off later today, raising the curtain on another nine months of heated rivalry, thrilling drama and inevitable controversy.",
-      "url": "https://news.sky.com/story/premier-league-five-big-talking-points-ahead-of-fridays-season-opener-13575224",
-      "canonicalUrl": "https://news.sky.com/story/premier-league-five-big-talking-points-ahead-of-fridays-season-opener-13575224",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
+      "description": "A novelist and a podcaster are an unlikely crime-solving team in You’re Killing Me. Plus: get ready to cry over a robot. Here’s what to watch this evening 8pm, U&DramaAllie (Brooke Shields) is a bestselling “menopausal mystery” novelist; Andi (Amalia Williamson) is an aspiring true-crime podcaster. When they meet at a writing convention, it’s a boomer and gen Z culture clash. But then a murder takes place and the two team up to solve the case … Light, rompy crime drama fun. Hollie Richardson Con",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/aug/21/tv-tonight-brooke-shields-stars-in-a-silly-murder-mystery-comedy",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/aug/21/tv-tonight-brooke-shields-stars-in-a-silly-murder-mystery-comedy",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-08-21T01:09:00Z",
-      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-arsenal-champions_7306290.jpg?20260725065749",
+      "publishedAt": "2026-08-21T05:15:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8cea755e8755868d749d1dfcabfacf0095fec9dd/699_0_6988_5590/master/6988.jpg?width=140&quality=85&auto=format&fit=max&s=ff19f5d58bbef0258cec34d4f6cf898d",
       "imageAlt": null,
-      "category": "Sports",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "66f8a2fbc6a5c85d517e",
+      "clusterId": "2980e9aeb5ad342a7224",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.83661
+      "rankingScore": 5.49758
+    },
+    {
+      "id": "9250e22dbca2c49acb851446",
+      "title": "UK men with heart disease at higher risk of developing and dying from cancer",
+      "translatedTitle": null,
+      "description": "Decade-long study finds stark gender difference in outcomes of people with heart disease Millions of men with heart disease have a higher risk of developing and dying from cancer, according to a decades-long study. The biggest drivers behind male cases were smoking, obesity and drinking too much alcohol, researchers said, with the link most pronounced in lung and oesophageal cancers. Continue reading...",
+      "url": "https://www.theguardian.com/society/2026/aug/21/uk-men-heart-disease-higher-cancer-risk",
+      "canonicalUrl": "https://theguardian.com/society/2026/aug/21/uk-men-heart-disease-higher-cancer-risk",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T05:01:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c23c80a46ec7648ca0f34ff20068806934b90df1/985_0_5397_4320/master/5397.jpg?width=140&quality=85&auto=format&fit=max&s=982f77f06214363445e7b88cc8254771",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c8f2b2d65ad59243a755",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47366
+    },
+    {
+      "id": "847565c0cde5dc2b45264447",
+      "title": "Back on track: can Burnham fix the north’s woeful rail services?",
+      "translatedTitle": null,
+      "description": "From a new high-speed line to better intercity links, the PM has a chance to tackle problems he criticised as Manchester mayor For passenger rail travel, the north of England was the future, once. But since that first train from Darlington to Stockton in 1825, many have felt short-changed. As one angry passenger put it, 200 years later: “What is it about the rail industry which makes them think they can treat passengers in the north as second-class citizens?” That complaint came from the former",
+      "url": "https://www.theguardian.com/business/2026/aug/21/back-on-track-can-burnham-fix-the-norths-woeful-rail-services",
+      "canonicalUrl": "https://theguardian.com/business/2026/aug/21/back-on-track-can-burnham-fix-the-norths-woeful-rail-services",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T05:00:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/914a67f6ba7b35c037fc4d32e1b2086e9bf1976b/904_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=41960e5c016831462f9e6f2b854bf11c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "56f234bc4289aab201b5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47199
+    },
+    {
+      "id": "6c84639a1d6e85d9118c7b45",
+      "title": "‘Billy’s thriving’: family’s joy as boy who helped legalise cannabis medicine in UK turns 21",
+      "translatedTitle": null,
+      "description": "Mother of Billy Caldwell, who has severe epilepsy, celebrates son’s story while pushing for better access to prescription cannabis for families who need it When Billy Caldwell was a baby he was not expected to survive infancy. A severe form of epilepsy condemned his tiny body to daily seizures – brutal, draining and each one potentially fatal. “They couldn’t get the seizures under control,” his mother, Charlotte, recalled. “Billy was sent home to die – we were told he wouldn’t see past his first",
+      "url": "https://www.theguardian.com/society/2026/aug/21/family-joy-as-boy-who-helped-legalise-cannabis-medicine-in-uk-turns-21",
+      "canonicalUrl": "https://theguardian.com/society/2026/aug/21/family-joy-as-boy-who-helped-legalise-cannabis-medicine-in-uk-turns-21",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T05:00:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f2de777bd797ae61f9346f3511e36a1b7bb7ebe4/0_254_1536_1228/master/1536.jpg?width=140&quality=85&auto=format&fit=max&s=91855a23e61a93dd5c191bac65da4690",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b8a0720af7f781ff2263",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47199
+    },
+    {
+      "id": "deebe1dc5d55bd5ae4465077",
+      "title": "The Taliban have built a system for enslaving women in Afghanistan | Tala Elissa",
+      "translatedTitle": null,
+      "description": "Five years on, the regime’s chokehold has left Afghan women with almost nothing, but many are still bravely fighting for their freedom The Taliban did not just ban women from schools, impose the burqa and outlaw smartphones. The Taliban built a system that enslaves nearly half the country’s population, or according to outdated statistics: 21,701,532 women and girls. In general, the Taliban’s system runs on laws that get changed, forgotten or scrapped as needed to oppress women, such as the aboli",
+      "url": "https://www.theguardian.com/global-development/2026/aug/21/taliban-built-system-enslaving-women-afghanistan",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/aug/21/taliban-built-system-enslaving-women-afghanistan",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T05:00:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ddd4d974a8e07928b95c4cd0857ff275e695ef8d/331_0_3295_2636/master/3295.jpg?width=140&quality=85&auto=format&fit=max&s=9c8054a1b06d8bd92e92aae82c628564",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "136bbea9d717f47cefb8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47199
+    },
+    {
+      "id": "e8770fb032fd65e90289bb67",
+      "title": "Stupid Never Dies – a zombie fights for the love of a frozen corpse",
+      "translatedTitle": null,
+      "description": "Free from a big brand’s audience expectations, new studio GPTrack50 has created a wacky action-packed romp through a monster-filled world for its first game Love is blind. In Stupid Never Dies, it is also frozen solid and technically dead as Davy, the weakest zombie in monster society, discovers Julia’s body in a shopping centre and falls in love at first sight. He wants to bring her back to life and take her on a date. Unfortunately, that means defeating the King of Monsters (KOM) and accidenta",
+      "url": "https://www.theguardian.com/games/2026/aug/21/stupid-never-dies-zombie-game",
+      "canonicalUrl": "https://theguardian.com/games/2026/aug/21/stupid-never-dies-zombie-game",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T05:00:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a03a6252052cb9e06d2ae02dd5f81d5335f12691/570_0_1350_1080/master/1350.png?width=140&quality=85&auto=format&fit=max&s=1de34c80b231747d34fb6ccded043ca4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5213d2698abf0bc000dd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47199
+    },
+    {
+      "id": "7ac83ddc9fa3676937b3ec54",
+      "title": "The lace race: what to wear with slip skirts",
+      "translatedTitle": null,
+      "description": "Midis with a lingerie-inspired lace trim can do it all, whether you want to dress up for a wedding or down for the pub Continue reading...",
+      "url": "https://www.theguardian.com/fashion/gallery/2026/aug/21/what-to-wear-with-slip-skirts",
+      "canonicalUrl": "https://theguardian.com/fashion/gallery/2026/aug/21/what-to-wear-with-slip-skirts",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T05:00:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/76194dd3f3fb4da62168464f9f26820159dacf6f/300_0_1500_1200/master/1500.jpg?width=140&quality=85&auto=format&fit=max&s=caf0b930188dc39473ed8cf99137719a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d23d1b8c2ec9a793eaed",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47199
+    },
+    {
+      "id": "1ccbccb830b523056e5b6522",
+      "title": "I’ll admit it: I’ve cycled through red lights. But Britain’s traffic laws are to blame, not me | Simon Jenkins",
+      "translatedTitle": null,
+      "description": "The essence of cycling is to keep moving, but London’s chaotic roads often make this difficult. My solution: fewer, not more rules I plead guilty. I have loved and used the streets of London all my life, as a cyclist, driver and pedestrian. Touch wood, I have done so without accident, blemish or insurance claim. Yet now I find myself perpetually on the wrong side of the law. Regulation has become bureaucratic and chaotic. When I try to drive at the authorised speed of 20mph on many through roads",
+      "url": "https://www.theguardian.com/commentisfree/2026/aug/21/cycling-britain-traffic-laws-london-chaotic-roads",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/aug/21/cycling-britain-traffic-laws-london-chaotic-roads",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T05:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c83fc39f47ffbc4000151e272a6cfe3236af8c9b/641_0_4232_3386/master/4232.jpg?width=140&quality=85&auto=format&fit=max&s=acbbde24520a5ace39c259da1ddc3b30",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "494d6657823fd6a6ffb3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47196
+    },
+    {
+      "id": "dcfd8418282f403a98460eb2",
+      "title": "Benjamina Ebuehi’s recipe for rosemary and cherry blondie ice-cream sandwiches | The sweet spot",
+      "translatedTitle": null,
+      "description": "Blondies will happily take an ice-cream filling without falling apart, and when those biscuits are infused with herbs, they also help to cut through some of the sweetness Ice-cream sandwiches have really grown on me. I used to find them a bit tricky to eat; far too many of them had outer shells so hard they would crack a tooth, while the rest would turn to mush after a few minutes out of the freezer. Finding the balance between something thathas enough structural integrity to hold a good wedge o",
+      "url": "https://www.theguardian.com/food/2026/aug/21/benjamina-ebuehi-rosemary-cherry-blondie-ice-cream-sandwiches-recipe",
+      "canonicalUrl": "https://theguardian.com/food/2026/aug/21/benjamina-ebuehi-rosemary-cherry-blondie-ice-cream-sandwiches-recipe",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T05:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e3ae7a249691b55ed9eb0c13c29cd2cd02252a0f/189_2545_5176_4141/master/5176.jpg?width=140&quality=85&auto=format&fit=max&s=a0c3123405ab002fe64829eb36c2e599",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "79f0c6d8fca644e91224",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47196
+    },
+    {
+      "id": "0f8f9f5f7ab65b76c8c7cb80",
+      "title": "Country diary: Ten tonnes of solid muscle, basking sharks are booming here once again",
+      "translatedTitle": null,
+      "description": "Port Erin Bay, Isle of Man: A few years ago they disappeared from these shores, but with food stocks on the up, they’ve made a magnificent return Not long ago, my encounters with basking sharks were pretty close up. When a scientist researching them off the Isle of Man needed help, with my experience of driving inflatable ribs, I was tasked with steering his small boat up to a 10-tonne shark, closely and carefully enough for him to jab a small tracking device into its dorsal fin. It was hair-rai",
+      "url": "https://www.theguardian.com/environment/2026/aug/21/country-diary-ten-tonnes-of-solid-muscle-basking-sharks-are-booming-here-once-again",
+      "canonicalUrl": "https://theguardian.com/environment/2026/aug/21/country-diary-ten-tonnes-of-solid-muscle-basking-sharks-are-booming-here-once-again",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T04:30:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5ac75bbc29c1453c56808c5c72cadd80f62506d6/437_0_4325_3461/master/4325.jpg?width=140&quality=85&auto=format&fit=max&s=a991bee82c4b664431644a79a5a7e689",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ea24665b133f01644056",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.42175
     },
     {
       "id": "11eef9b56f26212f9da129fb",
@@ -985,19 +1255,79 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "4b10360412d21c5aac5c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80425
+      "rankingScore": 5.37296,
+      "related": []
     },
     {
-      "id": "42adb7a8c4f2e04604c06e6d",
-      "title": "Experience: I fell 12 metres while bouldering and smashed my pelvis into pieces",
+      "id": "5344150c0cc05b7c339d5540",
+      "title": "Badgers review – the audience investigates in this true-crime podcast yarn",
+      "translatedTitle": null,
+      "description": "Traverse theatre, EdinburghMalaika Kegode delivers a supernatural story about the strange disappearance of a maudlin folk singer Playwright and performer Malaika Kegode tops and tails this show for Theatre Royal Plymouth with a message about the allure of storytelling. In a festival city bursting at the seams with stories, it is an unnecessary observation. A more important question is about which stories we choose to tell, which resonate and which pass us by. Why, for example, did Kegode want to",
+      "url": "https://www.theguardian.com/stage/2026/aug/21/badgers-review-traverse-theatre-edinburgh-festival",
+      "canonicalUrl": "https://theguardian.com/stage/2026/aug/21/badgers-review-traverse-theatre-edinburgh-festival",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T04:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b996a2a43db06220e284813dfe2fc8fb28e94335/473_0_4733_3786/master/4733.jpg?width=140&quality=85&auto=format&fit=max&s=949afcfc7c9d6e770c237fb4a78d8ceb",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "936a138494bacd94dce7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37296
+    },
+    {
+      "id": "723e5d833183f30a56666233",
+      "title": "‘It is the riskiest film I’ve ever made’: Pedro Almodóvar on being the villain in his own movie",
+      "translatedTitle": null,
+      "description": "As his new film Bitter Christmas is released, the legendary Spanish director turns his fire on Donald Trump, Will Smith, Netflix – and himself Black sunglasses indoors and a tufty cloud of cotton-wool hair: it can only be Pedro Almodóvar, bourgeois arthouse darling nonpareil and master of everything from screwball romps (Women on the Verge of a Nervous Breakdown) to clammy thrillers (Live Flesh, The Skin I Live In) – and sumptuous melodramas such as his 24th film, Bitter Christmas, a cautionary",
+      "url": "https://www.theguardian.com/film/2026/aug/21/it-is-the-riskiest-film-ive-ever-made-pedro-almodovar-on-being-the-villain-in-his-own-movie",
+      "canonicalUrl": "https://theguardian.com/film/2026/aug/21/it-is-the-riskiest-film-ive-ever-made-pedro-almodovar-on-being-the-villain-in-his-own-movie",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T04:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9932bca5118115e4c921e2180af47a6ae1e9d7ce/1085_0_6049_4839/master/6049.jpg?width=140&quality=85&auto=format&fit=max&s=8c712ba9226a3565bd34497489034456",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a40130a12e2b015ef706",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37294
+    },
+    {
+      "id": "4d6e9b59e9081383fa103d2c",
+      "title": "Experience: I fell 12 metres and smashed my pelvis into pieces",
       "translatedTitle": null,
       "description": "It was clear it was broken. I could feel the bones grinding together as the paramedics strapped me to a gurney Growing up in Utah, I was so active that my parents nicknamed me “The Blur”. My older siblings introduced me to rock climbing while I was still at primary school. By the time I was 15, I was hauling myself up cliff faces. One summer’s day in 2014, when I was 17, my friends and I went paddleboarding on a lake. My friend Trevor and I decided to climb one of the rocky boulders overlooking",
       "url": "https://www.theguardian.com/lifeandstyle/2026/aug/21/experience-fell-bouldering-smashed-pelvis",
@@ -1015,15 +1345,135 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "17c72148d862ce892a6a",
+      "clusterId": "94a5688fcdb346617015",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.37294,
+      "related": []
+    },
+    {
+      "id": "e2eded8887405d8f26bedd66",
+      "title": "Spa Weekend review – female answer to The Hangover spreads the slush with the massage oil",
+      "translatedTitle": null,
+      "description": "Despite stars Leslie Mann, Anna Faris and Isla Fisher and the writers behind The Hangover, this tale of friends at a luxury hotel is a dud Jon Lucas and Scott Moore are the screenwriters who struck gold nearly 20 years ago with The Hangover, a brilliant stag-weekend nightmare comedy about what happens in Vegas, which sadly spawned a terrible (though lucrative) franchise. Now, as writers and directors, they have tried turning it around and making a movie about how middle-aged women behave on a lo",
+      "url": "https://www.theguardian.com/film/2026/aug/21/spa-weekend-review-comedy",
+      "canonicalUrl": "https://theguardian.com/film/2026/aug/21/spa-weekend-review-comedy",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T04:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/22c96c2c3bf23bcaf7cf7407006cb208702c3309/357_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=420a4f23c0216ca39d0c812842e1210d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5e0f480ff83339afcb1b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80422
+      "rankingScore": 5.37294
+    },
+    {
+      "id": "9d057df8a5e93a38f585285f",
+      "title": "Brandon Flowers: Is fame worth it? I'm not sure anymore",
+      "translatedTitle": null,
+      "description": "The Killers frontman asks big questions on his third solo album, which takes a detour into country.",
+      "url": "https://www.bbc.co.uk/news/articles/c7vgple783go?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c7vgple783go?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T00:26:57Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca8a/live/32c68bf0-9bd8-11f1-bb4d-1147ef2e78e5.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "51c4e5bcf61700218e8b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.33216
+    },
+    {
+      "id": "ec5d23179e9a1cda616c6317",
+      "title": "Wellness habits you can start now - at no (or little) cost",
+      "translatedTitle": null,
+      "description": "Living a healthy life doesn't have to just be about pricey studio classes and luxury retreats.",
+      "url": "https://www.bbc.co.uk/news/articles/c62vyz2x065o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c62vyz2x065o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T00:23:55Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d919/live/d5f042d0-9bd8-11f1-bb4d-1147ef2e78e5.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2b844097a0b0b394cc65",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.32817
+    },
+    {
+      "id": "1c66ec293e190d91228e18ff",
+      "title": "My life was changed by a terror attack - now survivors like me won't be forgotten",
+      "translatedTitle": null,
+      "description": "The UK's first national day for victims and survivors of terrorism takes place on Friday - and means more to this man than many.",
+      "url": "https://www.bbc.co.uk/news/articles/cd0x91ym7veo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cd0x91ym7veo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-08-21T00:11:18Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a399/live/36ece130-9c95-11f1-a291-b542ee92de7c.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-08-21T08:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "148466a0f8b9cc5db5fb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.3117
     },
     {
       "id": "ccd15255050e92ad8208f9a7",
@@ -1052,8 +1502,8 @@
       "clusterId": "1189b4ba2b65ec12277d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74594
+      "rankingScore": 5.30834,
+      "related": []
     },
     {
       "id": "0341d7635a4255beb103b5f8",
@@ -1082,38 +1532,8 @@
       "clusterId": "af52f61e1abc0b00b0c9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73543
-    },
-    {
-      "id": "e1c958e6c2d1a86c0f40ad4d",
-      "title": "A question looms over Harry's return to the UK. Can he rebuild his relationship with Prince William?",
-      "translatedTitle": null,
-      "description": "The royal family’s long-running American soap opera is returning to Britain",
-      "url": "https://www.independent.co.uk/news/world/americas/meghan-prince-william-charles-iii-archie-associated-newspapers-b3036786.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/meghan-prince-william-charles-iii-archie-associated-newspapers-b3036786.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T04:05:09Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/21/05/Philanthropy_Prince_Harry_63478.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d6cabebe4042e886abc7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72375
+      "rankingScore": 5.29992,
+      "related": []
     },
     {
       "id": "ef9697667617f9ba718708ef",
@@ -1142,8 +1562,8 @@
       "clusterId": "767194919681d140fbb0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72372
+      "rankingScore": 5.29055,
+      "related": []
     },
     {
       "id": "70c1036ebccc9f9413dccd98",
@@ -1172,68 +1592,8 @@
       "clusterId": "cc2618cb65e7338efee9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71361
-    },
-    {
-      "id": "9d057df8a5e93a38f585285f",
-      "title": "Brandon Flowers: Is fame worth it? I'm not sure anymore",
-      "translatedTitle": null,
-      "description": "The Killers frontman asks big questions on his third solo album, which takes a detour into country.",
-      "url": "https://www.bbc.co.uk/news/articles/c7vgple783go?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c7vgple783go?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T00:26:57Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca8a/live/32c68bf0-9bd8-11f1-bb4d-1147ef2e78e5.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "51c4e5bcf61700218e8b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6861
-    },
-    {
-      "id": "ec5d23179e9a1cda616c6317",
-      "title": "Wellness habits you can start now - at no (or little) cost",
-      "translatedTitle": null,
-      "description": "Living a healthy life doesn't have to just be about pricey studio classes and luxury retreats.",
-      "url": "https://www.bbc.co.uk/news/articles/c62vyz2x065o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c62vyz2x065o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T00:23:55Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d919/live/d5f042d0-9bd8-11f1-bb4d-1147ef2e78e5.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2b844097a0b0b394cc65",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68112
+      "rankingScore": 5.28245,
+      "related": []
     },
     {
       "id": "0a7f882c3b4fc0e827712d6d",
@@ -1262,128 +1622,8 @@
       "clusterId": "3173ac62d681e2893b3c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66682
-    },
-    {
-      "id": "77b28a00e8e170143cde5238",
-      "title": "My student day out in London turned to terror - now survivors like me won't be forgotten",
-      "translatedTitle": null,
-      "description": "The UK's first national day for victims and survivors of terrorism takes place on Friday - and means more to this man than many.",
-      "url": "https://www.bbc.co.uk/news/articles/cd0x91ym7veo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cd0x91ym7veo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T00:11:18Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a399/live/36ece130-9c95-11f1-a291-b542ee92de7c.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d02b5abb93af67f3aad7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66055
-    },
-    {
-      "id": "e25a7b29017a8ad6349135a2",
-      "title": "Newspaper review: 'King puts William first' and Harry security could cost public '£5m a year'",
-      "translatedTitle": null,
-      "description": "The return of the Duke and Duchess of Sussex to the UK continues to dominate Friday's front pages.",
-      "url": "https://www.bbc.co.uk/news/articles/cy4kjmmmxmlo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cy4kjmmmxmlo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T00:08:19Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/865a/live/67776230-9cef-11f1-a291-b542ee92de7c.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "800e27404cdceab9e1d2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65572
-    },
-    {
-      "id": "e109c16750f36b3fe2df2e3f",
-      "title": "Jason Sudeikis says it was a ‘joy’ for former cast member’s real-life sister to join Ted Lasso",
-      "translatedTitle": null,
-      "description": "Actor appears in latest episode of ‘Ted Lasso’ season four",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/ted-lasso-season-4-dani-rojas-real-sister-b3036776.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/ted-lasso-season-4-dani-rojas-real-sister-b3036776.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T02:49:07Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/20/18/35/GettyImages-2221578499-(1).jpg?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6cb1865118c3d8159505",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.57598
-    },
-    {
-      "id": "34e631dbe540675dc1ee99ac",
-      "title": "The Office star reveals harsh reality that forced her to leave TV",
-      "translatedTitle": null,
-      "description": "Emmy-nominated performer explained why she moved to podcasting instead of acting",
-      "url": "https://www.independent.co.uk/life-style/the-office-jenna-fischer-tv-acting-b3036775.html",
-      "canonicalUrl": "https://independent.co.uk/life-style/the-office-jenna-fischer-tv-acting-b3036775.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T02:47:25Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/20/22/71728224..?width=1200&auto=webp&trim=13%2C0%2C13%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8851fd7160cae8722164",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5728
+      "rankingScore": 5.24498,
+      "related": []
     },
     {
       "id": "8b80a73537bbce585fa60a6e",
@@ -1405,7 +1645,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
+      "retrievedAt": "2026-08-21T08:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -1413,217 +1653,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.56544
-    },
-    {
-      "id": "e352b90d22df36cff30546ea",
-      "title": "Rory McIlroy makes welcome return to form in first round of BMW Championship",
-      "translatedTitle": null,
-      "description": "The world number two had laboured to an eight-over finish at last week’s St Jude Championship.",
-      "url": "https://www.independent.co.uk/sport/golf/rory-mcilroy-scottie-scheffler-st-louis-right-memphis-b3036718.html",
-      "canonicalUrl": "https://independent.co.uk/sport/golf/rory-mcilroy-scottie-scheffler-st-louis-right-memphis-b3036718.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T02:35:05Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/20/22/20-9eff782ac79c4c14b7a08c707a136f6f.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "56b9d87966ecd9538b62",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.54983,
-      "related": []
-    },
-    {
-      "id": "aee697b20ddfae5f51b2acfa",
-      "title": "Jury says The New York Times defamed Alabama basketball player with incorrect story about shooting",
-      "translatedTitle": null,
-      "description": "An Alabama jury finds The New York Times defamed a college basketball player by incorrectly reporting that he was at the scene of a fatal shooting in Tuscaloosa",
-      "url": "https://www.independent.co.uk/news/world/americas/the-new-york-times-university-of-alabama-tuscaloosa-alabama-united-states-b3036772.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/the-new-york-times-university-of-alabama-tuscaloosa-alabama-united-states-b3036772.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T02:21:22Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/21/03/Alabama_Shooting_Times_Lawsuit_45855.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "555825ff98dcdab1331b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.52459
-    },
-    {
-      "id": "40e0a4b2985a7e9b1f8735d6",
-      "title": "Karmelo Anthony seeks new trial over evidence withheld from jury",
-      "translatedTitle": null,
-      "description": "Anthony’s lawyers argued that an agreement to withhold evidence was one of several errors that compromised his June trial",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/karmelo-anthony-trial-anthony-metcalf-killing-evidence-b3036766.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/crime/karmelo-anthony-trial-anthony-metcalf-killing-evidence-b3036766.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T01:14:17Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/21/02/TQBnvQpH_fug5XRkbfJ53pLd1xUeEcUCvXXQzL6nCPpAeMYHuhLjSlq6oe3TshPNXJzdYpOUDLv9c7O0R-p_kbPp2Mn1k6nVp36H..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bdf8b09d0420ec5dc86e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.40567
-    },
-    {
-      "id": "a29135156f111b37ca6e5d23",
-      "title": "Tibetan medicine remains part of healthcare in the high-altitude region, in photos",
-      "translatedTitle": null,
-      "description": "In the high-altitude region of Tibet, people continue to turn to a centuries-old medical system to treat some ailments, often alongside conventional medicine.",
-      "url": "https://www.independent.co.uk/news/tibet-world-health-organization-lhasa-b3036765.html",
-      "canonicalUrl": "https://independent.co.uk/news/tibet-world-health-organization-lhasa-b3036765.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T01:08:56Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/21/02/China_Tibetan_Medicine_Photo_Gallery_18169.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5e9cb2b729b683ffd44e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.3965
-    },
-    {
-      "id": "b16aec891e1817b7830a20ef",
-      "title": "California oil pipeline can continue to operate, judge rules",
-      "translatedTitle": null,
-      "description": "State sought to stop system off coast of Santa Barbara from resuming operations after Trump ordered its reopening An oil pipeline can continue to operate off the California coast after a judge gave it the green light this week, despite the opposition of state regulators and environmental groups. The system off the coast of Santa Barbara resumed operations earlier this year for the first time in more than a decade after Donald Trump ordered Sable Offshore Corporation to reopen it, citing US energ",
-      "url": "https://www.theguardian.com/us-news/2026/aug/20/california-oil-pipeline-trump-judge-ruling",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/aug/20/california-oil-pipeline-trump-judge-ruling",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T00:13:47Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/72094ce431c4146443a1277d6ab3f83fac27d8c0/987_0_4935_3948/master/4935.jpg?width=140&quality=85&auto=format&fit=max&s=127998bf87fe197bb8b31a7c0342fbc8",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1030a977e94b06444e47",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.39458
-    },
-    {
-      "id": "aab5c05f1acfb19c01fd8ec2",
-      "title": "Lily Hooper’s family was told she’d been found alive. ‘She’s coming home,’ her father said – then tears of joy turned to grief",
-      "translatedTitle": null,
-      "description": "After eight days missing in the rugged NSW bush, word came through that the 18-year-old had been located. Her family were waiting with presents Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast The rugged landscape of the New South Wales southern highlands loomed large on Thursday evening. This country had just revived, then killed hope. A young woman was found “alive”, but then it was confirmed she was dead: desperation, confusion",
-      "url": "https://www.theguardian.com/australia-news/2026/aug/21/missing-teen-hiker-lily-hooper-body-found-what-happened-chris-minns-police",
-      "canonicalUrl": "https://theguardian.com/australia-news/2026/aug/21/missing-teen-hiker-lily-hooper-body-found-what-happened-chris-minns-police",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-20T23:58:23Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/ddbd23238b1e4b3208c768bd73432406917bc1d4/0_157_3432_2746/master/3432.jpg?width=140&quality=85&auto=format&fit=max&s=0532c470c6bf0ab19d9d71d657b0ad7e",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "032d868664046c95a493",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.36974
-    },
-    {
-      "id": "cec7fe48a2ecdbb36577df36",
-      "title": "Jurors hear Tupac murder suspect say nephew fired shots that killed rapper",
-      "translatedTitle": null,
-      "description": "This 2008 interview was the first time Duane Davis directly discussed his involvement in the killing with authorities",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/tupac-shakur-murder-trial-duane-davis-nephew-b3036761.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/crime/tupac-shakur-murder-trial-duane-davis-nephew-b3036761.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-08-21T00:52:59Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/21/01/2026-08-20T204412Z_1511757220_RC2K2NAZDIG7_RTRMADP_3_PEOPLE-TUPAC-MURDER-COURT.JPG?width=1200&auto=webp&trim=0%2C40%2C0%2C40",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-08-21T04:18:05Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d4923541506491d3dbc0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.36943
+      "rankingScore": 5.23554
     }
   ]
 }
