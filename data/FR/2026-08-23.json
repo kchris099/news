@@ -5,9 +5,9 @@
   "timeZone": "Europe/Paris",
   "date": "2026-08-23",
   "generatedAt": "2026-08-23T00:18:13Z",
-  "lastAttemptAt": "2026-08-23T00:18:13Z",
+  "lastAttemptAt": "2026-08-23T04:18:11Z",
   "lastSuccessfulUpdate": "2026-08-23T00:18:13Z",
-  "status": "current",
+  "status": "retained",
   "samplePreview": false,
   "articleCount": 2,
   "publisherCount": 2,
@@ -15,22 +15,22 @@
     {
       "sourceId": "france24-en",
       "sourceName": "France 24",
-      "status": "success",
-      "lastAttemptAt": "2026-08-23T00:18:12Z",
-      "lastSuccessAt": "2026-08-23T00:18:12Z",
-      "articlesRetrieved": 23,
-      "responseTimeMs": 180,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-08-23T04:18:11Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "ValueError",
+      "errorMessage": "Malformed feed: <unknown>:10:92: not well-formed (invalid token)"
     },
     {
       "sourceId": "lemonde-une",
       "sourceName": "Le Monde",
       "status": "success",
-      "lastAttemptAt": "2026-08-23T00:18:12Z",
-      "lastSuccessAt": "2026-08-23T00:18:12Z",
+      "lastAttemptAt": "2026-08-23T04:18:11Z",
+      "lastSuccessAt": "2026-08-23T04:18:11Z",
       "articlesRetrieved": 16,
-      "responseTimeMs": 168,
+      "responseTimeMs": 178,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "franceinfo-top",
       "sourceName": "Franceinfo",
       "status": "success",
-      "lastAttemptAt": "2026-08-23T00:18:12Z",
-      "lastSuccessAt": "2026-08-23T00:18:13Z",
+      "lastAttemptAt": "2026-08-23T04:18:11Z",
+      "lastSuccessAt": "2026-08-23T04:18:11Z",
       "articlesRetrieved": 30,
-      "responseTimeMs": 623,
+      "responseTimeMs": 260,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,10 +49,10 @@
       "sourceId": "le-figaro-top",
       "sourceName": "Le Figaro",
       "status": "success",
-      "lastAttemptAt": "2026-08-23T00:18:12Z",
-      "lastSuccessAt": "2026-08-23T00:18:13Z",
+      "lastAttemptAt": "2026-08-23T04:18:11Z",
+      "lastSuccessAt": "2026-08-23T04:18:11Z",
       "articlesRetrieved": 19,
-      "responseTimeMs": 547,
+      "responseTimeMs": 297,
       "errorType": null,
       "errorMessage": null
     }
@@ -118,5 +118,6 @@
       "related": [],
       "rankingScore": 5.50475
     }
-  ]
+  ],
+  "warning": "Latest collection produced 7 articles versus 2 retained articles."
 }
