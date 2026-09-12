@@ -4,22 +4,22 @@
   "countryName": "South Korea",
   "timeZone": "Asia/Seoul",
   "date": "2026-09-12",
-  "generatedAt": "2026-09-12T00:18:20Z",
-  "lastAttemptAt": "2026-09-12T00:18:20Z",
-  "lastSuccessfulUpdate": "2026-09-12T00:18:20Z",
-  "status": "current",
+  "generatedAt": "2026-09-12T04:17:54Z",
+  "lastAttemptAt": "2026-09-12T04:17:54Z",
+  "lastSuccessfulUpdate": "2026-09-12T04:17:54Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
-  "publisherCount": 3,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "yonhap-en",
       "sourceName": "Yonhap News Agency",
       "status": "success",
-      "lastAttemptAt": "2026-09-12T00:18:12Z",
-      "lastSuccessAt": "2026-09-12T00:18:14Z",
-      "articlesRetrieved": 94,
-      "responseTimeMs": 1226,
+      "lastAttemptAt": "2026-09-12T04:17:49Z",
+      "lastSuccessAt": "2026-09-12T04:17:51Z",
+      "articlesRetrieved": 97,
+      "responseTimeMs": 1560,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,32 +27,32 @@
       "sourceId": "korea-herald",
       "sourceName": "The Korea Herald",
       "status": "success",
-      "lastAttemptAt": "2026-09-12T00:18:12Z",
-      "lastSuccessAt": "2026-09-12T00:18:13Z",
+      "lastAttemptAt": "2026-09-12T04:17:49Z",
+      "lastSuccessAt": "2026-09-12T04:17:50Z",
       "articlesRetrieved": 0,
-      "responseTimeMs": 682,
+      "responseTimeMs": 1161,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "korea-times",
       "sourceName": "The Korea Times",
-      "status": "success",
-      "lastAttemptAt": "2026-09-12T00:18:12Z",
-      "lastSuccessAt": "2026-09-12T00:18:14Z",
+      "status": "failed",
+      "lastAttemptAt": "2026-09-12T04:17:49Z",
+      "lastSuccessAt": null,
       "articlesRetrieved": 0,
-      "responseTimeMs": 1195,
-      "errorType": null,
-      "errorMessage": null
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '403 Forbidden' for url 'https://www.koreatimes.co.kr/www/rss/nation.xml' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "sourceId": "yna-ko",
       "sourceName": "Yonhap News Agency (Korean)",
       "status": "success",
-      "lastAttemptAt": "2026-09-12T00:18:12Z",
-      "lastSuccessAt": "2026-09-12T00:18:14Z",
+      "lastAttemptAt": "2026-09-12T04:17:49Z",
+      "lastSuccessAt": "2026-09-12T04:17:51Z",
       "articlesRetrieved": 120,
-      "responseTimeMs": 1777,
+      "responseTimeMs": 1780,
       "errorType": null,
       "errorMessage": null
     },
@@ -60,10 +60,10 @@
       "sourceId": "kbs-world-news",
       "sourceName": "KBS News",
       "status": "success",
-      "lastAttemptAt": "2026-09-12T00:18:12Z",
-      "lastSuccessAt": "2026-09-12T00:18:13Z",
+      "lastAttemptAt": "2026-09-12T04:17:49Z",
+      "lastSuccessAt": "2026-09-12T04:17:49Z",
       "articlesRetrieved": 30,
-      "responseTimeMs": 733,
+      "responseTimeMs": 362,
       "errorType": null,
       "errorMessage": null
     },
@@ -71,22 +71,52 @@
       "sourceId": "sbs-headline",
       "sourceName": "SBS News",
       "status": "success",
-      "lastAttemptAt": "2026-09-12T00:18:12Z",
-      "lastSuccessAt": "2026-09-12T00:18:13Z",
-      "articlesRetrieved": 19,
-      "responseTimeMs": 211,
+      "lastAttemptAt": "2026-09-12T04:17:49Z",
+      "lastSuccessAt": "2026-09-12T04:17:49Z",
+      "articlesRetrieved": 17,
+      "responseTimeMs": 445,
       "errorType": null,
       "errorMessage": null
     }
   ],
   "articles": [
     {
-      "id": "239bd3c8a83771746ed99e57",
-      "title": "(URGENT) N. Korea's ballistic missiles flew about 250 km: JCS",
+      "id": "c986afb8c620e33633ab50fd",
+      "title": "Pres. Office Condemns N. Korea's Missile Launch as Violation of UNSC Resolutions",
       "translatedTitle": null,
-      "description": "(END)",
-      "url": "https://en.yna.co.kr/view/AEN20260806009500315",
-      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260806009500315",
+      "description": "[Politics] : The presidential office has called North Korea's latest ballistic missile launch a violation of United Nations Security Council resolutions. The National Security Office(NSO) on Saturday urged Pyongyang to immediately halt such provocations during an emergency meeting convened after the launch. In a press ...[more...]",
+      "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204202",
+      "canonicalUrl": "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=204202&lang=e",
+      "sourceName": "KBS News",
+      "sourceDomain": "world.kbs.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-09-12T03:15:05Z",
+      "imageUrl": "https://worldimg.kbs.co.kr/src/images/news/202609/260912121906_10_e.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0d267635468a40ac6b04",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 10.20562
+    },
+    {
+      "id": "a5cb0cb0c6d26c3f8320c6e6",
+      "title": "Cheong Wa Dae denounces N.K. missile launch as violation of UNSC resolution",
+      "translatedTitle": null,
+      "description": "SEOUL, Sept. 12 (Yonhap) -- The presidential Office of National Security on Satu...",
+      "url": "https://en.yna.co.kr/view/AEN20260912000700315",
+      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260912000700315",
       "sourceName": "Yonhap News Agency",
       "sourceDomain": "en.yna.co.kr",
       "sourceCountry": "KR",
@@ -95,28 +125,210 @@
         "KR"
       ],
       "language": "en",
-      "publishedAt": "2026-09-11T23:47:02Z",
-      "imageUrl": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+      "publishedAt": "2026-09-12T00:29:06Z",
+      "imageUrl": "https://img.yna.co.kr/photo/cms/2026/05/06/62/PCM20260506000062990_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6b6e8d2d4f1229c69fa4",
+      "clusterId": "82405c8e0d3055e35cc1",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.65709
+      "rankingScore": 8.29993
     },
     {
-      "id": "d0791c0c5831c302e979e7d1",
-      "title": "U.S. military says it is aware of N.K. missile launch, reaffirms defense commitment to allies",
+      "id": "79baf194052b863f39cd9403",
+      "title": "Lee to Host Inaugural South Korea-Central Asia Summit Next Week",
       "translatedTitle": null,
-      "description": "WASHINGTON, Sept. 11 (Yonhap) -- The U.S. military said Friday that it is aware ...",
-      "url": "https://en.yna.co.kr/view/AEN20260912000400315",
-      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260912000400315",
+      "description": "[Politics] : President Lee Jae Myung will host the first South Korea-Central Asia summit next Wednesday, bringing together the leaders from Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan and Uzbekistan. During a meeting with his key aides on Friday, Lee discussed the plan to deepen economic ties with the ...[more...]",
+      "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204203",
+      "canonicalUrl": "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=204203&lang=e",
+      "sourceName": "KBS News",
+      "sourceDomain": "world.kbs.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-09-12T03:16:05Z",
+      "imageUrl": "https://worldimg.kbs.co.kr/src/images/news/202609/260912121142_72_e.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d5f7a945c99c80489e31",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15754
+    },
+    {
+      "id": "cd1c88311d289a1ae3b4ae8d",
+      "title": "First Relief Team Returns Home after 10-Day Search Mission in Flood-Stricken Nepal",
+      "translatedTitle": null,
+      "description": "[International] : South Korea's first disaster relief team has returned home following ten days of search and rescue work in flood-ravaged Nepal. The foreign ministry stated that the 44-member team arrived at Seoul Air Base in Seongnam, Gyeonggi Province, around 1:30 a.m. on Saturday aboard a KC-330 military transport ...[more...]",
+      "url": "https://world.kbs.co.kr/service/news_view.htm?lang=e&Seq_Code=204201",
+      "canonicalUrl": "https://world.kbs.co.kr/service/news_view.htm?Seq_Code=204201&lang=e",
+      "sourceName": "KBS News",
+      "sourceDomain": "world.kbs.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-09-12T03:07:48Z",
+      "imageUrl": "https://worldimg.kbs.co.kr/src/images/news/202609/260912095254_0_e.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "eb92b1e28c22a527af40",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.14167
+    },
+    {
+      "id": "5406a0dfdda7bb994ded4fd7",
+      "title": "네팔 터널서 9일 만에 구조된 기계반장 \"흙탕물 마시며 버텨\"",
+      "translatedTitle": null,
+      "description": "(자카르타=연합뉴스) 손현규 특파원 = \"눈으로 볼 수 있는 게 아무것도 없었습니다. 대부분 시간 동안 눈을 감고 있었어요. 실수로 미끄러지거나...",
+      "url": "https://www.yna.co.kr/view/AKR20260912021400104",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260912021400104",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-12T01:45:42Z",
+      "imageUrl": "https://img.yna.co.kr/photo/reuters/2026/09/12/PRU20260912041601009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e46dd2f5dddb23bda283",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "8a220b0be5648a281220abb1",
+          "title": "흙탕물 마시며 9일 버텼다…기적의 생환",
+          "translatedTitle": null,
+          "description": "▲ 지난 4일 구조될 당시 산제이 사 씨네팔 대홍수로 수력발전소 터널에 고립됐다 지난 4일 구조된 네팔인 기계반장이 9일간 흙탕물을 …",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749790&plink=RSSLINK&cooper=RSSREADER",
+          "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=RSSREADER&news_id=N1008749790&plink=RSSLINK",
+          "sourceName": "SBS News",
+          "sourceDomain": "news.sbs.co.kr",
+          "sourceCountry": "KR",
+          "editionCountry": "KR",
+          "coverageCountries": [
+            "KR"
+          ],
+          "language": "ko",
+          "publishedAt": "2026-09-12T02:29:00Z",
+          "imageUrl": "https://img.sbs.co.kr/newimg/news/20260912/202221708.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-09-12T04:17:49Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e46dd2f5dddb23bda283",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "흙탕물 마시며 9일 버텼다 기적의 생환"
+        }
+      ],
+      "rankingScore": 7.13075
+    },
+    {
+      "id": "6611eda4af449e2bcd2a59f5",
+      "title": "비자 수수료 올린 日에 맞불…中, 일본인 비자 수수료 7배↑",
+      "translatedTitle": null,
+      "description": "(도쿄=연합뉴스) 조성미 특파원 = 일본의 비자 수수료 대폭 인상이 중국인 관광객을 겨냥한 것이라는 관측 속에 중국도 일본인 대상 비자 수수료를...",
+      "url": "https://www.yna.co.kr/view/AKR20260912019000073",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260912019000073",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-12T00:24:11Z",
+      "imageUrl": "https://img.yna.co.kr/photo/cms/2016/04/12/01/C0A8CA3C000001545EFA33A00040707_P2.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "66f5e2edfbcc01cbeb53",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "3d05337c4280869e6db3e569",
+          "title": "중국, 일본인 비자 수수료 7배↑…먼저 올린 일본에 '맞대응'",
+          "translatedTitle": null,
+          "description": "▲ 일본 도쿄의 중국인 관광객일본이 비자 수수료를 대폭 인상한 것이 중국인 관광객을 겨냥한 거라는 관측 속에 중국도 맞불 대응에 나섰…",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749735&plink=RSSLINK&cooper=RSSREADER",
+          "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=RSSREADER&news_id=N1008749735&plink=RSSLINK",
+          "sourceName": "SBS News",
+          "sourceDomain": "news.sbs.co.kr",
+          "sourceCountry": "KR",
+          "editionCountry": "KR",
+          "coverageCountries": [
+            "KR"
+          ],
+          "language": "ko",
+          "publishedAt": "2026-09-12T00:43:00Z",
+          "imageUrl": "https://img.sbs.co.kr/newimg/news/20260912/202221695.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-09-12T04:17:49Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "66f5e2edfbcc01cbeb53",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "중국 일본인 비자 수수료 7배 먼저 올린 일본에 맞대응"
+        }
+      ],
+      "rankingScore": 6.99184
+    },
+    {
+      "id": "bd42e1a7eac952e6a5592db9",
+      "title": "(3rd LD) N. Korea fires multiple short-range ballistic missiles toward East Sea: JCS",
+      "translatedTitle": null,
+      "description": "SEOUL, Sept. 12 (Yonhap) -- North Korea fired multiple short-range ballistic mis...",
+      "url": "https://en.yna.co.kr/view/AEN20260912000353315",
+      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260912000353315",
       "sourceName": "Yonhap News Agency",
       "sourceDomain": "en.yna.co.kr",
       "sourceCountry": "KR",
@@ -125,620 +337,20 @@
         "KR"
       ],
       "language": "en",
-      "publishedAt": "2026-09-11T23:44:18Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000400315_01_i_P2.jpg",
+      "publishedAt": "2026-09-12T00:34:17Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000353315_01_i_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "29e2594b085616da58b1",
+      "clusterId": "0d4f81d2f2ca0e16d1c4",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.30169
-    },
-    {
-      "id": "f08b2012e0d6906fc63fdc61",
-      "title": "(2nd LD) N. Korea fires multiple ballistic missiles toward East Sea: JCS",
-      "translatedTitle": null,
-      "description": "SEOUL, Sept. 12 (Yonhap) -- North Korea fired multiple ballistic missiles toward...",
-      "url": "https://en.yna.co.kr/view/AEN20260912000352315",
-      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260912000352315",
-      "sourceName": "Yonhap News Agency",
-      "sourceDomain": "en.yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-09-11T23:44:03Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000352315_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "326ce8f6065cb7f56a4b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.3012
-    },
-    {
-      "id": "642aabd4ff612eee119f2df8",
-      "title": "(LEAD) N. Korea fires unidentified projectile toward East Sea: JCS",
-      "translatedTitle": null,
-      "description": "SEOUL, Sept. 12 (Yonhap) -- North Korea fired an unidentified projectile toward ...",
-      "url": "https://en.yna.co.kr/view/AEN20260912000351315",
-      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260912000351315",
-      "sourceName": "Yonhap News Agency",
-      "sourceDomain": "en.yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-09-11T21:45:27Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/EN/2026/09/12/AEN20260912000351315_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bc060ac7b6654d269fdf",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.07955
-    },
-    {
-      "id": "69120e1b9d2a646a19247e94",
-      "title": "세계의 날씨(9월12일)",
-      "translatedTitle": null,
-      "description": "(09:00)",
-      "url": "https://www.yna.co.kr/view/AKR20260912017900009",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260912017900009",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:11:35Z",
-      "imageUrl": "https://r.yna.co.kr/global/home/v01/img/yonhapnews_logo_1200x800_kr02.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "31781a047e9d23b00e46",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.00623
-    },
-    {
-      "id": "23f98c68ed70f6022d750419",
-      "title": "용인 '평온의숲' 2029년 만장 예상…안치시설 대폭 확충 추진",
-      "translatedTitle": null,
-      "description": "(용인=연합뉴스) 김광호 기자 = 경기 용인시는 시립장묘시설인 '평온의 숲'이 오는 2029년 포화 상태에 이를 것으로 예상됨에 따라 170억 ...",
-      "url": "https://www.yna.co.kr/view/AKR20260910069600061",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260910069600061",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:10:03Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910069600061_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0f8c36360e03f21fde7e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.00313
-    },
-    {
-      "id": "a5b8fc8c57743845f724ad48",
-      "title": "충북도, 16∼20일 추석맞이 수산물 온누리상품권 환급행사",
-      "translatedTitle": null,
-      "description": "(청주=연합뉴스) 전창해 기자 = 충북도는 추석 명절을 맞아 수산물 소비 촉진을 위한 온누리상품권 환급 행사를 한다고 12일 밝혔다.",
-      "url": "https://www.yna.co.kr/view/AKR20260911124300064",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911124300064",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:10:01Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911124300064_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b2150b8c60410fcee5b4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.00306
-    },
-    {
-      "id": "5648dae6ba50c7a7725bee42",
-      "title": "고수온 특보 하향에도 경남 남해안 양식어류 피해 244억 넘어",
-      "translatedTitle": null,
-      "description": "(창원=연합뉴스) 이정훈 기자 = 올여름 경남 남해안 고수온 피해가 금액 기준으로 2000년대 들어 역대 두 번째를 기록할 것으로 보인다.",
-      "url": "https://www.yna.co.kr/view/AKR20260911068200052",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911068200052",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:05:00Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/08/26/PYH2026082615400005200_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0b17dc85b09818005e0d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.99294
-    },
-    {
-      "id": "ec222268c5b01ee79885fdf9",
-      "title": "경남교육청, 교원 대상 '연구윤리 준수·AI 기반' 직무연수",
-      "translatedTitle": null,
-      "description": "(창원=연합뉴스) 김동민 기자 = 경남도교육청은 12일과 오는 19일 두차례에 걸쳐 창원시 진해구 이순신리더십국제센터에서 교원 35명을 대상으로...",
-      "url": "https://www.yna.co.kr/view/AKR20260911114900052",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911114900052",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:03:01Z",
-      "imageUrl": "https://img.yna.co.kr/photo/cms/2026/07/29/74/PCM20260729000174990_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9891bf38265dd568e287",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98896
-    },
-    {
-      "id": "0a8f120680eb62ccbfe00229",
-      "title": "원주시, 추석 앞두고 다중이용시설·전통시장 합동점검",
-      "translatedTitle": null,
-      "description": "(원주=연합뉴스) 임보연 기자 = 강원 원주시는 추석을 앞두고 오는 17일까지 다중이용시설 4곳과 전통시장 5곳을 대상으로 안전관리 실태를 합동...",
-      "url": "https://www.yna.co.kr/view/AKR20260911033700062",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911033700062",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:01:00Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911033700062_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7ad7bb9ec6d8b5fba096",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98491
-    },
-    {
-      "id": "39f0fe13b252f0387f579d26",
-      "title": "제주교육청, '마약류 예방 공감 한마당' 18일 개최",
-      "translatedTitle": null,
-      "description": "(제주=연합뉴스) 김호천 기자 = 제주도교육청은 학생과 학부모, 교직원, 지역사회가 함께하는 '2026 마약류 예방 공감 한마당'을 개최한다고 ...",
-      "url": "https://www.yna.co.kr/view/AKR20260911137000056",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911137000056",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:00:09Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911137000056_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ce0cc6edf738bca0f69c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98321
-    },
-    {
-      "id": "a44b3fd7a46ce238e00d4b6f",
-      "title": "해경, 서해 NLL 불법조업 中어선 1척 나포·91척 퇴거",
-      "translatedTitle": null,
-      "description": "(인천=연합뉴스) 황정환 기자 = 중부지방해양경찰청은 서해 북방한계선(NLL) 인근 해상에서 불법 조업을 한 혐의로 70t급 중국어선 A호를 나...",
-      "url": "https://www.yna.co.kr/view/AKR20260911153200065",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911153200065",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:00:08Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911153200065_04_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6b4f352e8ff4de664838",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98317
-    },
-    {
-      "id": "b0b94038d53afc7dfcdf55c7",
-      "title": "원주 강원감영서 다도·한복·화예 전통문화체험 운영",
-      "translatedTitle": null,
-      "description": "(원주=연합뉴스) 임보연 기자 = 강원 원주시는 국가유산 강원감영에서 '2026 강원감영 전통문화체험 프로그램'을 운영한다고 12일 밝혔다.",
-      "url": "https://www.yna.co.kr/view/AKR20260911035600062",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911035600062",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:00:06Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911035600062_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f5d4199ae8608e736cc2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98311
-    },
-    {
-      "id": "2a32e32c883fb482b677bc6a",
-      "title": "'신들의 고향' 제주 송당…마을길 따라 신화를 걷다",
-      "translatedTitle": null,
-      "description": "(제주=연합뉴스) 변지철 기자 = 제주시 구좌읍 중산간에 자리 잡은 송당마을은 제주에서 '신들의 고향'으로 통한다.",
-      "url": "https://www.yna.co.kr/view/AKR20260910135200056",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260910135200056",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:00:05Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/10/AKR20260910135200056_02_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9d5e6a27930cc596a909",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98307
-    },
-    {
-      "id": "d9dd1f75d0806c61d24047dd",
-      "title": "무면허 오토바이 운전하다 경찰관 매달고 도주한 50대 집행유예",
-      "translatedTitle": null,
-      "description": "(부산=연합뉴스) 차근호 기자 = 무면허로 오토바이를 몰다가 단속에 걸리자 경찰관을 매단 채 도주해 다치게 한 운전자에게 징역형 집행유예가 선고...",
-      "url": "https://www.yna.co.kr/view/AKR20260911098500051",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911098500051",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:00:05Z",
-      "imageUrl": "https://img.yna.co.kr/photo/cms/2021/03/09/42/PCM20210309000042990_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0cc1e672c85dc1083564",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98307
-    },
-    {
-      "id": "f42d9783377c0eb9093254fa",
-      "title": "[IPO챗] 이번주 와이즈플래닛 등 5개 기업 공모주 청약",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 정회인 기자 = 다음 주(14∼18일) 기업공개(IPO) 시장에서는 와이즈플래닛컴퍼니를 시작으로 빅웨이브로보틱스, 글로벌테크놀...",
-      "url": "https://www.yna.co.kr/view/AKR20260911094100008",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911094100008",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:00:04Z",
-      "imageUrl": "https://img.yna.co.kr/photo/cms/2026/06/25/83/PCM20260625000183990_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7db52166e577b0f2aaed",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98304
-    },
-    {
-      "id": "d45e863c551211b24ed01522",
-      "title": "'이정재 최대주주' 아티스트컴퍼니, 40억대 손배소 2심도 승소",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 이영섭 기자 = 배우 이정재가 최대 주주인 연예 기획사 아티스트컴퍼니가 2024년 인수한 드라마 제작사의 전 대표를 상대로 낸...",
-      "url": "https://www.yna.co.kr/view/AKR20260911161900004",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911161900004",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:00:04Z",
-      "imageUrl": "https://img.yna.co.kr/photo/cms/2018/05/02/01/C0A8CAE2000001631DDDFE2600000EAF_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "edfddb304ce5ecc26bdf",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98304
-    },
-    {
-      "id": "dd614096cfab6e3f1384c939",
-      "title": "[로펌을만나다] 김지홍 지평 대표 \"AI시대 경쟁력, 정보 아닌 전문적 판단\"",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 이미령 이승연 기자 = \"국제무역 질서가 재편되고 규제 방향까지 빠르게 변화하면서 과거에는 2차 함수였던 기업의 사업전략이 이...",
-      "url": "https://www.yna.co.kr/view/AKR20260911158800004",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911158800004",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:00:03Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911158800004_08_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dee22d35ca4ca63372ce",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98301
-    },
-    {
-      "id": "931e9045f73c8b186a783803",
-      "title": "[민선9기 서울] 김현기 강남구청장 \"강남 역차별 심화…신성장 대전환으로 도약\"",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 정준영 김준태 기자 = \"지금은 소위 '강남 역차별'이란 말이 나올 정도로 강남에 대한 견제와 규제가 일반화하고 있습니다. 강...",
-      "url": "https://www.yna.co.kr/view/AKR20260911110800004",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260911110800004",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:00:01Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911110800004_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6c1a8c62618437cfe128",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98294
-    },
-    {
-      "id": "2484c3efc18c9b84d493c3e1",
-      "title": "[내일날씨] 전국 구름 많고 일교차 커…서울·인천 등 빗방울",
-      "translatedTitle": null,
-      "description": "(서울=연합뉴스) 조현영 기자 = 일요일인 13일은 전국 대부분 지역이 구름이 많고 일교차가 크겠다.",
-      "url": "https://www.yna.co.kr/view/AKR20260912006400004",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260912006400004",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-12T00:00:00Z",
-      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091108650005400_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "719e5ff914123ef2ab3e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98291
-    },
-    {
-      "id": "023325ae6879a66e17270740",
-      "title": "사우디 두 바닷길 이어 육로 송유관도 위협…이라크발 드론 지목(종합)",
-      "translatedTitle": null,
-      "description": "(요하네스버그·서울=연합뉴스) 나확진 특파원 김승욱 기자 = 이란의 호르무즈 해협 봉쇄 이후 사우디아라비아가 원유 우회 수송로로 활용해온 송유관...",
-      "url": "https://www.yna.co.kr/view/AKR20260912013900009",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260912013900009",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-11T23:58:02Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/12/AKR20260912013900009_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e47844ab93809273256c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.97897
-    },
-    {
-      "id": "1c161c6f2e50f4cbe3f6c7c8",
-      "title": "한국기술교육대 \"수시 경쟁률 비수도권 국·사립대 중 1위\"",
-      "translatedTitle": null,
-      "description": "(천안=연합뉴스) 유의주 기자 = 고용노동부가 설립한 국책대학인 충남 천안 한국기술교육대(KOREATECH)는 2027학년도 수시모집 경쟁률에서...",
-      "url": "https://www.yna.co.kr/view/AKR20260912017400063",
-      "canonicalUrl": "https://yna.co.kr/view/AKR20260912017400063",
-      "sourceName": "Yonhap News Agency (Korean)",
-      "sourceDomain": "yna.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-11T23:53:44Z",
-      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/12/AKR20260912017400063_01_i_P2.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4019556dbc04b3de4d37",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.97039
+      "rankingScore": 6.95849,
+      "related": []
     },
     {
       "id": "a23063557402c639c702faa7",
@@ -760,15 +372,196 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "8b68bed060e01452e9fb",
+      "clusterId": "992d413e9a419fcf19f3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.93476,
+      "related": [
+        {
+          "id": "dcebe15a210e261c82b873f3",
+          "title": "북한, 23일 만에 또 탄도미사일 발사…250㎞ 비행",
+          "translatedTitle": null,
+          "description": "북한이 지난달 20일 이후 23일 만에 오늘 또 단거리탄도미사일을 발사했습니다.합참은 \"오늘 오전 5시 20분쯤 북한 원산 일대에서 동해…",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749813&plink=RSSLINK&cooper=RSSREADER",
+          "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=RSSREADER&news_id=N1008749813&plink=RSSLINK",
+          "sourceName": "SBS News",
+          "sourceDomain": "news.sbs.co.kr",
+          "sourceCountry": "KR",
+          "editionCountry": "KR",
+          "coverageCountries": [
+            "KR"
+          ],
+          "language": "ko",
+          "publishedAt": "2026-09-12T03:41:00Z",
+          "imageUrl": "https://img.sbs.co.kr/newimg/news/20260912/202221715.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-09-12T04:17:49Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "992d413e9a419fcf19f3",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "북한 23일 만에 또 탄도미사일 발사 250km 비행"
+        }
+      ]
+    },
+    {
+      "id": "239bd3c8a83771746ed99e57",
+      "title": "(URGENT) N. Korea's ballistic missiles flew about 250 km: JCS",
+      "translatedTitle": null,
+      "description": "(END)",
+      "url": "https://en.yna.co.kr/view/AEN20260806009500315",
+      "canonicalUrl": "https://en.yna.co.kr/view/AEN20260806009500315",
+      "sourceName": "Yonhap News Agency",
+      "sourceDomain": "en.yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-09-11T23:47:02Z",
+      "imageUrl": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6b6e8d2d4f1229c69fa4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.88193,
+      "related": []
+    },
+    {
+      "id": "97ab5ad8999f96afb5fcd5ab",
+      "title": "사우디 '생명줄' 송유관 피격…바닷길 막혔는데 육로까지",
+      "translatedTitle": null,
+      "description": "▲ 호르무즈 해협의 선박이란의 호르무즈 해협 봉쇄 이후 사우디아라비아가 원유 우회 수송로로 활용해 온 송유관 '동서 파이프라인…",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749729&plink=RSSLINK&cooper=RSSREADER",
+      "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=RSSREADER&news_id=N1008749729&plink=RSSLINK",
+      "sourceName": "SBS News",
+      "sourceDomain": "news.sbs.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-12T04:08:00Z",
+      "imageUrl": "https://img.sbs.co.kr/newimg/news/20260908/202220149.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0d275a38d1844a279234",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.96063
+      "rankingScore": 5.81985
+    },
+    {
+      "id": "f62b476a4166472238deae99",
+      "title": "암표 방지법 시행 첫날…상상도 못한 꼼수 등장",
+      "translatedTitle": null,
+      "description": "많게는 몇십 배씩 표를 비싸게 되파는 것을 막겠다며 지난달부터 암표방지법이 시행됐죠. 어떤 게 달라졌고, 한계는 뭔지 자세히 들여다봤습니다. 첫째, 매크로 프로그램을 사용하지 않았더라도 처벌 대상이 됩니다.이번 개정으로 매크로 프로그램을 사용했는지와 상관없이 상습 또는 영업으로 웃돈을 얹어 입장권을 판매·알선하는 '부정 판매' 그리고 재판매 목적으로 시스템을 우회하여 입장권을 구매하는 '부정 구매' 두 가지가 모두 금지됩니다.둘째, 원금 포함 최대 50배에 달하는 과징금 폭탄.과거에는 1년 이하의 징역이나 1천만 원 이하의 벌금형에 그쳐 \"벌금 내고 남는 장사\"라는 말이 나올 정도였죠.이번 개정으로는 '총판매 금액'을 기준으로 최대 50배까지 과징금이 부과될 수 있습니다.셋째, 신고 포상금 제도.부정구매를 신고하면 최대 5천만 원, 부정판매를 신고하면 판매자에게 부과된 과징금의 50%까지 포상금을 받을 수 있습니다.정부가 직접 단속하는 것뿐만 아니라 팬들의 신고까지 활용해 적극적으로",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749565&plink=RSSLINK&cooper=RSSREADER",
+      "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=RSSREADER&news_id=N1008749565&plink=RSSLINK",
+      "sourceName": "SBS News",
+      "sourceDomain": "news.sbs.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-12T02:29:00Z",
+      "imageUrl": "https://img.sbs.co.kr/newimg/news/20260912/202221681.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7e2ec39d5d23f5fd979d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.62892
+    },
+    {
+      "id": "8eb6b8f93d829fda81fa32d5",
+      "title": "카메라 앞 맨몸 싸운다…\"돈벌이로\" 학교 파고든 유행",
+      "translatedTitle": null,
+      "description": "학교 폭력 피해를 입었다는 학생이 올해 역대 가장 많았습니다. 최근 청소년들 사이에선 새로운 유형의 학교 폭력도 무분별하게 퍼지고 있습니다.동은영 기자가 취재했습니다.",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749336&plink=RSSLINK&cooper=RSSREADER",
+      "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=RSSREADER&news_id=N1008749336&plink=RSSLINK",
+      "sourceName": "SBS News",
+      "sourceDomain": "news.sbs.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-12T01:32:00Z",
+      "imageUrl": "https://img.sbs.co.kr/newimg/news/20260911/202221602.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bae0c3b21807bcecb06b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.52667
+    },
+    {
+      "id": "50b26d37bf9720cc96fb2fe5",
+      "title": "미국 태평양사령부 \"북한 미사일 발사 인지…즉각적 위협 아냐\"",
+      "translatedTitle": null,
+      "description": "▲ 미 태평양사령부의 북 미사일 발사 관련 성명미군 태평양사령부는 현지시간 어제 미사일 발사를 인지하고 있으며, 동맹국 및 파트너들과…",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749693&plink=RSSLINK&cooper=RSSREADER",
+      "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=RSSREADER&news_id=N1008749693&plink=RSSLINK",
+      "sourceName": "SBS News",
+      "sourceDomain": "news.sbs.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-12T01:32:00Z",
+      "imageUrl": "https://img.sbs.co.kr/newimg/news/20260912/202221683.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f850c05aa0806399bb5c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.52667
     },
     {
       "id": "7b7f811dde81d5a4138f6f51",
@@ -790,45 +583,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "a7683bca9b9eb7dd911f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.94335
-    },
-    {
-      "id": "798bebf5178cc240b2aaafaa",
-      "title": "인도네시아 자카르타 북쪽 바다 규모 6.6 지진",
-      "translatedTitle": null,
-      "description": "▲ 인도네시아 자카르타 지진오늘 새벽 오전 6시 23분 인도네시아 자카르타 북쪽 125km 해역에서 규모 6.6의 지진이 발생했다고 …",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749692&plink=RSSLINK&cooper=RSSREADER",
-      "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=RSSREADER&news_id=N1008749692&plink=RSSLINK",
-      "sourceName": "SBS News",
-      "sourceDomain": "news.sbs.co.kr",
-      "sourceCountry": "KR",
-      "editionCountry": "KR",
-      "coverageCountries": [
-        "KR"
-      ],
-      "language": "ko",
-      "publishedAt": "2026-09-11T23:38:00Z",
-      "imageUrl": "https://img.sbs.co.kr/newimg/news/20260912/202221684.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-09-12T00:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "01dd8b806f241757b3cb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.93929
+      "rankingScore": 5.52092,
+      "related": []
     },
     {
       "id": "51814fbd7d2045666af8f64b",
@@ -850,15 +613,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "2b679b6f652e27432731",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.9309
+      "rankingScore": 5.51095,
+      "related": []
     },
     {
       "id": "a8a35d105925210481401c0b",
@@ -880,15 +643,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "7d9935b0639ad5bc6214",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.92502
+      "rankingScore": 5.50623,
+      "related": []
     },
     {
       "id": "2ab8bc17a37caabc9294a528",
@@ -910,15 +673,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "284bb249010804c1b8ca",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.92372
+      "rankingScore": 5.50519,
+      "related": []
     },
     {
       "id": "78ac499542b173a1d55d2498",
@@ -940,15 +703,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "660bf5461a49fb9f86e2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.92365
+      "rankingScore": 5.50514,
+      "related": []
     },
     {
       "id": "6c43fc571a5f7d55fdbeb4ca",
@@ -970,15 +733,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:13Z",
+      "retrievedAt": "2026-09-12T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "81c52b678657c51493ae",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.91394
+      "rankingScore": 5.49736,
+      "related": []
     },
     {
       "id": "3f09a71ef9bb3c4b1cf157ed",
@@ -1000,15 +763,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "4e5e391b879939c6c11e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.91139
+      "rankingScore": 5.49531,
+      "related": []
     },
     {
       "id": "834d854f731c6a17538ab143",
@@ -1030,15 +793,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e82c8a855e7cd83b0525",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.90887
+      "rankingScore": 5.4933,
+      "related": []
     },
     {
       "id": "ffa14b0a0a18ecfa2a8d4301",
@@ -1060,15 +823,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "9c0fb37aa339a5560734",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.90694
+      "rankingScore": 5.49175,
+      "related": []
     },
     {
       "id": "4736f0f6d713de95febaa606",
@@ -1090,15 +853,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "0504bc0ebfcaedbc8fac",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.90452
+      "rankingScore": 5.48982,
+      "related": []
     },
     {
       "id": "8d29742b346d7b9d3b1171e7",
@@ -1120,15 +883,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "32a331037ec8c7c9c891",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.90391
+      "rankingScore": 5.48933,
+      "related": []
     },
     {
       "id": "15cdc3a84f16c7d82cc8ed81",
@@ -1150,15 +913,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "13ec79919da670912e1d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.90105
+      "rankingScore": 5.48704,
+      "related": []
     },
     {
       "id": "ea01b8e772573abdfe36aaf3",
@@ -1180,15 +943,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "6b2547f5355af12adbef",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.89467
+      "rankingScore": 5.48192,
+      "related": []
     },
     {
       "id": "744d76e9dd05583ffedc7459",
@@ -1210,15 +973,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "ed20417782d59de59109",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.88518
+      "rankingScore": 5.47432,
+      "related": []
     },
     {
       "id": "38af8a689f8aadf4a5433f45",
@@ -1240,15 +1003,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "7aabd2fec23bca8bb459",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.87742
+      "rankingScore": 5.46811,
+      "related": []
     },
     {
       "id": "3b637366744239092dfb1b7e",
@@ -1270,15 +1033,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "148068623cd4e26f7eca",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.87263
+      "rankingScore": 5.46427,
+      "related": []
     },
     {
       "id": "bac1b40b62025bfc43f538db",
@@ -1300,15 +1063,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "d72f7a54d7ebd4d14c2c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.87235
+      "rankingScore": 5.46404,
+      "related": []
     },
     {
       "id": "5529ae151a7699a7151b3f02",
@@ -1330,15 +1093,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "c59e27b35424c3005047",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.87175
+      "rankingScore": 5.46356,
+      "related": []
     },
     {
       "id": "067aab3b5e3e0d6e0bf7096e",
@@ -1360,15 +1123,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "75645435daaa3a673c73",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.87064
+      "rankingScore": 5.46267,
+      "related": []
     },
     {
       "id": "a18496eb2ce2777e1098eb5f",
@@ -1390,45 +1153,375 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:14Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "9b24b86badaaa3ed525c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.86795
+      "rankingScore": 5.46052,
+      "related": []
     },
     {
-      "id": "74df54c9e017cad078887b1a",
-      "title": "[단독] 판사 아들 채용에 \"떳떳\"…담당 관계자에 묻자",
+      "id": "8be5bd3541a30cd230b342bc",
+      "title": "장난감총 개조 어디까지 불법?…모의총포 단속 현장 혼선",
       "translatedTitle": null,
-      "description": "김승원 법무장관 후보자가 제넨셀 설립자의 구속영장을 기각한 정 모 부장판사의 아들을 의원실에 채용했다고 어제 저희가 단독으로 보도해 드렸는데요.",
-      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749324&plink=RSSLINK&cooper=RSSREADER",
-      "canonicalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=RSSREADER&news_id=N1008749324&plink=RSSLINK",
-      "sourceName": "SBS News",
-      "sourceDomain": "news.sbs.co.kr",
+      "description": "(수원=연합뉴스) 김지원 기자 = 최근 도심에서 총기 형태의 물체가 발견됐다는 신고가 잇따르고 있지만 현행법상 장난감총과 모의총포를 구분하는 외...",
+      "url": "https://www.yna.co.kr/view/AKR20260911121000061",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260911121000061",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
       "sourceCountry": "KR",
       "editionCountry": "KR",
       "coverageCountries": [
         "KR"
       ],
       "language": "ko",
-      "publishedAt": "2026-09-11T23:47:00Z",
-      "imageUrl": "https://img.sbs.co.kr/newimg/news/20260911/202221567.jpg",
+      "publishedAt": "2026-09-11T23:00:13Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/01/09/PYH2026010907130001300_P2.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-09-12T00:18:13Z",
+      "retrievedAt": "2026-09-12T04:17:51Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "7aba506fe9c9511166e0",
+      "clusterId": "1de7b923b140b70a6675",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.77703
+      "rankingScore": 5.4593
+    },
+    {
+      "id": "15b976787caacde5fb3d5d71",
+      "title": "\"괴롭히며 기분 풀려고\"…후배 기절시키고 때린 20대 징역 3년6개월",
+      "translatedTitle": null,
+      "description": "(대전=연합뉴스) 김소연 기자 = 대학 후배를 때리거나 기절시키며 상습적으로 괴롭힌 20대에게 실형이 선고됐다.",
+      "url": "https://www.yna.co.kr/view/AKR20260911110200063",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260911110200063",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-11T23:00:12Z",
+      "imageUrl": "https://img.yna.co.kr/photo/cms/2024/02/26/37/PCM20240226000137990_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4235bbb6df237b440762",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.45928
+    },
+    {
+      "id": "3af6b1eef74b99c81743d40b",
+      "title": "[아프리카인물열전](37) '평화·전쟁' 두 얼굴…아비 에티오피아 총리",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 박세진 기자 = 노벨평화상 수상자에서 전쟁 지도자로.",
+      "url": "https://www.yna.co.kr/view/AKR20260628037300898",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260628037300898",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-11T23:00:08Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/06/28/AKR20260628037300898_18_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "91332e095eededdd0b91",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.45918
+    },
+    {
+      "id": "6bdedca0d229e5954e230110",
+      "title": "부산 청년들, '굿잡 버스' 타고 선도기업 취업 문 두드린다",
+      "translatedTitle": null,
+      "description": "(부산=연합뉴스) 오수희 기자 = 부산시와 부산테크노파크, 부산앵커센터는 지역 청년들이 선도 기업에 취업할 기회를 주기 위해 다음 달 1일 '매...",
+      "url": "https://www.yna.co.kr/view/AKR20260911053600051",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260911053600051",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-11T23:00:05Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911053600051_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "714ff0368059a429736d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4591
+    },
+    {
+      "id": "765d280c5c1c47768227751c",
+      "title": "박스권 증시에 '파킹형' ETF로 일주일간 1.5조 유입",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 김태종 기자 = 국내 증시의 박스권 장세가 길어지면서 '길 잃은' 자금들이 파킹형 ETF(상장지수펀드)로 몰리고 있는 것으로 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260911129200008",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260911129200008",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-11T23:00:05Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091112730001300_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1e48a35dbd2e26e2fdeb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4591
+    },
+    {
+      "id": "e2921672cd31701dc030e566",
+      "title": "[해수분해] 병원 가려면 배로 2시간…섬 주민 찾아간 원격 의료",
+      "translatedTitle": null,
+      "description": "[※ 편집자 주 = 부산으로 이전한 해양수산부가 올해 출범 30주년을 맞았습니다. 바다 안전부터 해양 연구까지 다양한 분야에 걸쳐 해양수산 행정...",
+      "url": "https://www.yna.co.kr/view/AKR20260911119900051",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260911119900051",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-11T23:00:04Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911119900051_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a216579321fbcd198849",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.45908
+    },
+    {
+      "id": "c7b7aba9d1f01928bb8ab2eb",
+      "title": "[테크톡노트] 329만원 아이폰, 접었다고 지갑도 열릴까",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 박형빈 기자 = 애플이 첫 폴더블폰 '아이폰 듀오'를 내놓으며 삼성전자 등이 7년 넘게 개척해온 폴더블폰 시장에 뒤늦게 뛰어들...",
+      "url": "https://www.yna.co.kr/view/AKR20260911129700017",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260911129700017",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-11T23:00:03Z",
+      "imageUrl": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091000790009100_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6b654c2cbaa2dabe9179",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.45905
+    },
+    {
+      "id": "438f6a87b5cd28d6e8c9d0eb",
+      "title": "청주시, 대중교통 공공 와이파이 24대 추가 설치",
+      "translatedTitle": null,
+      "description": "(청주=연합뉴스) 김형우 기자 = 청주시는 새로 늘어난 시내버스 13대와 콜버스 11대 등 총 24대에 공공 와이파이를 신규 설치한다고 12일 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260911141500064",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260911141500064",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-11T23:00:03Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911141500064_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "962ebc16835c458fd44c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.45905
+    },
+    {
+      "id": "82bd0c63bd6c2b18efe585fe",
+      "title": "그 사람이 없었다면 역사는 달라졌을까",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 김정은 기자 = 역사학자들은 '리더 개인이 결과에 영향을 미치는가?'라는 질문을 두고 오랫동안 논쟁을 벌여왔다.",
+      "url": "https://www.yna.co.kr/view/AKR20260911165600005",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260911165600005",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-11T23:00:01Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911165600005_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c85bb7b2f0aaaa474c22",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.459
+    },
+    {
+      "id": "f2c93dfefbab6b36ef066419",
+      "title": "황희찬, 독일 데뷔전서 첫 도움…샬케는 시즌 첫 승리",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 안홍석 기자 = 국가대표 공격수 황희찬이 독일 프로축구 샬케 데뷔전에서 도움을 올렸다.",
+      "url": "https://www.yna.co.kr/view/AKR20260912012500007",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260912012500007",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-11T22:47:54Z",
+      "imageUrl": "https://img.yna.co.kr/photo/reuters/2026/09/12/PRU20260912123501009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d479086ed689582ffc7d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.44072
+    },
+    {
+      "id": "90b3201e9e297229ed80fc29",
+      "title": "美캘리포니아, 아동 AI규제법 제정…위험 감지되면 부모 알려야",
+      "translatedTitle": null,
+      "description": "(샌프란시스코=연합뉴스) 권영전 특파원 = 실리콘밸리가 있는 미국 캘리포니아주가 인공지능(AI) 챗봇과 사회관계망서비스(SNS)의 아동·청소년 ...",
+      "url": "https://www.yna.co.kr/view/AKR20260912012300091",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260912012300091",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-11T22:47:11Z",
+      "imageUrl": "https://img.yna.co.kr/photo/ap/2026/09/11/PAP20260911134801009_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f964659b7711994af663",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.43964
+    },
+    {
+      "id": "8abfff62f2098b097d5d68f2",
+      "title": "[신간] 우주 둘러싼 패권 경쟁…'로켓 드림'",
+      "translatedTitle": null,
+      "description": "(서울=연합뉴스) 강종훈 기자 = ▲ 로켓 드림 = 크리스천 데이븐포트 지음. 박세연 옮김.",
+      "url": "https://www.yna.co.kr/view/AKR20260911152300005",
+      "canonicalUrl": "https://yna.co.kr/view/AKR20260911152300005",
+      "sourceName": "Yonhap News Agency (Korean)",
+      "sourceDomain": "yna.co.kr",
+      "sourceCountry": "KR",
+      "editionCountry": "KR",
+      "coverageCountries": [
+        "KR"
+      ],
+      "language": "ko",
+      "publishedAt": "2026-09-11T22:45:00Z",
+      "imageUrl": "https://img.yna.co.kr/etc/inner/KR/2026/09/11/AKR20260911152300005_01_i_P2.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-09-12T04:17:51Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4f04d44affc20fe41cfe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.43637
     }
   ]
 }
