@@ -1,4 +1,9 @@
-from scripts.aggregate_news import flatten_existing_articles, merge_country_manifest_dates, suspicious_drop
+from scripts.aggregate_news import (
+    flatten_existing_articles,
+    latest_refresh_dates,
+    merge_country_manifest_dates,
+    suspicious_drop,
+)
 
 SETTINGS = {"minimumSafeArticleCount": 8, "suspiciousDropRatio": 0.35}
 
@@ -41,3 +46,18 @@ def test_retained_articles_drop_non_image_media_urls():
         }],
     }
     assert flatten_existing_articles(payload)[0]["imageUrl"] is None
+
+
+def test_latest_refresh_backfills_manifest_dates_missing_at_local_midnight(tmp_path):
+    country_dir = tmp_path / "data" / "US"
+    country_dir.mkdir(parents=True)
+    (country_dir / "2026-07-18.json").write_text("{}", encoding="utf-8")
+    previous = {"dates": {
+        "2026-07-18": {"status": "current", "path": "data/US/2026-07-18.json"},
+    }}
+
+    assert latest_refresh_dates(
+        tmp_path,
+        ["2026-07-20", "2026-07-19", "2026-07-18"],
+        previous,
+    ) == ["2026-07-20", "2026-07-19"]

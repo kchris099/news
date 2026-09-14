@@ -21,7 +21,7 @@ from .utilities import (
     AsyncFetcher, date_key_for_timestamp, iso_z, load_json, local_date_keys,
     normalize_url, parse_iso, safe_image_url, write_json_atomic,
 )
-from .validate_output import validate_day, validate_manifest
+from .validate_output import VALID_STATUSES, validate_day, validate_manifest
 
 LOGGER = logging.getLogger("worldline")
 
@@ -94,6 +94,36 @@ def merge_country_manifest_dates(
     return result
 
 
+def latest_refresh_dates(
+    root: Path,
+    archive_date_keys: list[str],
+    previous: dict[str, Any] | None,
+) -> list[str]:
+    """Refresh today plus any archive dates missing from the previous manifest.
+
+    The workflow runs on UTC boundaries, while each edition uses a local
+    timezone. When a country crosses midnight between runs, its previous
+    local day may never have been written to the manifest. Refreshing those
+    gaps keeps the rolling archive contiguous instead of merging empty
+    manifest entries that validation cannot accept.
+    """
+    previous_dates = (previous or {}).get("dates", {})
+    refresh = [archive_date_keys[0]]
+    for date_key in archive_date_keys[1:]:
+        entry = previous_dates.get(date_key)
+        path = root / str(entry.get("path", "")) if isinstance(entry, dict) else None
+        complete = (
+            isinstance(entry, dict)
+            and entry.get("status") in VALID_STATUSES
+            and bool(entry.get("path"))
+            and path is not None
+            and path.is_file()
+        )
+        if not complete:
+            refresh.append(date_key)
+    return refresh
+
+
 def trusted_source(country: dict[str, Any], domain: str | None) -> dict[str, Any] | None:
     if not domain:
         return None
@@ -156,11 +186,12 @@ async def collect_country(
     latest_only: bool = False,
     historical_only: bool = False,
     reference_time: datetime | None = None,
+    previous_manifest: dict[str, Any] | None = None,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     code = country["code"]
     archive_date_keys = local_date_keys(country["timeZone"], settings["archiveDays"], reference_time)
     if latest_only:
-        date_keys = archive_date_keys[:1]
+        date_keys = latest_refresh_dates(root, archive_date_keys, previous_manifest)
     elif historical_only:
         date_keys = archive_date_keys[1:]
     else:
@@ -416,6 +447,7 @@ async def run(
                 country_manifest, health = await collect_country(
                     root, country, settings, ranking, providers, fetcher, translation_cache, image_cache,
                     skip_gdelt, latest_only, historical_only, reference_time,
+                    previous_manifest=existing_manifest.get("countries", {}).get(country["code"]),
                 )
                 return country, country_manifest, health
 
