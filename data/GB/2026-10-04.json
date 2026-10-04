@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-04",
-  "generatedAt": "2026-10-04T04:18:04Z",
-  "lastAttemptAt": "2026-10-04T04:18:04Z",
-  "lastSuccessfulUpdate": "2026-10-04T04:18:04Z",
-  "status": "current",
+  "generatedAt": "2026-10-04T08:18:03Z",
+  "lastAttemptAt": "2026-10-04T08:18:03Z",
+  "lastSuccessfulUpdate": "2026-10-04T08:18:03Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 18,
+  "articleCount": 45,
   "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-04T04:18:03Z",
-      "lastSuccessAt": "2026-10-04T04:18:04Z",
-      "articlesRetrieved": 27,
-      "responseTimeMs": 277,
+      "lastAttemptAt": "2026-10-04T08:18:02Z",
+      "lastSuccessAt": "2026-10-04T08:18:02Z",
+      "articlesRetrieved": 23,
+      "responseTimeMs": 283,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-04T04:18:03Z",
-      "lastSuccessAt": "2026-10-04T04:18:04Z",
+      "lastAttemptAt": "2026-10-04T08:18:02Z",
+      "lastSuccessAt": "2026-10-04T08:18:03Z",
       "articlesRetrieved": 142,
-      "responseTimeMs": 411,
+      "responseTimeMs": 545,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,358 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-04T04:18:03Z",
-      "lastSuccessAt": "2026-10-04T04:18:04Z",
-      "articlesRetrieved": 9,
-      "responseTimeMs": 792,
+      "lastAttemptAt": "2026-10-04T08:18:02Z",
+      "lastSuccessAt": "2026-10-04T08:18:02Z",
+      "articlesRetrieved": 10,
+      "responseTimeMs": 538,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-10-04T04:18:03Z",
-      "lastSuccessAt": "2026-10-04T04:18:04Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 309,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-04T08:18:02Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
+    {
+      "id": "5724b84f69ad7b04b4364ab2",
+      "title": "Australia investigating Flydubai co-pilot's links to country",
+      "translatedTitle": null,
+      "description": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
+      "url": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cxly4nym57q9o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T06:19:17Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:02Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d5699dfad97884776413",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "ff606b512a05dbc473ffd07e",
+          "title": "Flydubai co-pilot’s time in Australia being investigated by security agencies after alleged cockpit attack",
+          "translatedTitle": null,
+          "description": "Police confirm investigation into period the man reportedly spent in Australia before alleged attempted terrorist attack Get our breaking news email, free app or daily news podcast Australian security agencies have launched an investigation after it emerged that the flydubai co-pilot who allegedly tried to hijack an Israel-bound flight spent about two years in the country as a student. Disaster was narrowly averted on Wednesday when passengers and crew intervened to stop the co-pilot’s attempt t",
+          "url": "https://www.theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
+          "canonicalUrl": "https://theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-04T01:26:39Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/db12b29ca35ee68948e445010ce24f62fe4c1318/680_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=0d599a3d2283d3e49ec8a9ed751d978f",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-04T08:18:03Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "d5699dfad97884776413",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "flydubai co pilot s time in australia being investigated by security agencies after alleged cockpit attack",
+          "rankingScore": 6.86709
+        }
+      ],
+      "rankingScore": 8.98087
+    },
+    {
+      "id": "c477f25bc2187b0c892cbe59",
+      "title": "OpenAI safety leader quits, warning AI company’s culture is ‘broken’",
+      "translatedTitle": null,
+      "description": "David Robinson joins other insiders in urging industry to take more care over rapidly developing technology A safety leader at OpenAI has quit the company, warning that its culture was broken and that AI firms were not “being nearly careful enough” about developing the technology. David Robinson, who led the writing of safety reports that accompanied the ChatGPT developer’s product releases, explained his resignation in an essay headlined, “I quit OpenAI because its culture is broken”. Continue",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "canonicalUrl": "https://theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T07:48:54Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/77b3a6702fa4e94c36e292a72e438fa40eb19184/625_0_6261_5010/master/6261.jpg?width=140&quality=85&auto=format&fit=max&s=c17f6e9f87c87ad9b50cb368a894daf4",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5f74f4950c112355abae",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.48139
+    },
+    {
+      "id": "ee72a0693bc1ae55a45cf012",
+      "title": "Wakaliga Uganda review – a blistering superhero movie with hardboiled cops and a nefarious ‘girl with a voluminous bum’",
+      "translatedTitle": null,
+      "description": "Chisenhale Gallery, LondonA young man possessed by the spirit of a mythical Buganda warrior leads the film-making collective’s explosive new diatribe against the theft of cultural artefacts – with the help of a ‘video joker’ Wakaliga Uganda makes action movies with a cast from the Kampala streets, props built out of scrap, desktop special effects and a bucketload of wit. The studio’s breakout hit, Who Killed Captain Alex?, followed a martial arts master on a mission for revenge against the mafio",
+      "url": "https://www.theguardian.com/artanddesign/2026/oct/04/wakaliga-uganda-review-chisenhale-gallery-kibuuka-omumbaale",
+      "canonicalUrl": "https://theguardian.com/artanddesign/2026/oct/04/wakaliga-uganda-review-chisenhale-gallery-kibuuka-omumbaale",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T07:04:58Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2056ba73567dc2236639cecf9e477e768d0f6203/576_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=b46e0257b3a68e5841bd2de0dde1e307",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "48cfbdd237fb0bfecf65",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.39603
+    },
+    {
+      "id": "18b517c76b72f883b6142cc2",
+      "title": "NRL grand final 2026: Sydney Roosters v Newcastle Knights – live",
+      "translatedTitle": null,
+      "description": "Updates from the men’s premiership decider at Accor Stadium Kick-off time in Sydney is 7.30pm AEDT/6.30pm AEST Any thoughts? Get in touch with an email The first wave of Knights successes came against a backdrop of uncertainty about what a post-industrial future might mean for the steel city. Two decades on, for better or worse, working-class Newcastle is now safer, more confident and outward-looking; also more expensive and exclusive. DCE has spoken to Channel 9 about the enormity of the occasi",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/04/nrl-grand-final-2026-sydney-roosters-vs-newcastle-knights-live-updates-kick-off",
+      "canonicalUrl": "https://theguardian.com/sport/live/2026/oct/04/nrl-grand-final-2026-sydney-roosters-vs-newcastle-knights-live-updates-kick-off",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T08:14:07Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b6a100b087e517b7a8b2e08a48d5c941dec0bf0e/576_0_5758_4606/master/5758.jpg?width=140&quality=85&auto=format&fit=max&s=94a59b1c38f3205aca1a71916b25802c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bb2452e9b59fbf4cb932",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.18198
+    },
+    {
+      "id": "b6b2fac62d53defc91791033",
+      "title": "England on a high after historic Croatia rout; Republic of Ireland v Israel tensions build – matchday live",
+      "translatedTitle": null,
+      "description": "Latest news before Nations League fixtures Share your thoughts with John via email Harry Kane, now on 89 international goals from 124 games, says the Croatia performance has to be the blueprint for how England play. “Even when we were 1-0 up, we went for two, went for three, went for four, and that’s got to be our mentality. When you have a certain style of playing, you can’t just pick and choose when you want to do it. It’s just relentless. It’s non-stop. Celtic said the club would not be “inti",
+      "url": "https://www.theguardian.com/football/live/2026/oct/04/buildup-to-republic-of-ireland-v-israel-wales-v-denmark-and-more-football-live",
+      "canonicalUrl": "https://theguardian.com/football/live/2026/oct/04/buildup-to-republic-of-ireland-v-israel-wales-v-denmark-and-more-football-live",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T08:10:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/df8b5803f9398f4b54f32b0145bab442b084fa41/228_0_3351_2680/master/3351.jpg?width=140&quality=85&auto=format&fit=max&s=732f76d89515d9a19b6882acc15bb949",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ce8fb570962abade8c18",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.17374
+    },
+    {
+      "id": "a2890159a635b52a2ed5a186",
+      "title": "Welsh racing ban rehoming standoff sparks fears for greyhounds’ welfare",
+      "translatedTitle": null,
+      "description": "Industry says a phased end to racing, to avoid sudden jump in caring responsibilities, is unworkable Wales’s greyhound racing ban – a UK first – has run into difficulties regarding how and when to wind down the practice, potentially risking the animals’ welfare, a charity has warned. The law, which received royal assent in April, includes a three-year window for the ban to come into effect and is overseen by a Welsh government working group, which includes racing industry representatives and ani",
+      "url": "https://www.theguardian.com/news/2026/oct/04/greyhounds-welfare-welsh-racing-ban",
+      "canonicalUrl": "https://theguardian.com/news/2026/oct/04/greyhounds-welfare-welsh-racing-ban",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T08:00:22Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/35b7ad6c3fabf5b58d6c38725f308009ff7ada9c/663_0_3575_2860/master/3575.jpg?width=140&quality=85&auto=format&fit=max&s=f62533ed273bd358975c8fcd4f588026",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2d4b3f7f7ca833388111",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15424
+    },
+    {
+      "id": "2a4c0328e5db63c8dcd08ae7",
+      "title": "What to know about Brazil's election pitting Lula against Flávio Bolsonaro",
+      "translatedTitle": null,
+      "description": "Polls suggest the election will be a closely run contest between the left-wing incumbent and his right-wing rival.",
+      "url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6wyz0r2n0djo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T04:53:29Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70fc/live/b2ed88c0-bd79-11f1-babe-4199b0e7ccea.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:02Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cd34a61200d4a7762ac0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.08035
+    },
+    {
+      "id": "bfa7b2c2d534e85c0ed3ad24",
+      "title": "Revealed: Government quietly dropped plan to prepare England for wildfires",
+      "translatedTitle": null,
+      "description": "FOI request shows wildfire risk scheme scrapped, as survey highlights many fire services lack proper protective gear The government quietly scrapped plans to prepare the countryside in England for wildfires, it has been revealed. This was despite new data showing fire crews do not have the proper protective gear to tackle them. This summer has been a potent reminder of the scale of the threat posed by the climate crisis, with the UK experiencing record-breaking wildfires after punishingly hot an",
+      "url": "https://www.theguardian.com/world/2026/oct/04/government-dropped-plan-england-countryside-wildfires",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/04/government-dropped-plan-england-countryside-wildfires",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T07:00:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/eb716903a9bd44112fe2252b6488b772f09bf8d1/866_0_6415_5135/master/6415.jpg?width=140&quality=85&auto=format&fit=max&s=bc64cc8dd3618f1de16e1eef7484e8bb",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "aa82fa085e74a78bb468",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03726
+    },
+    {
+      "id": "ad1fedd18bf6caef06d7dcf3",
+      "title": "Ninety years on, the lessons of the antifascist battle of Cable Street have never felt more relevant | Sarah Sackman",
+      "translatedTitle": null,
+      "description": "With sectarian forces increasingly seeking to divide us, we must come together to fight for security, fairness and tolerance Sarah Sackman is the Labour MP for Finchley and Golders Green “No pasarán!” – they shall not pass. It’s the rallying cry that strikes at the core of my identity. The same anti-fascist slogan heard by my Spanish grandmother, who endured the horrors of that country’s civil war, echoed in London where my Jewish paternal grandparents lived. Ninety years ago, it was this cry th",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/04/ninety-years-antifascist-battle-cable-street-divide-fight-security",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/04/ninety-years-antifascist-battle-cable-street-divide-fight-security",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T07:00:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f0ad690665f49315245e7af98d4edb96fbadab00/872_0_4944_3957/master/4944.jpg?width=140&quality=85&auto=format&fit=max&s=1490a5c29dbc2a094a7591536bfc028e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9ce8ebf3f1b4133867b1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03726
+    },
+    {
+      "id": "ccd6e9bd839c80cbbefcfe96",
+      "title": "‘People complain about anything popular’: the RHS boss taking on traffic jams and Chelsea critics",
+      "translatedTitle": null,
+      "description": "Exclusive: Clare Matterson, the head of the Royal Horticultural Society, talks about the charity’s £2.3m roadworks compensation, community gardening and her high hopes for Andy Burnham The government has awarded £2.3m in compensation to the Royal Horticultural Society (RHS) after roadworks affecting its premier garden in Wisley caused a “three-year traffic jam”. The horticulture charity estimated it lost £13m due to disruption caused by the upgrade to the A3 and M25, with visits to the garden ea",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/04/rhs-boss-wisley-traffic-compensation-chelsea-flower-show",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/04/rhs-boss-wisley-traffic-compensation-chelsea-flower-show",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T07:00:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a5ecc9c5ed6f20d800fe480c680f717659c5d9b7/936_0_6689_5351/master/6689.jpg?width=140&quality=85&auto=format&fit=max&s=6df9206c0da5163b0452899c6a9745b6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7074400aff302a9517e7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03722
+    },
     {
       "id": "66fd115272130b31976f0b26",
       "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
@@ -78,7 +410,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:02Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -86,13 +418,163 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.73821
+      "rankingScore": 6.96416
+    },
+    {
+      "id": "5a0c2c79a6b6361c67078345",
+      "title": "‘You have 10 minutes to decide’: answering the life-changing call to become a kinship carer",
+      "translatedTitle": null,
+      "description": "Those who have stepped in to keep young family members from going into care in England and Wales say the decision has brought them joy and hardship Clive vividly remembers the day when, without warning or time to work out what he was really letting himself in for, he became a kinship carer. “The social worker left, the door closed and Savannah was lying there in a carry cot, wrapped up in a pink blanket. She looked so calm and so comfy, absolutely oblivious about what’s just happened. Continue r",
+      "url": "https://www.theguardian.com/society/ng-interactive/2026/oct/04/10-minutes-to-decide-life-changing-call-kinship-carer",
+      "canonicalUrl": "https://theguardian.com/society/ng-interactive/2026/oct/04/10-minutes-to-decide-life-changing-call-kinship-carer",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T06:00:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/30c00240f1af9269200d2df522334eaf0e3d0617/1716_2358_2611_2089/master/2611.jpg?width=140&quality=85&auto=format&fit=max&s=4ac259497fab190d6ed9b9ea3ec47a7c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "62d772bcbb3ba4a5956c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92659
+    },
+    {
+      "id": "26ddf02dce5fb47f742db587",
+      "title": "Incinerated novels and destroyed warehouses: Russia’s war on Ukrainian books",
+      "translatedTitle": null,
+      "description": "A Ukrainian publishing boom sparked by the 2022 invasion is now under threat from the force and frequency of Russian attacks On a Saturday morning in August, Viktor Kruglov, the co-founder and chief executive of the publisher Ranok, was at his headquarters in Kharkiv – the eastern Ukrainian city that, along with Kyiv, is the centre of the country’s publishing and printing industry. Built 15 years ago on the site of a former bread factory, the footprint of the premises is about 10,000 sq metres (",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/04/incinerated-novels-destroyed-warehouses-russia-war-ukrainian-books",
+      "canonicalUrl": "https://theguardian.com/world/ng-interactive/2026/oct/04/incinerated-novels-destroyed-warehouses-russia-war-ukrainian-books",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T05:00:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9422b0a48fc5f21e07b358565ef461acae77e982/955_355_3097_2477/master/3097.jpg?width=140&quality=85&auto=format&fit=max&s=7b751a5a9dd1f183a5d81973ebe18f15",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "54ae9a6b3323caf0af8e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82194
+    },
+    {
+      "id": "a3b4580129dd88400c006c94",
+      "title": "Polish activists launch abortion pill locker to bypass near-total ban",
+      "translatedTitle": null,
+      "description": "‘AbortOmat’ in Warsaw offers novel way to challenge country’s restrictions and allow women swift, anonymous access They call it the “world’s first parcel locker for abortion pills”. Polish campaigners have launched a new means of distribution as part of their ongoing effort to skirt the country’s near-total ban on abortion. Painted pink and framed by zebra-striped curtains, the 22-compartment “AbortOmat” in Warsaw allows women to access the pills swiftly and anonymously using a six-digit code. T",
+      "url": "https://www.theguardian.com/world/2026/oct/04/polish-activists-launch-abortion-pill-locker-to-bypass-near-total-ban",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/04/polish-activists-launch-abortion-pill-locker-to-bypass-near-total-ban",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T05:00:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b2a4b4f3e691be90c856b0b98446d8ab2365dd4c/476_396_3347_2678/master/3347.jpg?width=140&quality=85&auto=format&fit=max&s=72a551097f6edafd25da4b8eca345cc0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2fd78bfaf0efa48aa4b2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82194
+    },
+    {
+      "id": "3e8984207f35caea61b791a6",
+      "title": "Star Wars actor John Boyega on the day his 10-year-old school friend Damilola Taylor was killed: ‘It kept me up at night because I was just with the guy’",
+      "translatedTitle": null,
+      "description": "The star was just eight when his friend was stabbed. Decades on, he’s ready to talk about that day – how it shaped him, and how, as he becomes a father himself, it will shape him as a dad “I feel a bit nervous,” confesses John Boyega, as he sits down in front of the camera. “Speaking about it could possibly help. I haven’t revisited this in a long time. Yeah, my heart is just beating.” The Attack the Block and Star Wars actor is talking in the opening scene of a new BBC Two documentary about the",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/04/john-boyega-interview-damilola-taylor-documentary",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/oct/04/john-boyega-interview-damilola-taylor-documentary",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T05:00:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5868611815714f427c89c45fb1b0ffce2b438ead/0_513_5464_4367/master/5464.jpg?width=140&quality=85&auto=format&fit=max&s=e40b4e1097ef01b6abe2ed8778a7048e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "39c269d1a76f9ef8ad39",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82191
+    },
+    {
+      "id": "cb6c98c9df4b6b0b0ec3718a",
+      "title": "UK car industry faces ‘difficult trade-off’ between Chinese and EU markets",
+      "translatedTitle": null,
+      "description": "Britain under pressure to put tariffs on cheap Chinese vehicle imports ahead of protectionist trade measures Britain’s car industry is grappling with a “difficult trade-off” between China and Europe, as manufacturers struggle to balance the benefits of both markets ahead of looming trade measures that could restrict UK exports to the EU. The UK is an outlier in choosing not to put import taxes on Chinese vehicles, even as the US has shut them out almost entirely, and the EU imposes duties of up",
+      "url": "https://www.theguardian.com/business/2026/oct/04/uk-car-industry-trade-off-china-made-in-europe-laws",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/04/uk-car-industry-trade-off-china-made-in-europe-laws",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T05:00:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b10db41e65d9e09adda2a58a3691fd5ec4bb508a/1094_279_2900_2320/master/2900.jpg?width=140&quality=85&auto=format&fit=max&s=34c20b3fbecf653ece4347d0b7483316",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7f9a1ac8b4c0bd708d42",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82188
     },
     {
       "id": "79c7518e51d566fca42eee92",
       "title": "‘We are in a kind of war’: row over viral Amsterdam chip shop lands in court",
       "translatedTitle": null,
-      "description": "Neighbours say crowds drawn by TikTok to Fabel Friet are clogging the picturesque canal street and attracting litter, gulls and rats People living in one of Amsterdam’s most exclusive neighbourhoods have taken the city to court for licensing a chip shop that has gone viral on TikTok. On busy days, the queue for Fabel Friet on Runstraat stretches across a bridge on the Keizersgracht – one of Amsterdam’s three main canals – a court was told last week. The narrow street itself is crowded by tourist",
+      "description": "Neighbours say crowds drawn by TikTok to Fabel Friet are clogging the picturesque canal street and attracting litter, gulls and rats People living in one of Amsterdam’s most exclusive neighbourhoods have taken the city to court for licensing a chip shop that has gone viral on TikTok. On busy days, the queue for Fabel Friet on Runstraat stretches across a bridge on the Keizersgracht – one of Amsterdam’s most famous canals – a court was told last week. The narrow street itself is crowded by touris",
       "url": "https://www.theguardian.com/technology/2026/oct/04/viral-amsterdam-chip-shop-court-fabel-friet",
       "canonicalUrl": "https://theguardian.com/technology/2026/oct/04/viral-amsterdam-chip-shop-court-fabel-friet",
       "sourceName": "The Guardian",
@@ -108,45 +590,15 @@
       "imageAlt": null,
       "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "2a5c3cadd320015e3f97",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.50404
-    },
-    {
-      "id": "f688507e2c28e9b69aadac93",
-      "title": "A Statement review – outstanding climate change dramedy about a 1980 meeting",
-      "translatedTitle": null,
-      "description": "New York film festival: Paul Rudd, Paul Giamatti and Tatiana Maslany lead an excellent ensemble in this dramatization of a failed conference on climate change In late October 1980, days before the election of Ronald Reagan, Congress summoned 20 experts in various fields to a beachfront hotel in Florida. Their mandate was simple: figure out how to address the dire threat posed to the climate by fossil fuel emissions, then deliver their recommendations to Congress in the form of a statement. Every",
-      "url": "https://www.theguardian.com/film/2026/oct/03/a-statement-film-review",
-      "canonicalUrl": "https://theguardian.com/film/2026/oct/03/a-statement-film-review",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-04T00:15:12Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/02ba36abe4618bbc1611b1459482b1f095e0532e/887_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=2a327bd890f83c2a595c7b9cf643734b",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6c27bc87f91eb548ee4c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.09693
+      "rankingScore": 6.72286,
+      "related": []
     },
     {
       "id": "4d5ae17b3cc374b4d51add3d",
@@ -168,7 +620,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:02Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -176,7 +628,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.01078
+      "rankingScore": 6.66194
     },
     {
       "id": "dfbf95f674cf1f09fbb0898b",
@@ -198,7 +650,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:02Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -206,7 +658,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.97633
+      "rankingScore": 6.63435
     },
     {
       "id": "f1aedd9a1eeae2cc5e822d1a",
@@ -228,7 +680,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:02Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -236,7 +688,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.94507
+      "rankingScore": 6.60932
     },
     {
       "id": "1e1ad0161a99f5ae53626e42",
@@ -258,15 +710,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:02Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "03d45cb0c98122816b9c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92596
+      "rankingScore": 6.54022,
+      "related": []
     },
     {
       "id": "71c657569ae6bbc04083bd02",
@@ -295,16 +747,16 @@
       "clusterId": "2cdd5a330d59b6c34f33",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.90708
+      "rankingScore": 6.43511,
+      "related": []
     },
     {
-      "id": "ff606b512a05dbc473ffd07e",
-      "title": "Flydubai co-pilot’s time in Australia being investigated by security agencies after alleged cockpit attack",
+      "id": "f688507e2c28e9b69aadac93",
+      "title": "A Statement review – outstanding climate change dramedy about a 1980 meeting",
       "translatedTitle": null,
-      "description": "Police confirm investigation into period the man reportedly spent in Australia before alleged attempted terrorist attack Get our breaking news email, free app or daily news podcast Australian security agencies have launched an investigation after it emerged that the flydubai co-pilot who allegedly tried to hijack an Israel-bound flight spent about two years in the country as a student. Disaster was narrowly averted on Wednesday when passengers and crew intervened to stop the co-pilot’s attempt t",
-      "url": "https://www.theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/04/flydubai-co-pilot-time-in-australia-being-investigated-security-agencies-ntwnfb",
+      "description": "New York film festival: Paul Rudd, Paul Giamatti and Tatiana Maslany lead an excellent ensemble in this dramatization of a failed conference on climate change In late October 1980, days before the election of Ronald Reagan, Congress summoned 20 experts in various fields to a beachfront hotel in Florida. Their mandate was simple: figure out how to address the dire threat posed to the climate by fossil fuel emissions, then deliver their recommendations to Congress in the form of a statement. Every",
+      "url": "https://www.theguardian.com/film/2026/oct/03/a-statement-film-review",
+      "canonicalUrl": "https://theguardian.com/film/2026/oct/03/a-statement-film-review",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -313,20 +765,380 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-04T01:26:39Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/db12b29ca35ee68948e445010ce24f62fe4c1318/680_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=0d599a3d2283d3e49ec8a9ed751d978f",
+      "publishedAt": "2026-10-04T00:15:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/02ba36abe4618bbc1611b1459482b1f095e0532e/887_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=2a327bd890f83c2a595c7b9cf643734b",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "014f1ef023d581a240fc",
+      "clusterId": "6c27bc87f91eb548ee4c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.39686,
+      "related": []
+    },
+    {
+      "id": "804d79691cf2fcc8436d83a8",
+      "title": "Bowie seizing Scotland shot after World Cup disappointment",
+      "translatedTitle": null,
+      "description": "BBC Scotland speaks to Kieron Bowie after he scores his first goal for his country against North Macedonia.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5djvw4n8vp8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c5djvw4n8vp8o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T07:59:10Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e53/live/7ab140f0-bfc7-11f1-ae6d-41d695ddb617.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:02Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9ae247226908ad5126fd",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.86709
+      "rankingScore": 6.07184
+    },
+    {
+      "id": "fc28063ead99d339f4f8d3a3",
+      "title": "I clawed my way to the top but need a break - Azpilicueta",
+      "translatedTitle": null,
+      "description": "Cesar Azpilicueta says it is time to move to \"a different stage of life\" following a glorious 20-year playing career, notably captaining Chelsea to several titles.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq0kl0yy3r0po?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cq0kl0yy3r0po?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T06:15:35Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14a6/live/d4fed630-bb4e-11f1-bd21-bdf910f2cec6.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:02Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4b68cb3fbe5863a6d1e1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.87413
+    },
+    {
+      "id": "644018fdfa7919bcb2315986",
+      "title": "Tories pledge to remove £100,000 childcare 'cliff edge'",
+      "translatedTitle": null,
+      "description": "Party leader Kemi Badenoch tells the BBC that she wants to see \"people who work harder\" not getting punished for doing so.",
+      "url": "https://www.bbc.co.uk/news/articles/cmn06l362ypeo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmn06l362ypeo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T06:14:33Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2fe8/live/242f08f0-bfc9-11f1-a64c-550be9e3c66b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:02Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "da69db44786c173e7600",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.87225
+    },
+    {
+      "id": "d9438aece22bb786e606a740",
+      "title": "Bahrain GP in Malaysia delayed after heavy rain and chaotic formation lap: Formula One 2026 – live",
+      "translatedTitle": null,
+      "description": "F1 updates from 8am BST in Sepang Verstappen ends pole wait | And mail Yara Tyres: Tyre degradation has been one of the big talking points throughout the weekend, and with the rain threatening to shake things up, it is worth taking another look at what could prove crucial if the track starts to dry. The circuit’s naturally abrasive surface is already putting plenty of stress through the tyres, while the extreme track temperatures had been adding to the problem too. With the conditions cooling, t",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/04/bahrain-grand-prix-formula-one-2026-live",
+      "canonicalUrl": "https://theguardian.com/sport/live/2026/oct/04/bahrain-grand-prix-formula-one-2026-live",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T08:11:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/235cc7a4638129ace447323676a0c6983505c957/204_0_5785_4631/master/5785.jpg?width=140&quality=85&auto=format&fit=max&s=14ba93a82f06b43d303056732f434edc",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "094d6ff455411a63c750",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.82654
+    },
+    {
+      "id": "7d7ed89d5f0abb4eec2bb54d",
+      "title": "Lack of inspections at fish slaughterhouses a ‘disgrace’, says Animal Equality UK",
+      "translatedTitle": null,
+      "description": "Charity calls for faster progress on humane slaughter laws for farmed fish in England and Wales Up to 77m fish are slaughtered each year in the UK but there are no routine or mandatory inspections of fish slaughterhouses in England and Wales, it can be revealed. Concerns within government about the way fish are slaughtered date back decades but all of the official bodies responsible for animal welfare and food standards in England and Wales said they do not undertake regular inspections. Continu",
+      "url": "https://www.theguardian.com/world/2026/oct/04/mandatory-inspections-fish-slaughterhouses-england-wales",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/04/mandatory-inspections-fish-slaughterhouses-england-wales",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T08:00:22Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f5e1f3c4d35ee9360797e358f37e8c8cb329924d/513_0_5904_4722/master/5904.jpg?width=140&quality=85&auto=format&fit=max&s=360871063a2584194bfc4e9864ab8261",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0f3117b638f57918ee64",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80424
+    },
+    {
+      "id": "3b5341e1e4226a4c9512b7b7",
+      "title": "‘I can’t listen to Pink Floyd - I find their music dreary’: Elvis Costello’s honest playlist",
+      "translatedTitle": null,
+      "description": "The singer-songwriter owes a lot to Georgie Fame and likes the romantic side of Jimi Hendrix – but which ringtone song can put him in a bad mood? The first song I fell in love with The Wind Cries Mary by Jimi Hendrix, which came out in 1967 when I was 12. Hendrix was known for outgoing music, but I was a romantic soul, so the emotional side of his music led to that strain in my own writing. The song I do at karaoke Karaoke? Certainly not. I do this for a living. Would you have made my great-gran",
+      "url": "https://www.theguardian.com/music/2026/oct/04/elvis-costello-honest-playlist-sinatra-clash-kelis-pink-floyd-bob-dylan",
+      "canonicalUrl": "https://theguardian.com/music/2026/oct/04/elvis-costello-honest-playlist-sinatra-clash-kelis-pink-floyd-bob-dylan",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T08:00:22Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/81a048b25985d8145422a0206ea66ef7b4b9a597/131_0_3930_3144/master/3930.jpg?width=140&quality=85&auto=format&fit=max&s=31021e784f694394d65e95dd51acf884",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "19ed72fa9262ebf0a7d8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80424
+    },
+    {
+      "id": "7eb6d7ad7cd6eeb3c73674c7",
+      "title": "Alexander’s absence weighs heavy as Bradford try to keep promotion push on track",
+      "translatedTitle": null,
+      "description": "The Bantams faced Reading after manager left for Preston – but could his replacement be in the opposing dugout? It was a bruising start to the week for Bradford City when news filtered through to the players that Graham Alexander had stepped down as manager. They were top of the League One table and his departure was a sudden and unexpected blow for a side that had started to let imaginations run wild about a return to the second tier for the first time in 23 years. Coaches Mark Trueman and Coli",
+      "url": "https://www.theguardian.com/football/2026/oct/04/graham-alexander-exit-bradford-reading-league-one-football",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/04/graham-alexander-exit-bradford-reading-league-one-football",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T07:00:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/346239503f403d075a2a9b6c0fd3addd1eb19218/293_0_2915_2332/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=1b5961eb1021266815e788c6e5100a9c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7b20d8860d4ccc10f838",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68726
+    },
+    {
+      "id": "02105e7494fced09335469b8",
+      "title": "Rare tornado whips through small Australian town",
+      "translatedTitle": null,
+      "description": "The twister was caught on camera in Ulladulla, New South Wales, damaging property and downing trees.",
+      "url": "https://www.bbc.co.uk/news/videos/c69qzvggzppro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/c69qzvggzppro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T04:15:36Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dbd5/live/6547a0c0-bfa8-11f1-bc2e-018d645d8d21.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:02Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d9ead3241b0a57ed4ebe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66761
+    },
+    {
+      "id": "208852838d7ecf14ac779d45",
+      "title": "Return of the nasty party? Badenoch walks tightrope with ‘punch down’ policies",
+      "translatedTitle": null,
+      "description": "Shadow minister says Tories have ‘outsourced our toxicity to Reform’, but others doubt leader can spark lasting revival The forthcoming Conservative conference will be, almost everyone in the party agrees, notably more upbeat and unified than last year. There is a similar consensus that Kemi Badenoch is doing well as party leader. That is, however, not the whole story. “The mood is better but the facts are still very poor,” one Conservative MP said. “We are still a distant third in the polls, an",
+      "url": "https://www.theguardian.com/politics/2026/oct/04/conservative-party-conference-more-upbeat-last-year-tories-kemi-badenoch",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/04/conservative-party-conference-more-upbeat-last-year-tories-kemi-badenoch",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T06:00:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1f9768c047374b9fb6a08009488cb78e2ecdee67/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=f5c1285fae64735f6d3881eb2b0691b6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5ec3b45f7902a66dc713",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57659
+    },
+    {
+      "id": "2e1b80771234bf855e95fb1b",
+      "title": "‘They call every week’: the phishing attacks targeting past victims",
+      "translatedTitle": null,
+      "description": "Scammers reuse personal details harvested from fake Esta websites – and texts and calls can keep arriving for months When the British actor Lisa Riley was preparing to travel to the US last year, she applied online for an Esta so she would not need a visa. After finding the site through a Google search she filled in her passport, bank and personal details and waited for the confirmation, which normally takes just under an hour. When it failed to arrive, she emailed an address from the site where",
+      "url": "https://www.theguardian.com/money/2026/oct/04/repeat-phishing-attacks-target-past-scam-victims",
+      "canonicalUrl": "https://theguardian.com/money/2026/oct/04/repeat-phishing-attacks-target-past-scam-victims",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T06:00:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d4058f16673cdad6be9ad97779c696a440997923/13_0_3559_2847/master/3559.jpg?width=140&quality=85&auto=format&fit=max&s=f9c726f5a6c981f608b6686097a092a6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2889f6c8367116829851",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57659
+    },
+    {
+      "id": "111d3bb7b4d99e07dd8fa5eb",
+      "title": "Alone with the stars, lynx and wolves in ‘Empty Spain’",
+      "translatedTitle": null,
+      "description": "A world away from the tourist hotspots of the coast, Extremadura and Castile and León offer unpolluted skies, lower prices – and hope for the future of vulnerable wildlife As photographed at night from a satellite, or the International Space Station (ISS), the Iberian peninsula looks encrusted with lights along its coastal edges. Madrid forms a big pulsing cluster near the centre, while surrounding hinterlands appear as something of a void. Ever fewer people live out in Castile and León and Extr",
+      "url": "https://www.theguardian.com/travel/2026/oct/04/empty-spain-extremadura-castile-and-leon-wildlife-holiday",
+      "canonicalUrl": "https://theguardian.com/travel/2026/oct/04/empty-spain-extremadura-castile-and-leon-wildlife-holiday",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T06:00:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c7dcc7f1cc861d68d44ad7f355a35a9b505a2888/643_0_11816_9449/master/11816.jpg?width=140&quality=85&auto=format&fit=max&s=c6eec05142ccf6aa401a4eefb0c52506",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "458a6fb76b5714132996",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57659
+    },
+    {
+      "id": "7ec238cc048317d1c7602a40",
+      "title": "Ministers explore how to stop regional leaders misusing planned new spending powers",
+      "translatedTitle": null,
+      "description": "Labour wants to make sure mayors and council chiefs in England can be held to account for extra revenues devolved to them Ministers are mulling over how to ensure that England’s regional leaders do not misuse their newfound spending muscle, as Whitehall prepares to devolve more revenue to local levels. Ideas under consideration include a new select committee in Westminster, enhanced reporting rules and a new audit body focused on local and regional government. Continue reading...",
+      "url": "https://www.theguardian.com/politics/2026/oct/04/ministers-regional-leaders-spending-powers-devolution",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/04/ministers-regional-leaders-spending-powers-devolution",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T06:00:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ca342fbe347b784a69cad3499efffe987193fa3c/829_75_4332_3468/master/4332.jpg?width=140&quality=85&auto=format&fit=max&s=b8a89950ff2528d566e94328dd22e264",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fc2ba8ee9f79097756f7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57656
     },
     {
       "id": "63e308b55c756f42d609b818",
@@ -348,7 +1160,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:02Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -356,15 +1168,15 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.97082
+      "rankingScore": 5.5602
     },
     {
-      "id": "c13db8bf1293311bd9de8703",
-      "title": "Are you a Traitor or a Faithful? I’m coming to terms with the fact I’d be useless as either | Polly Hudson",
+      "id": "d265f078e233d568a7634960",
+      "title": "TV tonight: Eric Morecambe’s children’s book comes to life",
       "translatedTitle": null,
-      "description": "While I suspect my husband and some of my friends would make excellent Traitors, my poker face is worse than Richard E Grant’s – as I learned when I played the game Yes, yes, it’s achieved the impossible: brought back watercooler terrestrial TV, united the UK’s viewing habits, healed our divided nation. But more importantly, The Celebrity Traitors has given us a lens through which to look at life. Currently, the only conversation worth having is what you think you, whoever you’re talking to, and",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/04/traitor-or-faithful-richard-e-grant",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/04/traitor-or-faithful-richard-e-grant",
+      "description": "The Reluctant Vampire is a fun story starring Lenny Rush. Plus: secrets are spilled in juicy divorce drama The Split Up. Here’s what to watch this evening 6.40pm, BBC One Continue reading...",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/04/tv-tonight-eric-morecambes-childrens-book-the-reluctant-vampire",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/oct/04/tv-tonight-eric-morecambes-childrens-book-the-reluctant-vampire",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -373,20 +1185,80 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-04T04:00:17Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/ce35f0e54ba5d3296acc49c8f92c850f07dd7d6c/180_0_3953_3162/master/3953.jpg?width=140&quality=85&auto=format&fit=max&s=ba3ca064f5759b104a83fb9820ed8def",
+      "publishedAt": "2026-10-04T05:15:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bffed0de9f1f068f9bda6d10eb69347a7555c3be/270_194_3161_2529/master/3161.jpg?width=140&quality=85&auto=format&fit=max&s=249196396978fac26fcf0b969ce52d67",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "7def73d08818cf6e1c44",
+      "clusterId": "76f484d6dcae34ed4804",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80404
+      "rankingScore": 5.4975
+    },
+    {
+      "id": "934ed729db81fb18e70f21fc",
+      "title": "My friends are spouting conspiracy theories – what should I say? | Ask Annalisa Barbieri",
+      "translatedTitle": null,
+      "description": "You can be curious about others’ beliefs without compromising your own Recently, I had a conversation with a friend who explained that her ill health was down to reasons I would describe as dubious. Taking certain supplements and changing her diet have significantly improved her health. Good for her. However, she was disappointed and a little annoyed that I didn’t share her outrage and wasn’t going to follow her views. I’ve got another friend who thinks cholesterol is a lie and that we should li",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/04/friends-spouting-conspiracy-theories",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/04/friends-spouting-conspiracy-theories",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T05:00:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/430f5c2d21ed18ca2fd899b5f4e69e86fe2ae721/1706_0_7809_6250/master/7809.jpg?width=140&quality=85&auto=format&fit=max&s=ed21b97c2d3463614ca79eb44a801b3d",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ec9888706512025bb8e2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47191
+    },
+    {
+      "id": "23127f5c2a2d201626e47dc8",
+      "title": "Dante Mayfair, Claridge’s, London W1: ‘Are chips ever worth £11? Probably not’ – restaurant review",
+      "translatedTitle": null,
+      "description": "The whole point of going to Claridge’s in the first place is to sweep in through the grand main hotel entrance Dante Mayfair, inside Claridge’s on Brook Street in London, has been created, the hotel’s management says, to become “the living room of Mayfair”. It’s a charming idea: pop in, have a cuppa or a bowl of pappardelle bolognese, or lie about on the fancy sofas wearing elasticated tracksuit bottoms and slurping soft-serve with s’mores. No, sorry, I’ve gone too far: it’s nowhere near that in",
+      "url": "https://www.theguardian.com/food/2026/oct/04/dante-mayfair-claridges-london-w1-restaurant-review-grace-dent",
+      "canonicalUrl": "https://theguardian.com/food/2026/oct/04/dante-mayfair-claridges-london-w1-restaurant-review-grace-dent",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-04T05:00:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/86b9a4c6f13966b9d5a8f9567b40467c03ee089d/650_0_6504_5206/master/6504.jpg?width=140&quality=85&auto=format&fit=max&s=3bc30791d1a133339bfd9ce857e2c744",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-04T08:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0dc2471e4a529a52dc46",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47188
     },
     {
       "id": "f33181272fcf584ad93e1a33",
@@ -408,7 +1280,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:02Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -416,10 +1288,10 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.7956
+      "rankingScore": 5.4199
     },
     {
-      "id": "ffadda4fe932504278d49d6f",
+      "id": "e0c054001b1b6f2fad67dd74",
       "title": "When parenting advice becomes too much",
       "translatedTitle": null,
       "description": "Many parents feel overwhelmed by the amount of parenting information available",
@@ -438,7 +1310,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:02Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -446,37 +1318,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.78264
+      "rankingScore": 5.40952
     },
     {
-      "id": "76de011055801a1f25b8c172",
-      "title": "Autumn chill to arrive this week as temperatures set to drop",
+      "id": "c13db8bf1293311bd9de8703",
+      "title": "Are you a Traitor or a Faithful? I’m coming to terms with the fact I’d be useless as either | Polly Hudson",
       "translatedTitle": null,
-      "description": "After highs of 28C in the final week of September, cooler air will arrive this week with temperatures falling closer to the seasonal norm.",
-      "url": "https://www.bbc.co.uk/weather/articles/c6e3x8zg7wklo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/weather/articles/c6e3x8zg7wklo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "While I suspect my husband and some of my friends would make excellent Traitors, my poker face is worse than Richard E Grant’s – as I learned when I played the game Yes, yes, it’s achieved the impossible: brought back watercooler terrestrial TV, united the UK’s viewing habits, healed our divided nation. But more importantly, The Celebrity Traitors has given us a lens through which to look at life. Currently, the only conversation worth having is what you think you, whoever you’re talking to, and",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/04/traitor-or-faithful-richard-e-grant",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/04/traitor-or-faithful-richard-e-grant",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-04T00:29:22Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee5f/live/29f705f0-bf36-11f1-b10d-f956452c9061.png",
+      "publishedAt": "2026-10-04T04:00:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ce35f0e54ba5d3296acc49c8f92c850f07dd7d6c/180_0_3953_3162/master/3953.jpg?width=140&quality=85&auto=format&fit=max&s=ba3ca064f5759b104a83fb9820ed8def",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
+      "retrievedAt": "2026-10-04T08:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "393d3b191a29a9413013",
+      "clusterId": "7def73d08818cf6e1c44",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69013
+      "rankingScore": 5.37286,
+      "related": []
     },
     {
       "id": "8658dd9dd65ef2527cde4fab",
@@ -505,37 +1377,7 @@
       "clusterId": "caa75fc007eec0461dfd",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.29822
-    },
-    {
-      "id": "eb566fb57cc2243fc7e25fa4",
-      "title": "Ministers drop plans to cut jury trials in England and Wales after outcry",
-      "translatedTitle": null,
-      "description": "Critics say scrapping of plans, which aimed to increase judge-alone trials to deliver swifter justice, leaves court system and victims vulnerable Ministers have scrapped plans that would have slashed the number of jury trials in England and Wales and replaced them with a judge sitting alone. The proposals had sparked a fierce backlash from lawyers, who have welcomed the U-turn. But the victims’ commissioner expressed concern about the abandonment of measures drawn up by the then justice secretar",
-      "url": "https://www.theguardian.com/law/2026/oct/04/ministers-drop-radical-plans-cut-jury-trials-outcry-lawyers-centuries-old-right-courts",
-      "canonicalUrl": "https://theguardian.com/law/2026/oct/04/ministers-drop-radical-plans-cut-jury-trials-outcry-lawyers-centuries-old-right-courts",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-03T23:01:11Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/8a1c693df0cee06b134fe1adf7d9b7ca778f98e1/460_0_5002_4000/master/5002.jpg?width=140&quality=85&auto=format&fit=max&s=f6a17a7ffac91306e85771bada54f12d",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-04T04:18:04Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7194d7b58e27e6986604",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.28055,
+      "rankingScore": 4.94989,
       "related": []
     },
     {
@@ -565,8 +1407,8 @@
       "clusterId": "9b43b97a79e95fcea186",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.19027
+      "rankingScore": 4.86345,
+      "related": []
     },
     {
       "id": "8435780b333efb10326bd2e6",
@@ -595,8 +1437,8 @@
       "clusterId": "d1516daf89677e5a7cd5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.81024
+      "rankingScore": 4.47944,
+      "related": []
     }
   ]
 }
