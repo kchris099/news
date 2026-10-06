@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-06",
-  "generatedAt": "2026-10-06T16:17:39Z",
-  "lastAttemptAt": "2026-10-06T16:17:39Z",
-  "lastSuccessfulUpdate": "2026-10-06T16:17:39Z",
-  "status": "current",
+  "generatedAt": "2026-10-06T20:17:41Z",
+  "lastAttemptAt": "2026-10-06T20:17:41Z",
+  "lastSuccessfulUpdate": "2026-10-06T20:17:41Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-06T16:17:38Z",
-      "lastSuccessAt": "2026-10-06T16:17:38Z",
-      "articlesRetrieved": 31,
-      "responseTimeMs": 576,
+      "lastAttemptAt": "2026-10-06T20:17:39Z",
+      "lastSuccessAt": "2026-10-06T20:17:40Z",
+      "articlesRetrieved": 30,
+      "responseTimeMs": 379,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-06T16:17:38Z",
-      "lastSuccessAt": "2026-10-06T16:17:38Z",
-      "articlesRetrieved": 138,
-      "responseTimeMs": 351,
+      "lastAttemptAt": "2026-10-06T20:17:39Z",
+      "lastSuccessAt": "2026-10-06T20:17:40Z",
+      "articlesRetrieved": 139,
+      "responseTimeMs": 473,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-06T16:17:38Z",
-      "lastSuccessAt": "2026-10-06T16:17:39Z",
+      "lastAttemptAt": "2026-10-06T20:17:39Z",
+      "lastSuccessAt": "2026-10-06T20:17:40Z",
       "articlesRetrieved": 10,
-      "responseTimeMs": 939,
+      "responseTimeMs": 892,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-10-06T16:17:38Z",
-      "lastSuccessAt": "2026-10-06T16:17:38Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 516,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-06T20:17:39Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -78,14 +78,44 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
+      "retrievedAt": "2026-10-06T20:17:40Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "86fa264f1ae5eb404bfd",
+      "clusterId": "0eb52fe72fd8c8048d4e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
+        {
+          "id": "f86f15a7741dc222c128e3d9",
+          "title": "Paramount completes $81bn takeover of Warner Bros Discovery",
+          "translatedTitle": null,
+          "description": "Skydance-owned Paramount has completed its $81bn (£61bn) takeover of Warner Bros Discovery - bringing together the two media giants under a combined company.",
+          "url": "https://news.sky.com/story/paramount-completes-81bn-takeover-of-warner-bros-discovery-13595899",
+          "canonicalUrl": "https://news.sky.com/story/paramount-completes-81bn-takeover-of-warner-bros-discovery-13595899",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-06T17:56:00Z",
+          "imageUrl": "https://e3.365dm.com/26/06/1920x1080/skynews-warner-bros-paramount_7286686.jpg?20260630154430",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-06T20:17:40Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "0eb52fe72fd8c8048d4e",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "paramount completes 81bn takeover of warner bros discovery"
+        },
         {
           "id": "7f767bcbb1b703445f7cfe6f",
           "title": "The much-contested Paramount-Warner Bros. merger is complete. Now what?",
@@ -110,7 +140,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "86fa264f1ae5eb404bfd",
+          "clusterId": "0eb52fe72fd8c8048d4e",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -136,11 +166,11 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-10-06T16:17:38Z",
+          "retrievedAt": "2026-10-06T20:17:40Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "86fa264f1ae5eb404bfd",
+          "clusterId": "0eb52fe72fd8c8048d4e",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
@@ -170,14 +200,14 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "86fa264f1ae5eb404bfd",
+          "clusterId": "0eb52fe72fd8c8048d4e",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "paramount and warner bros wrap up mega deal to create skydance"
         }
       ],
-      "rankingScore": 10.57634
+      "rankingScore": 11.5448
     },
     {
       "id": "cf8e2cd88923edaee98267c1",
@@ -206,7 +236,7 @@
       "clusterId": "5449eb4c35e2e07b0a1a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 9.13307,
+      "rankingScore": 8.76557,
       "related": [
         {
           "id": "97ec1280ad4f936f14da4aca",
@@ -255,12 +285,12 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-06T15:58:15Z",
+      "publishedAt": "2026-10-06T18:31:12Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7cb7/live/421f5c20-c172-11f1-b328-ff5d39da8090.png",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
+      "retrievedAt": "2026-10-06T20:17:40Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -318,7 +348,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-10-06T16:17:39Z",
+          "retrievedAt": "2026-10-06T20:17:40Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -329,15 +359,15 @@
           "normalizedTitle": "pcs sacked after 92 year old tasered and pepper sprayed in care home"
         }
       ],
-      "rankingScore": 8.87046
+      "rankingScore": 8.70332
     },
     {
-      "id": "7d2fbb512e8a61b0add164ca",
-      "title": "Our reporters are answering your questions on how the Iran war will affect the midterm elections",
+      "id": "f2e33b6f80d2dccd0d963b8c",
+      "title": "Whistleblower claims Trump ordered FBI to investigate LA anti-ICE protesters – US politics live",
       "translatedTitle": null,
-      "description": "The war with Iran is reshaping America ahead of the midterms – how will it affect US voters at the polls? We’re live with political and global correspondents to answer your questions Sign in or sign up to join the conversation Roxanne Magnuson from Oregon, USA asks in a reader callout: Even if Democrats are successful in regaining the congressional balance, will that be enough influence to end this war? How can it be accomplished? Lauren Gambino: Not necessarily. Trump has said he thinks Iran is",
-      "url": "https://www.theguardian.com/community/live/2026/oct/05/reader-q-a-iran-war-trump-midterms-reporter-answers",
-      "canonicalUrl": "https://theguardian.com/community/live/2026/oct/05/reader-q-a-iran-war-trump-midterms-reporter-answers",
+      "description": "‘These allegations are deeply alarming,’ said Senator Alex Padilla, a California Democrat who received a copy of the complaint Can the Iran war cost Trump in the US midterm elections? Your questions answered Sign up for Breaking News US email Two media giants, Paramount and Warner Bros Discovery, have completed their $110bn merger, creating a new entertainment powerhouse, Skydance. The deal, fiercely contested by several state attorneys general over potential antitrust concerns, formally closed",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/06/donald-trump-ads-diesel-baltimore-midterms-media-latest-news-updates",
+      "canonicalUrl": "https://theguardian.com/us-news/live/2026/oct/06/donald-trump-ads-diesel-baltimore-midterms-media-latest-news-updates",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -346,28 +376,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-06T16:11:07Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/44efb0f2966e10a44d1d9629807a8e84a0397b12/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=a5a06c453f44b82874aeab62ca29e6a5",
+      "publishedAt": "2026-10-06T20:14:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/466720de7651b0280ffad6e6857f90432baf6cfb/403_0_7920_6336/master/7920.jpg?width=140&quality=85&auto=format&fit=max&s=66d658eb87157fdf342683695a84a482",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
+      "retrievedAt": "2026-10-06T20:17:40Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "7d755a5298b0aaa5cd71",
+      "clusterId": "8727c256687737ce9358",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.52635,
-      "related": []
+      "related": [],
+      "rankingScore": 8.53302
     },
     {
-      "id": "d1dd9ecee74980f6dfad739f",
-      "title": "Plague epidemic risk in Russia low after death of lab technician, WHO says",
+      "id": "a3a3dda99fb7ebfa8eeb7873",
+      "title": "Plague outbreak? Russian lab worker dies in Siberia - The Latest",
       "translatedTitle": null,
-      "description": "World Health Organization detects no sign of further outbreak since Darya Shipilova died last week The World Health Organization has said the risk of an epidemic in Russia is low after the sudden death of a lab technician who worked at a plague research institute in Siberia. Darya Shipilova, who was 28, died last week, two days after falling ill. Russian media reports suggested she may have become infected after an accident at her workplace, where dangerous pathogens are kept and studied. Contin",
-      "url": "https://www.theguardian.com/world/2026/oct/06/plague-epidemic-risk-russia-low-death-darya-shipilova-who",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/06/plague-epidemic-risk-russia-low-death-darya-shipilova-who",
+      "description": "Quarantine measures have been in place in several hospitals in eastern Russia since a 28-year-old laboratory worker, Darya Shipilova, died after falling ill at work following a reported accident at a plague research centre in Siberia. Russia’s health watchdog has said she died of ‘pneumonia of unknown aetiology’, but there is speculation about a possible plague infection. Lucy Hough speaks to Science Weekly co-host Madeleine Finlay Continue reading...",
+      "url": "https://www.theguardian.com/news/video/2026/oct/06/plague-outbreak-russian-lab-worker-dies-in-siberia-the-latest",
+      "canonicalUrl": "https://theguardian.com/news/video/2026/oct/06/plague-outbreak-russian-lab-worker-dies-in-siberia-the-latest",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -376,20 +406,112 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-06T12:38:58Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/462785441d219322c6970ad4fcf8cbeb444cc616/116_0_1706_1365/master/1706.jpg?width=140&quality=85&auto=format&fit=max&s=d66d00a56c19b54cb9abdd72524fddde",
+      "publishedAt": "2026-10-06T16:50:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/eaf49c5d21c6596610e1a101fe75043025705d89/0_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=4d72fbed98da6da684898ffa53ed95cf",
       "imageAlt": null,
       "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
+      "retrievedAt": "2026-10-06T20:17:40Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "400b83aa290a54d08838",
+      "clusterId": "e166d2b1a4c85eee522e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.48643
+      "rankingScore": 8.50555
+    },
+    {
+      "id": "1f61bece3a78d72a136c1ad5",
+      "title": "British national arrested in connection with RAF Fairford incident",
+      "translatedTitle": null,
+      "description": "It is the seventh arrest in connection to the incident near RAF Fairford last month.",
+      "url": "https://www.bbc.co.uk/news/articles/cqlye0xd72wdo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqlye0xd72wdo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T15:03:58Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b53/live/fc7bdb70-bf15-11f1-9947-0584c244b963.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e7a9b9bec8e88ef5165d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "e248d516af474f4630ff599f",
+          "title": "British man arrested over suspected RAF Fairford terrorism plot",
+          "translatedTitle": null,
+          "description": "Counter-terrorism police say 22-year-old detained in London on suspicion of terrorism offences A seventh man has been arrested in London on suspicion of terrorism offences as part of the investigation related to threats to RAF Fairford, police have said. The 22-year-old British national was arrested in Westminster, central London, on suspicion of preparation of terrorist acts under section 5 of the Terrorism Act 2006, counter-terrorism police said. Continue reading...",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/06/british-man-arrested-over-suspected-raf-fairford-terrorism-plot",
+          "canonicalUrl": "https://theguardian.com/uk-news/2026/oct/06/british-man-arrested-over-suspected-raf-fairford-terrorism-plot",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-06T18:13:44Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/6ca240b08d8926f9887a3558ca6dfd664706da50/1272_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=86fe5bbfeb08e3097818c012cc684cbc",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-06T20:17:40Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e7a9b9bec8e88ef5165d",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "british man arrested over suspected raf fairford terrorism plot"
+        },
+        {
+          "id": "dff9ec6e774106f04356387b",
+          "title": "Police make further arrest over RAF Fairford incident",
+          "translatedTitle": null,
+          "description": "Counter terror police have made a seventh arrest in connection with an incident which took place close to RAF Fairford on 27 September.",
+          "url": "https://news.sky.com/story/police-make-further-arrest-over-raf-fairford-incident-13595771",
+          "canonicalUrl": "https://news.sky.com/story/police-make-further-arrest-over-raf-fairford-incident-13595771",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-06T12:18:00Z",
+          "imageUrl": "https://e3.365dm.com/26/09/1920x1080/skynews-fairford-raf-police_7363058.jpg?20260928091929",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-06T20:17:40Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e7a9b9bec8e88ef5165d",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "police make further arrest over raf fairford incident",
+          "rankingScore": 6.80189
+        }
+      ],
+      "rankingScore": 8.35529
     },
     {
       "id": "3b532efc0bc59343695b0e43",
@@ -418,8 +540,8 @@
       "clusterId": "c5521c58af3f3f125109",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.41507
+      "rankingScore": 7.98379,
+      "related": []
     },
     {
       "id": "aede61732fd67e9a1ce671c0",
@@ -448,8 +570,8 @@
       "clusterId": "848a3d5f5054c2cab117",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.33544
+      "rankingScore": 7.92003,
+      "related": []
     },
     {
       "id": "b14fc2966de7726650bcc6af",
@@ -478,160 +600,8 @@
       "clusterId": "97eb35e8c2f20b58e40e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.25884
-    },
-    {
-      "id": "c534652d2e054f58faaafc6d",
-      "title": "Plague risk to UK 'very low', officials say after Russian woman's death",
-      "translatedTitle": null,
-      "description": "The risk to the UK from plague is very low, the UK Health Security Agency (UKHSA) has said, after the death of a laboratory worker in Russia who may have been exposed to pneumonic plague.",
-      "url": "https://news.sky.com/story/ukhsa-says-risk-of-plague-very-low-after-russian-laboratory-worker-dies-of-suspected-pneumonic-plague-13595782",
-      "canonicalUrl": "https://news.sky.com/story/ukhsa-says-risk-of-plague-very-low-after-russian-laboratory-worker-dies-of-suspected-pneumonic-plague-13595782",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T12:45:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-plague-yersinia-pestis_7368625.jpg?20261005110731",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:39Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "104a84926c43551bfb7f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "3b8ab0595c80d677e67cb801",
-          "title": "UKHSA issues UK plague risk update after Russian laboratory worker’s death",
-          "translatedTitle": null,
-          "description": "The UK Health Security Agency (UKHSA) confirmed it is seeking further information on the case",
-          "url": "https://www.independent.co.uk/news/uk/home-news/russia-plague-uk-risk-ukhsa-b3062191.html",
-          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/russia-plague-uk-risk-ukhsa-b3062191.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-06T14:03:14Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/05/11/download.-3.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-06T16:17:38Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "104a84926c43551bfb7f",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "ukhsa issues uk plague risk update after russian laboratory worker s death"
-        }
-      ],
-      "rankingScore": 8.19649
-    },
-    {
-      "id": "9a63d8208b07896e8f519aef",
-      "title": "I'd rather have another election than do a deal with Reform UK, says Badenoch",
-      "translatedTitle": null,
-      "description": "The Conservative Party leader also pledged to cut the cost of hiring 21 to 24 year olds.",
-      "url": "https://www.bbc.co.uk/news/articles/c9x28ljj34lxo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c9x28ljj34lxo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T16:00:03Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c210/live/0bb4e720-c19c-11f1-a64c-550be9e3c66b.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "aa718c79d4055f788e64",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.42406
-    },
-    {
-      "id": "dff9ec6e774106f04356387b",
-      "title": "Police make further arrest over RAF Fairford incident",
-      "translatedTitle": null,
-      "description": "Counter terror police have made a seventh arrest in connection with an incident which took place close to RAF Fairford on 27 September.",
-      "url": "https://news.sky.com/story/police-make-further-arrest-over-raf-fairford-incident-13595771",
-      "canonicalUrl": "https://news.sky.com/story/police-make-further-arrest-over-raf-fairford-incident-13595771",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T12:18:00Z",
-      "imageUrl": "https://e3.365dm.com/26/09/1920x1080/skynews-fairford-raf-police_7363058.jpg?20260928091929",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:39Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3d8f38d242a28667cf1f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "c554fd1b4f18d1f06d4aee83",
-          "title": "Bulletin PM briefing: Violent protests in France and new RAF Fairford arrest",
-          "translatedTitle": null,
-          "description": "Here are five of the day’s biggest stories",
-          "url": "https://www.independent.co.uk/bulletin/news/bulletin-pm-briefing-tuesday-6-october-b3062278.html",
-          "canonicalUrl": "https://independent.co.uk/bulletin/news/bulletin-pm-briefing-tuesday-6-october-b3062278.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-06T15:41:07Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/06/16/2026-10-06T151746Z_621385555_RC2QXNAKHIYR_RTRMADP_3_FRANCE-PROTEST.JPG?width=1200&auto=webp&trim=3%2C0%2C3%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-06T16:17:38Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "3d8f38d242a28667cf1f",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "bulletin pm briefing violent protests in france and new raf fairford arrest"
-        }
-      ],
-      "rankingScore": 6.80189
+      "rankingScore": 7.85868,
+      "related": []
     },
     {
       "id": "e3deadc5f0ead90ac3089762",
@@ -653,134 +623,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-06T16:17:39Z",
+      "retrievedAt": "2026-10-06T20:17:40Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "b3be49133f848fed1660",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.52058
-    },
-    {
-      "id": "bdc6869666ca64a9fb0ba771",
-      "title": "NFL suspends two officials for player incidents",
-      "translatedTitle": null,
-      "description": "The NFL suspends officials Jeff Seeman and Adrian Hill for instances of unprofessional conduct towards a player.",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/cqrlynky9j61o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/american-football/articles/cqrlynky9j61o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T06:13:09Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d17c/live/30488b30-c149-11f1-ac8d-4d124192d842.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b792e54084952db52f87",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.51679
-    },
-    {
-      "id": "5c8d770c357d7a3eb09aa57e",
-      "title": "Uefa investigating allegation Israel player spat at Ireland coach",
-      "translatedTitle": null,
-      "description": "Allegation of an incident in or near tunnel at half-time Israeli FA denies anyone ‘spat towards the coach’ Uefa has launched an investigation into claims a member of the Republic of Ireland coaching staff was spat at during the heated Nations League encounter with Israel on Sunday. The European governing body has confirmed that post-match reports submitted by match officials “contained an allegation of an incident in or around the tunnel at half-time” and that it will be the subject of a discipl",
-      "url": "https://www.theguardian.com/football/2026/oct/06/uefa-investigating-allegation-israel-player-spat-at-ireland-coach",
-      "canonicalUrl": "https://theguardian.com/football/2026/oct/06/uefa-investigating-allegation-israel-player-spat-at-ireland-coach",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T10:09:51Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/2cf039320e00578add0a26b00a9a979efc1e93cc/528_0_4742_3793/master/4742.jpg?width=140&quality=85&auto=format&fit=max&s=0411c30381c1c0763a45a0761e231f3e",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-10-06T12:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3492eaee5f08470f3691",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.46475,
-      "related": []
-    },
-    {
-      "id": "fa057acc9f7e8da361b06cf9",
-      "title": "Houseplant hacks: Are windowsills too cold for plants in winter?",
-      "translatedTitle": null,
-      "description": "It may be flooded with light, but that window ledge is only a pane of glass away from the elements. What’s the best way to protect your plants? The problem That bright window spot you chose for your houseplants to receive maximum sunlight can become one of the coldest places in the house in winter. The glass itself can get cold, and with heavy curtains drawn, it creates a cooler box area around your window. For tropical plants like anthuriums and philodendrons, which are used to less temperature",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/06/houseplant-hacks-are-windowsills-too-cold-for-plants-in-winter",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/06/houseplant-hacks-are-windowsills-too-cold-for-plants-in-winter",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T09:00:09Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1e3e768a94809ed047fd608f59251affc136e7ba/0_278_4975_3979/master/4975.jpg?width=140&quality=85&auto=format&fit=max&s=0b6a1f2cb3d7d1c53bd755d415678aa4",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "358e0167e2bc17d6faf7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.45696,
-      "related": []
-    },
-    {
-      "id": "88041cbb67f8dcd7a9945f12",
-      "title": "Loss of green space could be issue that decides Holborn and St Pancras byelection",
-      "translatedTitle": null,
-      "description": "Labour could pay price for disappearance of parks and playgrounds around Euston station When HS2 construction began around London’s Euston station in 2017 and people living nearby watched parks and playgrounds give way to diggers and rubble, they were promised that the lost green space would be replaced. “They have to give it all back,” said Dorothea Hackman. “But they are destroying it – so there’s nothing to give back.” As the dust from the political party conference season begins to settle, d",
-      "url": "https://www.theguardian.com/politics/2026/oct/06/holborn-st-pancras-byelection-green-spaces-hs2-housing-euston",
-      "canonicalUrl": "https://theguardian.com/politics/2026/oct/06/holborn-st-pancras-byelection-green-spaces-hs2-housing-euston",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T09:00:08Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/67ecdc2e5829e8bf23012090b20a354d474732d2/0_0_4800_3840/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=a2b387a2a075501a599367711b7f8354",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3230a5c26b1796c3ca38",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.45694,
+      "rankingScore": 6.21569,
       "related": []
     },
     {
@@ -810,671 +660,41 @@
       "clusterId": "5e068ebde95ec5cd801c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.43058,
+      "rankingScore": 6.12569,
       "related": []
     },
     {
-      "id": "e45f5b4b719e3f7a7ee612c7",
-      "title": "British Art Show 10 review – a bold and brilliant exploration of who the British really are",
+      "id": "4c62405d7d6c15b1fe84833b",
+      "title": "Boy, 2, fell to death from hotel window which father thought was closed, court hears",
       "translatedTitle": null,
-      "description": "Coventry University Shopfront, scaffolding, throbbing car bodies … 37 artists take the temperature of the nation in a show which shows the breadth and eccentricity of British identity It’s freshers’ week in Coventry. A student chamber choir is playing outside Warwick Arts Centre’s Mead Gallery as I arrive – an unintended but serendipitous entry to the British Art Show 10. The unexpected collisions of sounds, images and media continue throughout the three-venue, 37-artist strong exhibition curate",
-      "url": "https://www.theguardian.com/artanddesign/2026/oct/06/british-art-show-10-review-coventry-university-a-chorus-of-strangers",
-      "canonicalUrl": "https://theguardian.com/artanddesign/2026/oct/06/british-art-show-10-review-coventry-university-a-chorus-of-strangers",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "A two-year-old boy fell to his death from the fourth floor of a hotel in Cyprus after his father placed him on a windowsill, not realising it was open, a court has heard.",
+      "url": "https://news.sky.com/story/british-boy-2-fell-to-death-from-hotel-window-after-father-lost-control-court-hears-13595882",
+      "canonicalUrl": "https://news.sky.com/story/british-boy-2-fell-to-death-from-hotel-window-after-father-lost-control-court-hears-13595882",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-06T08:34:33Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9228431930cce88f8020b62db93aeadad8c5af50/0_1860_5293_4233/master/5293.jpg?width=140&quality=85&auto=format&fit=max&s=a55385e00a188504910d2a96438985d6",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "db4814858afbb8d808c3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.42259,
-      "related": []
-    },
-    {
-      "id": "96eda6c02e2278130f94f374",
-      "title": "Badenoch denies ‘British Iron Dome’ plan – after Tories use phrase in press release",
-      "translatedTitle": null,
-      "description": "Tory leader says proposed ‘Britannia Shield’ would not be comparable to Israeli missile defence system UK politics live – latest updates Kemi Badenoch has denied she compared a new air defence system proposed by the party to Israel’s Iron Dome, despite using the term in her press release and a newspaper article. The Conservative leader said the party’s proposed “Britannia Shield” would not be comparable to the missile defence system in Israel, which is primarily designed to counter short-range a",
-      "url": "https://www.theguardian.com/politics/2026/oct/06/badenoch-british-iron-dome-plan-tory-press-release",
-      "canonicalUrl": "https://theguardian.com/politics/2026/oct/06/badenoch-british-iron-dome-plan-tory-press-release",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T08:27:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e22a3307566c7be4de91bf4e4793404ab40e7f76/1374_188_5460_4368/master/5460.jpg?width=140&quality=85&auto=format&fit=max&s=d4084b045002b2e929e60a4871269877",
+      "publishedAt": "2026-10-06T16:47:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-paphos-holiday_7369939.jpg?20261006183238",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
+      "retrievedAt": "2026-10-06T20:17:40Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ce1b867bc53a7756487f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.41352,
-      "related": []
-    },
-    {
-      "id": "bdb0cd98fe0fe4bb2e5ee387",
-      "title": "‘A return to prison is always looming’: Iran nobel laureate recounts torture in jail and hopes for the future",
-      "translatedTitle": null,
-      "description": "Human rights activist Narges Mohammadi was severely beaten by security forces and denied medical care. In an interview with the Guardian, she discusses her shifting sense of identity and being a mother in jail The human rights activist Narges Mohammadi has described being beaten so severely by Iranian security agents that she required two brain scans, before being held in solitary confinement for two months despite her grave injuries. In an interview with the Guardian, the 54-year-old Nobel peac",
-      "url": "https://www.theguardian.com/global-development/2026/oct/06/iranian-nobel-laureate-narges-mohammadi-recounts-prison-beating",
-      "canonicalUrl": "https://theguardian.com/global-development/2026/oct/06/iranian-nobel-laureate-narges-mohammadi-recounts-prison-beating",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T08:00:06Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0958d23660e93ce82dd03b26853e6129c9bfb951/128_0_1920_1536/master/1920.jpg?width=140&quality=85&auto=format&fit=max&s=30679327f007f59163dd9dc8181495fe",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f6b9988aec9f326bf1c9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.37762,
-      "related": []
-    },
-    {
-      "id": "d1f7e9a85c9d5cd7b417ed7b",
-      "title": "‘Brighton are the world’s most forward-thinking club’: Jason McCarthy on retiring at 29 to coach",
-      "translatedTitle": null,
-      "description": "Former Wycombe defender thought he might end up becoming a pastor but stayed in the game he loves “You blow your whistle and then, all of a sudden, voom, you have 20, 30 people standing to attention,” says Jason McCarthy, discussing his transition into coaching after retiring from playing aged 29. He put on his first sessions while a defender at Wycombe, taking the club foundation’s under-16s. “I was so flustered. I learned very quickly: if I’m going to do this in front of men – hopefully, event",
-      "url": "https://www.theguardian.com/football/2026/oct/06/brighton-jason-mccarthy-coach-interview",
-      "canonicalUrl": "https://theguardian.com/football/2026/oct/06/brighton-jason-mccarthy-coach-interview",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T09:04:15Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/6cc80fd8a5d94b1c03c41a1f05e099d81d07262d/1124_935_6627_5302/master/6627.jpg?width=140&quality=85&auto=format&fit=max&s=1f582723b92f08671fe02b5d6eda9f2f",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T12:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "10803be914719dc996ff",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.37254,
-      "related": []
-    },
-    {
-      "id": "0880db4ec18b18541538afd6",
-      "title": "Flávio’s surprise first-round election win highlights rapid rise of Brazil’s House of Bolsonaro",
-      "translatedTitle": null,
-      "description": "Four members of disgraced ex-president Jair Bolsonaro’s family have been elected to office, most notably his wife and son Flávio, who won the first round of voting to be Brazil’s new president The weekend’s elections in Brazil not only put Jair Bolsonaro’s eldest son, Flávio Bolsonaro, in the lead in the presidential race, but also underscored how far the former president has come in building a political dynasty. As his far-right senator son heads into a runoff against the leftist incumbent, Lui",
-      "url": "https://www.theguardian.com/world/2026/oct/06/keeping-up-with-the-bolsonaros-flavios-surprise-first-round-election-win-heralds-rise-of-a-political-dynasty",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/06/keeping-up-with-the-bolsonaros-flavios-surprise-first-round-election-win-heralds-rise-of-a-political-dynasty",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T07:00:05Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a0c8689ecb0f20f2ab33489df8b67b08ab389d40/363_0_3630_2904/master/3630.jpg?width=140&quality=85&auto=format&fit=max&s=cdd54ae701fbdae532a2444b5b7635f4",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0fea33454cb4ca7f23c4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.30261,
-      "related": []
-    },
-    {
-      "id": "372065b4eea1a11e86ca6910",
-      "title": "‘Bully in every way’: domestic abuse survivors say ex-partners behind far-right UK street patrols",
-      "translatedTitle": null,
-      "description": "Seven women share their stories to make people aware of patterns of violence behind anti-immigration street patrol movement During their relationship, Lisa’s ex-partner was controlling. He kept her at home where he was emotionally and physically abusive towards her, including once attacking her with a machete. These days, he runs protests outside houses of multiple occupancy that he claims are housing asylum seekers. He coordinates groups of men to patrol the streets of his town, claiming to pro",
-      "url": "https://www.theguardian.com/society/2026/oct/06/uk-domestic-abuse-survivors-ex-partners-behind-far-right-street-patrols",
-      "canonicalUrl": "https://theguardian.com/society/2026/oct/06/uk-domestic-abuse-survivors-ex-partners-behind-far-right-street-patrols",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T06:00:05Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/dc69fea4e767a8d051863bf6eaf380637d27858a/535_0_5330_4264/master/5330.jpg?width=140&quality=85&auto=format&fit=max&s=fa0c5f0086827e321782cd73a265a336",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fe3bc2342fcce9627548",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.23168,
-      "related": []
-    },
-    {
-      "id": "79a1f3557596197e502981aa",
-      "title": "Partita By Barbara Kingsolver review – a midlife follow-up to Demon Copperhead",
-      "translatedTitle": null,
-      "description": "The sex writing threatens to throw the novel off-kilter, but there are rich rewards in this tale of music and middle-aged compromises What is the role of art in an artist’s life? Should you commit everything to honing your talent in the hope of becoming a great master? Or should you use your artistic gift to enrich your life and that of your community? In Partita, acclaimed American novelist Barbara Kingsolver grapples with these questions seriously and passionately through the story of a piano",
-      "url": "https://www.theguardian.com/books/2026/oct/06/partita-by-barbara-kingsolver-review-a-quieter-follow-up-to-demon-copperhead",
-      "canonicalUrl": "https://theguardian.com/books/2026/oct/06/partita-by-barbara-kingsolver-review-a-quieter-follow-up-to-demon-copperhead",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T06:00:05Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9770c85b3a938a8bbdcdb5f557c8e7bfc2a5fe4f/460_23_7285_5829/master/7285.jpg?width=140&quality=85&auto=format&fit=max&s=48052ab965054cfd03cf1a6d6951d65e",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a74e089dea9f3be3e600",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.23168,
-      "related": []
-    },
-    {
-      "id": "e0c7b15469f3256537c15b21",
-      "title": "The pest I’ll never forget: the cockroaches I still dream about",
-      "translatedTitle": null,
-      "description": "My student house in Manchester had several thousand other occupants. Despite pest controllers regularly dousing the property, the glossy, greasy, relentless insects marched onwards, endlessly reproducing ‘You do know about the cockroaches?” I’ve forgotten most things people said to me in the 80s, but never that. It was said by one of the occupants of the student house in Longsight, Manchester, that I had signed up to live in the following year. When the landlord had shown me and my future housem",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/06/the-pest-ill-never-forget-cockroaches-i-still-dream-about",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/06/the-pest-ill-never-forget-cockroaches-i-still-dream-about",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T06:00:05Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f26a0ddb4d0ce3664bc1fffd8875b3742620484f/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=bd2ea8fcf792241fefd8a321ec987fb6",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7d7a68947facc8ec25ab",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.23168,
-      "related": []
-    },
-    {
-      "id": "ee7fbcfe03d42f1726ce7444",
-      "title": "‘Pull the plug’: protesters resort to direct action against AI firms",
-      "translatedTitle": null,
-      "description": "Campaign groups report surge in membership after a spate of AI safety alerts and apocalyptic warnings In a bar below Waterloo Bridge, a cell of a fast-growing anti-AI protest movement met last week to plot their latest move: disrupting a tech industry dinner being addressed by a senior executive from the chip maker Nvidia. Emma, a 28-year-old bartender, had never before taken direct action and was the most nervous of the four plotters from Pull The Plug, one of a growing number of AI-focused cam",
-      "url": "https://www.theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms",
-      "canonicalUrl": "https://theguardian.com/technology/2026/oct/06/pull-the-plug-protesters-resort-to-direct-action-against-ai-firms",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T06:00:04Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/c8e5d42e1a557862182577de9c2f72e61899aec2/290_62_4910_3928/master/4910.jpg?width=140&quality=85&auto=format&fit=max&s=f4bf9ea781e909369a328e5497c47212",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e0ceca02be23de74b562",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.23166,
-      "related": []
-    },
-    {
-      "id": "6038e9ee8fbe5e95edd895b8",
-      "title": "Buckingham Palace says it will not fund Andrew’s legal action against police",
-      "translatedTitle": null,
-      "description": "Former Duke of York is attempting to quash search warrants that led to his arrest in February Andrew Mountbatten-Windsor has been warned not to use the king’s private money to fund his legal action against Thames Valley police. The former Duke of York is attempting to quash search warrants that led to his arrest, with a private high court hearing due to take place on Thursday. Continue reading...",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/oct/06/buckingham-palace-andrew-mountbatten-windsor-legal-action-police",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T06:44:12Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/fb620b92234cda09d14da5f024f0bad4f7f7f877/32_0_1400_1120/master/1400.jpg?width=140&quality=85&auto=format&fit=max&s=ce011cba6c07fa2c575c510bc5d722ad",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T12:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "58e7e6febf3ca7d39a57",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.19345,
-      "related": []
-    },
-    {
-      "id": "71364ca8281510d1f9bbb2d8",
-      "title": "UK regulator FCA to investigate how it handled Epstein whistleblower who took his own life",
-      "translatedTitle": null,
-      "description": "British banker Simon Andriesz helped to expose alleged ties between late sex offender Jeffrey Epstein and US commerce secretary Howard Lutnick A top UK regulator has launched an investigation into how it handled a whistleblower – who highlighted alleged ties between the late sex offender Jeffrey Epstein and the US commerce secretary, Howard Lutnick – after he took his own life. The British banker Simon Andriesz died late last month aged 57, the campaign group Transparency Task Force, of which he",
-      "url": "https://www.theguardian.com/business/2026/oct/06/uk-regulator-epstein-whistleblower",
-      "canonicalUrl": "https://theguardian.com/business/2026/oct/06/uk-regulator-epstein-whistleblower",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T05:00:03Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5868bd864faf501e5fc6718999e3b20e68165792/590_61_5122_4097/master/5122.jpg?width=140&quality=85&auto=format&fit=max&s=ee1ecdfd7dc12f8428d63bd94065f081",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "15941afc9f21ad130fe2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.16454,
-      "related": []
-    },
-    {
-      "id": "eb94fdf0a6bf77c8ab679b6c",
-      "title": "‘It really hammers people’: Scottish islanders hit by highest diesel prices in UK",
-      "translatedTitle": null,
-      "description": "Inhabitants of the Hebrides and Shetland tell of how fuel costs are putting the squeeze on commuting, services, food and more As fuel prices reach the highest level in the UK since Russia’s invasion of Ukraine, Scottish islanders are feeling the pain more than most. On the mainland, the price of diesel has soared to a record high of 200.01p a litre, bringing the cost of filling an average family car to more than £110, according to the RAC. Petrol has risen by a third since the start of the Iran",
-      "url": "https://www.theguardian.com/business/2026/oct/06/scottish-islanders-highest-level-diesel-prices-uk-hebrides-shetland",
-      "canonicalUrl": "https://theguardian.com/business/2026/oct/06/scottish-islanders-highest-level-diesel-prices-uk-hebrides-shetland",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T05:00:03Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/24fcfcfa7b5b994836cc870f2260f5ae96250e24/198_0_3135_2507/master/3135.jpg?width=140&quality=85&auto=format&fit=max&s=84edc8ec445d3f1036a490b03ceb1253",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8db1ff50aa4e196ddad9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.16454,
-      "related": []
-    },
-    {
-      "id": "80586ac44dc7971bc8dc55a2",
-      "title": "Cancer rates rising more quickly among younger people, international research finds",
-      "translatedTitle": null,
-      "description": "Experts looking at UK, US and Dutch data found ‘significant increases’ in early onset cases of seven cancers, prompting warnings about lifestyle choices Cases of seven types of cancer have risen sharply among younger people in England, major new research has found, prompting warnings that lifestyle choices are costing thousands of lives each year. The number of people under 50 diagnosed with prostate cancer in England has quadrupled since 2001, while early onset bowel, kidney and uterine cancer",
-      "url": "https://www.theguardian.com/society/2026/oct/06/cancer-rates-rising-more-quickly-among-younger-people-international-study-finds",
-      "canonicalUrl": "https://theguardian.com/society/2026/oct/06/cancer-rates-rising-more-quickly-among-younger-people-international-study-finds",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T04:01:01Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9b3d6704db5bbf7fcbf1536081099bc4f28ba8ce/188_0_3133_2505/master/3133.jpg?width=140&quality=85&auto=format&fit=max&s=ff5a56866f21f02316a26c403f541528",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c4e63560700236c031c0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.10206,
-      "related": []
-    },
-    {
-      "id": "fba432ff1ce111db24bb670a",
-      "title": "‘It could knock a whole street down’: the art of defusing a second world war bomb",
-      "translatedTitle": null,
-      "description": "On 14 January this year, army and navy squads faced an unprecedented challenge: one bomb on a Plymouth building site, another floating on a dredger in Exmouth. That afternoon, the clock started ticking Everyone at Exmouth Marina knew there was an unexploded German bomb in the water. Old hands at the dock had been saying so since the end of the second world war. But the marina had been dredged and re-dredged and nothing had ever come up. It had started to sound like an old wives’ tale. The marina",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb",
-      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T04:00:02Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/ba07cdb4b817ca8f125c92a90f16df0e1fe6bab9/50_0_4169_3335/master/4169.jpg?width=140&quality=85&auto=format&fit=max&s=ff709bbfe0cb72ed6fdc5252b6704522",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "70eafec5007069762865",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.10105,
-      "related": []
-    },
-    {
-      "id": "6ddeaca1ea30464cad4e2fda",
-      "title": "The butter boom – how the world fell back in love with the glorious golden spread",
-      "translatedTitle": null,
-      "description": "It’s being sculpted for fashion parties, collected by tourists and hoarded in freezers. There are even entire shops devoted to it. What’s behind the revival of the much-maligned foodstuff? Temperatures in Paris were nudging 41C when Erwan Leo opened Le Butter this summer. Wildfires had already been tearing through France and the city was quiet, particularly in the less touristy 8th arrondissement, a flex-your-wealth area near the Eiffel Tower known as the “golden triangle”. The last thing it nee",
-      "url": "https://www.theguardian.com/food/2026/oct/06/the-butter-boom-how-the-world-fell-back-in-love-with-the-glorious-golden-spread",
-      "canonicalUrl": "https://theguardian.com/food/2026/oct/06/the-butter-boom-how-the-world-fell-back-in-love-with-the-glorious-golden-spread",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T04:00:02Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f0535877b16e84ddbf580e4d16e57ab3fef42ad5/732_0_3667_2934/master/3667.jpg?width=140&quality=85&auto=format&fit=max&s=e1b23db6c7c1c0943c6561fa8033d454",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2a43af25f06d8fad1e80",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.10105,
-      "related": []
-    },
-    {
-      "id": "6ec6be1e3f4d815b5cdbb655",
-      "title": "M4 junction closures and new Menai bridge in plans to tackle congestion on Welsh roads",
-      "translatedTitle": null,
-      "description": "Welsh government will also re-examine the case for a new motorway in proposals announced today.",
-      "url": "https://www.bbc.co.uk/news/articles/cm89zvp9pe7vo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm89zvp9pe7vo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T15:54:43Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/601b/live/a4178910-c1a0-11f1-bc2e-018d645d8d21.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "76665f9f5f7fe107c59e",
+      "clusterId": "e288d4779eb3b562a9e9",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.0634
+      "rankingScore": 5.44998
     },
     {
-      "id": "1f219f55d0138685c7fee2f0",
-      "title": "Student admits murdering woman in 'Dexter' kill room",
-      "translatedTitle": null,
-      "description": "Forensics student Benjamin William Day, 20, lured Maria Saceanu to an Airbnb to murder her.",
-      "url": "https://www.bbc.co.uk/news/articles/c6x2v8x72g4ko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6x2v8x72g4ko?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T15:52:51Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e9dc/live/97b291b0-c19b-11f1-babe-4199b0e7ccea.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ab6d3980ea05142fc655",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.05968
-    },
-    {
-      "id": "3cfbd0cec4c086eaf4e7b0bc",
-      "title": "Japan PM leads outcry after US Marine arrested over alleged killing of woman on Okinawa",
-      "translatedTitle": null,
-      "description": "Crimes involving US troops on Okinawa have been a constant source of tension between Tokyo and Washington Japan’s prime minister, Sanae Takaichi, has led public outcry over crimes committed by US servicemen after a marine suspected of killing a woman on Okinawa was arrested on Saturday. In a speech in parliament, Takaichi described the alleged crime as “heinous” and urged US military authorities to enforce discipline among American servicemen stationed on Okinawa, an island 1,000 miles south of",
-      "url": "https://www.theguardian.com/world/2026/oct/06/sanae-takaichi-protest-us-marine-arrested-killing-woman-okinawa-japan",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/06/sanae-takaichi-protest-us-marine-arrested-killing-woman-okinawa-japan",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T04:00:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/b309006973749b5d246200a42510c4031beed81f/0_79_1021_816/master/1021.jpg?width=140&quality=85&auto=format&fit=max&s=22812ba7a4329d1b6e62b09988a4b10f",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T08:17:39Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "62b51d7ee971c3f25547",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.01172,
-      "related": []
-    },
-    {
-      "id": "19854b5c49191f08075be45a",
-      "title": "UK special forces could face prosecution as Afghanistan evidence referred to police",
-      "translatedTitle": null,
-      "description": "Evidence relating to a number of detention operations carried out by British personnel between 2010 and 2013 is being examined.",
-      "url": "https://www.bbc.co.uk/news/articles/cm87zxjrry37o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm87zxjrry37o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T15:19:20Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/792e/live/dc6c9780-ce38-11f0-b0ac-d13c1508eb1d.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a65019887b147ade2844",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.994
-    },
-    {
-      "id": "cbc62508a0a02dc8ea59bab4",
-      "title": "Watch: At the scene of student protests in Lille",
-      "translatedTitle": null,
-      "description": "The BBC's Europe correspondent Nick Beake reports from a large demonstration in northern France.",
-      "url": "https://www.bbc.co.uk/news/videos/cwzd650e2jqdo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/videos/cwzd650e2jqdo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T15:02:56Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc0c/live/7e8d42e0-c199-11f1-bc2e-018d645d8d21.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "13c1850cf4ac547a85cd",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.96259
-    },
-    {
-      "id": "a2ba56074a8d66ba68898c4d",
-      "title": "'Means more than just a trophy' - Djokovic claims 102nd title of career",
-      "translatedTitle": null,
-      "description": "Novak Djokovic claims the 102nd title of his astonishing career as Alex de Minaur retires injured from the China Open final.",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/crkg7d815e59o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/tennis/articles/crkg7d815e59o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T14:33:32Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b526/live/989a81b0-c190-11f1-babe-4199b0e7ccea.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f2a6e177b0d69e25c469",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.90747
-    },
-    {
-      "id": "55bd81962f35c391a4b135d1",
-      "title": "Student protests erupt at Cornell over mishandling of gang-rape allegations",
-      "translatedTitle": null,
-      "description": "Hall housing Michael Kotlikoff’s office spray painted as demonstrators demand resignation of college president Cornell University to take ‘serious look’ at fraternities after rape allegations Mass protests erupted at Cornell University on Monday, with students criticizing officials’ handling of gang-rape allegations, demanding the president’s resignation and painting “SMASH THE PATRIARCHY” on an administration building. Thousands of students and faculty gathered for a demonstration, sparked by t",
-      "url": "https://www.theguardian.com/us-news/2026/oct/05/students-vandalize-cornell-building",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/05/students-vandalize-cornell-building",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T01:30:11Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/54e518641c8f05aa4c8d8718e1132efe1aa1077e/359_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=8012535434d18834321b56898a714826",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T04:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a10515ae33c12f4f17c5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.86711,
-      "related": []
-    },
-    {
-      "id": "d58a014bdcc3fd6f68fd0b11",
+      "id": "6ac7a6499833877a48457d48",
       "title": "Queen pays tribute to 'irrepressible' Jeffrey Archer",
       "translatedTitle": null,
       "description": "The bestselling author and former politician died on Monday at the age of 86.",
@@ -1493,7 +713,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
+      "retrievedAt": "2026-10-06T20:17:40Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -1501,67 +721,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.82645
+      "rankingScore": 5.4447
     },
     {
-      "id": "8a1385edc5b92ca313dc28e8",
-      "title": "Katie Price's ex told teenager to 'take it to the grave', rape trial hears",
+      "id": "22bbe68a7d77d1b433bae5f7",
+      "title": "Tell us: do you use AI agents to manage your finances?",
       "translatedTitle": null,
-      "description": "The alleged victim is not part of Kieran Hayler or Katie Price's extended families.",
-      "url": "https://www.bbc.co.uk/news/articles/cqglw4e2djkgo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqglw4e2djkgo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "We would like to speak to people about their experience of using AI agents when dealing with their finances Following the release of Meta’s Muse and Open AI’s dots there’s now capacity for these AI agents to assist with some financial transactions on a user’s behalf. With this in mind, we would like to speak to people who use AI agents to manage their finances. Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/oct/06/tell-us-do-you-use-ai-agents-to-manage-your-finances",
+      "canonicalUrl": "https://theguardian.com/technology/2026/oct/06/tell-us-do-you-use-ai-agents-to-manage-your-finances",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-06T13:45:35Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6488/live/bcefb870-c0d5-11f1-a5b0-6f550c662e91.jpg",
+      "publishedAt": "2026-10-06T16:02:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8f29f3ac009ba46d9e6268ffac6796c30c174db7/425_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=11ebf76779f0edc4ebb8663fc5ac9d1b",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
+      "retrievedAt": "2026-10-06T20:17:40Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e80b5be717557fff6801",
+      "clusterId": "3b923996caabc3737fa5",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.82072
-    },
-    {
-      "id": "2da0fffb06a3422374cc1842",
-      "title": "NBA star Wembanyama trains with French rugby club",
-      "translatedTitle": null,
-      "description": "NBA superstar Victor Wembanyama says he was inspired by the unity and camaraderie of rugby after spending time with French second tier side Provence.",
-      "url": "https://www.bbc.co.uk/sport/articles/c3vgx592y8ero?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/articles/c3vgx592y8ero?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T13:16:18Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dda8/live/2a41d720-c192-11f1-aa62-b37233e4aed8.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6b62830389f0aac58c53",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.76961
+      "rankingScore": 5.37676
     },
     {
       "id": "480c57e431683c97bfcb3d77",
@@ -1583,15 +773,15 @@
       "imageAlt": null,
       "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-10-06T16:17:38Z",
+      "retrievedAt": "2026-10-06T20:17:40Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "9cf10a2250b2f9fd5bf0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74523
+      "rankingScore": 5.32587,
+      "related": []
     },
     {
       "id": "fc58bfa547c61541bf4e62e9",
@@ -1620,8 +810,8 @@
       "clusterId": "372f0fb5d5460e0cf9c5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73595
+      "rankingScore": 5.30051,
+      "related": []
     },
     {
       "id": "5567a326b87b3d52c73d895d",
@@ -1650,8 +840,848 @@
       "clusterId": "f5f2247f27353250c9c4",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 5.29824,
+      "related": []
+    },
+    {
+      "id": "295ef0ee6be928449502c460",
+      "title": "The Register that shatters the myth of Britain’s role in profiting from enslavement",
+      "translatedTitle": null,
+      "description": "In this month’s newsletter: for Caribbean scholars, the evidence of how deeply slavery shaped Britain’s wealth has never been in doubt. Plus, heritage walks in Manchester • Don’t get Cotton Capital delivered to your inbox? Sign up here Welcome to this month’s Cotton Capital newsletter. I’m Ahmed Reid, coming to you from Jamaica, where I am programme manager for the Guardian’s Legacies of Enslavement team. The recently published Register of British Slave-Traders, reported exclusively in the Guard",
+      "url": "https://www.theguardian.com/news/2026/oct/05/the-register-that-shatters-the-myth-of-britains-role-in-profiting-from-enslavement",
+      "canonicalUrl": "https://theguardian.com/news/2026/oct/05/the-register-that-shatters-the-myth-of-britains-role-in-profiting-from-enslavement",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T15:10:46Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1c5f4cd52fafce0cc1ba5b0352459f801ea86b17/0_0_4000_3191/master/4000.png?width=140&quality=85&auto=format&fit=max&s=d3771f421b89be370cb39379ca6db080",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "be55fab9dcf2ab6ee1ad",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.73312
+      "rankingScore": 5.29568
+    },
+    {
+      "id": "ff7e3f21b92bd7e959a62010",
+      "title": "Proportion of people in Great Britain vaping who never smoked doubles in four years",
+      "translatedTitle": null,
+      "description": "More than 1 million people in Great Britain now vape despite having never regularly smoked, ONS data shows More than 1 million people in Great Britain now vape despite never having been regular smokers, with rates nearly doubling in just four years, according to figures that health experts describe as concerning. About 5.4 million people aged 16 and above in England, Scotland and Wales (9.9%) used e-cigarettes daily or occasionally in 2025, Office for National Statistics data showed. Vaping was",
+      "url": "https://www.theguardian.com/society/2026/oct/06/proportion-of-people-in-great-britain-vaping-who-never-smoked-doubles-in-four-years",
+      "canonicalUrl": "https://theguardian.com/society/2026/oct/06/proportion-of-people-in-great-britain-vaping-who-never-smoked-doubles-in-four-years",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T15:05:53Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/247c0a9044ac9cd48766465bdd26e8f8372c0e18/361_0_4470_3578/master/4470.jpg?width=140&quality=85&auto=format&fit=max&s=71649f2b548bb2510b69330ee5c305d6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "634ea9f758b07da94fa5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28821
+    },
+    {
+      "id": "0b76d19a0c22dd7d71d7ab61",
+      "title": "Gossiping pikas and curious zebras – readers’ best photographs",
+      "translatedTitle": null,
+      "description": "Click here to submit a picture for publication in these online galleries and/or on the Guardian letters page Continue reading...",
+      "url": "https://www.theguardian.com/community/gallery/2026/oct/06/gossiping-pikas-and-curious-zebras-readers-best-photographs",
+      "canonicalUrl": "https://theguardian.com/community/gallery/2026/oct/06/gossiping-pikas-and-curious-zebras-readers-best-photographs",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T15:00:46Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/819ae76c026bff031142b3aa124d084d4938afd1/270_0_2701_2161/master/2701.jpg?width=140&quality=85&auto=format&fit=max&s=770ac488ac37e6c27a7cd3362dca9a2c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "95a723d19a77eacc3256",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28042
+    },
+    {
+      "id": "c554fd1b4f18d1f06d4aee83",
+      "title": "Bulletin PM briefing: Violent protests in France and new RAF Fairford arrest",
+      "translatedTitle": null,
+      "description": "Here are five of the day’s biggest stories",
+      "url": "https://www.independent.co.uk/bulletin/news/bulletin-pm-briefing-tuesday-6-october-b3062278.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/bulletin-pm-briefing-tuesday-6-october-b3062278.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T15:41:07Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/06/16/2026-10-06T151746Z_621385555_RC2QXNAKHIYR_RTRMADP_3_FRANCE-PROTEST.JPG?width=1200&auto=webp&trim=3%2C0%2C3%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T16:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cae7955dbc89d0e272f6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.25287
+    },
+    {
+      "id": "081080099a4a1a923053db93",
+      "title": "Reform MP raises concerns about second homes – then buys one for £800,000",
+      "translatedTitle": null,
+      "description": "Sarah Pochin bought Anglesey property two days after writing to minister about impact of second home ownership on rural communities A Reform UK MP bought an £800,000 second home on a picturesque Welsh island two days after raising concerns in parliament about the impact of second homes on rural communities. Sarah Pochin completed the purchase of a Grade-II listed property on the southern coast of Anglesey (Ynys Môn). Continue reading...",
+      "url": "https://www.theguardian.com/politics/2026/oct/06/reform-sarah-pochin-second-homes-bought-800000",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/06/reform-sarah-pochin-second-homes-bought-800000",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T14:41:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d5f3fbdb205667e0ebd3910c0f6cba190c4f8b73/497_190_4401_3521/master/4401.jpg?width=140&quality=85&auto=format&fit=max&s=cea4991e5ca9c55a212c81573c0fa55f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a94d7903c5710a09376c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.25109
+    },
+    {
+      "id": "f136b31b8292ea5d8cb5f148",
+      "title": "‘My poetry won me asylum’: Cecilia Vicuña on exile life in ‘sad’ Britain after Pinochet’s coup",
+      "translatedTitle": null,
+      "description": "Five decades after convincing judges she’d be killed if she returned to Chile, the artist is back with a politically charged retrospective in the country she grew to love Cecilia Vicuña was 24 when she first arrived in London. She had come from Santiago on a British Council scholarship to study at the Slade School of Art, and her stay was supposed to be so brief that she didn’t even unpack her suitcase. Then, in September 1973, General Augusto Pinochet’s military coup overthrew Chile’s democrati",
+      "url": "https://www.theguardian.com/artanddesign/2026/oct/06/chile-asylum-cecilia-vicuna-pinochets-coup",
+      "canonicalUrl": "https://theguardian.com/artanddesign/2026/oct/06/chile-asylum-cecilia-vicuna-pinochets-coup",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T14:28:38Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/12d0acbf80cf9840a4fcf6dba7ed2ec7dca4784a/461_0_6332_5066/master/6332.jpg?width=140&quality=85&auto=format&fit=max&s=83825efd4d56a515c098a85a8aaa0e4e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5ed580950db665bb7665",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.23233
+    },
+    {
+      "id": "e15d35484328d9b44dcb8ce7",
+      "title": "Pete Songi on Andrew Mountbatten-Windsor’s legal action against the police – cartoon",
+      "translatedTitle": null,
+      "description": "Continue reading...",
+      "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/06/pete-songi-on-andrew-mountbatten-windsors-case-against-the-police-cartoon",
+      "canonicalUrl": "https://theguardian.com/commentisfree/picture/2026/oct/06/pete-songi-on-andrew-mountbatten-windsors-case-against-the-police-cartoon",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T14:22:30Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0f55e7cff198200bd434ce6dc49d4b68a04aea88/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=905dfdabeb908677afd3799211532b4e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "adbe6b0eeb2b2aed9408",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.22332
+    },
+    {
+      "id": "23715c5845b72dc7cdaf7b57",
+      "title": "Dread presenting at work? Read these tips before your next meeting",
+      "translatedTitle": null,
+      "description": "Dani Payne would have panic attacks at the thought of presenting - now she does it most days.",
+      "url": "https://www.bbc.co.uk/news/articles/cqm2r0vpn08xo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqm2r0vpn08xo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T10:56:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8033/live/983e6510-b826-11f1-9173-8b6ede38f022.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "406a9e1b758e81d9997c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.21867
+    },
+    {
+      "id": "82a695f4cbd47f88932163bf",
+      "title": "Calm in real life but demons on court - Medvedev runs out of chances",
+      "translatedTitle": null,
+      "description": "Daniil Medvedev once said you would need to knock on his hotel door at 6am for seven days in a row to make him angry - but his China Open disqualification was no surprise.",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cxyvr7q207gpo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/tennis/articles/cxyvr7q207gpo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T10:53:11Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cc2/live/a9d0d2e0-c177-11f1-a64c-550be9e3c66b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "aa2347ced2d2ef1bf583",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.21436
+    },
+    {
+      "id": "2e696dd9412df5d61ac2644f",
+      "title": "Corporate manslaughter charges issued after wheelchair users died when boat capsized",
+      "translatedTitle": null,
+      "description": "Corporate manslaughter charges have been brought after two wheelchair users were killed when the boat they were on capsized in Devon.",
+      "url": "https://news.sky.com/story/corporate-manslaughter-charges-issued-after-wheelchair-users-died-when-boat-capsized-13595824",
+      "canonicalUrl": "https://news.sky.com/story/corporate-manslaughter-charges-issued-after-wheelchair-users-died-when-boat-capsized-13595824",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T14:14:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-police-carehome_7369798.png?20261006154150",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d3feafc229de6a360afe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.2109
+    },
+    {
+      "id": "b75664fc79e11914689ed550",
+      "title": "Man pleads guilty after wife's body found in freezer",
+      "translatedTitle": null,
+      "description": "A man has pleaded guilty to murdering his wife after her body was found in a freezer at their West Yorkshire home.",
+      "url": "https://news.sky.com/story/man-pleads-guilty-after-wifes-body-found-in-freezer-at-west-yorkshire-home-13595820",
+      "canonicalUrl": "https://news.sky.com/story/man-pleads-guilty-after-wifes-body-found-in-freezer-at-west-yorkshire-home-13595820",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T14:09:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-david-barraclough-carolann-barraclough_7369783.jpg?20261006153247",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c8e4b562a49e6030d000",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.20365
+    },
+    {
+      "id": "dcc8aca7691d8f15bcd2285e",
+      "title": "South Africa in running to stage Africa’s first Olympics as 2036 race hots up",
+      "translatedTitle": null,
+      "description": "Qatar frontrunners of bidders, with India and Hungary Turkey, Germany and Korea to present to IOC next month South Africa is in the hunt to stage Africa’s first Olympics after it was named as one of seven countries that will formally present its case to host the 2036 Games in November. However its bid, which would probably be spread across Cape Town, Johannesburg and Durban, is seen as a distinct outsider, with Qatar widely regarded as the frontrunner ahead of India and Hungary. Continue reading",
+      "url": "https://www.theguardian.com/sport/2026/oct/06/south-africa-bid-to-stage-africas-first-olympics-2036",
+      "canonicalUrl": "https://theguardian.com/sport/2026/oct/06/south-africa-bid-to-stage-africas-first-olympics-2036",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T14:05:41Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c646f255108ac6e270e49a3c09eb4a3222c8b884/401_0_3699_2959/master/3699.jpg?width=140&quality=85&auto=format&fit=max&s=350d38c1497b2051277a18ed90a9a94f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e6be3848d2fe58b6f5d1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19885
+    },
+    {
+      "id": "30d187dbfdf0e24980d90ce1",
+      "title": "Alice Zaslavsky’s shortcut beetroot baked risotto – recipe",
+      "translatedTitle": null,
+      "description": "An unconventional technique makes this vibrant rice – finished with dill fronds – a lower-touch dinner for weeknights Check out more Alice Zaslavsky recipes This shortcut risotto will have purists shaking their fists, but I like to live dangerously. Unlike traditional risottos where you stir the whole time, this one gets bunged in the oven with all its liquid, then right at the end, use a whisk to release the starches for a creamy finish. Use a microplane to grate the parmesan over the risotto.",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/07/alice-zaslavskys-shortcut-beetroot-baked-risotto-recipe-food",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/07/alice-zaslavskys-shortcut-beetroot-baked-risotto-recipe-food",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T14:00:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ba06a28d53412920df0dbda266febfec6af27df1/0_887_3543_2832/master/3543.jpg?width=140&quality=85&auto=format&fit=max&s=6354060c02079ab459504984a9ac88d8",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "91362841d51d09c14af1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19108
+    },
+    {
+      "id": "7f1a906d9a6baca4c8bcd2e7",
+      "title": "Who owns ‘brain rot’?: inside the international legal drama over a beloved meme",
+      "translatedTitle": null,
+      "description": "Copyright law in the US only applies to human-made creations, but AI characters like Tung Tung Tung Sahur are challenging that One of the most beloved characters in an absurdist genre of online video content has become the center of an international legal battle that could determine where human creativity ends and artificial intelligence begins. Tung Tung Tung Sahur, also known as Triple T, was created in 2025 by an Indonesian teen who goes by the username Noxa, using OpenAI’s image-generation t",
+      "url": "https://www.theguardian.com/technology/2026/oct/06/brain-rot-tung-tung-tung-sahur-noxa-openai-video",
+      "canonicalUrl": "https://theguardian.com/technology/2026/oct/06/brain-rot-tung-tung-tung-sahur-noxa-openai-video",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T14:00:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c2dfa51f1648c91edd6ddfc5ab431cd670b80eba/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=ba022b4f5e38c1610212b48f33491b5d",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "709c33c3fb0dafa2f1d4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19105
+    },
+    {
+      "id": "a8fe7bc4ddfe1d69fe3624f4",
+      "title": "Norwegian princess Märtha Louise and husband sue ex-friends for ‘betrayal of trust’",
+      "translatedTitle": null,
+      "description": "Märtha Louise and Durek Verrett launch defamation lawsuit in Los Angeles, claiming ‘coordinated series of devastating public attacks’ The Norwegian princess Märtha Louise and her husband, the American businessman Durek Verrett, are suing several former members of their inner circle for defamation over what they described as a “calculated betrayal of trust”. Court documents filed in Los Angeles on 14 September claim the former friends and colleagues took “private access once afforded to them and",
+      "url": "https://www.theguardian.com/us-news/2026/oct/06/norway-princess-martha-louise-husband-durek-verrett-lawsuit-defamation-los-angeles",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/06/norway-princess-martha-louise-husband-durek-verrett-lawsuit-defamation-los-angeles",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T13:59:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/825e3c892af5e9a4508b8ebfe5c18ff248494c79/392_0_2068_1655/master/2068.jpg?width=140&quality=85&auto=format&fit=max&s=8447d40b6ee551ea11ef22edbcda751b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fbeff7ba1897dfe49d0c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.18964
+    },
+    {
+      "id": "ace2b1ed2bff610ba0bde3c7",
+      "title": "Former German spy chief arrested for espionage and treason",
+      "translatedTitle": null,
+      "description": "August Hanning is accused of obtaining classified information for a foreign power.",
+      "url": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c58jzyer1kr0o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T10:05:42Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ff2/live/9164de70-c174-11f1-babe-4199b0e7ccea.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "18cb8c27a050adac88b0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.15825
+    },
+    {
+      "id": "1a07c0771a498d4266a5a189",
+      "title": "Djokovic ends title drought with China Open triumph while Alcaraz claims glory in Japan",
+      "translatedTitle": null,
+      "description": "Serb victorious after De Minaur retires injured Alcaraz beats Lehecka for first title since February Novak Djokovic capped an outstanding week at the China Open with his first title for nearly a year. The 39-year-old profited from the retirement of his final opponent, Alex de Minaur, after only one game of the second set to win a seventh title in Beijing and maintain his record of never having lost at the tournament. The 7-6, 0-1 victory means Djokovic has won at least one title in each of the p",
+      "url": "https://www.theguardian.com/sport/2026/oct/06/alcaraz-japan-open-djokovic-de-minaur-china-open-sinner-injury-tennis",
+      "canonicalUrl": "https://theguardian.com/sport/2026/oct/06/alcaraz-japan-open-djokovic-de-minaur-china-open-sinner-injury-tennis",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T13:35:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/53f2616180daf5c141bb700f4ed1a8872620f64d/208_0_4308_3447/master/4308.jpg?width=140&quality=85&auto=format&fit=max&s=fc34ff9b75106b76304713f343800f58",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "270f71cfd01c7cfec7c9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.15526
+    },
+    {
+      "id": "498394ae122384ba80bdf835",
+      "title": "Ofcom investigates Meta over Instagram Instants safety checks",
+      "translatedTitle": null,
+      "description": "Watchdog examining whether company carried out adequate risk assessment as required by Online Safety Act Mark Zuckerberg’s Meta is under investigation for a potential breach of the UK’s digital safety laws after launching a Snapchat-style feature on Instagram. The communications watchdog, Ofcom, is investigating whether the $1.9tn (£1.4tn) company infringed the Online Safety Act (OSA) by failing to carry out adequate checks on whether its Instagram Instants product could show illegal content or",
+      "url": "https://www.theguardian.com/technology/2026/oct/06/ofcom-investigates-meta-instagram-instants-safety-checks",
+      "canonicalUrl": "https://theguardian.com/technology/2026/oct/06/ofcom-investigates-meta-instagram-instants-safety-checks",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T13:22:43Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d32935eb8fe684c5df9e554c9ba560f753b0e08e/504_0_3795_3037/master/3795.jpg?width=140&quality=85&auto=format&fit=max&s=fcaef66c5271ffdbac83053e54a5b918",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2050e5c7eeb13d24fb36",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.13805
+    },
+    {
+      "id": "3b2a4907d6357d97ea8d04e5",
+      "title": "‘I’m bringing together women who nourish me’: French film-maker Alice Diop on her debut installation",
+      "translatedTitle": null,
+      "description": "The Saint Omer director has gathered work by artists, writers, composers and poets for Geste de Consolation, set in the 60m-long central hall of the Palais d’Iena in Paris Alice Diop has just returned to France from California when we speak. It’s a Zoom meeting with a bad connection, and Diop leans close to the camera, always in frame, barely moving. It’s like watching the characters in her documentaries and films, where her camera lingers on its subject with a slow, cool intensity. Diop had bee",
+      "url": "https://www.theguardian.com/artanddesign/2026/oct/06/french-film-maker-alice-diop-debut-installation-geste-de-consolation",
+      "canonicalUrl": "https://theguardian.com/artanddesign/2026/oct/06/french-film-maker-alice-diop-debut-installation-geste-de-consolation",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T13:08:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d611438497e5dafcfd28767f7457d504837e86fb/285_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=10b40c2b4c794fe29e534c01ebc6a530",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9eeb544ef9837534c3fe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.11894
+    },
+    {
+      "id": "d6cea38efeb44245ea89f9a8",
+      "title": "Jailed Lego collector’s insurance scam highlights UK’s £1.3bn fraud problem",
+      "translatedTitle": null,
+      "description": "Industry leaders say bogus claims rose 14% last year, pushing up premiums for all customers An insurance fraudster who pocketed more than £14,000 for the supposed theft of Lego sets, fishing gear and gaming consoles was behind one of last year’s most high-profile bogus claims. Investigators uncovered £1.34bn of fraud in 2025, a 14% increase on the year before, according to the Association of British Insurers (ABI). Continue reading...",
+      "url": "https://www.theguardian.com/business/2026/oct/06/lego-insurance-scam-highlights-uk-fraud",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/06/lego-insurance-scam-highlights-uk-fraud",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T13:07:23Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c6ceab5a8b1e6ef4ca5d5dcad7abaa58cb4f1858/570_0_5016_4012/master/5016.jpg?width=140&quality=85&auto=format&fit=max&s=3c20c035f7226ae75867ecd2a4840f37",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e08be88a7a27da7e0aa4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.11694
+    },
+    {
+      "id": "486afa3927ecb5625fcee164",
+      "title": "Crossword editor’s desk: why the Independent’s puzzle should live on",
+      "translatedTitle": null,
+      "description": "An easy win for the newspaper, plus a puzzle with a hidden mathematical theme The Independent has an excellent puzzle made by excellent setters. Since 2016, it has, of course, been online-only. We used to link to gems from its cryptics on a weekly basis. Then something changed: the interface. The puzzle player had no links and trying to complete its puzzles was like trying to write on mashed potatoes with a hammer. It felt like it had been removed from the crossword ecosystem. Many of us have pe",
+      "url": "https://www.theguardian.com/crosswords/crossword-blog/2026/oct/06/crossword-editors-desk-why-independent-puzzle-should-live-on",
+      "canonicalUrl": "https://theguardian.com/crosswords/crossword-blog/2026/oct/06/crossword-editors-desk-why-independent-puzzle-should-live-on",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T13:01:11Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/aa743d0a05903091deba1efe0a01fa84f0897dc5/458_0_4243_3394/master/4243.jpg?width=140&quality=85&auto=format&fit=max&s=15b2b9253e95facd3ee8147c09a09714",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d6aeb801ab09b7752fc7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.10848
+    },
+    {
+      "id": "2bf15969d98094b4001aaf55",
+      "title": "Silver Pines review – a stylish, neo-noir detective drama",
+      "translatedTitle": null,
+      "description": "PC, PS5, Switch 2; Wych Elm Games, Team 17Abandoned shops, ruined apartment buildings and rotting sewer networks make up a dark landscape in which you play a private eye searching for a missing singer-songwriter In a weird deserted town miles from anywhere, a troubled detective searches for a missing musician and the girl he may or may not have murdered. It could be a Silent Hill game or a lost David Lynch movie from the 1990s – in fact, it’s neither. And also both. If that whets your appetite,",
+      "url": "https://www.theguardian.com/games/2026/oct/06/silver-pines-review-neo-noir-detective-drama-wych-elm-games-team-17",
+      "canonicalUrl": "https://theguardian.com/games/2026/oct/06/silver-pines-review-neo-noir-detective-drama-wych-elm-games-team-17",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T13:00:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/119a9d484063391eed66b4ad09dd16881f590aef/791_452_1883_1506/master/1883.jpg?width=140&quality=85&auto=format&fit=max&s=4bec6071af87f32a8b96ac444f20e19e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d3a2beb222b13cf04eb5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.10721
+    },
+    {
+      "id": "7aa0452334cb652391f7405e",
+      "title": "Making scents: could AI help perfumers take pressure off endangered plants?",
+      "translatedTitle": null,
+      "description": "Firms working on reproducing compounds without need for repeated harvesting but conservationists are sceptical Many of the world’s most expensive perfumes begin with a wounded tree. When some Aquilaria trees are damaged, they produce a dark, fragrant resin that becomes agarwood, or oudh – an ingredient so valuable that wild trees have been illegally felled in its pursuit. The result has devastated wild Aquilaria populations. But what if perfumers could create the smell without cutting down the t",
+      "url": "https://www.theguardian.com/science/2026/oct/06/fragrance-biotechnology-endangered-plants-perfume",
+      "canonicalUrl": "https://theguardian.com/science/2026/oct/06/fragrance-biotechnology-endangered-plants-perfume",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T13:00:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3e233a4ae12cded03c7f1409429f90f59c71ac91/621_0_4800_3840/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=2b4cece8d67aa05f6031a5d3fa44dd8d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bc1448d1c5f6de173901",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.10721
+    },
+    {
+      "id": "72c20212352e4fef14719c6d",
+      "title": "Family of student who took his own life after grading error settle university civil case",
+      "translatedTitle": null,
+      "description": "The family of a student who took his own life after wrongly being told he would not be eligible to graduate have settled a civil court action against the University of Glasgow.",
+      "url": "https://news.sky.com/story/family-of-university-of-glasgow-student-who-took-own-life-after-grading-error-settle-civil-case-13595783",
+      "canonicalUrl": "https://news.sky.com/story/family-of-university-of-glasgow-student-who-took-own-life-after-grading-error-settle-civil-case-13595783",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T12:55:00Z",
+      "imageUrl": "https://e3.365dm.com/25/09/1920x1080/skynews-ethan-brown-ethan-scott-brown_7037416.jpg?20261006152401",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "224826fdc3078b14207d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.1001
+    },
+    {
+      "id": "57cca5c0112a36a5468d6fcf",
+      "title": "We're saving £100 a month for our kids but they won't get it until they're 57",
+      "translatedTitle": null,
+      "description": "Why a growing number of parents are opening pensions for their children.",
+      "url": "https://www.bbc.co.uk/news/articles/cme3r9eq2w0lo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cme3r9eq2w0lo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T08:16:11Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2237/live/74ea0660-c14e-11f1-bc2e-018d645d8d21.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a48f402241ce69b7ad01",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.03788
+    },
+    {
+      "id": "bcc545c9ed7ac2c5b94260e4",
+      "title": "How to maximise the umami in mushrooms | Kitchen aide",
+      "translatedTitle": null,
+      "description": "Whether you sizzle, sweat, wet-fry or oven-cook, enhancing the savoury flavour of your mushrooms will depend on the variety, says our panel of fun guys How do I cook mushrooms at home so they have the umami you get in restaurant dishes?John, by email For Chantelle Nicholson, chef-patron of Apricity in London, boosting the savoury side of ’shrooms comes down to three main things. First, they hold a lot of water, so “you need to cook that out of them, so heat is super-important, as are fat and sal",
+      "url": "https://www.theguardian.com/food/2026/oct/06/how-to-maximise-the-umami-in-mushrooms",
+      "canonicalUrl": "https://theguardian.com/food/2026/oct/06/how-to-maximise-the-umami-in-mushrooms",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T12:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/977b54fcc8d4939f684dcb11d0baf1354e86f684/615_2772_4702_3762/master/4702.jpg?width=140&quality=85&auto=format&fit=max&s=8554476ca25b7409d16356fd8de48bd5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "728a7daed0a5abf51163",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.02788
+    },
+    {
+      "id": "b6fcc106c8d59eb6f9113fb0",
+      "title": "Affluenza review – Stranger Things star Noah Schnapp can’t save this baffling disaster",
+      "translatedTitle": null,
+      "description": "Riverside Studios, LondonAndy Sandberg’s play gets off to an intriguing start before coming off the rails in spectacular, almost fascinating style. For all the wrong reasons, it’s hard to look away It starts off with a car crash, and enters its own pile-up before your eyes. There is some initial coherence, at least: Dylan, the son in a filthy rich family, played by Netflix star Noah Schnapp, has killed two people while drink-driving and injured several more. His parents, at their Hamptons home,",
+      "url": "https://www.theguardian.com/stage/2026/oct/06/affluenza-review-stranger-things-star-noah-schnapp-riverside-studios-london-andy-sandberg",
+      "canonicalUrl": "https://theguardian.com/stage/2026/oct/06/affluenza-review-stranger-things-star-noah-schnapp-riverside-studios-london-andy-sandberg",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T11:37:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/eb573683f1ab470a471bab8ad5d40135b5659c93/1560_680_5817_4653/master/5817.jpg?width=140&quality=85&auto=format&fit=max&s=a76ab9979a4fda41ca4d82327b937424",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a5e216e48ceadc2d2b7b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.99857
+    },
+    {
+      "id": "04aba26079c32171e0c62a5c",
+      "title": "Hamlet’s goodbye, the last of Leigh, Birmingham blues and a vampire in Vienna: 12 great films at the London film festival",
+      "translatedTitle": null,
+      "description": "Our critic picks out some of the most outstanding cinema screening at the UK’s most prestigious film event in 2026 This film puts Andrew Scott in line to become the first out gay man to win the best actor Oscar. He plays Ian Charleson, who became a star in Chariots of Fire and in 1989 took on the role of Hamlet at London’s National Theatre when Daniel Day-Lewis withdrew, despite being desperately ill with Aids, knowing that the strain would accelerate his illness. For Charleson, the play’s theme",
+      "url": "https://www.theguardian.com/film/2026/oct/06/london-film-festival-mike-leigh-elsinore-andew-scott-2026",
+      "canonicalUrl": "https://theguardian.com/film/2026/oct/06/london-film-festival-mike-leigh-elsinore-andew-scott-2026",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T11:29:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b1d820849009b44ef7fe96ee04cbc96d06626708/111_0_1167_933/master/1167.jpg?width=140&quality=85&auto=format&fit=max&s=4f07462a8f94ea83e56cc30dac1dbeb4",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-06T20:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "423eeb940a31187414b3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.98855
     }
   ]
 }
