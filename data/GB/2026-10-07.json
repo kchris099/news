@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-07",
-  "generatedAt": "2026-10-07T00:17:34Z",
-  "lastAttemptAt": "2026-10-07T00:17:34Z",
-  "lastSuccessfulUpdate": "2026-10-07T00:17:34Z",
-  "status": "current",
+  "generatedAt": "2026-10-07T04:17:32Z",
+  "lastAttemptAt": "2026-10-07T04:17:32Z",
+  "lastSuccessfulUpdate": "2026-10-07T04:17:32Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 27,
-  "publisherCount": 3,
+  "articleCount": 42,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-07T00:17:33Z",
-      "lastSuccessAt": "2026-10-07T00:17:34Z",
-      "articlesRetrieved": 32,
-      "responseTimeMs": 766,
+      "lastAttemptAt": "2026-10-07T04:17:32Z",
+      "lastSuccessAt": "2026-10-07T04:17:32Z",
+      "articlesRetrieved": 31,
+      "responseTimeMs": 418,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-07T00:17:33Z",
-      "lastSuccessAt": "2026-10-07T00:17:33Z",
-      "articlesRetrieved": 139,
-      "responseTimeMs": 359,
+      "lastAttemptAt": "2026-10-07T04:17:32Z",
+      "lastSuccessAt": "2026-10-07T04:17:32Z",
+      "articlesRetrieved": 137,
+      "responseTimeMs": 301,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-07T00:17:33Z",
-      "lastSuccessAt": "2026-10-07T00:17:34Z",
-      "articlesRetrieved": 6,
-      "responseTimeMs": 531,
+      "lastAttemptAt": "2026-10-07T04:17:32Z",
+      "lastSuccessAt": "2026-10-07T04:17:32Z",
+      "articlesRetrieved": 8,
+      "responseTimeMs": 436,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-10-07T00:17:33Z",
-      "lastSuccessAt": "2026-10-07T00:17:34Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 501,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-07T04:17:32Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -73,12 +73,12 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-06T23:52:53Z",
+      "publishedAt": "2026-10-07T00:56:59Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/226c/live/7221efd0-c1c9-11f1-b8a9-47f21beea0a3.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-07T00:17:34Z",
+      "retrievedAt": "2026-10-07T04:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -136,7 +136,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-10-07T00:17:33Z",
+          "retrievedAt": "2026-10-07T04:17:32Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -147,11 +147,313 @@
           "normalizedTitle": "christa pike is conscious and speaking after botched execution attempt lawyers say"
         }
       ],
-      "rankingScore": 9.21027
+      "rankingScore": 8.88713
     },
     {
-      "id": "e5a7bbde74dd0b30280e8dec",
-      "title": "UK risks being 'uninvestable' if new oil and gas fields not approved, warns Equinor",
+      "id": "d1dd9ecee74980f6dfad739f",
+      "title": "Plague epidemic risk in Russia low after death of lab technician, WHO says",
+      "translatedTitle": null,
+      "description": "World Health Organization detects no sign of further outbreak since Darya Shipilova died last week The World Health Organization has said the risk of an epidemic in Russia is low after the sudden death of a lab technician who worked at a plague research institute in Siberia. Darya Shipilova, who was 28, died last week, two days after falling ill. Russian media reports suggested she may have become infected after an accident at her workplace, where dangerous pathogens are kept and studied. Contin",
+      "url": "https://www.theguardian.com/world/2026/oct/06/plague-epidemic-risk-russia-low-death-darya-shipilova-who",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/06/plague-epidemic-risk-russia-low-death-darya-shipilova-who",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T23:14:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/462785441d219322c6970ad4fcf8cbeb444cc616/116_0_1706_1365/master/1706.jpg?width=140&quality=85&auto=format&fit=max&s=d66d00a56c19b54cb9abdd72524fddde",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "400b83aa290a54d08838",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.35178
+    },
+    {
+      "id": "d20f202ea4d5b3f67892ccae",
+      "title": "Lionel Messi bids a tearful farewell to Argentina after 3-0 win over Benin",
+      "translatedTitle": null,
+      "description": "Messi nets PK and assists twice as Argentina cruises Match paused in 10th minute for round of applause Lionel Messi brought the curtain down on his 21-year international career on Tuesday, bidding farewell to adoring Argentina fans in an emotional final appearance for the former world champions in Buenos Aires. In a perfectly scripted finale, the 39-year-old widely regarded as the greatest football player in history signed off with his 126th international goal in front of 85,000 supporters as Ar",
+      "url": "https://www.theguardian.com/football/2026/oct/06/lionel-messi-argentina-benin-international-retirement",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/06/lionel-messi-argentina-benin-international-retirement",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T02:38:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5299026e8857b72ff096569e40c1eb9bd079c019/370_507_3991_3193/master/3991.jpg?width=140&quality=85&auto=format&fit=max&s=ef6b358da9421d4a665a037e5ff53c03",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9b7cf550490a7749f21f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "c78a8459c30963486b429207",
+          "title": "Messi scores in emotional farewell game for Argentina",
+          "translatedTitle": null,
+          "description": "Lionel Messi was on the scoresheet as he played his final game for Argentina on an emotional evening in Buenos Aires.",
+          "url": "https://news.sky.com/story/messi-scores-in-emotional-farewell-game-for-argentina-13595970",
+          "canonicalUrl": "https://news.sky.com/story/messi-scores-in-emotional-farewell-game-for-argentina-13595970",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-07T01:17:00Z",
+          "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-lionel-messi-argentina_7370107.jpg?20261007021912",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-07T04:17:32Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "9b7cf550490a7749f21f",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "messi scores in emotional farewell game for argentina"
+        },
+        {
+          "id": "c85666e1e1d387842b80fd4e",
+          "title": "Lionel Messi farewell match live – updates and analysis from Argentina v Benin",
+          "translatedTitle": null,
+          "description": "Farewell match kicks off at 7pm ET Messi has completed football Email Pablo your analysis, jokes and more Guardian reader Paul reached out via email and is apparently deep in the comments section of a 20-year-old Messi article we published here at the Guardian. I can only hope Guardian reader “snafuclarke” has fully recovered from such a scorchingly terrible take: don’t kid yourselves. messi is currently hugely overrated. the amount of hype this lad gets has never matched his performances on the",
+          "url": "https://www.theguardian.com/football/live/2026/oct/06/lionel-messi-farewell-match-live-updates-analysis-argentina-benin",
+          "canonicalUrl": "https://theguardian.com/football/live/2026/oct/06/lionel-messi-farewell-match-live-updates-analysis-argentina-benin",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-07T00:14:57Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/bdb749e50d967da1dedc353671790b806e298cbc/0_0_4748_3799/master/4748.jpg?width=140&quality=85&auto=format&fit=max&s=e7fbb52f3fba18820e1de41367089b05",
+          "imageAlt": null,
+          "category": "Sports",
+          "topics": [],
+          "retrievedAt": "2026-10-07T00:17:33Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "9b7cf550490a7749f21f",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.18466,
+          "normalizedTitle": "lionel messi farewell match live updates and analysis from argentina v benin",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 7.39786
+    },
+    {
+      "id": "48df5ddda67ca4fcf50262d2",
+      "title": "Ukraine war briefing: Zelenskyy blames Russia for attack on Bulgarian vessels in Black Sea as investigation launched",
+      "translatedTitle": null,
+      "description": "Bulgarian authorities investigating origin of drone attack on two vessels in Nato member’s exclusive economic zone. What we know on day 1,687 Bulgaria’s prime minister said that two commercial vessels were struck by drones on Tuesday in the first attack on shipping in the Nato member’s exclusive economic zone in the Black Sea. Bulgarian authorities said the origin of the drones was under investigation, but Ukraine’s prime minister, Volodymyr Zelenskyy, blamed Russia for the drone strikes. “This",
+      "url": "https://www.theguardian.com/world/2026/oct/07/ukraine-war-briefing-zelenskyy-blames-russia-for-attack-on-bulgarian-vessels-in-black-sea-as-investigation-launched",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/07/ukraine-war-briefing-zelenskyy-blames-russia-for-attack-on-bulgarian-vessels-in-black-sea-as-investigation-launched",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T01:22:44Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a435ef9790efec74113a27f4c9a26279fb435408/87_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=8544dc3459023605888cfd7bc0d2614f",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b39419f4bf4cc748f9ea",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.21122
+    },
+    {
+      "id": "234544bcfb9672008e8dc9d7",
+      "title": "Yemen civil war: what sparked latest escalation and who is involved?",
+      "translatedTitle": null,
+      "description": "Conflict between UN-recognised government and Iran-backed Houthis has impacts far beyond country’s borders Yemen has been plunged into a civil war that has extended to one of the world’s most vital maritime choke points and to Saudi Arabian oil sites. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/07/yemen-civil-war-what-sparked-latest-escalation-and-who-is-involved",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/07/yemen-civil-war-what-sparked-latest-escalation-and-who-is-involved",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T04:00:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/96e91a09c9042bf2fe0ff5669ba644b7a6fed7ec/250_0_2251_1800/master/2251.jpg?width=140&quality=85&auto=format&fit=max&s=24a8373ae369e920886e01b206edc962",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5bf4b2b97f90d338788c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15568
+    },
+    {
+      "id": "46947234ed0fcdffc327222b",
+      "title": "Zack Polanski had the chance to show real leadership. He blew it | Rafael Behr",
+      "translatedTitle": null,
+      "description": "A toxic debate over anti-Zionism leaves the Green leader looking like a passenger in the movement that carried him to the top When Donald Trump calls someone a socialist he is not using the word in the same way that, say, Zohran Mamdani does. The mayor of New York espouses democratic socialism as a mission of equitable distribution of wealth and opportunity. The US president says socialism only pretends to be democratic “because it sounds so nice”; that “it’s really communism you’re talking abou",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/07/zack-polanski-leadership-zionism-green-party",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/07/zack-polanski-leadership-zionism-green-party",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T04:00:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7ee96f156b355621ee8f03edda8f1a0e96fef89b/276_0_4560_3648/master/4560.jpg?width=140&quality=85&auto=format&fit=max&s=9dabe49707e537eaf1daf6b57c028b6e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0fdecc94948f91d1e63e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15568
+    },
+    {
+      "id": "861785dc1cf47ebdc2a648d9",
+      "title": "‘Like swapping a Bentley for a Ferrari’: can the Harry Potter stage show survive being chopped in half?",
+      "translatedTitle": null,
+      "description": "After a phenomenal decade-long run, the Cursed Child two-parter is being pruned. Will it still work? Our writer swishes her cloak, levitates her luggage – and hops aboard the streamlined Hogwarts Express ‘Silencio!” Two dozen tank-topped and T-shirted figures fall quiet, and look expectantly at movement director Nuno Silva. “If you’ve got a cloak, accio it now …” With that summoning charm cast, broomsticks are stowed, wands holstered, suitcases grabbed. The Harry Potter and the Cursed Child rehe",
+      "url": "https://www.theguardian.com/stage/2026/oct/07/harry-potter-and-the-cursed-child-hogwarts-palace-theatre-london",
+      "canonicalUrl": "https://theguardian.com/stage/2026/oct/07/harry-potter-and-the-cursed-child-hogwarts-palace-theatre-london",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T04:00:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/05c8d09d051c796840df435b79a4d87c247dc562/744_433_5467_4374/master/5467.jpg?width=140&quality=85&auto=format&fit=max&s=2c8a4d7b9de3c9761850c4830833a9e7",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1fc809f237e15d578528",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15568
+    },
+    {
+      "id": "b4b77277bbc96ba68d39d430",
+      "title": "Poland’s ‘solidarity’ push for EU energy resilience in face of Russian aggression",
+      "translatedTitle": null,
+      "description": "In the second article in a series on the Polish economy, we look at how the country is forging closer ties with its neighbours Two miles off the coast of Gdańsk, the white steel piles of Poland’s first offshore gas terminal rise from the slate-grey Baltic. Installed at a height eight metres above the waves, the floating cranes and construction vessels here are on the frontline of Europe’s push for energy security. Since the taps were turned off on Russian gas after Vladimir Putin’s invasion of U",
+      "url": "https://www.theguardian.com/world/2026/oct/07/poland-solidarity-eu-energy-resilience-russian-aggression-economy",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/07/poland-solidarity-eu-energy-resilience-russian-aggression-economy",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T04:00:33Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4f1ca7f53427e4fc2393831d6760ae2c450e3b06/59_0_3334_2668/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=0864533857a9dec11a237a268341ea60",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1fabadd05465ee0377aa",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15564
+    },
+    {
+      "id": "49d474823c2332bb5a927ab4",
+      "title": "UK set for coldest night of autumn so far",
+      "translatedTitle": null,
+      "description": "After a spell of unusually warm weather, temperatures across the UK are set to tumble.",
+      "url": "https://www.bbc.co.uk/weather/articles/ckwy4xn3v5eqo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/weather/articles/ckwy4xn3v5eqo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T23:35:36Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bee8/live/3d170e70-c17d-11f1-9cd2-572f18c73464.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3d71c29c3fb4188fac69",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.95451
+    },
+    {
+      "id": "4c932e0b8242a4191e21b027",
+      "title": "UK risks being 'uninvestable' if new oil and gas fields not approved, warns oil giant",
       "translatedTitle": null,
       "description": "Equinor warns it may shun further investments in the UK if new oil and gas fields at Rosebank and Jackdaw are not approved.",
       "url": "https://www.bbc.co.uk/news/articles/c6zxjrekg29zo?at_medium=RSS&at_campaign=rss",
@@ -169,45 +471,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-07T00:17:34Z",
+      "retrievedAt": "2026-10-07T04:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "cdcbf1e877a6ac1ed594",
+      "clusterId": "234024e48a23585d45e5",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.30982
-    },
-    {
-      "id": "73a3f57ccb7a5f75de31c38d",
-      "title": "Democrats now favored in key midterm races that could give them control of US Senate, new projections find – US politics live",
-      "translatedTitle": null,
-      "description": "Nonpartisan Cook Political Report revises analyses in Kansas, New Hampshire and North Carolina, forecasting Democrats have stronger odds than previously estimated Sign up for Breaking News US email Two media giants, Paramount and Warner Bros Discovery, have completed their $110bn merger, creating a new entertainment powerhouse, Skydance. The deal, fiercely contested by several state attorneys general over potential antitrust concerns, formally closed on Tuesday. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/06/donald-trump-ads-diesel-baltimore-midterms-media-latest-news-updates",
-      "canonicalUrl": "https://theguardian.com/us-news/live/2026/oct/06/donald-trump-ads-diesel-baltimore-midterms-media-latest-news-updates",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-07T00:04:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5fce80d9d71931bfa16b5f5bfbb4cf6b16b9e440/663_0_2452_1963/master/2452.jpg?width=140&quality=85&auto=format&fit=max&s=f8d10770a84cbed00afbcb9fd4b9b3ec",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-07T00:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "97792a07e4029108a778",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.16389
+      "rankingScore": 6.90141
     },
     {
       "id": "d3141de48f03a0ba2d3a614d",
@@ -236,8 +508,38 @@
       "clusterId": "98ec82446c0202c3dfac",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.07883
+      "rankingScore": 6.64472,
+      "related": []
+    },
+    {
+      "id": "73a3f57ccb7a5f75de31c38d",
+      "title": "Democrats now favored in key midterm races that could give them control of US Senate, new projections find – US politics live",
+      "translatedTitle": null,
+      "description": "Nonpartisan Cook Political Report revises analyses in Kansas, New Hampshire and North Carolina, forecasting Democrats have stronger odds than previously estimated Sign up for Breaking News US email Two media giants, Paramount and Warner Bros Discovery, have completed their $110bn merger, creating a new entertainment powerhouse, Skydance. The deal, fiercely contested by several state attorneys general over potential antitrust concerns, formally closed on Tuesday. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/06/donald-trump-ads-diesel-baltimore-midterms-media-latest-news-updates",
+      "canonicalUrl": "https://theguardian.com/us-news/live/2026/oct/06/donald-trump-ads-diesel-baltimore-midterms-media-latest-news-updates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T00:04:41Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5fce80d9d71931bfa16b5f5bfbb4cf6b16b9e440/663_0_2452_1963/master/2452.jpg?width=140&quality=85&auto=format&fit=max&s=f8d10770a84cbed00afbcb9fd4b9b3ec",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T00:17:33Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "97792a07e4029108a778",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.64076,
+      "related": []
     },
     {
       "id": "362309bc02220fe867b5eb38",
@@ -266,8 +568,8 @@
       "clusterId": "c422298d56e1701acfd2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.94941
+      "rankingScore": 6.54108,
+      "related": []
     },
     {
       "id": "4d1402f571e72499d0eb2b4d",
@@ -296,76 +598,16 @@
       "clusterId": "33b9fa714f16b01ebb27",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.94941
+      "rankingScore": 6.54108,
+      "related": []
     },
     {
-      "id": "c85666e1e1d387842b80fd4e",
-      "title": "Lionel Messi farewell match live – updates and analysis from Argentina v Benin",
+      "id": "50ddf0c2a8b6a78018f10dad",
+      "title": "Incredible or catastrophic? Jaguar unveils its polarising electric car",
       "translatedTitle": null,
-      "description": "Farewell match kicks off at 7pm ET Messi has completed football Email Pablo your analysis, jokes and more Guardian reader Paul reached out via email and is apparently deep in the comments section of a 20-year-old Messi article we published here at the Guardian. I can only hope Guardian reader “snafuclarke” has fully recovered from such a scorchingly terrible take: don’t kid yourselves. messi is currently hugely overrated. the amount of hype this lad gets has never matched his performances on the",
-      "url": "https://www.theguardian.com/football/live/2026/oct/06/lionel-messi-farewell-match-live-updates-analysis-argentina-benin",
-      "canonicalUrl": "https://theguardian.com/football/live/2026/oct/06/lionel-messi-farewell-match-live-updates-analysis-argentina-benin",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-07T00:14:57Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/bdb749e50d967da1dedc353671790b806e298cbc/0_0_4748_3799/master/4748.jpg?width=140&quality=85&auto=format&fit=max&s=e7fbb52f3fba18820e1de41367089b05",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-10-07T00:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6d9255dd7fa6f7e22be5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.18466
-    },
-    {
-      "id": "9ecae5d05620db9649bb7b98",
-      "title": "‘Rip it open’: Big Girls Don’t Cry director explores wounds of early love in film festival hit",
-      "translatedTitle": null,
-      "description": "Director Paloma Schneideman explores issues of consent and queerness in coming-of-age film set in New Zealand In Big Girls Don’t Cry, the New Zealand coming-of-age film quietly devastating film festivals, there is a scene on a moonlit beach. It features the main character, Sid, played by Ani Palmer, and one of the cool older city boys who has come to the small, golden-sand town of Ōmaha for the summer. It is a deeply relatable, deeply uncomfortable watch; reliving the teenage negotiation – or no",
-      "url": "https://www.theguardian.com/world/2026/oct/07/big-girls-dont-cry-director-surprise-film-festival-hit",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/07/big-girls-dont-cry-director-surprise-film-festival-hit",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T23:29:18Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1c1467d67e3668c4b12082efede69347773af790/162_0_2220_1775/master/2220.jpg?width=140&quality=85&auto=format&fit=max&s=2241a2bb84b42697110ca2580b4ba663",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-10-07T00:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ed78928fb06d3c1ee72e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.09382
-    },
-    {
-      "id": "49d474823c2332bb5a927ab4",
-      "title": "UK set for coldest night of autumn so far",
-      "translatedTitle": null,
-      "description": "The first frost of the season is expected for some places this week as colder, Arctic air moves across the UK bringing a dip in temperatures. But how cold will it get and how long will the chillier spell last? Sarah Keith-Lucas takes a look.",
-      "url": "https://www.bbc.co.uk/weather/articles/ckwy4xn3v5eqo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/weather/articles/ckwy4xn3v5eqo?at_campaign=rss&at_medium=RSS",
+      "description": "Two years after JLR relaunched Jaguar into a blizzard of controversy, it has launched its new EV.",
+      "url": "https://www.bbc.co.uk/news/articles/c6je50ydld31o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6je50ydld31o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -374,20 +616,170 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-06T23:35:36Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bee8/live/3d170e70-c17d-11f1-9cd2-572f18c73464.jpg",
+      "publishedAt": "2026-10-07T02:58:30Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/335a/live/8dbdf840-c1fd-11f1-9895-010ee6df064e.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-07T00:17:34Z",
+      "retrievedAt": "2026-10-07T04:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3d71c29c3fb4188fac69",
+      "clusterId": "52acc8f90c298119188f",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.02613
+      "rankingScore": 5.95473
+    },
+    {
+      "id": "0653fb205f9070c5e6adfe89",
+      "title": "The Papers: 'Badenoch promises tax cuts' and 'Asos hacker havoc'",
+      "translatedTitle": null,
+      "description": "The Tories' financial plans and a hack at online shopping outlet Asos lead Wednesday's papers.",
+      "url": "https://www.bbc.co.uk/news/articles/c317k0zqz5lzo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c317k0zqz5lzo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T01:41:20Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c81/live/93f49950-c1dd-11f1-bc2e-018d645d8d21.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bd2d6ed678a88e7fd349",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.81373
+    },
+    {
+      "id": "9fbc85df01ba55fd0b4f9101",
+      "title": "Scottish film could steal The Jazz Singer’s crown as ‘world’s first talkie’",
+      "translatedTitle": null,
+      "description": "Scots-written Till the Bells Ring premiered a year before the Hollywood film, which featured spoken words by Al Jolson For almost a century, The Jazz Singer has been celebrated as the world’s first feature-length film to include synchronised dialogue (known as a “talkie”), and English as the first language of cinema. But a chance discovery threatens to upend film history with the news that it may have been beaten to the title by a full year – and by a film made in Glasgow and written in Scots. T",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/07/scottish-film-till-the-bells-ring-jazz-singer",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/oct/07/scottish-film-till-the-bells-ring-jazz-singer",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T04:01:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8dd7e9c01113724b1146217212bc4d4031a2de9a/95_97_3367_2693/master/3367.jpg?width=140&quality=85&auto=format&fit=max&s=f50bde28130382e192356751108a8086",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8b742399bb755221c166",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80762
+    },
+    {
+      "id": "374b05797c3798e155cfdcc4",
+      "title": "‘I was so out of control!’ Bez on cocaine, Happy Mondays, his ‘sexless marriage’ to Shaun Ryder, organic courgettes …",
+      "translatedTitle": null,
+      "description": "Drugs, drink and dancing made Bez famous. Thirty-five years on, has he really swapped it all for filtered water, intermittent fasting and walks with the dogs? Bez has both shoelaces undone and it’s making me nervous. Out walking his dogs, we’re up and over barbed wire, across streams and over gates. We bash through brambles and skid down slopes. I’m becoming fixated on the perilously trailing laces of his trainers and why he hasn’t tripped over them. Can he be such a thrill-seeker that a dog wal",
+      "url": "https://www.theguardian.com/music/2026/oct/07/bez-cocaine-happy-mondays-marriage-shaun-ryder",
+      "canonicalUrl": "https://theguardian.com/music/2026/oct/07/bez-cocaine-happy-mondays-marriage-shaun-ryder",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T04:00:33Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d7f23007806375ee203d74779691053c2d5047fb/0_383_2800_2240/master/2800.jpg?width=140&quality=85&auto=format&fit=max&s=efa4a50b637ebd8294cc35c31b9b34cc",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "28be3b994830e02d1120",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80564
+    },
+    {
+      "id": "deeb88ac03f4c31eb72f0040",
+      "title": "Portrait artist: None of us really know what we actually look like",
+      "translatedTitle": null,
+      "description": "\"A portrait is kind of a document of the relationship between the artist and the sitter, and when that chemistry works, you sense it in the painting.\"",
+      "url": "https://news.sky.com/story/portrait-artist-jonathan-yeo-none-of-us-really-know-what-we-actually-look-like-13595585",
+      "canonicalUrl": "https://news.sky.com/story/portrait-artist-jonathan-yeo-none-of-us-really-know-what-we-actually-look-like-13595585",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T03:06:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-king-charles-portrait_7370111.jpg?20261007040603",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "977e6aa344e05b6b99f3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69898
+    },
+    {
+      "id": "533f843bae2eecac49cd17d9",
+      "title": "What we know about Christa Pike’s ‘unprecedented' recovery after failed execution",
+      "translatedTitle": null,
+      "description": "The BBC's Sarah Smith details the injuries sustained by the US death row inmate after two failed lethal injections, and what comes next.",
+      "url": "https://www.bbc.co.uk/news/videos/c5398nwe9lzlo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/c5398nwe9lzlo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T23:42:35Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33e9/live/999fc040-c1de-11f1-bc2e-018d645d8d21.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1fe2cee9d940908a20bb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.6155
     },
     {
       "id": "17bcbaab28f98a2c1a2bc045",
@@ -409,7 +801,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-07T00:17:34Z",
+      "retrievedAt": "2026-10-07T04:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -417,7 +809,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01883
+      "rankingScore": 5.59866
+    },
+    {
+      "id": "ab9d9dabcb0719dcab4f6c9d",
+      "title": "Jaguar unveils new electric car - two years after rebrand backfired",
+      "translatedTitle": null,
+      "description": "Jaguar has unveiled its new electric car - two years after the company's controversial rebrand, and 12 months on from a major cyber attack that halted production.",
+      "url": "https://news.sky.com/story/jaguar-unveils-new-electric-car-two-years-after-rebrand-backfired-13595969",
+      "canonicalUrl": "https://news.sky.com/story/jaguar-unveils-new-electric-car-two-years-after-rebrand-backfired-13595969",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T02:00:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-jaguar-electric-car_7370105.png?20261007013835",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a31d05b5a13f03da0bca",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57692
     },
     {
       "id": "f228a1eec19ab589d5fb9601",
@@ -439,7 +861,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-07T00:17:34Z",
+      "retrievedAt": "2026-10-07T04:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -447,7 +869,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.96039
+      "rankingScore": 5.55187
     },
     {
       "id": "58dee189383373d5aef2f411",
@@ -469,7 +891,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-07T00:17:34Z",
+      "retrievedAt": "2026-10-07T04:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -477,7 +899,97 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.96011
+      "rankingScore": 5.55164
+    },
+    {
+      "id": "eb208bb45be25c4bfd6940ec",
+      "title": "OpenAI came to Australia to apologise. It will leave without answering these key questions | Toby Walsh",
+      "translatedTitle": null,
+      "description": "We don’t accept drugs killing a few people because they cure most patients. Or a few planes crashing because most land safely. AI should be no different OpenAI’s CEO Sam Altman was asked to appear before the Joint Select Committee on Artificial Intelligence in Australia and explain how and why their agents have been hacking into multiple government websites. Altman didn’t turn up but sent Jason Kwon, his chief strategy officer, instead to answer the committee’s many tricky questions on its first",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/07/openai-australia-apology-without-answering-key-questions",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/07/openai-australia-apology-without-answering-key-questions",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T01:00:37Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/af64a8e639be0642dc0a5daf2386207bc455be28/604_0_6038_4830/master/6038.jpg?width=140&quality=85&auto=format&fit=max&s=380a142f06d29d9b4296ffa24bbb4cbd",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5cfe7296cb16f7830296",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47329
+    },
+    {
+      "id": "31069cfc046d9eaaec8a0b46",
+      "title": "Jaguar targets young Americans with Type 01 EV – but it’s too long for UK parking spaces",
+      "translatedTitle": null,
+      "description": "Latest model is launching in New York to target rich US buyers – and is more than 5.2 metres long and 2 metres wide It has no rear window, will not fit into a UK parking space and – starting at £130,000 – ($172,000) is aimed squarely at rich tech industry buyers driving the wide open roads of America. Jaguar’s electric car, the Type 01, was launched in New York on Tuesday night and marks the culmination of a two-year rebrand that has been one of the most scrutinised in automotive history. Contin",
+      "url": "https://www.theguardian.com/business/2026/oct/07/jaguar-launch-type-01-electric-vehicle",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/07/jaguar-launch-type-01-electric-vehicle",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-07T00:00:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b9bb98fdc4ac9ad224771fcd04304b28d1ebab2b/579_51_5203_4162/master/5203.jpg?width=140&quality=85&auto=format&fit=max&s=8395648f84fc04acead6c39be4e92fcd",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "16b0aec3ab9f54d0184a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37398
+    },
+    {
+      "id": "9ecae5d05620db9649bb7b98",
+      "title": "‘Rip it open’: Big Girls Don’t Cry director explores wounds of early love in film festival hit",
+      "translatedTitle": null,
+      "description": "Director Paloma Schneideman explores issues of consent and queerness in coming-of-age film set in New Zealand In Big Girls Don’t Cry, the New Zealand coming-of-age film quietly devastating film festivals, there is a scene on a moonlit beach. It features the main character, Sid, played by Ani Palmer, and one of the cool older city boys who has come to the small, golden-sand town of Ōmaha for the summer. It is a deeply relatable, deeply uncomfortable watch; reliving the teenage negotiation – or no",
+      "url": "https://www.theguardian.com/world/2026/oct/07/big-girls-dont-cry-director-surprise-film-festival-hit",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/07/big-girls-dont-cry-director-surprise-film-festival-hit",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T23:29:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1c1467d67e3668c4b12082efede69347773af790/162_0_2220_1775/master/2220.jpg?width=140&quality=85&auto=format&fit=max&s=2241a2bb84b42697110ca2580b4ba663",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ed78928fb06d3c1ee72e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.32465,
+      "related": []
     },
     {
       "id": "a29195f9fc5efd950fe9860e",
@@ -506,8 +1018,38 @@
       "clusterId": "d6b813b4329bc98514a9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.83604
+      "rankingScore": 5.3085,
+      "related": []
+    },
+    {
+      "id": "779c7de41ad44bdf3958a943",
+      "title": "New Zealand greenhouse gas levels hit record highs threatening catastrophic glacier melts",
+      "translatedTitle": null,
+      "description": "Government report finds the country could be hit with more frequent and intense heatwaves, as well as damaging storms and cyclones New Zealand could be hit with more frequent and intense heatwaves and catastrophic glacier melts in the near future, as greenhouse gas levels hit record highs, a new report about the nation’s climate has revealed. Released on Wednesday, the Our Atmosphere and Climate 2026 report shows New Zealand is experiencing mounting climate pressures, which will have wide-reachi",
+      "url": "https://www.theguardian.com/world/2026/oct/07/new-zealand-greenhouse-gas-record-high-threatening-catastrophic-glacier-melts-climate",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/07/new-zealand-greenhouse-gas-record-high-threatening-catastrophic-glacier-melts-climate",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-06T23:11:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fb7a7e187cd208a7efe3f87552633d72922dad18/436_0_3560_2848/master/3560.jpg?width=140&quality=85&auto=format&fit=max&s=55b61cc67368cd0c613df1b6551a35d5",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-10-07T04:17:32Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "358f05b6c35bf924dab1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.29704,
+      "related": []
     },
     {
       "id": "f480ca60e3ac7055b1745b69",
@@ -536,8 +1078,8 @@
       "clusterId": "99b7f0728fdbf2a067e9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72839
+      "rankingScore": 5.29437,
+      "related": []
     },
     {
       "id": "164e719037255fe5d60d08c3",
@@ -566,16 +1108,16 @@
       "clusterId": "fb60e8e223ae2aace575",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71649
+      "rankingScore": 5.28484,
+      "related": []
     },
     {
-      "id": "779c7de41ad44bdf3958a943",
-      "title": "New Zealand greenhouse gas levels hit record highs threatening catastrophic glacier melts",
+      "id": "c48a69ba89907c972501b311",
+      "title": "Ikea to pilot online buyback service for secondhand furniture",
       "translatedTitle": null,
-      "description": "Government report finds the country could be hit with more frequent and intense heatwaves, as well as damaging storms and cyclones New Zealand could be hit with more frequent and intense heatwaves and catastrophic glacier melts in the near future, as greenhouse gas levels hit record highs, a new report about the nation’s climate has revealed. Released on Wednesday, the Our Atmosphere and Climate 2026 report shows New Zealand is experiencing mounting climate pressures, which will have wide-reachi",
-      "url": "https://www.theguardian.com/world/2026/oct/07/new-zealand-greenhouse-gas-record-high-threatening-catastrophic-glacier-melts-climate",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/07/new-zealand-greenhouse-gas-record-high-threatening-catastrophic-glacier-melts-climate",
+      "description": "Service to be tested in Spain and Portugal this year, with a UK rollout if successful, as pre-loved markets boom Ikea is to test an online version of its buy-back service where the retailer offers vouchers for unwanted secondhand furniture. The service will be tested in Spain and Portugal before the end of December and will be launched in the UK if it proves successful. Ikea already offers buy-back in stores, including in the UK. The online version will extend it to a much wider audience, with I",
+      "url": "https://www.theguardian.com/business/2026/oct/07/ikea-to-pilot-online-buyback-service-for-secondhand-furniture",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/07/ikea-to-pilot-online-buyback-service-for-secondhand-furniture",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -584,20 +1126,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-06T23:11:27Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/fb7a7e187cd208a7efe3f87552633d72922dad18/436_0_3560_2848/master/3560.jpg?width=140&quality=85&auto=format&fit=max&s=55b61cc67368cd0c613df1b6551a35d5",
+      "publishedAt": "2026-10-06T23:01:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/82c6fe5366fee9b17f8f70ff5cd0f09d046ddfb5/0_1200_3500_2800/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=121337264c2a0b64a92ea8547cf1d0a8",
       "imageAlt": null,
-      "category": "Science & Health",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-07T00:17:33Z",
+      "retrievedAt": "2026-10-07T04:17:32Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "358f05b6c35bf924dab1",
+      "clusterId": "8c6cb7016c04ae5605f9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70934
+      "rankingScore": 5.28174,
+      "related": []
     },
     {
       "id": "d11608603e89339b0a5e6ef0",
@@ -626,38 +1168,8 @@
       "clusterId": "f168e55a73e6ca460e07",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70107
-    },
-    {
-      "id": "c48a69ba89907c972501b311",
-      "title": "Ikea to pilot online buyback service for secondhand furniture",
-      "translatedTitle": null,
-      "description": "Service to be tested in Spain and Portugal this year, with a UK rollout if successful, as pre-loved markets boom Ikea is to test an online version of its buy-back service where the retailer offers vouchers for unwanted secondhand furniture. The service will be tested in Spain and Portugal before the end of December and will be launched in the UK if it proves successful. Ikea already offers buy-back in stores, including in the UK. The online version will extend it to a much wider audience, with I",
-      "url": "https://www.theguardian.com/business/2026/oct/07/ikea-to-pilot-online-buyback-service-for-secondhand-furniture",
-      "canonicalUrl": "https://theguardian.com/business/2026/oct/07/ikea-to-pilot-online-buyback-service-for-secondhand-furniture",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-06T23:01:26Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/82c6fe5366fee9b17f8f70ff5cd0f09d046ddfb5/0_1200_3500_2800/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=121337264c2a0b64a92ea8547cf1d0a8",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-07T00:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8c6cb7016c04ae5605f9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69023
+      "rankingScore": 5.27248,
+      "related": []
     },
     {
       "id": "f71e6a2411af578e74581261",
@@ -686,8 +1198,8 @@
       "clusterId": "02301e067ef71ad720c2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.67454
+      "rankingScore": 5.25124,
+      "related": []
     },
     {
       "id": "cdceb3185ad41e251a4a6a26",
@@ -716,8 +1228,8 @@
       "clusterId": "371173b5e154cecf197c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60603
+      "rankingScore": 5.19639,
+      "related": []
     },
     {
       "id": "0e7b9f34b2ed53cc4d5aa469",
@@ -746,8 +1258,8 @@
       "clusterId": "27097baa35a64811c08e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60014
+      "rankingScore": 5.19167,
+      "related": []
     },
     {
       "id": "779595056af0b69fcd8ca018",
@@ -776,8 +1288,8 @@
       "clusterId": "fd55cc3a9fedd89e5542",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59954
+      "rankingScore": 5.19118,
+      "related": []
     },
     {
       "id": "84b56cad1e42f20ca7c1b855",
@@ -806,8 +1318,8 @@
       "clusterId": "9e39429832e015e2cbf3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59941
+      "rankingScore": 5.19108,
+      "related": []
     },
     {
       "id": "b83269a506b82185c1abf5af",
@@ -836,8 +1348,8 @@
       "clusterId": "bb3108a1ac413092a29a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59941
+      "rankingScore": 5.19108,
+      "related": []
     },
     {
       "id": "b5fbc37988a1805143ebbcc9",
@@ -866,8 +1378,8 @@
       "clusterId": "c1255131dd0c123ceae6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59941
+      "rankingScore": 5.19108,
+      "related": []
     },
     {
       "id": "e1a9900449d0a5802fc80eb6",
@@ -896,8 +1408,8 @@
       "clusterId": "a58c0c7ecd81754ad6b7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59941
+      "rankingScore": 5.19108,
+      "related": []
     },
     {
       "id": "6f18ed933e15230281b4ae38",
@@ -926,8 +1438,8 @@
       "clusterId": "4c3703feba5eccddd242",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59941
+      "rankingScore": 5.19108,
+      "related": []
     }
   ]
 }
