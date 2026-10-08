@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-08",
-  "generatedAt": "2026-10-08T08:17:34Z",
-  "lastAttemptAt": "2026-10-08T08:17:34Z",
-  "lastSuccessfulUpdate": "2026-10-08T08:17:34Z",
-  "status": "current",
+  "generatedAt": "2026-10-08T12:17:39Z",
+  "lastAttemptAt": "2026-10-08T12:17:39Z",
+  "lastSuccessfulUpdate": "2026-10-08T12:17:39Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-08T08:17:33Z",
-      "lastSuccessAt": "2026-10-08T08:17:33Z",
-      "articlesRetrieved": 35,
-      "responseTimeMs": 349,
+      "lastAttemptAt": "2026-10-08T12:17:38Z",
+      "lastSuccessAt": "2026-10-08T12:17:39Z",
+      "articlesRetrieved": 33,
+      "responseTimeMs": 606,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-08T08:17:33Z",
-      "lastSuccessAt": "2026-10-08T08:17:34Z",
+      "lastAttemptAt": "2026-10-08T12:17:38Z",
+      "lastSuccessAt": "2026-10-08T12:17:39Z",
       "articlesRetrieved": 141,
-      "responseTimeMs": 482,
+      "responseTimeMs": 429,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-08T08:17:33Z",
-      "lastSuccessAt": "2026-10-08T08:17:33Z",
-      "articlesRetrieved": 9,
-      "responseTimeMs": 361,
+      "lastAttemptAt": "2026-10-08T12:17:38Z",
+      "lastSuccessAt": "2026-10-08T12:17:39Z",
+      "articlesRetrieved": 10,
+      "responseTimeMs": 376,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-10-08T08:17:33Z",
-      "lastSuccessAt": "2026-10-08T08:17:33Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 396,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-08T12:17:38Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -73,19 +73,49 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-08T07:51:06Z",
+      "publishedAt": "2026-10-08T08:18:36Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1af2/live/5079a140-c2df-11f1-bc2e-018d645d8d21.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "2bc3cc185aee03d59238",
+      "clusterId": "aa3ef7e49bc9752d110d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
+        {
+          "id": "1d8df10862d49725bae76363",
+          "title": "British consulate in East Jerusalem will stay open as UK mission, says Ed Miliband",
+          "translatedTitle": null,
+          "description": "UK and Israel back away from full diplomatic confrontation, though British presence in Palestine will be much reduced UK politics live – latest updates Israel and the UK have backed away from a full-scale diplomatic confrontation, with Britain announcing it is rebranding its consulate general ⁠building in ⁠East Jerusalem ​as a UK mission, a move that will result in UK diplomats leaving Israel, with only seven to remain in the building. The change was forced on the UK by the Israeli government as",
+          "url": "https://www.theguardian.com/politics/2026/oct/08/uk-consulate-east-jerusalem-remain-open-uk-mission-ed-miliband",
+          "canonicalUrl": "https://theguardian.com/politics/2026/oct/08/uk-consulate-east-jerusalem-remain-open-uk-mission-ed-miliband",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-08T09:20:59Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/1125317cf6dab6dcaaa9ea4fe64db6815e209442/458_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=a5b51c75f3c1caefdbc495fe5d51d953",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-08T12:17:39Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "aa3ef7e49bc9752d110d",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "british consulate in east jerusalem will stay open as uk mission says ed miliband"
+        },
         {
           "id": "e935f7b73cb23d61dafca799",
           "title": "Israel says British Consulate in east Jerusalem has ceased to function and 20 diplomats will leave",
@@ -110,7 +140,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "2bc3cc185aee03d59238",
+          "clusterId": "aa3ef7e49bc9752d110d",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -140,47 +170,17 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "2bc3cc185aee03d59238",
+          "clusterId": "aa3ef7e49bc9752d110d",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "what is happening at the british consulate in east jerusalem and why are diplomats leaving"
         },
         {
-          "id": "1d8df10862d49725bae76363",
-          "title": "British consulate in East Jerusalem will stay open as UK mission, says Ed Miliband",
+          "id": "f859ec5987a14f7492fa896c",
+          "title": "British consulate in Jerusalem to become 'UK Mission' as diplomats leave",
           "translatedTitle": null,
-          "description": "Foreign secretary says former consulate general will remain independent, operational ⁠and serving Palestinian people The foreign secretary, ⁠Ed Miliband, has said Britain’s consulate general ⁠building in ⁠East Jerusalem ​will not be closing but will ⁠be known as a UK mission, remaining independent, operational ⁠and serving Palestinian people. Israel had ​ordered the ‌British consulate ‌in East Jerusalem to close ‌on Thursday over the UK’s plans to impose sanctions on settlements in the West Bank",
-          "url": "https://www.theguardian.com/politics/2026/oct/08/uk-consulate-east-jerusalem-remain-open-uk-mission-ed-miliband",
-          "canonicalUrl": "https://theguardian.com/politics/2026/oct/08/uk-consulate-east-jerusalem-remain-open-uk-mission-ed-miliband",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-08T07:17:51Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/1125317cf6dab6dcaaa9ea4fe64db6815e209442/458_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=a5b51c75f3c1caefdbc495fe5d51d953",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-08T08:17:34Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "2bc3cc185aee03d59238",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "british consulate in east jerusalem will stay open as uk mission says ed miliband"
-        },
-        {
-          "id": "b0beccd9b0f522edc6af62ce",
-          "title": "British consulate in Jerusalem to become 'UK Mission' as Israel announces diplomats to leave",
-          "translatedTitle": null,
-          "description": "The British consulate in Jerusalem is changing to become the 'UK Mission, Jerusalem' after Israel announced that diplomats were to leave.",
+          "description": "The UK government said it will retain its presence in East Jerusalem as Israel insisted the British consulate in the city had \"ceased to function\".",
           "url": "https://news.sky.com/story/israel-confirms-it-is-closing-the-british-consulate-in-east-jerusalem-after-uk-ban-on-trade-with-illegal-west-bank-settlements-13596361",
           "canonicalUrl": "https://news.sky.com/story/israel-confirms-it-is-closing-the-british-consulate-in-east-jerusalem-after-uk-ban-on-trade-with-illegal-west-bank-settlements-13596361",
           "sourceName": "Sky News",
@@ -196,26 +196,26 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-10-08T08:17:33Z",
+          "retrievedAt": "2026-10-08T12:17:39Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "2bc3cc185aee03d59238",
+          "clusterId": "aa3ef7e49bc9752d110d",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
-          "normalizedTitle": "british consulate in jerusalem to become uk mission as israel announces diplomats to leave"
+          "normalizedTitle": "british consulate in jerusalem to become uk mission as diplomats leave"
         }
       ],
-      "rankingScore": 11.95656
+      "rankingScore": 11.57303
     },
     {
-      "id": "c5f5d3e9766e10c140328e29",
-      "title": "Holborn and St Pancras by-election gets under way",
+      "id": "93108465a0876f71439c7fee",
+      "title": "Royal Navy sailor in court accused of preparing to spy for Russia",
       "translatedTitle": null,
-      "description": "Voters in north London are going to the polls to choose a new MP after Sir Keir Starmer resigned.",
-      "url": "https://www.bbc.co.uk/news/articles/ck24059mlzm8o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ck24059mlzm8o?at_campaign=rss&at_medium=RSS",
+      "description": "The 24-year-old man appeared at Westminster Magistrates’ Court on Thursday after being arrested at his home in Bedfordshire.",
+      "url": "https://www.bbc.co.uk/news/articles/cw203n6emde8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cw203n6emde8o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -224,16 +224,137 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-08T06:00:40Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98ac/live/cd94de10-c2e9-11f1-a64c-550be9e3c66b.jpg",
+      "publishedAt": "2026-10-08T11:58:08Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/25e4/live/f9f9c450-c30e-11f1-8f04-85217d686658.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e3ea1a59112e17426f4d",
+      "clusterId": "864219c4ba377a533636",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "391528f34b1dacf16e620e61",
+          "title": "Royal Navy service member appears in court charged with spying for Russia",
+          "translatedTitle": null,
+          "description": "Teddy Young, 24, from Bedfordshire, charged under National Security Act after arrest by counter-terror police A serving member of the Royal Navy has appeared in court charged with spying for Russia. Teddy Young, 24, was accused of obtaining protected information that could benefit an unnamed foreign power. He was arrested at his home in Bedfordshire on Tuesday after an investigation by Counter Terrorism Policing London (CTPL). Continue reading...",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/08/royal-navy-serviceman-arrested-under-national-security-act",
+          "canonicalUrl": "https://theguardian.com/uk-news/2026/oct/08/royal-navy-serviceman-arrested-under-national-security-act",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-08T11:53:56Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/fd46f6089f8c012e9ff75d81f216257db320b9ac/274_0_2670_2136/master/2670.jpg?width=140&quality=85&auto=format&fit=max&s=52c17fe746de976baecd82e4f9ba5245",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-08T12:17:39Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "864219c4ba377a533636",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "royal navy service member appears in court charged with spying for russia"
+        },
+        {
+          "id": "b3c2708ac4474d52bb44f7e2",
+          "title": "Royal Navy serviceman accused of plotting to leak intelligence to Russia appears in court",
+          "translatedTitle": null,
+          "description": "A junior Royal Navy serviceman accused of plotting to leak classified information to Russia has appeared in court.",
+          "url": "https://news.sky.com/story/royal-navy-serviceman-charged-with-national-security-act-offences-13596375",
+          "canonicalUrl": "https://news.sky.com/story/royal-navy-serviceman-charged-with-national-security-act-offences-13596375",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-08T06:51:00Z",
+          "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-teddy-young-royal-navy_7371247.jpg?20261008130154",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-08T12:17:39Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "864219c4ba377a533636",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "royal navy serviceman accused of plotting to leak intelligence to russia appears in court"
+        }
+      ],
+      "rankingScore": 10.22043
+    },
+    {
+      "id": "bd64455dfa2f1d55ddacd72a",
+      "title": "Oil prices jump 5% on Middle East tensions and US hurricane threat",
+      "translatedTitle": null,
+      "description": "Global bond market sell-off continues and stocks fall amid reports White House has asked to see options for more strikes against Iran Business live – latest updates Oil prices have risen sharply amid fears about escalating tensions in the Middle East and a squeeze on production from the threat of a hurricane off the US coast. Brent crude, the international benchmark, rose by 5% to $105.3 a barrel on Thursday, triggering a wave of selling in the global bond and stock markets. Continue reading...",
+      "url": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T11:11:47Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/61043b7b92a997020361798a09decacbe807dc8e/1376_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=0c12fac2f3bc118fc5f3334c0f4b94c2",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "37684afb98dbfa24bbfd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 10.10967
+    },
+    {
+      "id": "1631fa5519f85a895ad5bf71",
+      "title": "Polls open in Holborn and St Pancras byelection – UK politics live",
+      "translatedTitle": null,
+      "description": "Voters choosing replacement for Keir Starmer, who announced he was standing down last month The UK’s military is too focused on global commitments at the expense of domestic defence, meaning the government’s planned increase in defence spending is likely to result in even greater waste, a thinktank report has warned. According to an analysis by researchers at the Transition Security Project, Britain has the most overseas-oriented military among European nations, with almost a quarter of the defe",
+      "url": "https://www.theguardian.com/politics/live/2026/oct/08/holborn-st-pancras-byelection-labour-greens-zack-polanski-uk-politics-live-news-updates",
+      "canonicalUrl": "https://theguardian.com/politics/live/2026/oct/08/holborn-st-pancras-byelection-labour-greens-zack-polanski-uk-politics-live-news-updates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T11:42:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6f517b8ce6a5ef1dcba53a4b4acdc0d07c3ae463/559_0_3901_3123/master/3901.jpg?width=140&quality=85&auto=format&fit=max&s=062d38f65ffb0407f1eb2837558ebc7b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "db790f34dc4afd194392",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
@@ -261,7 +382,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "e3ea1a59112e17426f4d",
+          "clusterId": "db790f34dc4afd194392",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -291,78 +412,47 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "e3ea1a59112e17426f4d",
+          "clusterId": "db790f34dc4afd194392",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
           "normalizedTitle": "voting opens in high stakes holborn and st pancras byelection"
         }
       ],
-      "rankingScore": 9.99792
+      "rankingScore": 9.86895
     },
     {
-      "id": "0225de3a5a8222bdd697b534",
-      "title": "Burnham to meet German chancellor in Berlin to discuss security and EU ties",
+      "id": "356dd056d3d482e07ede55f9",
+      "title": "Russian attack on bus kills at least 30 people near Ukraine frontline",
       "translatedTitle": null,
-      "description": "Downing Street said deeper co-operation in the face of rising hybrid threats from Russia would be high on the agenda during the PM's first official visit to Germany.",
-      "url": "https://www.bbc.co.uk/news/articles/cmwyq34qexdzo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmwyq34qexdzo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Governor says Kremlin ‘deliberately targeting civilians’ after strike in Kramatorsk, which also wounded 18 and set second bus on fire Europe live – latest updates A Russian missile strike on a bus in the eastern city of Kramatorsk has killed at least 30 people, officials said on Thursday, in one of the worst attacks by Moscow on Ukrainian civilians this year. The regional prosecutor’s office in the Donetsk region said the vehicle had been hit at 10am by an aerial bomb. “As of now, the death toll",
+      "url": "https://www.theguardian.com/world/2026/oct/08/russian-attack-buses-ukraine-frontline-kramatorsk",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/08/russian-attack-buses-ukraine-frontline-kramatorsk",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-08T08:15:56Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caa2/live/bfe16cb0-c2ef-11f1-bc2e-018d645d8d21.jpg",
+      "publishedAt": "2026-10-08T11:32:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f6cb4a9eaf657f6399da688570ffe6304244c31f/340_18_2529_2023/master/2529.jpg?width=140&quality=85&auto=format&fit=max&s=6724e97a2f416215423fc1de10178be3",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f95c0dccd616565899c8",
+      "clusterId": "5c0024fc0062f2b00a4b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "30dc7d99ac695b38b1c97d32",
-          "title": "Burnham to meet German chancellor in Berlin today – what they are set to discuss",
-          "translatedTitle": null,
-          "description": null,
-          "url": "https://www.independent.co.uk/bulletin/news/burnham-berlin-visit-uk-germany-security-brexit-b3063276.html",
-          "canonicalUrl": "https://independent.co.uk/bulletin/news/burnham-berlin-visit-uk-germany-security-brexit-b3063276.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-08T08:02:27Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/05/22/2026-09-30T113046Z_115393957_RC2NTNAMC9P1_RTRMADP_3_BRITAIN-POLITICS-LABOUR.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-08T08:17:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "f95c0dccd616565899c8",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "burnham to meet german chancellor in berlin today what they are set to discuss"
-        }
-      ],
-      "rankingScore": 8.85649
+      "related": [],
+      "rankingScore": 8.45044
     },
     {
-      "id": "893a3fd52feac58b498a1f4d",
+      "id": "aae4757101bfceab5b6b3bb9",
       "title": "Margaret Hamilton, whose software helped land Apollo 11 on the Moon, dies at 90",
       "translatedTitle": null,
       "description": "Pioneering computer scientist led the development of the software for Nasa's Apollo mission and was awarded the Presidential Medal of Freedom.",
@@ -381,14 +471,44 @@
       "imageAlt": null,
       "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "7939ae162e0290a66b27",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.46024,
+      "related": [],
+      "rankingScore": 8.44145
+    },
+    {
+      "id": "8e9612ddd642d790484db054",
+      "title": "The midterm elections won't keep Trump from college football on Saturday. A hurricane might",
+      "translatedTitle": null,
+      "description": "A hurricane is menacing the Gulf Coast, but President Donald Trump remains eager to attend a big college football game in Alabama on Saturday night",
+      "url": "https://www.independent.co.uk/news/donald-trump-alabama-georgia-tennessee-gulf-coast-b3063186.html",
+      "canonicalUrl": "https://independent.co.uk/news/donald-trump-alabama-georgia-tennessee-gulf-coast-b3063186.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T04:08:34Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/08/05/Texas_Tennessee_Football_56591.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-08T08:17:33Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "299b5f894ab6711b04a3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.99867,
       "related": []
     },
     {
@@ -418,8 +538,8 @@
       "clusterId": "50a4bea302f7074c2dcc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.39338
+      "rankingScore": 7.96616,
+      "related": []
     },
     {
       "id": "b3be7e0ee2e9ae5c887f1c90",
@@ -448,348 +568,136 @@
       "clusterId": "86e0fdf20ef2fd72b919",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.38263
-    },
-    {
-      "id": "66ce46717081d8cdcb796d5e",
-      "title": "Isaias surges towards Gulf Coast after becoming first hurricane of Atlantic season",
-      "translatedTitle": null,
-      "description": "Forecasters warned Isaias could deliver destructive hurricane-force winds",
-      "url": "https://www.independent.co.uk/news/world/americas/tropical-storm-isaias-forecast-hurricane-gulf-coast-b3063253.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/tropical-storm-isaias-forecast-hurricane-gulf-coast-b3063253.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T07:33:01Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/08/2026-10-08T020106Z_605347757_RC2PYNAUXZ9C_RTRMADP_3_STORM-ISAIAS-SATELLITE.JPG?width=1200&auto=webp&trim=0%2C277%2C0%2C277",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e367da3691f63aa3fa13",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.36092
-    },
-    {
-      "id": "364ab767fd2ee5684a646508",
-      "title": "Three people killed in Houthi attacks on Saudi Arabia airports, officials say",
-      "translatedTitle": null,
-      "description": "The Houthis have claimed responsibility for the attacks, which mark an escalation in the conflict.",
-      "url": "https://www.bbc.co.uk/news/articles/cwn8d5rx22rdo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cwn8d5rx22rdo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T03:32:35Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb7a/live/b062fdf0-c2b6-11f1-babe-4199b0e7ccea.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2db4e110df896687f7a6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "16b0146750b515f67c012662",
-          "title": "Three dead after Houthi attacks on airports in Saudi Arabia – what we know",
-          "translatedTitle": null,
-          "description": null,
-          "url": "https://www.independent.co.uk/bulletin/news/houthi-airport-attacks-saudi-arabia-riyadh-b3063257.html",
-          "canonicalUrl": "https://independent.co.uk/bulletin/news/houthi-airport-attacks-saudi-arabia-riyadh-b3063257.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-08T07:35:17Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/07/23/2298427892..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-08T08:17:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "2db4e110df896687f7a6",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "three dead after houthi attacks on airports in saudi arabia what we know"
-        }
-      ],
-      "rankingScore": 8.34961
-    },
-    {
-      "id": "6510cee11261db86a378f417",
-      "title": "Bulletin AM briefing: By-election underway and Trump says he doesn’t ‘really want’ Iran peace deal",
-      "translatedTitle": null,
-      "description": "Here are five of the biggest stories this morning",
-      "url": "https://www.independent.co.uk/bulletin/news/bulletin-am-briefing-thursday-october-8-b3063217.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/bulletin-am-briefing-thursday-october-8-b3063217.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T06:25:01Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/07/15/2026-10-07T144113Z_788335560_RC20VNATE0IX_RTRMADP_3_BRITAIN-POLITICS-BYELECTION-PREVIEW.JPG?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dd707a65f0f5ab295778",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.23211
-    },
-    {
-      "id": "886dfd1713a89ca7f9e18e55",
-      "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
-      "translatedTitle": null,
-      "description": "A search for forecourts will now display their pricing, using the government's Fuel Finder scheme.",
-      "url": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-07T23:50:29Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e42/live/60b35020-c25c-11f1-a64c-550be9e3c66b.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b25781ab64c247d4de83",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "2eb73acff800bcc9efbbe7e7",
-          "title": "Live UK petrol prices to be shown on Google Maps for first time",
-          "translatedTitle": null,
-          "description": "The announcement comes as diesel prices continue to hit record highs",
-          "url": "https://www.independent.co.uk/news/uk/home-news/google-maps-petrol-prices-fuel-diesel-latest-b3062872.html",
-          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/google-maps-petrol-prices-fuel-diesel-latest-b3062872.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-08T07:24:19Z",
-          "imageUrl": "https://static.independent.co.uk/2026/05/26/11/32/GettyImages-2265560922.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-08T08:17:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "b25781ab64c247d4de83",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "live uk petrol prices to be shown on google maps for first time"
-        },
-        {
-          "id": "7a5c5070e56779204968d860",
-          "title": "UK motorists can now see live fuel prices on Google Maps",
-          "translatedTitle": null,
-          "description": "Move expected to make pump pricing more transparent and encourage competition after diesel hits record £2 a litre Drivers will be able to see live petrol prices on Google Maps for the first time from Thursday, in a move that will help motorists shop around for the cheapest fuel. Millions of motorists will be able to find the cheapest petrol and diesel prices by searching for a local forecourt in the Google app, in what could prove to be “a major development” in making fuel prices more fair, acco",
-          "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
-          "canonicalUrl": "https://theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-08T05:00:11Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/f3773eb249c385e9fb1ae557f371e226117849ea/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=df426a9b920af7bdd38ea97ac4efec1f",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-08T08:17:34Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "b25781ab64c247d4de83",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "uk motorists can now see live fuel prices on google maps"
-        }
-      ],
-      "rankingScore": 8.08555
-    },
-    {
-      "id": "f356c73514125c461a9b5880",
-      "title": "Indonesia accused of ‘gross negligence’ in wildfires lawsuit as haze tests region",
-      "translatedTitle": null,
-      "description": "NGOs in Indonesian Borneo file class action lawsuit calling for government to better manage annual fires and The Indonesian government has been accused of “gross negligence” in a class action lawsuit over its handling of wildfires that have cloaked large parts of South-east Asia in a toxic haze, shuttered schools and caused a spike in respiratory illnesses. The lawsuit, filed by indigenous and civil society groups in the Indonesian part of Borneo, named President Prabowo Subianto and the governo",
-      "url": "https://www.theguardian.com/world/2026/oct/08/indonesia-wildfires-gross-negligence-lawsuit-haze-region",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/08/indonesia-wildfires-gross-negligence-lawsuit-haze-region",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T03:54:09Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/948f13cd6b39af9e5eb3dd21aaba7ecf82a99ea6/317_0_3168_2534/master/3168.jpg?width=140&quality=85&auto=format&fit=max&s=ea15d701692e0dd7a657b468762d4207",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fcbf0f66a2f3bee09630",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.06369
-    },
-    {
-      "id": "8e9612ddd642d790484db054",
-      "title": "The midterm elections won't keep Trump from college football on Saturday. A hurricane might",
-      "translatedTitle": null,
-      "description": "A hurricane is menacing the Gulf Coast, but President Donald Trump remains eager to attend a big college football game in Alabama on Saturday night",
-      "url": "https://www.independent.co.uk/news/donald-trump-alabama-georgia-tennessee-gulf-coast-b3063186.html",
-      "canonicalUrl": "https://independent.co.uk/news/donald-trump-alabama-georgia-tennessee-gulf-coast-b3063186.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T04:08:34Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/05/Texas_Tennessee_Football_56591.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "299b5f894ab6711b04a3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.99686
-    },
-    {
-      "id": "0b62d63c7b4e6d8ac2a5ba23",
-      "title": "Ukraine war briefing: Zelenskyy condemns ‘vile’ attacks from Russia that killed 20 in one apartment",
-      "translatedTitle": null,
-      "description": "Death toll from latest attack wave on Ukraine climbs to 28; Moscow says it ​hit military cargo vessel and port infrastructure. What we know on day 1,688 The death toll from Russia’s latest attack on Ukraine has climbed to 28, its interior minister, Ivan Vyhivskyi, has said. Russia pounded Ukraine with waves of missiles and drones on Wednesday. The heaviest losses were in ⁠Pryluky, in Ukraine’s northern Chernihiv region, where ​a Russian missile obliterated a five-storey residential building. Twe",
-      "url": "https://www.theguardian.com/world/2026/oct/08/ukraine-war-briefing-zelenskyy-condemns-vile-attacks-from-russia-that-killed-20-in-one-apartment",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/08/ukraine-war-briefing-zelenskyy-condemns-vile-attacks-from-russia-that-killed-20-in-one-apartment",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T02:02:33Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/043bf731943d3a451c08d00975ae613d31de33da/221_0_3017_2414/master/3017.jpg?width=140&quality=85&auto=format&fit=max&s=f90231b6e216f48a50151f7bf05da894",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T04:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f0d2614118a9dbec71b6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.80447,
+      "rankingScore": 7.95755,
       "related": []
     },
     {
-      "id": "30dff98a9f85607f48dadf33",
-      "title": "Why Trump is awarding former Major League Baseball star Roger Clemens the Presidential Medal of Freedom",
+      "id": "af7c5ba0fa71f1c3722b591d",
+      "title": "Seventh man bailed in connection with alleged terror plot near RAF Fairford",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/trump-roger-clemens-presidential-medal-freedom-texas-b3063200.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-roger-clemens-presidential-medal-freedom-texas-b3063200.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "The seventh man arrested by police investigating a suspected terror plot close to RAF Fairford has been released on bail.",
+      "url": "https://news.sky.com/story/seventh-man-bailed-in-connection-with-alleged-terror-plot-near-raf-fairford-13596446",
+      "canonicalUrl": "https://news.sky.com/story/seventh-man-bailed-in-connection-with-alleged-terror-plot-near-raf-fairford-13596446",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-08T05:30:44Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/06/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-10-08T11:49:00Z",
+      "imageUrl": "https://e3.365dm.com/26/09/1920x1080/skynews-fairford-raf-police_7363058.jpg?20261008121502",
       "imageAlt": null,
-      "category": "Sports",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "77eae1f3c310b0d64b76",
+      "clusterId": "f3cbc579d385e18ae840",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.73494
+      "rankingScore": 5.78224
     },
     {
-      "id": "3ad7610276f70cd9fa57acc0",
-      "title": "Britons kept in dark about scale of climate crisis, say viewers of ‘first-of-its-kind’ emergency briefing",
+      "id": "1381a279abd8cb2ad776791a",
+      "title": "Sisters pulled from sea near Brighton took own lives, coroner rules",
       "translatedTitle": null,
-      "description": "Nine out of 10 people felt motivated to act after watching film outlining threats to food security, economy and public health The British government must be honest about the scale of the threat posed by climate and nature breakdown, researchers have said, after nine out of 10 people surveyed after watching a briefing on the issue felt more motivated to act. Last November, in the “first-of-its-kind national emergency briefing”, nine experts gave stark assessments in Westminster Hall in London of",
-      "url": "https://www.theguardian.com/environment/2026/oct/08/britons-kept-in-dark-scale-of-climate-crisis-first-of-its-kind-emergency-briefing",
-      "canonicalUrl": "https://theguardian.com/environment/2026/oct/08/britons-kept-in-dark-scale-of-climate-crisis-first-of-its-kind-emergency-briefing",
+      "description": "Three sisters whose bodies were recovered from the sea off Brighton took their own lives, a coroner has ruled.",
+      "url": "https://news.sky.com/story/sisters-pulled-from-sea-near-brighton-took-own-lives-coroner-rules-13596453",
+      "canonicalUrl": "https://news.sky.com/story/sisters-pulled-from-sea-near-brighton-took-own-lives-coroner-rules-13596453",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T10:53:00Z",
+      "imageUrl": "https://e3.365dm.com/26/05/1920x1080/skynews-brighton-sisters_7254372.jpg?20260520212855",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6e43f96bcd4bb154281a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67399
+    },
+    {
+      "id": "73263d745492b9acf786e131",
+      "title": "Water companies failed to report more than 50,000 sewage spills in time, charity claims",
+      "translatedTitle": null,
+      "description": "Water companies in England failed to report more than 50,000 sewage spills within the time required by law in the first half of the year, an environmental charity has claimed.",
+      "url": "https://news.sky.com/story/englands-water-companies-failed-to-report-more-than-50000-sewage-spills-in-time-charity-claims-13596212",
+      "canonicalUrl": "https://news.sky.com/story/englands-water-companies-failed-to-report-more-than-50000-sewage-spills-in-time-charity-claims-13596212",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T10:49:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-sea-sewage_7370700.jpg?20261007161621",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bed7501ab8b80a9eda25",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66647
+    },
+    {
+      "id": "eff054dcedf45d6464f4c36a",
+      "title": "Christa Pike now walking after failed US execution, lawyer tells BBC",
+      "translatedTitle": null,
+      "description": "A lawyer says the murderer of Colleen Slemmer is moving around her hospital room after surviving two lethal injections.",
+      "url": "https://www.bbc.co.uk/news/articles/c60rln74yzvxo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c60rln74yzvxo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T08:13:52Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afaf/live/3e4f37a0-c2ee-11f1-89a3-9b445bfcfe23.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "604d5a2ca1b17a3bcde9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66532
+    },
+    {
+      "id": "68d7c552321e27bf0623300b",
+      "title": "Supermarket shake-up: why Asda or Morrisons could vanish within a decade",
+      "translatedTitle": null,
+      "description": "Talks between Sainsbury’s and Morrisons have set industry tongues wagging, with analysts saying the market is ripe for change Tesco lifts profit forecast and says shoppers are resilient Business live – latest updates They may be two of the most recognisable brands in Britain, with a combined 188 years serving shoppers, but industry watchers agree that either Asda or Morrisons – or both – could disappear within a decade. This week, it emerged that Sainsbury’s and Morrisons – the UK’s second- and",
+      "url": "https://www.theguardian.com/business/2026/oct/08/supermarket-shakeup-big-brands-ripe-merger",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/08/supermarket-shakeup-big-brands-ripe-merger",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -798,28 +706,418 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-08T08:00:13Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a4bf9f2d66919e93a27dbaad74442a677c8bc864/403_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=c4a170acad33fa42b0eea6447535f9f5",
+      "publishedAt": "2026-10-08T10:26:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b0808ae84c0d8b3d98a713742ac7afc5bcd58c1d/3353_1393_5287_4230/master/5287.jpg?width=140&quality=85&auto=format&fit=max&s=34c3abc17ec3647024312e959f9785e9",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dd76458d9a3cbf558105",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.62407
+    },
+    {
+      "id": "9e6df730257170b170b29f95",
+      "title": "My latest discovery? You can eat the skin of a kiwifruit – and the benefits are myriad | Adrian Chiles",
+      "translatedTitle": null,
+      "description": "It turns out all that time spent peeling and paring was entirely wasted. Now I’m gobbling them like apples and putting the extra fibre to good use Every day’s a school day, honestly. How on earth did I get to just short of my 60th birthday before finding out that you could eat the skin of kiwifruit? Astounding, just astounding. What a revelation. It’s odd, because of all fruit skins, it’s probably the one that looks least appetising. Nice clean oranges and bananas almost beg to be troughed, skin",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/08/you-can-eat-kiwifruit-skin-benefits-fibre",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/08/you-can-eat-kiwifruit-skin-benefits-fibre",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T10:00:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3e6b252c997f36665f5ef6cf2f36a80e410a8759/154_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=aef91dd06d5675d2f0c2fd7bad9347b5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d78f0db52c60d48daada",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57709
+    },
+    {
+      "id": "ef0bb01bd309624e24038b59",
+      "title": "Trump’s latest attacks on the press exude desperation | Margaret Sullivan",
+      "translatedTitle": null,
+      "description": "Trump seems to invent ugly new variations on his press-bashing theme almost every day When you hate the mainstream press as much as Donald Trump does, nothing gets in the way of the punishment fantasy. Not court rulings. Not public opinion. Not even the dreadful consequence of less media coverage. Margaret Sullivan is a Guardian US columnist writing on media, politics and culture Continue reading...",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/08/trump-press-attacks-politico",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/08/trump-press-attacks-politico",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T10:00:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4f44dfbdb6006c59b81b4d6a885936731d344410/533_0_4595_3678/master/4595.jpg?width=140&quality=85&auto=format&fit=max&s=a374d73fcec0a6ce6a9dbb67536ed326",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "10c969c23d8d81b4b24f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57706
+    },
+    {
+      "id": "9a00bd7dc0b1de657ba3f4cd",
+      "title": "Man shot dead at memorial service gathering is named",
+      "translatedTitle": null,
+      "description": "A 40-year-old man shot dead as people gathered for a memorial service in west London on Friday has been named.",
+      "url": "https://news.sky.com/story/man-shot-dead-at-memorial-service-gathering-is-named-13596441",
+      "canonicalUrl": "https://news.sky.com/story/man-shot-dead-at-memorial-service-gathering-is-named-13596441",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T09:55:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-levi-davidson-met-police_7371173.jpg?20261008111136",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "af0e3e9f6c63503f6930",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.56764
+    },
+    {
+      "id": "c0aed571697f95f0254db62a",
+      "title": "We spent thousands on a Tui river cruise but ended up on coach trips",
+      "translatedTitle": null,
+      "description": "Passengers have described their anger after their itineraries changed to involve hours spent on coach trips instead.",
+      "url": "https://www.bbc.co.uk/news/articles/cq62j2lzlnm8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cq62j2lzlnm8o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T07:11:14Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9ff/live/0a1511f0-c2dd-11f1-bc2e-018d645d8d21.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "51be117ec6fae82360fc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.56642
+    },
+    {
+      "id": "13b1f60d83cdedab15683f79",
+      "title": "Mikel Arteta’s new contract reflects where the power now lies at Arsenal | Ed Aarons",
+      "translatedTitle": null,
+      "description": "From transfers to stadium works and even the training-ground dog, there is no doubting the Spaniard’s influence at the club If anyone doubts Mikel Arteta’s status as No 1 at Arsenal in the week he committed his future to the club until 2030, just ask Win the dog. The chocolate labrador who played a starring role in the celebrations when Arsenal were crowned Premier League champions in May has become part of the family at the training ground in Hertfordshire since being introduced by Arteta in Ma",
+      "url": "https://www.theguardian.com/football/2026/oct/08/mikel-arteta-arsenal-contract",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/08/mikel-arteta-arsenal-contract",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T09:49:56Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e69d56fba273f9630d6d0cf8f6579a43a5dc8354/1188_667_6047_4837/master/6047.jpg?width=140&quality=85&auto=format&fit=max&s=e54e20cbd8cb017005320fa8bb1f70a2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cb915b369860f3a850ac",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.55861
+    },
+    {
+      "id": "8edf97ea52ade589bf6610c9",
+      "title": "Engine size limits and working with Iraola - the Liverpool academy approach",
+      "translatedTitle": null,
+      "description": "Liverpool academy director Alex Inglethorpe talks to BBC Sport about the value and future of Liverpool's academy.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmx2z9z10wezo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cmx2z9z10wezo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T07:04:50Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97ab/live/65d4a550-bcc5-11f1-ae14-0b840f99ba59.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "af6bc48897178715ad5d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.55663
+    },
+    {
+      "id": "143b357c641c8a58b41d563e",
+      "title": "New direct train services from London to Wrexham and Rochdale rejected",
+      "translatedTitle": null,
+      "description": "Regulator also vetoes extra Blackpool service, citing lack of space on west coast mainline for new trains to capital Business live – latest updates Plans to run direct train services to Wrexham and Rochdale from London have been rejected by the rail regulator because of “significant pressure” on the line. The Office of Rail and Road said that there was insufficient space on the crowded west coast mainline to introduce the two new separate train services. Continue reading...",
+      "url": "https://www.theguardian.com/business/2026/oct/08/wrexham-rochdale-train-services-rejected-west-coast-line-blackpool-london",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/08/wrexham-rochdale-train-services-rejected-west-coast-line-blackpool-london",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T09:38:00Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/949c2733b0ecddb2e18babc88c53860510cd8576/324_0_2917_2333/master/2917.jpg?width=140&quality=85&auto=format&fit=max&s=8f10c2d8f6cda144cbd638e3c25475ae",
       "imageAlt": null,
       "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:34Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "faa70c8f4d92a98160ed",
+      "clusterId": "0def347a6d9e393089a0",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.50476
+      "rankingScore": 5.53753
     },
     {
-      "id": "cb84f00ef3c702ec4420becc",
-      "title": "'Every day there is killing': Gazans face Israeli strikes despite ceasefire as peace deal stalls",
+      "id": "641eb1d2ef2a297cad555dc8",
+      "title": "Women’s Super League faces wait until 2029 for full-time referees despite funding boost",
       "translatedTitle": null,
-      "description": "Many Palestinians are still living in cramped tent cities, with the US plan to end the war largely stalled.",
-      "url": "https://www.bbc.co.uk/news/articles/cmx2qlz7qrd4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmx2qlz7qrd4o?at_campaign=rss&at_medium=RSS",
+      "description": "Extra investment agreed at latest WSL board meeting Calls for fully professional match officials have grown Women’s Super League clubs have agreed to a major funding increase for match officials but the wait for full-time referees in the English top tier is set to continue until 2029, the Guardian has learned. The extra investment, decided at the latest WSL Football board meeting, will focus on enhancing officials’ education, analysis and physical performance, it is understood. Continue reading.",
+      "url": "https://www.theguardian.com/football/2026/oct/08/womens-super-league-wait-2029-full-time-referees-funding-boost-football",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/08/womens-super-league-wait-2029-full-time-referees-funding-boost-football",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T09:34:05Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/22e5b96610467262454d2849998c3ebf198adf91/27_0_3500_2800/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=1629693f39914c9574b8451973d7f54e",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5a8d48c1a68949d26747",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.53066
+    },
+    {
+      "id": "706528bf0476905f184f1aee",
+      "title": "One dead in Poland's second school attack in two days",
+      "translatedTitle": null,
+      "description": "A school employee was killed and two others were injured after a knife attack in Poland - the second such incident in the country in two days",
+      "url": "https://news.sky.com/story/one-dead-and-two-children-injured-in-polands-second-school-attack-in-two-days-13596420",
+      "canonicalUrl": "https://news.sky.com/story/one-dead-and-two-children-injured-in-polands-second-school-attack-in-two-days-13596420",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T09:16:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-poland-police-polish-police_7370472.jpg?20261007123950",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7fe4e9678a36e6cd9778",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.49927
+    },
+    {
+      "id": "72050c00a48fa935a9049106",
+      "title": "Why Arturo Béjar left Meta – and blew the whistle: ‘I don’t recall Mark ever being empathetic’",
+      "translatedTitle": null,
+      "description": "Béjar’s daughter was 14 when she told him Instagram was failing to keep her safe. So when he became part of Meta’s ‘wellbeing team’, he knew he had to speak out – and his testimony cost it billions The Social Reckoning hits cinemas this Friday, but the real world has already been working on a sequel – or rather, a threequel. Directed by Aaron Sorkin, the movie is a follow-up to The Social Network, detailing the further misadventures of Mark Zuckerberg and his social media empire, and in particul",
+      "url": "https://www.theguardian.com/media/2026/oct/08/arturo-bejar-interview-whistleblower-facebook-meta-mark-zuckerberg",
+      "canonicalUrl": "https://theguardian.com/media/2026/oct/08/arturo-bejar-interview-whistleblower-facebook-meta-mark-zuckerberg",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T09:00:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fa41b039b7002e27769fd1f7238b8a8a606ba7f3/41_604_3735_2988/master/3735.jpg?width=140&quality=85&auto=format&fit=max&s=aa9fcd06ea8ba735a19386b93db3f176",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "68ad13dfe914196a6a9c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47235
+    },
+    {
+      "id": "f9d7d4cdd048afcaa955ddbc",
+      "title": "‘Someone else will do it for less’: Refugees in Kenya are powering tech for dwindling pay",
+      "translatedTitle": null,
+      "description": "Refugee gig workers for tech companies don’t know how much they’ll be paid – if AI hasn’t already taken their jobs In a portable building in Kakuma, a refugee camp near Kenya’s northern border with South Sudan, Grace used ChatGPT to research translations of Christian hymns in languages she doesn’t speak. She didn’t know the client, the purpose of her work or whether she would be paid, but as a refugee unable to legally work in Kenya, she needed any opportunity she could get. Grace, who requested",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/08/ai-gig-work-refugees-kenya",
+      "canonicalUrl": "https://theguardian.com/technology/ng-interactive/2026/oct/08/ai-gig-work-refugees-kenya",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T09:00:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/53d66ebd8b4c6838ae365637ba65b0178b71b3f3/734_0_4836_3868/master/4836.jpg?width=140&quality=85&auto=format&fit=max&s=31096a25e5c3f783c91a0bc3083342f7",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "158d96acf84fa147e9d9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47235
+    },
+    {
+      "id": "7e7149721eba8f7ec2c4eba8",
+      "title": "London Broncos graded below Barrow but still set for Super League place",
+      "translatedTitle": null,
+      "description": "Championship winners only 16th in new IMG gradings NRL money contingent on London Super League side Runaway Championship winners London Broncos have been graded below even Barrow Raiders for next season – but they are still set to become the 15th team in an expanded Super League next season, the Guardian can reveal. The Broncos have swept aside the second tier in 2026, winning all three domestic trophies on offer after assembling a squad filled with NRL talent. Under the ownership of Kangaroos g",
+      "url": "https://www.theguardian.com/sport/2026/oct/08/london-broncos-graded-below-barrow-but-still-set-for-super-league-place",
+      "canonicalUrl": "https://theguardian.com/sport/2026/oct/08/london-broncos-graded-below-barrow-but-still-set-for-super-league-place",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T09:00:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ecb759c2a5e3ddba915cd9736fb423b08ce40015/953_0_6278_5022/master/6278.jpg?width=140&quality=85&auto=format&fit=max&s=312fccc452821d4a6ac63a4f0004e27b",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1c46db8c840b95523682",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47235
+    },
+    {
+      "id": "27fe8ddb94e03a2930f259d3",
+      "title": "Havertz, Isak, Dorgu … spate of injuries with national teams leaves sour taste for top clubs",
+      "translatedTitle": null,
+      "description": "Premier League clubs, and their European rivals, left with a long list of absentees after a gruelling international break A four-match international break has presented a stress test. “The intensity of the squad, the athleticism of it, really, I think it’s designed for the elite,” said the Wales head coach, Craig Bellamy, on the completion of four matches in 11 days. Elite club coaches would disagree. The Nations League and the wider set of international games staged across the globe have been a",
+      "url": "https://www.theguardian.com/football/2026/oct/08/premier-league-injuries-kai-havertz-alexander-isak-patrick-dorgu",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/08/premier-league-injuries-kai-havertz-alexander-isak-patrick-dorgu",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T08:50:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/73725f30d4d4ba2ce7053e681375dfa8a7979b6a/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=83c7b2d743f8a714c21ecab3daae1a9c",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "027ec8ee88a58bf42342",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.45544
+    },
+    {
+      "id": "d5c761c189887d0ac2198765",
+      "title": "Premier League football shirts made by workers on £1 an hour",
+      "translatedTitle": null,
+      "description": "A BBC Sport investigation traces official football shirt production to factories in Cambodia where workers are paid less than £1 an hour.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2lggyz2wgo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cx2lggyz2wgo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -828,58 +1126,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-08T05:06:09Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d71/live/8af61620-c233-11f1-a64c-550be9e3c66b.jpg",
+      "publishedAt": "2026-10-08T05:48:17Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cddb/live/f3601520-c301-11f1-9955-5d2e13ff2bea.jpg",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "07e94bf94a0bbfc8425a",
+      "clusterId": "f178f3768ccd42f31375",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.10252
+      "rankingScore": 5.44396
     },
     {
-      "id": "b6eb2b5228f8a08974973ca4",
-      "title": "What time is the Holborn and St Pancras by-election announced and is there an exit poll?",
+      "id": "28cb0c84269ef4908df1ddd0",
+      "title": "'I was blamed for my baby's death, now NHS needs to change'",
       "translatedTitle": null,
-      "description": "Counting will begin after polling stations close at 10pm tonight",
-      "url": "https://www.independent.co.uk/news/uk/politics/holborn-st-pancras-by-election-result-time-exit-poll-b3063249.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/holborn-st-pancras-by-election-result-time-exit-poll-b3063249.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T07:59:22Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/08/2299165031..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "290faab92d4302754e84",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.06306
-    },
-    {
-      "id": "a32789a9dc1610335933ebbd",
-      "title": "'Come all the way' back to EU, French finance minister tells UK",
-      "translatedTitle": null,
-      "description": "Roland Lescure tells the BBC that being in the bloc enables members to better address the challenges facing the world.",
-      "url": "https://www.bbc.co.uk/news/articles/cqdjvg3xww2go?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqdjvg3xww2go?at_campaign=rss&at_medium=RSS",
+      "description": "Neil and Katie Russell are working with the hospital where their daughter died on the scheme.",
+      "url": "https://www.bbc.co.uk/news/articles/cxe8ry571z9eo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cxe8ry571z9eo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -888,179 +1156,58 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-08T04:02:26Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52ca/live/bf40aff0-c2db-11f1-a64c-550be9e3c66b.jpg",
+      "publishedAt": "2026-10-08T05:42:43Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fae9/live/73209440-c2ff-11f1-babe-4199b0e7ccea.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "aca35aec8705ffae63b7",
+      "clusterId": "41c23888562139b6d542",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "9e8a9fef3b52977b1970ba81",
-          "title": "UK welcome to rejoin EU ‘anytime’, French finance minister says as Burnham visits Berlin",
-          "translatedTitle": null,
-          "description": "The prime minister’s trip comes amid an intelligence scandal that has rocked Germany",
-          "url": "https://www.independent.co.uk/news/uk/politics/burnham-merz-germany-meeting-russia-b3063225.html",
-          "canonicalUrl": "https://independent.co.uk/news/uk/politics/burnham-merz-germany-meeting-russia-b3063225.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-08T07:19:21Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/02/13/2297311007..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-08T08:17:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "aca35aec8705ffae63b7",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "uk welcome to rejoin eu anytime french finance minister says as burnham visits berlin"
-        }
-      ],
-      "rankingScore": 7.04696
+      "related": [],
+      "rankingScore": 5.43607
     },
     {
-      "id": "d6788612a88453a538116faa",
-      "title": "A quarter century later, the legacy of the US-led invasion of Afghanistan endures",
+      "id": "09d01c6cedb2601e553ba6bf",
+      "title": "Faster than F1: The extreme motorsport where women keep winning",
       "translatedTitle": null,
-      "description": "A U.S.-led coalition invaded Afghanistan 25 years ago and launched Operation Enduring Freedom to dismantle al-Qaida",
-      "url": "https://www.independent.co.uk/news/afghanistan-taliban-kabul-osama-bin-laden-operation-enduring-freedom-b3063268.html",
-      "canonicalUrl": "https://independent.co.uk/news/afghanistan-taliban-kabul-osama-bin-laden-operation-enduring-freedom-b3063268.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Top Fuel drag racing is the only elite motorsport class where women frequently beat men to major titles.",
+      "url": "https://www.bbc.co.uk/sport/motorsport/articles/c68xkx9gqv89o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/motorsport/articles/c68xkx9gqv89o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-08T07:39:59Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/08/Afghanistan_US_Invasion_25_Years_77199.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-10-08T05:41:20Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f383/live/abedca80-bdc9-11f1-a64c-550be9e3c66b.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "880e42afe0e9b3b84812",
+      "clusterId": "1139b4668d8993afc125",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.02458
+      "rankingScore": 5.43412
     },
     {
-      "id": "5a17a8c7fe013ddb6a95d058",
-      "title": "First court hearing over Andrew Mountbatten-Windsor’s legal claim on police search warrants to take place",
+      "id": "a74c941c143733fc5d68a348",
+      "title": "Girl, 9, killed in crash between car and pick-up truck",
       "translatedTitle": null,
-      "description": "It is not known whether Andrew will attend the hearing, and no details of his challenge have been confirmed",
-      "url": "https://www.independent.co.uk/news/uk/crime/andrew-court-thames-valley-police-b3063247.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/crime/andrew-court-thames-valley-police-b3063247.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T07:14:34Z",
-      "imageUrl": "https://static.independent.co.uk/2026/06/05/11/2210495608..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9a5cee18aed03c1ba495",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.97516
-    },
-    {
-      "id": "153b9ce95594ffe1715879fb",
-      "title": "America carries out first execution since Christa Pike's failed lethal injection",
-      "translatedTitle": null,
-      "description": "The final words of Jamaal Howard have been revealed",
-      "url": "https://www.independent.co.uk/news/world/americas/jamaal-howard-execution-lethal-injection-b3063244.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/jamaal-howard-execution-lethal-injection-b3063244.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T07:11:07Z",
-      "imageUrl": "https://static.independent.co.uk/2026/03/10/16/24/GettyImages-1609762.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c0ac3ace2fa3b292d347",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.96855
-    },
-    {
-      "id": "f0f19d95da0f3adac95fdd23",
-      "title": "Trump makes late Nobel Prize pitch: ‘Not bragging ... but I settled eight wars’",
-      "translatedTitle": null,
-      "description": "Trump repeats claim that he has ended more than a half dozen conflicts while his administration has so far proved itself unable to reach a lasting ceasefire with Iran",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-2026-nobel-peace-prize-wars-obama-b3063227.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-2026-nobel-peace-prize-wars-obama-b3063227.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T06:50:49Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/07/18/2026-10-07T174636Z_1565939135_RC2HYNAO0AXO_RTRMADP_3_USA-TRUMP.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "acc130c4cea8cd382016",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.93003
-    },
-    {
-      "id": "40e1d88c5c3c3a812ff3c62e",
-      "title": "Using ambulances and corridors as 'treatment rooms' unacceptable, says union",
-      "translatedTitle": null,
-      "description": "Long delays in handing over patients from ambulances to hospitals are causing their condition to worsen, with some dying as a result, according to a new report.",
-      "url": "https://news.sky.com/story/using-ambulances-and-corridors-as-treatment-rooms-unacceptable-says-union-13596358",
-      "canonicalUrl": "https://news.sky.com/story/using-ambulances-and-corridors-as-treatment-rooms-unacceptable-says-union-13596358",
+      "description": "A nine-year-old girl has been killed in a crash in the Scottish Highlands.",
+      "url": "https://news.sky.com/story/girl-9-killed-in-crash-between-car-and-pick-up-truck-in-the-scottish-highlands-13596382",
+      "canonicalUrl": "https://news.sky.com/story/girl-9-killed-in-crash-between-car-and-pick-up-truck-in-the-scottish-highlands-13596382",
       "sourceName": "Sky News",
       "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
@@ -1069,418 +1216,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-08T06:25:00Z",
-      "imageUrl": "https://e3.365dm.com/26/09/1920x1080/skynews-hospital-accident-and-emergency_7358266.jpg?20261008071425",
+      "publishedAt": "2026-10-08T08:18:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-a831-scottish-highlands_7371062.jpg?20261008084710",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0ce7a2ae4a9c58df410c",
+      "clusterId": "a33b78eed1d24a11991b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.62208
+      "rankingScore": 5.40205
     },
     {
-      "id": "c09471e967587ef123b19e0a",
-      "title": "'Pioneering' surgery means young cancer patient may have children",
+      "id": "eb6c1d2a3601b16cbe262f8c",
+      "title": "Molly Russell’s father to tell UK cinemagoers: ‘Instagram helped kill my daughter’",
       "translatedTitle": null,
-      "description": "A teenager has had tissue from his testicles removed and retransplanted in the hope of still being able to have children after chemotherapy.",
-      "url": "https://news.sky.com/story/pioneering-surgery-means-young-cancer-patient-may-have-children-13596173",
-      "canonicalUrl": "https://news.sky.com/story/pioneering-surgery-means-young-cancer-patient-may-have-children-13596173",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T03:22:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-surgery-operation-medical_7370647.jpg?20261007153433",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T04:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a259c50141ee6cc00458",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.22314,
-      "related": []
-    },
-    {
-      "id": "d168d428384d7c52d9acc1ce",
-      "title": "US puts inmate to death for first time since botched execution",
-      "translatedTitle": null,
-      "description": "A Texas death row inmate has been put to death by lethal injection - despite objections following Christa Pike's botched execution last week.",
-      "url": "https://news.sky.com/story/us-puts-inmate-to-death-for-first-time-since-botched-execution-of-christa-pike-13596335",
-      "canonicalUrl": "https://news.sky.com/story/us-puts-inmate-to-death-for-first-time-since-botched-execution-of-christa-pike-13596335",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T01:18:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-jamaal-howard-texas_7370973.jpg?20261008022817",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e2d296aea90d0c4b198d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.13165,
-      "related": []
-    },
-    {
-      "id": "db4ebb9e94d7073f487c4147",
-      "title": "Winning Powerball numbers and prizes for Thursday October 8",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/powerball-results-uk-numbers-lottery-b3063213.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/powerball-results-uk-numbers-lottery-b3063213.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T06:20:45Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/13/15/14/GettyImages-2233717614-(1).jpg?width=1200&auto=webp&trim=160%2C0%2C201%2C542",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ac835bd0e4167806e15a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.12429
-    },
-    {
-      "id": "87a0b3ebf27e46086288d000",
-      "title": "World's largest penguin colony shrinks two-thirds in just 14 years",
-      "translatedTitle": null,
-      "description": "The population of a penguin colony that was previously the largest in the world has fallen by almost two-thirds, a new study has revealed - with climate change thought to be a major reason for the decline.",
-      "url": "https://news.sky.com/story/worlds-largest-penguin-colony-shrinks-two-thirds-in-just-14-years-13596336",
-      "canonicalUrl": "https://news.sky.com/story/worlds-largest-penguin-colony-shrinks-two-thirds-in-just-14-years-13596336",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T01:11:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-penguins-chinstrap-penguins_7370980.jpg?20261008045246",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "716a7ce131d4f14670a4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.12202
-    },
-    {
-      "id": "bb6c5bd25fe6d36ff40a81f4",
-      "title": "Florida mailman busted for DUI while on the job was allegedly almost 3x over the limit, police say",
-      "translatedTitle": null,
-      "description": "While the U.S. Postal Service worker was participating in a sobriety test, he allegedly pulled a toothbrush out of his pocket and began brushing his teeth, police say",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/florida-usps-mailman-dui-arrest-b3063160.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/crime/florida-usps-mailman-dui-arrest-b3063160.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T02:13:58Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/0/34/Screenshot-2026-10-07-at-8-40-49-PM.jpg?width=1200&auto=webp&trim=70%2C0%2C126%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4f3f7f74fa3fea1abeba",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.12099
-    },
-    {
-      "id": "43499dd90452e780892ec6b7",
-      "title": "Trump is giving ex-MLB star Roger Clemens the Medal of Freedom, saying the Hall of Fame has cheated him",
-      "translatedTitle": null,
-      "description": "Clemens is an accomplished baseball player, but he’s also been plagued with scandals, including allegations of steroid use",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-roger-clemens-medal-freedom-texas-rally-b3063170.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-roger-clemens-medal-freedom-texas-rally-b3063170.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T02:10:39Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/02/2299124161..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d90c6ce02fce72b3c5c4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.11617
-    },
-    {
-      "id": "87f6043ab6e53b8bb0fa423b",
-      "title": "How a new online tax could boost British high streets",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/burnham-tax-john-healey-high-streets-b3063210.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/burnham-tax-john-healey-high-streets-b3063210.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T05:58:49Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/06/2273240193..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4a3afb243bba78fe0f46",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.0846
-    },
-    {
-      "id": "0fc68334093c59679eba5f92",
-      "title": "Celebrities make emotional appeals to demand Andy Burnham address end-of-life care",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/pallliative-care-marie-curie-burnham-michael-palin-b3063206.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/pallliative-care-marie-curie-burnham-michael-palin-b3063206.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T05:48:41Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/06/2244482866..?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6e0093b8894853d41539",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.06653
-    },
-    {
-      "id": "35a4434143ba281a62bccd09",
-      "title": "How you can check cheapest fuel prices in your area on Google Maps from today",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/google-maps-fuel-prices-petrol-diesel-b3063203.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/google-maps-fuel-prices-petrol-diesel-b3063203.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T05:35:20Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/07/15/01M4BCZEDS7PGZ04M3Z8H863XQ.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b1a1554fb887e2ca8e32",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.04299
-    },
-    {
-      "id": "e97ec2ea86d2301e7bbf68ce",
-      "title": "In drought-stricken Sri Lanka, farmers watch wells empty and wildlife crowd shrinking water holes",
-      "translatedTitle": null,
-      "description": "Sri Lanka is facing severe drought, leaving reservoirs dry and farming communities struggling",
-      "url": "https://www.independent.co.uk/news/sri-lanka-wildlife-el-nino-elephants-india-b3063165.html",
-      "canonicalUrl": "https://independent.co.uk/news/sri-lanka-wildlife-el-nino-elephants-india-b3063165.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T01:04:59Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/02/Climate_Sri_Lanka_Drought__8389.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f68d3814f0eeeefa8dbc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.02378
-    },
-    {
-      "id": "b821f08b8159d9414be514aa",
-      "title": "How much the average UK family is worse off thanks to cost-of-living crisis",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/cost-of-living-bills-inflation-uk-b3063197.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/cost-of-living-bills-inflation-uk-b3063197.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T05:22:31Z",
-      "imageUrl": "https://static.independent.co.uk/2026/09/28/8/21/bills-stock.jpeg?width=1200&auto=webp&trim=0%2C21%2C0%2C21",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d567083de0f1463f9c0f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.02066
-    },
-    {
-      "id": "67954b907e05bbfef91501b2",
-      "title": "Trying to execute Christa Pike again would push into uncharted legal territory, experts say",
-      "translatedTitle": null,
-      "description": "After Tennessee death row inmate Christa Pike survived an execution attempt it's unclear whether the state will try again",
-      "url": "https://www.independent.co.uk/news/tennessee-experts-republican-death-penalty-information-center-alabama-b3063162.html",
-      "canonicalUrl": "https://independent.co.uk/news/tennessee-experts-republican-death-penalty-information-center-alabama-b3063162.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T00:48:48Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/01/Tennessee_Execution_62297.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2148b48af50bbb4f93f5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.00186
-    },
-    {
-      "id": "4bd2a576b08431615e165a4b",
-      "title": "Trump tells Texas crowd that wife Melania calls him ‘sir’",
-      "translatedTitle": null,
-      "description": "Bizarre rant kicks off rally for embattled GOP Senate candidate Ken Paxton",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-melania-sir-texas-midterms-ken-paxton-b3063153.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-melania-sir-texas-midterms-ken-paxton-b3063153.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T00:35:54Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/08/00/2026-10-07T232911Z_81188202_RC2NYNATYQ37_RTRMADP_3_USA-TRUMP.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1c5103d5f83d6d93794d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.98463
-    },
-    {
-      "id": "f7101a4cbcb6f7d4a77682ac",
-      "title": "China’s succession crisis: a generation of entrepreneurs is retiring, but are their children ready to take over?",
-      "translatedTitle": null,
-      "description": "Family run private businesses helped power China’s economic miracle, but the next generation is finding it difficult to carry on the work of their parents Growing up, Ayu would watch his parents put together hand made leather shoes on the ground floor of their three storey home in the Chinese city of Wenzhou. Their relatives in Europe would send photographs of designer products from Italy for the workers to base their designs on, and in the decades that followed, the tiny family-run workshop tra",
-      "url": "https://www.theguardian.com/world/2026/oct/08/china-succession-crisis-factory-workers-manufacturing-family-businesses",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/08/china-succession-crisis-factory-workers-manufacturing-family-businesses",
+      "description": "In ad to be shown before The Social Reckoning, Ian Russell will say ‘too little has changed’ since death of Molly, 14 Molly Russell’s father will tell UK cinemagoers that “Instagram helped kill my daughter” in an advert to be shown before screenings of a new film about Mark Zuckerberg’s social media empire. In the 30-second ad before The Social Reckoning, released on Friday, Ian Russell says “too little has changed” since the death of his 14-year-old daughter, who took her own life in 2017 after",
+      "url": "https://www.theguardian.com/media/2026/oct/08/molly-russell-father-uk-cinemas-the-social-reckoning",
+      "canonicalUrl": "https://theguardian.com/media/2026/oct/08/molly-russell-father-uk-cinemas-the-social-reckoning",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1489,88 +1246,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-07T23:19:03Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/801af4720c72c84f3b46d5bdd7237e872c1a2589/72_185_2904_2324/master/2904.jpg?width=140&quality=85&auto=format&fit=max&s=955d1fdeb7d11787a753602549f16175",
+      "publishedAt": "2026-10-08T08:03:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/557e5881fe84f95c55110ffd636d0520f7693bfc/2_55_1084_867/master/1084.jpg?width=140&quality=85&auto=format&fit=max&s=53ccde0a5b7153a8de6a31afc86a35f3",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:34Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3f4da3220dcb1d8289ca",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.97609,
-      "related": []
-    },
-    {
-      "id": "618adc1c23a6ace0d54f6205",
-      "title": "Electric shock gloves deemed too painful by US Army are being rolled out by ICE",
-      "translatedTitle": null,
-      "description": "An October 2024 US Army trial found that role-playing soldiers stopped resisting within seconds of being shocked, with test subjects reporting lingering fear and soreness",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/ice-electric-shock-gloves-us-army-study-b3063132.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/ice-electric-shock-gloves-us-army-study-b3063132.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T00:27:58Z",
-      "imageUrl": "https://static.independent.co.uk/2026/09/30/13/41/GettyImages-2268158779.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "111c553eff87e9cad034",
+      "clusterId": "6394a51111c78805621b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 4.97413
+      "rankingScore": 5.37909
     },
     {
-      "id": "8afc73d514a59e692e666b42",
-      "title": "Last of the suspects in millionaire Florida developer’s plot to murder his estranged wife plead guilty",
+      "id": "47319168ff8268f4412c9397",
+      "title": "‘Spend time going down rabbit holes’: how the Avalanches created their wildest album yet",
       "translatedTitle": null,
-      "description": "Sergio Pino reportedly went after his wife amid a financial dispute during their divorce",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/florida-murder-for-hire-plot-sergio-pino-b3063127.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/crime/florida-murder-for-hire-plot-sergio-pino-b3063127.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T00:13:34Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/07/22/14/Screenshot-2026-10-07-at-6-03-39-PM.jpg?width=1200&auto=webp&trim=0%2C18%2C0%2C17",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "083f41635eeb8c2e716f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.95526
-    },
-    {
-      "id": "54c2f73b22b23a19699bad6e",
-      "title": "Bendy elm still standing against all odds crowned UK tree of the year",
-      "translatedTitle": null,
-      "description": "Hundred-and-fifty-year-old Wych elm in Newcastle, Co Down has grown sideways owing to strong winds The “astonishing and bizarre” Bendy Tree in Northern Ireland has been crowned the winner of this year’s tree of the year competition. The wych elm tree, located in Newcastle, County Down, owes its name to its near horizontal trunk, which has grown sideways owing to the strong seaside winds coming off the Irish Sea. Continue reading...",
-      "url": "https://www.theguardian.com/environment/2026/oct/08/bendy-elm-newcastle-northern-ireland-crowned-uk-tree-of-the-year",
-      "canonicalUrl": "https://theguardian.com/environment/2026/oct/08/bendy-elm-newcastle-northern-ireland-crowned-uk-tree-of-the-year",
+      "description": "The Aussie trio explain creating their new record sampling kids’ science shows and Tunisian music – and their surreal film with Haley Joel Osment Last December, Robbie Chater and Tony Di Blasi, the core members of the Aussie disco-pop collagists the Avalanches, found themselves winding through the frosty, mountainous region of Minakami, Japan, with Haley Joel Osment. The pair’s lauded debut album, 2000’s Since I Left You, has become a touchstone in plunderphonics – a genre known for its innovati",
+      "url": "https://www.theguardian.com/music/2026/oct/08/the-avalanches-no-bad-memories-interview",
+      "canonicalUrl": "https://theguardian.com/music/2026/oct/08/the-avalanches-no-bad-memories-interview",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1579,28 +1276,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-07T23:01:03Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/c21d3c749b3e96926e7b3a822ca591bed4a4ff8c/699_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=292bfbb9988930bfda7441e0e3aa63ae",
+      "publishedAt": "2026-10-08T08:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2146bff505b5d0a4bbe92d3903ea428c65f6e5f5/296_0_4428_3543/master/4428.jpg?width=140&quality=85&auto=format&fit=max&s=f0ae5896fb4e68151b76009dbd1af35a",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:34Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3aef07092351a48f6316",
+      "clusterId": "7c6d630e3bccb5bece83",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.95401,
-      "related": []
+      "related": [],
+      "rankingScore": 5.3733
     },
     {
-      "id": "58f1b61ba3833091b98a67c8",
-      "title": "Patricia Krenwinkel, former Manson follower, granted parole for third time",
+      "id": "ccbbd063a2d94e71fc29ebf0",
+      "title": "How the Kop’s chants propelled Andy Burnham to fight for Hillsborough justice",
       "translatedTitle": null,
-      "description": "The 78-year-old has spent nearly six decades in prison and California governor has overturned last two parole grants Patricia Krenwinkel, a former Charles Manson follower, was granted parole on Tuesday after nearly six decades in prison for her role in the infamous Tate-LaBianca murders in Los Angeles. This is the third time that Krenwinkel, 78, has been approved for release by California’s board of parole hearings. After both of her last two parole grants, Gavin Newsom, California’s governor, r",
-      "url": "https://www.theguardian.com/us-news/2026/oct/07/patricia-krenwinkel-manson-follower-parole",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/07/patricia-krenwinkel-manson-follower-parole",
+      "description": "A speech at Anfield in 2009 was met with boos but it led to a change in tack by Labour government and an apology from David Cameron Since dawn, visitors from as far afield as Australia had been laying flowers, scarves and messages underneath Anfield’s Eternal Flame. These Hillsborough memorial anniversary services were usually subdued and respectful affairs, with 10,000 mourners sitting on the Kop to give themselves and the families support on the most difficult of days. But on the afternoon of",
+      "url": "https://www.theguardian.com/football/2026/oct/08/how-the-kops-chants-propelled-andy-burnham-to-fight-for-hillsborough-justice",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/08/how-the-kops-chants-propelled-andy-burnham-to-fight-for-hillsborough-justice",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1609,140 +1306,350 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-07T23:37:11Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0913b3834e3bbbe9671963c4afc045a3b8aafe2e/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=fd9278fb648d9b3f2d3f7254643baf0e",
+      "publishedAt": "2026-10-08T07:32:11Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ecd62ccc0ac15b97cd88aeccf37c3842d3e10bad/412_0_2029_1623/master/2029.jpg?width=140&quality=85&auto=format&fit=max&s=099a1fb7ae3927027640d4867bd97cb9",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T04:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "5da3942fed7a7dd253b3",
+      "clusterId": "cfb5081701e24c65187b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.90871,
-      "related": []
+      "related": [],
+      "rankingScore": 5.32887
     },
     {
-      "id": "e60cc298ef08eb74f6583955",
-      "title": "How to get free spins for adding a debit card to your casino account",
+      "id": "59d1591daa0ff5d05901376f",
+      "title": "‘Vibrant, design-led and surprisingly green’: why the Dutch city of Eindhoven is perfect for a relaxed arty break",
       "translatedTitle": null,
-      "description": "A quick guide to how customers can claim free spins by adding a debit card to their casino account",
-      "url": "https://www.independent.co.uk/games/free-spins-for-adding-card-b2704906.html",
-      "canonicalUrl": "https://independent.co.uk/games/free-spins-for-adding-card-b2704906.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "After electronics giant Philips left, the city reinvented itself as a multicultural hub for creativity and innovation, and the home of Dutch Design Week A baggily clad skateboarder’s wheels clatter across concrete floors, the noise bouncing off exposed pipes and iron girders. Vaulted skylights set in high ceilings illuminate the industrial space and its central kitchen, from which my main course – a silky lemon risotto, spiked with samphire, rhubarb, garlic, baby onions and basil – has just been",
+      "url": "https://www.theguardian.com/travel/2026/oct/08/design-dutch-city-eindhoven-arty-break",
+      "canonicalUrl": "https://theguardian.com/travel/2026/oct/08/design-dutch-city-eindhoven-arty-break",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-07T23:25:40Z",
-      "imageUrl": "https://static.independent.co.uk/2025/04/09/16/15/How-To-Get-Free-Spins-For-Adding-a-Debit-Card-to-Your-Casino-Account-copy.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-10-08T07:17:33Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5c2315979d3155693d12ad0c5f574bc7a1bac6e4/291_0_2918_2335/master/2918.jpg?width=140&quality=85&auto=format&fit=max&s=00ea16e234d285f93e367447d01355c3",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c5951066cca01619dbff",
+      "clusterId": "21dcb6f2e2619f0c0c5d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 4.8943
+      "rankingScore": 5.30614
     },
     {
-      "id": "c89d8a47c13ca1da5cde2102",
-      "title": "Casino loyalty program: A complete guide to VIP and loyalty promos",
+      "id": "91f771d553931f9609c097f1",
+      "title": "Below review – a killer snot-berg causes chaos for Josh Hartnett",
       "translatedTitle": null,
-      "description": "Read our guide to help you understand casino loyalty programs operating in the UK",
-      "url": "https://www.independent.co.uk/games/casino-loyalty-program-b3038232.html",
-      "canonicalUrl": "https://independent.co.uk/games/casino-loyalty-program-b3038232.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Don your best plaid shirts for this supernatural thriller about a gang of beefy fishermen who tackle sea monsters. It is totally ridiculous – but you will have loads of daft fun Abandon all hope, ye who enter Below. And jettison disbelief while ye be at it. A six-part supernatural thriller forged from industrial-grade bunkum, Below is set in Snook’s Arm, a struggling Newfoundland fishing community beset by an ancient, unknowable evil. And plaid. And sea hags, shifty conservationists, mist, motor",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/08/below-review-netflix-josh-hartnett-sea-monsters-thriller",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/oct/08/below-review-netflix-josh-hartnett-sea-monsters-thriller",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-07T23:19:45Z",
-      "imageUrl": "https://static.independent.co.uk/2026/09/04/9/01/casino-loyalty-program-c705d937.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-10-08T07:01:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ce9369e85860fb0caba18fffeaee74accf884a10/459_0_1689_1352/master/1689.jpg?width=140&quality=85&auto=format&fit=max&s=b9e70a932c73cab81720ff02045e2dc0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "01dda4f82cc6bac53fb6",
+      "clusterId": "21dd642ea582fe9ddf4b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 4.88696
+      "rankingScore": 5.2811
     },
     {
-      "id": "6c85ea5eab7861c7628313a2",
-      "title": "Casino bankroll management: A complete guide (2026)",
+      "id": "19130b77779cc50269b7fed6",
+      "title": "Severed hands, crushed bones and a ‘monstrous mermaid with sharp teeth’: Reece Shearsmith on his dark obsessions",
       "translatedTitle": null,
-      "description": "Read our guide on casino bankroll management to help yourself manage your funds when using a casino online",
-      "url": "https://www.independent.co.uk/games/casino-bankroll-management-b3036293.html",
-      "canonicalUrl": "https://independent.co.uk/games/casino-bankroll-management-b3036293.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "The League of Gentlemen and Inside No 9 co-creator has always displayed a sense of gothic unease, and his new book combines myth, memoir – and his own disquieting drawings When Reece Shearsmith was a boy, he overheard relatives chatting at a New Year gathering. “One of them was talking about [the ghost of] a woman they’d seen standing on the village green at three in the morning,” he recalls. “Another knew a woman who woke up and found a figure sitting at the end of her bed. It’s my first recoll",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/08/reece-shearsmith-book-things-i-took-from-the-dark-myths-legends-league-of-gentlemen",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/oct/08/reece-shearsmith-book-things-i-took-from-the-dark-myths-legends-league-of-gentlemen",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-07T23:15:14Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/21/12/30/casino-bankroll-management-a09bc1ed.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-10-08T07:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5dbf10dabfae31dae5994b49e98d7ff533af8cf5/0_402_3090_2472/master/3090.png?width=140&quality=85&auto=format&fit=max&s=cec0f3a9c249b498a23f3a6bba35cd6e",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c1c354781792e398e1e6",
+      "clusterId": "2bb032d6d9148df561d7",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 4.88138
+      "rankingScore": 5.27961
     },
     {
-      "id": "e628a7e5838e3dd0ba260f59",
-      "title": "Badenoch revives one of the Tories’ most popular policies – but is anyone listening?",
+      "id": "6764f4b5e0b2a02f77f063ae",
+      "title": "Is Fury v Joshua about meritocratic sporting excellence or just algorithmic celebrity power? | Jonathan Liew",
       "translatedTitle": null,
-      "description": "Tory leader takes inspiration from George Osborne’s 2007 speech in a bid to win back voters – but it might not be enough to turn the party’s fortunes around, as political editor David Maddox explains",
-      "url": "https://www.independent.co.uk/news/uk/politics/badenoch-leader-speech-conservative-conference-inheritance-tax-b3062789.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/badenoch-leader-speech-conservative-conference-inheritance-tax-b3062789.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "This long-awaited fight is happening exactly as intended: at the sweet spot where commercial potential meets a genuine absence of jeopardy The 1912 Olympic marathon was held in a brutal Scandinavian heatwave, and before long Shizo Kanakuri of Japan was flagging. His journey to Stockholm had been debilitating; he had barely trained and struggled to sleep. At around the 16-mile mark he finally gave in. Exhausted and disoriented, he stumbled off the road and into a garden party, where – according t",
+      "url": "https://www.theguardian.com/sport/2026/oct/08/boxing-tyson-fury-anthony-joshua-celebrity-power",
+      "canonicalUrl": "https://theguardian.com/sport/2026/oct/08/boxing-tyson-fury-anthony-joshua-celebrity-power",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-07T23:14:31Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/07/13/2299050478..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-10-08T07:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/779ad98883c1b90ee5e0f73177346611c42f940e/277_0_3198_2559/master/3198.jpg?width=140&quality=85&auto=format&fit=max&s=701e12c7735e9d856aa36b618d256dfe",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-08T08:17:33Z",
+      "retrievedAt": "2026-10-08T12:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3dcd828cbab006a3a9cd",
+      "clusterId": "e06d50508dbb112517bb",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 4.88049
+      "rankingScore": 5.27961
+    },
+    {
+      "id": "dea1e7e67ffed2acb54c77c2",
+      "title": "Here’s what connects the Cornell alleged rape case to those before: accused men not being held to serious account | Emma Brockes",
+      "translatedTitle": null,
+      "description": "There was progress after #MeToo, but not enough. Certainly not enough to shift the assumptions that still protect men and denigrate victims If the past is another country, and there is nothing so poignant as the innocence of recent history, then there is a third category of engagement with the era directly preceding our own, encapsulated by the line “that didn’t age well”. I found myself thinking about this in relation to news of the seven male students accused of gang-raping a 20-year-old woman",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/08/cornell-alleged-rape-metoo-men-victims",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/08/cornell-alleged-rape-metoo-men-victims",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T07:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a7f542ede274e25ef5b26326a4428140f99c9365/35_0_2434_1947/master/2434.jpg?width=140&quality=85&auto=format&fit=max&s=c1e2a760f8f1c2e50cd91f25399299d7",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7bf054297d348ec0744b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27961
+    },
+    {
+      "id": "d09088feb5f6f8dd08bc3699",
+      "title": "‘Those memories are ours and no verdict changes that’: Manchester City fans’ views",
+      "translatedTitle": null,
+      "description": "While most supporters seem to want to get behind the club, some fear actions of the owners will divide fanbase Nicola Schofield, City fan for more than 40 years: One of my (million) concerns, as someone who feels angry with the owners, is if the owners’ strategy causes a split in the fanbase. I think everyone wants to get behind the club and team, but this is different to the experience of a relegation of the type I experienced in the 90s. We all shared that, and we stood by the club down to Lea",
+      "url": "https://www.theguardian.com/football/2026/oct/08/manchester-city-verdict-fans-views",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/08/manchester-city-verdict-fans-views",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T07:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e728d62414d833cdbfd82fcc522f1218539f2352/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=192639f6c51b8d8ea738dc52c7d40182",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "151accc1982ab10a9f52",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27961
+    },
+    {
+      "id": "554e447a9c2974f29649ba53",
+      "title": "You be the judge: my friend and I bought a tent but she’s moved away. Who owns it now?",
+      "translatedTitle": null,
+      "description": "Ava shared the initial cost but Ruth has forked out for repairs. You decide who’s on the wrong side of this in-tents debate? • Find out how to get a disagreement settled or become a juror I paid for half of the tent, so I deserve equal use of it, even if we no longer live in the same country Ava hasn’t used the tent in years, and I’ve stored it and paid for its upkeep. Surely I get first dibs? Continue reading...",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/08/you-be-the-judge-my-friend-and-i-bought-a-tent-but-shes-moved-away-who-owns-it-now",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/08/you-be-the-judge-my-friend-and-i-bought-a-tent-but-shes-moved-away-who-owns-it-now",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T07:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0c6c34b8ecd3ffc702fdec96adcfa2077e3f4f00/54_56_1550_1241/master/1550.jpg?width=140&quality=85&auto=format&fit=max&s=2c2062a677fdf368b888eff308e4c665",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8c37aae061068ad235ce",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27958
+    },
+    {
+      "id": "ef10c99198aada84249f5a12",
+      "title": "Outspoken Indian actor Nana Patekar suddenly dies at 75",
+      "translatedTitle": null,
+      "description": "Known for his intense performances, Patekar carved out a distinctive place in Indian cinema.",
+      "url": "https://www.bbc.co.uk/news/articles/cj3vqr5rknpeo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cj3vqr5rknpeo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T03:41:34Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab69/live/59fe1be0-c30e-11f1-a64c-550be9e3c66b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f48dcf8a61f9a3abd18f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27414
+    },
+    {
+      "id": "85f4ddbd9deeaa8f543c23f6",
+      "title": "France's school protests: What lies behind the anger",
+      "translatedTitle": null,
+      "description": "Students' blockades and marches spring from real grievances – and from France's habit of settling policy on the street.",
+      "url": "https://www.bbc.co.uk/news/articles/c6n9rgg80z94o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6n9rgg80z94o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T03:38:46Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d06a/live/72534a40-c2e0-11f1-babe-4199b0e7ccea.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a35137f15782c639eb89",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27061
+    },
+    {
+      "id": "145a439c95795f3095c02dbc",
+      "title": "University students say procrastination is biggest threat to their academic performance",
+      "translatedTitle": null,
+      "description": "More than half of US students surveyed said the problem damaged their ability to do academic work, study finds Procrastination is the biggest problem that can harm students’ academic performance at university, according to a study of more than 65,000 young people who placed it above issues such as ADHD, anxiety or financial worries. The study found that nearly half of the students surveyed named procrastination as the thing damaging their ability to do academic work, more than twice the number w",
+      "url": "https://www.theguardian.com/education/2026/oct/08/university-students-procrastination-biggest-threat-academic-performance",
+      "canonicalUrl": "https://theguardian.com/education/2026/oct/08/university-students-procrastination-biggest-threat-academic-performance",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T06:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/defe7a8436d19c946e889c622490c0b2964a4f60/591_0_4750_3800/master/4750.jpg?width=140&quality=85&auto=format&fit=max&s=dd3d16f9169d696cc0ee24c1e2069659",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "35f62a6da63875738311",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19098
+    },
+    {
+      "id": "1c0c07666a0367390828aec4",
+      "title": "Agate Head / Stone Soup by Patricia Lockwood review – a gem of a collection",
+      "translatedTitle": null,
+      "description": "Inspired by stones and metals, the memoirist and novelist’s first poetry collection for more than a decade is charming, whimsical and intimate In the introduction to her first book of poetry in 12 years, Patricia Lockwood states that, “For almost a decade … I had not been able to hear it. The poems that I wrote would not end … too much was happening, there was a different kind of attention being paid.” It wasn’t that she didn’t want them to arrive. From Cave Painting: “And does she still write p",
+      "url": "https://www.theguardian.com/books/2026/oct/08/agate-head-stone-soup-by-patricia-lockwood-review-a-gem-of-a-collection",
+      "canonicalUrl": "https://theguardian.com/books/2026/oct/08/agate-head-stone-soup-by-patricia-lockwood-review-a-gem-of-a-collection",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-08T06:00:11Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6cbbe49cbacae35950cf4262fd1188e05dc12cbf/51_259_4585_3668/master/4585.jpg?width=140&quality=85&auto=format&fit=max&s=9f651660f413b673c14454a47668a9a4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-08T12:17:39Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a9d13e91d4ef4ed78700",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19096
     }
   ]
 }
