@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-09",
-  "generatedAt": "2026-10-09T08:17:37Z",
-  "lastAttemptAt": "2026-10-09T08:17:37Z",
-  "lastSuccessfulUpdate": "2026-10-09T08:17:37Z",
-  "status": "partial",
+  "generatedAt": "2026-10-09T12:17:32Z",
+  "lastAttemptAt": "2026-10-09T12:17:32Z",
+  "lastSuccessfulUpdate": "2026-10-09T12:17:32Z",
+  "status": "current",
   "samplePreview": false,
   "articleCount": 45,
-  "publisherCount": 3,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-09T08:17:36Z",
-      "lastSuccessAt": "2026-10-09T08:17:36Z",
-      "articlesRetrieved": 30,
-      "responseTimeMs": 237,
+      "lastAttemptAt": "2026-10-09T12:17:31Z",
+      "lastSuccessAt": "2026-10-09T12:17:31Z",
+      "articlesRetrieved": 33,
+      "responseTimeMs": 334,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-09T08:17:36Z",
-      "lastSuccessAt": "2026-10-09T08:17:36Z",
+      "lastAttemptAt": "2026-10-09T12:17:31Z",
+      "lastSuccessAt": "2026-10-09T12:17:31Z",
       "articlesRetrieved": 139,
-      "responseTimeMs": 341,
+      "responseTimeMs": 214,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,361 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-09T08:17:36Z",
-      "lastSuccessAt": "2026-10-09T08:17:36Z",
+      "lastAttemptAt": "2026-10-09T12:17:31Z",
+      "lastSuccessAt": "2026-10-09T12:17:31Z",
       "articlesRetrieved": 10,
-      "responseTimeMs": 536,
+      "responseTimeMs": 406,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "failed",
-      "lastAttemptAt": "2026-10-09T08:17:36Z",
-      "lastSuccessAt": null,
-      "articlesRetrieved": 0,
-      "responseTimeMs": null,
-      "errorType": "RuntimeError",
-      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      "status": "success",
+      "lastAttemptAt": "2026-10-09T12:17:31Z",
+      "lastSuccessAt": "2026-10-09T12:17:31Z",
+      "articlesRetrieved": 100,
+      "responseTimeMs": 370,
+      "errorType": null,
+      "errorMessage": null
     }
   ],
   "articles": [
+    {
+      "id": "63c54b239494174d5fbfd6ec",
+      "title": "Polanski vows to stay on as Green leader as criticism mounts",
+      "translatedTitle": null,
+      "description": "Jewish Greens' leader has said Polanski should resign in the wake of a Zionism row and by-election defeat.",
+      "url": "https://www.bbc.co.uk/news/articles/cmewe5lvl2rqo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmewe5lvl2rqo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T11:42:48Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/05a7/live/73d29990-c3d8-11f1-9a39-31b474234113.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3b75846f82f95cf88a18",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "4f3eaf9091552a0a041ea0f8",
+          "title": "Holborn and St Pancras by-election results in full: Labour beats Green leader Polanski to win Starmer’s old seat",
+          "translatedTitle": null,
+          "description": "Andy Burnham’s party has retained the North London seat despite a dip in support",
+          "url": "https://www.independent.co.uk/news/uk/politics/holborn-st-pancras-by-election-results-who-won-b3063906.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/politics/holborn-st-pancras-by-election-results-who-won-b3063906.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T12:03:47Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/09/07/01M4F94FPXFD3WFGP3JTC6C421.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T12:17:31Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "3b75846f82f95cf88a18",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "holborn and st pancras by election results in full labour beats green leader polanski to win starmer s old seat"
+        },
+        {
+          "id": "6182342151eb4d95dc19b22c",
+          "title": "Labour wins Holborn and St Pancras byelection; Polanski ‘absolutely’ intends to remain Green party leader – UK politics live",
+          "translatedTitle": null,
+          "description": "Sagal Abdi-Wali defeats Green party leader Zack Polanski to retain the Holborn and St Pancras seat for Labour Report: Labour wins Holborn and St Pancras byelection Analysis: defeat will disappoint Greens – but there may also be relief Activists in Camden have suggested the Greens’ decision to back the anti-Zionism motion has cost them votes in the byelection. Councillors for both Labour the Liberal Democrats told the Press Association that voters had informed them they would not be backing the G",
+          "url": "https://www.theguardian.com/politics/live/2026/oct/09/holborn-st-pancras-byelection-result-zack-polanski-sagal-abdi-wali-uk-labour-green-party-uk-politics-latest-news",
+          "canonicalUrl": "https://theguardian.com/politics/live/2026/oct/09/holborn-st-pancras-byelection-result-zack-polanski-sagal-abdi-wali-uk-labour-green-party-uk-politics-latest-news",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T08:12:11Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/3d369e12e849f3b719a3e30aec7ddc4972f5e93b/389_0_4527_3621/master/4527.jpg?width=140&quality=85&auto=format&fit=max&s=d1e510b3f2ece197a12d8ee483d957cb",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "3b75846f82f95cf88a18",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "labour wins holborn and st pancras byelection polanski absolutely intends to remain green party leader uk politics live"
+        },
+        {
+          "id": "4c7457aa786cea37596ea505",
+          "title": "Labour fends off Green party to win Holborn and St Pancras byelection",
+          "translatedTitle": null,
+          "description": "Victory by Sagal Abdi-Wali in north London seat will be a relief for Andy Burnham in high-stakes battle for the left of British politics Holborn and St Pancras byelection – live updates Labour has won the Holborn and St Pancras byelection in a high-stakes battle for the left of British politics. The byelection, called after the former prime minister Keir Starmer resigned the seat in September, was considered a two-horse race between the Labour candidate, Sagal Abdi-Wali, and the Green party lead",
+          "url": "https://www.theguardian.com/politics/2026/oct/09/labour-wins-holborn-st-pancras-byelection-green-party",
+          "canonicalUrl": "https://theguardian.com/politics/2026/oct/09/labour-wins-holborn-st-pancras-byelection-green-party",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T02:03:41Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/5a7a20fae5d7793ab3528a99435c969345139c5b/911_269_6730_5385/master/6730.jpg?width=140&quality=85&auto=format&fit=max&s=a43ae0e489d4f7cb272c1f5918e059fa",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T04:17:38Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "3b75846f82f95cf88a18",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.45613,
+          "normalizedTitle": "labour fends off green party to win holborn and st pancras byelection",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 10.54015
+    },
+    {
+      "id": "bffa1cbf12766a1960c90d12",
+      "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
+      "translatedTitle": null,
+      "description": "Committee recognises work of South African who chaired UN commission that concluded Israel was guilty of genocide in Gaza Nobel peace prize – latest updates The Nobel Peace Prize has been awarded to Navi Pillay, the South African former UN human rights chief who chaired the UN commission that concluded Israel was guilty of genocide in Gaza. The Norwegian Nobel committee said Pillay, who is serving as a judge at the International Court of Justice (ICJ), has “shown that legal measures can help pre",
+      "url": "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T11:24:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1af4719571646d49b58a7ed6e715293e288fb0b4/221_146_6359_5087/master/6359.jpg?width=140&quality=85&auto=format&fit=max&s=c3a3342197ea60869e430d51e4329640",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7b0014c7beee1de0d74b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "ddd2f07255ee9f9cda597d29",
+          "title": "Nobel Peace Prize winner Navi Pillay roasts Trump after winning award: ‘If you clap more I might share it with him’",
+          "translatedTitle": null,
+          "description": "Trump has long coveted the prize and heaped pressure on the committee to award it to him",
+          "url": "https://www.independent.co.uk/world/donald-trump-nobel-peace-prize-navi-pillay-b3064048.html",
+          "canonicalUrl": "https://independent.co.uk/world/donald-trump-nobel-peace-prize-navi-pillay-b3064048.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T11:10:02Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/09/10/2026-10-09T091256Z_2108488287_RC2LZNANWBG4_RTRMADP_3_NOBEL-PRIZE-PEACE.JPG?width=1200&auto=webp&trim=73%2C0%2C73%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T12:17:31Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "7b0014c7beee1de0d74b",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "nobel peace prize winner navi pillay roasts trump after winning award if you clap more i might share it with him"
+        },
+        {
+          "id": "9b60fe6b8e26db95c0954db7",
+          "title": "Former UN human rights chief Navi Pillay wins 2026 Nobel Peace Prize as Trump loses again",
+          "translatedTitle": null,
+          "description": "Trump heaped pressure on the Norwegian Committee to give him the award",
+          "url": "https://www.independent.co.uk/news/world/nobel-peace-prize-navi-pillay-winner-2026-trump-b3063589.html",
+          "canonicalUrl": "https://independent.co.uk/news/world/nobel-peace-prize-navi-pillay-winner-2026-trump-b3063589.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T09:04:57Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/09/10/2235186507..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T12:17:31Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "7b0014c7beee1de0d74b",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "former un human rights chief navi pillay wins 2026 nobel peace prize as trump loses again"
+        },
+        {
+          "id": "1194f2bcae6610034a22bbd2",
+          "title": "And the Nobel Peace Prize goes to...",
+          "translatedTitle": null,
+          "description": "Navanethem \"Navi\" Pillay, a South African jurist and former UN high commissioner for human rights, has been awarded the 2026 Nobel Peace Prize.",
+          "url": "https://news.sky.com/story/former-un-human-rights-chief-navi-pillay-wins-the-nobel-peace-prize-13596724",
+          "canonicalUrl": "https://news.sky.com/story/former-un-human-rights-chief-navi-pillay-wins-the-nobel-peace-prize-13596724",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T09:01:00Z",
+          "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-navi-pillay-human-rights_7371876.jpg?20261009100818",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T12:17:31Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "7b0014c7beee1de0d74b",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "and the nobel peace prize goes to"
+        },
+        {
+          "id": "ebfef4f30e6c7b7572b30c7d",
+          "title": "Winner of 2026 Nobel peace prize to be announced - Europe live",
+          "translatedTitle": null,
+          "description": "The winner will be announced in a ceremony that starts at 10am UK time (11am CEST) There is always lots of speculations and chatter about “ooh, so and so was nominated to the Nobel Peace Prize,” but it doesn’t mean that much. All nominations must by submitted by 31 January, preferably online, but members of the Nobel Committee may add further names to the list during their first meeting, which last year was held in late February. Continue reading...",
+          "url": "https://www.theguardian.com/world/live/2026/oct/09/2026-nobel-peace-prize-winner-russia-ukraine-sudan-war-france-protests-poland-latest-news-updates",
+          "canonicalUrl": "https://theguardian.com/world/live/2026/oct/09/2026-nobel-peace-prize-winner-russia-ukraine-sudan-war-france-protests-poland-latest-news-updates",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T08:15:01Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/e8327e962a48f8eb555ae5542ca75cb5e4a2b7d8/383_0_5800_4642/master/5800.jpg?width=140&quality=85&auto=format&fit=max&s=7eb313cca98f23a737261549cef1fd0f",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "7b0014c7beee1de0d74b",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.83466,
+          "normalizedTitle": "winner of 2026 nobel peace prize to be announced europe live",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 9.88371
+    },
+    {
+      "id": "b734c2adb807f8ad072964c8",
+      "title": "Leader of Jewish Greens calls for Zack Polanski to resign after byelection loss",
+      "translatedTitle": null,
+      "description": "Vivien Lichtenstein says party leader should stand down over ‘Zionism is racism’ policy UK politics live – latest updates The leader of the Jewish Greens has called for Zack Polanski to step down as pressure increases on the Green leader to acknowledge anger within the party over a new policy that equates Zionism with racism and calls for the state of Israel to be abolished. The comments by Vivien Lichtenstein come after Caroline Lucas, the Greens’ former leader and first MP, criticised Polanski",
+      "url": "https://www.theguardian.com/politics/2026/oct/09/leader-of-jewish-greens-calls-for-zack-polanski-to-resign",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/09/leader-of-jewish-greens-calls-for-zack-polanski-to-resign",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:48:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/27a0d2537fdc8bf038da35c42230c95c5cc2cb3c/374_0_5749_4599/master/5749.jpg?width=140&quality=85&auto=format&fit=max&s=b9cb85b6f4f8ce223c0fb78249219acd",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e9d0d114a2908efc9a41",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "25e0c91a8927380d2a97f298",
+          "title": "Jewish Greens chair calls for Polanski’s resignation after by-election defeat",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://www.independent.co.uk/bulletin/news/zack-polanski-election-zionism-green-party-b3064100.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/news/zack-polanski-election-zionism-green-party-b3064100.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T11:13:29Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/09/09/2026-10-09T084212Z_599209813_RC2KZNAQYRUT_RTRMADP_3_BRITAIN-POLITICS-BYELECTION.JPG?width=1200&auto=webp&trim=32%2C0%2C32%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T12:17:31Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e9d0d114a2908efc9a41",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "jewish greens chair calls for polanski s resignation after by election defeat"
+        }
+      ],
+      "rankingScore": 9.76632
+    },
     {
       "id": "8f3840230050796ae16277c2",
       "title": "Oil prices fall as Trump pauses Iran attacks, China restarts fuel exports – business live",
@@ -85,106 +420,16 @@
       "clusterId": "03f0f772af9587169873",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 10.23453
-    },
-    {
-      "id": "414bf6b955a6363642b16382",
-      "title": "Palantir’s Tom Watson says ‘mob rule’ must not dictate awarding of government contracts",
-      "translatedTitle": null,
-      "description": "Former Labour deputy leader says tech firm would work with a Reform UK government on immigration crackdowns Tom Watson, the former Labour deputy leader who recently joined Palantir, has warned against “mob rule” when it comes to awarding public contracts. Lord Watson, now a senior vice-president at the US tech corporation, said UK ministers could get themselves “in a lot of trouble” as he was questioned about concerns raised about the government working with his new employer. Continue reading...",
-      "url": "https://www.theguardian.com/technology/2026/oct/09/palantir-tom-watson-mob-rule-government-contracts",
-      "canonicalUrl": "https://theguardian.com/technology/2026/oct/09/palantir-tom-watson-mob-rule-government-contracts",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T07:20:33Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/feaa93bb4c00e44a655ff9ed1d226f783dc7d75c/0_0_2750_2200/master/2750.jpg?width=140&quality=85&auto=format&fit=max&s=463595922b7a8989f804ca98047a7b1e",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1b4e62e3a71ea97a5a3d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.77672
-    },
-    {
-      "id": "1acecebcb5a2969c91b8adce",
-      "title": "Millions on alert as Hurricane Isaias set to bring dangerous storm surge",
-      "translatedTitle": null,
-      "description": "Residents in areas from the mouth of the Mississippi River to Florida urged to ‘evacuate if told to do so’ Millions of people from Louisiana to Florida were under hurricane warnings on Thursday as Hurricane Isaias heads toward the US Gulf coast, with weather officials warning of dangerous storm surge, hurricane-force winds, heavy rainfall and flooding. Isaias intensified from a tropical storm into the first hurricane of the 2026 Atlantic hurricane season on Wednesday night, and has prompted stat",
-      "url": "https://www.theguardian.com/world/2026/oct/08/hurricane-isaias-gulf-coast",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/08/hurricane-isaias-gulf-coast",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T01:21:04Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/09e8bcd1228f94966d2814ac13a61077bad0a927/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=08d7044e39b033511298c980899e4404",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T04:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3e8a77123000ada0a24c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.74592,
+      "rankingScore": 9.35723,
       "related": []
     },
     {
-      "id": "08e778e4cc3732f083caf9ff",
-      "title": "Ukraine war briefing: Zelenskyy criticises US, calls for more Starlink access, amid deadly Russian assault",
+      "id": "967a0abcdf0502e06fef637c",
+      "title": "Man City titles 'absolutely not' tainted - Maresca",
       "translatedTitle": null,
-      "description": "Ukrainian president says expanded Starlink access will help nation target Russian ballistic-missile launchers. What we know on day 1,689 President Volodymyr Zelenskyy accused the US of being unwilling to help Ukraine after a Russian bomb attack on Thursday killed at least 35 people in the east, sending the two-day death ⁠toll from Russian strikes to more than 70. Hours ⁠after the strike on the ​embattled city of Kramatorsk tore through two buses, Zelenskyy criticised Washington’s effort to pursu",
-      "url": "https://www.theguardian.com/world/2026/oct/09/ukraine-war-briefing-zelenskyy-criticises-us-calls-for-more-starlink-access-amid-deadly-russian-assault",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/09/ukraine-war-briefing-zelenskyy-criticises-us-calls-for-more-starlink-access-amid-deadly-russian-assault",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T23:42:44Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1480b8159d8b7223ca915be65657a361555877d1/415_0_4780_3824/master/4780.jpg?width=140&quality=85&auto=format&fit=max&s=04eb77cc8bc43d2686b94d22076bf8ea",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T04:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9875c40fb5299d0cad07",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.61573,
-      "related": []
-    },
-    {
-      "id": "1775434c926d4a0c1a022b0e",
-      "title": "Chris Mason: Questions remain for Green Party leader Zack Polanski",
-      "translatedTitle": null,
-      "description": "Senior party figures have criticised his response to a motion passed by members declaring Zionism a form of racism.",
-      "url": "https://www.bbc.co.uk/news/videos/cxly4jy042eno?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/videos/cxly4jy042eno?at_campaign=rss&at_medium=RSS",
+      "description": "Manchester City manager Enzo Maresca says the club's titles are \"absolutely not\" tainted after they were found guilty of the majority of the 115 charges brought against them by the Premier League.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmzxjdvv784xo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cmzxjdvv784xo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -193,26 +438,26 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-09T06:39:13Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52ae/live/7e9672a0-c3b2-11f1-9a39-31b474234113.jpg",
+      "publishedAt": "2026-10-09T10:24:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/629b/live/843a2b40-c3ce-11f1-8fc5-335d62f6730b.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
+      "retrievedAt": "2026-10-09T12:17:31Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c997b555191c4f673de7",
+      "clusterId": "1a9c73e09737f159c31d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "6182342151eb4d95dc19b22c",
-          "title": "Labour wins Holborn and St Pancras byelection; Polanski ‘absolutely’ intends to remain Green party leader – UK politics live",
+          "id": "0415eaf2a73e4610654519c9",
+          "title": "Maresca says Manchester City titles ‘absolutely not’ tainted; Mourinho defends Mbappé – live",
           "translatedTitle": null,
-          "description": "Sagal Abdi-Wali defeats Green party leader Zack Polanski to retain the Holborn and St Pancras seat for Labour Report: Labour wins Holborn and St Pancras byelection Analysis: defeat will disappoint Greens – but there may also be relief Activists in Camden have suggested the Greens’ decision to back the anti-Zionism motion has cost them votes in the byelection. Councillors for both Labour the Liberal Democrats told the Press Association that voters had informed them they would not be backing the G",
-          "url": "https://www.theguardian.com/politics/live/2026/oct/09/holborn-st-pancras-byelection-result-zack-polanski-sagal-abdi-wali-uk-labour-green-party-uk-politics-latest-news",
-          "canonicalUrl": "https://theguardian.com/politics/live/2026/oct/09/holborn-st-pancras-byelection-result-zack-polanski-sagal-abdi-wali-uk-labour-green-party-uk-politics-latest-news",
+          "description": "⚽ All the latest football news heading into the weekend⚽ Ten things | Maresca coy on future | Mail Rob Football Weekly: You can watch/listen to the pod squad discuss Sunday’s clash between Liverpool and Manchester City, plus much more, in the latest episode. A reminder that Enzo Maresca will face the media in 20 minutes’ time at the Etihad Campus in Manchester. You can follow the press conference live here. Continue reading...",
+          "url": "https://www.theguardian.com/football/live/2026/oct/09/premier-league-resumes-manchester-city-in-spotlight-football-news-live",
+          "canonicalUrl": "https://theguardian.com/football/live/2026/oct/09/premier-league-resumes-manchester-city-in-spotlight-football-news-live",
           "sourceName": "The Guardian",
           "sourceDomain": "theguardian.com",
           "sourceCountry": "GB",
@@ -221,31 +466,212 @@
             "GB"
           ],
           "language": "en",
-          "publishedAt": "2026-10-09T08:12:11Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/3d369e12e849f3b719a3e30aec7ddc4972f5e93b/389_0_4527_3621/master/4527.jpg?width=140&quality=85&auto=format&fit=max&s=d1e510b3f2ece197a12d8ee483d957cb",
+          "publishedAt": "2026-10-09T12:13:43Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/2dd1d21f85ce8ba9728afcf6dd066b701b568d0a/0_0_4571_3657/master/4571.jpg?width=140&quality=85&auto=format&fit=max&s=9081d14f24161fa114c33dc589a9ad91",
           "imageAlt": null,
-          "category": "Domestic",
+          "category": "Sports",
           "topics": [],
-          "retrievedAt": "2026-10-09T08:17:36Z",
+          "retrievedAt": "2026-10-09T12:17:31Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "c997b555191c4f673de7",
+          "clusterId": "1a9c73e09737f159c31d",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
-          "normalizedTitle": "labour wins holborn and st pancras byelection polanski absolutely intends to remain green party leader uk politics live"
+          "normalizedTitle": "maresca says manchester city titles absolutely not tainted mourinho defends mbappé live"
+        },
+        {
+          "id": "f3627c73e163b919d5cdd617",
+          "title": "Man City charges LIVE: Arteta and Iraola set to speak after guilty verdict as Maresca insists titles aren’t tainted",
+          "translatedTitle": null,
+          "description": "Maresca struck a defiant tone when asked about the club’s breaches of Premier League financial rules ahead of their clash with Liverpool at Anfield",
+          "url": "https://www.independent.co.uk/sport/football/man-city-charges-live-updates-liverpool-maresca-premier-league-press-conferences-b3063939.html",
+          "canonicalUrl": "https://independent.co.uk/sport/football/man-city-charges-live-updates-liverpool-maresca-premier-league-press-conferences-b3063939.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T12:10:05Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/09/10/01M4G0DVHNNFYW4S62YWNE63ZH.jpg?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T12:17:31Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "1a9c73e09737f159c31d",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "man city charges live arteta and iraola set to speak after guilty verdict as maresca insists titles aren t tainted"
+        },
+        {
+          "id": "6a0c4391279d5e402ecd5ee0",
+          "title": "Defiant Enzo Maresca makes Man City vow after Premier League guilty verdict",
+          "translatedTitle": null,
+          "description": "The Manchester City manager, speaking for the first time since the verdict was revealed, emphasised his trust in his employers",
+          "url": "https://www.independent.co.uk/sport/football/man-city-charges-enzo-maresca-premier-league-verdict-b3063961.html",
+          "canonicalUrl": "https://independent.co.uk/sport/football/man-city-charges-enzo-maresca-premier-league-verdict-b3063961.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T10:16:09Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/09/10/01M3CFCCTMQQQAESVH43D5DJPA.jpg?width=1200&auto=webp&trim=22%2C0%2C22%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T12:17:31Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "1a9c73e09737f159c31d",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "defiant enzo maresca makes man city vow after premier league guilty verdict"
+        },
+        {
+          "id": "fa1fe4bf59ae658f46dbd0fc",
+          "title": "Enzo Maresca insists he has 'complete trust' in Man City owners",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://www.independent.co.uk/bulletin/sport/enzo-maresca-man-city-owners-premier-league-charges-b3064043.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/sport/enzo-maresca-man-city-owners-premier-league-charges-b3064043.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T10:12:42Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/09/10/01M3CFCCTMQQQAESVH43D5DJPA.jpg?width=1200&auto=webp&trim=22%2C0%2C22%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T12:17:31Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "1a9c73e09737f159c31d",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "enzo maresca insists he has complete trust in man city owners"
         }
       ],
-      "rankingScore": 7.31837
+      "rankingScore": 8.69066
     },
     {
-      "id": "c5210b7d830fbd769ef0252b",
-      "title": "Chris Mason: Polanski faces greatest crisis of his leadership so far",
+      "id": "24872a73a3f6bfb8e3960442",
+      "title": "Two men accused of spying for Iran deny National Security Act charge",
       "translatedTitle": null,
-      "description": "The Green leader faces pressure over his response to a party motion declaring Zionism a form of racism, as well as his by-election loss.",
-      "url": "https://www.bbc.co.uk/news/articles/cm70p821d6w4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm70p821d6w4o?at_campaign=rss&at_medium=RSS",
+      "description": "Two men accused of spying for Iran have pleaded not guilty to a charge under the National Security Act.",
+      "url": "https://news.sky.com/story/two-men-accused-of-spying-on-israeli-embassy-for-iran-deny-national-security-act-charge-13596536",
+      "canonicalUrl": "https://news.sky.com/story/two-men-accused-of-spying-on-israeli-embassy-for-iran-deny-national-security-act-charge-13596536",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T11:29:00Z",
+      "imageUrl": "https://e3.365dm.com/26/04/1920x1080/skynews-nematollah-shahsavani_7229348.jpg?20260424145007",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c12b684cb1dc77365727",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "3d8ab3244f3830d82ad86d0f",
+          "title": "Two men deny spying on UK Jewish community for Iran",
+          "translatedTitle": null,
+          "description": "Targets allegedly included the Israeli embassy and consulate, a woman said to be of interest to Iran, a college and Britain’s oldest synagogue",
+          "url": "https://www.independent.co.uk/news/uk/crime/iran-spy-jews-nematollahshahsavani-alireza-farasati-b3064093.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/crime/iran-spy-jews-nematollahshahsavani-alireza-farasati-b3064093.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T11:13:37Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/09/12/2299197144..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T12:17:31Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "c12b684cb1dc77365727",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "two men deny spying on uk jewish community for iran"
+        }
+      ],
+      "rankingScore": 8.4931
+    },
+    {
+      "id": "ab2750c9a67129ecf4f73f13",
+      "title": "Mexico investigates video showing suspected drug cartel members in Ukraine",
+      "translatedTitle": null,
+      "description": "President Claudia Sheinbaum said the government is now reviewing the footage",
+      "url": "https://www.independent.co.uk/news/world/europe/mexico-drug-cartels-ukraine-b3063957.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/europe/mexico-drug-cartels-ukraine-b3063957.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:25:59Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/09/09/2296263212..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b54284a48567c73d7e5e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.2339
+    },
+    {
+      "id": "9ca1ca35debf4185f36731e6",
+      "title": "Polanski challenged over whether he thinks Israel has right to exist",
+      "translatedTitle": null,
+      "description": "The Green Party leader defends his decision to miss a debate on a controversial motion about Zionism which was passed by party members.",
+      "url": "https://www.bbc.co.uk/news/videos/c6qjnv07q452o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/c6qjnv07q452o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -254,686 +680,1017 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-09T06:35:56Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb8b/live/eafd3fa0-c3ad-11f1-a0b5-7b6bc14012a9.jpg",
+      "publishedAt": "2026-10-09T12:08:42Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87c8/live/f9d65990-c3d9-11f1-95ba-dba767ffba7e.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
+      "retrievedAt": "2026-10-09T12:17:31Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1dbddab38aecabac8f4b",
+      "clusterId": "4e3d5572f7840b4a021c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.26227
+      "rankingScore": 7.44185
     },
     {
-      "id": "ac871ce1c820a8e7a5d8a6a0",
-      "title": "A promising future now looks perilous for election loser Zack Polanski. He sowed, now he reaps | John Harris",
+      "id": "e4ed206bda4f0f80d81de685",
+      "title": "Andrew Mountbatten-Windsor compensated £300,000 after Royal Lodge lease ends",
       "translatedTitle": null,
-      "description": "There was a real chance of a Green byelection win in Holborn and St Pancras. He made bad decisions and cost his party dear As ever, among all the noise triggered by Labour holding the seat of Holborn and St Pancras, the most plain-spoken and undeniable analysis was provided by that sage and national treasure John Curtice, of Strathclyde University. The result, he said, echoed national opinion polls, and reflected two undeniable facts: that the Greens are in need of a period of contrition and ref",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/09/perilous-election-loser-zack-polanski-green-byelection-holborn-st-pancras",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/09/perilous-election-loser-zack-polanski-green-byelection-holborn-st-pancras",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "The lease on his former royal home has ended",
+      "url": "https://www.independent.co.uk/news/uk/home-news/andrew-mountbatten-windsor-royal-lodge-lease-compensation-b3064044.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/andrew-mountbatten-windsor-royal-lodge-lease-compensation-b3064044.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-09T07:58:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/20e2c14d68e6bf585662e8d7c1daf9faa1bf5f63/2229_0_4049_3240/master/4049.jpg?width=140&quality=85&auto=format&fit=max&s=90490f9e63f5586f1529208be81201d1",
+      "publishedAt": "2026-10-09T11:56:34Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/08/14/01M4D5Y63RGN6FE570YF35194Z.jpg?width=1200&auto=webp&trim=651%2C0%2C2163%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
+      "retrievedAt": "2026-10-09T12:17:31Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b469c4f24db4bf50e59e",
+      "clusterId": "e0bb5f0c5b9067202852",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "b8eccd8a9384fa07b1afbd08",
+          "title": "Andrew granted compensation after Royal Lodge lease surrendered",
+          "translatedTitle": null,
+          "description": "Andrew Mountbatten-Windsor has been granted £302,000 in compensation after his lease on his former Royal Lodge home in Windsor was officially surrendered, a Crown Estate spokesperson said.",
+          "url": "https://news.sky.com/story/andrew-mountbatten-windsor-granted-302000-in-compensation-after-lease-on-royal-lodge-officially-surrendered-13596716",
+          "canonicalUrl": "https://news.sky.com/story/andrew-mountbatten-windsor-granted-302000-in-compensation-after-lease-on-royal-lodge-officially-surrendered-13596716",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-09T10:10:00Z",
+          "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-andrew-mountbatten-windsor_7368674.jpg?20261005121300",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-09T12:17:31Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e0bb5f0c5b9067202852",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "andrew granted compensation after royal lodge lease surrendered"
+        }
+      ],
+      "rankingScore": 7.19747
+    },
+    {
+      "id": "9c4e36075aa1f6b9d87f405f",
+      "title": "Delhi faces police lockdown ahead of fresh wave of ‘cockroach’ party-led protests",
+      "translatedTitle": null,
+      "description": "Delhi police denies permission to protest against chief election commissioner Gyanesh Kumar",
+      "url": "https://www.independent.co.uk/asia/india/delhi-jantar-mantar-protests-cjp-congress-gyanesh-kumar-b3064128.html",
+      "canonicalUrl": "https://independent.co.uk/asia/india/delhi-jantar-mantar-protests-cjp-congress-gyanesh-kumar-b3064128.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T12:09:41Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/09/12/download.-1.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "03491acc7d9649a2053b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.15172
+      "rankingScore": 7.08384
     },
     {
-      "id": "d9b21133a508e12e141da61a",
-      "title": "Russian strikes and approaching winter force many in Kyiv to pack bags and flee",
+      "id": "255d08c623d20bc78c1f6f3d",
+      "title": "Football watchdog to unveil levy proposals as report lays bare game's financial peril",
       "translatedTitle": null,
-      "description": "A renewed Russian campaign of strikes on power and energy infrastructure has made some contemplate leaving Ukraine's capital.",
-      "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6zjx7jexz1do?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "English football's new watchdog will unveil details within days of its new funding levy as it lays bare the scale of the financial perils plaguing the game's professional pyramid.",
+      "url": "https://news.sky.com/story/football-watchdog-to-unveil-levy-proposals-as-report-lays-bare-games-financial-peril-13596818",
+      "canonicalUrl": "https://news.sky.com/story/football-watchdog-to-unveil-levy-proposals-as-report-lays-bare-games-financial-peril-13596818",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-09T04:53:50Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/93d7/live/c7941370-c3a0-11f1-bc2e-018d645d8d21.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "032dc2b713c7c1363205",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.08166
-    },
-    {
-      "id": "98225f368f06ff9f4de483f5",
-      "title": "Cars torched and shops looted as anti-migrant violence erupts in South Africa",
-      "translatedTitle": null,
-      "description": "South Africa has experienced recurrent outbreaks of violence, often targeting migrants from neighbouring countries.",
-      "url": "https://www.bbc.co.uk/news/articles/cwm24v45p4jgo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cwm24v45p4jgo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T04:44:22Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad50/live/3fc4bf60-c398-11f1-b85d-c511f5b4bc4a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f2872dddc1621feaf646",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.06576
-    },
-    {
-      "id": "85ba7314a10d1f3fab9dfe01",
-      "title": "'Stark warning' over ADHD and 'Andrew wins legal fight'",
-      "translatedTitle": null,
-      "description": "A government review of ADHD and austism diagnoses and the police investigation into Andrew Mountbatten-Windsor lead Friday's papers.",
-      "url": "https://www.bbc.co.uk/news/articles/cm8ezw2wjkxgo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm8ezw2wjkxgo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T04:28:34Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b2b/live/fbfce8e0-c372-11f1-a64c-550be9e3c66b.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1b7e384e76f88bab5309",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03953
-    },
-    {
-      "id": "43fe8b51e351b67ce95f025e",
-      "title": "‘It gave me a superpower – question everything’: ​as punk turns 50, bands from China to Greenland explain how it fires up their lives",
-      "translatedTitle": null,
-      "description": "Whether on the frontline in Ukraine or skate parks in Soweto, the genre is still a vital outlet for disaffected people everywhere. Here, musicians explain how they rage against the machine Andriy Zholob, vocalist/guitarist, Beton: When MTV arrived in Ukraine, I heard Nirvana, the Offspring, Bad Brains, Social Distortion and thrash metal, and realised that all this started from punk rock. Our drummer and I were in a ska-punk band first, but when our vocalist became pregnant we started Beton in 20",
-      "url": "https://www.theguardian.com/music/2026/oct/09/global-bands-on-how-punk-fires-up-their-lives",
-      "canonicalUrl": "https://theguardian.com/music/2026/oct/09/global-bands-on-how-punk-fires-up-their-lives",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T07:00:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/76c9884f4579dac1fbb3ebf608940581de2a9cc5/288_0_4386_3508/master/4386.jpg?width=140&quality=85&auto=format&fit=max&s=d0b9fc20ec14c2e8aa165998ba04278b",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "709f946f0084f83177a0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03869
-    },
-    {
-      "id": "45eee21739118608a3ed3088",
-      "title": "Shostakovich Symphony No 8 album review – composer’s cry of despair in a remarkable and resonant new recording",
-      "translatedTitle": null,
-      "description": "Frankfurt Radio Symphony/Altinoglu(Alpha)Conductor Alain Altinoglu brings weight and purpose while the instrumental solos are piquant and precise. If the Leningrad was Shostakovich’s official response to the second world war, the Eighth Symphony was his answer to the question: “Will you tell us what you really think?” Written while the fighting was still under way, its immediacy remains striking today, a quality reflected in Alain Altinoglu’s purposeful interpretation with the Frankfurt Radio Sy",
-      "url": "https://www.theguardian.com/music/2026/oct/09/shostakovich-symphony-no-8-album-review",
-      "canonicalUrl": "https://theguardian.com/music/2026/oct/09/shostakovich-symphony-no-8-album-review",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T07:00:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1fcc836492fe7ccd22b2e3cdd2e160a6680046fe/265_0_2437_1949/master/2437.jpg?width=140&quality=85&auto=format&fit=max&s=59bb4fe43782a72f5eeae546a0fb1cd4",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3a72c99d62630723fb1b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03869
-    },
-    {
-      "id": "a6e3a4aa32de93d5a7d8b763",
-      "title": "How California is bracing for a winter of floods, fires and extreme storms all at once",
-      "translatedTitle": null,
-      "description": "The strongest El Niño recorded is expected to bring a cascade of hazards to a state still facing wildfire and heat risks, while budget cuts have weakened disaster response agencies • Don’t get Down to Earth delivered to your inbox? Sign up here Before this year, the US National Weather Service had never issued a September coastal flood advisory for the San Francisco Bay Area. In the past month, it has had to issue two. As flood water swallowed intersections and eroded beaches up and down the Cal",
-      "url": "https://www.theguardian.com/environment/2026/oct/08/how-california-is-bracing-for-a-winter-of-floods-fires-and-extreme-storms-all-at-once",
-      "canonicalUrl": "https://theguardian.com/environment/2026/oct/08/how-california-is-bracing-for-a-winter-of-floods-fires-and-extreme-storms-all-at-once",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T06:00:40Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/3e9afe96ffebd42d409360e4dc78a57ec0fcaec5/615_0_4583_3666/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=697e9565aecb3d5c528e0f6c51a4a592",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0d5a746906f0a744bc4d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92795
-    },
-    {
-      "id": "cfc67d12c2fcfa447fe80361",
-      "title": "TV tonight: things get nasty in War’s blockbuster divorce",
-      "translatedTitle": null,
-      "description": "One of the lawyers is a mole in Sienna Miller and Dominic West’s soapy drama. Plus: the Lionesses shoot for the World Cup. Here’s what to watch this evening 9pm, Sky AtlanticThe naughty divorce drama – made even juicier by its casting of two huge stars, Sienna Miller and Dominic West, whose own eventful relationships have been under the press spotlight – picks up after actor Carla is served on the red carpet (inspired by a representative for Jason Sudeikis handing Olivia Wilde custody papers on",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/09/tv-tonight-tactics-turn-dirty-war-lionesses-world-cup",
-      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/oct/09/tv-tonight-tactics-turn-dirty-war-lionesses-world-cup",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T05:20:39Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/8ee42d95f005488cd2b614a91ec187d804d0f061/559_164_2219_1775/master/2219.jpg?width=140&quality=85&auto=format&fit=max&s=3492de5b43c369e7dbbe8b3a2591cf61",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0c7bb5cf7946b1df2c35",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.85746
-    },
-    {
-      "id": "f05d1655893a4c46d1536e7c",
-      "title": "Second UK health body drops Israeli drug firm after activist pressure",
-      "translatedTitle": null,
-      "description": "Decision by Royal College of Pharmacy to end sponsorship comes after concerns over Teva Pharmaceuticals’ ‘activities’ A second major UK health body has cut ties with an Israeli drug firm after coming under pressure from pro-Palestine campaigners. The Royal College of Pharmacy has dropped Teva UK, the British arm of the global medicines producer Teva Pharmaceuticals, as a sponsor of and exhibitor at its annual conference next month. Continue reading...",
-      "url": "https://www.theguardian.com/society/2026/oct/09/royal-college-pharmacy-cuts-ties-teva-israel-palestine-campaigners",
-      "canonicalUrl": "https://theguardian.com/society/2026/oct/09/royal-college-pharmacy-cuts-ties-teva-israel-palestine-campaigners",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T05:00:39Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1639707ef0ccfb040370e51080907550481cf6fd/499_0_5002_4000/master/5002.jpg?width=140&quality=85&auto=format&fit=max&s=f25fea602e3a4dff0ef21add28808c23",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7d0a15d77db1854a23fb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.82319
-    },
-    {
-      "id": "585de40c3ffd02b2c39c3516",
-      "title": "Olivia Colman on viral Wicker memes: 'This has never happened to me before'",
-      "translatedTitle": null,
-      "description": "Steamy jokes have flooded social media ahead of the release of the actress's latest film.",
-      "url": "https://www.bbc.co.uk/news/articles/cry4xpyzl7qwo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cry4xpyzl7qwo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T23:08:49Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/27e1/live/b73fb250-c2ff-11f1-9955-5d2e13ff2bea.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "823deac5b57c8de02f33",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.58351
-    },
-    {
-      "id": "59d9131af8fb75a1180ac43a",
-      "title": "Houthis claim attack on Riyadh airport as airlines suspend flights to Saudi capital",
-      "translatedTitle": null,
-      "description": "Saudi Arabia has not commented on claims, but confirmed three killed in airport strikes earlier this week Yemen’s Iran-aligned Houthis say they have struck Saudi Arabia’s Riyadh ⁠airport with a ballistic missile, badly damaging a plane and leading some airlines to suspend flights to the capital. The group provided no evidence, and Saudi Arabia did not immediately comment on the claim. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/09/riyadh-airport-flights-suspended-houthis-claim-attack",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T02:28:58Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/2cbce45dc97ef52eb8b8297b6c20899aeadce0a5/0_478_794_634/master/794.jpg?width=140&quality=85&auto=format&fit=max&s=f4e785003c5d3f74bf4134bc0255eb6a",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "172b42fc1c36f968b202",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.58299,
-      "related": []
-    },
-    {
-      "id": "1c82f4e412c9495e060d9d7d",
-      "title": "Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude",
-      "translatedTitle": null,
-      "description": "A spokesperson behind the tech company’s AI chatbot has not yet specified what counts as abusive or cruel content Anthropic has barred users from exhibiting “sustained and needless abusive or cruel behavior” toward its models, as the company’s leaders continue to ponder machine consciousness. The Verge first reported the change in policy. Continue reading...",
-      "url": "https://www.theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude",
-      "canonicalUrl": "https://theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T01:25:42Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/6e190063ccfe8ce226fbe77ca8498af1a2fd082b/9_0_2975_2380/master/2975.jpg?width=140&quality=85&auto=format&fit=max&s=057f38247ed24a0c3ccfba3b7fa7b591",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "191ba1866a4ae94e7d5e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.49235,
-      "related": []
-    },
-    {
-      "id": "4c7457aa786cea37596ea505",
-      "title": "Labour fends off Green party to win Holborn and St Pancras byelection",
-      "translatedTitle": null,
-      "description": "Victory by Sagal Abdi-Wali in north London seat will be a relief for Andy Burnham in high-stakes battle for the left of British politics Holborn and St Pancras byelection – live updates Labour has won the Holborn and St Pancras byelection in a high-stakes battle for the left of British politics. The byelection, called after the former prime minister Keir Starmer resigned the seat in September, was considered a two-horse race between the Labour candidate, Sagal Abdi-Wali, and the Green party lead",
-      "url": "https://www.theguardian.com/politics/2026/oct/09/labour-wins-holborn-st-pancras-byelection-green-party",
-      "canonicalUrl": "https://theguardian.com/politics/2026/oct/09/labour-wins-holborn-st-pancras-byelection-green-party",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T02:03:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5a7a20fae5d7793ab3528a99435c969345139c5b/911_269_6730_5385/master/6730.jpg?width=140&quality=85&auto=format&fit=max&s=a43ae0e489d4f7cb272c1f5918e059fa",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T04:17:38Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6e108be266ae70cdd880",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.45613,
-      "related": []
-    },
-    {
-      "id": "c52a460e3f13218629843d33",
-      "title": "NHS at risk of ‘system failures’ as demand for ADHD and autism care soars, inquiry finds",
-      "translatedTitle": null,
-      "description": "England-focused mental health review returns stark warning and calls for shift to ‘needs-led’ system Explainer | What has the Fonagy review found and what does it recommend? Analysis | No ‘snowflakes’: mental health review says today’s youth have it harder and harms are real The NHS in England is heading into a “world of system failures” as it struggles to cope with relentlessly rising demand for mental health, ADHD and autism care, leaving those affected desperate for support, a government-comm",
-      "url": "https://www.theguardian.com/society/2026/oct/09/nhs-fonagy-review-autism-adhd-mental-health-conditions-care",
-      "canonicalUrl": "https://theguardian.com/society/2026/oct/09/nhs-fonagy-review-autism-adhd-mental-health-conditions-care",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T23:01:32Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f91802e46ea43b45712c041b8764bf2ae1d833af/424_0_6042_4836/master/6042.jpg?width=140&quality=85&auto=format&fit=max&s=2c5868c78093f3e81f4025402603bd7c",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b683a60a4c7bf9c02e8b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.30461,
-      "related": []
-    },
-    {
-      "id": "8c169e5f4bc92f702f3cfeca",
-      "title": "Premier League: 10 things to look out for this weekend",
-      "translatedTitle": null,
-      "description": "Michael Carrick is wary of ‘Dr Tottenham’, Oliver Glasner returns to Selhurst Park and will Manchester City summon a siege mentality at Anfield? Premier League top scorers | View the league table Declan Rice’s future role in England’s midfield was questioned by Gary Lineker after Alex Scott’s impressive first senior international start in the 7-0 thrashing of Croatia. But the decision to withdraw from Thomas Tuchel’s squad in an attempt to manage his workload made sense after Rice had only three",
-      "url": "https://www.theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend",
-      "canonicalUrl": "https://theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T23:01:31Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/70b9b1425ea904c9677e0820e9d273ebd09342a4/203_151_4433_3546/master/4433.jpg?width=140&quality=85&auto=format&fit=max&s=bac41ca5ffe71f7cf635fe7fea5c74a8",
+      "publishedAt": "2026-10-09T10:20:00Z",
+      "imageUrl": "https://e3.365dm.com/26/05/1920x1080/skynews-crystal-palace-football_7241951.jpg?20260508000816",
       "imageAlt": null,
       "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
+      "retrievedAt": "2026-10-09T12:17:31Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "bca42f2050e4aaa48fc8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.30459,
-      "related": []
-    },
-    {
-      "id": "810ff348255a3926ae2bb77f",
-      "title": "USS Abraham Lincoln’s commanding officer addresses suicide attempts in strike group after record deployment – live",
-      "translatedTitle": null,
-      "description": "Captain Dan Keeler says there were ‘no lost lives on board’ and adds that deployment was ‘first experience with combat’ for most sailors Thousands turn out to welcome weary USS Lincoln sailors Sign up for the US Breaking News email Donald Trump has urged James Talarico, the Democratic nominee in the US Senate race in Texas, to debate Ken Paxton – Republican attorney general that the president has endorsed in the election. On Truth Social, Trump described Paxton as “ready, willing, and able” to t",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/08/uss-lincoln-san-diego-donald-trump-republicans-democrats-us-politics-latest-news",
-      "canonicalUrl": "https://theguardian.com/us-news/live/2026/oct/08/uss-lincoln-san-diego-donald-trump-republicans-democrats-us-politics-latest-news",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-08T23:57:38Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a1a236ad2022d9e463b95933c2dd6474ace2a703/385_0_4485_3588/master/4485.jpg?width=140&quality=85&auto=format&fit=max&s=d1f949a2fbdaea938bdfd397b4de682e",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T00:17:35Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9201aab5c27326fb4114",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.28471,
-      "related": []
-    },
-    {
-      "id": "35889443721056cfeac5ac9c",
-      "title": "Everton owners consider selling club two years after takeover",
-      "translatedTitle": null,
-      "description": "Everton owners the Friedkin Group are exploring the sale of the club less than two years after taking control.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmvg9pgg4keyo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cmvg9pgg4keyo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T08:06:14Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f1b/live/b994bd10-bdf3-11ef-b3ff-2979052719d0.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b60c452aaee8795f8463",
+      "clusterId": "076cc3cdab5b9582c5a4",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.08688
+      "rankingScore": 5.96294
     },
     {
-      "id": "a8418730e991fed4654397d9",
-      "title": "I would not have voted for Zionism motion, Polanski says",
+      "id": "4d8a03dd1d4b9bb4ec078d23",
+      "title": "Premier League club up for sale two years after takeover",
       "translatedTitle": null,
-      "description": "A motion declaring Zionism a form of racism was passed by Green Party members on Sunday.",
-      "url": "https://www.bbc.co.uk/news/articles/cm2d6x11l6pko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm2d6x11l6pko?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Everton have been put up for sale less than two years after current owners, The Friedkin Group (TFG), took control of the Premier League club.",
+      "url": "https://news.sky.com/story/premier-league-everton-up-for-sale-two-years-after-friedkin-group-takeover-13596762",
+      "canonicalUrl": "https://news.sky.com/story/premier-league-everton-up-for-sale-two-years-after-friedkin-group-takeover-13596762",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-09T07:12:47Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/89cc/live/c35c8ba0-c39d-11f1-a64c-550be9e3c66b.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1154bf3db588a2801196",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.98177
-    },
-    {
-      "id": "c454f6c20f3f310ec8baa1ec",
-      "title": "Firing squad execution to be livestreamed, Pentagon says",
-      "translatedTitle": null,
-      "description": "Pete Hegseth says the execution will be public, but a legal expert says the \"unprecedented\" decision is on \"uncertain legal terrain\".",
-      "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmy0r96xygx6o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T07:05:05Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0816/live/4b8745c0-c35c-11f1-8787-a95282cfe51d.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6ddc6e72cf1913310611",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.96705
-    },
-    {
-      "id": "6696615a764129998166203d",
-      "title": "How Arteta's response to Brighton loss may shape Arsenal's next chapter",
-      "translatedTitle": null,
-      "description": "Mikel Arteta has shown an increased appetite for risk this season but, as Arsenal look to stay at the top, failing to reinvent would be a greater gamble.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crn8wg221lnvo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/crn8wg221lnvo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T06:41:14Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/626f/live/f9fa1b00-c325-11f1-9981-cf94ea240e40.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a02fc1015f5bf97b1872",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.92212
-    },
-    {
-      "id": "ebfef4f30e6c7b7572b30c7d",
-      "title": "Winner of 2026 Nobel peace prize to be announced - Europe live",
-      "translatedTitle": null,
-      "description": "The winner will be announced in a ceremony that starts at 10am UK time (11am CEST) There is always lots of speculations and chatter about “ooh, so and so was nominated to the Nobel Peace Prize,” but it doesn’t mean that much. All nominations must by submitted by 31 January, preferably online, but members of the Nobel Committee may add further names to the list during their first meeting, which last year was held in late February. Continue reading...",
-      "url": "https://www.theguardian.com/world/live/2026/oct/09/2026-nobel-peace-prize-winner-russia-ukraine-sudan-war-france-protests-poland-latest-news-updates",
-      "canonicalUrl": "https://theguardian.com/world/live/2026/oct/09/2026-nobel-peace-prize-winner-russia-ukraine-sudan-war-france-protests-poland-latest-news-updates",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T08:15:01Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e8327e962a48f8eb555ae5542ca75cb5e4a2b7d8/383_0_5800_4642/master/5800.jpg?width=140&quality=85&auto=format&fit=max&s=7eb313cca98f23a737261549cef1fd0f",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "31308ee34c86fcf54c68",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.83466
-    },
-    {
-      "id": "0fcf153e64b9525a3000358f",
-      "title": "South Africa v Australia: first men’s cricket Test, day one – live",
-      "translatedTitle": null,
-      "description": "Follow updates from Kingsmead Cricket Ground Sign up for The Spin newsletter | Get in touch via email The sun is belting down in Durban at the moment with the forecast for a high of 27C. But a hint of cloud is expected to drift across Kingsmead Stadium during the afternoon. Rain was forecast for day two but the latest forecast suggests that has cleared up. Nic Maddinson will open for Australia alongside Travis Head. The senior partner of that duo had some choice words for the former greats who h",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/09/south-africa-v-australia-first-test-day-one-durban-kingsmead-cricket-ground-live-updates",
-      "canonicalUrl": "https://theguardian.com/sport/live/2026/oct/09/south-africa-v-australia-first-test-day-one-durban-kingsmead-cricket-ground-live-updates",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T08:14:45Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9f3b365c4bf52a8144382766162a255fc5df0363/559_0_2794_2235/master/2794.jpg?width=140&quality=85&auto=format&fit=max&s=9e715c31e2de39dd968583541ae5fb8a",
+      "publishedAt": "2026-10-09T09:44:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-everton-premier-league_7371852.jpg?20261009093715",
       "imageAlt": null,
       "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
+      "retrievedAt": "2026-10-09T12:17:31Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e84a4650f4609858381c",
+      "clusterId": "d7a12ae72ec372c845b8",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.83412
+      "rankingScore": 5.54826
+    },
+    {
+      "id": "27a5f05e0bb0af555ccd27fc",
+      "title": "Celebrity Traitors viewing figures released by BBC after Richard E Grant banished",
+      "translatedTitle": null,
+      "description": "Richard E Grant was banished in Thursday’s episode after previously slipping up and saying he was a traitor",
+      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/celebrity-traitors-episode-three-viewing-figures-bbc-richard-e-grant-b3064062.html",
+      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/celebrity-traitors-episode-three-viewing-figures-bbc-richard-e-grant-b3064062.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:32:02Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/08/19/27/Richard-E-Grant-breaks-silence-with-four-word-statement-after-Celebrity-Traitors-banishment-makes-hi.jpeg?width=1200&auto=webp&trim=0%2C100%2C0%2C100",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9374315b59f04fab2f12",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.54504
+    },
+    {
+      "id": "743196a02a2709912e3d67bd",
+      "title": "Data watchdog investigating huge surge in ‘add me on WhatsApp’ scam calls",
+      "translatedTitle": null,
+      "description": "The ICO’s chief of criminal investigation says he believes the number of reported ‘robo calls’ could be the tip of the iceberg",
+      "url": "https://www.independent.co.uk/news/uk/crime/whatsapp-scam-calls-information-commissioners-office-b3063979.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/crime/whatsapp-scam-calls-information-commissioners-office-b3063979.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:31:31Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/09/10/01M3KA04RSWE3RP9SAKQ4003F7.jpg?width=1200&auto=webp&trim=9%2C0%2C9%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6269ba4b73c773146d21",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.54409
+    },
+    {
+      "id": "3dea56aea4caf531e869771f",
+      "title": "Bear kills man and seriously injures woman at their home in Mongolia",
+      "translatedTitle": null,
+      "description": "A woman was also injured in the attack and is hospitalised in a critical condition",
+      "url": "https://www.independent.co.uk/asia/central-asia/bear-attack-mongolia-climate-change-b3064025.html",
+      "canonicalUrl": "https://independent.co.uk/asia/central-asia/bear-attack-mongolia-climate-change-b3064025.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:25:39Z",
+      "imageUrl": "https://static.independent.co.uk/2026/09/25/17/2248090362..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "db64267d3877ba5f819f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.53329
+    },
+    {
+      "id": "379b8e4f8fdea2ce07033ca8",
+      "title": "EasyJet cuts 700,000 seats on winter flights in face of rising fuel costs",
+      "translatedTitle": null,
+      "description": "The airline will scale back operations to save on rising fuel costs",
+      "url": "https://www.independent.co.uk/travel/news-and-advice/easyjet-winter-flight-cuts-fuel-costs-b3063942.html",
+      "canonicalUrl": "https://independent.co.uk/travel/news-and-advice/easyjet-winter-flight-cuts-fuel-costs-b3063942.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:24:09Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/09/7/15/iStock-2152703380.jpeg?width=1200&auto=webp&trim=4%2C0%2C4%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4d08f4030c8ddadaf7ab",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.53054
+    },
+    {
+      "id": "b80afa32b1c3a0fc5399714c",
+      "title": "Train workers to strike in dispute over safety of new £7 billion railway",
+      "translatedTitle": null,
+      "description": "The East West railway was due to open over a year ago",
+      "url": "https://www.independent.co.uk/travel/news-and-advice/chiltern-railways-train-strike-rmt-b3064054.html",
+      "canonicalUrl": "https://independent.co.uk/travel/news-and-advice/chiltern-railways-train-strike-rmt-b3064054.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:23:11Z",
+      "imageUrl": "https://static.independent.co.uk/2025/08/05/12/05121135-671af8c3-1112-475c-ae33-bd3612fd3d5c.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "befde74c83ca89259e00",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.52876
+    },
+    {
+      "id": "cc8da9db78ec277b54c735b3",
+      "title": "Asos cyber breach not caused by vulnerability in our platform, says Snowflake",
+      "translatedTitle": null,
+      "description": "Asos customers received a phone alert saying the retailer had been hacked.",
+      "url": "https://www.independent.co.uk/news/business/telegram-california-b3064065.html",
+      "canonicalUrl": "https://independent.co.uk/news/business/telegram-california-b3064065.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:21:51Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/09/11/afbb314f1e93588a2640b4bb064ecb4aY29udGVudHNlYXJjaGFwaSwxNzkxNjI2Mzc4-2.86091785.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1963da50ca232ec07ff1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.52632
+    },
+    {
+      "id": "ee2cbcbbf07fb6cc8155c2f8",
+      "title": "Vincent Kompany 'proud' of Man City success despite guilty verdict on Premier League rule breaches",
+      "translatedTitle": null,
+      "description": "Vincent Kompany spent over a decade at Manchester City before leaving the club in 2019",
+      "url": "https://www.independent.co.uk/sport/football/vincent-kompany-man-city-guilty-verdict-premier-league-rules-b3063993.html",
+      "canonicalUrl": "https://independent.co.uk/sport/football/vincent-kompany-man-city-guilty-verdict-premier-league-rules-b3063993.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:21:35Z",
+      "imageUrl": "https://static.independent.co.uk/2021/08/23/11/883a8872774e6ed5d44e7a93a53ecea6Y29udGVudHNlYXJjaGFwaSwxNjI5Nzk2Nzk0-2.42825346.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7a126b12015cbe259be0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.52583
+    },
+    {
+      "id": "eec5c28f99e1ffbcf7b10639",
+      "title": "Mark Zuckerberg is leading us a merry dance: the Stephen Collins cartoon",
+      "translatedTitle": null,
+      "description": "Continue reading...",
+      "url": "https://www.theguardian.com/lifeandstyle/picture/2026/oct/09/mark-zuckerberg-is-leading-us-a-merry-dance-the-stephen-collins-cartoon",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/picture/2026/oct/09/mark-zuckerberg-is-leading-us-a-merry-dance-the-stephen-collins-cartoon",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T09:30:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/139b3a96f3672f402610a1397c20ec272b76e00c/128_0_1215_972/master/1215.jpg?width=140&quality=85&auto=format&fit=max&s=75b7e91dc8d725eccd9a047f2c9f5a78",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4ebd8f5118449e8b841b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.52438
+    },
+    {
+      "id": "1247bac8abbc75875de82e36",
+      "title": "El Nino is now hottest ever recorded and still growing in strength, announces Japan",
+      "translatedTitle": null,
+      "description": "There is a 100 per cent chance the conditions will last into the Northern Hemisphere winter, JMA says",
+      "url": "https://www.independent.co.uk/climate-change/news/el-nino-2026-weather-temperatures-japan-b3063902.html",
+      "canonicalUrl": "https://independent.co.uk/climate-change/news/el-nino-2026-weather-temperatures-japan-b3063902.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:20:17Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/09/07/2026-10-09T060022Z_515581459_RC2RJMAYXSB6_RTRMADP_3_EUROPE-WEATHER-SPAIN-WILDFIRE.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5f6636aab76ee6ae77a8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.52346
+    },
+    {
+      "id": "42b83598a5c7f397be83f269",
+      "title": "Why Elon Musk is taking on India's richest man over Starlink",
+      "translatedTitle": null,
+      "description": "Musk has taken pot-shots at Reliance owner Mukesh Ambani as Starlink struggles to launch in India.",
+      "url": "https://www.bbc.co.uk/news/articles/cvglw9ryjrylo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cvglw9ryjrylo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T06:42:37Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36d4/live/5881b930-c3cb-11f1-9a39-31b474234113.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9b086fe2a2624b6c786a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.52324
+    },
+    {
+      "id": "78401dd21706d88c2d09029d",
+      "title": "Are public executions legal in the US? Hegseth announces plan to livestream firing squad",
+      "translatedTitle": null,
+      "description": "Fort Hood shooter Nidal Malik Hasan’s death will be broadcast, Defense Secretary Pete Hegseth says, making it the first public exhibition of the death penalty in the U.S. in 90 years",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/firing-squad-livestream-is-it-legal-hegseth-public-executions-b3064000.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/firing-squad-livestream-is-it-legal-hegseth-public-executions-b3064000.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:19:54Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/06/08/98350519..?width=1200&auto=webp&trim=0%2C1%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e26fdc0415d34cccbe01",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.52276
+    },
+    {
+      "id": "1a9b5118659fe53a6c7b0b73",
+      "title": "Who is Nic Maddinson? Australia batter makes surprise Test return after recovery from testicular cancer",
+      "translatedTitle": null,
+      "description": "Maddison was diagnosed with testicular cancer in April 2025 but made a comeback late last year",
+      "url": "https://www.independent.co.uk/sport/cricket/nic-maddinson-australia-south-africa-cancer-b3063947.html",
+      "canonicalUrl": "https://independent.co.uk/sport/cricket/nic-maddinson-australia-south-africa-cancer-b3063947.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:17:06Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/09/11/2298697464..?width=1200&auto=webp&trim=191%2C1943%2C1722%2C1378",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "83cd0e598253d133f610",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.51765
+    },
+    {
+      "id": "487357c2cd490119e2dd4878",
+      "title": "More than half of Canadians are avoiding buying American goods, poll finds",
+      "translatedTitle": null,
+      "description": "Canadian shoppers are pressuring grocery stores to respond, with nearly nine in 10 wanting clear labels on domestic products",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/canada-american-goods-tariffs-poll-b3063712.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/canada-american-goods-tariffs-poll-b3063712.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:15:38Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/24/15/2291183466..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8f4912710510662e7fe8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.51498
+    },
+    {
+      "id": "c4984b16c4a1cf014c4f8654",
+      "title": "Complaints about ‘robo calls’ using automated voice triple in three months",
+      "translatedTitle": null,
+      "description": "The Information Commissioner’s Office said it was investigating the rise of automated nuisance calls and was urging the public to report them.",
+      "url": "https://www.independent.co.uk/tech/information-commissioners-office-complaints-ico-b3064052.html",
+      "canonicalUrl": "https://independent.co.uk/tech/information-commissioners-office-complaints-ico-b3064052.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:14:55Z",
+      "imageUrl": "https://static.independent.co.uk/2026/06/22/11/22085415-7000859c-f21c-40da-8d74-085f45cb6f99.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e1308ac4589910c64a2d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.51367
+    },
+    {
+      "id": "40ba9991d0a6d809564cff78",
+      "title": "Police raids on Andrew Mountbatten-Windsor’s royal properties were unlawful",
+      "translatedTitle": null,
+      "description": "The former Duke was arrested on suspicion of misconduct in public office earlier this year",
+      "url": "https://www.independent.co.uk/news/uk/home-news/andrew-mountbatten-windsor-arrest-raids-thames-valley-police-b3063382.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/andrew-mountbatten-windsor-arrest-raids-thames-valley-police-b3063382.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:13:57Z",
+      "imageUrl": "https://static.independent.co.uk/2026/02/23/15/18/SEI286003545.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d7a8f0552e2ff8afb669",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.51192
+    },
+    {
+      "id": "a4f37483a163ed5bf82a316d",
+      "title": "UK hotel owners are already struggling. This is what they think of a tourist tax",
+      "translatedTitle": null,
+      "description": "From the largest chains to the small independent businesses, why are hotel owners opposing a UK tourist tax?",
+      "url": "https://www.independent.co.uk/travel/news-and-advice/tourist-tax-hotel-owners-business-b3062907.html",
+      "canonicalUrl": "https://independent.co.uk/travel/news-and-advice/tourist-tax-hotel-owners-business-b3062907.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:13:10Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/07/15/11/iStock-1400267133.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bde958403acdd932ae41",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.5105
+    },
+    {
+      "id": "1674d558295f6fb306345e98",
+      "title": "Goodbye My Lather? Celebrity Traitors fans crack up over James Blunt shower scene",
+      "translatedTitle": null,
+      "description": "The ‘You’re Beautiful’ singer is one of the potential ‘murder’ victims in tonight’s episode",
+      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/james-blunt-celebrity-traitors-b3063995.html",
+      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/james-blunt-celebrity-traitors-b3063995.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:07:47Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/08/20/22/Screenshot-2026-10-08-at-21-04-48.png?width=1200&auto=webp&trim=0%2C17%2C0%2C15",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8096996c3463a3b3166a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.50075
+    },
+    {
+      "id": "5bf9528283f9a8e8ce06ff87",
+      "title": "Deliveroo riders face ban for using illegal e-bikes as government urged to take action",
+      "translatedTitle": null,
+      "description": "Deliveroo is set to introduce new technology to track when drivers are travelling too fast",
+      "url": "https://www.independent.co.uk/news/uk/home-news/deliveroo-drivers-illegal-ebikes-london-transport-b3064031.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/deliveroo-drivers-illegal-ebikes-london-transport-b3064031.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:02:30Z",
+      "imageUrl": "https://static.independent.co.uk/2026/05/06/18/1161626496.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "740e34d7bce8a6239890",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.49123
+    },
+    {
+      "id": "eb63c9456c59701bd97cfb3a",
+      "title": "Erling Haaland sends message to Man City fans after Premier League verdict",
+      "translatedTitle": null,
+      "description": "City return to action this weekend for the first time since they were found guilty of breaching Premier League financial rules",
+      "url": "https://www.independent.co.uk/sport/football/man-city-guilty-erling-haaland-premier-league-b3063646.html",
+      "canonicalUrl": "https://independent.co.uk/sport/football/man-city-guilty-erling-haaland-premier-league-b3063646.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T10:01:58Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/08/19/5dd8906980f6b8278a57344ad557b634Y29udGVudHNlYXJjaGFwaSwxNzkxNTcwMzI5-2.86116598.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8cebe402e56c531f327e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.49027
+    },
+    {
+      "id": "5f2d460c5a9f2817df520034",
+      "title": "The best sunrise alarm clocks in the UK, tried and tested for gentler mornings",
+      "translatedTitle": null,
+      "description": "Our reviewer sheds some light on the best dawn simulation alarms, from Lumie and Philips to Dreamegg • The best eye masks to help you sleep better To wake each day in darkness is a plight you wouldn’t wish on your worst enemy, yet that’s what many of us do routinely throughout winter. Getting up in the dark decouples our life from our circadian rhythm (our body clock), with bodily processes such as cognition and metabolism put to work before they’re fully prepped. Thank heavens, then, for sunris",
+      "url": "https://www.theguardian.com/thefilter/2025/jan/29/best-sunrise-alarm-clocks",
+      "canonicalUrl": "https://theguardian.com/thefilter/2025/jan/29/best-sunrise-alarm-clocks",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T09:09:45Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bcfa6e60920da4eaea7eb0e38570a49a44b3b398/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=7e397342af7c0d8e554f42680b52b9ca",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9dfa0d0afa9c05b1d243",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.48869
+    },
+    {
+      "id": "d70b685f27dd700b4bdb0cdc",
+      "title": "How do human beings rationalize genocide? NAZA provides a chilling look | Omer Bartov",
+      "translatedTitle": null,
+      "description": "It’s easier to blame brutes and sadists for extreme violence. But as we see in the documentary, modern genocides are fueled by people who are uncomfortably recognizable Werner Best, a senior SS official and jurist who helped organize the Nazi death squads that murdered hundreds of thousands of Jews, is also known for his statement: “We must destroy the enemy without hating him.” He belonged to a younger generation of Nazi technocrats, who despised the foul-mouthed, beer-bellied, brown-shirted “o",
+      "url": "https://www.theguardian.com/global/commentisfree/2026/oct/09/naza-mass-killing-gaza-israel",
+      "canonicalUrl": "https://theguardian.com/global/commentisfree/2026/oct/09/naza-mass-killing-gaza-israel",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T09:00:44Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/957f6dec1a8ee34b1e924a5c925bf2a53729185c/0_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=68ad8f6fc94a1891fa095310970037d3",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5b254a829ddff7ecc184",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47332
+    },
+    {
+      "id": "d4c6e725e32bc29e8ea44741",
+      "title": "Animals crossing: the simple solution to stop roadkill in the Amazon",
+      "translatedTitle": null,
+      "description": "Installation of eight canopy bridges in Alta Floresta has enabled 15,000 safe crossings by animals including spider monkeys and marmosets – and more bridges are planned elsewhere By about 7am, with dense fog blanketing the landscape, Gabriel Falquetto had already come across several road-killed animals along the ES-164 highway in Brazil’s Espírito Santo state. The biologist was on his way to Kaetés private natural heritage reserve (RPPN) in the Atlantic Forest, where he monitors wildlife and roa",
+      "url": "https://www.theguardian.com/environment/2026/oct/09/animals-crossing-simple-solution-roadkill-amazon-brazil-alternatives",
+      "canonicalUrl": "https://theguardian.com/environment/2026/oct/09/animals-crossing-simple-solution-roadkill-amazon-brazil-alternatives",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T09:00:44Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0098c0b7d63ac08c208a58a25d09e33b94b2d7f4/208_37_1700_1360/master/1700.jpg?width=140&quality=85&auto=format&fit=max&s=52e3de80c67fcbf86cc2448b2ee7eb89",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7601646be3332e2a2928",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47332
+    },
+    {
+      "id": "4aa75ddb6b75523a64fb5b20",
+      "title": "AK Blakemore: ‘The Goldfinch by Donna Tartt was extremely silly and bad’",
+      "translatedTitle": null,
+      "description": "The poet and author on F Scott Fitzgerald’s perfect novel, losing faith in Ernest Hemingway – and the recent debut that blew her away My earliest reading memory Lynley Dodd’s Hairy Maclary from Donaldson’s Dairy – where an assortment of differently shaped dogs go on a walk – wormed its way into my subconscious when I was very young. The great dane (Hercules Morse, as big as a horse), the dalmatian (Bottomley Potts, covered in spots), the dachshund (Schnitzel Von Krumm with a very low tum) … I co",
+      "url": "https://www.theguardian.com/books/2026/oct/09/ak-blakemore-the-goldfinch-by-donna-tartt-was-extremely-silly-and-bad",
+      "canonicalUrl": "https://theguardian.com/books/2026/oct/09/ak-blakemore-the-goldfinch-by-donna-tartt-was-extremely-silly-and-bad",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T09:00:44Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f6893d46369c93e675041d86e83dd3c6d0a25280/0_252_1600_1280/master/1600.jpg?width=140&quality=85&auto=format&fit=max&s=84c1183e2dc4cdf484b154e83b3d4715",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "97f5104b76ce07d60bd2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47332
+    },
+    {
+      "id": "213731aa88c52681fb5267de",
+      "title": "End Of Abyss review – a creepy dollhouse take on Resident Evil and The Thing",
+      "translatedTitle": null,
+      "description": "PlayStation 5 (version played), Xbox, PC; Epic Games PublishingThis fetchingly presented horror game brings style and scares, but overextends itself with repetition A small band of soldiers enters an abandoned facility, where puckered flesh sprouts from cold steel. It’s a promising but familiar start to a sci-fi horror story, with heavy overtones of Alien and The Thing. Neither of those, though, were so … dinky. End of Abyss’s facility is presented as a kind of a model-village recreation of The",
+      "url": "https://www.theguardian.com/games/2026/oct/09/end-of-abyss-review-playstation-5-xbox-pc",
+      "canonicalUrl": "https://theguardian.com/games/2026/oct/09/end-of-abyss-review-playstation-5-xbox-pc",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T09:00:44Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b164ea67fd49eb3521fbf50a01767731a4bf4b43/955_511_1923_1540/master/1923.jpg?width=140&quality=85&auto=format&fit=max&s=54c20c79f50ec4130049ea7526da2e46",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5949d0c6017b7e6218c1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47332
+    },
+    {
+      "id": "00e70f0584a4e3a1e3b37521",
+      "title": "Boost for London Stock Exchange as new firm launches biggest IPO in five years",
+      "translatedTitle": null,
+      "description": "Airtel Money is a rapidly growing payments firm out of Africa",
+      "url": "https://www.independent.co.uk/news/business/airtel-money-shares-ipo-london-stock-market-b3063933.html",
+      "canonicalUrl": "https://independent.co.uk/news/business/airtel-money-shares-ipo-london-stock-market-b3063933.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T09:52:29Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/09/10/1665481154..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "738da440d129c9fc65bd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47331
+    },
+    {
+      "id": "b2868d645ba881858e0a3a4c",
+      "title": "Bragging rights for Burnham, blues for Farage: conference season winners and losers",
+      "translatedTitle": null,
+      "description": "While the Labour and Conservative leaders will be delighted with their showing, Nigel Farage, Ed Davey and Zach Polanski have less reason for cheer Andy Burnham Continue reading...",
+      "url": "https://www.theguardian.com/politics/2026/oct/09/burnham-badenoch-farage-conference-season-winners-losers",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/09/burnham-badenoch-farage-conference-season-winners-losers",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T09:00:43Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/cc84532c93d8f637252bc4eb775137e2b72f1cf5/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=156f70037561200f8fcd0bbc4618cbc3",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "30ef0227fe3c3ebb2a7e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47329
+    },
+    {
+      "id": "ca13fbba445f0cbb3ffa0da4",
+      "title": "European FAs pushing for three-week international break to be abandoned",
+      "translatedTitle": null,
+      "description": "Workload, injuries and finances underpin concerns Most European FAs want return to previous format Europe’s football associations have raised serious concerns about the impact of the extended international break and will ask Uefa to push for a reversion to the previous scheduling. The new three-week break left European countries tasked with four Nations League games, which typically took place within 11 days. It has brought deep misgivings about player workload, injuries and financial viability,",
+      "url": "https://www.theguardian.com/football/2026/oct/09/european-fas-want-three-week-international-break-abandoned-injuries",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/09/european-fas-want-three-week-international-break-abandoned-injuries",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T09:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e469c21645618e86aecd9d617ae1442b56ba3c84/370_221_2165_1732/master/2165.jpg?width=140&quality=85&auto=format&fit=max&s=47719a53c316dfbe5c09c6bef6475a4a",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "10b43e721d15b6b117a3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47211
+    },
+    {
+      "id": "569b5eb33734acaf48776c80",
+      "title": "Branford Marsalis Quartet and Dianne Reeves: Dedicated to You review – eloquent Coltrane tribute",
+      "translatedTitle": null,
+      "description": "(Blue Note)This elegant contemporary reinvention of 1963 album John Coltrane and Johnny Hartman pairs Marsalis’s post-bop sax with Reeves’ agile vocals, to time-stopping effect In the early 1960s, the Impulse! label tried to steer its star saxophonist John Coltrane away from increasingly uncompromising and experimental music that it feared might be scaring its customers. Label boss Bob Thiele suggested a more palatable all-ballads album with a little-known African American supper-club singer cal",
+      "url": "https://www.theguardian.com/music/2026/oct/09/branford-marsalis-quartet-and-dianne-reeves-dedicated-to-you-review",
+      "canonicalUrl": "https://theguardian.com/music/2026/oct/09/branford-marsalis-quartet-and-dianne-reeves-dedicated-to-you-review",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-09T08:30:43Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/010f8dc34942de88756b99330d1ede0f50ef34f4/695_558_2812_2250/master/2812.jpg?width=140&quality=85&auto=format&fit=max&s=0f747e7e50ba0871b6715bea92400b49",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-09T12:17:31Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "178f29776afeef39fe68",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.42307
     },
     {
       "id": "b8de2931f3512e8cc85af3ca",
       "title": "OpenAI projected to bring in $20bn less in revenue than expected",
       "translatedTitle": null,
-      "description": "Questions raised over AI growth as ChatGPT maker forecasts this year’s revenue at $50bn, way below the $70bn signalled before OpenAI has revealed that it is making about $20bn less in projected revenue than it had recently indicated to investors, raising questions about the break-neck growth rate in demand for AI. The ChatGPT-maker company has told investors that its revenues for this year would reach $50bn (£37bn), a projection based on sales up to the end of September. Continue reading...",
+      "description": "Questions raised over AI growth as ChatGPT maker forecasts this year’s revenue at $50bn, way below the $70bn signalled before Business live – latest updates OpenAI has revealed that it is making about $20bn less in projected revenue than it had recently indicated to investors, raising questions about the break-neck growth rate in demand for AI. The ChatGPT-maker company has told investors that its revenues for this year would reach $50bn (£37bn), a projection based on sales up to the end of Sept",
       "url": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
       "canonicalUrl": "https://theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
       "sourceName": "The Guardian",
@@ -945,169 +1702,19 @@
       ],
       "language": "en",
       "publishedAt": "2026-10-09T08:06:09Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/34aa043f13c985d1b218aa0b10b50ebe1ce6313f/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=5827419dfd7dc6741397530838bf7aab",
+      "imageUrl": "https://i.guim.co.uk/img/media/3433ad629edc6fc8336d5bdd159016ad273ae9f8/1094_240_6444_5155/master/6444.jpg?width=140&quality=85&auto=format&fit=max&s=57ceccabd3c84211b27b3fcd5ef6656f",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
+      "retrievedAt": "2026-10-09T12:17:31Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "06f501f8d72c65b7fe92",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.81672
-    },
-    {
-      "id": "164c84434d84b2712d9e2317",
-      "title": "‘Is death necessary?’: why Peter Greenaway’s assisted dying drama is stuck in post-production hell",
-      "translatedTitle": null,
-      "description": "Exclusive: Three years after filming began on the contentious Lucca Mortis, starring Dustin Hoffman, the British director is still in dispute with producers over which version to release, and a battle over rights rumbles on Peter Greenaway’s new movie was supposed to mark a glorious swansong for him and his lead actor Dustin Hoffman, the Oscar-winning star of The Graduate and Tootsie. Both men were in their 80s when shooting began in Lucca, Tuscany, in late 2023. Neither knew the storms ahead or",
-      "url": "https://www.theguardian.com/film/2026/oct/09/is-death-necessary-why-peter-greenaways-assisted-dying-drama-is-stuck-in-post-production-hell",
-      "canonicalUrl": "https://theguardian.com/film/2026/oct/09/is-death-necessary-why-peter-greenaways-assisted-dying-drama-is-stuck-in-post-production-hell",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T08:00:42Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/280ffc5ab88753098d17cec67177850d92b7d254/436_0_3250_2600/master/3250.jpg?width=140&quality=85&auto=format&fit=max&s=6bc01fdec178a0aa506e19785bd69281",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e61d3fc198592a8f9377",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80576
-    },
-    {
-      "id": "72a4eaec2cceac1be9bac0b3",
-      "title": "Matchbox the Movie to Poor Things: the seven best films to watch on TV this week",
-      "translatedTitle": null,
-      "description": "Another toy adaptation hits the screen – and it’s a fun, breezy ride. Plus, Emma Stone shines in Yorgos Lanthimos’ deeply weird and delightful comedy Continue reading...",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/09/matchbox-the-movie-to-poor-things-the-seven-best-films-to-watch-on-tv-this-week",
-      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/oct/09/matchbox-the-movie-to-poor-things-the-seven-best-films-to-watch-on-tv-this-week",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T08:00:42Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/70764d6551cdbd07714d84b4625d74fe859efcbf/921_0_1998_1598/master/1998.jpg?width=140&quality=85&auto=format&fit=max&s=d162c373b9598d4a325595f482f399a6",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d2b872c1e45b0e1de84d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80576
-    },
-    {
-      "id": "361f64d205dedd130bba572a",
-      "title": "Everton owner The Friedkin Group exploring sale of club after two years",
-      "translatedTitle": null,
-      "description": "Owner looking at investment options including sale ‘Time is right to consider the next chapter for Everton’ Everton’s owner, The Friedkin Group, is exploring the “sale of a controlling interest” in the club. A statement on Friday said new investment options were being looked into, including a sale. The group completed its takeover in December 2024, ending the turbulent era of Farhad Moshiri, and oversaw the move to a new stadium. Continue reading...",
-      "url": "https://www.theguardian.com/football/2026/oct/09/everton-owner-friedkin-group-exploring-sale-club",
-      "canonicalUrl": "https://theguardian.com/football/2026/oct/09/everton-owner-friedkin-group-exploring-sale-club",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T07:43:02Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0d99be231fb4a8694df159b4ddb32e8cdd6a2e46/12_146_5791_4633/master/5791.jpg?width=140&quality=85&auto=format&fit=max&s=cf164a233db5d59d230af6d1f3426854",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "92c1e109bec04bb9c207",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.77062
-    },
-    {
-      "id": "d378f116aeccee6961959673",
-      "title": "'People use AI to avoid paying for school photos, but they don't realise the consequences'",
-      "translatedTitle": null,
-      "description": "Ian Gilbert says he's heard parents boasting about using AI to take the watermark off his photos.",
-      "url": "https://www.bbc.co.uk/news/articles/cr5ye4p86d21o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cr5ye4p86d21o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T05:08:09Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97d4/live/fe6f7990-c240-11f1-bc2e-018d645d8d21.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7f1afe7311a30bb57390",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.75597
-    },
-    {
-      "id": "c5940d3d224cca0b21534ebc",
-      "title": "Jess Williamson: A Mile South of Heaven review – alt-country singer’s love-hate affair with LA",
-      "translatedTitle": null,
-      "description": "(New West)Following 2023 breakout Time Ain’t Accidental, the best songs here are when Williamson strips back country music, rebuilding it as something familiar yet different In her essay Goodbye to All That, Joan Didion writes that she left New York City when “the golden rhythm was broken”. Texas-born alt-country singer Jess Williamson borrows the title for the aching opening track of her sixth solo album, on which she contemplates whether she has had enough of Los Angeles. But while Didion was",
-      "url": "https://www.theguardian.com/music/2026/oct/09/jess-williamson-a-mile-south-of-heaven-review",
-      "canonicalUrl": "https://theguardian.com/music/2026/oct/09/jess-williamson-a-mile-south-of-heaven-review",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T07:30:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/86b8e41406ea710174855e6add047c947a7fd8d2/0_1045_2502_2000/master/2502.jpg?width=140&quality=85&auto=format&fit=max&s=ddcfbb55eedcd9b4de2d8f085f5195d0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ec5d0804f237d1d43527",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.7464
+      "rankingScore": 5.38297,
+      "related": []
     },
     {
       "id": "40522ac3241d715dfdfecdaf",
@@ -1129,7 +1736,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
+      "retrievedAt": "2026-10-09T12:17:31Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -1137,45 +1744,15 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.74274
+      "rankingScore": 5.37753
     },
     {
-      "id": "1bafc807ab94e06ccd331a0d",
-      "title": "ICE agent shoots man in New York City with child in car",
+      "id": "164c84434d84b2712d9e2317",
+      "title": "‘Is death necessary?’: why Peter Greenaway’s assisted dying drama is stuck in post-production hell",
       "translatedTitle": null,
-      "description": "A US immigration officer shot a man as he drove in a car with a five-year-old boy in New York City, officials have said.",
-      "url": "https://news.sky.com/story/ice-agent-shoots-man-in-new-york-city-with-five-year-old-in-car-13596694",
-      "canonicalUrl": "https://news.sky.com/story/ice-agent-shoots-man-in-new-york-city-with-five-year-old-in-car-13596694",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T04:35:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-ice-shooting_7371716.jpg?20261009052928",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f69326216dd3a5150292",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70017
-    },
-    {
-      "id": "a68bb518dc3c745870a8e8c5",
-      "title": "You have a higher chance of getting cancer at a younger age than your parents. So what went wrong? | Devi Sridhar",
-      "translatedTitle": null,
-      "description": "Some change in our lifestyles and environments over a generation has caused this increased risk. What, exactly, is a mystery Prof Devi Sridhar is chair of global public health at the University of Edinburgh In the field of global health, we often talk about each generation living longer and healthier lives than their parents. We’ve seen this in the gains in life expectancy, the sharp decrease in child mortality and in the near elimination of many vaccine-preventable diseases. But since the turn",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/09/rise-cancer-young-people-mystery-early-onset",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/09/rise-cancer-young-people-mystery-early-onset",
+      "description": "Exclusive: Three years after filming began on the contentious Lucca Mortis, starring Dustin Hoffman, the British director is still in dispute with producers over which version to release, and a battle over rights rumbles on Peter Greenaway’s new movie was supposed to mark a glorious swansong for him and his lead actor Dustin Hoffman, the Oscar-winning star of The Graduate and Tootsie. Both men were in their 80s when shooting began in Lucca, Tuscany, in late 2023. Neither knew the storms ahead or",
+      "url": "https://www.theguardian.com/film/2026/oct/09/is-death-necessary-why-peter-greenaways-assisted-dying-drama-is-stuck-in-post-production-hell",
+      "canonicalUrl": "https://theguardian.com/film/2026/oct/09/is-death-necessary-why-peter-greenaways-assisted-dying-drama-is-stuck-in-post-production-hell",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1184,28 +1761,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-09T07:00:42Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/42e44bc210ba436aced2d5637aec586059f9b5e7/610_0_6139_4912/master/6139.jpg?width=140&quality=85&auto=format&fit=max&s=6b75a74d6147e3ca0d65ec8e34f2027c",
+      "publishedAt": "2026-10-09T08:00:42Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/280ffc5ab88753098d17cec67177850d92b7d254/436_0_3250_2600/master/3250.jpg?width=140&quality=85&auto=format&fit=max&s=6bc01fdec178a0aa506e19785bd69281",
       "imageAlt": null,
-      "category": "Science & Health",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
+      "retrievedAt": "2026-10-09T12:17:31Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "9ce51380393ba60592bb",
+      "clusterId": "e61d3fc198592a8f9377",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68872
+      "rankingScore": 5.37419,
+      "related": []
     },
     {
-      "id": "8e51d21cedc1f3caa8213e33",
-      "title": "Chess: France and US dominate rapid and blitz at Pall Mall Masters",
+      "id": "a57fbfa766e3f9d748bb44b6",
+      "title": "Will Carlos Baleba fix Manchester United? Three big questions ahead of potential debut",
       "translatedTitle": null,
-      "description": "The Chess England event was a rare test of UK skills against strong foreign opposition Master chess in central London is rare, although the annual ChessFest in Trafalgar Square attracts more than 20,000 visitors. In London’s clubland in Pall Mall, the RAC clubhouse has hosted the Oxford v Cambridge Varsity match for almost half a century, while the Athenaeum was the venue for a dramatic match in 2023 where the record-breaking prodigy Bodhana Sivanandan defeated the former British champion Peter",
-      "url": "https://www.theguardian.com/sport/2026/oct/09/chess-france-and-us-dominate-rapid-and-blitz-at-pall-mall-masters",
-      "canonicalUrl": "https://theguardian.com/sport/2026/oct/09/chess-france-and-us-dominate-rapid-and-blitz-at-pall-mall-masters",
+      "description": "As the Premier League returns, we dive into the signing who could boost United’s midfield – or confuse things further Carlos Baleba cost Manchester United $88.7m (£65m) plus $6.8m (£5m) in add-ons when they signed him from Brighton in August. He may be worth even more now despite the fact that the Cameroonian has yet to debut for his new club. Many United fans are counting on Baleba to be a one-man solution to their early-season problems. No pressure. An ankle injury kept Baleba on the sidelines",
+      "url": "https://www.theguardian.com/football/2026/oct/09/carlos-baleba-manchester-united-debut",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/09/carlos-baleba-manchester-united-debut",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1214,28 +1791,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-09T07:00:42Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/8793078d7b5f222564fb2560ccf3c52d3583cd05/0_90_4500_3601/master/4500.jpg?width=140&quality=85&auto=format&fit=max&s=2ed08859f7fe74555284fbebfd445a9e",
+      "publishedAt": "2026-10-09T08:00:42Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/80ca9e8d09517ea745da2c75364ba171410bca22/929_0_5463_4373/master/5463.jpg?width=140&quality=85&auto=format&fit=max&s=86f8fb01c0f15ebb7cf61e5af69e2dd6",
       "imageAlt": null,
-      "category": "Sports",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
+      "retrievedAt": "2026-10-09T12:17:31Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d6086cdd91837997573c",
+      "clusterId": "1a2c0ddbcf8eb794aac0",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.68872
+      "rankingScore": 5.37419
     },
     {
-      "id": "229e1326ce98339803cd2a6b",
-      "title": "Please, sir, can I have a walk? Dickens biographer finds likely inspiration for Oliver Twist",
+      "id": "72a4eaec2cceac1be9bac0b3",
+      "title": "Matchbox the Movie to Poor Things: the seven best films to watch on TV this week",
       "translatedTitle": null,
-      "description": "Exclusive: Theresa Musgrove unearths newspaper archives showing one Alice Shepherd was severely punished in 1836 for similarly innocent request Could a consumptive young woman called Alice Shepherd have been the inspiration for Oliver Twist? That is a question now being posed by a historian, who has discovered parallels between the brutality suffered by a real-life pauper incarcerated in one of Victorian London’s notorious workhouses and Charles Dickens’s fictional orphan. In researching a new b",
-      "url": "https://www.theguardian.com/books/2026/oct/09/dickens-book-oliver-twist-inspiration",
-      "canonicalUrl": "https://theguardian.com/books/2026/oct/09/dickens-book-oliver-twist-inspiration",
+      "description": "Another toy adaptation hits the screen – and it’s a fun, breezy ride. Plus, Emma Stone shines in Yorgos Lanthimos’ deeply weird and delightful comedy Continue reading...",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/09/matchbox-the-movie-to-poor-things-the-seven-best-films-to-watch-on-tv-this-week",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/oct/09/matchbox-the-movie-to-poor-things-the-seven-best-films-to-watch-on-tv-this-week",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1244,199 +1821,19 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-09T07:00:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d20784ec22056d334979be7122a19b86c3765b6a/0_6_2478_1983/master/2478.jpg?width=140&quality=85&auto=format&fit=max&s=4c1c65739582cb16d6ab2fff02196d9a",
+      "publishedAt": "2026-10-09T08:00:42Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/70764d6551cdbd07714d84b4625d74fe859efcbf/921_0_1998_1598/master/1998.jpg?width=140&quality=85&auto=format&fit=max&s=d162c373b9598d4a325595f482f399a6",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
+      "retrievedAt": "2026-10-09T12:17:31Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "46e868fe1d7914a400c4",
+      "clusterId": "d2b872c1e45b0e1de84d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68869
-    },
-    {
-      "id": "c9c25287174cd9e911fcf1d1",
-      "title": "Week in wildlife: a friendly seal, a furious goldcrest and ‘the swanfather’",
-      "translatedTitle": null,
-      "description": "This week’s best wildlife photographs from around the world Continue reading...",
-      "url": "https://www.theguardian.com/environment/gallery/2026/oct/09/week-in-wildlife-a-friendly-seal-a-furious-goldcrest-and-the-swanfather",
-      "canonicalUrl": "https://theguardian.com/environment/gallery/2026/oct/09/week-in-wildlife-a-friendly-seal-a-furious-goldcrest-and-the-swanfather",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T07:00:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/b5d84de3785db4622a208b094506d643417c2118/331_0_2063_1650/master/2063.jpg?width=140&quality=85&auto=format&fit=max&s=9672276102179897d729fff76bf4daca",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cd36aa89f72c4ae072ac",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68869
-    },
-    {
-      "id": "ecd6c8c3a827d24cd66b1dd8",
-      "title": "Oliver Glasner: ‘There was no plan for me to be Nottingham Forest manager’",
-      "translatedTitle": null,
-      "description": "On Sunday, Austrian returns to Crystal Palace, the club he left in the summer after leading them to unprecedented success, but accepts there could be ‘booing’ Oliver Glasner puffs his cheeks and starts the search for the right words to explain his emotions as he prepares to return to Crystal Palace for the first time since leaving. There is the small matter of heading back on Sunday with Nottingham Forest to Selhurst Park, where bitterness runs deep over the club seizing Palace’s place in the Eu",
-      "url": "https://www.theguardian.com/football/2026/oct/09/oliver-glasner-there-was-no-plan-for-me-to-be-nottingham-forest-manager",
-      "canonicalUrl": "https://theguardian.com/football/2026/oct/09/oliver-glasner-there-was-no-plan-for-me-to-be-nottingham-forest-manager",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T07:00:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/4aed32b4738e156a3cd733e56975dbddb9e677c9/500_369_4539_3631/master/4539.jpg?width=140&quality=85&auto=format&fit=max&s=08b39a8996a4bbf2e893b06056c0e4c5",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9ea6a9dac929c3a31ffd",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68869
-    },
-    {
-      "id": "c2d15fb77d4c82dd4391fee5",
-      "title": "Adidas sues Australian label White Fox over four stripes design",
-      "translatedTitle": null,
-      "description": "The German sportswear brand wants the Sydney-based label to stop selling the clothes and pay damages.",
-      "url": "https://www.bbc.co.uk/news/articles/c9e8ld448km8o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c9e8ld448km8o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T03:36:41Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/690e/live/fcec4c60-c33a-11f1-a64c-550be9e3c66b.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9331417c908af656d79e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60607
-    },
-    {
-      "id": "6bc14add1e756db995822e47",
-      "title": "Tories overstate net zero cost by nearly £500bn in apparent spreadsheet error",
-      "translatedTitle": null,
-      "description": "Exclusive: Badenoch’s flagship conference policy document cites £957bn estimate, twice the total in climate advisers’ data Kemi Badenoch’s flagship party conference policy document overestimated the cost of net zero by nearly £500bn, seemingly after someone accidentally double-counted figures on a spreadsheet. The apparent error appears in a chapter on net zero in The Right Way, a 100-page policy document produced for the Conservative conference in Birmingham. Badenoch repeatedly used the phrase",
-      "url": "https://www.theguardian.com/politics/2026/oct/09/tories-overstate-net-zero-cost-500bn-spreadsheet-error",
-      "canonicalUrl": "https://theguardian.com/politics/2026/oct/09/tories-overstate-net-zero-cost-500bn-spreadsheet-error",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T06:00:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e93a671b994b5431ebd278f7c10e0f6644e2def2/228_345_2435_1949/master/2435.jpg?width=140&quality=85&auto=format&fit=max&s=5db23a393046ea61aa5760071b7d3222",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6c44fec346acca7ba2d6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.57798
-    },
-    {
-      "id": "647251eeab992e269fe887cd",
-      "title": "US Navy ship returns home after record deployment and concerns about conditions on board",
-      "translatedTitle": null,
-      "description": "A US Navy ship on which crew members reportedly experienced \"serious and deteriorating\" conditions has returned home following a record deployment in the Middle East.",
-      "url": "https://news.sky.com/story/uss-abraham-lincoln-returns-home-after-record-deployment-following-concerns-about-conditions-on-board-13596681",
-      "canonicalUrl": "https://news.sky.com/story/uss-abraham-lincoln-returns-home-after-record-deployment-following-concerns-about-conditions-on-board-13596681",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T03:05:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-uss-abraham-lincoln_7371702.jpg?20261009050920",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "09086d64ab3e96eecd17",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28703
-    },
-    {
-      "id": "eb8d5a7be9d2c82a589f6a32",
-      "title": "Prince Harry opens up about 'depression' after leaving UK",
-      "translatedTitle": null,
-      "description": "Prince Harry has revealed he \"slipped into depression for about two weeks\" after relocating to Canada in 2019.",
-      "url": "https://news.sky.com/story/prince-harry-opens-up-about-depression-after-leaving-uk-and-describes-feeling-emotionally-numb-after-death-of-diana-13596674",
-      "canonicalUrl": "https://news.sky.com/story/prince-harry-opens-up-about-depression-after-leaving-uk-and-describes-feeling-emotionally-numb-after-death-of-diana-13596674",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-09T01:06:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-prince-harry-princess-diana_7371675.jpg?20261009025622",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-09T08:17:36Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e33955905d252a64cad6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.11519,
+      "rankingScore": 5.37419,
       "related": []
     }
   ]
