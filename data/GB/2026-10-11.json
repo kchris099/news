@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-11",
-  "generatedAt": "2026-10-11T00:17:35Z",
-  "lastAttemptAt": "2026-10-11T00:17:35Z",
-  "lastSuccessfulUpdate": "2026-10-11T00:17:35Z",
-  "status": "partial",
+  "generatedAt": "2026-10-11T04:17:38Z",
+  "lastAttemptAt": "2026-10-11T04:17:38Z",
+  "lastSuccessfulUpdate": "2026-10-11T04:17:38Z",
+  "status": "current",
   "samplePreview": false,
-  "articleCount": 10,
-  "publisherCount": 2,
+  "articleCount": 23,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-11T00:17:34Z",
-      "lastSuccessAt": "2026-10-11T00:17:34Z",
+      "lastAttemptAt": "2026-10-11T04:17:37Z",
+      "lastSuccessAt": "2026-10-11T04:17:37Z",
       "articlesRetrieved": 33,
-      "responseTimeMs": 360,
+      "responseTimeMs": 388,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-11T00:17:34Z",
-      "lastSuccessAt": "2026-10-11T00:17:34Z",
+      "lastAttemptAt": "2026-10-11T04:17:37Z",
+      "lastSuccessAt": "2026-10-11T04:17:37Z",
       "articlesRetrieved": 143,
-      "responseTimeMs": 427,
+      "responseTimeMs": 552,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,268 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-11T00:17:34Z",
-      "lastSuccessAt": "2026-10-11T00:17:34Z",
-      "articlesRetrieved": 8,
-      "responseTimeMs": 403,
+      "lastAttemptAt": "2026-10-11T04:17:37Z",
+      "lastSuccessAt": "2026-10-11T04:17:38Z",
+      "articlesRetrieved": 6,
+      "responseTimeMs": 933,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "failed",
-      "lastAttemptAt": "2026-10-11T00:17:34Z",
-      "lastSuccessAt": null,
-      "articlesRetrieved": 0,
-      "responseTimeMs": null,
-      "errorType": "RuntimeError",
-      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      "status": "success",
+      "lastAttemptAt": "2026-10-11T04:17:37Z",
+      "lastSuccessAt": "2026-10-11T04:17:37Z",
+      "articlesRetrieved": 100,
+      "responseTimeMs": 443,
+      "errorType": null,
+      "errorMessage": null
     }
   ],
   "articles": [
+    {
+      "id": "9e8b63366200c304e30eb742",
+      "title": "Twelve killed and 300 injured in attack on airport in Saudi capital Riyadh",
+      "translatedTitle": null,
+      "description": "The attack has been blamed on Yemen's Houthis, who have not taken responsibility for the latest strike.",
+      "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cw33x4y8k82no?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T03:57:22Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c68/live/40a0f7d0-c507-11f1-a64c-550be9e3c66b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "60cbdc7f0b39729a298a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "e8832d37ef657cf687bd7c2f",
+          "title": "Yemeni attack on Riyadh airport kills 12 and injures over 300 as Houthi-Saudi war escalates",
+          "translatedTitle": null,
+          "description": "It was the third strike on the capital’s airport this week",
+          "url": "https://www.independent.co.uk/news/world/middle-east/houthi-attack-riyadh-airport-saudi-yemen-war-deaths-b3064690.html",
+          "canonicalUrl": "https://independent.co.uk/news/world/middle-east/houthi-attack-riyadh-airport-saudi-yemen-war-deaths-b3064690.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-11T03:04:21Z",
+          "imageUrl": "https://static.independent.co.uk/2026/09/21/11/2026-09-19T114800Z_1100229945_RC28MNAOL58F_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN.JPG?width=1200&auto=webp&trim=0%2C269%2C0%2C269",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-11T04:17:37Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "60cbdc7f0b39729a298a",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "yemeni attack on riyadh airport kills 12 and injures over 300 as houthi saudi war escalates"
+        },
+        {
+          "id": "2d5da3eaace7285fdfc0c144",
+          "title": "Twelve killed and hundreds injured in Houthi attack at Riyadh airport",
+          "translatedTitle": null,
+          "description": "Donald Trump evaluating whether US should join Saudi strikes against the Iran-backed Yemeni rebels The latest attack on the international airport in Saudi Arabia’s capital of Riyadh killed 12 people and injured more than 300 others, civil aviation authorities said early Sunday, with some in a critical condition. A Saudi-led coalition blamed Iran-backed Houthi rebels in neighbouring Yemen. A missile struck a King Khalid international airport complex housing terminals 3 and 4 for domestic flights,",
+          "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+          "canonicalUrl": "https://theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-10T23:37:27Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/fe53f23f7789989347c58c5f95c551cdd9cedc33/0_634_989_791/master/989.jpg?width=140&quality=85&auto=format&fit=max&s=cdd3fc0813d849c5f90d7940cd073309",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-11T04:17:37Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "60cbdc7f0b39729a298a",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "twelve killed and hundreds injured in houthi attack at riyadh airport",
+          "rankingScore": 7.10973
+        }
+      ],
+      "rankingScore": 9.21908
+    },
+    {
+      "id": "8c8476c3cdbbaf2bfb02f81b",
+      "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+      "translatedTitle": null,
+      "description": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
+      "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqe8r5l7n92jo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T01:41:29Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57e8/live/ab163790-c50e-11f1-9f41-61faa76b4354.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "303c42684e19674a58d9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.51382
+    },
+    {
+      "id": "cbea079cdf0f0a3bde84982b",
+      "title": "UK launch flood taskforce to prepare for extreme winter weather",
+      "translatedTitle": null,
+      "description": "The Environment Agency has warned approximately 6.3 million homes and businesses in England remain at risk of flooding.",
+      "url": "https://www.bbc.co.uk/news/articles/c8040n4v7126o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c8040n4v7126o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T00:44:37Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e208/live/f438e200-c4fb-11f1-9197-fd425384da91.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "65840d9f979aebdc90bc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.41617
+    },
+    {
+      "id": "fa37f1068f9b497d8cecd026",
+      "title": "A dating app that lets random strangers match users? Sign me up! | Polly Hudson",
+      "translatedTitle": null,
+      "description": "On Rivet, volunteers get to choose who they think are the most suitable suitors. For an interfering busybody like me, this is a match made in heaven Sometimes it’s extremely hard to mind your own business. However, we all know that ideally we should, and most of us give it a bloody good go. So when the universe rewards us with an opportunity to do the opposite, it must be grabbed with both hands and cherished like the precious gift it is. New dating app Rivet lets a random group of volunteers pi",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/11/a-dating-app-that-lets-random-strangers-match-users-sign-me-up",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/11/a-dating-app-that-lets-random-strangers-match-users-sign-me-up",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T04:00:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/874d4b9482c9001d093b09755f24b4380b537869/454_0_6580_5264/master/6580.jpg?width=140&quality=85&auto=format&fit=max&s=f069489d58f80b295d3cdb5bcb937de9",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4a12ae90c52b53188ee6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.50485
+    },
+    {
+      "id": "df9c5cd9ccec89f4ab3f1f8a",
+      "title": "US justice department investigating TV networks over Trump pool coverage",
+      "translatedTitle": null,
+      "description": "Investigation launched after five broadcasters last month ceased presidential coverage after CNN, MS Now and Politico were barred from White House The US Department of Justice is investigating whether the decision of the White House television press pool to halt coverage of the US president, Donald Trump, last month violated antitrust law, an agency spokesperson said Saturday. A spokesperson for the department said group boycotts among business competitors might violate US law. “The Antitrust Di",
+      "url": "https://www.theguardian.com/us-news/2026/oct/11/justice-department-investigates-tv-networks-trump-pool-coverage",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/11/justice-department-investigates-tv-networks-trump-pool-coverage",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T03:15:05Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/73fccaffbcfe0058905fede7dc7ef079174ffcee/68_0_6306_5047/master/6306.jpg?width=140&quality=85&auto=format&fit=max&s=896d2251844edf7d5a865075e8b5c003",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a74ca71d1d834aa1b322",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.33618
+    },
+    {
+      "id": "881768501012f6b288f0e643",
+      "title": "Developing nations face triple shock from energy crisis, El Niño and borrowing costs, UN warns",
+      "translatedTitle": null,
+      "description": "UN’s development arm calls for urgent action as crises could ‘throw tens if not hundreds of millions back into poverty’ Developing countries face a triple shock from the energy crisis, El Niño and surging borrowing costs and need urgent support from the international community, the UN’s development arm has warned. Speaking before the International Monetary Fund (IMF) and World Bank annual meetings in Bangkok this week, the UNDP’s administrator, Alexander De Croo, called for “solidarity and globa",
+      "url": "https://www.theguardian.com/business/2026/oct/11/developing-nations-triple-shock-energy-crisis-el-nino-borrowing-costs-un-warns",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/11/developing-nations-triple-shock-energy-crisis-el-nino-borrowing-costs-un-warns",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T04:00:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9dfdcb726ebeb31ecf0265ca0674f3b6cc64f63f/737_0_4901_3921/master/4901.jpg?width=140&quality=85&auto=format&fit=max&s=01c096a7aeadb9183d63fa9bb96cbbe1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8173d919d8cfc61d3e6f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15485
+    },
     {
       "id": "b6daa54d07eedbd30a14ac53",
       "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
@@ -78,7 +320,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T00:17:34Z",
+      "retrievedAt": "2026-10-11T04:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -86,15 +328,15 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.6956
+      "rankingScore": 6.92993
     },
     {
-      "id": "f2ded4d361213cc987e0c65f",
-      "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
+      "id": "303d428111a61c4164e19e02",
+      "title": "Five people shot and killed in apparent murder-suicide, Georgia police say",
       "translatedTitle": null,
-      "description": "Newly established commission identifies 17 catastrophic threats to human health but says ‘realistic route to act’ on each exists Humans could become extinct by the year 2100 due to malicious use of AI or nuclear conflict, according to a new global risk assessment. They top a list of 17 major threats to human health over the next 75 years, which also includes cuts to aid spending by wealthy countries, the climate crisis and childhood malnutrition. Continue reading...",
-      "url": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
-      "canonicalUrl": "https://theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+      "description": "Deceased were all members of the same family, officials say, and one of victims placed the initial emergency call Five people were shot and killed in an apparent murder-suicide at a residence in Georgia on Friday, authorities say. The deceased were family members who lived at the home in Douglas, a city in south Georgia. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/10/douglas-georgia-shooting-deaths",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/10/douglas-georgia-shooting-deaths",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -103,50 +345,80 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-10T23:01:09Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f50120ad5ffe55e5024a1ec6dc2e727ce8f4f95d/269_0_3928_3142/master/3928.jpg?width=140&quality=85&auto=format&fit=max&s=609145e51390ceb1f77dfc6c89916d36",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-10-11T00:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1520d65f56a066a30a4e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.38967
-    },
-    {
-      "id": "2d5da3eaace7285fdfc0c144",
-      "title": "Twelve killed and hundreds injured in Houthi attack at Riyadh airport",
-      "translatedTitle": null,
-      "description": "Donald Trump evaluating whether US should join Saudi strikes against the Iran-backed Yemeni rebels Yemen’s Houthis have launched a missile attack on Riyadh’s international airport in Saudi Arabia, killing at least 12 people and leaving hundreds wounded, the Saudi Civil Aviation Authority has said. Operations at King Khalid international airport in Riyadh were suspended as ambulances rushed to the airport. More than 300 people were reported injured in the deadliest attack in any Gulf Arab country",
-      "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-10T23:37:27Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/fe53f23f7789989347c58c5f95c551cdd9cedc33/0_634_989_791/master/989.jpg?width=140&quality=85&auto=format&fit=max&s=cdd3fc0813d849c5f90d7940cd073309",
+      "publishedAt": "2026-10-11T00:01:55Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6af30ea2175ed40795c701d0e9ad98bb74ba4353/580_0_3453_2764/master/3453.jpg?width=140&quality=85&auto=format&fit=max&s=bd4c7df708e19d89cd4fa234445bd4c1",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T00:17:34Z",
+      "retrievedAt": "2026-10-11T04:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0d863d4c489910af577c",
+      "clusterId": "6d4e02417f60d2d8106e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.10973
+      "rankingScore": 6.72615
+    },
+    {
+      "id": "4b8850fc40009e18662b4796",
+      "title": "Four dead as Isaias weakens to post-tropical cyclone after striking Florida panhandle",
+      "translatedTitle": null,
+      "description": "Some of deaths came from falling trees as half a million people without power and rain and flooding still a concern At least four people were reported dead on Saturday amid Isaias after it made landfall late on Friday on Florida’s panhandle as a category 2 hurricane, according to authorities. The storm also took down trees, knocked out electricity for hundreds of thousands and flooded highways – but as Saturday evening approached, the region was reopening. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-10T23:20:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3e0a756d758fe98bd3be035b23806eb18866afc3/176_0_4555_3644/master/4555.jpg?width=140&quality=85&auto=format&fit=max&s=9b3d619eb7d75eed70b986a898f04d5b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c05c6670c86eb894424a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.66088,
+      "related": []
+    },
+    {
+      "id": "479ce248bba971e90c5fc019",
+      "title": "UK floods taskforce told to start looking at drought",
+      "translatedTitle": null,
+      "description": "If you've ever felt baffled by the way Britain can find itself in drought just months after heavy flooding, this announcement might interest you.",
+      "url": "https://news.sky.com/story/uk-floods-taskforce-told-to-start-looking-at-drought-13597252",
+      "canonicalUrl": "https://news.sky.com/story/uk-floods-taskforce-told-to-start-looking-at-drought-13597252",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-10T23:01:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-flooding-storm-chandra_7373555.jpg?20261010190405",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "70f2112f327a857bfdb4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.63094
     },
     {
       "id": "8426ee4f3e0e3dcb47d5322e",
@@ -175,16 +447,16 @@
       "clusterId": "d595c342784bfe8c82b4",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.08518
+      "rankingScore": 6.5776,
+      "related": []
     },
     {
-      "id": "4b8850fc40009e18662b4796",
-      "title": "Four dead as Isaias weakens to post-tropical cyclone after striking Florida panhandle",
+      "id": "f2ded4d361213cc987e0c65f",
+      "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
       "translatedTitle": null,
-      "description": "Some of deaths came from falling trees as half a million people without power and rain and flooding still a concern At least four people were reported dead on Saturday amid Isaias after it made landfall late on Friday on Florida’s panhandle as a category 2 hurricane, according to authorities. The storm also took down trees, knocked out electricity for hundreds of thousands and flooded highways – but as Saturday evening approached, the region was reopening. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
+      "description": "Newly established commission identifies 17 catastrophic threats to human health but says ‘realistic route to act’ on each exists Humans could become extinct by the year 2100 due to malicious use of AI or nuclear conflict, according to a new global risk assessment. They top a list of 17 major threats to human health over the next 75 years, which also includes cuts to aid spending by wealthy countries, the climate crisis and childhood malnutrition. Continue reading...",
+      "url": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -193,28 +465,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-10T23:20:32Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/3e0a756d758fe98bd3be035b23806eb18866afc3/176_0_4555_3644/master/4555.jpg?width=140&quality=85&auto=format&fit=max&s=9b3d619eb7d75eed70b986a898f04d5b",
+      "publishedAt": "2026-10-10T23:01:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f50120ad5ffe55e5024a1ec6dc2e727ce8f4f95d/269_0_3928_3142/master/3928.jpg?width=140&quality=85&auto=format&fit=max&s=609145e51390ceb1f77dfc6c89916d36",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Science & Health",
       "topics": [],
       "retrievedAt": "2026-10-11T00:17:34Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c05c6670c86eb894424a",
+      "clusterId": "1520d65f56a066a30a4e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.07679
+      "rankingScore": 6.54116,
+      "related": []
     },
     {
-      "id": "bf81dcdd9ab8abe31fcefe8a",
-      "title": "AI is creating a 'human premium' for art made by people. But will it hold?",
+      "id": "e20d61c12761ade6cfacda17",
+      "title": "Why are so many four-year-olds not potty-trained before school?",
       "translatedTitle": null,
-      "description": "Amid a surge in AI content, many are placing extra value on art that's obviously made by a human. But can that last, asks Ros Atkins",
-      "url": "https://www.bbc.co.uk/news/articles/c5vgjm3gk7rzo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c5vgjm3gk7rzo?at_campaign=rss&at_medium=RSS",
+      "description": "A third of school starters in the West Midlands last year were not toilet-trained, a survey suggests.",
+      "url": "https://www.bbc.co.uk/news/articles/c5x2vnp4jrkdo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c5x2vnp4jrkdo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -223,20 +495,140 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-10T23:18:16Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6fb8/live/8086eea0-c3cb-11f1-a64c-550be9e3c66b.jpg",
+      "publishedAt": "2026-10-11T02:33:35Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/090c/live/5bb8e840-c32f-11f1-9981-cf94ea240e40.jpg",
       "imageAlt": null,
-      "category": "Culture",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T00:17:34Z",
+      "retrievedAt": "2026-10-11T04:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ccaf4ef2f86096cf3091",
+      "clusterId": "0c507a91060c91b93c1d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.34241
+      "rankingScore": 5.90791
+    },
+    {
+      "id": "d6e640fa822119c1172cdfb4",
+      "title": "‘I get really upset when I visit’: the harsh reality of life in a high-security hospital in England",
+      "translatedTitle": null,
+      "description": "When the Southport killer Axel Rudakubana was transferred from a category A prison to Broadmoor hospital, many observers complained that he was getting off lightly. But these places are anything but ‘cushy’, says the mother of one patient Rampton high-security hospital in Nottinghamshire was built in 1912. Everything about the bleak, remote facility for mentally ill people is forbidding, says Jan Neate. “I get really upset going there,” she says. “Even though I really want to see Jake, visiting",
+      "url": "https://www.theguardian.com/society/2026/oct/11/i-get-really-upset-when-i-visit-the-harsh-reality-of-life-in-a-high-security-hospital-in-england",
+      "canonicalUrl": "https://theguardian.com/society/2026/oct/11/i-get-really-upset-when-i-visit-the-harsh-reality-of-life-in-a-high-security-hospital-in-england",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T04:00:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e46d79a94833e9f3ad5bb77cde6459ca238eeb3e/1113_894_4099_3279/master/4099.jpg?width=140&quality=85&auto=format&fit=max&s=bcbd74dde32b6254de39498e958658ae",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a952dbf0f53932538db3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80488
+    },
+    {
+      "id": "b7463c87283d9020fd6a8265",
+      "title": "Man dies after tiger attack at wildlife park",
+      "translatedTitle": null,
+      "description": "It was reported the man entered the tiger enclosure at the attraction near Doncaster, police say.",
+      "url": "https://www.bbc.co.uk/news/articles/c6n9r3n7858zo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6n9r3n7858zo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T01:05:37Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a351/live/9ceda390-c4cf-11f1-92df-35160a6c9392.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "624da7b2df32dde9a061",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.75163
+    },
+    {
+      "id": "0485a217670aea233a636392",
+      "title": "‘My body is still peaking’: Eliud Kipchoge wins first marathon in three years",
+      "translatedTitle": null,
+      "description": "Kenyan breaks Melbourne Marathon record by two seconds ‘I’m happy to run with the gen Zs,’ 41-year-old says Marathon’s greatest competitor, Eliud Kipchoge, has sent a message to the next generation declaring that he’s not done yet. The 41-year-old Kenyan revelled in his Melbourne Marathon debut on Sunday, breaking the race record and delighting thousands of fans at the MCG finish. Continue reading...",
+      "url": "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
+      "canonicalUrl": "https://theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T02:54:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0cffbced7d03ca4f7411e4d12dcdb78717058dd7/666_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=582939f929b5fdd01ff7573ff5e61a40",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0621df27ad7d8c20e491",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.6767
+    },
+    {
+      "id": "6f98ba3fbb9ef982092d753a",
+      "title": "'Tiger attack horror' and Trump tells Zelensky 'time to go'",
+      "translatedTitle": null,
+      "description": "The majority of the papers on Sunday are dominated by a man who was attacked by a tiger at a wildlife park near Doncaster.",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn710m8d7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cw5yn710m8d7o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-10T23:45:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/695c/live/351deb10-c4f9-11f1-a4b9-bbb80bd65c1a.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0039c6f94fbce2b73782",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.62036
     },
     {
       "id": "5fa04ae8f18e30c0a413b638",
@@ -258,7 +650,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T00:17:34Z",
+      "retrievedAt": "2026-10-11T04:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -266,7 +658,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.03556
+      "rankingScore": 5.61193
     },
     {
       "id": "3d2375c6a936c53d0dc6682e",
@@ -288,7 +680,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T00:17:34Z",
+      "retrievedAt": "2026-10-11T04:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -296,7 +688,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.01825
+      "rankingScore": 5.59807
+    },
+    {
+      "id": "bf81dcdd9ab8abe31fcefe8a",
+      "title": "AI is creating a 'human premium' for art made by people. But will it hold?",
+      "translatedTitle": null,
+      "description": "Amid a surge in AI content, many are placing extra value on art that's obviously made by a human. But can that last, asks Ros Atkins",
+      "url": "https://www.bbc.co.uk/news/articles/c5vgjm3gk7rzo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c5vgjm3gk7rzo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-10T23:18:16Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6fb8/live/8086eea0-c3cb-11f1-a64c-550be9e3c66b.jpg",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ccaf4ef2f86096cf3091",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57738
     },
     {
       "id": "eecbd4e65fcb8209fbb32a9d",
@@ -318,7 +740,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T00:17:34Z",
+      "retrievedAt": "2026-10-11T04:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -326,7 +748,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.99007
+      "rankingScore": 5.5755
     },
     {
       "id": "ed93ca5841099a13d133725e",
@@ -348,7 +770,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T00:17:34Z",
+      "retrievedAt": "2026-10-11T04:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -356,7 +778,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.96626
+      "rankingScore": 5.55644
+    },
+    {
+      "id": "edf2afff4b29c86ddb502c65",
+      "title": "Texas, Florida fall in upsets as Georgia-Alabama showdown takes center stage",
+      "translatedTitle": null,
+      "description": "The Texas Longhorns suffered their first loss of the season to the unranked Oklahoma Sooners",
+      "url": "https://www.independent.co.uk/news/alabama-georgia-texas-florida-ucla-b3064687.html",
+      "canonicalUrl": "https://independent.co.uk/news/alabama-georgia-texas-florida-ucla-b3064687.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T00:30:45Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/11/01/APTOPIX_Oklahoma_Texas_Football_87245.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T04:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "714e403a348cda339e7a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.33313
     }
   ]
 }
