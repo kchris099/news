@@ -5,9 +5,9 @@
   "timeZone": "Asia/Seoul",
   "date": "2026-10-12",
   "generatedAt": "2026-10-11T16:18:04Z",
-  "lastAttemptAt": "2026-10-11T16:18:04Z",
+  "lastAttemptAt": "2026-10-11T20:18:14Z",
   "lastSuccessfulUpdate": "2026-10-11T16:18:04Z",
-  "status": "current",
+  "status": "retained",
   "samplePreview": false,
   "articleCount": 7,
   "publisherCount": 2,
@@ -15,68 +15,68 @@
     {
       "sourceId": "yonhap-en",
       "sourceName": "Yonhap News Agency",
-      "status": "success",
-      "lastAttemptAt": "2026-10-11T16:17:53Z",
-      "lastSuccessAt": "2026-10-11T16:17:56Z",
-      "articlesRetrieved": 98,
-      "responseTimeMs": 2801,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-11T20:17:56Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "PoolTimeout"
     },
     {
       "sourceId": "korea-herald",
       "sourceName": "The Korea Herald",
-      "status": "success",
-      "lastAttemptAt": "2026-10-11T16:17:53Z",
-      "lastSuccessAt": "2026-10-11T16:17:55Z",
+      "status": "failed",
+      "lastAttemptAt": "2026-10-11T20:17:56Z",
+      "lastSuccessAt": null,
       "articlesRetrieved": 0,
-      "responseTimeMs": 2327,
-      "errorType": null,
-      "errorMessage": null
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "PoolTimeout"
     },
     {
       "sourceId": "korea-times",
       "sourceName": "The Korea Times",
-      "status": "success",
-      "lastAttemptAt": "2026-10-11T16:17:53Z",
-      "lastSuccessAt": "2026-10-11T16:17:56Z",
-      "articlesRetrieved": 2,
-      "responseTimeMs": 2728,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-11T20:17:56Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "PoolTimeout"
     },
     {
       "sourceId": "yna-ko",
       "sourceName": "Yonhap News Agency (Korean)",
-      "status": "success",
-      "lastAttemptAt": "2026-10-11T16:17:53Z",
-      "lastSuccessAt": "2026-10-11T16:18:04Z",
-      "articlesRetrieved": 120,
-      "responseTimeMs": 10777,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-11T20:17:56Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "PoolTimeout"
     },
     {
       "sourceId": "kbs-world-news",
       "sourceName": "KBS News",
-      "status": "success",
-      "lastAttemptAt": "2026-10-11T16:17:53Z",
-      "lastSuccessAt": "2026-10-11T16:17:55Z",
-      "articlesRetrieved": 30,
-      "responseTimeMs": 2506,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-11T20:17:56Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "PoolTimeout"
     },
     {
       "sourceId": "sbs-headline",
       "sourceName": "SBS News",
-      "status": "success",
-      "lastAttemptAt": "2026-10-11T16:17:53Z",
-      "lastSuccessAt": "2026-10-11T16:17:55Z",
-      "articlesRetrieved": 16,
-      "responseTimeMs": 2578,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-11T20:17:56Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "PoolTimeout"
     }
   ],
   "articles": [
@@ -290,5 +290,6 @@
       "related": [],
       "rankingScore": 5.74788
     }
-  ]
+  ],
+  "warning": "Latest collection produced 7 articles versus 7 retained articles."
 }
