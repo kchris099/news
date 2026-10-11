@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-11",
-  "generatedAt": "2026-10-11T04:17:38Z",
-  "lastAttemptAt": "2026-10-11T04:17:38Z",
-  "lastSuccessfulUpdate": "2026-10-11T04:17:38Z",
-  "status": "current",
+  "generatedAt": "2026-10-11T08:17:36Z",
+  "lastAttemptAt": "2026-10-11T08:17:36Z",
+  "lastSuccessfulUpdate": "2026-10-11T08:17:36Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 23,
+  "articleCount": 45,
   "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-11T04:17:37Z",
-      "lastSuccessAt": "2026-10-11T04:17:37Z",
-      "articlesRetrieved": 33,
-      "responseTimeMs": 388,
+      "lastAttemptAt": "2026-10-11T08:17:35Z",
+      "lastSuccessAt": "2026-10-11T08:17:36Z",
+      "articlesRetrieved": 30,
+      "responseTimeMs": 328,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-11T04:17:37Z",
-      "lastSuccessAt": "2026-10-11T04:17:37Z",
+      "lastAttemptAt": "2026-10-11T08:17:35Z",
+      "lastSuccessAt": "2026-10-11T08:17:36Z",
       "articlesRetrieved": 143,
-      "responseTimeMs": 552,
+      "responseTimeMs": 410,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,33 +38,63 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-11T04:17:37Z",
-      "lastSuccessAt": "2026-10-11T04:17:38Z",
-      "articlesRetrieved": 6,
-      "responseTimeMs": 933,
+      "lastAttemptAt": "2026-10-11T08:17:35Z",
+      "lastSuccessAt": "2026-10-11T08:17:36Z",
+      "articlesRetrieved": 5,
+      "responseTimeMs": 821,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-10-11T04:17:37Z",
-      "lastSuccessAt": "2026-10-11T04:17:37Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 443,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-11T08:17:35Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
     {
-      "id": "9e8b63366200c304e30eb742",
-      "title": "Twelve killed and 300 injured in attack on airport in Saudi capital Riyadh",
+      "id": "15a5162cb00e142d51e31101",
+      "title": "‘We need less point scoring’: What party conference season taught us about UK climate action",
       "translatedTitle": null,
-      "description": "The attack has been blamed on Yemen's Houthis, who have not taken responsibility for the latest strike.",
-      "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cw33x4y8k82no?at_campaign=rss&at_medium=RSS",
+      "description": "Tories plan to scrap low-carbon housebuilding, Greens back new nuclear reactors, and Labour put oil-drilling decisions on hold New homes could be built without solar panels, heat pumps and high-grade insulation, leading to higher household bills if the Conservative party wins the next general election. Kemi Badenoch made scrapping the future homes standard (FHS) one of the central planks of her bid to become the next prime minister at the Tory party conference this week. Continue reading...",
+      "url": "https://www.theguardian.com/politics/2026/oct/11/party-conference-season-uk-climate-action-tories-greens-labour",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/11/party-conference-season-uk-climate-action-tories-greens-labour",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T06:00:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d7c170a72e586c258e9e01b283090d1bd75ff28f/882_0_6195_4956/master/6195.jpg?width=140&quality=85&auto=format&fit=max&s=0e6b7a467199207dafc808b869c29901",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "74c37886b511e02e2fa8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.62732
+    },
+    {
+      "id": "8c8476c3cdbbaf2bfb02f81b",
+      "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+      "translatedTitle": null,
+      "description": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
+      "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqe8r5l7n92jo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -73,18 +103,79 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-11T03:57:22Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c68/live/40a0f7d0-c507-11f1-a64c-550be9e3c66b.jpg",
+      "publishedAt": "2026-10-11T01:41:29Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57e8/live/ab163790-c50e-11f1-9f41-61faa76b4354.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "60cbdc7f0b39729a298a",
+      "clusterId": "303c42684e19674a58d9",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.13449
+    },
+    {
+      "id": "c1f4ce40330a9476050f32e0",
+      "title": "UK launches flood taskforce to prepare for extreme winter weather",
+      "translatedTitle": null,
+      "description": "The Environment Agency has warned approximately 6.3 million homes and businesses in England remain at risk of flooding.",
+      "url": "https://www.bbc.co.uk/news/articles/c8040n4v7126o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c8040n4v7126o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T00:44:37Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e208/live/f438e200-c4fb-11f1-9197-fd425384da91.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4be91773e8b55b42e83e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.0563
+    },
+    {
+      "id": "2d5da3eaace7285fdfc0c144",
+      "title": "Twelve killed and hundreds injured in Houthi attack at Riyadh airport",
+      "translatedTitle": null,
+      "description": "Donald Trump evaluating whether US should join Saudi strikes against the Iran-backed Yemeni rebels The latest attack on the international airport in Saudi Arabia’s capital of Riyadh killed 12 people and injured more than 300 others, civil aviation authorities said early on Sunday, with some in a critical condition. A Saudi-led coalition blamed Iran-backed Houthi rebels in neighbouring Yemen. A missile struck a King Khalid international airport complex housing terminals 3 and 4 for domestic fligh",
+      "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-10T23:37:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/abe5f1d89f32a73c4f4c63ed040fa686b4c5512a/617_0_5447_4359/master/5447.jpg?width=140&quality=85&auto=format&fit=max&s=60168aa8828b75b69f99885fff3e8c29",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fe5a4d91bbd996c9bb24",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.74909,
       "related": [
         {
           "id": "e8832d37ef657cf687bd7c2f",
@@ -110,105 +201,103 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "60cbdc7f0b39729a298a",
+          "clusterId": "fe5a4d91bbd996c9bb24",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "yemeni attack on riyadh airport kills 12 and injures over 300 as houthi saudi war escalates"
-        },
-        {
-          "id": "2d5da3eaace7285fdfc0c144",
-          "title": "Twelve killed and hundreds injured in Houthi attack at Riyadh airport",
-          "translatedTitle": null,
-          "description": "Donald Trump evaluating whether US should join Saudi strikes against the Iran-backed Yemeni rebels The latest attack on the international airport in Saudi Arabia’s capital of Riyadh killed 12 people and injured more than 300 others, civil aviation authorities said early Sunday, with some in a critical condition. A Saudi-led coalition blamed Iran-backed Houthi rebels in neighbouring Yemen. A missile struck a King Khalid international airport complex housing terminals 3 and 4 for domestic flights,",
-          "url": "https://www.theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
-          "canonicalUrl": "https://theguardian.com/world/2026/oct/10/yemen-government-allied-forces-recapture-bab-al-mandab-strait-houthis-taiz",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-10T23:37:27Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/fe53f23f7789989347c58c5f95c551cdd9cedc33/0_634_989_791/master/989.jpg?width=140&quality=85&auto=format&fit=max&s=cdd3fc0813d849c5f90d7940cd073309",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-11T04:17:37Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "60cbdc7f0b39729a298a",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "twelve killed and hundreds injured in houthi attack at riyadh airport",
-          "rankingScore": 7.10973
         }
-      ],
-      "rankingScore": 9.21908
+      ]
     },
     {
-      "id": "8c8476c3cdbbaf2bfb02f81b",
-      "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+      "id": "33fa84831fef666aa054169f",
+      "title": "‘Under tremendous strain’: CIA analyst turned spy novelist on a fraying US-UK alliance",
       "translatedTitle": null,
-      "description": "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
-      "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqe8r5l7n92jo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "David McCloskey’s new book depicts a calamitous collapse of the ‘special relationship’ – could things get darker still? The “special relationship”, the time-honored emotional bond between the US and Britain that has sustained through war and peace, is in trouble. The ties of history, culture and language that have bridged an ocean and bound the two countries politically for generations are fraying as perhaps never before – strained relentlessly by Donald Trump, who has gleefully sacrificed tradi",
+      "url": "https://www.theguardian.com/us-news/2026/oct/11/us-uk-special-relationship-david-mccloskey-writer",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/11/us-uk-special-relationship-david-mccloskey-writer",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-11T01:41:29Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/57e8/live/ab163790-c50e-11f1-9f41-61faa76b4354.jpg",
+      "publishedAt": "2026-10-11T08:00:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e5e8b5d6eecfb716df339b0815c66e4ac1a82583/555_0_2778_2222/master/2778.jpg?width=140&quality=85&auto=format&fit=max&s=5475924735e4ff89f4d8501b02d4524c",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "303c42684e19674a58d9",
+      "clusterId": "b61ee79f5dc07e9b9b5f",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.51382
+      "rankingScore": 7.50506
     },
     {
-      "id": "cbea079cdf0f0a3bde84982b",
-      "title": "UK launch flood taskforce to prepare for extreme winter weather",
+      "id": "76f82bd9ba2ba1300418af8d",
+      "title": "‘It was a terrible thing’: Panama declares state of emergency as quake aftershocks rattle communities",
       "translatedTitle": null,
-      "description": "The Environment Agency has warned approximately 6.3 million homes and businesses in England remain at risk of flooding.",
-      "url": "https://www.bbc.co.uk/news/articles/c8040n4v7126o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c8040n4v7126o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "More than 100 aftershocks as high as magnitude-5.8 recorded after two quakes toppled buildings and prompted evacuations Panama’s government has declared a state of emergency on Saturday as the aftershocks of two powerful earthquakes that roiled the country shook communities for hours. Officials did not attribute any deaths to Friday’s 7.7- and 6.6-magnitude earthquakes, but reported damages in all 10 of Panama’s provinces and two Indigenous territories. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/11/panama-eathquake-state-of-emergency",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/11/panama-eathquake-state-of-emergency",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-11T00:44:37Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e208/live/f438e200-c4fb-11f1-9197-fd425384da91.jpg",
+      "publishedAt": "2026-10-11T06:56:08Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bb99ce9360af15ed4a5b9ae7c2a77f99b36b1b90/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=7e140d7b4cc98bab961b976bb6f8b601",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "65840d9f979aebdc90bc",
+      "clusterId": "d38c5c214517e310d801",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.41617
+      "rankingScore": 7.03011
+    },
+    {
+      "id": "64307c309d109cf63e8bd015",
+      "title": "‘Cockroach’ party leader released as Delhi braces for second day of protests",
+      "translatedTitle": null,
+      "description": "More than 2,000 people were reportedly detained on Saturday, prompting criticism of Modi’s ruling government Delhi braced for a second day of youth protests demanding the resignation of India’s election chief on Sunday, as a court ordered the release of the “cockroach” movement founder, Abhijeet Dipke, and two other senior leaders. Dipke, ⁠the founder of the ⁠Cockroach Janta party (CJP), and ​the other leaders were detained when their plane landed in Delhi on Saturday, as the movement planned to",
+      "url": "https://www.theguardian.com/world/2026/oct/11/cockroach-party-leader-released-delhi-protests-second-day",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/11/cockroach-party-leader-released-delhi-protests-second-day",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T06:02:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f6479c9453f4ea7705628b72773313c6dbde153c/978_0_4997_3999/master/4997.jpg?width=140&quality=85&auto=format&fit=max&s=de1a1c821048ab1ecc67447bbe12763c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1b4570b1693da981e535",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.93133
     },
     {
       "id": "fa37f1068f9b497d8cecd026",
@@ -230,45 +319,15 @@
       "imageAlt": null,
       "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "4a12ae90c52b53188ee6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.50485
-    },
-    {
-      "id": "df9c5cd9ccec89f4ab3f1f8a",
-      "title": "US justice department investigating TV networks over Trump pool coverage",
-      "translatedTitle": null,
-      "description": "Investigation launched after five broadcasters last month ceased presidential coverage after CNN, MS Now and Politico were barred from White House The US Department of Justice is investigating whether the decision of the White House television press pool to halt coverage of the US president, Donald Trump, last month violated antitrust law, an agency spokesperson said Saturday. A spokesperson for the department said group boycotts among business competitors might violate US law. “The Antitrust Di",
-      "url": "https://www.theguardian.com/us-news/2026/oct/11/justice-department-investigates-tv-networks-trump-pool-coverage",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/11/justice-department-investigates-tv-networks-trump-pool-coverage",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-11T03:15:05Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/73fccaffbcfe0058905fede7dc7ef079174ffcee/68_0_6306_5047/master/6306.jpg?width=140&quality=85&auto=format&fit=max&s=896d2251844edf7d5a865075e8b5c003",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a74ca71d1d834aa1b322",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.33618
+      "rankingScore": 6.72351,
+      "related": []
     },
     {
       "id": "881768501012f6b288f0e643",
@@ -297,38 +356,8 @@
       "clusterId": "8173d919d8cfc61d3e6f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.15485
-    },
-    {
-      "id": "b6daa54d07eedbd30a14ac53",
-      "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
-      "translatedTitle": null,
-      "description": "Roofs were ripped off buildings after Isaias barrelled into the US on Friday evening, before it weakened to a post-tropical cyclone.",
-      "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmje5x80yg70o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-10T23:19:55Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a454/live/61dbc890-c4e3-11f1-a793-e9d00826e617.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6000b3e655be161ff9cf",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92993
+      "rankingScore": 6.63351,
+      "related": []
     },
     {
       "id": "303d428111a61c4164e19e02",
@@ -350,15 +379,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "6d4e02417f60d2d8106e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.72615
+      "rankingScore": 6.38023,
+      "related": []
     },
     {
       "id": "4b8850fc40009e18662b4796",
@@ -380,14 +409,44 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "c05c6670c86eb894424a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.66088,
+      "rankingScore": 6.32797,
+      "related": []
+    },
+    {
+      "id": "f2ded4d361213cc987e0c65f",
+      "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
+      "translatedTitle": null,
+      "description": "Newly established commission identifies 17 catastrophic threats to human health but says ‘realistic route to act’ on each exists Humans could become extinct by the year 2100 due to malicious use of AI or nuclear conflict, according to a new global risk assessment. They top a list of 17 major threats to human health over the next 75 years, which also includes cuts to aid spending by wealthy countries, the climate crisis and childhood malnutrition. Continue reading...",
+      "url": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-10T23:01:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f50120ad5ffe55e5024a1ec6dc2e727ce8f4f95d/269_0_3928_3142/master/3928.jpg?width=140&quality=85&auto=format&fit=max&s=609145e51390ceb1f77dfc6c89916d36",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1520d65f56a066a30a4e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.30417,
       "related": []
     },
     {
@@ -410,15 +469,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:38Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "70f2112f327a857bfdb4",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.63094
+      "rankingScore": 6.30399,
+      "related": []
     },
     {
       "id": "8426ee4f3e0e3dcb47d5322e",
@@ -447,16 +506,76 @@
       "clusterId": "d595c342784bfe8c82b4",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.5776,
+      "rankingScore": 6.24335,
       "related": []
     },
     {
-      "id": "f2ded4d361213cc987e0c65f",
-      "title": "Nuclear war and malicious use of AI threaten end of humanity by 2100, says Lancet assessment",
+      "id": "7808f094049aee45057a46a2",
+      "title": "Delhi braces for more protests as 'cockroach' group's leaders released",
       "translatedTitle": null,
-      "description": "Newly established commission identifies 17 catastrophic threats to human health but says ‘realistic route to act’ on each exists Humans could become extinct by the year 2100 due to malicious use of AI or nuclear conflict, according to a new global risk assessment. They top a list of 17 major threats to human health over the next 75 years, which also includes cuts to aid spending by wealthy countries, the climate crisis and childhood malnutrition. Continue reading...",
-      "url": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
-      "canonicalUrl": "https://theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment",
+      "description": "Police say they will keep restricting access to the city centre after 7,000 people were detained and released on Saturday.",
+      "url": "https://www.bbc.co.uk/news/articles/c84g179n2393o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c84g179n2393o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T07:10:49Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a96/live/07c16320-c53c-11f1-ae34-756aa0b18b99.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1f9fef29e14ba636e640",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.97804
+    },
+    {
+      "id": "b7463c87283d9020fd6a8265",
+      "title": "Man dies after tiger attack at wildlife park",
+      "translatedTitle": null,
+      "description": "The man was reported to have entered the tiger enclosure before he was attacked, police say.",
+      "url": "https://www.bbc.co.uk/news/articles/c6n9r3n7858zo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6n9r3n7858zo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T06:58:54Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7bb4/live/1a778cd0-c53f-11f1-bc2e-018d645d8d21.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "624da7b2df32dde9a061",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.95535
+    },
+    {
+      "id": "451def544148f2abca19edf8",
+      "title": "Manchester City face hostile Liverpool reception after guilty verdict – matchday live",
+      "translatedTitle": null,
+      "description": "News, discussion and buildup before today’s action Today’s fixtures | The latest tables | Mail us here Savage the panto villain puts scepticism aside to leave Leicester reeling It felt as though the stars had aligned when Robbie Savage’s first League One match in charge of Peterborough – his first EFL managerial role – happened to be at Leicester. He made his name here and forged a divisive and enduring reputation that has kept him a permanent fixture in English football. Continue reading...",
+      "url": "https://www.theguardian.com/football/live/2026/oct/11/manchester-city-face-hostile-liverpool-reception-after-guilty-verdict-matchday-live",
+      "canonicalUrl": "https://theguardian.com/football/live/2026/oct/11/manchester-city-face-hostile-liverpool-reception-after-guilty-verdict-matchday-live",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -465,20 +584,380 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-10T23:01:09Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f50120ad5ffe55e5024a1ec6dc2e727ce8f4f95d/269_0_3928_3142/master/3928.jpg?width=140&quality=85&auto=format&fit=max&s=609145e51390ceb1f77dfc6c89916d36",
+      "publishedAt": "2026-10-11T08:08:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/34803709063b9ff4a642fcbdde158f573119471c/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=4d3e07fcfd6bb2bdf574c31a65a06069",
       "imageAlt": null,
-      "category": "Science & Health",
+      "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-10-11T00:17:34Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1520d65f56a066a30a4e",
+      "clusterId": "d32c0cf0e3db6b2573bc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.54116,
+      "related": [],
+      "rankingScore": 5.82214
+    },
+    {
+      "id": "c721436cac72b0466f8b042e",
+      "title": "South Africa v Australia: first men’s cricket Test, day three – live",
+      "translatedTitle": null,
+      "description": "Follow updates from Kingsmead Cricket Ground Start time is 9.30am local/6.30pm AEDT | Email Rob 12th over: South Africa 37-1 (Markram 24, Bedingham 13) Beautiful batting from Markram. Hazlewood was fractionally too straight, no more than that, and Markram put him away through midwicket with an understated flick of the wrists. How can Aiden Markram have a Test average of 36? The guy is so good. Continue reading...",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/11/south-africa-v-australia-first-test-day-three-durban-kingsmead-cricket-ground-live-updates",
+      "canonicalUrl": "https://theguardian.com/sport/live/2026/oct/11/south-africa-v-australia-first-test-day-three-durban-kingsmead-cricket-ground-live-updates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T08:08:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c6ad36246bfda3d8f1d02d1049a8d8cdfeb460e5/350_0_3500_2800/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=fcd6579d5d157935e8ad291ba214c1ef",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "922be30448f41db6e377",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.8214
+    },
+    {
+      "id": "3a9ba8472c8346ffa375b0a4",
+      "title": "‘I’d wander through the park all angsty listening to Arctic Monkeys’: Arlo Parks’ honest playlist",
+      "translatedTitle": null,
+      "description": "The singer shamelessly blasts Lady Gaga in the car and is brought to tears by Portishead – but which song does she have to be careful listening to? The first song I fell in love with I remember listening to Sweet Dreams (Are Made of This) by Eurythmics when I was really young. There was something about the line at the beginning that I was completely intoxicated by. The first download I bought When I was about 10 or 11, I would put my headphones on and wander through the park all angsty listening",
+      "url": "https://www.theguardian.com/music/2026/oct/11/arlo-parks-honest-playlist-prince-janet-jackson",
+      "canonicalUrl": "https://theguardian.com/music/2026/oct/11/arlo-parks-honest-playlist-prince-janet-jackson",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T08:00:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/59705a5d8ea93ddb32060e0ba5f8c1b2465c617f/0_37_2173_1738/master/2173.jpg?width=140&quality=85&auto=format&fit=max&s=7cc4a5aae5121000430ccf7e8419f3f3",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9d283b248906b40101d9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80506
+    },
+    {
+      "id": "6c8a605d42632b6f0644aa6a",
+      "title": "Toxicity and uncertainty await Man City as they prepare to take on Liverpool",
+      "translatedTitle": null,
+      "description": "Manchester City visit Liverpool on Sunday with a lot of uncertainty hanging over them. Phil McNulty looks at what lies ahead.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvy0rp14xz7lo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cvy0rp14xz7lo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T05:27:03Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f71c/live/49c28cc0-c548-11f1-a64c-550be9e3c66b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c044dbca925d948f4ad4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.78859
+    },
+    {
+      "id": "3d5a43c6d612d8c245d5963b",
+      "title": "US justice department investigates TV networks over Trump pool coverage",
+      "translatedTitle": null,
+      "description": "The White House had blocked access for CNN, MS Now and Politico, leading them to restrict pool coverage.",
+      "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c9vgregzk6gro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T05:05:43Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1dbb/live/9bb34c30-c53a-11f1-ae34-756aa0b18b99.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "27219b563891358e47d4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.75184,
       "related": []
+    },
+    {
+      "id": "6f98ba3fbb9ef982092d753a",
+      "title": "'Tiger attack horror' and Trump tells Zelensky 'time to go'",
+      "translatedTitle": null,
+      "description": "The majority of the papers on Sunday are dominated by a man who was attacked by a tiger at a wildlife park near Doncaster.",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn710m8d7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cw5yn710m8d7o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T04:46:35Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/695c/live/351deb10-c4f9-11f1-a4b9-bbb80bd65c1a.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0039c6f94fbce2b73782",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.7195
+    },
+    {
+      "id": "6775c6cec9b51d2fb301851e",
+      "title": "Robbie Savage the panto villain puts scepticism aside to leave Leicester reeling",
+      "translatedTitle": null,
+      "description": "Peterborough’s new boss has long been a divisive figure but a stunning win at struggling former club offered a glimpse of his fearless philosophy It felt as though the stars had aligned when Robbie Savage’s first League One match in charge of Peterborough – his first EFL managerial role – happened to be at Leicester. He made his name here and forged a divisive and enduring reputation that has kept him a permanent fixture in English football. Savage has long been a joker figure – an image born in",
+      "url": "https://www.theguardian.com/football/2026/oct/11/robbie-savage-peterborough-manager-leicester",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/11/robbie-savage-peterborough-manager-leicester",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T07:00:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6e11f4c5c5f7c1df407beddd69fe29a2f3fa970f/35_131_1745_1396/master/1745.jpg?width=140&quality=85&auto=format&fit=max&s=f060bdb167ad4e779b555bf3526057d9",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a0ce62fed51d18d8fb76",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68806
+    },
+    {
+      "id": "ff951f3c9bbd443bfa3b97c8",
+      "title": "‘Halloweenmas’: how the spooky one-nighter turned into a month-long spectacular",
+      "translatedTitle": null,
+      "description": "Welcome to Halloweenmas, weeks of themed fun and gifts – from costume parties to decorating trees – without the stress, rules or cost of Christmas The tree is up, the wreath is hanging on the front door and you’ve just opened your advent calendar. All told, it’s beginning to feel a lot like … Halloween. If it sounds like the stuff of nightmares then that’s the point: Britons are increasingly decorating their homes with ghoulish versions of Christmas traditions. Think of it as Halloweenmas. Conti",
+      "url": "https://www.theguardian.com/business/2026/oct/11/halloween-from-one-night-to-month-long-celebration",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/11/halloween-from-one-night-to-month-long-celebration",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T07:00:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/61fe8bbb4da0cd38af976d223893aabdbfd82cc0/358_0_4421_3538/master/4421.jpg?width=140&quality=85&auto=format&fit=max&s=9a97784f4c9ee31f11f40f606574ae90",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9805b032620d59a9cbdf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68803
+    },
+    {
+      "id": "455fd299f38ab1d8b320c557",
+      "title": "The hill I will die on: Pumpkin-spiced latte is a con. It’s time to put an end to Big Autumn | Chloë Hamilton",
+      "translatedTitle": null,
+      "description": "The aesthetic of crisp mornings and roaring fireplaces has created a personality driven by social media. Let’s just admit the reality: mud, drizzle and shorter days It’s getting earlier every year, that first meme about golden leaves and pumpkin-spiced lattes. This year, I swear, I spotted one in early August, while we were still sweltering under our fourth heatwave of the summer. Because, of course, for those that like crisp mornings, Halloween and glasses of red wine in front of roaring fires,",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/11/the-hill-i-will-die-on-end-big-autumn-pumpkin-spiced-latte",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/11/the-hill-i-will-die-on-end-big-autumn-pumpkin-spiced-latte",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T07:00:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ad88b6f13af48ed9016dc1c242573db59434939b/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=8e31b956be543f07d460d427e94d7181",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "43db8d64d9b1487391b2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68803
+    },
+    {
+      "id": "929800a09d6e32fff2dbbb63",
+      "title": "Manchester-based composer creates requiem to honour enslaved Africans",
+      "translatedTitle": null,
+      "description": "David Önaç uses insurance documents for work funded by Lloyd’s of London after research uncovered its slavery links A centuries-old insurance document detailing the trafficking of enslaved Africans began with the words: “In the name of God, Amen.” For Dr Errol Francis, the artistic director and chief executive of the arts and heritage charity Culture&, the contradiction was striking: an invocation of God in a document that treated human beings as cargo. Continue reading...",
+      "url": "https://www.theguardian.com/news/2026/oct/11/manchester-based-composer-creates-requiem-to-honour-enslaved-africans",
+      "canonicalUrl": "https://theguardian.com/news/2026/oct/11/manchester-based-composer-creates-requiem-to-honour-enslaved-africans",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T06:00:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7ea12277351e1c61472c2c795358a04944f538cc/0_0_1271_1020/master/1271.jpg?width=140&quality=85&auto=format&fit=max&s=f0715edaf53b6cea81c0b1924073ec61",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cd5a967e52bcbfeb13d9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57735
+    },
+    {
+      "id": "34a6eb7ec40d882d1dda641c",
+      "title": "‘You have a meeting’: the calendar phishing scam growing exponentially",
+      "translatedTitle": null,
+      "description": "Appointment or renewal reminder appears in victims’ calendar to lure them into logging in to fake Google, Microsoft or PayPal page You’re preparing for the week ahead and take a look at your Google calendar. There’s an entry for a meeting that you must have completely forgotten. The note that pops up when you click on it says you’ll be reviewing a project and includes a link to more details. Confused, you follow it to find out more; the website you land on asks for logon details, and you provide",
+      "url": "https://www.theguardian.com/money/2026/oct/11/calendar-phishing-scam-meeting-renewal-google-microsoft-paypal",
+      "canonicalUrl": "https://theguardian.com/money/2026/oct/11/calendar-phishing-scam-meeting-renewal-google-microsoft-paypal",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T06:00:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/26d72cb1f65c0c4f02670bd2e39f1d87f06eb73e/849_0_5555_4444/master/5555.jpg?width=140&quality=85&auto=format&fit=max&s=43f46be4401615d1fef852ad7a8d4581",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2eb030989389d7039b93",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57732
+    },
+    {
+      "id": "b924cb5cb64a6e09c701e85a",
+      "title": "Healing waters: 10 of the best spa towns in Europe for a restorative autumn break",
+      "translatedTitle": null,
+      "description": "From Alpine valleys to belle époque towns, dip your toes in the therapeutic waters and steaming mineral pools at spa hotels offering centuries-old healing treatments In 2021, Unesco designated 11 historic spa towns across Europe as one transnational world heritage site, recognising their “exceptional testimony to the European spa phenomenon, which gained its highest expression from around 1700 until the 1930s”. This was the original wellness tourism, and these grand health resorts include Bath i",
+      "url": "https://www.theguardian.com/travel/2026/oct/11/best-spa-towns-europe-autumn-wellbeing-holiday",
+      "canonicalUrl": "https://theguardian.com/travel/2026/oct/11/best-spa-towns-europe-autumn-wellbeing-holiday",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T06:00:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5a7f03785787581db84c9fcbf9d21a647b0914e2/130_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=b0bc8beea4a3160194120a7bb3d824d6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "14b83cb805ec6e9d3cf1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57732
+    },
+    {
+      "id": "99abe0556e1d0975a0a8c6f8",
+      "title": "Animals and their people: country shows across the UK – in pictures",
+      "translatedTitle": null,
+      "description": "Photographer Irina Werning, who grew up in rural Argentina surrounded by animals, has spent the summer photographing animals and their people at county and agricultural shows across the UK, from Essex and Kent to Surrey, Gloucestershire and Buckinghamshire, a project she began in Argentina. ‘As animals become less visible in the countryside, I’ve turned to agricultural shows – places where people still gather to see and celebrate them. For the past four years, I’ve photographed these fairs in Ar",
+      "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/11/animals-people-country-shows-across-uk-in-pictures",
+      "canonicalUrl": "https://theguardian.com/artanddesign/gallery/2026/oct/11/animals-people-country-shows-across-uk-in-pictures",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T06:00:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7bf9eb996b3601b368dfe247f9e88b29fa303223/0_971_8736_6989/master/8736.jpg?width=140&quality=85&auto=format&fit=max&s=a8de25865b0b57d0318125b9707a15e6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b29f78c8b786f8c64c36",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57732
     },
     {
       "id": "e20d61c12761ade6cfacda17",
@@ -500,7 +979,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -508,7 +987,277 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.90791
+      "rankingScore": 5.50984
+    },
+    {
+      "id": "df75fbe520e7998872f2f02d",
+      "title": "TV tonight: David Tennant stars in a brutally brilliant prison drama",
+      "translatedTitle": null,
+      "description": "Jimmy McGovern’s incredible series Time returns. Plus: The Party is a moreish new thriller based on Elizabeth Day’s hit novel. Here’s what to watch this evening Sunday, 9pm, BBC One Continue reading...",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/11/tv-tonight-david-tennant-stars-in-a-brutally-brilliant-prison-drama",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/oct/11/tv-tonight-david-tennant-stars-in-a-brutally-brilliant-prison-drama",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T05:15:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/79a025cb9d985a7a64a30f754864e9995b0b265b/566_202_3431_2746/master/3431.jpg?width=140&quality=85&auto=format&fit=max&s=cf1c2fcb2938f5ceb2acd3564923a44f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "300dd1d0fec1c64a7807",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.49823
+    },
+    {
+      "id": "70065b464773f4e5d0e65088",
+      "title": "Indian Cafe Racer, Birmingham B5: ‘A good news tale for the local food scene’ – restaurant review",
+      "translatedTitle": null,
+      "description": "The cooking is sometimes bang on, sometimes a little slapdash, but then piques your interest all over again Indian Cafe Racer on Bristol Street, Birmingham, spent its fledgling years tucked behind a curtain at the back of the Duke of Wellington pub just a few doors up from its fancy new home. There was a Royal Enfield motorcycle, chequerboard floors and a psychedelic Indian soundtrack, but this small, homespun spot from Azad Kayes quickly became culty, then oversubscribed, then in need of a bigg",
+      "url": "https://www.theguardian.com/food/2026/oct/11/indian-cafe-racer-birmingham-grace-dent-restaurant-review",
+      "canonicalUrl": "https://theguardian.com/food/2026/oct/11/indian-cafe-racer-birmingham-grace-dent-restaurant-review",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T05:02:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d1de26602ab47c12032a6d542d9189010d7ebf00/0_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=bd743c9e5aaa6be61d7a532a4e4e365d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9c8a10034c5b46a20794",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47597
+    },
+    {
+      "id": "f962ce098acb61fe8286b677",
+      "title": "‘Restore the authority’: the challenge for the BBC’s new director of news",
+      "translatedTitle": null,
+      "description": "Rachel Jupp takes role as corporation grapples with digital transformation, a cash crisis and its public service role With looming job cuts and an ongoing pay dispute, there has not been much to smile about for BBC journalists working in “the pit” – their pet name for the newsroom deep in the belly of New Broadcasting House. On Monday afternoon, however, they were greeted by a grinning figure conducting a tour of the news floor. She was Rachel Jupp, the BBC’s newly appointed director of news and",
+      "url": "https://www.theguardian.com/media/2026/oct/11/challenge-bbc-director-of-news-rachel-jupp",
+      "canonicalUrl": "https://theguardian.com/media/2026/oct/11/challenge-bbc-director-of-news-rachel-jupp",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T05:00:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e8e3d380d5af52cf3d164a187723ca191ff9cb90/127_231_1670_1337/master/1670.jpg?width=140&quality=85&auto=format&fit=max&s=9718bb504d54116151f145485713a574",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "58261c67a485b2b9f599",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47263
+    },
+    {
+      "id": "cfb5e8a4381e510f470029d6",
+      "title": "‘Stab to the heart’: arrest of German ex-spymaster sparks calls for reform",
+      "translatedTitle": null,
+      "description": "Claims that August Hanning exploited intelligence for private clients comes after other troubling espionage scandals The ex-spymaster August Hanning once criticised Germany’s own intelligence services as “vegetarians” among prowling carnivores, demanding broader powers to keep the country safe in a treacherous world. Often described as a “godfather” of Germany’s 21st-century security architecture, Hanning is now charged with treasonous espionage and handing state secrets to a foreign power in on",
+      "url": "https://www.theguardian.com/world/2026/oct/11/stab-to-the-heart-arrest-of-german-ex-spymaster-sparks-calls-for-reform",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/11/stab-to-the-heart-arrest-of-german-ex-spymaster-sparks-calls-for-reform",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T05:00:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9e5268ccf356a80c4ee5d35d935349497a83e6cc/397_0_3432_2746/master/3432.jpg?width=140&quality=85&auto=format&fit=max&s=5b185e592805139a2fba55c2c9dc7f11",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0f84a546bf5ac7e4a262",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47263
+    },
+    {
+      "id": "43bebd31adba366fcaf64063",
+      "title": "France’s other schools problem – the teens violently smashing up their old primaries: ‘They think it’s not worthy of respect – so they trash it’",
+      "translatedTitle": null,
+      "description": "The phenomenon of pupils wrecking equipment and setting fire to classrooms predates the current crisis. Is it rooted in poverty, social media peer pressure – or just plain boredom? Like most French primaries on Wednesdays, Marcel Pagnol school, in the eastern suburbs of Lyon, was shut on 19 June 2024. But at 6.30pm that evening, two boys turned up late for school – by two years. Former pupils there, the 13-year-olds struggled to break through the crispy lattice of the front-door window with a ga",
+      "url": "https://www.theguardian.com/world/2026/oct/11/france-violent-attacks-trashings-schools-teenagers",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/11/france-violent-attacks-trashings-schools-teenagers",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T05:00:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e985785d861156f3485797b84b08f33a2e58918a/0_0_1042_833/master/1042.jpg?width=140&quality=85&auto=format&fit=max&s=5ec75403c4f3b79b636b4ef94be6b66e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f3ae92748e5438be1c73",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4726
+    },
+    {
+      "id": "dc29c97d279834eb1cb7e788",
+      "title": "My partner’s obnoxious conduct at our sons’ football matches is putting me off him | Annalisa Barbieri",
+      "translatedTitle": null,
+      "description": "His behaviour is certainly inappropriate, but take a quiet moment to try to find out where the anger is coming from My partner and I have been together for 25 years and we have two sons, aged 14 and 16. Both are football crazy and have played since they were very young. My partner’s competitive nature was one of the things I initially found attractive about him (I wanted someone with drive). However, this side of him rears its ugly head when our kids play matches. He shouts, criticises and, wors",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/11/partners-obnoxious-conduct-sons-football-matches-putting-me-off",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/11/partners-obnoxious-conduct-sons-football-matches-putting-me-off",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T05:00:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4ec46ddf0313a576ab1364ce3ec80a3287021c42/1304_0_7809_6250/master/7809.jpg?width=140&quality=85&auto=format&fit=max&s=428395d7b86e5cba4180b31cc81065f8",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a5f7748dbd3f97803143",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4726
+    },
+    {
+      "id": "379678de3fc109cf97b35f1b",
+      "title": "Christian nationalism in Britain driven by people who seldom go to church, says report",
+      "translatedTitle": null,
+      "description": "Research challenges the notion that the growing visibility of crosses and other symbols reflects a revival of Christianity Christian nationalism in Britain is being driven largely by people who rarely attend church and are more concerned with defending the country’s Christian heritage, according to research. The report, by the thinktank Theos, identified five different groups within the UK in a survey that looked at their attitudes to Christianity and Britishness. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/11/christian-nationalism-uk-far-right-people-rarely-go-to-church-report",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/11/christian-nationalism-uk-far-right-people-rarely-go-to-church-report",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T05:00:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0e78854fe248e0dee5904ab2d7051a6cd46f97bf/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=784e9660989a5fb7dec9bb3dcaae8bb2",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "57fc364e052765632f2f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4726
+    },
+    {
+      "id": "3a6f3b5bcc6bbcf714df358a",
+      "title": "Retrofit schools and consider moving exams to beat extreme heat, says teaching union leader",
+      "translatedTitle": null,
+      "description": "NEU’s Daniel Kebede says earlier start times and longer summer breaks may be needed to help pupils and teachers Schools should consider changing start and finish times, reordering holidays and moving exams from the summer months in an effort to adapt to the UK’s increasingly severe heatwaves, according to the leader of the country’s biggest education union. Daniel Kebede, the general secretary of the National Education Union (NEU), said this summer’s repeated bouts of extreme heat had a devastat",
+      "url": "https://www.theguardian.com/education/2026/oct/11/schools-exams-extreme-heat-neu-daniel-kebede",
+      "canonicalUrl": "https://theguardian.com/education/2026/oct/11/schools-exams-extreme-heat-neu-daniel-kebede",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T05:00:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3fb8cb8b435f1406261e96136ce7bc7ba8567324/568_0_5697_4558/master/5697.jpg?width=140&quality=85&auto=format&fit=max&s=9a1f62e669f9ecd82a06db091bc5b6b5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8bd986ea46aec392c00a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4726
+    },
+    {
+      "id": "30a7aba0c0d85de8fac6dd25",
+      "title": "Capital punishment is surging in the US – but after Christa Pike’s botched execution, what is its future?",
+      "translatedTitle": null,
+      "description": "Trump has used the full might of the presidency to supercharge executions, but an avalanche of mishaps has put the system’s flaws in the spotlight It took more than an hour to establish the two intravenous lines through which Christa Pike would be injected with a giant and normally lethal dose of the sedative pentobarbital, and in that time she did everything she could to assist those who were attempting to kill her. “Please try here,” she said over and over again to Tennessee’s execution team,",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/11/executions-us-christa-pike",
+      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/oct/11/executions-us-christa-pike",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T05:00:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9d334c489eaa2a4333274a91fde4126c589577df/1_0_3748_3000/master/3748.jpg?width=140&quality=85&auto=format&fit=max&s=d5aa323c1c3c768b5142b3497eb26ca0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b7833358f50fd9588b02",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47257
     },
     {
       "id": "d6e640fa822119c1172cdfb4",
@@ -530,105 +1279,15 @@
       "imageAlt": null,
       "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "a952dbf0f53932538db3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80488
-    },
-    {
-      "id": "b7463c87283d9020fd6a8265",
-      "title": "Man dies after tiger attack at wildlife park",
-      "translatedTitle": null,
-      "description": "It was reported the man entered the tiger enclosure at the attraction near Doncaster, police say.",
-      "url": "https://www.bbc.co.uk/news/articles/c6n9r3n7858zo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6n9r3n7858zo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-11T01:05:37Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a351/live/9ceda390-c4cf-11f1-92df-35160a6c9392.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "624da7b2df32dde9a061",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.75163
-    },
-    {
-      "id": "0485a217670aea233a636392",
-      "title": "‘My body is still peaking’: Eliud Kipchoge wins first marathon in three years",
-      "translatedTitle": null,
-      "description": "Kenyan breaks Melbourne Marathon record by two seconds ‘I’m happy to run with the gen Zs,’ 41-year-old says Marathon’s greatest competitor, Eliud Kipchoge, has sent a message to the next generation declaring that he’s not done yet. The 41-year-old Kenyan revelled in his Melbourne Marathon debut on Sunday, breaking the race record and delighting thousands of fans at the MCG finish. Continue reading...",
-      "url": "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
-      "canonicalUrl": "https://theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-11T02:54:21Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0cffbced7d03ca4f7411e4d12dcdb78717058dd7/666_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=582939f929b5fdd01ff7573ff5e61a40",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0621df27ad7d8c20e491",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6767
-    },
-    {
-      "id": "6f98ba3fbb9ef982092d753a",
-      "title": "'Tiger attack horror' and Trump tells Zelensky 'time to go'",
-      "translatedTitle": null,
-      "description": "The majority of the papers on Sunday are dominated by a man who was attacked by a tiger at a wildlife park near Doncaster.",
-      "url": "https://www.bbc.co.uk/news/articles/cw5yn710m8d7o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cw5yn710m8d7o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-10T23:45:45Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/695c/live/351deb10-c4f9-11f1-a4b9-bbb80bd65c1a.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0039c6f94fbce2b73782",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.62036
+      "rankingScore": 5.37354,
+      "related": []
     },
     {
       "id": "5fa04ae8f18e30c0a413b638",
@@ -650,7 +1309,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -658,7 +1317,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.61193
+      "rankingScore": 5.27283
+    },
+    {
+      "id": "0485a217670aea233a636392",
+      "title": "‘My body is still peaking’: Eliud Kipchoge wins first marathon in three years",
+      "translatedTitle": null,
+      "description": "Kenyan breaks Melbourne Marathon record by two seconds ‘I’m happy to run with the gen Zs,’ 41-year-old says Marathon’s greatest competitor, Eliud Kipchoge, has sent a message to the next generation declaring that he’s not done yet. The 41-year-old Kenyan revelled in his Melbourne Marathon debut on Sunday, breaking the race record and delighting thousands of fans at the MCG finish. Continue reading...",
+      "url": "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
+      "canonicalUrl": "https://theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-11T02:54:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0cffbced7d03ca4f7411e4d12dcdb78717058dd7/666_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=582939f929b5fdd01ff7573ff5e61a40",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-11T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0621df27ad7d8c20e491",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.2709,
+      "related": []
     },
     {
       "id": "3d2375c6a936c53d0dc6682e",
@@ -680,7 +1369,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -688,11 +1377,11 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.59807
+      "rankingScore": 5.26173
     },
     {
       "id": "bf81dcdd9ab8abe31fcefe8a",
-      "title": "AI is creating a 'human premium' for art made by people. But will it hold?",
+      "title": "AI is creating a 'human premium' for art made by people, but will it hold?",
       "translatedTitle": null,
       "description": "Amid a surge in AI content, many are placing extra value on art that's obviously made by a human. But can that last, asks Ros Atkins",
       "url": "https://www.bbc.co.uk/news/articles/c5vgjm3gk7rzo?at_medium=RSS&at_campaign=rss",
@@ -710,7 +1399,7 @@
       "imageAlt": null,
       "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
+      "retrievedAt": "2026-10-11T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -718,67 +1407,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.57738
-    },
-    {
-      "id": "eecbd4e65fcb8209fbb32a9d",
-      "title": "Three friends on their student debt: one paid off, one chipping away and one creeping up",
-      "translatedTitle": null,
-      "description": "Lizzy, Charlotte and Libby studied at the same time, but their student debt now looks very different.",
-      "url": "https://www.bbc.co.uk/news/articles/c9rk3k25vmxko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c9rk3k25vmxko?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-10T23:17:03Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dc78/live/92690e40-c304-11f1-babe-4199b0e7ccea.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "82679115d8ad1a8379b8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5755
-    },
-    {
-      "id": "ed93ca5841099a13d133725e",
-      "title": "Bid to overturn ruling which stops police being sued for failings",
-      "translatedTitle": null,
-      "description": "MPs are seeking to stop immunity applying when police fabricate evidence or are dishonest or negligent.",
-      "url": "https://www.bbc.co.uk/news/articles/c6y43mmke7ygo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6y43mmke7ygo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-10T23:04:37Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5b00/live/778a9be0-c401-11f1-838e-6d1d6d701264.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-11T04:17:37Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a323279a659e1df0c700",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.55644
+      "rankingScore": 5.24516
     },
     {
       "id": "edf2afff4b29c86ddb502c65",
@@ -807,8 +1436,8 @@
       "clusterId": "714e403a348cda339e7a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.33313
+      "rankingScore": 4.97785,
+      "related": []
     }
   ]
 }
