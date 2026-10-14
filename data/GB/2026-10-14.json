@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T00:17:50Z",
-  "lastAttemptAt": "2026-10-14T00:17:50Z",
-  "lastSuccessfulUpdate": "2026-10-14T00:17:50Z",
-  "status": "current",
+  "generatedAt": "2026-10-14T04:17:49Z",
+  "lastAttemptAt": "2026-10-14T04:17:49Z",
+  "lastSuccessfulUpdate": "2026-10-14T04:17:49Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 31,
-  "publisherCount": 3,
+  "articleCount": 45,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-14T00:17:49Z",
-      "lastSuccessAt": "2026-10-14T00:17:49Z",
+      "lastAttemptAt": "2026-10-14T04:17:49Z",
+      "lastSuccessAt": "2026-10-14T04:17:49Z",
       "articlesRetrieved": 31,
-      "responseTimeMs": 328,
+      "responseTimeMs": 436,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-14T00:17:49Z",
-      "lastSuccessAt": "2026-10-14T00:17:49Z",
+      "lastAttemptAt": "2026-10-14T04:17:49Z",
+      "lastSuccessAt": "2026-10-14T04:17:49Z",
       "articlesRetrieved": 141,
-      "responseTimeMs": 374,
+      "responseTimeMs": 266,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-14T00:17:49Z",
-      "lastSuccessAt": "2026-10-14T00:17:49Z",
+      "lastAttemptAt": "2026-10-14T04:17:49Z",
+      "lastSuccessAt": "2026-10-14T04:17:49Z",
       "articlesRetrieved": 7,
-      "responseTimeMs": 629,
+      "responseTimeMs": 413,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-10-14T00:17:49Z",
-      "lastSuccessAt": "2026-10-14T00:17:49Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 552,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-14T04:17:49Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -78,15 +78,105 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
+      "retrievedAt": "2026-10-14T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "00d8bbec1df224c44620",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.33158,
+      "related": []
+    },
+    {
+      "id": "02d8454ce2e5948ebf1c6214",
+      "title": "Iranian woman handed death sentence for ‘blasphemy’ in social media post",
+      "translatedTitle": null,
+      "description": "Rights groups warn of Tehran regime’s increasing use of executions to suppress dissent, with at least 600 this year Human rights groups have raised the alarm over the growing number of death sentences and executions in Iran, after reports that a 23-year-old woman, Najmeh Amini, has been sentenced to death for blasphemy over a social-media post. Amini, an accounting student, is being held in Vakilabad prison in the north-east city of Mashhad. She has been sentenced to more than 12 years in prison",
+      "url": "https://www.theguardian.com/global-development/2026/oct/14/najmeh-amini-blasphemy-death-sentence-insulting-prophet",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/oct/14/najmeh-amini-blasphemy-death-sentence-insulting-prophet",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T04:00:44Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4d99defb3f22fb13f40ed993e2252abf4e41b7f5/0_47_1500_1199/master/1500.jpg?width=140&quality=85&auto=format&fit=max&s=f1241b6c48a933168a4e4839ec0cda51",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "45ddf7c95ada9f25d917",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.74007
+      "rankingScore": 7.15544
+    },
+    {
+      "id": "0bf30fcf68bc21bc08f9d864",
+      "title": "Ukraine is littered with landmines on a scale last seen in Vietnam. How can they be removed?",
+      "translatedTitle": null,
+      "description": "Faced with deadlier threats, demining groups are coming up with new ways of working using drones and AI Crouched over on her hands and knees in a field of weeds, Olena Kabanova is digging into the ground. With a shovel and a steady hand, the 58-year-old digs out a neat square around the spot where a mine detector has sensed a suspicious object. Four years ago, this field in eastern Ukraine was occupied by Russian soldiers. Now back under Ukrainian control, it is littered with landmines. Civilian",
+      "url": "https://www.theguardian.com/world/2026/oct/14/landmines-ukraine-demining-drones-ai",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/14/landmines-ukraine-demining-drones-ai",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T04:00:43Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/46134225b48b134289a14fc9742e86eaf0eb737f/1330_739_2439_1951/master/2439.jpg?width=140&quality=85&auto=format&fit=max&s=3acafbaa67be700e335aa74354631d79",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bdc6377cf3c43863986f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.1554
+    },
+    {
+      "id": "bf135814cb997d3f4b6627dc",
+      "title": "The Papers: 'Spy chief's grim warning' and 'tiger victim was child actor'",
+      "translatedTitle": null,
+      "description": "Wednesday's papers are dominated by coverage of a speech given by the MI5 chief and the death of a man in a tiger enclosure.",
+      "url": "https://www.bbc.co.uk/news/articles/cmze41x6l116o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmze41x6l116o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T01:26:20Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b242/live/60388590-c764-11f1-bc2e-018d645d8d21.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7c259a8b66805153a936",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.13697
     },
     {
       "id": "c5e98625609eecaa622c411e",
@@ -108,7 +198,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
+      "retrievedAt": "2026-10-14T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -116,7 +206,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.42181
+      "rankingScore": 6.99106
     },
     {
       "id": "c3f9ac877c429625082dfacb",
@@ -138,7 +228,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
+      "retrievedAt": "2026-10-14T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -146,7 +236,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.41558
+      "rankingScore": 6.98607
     },
     {
       "id": "8885599830c2b203ee4ae831",
@@ -168,7 +258,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
+      "retrievedAt": "2026-10-14T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -176,7 +266,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.3889
+      "rankingScore": 6.96471
     },
     {
       "id": "576e4bba33cb5adf9131a894",
@@ -205,8 +295,158 @@
       "clusterId": "d90356da60ab3f68e799",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.89065,
+      "related": []
+    },
+    {
+      "id": "dfdaf11103ef55acf848349e",
+      "title": "An eerie trip inside Thailand’s oldest amusement park, deserted after flooding",
+      "translatedTitle": null,
+      "description": "Siam Amazing Park was forced to close after rising water damaged rides and left parts of the park inaccessible With its mouth agape, the giant lion’s head is frozen in a roar. No water rushes down the log flume that descends from its heights, while at ground level, the vast amusement park stands empty of noise and activity except for leaves blowing in a light breeze. Welcome to Siam Amazing Park, billed as the longest-running amusement park in south-east Asia, and certainly in Thailand. Up to a",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/14/siam-amazing-park-thailand-oldest-amusement-park-flooded",
+      "canonicalUrl": "https://theguardian.com/world/ng-interactive/2026/oct/14/siam-amazing-park-thailand-oldest-amusement-park-flooded",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T01:36:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c8e6aac90082786880b93054a9dd80a3f35864f5/236_0_2000_1600/master/2000.jpg?width=140&quality=85&auto=format&fit=max&s=98ea36e369807a8068b68a2d297f9b36",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ba07fbdd355817fe00bd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.2989
+      "rankingScore": 6.88458
+    },
+    {
+      "id": "fff746ae2089886038990276",
+      "title": "Russia arrests Japanese journalist on allegations of spying",
+      "translatedTitle": null,
+      "description": "FSB security agency said reporter was arrested on island of Sakhalin, alleging he was collecting information about Russia’s defences Russia has arrested a Japanese journalist on the far east island of Sakhalin and accused him of spying, in the latest sign of rising tensions between Moscow and Tokyo. Russian foreign ministry spokesperson Maria Zakharova identified the reporter as Yuki Imai, from the Hokkaido Shimbun newspaper, adding that he had been accused of “conducting espionage activities on",
+      "url": "https://www.theguardian.com/world/2026/oct/14/russia-detains-japanese-journalist-suspicion-spying",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/14/russia-detains-japanese-journalist-suspicion-spying",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T01:05:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2935b7e812af783543a25a219521041a3c97878b/915_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=33ba3dd5a31180179d8e0418488eded6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2ac4616af963b39f6261",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.83097
+    },
+    {
+      "id": "810da297c2d52f794efe0bbc",
+      "title": "PM pledges 'rock-solid' support ahead of Zelenskyy visit after Trump's diesel deal with Russia",
+      "translatedTitle": null,
+      "description": "Andy Burnham will welcome Volodymyr Zelenskyy to Downing Street today in a show of support days after Donald Trump's controversial diesel deal with Russia.",
+      "url": "https://news.sky.com/story/pm-pledges-rock-solid-support-ahead-of-zelenskyy-visit-after-trumps-diesel-deal-with-russia-13599080",
+      "canonicalUrl": "https://news.sky.com/story/pm-pledges-rock-solid-support-ahead-of-zelenskyy-visit-after-trumps-diesel-deal-with-russia-13599080",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T00:52:00Z",
+      "imageUrl": "https://e3.365dm.com/26/07/1920x1080/skynews-andy-burnham-volodymyr-zelenskyy_7307943.jpg?20260727170738",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cc68b7976878df459eac",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.80824
+    },
+    {
+      "id": "9c1c14c65235d8df441e7c50",
+      "title": "Cryptocurrency exchange founded by Reform donor Ben Delo sued for £20m",
+      "translatedTitle": null,
+      "description": "Former investor alleges BitMEX sold products in UK despite not being regulated by Financial Conduct Authority A cryptocurrency exchange founded by the billionaire Reform UK donor Ben Delo is being sued for £20m over claims that the company mis-sold financial products in the UK. Lewis Barber, who is a software engineer, alleges that BitMEX offered crypto derivative products to investors in the UK, despite not being regulated or approved to do so by the Financial Conduct Authority (FCA). Continue",
+      "url": "https://www.theguardian.com/politics/2026/oct/14/cryptocurrency-exchange-founded-by-reform-donor-ben-delo-sued-for-20m",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/14/cryptocurrency-exchange-founded-by-reform-donor-ben-delo-sued-for-20m",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-13T23:01:38Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/efa07eae7656ea0e8ac40f4217cbe03d652ec9e0/109_203_1022_817/master/1022.jpg?width=140&quality=85&auto=format&fit=max&s=9b1a8949572db218ae8c524165abc046",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6baa14055c9ecb586a6f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.63161,
+      "related": []
+    },
+    {
+      "id": "e734afba78de719d085d1a35",
+      "title": "The Cherry Orchard review – Kristin Scott Thomas makes a modern matriarch in trad, earthy Chekhov",
+      "translatedTitle": null,
+      "description": "Harold Pinter theatre, LondonThis Ranevskaya feels of our time but Conor McPherson’s plain-speaking adaptation, co-starring Stephen Mangan, doesn’t always hit you emotionally There have been several starry Madame Ranevskayas in recent times. The prodigal Russian landowner, returning to her beloved estate and cherry orchard, was searingly played by Nina Hoss in 2024 and less memorably by Helen Hunt this summer. Now here is Kristin Scott Thomas, who brings a hard-edged modernity that you believe i",
+      "url": "https://www.theguardian.com/stage/2026/oct/14/the-cherry-orchard-review-kristin-scott-thomas-chekhov-harold-pinter-theatre-conor-mcpherson-ian-rickson-stephen-mangan",
+      "canonicalUrl": "https://theguardian.com/stage/2026/oct/14/the-cherry-orchard-review-kristin-scott-thomas-chekhov-harold-pinter-theatre-conor-mcpherson-ian-rickson-stephen-mangan",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-13T23:01:38Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/811d1efced422c6c30c1bca0abca9083d9861c4c/1374_912_4298_3438/master/4298.jpg?width=140&quality=85&auto=format&fit=max&s=b643246b4cc850b1eadf68987087d3f4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5e020599af925ca27a8d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.63161,
+      "related": []
     },
     {
       "id": "809150f6c0ff7d86440219f4",
@@ -235,68 +475,8 @@
       "clusterId": "c6c7a33995680a5df90b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.05532
-    },
-    {
-      "id": "9c1c14c65235d8df441e7c50",
-      "title": "Cryptocurrency exchange founded by Reform donor Ben Delo sued for £20m",
-      "translatedTitle": null,
-      "description": "Former investor alleges BitMEX sold products in UK despite not being regulated by Financial Conduct Authority A cryptocurrency exchange founded by the billionaire Reform UK donor Ben Delo is being sued for £20m over claims that the company mis-sold financial products in the UK. Lewis Barber, who is a software engineer, alleges that BitMEX offered crypto derivative products to investors in the UK, despite not being regulated or approved to do so by the Financial Conduct Authority (FCA). Continue",
-      "url": "https://www.theguardian.com/politics/2026/oct/14/cryptocurrency-exchange-founded-by-reform-donor-ben-delo-sued-for-20m",
-      "canonicalUrl": "https://theguardian.com/politics/2026/oct/14/cryptocurrency-exchange-founded-by-reform-donor-ben-delo-sued-for-20m",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-13T23:01:38Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/efa07eae7656ea0e8ac40f4217cbe03d652ec9e0/109_203_1022_817/master/1022.jpg?width=140&quality=85&auto=format&fit=max&s=9b1a8949572db218ae8c524165abc046",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6baa14055c9ecb586a6f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.04011
-    },
-    {
-      "id": "e734afba78de719d085d1a35",
-      "title": "The Cherry Orchard review – Kristin Scott Thomas makes a modern matriarch in trad, earthy Chekhov",
-      "translatedTitle": null,
-      "description": "Harold Pinter theatre, LondonThis Ranevskaya feels of our time but Conor McPherson’s plain-speaking adaptation, co-starring Stephen Mangan, doesn’t always hit you emotionally There have been several starry Madame Ranevskayas in recent times. The prodigal Russian landowner, returning to her beloved estate and cherry orchard, was searingly played by Nina Hoss in 2024 and less memorably by Helen Hunt this summer. Now here is Kristin Scott Thomas, who brings a hard-edged modernity that you believe i",
-      "url": "https://www.theguardian.com/stage/2026/oct/14/the-cherry-orchard-review-kristin-scott-thomas-chekhov-harold-pinter-theatre-conor-mcpherson-ian-rickson-stephen-mangan",
-      "canonicalUrl": "https://theguardian.com/stage/2026/oct/14/the-cherry-orchard-review-kristin-scott-thomas-chekhov-harold-pinter-theatre-conor-mcpherson-ian-rickson-stephen-mangan",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-13T23:01:38Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/811d1efced422c6c30c1bca0abca9083d9861c4c/1374_912_4298_3438/master/4298.jpg?width=140&quality=85&auto=format&fit=max&s=b643246b4cc850b1eadf68987087d3f4",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5e020599af925ca27a8d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.04011
+      "rankingScore": 6.62586,
+      "related": []
     },
     {
       "id": "8222e8837df7dee043397c7d",
@@ -325,8 +505,8 @@
       "clusterId": "caf32c8178580feaf441",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.97071
+      "rankingScore": 6.55811,
+      "related": []
     },
     {
       "id": "9aae8439fa147e07ae252f8c",
@@ -355,8 +535,8 @@
       "clusterId": "495c1ec4ab6d729b0a58",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.9559
+      "rankingScore": 6.54625,
+      "related": []
     },
     {
       "id": "18984f7db745ecf8af9ab45e",
@@ -385,8 +565,8 @@
       "clusterId": "e027113e80562c09da5b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.9489
+      "rankingScore": 6.54065,
+      "related": []
     },
     {
       "id": "2b297f9174346df437eafb75",
@@ -415,8 +595,158 @@
       "clusterId": "479d34192201ed2d63a9",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.54065,
+      "related": []
+    },
+    {
+      "id": "ba56cb2e006a2004083b4837",
+      "title": "Bank of America hit with $1.2bn fine for money laundering failings",
+      "translatedTitle": null,
+      "description": "The bank inadequately flagged transactions linked to potential Chinese money laundering networks, the Treasury said.",
+      "url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T02:05:32Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b893/live/c1765210-c764-11f1-b06d-fb50486dda65.jpg",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d329514c7db50cfd4bd8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.9489
+      "rankingScore": 5.85635
+    },
+    {
+      "id": "432012760465728b46a3c2a0",
+      "title": "My son killed himself after falling for an online scam. I heard it happen – and vowed to protect other children",
+      "translatedTitle": null,
+      "description": "Gavin Guffey was 17 when he was targeted by a ‘sextortionist’ on Instagram. His father Brandon has spent four years fighting for justice, and for social media companies to do more to safeguard young users What were the last words Brandon Guffey said to his son Gavin? Four years on, he still struggles with this question. “That last exchange, it bothers me constantly,” he says. “I think I said, ‘Goodnight, buddy. I love you,’ and he said, ‘I’ll see you in the morning.’ I sincerely hope that’s what",
+      "url": "https://www.theguardian.com/society/2026/oct/14/brandon-guffey-gavin-killed-himelf-online-scam-sextortionist",
+      "canonicalUrl": "https://theguardian.com/society/2026/oct/14/brandon-guffey-gavin-killed-himelf-online-scam-sextortionist",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T04:00:45Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d9509b81074661197923a77bdb4c724f9332cead/587_0_2913_2330/master/2913.jpg?width=140&quality=85&auto=format&fit=max&s=4432c0b723a04fc0ffcc16fe0303c119",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b417fd3dce620cdb0874",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80547
+    },
+    {
+      "id": "db3e22df99b33d3c22cffeb6",
+      "title": "In Germany the mood is dark. But the Weimar narrative is a far right trap | Klaus Brinkbäumer",
+      "translatedTitle": null,
+      "description": "The final season of the TV epic Babylon Berlin is taking us back to 1933. Our confidence is falling apart, but that’s where the parallels end There is one experience we in Germany can all find mildly satisfying this autumn, as we watch the dark and terrifying final season of the hit TV series Babylon Berlin. We know everything those fearless (a few of them) or frightened (many more) and opportunistic (the majority) people on the screen do not. We know their future. Made by the public broadcaster",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/14/in-germany-the-mood-is-dark-but-the-weimar-narrative-is-a-far-right-trap",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/14/in-germany-the-mood-is-dark-but-the-weimar-narrative-is-a-far-right-trap",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T04:00:45Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6747a5993857c1c2bd15bcbdeefa3118fd5566f0/573_0_2878_2303/master/2878.jpg?width=140&quality=85&auto=format&fit=max&s=a9a0e3797479c089b09372e16a2675b4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d08649f9ffa28f91ac7b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80547
+    },
+    {
+      "id": "262ba9ec757385cf4ccff8f2",
+      "title": "‘He’s terrified, panicked, can’t sleep’: the tragic, lonely death of Beatles manager Brian Epstein",
+      "translatedTitle": null,
+      "description": "Spandau Ballet’s Gary Kemp paid £10k at auction for Epstein’s address book. He then used it to co-author a thrilling account of the swinging 60s – and an intimate portrait of a tormented man whose life was unravelling The email from Sotheby’s might easily have gone unread. Despite his deep appreciation for the musical heroes who came before him, Gary Kemp is not a collector of rock memorabilia. But there, among the auction lots, was something that caught his eye: a 160x100mm black Twinlock binde",
+      "url": "https://www.theguardian.com/music/2026/oct/14/beatles-brian-epstein-gary-kemp-spandau-ballet",
+      "canonicalUrl": "https://theguardian.com/music/2026/oct/14/beatles-brian-epstein-gary-kemp-spandau-ballet",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T04:00:44Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d259345a2a0367b55381796dc3d18742cebb3f8e/118_0_2179_1743/master/2179.jpg?width=140&quality=85&auto=format&fit=max&s=9fe290e1005a13fe10c79a6a90a6a868",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "89dd4e06b3fd94a00937",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80544
+    },
+    {
+      "id": "ef0c65675bd11fcd6d5b4a05",
+      "title": "What we know about the man who died falling from a Six Flags rollercoaster",
+      "translatedTitle": null,
+      "description": "Hassan Jihad Ibn Kariem died on Monday after police say he was ejected from a ride at a Six Flags amusement park in Georgia.",
+      "url": "https://www.bbc.co.uk/news/articles/cke8r4nmy36qo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cke8r4nmy36qo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T00:59:16Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/acc2/live/919d9da0-c746-11f1-a64c-550be9e3c66b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2b991a5d748c034bdd56",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.74051
     },
     {
       "id": "1ba17c79df5b63a0b711c50b",
@@ -438,7 +768,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
+      "retrievedAt": "2026-10-14T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -446,7 +776,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.10828
+      "rankingScore": 5.67026
     },
     {
       "id": "4b46e6088596d8f8b21b311d",
@@ -468,7 +798,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
+      "retrievedAt": "2026-10-14T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -476,7 +806,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.08651
+      "rankingScore": 5.65283
     },
     {
       "id": "0c6a3fe48430454e29e2eb9f",
@@ -498,7 +828,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
+      "retrievedAt": "2026-10-14T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -506,7 +836,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.05477
+      "rankingScore": 5.62741
+    },
+    {
+      "id": "f1a5837ea6340526227fac62",
+      "title": "’How do you explain the deletion of 130 million names?’ Why Indian voters are on the streets",
+      "translatedTitle": null,
+      "description": "Anger at electoral roll changes has boiled over, sparking a crisis for Narendra Modi’s Hindu nationalist government Born into a small village in West Bengal, Shahida Fakir had always taken her vote for granted. That was, until it was suddenly taken away. She presented officials with her Indian birth certificate and family land documents from the village going back to 1962. Both her parents had been on the electoral roll going back decades, so she showed proof of that too. But when the final revi",
+      "url": "https://www.theguardian.com/world/2026/oct/14/india-protests-election-commission-gyanesh-kumar",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/14/india-protests-election-commission-gyanesh-kumar",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T02:09:22Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/461d064cfe98335b0bdbed60f3824c89a8794839/0_0_4320_3456/master/4320.jpg?width=140&quality=85&auto=format&fit=max&s=f6f0f1ca2c35ac08bb6dc7bdae3c6d6c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9451e0cf0d853607b896",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.59327
     },
     {
       "id": "6dd33ea5e6fec1355a0d896b",
@@ -528,7 +888,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
+      "retrievedAt": "2026-10-14T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -536,7 +896,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.00863
+      "rankingScore": 5.59047
     },
     {
       "id": "2f4c25a40ba97a6e6b552b8f",
@@ -558,7 +918,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
+      "retrievedAt": "2026-10-14T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -566,7 +926,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.96584
+      "rankingScore": 5.5562
     },
     {
       "id": "2331dfef769a2a3a185fb25b",
@@ -588,7 +948,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
+      "retrievedAt": "2026-10-14T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -596,7 +956,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.96457
+      "rankingScore": 5.55519
     },
     {
       "id": "1f648a8eb0a5165036321557",
@@ -618,7 +978,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
+      "retrievedAt": "2026-10-14T04:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -626,7 +986,97 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.96283
+      "rankingScore": 5.55379
+    },
+    {
+      "id": "f8aa609bf6724b484a7e2389",
+      "title": "Graduate student accused of poisoning colleague and trying to flee to China arrested at LAX",
+      "translatedTitle": null,
+      "description": "Microbiologist Aili Wang, 32, poisoned tea of colleague in Wyoming who had pending patents, prosecutors allege A Wyoming microbiology graduate student from China has been arrested on accusations she poisoned the tea of a colleague who had pending patents and with whom she did not get along, then tried to flee the country after police questioned her. Aili Wang, 32, was arrested 6 October at Los Angeles international airport, where prosecutors allege she sought to return to China. With her were la",
+      "url": "https://www.theguardian.com/us-news/2026/oct/13/wyoming-student-graduate-poison-arrest",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/13/wyoming-student-graduate-poison-arrest",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T00:53:36Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b791f25feb95483ef91ffa0fee5564fad3437b2c/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=e663ffb596d7cbb2d5b956370a2070a6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d4a7082bdd641fc44837",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.46094
+    },
+    {
+      "id": "782f1f8afe05f3815a481f63",
+      "title": "Use of AI in job interviews on the rise – but UK recruiters say they can spot the cheats",
+      "translatedTitle": null,
+      "description": "Body representing some of Britain’s biggest graduate employers reveals misconduct is at a record high It is obvious when someone is using AI to drum up answers in a job interview, according to Chris Morrow, who runs a recruitment agency in Manchester. “It’s like they are reading off an Autocue,” he said. Continue reading...",
+      "url": "https://www.theguardian.com/technology/2026/oct/14/use-of-ai-job-interviews-on-rise-uk-recruiters-cheats",
+      "canonicalUrl": "https://theguardian.com/technology/2026/oct/14/use-of-ai-job-interviews-on-rise-uk-recruiters-cheats",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-13T23:01:38Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/51f1eeb311025328431f17ae65971a5f0456c15e/313_0_1875_1500/master/1875.jpg?width=140&quality=85&auto=format&fit=max&s=61356ccf3ad40326a3e1bc4c94c681c8",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0798080717fbbea7c90e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28161
+    },
+    {
+      "id": "71fdd601a39f198dfb4a4fc2",
+      "title": "Stop making sense: focus on sounds to help learn a language, study suggests",
+      "translatedTitle": null,
+      "description": "Research shows that the best linguists process unfamiliar foreign speech sounds more like non-speech sounds If you want to get really good at French, Arabic or Hungarian, don’t start with rote learning vocabulary and grammar, focus on how they sound instead, research suggests. A new study of how humans learn modern languages has found that the brains of the most talented linguists hear foreign terms as random noise, not words. Continue reading...",
+      "url": "https://www.theguardian.com/science/2026/oct/14/focus-on-sounds-to-help-learn-a-language-study-suggests",
+      "canonicalUrl": "https://theguardian.com/science/2026/oct/14/focus-on-sounds-to-help-learn-a-language-study-suggests",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-13T23:01:37Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/674da4764b855a56341ef688b8fc791939c52df7/545_292_4814_3851/master/4814.jpg?width=140&quality=85&auto=format&fit=max&s=1da72d98f4037dce15fb57b11410c8c7",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-10-14T04:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e0d587b416ee2894fa6c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.28158,
+      "related": []
     },
     {
       "id": "c514f061ee5b989fdaf58c30",
@@ -655,8 +1105,8 @@
       "clusterId": "214e74da21b52d634bd2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69864
+      "rankingScore": 5.27051,
+      "related": []
     },
     {
       "id": "a5b46c0713b6ccb299d93080",
@@ -685,68 +1135,8 @@
       "clusterId": "2d2bdd4e2a4660a01eac",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6945
-    },
-    {
-      "id": "7249ab4b5e5f1947afc35a4e",
-      "title": "Fostering in crisis: can flexible care models fix England’s child placement shortfall?",
-      "translatedTitle": null,
-      "description": "New recruitment campaign to target adults in their 30s and 40s in bid to create 10,000 new foster care places Viennetta Basterfield, 67, spent two decades fostering more than 100 children in her west London home before she and her husband handed in the reins during Covid. Her own mother had died when she was nine and she was brought up by another woman who took her in. There was no doubt in her mind that she wanted to dedicate her life to passing that gift on to others. Continue reading...",
-      "url": "https://www.theguardian.com/society/2026/oct/14/fostering-in-crisis-can-flexible-care-models-fix-englands-child-placement-shortfall",
-      "canonicalUrl": "https://theguardian.com/society/2026/oct/14/fostering-in-crisis-can-flexible-care-models-fix-englands-child-placement-shortfall",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-13T23:01:39Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0014492a58ead1f95fdc67295f9e6362ae103309/365_0_4587_3669/master/4587.jpg?width=140&quality=85&auto=format&fit=max&s=810fc5f818e76ae9ad501c98a1068b55",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b2a3f70ef9b3f1f4fe87",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69014
-    },
-    {
-      "id": "71fdd601a39f198dfb4a4fc2",
-      "title": "Stop making sense: focus on sounds to help learn a language, study suggests",
-      "translatedTitle": null,
-      "description": "Research shows that the best linguists process unfamiliar foreign speech sounds more like non-speech sounds If you want to get really good at French, Arabic or Hungarian, don’t start with rote learning vocabulary and grammar, focus on how they sound instead, research suggests. A new study of how humans learn modern languages has found that the brains of the most talented linguists hear foreign terms as random noise, not words. Continue reading...",
-      "url": "https://www.theguardian.com/science/2026/oct/14/focus-on-sounds-to-help-learn-a-language-study-suggests",
-      "canonicalUrl": "https://theguardian.com/science/2026/oct/14/focus-on-sounds-to-help-learn-a-language-study-suggests",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-13T23:01:37Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/674da4764b855a56341ef688b8fc791939c52df7/545_292_4814_3851/master/4814.jpg?width=140&quality=85&auto=format&fit=max&s=1da72d98f4037dce15fb57b11410c8c7",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-10-14T00:17:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e0d587b416ee2894fa6c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69007
+      "rankingScore": 5.2672,
+      "related": []
     },
     {
       "id": "65a6b087a4d4905cc8c7c88b",
@@ -775,8 +1165,8 @@
       "clusterId": "24962192f8d6e6d209b7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66783
+      "rankingScore": 5.24584,
+      "related": []
     },
     {
       "id": "40cd4795389dded7c608f761",
@@ -805,8 +1195,8 @@
       "clusterId": "6d7a61cdb3d3c392ef9e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66682
+      "rankingScore": 5.24503,
+      "related": []
     },
     {
       "id": "5a2ae7fbabe88d394fd67841",
@@ -835,8 +1225,8 @@
       "clusterId": "4d03eebb3f1d71b7052f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65444
+      "rankingScore": 5.23512,
+      "related": []
     },
     {
       "id": "ff3b950d969eb5dad765c8fb",
@@ -865,8 +1255,38 @@
       "clusterId": "9921da5ce30331680907",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61296
+      "rankingScore": 5.2019,
+      "related": []
+    },
+    {
+      "id": "7249ab4b5e5f1947afc35a4e",
+      "title": "Fostering in crisis: can flexible care models fix England’s child placement shortfall?",
+      "translatedTitle": null,
+      "description": "New recruitment campaign to target adults in their 30s and 40s in bid to create 10,000 new foster care places Viennetta Basterfield, 67, spent two decades fostering more than 100 children in her west London home before she and her husband handed in the reins during Covid. Her own mother had died when she was nine and she was brought up by another woman who took her in. There was no doubt in her mind that she wanted to dedicate her life to passing that gift on to others. Continue reading...",
+      "url": "https://www.theguardian.com/society/2026/oct/14/fostering-in-crisis-can-flexible-care-models-fix-englands-child-placement-shortfall",
+      "canonicalUrl": "https://theguardian.com/society/2026/oct/14/fostering-in-crisis-can-flexible-care-models-fix-englands-child-placement-shortfall",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-13T23:01:39Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0014492a58ead1f95fdc67295f9e6362ae103309/365_0_4587_3669/master/4587.jpg?width=140&quality=85&auto=format&fit=max&s=810fc5f818e76ae9ad501c98a1068b55",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T00:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b2a3f70ef9b3f1f4fe87",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.19164,
+      "related": []
     },
     {
       "id": "88404593359acebdaf8cce94",
@@ -895,8 +1315,8 @@
       "clusterId": "5ed28c38d9f92589ff35",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59951
+      "rankingScore": 5.19113,
+      "related": []
     },
     {
       "id": "81093ef8d23d46ab1d53607e",
@@ -925,8 +1345,8 @@
       "clusterId": "d85f9dacba4dc727abed",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5989
+      "rankingScore": 5.19065,
+      "related": []
     },
     {
       "id": "922c4cdc4c11eb174a02fdf2",
@@ -955,8 +1375,8 @@
       "clusterId": "04f59eced25c8ad0cbea",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5989
+      "rankingScore": 5.19065,
+      "related": []
     },
     {
       "id": "eb452f7486eece0c84a690a8",
@@ -985,8 +1405,8 @@
       "clusterId": "7be4d0e762c6aee0b26c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5989
+      "rankingScore": 5.19065,
+      "related": []
     }
   ]
 }
