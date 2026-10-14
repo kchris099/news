@@ -4,10 +4,10 @@
   "countryName": "United States",
   "timeZone": "America/New_York",
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T12:18:01Z",
-  "lastAttemptAt": "2026-10-14T12:18:01Z",
-  "lastSuccessfulUpdate": "2026-10-14T12:18:01Z",
-  "status": "current",
+  "generatedAt": "2026-10-14T16:18:01Z",
+  "lastAttemptAt": "2026-10-14T16:18:01Z",
+  "lastSuccessfulUpdate": "2026-10-14T16:18:01Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "nytimes-home",
       "sourceName": "The New York Times",
       "status": "success",
-      "lastAttemptAt": "2026-10-14T12:17:43Z",
-      "lastSuccessAt": "2026-10-14T12:17:43Z",
-      "articlesRetrieved": 22,
-      "responseTimeMs": 189,
+      "lastAttemptAt": "2026-10-14T16:17:49Z",
+      "lastSuccessAt": "2026-10-14T16:17:49Z",
+      "articlesRetrieved": 21,
+      "responseTimeMs": 168,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "nytimes-business",
       "sourceName": "The New York Times",
       "status": "success",
-      "lastAttemptAt": "2026-10-14T12:17:43Z",
-      "lastSuccessAt": "2026-10-14T12:17:43Z",
+      "lastAttemptAt": "2026-10-14T16:17:49Z",
+      "lastSuccessAt": "2026-10-14T16:17:49Z",
       "articlesRetrieved": 50,
-      "responseTimeMs": 102,
+      "responseTimeMs": 163,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "nytimes-nyregion",
       "sourceName": "The New York Times",
       "status": "success",
-      "lastAttemptAt": "2026-10-14T12:17:43Z",
-      "lastSuccessAt": "2026-10-14T12:17:43Z",
+      "lastAttemptAt": "2026-10-14T16:17:49Z",
+      "lastSuccessAt": "2026-10-14T16:17:49Z",
       "articlesRetrieved": 20,
-      "responseTimeMs": 139,
+      "responseTimeMs": 214,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,10 +49,10 @@
       "sourceId": "nytimes-us",
       "sourceName": "The New York Times",
       "status": "success",
-      "lastAttemptAt": "2026-10-14T12:17:43Z",
-      "lastSuccessAt": "2026-10-14T12:17:43Z",
+      "lastAttemptAt": "2026-10-14T16:17:49Z",
+      "lastSuccessAt": "2026-10-14T16:17:49Z",
       "articlesRetrieved": 26,
-      "responseTimeMs": 181,
+      "responseTimeMs": 106,
       "errorType": null,
       "errorMessage": null
     },
@@ -60,32 +60,32 @@
       "sourceId": "nytimes-world",
       "sourceName": "The New York Times",
       "status": "success",
-      "lastAttemptAt": "2026-10-14T12:17:43Z",
-      "lastSuccessAt": "2026-10-14T12:17:43Z",
+      "lastAttemptAt": "2026-10-14T16:17:49Z",
+      "lastSuccessAt": "2026-10-14T16:17:49Z",
       "articlesRetrieved": 54,
-      "responseTimeMs": 147,
+      "responseTimeMs": 229,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "washington-post-national",
       "sourceName": "The Washington Post",
-      "status": "success",
-      "lastAttemptAt": "2026-10-14T12:17:43Z",
-      "lastSuccessAt": "2026-10-14T12:17:53Z",
-      "articlesRetrieved": 19,
-      "responseTimeMs": 9335,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-14T16:17:49Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Server error '502 Bad Gateway' for url 'https://feeds.washingtonpost.com/rss/national' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502"
     },
     {
       "sourceId": "fox-news-latest",
       "sourceName": "Fox News",
       "status": "success",
-      "lastAttemptAt": "2026-10-14T12:17:43Z",
-      "lastSuccessAt": "2026-10-14T12:17:43Z",
+      "lastAttemptAt": "2026-10-14T16:17:49Z",
+      "lastSuccessAt": "2026-10-14T16:17:50Z",
       "articlesRetrieved": 25,
-      "responseTimeMs": 192,
+      "responseTimeMs": 489,
       "errorType": null,
       "errorMessage": null
     },
@@ -93,15 +93,45 @@
       "sourceId": "cnbc-top",
       "sourceName": "CNBC",
       "status": "success",
-      "lastAttemptAt": "2026-10-14T12:17:43Z",
-      "lastSuccessAt": "2026-10-14T12:17:43Z",
+      "lastAttemptAt": "2026-10-14T16:17:49Z",
+      "lastSuccessAt": "2026-10-14T16:17:49Z",
       "articlesRetrieved": 30,
-      "responseTimeMs": 231,
+      "responseTimeMs": 198,
       "errorType": null,
       "errorMessage": null
     }
   ],
   "articles": [
+    {
+      "id": "01f1b70013ac666005176a84",
+      "title": "BlackRock's Larry Fink warns a data center moratorium could trigger a recession",
+      "translatedTitle": null,
+      "description": "Local opposition to data center construction has been a feature of the midterm elections set for Tuesday, Nov. 3.",
+      "url": "https://www.cnbc.com/2026/10/14/blackrocks-fink-warns-data-center-moratorium-could-spark-a-recession.html",
+      "canonicalUrl": "https://cnbc.com/2026/10/14/blackrocks-fink-warns-data-center-moratorium-could-spark-a-recession.html",
+      "sourceName": "CNBC",
+      "sourceDomain": "cnbc.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T15:19:08Z",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108276761-1773250817395-gettyimages-2265438595-BLACKROCK_INFRASTRUCTURE_SUMMIT.jpeg?v=1791989157&w=1920&h=1080",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e929addf21eb19b5ac2a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 10.03316
+    },
     {
       "id": "1cecdd09f14304d0cccabf06",
       "title": "How Trump’s tariffs and Iran war are becoming liabilities in Michigan’s Senate race",
@@ -122,15 +152,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "c13c03cb37693287d9cb",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 9.94061
+      "rankingScore": 9.1939,
+      "related": []
     },
     {
       "id": "bf49e31e80e1935bba3aeb1d",
@@ -152,14 +182,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "31aa25efecd967da311f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 9.45162,
+      "rankingScore": 9.16433,
       "related": [
         {
           "id": "eca9a3f650597e3605c0d21f",
@@ -194,12 +224,12 @@
       ]
     },
     {
-      "id": "a64f3beddc9e74337bb2e2fb",
-      "title": "Zelensky to Visit U.K. as Ukraine Presses Allies on Intelligence Sharing",
+      "id": "ba8e748b558b6f16721a0a69",
+      "title": "Surging Inflation Complicates Trump’s Final Push to Sell Voters on Strong Economy",
       "translatedTitle": null,
-      "description": "President Volodymyr Zelensky said Ukraine received “no early warning from our partners” about a Russian attack. President Trump has said Washington is still “sharing intel.”",
-      "url": "https://www.nytimes.com/2026/10/14/world/europe/ukraine-intelligence-sharing-zelensky-uk.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/world/europe/ukraine-intelligence-sharing-zelensky-uk.html",
+      "description": "The final inflation report before the 2026 election — showing price increases and stagnant wages — spelled bad political news for the White House.",
+      "url": "https://www.nytimes.com/2026/10/14/business/economy/inflation-economy-midterms.html",
+      "canonicalUrl": "https://nytimes.com/2026/10/14/business/economy/inflation-economy-midterms.html",
       "sourceName": "The New York Times",
       "sourceDomain": "nytimes.com",
       "sourceCountry": "US",
@@ -208,28 +238,28 @@
         "US"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T12:15:27Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14int-Europe-Intel-Zelensky-czfh/14int-Europe-Intel-Zelensky-czfh-mediumSquareAt3X.jpg",
+      "publishedAt": "2026-10-14T15:35:02Z",
+      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14biz-inflation-blog-trump-plfg/14biz-inflation-blog-trump-plfg-mediumSquareAt3X.jpg",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "9b9f39c1219ff64a70ef",
+      "clusterId": "2945b75afdabe56e9a29",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.80474
+      "rankingScore": 9.07406
     },
     {
-      "id": "5b4f87a01d6ebfd35a042c97",
-      "title": "Oil Prices Rise as Iran Steps Up Attacks and Fighting Intensifies",
+      "id": "c5ae81f3f18477cae87b814d",
+      "title": "Ukraine’s Vulnerability Grows as Starlink Is Restricted and Russia Escalates",
       "translatedTitle": null,
-      "description": "In a volatile moment for energy markets, more vessels are being hit while transiting the Strait of Hormuz, while the Houthis and Saudi Arabia traded attacks.",
-      "url": "https://www.nytimes.com/2026/10/14/business/saudi-houthi-hormuz-oil.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/business/saudi-houthi-hormuz-oil.html",
+      "description": "A huge attack cut power to 600,000 people in Kyiv, and a Pentagon-funded satellite internet program appeared to be curbed without warning.",
+      "url": "https://www.nytimes.com/2026/10/14/world/europe/ukraine-starlink-energy.html",
+      "canonicalUrl": "https://nytimes.com/2026/10/14/world/europe/ukraine-starlink-energy.html",
       "sourceName": "The New York Times",
       "sourceDomain": "nytimes.com",
       "sourceCountry": "US",
@@ -238,20 +268,81 @@
         "US"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T12:08:58Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14biz-gulf-oil-mqkw/14biz-gulf-oil-mqkw-mediumSquareAt3X.jpg",
+      "publishedAt": "2026-10-14T15:52:14Z",
+      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14int-ukraine-vulnerability-03-qbck/14int-ukraine-vulnerability-03-qbck-mediumSquareAt3X.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3cd4f85a495aee826070",
+      "clusterId": "2573d7dac33bc0bfa5b5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "86a59a675638a7e78be8ce4e",
+          "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
+          "translatedTitle": null,
+          "description": "A ballistic missile has struck energy infrastructure supposedly covered by the \"energy ceasefire\" announced by Trump on Sunday, Zelenskyy said.",
+          "url": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
+          "canonicalUrl": "https://cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
+          "sourceName": "CNBC",
+          "sourceDomain": "cnbc.com",
+          "sourceCountry": "US",
+          "editionCountry": "US",
+          "coverageCountries": [
+            "US"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-14T09:18:18Z",
+          "imageUrl": null,
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-14T16:17:49Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "2573d7dac33bc0bfa5b5",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "ukraine warns starlink limits are disrupting military operations as russia pounds its energy infrastructure"
+        }
+      ],
+      "rankingScore": 8.808
+    },
+    {
+      "id": "d3dba9d62aff01fda9773fed",
+      "title": "Here's the inflation breakdown for September 2026 — in one chart",
+      "translatedTitle": null,
+      "description": "The consumer price index rose by 3.7% in September, on the back of higher gasoline and energy prices largely due to the Iran war.",
+      "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+      "canonicalUrl": "https://cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+      "sourceName": "CNBC",
+      "sourceDomain": "cnbc.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T14:56:25Z",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108374148-1791392801813-108374148-1791388061460-108374148-1791387933444-gettyimages-2297102806-US_DIESEL.jpg?v=1791914404&w=1920&h=1080",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "920c2aa12a08834e173e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.7916
+      "rankingScore": 8.2898
     },
     {
       "id": "014b30f179d1084340a60ef7",
@@ -280,8 +371,8 @@
       "clusterId": "341ff28020d4ca58a683",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.43137
+      "rankingScore": 7.99665,
+      "related": []
     },
     {
       "id": "4acb42602ae4787b7192bcc7",
@@ -310,37 +401,7 @@
       "clusterId": "a832530950a168c01cfc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.29712
-    },
-    {
-      "id": "b8d1f1909c94334aeb20a1be",
-      "title": "Oil prices rise after IEA warns on market constraints; Saudi officials say Aramco facilities attacked",
-      "translatedTitle": null,
-      "description": "Worries over supply disruptions due to escalating tensions in the Middle East helped to push oil prices higher.",
-      "url": "https://www.cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
-      "canonicalUrl": "https://cnbc.com/2026/10/14/oil-rises-amid-growing-tensions-between-saudis-and-iran-backed-houthis.html",
-      "sourceName": "CNBC",
-      "sourceDomain": "cnbc.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T10:33:13Z",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108367941-1790326873884-gettyimages-2293738554-AA_09092026_2944252.jpeg?v=1790326911&w=1920&h=1080",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ec2a15d91b949d67ce38",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 8.24652,
+      "rankingScore": 7.88915,
       "related": []
     },
     {
@@ -370,38 +431,8 @@
       "clusterId": "e911921689ba913d75da",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.21688
-    },
-    {
-      "id": "a710987cb3a1d7dd0c8ada9a",
-      "title": "Iran says it’s ‘counting the moments’ until it can attack American warships; Saudi Aramco facilities attacked as Houthi attacks escalate",
-      "translatedTitle": null,
-      "description": "Meanwhile, Saudi Arabia's Aramco reportedly came under fresh attack overnight.",
-      "url": "https://www.cnbc.com/2026/10/14/us-iran-war-trump-hormuz-saudi.html",
-      "canonicalUrl": "https://cnbc.com/2026/10/14/us-iran-war-trump-hormuz-saudi.html",
-      "sourceName": "CNBC",
-      "sourceDomain": "cnbc.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T12:13:46Z",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108408063-1791975126732-gettyimages-2299252586-_73a8198_nr324rdf.jpeg?v=1791975235&w=1920&h=1080",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a795059a970050ee00db",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.09132
+      "rankingScore": 7.82491,
+      "related": []
     },
     {
       "id": "378ad8f7052107c6440dbf85",
@@ -430,8 +461,8 @@
       "clusterId": "e7faa7481e9a34d7ddc9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.55604
+      "rankingScore": 5.90022,
+      "related": []
     },
     {
       "id": "158d97aa4fad3ec444e3a395",
@@ -460,8 +491,8 @@
       "clusterId": "a41c783214fb0d7725fa",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.45142
+      "rankingScore": 5.81644,
+      "related": []
     },
     {
       "id": "048aea2ce1a30635574c6ea6",
@@ -490,16 +521,16 @@
       "clusterId": "7b6793157ba074e7e6bb",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.45142
+      "rankingScore": 5.81644,
+      "related": []
     },
     {
-      "id": "5379cab86f6e925c24e581f0",
-      "title": "Israelis Feel Abandoned. That’s Why They Might Turn to This Bereaved General",
+      "id": "6a520598e7a08a5f0fe0d7c9",
+      "title": "Musk Blames Tycoon for Stalling Satellite Internet Access in India",
       "translatedTitle": null,
-      "description": "How a bereaved general has won over Israelis.",
-      "url": "https://www.nytimes.com/2026/10/14/opinion/netanyahu-eisenkot-israel-election.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/opinion/netanyahu-eisenkot-israel-election.html",
+      "description": "As Starlink seeks permission to operate in India, a recent protest in New Delhi showed how quickly authorities can cut off mobile internet access.",
+      "url": "https://www.nytimes.com/2026/10/14/business/india-elon-musk-starlink.html",
+      "canonicalUrl": "https://nytimes.com/2026/10/14/business/india-elon-musk-starlink.html",
       "sourceName": "The New York Times",
       "sourceDomain": "nytimes.com",
       "sourceCountry": "US",
@@ -508,28 +539,58 @@
         "US"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T05:57:56Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14Scheindlin-topart-whfb/14Scheindlin-topart-whfb-mediumSquareAt3X.jpg",
+      "publishedAt": "2026-10-14T13:41:22Z",
+      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14biz-india-musk-01-hmzq/14biz-india-musk-01-hmzq-mediumSquareAt3X.jpg",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-10-14T08:17:48Z",
+      "retrievedAt": "2026-10-14T16:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d9a9fcf93e96893fdff9",
+      "clusterId": "36f36a9dca5344e234c5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.4473,
+      "rankingScore": 5.81287,
       "related": []
     },
     {
-      "id": "d74ae85e1abd98bbcbf02e14",
-      "title": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
+      "id": "bed6c1313ff8c91882531ea4",
+      "title": "He’s Played It Safe. But He Could Make California History as Governor.",
       "translatedTitle": null,
-      "description": "The Philippine central bank is running policy scenarios for a severe El Niño on top of the oil shock, with inflation at a three-year high.",
-      "url": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
-      "canonicalUrl": "https://cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
+      "description": "Xavier Becerra is a heavy favorite to become California’s first Latino governor in the modern era, though he does not talk much about the milestone.",
+      "url": "https://www.nytimes.com/2026/10/14/us/xavier-becerra-latino-california-governor.html",
+      "canonicalUrl": "https://nytimes.com/2026/10/14/us/xavier-becerra-latino-california-governor.html",
+      "sourceName": "The New York Times",
+      "sourceDomain": "nytimes.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T13:36:02Z",
+      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14nat-ca-becerra-02-plkq/14nat-ca-becerra-02-plkq-mediumSquareAt3X.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1affcfbd6074584b76d3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.8035,
+      "related": []
+    },
+    {
+      "id": "281f2552b14c1a526bf7b348",
+      "title": "Abilene Christian University is giving Ivy League endowments a run for their money in the market",
+      "translatedTitle": null,
+      "description": "The religious school in Texas is among college endowment funds rivaling market performance of Ivy investing giants like Yale and just hit the $1 billion mark.",
+      "url": "https://www.cnbc.com/2026/10/14/abilene-christian-giving-ivy-endowment-billions-a-run-for-their-money.html",
+      "canonicalUrl": "https://cnbc.com/2026/10/14/abilene-christian-giving-ivy-endowment-billions-a-run-for-their-money.html",
       "sourceName": "CNBC",
       "sourceDomain": "cnbc.com",
       "sourceCountry": "US",
@@ -538,28 +599,28 @@
         "US"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T04:24:28Z",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108406685-1791947289905-gettyimages-2211302300-IMF_WORLD_BANK.jpeg?v=1791947305&w=1920&h=1080",
+      "publishedAt": "2026-10-14T16:14:08Z",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108408701-1791985702018-gettyimages-1354285436-1062_14_k_-110-.jpeg?v=1791985749&w=1920&h=1080",
       "imageAlt": null,
       "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-10-14T08:17:48Z",
+      "retrievedAt": "2026-10-14T16:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "5e0bbf8bc052ddd0ec68",
+      "clusterId": "10bf1290c9ea3feafab9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.31902,
-      "related": []
+      "related": [],
+      "rankingScore": 5.742
     },
     {
-      "id": "b4662c1be12477666129a0a6",
-      "title": "Corruption Trial Begins for Former Oakland Mayor and City Contractors",
+      "id": "c6ddd4fc2b2891fd7f70dab6",
+      "title": "Hollywood Agents and Producers Push to Restore Glory Days of Indie TV",
       "translatedTitle": null,
-      "description": "The bribery and fraud charges against Sheng Thao, her partner and an influential family offer a window into more widespread efforts to corrupt officials in the San Francisco Bay Area.",
-      "url": "https://www.nytimes.com/2026/10/14/us/oakland-mayor-sheng-thao-corruption-trial.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/us/oakland-mayor-sheng-thao-corruption-trial.html",
+      "description": "A new alliance seeks legislation to force the biggest entertainment and streaming companies to devote half of their content budgets to independent producers in the U.S.",
+      "url": "https://www.nytimes.com/2026/10/14/business/media/hollywood-agents-producers-ron-howard.html",
+      "canonicalUrl": "https://nytimes.com/2026/10/14/business/media/hollywood-agents-producers-ron-howard.html",
       "sourceName": "The New York Times",
       "sourceDomain": "nytimes.com",
       "sourceCountry": "US",
@@ -568,28 +629,28 @@
         "US"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T12:00:10Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/13/us/oakland-corruption/oakland-corruption-mediumSquareAt3X.jpg",
+      "publishedAt": "2026-10-14T13:00:06Z",
+      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14biz-indie-TV-promo-vwpk/14biz-indie-TV-promo-vwpk-mediumSquareAt3X.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3eb126bd08846b3ab590",
+      "clusterId": "236750153e21cbcc5c10",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.0739
+      "rankingScore": 5.74153
     },
     {
-      "id": "97d10a5021223bff2a34976c",
-      "title": "As Pope Leo Recovers From Surgery, Messages of Support Abound at Rome Hospital",
+      "id": "012441ad85f84ad4f5740c3d",
+      "title": "James Dolan, a Former Hochul Supporter, Goes All In on Her G.O.P. Rival",
       "translatedTitle": null,
-      "description": "Leo, 71, is expected to spend about a week in the hospital recovering from surgery that found lung cancer.",
-      "url": "https://www.nytimes.com/2026/10/14/world/europe/pope-leo-surgery-cancer-hospital-rome.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/world/europe/pope-leo-surgery-cancer-hospital-rome.html",
+      "description": "The Knicks owner is urging New York’s business elite to abandon Gov. Kathy Hochul, highlighting her support of Mayor Zohran Mamdani. Mr. Dolan has spent millions to back her opponent, Bruce Blakeman.",
+      "url": "https://www.nytimes.com/2026/10/13/nyregion/james-dolan-bruce-blakeman-governor-hochul.html",
+      "canonicalUrl": "https://nytimes.com/2026/10/13/nyregion/james-dolan-bruce-blakeman-governor-hochul.html",
       "sourceName": "The New York Times",
       "sourceDomain": "nytimes.com",
       "sourceCountry": "US",
@@ -598,20 +659,530 @@
         "US"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T11:56:38Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14int-pope-dispatch-gkmj/14int-pope-dispatch-gkmj-mediumSquareAt3X.jpg",
+      "publishedAt": "2026-10-14T12:58:29Z",
+      "imageUrl": "https://static01.nyt.com/images/2026/10/13/multimedia/13met-dolan-pglm/13met-dolan-pglm-mediumSquareAt3X.jpg",
       "imageAlt": null,
-      "category": "Science & Health",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "842ce4a71e6f9e23a7cb",
+      "clusterId": "73dd4ddaa9dc7af884e7",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.06683
+      "rankingScore": 5.73879
+    },
+    {
+      "id": "0fc78f74998a0318dc9bb8af",
+      "title": "Chick-fil-A's first new sauce in 10 years sparks skepticism among fans",
+      "translatedTitle": null,
+      "description": "Spicy Chick-fil-A Sauce arrives Nov. 16 as the chain's first new permanent sauce in a decade, blending smoky tang with spicy peppers and sweetness.",
+      "url": "https://www.foxnews.com/food-drink/chick-fil-as-first-new-sauce-10-years-sparks-skepticism-among-fans",
+      "canonicalUrl": "https://foxnews.com/food-drink/chick-fil-as-first-new-sauce-10-years-sparks-skepticism-among-fans",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T16:00:52Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/chick-fil-a-sauce-pouch-being-opened.jpg?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f1e9a48add3ba5326863",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.71524
+    },
+    {
+      "id": "ab5bc3552818909796af9f95",
+      "title": "Wisconsin plane crash kills 5 adults, child as authorities probe final communications with air traffic control",
+      "translatedTitle": null,
+      "description": "A Piper PA-46 crashed in a wooded area in Sauk County, Wisconsin Tuesday night, killing all six people aboard including a child. The FAA is investigating.",
+      "url": "https://www.foxnews.com/us/wisconsin-plane-crash-kills-5-adults-child-authorities-probe-final-communications-air-traffic-control",
+      "canonicalUrl": "https://foxnews.com/us/wisconsin-plane-crash-kills-5-adults-child-authorities-probe-final-communications-air-traffic-control",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T15:57:52Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/first-responders-plane-crash-dellona.jpg?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "34622658f3fb307f17c5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.70923
+    },
+    {
+      "id": "ae723ed89353859384f5be00",
+      "title": "What Allegations of Spying at OpenAI Mean for the A.I. Industry",
+      "translatedTitle": null,
+      "description": "The arrest of an OpenAI employee accused of planting a bug in an office of the artificial intelligence giant flags another concern for the industry.",
+      "url": "https://www.nytimes.com/2026/10/14/business/dealbook/openai-espionage.html",
+      "canonicalUrl": "https://nytimes.com/2026/10/14/business/dealbook/openai-espionage.html",
+      "sourceName": "The New York Times",
+      "sourceDomain": "nytimes.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T12:39:24Z",
+      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14db-openai-gbch/14db-openai-gbch-mediumSquareAt3X.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "457a4053b6761c4942a9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.70676
+    },
+    {
+      "id": "8d8ea1693d494c4b7b3e36a7",
+      "title": "Jim Cramer says this healthcare stock is still a buy. Plus, what to do with BNY",
+      "translatedTitle": null,
+      "description": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "url": "https://www.cnbc.com/investingclub/2026/10/14/jim-cramer-says-this-healthcare-stock-is-still-a-buy-plus-what-to-do-with-bny.html",
+      "canonicalUrl": "https://cnbc.com/investingclub/2026/10/14/jim-cramer-says-this-healthcare-stock-is-still-a-buy-plus-what-to-do-with-bny.html",
+      "sourceName": "CNBC",
+      "sourceDomain": "cnbc.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T15:51:40Z",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108262729-1770404497809-gettyimages-2160937378-BNY_EARNS.jpeg?v=1770404560&w=1920&h=1080",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f437a7feef7a5c87ac0a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69687
+    },
+    {
+      "id": "8c563b68c6dfda53dd526138",
+      "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
+      "translatedTitle": null,
+      "description": "Morgan Stanley topped expectations on the top and bottom lines for the third quarter.",
+      "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
+      "canonicalUrl": "https://cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
+      "sourceName": "CNBC",
+      "sourceDomain": "cnbc.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T15:49:35Z",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108091506-1737654883210-1U8A2251.JPG?v=1737655004&w=1920&h=1080",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a6aca68cc1bf19c7d267",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.69273,
+      "related": []
+    },
+    {
+      "id": "5cd7bd300f22d3242b658ffb",
+      "title": "A Trump Backlash Endangers Susan Collins in the Maine Senate Race",
+      "translatedTitle": null,
+      "description": "The race in Maine, which could decide Senate control, is testing whether there is still room for Ms. Collins’s brand of moderation during a sharply polarizing presidency.",
+      "url": "https://www.nytimes.com/2026/10/14/us/politics/susan-collins-trump-maine-senate.html",
+      "canonicalUrl": "https://nytimes.com/2026/10/14/us/politics/susan-collins-trump-maine-senate.html",
+      "sourceName": "The New York Times",
+      "sourceDomain": "nytimes.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T12:26:57Z",
+      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14pol-maine-collins-01-bmjf/14pol-maine-collins-01-bmjf-mediumSquareAt3X.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4d84bab7a2dc847b1501",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.68617,
+      "related": []
+    },
+    {
+      "id": "b151a58c0b0fb3346a58cb61",
+      "title": "Iowa Dem Senate candidate says he's too busy campaigning to attend all state House votes",
+      "translatedTitle": null,
+      "description": "Democratic Iowa State Rep. Josh Turek defended missing nearly 58% of legislature votes by citing campaign town halls across all 99 counties.",
+      "url": "https://www.foxnews.com/politics/iowa-dem-senate-candidate-says-hes-too-busy-campaigning-attend-state-house-votes",
+      "canonicalUrl": "https://foxnews.com/politics/iowa-dem-senate-candidate-says-hes-too-busy-campaigning-attend-state-house-votes",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T15:31:26Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Turek_Hinson.jpg?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1bd7953878fc3a240183",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.65702
+    },
+    {
+      "id": "a042c935f7e3d07592b3e793",
+      "title": "Team USA hockey brothers connect to pull off historic NHL feat in dominant performance",
+      "translatedTitle": null,
+      "description": "Brady Tkachuk scored a hat trick with all three goals assisted by brother Matthew as the Florida Panthers routed the Columbus Blue Jackets 7-3.",
+      "url": "https://www.foxnews.com/outkick-sports/team-usa-hockey-brothers-connect-pull-off-historic-nhl-feat-dominant-performance",
+      "canonicalUrl": "https://foxnews.com/outkick-sports/team-usa-hockey-brothers-connect-pull-off-historic-nhl-feat-dominant-performance",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T15:30:17Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/matthew-brady-tkachuk-101426.jpg?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f6f9a493beae35877698",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.65478
+    },
+    {
+      "id": "9a464873a68d581d20fa3f1d",
+      "title": "Fannie Mae sharply raises mortgage rate forecast for 2027",
+      "translatedTitle": null,
+      "description": "Fannie Mae just put out its latest forecast for mortgage rates, and they are much higher than previous estimates.",
+      "url": "https://www.cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
+      "canonicalUrl": "https://cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
+      "sourceName": "CNBC",
+      "sourceDomain": "cnbc.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T15:20:53Z",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108408703-1791985792669-gettyimages-2268964111-260402_to_homes_005.jpeg?v=1791986935&w=1920&h=1080",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "06c77594a56832709ba9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.63654
+    },
+    {
+      "id": "6965b7244511cc2d51625eb1",
+      "title": "Netflix to lay off roughly 1,000 employees, or 6% of workforce",
+      "translatedTitle": null,
+      "description": "Netflix will lay off roughly 6% of its workforce, according to a memo obtained by CNBC.",
+      "url": "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
+      "canonicalUrl": "https://cnbc.com/2026/10/14/netflix-layoffs.html",
+      "sourceName": "CNBC",
+      "sourceDomain": "cnbc.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T15:03:59Z",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108306019-1791986005855-108306019-1778624129986-gettyimages-2275885101-_75a3419_jgkilhym.jpg?v=1791986064&w=1920&h=1080",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8e4b6707a0348260996a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.60415
+    },
+    {
+      "id": "f99361ffd7ce369e40257d63",
+      "title": "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
+      "translatedTitle": null,
+      "description": "Bank of America shares fell Wednesday after the company posted weaker-than-expected trading revenue and the impact of a $1.2 billion Treasury fine.",
+      "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+      "canonicalUrl": "https://cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
+      "sourceName": "CNBC",
+      "sourceDomain": "cnbc.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T15:00:33Z",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108250555-1767974377302-gettyimages-2201916861-_d6a3281_18br2qz5.jpeg?v=1767974405&w=1920&h=1080",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "45be9bdf66f2e98ee0b4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.59763,
+      "related": []
+    },
+    {
+      "id": "8ac408b28f8af3d20562a35b",
+      "title": "Phillies commit to Don Mattingly as full-time manager after up-and-down interim campaign",
+      "translatedTitle": null,
+      "description": "Don Mattingly's interim tag will be removed as the Philadelphia Phillies commit to the veteran manager after a stunning 73-45 turnaround run.",
+      "url": "https://www.foxnews.com/outkick-sports/phillies-commit-don-mattingly-full-time-manager-up-down-interim-campaign",
+      "canonicalUrl": "https://foxnews.com/outkick-sports/phillies-commit-don-mattingly-full-time-manager-up-down-interim-campaign",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T14:50:03Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/Don-Mattingly-Phillies.jpg?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a1a7bb4c4c3b9e0c861b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57781
+    },
+    {
+      "id": "072f6df2e468227d15408ab9",
+      "title": "Missing Summer Wells' father arrested on domestic assault charge in Tennessee",
+      "translatedTitle": null,
+      "description": "Donald Wells faces a new domestic assault charge in Hawkins County as the case of his missing daughter Summer Wells remains unsolved after four years.",
+      "url": "https://www.foxnews.com/us/missing-summer-wells-father-arrested-domestic-assault-charge-tennessee",
+      "canonicalUrl": "https://foxnews.com/us/missing-summer-wells-father-arrested-domestic-assault-charge-tennessee",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T14:45:48Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/don-and-summer-wells-split.png?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0a09c6789ecbcf99895c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.56985
+    },
+    {
+      "id": "b7401f936cc45ce09f8cd059",
+      "title": "Bending Spoons skyrockets 35% as Berkshire Hathaway makes $330 million investment",
+      "translatedTitle": null,
+      "description": "Berkshire's latest investment follows the $600 million it invested in the company's IPO this July.",
+      "url": "https://www.cnbc.com/2026/10/14/berkshire-hathaway-investment-bending-spoons.html",
+      "canonicalUrl": "https://cnbc.com/2026/10/14/berkshire-hathaway-investment-bending-spoons.html",
+      "sourceName": "CNBC",
+      "sourceDomain": "cnbc.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T14:39:21Z",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108329449-1782925310551-gettyimages-2283612305-BENDING_SPOONS_IPO.jpeg?v=1782925388&w=1920&h=1080",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "36d837d860369b6f7041",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.55782
+    },
+    {
+      "id": "5f1e52a48fcc594ae747e395",
+      "title": "Mystery woman sought after American found dead in Costa Rican tourist destination",
+      "translatedTitle": null,
+      "description": "Costa Rican authorities say a 74-year-old American citizen identified as \"Fleming\" was found dead with head injuries inside a Playas del Coco condo.",
+      "url": "https://www.foxnews.com/us/mystery-woman-sought-american-found-dead-costa-rican-tourist-destination",
+      "canonicalUrl": "https://foxnews.com/us/mystery-woman-sought-american-found-dead-costa-rican-tourist-destination",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T14:36:49Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/costa-rica-homicide.jpg?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5f0704084fa10eded84e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.55312
+    },
+    {
+      "id": "01de92c697413f762cf1b112",
+      "title": "NPR affiliate apologizes for sponsoring anarchist event linked to anti-ICE attackers",
+      "translatedTitle": null,
+      "description": "New Hampshire Public Radio admitted it \"erred\" by sponsoring an anarchist book fair that expressed solidarity with defendants tied to a violent Texas ICE facility attack.",
+      "url": "https://www.foxnews.com/politics/npr-affiliate-apologizes-sponsoring-anarchist-event-linked-anti-ice-attackers",
+      "canonicalUrl": "https://foxnews.com/politics/npr-affiliate-apologizes-sponsoring-anarchist-event-linked-anti-ice-attackers",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T14:31:23Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/05/931/523/npr.png?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "46d5cb7314b9fbf0f8c4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.54307
+    },
+    {
+      "id": "83fa4796723c1453075176a8",
+      "title": "Talarico has an edge in nearly every poll, but the Texas Senate race is tightening.",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.nytimes.com/live/2026/10/14/us/midterms-elections-trump/talarico-has-an-edge-in-nearly-every-poll-but-the-texas-senate-race-is-tightening",
+      "canonicalUrl": "https://nytimes.com/live/2026/10/14/us/midterms-elections-trump/talarico-has-an-edge-in-nearly-every-poll-but-the-texas-senate-race-is-tightening",
+      "sourceName": "The New York Times",
+      "sourceDomain": "nytimes.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T14:47:12Z",
+      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14midterms-texas-polls-mwkp/14midterms-texas-polls-mwkp-mediumSquareAt3X.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:49Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6932f8fd6b44bd9050df",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.53247
     },
     {
       "id": "9a73cc2461b6ef73f183dec2",
@@ -628,50 +1199,140 @@
         "US"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T10:18:56Z",
+      "publishedAt": "2026-10-14T10:18:57Z",
       "imageUrl": "https://static01.nyt.com/images/2026/11/13/multimedia/13int-pope-assess-01-qzbl/13int-pope-assess-01-qzbl-mediumSquareAt3X.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "0576ebc1dc79a346f3da",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.88028
+      "rankingScore": 5.48766,
+      "related": []
     },
     {
-      "id": "ec12c7b86cc6ef64275e58d0",
-      "title": "The Downfall of Trump’s Ambassador to Greece, and the Pope’s Cancer Diagnosis",
+      "id": "599f80d0f8901316164a4eaa",
+      "title": "Stephen King's 'Carrie' gets updated spin with Mike Flanagan's bold take on classic story",
       "translatedTitle": null,
-      "description": "Plus, the antique apples making a comeback.",
-      "url": "https://www.nytimes.com/2026/10/14/podcasts/the-headlines/kimberly-guilfoyle-pope-cancer.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/podcasts/the-headlines/kimberly-guilfoyle-pope-cancer.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
+      "description": "Mike Flanagan's \"Carrie\" adapts Stephen King's horror classic with a social-media-age bullying twist and dual timelines that hint at tragedy.",
+      "url": "https://www.foxnews.com/outkick-culture/stephen-king-carrie-updated-spin-mike-flanagan-bold-take-classic-story",
+      "canonicalUrl": "https://foxnews.com/outkick-culture/stephen-king-carrie-updated-spin-mike-flanagan-bold-take-classic-story",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
       "sourceCountry": "US",
       "editionCountry": "US",
       "coverageCountries": [
         "US"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T10:00:07Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/13/multimedia/14theheadlines-guil/13dc-guilfoyle-fall-wlzv-mediumSquareAt3X.jpg",
+      "publishedAt": "2026-10-14T13:57:37Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Carrie.jpg?ve=1&tl=1",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:50Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "60d6fd0b996171fe05f0",
+      "clusterId": "2af1926649f4f5fbcd56",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.84625
+      "rankingScore": 5.48172
+    },
+    {
+      "id": "4a5888ca84ff57c96767e256",
+      "title": "Harry Styles challenged by GOP gov candidate to put migrant shot by ICE ‘on his tour bus’ after MSG tribute",
+      "translatedTitle": null,
+      "description": "New York GOP gubernatorial nominee Bruce Blakeman ripped Harry Styles as \"out-of-touch\" after the singer honored a migrant shot by ICE during a recent performance at MSG.",
+      "url": "https://www.foxnews.com/media/harry-styles-challenged-gop-gov-candidate-put-migrant-shot-ice-on-his-tour-bus-after-msg-tribute",
+      "canonicalUrl": "https://foxnews.com/media/harry-styles-challenged-gop-gov-candidate-put-migrant-shot-ice-on-his-tour-bus-after-msg-tribute",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T13:56:09Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/harry-styles-serious.png?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "06ee0de664258a2e5d6f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4791
+    },
+    {
+      "id": "6e843426e28b2a24ef3b2f77",
+      "title": "Your phone may reveal doctor, church and pharmacy visits",
+      "translatedTitle": null,
+      "description": "Your phone's location data can expose visits to doctors, pharmacies and places of worship. The FTC took action against data brokers selling this data.",
+      "url": "https://www.foxnews.com/tech/phone-may-reveal-doctor-church-pharmacy-visits",
+      "canonicalUrl": "https://foxnews.com/tech/phone-may-reveal-doctor-church-pharmacy-visits",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T13:54:57Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/heart-health-woman-doctor-stethoscope.jpg?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6ae23898c896dc991953",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47695
+    },
+    {
+      "id": "14013b109baf488d05619bf6",
+      "title": "A college football field looked so pathetic last weekend, the AD was forced to issue an apology",
+      "translatedTitle": null,
+      "description": "Winston-Salem State's Bowman Gray Stadium went viral after a TikTok showed a worker jaggedly painting hash marks before a college football game.",
+      "url": "https://www.foxnews.com/outkick-sports/college-football-field-looked-pathetic-last-weekend-ad-forced-issue-apology",
+      "canonicalUrl": "https://foxnews.com/outkick-sports/college-football-field-looked-pathetic-last-weekend-ad-forced-issue-apology",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T13:42:55Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/patrick-green-lansana-sesay-football-tackle.jpg?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "374c5dbf0934d3c82868",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4556
     },
     {
       "id": "7d8693b8bff64b110c4bc4d7",
@@ -693,45 +1354,105 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "f0aacf06adf91bd1c362",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.83303
+      "rankingScore": 5.4498,
+      "related": []
     },
     {
-      "id": "d8fe5aff3150b899fda4b74f",
-      "title": "Pope Leo’s Cancer Diagnosis: What Happens Next",
+      "id": "84963e75a9abbd8ee79076ed",
+      "title": "'Jon & Kate Plus 8' star Collin Gosselin accuses mom of trying to 'bury' him to ‘protect her reputation’",
       "translatedTitle": null,
-      "description": "Pope Leo XIV was diagnosed with a common form of lung cancer on Tuesday, about a year and half into his papacy. He still plans to travel to South America next month.",
-      "url": "https://www.nytimes.com/2026/10/14/world/europe/pope-leo-xiv-cancer-diagnosis.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/world/europe/pope-leo-xiv-cancer-diagnosis.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
+      "description": "Collin Gosselin alleges Kate Gosselin tried to \"bury\" him to protect her reputation, detailing childhood abuse claims and demanding accountability.",
+      "url": "https://www.foxnews.com/entertainment/jon-kate-plus-8-star-collin-gosselin-accuses-mom-trying-bury-protect-her-reputation",
+      "canonicalUrl": "https://foxnews.com/entertainment/jon-kate-plus-8-star-collin-gosselin-accuses-mom-trying-bury-protect-her-reputation",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
       "sourceCountry": "US",
       "editionCountry": "US",
       "coverageCountries": [
         "US"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T09:32:46Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14xp-pope-wwk-gmwb/14xp-pope-wwk-gmwb-mediumSquareAt3X.jpg",
+      "publishedAt": "2026-10-14T13:30:47Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/collin-gosselin-kate-plus8.jpg?ve=1&tl=1",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:50Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c5ff68eaa454cd7ff50a",
+      "clusterId": "5c87aa9003a3538b6d4e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.79784
+      "rankingScore": 5.43431
+    },
+    {
+      "id": "89a9b2cbb95095496172dbfe",
+      "title": "Retired NFL star takes one look at Madison Beer & gets why Herbert's struggling, ALCS empty seats & NFL memes",
+      "translatedTitle": null,
+      "description": "Screencaps, America's best daily column, explores why Justin Herbert's 2026 stats have cratered as Ochocinco reacts to fiancée Madison Beer.",
+      "url": "https://www.foxnews.com/outkick-sports/retired-nfl-star-takes-one-look-madison-beer-gets-why-herberts-struggling-alcs-empty-seats-nfl-memes",
+      "canonicalUrl": "https://foxnews.com/outkick-sports/retired-nfl-star-takes-one-look-madison-beer-gets-why-herberts-struggling-alcs-empty-seats-nfl-memes",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T13:27:32Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/931/523/madison-beer-1.jpg?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b631d3663e48d4ce2ff9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.42865
+    },
+    {
+      "id": "75262312054a041cb7df403d",
+      "title": "LPGA commissioner shares sensible opinion on controversial Good Good Golf ad: 'Good people make mistakes'",
+      "translatedTitle": null,
+      "description": "LPGA commissioner Craig Kessler says Good Good Golf deserves forgiveness after the controversial Callaway ad that rocked the entire golf world.",
+      "url": "https://www.foxnews.com/outkick-sports/lpga-commissioner-shares-sensible-opinion-controversial-good-good-golf-ad-good-people-make-mistakes",
+      "canonicalUrl": "https://foxnews.com/outkick-sports/lpga-commissioner-shares-sensible-opinion-controversial-good-good-golf-ad-good-people-make-mistakes",
+      "sourceName": "Fox News",
+      "sourceDomain": "foxnews.com",
+      "sourceCountry": "US",
+      "editionCountry": "US",
+      "coverageCountries": [
+        "US"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T13:21:21Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/kessler-laugh.jpg?ve=1&tl=1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-14T16:17:50Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dce87c9fd9067adfd791",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.41793
     },
     {
       "id": "97b7ab65da091342dda81e37",
@@ -753,563 +1474,23 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:49Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "268986063e8f0c6ac79a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.79123
-    },
-    {
-      "id": "0807f542124d2c0f344ede04",
-      "title": "Dalí Book Cover Stolen in France",
-      "translatedTitle": null,
-      "description": "Three thieves broke into a private museum in central France and took off with a 330-pound book cover created by the surrealist master Salvador Dalí.",
-      "url": "https://www.nytimes.com/2026/10/14/world/europe/france-dali-theft.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/world/europe/france-dali-theft.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T09:02:26Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/13/multimedia/13int-france-dali-photo-cvjf/13int-france-dali-photo-cvjf-mediumSquareAt3X.jpg",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2e58eb1d11fa86ddbd57",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74555
-    },
-    {
-      "id": "5cd7bd300f22d3242b658ffb",
-      "title": "A Trump Backlash Endangers Susan Collins in the Maine Senate Race",
-      "translatedTitle": null,
-      "description": "The race in Maine, which could decide Senate control, is testing whether there is still room for Ms. Collins’s brand of moderation during a sharply polarizing presidency.",
-      "url": "https://www.nytimes.com/2026/10/14/us/politics/susan-collins-trump-maine-senate.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/us/politics/susan-collins-trump-maine-senate.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T09:02:01Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14pol-maine-collins-01-bmjf/14pol-maine-collins-01-bmjf-mediumSquareAt3X.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4d84bab7a2dc847b1501",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74484
-    },
-    {
-      "id": "b149409dfdba6b10ccce70b4",
-      "title": "Five Bodies Are Found Along Michigan Trail and the Police Hunt a Killer",
-      "translatedTitle": null,
-      "description": "Lansing’s police chief says the string of attacks along a greenway raises the possibility that a serial killer has been at work. A man is under arrest in one of the deaths.",
-      "url": "https://www.nytimes.com/2026/10/14/us/lansing-michigan-serial-killer.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/us/lansing-michigan-serial-killer.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T09:01:52Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/08/multimedia/08nat-mi-killings-cgbk/08nat-mi-killings-cgbk-mediumSquareAt3X.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5c9b3ef87f41e942d7ea",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74459
-    },
-    {
-      "id": "90cd611cc83065af68c0e204",
-      "title": "Is It Wrong to Love a Chatbot?",
-      "translatedTitle": null,
-      "description": "Sherry Turkle, who has spent decades studying people’s relationships with machines, believes we have “a very small window” to correct our current course with A.I.",
-      "url": "https://www.nytimes.com/2026/10/14/opinion/ezra-klein-podcast-sherry-turkle.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/opinion/ezra-klein-podcast-sherry-turkle.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T09:01:36Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/opinion/14eks-turkle-image01/14eks-turkle-image01-mediumSquareAt3X.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1dc2b3625e929b11c145",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74413
-    },
-    {
-      "id": "635eb2f7e94a669739ad4d27",
-      "title": "Choosing a Medicare Advantage Provider for 2027 May Be Easier, but Not Perfect",
-      "translatedTitle": null,
-      "description": "The government has made improvements to the Medicare Plan Finder, a key online tool, in time for open enrollment. It helps seniors compare policies to avoid costly surprises.",
-      "url": "https://www.nytimes.com/2026/10/14/business/medicare-advantage-plan-finder.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/business/medicare-advantage-plan-finder.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T09:01:25Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14biz-medicare-planfinder-ljzh/14biz-medicare-planfinder-ljzh-mediumSquareAt3X.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3764d1ba500ed74d1f19",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74382
-    },
-    {
-      "id": "56f6732f9a7d320ff0f8ed39",
-      "title": "Have a Complaint About the M.T.A.? She’s Listening.",
-      "translatedTitle": null,
-      "description": "The chief customer officer for the Metropolitan Transportation Authority knows that New Yorkers have no shortage of opinions about subways and buses.",
-      "url": "https://www.nytimes.com/2026/10/14/nyregion/mta-chief-complaint-officer-nyc.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/nyregion/mta-chief-complaint-officer-nyc.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T09:01:04Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/nyregion/14nytoday1/14nytoday1-mediumSquareAt3X.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b120425c8889c71b7c5e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74323
-    },
-    {
-      "id": "405f9896187dd2c034c29380",
-      "title": "Will Anyone Actually Ever Live to 200?",
-      "translatedTitle": null,
-      "description": "Some experts are optimistic that science will eventually find ways to extend life, but many longevity claims are unrealistic.",
-      "url": "https://www.nytimes.com/2026/10/14/well/live/humans-lifespan-limits-potential.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/well/live/humans-lifespan-limits-potential.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T09:00:38Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/well/14well-age-longevity/14well-age-longevity-mediumSquareAt3X.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "82011a051df40fd45676",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74249
-    },
-    {
-      "id": "9f495e2a90ab8956cfd15794",
-      "title": "Six Flags rider who fell to his death was in remission from cancer, survived 'crazy' car fire, sister says",
-      "translatedTitle": null,
-      "description": "Six Flags Over Georgia's Goliath roller coaster remains under investigation after Hassan Kariem fell from the 200-foot-tall ride during a park visit.",
-      "url": "https://www.foxnews.com/us/six-flags-rider-fell-death-remission-cancer-survived-crazy-car-fire-sister-says",
-      "canonicalUrl": "https://foxnews.com/us/six-flags-rider-fell-death-remission-cancer-survived-crazy-car-fire-sister-says",
-      "sourceName": "Fox News",
-      "sourceDomain": "foxnews.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T12:14:19Z",
-      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Hassan-Jihad-Ibn-Kariem-six-flags-display.jpg?ve=1&tl=1",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a3841e7b385cf4126234",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74244
-    },
-    {
-      "id": "bee6c0d1581274278565c9e9",
-      "title": "Ballet Salon Is a New Home for Dancers Who Want to Return to the Stage",
-      "translatedTitle": null,
-      "description": "For many ballet dancers and former students, love of the art form endures even after they stop dancing. Ballet Salon was founded as a place for them to practice and perform at a high level.",
-      "url": "https://www.nytimes.com/2026/10/14/arts/dance/ballet-salon-dancers-gibney-theater.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/arts/dance/ballet-salon-dancers-gibney-theater.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T09:00:36Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14cul-ballet-salon-tjlb/14cul-ballet-salon-tjlb-mediumSquareAt3X.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "72898b0f7d7ddc3e5002",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74244
-    },
-    {
-      "id": "58072be5fbf184942c9a6d10",
-      "title": "Becerra Is a Quiet Trailblazer for Latinos in California",
-      "translatedTitle": null,
-      "description": "Xavier Becerra is a heavy favorite to become California’s first Latino governor in the modern era, though he does not talk much about the milestone.",
-      "url": "https://www.nytimes.com/2026/10/14/us/xavier-becerra-latino-california-governor.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/us/xavier-becerra-latino-california-governor.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T09:00:19Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14nat-ca-becerra-02-plkq/14nat-ca-becerra-02-plkq-mediumSquareAt3X.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ff01a2b3854816aa82d9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74196
-    },
-    {
-      "id": "89d937c07d1690d15438d485",
-      "title": "Bank of America shares drop more than 4% after third-quarter revenue miss and regulatory penalty",
-      "translatedTitle": null,
-      "description": "The U.S. Treasury Department announced a $1.2 billion penalty against Bank of America on Tuesday.",
-      "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
-      "canonicalUrl": "https://cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
-      "sourceName": "CNBC",
-      "sourceDomain": "cnbc.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T12:13:59Z",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108250555-1767974377302-gettyimages-2201916861-_d6a3281_18br2qz5.jpeg?v=1767974405&w=1920&h=1080",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d03489e5ce48dac39a85",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.74176
-    },
-    {
-      "id": "55ac0e1962145e0f1c02a40e",
-      "title": "Delta's business-class revamp: New seats, menus, plates and more Porsches",
-      "translatedTitle": null,
-      "description": "Delta is upgrading its top-tier Delta One cabin with new suites for its largest A350 plane, starting next year.",
-      "url": "https://www.cnbc.com/2026/10/14/delta-one-revamp.html",
-      "canonicalUrl": "https://cnbc.com/2026/10/14/delta-one-revamp.html",
-      "sourceName": "CNBC",
-      "sourceDomain": "cnbc.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T12:10:03Z",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108290073-1775854656116-A350-1000_Delta_One_Suite__D1_cabin_facing_forward_highlighting_screens.jpg?v=1775855434&w=1920&h=1080",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "821a260793fb531607b1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73379
-    },
-    {
-      "id": "6e881ec862232a0ade65c861",
-      "title": "'Office' is actually having a scarcity problem",
-      "translatedTitle": null,
-      "description": "The U.S. office market is roaring back to health but its speedy recovery is resulting in a shortage, especially of premium space.",
-      "url": "https://www.cnbc.com/2026/10/14/office-is-actually-having-a-scarcity-problem.html",
-      "canonicalUrl": "https://cnbc.com/2026/10/14/office-is-actually-having-a-scarcity-problem.html",
-      "sourceName": "CNBC",
-      "sourceDomain": "cnbc.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T12:08:13Z",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108330239-1783023247114-gettyimages-2241476147-anotherday129719452_m1x9m2og.jpeg?v=1783023398&w=1920&h=1080",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "37bf9f442ca02b5021c2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73009
-    },
-    {
-      "id": "b3002dd1a52564b0b0fd8126",
-      "title": "Pope Leo’s Cancer Surgery Draws Outpouring From World Leaders",
-      "translatedTitle": null,
-      "description": "The pontiff’s illness also prompted calls for people to seek medical treatment and early cancer screenings.",
-      "url": "https://www.nytimes.com/2026/10/13/world/europe/pope-leo-cancer-diagnosis-prayers-reaction.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/13/world/europe/pope-leo-cancer-diagnosis-prayers-reaction.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T08:46:26Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/13/multimedia/13int-Pope-Reax-pjlk/13int-Pope-Reax-pjlk-mediumSquareAt3X.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c58e48d62a4c056a6979",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71856
-    },
-    {
-      "id": "24ab23721317617aa65f785b",
-      "title": "Morgan Stanley tops estimates as equities trading revenue exceeds expectations by $909 million",
-      "translatedTitle": null,
-      "description": "Morgan Stanley is expected to benefit from robust investment banking and equities trading revenue.",
-      "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
-      "canonicalUrl": "https://cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
-      "sourceName": "CNBC",
-      "sourceDomain": "cnbc.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T11:58:05Z",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108091506-1737654883210-1U8A2251.JPG?v=1737655004&w=1920&h=1080",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "98175bd4b8b1a913998d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70973
-    },
-    {
-      "id": "158f1daf406f9581eb8297f6",
-      "title": "New York governor debate heats up as Blakeman, Hochul spar over Trump, sanctuary status, ICE shooting",
-      "translatedTitle": null,
-      "description": "The New York gubernatorial race heated up Tuesday as Democratic Gov. Kathy Hochul and Nassau County Executive Bruce Blakeman clashed on the debate stage.",
-      "url": "https://www.foxnews.com/politics/new-york-governor-debate-heats-blakeman-hochul-spar-trump-sanctuary-status-ice-shooting",
-      "canonicalUrl": "https://foxnews.com/politics/new-york-governor-debate-heats-blakeman-hochul-spar-trump-sanctuary-status-ice-shooting",
-      "sourceName": "Fox News",
-      "sourceDomain": "foxnews.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T11:25:53Z",
-      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/hochul-blakeman.jpg?ve=1&tl=1",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3831bca01bcc2f3644b0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64629
-    },
-    {
-      "id": "19781626ae4f5c4f53a905df",
-      "title": "Anthropic urges court in Washington, DC, to rehear appeal of Pentagon blacklisting",
-      "translatedTitle": null,
-      "description": "Anthropic is asking a federal court in Washington, D.C., to rehear its appeal in a case concerning the Pentagon's blacklisting of the company's AI models.",
-      "url": "https://www.cnbc.com/2026/10/13/anthropic-wants-court-in-dc-to-rehear-appeal-of-pentagon-blacklist-.html",
-      "canonicalUrl": "https://cnbc.com/2026/10/13/anthropic-wants-court-in-dc-to-rehear-appeal-of-pentagon-blacklist-.html",
-      "sourceName": "CNBC",
-      "sourceDomain": "cnbc.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T11:01:42Z",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108353964-1787672944507-gettyimages-2280291162-ANTHROPIC_CIRCUIT.jpeg?v=1787672973&w=1920&h=1080",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f405a25680f5654577ad",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59987
-    },
-    {
-      "id": "6a520598e7a08a5f0fe0d7c9",
-      "title": "Musk Blames Tycoon for Stalling Satellite Internet Access in India",
-      "translatedTitle": null,
-      "description": "As Starlink seeks permission to operate in India, a recent protest in New Delhi showed how quickly authorities can cut off mobile internet access.",
-      "url": "https://www.nytimes.com/2026/10/14/business/india-elon-musk-starlink.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/business/india-elon-musk-starlink.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T07:32:09Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/14/multimedia/14biz-india-musk-01-hmzq/14biz-india-musk-01-hmzq-mediumSquareAt3X.jpg",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "36f36a9dca5344e234c5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.59835,
+      "rankingScore": 5.41633,
       "related": []
     },
     {
-      "id": "fbd0b0ce4bd15ab9bf99e0fe",
-      "title": "Selma Blair's lawyer cites missed medication, head injury after in-flight arrest: What doctors say",
+      "id": "5dbfa6e8921a383147d30d03",
+      "title": "SEC accuses LSU of defying its rules as Will Wade’s basketball roster adds fuel to a burning fire",
       "translatedTitle": null,
-      "description": "Selma Blair's attorney claims she missed doses of a powerful MS medication, triggering severe neurological symptoms before her in-flight arrest.",
-      "url": "https://www.foxnews.com/health/selma-blair-lawyer-cites-missed-medication-head-injury-in-flight-arrest-what-doctors-say",
-      "canonicalUrl": "https://foxnews.com/health/selma-blair-lawyer-cites-missed-medication-head-injury-in-flight-arrest-what-doctors-say",
+      "description": "The LSU Tigers filed a motion to dismiss, but the SEC fired back alleging school and Will Wade keep testing conference professionalism rules.",
+      "url": "https://www.foxnews.com/outkick-sports/sec-accuses-lsu-defying-rules-will-wade-basketball-roster-adds-fuel-burning-fire",
+      "canonicalUrl": "https://foxnews.com/outkick-sports/sec-accuses-lsu-defying-rules-will-wade-basketball-roster-adds-fuel-burning-fire",
       "sourceName": "Fox News",
       "sourceDomain": "foxnews.com",
       "sourceCountry": "US",
@@ -1318,170 +1499,20 @@
         "US"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T11:00:08Z",
-      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/selma-blair-split.jpg?ve=1&tl=1",
+      "publishedAt": "2026-10-14T13:09:54Z",
+      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/will-wade-lsu-tigers-basketball-coach.jpg?ve=1&tl=1",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
+      "retrievedAt": "2026-10-14T16:17:50Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "88ad14e4649c737ba520",
+      "clusterId": "e5fc230c5591ed209db1",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.5969
-    },
-    {
-      "id": "b26d5c7117339d15aa063b89",
-      "title": "Tech giants race to get AI gadgets on shelves for holiday rush",
-      "translatedTitle": null,
-      "description": "With the holidays just a couple months away, tech companies are betting this is finally the year that AI gadgets make the shopping list.",
-      "url": "https://www.cnbc.com/2026/10/14/tech-giants-race-to-get-ai-gadgets-on-shelves-for-holiday-rush.html",
-      "canonicalUrl": "https://cnbc.com/2026/10/14/tech-giants-race-to-get-ai-gadgets-on-shelves-for-holiday-rush.html",
-      "sourceName": "CNBC",
-      "sourceDomain": "cnbc.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T11:00:01Z",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108403953-17919074702026-10-13t143107z_543638718_rc2d2oauh86b_rtrmadp_0_ai-apple-products.jpeg?v=1791907529&w=1920&h=1080",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a61ec0ed84e4358774fa",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59668
-    },
-    {
-      "id": "8739fd3db32ef786f4871426",
-      "title": "Pope Leo Has Lung Cancer, Vatican Says",
-      "translatedTitle": null,
-      "description": "The surgeons removed the lower lobe of the pope’s right lung after finding a cancerous nodule.",
-      "url": "https://www.nytimes.com/2026/10/13/world/europe/pope-leo-lung-surgery.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/13/world/europe/pope-leo-lung-surgery.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T07:27:25Z",
-      "imageUrl": "https://static01.nyt.com/images/2026/10/13/multimedia/13int-pope-surgery-lwgk/13int-pope-surgery-lwgk-mediumSquareAt3X.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "24874198df3804726b86",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.59096,
-      "related": []
-    },
-    {
-      "id": "2fb072e705f8a78e1dc0a933",
-      "title": "Washington girls walk off cross country meet in protest of male athlete, parents reveal how it came to this",
-      "translatedTitle": null,
-      "description": "Holly Burns and teammates walked off a Washington cross-country race rather than compete against an athlete who switched from the boys' team.",
-      "url": "https://www.foxnews.com/outkick-sports/washington-girls-walk-off-cross-country-meet-protest-male-athlete-parents-reveal-how-it-came-to-this",
-      "canonicalUrl": "https://foxnews.com/outkick-sports/washington-girls-walk-off-cross-country-meet-protest-male-athlete-parents-reveal-how-it-came-to-this",
-      "sourceName": "Fox News",
-      "sourceDomain": "foxnews.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T10:33:25Z",
-      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/XC-Runners-crop.jpg?ve=1&tl=1",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "66c3bff81bcbc270b9c1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.54688
-    },
-    {
-      "id": "047888e3384605553d0bb552",
-      "title": "Multiple People Killed in Wisconsin Plane Crash",
-      "translatedTitle": null,
-      "description": "The aircraft crashed in the town of Dellona on Tuesday night, local authorities said.",
-      "url": "https://www.nytimes.com/2026/10/14/us/wisconsin-plane-crash-dead.html",
-      "canonicalUrl": "https://nytimes.com/2026/10/14/us/wisconsin-plane-crash-dead.html",
-      "sourceName": "The New York Times",
-      "sourceDomain": "nytimes.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T12:09:04Z",
-      "imageUrl": null,
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f999dde923dc7a879003",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.54181
-    },
-    {
-      "id": "b3596fdba39a4d2981615eb7",
-      "title": "Mamdani, City Council move to end iconic NYC horse-drawn carriage industry as workers face uncertain future",
-      "translatedTitle": null,
-      "description": "Romanch's Law would phase out Central Park horse-drawn carriages by 2028, but Mayor Zohran Mamdani's transition plan guarantees no financial payouts.",
-      "url": "https://www.foxnews.com/travel/mamdani-city-council-move-end-iconic-nyc-horse-drawn-carriage-industry-workers-face-uncertain-future",
-      "canonicalUrl": "https://foxnews.com/travel/mamdani-city-council-move-end-iconic-nyc-horse-drawn-carriage-industry-workers-face-uncertain-future",
-      "sourceName": "Fox News",
-      "sourceDomain": "foxnews.com",
-      "sourceCountry": "US",
-      "editionCountry": "US",
-      "coverageCountries": [
-        "US"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T10:00:54Z",
-      "imageUrl": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/06/931/523/Horse-drawn-carriage-in-Central-Park.jpeg?ve=1&tl=1",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-14T12:17:43Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8172916cf352b7d07940",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.48766
+      "rankingScore": 5.39823
     }
   ]
 }
