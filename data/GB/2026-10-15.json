@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T08:18:24Z",
-  "lastAttemptAt": "2026-10-15T08:18:24Z",
-  "lastSuccessfulUpdate": "2026-10-15T08:18:24Z",
-  "status": "current",
+  "generatedAt": "2026-10-15T12:18:30Z",
+  "lastAttemptAt": "2026-10-15T12:18:30Z",
+  "lastSuccessfulUpdate": "2026-10-15T12:18:30Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-15T08:18:23Z",
-      "lastSuccessAt": "2026-10-15T08:18:24Z",
-      "articlesRetrieved": 34,
-      "responseTimeMs": 636,
+      "lastAttemptAt": "2026-10-15T12:18:30Z",
+      "lastSuccessAt": "2026-10-15T12:18:30Z",
+      "articlesRetrieved": 32,
+      "responseTimeMs": 314,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-15T08:18:23Z",
-      "lastSuccessAt": "2026-10-15T08:18:24Z",
+      "lastAttemptAt": "2026-10-15T12:18:30Z",
+      "lastSuccessAt": "2026-10-15T12:18:30Z",
       "articlesRetrieved": 141,
-      "responseTimeMs": 351,
+      "responseTimeMs": 321,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,33 +38,33 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-15T08:18:23Z",
-      "lastSuccessAt": "2026-10-15T08:18:24Z",
-      "articlesRetrieved": 8,
-      "responseTimeMs": 630,
+      "lastAttemptAt": "2026-10-15T12:18:30Z",
+      "lastSuccessAt": "2026-10-15T12:18:30Z",
+      "articlesRetrieved": 10,
+      "responseTimeMs": 438,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-10-15T08:18:23Z",
-      "lastSuccessAt": "2026-10-15T08:18:24Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 530,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-15T12:18:30Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
     {
-      "id": "e117c10410fab6637ec14ea6",
-      "title": "UK economy sees surprise growth in August ahead of Healey's first Budget",
+      "id": "a35fda6355f8eb2128dbed6e",
+      "title": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
       "translatedTitle": null,
-      "description": "The uptick helped the economy grow by 0.7% over the three months to August, official figures show.",
-      "url": "https://www.bbc.co.uk/news/articles/ck8dz1me439no?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ck8dz1me439no?at_campaign=rss&at_medium=RSS",
+      "description": "Ukraine's president says a pause on striking energy sites is over following fresh Russian attacks.",
+      "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -73,203 +73,173 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-15T07:40:27Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c805/live/f9d54590-c862-11f1-811a-c519df8e0311.jpg",
+      "publishedAt": "2026-10-15T12:03:51Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88a4/live/d60d4d30-c879-11f1-a64c-550be9e3c66b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ca49d657c9364aecd2c8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "8e5010185f3f4ce912a79b26",
+          "title": "Russia and Ukraine resume energy strikes despite Trump warnings",
+          "translatedTitle": null,
+          "description": "Moscow sends swarms of drones to attack infrastructure in central Ukraine as Zelenskyy says Kyiv will restart strikes on Russian oil refineries Europe live – latest updates The White House’s unilateral effort to negotiate an energy ceasefire between Russia and Ukraine has collapsed as Moscow sent a record swarm of drones overnight to attack infrastructure in central Ukraine and Kyiv appeared to resume strikes on Russian oil refineries – despite warnings from Donald Trump. Moscow accused Ukraine",
+          "url": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
+          "canonicalUrl": "https://theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-15T10:14:49Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/0859cf99ca689403c3543c139d63683eaa747f5c/292_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=11663876b56431fa0b2ac260feb4cd97",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-15T12:18:30Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "ca49d657c9364aecd2c8",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "russia and ukraine resume energy strikes despite trump warnings"
+        }
+      ],
+      "rankingScore": 10.53025
+    },
+    {
+      "id": "56125f787f5711eafe9283c0",
+      "title": "Why one of the US's reddest counties is losing faith in Trump – video",
+      "translatedTitle": null,
+      "description": "As the midterm elections loom, Oliver Laughland and Tom Silverstone travel to rural West Virginia, a Republican party stronghold, to explore how soaring gas prices, war in the Middle East and datacenter expansion are affecting Donald Trump's popularity among his base. Although the state remains staunchly Republican, there are signs of a new politics emerging – and local Democrats are looking to capitalize on it Continue reading...",
+      "url": "https://www.theguardian.com/us-news/video/2026/oct/15/why-one-of-the-uss-reddest-counties-is-losing-faith-in-trump-video",
+      "canonicalUrl": "https://theguardian.com/us-news/video/2026/oct/15/why-one-of-the-uss-reddest-counties-is-losing-faith-in-trump-video",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T09:42:45Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3baf40df9621550a6062e5e02d87f44000808ac1/237_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=b75afb6aefaab38206178a197ca03200",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "30fc22282b66d952191e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 9.59445
+    },
+    {
+      "id": "cf6311facc8aba6f237597d6",
+      "title": "Pakistan school roof collapse leaves at least 27 students dead",
+      "translatedTitle": null,
+      "description": "Death toll likely to rise as rescuers in Peshawar work to find dozens of pupils still unaccounted for At ⁠least 27 students, most younger than 13, have been killed after ⁠a ​school roof collapsed during classes in Peshawar, north-west Pakistan. A teacher also died in the incident, according to local authorities, who said the ⁠death toll could rise. Television images showed ambulances rushing to the privately run al-Khair Education ⁠Center school while rescuers pulled bloodied students from the r",
+      "url": "https://www.theguardian.com/world/2026/oct/15/pakistan-peshawar-school-roof-collapse-leaves-students-dead",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/15/pakistan-peshawar-school-roof-collapse-leaves-students-dead",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T08:25:33Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/52c7a3b96a07d73e19eec0d00abbe700033f539e/280_840_2049_1640/master/2049.jpg?width=140&quality=85&auto=format&fit=max&s=3ed8b75cb978a46ddd8e14d3b479a83f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4af40a0e64215516b719",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "1e02e316dc231bc9efaf80cc",
+          "title": "School roof collapses in Pakistan killing at least 27 students and one teacher",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://www.independent.co.uk/bulletin/news/pakistan-peshawar-school-roof-collapse-b3067169.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/news/pakistan-peshawar-school-roof-collapse-b3067169.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-15T07:49:16Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/15/08/download.-1.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-15T08:18:24Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "4af40a0e64215516b719",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.29125,
+          "normalizedTitle": "school roof collapses in pakistan killing at least 27 students and one teacher",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 9.51307
+    },
+    {
+      "id": "659801eab0c81bbef726bf4f",
+      "title": "Tech market sell-off deepens amid fears over US inflation and AI debt",
+      "translatedTitle": null,
+      "description": "Chip makers and tech investors such as Samsung and SoftBank plunge as potential interest rate hikes spook markets Business news – live updates Larry Elliott: the global economy is muddling through. But a storm is coming An accelerating sell-off of AI-linked shares has hit global markets, as fears over rising inflation and future interest rate hikes spooked traders already wary of the heavily indebted sector. South Korea’s benchmark Kospi 200 index, which is heavily skewed towards the companies t",
+      "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T10:38:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/db77d2497ad333f58b03bc024b156cdce2973b96/1166_0_4632_3706/master/4632.jpg?width=140&quality=85&auto=format&fit=max&s=0c106f80a98eb99a06130d501a36d1b9",
       "imageAlt": null,
       "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
+      "retrievedAt": "2026-10-15T12:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "416986b97d3a7b2369e0",
+      "clusterId": "5c12ad65c960ee0c1d3a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "57c4c05380d72d5156558ebc",
-          "title": "UK economy grew unexpectedly by 0.1% in August",
-          "translatedTitle": null,
-          "description": "Another beat of economists’ forecasts of a contraction for the month",
-          "url": "https://www.independent.co.uk/news/uk/home-news/uk-economy-grows-gdp-figures-august-b3067139.html",
-          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/uk-economy-grows-gdp-figures-august-b3067139.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-15T07:30:02Z",
-          "imageUrl": "https://static.independent.co.uk/2024/05/16/17/4b790aa520ee7f381e7fb3edfa7d3bb7Y29udGVudHNlYXJjaGFwaSwxNzE1OTU3MzAw-2.71822086.jpg?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-15T08:18:24Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "416986b97d3a7b2369e0",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "uk economy grew unexpectedly by 0 1 in august"
-        },
-        {
-          "id": "09399f6efb3d31d757ea838e",
-          "title": "UK economy unexpectedly grows in August despite fall in consumer spending",
-          "translatedTitle": null,
-          "description": "Latest data showing surprise 0.1% growth is boost to John Healey a fortnight before his first budget Business news – live updates The UK economy unexpectedly continued to grow in August despite a fall in consumer spending before John Healey’s first budget as chancellor. Figures from the Office for National Statistics showed gross domestic product (GDP) rose by 0.1% last month, compared with 0.4% growth in July. That confounded a forecast by City economists of a 0.1% contraction. Continue reading",
-          "url": "https://www.theguardian.com/business/2026/oct/15/uk-economy-unexpectedly-grows-01-in-august-despite-fuel-hit-to-household-budgets",
-          "canonicalUrl": "https://theguardian.com/business/2026/oct/15/uk-economy-unexpectedly-grows-01-in-august-despite-fuel-hit-to-household-budgets",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-15T06:05:17Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/0ec06bbd14696444370d10765c3d43400fadc7d8/460_0_6479_5182/master/6479.jpg?width=140&quality=85&auto=format&fit=max&s=ce6566899b7318600d4b8780febe5a68",
-          "imageAlt": null,
-          "category": "Business",
-          "topics": [],
-          "retrievedAt": "2026-10-15T08:18:24Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "416986b97d3a7b2369e0",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "uk economy unexpectedly grows in august despite fall in consumer spending"
-        }
-      ],
-      "rankingScore": 9.18384
-    },
-    {
-      "id": "d0de596516f1148fb8f7aca3",
-      "title": "North Korea and China open new bridge after 12-year delay",
-      "translatedTitle": null,
-      "description": "China is the North's largest trading partner and a lifeline against the sanctions Pyongyang faces.",
-      "url": "https://www.bbc.co.uk/news/articles/ck1exgw3j115o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ck1exgw3j115o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T06:24:45Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/481d/live/54fdb770-c83d-11f1-9346-f78c578493f4.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a102ecb5a871bdf5f359",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "26d3e9f7c17ee2d499261051",
-          "title": "New bridge opens between China and North Korea after 12 year wait",
-          "translatedTitle": null,
-          "description": "The new bridge's opening comes roughly a month after North Korea and Russia opened a road bridge",
-          "url": "https://www.independent.co.uk/asia/east-asia/yalu-river-bridge-new-north-korea-china-b3067175.html",
-          "canonicalUrl": "https://independent.co.uk/asia/east-asia/yalu-river-bridge-new-north-korea-china-b3067175.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-15T07:42:16Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/15/08/download.-2.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-15T08:18:24Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "a102ecb5a871bdf5f359",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "new bridge opens between china and north korea after 12 year wait"
-        }
-      ],
-      "rankingScore": 8.99008
-    },
-    {
-      "id": "b61142588e3d6fa102b6beb5",
-      "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
-      "translatedTitle": null,
-      "description": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
-      "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c8wy9veedgygo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:30:08Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f7e/live/76dbc1b0-c848-11f1-94ec-7f952cae1636.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "530313a3dd800773e44c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "f42fd65658c9fa8dfd76c14e",
-          "title": "Elon Musk suggests US government was behind Starlink restrictions in Ukraine – Europe live",
-          "translatedTitle": null,
-          "description": "Ukraine president Zelenskyy said he felt ‘betrayed’ by the US after Trump’s diesel deal and the Starlink restrictions As Ukraine reported problems with Starlink satellite internet terminals and US data that warns of Russian ballistic missile attacks, Kyiv also faced the harsh reality that its European allies cannot offer ⁠any ready-made alternatives, Reuters reported. European countries have voiced strong support for Ukraine and Zelenskyy. But the problems with vital data highlighted that Ukrain",
-          "url": "https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
-          "canonicalUrl": "https://theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-15T07:49:07Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/015e403b327f16069ea77c81b1d1c193c88c558b/449_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=114ba6d259e34f1e70b4ab046695c8bf",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-15T08:18:24Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "530313a3dd800773e44c",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "elon musk suggests us government was behind starlink restrictions in ukraine europe live"
-        }
-      ],
-      "rankingScore": 8.4407
+      "related": [],
+      "rankingScore": 8.69522
     },
     {
       "id": "990cca642f1008216890f99a",
@@ -298,68 +268,38 @@
       "clusterId": "5aefea9f4548390f82a2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.1935
-    },
-    {
-      "id": "04003125e1c052e11d10a78c",
-      "title": "The global economy is muddling through against the odds. But a storm is coming | Larry Elliott",
-      "translatedTitle": null,
-      "description": "Finance ministers gathering for the IMF annual meeting know the need for multilateral cooperation to deal with many crises. There is little chance of that Not much has gone right for the global economy this year, and plenty has gone wrong. Two big regional wars are destabilising prices and supply chains everywhere. Businesses and consumers are feeling the effects of a serious energy shock. Rising inflation has made it a lot more expensive for governments to finance their debts. China and the US",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/15/global-economy-multilateral-cooperation-crisis-imf",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/15/global-economy-multilateral-cooperation-crisis-imf",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T05:00:22Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/54d43e601c16fe78485d52c498dab52180b5abba/0_1_5000_3999/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=9653a4381152d46f0b65efed67a78f7a",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d5ea7d60e55ecf36f421",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.17126
-    },
-    {
-      "id": "af7c28868430b9eb8593251c",
-      "title": "Unpolished, anti-Bibi, but evasive on peace: who is the Israeli opposition candidate Gadi Eisenkot?",
-      "translatedTitle": null,
-      "description": "The ‘menschy’ former general contrasts with the current PM when it comes to style and character – yet on key policy points retains a studied ambiguity He has been called the man who is everything the Israeli prime minister, Benjamin Netanyahu, is not. Gadi Eisenkot, a former general and the main opposition candidate in Israel’s elections this month, is unpolished where Netanyahu is slick. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/oct/15/israel-gadi-eisenkot-profile-netanyahu-election",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/15/israel-gadi-eisenkot-profile-netanyahu-election",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:00:23Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a11033e66e6d38bf9ff46db6b7408499090b9bf1/147_0_5581_4465/master/5581.jpg?width=140&quality=85&auto=format&fit=max&s=48743c7c2da98a4d8299aa0a9277910d",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9ef9bbdddb1ebae540f9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 8.07232,
+      "rankingScore": 7.80616,
       "related": []
+    },
+    {
+      "id": "b1818c7aca69c19b5514f944",
+      "title": "Why Starlink internet is so important on the battlefield in Ukraine",
+      "translatedTitle": null,
+      "description": "It is the \"backbone of military communications in Ukraine\" that provides vital high-speed internet to forces across the country.",
+      "url": "https://www.bbc.co.uk/news/articles/cqkgk4zg54reo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqkgk4zg54reo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T11:25:19Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ce9/live/0d443230-c809-11f1-aff0-65f8bbf884f7.jpg",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "aa004d25fbcc12a72a7c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.70419
     },
     {
       "id": "82a898749cb3161b76e244c8",
@@ -388,8 +328,69 @@
       "clusterId": "0733bf729a6d506fd2a9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.02694
+      "rankingScore": 7.67279,
+      "related": []
+    },
+    {
+      "id": "387a9570a7034a05b83f4401",
+      "title": "Australia edge New Zealand in epic World Cup opener",
+      "translatedTitle": null,
+      "description": "Jack Bostock scores a hat-trick of tries as Australia fight back to win the opening game of the Rugby League World Cup against New Zealand.",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/crn8w411gj1yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/rugby-league/articles/crn8w411gj1yo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T11:32:50Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f95/live/593307a0-c888-11f1-a2e8-f71844f8002e.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fccd52c7ad6d859de207",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "5465d20bac81cc95e44ef13b",
+          "title": "Australia survive a scare as New Zealand light fuse on Rugby League World Cup",
+          "translatedTitle": null,
+          "description": "Pool A: Kangaroos 24-22 Kiwis Jack Bostock scores three tries including match-winner in Sydney Debutant Jack Bostock almost single-handedly stole the Rugby League World Cup opener, with three tries and one crucial try assist in a 24-22 victory over New Zealand that might generously be described as undeserved. The Dolphins player wrestled a Cameron Munster kick away from Jamayne Isaako in the air with five minutes to go to complete his treble, putting his side in the match-winning lead. It was a",
+          "url": "https://www.theguardian.com/sport/2026/oct/15/australia-new-zealand-mens-rugby-league-world-cup-bostock-match-report",
+          "canonicalUrl": "https://theguardian.com/sport/2026/oct/15/australia-new-zealand-mens-rugby-league-world-cup-bostock-match-report",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-15T11:22:07Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/d9d3e7def46d2b3d5b80ca0b222f839223a66d79/439_0_3166_2532/master/3166.jpg?width=140&quality=85&auto=format&fit=max&s=5fb0c3d92d17abc0b1cfef933570cc34",
+          "imageAlt": null,
+          "category": "Sports",
+          "topics": [],
+          "retrievedAt": "2026-10-15T12:18:30Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "fccd52c7ad6d859de207",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "australia survive a scare as new zealand light fuse on rugby league world cup"
+        }
+      ],
+      "rankingScore": 7.41881
     },
     {
       "id": "9e8f37fca2183c4a42bb3654",
@@ -418,37 +419,7 @@
       "clusterId": "4e69f612d34c239f5134",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.58361
-    },
-    {
-      "id": "bb9e5a5869b96d3cd0dfdd07",
-      "title": "Volodymyr Zelenskyy feels ‘betrayed’ by Donald Trump over Starlink access",
-      "translatedTitle": null,
-      "description": "Ukrainian president accused US president of picking the other side after four years of war Volodymyr Zelenskyy has said he feels personally betrayed by Donald Trump after it emerged that Ukraine’s military has had its access to Elon Musk’s Starlink satellite squeezed, raising doubts about long-term US support for Kyiv. The Ukrainian president, on a visit to London, accused Trump of picking the other side after more than four years of war, risking a breakdown in relations already strained by the",
-      "url": "https://www.theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T23:00:08Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0a9b1324dd3d818c1d5a0625f6a6afdc7ae245f6/641_0_6405_5127/master/6405.jpg?width=140&quality=85&auto=format&fit=max&s=53efce5be02c377bd93cbf05cae4bc36",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "51a808fce62b4f20a227",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.56187,
+      "rankingScore": 7.31782,
       "related": []
     },
     {
@@ -478,8 +449,818 @@
       "clusterId": "a953763fa6ffb1efea8c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.58768,
+      "rankingScore": 6.17926,
       "related": []
+    },
+    {
+      "id": "fd067dee14e37b551e93f733",
+      "title": "Police officer found guilty of raping teenage girl and woman",
+      "translatedTitle": null,
+      "description": "A police officer has been found guilty of raping a teenage girl and a woman.",
+      "url": "https://news.sky.com/story/police-scotland-officer-found-guilty-of-raping-teenage-girl-and-woman-in-shetland-13599520",
+      "canonicalUrl": "https://news.sky.com/story/police-scotland-officer-found-guilty-of-raping-teenage-girl-and-woman-in-shetland-13599520",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T09:43:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-john-williamson-carmichael-williamson_7377508.png?20261015122234",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a9d259c5a5324b3f260f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.5449
+    },
+    {
+      "id": "a7499ad044fec70d4010d94d",
+      "title": "Government to publish Telegraph probes amid Burnham Abu Dhabi row",
+      "translatedTitle": null,
+      "description": "The government is to publish the long-delayed results of probes into Abu Dhabi's failed attempt to buy The Daily Telegraph - a move which risks stoking tensions with the United Arab Emirates (UAE) amid a row over Andy Burnham's links to the owners of Manchester City.",
+      "url": "https://news.sky.com/story/government-to-publish-telegraph-probes-amid-burnham-abu-dhabi-row-13599517",
+      "canonicalUrl": "https://news.sky.com/story/government-to-publish-telegraph-probes-amid-burnham-abu-dhabi-row-13599517",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T09:30:00Z",
+      "imageUrl": "https://e3.365dm.com/25/11/1920x1080/95d05ccd17ddf532718449f9fe5f80b4c1a96320612fcdbc48a80c1386b561b8_7081975.jpg?20251114130414",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6de443fd3e7f94901d75",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.5221
+    },
+    {
+      "id": "2c4a35a7d542d5bb5e8fb26b",
+      "title": "Could Wenger really take on Infantino and run for Fifa presidency?",
+      "translatedTitle": null,
+      "description": "Senior figures in European football tell BBC Sport they want former Arsenal manager Arsene Wenger to run as a surprise candidate against Gianni Infantino.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx30e8dqmnzgo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cx30e8dqmnzgo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T06:35:39Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db17/live/f473e230-c7fb-11f1-970c-196b57378f40.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9b3cb1461b5144664247",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.51152
+    },
+    {
+      "id": "8b53b8577358044021073f73",
+      "title": "From Mario to machine guns: how Ubisoft Paris made Tom Clancy’s Rainbow Six Tactics",
+      "translatedTitle": null,
+      "description": "The studio is swapping the Mushroom Kingdom’s vivid palette for the blood-soaked grit of military action series Where do you go after Mario? It’s a question the team at Ubisoft Paris found itself pondering three years ago after wrapping up work on the charming turn-based tactics adventure, Mario + Rabbids: Sparks of Hope, sequel to its unexpected crossover hit, Mario + Rabbids: Kingdom Battle. By melding a rather specialist genre with video gaming’s biggest household name, the developer introduc",
+      "url": "https://www.theguardian.com/games/2026/oct/15/from-mario-to-machine-guns-how-ubisoft-paris-made-tom-clancy-rainbow-six-tactics",
+      "canonicalUrl": "https://theguardian.com/games/2026/oct/15/from-mario-to-machine-guns-how-ubisoft-paris-made-tom-clancy-rainbow-six-tactics",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T09:00:11Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/462c25d94e20d6ab8bd20b2b675fa9c6bcdb57db/986_594_1957_1566/master/1957.jpg?width=140&quality=85&auto=format&fit=max&s=04d1b829deb4e17e9471c0b0873099c4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2d0ba6e4e29379741511",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47085
+    },
+    {
+      "id": "64de6011aeacad991bfe76e4",
+      "title": "‘The world is falling apart’: Dominic Cooke plans boldly political first season at Almeida",
+      "translatedTitle": null,
+      "description": "Exclusive: London theatre’s new artistic director working with David Tennant and Caryl Churchill as he wrestles with Britain’s decline – and with smart glasses A spate of highly political plays will feature in one of north London’s most storied theatres next season, as its new artistic director says the world “is falling apart”. An exploration of Britain’s decline featuring David Tennant and a searing series of new plays by Caryl Churchill are planned for Dominic Cooke’s first season at the Alme",
+      "url": "https://www.theguardian.com/stage/2026/oct/15/dominic-cooke-almeida-theatre-david-tennant-caryl-churchill",
+      "canonicalUrl": "https://theguardian.com/stage/2026/oct/15/dominic-cooke-almeida-theatre-david-tennant-caryl-churchill",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T09:00:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ecea94b1fcdd0ff807280e5491f7c767bc2980a5/61_0_2679_2143/master/2679.jpg?width=140&quality=85&auto=format&fit=max&s=440bb465548e6bc2b5ffd4b43f0b11b1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0371c9f203ea9790bad4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4708
+    },
+    {
+      "id": "977502085e42c58bf55c2ee0",
+      "title": "Bueckers broadsides to Lady Magic’s spice: the greatest trash talkers in WNBA history",
+      "translatedTitle": null,
+      "description": "With the season approaching its climax, we look at the players who have perfected the art of smack talking through the years Today, even the most casual of WNBA fans have watched some of the league’s biggest stars talking trash on the court. But while the snarling convos look heated, most of the time, they are good-natured, competitive fun. Still, we wondered, who are the best trash talkers in the game? Which players over the years have turned talking smack into an art form? Let’s explore. Conti",
+      "url": "https://www.theguardian.com/sport/2026/oct/15/wnba-greastest-trash-talkers",
+      "canonicalUrl": "https://theguardian.com/sport/2026/oct/15/wnba-greastest-trash-talkers",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T09:00:08Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e496f21317296585d28de409a5aba5ebfc37064c/724_286_3308_2646/master/3308.jpg?width=140&quality=85&auto=format&fit=max&s=37944140522b0d7daab0ff8e3147f20b",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fb5dcdf9c1109f1c421b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47077
+    },
+    {
+      "id": "2b23923bc41356afb7486ffe",
+      "title": "The F1 pit stop that helped save lives",
+      "translatedTitle": null,
+      "description": "How an F1 pit stop inspired changes to hospital care that have helped save lives ever since.",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6ly0q00gj5do?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/formula1/articles/c6ly0q00gj5do?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:56:53Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/89b3/live/288628a0-c7cd-11f1-9e10-4dcbd31d4273.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "92e3dab5f8609e2cf78f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.45506
+    },
+    {
+      "id": "2284c51454d3b7a88db8a0d4",
+      "title": "Tiny critically endangered puddle frogs hatch at London Zoo",
+      "translatedTitle": null,
+      "description": "The Afia Birago’s puddle frogs are a recently identified species from a single Ghanaian forest.",
+      "url": "https://www.bbc.co.uk/news/articles/cr2keqxggx0wo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cr2keqxggx0wo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:03:03Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e601/live/e1449e30-c877-11f1-9a39-31b474234113.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5537844c5ff7ec079247",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37993
+    },
+    {
+      "id": "a91d8807d557ea0ec2a9797d",
+      "title": "Faust review – FW Murnau’s silent masterpiece is a devilishly dazzling vision",
+      "translatedTitle": null,
+      "description": "The 1926 film of Goethe’s tragic tale of a man who sells his soul to the devil remains a spectacular feat of German expressionism The centenary of FW Murnau’s silent fantasy-melodrama from 1926 is the occasion to ponder this mysterious film, taken from Goethe’s 19th-century depiction of the alchemist and natural philosopher who sells his soul to the devil but, in a very high-minded climax of German romanticism, is redeemed by love. (Not love of God precisely, but love of a good woman; the word “",
+      "url": "https://www.theguardian.com/film/2026/oct/15/faust-review-centenary-mubi",
+      "canonicalUrl": "https://theguardian.com/film/2026/oct/15/faust-review-centenary-mubi",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T08:00:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/17a235db63b649946ba2fe75b8e2e82b944528e8/0_0_2609_2088/master/2609.jpg?width=140&quality=85&auto=format&fit=max&s=83518c896cc28ecfae25f33caf835a19",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cf0f02d8cd70520b61bd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37231
+    },
+    {
+      "id": "dcd213f3042113f833fd8fce",
+      "title": "LGBTQ+ people go into hiding in Senegal as hundreds are arrested",
+      "translatedTitle": null,
+      "description": "At least 320 people detained for ‘acts against nature’ after law criminalising homosexuality toughened, HRW reports Mass arrests, forced HIV testing and barriers to legal representation are part of an escalating crackdown against LGBTQ+ people in Senegal, according to a new report. More than 320 individuals have been arrested and detained on allegations of “acts against nature” since February, according to HIV Justice Network, an organisation quoted in the Human Rights Watch (HRW) report. Among",
+      "url": "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T08:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5d08247e565b832f183d37b676fe7def25b19c25/213_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=123bd8ecc615f6c5a01371cef3492c23",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7c48ad5bc9a9750279cf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37229
+    },
+    {
+      "id": "6a9ba1dd260909e3c6b5b027",
+      "title": "Hunt continues for missing fishing boat after body found as police name crew",
+      "translatedTitle": null,
+      "description": "Police have identified the body of a man recovered during searches for a missing fishing boat and its crew off the Western Isles.",
+      "url": "https://news.sky.com/story/hunt-continues-for-missing-fishing-boat-after-body-found-as-police-name-crew-13599476",
+      "canonicalUrl": "https://news.sky.com/story/hunt-continues-for-missing-fishing-boat-after-body-found-as-police-name-crew-13599476",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:43:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-douglas-craigie-police-scotland_7377500.png?20261015121704",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "922ea0ea84bef9266550",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.34458
+    },
+    {
+      "id": "ccb38fccab012b9131d0c55f",
+      "title": "Met Police ordered to reinvestigate arrest complaint from Father Ted co-creator",
+      "translatedTitle": null,
+      "description": "The Metropolitan Police have been ordered to reinvestigate a complaint over the arrest of Father Ted co-creator Graham Linehan after a watchdog found failings in the force's handling of the case.",
+      "url": "https://news.sky.com/story/police-watchdog-orders-met-to-reinvestigate-graham-linehan-discrimination-complaint-13599474",
+      "canonicalUrl": "https://news.sky.com/story/police-watchdog-orders-met-to-reinvestigate-graham-linehan-discrimination-complaint-13599474",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:33:00Z",
+      "imageUrl": "https://e3.365dm.com/26/05/1920x1080/skynews-graham-linehan-court_7236239.jpg?20260501153416",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "72ea6340f2a37391c004",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.32887
+    },
+    {
+      "id": "9405533185cf6a6a5e96afcf",
+      "title": "Crystal Lake review – Friday the 13th gets unnecessary expansion in gory and goofy series",
+      "translatedTitle": null,
+      "description": "Linda Cardellini tries her best but this baffling attempt to add backstory to one of horror’s thinnest franchises is IP stretching at its most pointless The unending exhaustion of IP has forced us to ask questions we never really wanted or needed to ask. How did the Pink Ladies in Grease come to be the Pink Ladies? What would happen if one of The Craft witches had a kid who was also a witch? Why is the yellow brick road the colour of yellow? What is Linda Blair up to these days? No one or no thi",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/15/crystal-lake-review-friday-the-13th-series",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/oct/15/crystal-lake-review-friday-the-13th-series",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:01:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bd7eed597a58759a12034f2a0f786074c4f2e7d9/714_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=e2f5528f6838e851f701a47765bbc159",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b3c5179a5fcee232c1f1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28017
+    },
+    {
+      "id": "8e4d976620380e39959e95bd",
+      "title": "Can Lena's Dunham new Girls do for 40-year-olds what she did for 23-year-olds? I know it can | Rhiannon Lucy Cosslett",
+      "translatedTitle": null,
+      "description": "I was in my early 20s when the classic series debuted and I recognised so much. I can’t wait to see how the reboot takes on a new – equally messy – stage of life HBO’s Girls is coming back, Lena Dunham and her fellow cast members announced this week, and the internet is already abuzz. Women of a certain age, myself included – approaching, turning or having turned 40 – are genuinely thrilled, if also slightly trepidatious. When you’ve loved, loathed and most importantly grown with characters in t",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/15/lena-dunham-girls-back-show-back",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/15/lena-dunham-girls-back-show-back",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0c4aa17c77c464d8df2107b7190c07268899bc7b/358_0_4081_3265/master/4081.jpg?width=140&quality=85&auto=format&fit=max&s=8b527853533b08645a7c55af2f6346bb",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "170389cb7c4d692065e5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27867
+    },
+    {
+      "id": "143ef789dfa25d30e17021af",
+      "title": "You be the judge: should my husband stop looking up menus before we eat out?",
+      "translatedTitle": null,
+      "description": "After losing a few stone, Abdeen now likes to plan his meals ahead, but Claire says he is taking the joy out of going to restaurants. Whose argument carries more weight? You decide • Find out how to get a disagreement settled or become a juror I want him to be more spur-of-the-moment because that will improve my dining experience Continue reading...",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/15/you-be-the-judge-should-my-husband-stop-looking-up-menus",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/15/you-be-the-judge-should-my-husband-stop-looking-up-menus",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/43337b9f2fa6afa995161c323e82996dc5aabb7a/84_29_1530_1224/master/1530.jpg?width=140&quality=85&auto=format&fit=max&s=5231666024005eae65aacf3edaa66def",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8a1610b8bef7b52747ce",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27867
+    },
+    {
+      "id": "96694ab2b26cb2b82bd3ded8",
+      "title": "Finding the groove: what’s the best genre of music to dance to?",
+      "translatedTitle": null,
+      "description": "What is it about music that makes even non-professionals want to hit the dancefloor, and is it disco, funk or even classical that does it best? Four leading choreographers discuss their theories, with the science to back them up ‘I don’t know what it is about house music that makes me move, but I just can’t help it,” says Faye Stoeser. “And I don’t care what I look like. I just go for it.” “If a Missy [Elliott] track comes on, that’s me, I’m in the zone,” says Dannielle “Rhimes” Lecointe. “With",
+      "url": "https://www.theguardian.com/music/2026/oct/15/best-music-for-dancing-zoonation-ebony-suite-ekleido-brown-suite",
+      "canonicalUrl": "https://theguardian.com/music/2026/oct/15/best-music-for-dancing-zoonation-ebony-suite-ekleido-brown-suite",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d15767b55b8ca1ee5825a0873282858e6a475d41/233_0_2325_1860/master/2325.jpg?width=140&quality=85&auto=format&fit=max&s=6477e48b44b60737b12baadac7f98bdf",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b245769d9493e953b83a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27867
+    },
+    {
+      "id": "4220454775d2a0ef59207a5d",
+      "title": "Wallace & Gromit maker Aardman falls short of return to profit",
+      "translatedTitle": null,
+      "description": "Animation studio narrows annual loss to £1.1m amid ‘challenging market’ in children’s content Don’t break out the celebratory Wensleydale just yet. Aardman, the British animation studio behind the cheese-loving inventor Wallace and his beloved dog Gromit, has fallen short of a target to get back in the black, its accounts show. The employee-owned business was aiming to record a small profit in 2025 after two years of consecutive losses but was hit by production delays and a “challenging market”",
+      "url": "https://www.theguardian.com/film/2026/oct/15/aardman-wallace-gromit-annual-loss",
+      "canonicalUrl": "https://theguardian.com/film/2026/oct/15/aardman-wallace-gromit-annual-loss",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/33bbfebcf9f323eb8cede9265dfbe7e11dbb071a/490_0_4079_3264/master/4079.jpg?width=140&quality=85&auto=format&fit=max&s=238e5f4e63c2d2d0ada2a70bc44fc424",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "eaf16c7ddd3da8a40b5f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27867
+    },
+    {
+      "id": "f6865956196c147cd529d145",
+      "title": "My old teammate Miroslav Klose is bucking a trend in German coaching | Philipp Lahm",
+      "translatedTitle": null,
+      "description": "‘Miro’, now in charge at Nürnberg, knows the value of consistency and identity in an era of tinkering coaches who did not play professionally You learn the most from the best. The Champions League winners are Paris Saint-Germain, and they could achieve a historic hat-trick this season. Since the tournament’s rebrand in 1992, they would be only the second club to accomplish this feat, after Real Madrid’s run from 2016 to 2018. I see clear parallels between the two. For Madrid, nine players starte",
+      "url": "https://www.theguardian.com/football/2026/oct/15/my-old-teammate-miroslav-klose-is-bucking-a-trend-in-german-coaching",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/15/my-old-teammate-miroslav-klose-is-bucking-a-trend-in-german-coaching",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3a1c65bdabe3f171ce025f33884329bff57d5433/170_0_854_683/master/854.jpg?width=140&quality=85&auto=format&fit=max&s=41e31cee7b8ba812026ffe91a9067216",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ac877be35c9fa2fa3890",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27865
+    },
+    {
+      "id": "a53b37dc63102d8cf94ace88",
+      "title": "School owner arrested after dozens of children killed in roof collapse",
+      "translatedTitle": null,
+      "description": "At least 34 children and a teacher have died after the roof of a private school collapsed in Pakistan.",
+      "url": "https://news.sky.com/story/at-least-34-children-killed-in-pakistan-school-collapse-13599466",
+      "canonicalUrl": "https://news.sky.com/story/at-least-34-children-killed-in-pakistan-school-collapse-13599466",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T06:21:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-peshawar-pakistan_7377321.jpg?20261015074713",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5e80257ea1dd551422cd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.21995
+    },
+    {
+      "id": "6ff4942947e713cc0764d6c4",
+      "title": "Family of man killed by tiger raise concerns about contact with mental health services, inquest hears",
+      "translatedTitle": null,
+      "description": "The family of William Chapman, who died after he was attacked by a tiger, have expressed concerns about his contact with mental health services before his death, an inquest heard.",
+      "url": "https://news.sky.com/story/family-of-man-killed-by-tiger-raise-concerns-about-contact-with-mental-health-services-before-death-inquest-hears-13599457",
+      "canonicalUrl": "https://news.sky.com/story/family-of-man-killed-by-tiger-raise-concerns-about-contact-with-mental-health-services-before-death-inquest-hears-13599457",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T06:04:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-william-chapman-tiger_7376418.jpg?20261013230801",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "393bdd4d1cfd8a861c68",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19527
+    },
+    {
+      "id": "25ce0376362190ef4130cb36",
+      "title": "Pretty in pink: the best of PhotoMonth 2026 – in pictures",
+      "translatedTitle": null,
+      "description": "This year’s London photography festival takes you from the colourful streets of Kolkata to the grim isolation units of Guantánamo Bay Continue reading...",
+      "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/15/best-of-photomonth-2026-london-photography-festival-in-pictures",
+      "canonicalUrl": "https://theguardian.com/artanddesign/gallery/2026/oct/15/best-of-photomonth-2026-london-photography-festival-in-pictures",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T06:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5745cc84d346d96a9f30e9bb06b9afe121b79ddc/145_6_6974_5579/master/6974.jpg?width=140&quality=85&auto=format&fit=max&s=4af81a7aa5417ceacca8a89181bed58b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2c140f7c4c0ce96d39e9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19012
+    },
+    {
+      "id": "de869d52ce49e3c11e83b349",
+      "title": "‘I introduce myself to anyone who looks a bit jumpy’: a security guard’s take on anti-shoplifting fixes",
+      "translatedTitle": null,
+      "description": "A professional reveals the most effective tricks of the trade, from a little bit of empathy to hi-tech cameras I’ve run into volatile thieves for years – from opportunistic phone snatchers to people ripping computers off desks and biofuel bandits trying to steal vats of used cooking oil – and every time I file an incident report, I try to make a recommendation for preventive measures. It’s safer to try to avoid a situation where things get physical with a suspected criminal. I don’t want to let",
+      "url": "https://www.theguardian.com/business/2026/oct/15/security-guard-take-on-anti-shoplifting-fixes",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/15/security-guard-take-on-anti-shoplifting-fixes",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T06:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a4697c84b217d461350431b8fd5220fbc8b2787b/414_0_5002_4000/master/5002.jpg?width=140&quality=85&auto=format&fit=max&s=9c1ac4b685519245ce83ddc7d203e0de",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b770958e10eca5d0c35b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19009
+    },
+    {
+      "id": "977aeffbd4ea4433cb736d7e",
+      "title": "The Floating World by Ben Eastham review – a compelling debut of art’s relation to money and power",
+      "translatedTitle": null,
+      "description": "Following the death of his wife, a critic-teacher takes a job with an art-washing multinational, in a cinematic novel that is full of ideas At the end of a night in a London pub, after last orders have been called, three friends are joking about what role they’d serve on a remote desert island, with no one but their fellow plane crash survivors for company. When one of them, an art critic turned reluctant schoolteacher, says that he would become an artist, he is, naturally, mocked. His friend Sy",
+      "url": "https://www.theguardian.com/books/2026/oct/15/the-floating-world-by-ben-eastham-review-a-compelling-debut-of-arts-relation-to-money-and-power",
+      "canonicalUrl": "https://theguardian.com/books/2026/oct/15/the-floating-world-by-ben-eastham-review-a-compelling-debut-of-arts-relation-to-money-and-power",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T06:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/dff73903cfd1d433782a7db13d759d23a05aac8a/14_52_5522_4418/master/5522.jpg?width=140&quality=85&auto=format&fit=max&s=99251f3ca67cbce151dae61557d9534b",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "993802aa3c675b206727",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19009
+    },
+    {
+      "id": "6ac9c867e43eb7bfb2d16b31",
+      "title": "The Welsh mountain inn that helped conquer Everest",
+      "translatedTitle": null,
+      "description": "As a new film about Sherpa Tenzing Norgay is released, we visit Pen-Y-Gwryd, the Snowdonia hotel which served as British ‘base camp’ for the 1953 expedition and where the spirit of adventure lives on In the early hours of 2 June 1953, guests at the Pen-Y-Gwryd hotel in the heart of Eryri (Snowdonia) were woken from their sleep by the sound of footsteps running down the corridor outside their rooms. The commotion was followed by gleeful shouting and the sound of champagne corks popping. A late-ni",
+      "url": "https://www.theguardian.com/travel/2026/oct/15/pen-y-gwryd-hotel-snowdonia-wales-everest-mountaineering",
+      "canonicalUrl": "https://theguardian.com/travel/2026/oct/15/pen-y-gwryd-hotel-snowdonia-wales-everest-mountaineering",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T06:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/10e0f4057a4112a38e1ae82976f5b55cb0264256/47_505_1015_812/master/1015.jpg?width=140&quality=85&auto=format&fit=max&s=603801a4ffefe2caf0e9fb401e611618",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "55b0fdd09641f474415c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19009
+    },
+    {
+      "id": "5a8b78f0574b5326b8357248",
+      "title": "Burnham v Swinney: will the UK PM overshadow the SNP’s conference?",
+      "translatedTitle": null,
+      "description": "Prime minister presents new kind of challenge for SNP, and his Scottish visit will loom large over its big event This year, even Andy Burnham is invited to the Scottish National party conference. But by the time John Swinney stands up to address members on Saturday afternoon in Aberdeen to reinvigorate the case for a second independence referendum, his party may regret giving the UK prime minister so much prominence in the conference buildup. Burnham is expected to visit Scotland on Friday – the",
+      "url": "https://www.theguardian.com/politics/2026/oct/15/andy-burnham-scotland-visit-snp-conference",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/15/andy-burnham-scotland-visit-snp-conference",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T06:00:23Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/091f1c296dfd352cd9230202516e037a6e666285/264_118_2352_1882/master/2352.jpg?width=140&quality=85&auto=format&fit=max&s=9c3d8c4f746188f323d6b30c320cac06",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4cf1f747ddc11f982fa5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19007
+    },
+    {
+      "id": "9b2869687aaa1623a54d7d63",
+      "title": "Her royal heilness: Berlin show revisits the artist who turned the Queen into a Nazi",
+      "translatedTitle": null,
+      "description": "The late Christoph Schlingensief was one of German art’s great provocateurs. Can his B-Movie horror aesthetics still shock us into thinking anew about media power, colonialism, and the far right? Christoph Schlingensief certainly knew how to provoke. “Fury at German play that shows Queen as a Nazi,” read the Sunday Express’s headline after Kaprow City first premiered at Berlin’s Volksbühne theatre in 2006. Drawing on the happenings of US performance artist Allan Kaprow, the play turned its atten",
+      "url": "https://www.theguardian.com/artanddesign/2026/oct/15/the-queen-nazi-far-right-hamlet-christoph-schlingensief-berlin",
+      "canonicalUrl": "https://theguardian.com/artanddesign/2026/oct/15/the-queen-nazi-far-right-hamlet-christoph-schlingensief-berlin",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T06:00:23Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/023ec302aa94343d74a95b79d58a02d23cf25184/121_0_2493_1995/master/2493.jpg?width=140&quality=85&auto=format&fit=max&s=3ae9b0a6fb49e9dc54d86337216fcb3e",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "24c380dc2159dcd0f8bf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19007
+    },
+    {
+      "id": "8dadffc0f022141a05e416a8",
+      "title": "South Park takes on looksmaxxing, aura-farming and influencer nonsense with grotesque glee",
+      "translatedTitle": null,
+      "description": "In the third episode of the latest season, the boys head into Sephora and eventually the Backrooms in a story that makes fun of app-mutated self-care Trey Parker and Matt Stone have always been pretty upfront about how South Park, like all animated sitcoms from the past 35 years, lives in the shadow of The Simpsons. There are plenty of ways that The Simpsons, even in its more uneven recent seasons, still outshines South Park: greater depth of ensemble, stronger emotional moments, even in the she",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/15/south-park-takes-on-looksmaxxing-aura-farming-and-influencer-nonsense-episode-3",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/oct/15/south-park-takes-on-looksmaxxing-aura-farming-and-influencer-nonsense-episode-3",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:36:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bc34f73704a5d367979a3a7faceec7ca49aaa65c/726_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=7478075fe4f605822a8087f18e195d2a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dc41ef9196d05a707ceb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.15608
     },
     {
       "id": "2efdd5d0438838b16f028bb2",
@@ -508,8 +1289,8 @@
       "clusterId": "9875632b8d61bd30f00c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61321
+      "rankingScore": 5.12995,
+      "related": []
     },
     {
       "id": "8713dbb7b17be86c39b48752",
@@ -531,15 +1312,135 @@
       "imageAlt": null,
       "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
+      "retrievedAt": "2026-10-15T12:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "7af0209a8e39f1685a99",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.48083
+      "rankingScore": 5.11395,
+      "related": []
+    },
+    {
+      "id": "6493b69cb4bbf82fa506b1b9",
+      "title": "The day bad weather brought half a million birds to England",
+      "translatedTitle": null,
+      "description": "The ‘Great Fall’ of 1965 was caused by harsh conditions forcing migrating species to land on their way to Africa My birding mentor, the late Derek Moore, was also a keen cricketer. But one autumn day in 1965 he was unable to concentrate while fielding because many hundreds of songbirds were landing around him on the pitch at Lowestoft. The arrival of hundreds of thousands of birds along the Suffolk coast that day became known as the “Great Fall”, and it was caused by a weather system bringing cl",
+      "url": "https://www.theguardian.com/news/2026/oct/15/the-day-bad-weather-brought-half-a-million-birds-to-england",
+      "canonicalUrl": "https://theguardian.com/news/2026/oct/15/the-day-bad-weather-brought-half-a-million-birds-to-england",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6cc62cb0c894fe625b26a5032e16fe8b31f0f6fe/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=3481fe74df1c6ce194845e2e91841852",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e481afcbbf211053ccd4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.10633,
+      "related": []
+    },
+    {
+      "id": "e3e27e6b6d3ced734f2cce55",
+      "title": "Rachel Roddy’s recipe for spaghetti with Marmite | A kitchen in Rome",
+      "translatedTitle": null,
+      "description": "An umami-packed dish for when you need a flavour hit in a hurry Here is a simple, practical recipe that I trust will be useful to many who don’t have the time for lengthy kitchen preparations. Boil the spaghetti as usual, drain it, and toss it with a little butter and parmesan. Then, for four, take a spoonful of meat extract and dissolve it in a small saucepan with just a few drops of boiling water. Pour the meat extract over the pasta, stir and serve. You will be pleasantly surprised by the exq",
+      "url": "https://www.theguardian.com/food/2026/oct/15/marmite-spaghetti-recipe-rachel-roddy",
+      "canonicalUrl": "https://theguardian.com/food/2026/oct/15/marmite-spaghetti-recipe-rachel-roddy",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/22f516edd89de9436a070cf9d4f20437d5a1d439/44_95_1181_944/master/1181.jpg?width=140&quality=85&auto=format&fit=max&s=04c2838e47bd4353cfa1a4b6fe36a6af",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b7bd5ce2de8acf7a3f06",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.10633,
+      "related": []
+    },
+    {
+      "id": "e25109cc5e1e4321432cc98a",
+      "title": "Parents of Chloe Moffat want Treasury staff held to account over her death",
+      "translatedTitle": null,
+      "description": "Exclusive: David and Anne Moffat to meet permanent secretary after coroner found Treasury ‘materially contributed’ to employee taking her own life The parents of a woman who killed herself after facing disciplinary proceedings at the Treasury will call for anyone found to have contributed to their daughter’s death to be held to account. A coroner found in August that the Treasury had “materially contributed” to Chloe Moffat’s death after the 26-year-old personal assistant was called into a surpr",
+      "url": "https://www.theguardian.com/politics/2026/oct/15/chloe-moffat-suicide-parents-treasury-staff",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/15/chloe-moffat-suicide-parents-treasury-staff",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:00:23Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/808cf0d2cacbc7a2ee91044de6d1006389511a21/0_349_1066_852/master/1066.jpg?width=140&quality=85&auto=format&fit=max&s=dc51fc7ef71ae95cf78c7f7a4030c827",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "84a7acc07de1a6ff7bff",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.1063,
+      "related": []
+    },
+    {
+      "id": "26668bf28c9a6448c5e08d8a",
+      "title": "Martínez has drawn back the curtain on Manchester United’s ruinous ownership | Jonathan Liew",
+      "translatedTitle": null,
+      "description": "Defender may not be blameless in team’s struggles but his criticism goes to the heart of what has gone wrong at the club Heartbreaking: the worst defender you know just made a great point. And no, nobody would describe Lisandro Martínez as the ideal person to scrutinise Manchester United’s indifferent start to the season, given that his high-profile defensive errors against Fulham and Tottenham are partly responsible for it. “We’re all trying to find the guy who did this,” Martínez burbles on Am",
+      "url": "https://www.theguardian.com/football/2026/oct/15/lisandro-martinez-criticism-jason-wilcox-jim-ratcliffe-glazers",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/15/lisandro-martinez-criticism-jason-wilcox-jim-ratcliffe-glazers",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:00:23Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/dc8504df01a49ba93110a824bc04545c0341b98c/276_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=c6672946b7f2cfb197d4c8b92cf0965b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T12:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e4520bd9e5db9fb113f7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.1063,
+      "related": []
     },
     {
       "id": "2204a028b9e4c8b059b638a5",
@@ -568,128 +1469,8 @@
       "clusterId": "8b4756528ca7107003cd",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47705
-    },
-    {
-      "id": "6493b69cb4bbf82fa506b1b9",
-      "title": "The day bad weather brought half a million birds to England",
-      "translatedTitle": null,
-      "description": "The ‘Great Fall’ of 1965 was caused by harsh conditions forcing migrating species to land on their way to Africa My birding mentor, the late Derek Moore, was also a keen cricketer. But one autumn day in 1965 he was unable to concentrate while fielding because many hundreds of songbirds were landing around him on the pitch at Lowestoft. The arrival of hundreds of thousands of birds along the Suffolk coast that day became known as the “Great Fall”, and it was caused by a weather system bringing cl",
-      "url": "https://www.theguardian.com/news/2026/oct/15/the-day-bad-weather-brought-half-a-million-birds-to-england",
-      "canonicalUrl": "https://theguardian.com/news/2026/oct/15/the-day-bad-weather-brought-half-a-million-birds-to-england",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T05:00:24Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/6cc62cb0c894fe625b26a5032e16fe8b31f0f6fe/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=3481fe74df1c6ce194845e2e91841852",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e481afcbbf211053ccd4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47131
-    },
-    {
-      "id": "e3e27e6b6d3ced734f2cce55",
-      "title": "Rachel Roddy’s recipe for spaghetti with Marmite | A kitchen in Rome",
-      "translatedTitle": null,
-      "description": "An umami-packed dish for when you need a flavour hit in a hurry Here is a simple, practical recipe that I trust will be useful to many who don’t have the time for lengthy kitchen preparations. Boil the spaghetti as usual, drain it, and toss it with a little butter and parmesan. Then, for four, take a spoonful of meat extract and dissolve it in a small saucepan with just a few drops of boiling water. Pour the meat extract over the pasta, stir and serve. You will be pleasantly surprised by the exq",
-      "url": "https://www.theguardian.com/food/2026/oct/15/marmite-spaghetti-recipe-rachel-roddy",
-      "canonicalUrl": "https://theguardian.com/food/2026/oct/15/marmite-spaghetti-recipe-rachel-roddy",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T05:00:24Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/22f516edd89de9436a070cf9d4f20437d5a1d439/44_95_1181_944/master/1181.jpg?width=140&quality=85&auto=format&fit=max&s=04c2838e47bd4353cfa1a4b6fe36a6af",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b7bd5ce2de8acf7a3f06",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47131
-    },
-    {
-      "id": "26668bf28c9a6448c5e08d8a",
-      "title": "Martínez has drawn back the curtain on Manchester United’s ruinous ownership | Jonathan Liew",
-      "translatedTitle": null,
-      "description": "Defender may not be blameless in team’s struggles but his criticism goes to the heart of what has gone wrong at the club Heartbreaking: the worst defender you know just made a great point. And no, nobody would describe Lisandro Martínez as the ideal person to scrutinise Manchester United’s indifferent start to the season, given that his high-profile defensive errors against Fulham and Tottenham are partly responsible for it. “We’re all trying to find the guy who did this,” Martínez burbles on Am",
-      "url": "https://www.theguardian.com/football/2026/oct/15/lisandro-martinez-criticism-jason-wilcox-jim-ratcliffe-glazers",
-      "canonicalUrl": "https://theguardian.com/football/2026/oct/15/lisandro-martinez-criticism-jason-wilcox-jim-ratcliffe-glazers",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T05:00:23Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/dc8504df01a49ba93110a824bc04545c0341b98c/276_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=c6672946b7f2cfb197d4c8b92cf0965b",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e4520bd9e5db9fb113f7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47128
-    },
-    {
-      "id": "e25109cc5e1e4321432cc98a",
-      "title": "Parents of Chloe Moffat want Treasury staff held to account over her death",
-      "translatedTitle": null,
-      "description": "Exclusive: David and Anne Moffat to meet permanent secretary after coroner found Treasury ‘materially contributed’ to employee taking her own life The parents of a woman who killed herself after facing disciplinary proceedings at the Treasury will call for anyone found to have contributed to their daughter’s death to be held to account. A coroner found in August that the Treasury had “materially contributed” to Chloe Moffat’s death after the 26-year-old personal assistant was called into a surpr",
-      "url": "https://www.theguardian.com/politics/2026/oct/15/chloe-moffat-suicide-parents-treasury-staff",
-      "canonicalUrl": "https://theguardian.com/politics/2026/oct/15/chloe-moffat-suicide-parents-treasury-staff",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T05:00:23Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/808cf0d2cacbc7a2ee91044de6d1006389511a21/0_349_1066_852/master/1066.jpg?width=140&quality=85&auto=format&fit=max&s=dc51fc7ef71ae95cf78c7f7a4030c827",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "84a7acc07de1a6ff7bff",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47128
+      "rankingScore": 5.09298,
+      "related": []
     },
     {
       "id": "457d68abfbe80aa79cfbf806",
@@ -718,818 +1499,8 @@
       "clusterId": "96d986b009790fe71f21",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.46194
-    },
-    {
-      "id": "fd8f16912573d9e5fe8be2df",
-      "title": "Indonesia fights fire with dry ice as toxic haze spreads across region",
-      "translatedTitle": null,
-      "description": "Having tried cloud seeding and water bombing, one pilot project will see dry ice dispersed by plane across the province of South Sumatra As fires ravage Indonesia, emitting a toxic smoke that has drawn the ire of regional neighbours, the government is testing an unusual new approach to tackle the haze: dry ice. Having tried cloud seeding, water bombing and sending in army personnel to fight the fires, Indonesia’s coordinating security minister said dry ice would be dropped on the province of Sou",
-      "url": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:25:03Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f91346dbfc3a74a003e6aeb4789749685a84ac60/328_0_4558_3646/master/4558.jpg?width=140&quality=85&auto=format&fit=max&s=4bda54c423277f3c568c467fbcd6eeee",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e2273bb7d17efeac4112",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.41234
-    },
-    {
-      "id": "a6e97cae8c9cbcea16155ade",
-      "title": "All the new driving licence rules introduced in October",
-      "translatedTitle": null,
-      "description": "The changes come after the government announced in January that learner drivers in England and Wales could face a wait of six months between sitting their theory and practical tests",
-      "url": "https://www.independent.co.uk/news/uk/home-news/uk-driving-licence-change-northern-ireland-rules-b3067122.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/uk-driving-licence-change-northern-ireland-rules-b3067122.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T05:12:50Z",
-      "imageUrl": "https://static.independent.co.uk/2025/01/18/11/49aef3c666c6c69e8d5674c17b6ae62dY29udGVudHNlYXJjaGFwaSwxNzM3MjgzODg4-2.78071893.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "af151819705427cd4bbd",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.40252
-    },
-    {
-      "id": "5054514f817a6ea1719f18db",
-      "title": "An increase in killings of women in Cameroon spurs protests and demands for better laws",
-      "translatedTitle": null,
-      "description": "Elementary school teacher Geraldine Achiah died in Cameroon after allegedly being beaten by her husband",
-      "url": "https://www.independent.co.uk/news/cameroon-family-african-gates-foundation-douala-b3067123.html",
-      "canonicalUrl": "https://independent.co.uk/news/cameroon-family-african-gates-foundation-douala-b3067123.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T05:05:41Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/15/06/Cameroon_Women_Killing_364_6.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7f1e5c93cba6099c43b0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.39029
-    },
-    {
-      "id": "af6688e7928d67cdb35eeb99",
-      "title": "The Celebrity Traitors ranked: Who is playing the best and worst game in the castle?",
-      "translatedTitle": null,
-      "description": "As we near the halfway mark of a chaotic and unpredictable series, Rachel McGrath looks at the strongest and weakest players among the Traitors and the Faithful",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/features/celebrity-traitors-ranked-ratings-bbc-season-2-b3066777.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/features/celebrity-traitors-ranked-ratings-bbc-season-2-b3066777.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T05:00:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/14/15/10/579434.jpeg?width=1200&auto=webp&trim=71%2C507%2C534%2C401",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8936222c67da789ad904",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.38063
-    },
-    {
-      "id": "6a9805800438dc3df34acf12",
-      "title": "Voices: I’m terrifed of answering the phone and it’s affecting my social life",
-      "translatedTitle": null,
-      "description": "The Independent’s agony aunt Victoria Richards is here to help. Email dearvix@independent.co.uk for advice on love, work, family and relationships",
-      "url": "https://www.independent.co.uk/voices/phone-calls-hate-ignoring-isolation-social-media-dear-vix-advice-b3065207.html",
-      "canonicalUrl": "https://independent.co.uk/voices/phone-calls-hate-ignoring-isolation-social-media-dear-vix-advice-b3065207.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T05:00:00Z",
-      "imageUrl": "https://static.independent.co.uk/2024/10/08/00/07095739-dc614490-4357-41a4-a8d1-b804160bf444.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6a7c0edbd608a0ebe5fb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.38063
-    },
-    {
-      "id": "0fd8bab6a3c97834b38b5add",
-      "title": "How to cook an Indian feast at home, according to a Michelin-starred chef",
-      "translatedTitle": null,
-      "description": "From a fragrant chicken biryani to a fiery Rajasthani lamb curry and beautifully spiced cutlets, Aktar Islam, the chef behind Birmingham’s two-Michelin-starred Opheem, shows Hannah Twiggs how to bring a little restaurant magic into the home kitchen",
-      "url": "https://www.independent.co.uk/life-style/food-and-drink/recipes/indian-curry-recipes-aktar-islam-opheem-birmingham-b3066449.html",
-      "canonicalUrl": "https://independent.co.uk/life-style/food-and-drink/recipes/indian-curry-recipes-aktar-islam-opheem-birmingham-b3066449.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T05:00:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/14/9/24/Biryani.jpeg?width=1200&auto=webp&trim=2%2C0%2C2%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1c525c9f70388a00ed86",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.38063
-    },
-    {
-      "id": "67e0372a4077d1d5f9114d98",
-      "title": "The go-to dopamine-boosting habits doctors say will keep you happy this winter",
-      "translatedTitle": null,
-      "description": "As the cold weather and long nights set in, comfort habits like snacking, partying, shopping or doomscrolling can creep in on our hunt for dopamine. Lydia Spencer-Elliott speaks to doctors about which activities are ideal when building your own ‘dopamine menu’",
-      "url": "https://www.independent.co.uk/life-style/dopamine-menu-winter-what-to-put-on-it-b3065296.html",
-      "canonicalUrl": "https://independent.co.uk/life-style/dopamine-menu-winter-what-to-put-on-it-b3065296.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T05:00:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/12/14/01/iStock-1345198300.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fd18e1c696a89a72752a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.38063
-    },
-    {
-      "id": "0719bc567d36eb7a62d4720a",
-      "title": "Verse from the waste land: Rotterdam’s poetic bin lorries granted cultural status",
-      "translatedTitle": null,
-      "description": "Lyrical lines printed on side of city’s fleet of rubbish trucks now recognised as one of Netherlands’ proud traditions It is best known for its rich migration history and striking modern architecture. But now the Dutch city of Rotterdam is seeking recognition for a rather different characteristic: its tradition of printing poetry on bin trucks. Since a poetry festival first came up with the idea in 1988, lines of verse have been printed on all of the city’s waste vehicles. The practice was this",
-      "url": "https://www.theguardian.com/world/2026/oct/15/rotterdam-poems-bin-lorries-granted-cultural-status",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/15/rotterdam-poems-bin-lorries-granted-cultural-status",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:00:23Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/20eb664baa436f9a79bf6d2cf857874e5568575e/903_310_4197_3358/master/4197.jpg?width=140&quality=85&auto=format&fit=max&s=c8e0496692e81a2a046679d5969dbd57",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6f10a4c0ef457ec37317",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.37232,
+      "rankingScore": 5.08089,
       "related": []
-    },
-    {
-      "id": "50020ceb4440a5ece6b8f8f3",
-      "title": "18 again: I returned to my life in 1990. Who – and what – would I find there?",
-      "translatedTitle": null,
-      "description": "I doused myself in Poison perfume and made the trip back to my childhood home, friends and college. What could I learn by re-immersing myself in a world that brimmed with hope and potential? The house in which I turned 18 was full of clocks. Dark wooden things with aged faces. Every room ticked. If you stood in certain doorways, you could hear all the misaligned second hands racing. I could not understand why anyone would want to count away life like that or decorate their living quarters with s",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/15/the-year-i-turned-18-it-was-1990-and-the-news-was-full-of-riots-but-i-was-dreaming-of-love-and-the-life-to-come",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/15/the-year-i-turned-18-it-was-1990-and-the-news-was-full-of-riots-but-i-was-dreaming-of-love-and-the-life-to-come",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:00:22Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/dc9a4980b0ba9d82781f8d3c0388421a62bbb33b/687_0_7315_5852/master/7315.jpg?width=140&quality=85&auto=format&fit=max&s=366aa6a9650134bc0dc14a5def4c4d97",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1fb8c13fa647b675306f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.37229,
-      "related": []
-    },
-    {
-      "id": "2cf9a766b1ce01c67c09c864",
-      "title": "‘I am still a child, it cannot be good to be married’: how drought forces Afghan families to sell girls as brides",
-      "translatedTitle": null,
-      "description": "As climate breakdown pushes families to starvation, many feel forced to ‘sacrifice’ daughters to save siblings. Photographer Elise Blanchard travelled the country speaking to girls as young as eight, 10 and 14 who have been engaged or married to repay debts or pay for food ‘I’m not happy about this,” says 11-year-old Khatira, who was sold into marriage to repay debts, sitting in her home in Qala-e-Naw, capital of Badghis province in north-west Afghanistan. “She was healthy before her engagement,",
-      "url": "https://www.theguardian.com/global-development/2026/oct/15/afghanistan-drought-hunger-displaced-families-girls-child-marriage-poverty",
-      "canonicalUrl": "https://theguardian.com/global-development/2026/oct/15/afghanistan-drought-hunger-displaced-families-girls-child-marriage-poverty",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:00:21Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/86836f83a9760d8cd85db7fcb60947f81e48adb7/1008_0_5040_4032/master/5040.jpg?width=140&quality=85&auto=format&fit=max&s=df427e165e78cc453a05afe84a858172",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "713ea8225627871d9f7e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.37227,
-      "related": []
-    },
-    {
-      "id": "dc323ff20b0da55538e27eba",
-      "title": "Terrifying safety loophole exposed after man is thrown to his death from roller coaster",
-      "translatedTitle": null,
-      "description": "A man's death on a Six Flags roller coaster in Georgia has raised questions about ride safety and regulation",
-      "url": "https://www.independent.co.uk/news/world/americas/six-flags-georgia-goliath-coaster-safety-loophole-b3067119.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/six-flags-georgia-goliath-coaster-safety-loophole-b3067119.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:47:45Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/14/05/US_Roller_Coaster_Death_64367.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "61103f964f26aba7d089",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.35999
-    },
-    {
-      "id": "d51bf5887ae94badc111bc78",
-      "title": "The Papers: 'Zelenskyy blames Trump' and Brand a 'sex predator'",
-      "translatedTitle": null,
-      "description": "Volodymyr Zelensky's visit to London and the first day of Russell Brand's rape trial dominate Thursday's front pages.",
-      "url": "https://www.bbc.co.uk/news/articles/ckwyq67e64pdo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ckwyq67e64pdo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T00:41:45Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63d8/live/ebd400f0-c829-11f1-9a39-31b474234113.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f132a6f148b301472ece",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.3513
-    },
-    {
-      "id": "69a4eb0e314eeed47390c654",
-      "title": "Original Avengers star reveals he won’t be appearing in Doomsday: ‘They didn’t call me’",
-      "translatedTitle": null,
-      "description": "Actor jokes that the superheroes will ‘probably lose’",
-      "url": "https://www.independent.co.uk/arts-entertainment/films/news/avengers-doomsday-jeremy-renner-hawkeye-marvel-b3067118.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/films/news/avengers-doomsday-jeremy-renner-hawkeye-marvel-b3067118.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:39:36Z",
-      "imageUrl": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/04/11/08/hawkeye-720x405.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3d979ebc499355bc0419",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.34638
-    },
-    {
-      "id": "0ff8a1e9befba4efe138862b",
-      "title": "Critics react to Fontaines DC’s Dopamine Chamber: ‘Astonishing’",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/culture/fontaines-dc-dopamine-chamber-review-new-album-b3067199.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/culture/fontaines-dc-dopamine-chamber-review-new-album-b3067199.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T08:07:43Z",
-      "imageUrl": "https://static.independent.co.uk/2026/09/09/7/17/GettyImages-1407713567.jpg?width=1200&auto=webp&trim=66%2C218%2C584%2C758",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4d00ed5282989306bae2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.32815
-    },
-    {
-      "id": "e157db8b1ce84471acd37430",
-      "title": "Inquest into death of man killed by tiger at wildlife park to open",
-      "translatedTitle": null,
-      "description": "An inquest into the death of a man who was killed by a tiger after entering its enclosure at a wildlife park is set to open later today.",
-      "url": "https://news.sky.com/story/william-chapman-inquest-into-death-of-man-killed-by-tiger-at-yorkshire-wildlife-park-to-open-13599438",
-      "canonicalUrl": "https://news.sky.com/story/william-chapman-inquest-into-death-of-man-killed-by-tiger-at-yorkshire-wildlife-park-to-open-13599438",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T03:28:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-william-chapman-tiger_7376418.jpg?20261013230801",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3e216753c36cadd5b0a0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.32115
-    },
-    {
-      "id": "bc05652e00e71f421f51cf14",
-      "title": "Prince Harry and Meghan to make first joint appearances since returning to UK",
-      "translatedTitle": null,
-      "description": "Prince Harry and Meghan are making their first joint public appearances in England since stepping back from royal duties six years ago",
-      "url": "https://www.independent.co.uk/news/world/americas/meghan-charles-iii-nottingham-england-britain-b3067111.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/meghan-charles-iii-nottingham-england-britain-b3067111.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:15:53Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/15/05/Britain_Joint_Appearance_761_2.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "20703a1e36c407ea446b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.30736
-    },
-    {
-      "id": "e93646bba7cc9b35be999c75",
-      "title": "Trump takes bizarre swipe at Elon Musk’s intelligence despite $276M GOP donation spree",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/trump-elon-musk-arizona-rally-biggs-b3067197.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-elon-musk-arizona-rally-biggs-b3067197.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T07:55:01Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/15/08/2299703028..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f7d1414ee4fb5d691012",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.30268
-    },
-    {
-      "id": "1cffe40cd6947b38665a4caa",
-      "title": "Pope Leo XIV's cancer diagnosis raises questions about the future and the very recent past",
-      "translatedTitle": null,
-      "description": "Pope Leo XIV's lung cancer diagnosis raises questions about the future of his pontificate",
-      "url": "https://www.independent.co.uk/news/pope-francis-catholic-church-vatican-city-benedict-xvi-roman-b3067110.html",
-      "canonicalUrl": "https://independent.co.uk/news/pope-francis-catholic-church-vatican-city-benedict-xvi-roman-b3067110.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:11:28Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/15/05/Vatican_Pope_Surgery__8_87.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d511356b88d8d179e8e8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.30019
-    },
-    {
-      "id": "839d24e19e49f3fb4785e0c3",
-      "title": "How West Midlands shed its gun crime capital label",
-      "translatedTitle": null,
-      "description": "Firearms discharges drop by more than half in the past six years in the force area.",
-      "url": "https://www.bbc.co.uk/news/articles/c6x23dlk31ejo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6x23dlk31ejo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T00:02:34Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52a3/live/d4d60090-c7c7-11f1-bc2e-018d645d8d21.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a21360ce60b1ddce9b47",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.29994
-    },
-    {
-      "id": "bcfce8c498db14572fa1d3aa",
-      "title": "Wales has a school standards crisis. Will plans to fix it actually work?",
-      "translatedTitle": null,
-      "description": "Wales scores poorly on international test results but it is not clear a new curriculum will help.",
-      "url": "https://www.bbc.co.uk/news/articles/cw240qv4ygzmo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cw240qv4ygzmo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T00:01:46Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8172/live/9b4a0440-c7c5-11f1-a64c-550be9e3c66b.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ea0832d641cfed7dc3da",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.29891
-    },
-    {
-      "id": "eabfee58f89255a9bc652d34",
-      "title": "I'm 12 and I want to try protein powder - should I?",
-      "translatedTitle": null,
-      "description": "We asked experts how safe it is for children and teenagers to take protein supplements.",
-      "url": "https://www.bbc.co.uk/news/articles/cm158555dq1go?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm158555dq1go?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T00:00:35Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8554/live/d1f10220-c26e-11f1-bc2e-018d645d8d21.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b80dcbbf5aea9da5534d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.29739
-    },
-    {
-      "id": "1e02e316dc231bc9efaf80cc",
-      "title": "School roof collapses in Pakistan killing at least 27 students and one teacher",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/pakistan-peshawar-school-roof-collapse-b3067169.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/pakistan-peshawar-school-roof-collapse-b3067169.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T07:49:16Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/15/08/download.-1.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a239bffb52c8995f50fa",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.29125
-    },
-    {
-      "id": "946fa4ff47ea974a6e14b027",
-      "title": "Father of five killed in his own home after hunter’s stray bullet tears through wall",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/robert-church-oregon-hunter-bullet-b3067192.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/robert-church-oregon-hunter-bullet-b3067192.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T07:49:02Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/14/23/23/Robert-Church.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4c4b12174af01da82c9a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.29079
-    },
-    {
-      "id": "bcc3a33a24ccc97074771b5d",
-      "title": "Disturbing discovery made in women’s showers on Australian navy ship",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/australian-navy-ship-hidden-camera-b3067190.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/australian-navy-ship-hidden-camera-b3067190.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T07:45:19Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/15/08/183130846..?width=1200&auto=webp&trim=0%2C1%2C0%2C7",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0d95df7d673ed5aa20b6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28344
-    },
-    {
-      "id": "eb51326d9ab86407bd6810db",
-      "title": "Trump administration accused of hiding damning tax data just weeks before midterms",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/trump-irs-report-bisignano-tax-b3067189.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-irs-report-bisignano-tax-b3067189.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T07:44:34Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/15/08/2026-10-14T194445Z_1585338306_RC263OAVGOKH_RTRMADP_3_USA-DOJ-FRAUD.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c35a58007e7dc73d00b0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28195
-    },
-    {
-      "id": "7e4635fd6275420259a35204",
-      "title": "Republicans privately concede defeat in midterms as Trump becomes electoral liability: report",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/trump-gop-house-midterms-check-b3067186.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-gop-house-midterms-check-b3067186.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T07:38:46Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/15/08/2295426427..?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7fe69e7bdd8a030e5d67",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.27054
-    },
-    {
-      "id": "5991e4a28af93d229d432b14",
-      "title": "Dog that hunts invasive 'sea vomit' honoured as animal of the year",
-      "translatedTitle": null,
-      "description": "Sgiath is thought to be the UK's first sea squirt-hunting dog and has been trained to sniff out the marine pest.",
-      "url": "https://www.bbc.co.uk/news/articles/cvwy761zyx7eo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cvwy761zyx7eo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T23:35:40Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9680/live/9db34b10-c720-11f1-b881-4391ac746e04.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T08:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4b582593e4bca5b26346",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.26575
     }
   ]
 }
