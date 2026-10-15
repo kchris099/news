@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-15",
-  "generatedAt": "2026-10-15T04:18:18Z",
-  "lastAttemptAt": "2026-10-15T04:18:18Z",
-  "lastSuccessfulUpdate": "2026-10-15T04:18:18Z",
-  "status": "partial",
+  "generatedAt": "2026-10-15T08:18:24Z",
+  "lastAttemptAt": "2026-10-15T08:18:24Z",
+  "lastSuccessfulUpdate": "2026-10-15T08:18:24Z",
+  "status": "current",
   "samplePreview": false,
-  "articleCount": 23,
-  "publisherCount": 3,
+  "articleCount": 45,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-15T04:18:17Z",
-      "lastSuccessAt": "2026-10-15T04:18:17Z",
+      "lastAttemptAt": "2026-10-15T08:18:23Z",
+      "lastSuccessAt": "2026-10-15T08:18:24Z",
       "articlesRetrieved": 34,
-      "responseTimeMs": 331,
+      "responseTimeMs": 636,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-15T04:18:17Z",
-      "lastSuccessAt": "2026-10-15T04:18:17Z",
-      "articlesRetrieved": 142,
-      "responseTimeMs": 378,
+      "lastAttemptAt": "2026-10-15T08:18:23Z",
+      "lastSuccessAt": "2026-10-15T08:18:24Z",
+      "articlesRetrieved": 141,
+      "responseTimeMs": 351,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,299 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-15T04:18:17Z",
-      "lastSuccessAt": "2026-10-15T04:18:17Z",
+      "lastAttemptAt": "2026-10-15T08:18:23Z",
+      "lastSuccessAt": "2026-10-15T08:18:24Z",
       "articlesRetrieved": 8,
-      "responseTimeMs": 514,
+      "responseTimeMs": 630,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "failed",
-      "lastAttemptAt": "2026-10-15T04:18:17Z",
-      "lastSuccessAt": null,
-      "articlesRetrieved": 0,
-      "responseTimeMs": null,
-      "errorType": "RuntimeError",
-      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      "status": "success",
+      "lastAttemptAt": "2026-10-15T08:18:23Z",
+      "lastSuccessAt": "2026-10-15T08:18:24Z",
+      "articlesRetrieved": 100,
+      "responseTimeMs": 530,
+      "errorType": null,
+      "errorMessage": null
     }
   ],
   "articles": [
+    {
+      "id": "e117c10410fab6637ec14ea6",
+      "title": "UK economy sees surprise growth in August ahead of Healey's first Budget",
+      "translatedTitle": null,
+      "description": "The uptick helped the economy grow by 0.7% over the three months to August, official figures show.",
+      "url": "https://www.bbc.co.uk/news/articles/ck8dz1me439no?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ck8dz1me439no?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:40:27Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c805/live/f9d54590-c862-11f1-811a-c519df8e0311.jpg",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "416986b97d3a7b2369e0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "57c4c05380d72d5156558ebc",
+          "title": "UK economy grew unexpectedly by 0.1% in August",
+          "translatedTitle": null,
+          "description": "Another beat of economists’ forecasts of a contraction for the month",
+          "url": "https://www.independent.co.uk/news/uk/home-news/uk-economy-grows-gdp-figures-august-b3067139.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/uk-economy-grows-gdp-figures-august-b3067139.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-15T07:30:02Z",
+          "imageUrl": "https://static.independent.co.uk/2024/05/16/17/4b790aa520ee7f381e7fb3edfa7d3bb7Y29udGVudHNlYXJjaGFwaSwxNzE1OTU3MzAw-2.71822086.jpg?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-15T08:18:24Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "416986b97d3a7b2369e0",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "uk economy grew unexpectedly by 0 1 in august"
+        },
+        {
+          "id": "09399f6efb3d31d757ea838e",
+          "title": "UK economy unexpectedly grows in August despite fall in consumer spending",
+          "translatedTitle": null,
+          "description": "Latest data showing surprise 0.1% growth is boost to John Healey a fortnight before his first budget Business news – live updates The UK economy unexpectedly continued to grow in August despite a fall in consumer spending before John Healey’s first budget as chancellor. Figures from the Office for National Statistics showed gross domestic product (GDP) rose by 0.1% last month, compared with 0.4% growth in July. That confounded a forecast by City economists of a 0.1% contraction. Continue reading",
+          "url": "https://www.theguardian.com/business/2026/oct/15/uk-economy-unexpectedly-grows-01-in-august-despite-fuel-hit-to-household-budgets",
+          "canonicalUrl": "https://theguardian.com/business/2026/oct/15/uk-economy-unexpectedly-grows-01-in-august-despite-fuel-hit-to-household-budgets",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-15T06:05:17Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/0ec06bbd14696444370d10765c3d43400fadc7d8/460_0_6479_5182/master/6479.jpg?width=140&quality=85&auto=format&fit=max&s=ce6566899b7318600d4b8780febe5a68",
+          "imageAlt": null,
+          "category": "Business",
+          "topics": [],
+          "retrievedAt": "2026-10-15T08:18:24Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "416986b97d3a7b2369e0",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "uk economy unexpectedly grows in august despite fall in consumer spending"
+        }
+      ],
+      "rankingScore": 9.18384
+    },
+    {
+      "id": "d0de596516f1148fb8f7aca3",
+      "title": "North Korea and China open new bridge after 12-year delay",
+      "translatedTitle": null,
+      "description": "China is the North's largest trading partner and a lifeline against the sanctions Pyongyang faces.",
+      "url": "https://www.bbc.co.uk/news/articles/ck1exgw3j115o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ck1exgw3j115o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T06:24:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/481d/live/54fdb770-c83d-11f1-9346-f78c578493f4.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a102ecb5a871bdf5f359",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "26d3e9f7c17ee2d499261051",
+          "title": "New bridge opens between China and North Korea after 12 year wait",
+          "translatedTitle": null,
+          "description": "The new bridge's opening comes roughly a month after North Korea and Russia opened a road bridge",
+          "url": "https://www.independent.co.uk/asia/east-asia/yalu-river-bridge-new-north-korea-china-b3067175.html",
+          "canonicalUrl": "https://independent.co.uk/asia/east-asia/yalu-river-bridge-new-north-korea-china-b3067175.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-15T07:42:16Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/15/08/download.-2.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-15T08:18:24Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "a102ecb5a871bdf5f359",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "new bridge opens between china and north korea after 12 year wait"
+        }
+      ],
+      "rankingScore": 8.99008
+    },
+    {
+      "id": "b61142588e3d6fa102b6beb5",
+      "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "translatedTitle": null,
+      "description": "Ukraine says Starlink access has improved but it is still facing speed limits which are disrupting its battlefield \"missions\".",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c8wy9veedgygo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T04:30:08Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f7e/live/76dbc1b0-c848-11f1-94ec-7f952cae1636.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "530313a3dd800773e44c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "f42fd65658c9fa8dfd76c14e",
+          "title": "Elon Musk suggests US government was behind Starlink restrictions in Ukraine – Europe live",
+          "translatedTitle": null,
+          "description": "Ukraine president Zelenskyy said he felt ‘betrayed’ by the US after Trump’s diesel deal and the Starlink restrictions As Ukraine reported problems with Starlink satellite internet terminals and US data that warns of Russian ballistic missile attacks, Kyiv also faced the harsh reality that its European allies cannot offer ⁠any ready-made alternatives, Reuters reported. European countries have voiced strong support for Ukraine and Zelenskyy. But the problems with vital data highlighted that Ukrain",
+          "url": "https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
+          "canonicalUrl": "https://theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-15T07:49:07Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/015e403b327f16069ea77c81b1d1c193c88c558b/449_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=114ba6d259e34f1e70b4ab046695c8bf",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-15T08:18:24Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "530313a3dd800773e44c",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "elon musk suggests us government was behind starlink restrictions in ukraine europe live"
+        }
+      ],
+      "rankingScore": 8.4407
+    },
+    {
+      "id": "990cca642f1008216890f99a",
+      "title": "Study says global warming did more than El Niño to turbocharge Hurricane Polo",
+      "translatedTitle": null,
+      "description": "Both climate change and a strong El Niño combined to cause Hurricane Polo to explosively intensify from a tropical storm to a Category 5 monster in just 24 hours",
+      "url": "https://www.independent.co.uk/news/el-nino-study-polo-atlantic-mexico-b3067135.html",
+      "canonicalUrl": "https://independent.co.uk/news/el-nino-study-polo-atlantic-mexico-b3067135.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T06:04:37Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/01/17/APTOPIX_Mexico_Extreme_Weather_Polo_19386.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5aefea9f4548390f82a2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.1935
+    },
+    {
+      "id": "04003125e1c052e11d10a78c",
+      "title": "The global economy is muddling through against the odds. But a storm is coming | Larry Elliott",
+      "translatedTitle": null,
+      "description": "Finance ministers gathering for the IMF annual meeting know the need for multilateral cooperation to deal with many crises. There is little chance of that Not much has gone right for the global economy this year, and plenty has gone wrong. Two big regional wars are destabilising prices and supply chains everywhere. Businesses and consumers are feeling the effects of a serious energy shock. Rising inflation has made it a lot more expensive for governments to finance their debts. China and the US",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/15/global-economy-multilateral-cooperation-crisis-imf",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/15/global-economy-multilateral-cooperation-crisis-imf",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:00:22Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/54d43e601c16fe78485d52c498dab52180b5abba/0_1_5000_3999/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=9653a4381152d46f0b65efed67a78f7a",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d5ea7d60e55ecf36f421",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.17126
+    },
     {
       "id": "af7c28868430b9eb8593251c",
       "title": "Unpolished, anti-Bibi, but evasive on peace: who is the Israeli opposition candidate Gadi Eisenkot?",
@@ -78,15 +351,75 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "9ef9bbdddb1ebae540f9",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.07232,
+      "related": []
+    },
+    {
+      "id": "82a898749cb3161b76e244c8",
+      "title": "White supremacist’s attempted mass shooting at Hindu temple in Chicago thwarted after gun jams",
+      "translatedTitle": null,
+      "description": "Alexandros Paporakis, a Taco Bell cashier from Palatine, Illinois, faces felony charges of making a terrorist threat and unlawfully possessing weapons",
+      "url": "https://www.independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/crime/chicago-mass-shooting-teen-hindu-temple-aurora-b3067113.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T04:27:51Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/15/05/2300010712..?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0733bf729a6d506fd2a9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.8538
+      "rankingScore": 8.02694
+    },
+    {
+      "id": "9e8f37fca2183c4a42bb3654",
+      "title": "El Salvador's Bukele unveils plan to free up to 50% arrested under state of emergency",
+      "translatedTitle": null,
+      "description": "President Nayib Bukele of El Salvador announces a plan to release up to 50% of those imprisoned under a state of emergency",
+      "url": "https://www.independent.co.uk/news/nayib-bukele-el-salvador-latin-america-b3067081.html",
+      "canonicalUrl": "https://independent.co.uk/news/nayib-bukele-el-salvador-latin-america-b3067081.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-14T23:17:53Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/15/00/El_Salvador_Prisoners_Release__5328.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4e69f612d34c239f5134",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.58361
     },
     {
       "id": "bb9e5a5869b96d3cd0dfdd07",
@@ -115,158 +448,8 @@
       "clusterId": "51a808fce62b4f20a227",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.97862,
+      "rankingScore": 7.56187,
       "related": []
-    },
-    {
-      "id": "3c31262eafa45a7f31c013f0",
-      "title": "‘To succeed meant to leave’: inside the jolting film about Brummie estate kids knocked flying by demolition",
-      "translatedTitle": null,
-      "description": "The novel had no hero, no dialogue and little action. So how was I See Buildings Fall Like Lightning turned into such a funny, rousing and acclaimed film? Director Clio Barnard reveals all As a kid in 90s Birmingham, Keiran Goddard would gather with his friends to watch the tower blocks coming down. That’s what passed for entertainment back then. Controlled explosions, collapsing buildings. The demolition of Shard End’s postwar council estates marked the end of one story and the start of another",
-      "url": "https://www.theguardian.com/film/2026/oct/15/i-see-buildings-fall-like-lightning-clio-barnard-keiran-goddard-birmingham",
-      "canonicalUrl": "https://theguardian.com/film/2026/oct/15/i-see-buildings-fall-like-lightning-clio-barnard-keiran-goddard-birmingham",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:00:22Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e1a1f1f98b10a64411ba0fc073c17ecbe948be05/1262_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=2e9a451ca8d4687a65378400b9c83941",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "aed120139de1e17d43ce",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.50377
-    },
-    {
-      "id": "e4c62ac86f47d76c65372453",
-      "title": "Is your boss watching you? The rise of AI surveillance at work – podcast",
-      "translatedTitle": null,
-      "description": "Workers have always been monitored by their bosses, first through output targets, and then via computer software labelled ‘bossware’. But AI is transforming the capabilities of these systems, processing huge volumes of data to provide minute-by-minute accounts of activity, and productivity. To find out more, Ian Sample hears from UK technology editor Robert Booth. He explains which sectors are adopting this approach, why they are doing it, and how it could end up being counterproductive. Teacher",
-      "url": "https://www.theguardian.com/science/audio/2026/oct/15/is-your-boss-watching-you-the-rise-of-ai-surveillance-at-work-podcast",
-      "canonicalUrl": "https://theguardian.com/science/audio/2026/oct/15/is-your-boss-watching-you-the-rise-of-ai-surveillance-at-work-podcast",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:00:21Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/36b9a50411e1fa12be05e3f9ba7330007bc42a3a/385_0_4103_3282/master/4103.jpg?width=140&quality=85&auto=format&fit=max&s=ae1303463bb1b86f2f94316328cccbd5",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3602d435bdb91cc4f3a4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.15373
-    },
-    {
-      "id": "d72ff750b1476030125842f7",
-      "title": "How Gaza changed Europe, exposing cracks that grow bigger by the week | Shada Islam",
-      "translatedTitle": null,
-      "description": "Solidarity with Palestine’s suffering is punished but MEPs allow a witch-hunt of European Muslims For three painful years, Israel’s genocidal war in Gaza, in retaliation for the Hamas terror attacks on 7 October 2023, has killed more than 74,000 Palestinians, wounded thousands more and reduced most of the territory to rubble. It has changed views of Israel across the world, increased support for Palestine and raised questions about US power. Europe’s failure to hold Israel’s government to accoun",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/15/how-gaza-changed-europe-exposing-cracks-that-grow-bigger-by-the-week",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/15/how-gaza-changed-europe-exposing-cracks-that-grow-bigger-by-the-week",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:00:21Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a4505640e550226786bc552d2b778ba8b33e50e3/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=dc19d028b566469d1ad0b0f207363ff6",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "923a87c00020d908d8d0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.15373
-    },
-    {
-      "id": "f1fe4e5031b91024cae5716b",
-      "title": "A perfect storm: how the super El Niño is devastating the fishing industry",
-      "translatedTitle": null,
-      "description": "Peru’s anchoveta have made up about a 10th of the entire global commercial fishing catch since 1970, more than any other fish. A combination of warming seas and decades-long overfishing spells disaster On 10 June 2026, the government of Peru made a decision that it knew would hurt one of the world’s major fishing industries. It stopped all anchoveta fishing boats from going out to sea, suspending the fishing season. At first the order was temporary, but in mid-August, the suspension turned into",
-      "url": "https://www.theguardian.com/news/2026/oct/15/a-perfect-storm-how-the-super-el-nino-is-devastating-the-fishing-industry",
-      "canonicalUrl": "https://theguardian.com/news/2026/oct/15/a-perfect-storm-how-the-super-el-nino-is-devastating-the-fishing-industry",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T04:00:20Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/90875d842e131eb74503368a1553ec8f820b963c/0_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=45d035d44374c698c2b8d00f1a012e37",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "111ba99f67b9f21957b3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.1537
-    },
-    {
-      "id": "c2b2de9d74a9eeefa3ace6dd",
-      "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
-      "translatedTitle": null,
-      "description": "Congress approves constitutional amendment that bans six-day workweeks, which could effect up to 30 million Brazil’s congress has approved a constitutional amendment to shorten the working week to a maximum of 40 hours, a move that could affect 30 million workers and that will hand a political victory to the leftist president Luiz Inácio Lula da Silva ahead of the presidential runoff in under two weeks. In an attempt to overturn the first-round lead secured by his opponent, far-right senator Flá",
-      "url": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T02:45:42Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/170d64bce3c3cd5f2da0bd8212e95c754448d44a/183_0_2045_1636/master/2045.jpg?width=140&quality=85&auto=format&fit=max&s=7b326e73b5aba8a1a88bdfec56dffc82",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9ebc9387fabcbab036aa",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.00923
     },
     {
       "id": "657d5d966f30a4af6aed2e1c",
@@ -288,53 +471,113 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "a953763fa6ffb1efea8c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.98562
+      "rankingScore": 6.58768,
+      "related": []
     },
     {
-      "id": "93f53de0d28c7b940fcad3ab",
-      "title": "How backlash against data centres could shape the US midterm elections",
+      "id": "2efdd5d0438838b16f028bb2",
+      "title": "At least 28 children killed in Pakistan school collapse",
       "translatedTitle": null,
-      "description": "Democrats and Republicans alike are coming out against data centre development, amid growing backlash across the US.",
-      "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c0rezqpnekro?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "At least 28 children and their teacher are dead after a school roof collapsed in Pakistan.",
+      "url": "https://news.sky.com/story/at-least-17-children-killed-in-pakistan-school-collapse-13599466",
+      "canonicalUrl": "https://news.sky.com/story/at-least-17-children-killed-in-pakistan-school-collapse-13599466",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T23:02:57Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ef9/live/8b1f1580-c813-11f1-b60d-ef789a67d4e2.jpg",
+      "publishedAt": "2026-10-15T06:21:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-peshawar-pakistan_7377321.jpg?20261015074713",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "334e1bcfeb66f8224bf0",
+      "clusterId": "9875632b8d61bd30f00c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.9029
+      "rankingScore": 5.61321
     },
     {
-      "id": "501d0d3cd9e7cd841da8c5b4",
-      "title": "Student protests in Albania turn violent as demonstrators clash with police",
+      "id": "8713dbb7b17be86c39b48752",
+      "title": "Surprise GDP growth as UK economy stronger than first thought",
       "translatedTitle": null,
-      "description": "Dozens of people detained after government building and two banks set on fire as tens of thousands march over education costs and corruption Tens of thousands of students have taken to the streets of Tirana, the Albanian capital, setting alight a government building and two banks and hurling stones at police during a protest over rising education costs and ⁠corruption. Police responded with water ⁠cannon and teargas to disperse protesters who started a fire at the ministry of education building,",
-      "url": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
+      "description": "The UK economy has grown, confounding predictions it would shrink, official figures show.",
+      "url": "https://news.sky.com/story/surprise-gdp-growth-as-uk-economy-stronger-than-first-thought-13599446",
+      "canonicalUrl": "https://news.sky.com/story/surprise-gdp-growth-as-uk-economy-stronger-than-first-thought-13599446",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:06:00Z",
+      "imageUrl": "https://e3.365dm.com/25/07/1920x1080/skynews-primark-oxford-street_6973127.jpg?20250725065151",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7af0209a8e39f1685a99",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.48083
+    },
+    {
+      "id": "2204a028b9e4c8b059b638a5",
+      "title": "Video report: Why are Yemen’s Houthis attacking Saudi Arabia?",
+      "translatedTitle": null,
+      "description": "At least 13 people were killed and hundreds injured in a strike on Riyadh’s international airport.",
+      "url": "https://www.independent.co.uk/tv/news/yemen-houthi-saudi-arabia-riyadh-airport-video-b3066823.html",
+      "canonicalUrl": "https://independent.co.uk/tv/news/yemen-houthi-saudi-arabia-riyadh-airport-video-b3066823.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:55:26Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/14/15/06/Why-are-Yemens-Houthis-attacking-Saudi-Arabia-and-what-does-this-mean-for-UK.jpeg?width=1200&auto=webp&trim=0%2C100%2C0%2C100",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8b4756528ca7107003cd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47705
+    },
+    {
+      "id": "6493b69cb4bbf82fa506b1b9",
+      "title": "The day bad weather brought half a million birds to England",
+      "translatedTitle": null,
+      "description": "The ‘Great Fall’ of 1965 was caused by harsh conditions forcing migrating species to land on their way to Africa My birding mentor, the late Derek Moore, was also a keen cricketer. But one autumn day in 1965 he was unable to concentrate while fielding because many hundreds of songbirds were landing around him on the pitch at Lowestoft. The arrival of hundreds of thousands of birds along the Suffolk coast that day became known as the “Great Fall”, and it was caused by a weather system bringing cl",
+      "url": "https://www.theguardian.com/news/2026/oct/15/the-day-bad-weather-brought-half-a-million-birds-to-england",
+      "canonicalUrl": "https://theguardian.com/news/2026/oct/15/the-day-bad-weather-brought-half-a-million-birds-to-england",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -343,28 +586,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T23:19:43Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0d62eda693183d315a7da699af4b1aecc94342fd/515_0_4585_3668/master/4585.jpg?width=140&quality=85&auto=format&fit=max&s=12f4aebf542aa83d51feed84829988bb",
+      "publishedAt": "2026-10-15T05:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6cc62cb0c894fe625b26a5032e16fe8b31f0f6fe/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=3481fe74df1c6ce194845e2e91841852",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e3ddcd2e8ccd9353956c",
+      "clusterId": "e481afcbbf211053ccd4",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.65861,
-      "related": []
+      "related": [],
+      "rankingScore": 5.47131
     },
     {
-      "id": "92d43c8353650b6e7d1b5592",
-      "title": "Stopping Pip for ADHD or autism would not make big savings, says thinktank",
+      "id": "e3e27e6b6d3ced734f2cce55",
+      "title": "Rachel Roddy’s recipe for spaghetti with Marmite | A kitchen in Rome",
       "translatedTitle": null,
-      "description": "Resolution Foundation says ‘crude changes’ to benefits system would probably make it harder for people to work Banning people with anxiety, ADHD or autism from claiming disability benefits would not deliver major financial savings and would probably make it harder for them to get or stay in a job and participate in society, a leading thinktank has warned. The Resolution Foundation said any proposals to make certain mental health and neurodevelopmental conditions ineligible for personal independe",
-      "url": "https://www.theguardian.com/society/2026/oct/15/pip-ban-adhd-autism-savings-resolution-foundation",
-      "canonicalUrl": "https://theguardian.com/society/2026/oct/15/pip-ban-adhd-autism-savings-resolution-foundation",
+      "description": "An umami-packed dish for when you need a flavour hit in a hurry Here is a simple, practical recipe that I trust will be useful to many who don’t have the time for lengthy kitchen preparations. Boil the spaghetti as usual, drain it, and toss it with a little butter and parmesan. Then, for four, take a spoonful of meat extract and dissolve it in a small saucepan with just a few drops of boiling water. Pour the meat extract over the pasta, stir and serve. You will be pleasantly surprised by the exq",
+      "url": "https://www.theguardian.com/food/2026/oct/15/marmite-spaghetti-recipe-rachel-roddy",
+      "canonicalUrl": "https://theguardian.com/food/2026/oct/15/marmite-spaghetti-recipe-rachel-roddy",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -373,80 +616,320 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-14T23:01:15Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/69799fa6d30e1431a91206c44a339ccf44616ea0/1241_0_5993_4797/master/5993.jpg?width=140&quality=85&auto=format&fit=max&s=4321cb85aa4d1c1f300bc5fabedbc0d8",
+      "publishedAt": "2026-10-15T05:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/22f516edd89de9436a070cf9d4f20437d5a1d439/44_95_1181_944/master/1181.jpg?width=140&quality=85&auto=format&fit=max&s=04c2838e47bd4353cfa1a4b6fe36a6af",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a3b438af04027a5bf123",
+      "clusterId": "b7bd5ce2de8acf7a3f06",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.63032,
-      "related": []
+      "related": [],
+      "rankingScore": 5.47131
     },
     {
-      "id": "40c755e7ac59734a4bf04b70",
-      "title": "White House defends new press secretary amid questions about her legal credentials",
+      "id": "26668bf28c9a6448c5e08d8a",
+      "title": "Martínez has drawn back the curtain on Manchester United’s ruinous ownership | Jonathan Liew",
       "translatedTitle": null,
-      "description": "Katie Zacharia does not appear to be registered to the legal bar in any state where she has lived.",
-      "url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ckqxne2evqreo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Defender may not be blameless in team’s struggles but his criticism goes to the heart of what has gone wrong at the club Heartbreaking: the worst defender you know just made a great point. And no, nobody would describe Lisandro Martínez as the ideal person to scrutinise Manchester United’s indifferent start to the season, given that his high-profile defensive errors against Fulham and Tottenham are partly responsible for it. “We’re all trying to find the guy who did this,” Martínez burbles on Am",
+      "url": "https://www.theguardian.com/football/2026/oct/15/lisandro-martinez-criticism-jason-wilcox-jim-ratcliffe-glazers",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/15/lisandro-martinez-criticism-jason-wilcox-jim-ratcliffe-glazers",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-15T03:03:16Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c7f/live/f7333c90-c838-11f1-b2e8-93da8301514e.jpg",
+      "publishedAt": "2026-10-15T05:00:23Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/dc8504df01a49ba93110a824bc04545c0341b98c/276_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=c6672946b7f2cfb197d4c8b92cf0965b",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "333328001e736ce2f801",
+      "clusterId": "e4520bd9e5db9fb113f7",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.96234
+      "rankingScore": 5.47128
     },
     {
-      "id": "fe5fc1a6b5b94562eb601d95",
-      "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+      "id": "e25109cc5e1e4321432cc98a",
+      "title": "Parents of Chloe Moffat want Treasury staff held to account over her death",
       "translatedTitle": null,
-      "description": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
-      "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmp3gnngv3e9o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Exclusive: David and Anne Moffat to meet permanent secretary after coroner found Treasury ‘materially contributed’ to employee taking her own life The parents of a woman who killed herself after facing disciplinary proceedings at the Treasury will call for anyone found to have contributed to their daughter’s death to be held to account. A coroner found in August that the Treasury had “materially contributed” to Chloe Moffat’s death after the 26-year-old personal assistant was called into a surpr",
+      "url": "https://www.theguardian.com/politics/2026/oct/15/chloe-moffat-suicide-parents-treasury-staff",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/15/chloe-moffat-suicide-parents-treasury-staff",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-15T02:26:07Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/491e/live/40de5ca0-c841-11f1-afe1-c9348bd7f501.jpg",
+      "publishedAt": "2026-10-15T05:00:23Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/808cf0d2cacbc7a2ee91044de6d1006389511a21/0_349_1066_852/master/1066.jpg?width=140&quality=85&auto=format&fit=max&s=dc51fc7ef71ae95cf78c7f7a4030c827",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "32bd727be87853cc847f",
+      "clusterId": "84a7acc07de1a6ff7bff",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.89294
+      "rankingScore": 5.47128
+    },
+    {
+      "id": "457d68abfbe80aa79cfbf806",
+      "title": "Hidden cameras found in women’s showers on Australian navy ship",
+      "translatedTitle": null,
+      "description": "Footage from hidden camera allegedly in female showers may have already been uploaded, senator fears",
+      "url": "https://www.independent.co.uk/news/world/australasia/hidden-camera-australia-hmas-leeuwin-b3067117.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/australasia/hidden-camera-australia-hmas-leeuwin-b3067117.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:46:56Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/15/05/183130858..?width=1200&auto=webp&trim=199%2C0%2C199%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "96d986b009790fe71f21",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.46194
+    },
+    {
+      "id": "fd8f16912573d9e5fe8be2df",
+      "title": "Indonesia fights fire with dry ice as toxic haze spreads across region",
+      "translatedTitle": null,
+      "description": "Having tried cloud seeding and water bombing, one pilot project will see dry ice dispersed by plane across the province of South Sumatra As fires ravage Indonesia, emitting a toxic smoke that has drawn the ire of regional neighbours, the government is testing an unusual new approach to tackle the haze: dry ice. Having tried cloud seeding, water bombing and sending in army personnel to fight the fires, Indonesia’s coordinating security minister said dry ice would be dropped on the province of Sou",
+      "url": "https://www.theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/15/indonesia-fires-dry-ice-dropped-toxic-haze-spreads",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T04:25:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f91346dbfc3a74a003e6aeb4789749685a84ac60/328_0_4558_3646/master/4558.jpg?width=140&quality=85&auto=format&fit=max&s=4bda54c423277f3c568c467fbcd6eeee",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e2273bb7d17efeac4112",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.41234
+    },
+    {
+      "id": "a6e97cae8c9cbcea16155ade",
+      "title": "All the new driving licence rules introduced in October",
+      "translatedTitle": null,
+      "description": "The changes come after the government announced in January that learner drivers in England and Wales could face a wait of six months between sitting their theory and practical tests",
+      "url": "https://www.independent.co.uk/news/uk/home-news/uk-driving-licence-change-northern-ireland-rules-b3067122.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/uk-driving-licence-change-northern-ireland-rules-b3067122.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:12:50Z",
+      "imageUrl": "https://static.independent.co.uk/2025/01/18/11/49aef3c666c6c69e8d5674c17b6ae62dY29udGVudHNlYXJjaGFwaSwxNzM3MjgzODg4-2.78071893.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "af151819705427cd4bbd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.40252
+    },
+    {
+      "id": "5054514f817a6ea1719f18db",
+      "title": "An increase in killings of women in Cameroon spurs protests and demands for better laws",
+      "translatedTitle": null,
+      "description": "Elementary school teacher Geraldine Achiah died in Cameroon after allegedly being beaten by her husband",
+      "url": "https://www.independent.co.uk/news/cameroon-family-african-gates-foundation-douala-b3067123.html",
+      "canonicalUrl": "https://independent.co.uk/news/cameroon-family-african-gates-foundation-douala-b3067123.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:05:41Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/15/06/Cameroon_Women_Killing_364_6.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7f1e5c93cba6099c43b0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.39029
+    },
+    {
+      "id": "af6688e7928d67cdb35eeb99",
+      "title": "The Celebrity Traitors ranked: Who is playing the best and worst game in the castle?",
+      "translatedTitle": null,
+      "description": "As we near the halfway mark of a chaotic and unpredictable series, Rachel McGrath looks at the strongest and weakest players among the Traitors and the Faithful",
+      "url": "https://www.independent.co.uk/arts-entertainment/tv/features/celebrity-traitors-ranked-ratings-bbc-season-2-b3066777.html",
+      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/features/celebrity-traitors-ranked-ratings-bbc-season-2-b3066777.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:00:00Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/14/15/10/579434.jpeg?width=1200&auto=webp&trim=71%2C507%2C534%2C401",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8936222c67da789ad904",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.38063
+    },
+    {
+      "id": "6a9805800438dc3df34acf12",
+      "title": "Voices: I’m terrifed of answering the phone and it’s affecting my social life",
+      "translatedTitle": null,
+      "description": "The Independent’s agony aunt Victoria Richards is here to help. Email dearvix@independent.co.uk for advice on love, work, family and relationships",
+      "url": "https://www.independent.co.uk/voices/phone-calls-hate-ignoring-isolation-social-media-dear-vix-advice-b3065207.html",
+      "canonicalUrl": "https://independent.co.uk/voices/phone-calls-hate-ignoring-isolation-social-media-dear-vix-advice-b3065207.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:00:00Z",
+      "imageUrl": "https://static.independent.co.uk/2024/10/08/00/07095739-dc614490-4357-41a4-a8d1-b804160bf444.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6a7c0edbd608a0ebe5fb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.38063
+    },
+    {
+      "id": "0fd8bab6a3c97834b38b5add",
+      "title": "How to cook an Indian feast at home, according to a Michelin-starred chef",
+      "translatedTitle": null,
+      "description": "From a fragrant chicken biryani to a fiery Rajasthani lamb curry and beautifully spiced cutlets, Aktar Islam, the chef behind Birmingham’s two-Michelin-starred Opheem, shows Hannah Twiggs how to bring a little restaurant magic into the home kitchen",
+      "url": "https://www.independent.co.uk/life-style/food-and-drink/recipes/indian-curry-recipes-aktar-islam-opheem-birmingham-b3066449.html",
+      "canonicalUrl": "https://independent.co.uk/life-style/food-and-drink/recipes/indian-curry-recipes-aktar-islam-opheem-birmingham-b3066449.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:00:00Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/14/9/24/Biryani.jpeg?width=1200&auto=webp&trim=2%2C0%2C2%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1c525c9f70388a00ed86",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.38063
+    },
+    {
+      "id": "67e0372a4077d1d5f9114d98",
+      "title": "The go-to dopamine-boosting habits doctors say will keep you happy this winter",
+      "translatedTitle": null,
+      "description": "As the cold weather and long nights set in, comfort habits like snacking, partying, shopping or doomscrolling can creep in on our hunt for dopamine. Lydia Spencer-Elliott speaks to doctors about which activities are ideal when building your own ‘dopamine menu’",
+      "url": "https://www.independent.co.uk/life-style/dopamine-menu-winter-what-to-put-on-it-b3065296.html",
+      "canonicalUrl": "https://independent.co.uk/life-style/dopamine-menu-winter-what-to-put-on-it-b3065296.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T05:00:00Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/12/14/01/iStock-1345198300.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fd18e1c696a89a72752a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.38063
     },
     {
       "id": "0719bc567d36eb7a62d4720a",
@@ -468,21 +951,21 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "6f10a4c0ef457ec37317",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8038
+      "rankingScore": 5.37232,
+      "related": []
     },
     {
-      "id": "dc24b2e53c62da4cc0a50834",
-      "title": "The year I turned 18: It was 1990 and the news was full of riots. But I was dreaming of love and the life to come",
+      "id": "50020ceb4440a5ece6b8f8f3",
+      "title": "18 again: I returned to my life in 1990. Who – and what – would I find there?",
       "translatedTitle": null,
-      "description": "It’s 36 years since I came of age in the English seaside. What’s become of my friends and the boy I adored? And could I somehow reconnect with that long-ago me? I headed back to my home town to find out The house in which I turned 18 was full of clocks. Dark wooden things with aged faces. Every room ticked. If you stood in certain doorways, you could hear all the misaligned second hands racing. I could not understand why anyone would want to count away life like that or decorate their living qua",
+      "description": "I doused myself in Poison perfume and made the trip back to my childhood home, friends and college. What could I learn by re-immersing myself in a world that brimmed with hope and potential? The house in which I turned 18 was full of clocks. Dark wooden things with aged faces. Every room ticked. If you stood in certain doorways, you could hear all the misaligned second hands racing. I could not understand why anyone would want to count away life like that or decorate their living quarters with s",
       "url": "https://www.theguardian.com/lifeandstyle/2026/oct/15/the-year-i-turned-18-it-was-1990-and-the-news-was-full-of-riots-but-i-was-dreaming-of-love-and-the-life-to-come",
       "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/15/the-year-i-turned-18-it-was-1990-and-the-news-was-full-of-riots-but-i-was-dreaming-of-love-and-the-life-to-come",
       "sourceName": "The Guardian",
@@ -494,19 +977,19 @@
       ],
       "language": "en",
       "publishedAt": "2026-10-15T04:00:22Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/6fe74a52059becbd71c4640846dc94cfa5f58fe7/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ab852c9774665aa3b66a6de085620eba",
+      "imageUrl": "https://i.guim.co.uk/img/media/dc9a4980b0ba9d82781f8d3c0388421a62bbb33b/687_0_7315_5852/master/7315.jpg?width=140&quality=85&auto=format&fit=max&s=366aa6a9650134bc0dc14a5def4c4d97",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0a1783728b43332155e9",
+      "clusterId": "1fb8c13fa647b675306f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80377
+      "rankingScore": 5.37229,
+      "related": []
     },
     {
       "id": "2cf9a766b1ce01c67c09c864",
@@ -528,15 +1011,45 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "713ea8225627871d9f7e",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 5.37227,
+      "related": []
+    },
+    {
+      "id": "dc323ff20b0da55538e27eba",
+      "title": "Terrifying safety loophole exposed after man is thrown to his death from roller coaster",
+      "translatedTitle": null,
+      "description": "A man's death on a Six Flags roller coaster in Georgia has raised questions about ride safety and regulation",
+      "url": "https://www.independent.co.uk/news/world/americas/six-flags-georgia-goliath-coaster-safety-loophole-b3067119.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/six-flags-georgia-goliath-coaster-safety-loophole-b3067119.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T04:47:45Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/14/05/US_Roller_Coaster_Death_64367.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "61103f964f26aba7d089",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80373
+      "rankingScore": 5.35999
     },
     {
       "id": "d51bf5887ae94badc111bc78",
@@ -558,7 +1071,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -566,7 +1079,187 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.71029
+      "rankingScore": 5.3513
+    },
+    {
+      "id": "69a4eb0e314eeed47390c654",
+      "title": "Original Avengers star reveals he won’t be appearing in Doomsday: ‘They didn’t call me’",
+      "translatedTitle": null,
+      "description": "Actor jokes that the superheroes will ‘probably lose’",
+      "url": "https://www.independent.co.uk/arts-entertainment/films/news/avengers-doomsday-jeremy-renner-hawkeye-marvel-b3067118.html",
+      "canonicalUrl": "https://independent.co.uk/arts-entertainment/films/news/avengers-doomsday-jeremy-renner-hawkeye-marvel-b3067118.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T04:39:36Z",
+      "imageUrl": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/04/11/08/hawkeye-720x405.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3d979ebc499355bc0419",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.34638
+    },
+    {
+      "id": "0ff8a1e9befba4efe138862b",
+      "title": "Critics react to Fontaines DC’s Dopamine Chamber: ‘Astonishing’",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.independent.co.uk/bulletin/culture/fontaines-dc-dopamine-chamber-review-new-album-b3067199.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/culture/fontaines-dc-dopamine-chamber-review-new-album-b3067199.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T08:07:43Z",
+      "imageUrl": "https://static.independent.co.uk/2026/09/09/7/17/GettyImages-1407713567.jpg?width=1200&auto=webp&trim=66%2C218%2C584%2C758",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4d00ed5282989306bae2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.32815
+    },
+    {
+      "id": "e157db8b1ce84471acd37430",
+      "title": "Inquest into death of man killed by tiger at wildlife park to open",
+      "translatedTitle": null,
+      "description": "An inquest into the death of a man who was killed by a tiger after entering its enclosure at a wildlife park is set to open later today.",
+      "url": "https://news.sky.com/story/william-chapman-inquest-into-death-of-man-killed-by-tiger-at-yorkshire-wildlife-park-to-open-13599438",
+      "canonicalUrl": "https://news.sky.com/story/william-chapman-inquest-into-death-of-man-killed-by-tiger-at-yorkshire-wildlife-park-to-open-13599438",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T03:28:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-william-chapman-tiger_7376418.jpg?20261013230801",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3e216753c36cadd5b0a0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.32115
+    },
+    {
+      "id": "bc05652e00e71f421f51cf14",
+      "title": "Prince Harry and Meghan to make first joint appearances since returning to UK",
+      "translatedTitle": null,
+      "description": "Prince Harry and Meghan are making their first joint public appearances in England since stepping back from royal duties six years ago",
+      "url": "https://www.independent.co.uk/news/world/americas/meghan-charles-iii-nottingham-england-britain-b3067111.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/meghan-charles-iii-nottingham-england-britain-b3067111.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T04:15:53Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/15/05/Britain_Joint_Appearance_761_2.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "20703a1e36c407ea446b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.30736
+    },
+    {
+      "id": "e93646bba7cc9b35be999c75",
+      "title": "Trump takes bizarre swipe at Elon Musk’s intelligence despite $276M GOP donation spree",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.independent.co.uk/bulletin/news/trump-elon-musk-arizona-rally-biggs-b3067197.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-elon-musk-arizona-rally-biggs-b3067197.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:55:01Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/15/08/2299703028..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f7d1414ee4fb5d691012",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.30268
+    },
+    {
+      "id": "1cffe40cd6947b38665a4caa",
+      "title": "Pope Leo XIV's cancer diagnosis raises questions about the future and the very recent past",
+      "translatedTitle": null,
+      "description": "Pope Leo XIV's lung cancer diagnosis raises questions about the future of his pontificate",
+      "url": "https://www.independent.co.uk/news/pope-francis-catholic-church-vatican-city-benedict-xvi-roman-b3067110.html",
+      "canonicalUrl": "https://independent.co.uk/news/pope-francis-catholic-church-vatican-city-benedict-xvi-roman-b3067110.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T04:11:28Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/15/05/Vatican_Pope_Surgery__8_87.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d511356b88d8d179e8e8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.30019
     },
     {
       "id": "839d24e19e49f3fb4785e0c3",
@@ -588,7 +1281,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -596,7 +1289,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.64614
+      "rankingScore": 5.29994
     },
     {
       "id": "bcfce8c498db14572fa1d3aa",
@@ -618,7 +1311,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -626,7 +1319,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.64486
+      "rankingScore": 5.29891
     },
     {
       "id": "eabfee58f89255a9bc652d34",
@@ -648,7 +1341,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -656,10 +1349,160 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.64296
+      "rankingScore": 5.29739
     },
     {
-      "id": "cf0b012428a8cd937d644bac",
+      "id": "1e02e316dc231bc9efaf80cc",
+      "title": "School roof collapses in Pakistan killing at least 27 students and one teacher",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.independent.co.uk/bulletin/news/pakistan-peshawar-school-roof-collapse-b3067169.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/pakistan-peshawar-school-roof-collapse-b3067169.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:49:16Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/15/08/download.-1.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a239bffb52c8995f50fa",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.29125
+    },
+    {
+      "id": "946fa4ff47ea974a6e14b027",
+      "title": "Father of five killed in his own home after hunter’s stray bullet tears through wall",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.independent.co.uk/bulletin/news/robert-church-oregon-hunter-bullet-b3067192.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/robert-church-oregon-hunter-bullet-b3067192.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:49:02Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/14/23/23/Robert-Church.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4c4b12174af01da82c9a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.29079
+    },
+    {
+      "id": "bcc3a33a24ccc97074771b5d",
+      "title": "Disturbing discovery made in women’s showers on Australian navy ship",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.independent.co.uk/bulletin/news/australian-navy-ship-hidden-camera-b3067190.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/australian-navy-ship-hidden-camera-b3067190.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:45:19Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/15/08/183130846..?width=1200&auto=webp&trim=0%2C1%2C0%2C7",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0d95df7d673ed5aa20b6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28344
+    },
+    {
+      "id": "eb51326d9ab86407bd6810db",
+      "title": "Trump administration accused of hiding damning tax data just weeks before midterms",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.independent.co.uk/bulletin/news/trump-irs-report-bisignano-tax-b3067189.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-irs-report-bisignano-tax-b3067189.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:44:34Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/15/08/2026-10-14T194445Z_1585338306_RC263OAVGOKH_RTRMADP_3_USA-DOJ-FRAUD.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c35a58007e7dc73d00b0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.28195
+    },
+    {
+      "id": "7e4635fd6275420259a35204",
+      "title": "Republicans privately concede defeat in midterms as Trump becomes electoral liability: report",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.independent.co.uk/bulletin/news/trump-gop-house-midterms-check-b3067186.html",
+      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-gop-house-midterms-check-b3067186.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-15T07:38:46Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/15/08/2295426427..?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-15T08:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7fe69e7bdd8a030e5d67",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27054
+    },
+    {
+      "id": "5991e4a28af93d229d432b14",
       "title": "Dog that hunts invasive 'sea vomit' honoured as animal of the year",
       "translatedTitle": null,
       "description": "Sgiath is thought to be the UK's first sea squirt-hunting dog and has been trained to sniff out the marine pest.",
@@ -678,7 +1521,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
+      "retrievedAt": "2026-10-15T08:18:24Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -686,67 +1529,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.60343
-    },
-    {
-      "id": "0fb96be91054f8fbd780ef3c",
-      "title": "Hospitality companies to create 100,000 new roles for NEETs",
-      "translatedTitle": null,
-      "description": "The UK's leading hospitality businesses have committed to hiring 100,000 young people not in education, employment or training (NEET), it has been announced.",
-      "url": "https://news.sky.com/story/hospitality-companies-to-create-100000-new-roles-for-neets-13599436",
-      "canonicalUrl": "https://news.sky.com/story/hospitality-companies-to-create-100000-new-roles-for-neets-13599436",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-15T01:01:00Z",
-      "imageUrl": "https://e3.365dm.com/21/04/1920x1080/skynews-pubs-beer-drinking_5329643.jpg?20210404112545",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dd76cd609a83fb5fc4bf",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47266
-    },
-    {
-      "id": "b1770cdf8ebf7ba435354ab0",
-      "title": "Baby review – Pearl Mackie is meticulous as an abuse survivor",
-      "translatedTitle": null,
-      "description": "Brixton House, London Gurpreet Kaur Bhatti’s compassionate solo play follows a young mother’s struggle to get life back on track after time behind bars Plenty of abuse survivors don’t go on to commit terrible crimes, argues the titular Baby as she attempts to make sense of the cause-and-effect cycle that landed her in prison and saw her precious baby daughter forcibly removed. It’s a line that echoes the more merciless commentary surrounding the case of US death row inmate Christa Pike, whose fa",
-      "url": "https://www.theguardian.com/stage/2026/oct/15/baby-review-brixton-house-london-pearl-mackie",
-      "canonicalUrl": "https://theguardian.com/stage/2026/oct/15/baby-review-brixton-house-london-pearl-mackie",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-14T23:01:15Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/c2b1788540a4dd7c4550cb31a03943873ff9e7e9/1547_570_3473_2779/master/3473.jpg?width=140&quality=85&auto=format&fit=max&s=f5191c88341d14d02b8e3915cd89169c",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-15T04:18:17Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b5147c7c5a919a8502fc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.28032,
-      "related": []
+      "rankingScore": 5.26575
     }
   ]
 }
