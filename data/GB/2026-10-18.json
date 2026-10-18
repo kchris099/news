@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-18",
-  "generatedAt": "2026-10-18T16:18:04Z",
-  "lastAttemptAt": "2026-10-18T16:18:04Z",
-  "lastSuccessfulUpdate": "2026-10-18T16:18:04Z",
-  "status": "current",
+  "generatedAt": "2026-10-18T20:18:03Z",
+  "lastAttemptAt": "2026-10-18T20:18:03Z",
+  "lastSuccessfulUpdate": "2026-10-18T20:18:03Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-18T16:18:02Z",
-      "lastSuccessAt": "2026-10-18T16:18:03Z",
-      "articlesRetrieved": 24,
-      "responseTimeMs": 609,
+      "lastAttemptAt": "2026-10-18T20:18:02Z",
+      "lastSuccessAt": "2026-10-18T20:18:03Z",
+      "articlesRetrieved": 31,
+      "responseTimeMs": 264,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-18T16:18:02Z",
-      "lastSuccessAt": "2026-10-18T16:18:03Z",
+      "lastAttemptAt": "2026-10-18T20:18:02Z",
+      "lastSuccessAt": "2026-10-18T20:18:03Z",
       "articlesRetrieved": 146,
-      "responseTimeMs": 427,
+      "responseTimeMs": 285,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-18T16:18:02Z",
-      "lastSuccessAt": "2026-10-18T16:18:03Z",
-      "articlesRetrieved": 8,
-      "responseTimeMs": 601,
+      "lastAttemptAt": "2026-10-18T20:18:02Z",
+      "lastSuccessAt": "2026-10-18T20:18:03Z",
+      "articlesRetrieved": 10,
+      "responseTimeMs": 543,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-10-18T16:18:02Z",
-      "lastSuccessAt": "2026-10-18T16:18:03Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 669,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-18T20:18:02Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -78,13 +78,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
+      "retrievedAt": "2026-10-18T20:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "b59bbc5fcff1fd54b366",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 9.71358,
       "related": [
         {
           "id": "07d9a039e1e953da7cbad787",
@@ -116,14 +117,43 @@
           "sourceQuality": 1.0,
           "normalizedTitle": "trump endorses embattled israeli prime minister benjamin netanyahu for reelection"
         }
-      ],
-      "rankingScore": 10.11747
+      ]
     },
     {
-      "id": "6eb67b25215077cae82c0648",
-      "title": "US ambassador to Israel denounces West Bank settler attack on US photojournalist",
+      "id": "60236ca67900a0183f5c6ae5",
+      "title": "The Guardian view on plague in Russia: what is most worrying is the lack of information | Editorial",
       "translatedTitle": null,
-      "description": "Mike Huckabee calls for arrest and prosecution of those responsible as Heidi Levine, 63, recovers in hospital in Israel The US ambassador to Israel, Mike Huckabee, has denounced the settler attack that left the Washington Post photojournalist Heidi Levine badly beaten and needing surgery as a “despicable act of terror” and called for the arrest and prosecution of those responsible. Levine, an award-winning journalist who lives in Israel, was set upon last Friday by masked Israeli settlers who us",
+      "description": "In the three weeks since a health worker’s death in Siberia, officials have stonewalled the WHO – setting a worrying precedent for future pandemics Is there a plague outbreak in Russia? If the answer were a clear yes, there shouldn’t be much reason to worry. With swift medical intervention, plague is treatable. But in the nearly three weeks since a worker at a Siberian plague research unit died of a mysterious respiratory illness, state officials have been consistently tight-lipped about what ha",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/18/the-guardian-view-on-plague-in-russia-what-is-most-worrying-is-the-lack-of-information",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/18/the-guardian-view-on-plague-in-russia-what-is-most-worrying-is-the-lack-of-information",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T16:30:04Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a333c0fd434050d4decfadca6cc2c9247719a7ae/811_0_4560_3648/master/4560.jpg?width=140&quality=85&auto=format&fit=max&s=024e7cfeee40ef44f3a77587e9f09e57",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3a7ac1a55d08b13d1df2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.4712
+    },
+    {
+      "id": "1fcbdb3516f1cd3a09c5bfb5",
+      "title": "US ambassador to Israel calls West Bank settler attack on American photojournalist ‘terror’",
+      "translatedTitle": null,
+      "description": "Mike Huckabee calls for arrest and prosecution of those responsible as Heidi Levine, 63, recovers in hospital in Israel The US ambassador to Israel, Mike Huckabee, has denounced the settler attack that left the Washington Post photojournalist Heidi Levine badly beaten and needing surgery as a “despicable act of terror” and called for the arrest and prosecution of those responsible. Levine, 63, an award-winning journalist who lives in Israel, was set upon last Friday by masked Israeli settlers wh",
       "url": "https://www.theguardian.com/world/2026/oct/18/us-ambassador-israel-mike-huckabee-west-bank-settler-attack-photojournalist-heidi-levine",
       "canonicalUrl": "https://theguardian.com/world/2026/oct/18/us-ambassador-israel-mike-huckabee-west-bank-settler-attack-photojournalist-heidi-levine",
       "sourceName": "The Guardian",
@@ -134,18 +164,19 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-18T15:33:38Z",
+      "publishedAt": "2026-10-18T17:02:13Z",
       "imageUrl": "https://i.guim.co.uk/img/media/b9d822eea77ce4604c690c4a52244f9602ac7b1f/195_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=b2a85376294cf68a3436042cc1b9957e",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
+      "retrievedAt": "2026-10-18T20:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "60e502952612dfe683f2",
+      "clusterId": "c0a63fce7d6b8fba9dd7",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.22502,
       "related": [
         {
           "id": "fb0ddf15f775022108311899",
@@ -171,22 +202,21 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "60e502952612dfe683f2",
+          "clusterId": "c0a63fce7d6b8fba9dd7",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "us ambassador to israel condemns settler attack on us journalist and other mideast news"
         }
-      ],
-      "rankingScore": 8.50106
+      ]
     },
     {
-      "id": "a624545de499824767a5c958",
-      "title": "Multiple people killed as Canadian authorities tackle active blaze at Alberta military base",
+      "id": "2e7ea85910ed0b63dc0f3784",
+      "title": "Zelenskyy thanks Trump for resumed intelligence sharing after US Starlink ‘message’",
       "translatedTitle": null,
-      "description": "Hospitals receive injured patients as doctor describes scale of emergency in Wainwright as a ‘disaster’ Multiple people have been killed and others injured after a deadly blaze tore through one of Canada’s busiest military training bases in Alberta, Canada’s defence minister said on Saturday. “I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” said David McGuinty. The defence minister described the situation at CFB Wainwright as “acti",
-      "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+      "description": "Two people killed and at least 17 injured as Russia and Ukraine continue to trade strikes on power infrastructure Volodymyr Zelenskyy on Sunday thanked the Trump administration for resuming intelligence sharing between the two countries, but maintained the US had intentionally throttled its Starlink satellite internet access so that Donald Trump could send a “message” in his ongoing feud with the Ukrainian president. In an interview on NBC, Zelenskyy said the US had “unblocked” intelligence on i",
+      "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -195,51 +225,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-18T15:31:33Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/fd2fce9d5801c1379f2c9034bd7fd12e94a8a1be/1408_22_5652_4521/master/5652.jpg?width=140&quality=85&auto=format&fit=max&s=d0ae93ec314abf587a38476a01cc10a1",
+      "publishedAt": "2026-10-18T16:37:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6ecbc6005fcdea363a01b880b148c2f7c49e0fc7/472_0_4721_3777/master/4721.jpg?width=140&quality=85&auto=format&fit=max&s=92f2cdf61a4f48629deb09f90227e024",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
+      "retrievedAt": "2026-10-18T20:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "9b14e9220e53764f9604",
+      "clusterId": "fa39ec46ed5ae9c93b26",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.49699,
-      "related": [
-        {
-          "id": "e264d81cf5edb1d83b383cf6",
-          "title": "Canadian military base latest: Multiple deaths and injuries after explosion sparks major fire in Alberta",
-          "translatedTitle": null,
-          "description": "Defence minister David McGuinty describes the situation as ‘very, very active and delicate’",
-          "url": "https://www.independent.co.uk/news/world/americas/canada-fire-military-base-alberta-wainwright-deaths-b3068697.html",
-          "canonicalUrl": "https://independent.co.uk/news/world/americas/canada-fire-military-base-alberta-wainwright-deaths-b3068697.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-18T12:30:22Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/18/08/Canada_Military_Base_Fire_46417.jpg?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-18T16:18:03Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "9b14e9220e53764f9604",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "canadian military base latest multiple deaths and injuries after explosion sparks major fire in alberta"
-        }
-      ]
+      "related": [],
+      "rankingScore": 8.13411
     },
     {
       "id": "ad7d1c3a5fc178b8a5243e77",
@@ -268,69 +267,8 @@
       "clusterId": "8020776419496a61e1dc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.38781
-    },
-    {
-      "id": "42269e43cf154c5cf74bf8ca",
-      "title": "‘My time, my era’: Dubois sends out warning to rivals with Wardley demolition",
-      "translatedTitle": null,
-      "description": "WBO heavyweight champion targets big paydays against Hrgovic, Kabayel and Itauma after second round win Thirty minutes after Daniel Dubois had dismantled Fabio Wardley in less than two rounds on Saturday night, his promoter Frank Warren shook his head in slight awe as he described the intensity before the annihilation: “I went in the dressing room beforehand like I normally do and I couldn’t have a conversation with Daniel because he was so zoned in and focused. It showed when he got in the ring",
-      "url": "https://www.theguardian.com/sport/2026/oct/18/daniel-dubois-fabio-wardley-wbo-heavyweight-title-rematch-boxing",
-      "canonicalUrl": "https://theguardian.com/sport/2026/oct/18/daniel-dubois-fabio-wardley-wbo-heavyweight-title-rematch-boxing",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T13:53:32Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e97af5022d09702ed94b312a2c358974e95df45d/783_315_3154_2523/master/3154.jpg?width=140&quality=85&auto=format&fit=max&s=a28748c971a8efeef823f2e8c8bf4f74",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "46a361d096ae7a270899",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "9e9bffe4dec33f65c0f7bc4a",
-          "title": "Daniel Dubois says 'it was my time' after victory over Fabio Wardley",
-          "translatedTitle": null,
-          "description": null,
-          "url": "https://www.independent.co.uk/bulletin/sport/dubois-v-wardley-2-result-b3068663.html",
-          "canonicalUrl": "https://independent.co.uk/bulletin/sport/dubois-v-wardley-2-result-b3068663.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-18T06:52:38Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/17/23/2026-10-17T221258Z_317376076_UP1EMAH1PPK29_RTRMADP_3_BOXING-HEAVYWEIGHT-DUBOIS-WARDLEY.JPG?width=1200&auto=webp&trim=0%2C59%2C0%2C58",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-18T16:18:03Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "46a361d096ae7a270899",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "daniel dubois says it was my time after victory over fabio wardley"
-        }
-      ],
-      "rankingScore": 8.31419
+      "rankingScore": 7.96194,
+      "related": []
     },
     {
       "id": "415e529d0210ab8123e2999e",
@@ -359,8 +297,8 @@
       "clusterId": "6bed85f07c8efe4a6e07",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.00389
+      "rankingScore": 7.65449,
+      "related": []
     },
     {
       "id": "ccba15c2096ab14ce8d32b90",
@@ -389,8 +327,69 @@
       "clusterId": "ed17bca29d239ae5b61b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.81459
+      "rankingScore": 7.5029,
+      "related": []
+    },
+    {
+      "id": "50abc57f5191a5b7d168928a",
+      "title": "Northampton beat Cardiff for only English win of Champions Cup openers",
+      "translatedTitle": null,
+      "description": "Northampton edge to a nervy Champions Cup pool win against tenacious Cardiff at Franklin's Gardens.",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw62ynq8jz2no?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/rugby-union/articles/cw62ynq8jz2no?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T18:23:30Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9706/live/c0479f20-cb1f-11f1-bfba-6f29101eb4a3.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bbf0539582c4d6425800",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "54e13f4893ecf63288fa663c",
+          "title": "Northampton break England’s duck in Champions Cup with victory over Cardiff",
+          "translatedTitle": null,
+          "description": "Pool 4: Northampton 28-12 Cardiff Saints claim first win for Prem side at eighth time of asking At 7.16pm, just around the time those Sunday night blues kick in, England’s Champions Cup cohort finally had something to cheer about. It was not pretty but after seven of their Prem rivals had failed to claim victory in the opening round of the competition, Saints survived a sizeable scare from Cardiff to put one on the board for the Prem, thanks in no small part to the excellent George Hendy. It mig",
+          "url": "https://www.theguardian.com/sport/2026/oct/18/northampton-cardiff-champions-cup-rugby-union-match-report",
+          "canonicalUrl": "https://theguardian.com/sport/2026/oct/18/northampton-cardiff-champions-cup-rugby-union-match-report",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-18T18:31:41Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/a90bd4121d27e16a92a7e3f94251d050d56b022a/241_149_3329_2664/master/3329.jpg?width=140&quality=85&auto=format&fit=max&s=e5b65e3ba233f324626404b7dcb0a071",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-18T20:18:03Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "bbf0539582c4d6425800",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "northampton break england s duck in champions cup with victory over cardiff"
+        }
+      ],
+      "rankingScore": 7.28846
     },
     {
       "id": "688914c6cffe0d150dee2861",
@@ -412,7 +411,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
+      "retrievedAt": "2026-10-18T20:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -420,68 +419,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.3957
-    },
-    {
-      "id": "950c34325cb0f1eacbd070df",
-      "title": "Everything a struggle for Fernandes - Leeds v Man Utd ratings",
-      "translatedTitle": null,
-      "description": "Dominic Calvert-Lewin's second-half equaliser means Manchester United have now gone six games without a win for the first time since 2019 - find out who rated highest at Elland Road.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckvg7v43x1xyo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/ckvg7v43x1xyo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T14:56:01Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52da/live/cdec1700-cb06-11f1-a64c-550be9e3c66b.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fea0b27cfe5fc9d2f68b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "f6f94b4d8a13111ad3008412",
-          "title": "Man United player ratings vs Leeds: Midfielder earns 8/10 as Bruno Fernandes struggles",
-          "translatedTitle": null,
-          "description": "Bryan Mbeumo opened the scoring at Elland Road but Michael Carrick’s side could only draw 1-1 with Leeds",
-          "url": "https://www.independent.co.uk/sport/football/man-united-player-ratings-leeds-bruno-fernandes-tielemans-b3068762.html",
-          "canonicalUrl": "https://independent.co.uk/sport/football/man-united-player-ratings-leeds-bruno-fernandes-tielemans-b3068762.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-10-18T15:07:23Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/18/16/2300816696..?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-10-18T16:18:03Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "fea0b27cfe5fc9d2f68b",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "man united player ratings vs leeds midfielder earns 8 10 as bruno fernandes struggles"
-        }
-      ],
-      "rankingScore": 7.3488
+      "rankingScore": 6.97025
     },
     {
       "id": "299bf330207e905a3b7fef1e",
@@ -503,7 +441,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
+      "retrievedAt": "2026-10-18T20:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -542,7 +480,7 @@
           "normalizedTitle": "health secretary vows to end corridor care for children in hospitals"
         }
       ],
-      "rankingScore": 7.05678
+      "rankingScore": 6.70881
     },
     {
       "id": "b30f29d46c4409c406dd53ec",
@@ -560,19 +498,739 @@
       ],
       "language": "en",
       "publishedAt": "2026-10-18T13:49:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-volodymyr-zelenskyy_7379882.jpg?20261018150839",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-russia-st-petersburg_7380108.jpg?20261018180529",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
+      "retrievedAt": "2026-10-18T20:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "48df5353cf9e475480fc",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.52442,
+      "related": []
+    },
+    {
+      "id": "d8fcf97f9eff97fff35023c8",
+      "title": "Violent protests a threat to EU membership, not government, Albanian PM says",
+      "translatedTitle": null,
+      "description": "Albania's prime minister has said he will not resign despite days of protest and growing unrest, warning that the escalating violence is threatening the country's chances of joining the European Union.",
+      "url": "https://news.sky.com/story/violent-protests-a-threat-to-eu-membership-not-government-albanian-pm-says-13600589",
+      "canonicalUrl": "https://news.sky.com/story/violent-protests-a-threat-to-eu-membership-not-government-albanian-pm-says-13600589",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T12:54:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-albania-protest_7379903.jpg?20261018151829",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fb99085d92373a34ca22",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.90613
+      "rankingScore": 6.44823
+    },
+    {
+      "id": "feca8fb8b856d4407d314003",
+      "title": "NHS England policy for trans people could have ‘a number of adverse impacts’, report finds",
+      "translatedTitle": null,
+      "description": "Exclusive: rules on same-sex wards could lead to delays in care, discrimination and animosity between groups, finds internal assessment Trans people could face delays and a greater risk of “corridor care” under new NHS England guidance that means they will no longer be able to use same-sex wards, according to an internal report. An NHS England impact assessment, seen by the Guardian, stated that trans people may also potentially experience discrimination and this could lead to them “avoiding acc",
+      "url": "https://www.theguardian.com/society/2026/oct/18/nhs-england-guidance-single-sex-wards-trans-people-adverse-impacts-report",
+      "canonicalUrl": "https://theguardian.com/society/2026/oct/18/nhs-england-guidance-single-sex-wards-trans-people-adverse-impacts-report",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T12:00:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f1b2d9049404087b04729050f431ddbdd97f3906/783_0_2717_2174/master/2717.jpg?width=140&quality=85&auto=format&fit=max&s=1a11245ffe5db4bda8429a34f969577f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "228660478f97239b294c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.37718
+    },
+    {
+      "id": "f3bdf9b077c3870841530cb1",
+      "title": "How to make the perfect poires belle Hélène – recipe | Felicity Cloake's How to make the perfect …",
+      "translatedTitle": null,
+      "description": "Cool, juicy pears, cold ice-cream, hot chocolate sauce and a crunchy garnish – the perfect pudding It’s always slightly embarrassing to realise that you’ve missed a pop culture reference, even if it’s 162 years old, so I won’t dwell on the fact that until last week I was unaware of the existence of Offenbach’s 1864 operetta about Helen of Troy, La Belle Hélène, after which today’s dish is named. In any case, the great French chef Escoffier was so moved by it, or perhaps by its popularity among P",
+      "url": "https://www.theguardian.com/food/2026/oct/18/how-to-make-the-perfect-poires-belle-helene-recipe-felicity-cloake",
+      "canonicalUrl": "https://theguardian.com/food/2026/oct/18/how-to-make-the-perfect-poires-belle-helene-recipe-felicity-cloake",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T12:00:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5ee67f7af1ec6cd589e6bf8b12d569ff7d191f69/507_2544_4230_3384/master/4230.jpg?width=140&quality=85&auto=format&fit=max&s=381ad6195082619facb0ac185c85dab8",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "47a613dfe5a93f0b2d99",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.37718
+    },
+    {
+      "id": "3bca9293b71f51edde3e8672",
+      "title": "World leaders must wise up to threat of cyber-attacks or rogue fridges will be least of their worries | Heather Stewart",
+      "translatedTitle": null,
+      "description": "Global cooperation seems unlikely despite AI increasing the risk of digital fraud and the need to protect the financial system Rogue French fridges were an unlikely talking point for the world’s leading economists, central bankers and finance chiefs meeting in a sultry Bangkok last week – helping to underline the spiralling cost of cyber-attacks. Kristalina Georgieva, the managing director of the International Monetary Fund, seized on news that supermarket chains across France had to chuck out p",
+      "url": "https://www.theguardian.com/business/2026/oct/18/world-leaders-threat-cyber-attacks-rogue-fridges-financial-system",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/18/world-leaders-threat-cyber-attacks-rogue-fridges-financial-system",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T11:46:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3ba762c70e9c188fc6533e353ffe9c2e077e95c6/147_5_4646_3720/master/4646.jpg?width=140&quality=85&auto=format&fit=max&s=b51f40369a7632db7e180a783eaa7a86",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "add5e39e729dfd5fb06a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.3603
+    },
+    {
+      "id": "f951a5b0bb9d5862ae3ed749",
+      "title": "The problem with telling people the world is ending",
+      "translatedTitle": null,
+      "description": "In the face of terrible crises, it can feel right to shock people into action. But what if that has the opposite effect? These days, it’s easy to succumb to hopelessness. Whether you’re thinking about the climate crisis, the prospect of AI apocalypse, war or political turmoil, the list of challenges facing humanity can seem insurmountable. It certainly feels unprecedented, and much of it may be. The sense of impending doom, on the other hand, is nothing new. And what we have learned from the pas",
+      "url": "https://www.theguardian.com/environment/2026/oct/18/the-problem-with-telling-people-the-world-is-ending",
+      "canonicalUrl": "https://theguardian.com/environment/2026/oct/18/the-problem-with-telling-people-the-world-is-ending",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T11:00:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6f0d058c42b79760b843844b257d2a8976742a76/158_0_1531_1224/master/1531.jpg?width=140&quality=85&auto=format&fit=max&s=db3842d8a7bcc295de226bebe29c1720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "16db6aa01655710cdb92",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.30219
+    },
+    {
+      "id": "8f323cc204c0ae554d622c6b",
+      "title": "Ali G answers his critics: ‘Me ain’t the first intellectual to get haterz’",
+      "translatedTitle": null,
+      "description": "Staines’s finest nailed the zeitgeist of the late 90s and early 00s, and now he’s back – but how does he fit into 2026? He discusses the backlash against his return, his worst ever interviewee and how he’s going to prevent world war two “Can you tell people that you’re from Hustler?” Ali G asks me. “Or The Source. Or Guns & Ammo. Speaking to a Guardian journalist ain’t a good look for me in the hood.” At Ali’s request, we are meeting in an independent chicken shop in Staines because – due to som",
+      "url": "https://www.theguardian.com/culture/2026/oct/18/ali-g-film-who-iz-i-interview-sacha-baron-cohen",
+      "canonicalUrl": "https://theguardian.com/culture/2026/oct/18/ali-g-film-who-iz-i-interview-sacha-baron-cohen",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T09:00:55Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/25aed892b82e08b2e0eed3714f8d98e4724206f5/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=c0f928cf559f75e87abea1cacc1bcabc",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "63acfb29acdb8bf49ef9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.16516
+    },
+    {
+      "id": "fa52cf8012c3e8d128d2c4b2",
+      "title": "Madueke's 'anger and conviction' shows he's more than a 'finisher'",
+      "translatedTitle": null,
+      "description": "Noni Madueke may not have the role he wants at Arsenal but his winning goal against Nottingham Forest showed why he is one of Mikel Arteta's valued players.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3qjnyw8qe4do?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c3qjnyw8qe4do?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T19:55:41Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/30fd/live/9dd03a10-cb1f-11f1-bfba-6f29101eb4a3.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "471efe2de03e3137f39c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.06474
+    },
+    {
+      "id": "b3c3ea01ca878592eb2401f7",
+      "title": "Cindy Crawford 'beyond heartbroken' after death of son Presley at 27",
+      "translatedTitle": null,
+      "description": "Presley Gerber's death in September is being investigated as a suspected overdose.",
+      "url": "https://www.bbc.co.uk/news/articles/cwzrd6123jyyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cwzrd6123jyyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T19:53:27Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e6f/live/104d6ec0-cb23-11f1-862d-eb45b1209086.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5c694145797341dd1ec7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.06029
+    },
+    {
+      "id": "4cfd526a7a74058d015b3d1c",
+      "title": "Sage feels 'shame' at Palace thrashing with future in doubt",
+      "translatedTitle": null,
+      "description": "Crystal Palace manage Pierre Sage says he feels \"shame\" at the Eagles' performance during their 5-0 thrashing by Brighton and does not know if he will be given time to save his job.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq1kdzp093jwo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cq1kdzp093jwo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T19:51:22Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78a5/live/3cade3d0-cb2a-11f1-97d2-23d8daaba2e1.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "887eb8886ac6ffd66eb5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.05615
+    },
+    {
+      "id": "e7fa8161ca877436d7707533",
+      "title": "What we know so far about deadly fire at Canadian military base",
+      "translatedTitle": null,
+      "description": "At least four people are confirmed to have died after a huge fire swept through the base.",
+      "url": "https://www.bbc.co.uk/news/articles/cmgelrq8x92do?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmgelrq8x92do?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T19:42:37Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d82/live/7fedb8b0-cb1a-11f1-a9ef-8b4e735f71f0.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "495ed122158a20961d9c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.03883
+    },
+    {
+      "id": "cc0b4a80a4196478b05096b3",
+      "title": "Heat pumps and insulation would cut UK living costs more than new oilfields, study suggests",
+      "translatedTitle": null,
+      "description": "Warm homes plan would create 50,000 jobs, compared with about 1,100 for Rosebank oilfield, thinktank finds Insulating Britain’s homes and investing in heat pumps would do more to cut the cost of living, create jobs and boost the UK’s economy than drilling for new oil, research suggests. The government’s £15bn warm homes plan, currently under threat of cuts as ministers seek budget savings, would slash £1bn a year from household energy bills across the UK, concentrated on those on low incomes, ac",
+      "url": "https://www.theguardian.com/environment/2026/oct/18/heat-pumps-insulation-warm-homes-plan-beat-new-oilfields-cutting-uk-cost-of-living-study",
+      "canonicalUrl": "https://theguardian.com/environment/2026/oct/18/heat-pumps-insulation-warm-homes-plan-beat-new-oilfields-cutting-uk-cost-of-living-study",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T06:00:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/17978cd696651795838e822e282921a9bea6be07/1365_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=f6c339f97bc6c3f2cb1b10e71b9338ab",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5004bcd337c982fedbf1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.98471
+    },
+    {
+      "id": "4ae80e9fb6c4071f7df1a61e",
+      "title": "£3,500 and no work done: the offer to help that’s really a roofing scam",
+      "translatedTitle": null,
+      "description": "Citizens Advice warns of its No 1 scam as growing number of people are targeted by criminals posing as roofers The builder who calls at your door says they are doing some work in the area and has spotted a loose tile on your roof. They offer to fix it for a good price that you agree to. But when they go up on their ladder to inspect the problem, they see another problem. Rain has been splashing out of the gutters and the wood around them is getting damaged. The only solution, the builder says, i",
+      "url": "https://www.theguardian.com/money/2026/oct/18/suspected-roofing-frauds-top-citizens-advice-scam-list",
+      "canonicalUrl": "https://theguardian.com/money/2026/oct/18/suspected-roofing-frauds-top-citizens-advice-scam-list",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T06:00:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c582911d8287179ad3cfbe0b99b9f46d293be244/875_0_4337_3468/master/4337.jpg?width=140&quality=85&auto=format&fit=max&s=ba545e216b4cc232bd7a6e6e6592a6e4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fe078caa51bf46225150",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.98469
+    },
+    {
+      "id": "6f797f767d5ced7bb8e2bfc6",
+      "title": "‘There’s a lot of racism, a lot of hatred’: Far right gains predicted as Israel heads to the polls",
+      "translatedTitle": null,
+      "description": "Whether or not Netanyahu can hold on to power, Israelis are expected to vote in a more rightwing Knesset Four decades ago, when the extremist rabbi Meir Kahane won a single seat in Israel’s Knesset, other legislators passed a law to prevent him running again, left the chamber when he rose to speak and worked together to block discussion of his ethnonationalist proposals. These ranged from mass expulsions of Palestinians to apartheid provisions such as segregated beaches and the criminalisation o",
+      "url": "https://www.theguardian.com/world/2026/oct/18/theres-a-lot-of-racism-a-lot-of-hatred-far-right-gains-predicted-as-israel-heads-to-the-polls",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/18/theres-a-lot-of-racism-a-lot-of-hatred-far-right-gains-predicted-as-israel-heads-to-the-polls",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T05:00:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5b963e037d3648b0351f8ab098d90d4bb2df7134/1252_535_6160_4927/master/6160.jpg?width=140&quality=85&auto=format&fit=max&s=00c6f622ffde9518ac0d4112cd124488",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5fefaf9b32ef25241ed7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.93094
+    },
+    {
+      "id": "733a9872e6b1cfa8d9030fb9",
+      "title": "Blunder in, abandon allies and court a dictator: it’s the Trump doctrine, now playing out in Myanmar | Steve Bloomfield",
+      "translatedTitle": null,
+      "description": "The US condemned the genocide and military rule there, but now that Trump craves its rare earths, that’s all changed. For democracy activists, that’s a disaster Marco Rubio was once adamant that the US had to do everything in its power to end what he described as the “ethnic cleansing” of the Rohingya in Myanmar. In a 2017 letter he signed along with 20 other US senators, Rubio called for “strong multilateral sanctions against specific senior Burmese military officials associated with the gross",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/18/myanmar-donald-trump-dictator-rare-earths-china",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/18/myanmar-donald-trump-dictator-rare-earths-china",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T05:00:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d55959dd1c5c3081eda8483ffea30884a051144f/332_0_1668_1334/master/1668.jpg?width=140&quality=85&auto=format&fit=max&s=7bdbedd6d68abad7b30499603d3a8445",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d184258de7c93313363a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.93092
+    },
+    {
+      "id": "42125e2963845ca82807f0cf",
+      "title": "Shades of Barca and Beckham - Brighton aim to maintain superb start",
+      "translatedTitle": null,
+      "description": "With 23 goals in seven Premier League matches, including some stunning strikes, Brighton continue to delight their fans and get them dreaming of what might be.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyd05wj00do?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cmwyd05wj00do?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T18:33:29Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d46/live/f82b45d0-cb25-11f1-a64c-550be9e3c66b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "973f2ed30c7c3a66d36a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.90683
+    },
+    {
+      "id": "33235f471ba0b0f8b20ef042",
+      "title": "Hearts roll out red carpet ... and Celtic walk all over it",
+      "translatedTitle": null,
+      "description": "Hearts thought attack was the best form of defence at Celtic Park. They were badly wrong, writes Tom English.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c62kezneyq8vo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c62kezneyq8vo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T18:22:50Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ef9/live/38173b20-cb1e-11f1-bfba-6f29101eb4a3.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8de684545c7c0159f6d9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.88723
+    },
+    {
+      "id": "a36b699250ef49e0f7f02932",
+      "title": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
+      "translatedTitle": null,
+      "description": "Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbou",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
+      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T04:00:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/695b7c54600f1a7aeb665fd7f024c80a6b5330d6/391_162_7606_6086/master/7606.jpg?width=140&quality=85&auto=format&fit=max&s=7e770d17c51c9105e4dc74a829280d48",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "28b78a8b244d892697f2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.88006
+    },
+    {
+      "id": "1225c8956f437dcb7bee59dd",
+      "title": "Texans beat Jaguars at the last; Bears v Falcons, Ravens 10-13 Browns and more: NFL week six – live",
+      "translatedTitle": null,
+      "description": "Texans 34-31 Jaguars in Wembley thriller Week six: Seahawks 14-17 Broncos | Email Graham Speaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody. Texans 0-0 Jaguars 11:08, 1st quarter Continue reading...",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
+      "canonicalUrl": "https://theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T20:14:54Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/68d471517f542b3feb4addbfd43a6c8f724546e0/667_0_3880_3104/master/3880.jpg?width=140&quality=85&auto=format&fit=max&s=f9a00db87e7a004c57155b9059ed2eb7",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "968fb2dc74c466e49f8e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.83343,
+      "related": []
+    },
+    {
+      "id": "6de4b747a4dcf66b63c80b35",
+      "title": "Elite-level incompetence is Manchester United’s problem – not Michael Carrick | Barney Ronay",
+      "translatedTitle": null,
+      "description": "Getting rid of Michael Carrick is not going to solve the problems that led to his appointment. Perhaps it’s worth, for once, doing something different At the final whistle at Elland Road the TV cameras cut to a lingering shot of Manchester United chief executive Omar Berrada, looking down pensively from the stands, deciding, it is to be hoped, on a little clemency, a re-sheathing of the managerial shotgun. Here we have the man who hired the man. The man who fires the man. The man who also hired",
+      "url": "https://www.theguardian.com/football/2026/oct/18/manchester-united-michael-carrick-omar-berrada-leeds-premier-league",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/18/manchester-united-michael-carrick-omar-berrada-leeds-premier-league",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T19:56:30Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fa837ba373a3097b6d161c17fdf1758bcaac5cb9/145_0_1756_1404/master/1756.jpg?width=140&quality=85&auto=format&fit=max&s=ce0ed0daeb6828542faf551794e1bedb",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bae0e9708f821ef47e54",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.79637
+    },
+    {
+      "id": "8a0d62a14abadae2607c527c",
+      "title": "Mbeumo offers Carrick solace as Man Utd winless run goes on",
+      "translatedTitle": null,
+      "description": "Michael Carrick said he had his headphones on this week so didn't hear the noise around Manchester United, but a 1-1 draw at Leeds means it is six games without a win.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c699zmgmx9vzo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c699zmgmx9vzo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T17:24:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f58/live/5e6a76a0-cb25-11f1-a64c-550be9e3c66b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ed60c98a2668a0819203",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.78371
+    },
+    {
+      "id": "b6624c840aa3673821a97cec",
+      "title": "Two teenagers dead after car crash in Suffolk village",
+      "translatedTitle": null,
+      "description": "Two teenagers have died after a car crash in a Suffolk village, police have said.",
+      "url": "https://news.sky.com/story/two-teenagers-dead-after-car-crash-in-suffolk-village-13600781",
+      "canonicalUrl": "https://news.sky.com/story/two-teenagers-dead-after-car-crash-in-suffolk-village-13600781",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T19:40:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-suffolk-debenhamroad_7380263.png?20261018210102",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "907436ded081695f34d9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.76368
+    },
+    {
+      "id": "993224e33e16f0069378e301",
+      "title": "Kansas driver who allegedly killed two and hurt 10 at soccer game is released from custody",
+      "translatedTitle": null,
+      "description": "Wichita police awaiting toxicology results and mechanical exam of pickup truck driven by the 34-year-old woman A woman who was arrested on Saturday after she drove a truck through a youth soccer game in Wichita, Kansas – killing a boy and a man – has been released from custody without charges pending further investigation, according to authorities. In a statement on Sunday, the Wichita police department said investigators were awaiting the results of toxicology testing on the driver, whom the ag",
+      "url": "https://www.theguardian.com/us-news/2026/oct/18/wichita-kansas-soccer-field-game-truck-deaths",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/18/wichita-kansas-soccer-field-game-truck-deaths",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T19:30:58Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ec6b5cbd7ad36ef6d45ced7d4676694cf395548f/223_0_1111_889/master/1111.jpg?width=140&quality=85&auto=format&fit=max&s=4e0b67f72cac10ec16eb08dd735c782a",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b8b8e7c1d545cf226e68",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.74599
+    },
+    {
+      "id": "b008cb2d8592f61ce58d5d62",
+      "title": "Man, 80, who died in light aircraft crash near Loch Lomond named",
+      "translatedTitle": null,
+      "description": "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmx23p5w7123o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T17:00:42Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/153b/live/e7c21f60-cae0-11f1-bc2e-018d645d8d21.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d6780ca1e0dcf532b9d8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.74244
+    },
+    {
+      "id": "5b663f917558da294829f452",
+      "title": "Outrage after Meta suspends No Kings Instagram account during protests",
+      "translatedTitle": null,
+      "description": "‘Meta owes us an explanation,’ group says as organizers fear censorship after account goes dark for several hours The coalition leaders behind nationwide pro-democracy protests that have drawn millions of Americans to the streets in recent years were frustrated when its Instagram account was temporarily shut down during its latest demonstration on Saturday. The No Kings movement’s account went dark for several hours while protests focused on increasing early voter turnout were underway, sparking",
+      "url": "https://www.theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/18/no-kings-instagram-account-suspended-during-protests",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T19:00:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ac9bb00e4c679b0e3959ae0f8e9825f1461f7202/116_0_1666_1333/master/1666.jpg?width=140&quality=85&auto=format&fit=max&s=f158e4144d5e376374a809cd597806c1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "450ed1724a60fdfbf853",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68653
     },
     {
       "id": "70155b97642f00f347fd8bda",
@@ -601,8 +1259,128 @@
       "clusterId": "40567ab334363c3a66fb",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.8332,
+      "rankingScore": 5.6473,
       "related": []
+    },
+    {
+      "id": "151e88abd47c7fe307abf458",
+      "title": "Second day of violence in Milan as protesters clash with police",
+      "translatedTitle": null,
+      "description": "Protesters have clashed with police in a second day of violence in the Italian city of Milan.",
+      "url": "https://news.sky.com/story/second-day-of-violence-in-milan-as-protesters-clash-with-police-13600765",
+      "canonicalUrl": "https://news.sky.com/story/second-day-of-violence-in-milan-as-protesters-clash-with-police-13600765",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T18:37:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-milan-cathedral-protest_7380210.jpg?20261018194941",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "79b942489b000068daf6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.64334
+    },
+    {
+      "id": "c9c6c1922a7c9113fa827496",
+      "title": "Cut benefits to fund work support for young people, says Neet review author Alan Milburn",
+      "translatedTitle": null,
+      "description": "Exclusive: Former health secretary says upfront investment in support is needed ‘if we are going to end the Neet crisis’ Ministers should cut welfare spending to fund more employment support if it wants to end the youth Neet crisis, the author of a government-led review has said. Alan Milburn, the Tony Blair-era health secretary, told the Guardian he believed ministers should reduce benefits payments to help pay for more employment support, opening a potentially contentious debate within the Lab",
+      "url": "https://www.theguardian.com/society/2026/oct/18/cut-benefits-fund-employment-support-young-people-neet-review-author-alan-milburn",
+      "canonicalUrl": "https://theguardian.com/society/2026/oct/18/cut-benefits-fund-employment-support-young-people-neet-review-author-alan-milburn",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T18:30:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c641e402d808f00f61489b84a29a01069fdf14bf/902_15_3323_2659/master/3323.jpg?width=140&quality=85&auto=format&fit=max&s=7f5dac0e6d6f46df34460069c2264a5e",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0233c9172c8787a4fbde",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.63098
+    },
+    {
+      "id": "22e511a525d92183e7ac6680",
+      "title": "Shabana Mahmood to hold talks with EU over law enforcement cooperation",
+      "translatedTitle": null,
+      "description": "UK home secretary’s meeting comes after PM said he wanted to rejoin European law enforcement databases The UK home secretary, Shabana Mahmood, will meet the EU’s home affairs commissioner on Monday for further talks just days after Andy Burnham said he wanted to rejoin European law enforcement databases from which the UK has been locked out of since Brexit. According to the European Commission, they will discuss “migration, border management, law enforcement cooperation and counter-terrorism”, w",
+      "url": "https://www.theguardian.com/politics/2026/oct/18/shabana-mahmood-talks-eu-law-enforcement-cooperation-magnus-brunner",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/18/shabana-mahmood-talks-eu-law-enforcement-cooperation-magnus-brunner",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T18:13:11Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/24e45bf3b5e3a5f717a23661a27db15921ddebcb/341_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=38b190c1b0d0608a45ad2b88f4febef3",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b7c321fd0ff38043e203",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.59965
+    },
+    {
+      "id": "9ec0374c945be3c145d98702",
+      "title": "West Midlands Police officer who accessed police records 2,000 times sacked",
+      "translatedTitle": null,
+      "description": "A misconduct hearing said many of the records accessed were sensitive and held \"intimate information\".",
+      "url": "https://www.bbc.co.uk/news/articles/cmkg7jl1wxvgo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmkg7jl1wxvgo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T15:30:49Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d46f/live/4290c6f0-cb07-11f1-a64c-550be9e3c66b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3ee255ba14763886ace8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.59611
     },
     {
       "id": "024163c5c2b56dbcdcfc4370",
@@ -631,16 +1409,46 @@
       "clusterId": "899911b98e31c6855b3a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.83183
+      "rankingScore": 5.57413,
+      "related": []
     },
     {
-      "id": "1aacfea794db9ed8a9db0461",
-      "title": "Search for Amelia Earhart's plane resumes after stormy weather",
+      "id": "c1c1c9d489c3550d1fecda02",
+      "title": "Dance Is Not for Us review – desire and defiance as one revolutionary mover sweats it all out",
       "translatedTitle": null,
-      "description": "An expedition to a remote Pacific island hoping to uncover the American aviator's wreckage was on hold for three days.",
-      "url": "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cv70pxe5j90eo?at_campaign=rss&at_medium=RSS",
+      "description": "Barbican, LondonOmar Rajeh performs out of frustration, resistance and a need to connect in this stream-of-consciousness solo at Dance Umbrella festival In August 2019, Omar Rajeh sat in his bedroom, listening to the sound of pounding percussion with his world in crisis. In the midst of political instability, Citerne Beirut, a theatre and cultural centre Rajeh had founded in his native Lebanon, was forced to close, dismantled by order of the local government, who planned to build an incinerator",
+      "url": "https://www.theguardian.com/stage/2026/oct/18/dance-is-not-for-us-review-barbican-london-omar-rajeh",
+      "canonicalUrl": "https://theguardian.com/stage/2026/oct/18/dance-is-not-for-us-review-barbican-london-omar-rajeh",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-18T17:45:56Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/71cab68c9e406e5b89d21ad249b8608463778199/78_0_3906_3124/master/3906.jpg?width=140&quality=85&auto=format&fit=max&s=ccf3b659248d7713c708d120ce58fae5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-18T20:18:03Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cd39018fd97066df5be2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.55082
+    },
+    {
+      "id": "e14a87776c0ddc064d53f150",
+      "title": "Polanski says he will not overturn Green Party's 'Zionism is racism' motion",
+      "translatedTitle": null,
+      "description": "The Green Party leader said, while he wanted to amend it, the motion would stand until 2028.",
+      "url": "https://www.bbc.co.uk/news/articles/cmn8w5v8yne4o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmn8w5v8yne4o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -649,28 +1457,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-18T13:47:07Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f795/live/26bf0220-cacb-11f1-b5ff-6fb710f59c84.jpg",
+      "publishedAt": "2026-10-18T14:57:19Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de1f/live/a4d8c560-cae4-11f1-bc2e-018d645d8d21.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
+      "retrievedAt": "2026-10-18T20:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ba7b24348a336bfa4ee5",
+      "clusterId": "abd8ed5d1a64e05390eb",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.82279
+      "rankingScore": 5.54461
     },
     {
-      "id": "5ea5f0724175d554b927903e",
-      "title": "Texans v Jaguars at Wembley: NFL week six – live",
+      "id": "caa23930591c48e7444cea46",
+      "title": "Madueke breaks Nottingham Forest’s resistance as dogged Arsenal edge to victory",
       "translatedTitle": null,
-      "description": "NFL updates from the 2.30pm BST kick-off at Wembley Week six: Seahawks 14-17 Broncos | Email Graham Speaking to how good they are against the run, the Jaguars have gone 22 games without allowing a rusher to go for more than 75 yards. Good luck, Woody. Texans 0-0 Jaguars 11:08, 1st quarter Continue reading...",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-      "canonicalUrl": "https://theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
+      "description": "The theme before kick-off was blanks. Or, more precisely, whether either team could stop firing them at the City Ground. It was a detail to make Oliver Glasner extremely uncomfortable that his Nottingham Forest team had still to score at their own stadium this season. Arsenal, meanwhile, had drawn 0-0 on their previous two visits to this part of the east Midlands. They had only one win in five here. Forest’s frustrations under their new manager go on. It was another spirited performance from the",
+      "url": "https://www.theguardian.com/football/2026/oct/18/nottingham-forest-arsenal-premier-league-match-report",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/18/nottingham-forest-arsenal-premier-league-match-report",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -679,118 +1487,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-18T16:03:21Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/912362d19421acc37e6f33a7473b6a63bb0076de/1229_40_3404_2723/master/3404.jpg?width=140&quality=85&auto=format&fit=max&s=6452c11d6b6425365d030fb1c10d0f7a",
+      "publishedAt": "2026-10-18T17:39:57Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/df07e2ec49d779e4e5e9945c48fd002f07a23d63/618_267_3985_3188/master/3985.jpg?width=140&quality=85&auto=format&fit=max&s=568076dcd7811c3ab63aa877424b5838",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
+      "retrievedAt": "2026-10-18T20:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "aefd7992ce2960bfb2b1",
+      "clusterId": "2e26b6426774a58e35f3",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80995
+      "rankingScore": 5.54026
     },
     {
-      "id": "fa29b27e3d196897d60055b9",
-      "title": "Britain's Kartal misses out on biggest title of her career",
+      "id": "9f8335e2c0a69ed54fdfb2b0",
+      "title": "Zack Polanski says application of Zionism is racist and no state has right to exist",
       "translatedTitle": null,
-      "description": "Britain's Sonay Kartal fades from a strong position in a gripping Wuhan Open final against Grand Slam runner-up Maja Chwalinska.",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cqm2411vp3dgo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/tennis/articles/cqm2411vp3dgo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T13:39:24Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf81/live/0368aac0-caf7-11f1-acd8-5f0e740dfa92.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b391bea59a1216f9f645",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80917
-    },
-    {
-      "id": "f2815f8ca532043630fb9ab5",
-      "title": "Suspects hunted after police officer injured in shooting",
-      "translatedTitle": null,
-      "description": "A firearm has been recovered by officers after a man and a woman fled the scene, detectives say.",
-      "url": "https://www.bbc.co.uk/news/articles/c63elzvjpgn2o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c63elzvjpgn2o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T13:10:18Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ed4/live/5bd8d440-caee-11f1-ac38-a74b6e44cca7.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "57585565cbcf63eb6a67",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.75868
-    },
-    {
-      "id": "0c32bbdfce73473ff957061d",
-      "title": "AP Top 25 live updates: A historic shake-up could be coming after 5 of the top 7 teams lose",
-      "translatedTitle": null,
-      "description": "College football has never seen a Saturday like this",
-      "url": "https://www.independent.co.uk/news/georgia-college-football-indiana-notre-dame-alabama-b3068813.html",
-      "canonicalUrl": "https://independent.co.uk/news/georgia-college-football-indiana-notre-dame-alabama-b3068813.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T16:07:38Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/18/17/Alabama_Tennessee_Football__6793.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "62b53ae9bb33e717a42f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72858
-    },
-    {
-      "id": "43475a672c5fc3e4b760aed7",
-      "title": "Evanilson swivels his hips to seal Bournemouth win against 10-man Sunderland",
-      "translatedTitle": null,
-      "description": "Bournemouth’s and Marco Rose’s wait for a Premier League win is over. Sunderland, locked in the bottom three, are becoming this season’s object lesson in travelling too far too fast. Sixth and seventh last season, that both teams have struggled domestically while cruising in the Europa League speaks to a continental drift where talent from mid-range but historically grander clubs is readily picked off by Premier League clubs. Continue reading...",
-      "url": "https://www.theguardian.com/football/2026/oct/18/bournemouth-sunderland-premier-league-match-report",
-      "canonicalUrl": "https://theguardian.com/football/2026/oct/18/bournemouth-sunderland-premier-league-match-report",
+      "description": "Green leader in England and Wales calls ‘debates about words’ unhelpful and denies recent motion was controversial Zack Polanski has said Zionism in its current form is racist, that no country has a right to exist, and that the Green party motion on the issue was not controversial. The leader of the Green party in England and Wales gave an unapologetic interview to the BBC on Sunday two weeks after his party approved a motion equating Zionism with racism. Continue reading...",
+      "url": "https://www.theguardian.com/politics/2026/oct/18/greens-zack-polanski-application-zionism-racist-no-state-right-to-exist",
+      "canonicalUrl": "https://theguardian.com/politics/2026/oct/18/greens-zack-polanski-application-zionism-racist-no-state-right-to-exist",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -799,800 +1517,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-18T15:19:30Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/42888225105c0a91a8fb048e4c39899295ceab8c/711_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=1c681dac39d69b6343977230e4c9f820",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ea32d2ca971e3cedda9e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72361
-    },
-    {
-      "id": "4bf26c619adeceaed20545c1",
-      "title": "Police investigate Reform mayor for allegedly sharing ‘naked and sexualised’ images of himself",
-      "translatedTitle": null,
-      "description": "Female colleague says she was forced out shortly after incident with Luke Campbell, Hull and East Yorkshire mayor A Reform UK mayor is under police investigation for allegedly showing “naked and sexualised” images of himself to a female member of staff. Luke Campbell, a former Olympic boxing champion and the mayor of Hull and East Yorkshire, is understood to have been questioned under caution by Humberside police earlier this month. Continue reading...",
-      "url": "https://www.theguardian.com/politics/2026/oct/18/police-investigate-reform-mayor-allegedly-sharing-naked-sexualised-images-of-himself",
-      "canonicalUrl": "https://theguardian.com/politics/2026/oct/18/police-investigate-reform-mayor-allegedly-sharing-naked-sexualised-images-of-himself",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:18:04Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e3439b6dde6858e4f00f522708c30b35d747dcd9/468_0_3507_2806/master/3507.jpg?width=140&quality=85&auto=format&fit=max&s=22969b9211f9d7b60c162341031ee129",
+      "publishedAt": "2026-10-18T17:38:29Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2aff8e0ee8698a8df132d4378d084ce7d6c170c4/0_62_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=24a27a06d13fa0c72130d48e0c3c474f",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
+      "retrievedAt": "2026-10-18T20:18:03Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "710d18a6ea7de202c59c",
+      "clusterId": "9279681d920267a41ba3",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.72085
-    },
-    {
-      "id": "4651e5808f8f068d6f1940b3",
-      "title": "French government in crisis talks after ‘colossal failure of the state’",
-      "translatedTitle": null,
-      "description": "Ministers, officials and police under pressure over response to days of violent unrest in cities across France The French government was in crisis talks on Sunday after one of the most violent days of unrest in years left public buildings burned, hundreds of shops destroyed and looted, and more than 2000 people arrested in cities across the country. Politicians on the left and right called for the resignation of the interior minister, Laurent Nuñez, after the government appeared to have been cau",
-      "url": "https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:10:32Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5f500153bda796e2afac7a987063976da41c702a/266_0_6528_5223/master/6528.jpg?width=140&quality=85&auto=format&fit=max&s=6e303d8ed1b09c9e628fbbaf182caf77",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a8541016171b2ef4703e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70639
-    },
-    {
-      "id": "76fc583c46e06a9628c1fecc",
-      "title": "Manchester United held as Calvert-Lewin’s Leeds leveller keeps pressure on Carrick",
-      "translatedTitle": null,
-      "description": "What next for Michael Carrick and Manchester United? Game-wise the answer is Wednesday’s trip to Como yet after failing, again, to double the campaign’s league wins tally to two you have to wonder where this already flatlining team are heading. Sunday afternoon’s display was the latest unconvincing outing under the 45-year-old. It featured an odd formation, zero rhythm or control, and the same prevailing sense that the wheels could clatter off anytime. Continue reading...",
-      "url": "https://www.theguardian.com/football/2026/oct/18/leeds-manchester-united-premier-league-match-report",
-      "canonicalUrl": "https://theguardian.com/football/2026/oct/18/leeds-manchester-united-premier-league-match-report",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:08:48Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/7738dfe5af4d0a6b9c1f1c476d481a9a1df89ce6/167_91_1829_1463/master/1829.jpg?width=140&quality=85&auto=format&fit=max&s=dd349be29917d69bdb9206d51e5968ce",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a587406ea8ef4d8eabc0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70307
-    },
-    {
-      "id": "f3aeb32e3ea34fe0f9dcb564",
-      "title": "4.48 Psychosis review – a dazzling, harrowing opera worthy of Sarah Kane’s furious writing",
-      "translatedTitle": null,
-      "description": "Linbury theatre, LondonSix fearless singers and the Chroma Ensemble, conducted with arresting immediacy by Naomi Woo, rise to the challenge of the brutal musical onslaughts and anarchic orchestrations of Philip Venables’ raw, imaginative score Sarah Kane revolutionised British theatre with five provocative plays written between 1995 and 1999. Her final work, 4.48 Psychosis, was her most personal, confronting the clinical depression she struggled with for years. The play was first performed posth",
-      "url": "https://www.theguardian.com/music/2026/oct/18/4-48-psychosis-review-linbury-theatre-london-sarah-kane-royal-opera",
-      "canonicalUrl": "https://theguardian.com/music/2026/oct/18/4-48-psychosis-review-linbury-theatre-london-sarah-kane-royal-opera",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:03:23Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/437bb9e9df1a4ac47317960d24f624ddafb3191b/0_0_3739_2991/master/3739.jpg?width=140&quality=85&auto=format&fit=max&s=b313147bac88d97a6e829b5ce6cc1eac",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6942a3485c24d4d2e3b6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69275
-    },
-    {
-      "id": "dd323aa0edacbffbd2e556ce",
-      "title": "There are five signs that someone dislikes you – but it’s best to ignore them | Polly Hudson",
-      "translatedTitle": null,
-      "description": "All the possible indications, from eye contact to body language, come with a disclaimer. The truth is, you can never be totally sure ... I’d be far less paranoid if everyone wasn’t out to get me, so when BBC Science Focus dangled “The subtle signs somebody secretly dislikes you”, I’ve never clicked so fast. Knowledge is power, after all, and the promised signals came courtesy of psychologists via a magazine with the word science in its title. The first indication? They avoid eye contact. Apparen",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/18/there-are-five-signs-that-someone-dislikes-you-but-its-best-to-ignore-them",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/18/there-are-five-signs-that-someone-dislikes-you-but-its-best-to-ignore-them",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:00:02Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/8fc641205820336228ed8b4b9841ef764184f0ad/617_0_5012_4008/master/5012.jpg?width=140&quality=85&auto=format&fit=max&s=0330378549bfe458aaa088a08e217013",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3dd215bfa3bcedc3ce0c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68639
-    },
-    {
-      "id": "c9878dbf6b2025ed6d61ac36",
-      "title": "Trump hater Newsom breaks silence on ex-wife Kimberly Guilfoyle’s scandal. His response is surprising",
-      "translatedTitle": null,
-      "description": "Newsom’s response comes days after Guilfoyle was removed from her position as US ambassador to Greece following cash-for-access allegations",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/gavin-newsom-kimberly-guilfoyle-trump-breaks-silence-b3068783.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/gavin-newsom-kimberly-guilfoyle-trump-breaks-silence-b3068783.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:33:37Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/18/15/2300198245..?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "17f76a24354f985afec0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66103
-    },
-    {
-      "id": "99cc9e47f617610680d35802",
-      "title": "I’ve stayed in over 70 Airbnbs solo, here’s how to find the perfect stay",
-      "translatedTitle": null,
-      "description": "Having booked dozens of stays on the rental app, solo travel expert Lydia Swinscoe shares nine invaluable tips for choosing the very best bedrooms when going it alone",
-      "url": "https://www.independent.co.uk/travel/inspiration/airbnb-solo-travel-best-tips-b3068800.html",
-      "canonicalUrl": "https://independent.co.uk/travel/inspiration/airbnb-solo-travel-best-tips-b3068800.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:28:38Z",
-      "imageUrl": "https://static.independent.co.uk/2026/02/20/15/40/Lydia-Swinscoe-at-an-Airbnb-in-Mexico.jpeg?width=1200&auto=webp&trim=309%2C0%2C699%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7f11aeecb4759d29b8e0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65131
-    },
-    {
-      "id": "b66db5fcb0aadfcceafa3866",
-      "title": "Manchester City owner’s £55m housing loan while Burnham was mayor investigated",
-      "translatedTitle": null,
-      "description": "Scrutiny committee looks into financing of Manchester Life project as PM promises ‘full transparency’ A £55m loan to Manchester City’s Abu Dhabi owner will be investigated as part of a review into a fund for housing projects while Andy Burnham was mayor. The prime minister has faced weeks of scrutiny over his links to Manchester City’s super-rich owners after the club was found guilty of boosting its income by £900m in a nine-year breach of financial rules. Continue reading...",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/18/manchester-city-owners-55m-housing-loan-while-burnham-was-mayor-investigated",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/oct/18/manchester-city-owners-55m-housing-loan-while-burnham-was-mayor-investigated",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T14:41:15Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/6b3a1667129a26caf1698745fbfc67995278144e/213_0_2129_1704/master/2129.jpg?width=140&quality=85&auto=format&fit=max&s=48d0ec494eeff998b812bd550daec0b1",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ad7601e889e322fd7c57",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65111
-    },
-    {
-      "id": "a4b14e44c8b746bc65ab5cc0",
-      "title": "Man found on Dublin footpath dies after late night assault",
-      "translatedTitle": null,
-      "description": "Local media report a knife was involved in the attack",
-      "url": "https://www.independent.co.uk/news/world/europe/blackhorse-avenue-dublin-death-assault-b3068799.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/blackhorse-avenue-dublin-death-assault-b3068799.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:24:18Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/18/15/17/Screenshot-2026-10-18-at-16-22-50.png?width=1200&auto=webp&trim=0%2C125%2C0%2C124",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d66dfbb6339ae6b02e46",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64289
-    },
-    {
-      "id": "447e8b3d06812a0517198282",
-      "title": "Forest fires significantly worsening across Africa’s tropical nations, data shows",
-      "translatedTitle": null,
-      "description": "Exclusive: Prevalence of fires is increasing across the Congo and Guinean tropical forest basins, Nick Ferris reports – as fears grow the great forest sinks of Africa could one day go the way of the Amazon and Indonesia",
-      "url": "https://www.independent.co.uk/climate-change/fire-el-nino-climate-forest-africa-congo-b3067082.html",
-      "canonicalUrl": "https://independent.co.uk/climate-change/fire-el-nino-climate-forest-africa-congo-b3067082.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:21:28Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/15/8/44/iStock-1266552048-6f81d428.jpeg?width=1200&auto=webp&trim=0%2C103%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6b236484ef39d2324dd4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.63741
-    },
-    {
-      "id": "b9161acbeb836ac1d83b8644",
-      "title": "Woman condemns ‘degrading’ and ‘disturbing’ Halloween Park experience",
-      "translatedTitle": null,
-      "description": "Robyn Doughty describes her visit to Newsham Scream Park as ‘humiliating and quite disturbing’",
-      "url": "https://www.independent.co.uk/news/uk/home-news/newsham-halloween-park-liverpool-woman-b3068714.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/newsham-halloween-park-liverpool-woman-b3068714.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:12:31Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/18/9/02/Newsham-Scream-Park.jpeg?width=1200&auto=webp&trim=0%2C27%2C0%2C27",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f43b50ec96f43db4b4b8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.62018
-    },
-    {
-      "id": "45ceb2483c73455550a96c6b",
-      "title": "Driver arrested after teenage boy killed in crash",
-      "translatedTitle": null,
-      "description": "A 19-year-old man has been arrested after a 16-year-old boy died in a crash in Birmingham.",
-      "url": "https://news.sky.com/story/driver-arrested-after-teenage-boy-killed-in-crash-in-birmingham-13600596",
-      "canonicalUrl": "https://news.sky.com/story/driver-arrested-after-teenage-boy-killed-in-crash-in-birmingham-13600596",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T14:20:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-shaftmoor-lane-birmingham_7379809.png?20261018142903",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c918418c5d04f7b0258b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61193
-    },
-    {
-      "id": "9eeae264c4f188e2da1de0b2",
-      "title": "Oh my gourd! Pumpkin season is in session – St Abbs in pictures",
-      "translatedTitle": null,
-      "description": "A barrowful of family fun with gourds galore and even a pumpkin cannon at a patch on the Berwickshire coast Continue reading...",
-      "url": "https://www.theguardian.com/food/gallery/2026/oct/18/pumpkin-patch-st-abbs-berwickshire-scotland",
-      "canonicalUrl": "https://theguardian.com/food/gallery/2026/oct/18/pumpkin-patch-st-abbs-berwickshire-scotland",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T14:16:56Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5b3bef9ed9fe57611380d619bf75d2910afe1975/0_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=9be69c5e3099d219b2742af81117cb40",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1470843ab03231506d60",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60633
-    },
-    {
-      "id": "fc94816f303f540a27cf415d",
-      "title": "New corners help Bournemouth hit new attendance record during Sunderland win",
-      "translatedTitle": null,
-      "description": "Comes after firsy European game at the Vitality Stadium",
-      "url": "https://www.independent.co.uk/sport/football/bournemouth-attendance-sunderland-record-numbers-b3068785.html",
-      "canonicalUrl": "https://independent.co.uk/sport/football/bournemouth-attendance-sunderland-record-numbers-b3068785.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:05:13Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/18/15/01M57MCZNRVJQ8V9SG5Z9XCFG8.jpg?width=1200&auto=webp&trim=21%2C0%2C21%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "55448709af0f747eadba",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60624
-    },
-    {
-      "id": "723ee318bcaf175f2daa0285",
-      "title": "Katie Zacharia reveals who she wants to play her on SNL after short-lived White House role",
-      "translatedTitle": null,
-      "description": "‘Saturday Night Live’ will return for a new episode on Halloween",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/katie-zacharia-snl-trump-b3068780.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/katie-zacharia-snl-trump-b3068780.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:05:11Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/15/10/2026-10-15T002457Z_1537312494_RC2E2OA0P5EQ_RTRMADP_3_USA-TRUMP-ZACHARIA.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a1bce5e3958d5f4170f4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60617
-    },
-    {
-      "id": "cd7bc8c0ce533bd5a78bb858",
-      "title": "Welsh government accused of ‘sitting on’ plans for space defence project over opposition to Donald Trump",
-      "translatedTitle": null,
-      "description": "The Ministry of Defence (MoD) announced in 2024 that the Cawdor Barracks in Pembrokeshire will be the home of the Deep Space Advanced Radar Capability (Darc)",
-      "url": "https://www.independent.co.uk/news/uk/politics/darc-wales-pembrokeshire-plans-plaid-cymru-b3068747.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/darc-wales-pembrokeshire-plans-plaid-cymru-b3068747.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:01:25Z",
-      "imageUrl": "https://static.independent.co.uk/2024/08/08/00/07133037-1aeba7e3-4e0c-4c61-af14-4823533d8874.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e6e85526090f21391f31",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59902
-    },
-    {
-      "id": "c8e5c9ff90aad1a8b17a79d7",
-      "title": "Mercedes-Benz C-Class Electric review: So many stars it feels like you’re in a sports bar",
-      "translatedTitle": null,
-      "description": "The new electric C-Class has the comfort and road manners I expect from a Mercedes, but its impressive interior quality is overshadowed by giant screens, disco lights and an awful lot of stars, writes Electric Vehicles Editor Steve Fowler",
-      "url": "https://www.independent.co.uk/cars/electric-vehicles/new-mercedesbenz-cclass-electric-review-b3066712.html",
-      "canonicalUrl": "https://independent.co.uk/cars/electric-vehicles/new-mercedesbenz-cclass-electric-review-b3066712.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T15:00:20Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/14/14/23/Original-51204-mercedes-benz-c-class-092.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d8d638f1977bf1d7fa5d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59696
-    },
-    {
-      "id": "4ff6c5f2e822a620038db598",
-      "title": "‘I used to think Britain’s preppers were extreme – this changed my mind’",
-      "translatedTitle": null,
-      "description": "Britain’s preppers have long faced derision, but this app made me realise I may be the delusional one, writes Nicole Wootton-Cane",
-      "url": "https://www.independent.co.uk/news/uk/home-news/uk-prepper-food-shortages-emergency-b3068001.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/uk-prepper-food-shortages-emergency-b3068001.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T14:52:35Z",
-      "imageUrl": "https://static.independent.co.uk/2026/08/27/10/25/iStock-1680302937.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "23951d4d303d9a941a28",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.58232
-    },
-    {
-      "id": "3a3b28f597f54bb3ec73a48d",
-      "title": "Wikipedia often gets taken for granted – but its history is fascinating, and its future is fragile",
-      "translatedTitle": null,
-      "description": "Wikipedia’s 68m articles have been consulted trillions of times. Not bad for a website that has barely changed since it was founded 20 years ago A few years ago, I was struck by the tension between how Wikipedia was used, and how it was talked about. Everyone was on it all the time, and yet its reputation had stalled at “don’t trust it”, because it was the “free encyclopedia that anyone can edit”. Clearly people were trusting it, so much so it had become part of the fabric of everyday life since",
-      "url": "https://www.theguardian.com/technology/2026/oct/18/wikipedia-human-history-ai-future-under-threat",
-      "canonicalUrl": "https://theguardian.com/technology/2026/oct/18/wikipedia-human-history-ai-future-under-threat",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T14:00:02Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/11bdcbd79d2083cd3ae980e805b8cdfd7e27fb80/145_0_2850_2279/master/2850.jpg?width=140&quality=85&auto=format&fit=max&s=ada5d277ad4d4387b5bc020d6159d745",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "64a565405b5685cfb73d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5758
-    },
-    {
-      "id": "f045d907f5f11c5f4dcba618",
-      "title": "The upside of anger: can fury be one of the deepest forms of human compassion? | Making sense of it",
-      "translatedTitle": null,
-      "description": "Imagine anger as a sign not of moral failure or justified outrage but the desire to care for another Making sense of it is a column about spirituality and how it can be used to navigate everyday life Anger is an emotion we are taught to manage, control and suppress. But what if anger is, as poet David Whyte says, one of the deepest possible forms of compassion available to humankind? Philosophers and theologians have long distinguished between virtuous and non-virtuous anger. Aristotle defined a",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/19/the-upside-of-anger-fury-as-compassion-philosophy-wisdom",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/19/the-upside-of-anger-fury-as-compassion-philosophy-wisdom",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T14:00:02Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/303f4f728ef006d16a2656b2f8c5e4386630cd9c/376_213_1968_1575/master/1968.jpg?width=140&quality=85&auto=format&fit=max&s=6478acb98ff5203e09aa3a3e157e2638",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "57f35840d68425fcdab6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5758
-    },
-    {
-      "id": "0c432900546e2b4a6b0f7345",
-      "title": "Chelsea star gives update from hospital bed after horror clash",
-      "translatedTitle": null,
-      "description": "Chelsea goalkeeper Emiliano Martinez has undergone successful surgery on a fractured jaw following a clash of heads during a 2-0 win at Everton.",
-      "url": "https://news.sky.com/story/chelsea-goalkeeper-gives-update-from-hospital-after-clashing-heads-with-everton-defender-13600630",
-      "canonicalUrl": "https://news.sky.com/story/chelsea-goalkeeper-gives-update-from-hospital-after-clashing-heads-with-everton-defender-13600630",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T13:53:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-emilianomartinez-chelsea_7379869.jpg?20261018150001",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d0217846fc01d55dee52",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.56324
-    },
-    {
-      "id": "e61caf4c692905d2ec014513",
-      "title": "Watch: Pope thanks well-wishers in first event after cancer surgery",
-      "translatedTitle": null,
-      "description": "The Pope's first event since his lung cancer diagnosis and surgery saw him recite the traditional Angelus prayer from the balcony of the Apostolic Palace.",
-      "url": "https://www.bbc.co.uk/news/videos/cq70px6pjkg5o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/videos/cq70px6pjkg5o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T11:09:32Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21f0/live/4a3b0720-cae5-11f1-a64c-550be9e3c66b.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2e8f5ed36f10b8766f2c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5631
-    },
-    {
-      "id": "3b0f60d98cd93eb3c2007781",
-      "title": "Mapped: The fastest-growing cities in the world",
-      "translatedTitle": null,
-      "description": "Ghaziabad, a city next to Delhi, tops the table of annual growth rates at 5.2 per cent, followed by Surat in the western Indian state of Gujarat",
-      "url": "https://www.independent.co.uk/asia/india/worlds-fastest-growing-cities-asia-africa-b3068712.html",
-      "canonicalUrl": "https://independent.co.uk/asia/india/worlds-fastest-growing-cities-asia-africa-b3068712.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T14:38:21Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/18/14/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5fd9c7fb2d76371208b7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.55572
-    },
-    {
-      "id": "435894d0213ee4ed41f9698b",
-      "title": "What to do if you get downgraded on a flight",
-      "translatedTitle": null,
-      "description": "Being downgraded happens more often than you think — a premium economy, business-class or first-class ticket may sometimes get bumped to a lower class when an airline has overbooked seats or there is an aircraft change",
-      "url": "https://www.independent.co.uk/life-style/downgraded-flight-tips-airline-seats-b3068393.html",
-      "canonicalUrl": "https://independent.co.uk/life-style/downgraded-flight-tips-airline-seats-b3068393.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T14:31:54Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/16/20/37/iStock-645762388.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9fed1c07338bbce2aed9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.54377
-    },
-    {
-      "id": "770fb123decf2a7d9463f5d6",
-      "title": "NHS data breaches a disgrace, says health secretary",
-      "translatedTitle": null,
-      "description": "A total of 15 NHS staff are sacked for accessing records of the Nottingham attacks victims.",
-      "url": "https://www.bbc.co.uk/news/articles/cq2e9nw82ljdo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cq2e9nw82ljdo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T10:52:31Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e263/live/09cf2ae0-cad6-11f1-bc2e-018d645d8d21.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "603bd96a61fd83db40a3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.53726
-    },
-    {
-      "id": "0c84849303c6432e046e4d9d",
-      "title": "German authorities investigate a hole cut into a fence at Leipzig airport",
-      "translatedTitle": null,
-      "description": "German authorities are investigating a large hole cut into a fence at Leipzig airport",
-      "url": "https://www.independent.co.uk/news/moscow-police-russia-ukraine-b3068784.html",
-      "canonicalUrl": "https://independent.co.uk/news/moscow-police-russia-ukraine-b3068784.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-18T14:21:05Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/18/15/Germany_Airport_Incident_38673.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-18T16:18:03Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bd70a7d2557c85f86721",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5239
+      "rankingScore": 5.53768
     }
   ]
 }
