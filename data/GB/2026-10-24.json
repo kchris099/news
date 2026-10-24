@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-24",
-  "generatedAt": "2026-10-24T00:17:37Z",
-  "lastAttemptAt": "2026-10-24T00:17:37Z",
-  "lastSuccessfulUpdate": "2026-10-24T00:17:37Z",
-  "status": "current",
+  "generatedAt": "2026-10-24T04:17:41Z",
+  "lastAttemptAt": "2026-10-24T04:17:41Z",
+  "lastSuccessfulUpdate": "2026-10-24T04:17:41Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 17,
-  "publisherCount": 3,
+  "articleCount": 32,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-24T00:17:36Z",
-      "lastSuccessAt": "2026-10-24T00:17:36Z",
-      "articlesRetrieved": 33,
-      "responseTimeMs": 288,
+      "lastAttemptAt": "2026-10-24T04:17:40Z",
+      "lastSuccessAt": "2026-10-24T04:17:41Z",
+      "articlesRetrieved": 34,
+      "responseTimeMs": 577,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-24T00:17:36Z",
-      "lastSuccessAt": "2026-10-24T00:17:36Z",
+      "lastAttemptAt": "2026-10-24T04:17:40Z",
+      "lastSuccessAt": "2026-10-24T04:17:41Z",
       "articlesRetrieved": 139,
-      "responseTimeMs": 176,
+      "responseTimeMs": 407,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,116 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-24T00:17:36Z",
-      "lastSuccessAt": "2026-10-24T00:17:36Z",
-      "articlesRetrieved": 9,
-      "responseTimeMs": 497,
+      "lastAttemptAt": "2026-10-24T04:17:40Z",
+      "lastSuccessAt": "2026-10-24T04:17:41Z",
+      "articlesRetrieved": 7,
+      "responseTimeMs": 865,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-10-24T00:17:36Z",
-      "lastSuccessAt": "2026-10-24T00:17:36Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 439,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-24T04:17:40Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
+    {
+      "id": "ac6079645020de082769fff7",
+      "title": "Arrest made after fire at Hitler's Eagle's Nest retreat",
+      "translatedTitle": null,
+      "description": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+      "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cr93zwjw1k4qo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T03:51:25Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/89c2/live/dded51c0-cf5a-11f1-b46b-8fe3882d26eb.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "543e256557591e1c11df",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.75711
+    },
+    {
+      "id": "3e81eab75db3feb93f75e977",
+      "title": "Second storm to hit UK with more wind and rain as thousands remain without power",
+      "translatedTitle": null,
+      "description": "An amber weather warning has been issued for much of Scotland, parts of Northern Ireland and northern England, as Storm Boelo approaches.",
+      "url": "https://www.bbc.co.uk/weather/articles/cv8ez97k0wnlo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/weather/articles/cv8ez97k0wnlo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T02:25:54Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2244/live/499dda70-cecf-11f1-8507-45cb00a1c41c.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "283cb8186506a8fad12e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.24366
+    },
+    {
+      "id": "d00c93197405b05f76bd750f",
+      "title": "Democrat James Talarico targets Elon Musk at rally: ‘Texas is not for sale’",
+      "translatedTitle": null,
+      "description": "The Senate candidate denounced opponent Ken Paxton, calling out corruption allegations and support from Musk James Talarico, the Democratic candidate for the US Senate in Texas, has taken aim at Elon Musk, warning that the tech mogul is trying to buy political influence and declaring: “Texas is not for sale.” Talarico held a campaign rally on Friday at the University of Texas at Austin, packing an auditorium at his alma mater with hundreds of students and other supporters, who cheered, whooped a",
+      "url": "https://www.theguardian.com/us-news/2026/oct/23/democrat-james-talarico-targets-elon-musk-at-rally-texas-is-not-for-sale",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/23/democrat-james-talarico-targets-elon-musk-at-rally-texas-is-not-for-sale",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T02:52:47Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/498562cf407284bc30ca5822eb8fb3af26e85a8b/399_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=38f26bcdadd1b68dda8287c008e3dd75",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f743ea3369f36a8cb2b8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.02365
+    },
     {
       "id": "5ac14f72d6a6601fa0062df5",
       "title": "Before you crank up the thermostat, try these tips to keep your house warmer for longer",
@@ -78,7 +168,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -86,7 +176,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.75594
+      "rankingScore": 6.97821
+    },
+    {
+      "id": "3d04174448a33ffa040a5142",
+      "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China",
+      "translatedTitle": null,
+      "description": "Super typhoon weakening but large parts of Taiwan, including Taipei, still mostly closed and flights cancelled Typhoon Champi swept past Taiwan on Saturday killing one person, injuring more than 500, and uprooting trees and severing power as it weakened and ⁠headed north toward ⁠the ​Chinese coast. Earlier classified as a super typhoon and one of the strongest storms in the ⁠Pacific this year, Champi was still packing gusts of about 126km per hour (78 miles per hour) near its ⁠centre, according",
+      "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T02:22:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ef90d32836e051ec70630f8c26f1745009515247/589_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=71c6a707179b0ef711ce3814e4c20947",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b6b7db01954b221e48b3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.96748
     },
     {
       "id": "6ba11af34056eca94a032812",
@@ -108,7 +228,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -116,7 +236,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.33758
+      "rankingScore": 6.92347
     },
     {
       "id": "a7ea426b48a697912185c77a",
@@ -138,7 +258,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -146,7 +266,67 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.31922
+      "rankingScore": 6.90878
+    },
+    {
+      "id": "473e0a89ccab4a976c408385",
+      "title": "Rubio tells Cubans ‘now is the time’ to act to see political change",
+      "translatedTitle": null,
+      "description": "US secretary of state makes comments after Trump tells US rally warships could intervene on return from Iran Marco Rubio urged Cubans seeking political change in their country to act, saying “now is the time” moments after Donald Trump told a Friday rally for candidates in south Florida that US warships could intervene in Cuba on their way back from the Iran war. The US secretary of state, in his social media post addressed “to those who seek to create positive change”, urged Cubans to capitaliz",
+      "url": "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T00:30:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/487ad4f76ab73ebceb246949eff4ed204b9cf7c9/405_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=5ce055ddb3540bb2e5e9c9fd3a78179e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8100a8e5f873ed53f853",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.77186
+    },
+    {
+      "id": "df0f623ff96374dd0f7297e6",
+      "title": "North Korea has opened up bridges to Russia and China – in which direction will it go?",
+      "translatedTitle": null,
+      "description": "Kim Jong-un has opened the borders to both his key allies in Xi Jinping and Vladimir Putin, but for different reasons For more than a decade, local Chinese residents pilloried it as nothing more than an empty bridge that led to a North Korean vegetable patch on the other side. Fast forward 12 years and dozens of trucks are now traversing the bridge linking China to North Korea, boosting trade for the reclusive regime. But it has also triggered concern that it could intensify a struggle for influ",
+      "url": "https://www.theguardian.com/world/2026/oct/24/north-korea-new-yalu-river-bridge-russia-china",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/24/north-korea-new-yalu-river-bridge-russia-china",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-23T23:10:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e8e8824ae9748ac9306562f66726501020635b87/569_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=461d4ba9af11fee471412e88641f75ba",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b2fd787e592373eca9a5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.645,
+      "related": []
     },
     {
       "id": "785db5f5d702448478a98238",
@@ -175,38 +355,158 @@
       "clusterId": "4df1d29ac4e536d6559b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.06781
+      "rankingScore": 6.63572,
+      "related": []
     },
     {
-      "id": "df0f623ff96374dd0f7297e6",
-      "title": "North Korea has opened up bridges to Russia and China – in which direction will it go?",
+      "id": "6bf71f997e68792aabbf1194",
+      "title": "France prepares for day of protest a week after nationwide riots",
       "translatedTitle": null,
-      "description": "Kim Jong-un has opened the borders to both his key allies in Xi Jinping and Vladimir Putin, but for different reasons For more than a decade, local Chinese residents pilloried it as nothing more than an empty bridge that led to a North Korean vegetable patch on the other side. Fast forward 12 years and dozens of trucks are now traversing the bridge linking China to North Korea, boosting trade for the reclusive regime. But it has also triggered concern that it could intensify a struggle for influ",
-      "url": "https://www.theguardian.com/world/2026/oct/24/north-korea-new-yalu-river-bridge-russia-china",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/24/north-korea-new-yalu-river-bridge-russia-china",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "More than 70,000 police officers are to be deployed over fears protesters will defy restrictions on demonstrations.",
+      "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cj62yv5k0w4yo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-23T23:10:16Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e8e8824ae9748ac9306562f66726501020635b87/569_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=461d4ba9af11fee471412e88641f75ba",
+      "publishedAt": "2026-10-24T04:03:46Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6313/live/f6761da0-cf08-11f1-b95c-310d5f3c558a.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b2fd787e592373eca9a5",
+      "clusterId": "3fed250a200504794472",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.05699
+      "rankingScore": 6.0818
+    },
+    {
+      "id": "59e2460ac987c1becb083e52",
+      "title": "UK pledges £600m to defend against AI health and security threats",
+      "translatedTitle": null,
+      "description": "The UK has pledged to spend £600m to defend the public against threats to health and security from artificial intelligence.",
+      "url": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
+      "canonicalUrl": "https://news.sky.com/story/uk-pledges-to-spend-600m-to-defend-against-ai-health-and-security-threats-13602935",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T02:49:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-ai-generic_7385212.jpg?20261024035917",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5d71955a00ed782def69",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.01654
+    },
+    {
+      "id": "91b409599ccced603f699656",
+      "title": "Met investigates reports of letter detailing claims about Meghan's father",
+      "translatedTitle": null,
+      "description": "Scotland Yard opens an inquiry after the Duchess of Sussex said she was sent a letter containing \"disturbing allegations\".",
+      "url": "https://www.bbc.co.uk/news/articles/cmlylkkzl2neo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmlylkkzl2neo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T03:17:24Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4388/live/9cae2750-cf48-11f1-93e1-3b657b665bcf.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "634ba59d73aa0f6ad996",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.99054
+    },
+    {
+      "id": "bfdb3b5955d5154007837a31",
+      "title": "Tory activist in 'contract killing broker' claim had worked for party HQ",
+      "translatedTitle": null,
+      "description": "Jack Ross was contracted to do social media work for the party until earlier this year, the BBC has been told.",
+      "url": "https://www.bbc.co.uk/news/articles/c63r5779vyl9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c63r5779vyl9o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T02:52:10Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1ff/live/3a2fbbf0-cf31-11f1-9f96-7f17b236547a.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bbe0ca34631d7379eee9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.94249
+    },
+    {
+      "id": "ed2a1a29e65ce087bc8eaaed",
+      "title": "Australian MP's condition improves after alleged car attack",
+      "translatedTitle": null,
+      "description": "The Independent MP is now in a serious but stable condition, according to the Melbourne hospital.",
+      "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c670pr1ryxyno?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T01:55:15Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e656/live/f2bfb570-cf41-11f1-81c6-53f66e190efd.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5bc804668e6b2589e109",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.83815
     },
     {
       "id": "59c0e8be402b4af31d5fdab0",
@@ -228,7 +528,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -236,13 +536,13 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.09292
+      "rankingScore": 5.65782
     },
     {
       "id": "c508e59653786cb58c8a349a",
       "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
       "translatedTitle": null,
-      "description": "The Chancellor will unveil AI spending aimed at shoring up the UK's defences in Wednesday's Budget.",
+      "description": "The chancellor will unveil AI spending aimed at shoring up the UK's defences in Wednesday's Budget.",
       "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://bbc.co.uk/news/articles/cqdjv8xllvyyo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
@@ -258,7 +558,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -266,7 +566,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.08595
+      "rankingScore": 5.65224
+    },
+    {
+      "id": "ccf0a9abd7a98d4104d0c3d7",
+      "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+      "translatedTitle": null,
+      "description": "She was a close family member of the first victim, a man who had travelled from the Democratic Republic of Congo.",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6x2355448eyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T00:05:43Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d0b/live/15946bd0-cf39-11f1-a003-d5e5a8cb108b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3cc2ced3daa5ca1b12c4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.65219
     },
     {
       "id": "0db8b196cdf67f53cab466c4",
@@ -288,7 +618,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -296,7 +626,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.03577
+      "rankingScore": 5.61206
+    },
+    {
+      "id": "ef6b28a84e60881d1e37248b",
+      "title": "Seven killed and 40 injured after gunmen open fire at church funeral in Jordan",
+      "translatedTitle": null,
+      "description": "Footage broadcast on state television showed two gunmen who appear to be holding pistols approaching the church and firing shots Gunmen opened fire during a funeral at a church in Jordan on Friday, killing seven people and wounding 40 others, authorities said. The shooting took place at a Greek Orthodox church in Karak, about 180km (110 miles) south of the capital, Amman. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/24/seven-killed-and-40-injured-after-gunmen-open-fire-at-church-funeral-in-jordan",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T01:57:47Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c5dd22b7faaff144d117160192cbbd75a914bf8f/1009_0_7240_5792/master/7240.jpg?width=140&quality=85&auto=format&fit=max&s=a9b14a6f857dab47a5f734db5d675d46",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f0e44501447ce0efa827",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57268
     },
     {
       "id": "d0570948a8fb8ed8bc39a9c0",
@@ -318,7 +678,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -326,7 +686,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.97938
+      "rankingScore": 5.56691
     },
     {
       "id": "bbe9179d49c1d8b94892eafe",
@@ -348,7 +708,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -356,7 +716,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.97508
+      "rankingScore": 5.56347
     },
     {
       "id": "5905cdcc5e2efb0bf2504f57",
@@ -378,7 +738,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -386,7 +746,97 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.97441
+      "rankingScore": 5.56293
+    },
+    {
+      "id": "17036a6874c643b7b9ebf472",
+      "title": "'People are going to die': Father reveals how he stopped Oregon school gunman",
+      "translatedTitle": null,
+      "description": "A father has described how he shot the gunman who killed four people at his daughter's school in Oregon and the guilt he feels about the \"ones that I didn't save\".",
+      "url": "https://news.sky.com/story/father-who-stopped-oregon-school-shooting-describes-how-he-killed-gunman-and-his-guilt-over-those-who-died-13602933",
+      "canonicalUrl": "https://news.sky.com/story/father-who-stopped-oregon-school-shooting-describes-how-he-killed-gunman-and-his-guilt-over-those-who-died-13602933",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T01:50:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-kaylub-giamanco-oregon_7385210.jpg?20261024031944",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "016de094fba48db27915",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.5588
+    },
+    {
+      "id": "f31de9920e7f14ba6c86afdd",
+      "title": "Red Roses suffer back-to-back defeats for first time in 10 years as Canada make statement",
+      "translatedTitle": null,
+      "description": "WXV: Canada 31-22 England England beaten in Ottawa for third loss in past 74 matches History-makers, era-enders, giant-slayers. Breaking England’s unbeaten run was a statement for Canada last Friday but they backed it up in a 31-22 win to deal the Red Roses their first consecutive loss in a decade, sending a formidable message to the rest of world rugby. Some may view it as too early to call but Canada are serious contenders for the World Cup trophy in 2029, especially if they progress at the sa",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/canada-england-red-roses-wxv-rugby-union-match-report",
+      "canonicalUrl": "https://theguardian.com/sport/2026/oct/24/canada-england-red-roses-wxv-rugby-union-match-report",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T01:27:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a46700a3b7b6be4981fbc54b5886a6bcffaafc8b/639_0_6359_5091/master/6359.jpg?width=140&quality=85&auto=format&fit=max&s=bccae34d5a21767f62d09d501b55d4a5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "df69676c3a3ae75b67a5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.51898
+    },
+    {
+      "id": "49a612d9045c1c1a41852464",
+      "title": "Pentagon designates China-backed campus cultural centers a threat to US national security",
+      "translatedTitle": null,
+      "description": "Defense secretary Pete Hegseth alleges Confucius Institutes operating in disguise on US university campuses The ⁠US defense department has designated Chinese-funded cultural centers on university campuses ⁠known as Confucius ⁠Institutes ​as a threat to US national security, defense secretary Pete ⁠Hegseth said on Friday. Washington has long accused Confucius Institutes of being Chinese propaganda ⁠tools and has taken steps to ​crack down on them. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/23/pentagon-china-hegseth",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/23/pentagon-china-hegseth",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-24T01:21:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e25b61b7fc152d348330e908aea01a8dc36bddae/1185_0_5949_4760/master/5949.jpg?width=140&quality=85&auto=format&fit=max&s=09c9e82f8cc51b98e980ffc7f23b5eb3",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-24T04:17:41Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0a86328e6b39c954e28a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.50871
     },
     {
       "id": "e632f46d0103517dde476b6d",
@@ -408,15 +858,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "5f63562ab2d4e3811c0d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71905
+      "rankingScore": 5.30465,
+      "related": []
     },
     {
       "id": "4f4a819b59f9cb5b33699478",
@@ -438,15 +888,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-24T00:17:36Z",
+      "retrievedAt": "2026-10-24T04:17:41Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "a021c45e44d3c30c728e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68984
+      "rankingScore": 5.28126,
+      "related": []
     },
     {
       "id": "e79044bad5103253a654e18a",
@@ -475,8 +925,8 @@
       "clusterId": "4f399854d314958d366f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65267
+      "rankingScore": 5.23356,
+      "related": []
     },
     {
       "id": "0e0ea5f4a8fc4c61e039ca1d",
@@ -505,8 +955,8 @@
       "clusterId": "eac9ee17ebc8fff50446",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64031
+      "rankingScore": 5.22367,
+      "related": []
     },
     {
       "id": "21be11e52d34c4409cfcfed2",
@@ -535,8 +985,8 @@
       "clusterId": "fc2cfb198f207d78ff2e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61626
+      "rankingScore": 5.20441,
+      "related": []
     },
     {
       "id": "ccb9de2cbc792323659c09f4",
@@ -565,8 +1015,8 @@
       "clusterId": "e47d1f00da601382d7a7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59933
+      "rankingScore": 5.19086,
+      "related": []
     }
   ]
 }
