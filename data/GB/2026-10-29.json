@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T04:18:13Z",
-  "lastAttemptAt": "2026-10-29T04:18:13Z",
-  "lastSuccessfulUpdate": "2026-10-29T04:18:13Z",
-  "status": "current",
+  "generatedAt": "2026-10-29T08:18:15Z",
+  "lastAttemptAt": "2026-10-29T08:18:15Z",
+  "lastSuccessfulUpdate": "2026-10-29T08:18:15Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-10-29T04:18:12Z",
-      "lastSuccessAt": "2026-10-29T04:18:12Z",
+      "lastAttemptAt": "2026-10-29T08:18:15Z",
+      "lastSuccessAt": "2026-10-29T08:18:15Z",
       "articlesRetrieved": 35,
-      "responseTimeMs": 425,
+      "responseTimeMs": 468,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-10-29T04:18:12Z",
-      "lastSuccessAt": "2026-10-29T04:18:12Z",
-      "articlesRetrieved": 143,
-      "responseTimeMs": 246,
+      "lastAttemptAt": "2026-10-29T08:18:15Z",
+      "lastSuccessAt": "2026-10-29T08:18:15Z",
+      "articlesRetrieved": 145,
+      "responseTimeMs": 294,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,241 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-10-29T04:18:12Z",
-      "lastSuccessAt": "2026-10-29T04:18:12Z",
-      "articlesRetrieved": 8,
-      "responseTimeMs": 603,
+      "lastAttemptAt": "2026-10-29T08:18:15Z",
+      "lastSuccessAt": "2026-10-29T08:18:15Z",
+      "articlesRetrieved": 7,
+      "responseTimeMs": 486,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-10-29T04:18:12Z",
-      "lastSuccessAt": "2026-10-29T04:18:12Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 439,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-10-29T08:18:15Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
+    {
+      "id": "ef7a60ac5242fab4570e88bb",
+      "title": "Brewers win first World Series in 57-year history",
+      "translatedTitle": null,
+      "description": "The Milwaukee Brewers win the World Series for the first time in the franchise's 57-year history after beating the Tampa Bay Rays in game five on Wednesday.",
+      "url": "https://www.bbc.co.uk/sport/baseball/articles/c5x2v991l0lvo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/baseball/articles/c5x2v991l0lvo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T07:56:38Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef65/live/d45c5110-d36a-11f1-a2f1-9d8bc53db834.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d0ce88b924953608a524",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "f85b93181c170db162050a0d",
+          "title": "Charming, cantankerous Pat Murphy at age 67 leads Brewers to first World Series title",
+          "translatedTitle": null,
+          "description": "Pat Murphy, the Milwaukee Brewers manager, has led his team to a World Series victory over the Tampa Bay Rays",
+          "url": "https://www.independent.co.uk/news/world/europe/milwaukee-brewers-tampa-bay-rays-ncaa-san-diego-bruce-springsteen-b3075315.html",
+          "canonicalUrl": "https://independent.co.uk/news/world/europe/milwaukee-brewers-tampa-bay-rays-ncaa-san-diego-bruce-springsteen-b3075315.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-29T03:20:32Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/29/03/World_Series_Rays_Brewers_Baseball_96391.jpg?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-29T04:18:12Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "d0ce88b924953608a524",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.63556,
+          "normalizedTitle": "charming cantankerous pat murphy at age 67 leads brewers to first world series title",
+          "sourceQuality": 1.0
+        },
+        {
+          "id": "df9a70bdd32d90f54d29b628",
+          "title": "Brewers beat the Rays 4-1 in Game 5 to win the first World Series title in franchise history",
+          "translatedTitle": null,
+          "description": "The small-ball Milwaukee Brewers playing in the smallest market in the majors are World Series champions for the first time in franchise history",
+          "url": "https://www.independent.co.uk/news/game-tampa-bay-rays-st-louis-cardinals-mlb-b3075314.html",
+          "canonicalUrl": "https://independent.co.uk/news/game-tampa-bay-rays-st-louis-cardinals-mlb-b3075314.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-29T03:18:51Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/29/03/APTOPIX_World_Series_Brewers_Rays_Baseball_29948.jpg?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-29T04:18:12Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "d0ce88b924953608a524",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "brewers beat the rays 4 1 in game 5 to win the first world series title in franchise history"
+        },
+        {
+          "id": "f43a16538b208c44b90b1cf6",
+          "title": "Milwaukee Brewers close out Tampa Bay Rays to end 57-year wait for first World Series title",
+          "translatedTitle": null,
+          "description": "Brewers win first championship with 4-1 win in Game 5 Misiorowski hurls five and two-thirds scoreless innings Contreras named World Series MVP after batting .381 The Milwaukee Brewers captured their first World Series crown on Wednesday night, defeating the Tampa Bay Rays 4-1 to complete a four-games-to-one victory and end more than half a century of waiting for baseball’s biggest prize. Rookie shortstop Cooper Pratt drove in two runs and Jacob Misiorowski pitched five and two-thirds scoreless i",
+          "url": "https://www.theguardian.com/sport/2026/oct/28/milwaukee-brewers-tampa-bay-rays-world-series-game-5-first-title",
+          "canonicalUrl": "https://theguardian.com/sport/2026/oct/28/milwaukee-brewers-tampa-bay-rays-world-series-game-5-first-title",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-29T03:18:07Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/d6e39f615bca542f3c4bae1fbc4eb46f70e933f9/232_0_3155_2524/master/3155.jpg?width=140&quality=85&auto=format&fit=max&s=bfa4739c8bcb55fe7aaf6af52762e9fb",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-29T08:18:15Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "d0ce88b924953608a524",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "milwaukee brewers close out tampa bay rays to end 57 year wait for first world series title",
+          "rankingScore": 7.12089
+        }
+      ],
+      "rankingScore": 9.21632
+    },
+    {
+      "id": "ea6bd6efb8944571f9800d90",
+      "title": "Trump warned $10bn BBC lawsuit could be dismissed",
+      "translatedTitle": null,
+      "description": "Donald Trump's $10bn (£7.5bn) defamation lawsuit against the BBC could be dismissed unless he turns over documents requested by the broadcaster, a US court has warned.",
+      "url": "https://news.sky.com/story/trump-warned-10bn-bbc-lawsuit-could-be-dismissed-over-missing-documents-13605155",
+      "canonicalUrl": "https://news.sky.com/story/trump-warned-10bn-bbc-lawsuit-could-be-dismissed-over-missing-documents-13605155",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T03:28:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-bbc-london_7381744.jpg?20261020144228",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0a38a69f53caf0014b25",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "507b18857f74582a94fefc26",
+          "title": "Trump warned £7.5 billion defamation lawsuit against BBC could be thrown out over missing documents",
+          "translatedTitle": null,
+          "description": "Trump is seeking substantial damages over the editing of a 2024 Panorama documentary",
+          "url": "https://www.independent.co.uk/news/uk/home-news/donald-trump-bbc-defamation-lawsuit-b3075223.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/donald-trump-bbc-defamation-lawsuit-b3075223.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-10-29T03:40:47Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/28/17/50/GettyImages-2302303757.jpg?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-10-29T04:18:12Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "0a38a69f53caf0014b25",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 7.02503,
+          "normalizedTitle": "trump warned 7 5 billion defamation lawsuit against bbc could be thrown out over missing documents",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 8.07147
+    },
+    {
+      "id": "826b8c493c3d8208dd3e6a47",
+      "title": "‘Feels like we’ve gone backwards’: Indonesia’s choking haze provides spark for wider protests",
+      "translatedTitle": null,
+      "description": "After two years, President Prabowo Subianto is struggling with economic malaise, policy blunders and a devastating fire season in the world’s third-largest democracy As almost 2m hectares has gone up in smoke in Indonesia’s worst fire season in a decade, enveloping the region in a thick dystopian haze, 33-year-old university researcher Nurul Amalia has grown increasingly exasperated. “The government claims to be continuously increasing the number of personnel to extinguish it. But we have yet to",
+      "url": "https://www.theguardian.com/world/2026/oct/29/indonesia-protests-fire-haze-economy",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/29/indonesia-protests-fire-haze-economy",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T03:09:29Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2f15796da0f5be92995d661cdc43b5a08617c7a6/1064_0_6718_5377/master/6718.jpg?width=140&quality=85&auto=format&fit=max&s=b4ec8206b89f0a7a1da6df010372c3a0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "139012b9bc88726cfd3a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.99289,
+      "related": []
+    },
     {
       "id": "d7e23e497372c12fe6d25af2",
       "title": "As war strains Kremlin finances, Putin reaches into more pockets in search of new revenue streams",
@@ -85,38 +300,8 @@
       "clusterId": "7f06d5bffedf016f2cca",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.76538
-    },
-    {
-      "id": "826b8c493c3d8208dd3e6a47",
-      "title": "‘Feels like we’ve gone backwards’: Indonesia’s choking haze provides spark for wider protests",
-      "translatedTitle": null,
-      "description": "After two years, President Prabowo Subianto is struggling with economic malaise, policy blunders and a devastating fire season in the world’s third-largest democracy As almost 2m hectares has gone up in smoke in Indonesia’s worst fire season in a decade, enveloping the region in a thick dystopian haze, 33-year-old university researcher Nurul Amalia has grown increasingly exasperated. “The government claims to be continuously increasing the number of personnel to extinguish it. But we have yet to",
-      "url": "https://www.theguardian.com/world/2026/oct/29/indonesia-protests-fire-haze-economy",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/29/indonesia-protests-fire-haze-economy",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T03:09:29Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/2f15796da0f5be92995d661cdc43b5a08617c7a6/1064_0_6718_5377/master/6718.jpg?width=140&quality=85&auto=format&fit=max&s=b4ec8206b89f0a7a1da6df010372c3a0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "139012b9bc88726cfd3a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.40433
+      "rankingScore": 7.9838,
+      "related": []
     },
     {
       "id": "c1c752a8e6d6188bbc3079b1",
@@ -145,8 +330,218 @@
       "clusterId": "6dcc07e347a85ced448d",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.88205,
+      "related": []
+    },
+    {
+      "id": "559bab5384a6bac6dc12c6f4",
+      "title": "Thursday news quiz: Election news, puppy views, and a very chaotic goose",
+      "translatedTitle": null,
+      "description": "Test yourself on topical news trivia, pop culture and general knowledge every Thursday. How will you fare? You might have been watching one of several consequential elections this week, or the UK’s budget statement, but at Thursday Quiz towers we were all obsessing about one thing – why are geese so adorably cute yet obnoxious? 15 questions await you on topical news, general knowledge, pop culture, and maybe geese. We love geese. Let us know how you get on in the comments. Honk! The Thursday new",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/29/thursday-news-quiz-x-y-and-a-goose-on-the-loose",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/29/thursday-news-quiz-x-y-and-a-goose-on-the-loose",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T06:00:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bd0e660ac65c51d6189803e57e72b653ce15a599/0_35_2528_2023/master/2528.jpg?width=140&quality=85&auto=format&fit=max&s=6fed270d82d94e8591e3833fe8023194",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9d1007228a8c6e795d7e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.28831
+      "rankingScore": 7.2763
+    },
+    {
+      "id": "8d2f03b7091f52094163f254",
+      "title": "Healey promises reduction in welfare bill before next election",
+      "translatedTitle": null,
+      "description": "The Conservatives criticised the chancellor for not providing more details on welfare reform in his Budget.",
+      "url": "https://www.bbc.co.uk/news/articles/cm5ynwkjgpz3o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm5ynwkjgpz3o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T05:57:01Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1dd8/live/5d3b4f20-d36d-11f1-93e1-3b657b665bcf.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a5fca1866adcc5eb97be",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.19025
+    },
+    {
+      "id": "4060536ed69cfb6e8434a361",
+      "title": "Thames Water creditors to vote on emergency £2.4bn loan as cash runs low",
+      "translatedTitle": null,
+      "description": "Campaigners say costly new funds will lead to higher bills, which company denies A group of creditors to troubled Thames Water are poised to vote on whether to grant an emergency £2.4bn loan to keep the company afloat, as campaigners raise concerns it could add £40 to each household’s bills in interest alone. A consortium of creditors, called London & Valley Water, will vote on Thursday on whether to increase a funding facility for the debt-laden utility company to £5.4bn to keep it operating to",
+      "url": "https://www.theguardian.com/business/2026/oct/29/thames-water-creditors-vote-emergency-loan-cash-runs-low",
+      "canonicalUrl": "https://theguardian.com/business/2026/oct/29/thames-water-creditors-vote-emergency-loan-cash-runs-low",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T05:00:23Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bd97b9766e0c184acb7c8b9172a13942a901bb56/382_0_4251_3403/master/4251.jpg?width=140&quality=85&auto=format&fit=max&s=83a1c789f138d19940dbb890a3990bd1",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fb2b1680446967e14476",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.17164
+    },
+    {
+      "id": "9486888921c332580db9ee24",
+      "title": "Time and owners not on Moyes’ side as he tries to end Everton trophy drought",
+      "translatedTitle": null,
+      "description": "The Friedkin Group want to sell and squad investment has dried up but Carabao Cup is still an opportunity for silverware A European challenge plus a concerted effort to end a trophy drought that will soon stretch into a 32nd year were Everton’s stated aims for this season, although that was before the club’s owners turned the taps off in the transfer market and announced they were looking to sell up. An abrupt change of direction and ambition from The Friedkin Group (TFG) has not altered the dem",
+      "url": "https://www.theguardian.com/football/2026/oct/29/friedkin-group-david-moyes-end-everton-drought",
+      "canonicalUrl": "https://theguardian.com/football/2026/oct/29/friedkin-group-david-moyes-end-everton-drought",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T08:00:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b4132fe2d00c157135c69282ca0e096b23fb5c18/496_0_4964_3971/master/4964.jpg?width=140&quality=85&auto=format&fit=max&s=eaade0db1925a1d9124030a9e55ffcc5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "157f69823499c5e0cff2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15399
+    },
+    {
+      "id": "f7f1bf0b15d70ab061e76c84",
+      "title": "Healey vows to cut welfare bill before next election with ‘tough’ approach to young people",
+      "translatedTitle": null,
+      "description": "Chancellor’s comments come as fiscal watchdog says disability benefits will cost £100bn a year before end of decade Business live – latest updates John Healey had said there will be a reduction in the welfare bill before the next election, with a “tough” approach to young people who do not accept support to get a job or training. The chancellor was repeatedly pressed on the issue in broadcast interviews after documents from the Office for Budget Responsibility suggested sickness and disability b",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/29/healey-cut-welfare-bill-tough-approach-young-people-accept-jobs",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/oct/29/healey-cut-welfare-bill-tough-approach-young-people-accept-jobs",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T07:54:05Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/54724e29577c16a32af1526bf277805aba34785b/441_0_2559_2048/master/2559.jpg?width=140&quality=85&auto=format&fit=max&s=0f74bfee13d4dc25420c542f5543b6e0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4bc9c6703074cf299dc0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.14124
+    },
+    {
+      "id": "6795ba1f3e5264080cdc9bb4",
+      "title": "Surveillance and sabotage on the Deutsche Börse photography prize shortlist – in pictures",
+      "translatedTitle": null,
+      "description": "As the prestigious award marks its 30th anniversary, this year’s nominees consider hidden human labour, life in war-torn Ukraine and the Buddhist concept of rebirth Continue reading...",
+      "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/29/deutsche-borse-photography-prize-shortlist-2027-in-pictures",
+      "canonicalUrl": "https://theguardian.com/artanddesign/gallery/2026/oct/29/deutsche-borse-photography-prize-shortlist-2027-in-pictures",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T07:00:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/38c3d81789b2d40a2820d71ef37b48cb07ada330/155_0_1550_1240/master/1550.jpg?width=140&quality=85&auto=format&fit=max&s=b56ed2c810bcf01c8862ff2f7573bbe2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d5cc96c402428ba6f326",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03698
+    },
+    {
+      "id": "2b8878814692225235b02ab1",
+      "title": "‘Looming stone towers like Maya temples’: a hike through Snowdonia’s slate country",
+      "translatedTitle": null,
+      "description": "A new trail in the national park traces the legacy of Welsh industry, while offering some of the UK’s finest riverside and mountain walks The vital moment comes a couple of hours into the walk. I drop down from a tussocky hill towards the village of Y Fron. There’s an abandoned slate-quarrying machine and a grassy track that suddenly emerges on the rim of a deep lake-filled crater. The water is the colour of an old bruise. Around the rim is a fence of lichen-crusty slates like gravestones. It’s",
+      "url": "https://www.theguardian.com/travel/2026/oct/29/snowdonia-slate-trail-walk-north-wales",
+      "canonicalUrl": "https://theguardian.com/travel/2026/oct/29/snowdonia-slate-trail-walk-north-wales",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T07:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ce7566db6fa2523e5d884d5be8db7cf2be665c3f/598_0_4952_3961/master/4952.jpg?width=140&quality=85&auto=format&fit=max&s=d68bfddcb9d7538132b7136f82ec8f39",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c415fe602ec457ee4b65",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03695
     },
     {
       "id": "3d5a7f48542fdcb789b219b7",
@@ -164,11 +559,11 @@
       ],
       "language": "en",
       "publishedAt": "2026-10-29T03:51:05Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dc9/live/708f0da0-d34a-11f1-8a05-59afc813496d.jpg",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56de/live/c3d6ea10-d367-11f1-a701-fddedf244c16.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -176,7 +571,187 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.40539
+      "rankingScore": 6.9778
+    },
+    {
+      "id": "eb0a2918faee6b809be4d380",
+      "title": "‘I’m no special guy. We can all do this’: Loek Hartog on rescuing Ollie Millroy from a burning car",
+      "translatedTitle": null,
+      "description": "Last month in Shanghai, the Dutch driver saved Ollie Millroy’s life after a crash. The incident created a unique friendship and a shared determination to improve safety Winter is coming and, at eight in the morning, Amsterdam is dark as Loek Hartog and I walk towards the park. The GT motor racing driver is only 24 but, after all he did last month, when he showed extraordinary courage in saving the life of his fellow racer Ollie Millroy, we talk easily about life and death. Hartog sips a takeaway",
+      "url": "https://www.theguardian.com/sport/2026/oct/29/motor-racing-loek-hartog-ollie-millroy-remarkable-rescue",
+      "canonicalUrl": "https://theguardian.com/sport/2026/oct/29/motor-racing-loek-hartog-ollie-millroy-remarkable-rescue",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T06:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fa8cf19e677487ab35983e690e22a189ddc2b33e/787_510_4963_3970/master/4963.jpg?width=140&quality=85&auto=format&fit=max&s=aa43aad77e6f0064b945e99b9465352b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7d4bcac82a28e2089509",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92633
+    },
+    {
+      "id": "c9ba3cde99df72d755b8307a",
+      "title": "From sex ‘obsession’ to losing friends, key takeaways from Russell Brand’s testimony at trial",
+      "translatedTitle": null,
+      "description": "Comedian told jurors he now believed it was wrong to have used his fame for sex and said his life had been consumed by the allegations Russell Brand was in the witness box for more than four hours on Wednesday at his trial at Southwark crown court. He denies three counts of rape, three counts of sexual assault, and one charge of attempted indecent assault. Six alleged victims say the comedian switched suddenly after appearing charming and forced them into sexual activity in a toilet, a hotel roo",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/29/russell-brand-trial-evidence-testimony",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/oct/29/russell-brand-trial-evidence-testimony",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T06:00:23Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c582ee1c28acdb44366c1d336ae7d9fec4c24ba9/0_0_3842_3073/master/3842.jpg?width=140&quality=85&auto=format&fit=max&s=21431c50b84d43f6fa57047ba6a59857",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "855d856fb6f15cf10296",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92627
+    },
+    {
+      "id": "f840862cce1cc812489a5b13",
+      "title": "Spain begins mourning period after deadly train crash",
+      "translatedTitle": null,
+      "description": "Emergency services combed through the wreckage overnight as Civil Guard sets up clinics for relatives to provide DNA samples and help identify victims Spain has begun three days of mourning after a high-speed rail collision – its second this year – killed 68 people and injured scores, with relatives desperately seeking news about their loved ones. The trains, one from Spain’s state-owned Renfe and the other from the private rail company Iryo, were travelling on Wednesday morning in the same dire",
+      "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T05:31:16Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7787b9a3881b94f6241158ce4d8c191265d48bc2/211_87_4424_3539/master/4424.jpg?width=140&quality=85&auto=format&fit=max&s=61ad51dcff99bd6ae9d4e1247c3119f3",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c40caaa8b65a92121735",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.87477
+    },
+    {
+      "id": "a61dc160f1203dcb9b77d3f0",
+      "title": "‘It’s a theatre and we’re pawns’: taking the stand as an expert witness",
+      "translatedTitle": null,
+      "description": "As one of the world’s leading forensic anthropologists, Dame Sue Black has acted as an expert witness in a myriad of high-profile criminal cases. Her work has taken her from the lab to active war zones and the aftermath of natural disasters to identify victims’ bodies. Speaking to Ian Sample, the professor explains why standing up in front of a judge and jury has been one of the more terrifying parts of her career, the reputational risk of presenting evidence in court and what the future of fore",
+      "url": "https://www.theguardian.com/science/audio/2026/oct/29/science-weekly-sue-black-taking-stand-expert-witness",
+      "canonicalUrl": "https://theguardian.com/science/audio/2026/oct/29/science-weekly-sue-black-taking-stand-expert-witness",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T05:00:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/49ddc0a37a8930a65506f48bad2aca50a1241a0a/317_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=ef0268b1878c4cbe26783583c215a696",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8207ba3975e355d7f427",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82172
+    },
+    {
+      "id": "24cadcc4dc9e77daaa687693",
+      "title": "‘There has to be a bolder shift’: retail and hospitality businesses assess relief in budget",
+      "translatedTitle": null,
+      "description": "Chancellor cuts business rates for more small businesses and limits rise in minimum wage for younger workers Budget 2026: key points at a glance “It is like letting the tyres down and then handing you a pump,” says James Nye, assessing the relief handed to businesses in John Healey’s first budget as chancellor. The managing director of Norfolk’s Anglian Country Inns argues that the budget made a “couple of steps towards helping” but added more labour costs for already burdened companies. Continu",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/29/uk-retail-hospitality-businesses-relief-budget",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/oct/29/uk-retail-hospitality-businesses-relief-budget",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T05:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/857bc57b9476a8ee026c9082a0c9ac813f69c2ac/1203_577_5803_4643/master/5803.jpg?width=140&quality=85&auto=format&fit=max&s=4cc1b3c69fa962a4513d5a54a56058e1",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5ba7cfa8c2be0020c32b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82169
+    },
+    {
+      "id": "46c3689aafa628b372df6536",
+      "title": "Outcry after Call of Duty maker uses real footage of deadly Seoul crowd crush in new video game",
+      "translatedTitle": null,
+      "description": "Bereaved families have urged the publisher of Call of Duty: Modern Warfare 4 to remove a clip from the game that shows a figure performing CPR and bodies lying in the street Bereaved families in South Korea have demanded that the makers of Call of Duty remove harrowing footage of the deadly 2022 Seoul crowd crush from the latest instalment of the video game. The clips, which are seconds-long, appear in the opening moments of Call of Duty: Modern Warfare 4, and are used to represent a scenario of",
+      "url": "https://www.theguardian.com/world/2026/oct/29/call-of-duty-seoul-crowd-crush-video-footage",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/29/call-of-duty-seoul-crowd-crush-video-footage",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T04:41:41Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/17b8ac69d70b8775f615a9c1f75cf0e22bc392e2/278_0_4751_3803/master/4751.jpg?width=140&quality=85&auto=format&fit=max&s=75d33eb22f0d5ff0444e41dbd63b9cf6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ae550f284d8a70a85d3f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.79019
     },
     {
       "id": "5a356bb0e9b842d9714ef1fb",
@@ -198,7 +773,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -206,68 +781,98 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.12106
+      "rankingScore": 6.75014
     },
     {
-      "id": "f43a16538b208c44b90b1cf6",
-      "title": "Milwaukee Brewers close out Tampa Bay Rays to end 57-year wait for first World Series title",
+      "id": "b839906a720bddbb319cbb0d",
+      "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
       "translatedTitle": null,
-      "description": "Brewers win first championship with 5-0 win in Game 5 Misiorowski tosses five and two-thirds scoreless innings Contreras named World Series MVP after batting .381 The Milwaukee Brewers captured their first World Series crown on Wednesday night, defeating the Tampa Bay Rays 4-1 to complete a four-games-to-one victory and end more than half a century of waiting for baseball’s biggest prize. Cooper Pratt drove in two runs and Jacob Misiorowski pitched five and two-thirds scoreless innings as Milwau",
-      "url": "https://www.theguardian.com/sport/2026/oct/28/milwaukee-brewers-tampa-bay-rays-world-series-game-5-first-title",
-      "canonicalUrl": "https://theguardian.com/sport/2026/oct/28/milwaukee-brewers-tampa-bay-rays-world-series-game-5-first-title",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmx235r9wr3yo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-29T03:18:07Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/dacd03101d63f143f9f7d857b5c3ad2c3bafdcf1/222_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=7ce9af538222cdae8dc76f387a86f35f",
+      "publishedAt": "2026-10-29T00:00:25Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5570/live/b5261da0-d304-11f1-a9bf-3316693f55f0.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "2e6312e59fb7fea6396f",
+      "clusterId": "7b8d696b7631fc57ff00",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "df9a70bdd32d90f54d29b628",
-          "title": "Brewers beat the Rays 4-1 in Game 5 to win the first World Series title in franchise history",
+          "id": "ddacc73ddb6f481181bf1161",
+          "title": "‘I earn £126,000 – but nothing’s left at the end of the month’: readers react to the budget",
           "translatedTitle": null,
-          "description": "The small-ball Milwaukee Brewers playing in the smallest market in the majors are World Series champions for the first time in franchise history",
-          "url": "https://www.independent.co.uk/news/game-tampa-bay-rays-st-louis-cardinals-mlb-b3075314.html",
-          "canonicalUrl": "https://independent.co.uk/news/game-tampa-bay-rays-st-louis-cardinals-mlb-b3075314.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
+          "description": "From a young chef and a single father to business owners and a pensioner, Guardian readers reveal how John Healey’s measures will affect them What the budget means for you Louie, 24, a chef living in London, says a lot of people have “written off the idea of even considering getting a property” in their 20s. Continue reading...",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/29/readers-react-to-budget-2026",
+          "canonicalUrl": "https://theguardian.com/uk-news/2026/oct/29/readers-react-to-budget-2026",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
           "sourceCountry": "GB",
           "editionCountry": "GB",
           "coverageCountries": [
             "GB"
           ],
           "language": "en",
-          "publishedAt": "2026-10-29T03:18:51Z",
-          "imageUrl": "https://static.independent.co.uk/2026/10/29/03/APTOPIX_World_Series_Brewers_Rays_Baseball_29948.jpg?width=1200&auto=webp&crop=3%3A2",
+          "publishedAt": "2026-10-29T07:35:52Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/03d91c2b6352bf34b40914da3f18f6d916ed5aa7/243_0_1333_1066/master/1333.jpg?width=140&quality=85&auto=format&fit=max&s=d1c0f66457f3ee903c4d202e310cca84",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-10-29T04:18:12Z",
+          "retrievedAt": "2026-10-29T08:18:15Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "2e6312e59fb7fea6396f",
+          "clusterId": "7b8d696b7631fc57ff00",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "brewers beat the rays 4 1 in game 5 to win the first world series title in franchise history"
+          "sourceQuality": 1.05,
+          "normalizedTitle": "i earn 126 000 but nothing s left at the end of the month readers react to the budget"
         }
       ],
-      "rankingScore": 7.12089
+      "rankingScore": 6.69744
+    },
+    {
+      "id": "de1a7c9129190836050fa144",
+      "title": "Weight-loss jab boom brings needles warning for recyclers",
+      "translatedTitle": null,
+      "description": "Recycling bosses say used needles are increasingly being found among household waste.",
+      "url": "https://www.bbc.co.uk/news/articles/c98rz45yjyvgo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c98rz45yjyvgo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T00:06:12Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5e1/live/2afb1230-d2ef-11f1-b441-2b33b063138f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6347d7fa6f78353ae8ae",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.65489
     },
     {
       "id": "1340cfcb0a16647cf6146c66",
@@ -296,8 +901,8 @@
       "clusterId": "cee382cc7a4f238c6be1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.0858
+      "rankingScore": 6.65015,
+      "related": []
     },
     {
       "id": "5a6a2ee38df1ad73e4213317",
@@ -326,68 +931,8 @@
       "clusterId": "a054fc61ee772b15fce6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.06588
-    },
-    {
-      "id": "507b18857f74582a94fefc26",
-      "title": "Trump warned £7.5 billion defamation lawsuit against BBC could be thrown out over missing documents",
-      "translatedTitle": null,
-      "description": "Trump is seeking substantial damages over the editing of a 2024 Panorama documentary",
-      "url": "https://www.independent.co.uk/news/uk/home-news/donald-trump-bbc-defamation-lawsuit-b3075223.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/donald-trump-bbc-defamation-lawsuit-b3075223.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T03:40:47Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/28/17/50/GettyImages-2302303757.jpg?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0e70d19d6f6f7c88b841",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.02503
-    },
-    {
-      "id": "de1a7c9129190836050fa144",
-      "title": "Weight-loss jab boom brings needles warning for recyclers",
-      "translatedTitle": null,
-      "description": "Recycling bosses say used needles are increasingly being found among household waste.",
-      "url": "https://www.bbc.co.uk/news/articles/c98rz45yjyvgo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c98rz45yjyvgo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T00:06:12Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5e1/live/2afb1230-d2ef-11f1-b441-2b33b063138f.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6347d7fa6f78353ae8ae",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.00211
+      "rankingScore": 6.63421,
+      "related": []
     },
     {
       "id": "19df1118807ca9bef735a761",
@@ -409,15 +954,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e01a8911518305ccc59b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.94802
+      "rankingScore": 6.55777,
+      "related": []
     },
     {
       "id": "a8b49334eccdaaa942667e57",
@@ -446,8 +991,38 @@
       "clusterId": "eae0a9b54b91762d88ae",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.90728
+      "rankingScore": 6.50721,
+      "related": []
+    },
+    {
+      "id": "f03317aa7552f25071a6e2e1",
+      "title": "Albania imposes $6,000 fine for demonstrators present at a protest that turns violent",
+      "translatedTitle": null,
+      "description": "The fine – six times the average monthly salary – will apply to people present at violent protests, even if they don’t personally commit violent acts Albania has introduced fines of more than $6,000 for demonstrators who participate in a protest that turns violent, even if they don’t personally commit violent acts, as the government tries to clamp down on the gatherings calling for the prime minister’s resignation. The capital, Tirana, has been racked by months of anti-government protests that i",
+      "url": "https://www.theguardian.com/world/2026/oct/29/albania-protest-attendance-fine-law",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/29/albania-protest-attendance-fine-law",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T00:53:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5622c452e5d436221fe0a979e343baef2df1e5c0/207_0_6187_4952/master/6187.jpg?width=140&quality=85&auto=format&fit=max&s=9748a7f05ed28c19199b6b9a06b45227",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f2153df95db7cc3d555f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.44725,
+      "related": []
     },
     {
       "id": "d8e54ef9d24b90dd97ac5dc7",
@@ -476,38 +1051,8 @@
       "clusterId": "766a088f274dcc7e1050",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.90508
-    },
-    {
-      "id": "f03317aa7552f25071a6e2e1",
-      "title": "Albania imposes $6,000 fine for demonstrators present at a protest that turns violent",
-      "translatedTitle": null,
-      "description": "The fine – six times the average monthly salary – will apply to people present at violent protests, even if they don’t personally commit violent acts Albania has introduced fines of more than $6,000 for demonstrators who participate in a protest that turns violent, even if they don’t personally commit violent acts, as the government tries to clamp down on the gatherings calling for the prime minister’s resignation. The capital, Tirana, has been racked by months of anti-government protests that i",
-      "url": "https://www.theguardian.com/world/2026/oct/29/albania-protest-attendance-fine-law",
-      "canonicalUrl": "https://theguardian.com/world/2026/oct/29/albania-protest-attendance-fine-law",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T00:53:26Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5622c452e5d436221fe0a979e343baef2df1e5c0/207_0_6187_4952/master/6187.jpg?width=140&quality=85&auto=format&fit=max&s=9748a7f05ed28c19199b6b9a06b45227",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f2153df95db7cc3d555f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.80999
+      "rankingScore": 6.43339,
+      "related": []
     },
     {
       "id": "1c9b5a5e5446e5783dd6520f",
@@ -536,8 +1081,8 @@
       "clusterId": "19af325f43911c5f5322",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.65271
+      "rankingScore": 6.30338,
+      "related": []
     },
     {
       "id": "e16d349065bc0d68416a04c6",
@@ -566,16 +1111,16 @@
       "clusterId": "c99b21eaad43798e9bc9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.63551
+      "rankingScore": 6.28961,
+      "related": []
     },
     {
-      "id": "2e7278ebb2f4fe27bcf37b57",
-      "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
+      "id": "271f3b2287a046f76417463c",
+      "title": "Mourinho and chaos - is Real Madrid boss misunderstood?",
       "translatedTitle": null,
-      "description": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
-      "url": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cry4x177jlnyo?at_campaign=rss&at_medium=RSS",
+      "description": "Jose Mourinho has spent the past decade seeing other managers hailed as geniuses, but did Real Madrid's win at Barcelona last week show he's been misunderstood?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crly062vd0z7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/crly062vd0z7o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -584,28 +1129,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-29T03:16:19Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ae0/live/865a2400-d343-11f1-ad8b-790d6224b426.jpg",
+      "publishedAt": "2026-10-29T08:07:22Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9302/live/9a370150-d370-11f1-9ed3-17a877d6ca72.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "589107c012ee8ab58a72",
+      "clusterId": "80363ef4cee8b549987c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.98743
+      "rankingScore": 6.08786
     },
     {
-      "id": "1497aa6be3d8b0ebbb00fb5c",
-      "title": "'Like cutting up a Picasso': AI microdrama edit of Neighbours worries actors and crew",
+      "id": "6a3c64fdf8c3210c302b8d43",
+      "title": "Watch: BBC in the Philippines where Thomas Markle is expected to be investigated",
       "translatedTitle": null,
-      "description": "A micro-drama will AI-assisted technology to edit old episodes of the Australian TV soap to focus on Margot Robbie's character.",
-      "url": "https://www.bbc.co.uk/news/articles/cj1dw9znd1q1o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cj1dw9znd1q1o?at_campaign=rss&at_medium=RSS",
+      "description": "Jonathan Head is in Cebu, reporting from outside the home where Markle last resided.",
+      "url": "https://www.bbc.co.uk/news/videos/cm0rlxxpng5eo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/cm0rlxxpng5eo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -614,28 +1159,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-29T03:15:35Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af29/live/89368140-d349-11f1-8a05-59afc813496d.jpg",
+      "publishedAt": "2026-10-29T07:28:26Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a90c/live/b93f5b80-d369-11f1-93e1-3b657b665bcf.jpg",
       "imageAlt": null,
-      "category": "Technology",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "447f3c01aa115d8ec831",
+      "clusterId": "d24a8dd38363eb63082b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.98602
+      "rankingScore": 6.01075
     },
     {
-      "id": "3ec70197c9a5c774bebe86aa",
-      "title": "US Health Secretary RFK Jr to expand access to unapproved peptides",
+      "id": "0029174a886375cc139234d5",
+      "title": "Chiellini guidance to Leeds 'rock' - could Muharemovic be signing of season?",
       "translatedTitle": null,
-      "description": "Health experts have cautioned against use of the drugs, citing a lack of clinical trials for humans and the unknown long-term effects.",
-      "url": "https://www.bbc.co.uk/news/articles/cmq8nwd748v3o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmq8nwd748v3o?at_campaign=rss&at_medium=RSS",
+      "description": "Having cost Leeds United an 'eye-watering' fee, Tarik Muharemovic has impressed so much that some fear the club face a battle to keep him.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx05487d6r9vo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cx05487d6r9vo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -644,28 +1189,88 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-29T03:09:10Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a8b/live/52521bc0-d33b-11f1-a26e-e3fa3a99b3a9.jpg",
+      "publishedAt": "2026-10-29T06:27:10Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f99/live/b256c500-d117-11f1-921d-7d7921390179.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b7b2f5033aeed02a227a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.89489
+    },
+    {
+      "id": "475422b6a8e3c59585c79a02",
+      "title": "We love how we look but AI tried to 'fix' our visible differences",
+      "translatedTitle": null,
+      "description": "An AI tool edited a photo of Rhiannon Morgan in a work newsletter and she was shocked by the results.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx28e44xxx7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmx28e44xxx7o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T06:13:33Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/162f/live/9c87ca10-d1fa-11f1-93e1-3b657b665bcf.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-10-29T08:18:15Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "26d64641e54dc35614ef",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.87002
+    },
+    {
+      "id": "8be767bbdc05425b7dc51c28",
+      "title": "Mum of critically ill baby denied hospital food as she wasn't breastfeeding",
+      "translatedTitle": null,
+      "description": "Sophie Price had given birth in the same hospital five days earlier but was denied a hot meal.",
+      "url": "https://www.bbc.co.uk/news/articles/cqzrdkn4v36po?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqzrdkn4v36po?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-10-29T06:12:07Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7058/live/3a507bf0-d2b6-11f1-b441-2b33b063138f.png",
       "imageAlt": null,
       "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "bdd7e80a2a0b5f063cf3",
+      "clusterId": "488822a612ad147cf9b1",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.97372
+      "rankingScore": 5.86742
     },
     {
-      "id": "299e5633b7a19e5678cd6a60",
-      "title": "King Charles shows off dance moves on second day of Caribbean tour",
+      "id": "12702525fb49c639ad278b63",
+      "title": "Ofcom outlines ways social media can verify ages of users",
       "translatedTitle": null,
-      "description": "Earlier in the day, the King paid his respects to the island's fallen servicemen and women.",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd670vpj09o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ckzd670vpj09o?at_campaign=rss&at_medium=RSS",
+      "description": "Ofcom says photo and digital ID, banking checks or facial age estimation can help prove someone is 16 or over.",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6ly3027820lo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -674,564 +1279,144 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-29T01:41:36Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/99e4/live/f61cf470-d316-11f1-93e1-3b657b665bcf.jpg",
+      "publishedAt": "2026-10-29T05:57:15Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4ca/live/2bf1c250-d2af-11f1-a05d-41eb870c7a5f.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fd3ef02922391fa957d3",
+      "clusterId": "4ec5ff58c5e2c3343633",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.813
+      "rankingScore": 5.84066
     },
     {
-      "id": "16c8721e4f50577ea73fa9b9",
-      "title": "Details of thousands of US immigration agents leaked in major hack",
+      "id": "2208213ee8969812b1e74f64",
+      "title": "Sri Lanka v England: men’s cricket tri-series one-day international – live",
       "translatedTitle": null,
-      "description": "A group called the Department of Peace released information on more than 41,000 DHS staff.",
-      "url": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cq8jzkpjr28vo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Updates from the final group match in Lahore Sign up for the Spin The sun is out, Asitha Fernando has the ball, the drums are rolling. England’s record in this tri-series is played three, won none. A consolation win would pad the flight home. Continue reading...",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/29/sri-lanka-v-england-mens-cricket-tri-series-one-day-international-live",
+      "canonicalUrl": "https://theguardian.com/sport/live/2026/oct/29/sri-lanka-v-england-mens-cricket-tri-series-one-day-international-live",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-29T01:30:43Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c03/live/2996f1b0-d318-11f1-ba7d-b5eab6da6837.jpg",
+      "publishedAt": "2026-10-29T08:00:46Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/164a1eb1f33d132cb67428dc95af63f70fbb5215/105_51_1936_1549/master/1936.jpg?width=140&quality=85&auto=format&fit=max&s=a352108df1e24cf722537f9e84fc3f01",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c748158c9a5878d03d85",
+      "clusterId": "85b94f85bbd636789fdc",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.79392
+      "rankingScore": 5.80459
     },
     {
-      "id": "bc621ff452076f3c53840b54",
-      "title": "Microsoft profits soar days after announcing thousands of layoffs",
+      "id": "121e88ea420c9d5c71b3398d",
+      "title": "You be the judge: Should my girlfriend stop sending me 10-minute voice notes?",
       "translatedTitle": null,
-      "description": "The week, the Windows developer said it would offer buyouts to 60,000 workers as it looks to curb costs.",
-      "url": "https://www.bbc.co.uk/news/articles/c6m24klyjr8no?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6m24klyjr8no?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Elena records messages for Ayo because they’re often apart, but he would prefer a simple text or chat on the phone. Is he right to call her out? • Find out how to get a disagreement settled or become a juror I haven’t got time to listen to 10-minute messages. I’d much prefer a simple text or phone call Continue reading...",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/29/you-be-the-judge-should-my-girlfriend-stop-sending-me-10-minute-voice-notes",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/oct/29/you-be-the-judge-should-my-girlfriend-stop-sending-me-10-minute-voice-notes",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-29T01:27:40Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0364/live/44d987f0-d32a-11f1-b0c3-4b2ce0e9f02a.jpg",
+      "publishedAt": "2026-10-29T08:00:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/deded6596ac7d1b9a755e6a5f99a91e017ce536b/0_0_1621_1296/master/1621.jpg?width=140&quality=85&auto=format&fit=max&s=64c068d1bf09ff5eeebf328b428db42c",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3de37c247b94e3e6c3af",
+      "clusterId": "17c278d25e98d98b9ffb",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.7886
+      "rankingScore": 5.80399
     },
     {
-      "id": "e2c760a9ce3ec2d43a2aca41",
-      "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "id": "6a6531fb8136172df86b1b73",
+      "title": "Pop prodigy Underscores: ‘I don’t think Gen Z is a loveless generation’",
       "translatedTitle": null,
-      "description": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
-      "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6kglwe4lxwzo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "With a sound inspired by the San Francisco tech boom, the hyperpop musician is entering the big leagues, and a slot on Charli xcx’s tour. First she needs to get over her own shyness – not to mention a fear of love songs The life of a rising pop star: One day, you’re performing your own song with Charli xcx, her dancers emulating your choreography, an arena’s worth of fans screaming along. The next, you’re on a surgery table, with a healthcare professional yanking four superfluous teeth out of yo",
+      "url": "https://www.theguardian.com/music/2026/oct/29/underscores-april-grey-music-review-u-fishmonger-wallsocket",
+      "canonicalUrl": "https://theguardian.com/music/2026/oct/29/underscores-april-grey-music-review-u-fishmonger-wallsocket",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-29T01:14:01Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c2c/live/4c19c1e0-d2eb-11f1-b441-2b33b063138f.jpg",
+      "publishedAt": "2026-10-29T08:00:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/47007b670a3eca3bef1b6e270990f9c9276c3c1b/1000_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=647fcbf72f828d944d8db38bd95466ba",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e71e2f6cb01a6a44ce77",
+      "clusterId": "2ad772c3cc4e18f7e425",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.76501
+      "rankingScore": 5.80396
     },
     {
-      "id": "d4c3b99a5c3ecd687037d529",
-      "title": "Worker rights pioneer Dolores Huerta wanted others to feel seen",
+      "id": "26d17e29f02990fb5a7cd462",
+      "title": "If British Library reading rooms become ‘co-working spaces’, it’s all too easy to imagine what comes next | Andy Beckett",
       "translatedTitle": null,
-      "description": "Dolores Huerta fought for causes even in her golden years, when many others would be enjoying retirement",
-      "url": "https://www.independent.co.uk/news/california-presidential-medal-of-freedom-latinos-african-americans-new-mexico-b3075327.html",
-      "canonicalUrl": "https://independent.co.uk/news/california-presidential-medal-of-freedom-latinos-african-americans-new-mexico-b3075327.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "The plan to generate revenue from areas currently used by the public is causing bitter dispute, and raises fundamental questions In a crowded country that is short of public money, any expansive public building that seems underused in any way is vulnerable. Professional critics of state spending can claim taxpayers’ money is being wasted. Managers of the building who are under financial pressure can argue it needs to be used more intensely, perhaps that some spaces should be commercialised and o",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/29/british-library-reading-rooms-co-working-space-national-library",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/oct/29/british-library-reading-rooms-co-working-space-national-library",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-10-29T04:01:23Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/29/04/Dolores_Huerta_18485.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-10-29T08:00:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/953e8eeb6200f2c42c61f98952c7d75266fd5f87/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=70ab26929642c85d61c15af38e125dc0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d726cdd449894e09bd67",
+      "clusterId": "6ce4fa9fdf31d540d21a",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.71595
+      "rankingScore": 5.80396
     },
     {
-      "id": "1622468d3659ea2862f2054a",
-      "title": "One Tech Tip: How to get started with AI agents, and which are best for specific tasks",
-      "translatedTitle": null,
-      "description": "Agentic artificial intelligence is gaining popularity beyond tech circles, with personal AI agents becoming more widely accessible",
-      "url": "https://www.independent.co.uk/news/muse-meta-anthropic-openai-experts-b3075324.html",
-      "canonicalUrl": "https://independent.co.uk/news/muse-meta-anthropic-openai-experts-b3075324.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T04:01:05Z",
-      "imageUrl": "https://static.independent.co.uk/2026/09/29/19/Open_AI_Conference_33846.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7d00348e53277f65db1e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71535
-    },
-    {
-      "id": "7a5f8260e3ad90ce55958838",
-      "title": "Jamie Dornan says he’s under ‘pressure’ to follow Viggo Mortensen in Lord of the Rings role",
-      "translatedTitle": null,
-      "description": "Dornan will play Aragorn in ‘The Hunt for Gollum’",
-      "url": "https://www.independent.co.uk/arts-entertainment/films/news/lord-of-the-rings-jamie-dornan-viggo-mortensen-b3075319.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/films/news/lord-of-the-rings-jamie-dornan-viggo-mortensen-b3075319.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T04:00:44Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/28/18/2286608734..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4d36dc1748d25ef7d52d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71465
-    },
-    {
-      "id": "7abaddb4335617dbbfc3ef4c",
-      "title": "North Korea launches an unidentified projectile off its east coast, South Korea says",
-      "translatedTitle": null,
-      "description": "South Korea says North Korea has launched an unidentified projectile off the North’s east coast",
-      "url": "https://www.independent.co.uk/news/north-korea-south-korea-kim-jong-un-seoul-china-b3075322.html",
-      "canonicalUrl": "https://independent.co.uk/news/north-korea-south-korea-kim-jong-un-seoul-china-b3075322.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T03:54:26Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/24/07/North_Korea_China__61_1.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ae5ca532def56cc5d883",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70206
-    },
-    {
-      "id": "9b2c2903cc85354eefc25c10",
-      "title": "Trump makes rare Epstein comment as Obama laughs off Cheesecake Factory drama at dueling midterm rallies: Live updates",
-      "translatedTitle": null,
-      "description": "Trump-friendly Fox News has predicted Democrats will take back the House, while the Senate remains ‘a toss-up’",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterms-ohio-campaign-live-updates-b3074888.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-midterms-ohio-campaign-live-updates-b3074888.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T03:53:42Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/28/23/09/GettyImages-2302453586.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "36adad77d402a3f4fd3c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.7006
-    },
-    {
-      "id": "aef31322f83c92e1902b458e",
-      "title": "Europe's youth take to the streets - they feel locked out of a promising future",
-      "translatedTitle": null,
-      "description": "The last month has seen youth-driven demonstrations across Europe. What connects them?",
-      "url": "https://www.bbc.co.uk/news/articles/cm2ke80nd929o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm2ke80nd929o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T00:33:11Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/64cf/live/0f06e8c0-d2e9-11f1-b441-2b33b063138f.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "545c869bada48cee993b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69618
-    },
-    {
-      "id": "68a6e8e3bd738a97bcca95a7",
-      "title": "The Papers: 'Healey offers cold comfort' and 'A £100 trick or treat?'",
-      "translatedTitle": null,
-      "description": "Thursday's papers focus entirely on John Healey's first Budget that included £100 for energy bills and a bank tax.",
-      "url": "https://www.bbc.co.uk/news/articles/c6j470yx0nweo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6j470yx0nweo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T00:30:52Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2989/live/db9f2a70-d328-11f1-93e1-3b657b665bcf.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "480cded38416560bc227",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69236
-    },
-    {
-      "id": "c873470f10a007c5dbd292d0",
-      "title": "Take our Celebrity Traitors quiz to find out which star you would be in this year's show",
-      "translatedTitle": null,
-      "description": "Are you an observant sleuth or a smooth operator? Find out which star you are by answering these questions.",
-      "url": "https://www.bbc.co.uk/news/articles/c6d93vxj3g5xo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6d93vxj3g5xo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T00:29:39Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26c6/live/8d452c50-d2f4-11f1-b441-2b33b063138f.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d3667161de945ebc002c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69035
-    },
-    {
-      "id": "8ca0af239a8f04a5669a6941",
-      "title": "Milwaukee's William Contreras wins World Series MVP with .381 average, 10 ABS overturns",
-      "translatedTitle": null,
-      "description": "William Contreras became the eighth catcher voted the World Series MVP after lifting the Milwaukee Brewers to their first World Series championship",
-      "url": "https://www.independent.co.uk/news/milwaukee-venezuela-game-san-diego-los-angeles-dodgers-b3075320.html",
-      "canonicalUrl": "https://independent.co.uk/news/milwaukee-venezuela-game-san-diego-los-angeles-dodgers-b3075320.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T03:45:21Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/29/03/APTOPIX_World_Series_Brewers_Rays_Baseball_7422_.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b7730f81da5fb61c8074",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68403
-    },
-    {
-      "id": "4198c3145dbd6a90871f3c01",
-      "title": "Trump inexplicably decides to riff about Jeffrey Epstein in Ohio while stumping for midterms",
-      "translatedTitle": null,
-      "description": "Trump was gushing over Ohio Sen. Jon Husted’s body -- again -- when a heckler interrupted him, shouting about Epstein",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-epstein-ohio-rally-b3075297.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-epstein-ohio-rally-b3075297.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T03:32:48Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/29/0/52/GettyImages-2302456212.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "075685f51cea1e034651",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65938
-    },
-    {
-      "id": "24b857f9db7a58c9a44ea801",
-      "title": "'He could be happier' - why is Estevao becoming Chelsea's forgotten man?",
-      "translatedTitle": null,
-      "description": "Estevao faces limited opportunities at Chelsea as Pedro Neto’s form and competition for places in attack leave him struggling for game time under Xabi Alonso.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cv5ynwkndw61o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cv5ynwkndw61o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T00:05:21Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83e9/live/c0798ce0-d328-11f1-acfb-39fa465810d4.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b0d5989b63a391d44e77",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65074
-    },
-    {
-      "id": "d5ab086446322521bbff3cae",
-      "title": "Family row over George Michael items up for auction - including Faith guitar",
-      "translatedTitle": null,
-      "description": "The brother of the singer's late personal assistant says she would not have wanted the items to be sold.",
-      "url": "https://www.bbc.co.uk/news/articles/cmr4y51gd5yro?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmr4y51gd5yro?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T00:01:16Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e53/live/5b4a4ea0-d2eb-11f1-8d86-83eebc838351.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f0c702c6e609645c69df",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64417
-    },
-    {
-      "id": "b839906a720bddbb319cbb0d",
-      "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
-      "translatedTitle": null,
-      "description": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
-      "url": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmx235r9wr3yo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T00:00:25Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5570/live/b5261da0-d304-11f1-a9bf-3316693f55f0.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5460e54d1f2f4c250427",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64281
-    },
-    {
-      "id": "e39fa99212ecb9d8605a3fa9",
-      "title": "'I live with a ghost': Japan's haunted homes attract bargain hunters",
-      "translatedTitle": null,
-      "description": "Properties where someone has died in tragic circumstances can have big reductions in price.",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqwy78elyrlzo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T00:00:15Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c40/live/5436ab40-cc8d-11f1-bed8-c51b95c602ec.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e68105ca3650dc2671aa",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64254
-    },
-    {
-      "id": "f85b93181c170db162050a0d",
-      "title": "Charming, cantankerous Pat Murphy at age 67 leads Brewers to first World Series title",
-      "translatedTitle": null,
-      "description": "Pat Murphy, the Milwaukee Brewers manager, has led his team to a World Series victory over the Tampa Bay Rays",
-      "url": "https://www.independent.co.uk/news/world/europe/milwaukee-brewers-tampa-bay-rays-ncaa-san-diego-bruce-springsteen-b3075315.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/milwaukee-brewers-tampa-bay-rays-ncaa-san-diego-bruce-springsteen-b3075315.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T03:20:32Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/29/03/World_Series_Rays_Brewers_Baseball_96391.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8a8ed1a7ac4210a4f0fa",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.63556
-    },
-    {
-      "id": "801e021a6f14d79e05ba7cf4",
-      "title": "Girl seriously injured in wolf attack at German wildlife park",
+      "id": "3a5f3b57a721551984371f6c",
+      "title": "Girl injured in wolf attack at wildlife park",
       "translatedTitle": null,
       "description": "An eight-year-old girl has been seriously injured in a wolf attack at a wildlife park in Germany.",
       "url": "https://news.sky.com/story/germany-eight-year-old-girl-seriously-injured-in-wolf-attack-at-wildlife-park-13605151",
@@ -1249,75 +1434,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "17c7d692b8c5ebb5575a",
+      "clusterId": "fc7dd7d95767e3c4844e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.58108
-    },
-    {
-      "id": "cc93159055969457cc0e783e",
-      "title": "Non-profit group leaks data of more than 40,000 homeland security workers",
-      "translatedTitle": null,
-      "description": "Information released by Distributed Denial of Secrets is the third such government data disclosure in the last month Data identifying more than 41,000 employees and contractors for the US Department of Homeland Security (DHS) was released on Wednesday in an unprecedented leak that reveals how the agency is organized. The records, which were made public by the transpaency nonprofit Distributed Denial of Secrets reference operation names, surveillance programs and information on undercover initiat",
-      "url": "https://www.theguardian.com/us-news/2026/oct/28/homeland-security-data-leak",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/oct/28/homeland-security-data-leak",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T01:25:35Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/be7bf9ada13544c4a4603c235464037ece0eb745/494_0_4341_3474/master/4341.jpg?width=140&quality=85&auto=format&fit=max&s=999b3d9ed92d532fe485d30ed625e280",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7ee881215dd788aad7d9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.51498
-    },
-    {
-      "id": "98aa143d52f3408235faee69",
-      "title": "Stars and scars: the art of Atong Atem at the NGV – in pictures",
-      "translatedTitle": null,
-      "description": "The National Gallery of Victoria presents the first major Australian solo exhibition of the Melbourne artist, whose work references African studio photography, family archives, Catholic imagery and science fiction, while paying tribute to the myths and traditions of Dinka Bor culture in South Sudan. Passage: The Art of Atong Atem will run from Friday until 14 June at the Ian Potter Centre in Federation Square. Entry is free Keeping it real: the vivid photography of Atong Atem – in pictures Conti",
-      "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/29/stars-and-scars-art-atong-atem-ngv-in-pictures",
-      "canonicalUrl": "https://theguardian.com/artanddesign/gallery/2026/oct/29/stars-and-scars-art-atong-atem-ngv-in-pictures",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-10-29T01:00:17Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/010715f79dfb821b3d8e9010befc804ab17e616d/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=d0cd6509e510e7c1b18ae6a1173e8367",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "03152adfa2ab9d5b0976",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47157
+      "rankingScore": 5.19421,
+      "related": []
     },
     {
       "id": "d068f7c09520ea77f7edf323",
@@ -1339,15 +1464,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-10-29T04:18:12Z",
+      "retrievedAt": "2026-10-29T08:18:15Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e08ea0442d08dddfb1db",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47109
+      "rankingScore": 5.10614,
+      "related": []
     },
     {
       "id": "ebc5e5b7d1d40ba90697282e",
@@ -1376,8 +1501,8 @@
       "clusterId": "50f62374ba7e2d96866c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.34719
+      "rankingScore": 4.98899,
+      "related": []
     },
     {
       "id": "7a55dc35febf2cc6a1ff80d0",
@@ -1406,8 +1531,8 @@
       "clusterId": "2a07708de3b8b61c6a70",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.32256
+      "rankingScore": 4.96928,
+      "related": []
     },
     {
       "id": "34f1c7e105907906587df8b2",
@@ -1436,8 +1561,8 @@
       "clusterId": "5ed25f2c5715a1cd23b3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.2912
+      "rankingScore": 4.94416,
+      "related": []
     }
   ]
 }
