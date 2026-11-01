@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T12:17:54Z",
-  "lastAttemptAt": "2026-11-01T12:17:54Z",
-  "lastSuccessfulUpdate": "2026-11-01T12:17:54Z",
-  "status": "current",
+  "generatedAt": "2026-11-01T16:17:58Z",
+  "lastAttemptAt": "2026-11-01T16:17:58Z",
+  "lastSuccessfulUpdate": "2026-11-01T16:17:58Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-01T12:17:53Z",
-      "lastSuccessAt": "2026-11-01T12:17:54Z",
-      "articlesRetrieved": 42,
-      "responseTimeMs": 489,
+      "lastAttemptAt": "2026-11-01T16:17:57Z",
+      "lastSuccessAt": "2026-11-01T16:17:57Z",
+      "articlesRetrieved": 32,
+      "responseTimeMs": 390,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-01T12:17:53Z",
-      "lastSuccessAt": "2026-11-01T12:17:54Z",
-      "articlesRetrieved": 146,
-      "responseTimeMs": 303,
+      "lastAttemptAt": "2026-11-01T16:17:57Z",
+      "lastSuccessAt": "2026-11-01T16:17:57Z",
+      "articlesRetrieved": 148,
+      "responseTimeMs": 527,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-01T12:17:53Z",
-      "lastSuccessAt": "2026-11-01T12:17:54Z",
-      "articlesRetrieved": 9,
-      "responseTimeMs": 477,
+      "lastAttemptAt": "2026-11-01T16:17:57Z",
+      "lastSuccessAt": "2026-11-01T16:17:57Z",
+      "articlesRetrieved": 8,
+      "responseTimeMs": 323,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-01T12:17:53Z",
-      "lastSuccessAt": "2026-11-01T12:17:54Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 537,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-01T16:17:57Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -78,21 +78,113 @@
       "imageAlt": null,
       "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "ec7f8587cec1567ae9a9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 10.20408
+      "rankingScore": 9.7728,
+      "related": []
+    },
+    {
+      "id": "d98d6485cac6b60baab57881",
+      "title": "Irish Olympian and European champion Ciara Mageean dies aged 34",
+      "translatedTitle": null,
+      "description": "Tánaiste Simon Harris described the news as heartbreaking",
+      "url": "https://www.independent.co.uk/sport/general/athletics/ciara-mageean-death-tributes-ireland-b3077053.html",
+      "canonicalUrl": "https://independent.co.uk/sport/general/athletics/ciara-mageean-death-tributes-ireland-b3077053.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T10:50:50Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/01/10/01M6BAJ7VC3A4X9EA3X7V3E388.jpg?width=1200&auto=webp&trim=0%2C6%2C0%2C6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T12:17:54Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "21fb15cfda488775ecf5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "5b6d363d938c752847c8c993",
+          "title": "Ciara Mageean, European 1500m gold medallist with Ireland, dies aged 34",
+          "translatedTitle": null,
+          "description": "Mageean won 2024 European 1500m title in Rome Athlete described as ‘an inspiration to so many’ The Irish middle-distance runner Ciara Mageean, who won European gold and competed at two Olympic Games, has died aged 34, her family have announced. The athlete, from Portaferry in Northern Ireland, died at 6.30am on Sunday. In a post on social media, her family said she was surrounded by her loved ones, adding: “A beloved daughter, sister, wife, friend and inspiration to so many, she will be deeply m",
+          "url": "https://www.theguardian.com/sport/2026/nov/01/ciara-mageean-european-1500m-gold-medallist-ireland-dies-age-34",
+          "canonicalUrl": "https://theguardian.com/sport/2026/nov/01/ciara-mageean-european-1500m-gold-medallist-ireland-dies-age-34",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-01T12:31:01Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/3a530a16cac5d50b9617f0be4a7822787904579c/525_0_4488_3590/master/4488.jpg?width=140&quality=85&auto=format&fit=max&s=8bb77d3b2f6f9b55e942d426944af18b",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-01T16:17:57Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "21fb15cfda488775ecf5",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "ciara mageean european 1500m gold medallist with ireland dies aged 34"
+        },
+        {
+          "id": "bf65a315d4c7d5886ef0c52c",
+          "title": "Former Ireland European 1,500m champion dies at age of 34",
+          "translatedTitle": null,
+          "description": "Former European 1,500m champion Ciara Mageean has died at the age of 34.",
+          "url": "https://news.sky.com/story/ciara-mageean-former-european-1500m-champion-dies-at-age-of-34-13606579",
+          "canonicalUrl": "https://news.sky.com/story/ciara-mageean-former-european-1500m-champion-dies-at-age-of-34-13606579",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-01T08:15:00Z",
+          "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-ciara-mageean-european_7393707.jpg?20261101104505",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-01T16:17:57Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "21fb15cfda488775ecf5",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "former ireland european 1 500m champion dies at age of 34",
+          "rankingScore": 6.79677
+        }
+      ],
+      "rankingScore": 8.68501
     },
     {
       "id": "3b92ace3918cf179c056f962",
       "title": "Binance resumes customer withdrawals after record $6.3bn hack",
       "translatedTitle": null,
-      "description": "Cryptocurrency exchange says 90% of losses covered as FBI blames North Korean state-sponsored group TraderTraitor Cryptocurrency exchange Binance has started to allow its customers to withdraw their funds from the platform, as it recovers from a record $6.3bn (£4.7bn) hack. The exchange was hit by the theft on Thursday, which has since been described as the biggest heist in history, with experts identifying North Korea as the likely culprit. Continue reading...",
+      "description": "Cryptocurrency exchange says 90% of losses covered as FBI blames North Korean state-sponsored group TraderTraitor The cryptocurrency exchange Binance has started to allow its customers to withdraw their funds from the platform, as it recovers from a record $6.3bn (£4.7bn) hack. The exchange was hit by the theft on Thursday, which has since been described as the biggest heist in history, with experts identifying North Korea as the likely culprit. Continue reading...",
       "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
       "canonicalUrl": "https://theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
       "sourceName": "The Guardian",
@@ -108,14 +200,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "10be874b112ccf32ec02",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.89246,
+      "rankingScore": 8.11349,
       "related": [
         {
           "id": "559fa94ba596c0e8f35dab04",
@@ -169,23 +261,113 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "32d050f40bcdd743ca60",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.50402
+      "rankingScore": 8.07275,
+      "related": []
     },
     {
-      "id": "e2b2993f9ff49d95fd60bf15",
-      "title": "Britain's Dart wins first WTA title of her career",
+      "id": "3759cce1e2ad476408e7bd94",
+      "title": "‘He’s a force’: Obama answers call to boost Democrats – and rattle Trump",
       "translatedTitle": null,
-      "description": "Britain's Harriet Dart caps the best week of her career by beating fast-rising Austrian teenager Lilli Tagger in three sets in Guangzhou.",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm62y10v3p96o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/tennis/articles/cm62y10v3p96o?at_campaign=rss&at_medium=RSS",
+      "description": "Former president has given series of blistering speeches to help candidates in key races – and deployment has proved a hit with party’s progressive wing That could have been awkward. Barack Obama, campaigning for Senate candidate Abdul El-Sayed in Michigan, acknowledged that his fellow Democrat has criticised some aspects of the Obama presidency. “Yeah, Abdul didn’t agree with some things we wanted to do – that our administration was doing – when I was president,” he told a rally in Detroit. “Yo",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/barack-obama-midterms-democrats-trump",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/01/barack-obama-midterms-democrats-trump",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T11:00:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/17c290241a88cba96cce5521e29dc2655bcbfc2b/0_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=d7651e62507e0425249ab8fb9f08209a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7de8f6431c2f9c77ab32",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.97911
+    },
+    {
+      "id": "045e5e4a0a5c26666dc31569",
+      "title": "Indian forces tighten security in Delhi ahead of big opposition protest",
+      "translatedTitle": null,
+      "description": "Opposition says hundreds of thousands of people expected to participate in march demanding election chief resign over voter list changes Indian security personnel carrying batons and shields and accompanied by riot control vehicles surrounded the site of a planned opposition ⁠protest in Delhi on Sunday that is set to demand the resignation of the country’s election chief over a controversial revision of voter lists. Authorities warned of traffic diversions ⁠ahead of the protest march ⁠and rally",
+      "url": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T06:20:58Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d60e9fd994f652f80f1c66f36e90440bb9f71ccd/1155_169_4342_3473/master/4342.jpg?width=140&quality=85&auto=format&fit=max&s=b73a2ea291bcceb40beaaad5fce8a873",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "48febd14d6b5a4a036a9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.60571
+    },
+    {
+      "id": "056bae12d472b143c6741785",
+      "title": "Piles of rubbish, power cuts and potholes: anger grows over Johannesburg’s run-down infrastructure",
+      "translatedTitle": null,
+      "description": "The problems run deep in South Africa’s largest city. Will voters punish the ANC in next week’s local elections? One week before the local elections in South Africa, the pavements and roads of the Johannesburg township Alexandra were filled with piles of rubbish, rotting in the heat. At the Jukskei River, its banks choked with rubble and litter, foul-smelling brown water flowed out of a culvert. “We’ve got way too many challenges,” said Semadi Manganye, the chief executive of Alexandra Water War",
+      "url": "https://www.theguardian.com/world/2026/nov/01/anger-over-johannesburgs-run-down-infrastructure-elections",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/01/anger-over-johannesburgs-run-down-infrastructure-elections",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T05:00:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f072d48b7cbc64b0c747e43a9d19293431821d61/559_0_5590_4472/master/5590.jpg?width=140&quality=85&auto=format&fit=max&s=9c05bb346592783f81c0d21c3a90d70e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9daa9f1206b31cab7c64",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.51435
+    },
+    {
+      "id": "1ed94224d2feb67fd5591162",
+      "title": "‘My vote still matters’ - Americans weigh in on the power of their ballot",
+      "translatedTitle": null,
+      "description": "The BBC asked voters from across the United States what voting means to them and whether they think it matters in the midterm elections.",
+      "url": "https://www.bbc.co.uk/news/videos/cw62yd964e55o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/cw62yd964e55o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -194,26 +376,117 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T11:27:04Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7bc3/live/7f36f7b0-d5e2-11f1-8fc6-43c59756914a.jpg",
+      "publishedAt": "2026-11-01T16:08:19Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddba/live/33355510-d488-11f1-b441-2b33b063138f.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0a20b180e10224c59779",
+      "clusterId": "4b77e5c0e2930771b5a9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.44033
+    },
+    {
+      "id": "d8e2fe11ec6c1922923de7aa",
+      "title": "Five teenagers stabbed at Halloween party",
+      "translatedTitle": null,
+      "description": "Hampshire Police believes an unknown group gained entry to the party at an address in Chandler's Ford.",
+      "url": "https://www.bbc.co.uk/news/articles/c6n4ed1l2pn1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6n4ed1l2pn1o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T15:01:31Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3090/live/bdf49670-d5eb-11f1-bfdd-73f39e6db31d.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "220236a1ea9675312c3c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "45c741fd1c40d27dea370bb7",
-          "title": "Harriet Dart wins first WTA title with Guangzhou Open fightback",
+          "id": "fa89aaa48244a102303a2115",
+          "title": "Five teenage boys seriously injured after being stabbed at party on Halloween",
           "translatedTitle": null,
-          "description": "Dart came from a set down to beat Lilli Tagger and claim her first ever WTA title",
-          "url": "https://www.independent.co.uk/sport/tennis/harriet-dart-guangzhou-open-final-wta-title-b3077067.html",
-          "canonicalUrl": "https://independent.co.uk/sport/tennis/harriet-dart-guangzhou-open-final-wta-title-b3077067.html",
+          "description": "Five teenagers have been seriously injured after they were stabbed at a party on Halloween - as police ask for information about an \"unknown group\".",
+          "url": "https://news.sky.com/story/five-teenage-boys-seriously-injured-after-they-were-stabbed-at-party-on-halloween-13606578",
+          "canonicalUrl": "https://news.sky.com/story/five-teenage-boys-seriously-injured-after-they-were-stabbed-at-party-on-halloween-13606578",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-01T13:09:00Z",
+          "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-hampshire-chandlers-ford_7393918.jpg?20261101154952",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-01T16:17:57Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "220236a1ea9675312c3c",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "five teenage boys seriously injured after being stabbed at party on halloween"
+        }
+      ],
+      "rankingScore": 7.35956
+    },
+    {
+      "id": "60c5d9234bdeebfe1301264e",
+      "title": "More than 300 arrests at Palestine Action support protest outside US embassy",
+      "translatedTitle": null,
+      "description": "More than 4,000 people have been arrested for supporting the group since it was proscribed in July 2025.",
+      "url": "https://www.bbc.co.uk/news/articles/c98rz23ed781o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c98rz23ed781o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T13:41:00Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c2da/live/12dda4f0-d5f7-11f1-a6a8-6dc45e4fc351.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a805eafca16e655dc195",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "03f3bbd92c87d71c0c5308a0",
+          "title": "More than 300 arrested after supporting Palestine Action during US embassy protest",
+          "translatedTitle": null,
+          "description": "Support for the group became an offence under the Terrorism Act",
+          "url": "https://www.independent.co.uk/news/uk/home-news/us-embassy-palestine-action-arrests-b3077058.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/us-embassy-palestine-action-arrests-b3077058.html",
           "sourceName": "The Independent",
           "sourceDomain": "independent.co.uk",
           "sourceCountry": "GB",
@@ -222,8 +495,8 @@
             "GB"
           ],
           "language": "en",
-          "publishedAt": "2026-11-01T11:26:24Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/01/11/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "publishedAt": "2026-11-01T11:04:01Z",
+          "imageUrl": "https://static.independent.co.uk/2026/10/31/18/52/AP26304552648903.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
@@ -231,17 +504,108 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "0a20b180e10224c59779",
+          "clusterId": "a805eafca16e655dc195",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "harriet dart wins first wta title with guangzhou open fightback"
+          "rankingScore": 5.60438,
+          "normalizedTitle": "more than 300 arrested after supporting palestine action during us embassy protest",
+          "sourceQuality": 1.0
         }
       ],
-      "rankingScore": 7.4087
+      "rankingScore": 7.21232
     },
     {
-      "id": "f92a79415ceed5daa5f4e2bf",
+      "id": "ad385eeb16954aaa5aa500eb",
+      "title": "Liverpool v Arsenal: Premier League – live",
+      "translatedTitle": null,
+      "description": "Updates from the match at Anfield (4.30pm GMT) Table | Top scorers | Email Daniel here So where is the game? Liverpool will look to get men around the ball when Arsenal have it, opening the pitch for switches should they win possession. And when they don’t, they’ll run like mad to recover it, stretching play and passing forwards, facilitating that by conserving energy every now and again when Nyoni slows the game down. In particular, I expect they’ll ask Bradley Barcola to target the space left",
+      "url": "https://www.theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live",
+      "canonicalUrl": "https://theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T16:04:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/87ad22c9a23ec363babafe977249b09d384db8d2/96_0_4872_3898/master/4872.jpg?width=140&quality=85&auto=format&fit=max&s=4dea28f5cce1f888794c4db332460aa8",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "06c24539902eb0b818de",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.16207
+    },
+    {
+      "id": "06fbd745ffdfef35b6527af8",
+      "title": "Trump to appear at rallies in battlegrounds Iowa and Kansas two days before midterms – live",
+      "translatedTitle": null,
+      "description": "He had originally canceled the in-person appearances in favor of tele-rallies, only to reverse course Sign up for the Breaking News US email The Republican congressman Mike Lawler is in danger of losing his seat next week. Again. In the last two elections, Lawler, 40, has defeated Democratic opponents in New York’s 17th congressional district – one of the closest-run battlegrounds in this year’s midterms – with moderate policies. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/01/trump-midterm-rallies-iowa-kansas",
+      "canonicalUrl": "https://theguardian.com/us-news/live/2026/nov/01/trump-midterm-rallies-iowa-kansas",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T15:46:15Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ea5328b98313aef120a9e56f7097a4fb5a069670/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=fb60f53121577444c875e8178809cf0c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "312c1d3e22be2abeaa37",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.12624
+    },
+    {
+      "id": "5860ff9253183d8b4a6817c4",
+      "title": "Tributes paid to ‘inspiring’ Cambridge scientist who died in Spain train crash",
+      "translatedTitle": null,
+      "description": "Dr Marta Shahbazi was travelling to a conference to receive award for scientific excellence in developmental biology An “inspiring” University of Cambridge scientist died in the Spanish train collision on Wednesday that killed at least 69 people. Dr Marta Shahbazi, an affiliate associate professor at the Cambridge Stem Cell Institute and a group leader at the city’s Medical Research Council Laboratory of Molecular Biology (LMB), was travelling on one of the trains involved in the crash near Urda",
+      "url": "https://www.theguardian.com/world/2026/nov/01/tributes-marta-shahbazi-university-of-cambridge-scientist-spanish-train-crash",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/01/tributes-marta-shahbazi-university-of-cambridge-scientist-spanish-train-crash",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T15:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/768c4ba470e9915362b2e359b2c39b525b2af3bc/80_167_1665_1332/master/1665.jpg?width=140&quality=85&auto=format&fit=max&s=73d783b5d9623bcfa37bceedcd0d05a2",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e0a590a83cb0805d1be7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03713
+    },
+    {
+      "id": "19071e905ab369c41ef7a066",
       "title": "Reeves says UK's future should be inside the EU",
       "translatedTitle": null,
       "description": "In her first major intervention since leaving the Treasury, Rachel Reeves says Brexit has made the UK \"poorer, weaker and less secure\".",
@@ -260,7 +624,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -288,7 +652,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-01T12:17:54Z",
+          "retrievedAt": "2026-11-01T16:17:57Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -299,7 +663,37 @@
           "normalizedTitle": "rachel reeves says uk s future is in eu as she backs andy burnham on brexit"
         }
       ],
-      "rankingScore": 7.33236
+      "rankingScore": 6.92932
+    },
+    {
+      "id": "6cb523c3a35605a263ccc1a0",
+      "title": "Readers reply: with governments asking us to stockpile, can we learn anything from disaster films?",
+      "translatedTitle": null,
+      "description": "The long-running series in which readers answer other readers’ questions on subjects ranging from trivial flights of fancy to profound scientific and philosophical concepts This week’s question: if I get a dumbphone, how will I cope in a smartphone world? As I was building pyramids of loo roll and tinned beans in response to the government’s Be Ready campaign, launched this week, I got to thinking about what other aspects of modern life might help us to get through an emergency. Specifically, ou",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/01/readers-reply-with-governments-asking-us-to-stockpile-can-we-learn-anything-from-disaster-films",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/01/readers-reply-with-governments-asking-us-to-stockpile-can-we-learn-anything-from-disaster-films",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T14:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a21851f7fa70df1bb0fb8e6e5b6434bc29529a35/810_0_2826_2261/master/2826.jpg?width=140&quality=85&auto=format&fit=max&s=056f37155960c1b68bd5d1e3c0292704",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "36592e67d451a2db71ca",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.9265
     },
     {
       "id": "c6a70847d6099db008e69a7f",
@@ -321,7 +715,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -329,7 +723,97 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.31752
+      "rankingScore": 6.90748
+    },
+    {
+      "id": "02be7cc05cb6f512dbbc6acb",
+      "title": "‘Dark money made darker’: funding labyrinth conceals donors to Republican campaigns",
+      "translatedTitle": null,
+      "description": "One man’s campaign finance operation in Wisconsin exemplifies the opacity of the US political funding system In the summer of 2024, a non-profit called the Green Dragon Coalition wired the last $20,000 of a $445,000 grant to a Super Pac. Its tax return for that year would describe the purpose of the transfer as “educational”. The same day, according to Federal Election Commission (FEC) records, the Super Pac spent $8,000 attacking Celeste Maloy, the Republican congresswoman for Utah’s second dis",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/republican-campaign-funding-labyrinth",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/01/republican-campaign-funding-labyrinth",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T13:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e36712ed1523cf8eb95c62ba4445d11b03e29f6e/707_0_4681_3744/master/4681.jpg?width=140&quality=85&auto=format&fit=max&s=084e0e617539ce2533e6752e52dd484c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "86bb7c3c22c190e98d88",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82182
+    },
+    {
+      "id": "501910e762f9579c5b2c0121",
+      "title": "Jess Cartner-Morley’s November style essentials: fancy flats, sexy knits and a Christmassy pigeon",
+      "translatedTitle": null,
+      "description": "Whether it’s a two-in-one coat or a truly delicious handbag, add some fun to getting dressed during the cold, dark months with our expert’s favourites • The best women’s shoes and boots for autumn The clocks have gone back. The mornings are cold and the evenings are dark. The world seems to be doing its level best to discourage any fashion ambition beyond the need to stay alive and warm enough to function. But clothes – even in winter – are not just about staying alive. They are about staying al",
+      "url": "https://www.theguardian.com/thefilter/2026/nov/01/jess-cartner-morleys-november-style-essentials-2026",
+      "canonicalUrl": "https://theguardian.com/thefilter/2026/nov/01/jess-cartner-morleys-november-style-essentials-2026",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T13:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/79c88825b13e09bcab60c890881ecd26b904cb6b/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=de65a44e0746e82a948e753e988b3fa9",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ac12a70d57e556eced80",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82179
+    },
+    {
+      "id": "4b06340751cab5d428a37b14",
+      "title": "The measure slipped into UK budget that could protect spending on children, youth and rough sleeping | Heather Stewart",
+      "translatedTitle": null,
+      "description": "PDEL, which will ringfence money for preventive policies, marks a welcome and potentially consequential addition John Healey’s debut budget was far from a blockbuster, but it may come to be remembered for the birth of a plucky new character in the tax and spend universe – little PDEL. It may not have the charm of Disney’s Wall-E, but PDEL (pronounced P-Del), or preventative departmental expenditure limit, to give it its full name, marks a welcome, and potentially very consequential, addition. Co",
+      "url": "https://www.theguardian.com/business/2026/nov/01/pdel-preventative-departmental-expenditure-limit-",
+      "canonicalUrl": "https://theguardian.com/business/2026/nov/01/pdel-preventative-departmental-expenditure-limit-",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T12:36:48Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d187c6c733029124fa36f3d52242eeddba98886e/420_0_4236_3389/master/4236.jpg?width=140&quality=85&auto=format&fit=max&s=cf937b3deff567b3fccff2c859946a6a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ccdb11ec4a112e2473c9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.78253
     },
     {
       "id": "2c727a98b2947b9cd7e781af",
@@ -358,8 +842,98 @@
       "clusterId": "cc4317ea5f05494965dc",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.74903,
+      "related": []
+    },
+    {
+      "id": "7eaf310037572c0744953268",
+      "title": "Like many authors, I’m bombarded by scam fan mail. I wasn’t prepared for what would happen when I wrote back",
+      "translatedTitle": null,
+      "description": "The novelist receives passionate AI-written emails almost every day – but when he decided to take up one sender’s offer to find him new readers, the story took a darker turn There’s no humble way to say it: I get a lot of fan mail. Almost every day, multi-paragraph emails arrive from passionate and well-informed readers in Barcelona and Frankfurt, Chicago and Warsaw. They have appealing names like Bella Monroe, Thalina Rose and Tricia Claxton. Some of them are straightforward enthusiasts while o",
+      "url": "https://www.theguardian.com/books/2026/nov/01/like-many-authors-im-bombarded-by-scam-fan-mail-i-wasnt-prepared-for-what-would-happen-when-i-wrote-back",
+      "canonicalUrl": "https://theguardian.com/books/2026/nov/01/like-many-authors-im-bombarded-by-scam-fan-mail-i-wasnt-prepared-for-what-would-happen-when-i-wrote-back",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T12:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8391dca1b5f47a3e14d5b9ff67498971e58f7917/232_292_1147_917/master/1147.jpg?width=140&quality=85&auto=format&fit=max&s=20b1b27cd50f482d97e6159cd174209d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "363254106a45c492e407",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.12212
+      "rankingScore": 6.7228
+    },
+    {
+      "id": "8eabf7a3d17a03e133192497",
+      "title": "Why you should treat charisma as a red flag",
+      "translatedTitle": null,
+      "description": "Today’s crop of smooth talkers tap directly into a specific evolutionary vulnerability. Here’s how to defend yourself Recently, I was alone in a bar waiting for a friend. To pass the time, I started chatting to a stranger. He had an easy, confident way of speaking, which I admired. We discussed topics I know little about: the instability of modern economies, the feasibility of commercial space travel, the likelihood of a coup in Russia. I found myself leaning in and asking questions: I felt as i",
+      "url": "https://www.theguardian.com/science/2026/nov/01/why-you-should-treat-charisma-as-a-red-flag",
+      "canonicalUrl": "https://theguardian.com/science/2026/nov/01/why-you-should-treat-charisma-as-a-red-flag",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T12:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/92b7466c257758563f3be722cea9fbc03af2c6f6/159_0_1530_1224/master/1530.jpg?width=140&quality=85&auto=format&fit=max&s=59d87089c88f140eac9fbfb23f9b3d61",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e90e275a4d338cab0d4d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.7228
+    },
+    {
+      "id": "d8f9f30d6008ffef5c126613",
+      "title": "Labour’s pledge to level-up minimum wage for under-20s before next election in doubt",
+      "translatedTitle": null,
+      "description": "Chancellor John Healey fails to guarantee equalisation with adult wage will happen in timeframe set out in manifesto Labour looks less likely to meet its manifesto pledge to equalise the minimum wage for younger workers before the next election, after the chancellor failed to guarantee the rise would happen within that timeframe. John Healey said on Sunday the government was still committed to the increase but failed to spell out when it would be achieved. In the budget, a rise in the minimum wa",
+      "url": "https://www.theguardian.com/society/2026/nov/01/chancellor-fails-to-guarantee-minimum-wage-pledge-younger-workers-kuenssberg",
+      "canonicalUrl": "https://theguardian.com/society/2026/nov/01/chancellor-fails-to-guarantee-minimum-wage-pledge-younger-workers-kuenssberg",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T11:52:55Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8b38b0cfc7894b8e956f8aa438e8d7df2d91a81a/1101_319_1899_1519/master/1899.jpg?width=140&quality=85&auto=format&fit=max&s=b0fb068762064b3b3be243f5b2567453",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fc19cd51670020f9272f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.71116
     },
     {
       "id": "9030a0380bdfd6c8d02b5dfb",
@@ -388,8 +962,8 @@
       "clusterId": "35e4c1a5cbf55e03433c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.09042
+      "rankingScore": 6.65389,
+      "related": []
     },
     {
       "id": "ca64e6b14a372e839abcffc1",
@@ -418,69 +992,68 @@
       "clusterId": "77ea77e5a40320ed7133",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.08175
+      "rankingScore": 6.64695,
+      "related": []
     },
     {
-      "id": "bf65a315d4c7d5886ef0c52c",
-      "title": "Former Ireland European 1,500m champion dies at age of 34",
+      "id": "31af83a28acd6973044b415f",
+      "title": "Democrats are used to heartbreak in Texas - could Talarico turn the tide?",
       "translatedTitle": null,
-      "description": "Former European 1,500m champion Ciara Mageean has died at the age of 34.",
-      "url": "https://news.sky.com/story/ciara-mageean-former-european-1500m-champion-dies-at-age-of-34-13606579",
-      "canonicalUrl": "https://news.sky.com/story/ciara-mageean-former-european-1500m-champion-dies-at-age-of-34-13606579",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
+      "description": "The state's $500m Senate race may be the most closely watched in the US midterms, and is about far more than control of Congress.",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0r2y6zeddo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmy0r2y6zeddo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T08:15:00Z",
-      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-ciara-mageean-european_7393707.jpg?20261101104505",
+      "publishedAt": "2026-11-01T06:03:57Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f303/live/84cce500-d54b-11f1-bcb7-8f812b44c2e5.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f883333a586500ece085",
+      "clusterId": "b6885a94faa6ab603347",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "d98d6485cac6b60baab57881",
-          "title": "Irish Olympian and European champion Ciara Mageean dies aged 34",
-          "translatedTitle": null,
-          "description": "Tánaiste Simon Harris described the news as heartbreaking",
-          "url": "https://www.independent.co.uk/sport/general/athletics/ciara-mageean-death-tributes-ireland-b3077053.html",
-          "canonicalUrl": "https://independent.co.uk/sport/general/athletics/ciara-mageean-death-tributes-ireland-b3077053.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-01T10:50:50Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/01/10/01M6BAJ7VC3A4X9EA3X7V3E388.jpg?width=1200&auto=webp&trim=0%2C6%2C0%2C6",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-01T12:17:54Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "f883333a586500ece085",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "irish olympian and european champion ciara mageean dies aged 34"
-        }
+      "related": [],
+      "rankingScore": 6.50593
+    },
+    {
+      "id": "d3777bef5a9f0cf6278124cc",
+      "title": "Asylum seekers still being sent to France under ‘one in one out’ weeks after scheme ended",
+      "translatedTitle": null,
+      "description": "Guardian understands Home Office continues to detain dozens of people, with one group forcibly removed this week The Home Office is still putting asylum seekers on to planes to France weeks after the controversial scheme to remove them ended, the Guardian has learned. The “one in, one out” scheme was announced by the French president, Emmanuel Macron, and the former prime minister Keir Starmer in July 2025. It aimed to deter small boats crossing the Channel to the UK from northern France, with s",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/01/asylum-seekers-still-being-sent-to-france-under-one-in-one-out-weeks-after-scheme-ended",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/01/asylum-seekers-still-being-sent-to-france-under-one-in-one-out-weeks-after-scheme-ended",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
       ],
-      "rankingScore": 6.79677
+      "language": "en",
+      "publishedAt": "2026-11-01T09:00:07Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/90dd5485e6a500f97421890048b8c2b26f0a8677/464_0_4635_3708/master/4635.jpg?width=140&quality=85&auto=format&fit=max&s=30f7bfaaf9ea4e93a14783908dc57a81",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6222111c09688d29971a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.45667
     },
     {
       "id": "08109c1bdf33e7ec6885eebf",
@@ -502,15 +1075,75 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "087bd3b53582df1dcd95",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.39797,
+      "related": []
+    },
+    {
+      "id": "2109c05912e9e5ebf2dec1f5",
+      "title": "Strauss: An Alpine Symphony album review – monumental work’s mystic vision guides Petrenko",
+      "translatedTitle": null,
+      "description": "RPO/Petrenko(Harmonia Mundi)Vasily Petrenko and the Royal Philharmonic’s take on Strauss’s tone poem is full of darkness and light, with an impressionist’s eye for details This is the third recording of Richard Strauss’s monumental tone poem to appear in the last year, and in some respects the most interesting. Vasily Petrenko and the Royal Philharmonic Orchestra adopt an expansive view, taking three minutes longer to clamber up and down the composer’s musical mountain than Edward Gardner or Nic",
+      "url": "https://www.theguardian.com/music/2026/nov/01/strauss-an-alpine-symphony-album-review",
+      "canonicalUrl": "https://theguardian.com/music/2026/nov/01/strauss-an-alpine-symphony-album-review",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T08:00:07Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fb1597bf1ac4c6d723224705670a346da806720e/37_0_4800_3840/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=e0c23edbbea54bfe502cc53287d70368",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "eca914a1a99988fdc2e3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.7484
+      "rankingScore": 6.37741
+    },
+    {
+      "id": "f7241abb680f7412a4a328b5",
+      "title": "Dafne Keen and Harriet Walter on working with Patrick Stewart: ‘I’ve never seen anyone so ecstatic’",
+      "translatedTitle": null,
+      "description": "The late actor’s co-stars in Logan and Anthony and Cleopatra remember dog impressions, marching band-conducting and a fervent belief in fun I had the unbelievable privilege of working with Patrick when I was 11 [in Logan]. He was a man of extraordinary warmth, wit and generosity. He possessed that increasingly rare ability to make everyone around him feel as though they were being let in on something wonderful. To work alongside him was to be reminded, every day, of what it means to love what yo",
+      "url": "https://www.theguardian.com/culture/2026/nov/01/dafne-keen-and-harriet-walter-on-working-with-patrick-stewart-ive-never-seen-anyone-so-ecstatic",
+      "canonicalUrl": "https://theguardian.com/culture/2026/nov/01/dafne-keen-and-harriet-walter-on-working-with-patrick-stewart-ive-never-seen-anyone-so-ecstatic",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T08:00:06Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/460c6c4f367a32b289a8fb7b6e700ff2be03ff3c/0_25_2632_2106/master/2632.jpg?width=140&quality=85&auto=format&fit=max&s=0d995202a1b9b837cd16cc125d9524b3",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9f7be32e01f3e06f8ed6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.37739
     },
     {
       "id": "90abc767eb8ebf6eaf1df41d",
@@ -532,113 +1165,53 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "d51882e1c36c6d209820",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.82179
-    },
-    {
-      "id": "eed04f4401976c3073358894",
-      "title": "Arsenal v Aston Villa, London City Lionesses v Manchester City, and more: Women’s Super League – live",
-      "translatedTitle": null,
-      "description": "⚽️ WSL updates with games at 12pm, 2pm and 2.30pm (GMT)⚽️ Putellas provides mindset change | Mail Luke 5 min: Arsenal have started mostly on the front foot in north London and are looking confident in possession, but a clear-cut chance has yet to materialise. Villa Women have won their past two league games, against Everton last week and Liverpool the week before that. They are hence two wins from eight in the league and sit eighth in the table. Continue reading...",
-      "url": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
-      "canonicalUrl": "https://theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T12:08:49Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/50b1dfa99db88903330e8dc0a7fa52a674695e28/658_0_3491_2792/master/3491.jpg?width=140&quality=85&auto=format&fit=max&s=db5d0e4e8ca5c68fb8721e70eceb0b04",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "763bb63a0744f2d77c01",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.82142
-    },
-    {
-      "id": "a8b01efa532aa930ebe9b7cc",
-      "title": "High street ‘slot farms’ could avoid budget tax rise through bingo hall loophole",
-      "translatedTitle": null,
-      "description": "Hundreds of adult gaming centres in England have bingo licences that still qualify them for discounted business rates Hundreds of high street “slot farms” could continue claiming a discount on their business rates, unless the government closes a loophole that allows them to pose as bingo halls. John Healey singled out adult gaming centres (AGCs) in his first budget this week, in which he increased duty on slot machine takings from 20% to 25%, claiming he was “raising taxes on gambling to support",
-      "url": "https://www.theguardian.com/society/2026/nov/01/high-street-slot-farms-budget-tax-rise-business-rates-bingo-licence-loophole",
-      "canonicalUrl": "https://theguardian.com/society/2026/nov/01/high-street-slot-farms-budget-tax-rise-business-rates-bingo-licence-loophole",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T12:04:59Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/74447e5d4f5ad2b62edb20f02734b1ad2e4db383/719_0_6713_5373/master/6713.jpg?width=140&quality=85&auto=format&fit=max&s=80136ba19032fbe274061e595391ea46",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3c8bf3f8f83a7ae48815",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.81369,
+      "rankingScore": 5.38698,
       "related": []
     },
     {
-      "id": "e0c93596a344221fc4cb6433",
-      "title": "Dining across the divide: ‘My family are all Trumpian, so I’ve had a lot of practice talking to people who are far right’",
+      "id": "e76d8c925db9eda08bce7a43",
+      "title": "National Grid sparks deal to pave way for giant UK data centre",
       "translatedTitle": null,
-      "description": "She thinks the answer to the climate crisis is cutting CO2, he favours population control and North Sea oil and gas extraction. Can they make it through a meal together? Sam, 29, central London Occupation Compliance officer Voting record Sam is American so can’t vote in the UK yet, but when she can she intends to vote Green Amuse bouche She is an expert knitter. She started when she was five and makes socks, mittens, hat, jumpers – if you know Sam, she’s knitting you something Continue reading..",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/01/dining-across-the-divide-my-family-are-all-trumpian-so-ive-had-a-lot-of-practice-talking-to-people-who-are-far-right",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/01/dining-across-the-divide-my-family-are-all-trumpian-so-ive-had-a-lot-of-practice-talking-to-people-who-are-far-right",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "National Grid has struck a deal paving the way for Britain’s biggest electricity substation to be built on Teesside as the government races to avoid missing out on global demand for AI infrastructure development.",
+      "url": "https://news.sky.com/story/national-grid-sparks-deal-to-pave-way-for-giant-uk-data-centre-13606573",
+      "canonicalUrl": "https://news.sky.com/story/national-grid-sparks-deal-to-pave-way-for-giant-uk-data-centre-13606573",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T12:00:11Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1b6610919c7637c4316c9b9ef3a167de7ce5846d/479_0_6147_4918/master/6147.jpg?width=140&quality=85&auto=format&fit=max&s=4da52d8c9f9b116d24ed2c6052544dd1",
+      "publishedAt": "2026-11-01T07:43:00Z",
+      "imageUrl": "https://e3.365dm.com/22/08/1920x1080/skynews-national-grid-energy_5873373.jpg?20220823075455",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "054959e2bc850c6b6e2a",
+      "clusterId": "01b874717cb011e7586d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80405
+      "rankingScore": 5.0056
     },
     {
-      "id": "0ded04a7180d1ff5ca81834d",
-      "title": "Fashion and tradition: how John Smedley is innovating in a tough market",
+      "id": "5f570138c3d7e197d6f2e5de",
+      "title": "A gift to scammers: why you should probably keep your birthday a secret",
       "translatedTitle": null,
-      "description": "In the final article in a series on high-end British manufacturing we look at a clothing brand that dates to the 18th century but is increasingly on-trend Making jeans again: the Hiut Denim factory in Cardigan Rolls-Royce rides high on craze for customisation Luxury leather: from wallets to cigar cases Tina is wielding a large pair of scissors with authority, slicing with immense skill and precision. With 38 years of experience, she is an important member of the 230-strong manufacturing team pro",
-      "url": "https://www.theguardian.com/business/2026/nov/01/john-smedley-knitwear-brand-innovating-fashion-tradition-tough-market-manufacturing",
-      "canonicalUrl": "https://theguardian.com/business/2026/nov/01/john-smedley-knitwear-brand-innovating-fashion-tradition-tough-market-manufacturing",
+      "description": "Using a fake DOB or leaving the field blank when making an online account can offer protection from identity theft You get a call from your bank saying there has been suspicious activity on your account. They read out your name, address and date of birth so you are happy it is a legitimate caller. But you are talking to criminals who have used your date of birth as part of a web of verifying information to convince you they are someone else. Continue reading...",
+      "url": "https://www.theguardian.com/money/2026/nov/01/do-not-share-date-of-birth-online-scam-fraudsters-advice",
+      "canonicalUrl": "https://theguardian.com/money/2026/nov/01/do-not-share-date-of-birth-online-scam-fraudsters-advice",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -647,28 +1220,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T12:00:11Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/c29a058a05e879426dd8ccd0f8c886cf2ee235aa/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=7ba7119ae866601d74dd5dc8e8adb7ec",
+      "publishedAt": "2026-11-01T07:00:05Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c62b7ce125ca10fc16fa8c7e9da59a1fb4bce56c/364_0_3559_2847/master/3559.jpg?width=140&quality=85&auto=format&fit=max&s=ac36ca9f0dc480e5f6cfeb0eaf696908",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "39606eb19423d754823d",
+      "clusterId": "d2fd6b284758af97b75b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80405
+      "rankingScore": 4.95239
     },
     {
-      "id": "9e76b273d06b81020d141bdd",
-      "title": "John Healey says UK apology over historic role in slave trade won’t lead to financial reparations – UK politics live",
+      "id": "9b23b77181dd50378780ded3",
+      "title": "Moods, Leeds LS2: ‘Puzzling, if not quite a car crash’ – restaurant review",
       "translatedTitle": null,
-      "description": "Ahead of a meeting with Commonwealth leaders, Andy Burnham wrote that Britain needed to ‘acknowledge its complicated history’ At the end of his interview with Kuennsberg, Healey was also asked to comment on a potential apology for Britain’s near-250 years of perpetrating the slave trade and why the government should or shouldn’t pay reparations to enslaved people and their countries. Sitting in the grand settings of Number 11 Downing St, Kuenssberg pointed out the lavish interiors: Considering a",
-      "url": "https://www.theguardian.com/politics/live/2026/nov/01/andy-burnham-uk-historic-slave-trade-financial-reparations-badenoch-budget-defence-latest-politics-news-updates",
-      "canonicalUrl": "https://theguardian.com/politics/live/2026/nov/01/andy-burnham-uk-historic-slave-trade-financial-reparations-badenoch-budget-defence-latest-politics-news-updates",
+      "description": "The crumpet has the texture of a damp Always Ultra I’ve done some fairly rash things in my time, but I’ve never popped into anywhere for king scallops with ’nduja and come out with a swallow tattoo on my neck, though what is this life without adventure? Which is where Moods comes in: the space is an all-day restaurant, bar, tattoo parlour and hair salon in Leeds, offering violetta potato with ox cheek, a short back and sides, and the chance to tattoo “Mum” on your lower left arm, all in one Grad",
+      "url": "https://www.theguardian.com/food/2026/nov/01/moods-leeds-ls2-grace-dent-restaurant-review",
+      "canonicalUrl": "https://theguardian.com/food/2026/nov/01/moods-leeds-ls2-grace-dent-restaurant-review",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -677,28 +1250,88 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T11:57:51Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/8982126cae1e95b4bd4156e36871f7c7a7276130/237_0_2365_1893/master/2365.jpg?width=140&quality=85&auto=format&fit=max&s=e229e6d40515228f5b37dbf4ce90424e",
+      "publishedAt": "2026-11-01T06:00:05Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8824bf6a6fad011154aca3cf421e0a058a5a73f7/0_132_6438_5150/master/6438.jpg?width=140&quality=85&auto=format&fit=max&s=9731583fa7659739b09402c0235f4e1c",
       "imageAlt": null,
-      "category": "Business",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "576e0d6e1ec721dc4284",
+      "clusterId": "41d86f00060727d75f43",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.79938
+      "rankingScore": 4.88147
     },
     {
-      "id": "bdb1254eb15b81666905b5eb",
-      "title": "University of Cambridge scientist among those who died in Spanish train crash",
+      "id": "9f1c6bf00f573143f6f32475",
+      "title": "My wife and I are in our late 70s and don’t have any children. Who can help us in our old age? | Annalisa Barbieri",
       "translatedTitle": null,
-      "description": "A Spanish research centre has confirmed her death days after she was declared misisng.",
-      "url": "https://www.bbc.co.uk/news/articles/cq5ynzvkn1d8o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cq5ynzvkn1d8o?at_campaign=rss&at_medium=RSS",
+      "description": "Getting older and losing your autonomy is even harder without family around. You need to consider both the practical and emotional issues involved My wife and I are in our late 70s, and have been married for more than 40 years. We didn’t have kids and were rather traumatised after failed IVF. My wife is Asian and has no UK-based family. I do, but they are not close geographically, nor are they people who would be able to give any support if needed. Friends are of a similar age and so have their",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/01/late-70s-no-children-who-help-old-age-annalisa-barbieri",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/01/late-70s-no-children-who-help-old-age-annalisa-barbieri",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T06:00:05Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/589588cb798024a7179dd81064cfa6c22fd9b19d/581_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=e46616ce0496268cdf6119e7c76badaa",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5616d84c4d471e892285",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.88147
+    },
+    {
+      "id": "31fc89f15c281e2ca57d4596",
+      "title": "I’m sick of smug celebrities on the podcast circuit. No wonder there’s a fuss when someone speaks the truth | Imogen West-Knights",
+      "translatedTitle": null,
+      "description": "It was so refreshing to hear Aaron Sorkin admit he was bad at parts of directing after his movie flop. If only others could be as frank By most accounts, Aaron Sorkin’s new film The Social Reckoning, a follow-up to his 2010 smash-hit The Social Network, is a flop. The film critic Mark Kermode’s response to seeing it was that Sorkin, who is widely regarded as one of the greatest living screenwriters, is “not a great director”. It seems that Sorkin agrees. Because Sorkin is very famous, he has had",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/01/smug-celebrities-podcast-circuit-aaron-sorkin",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/01/smug-celebrities-podcast-circuit-aaron-sorkin",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T06:00:04Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b14a9b14430495500b14eea4327e8f10c0d0632e/433_0_3333_2666/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=6c24e45549226b3c0309919d76140447",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0326d08e2adbf556dfcb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.88145
+    },
+    {
+      "id": "923f97584ea404e80e7f07b4",
+      "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
+      "translatedTitle": null,
+      "description": "Defeat for Serbia's Aleksandar Vučiċ in last weekend's vote was a carbon copy of Viktor Orbán's fall in Hungary.",
+      "url": "https://www.bbc.co.uk/news/articles/c893z699q401o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c893z699q401o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -707,148 +1340,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T09:31:06Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14d1/live/b405e550-d5dd-11f1-8fc6-43c59756914a.png",
+      "publishedAt": "2026-11-01T00:55:06Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b724/live/db1d9120-d456-11f1-906a-add2117fe3e6.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "88adcb96c93e288f170f",
+      "clusterId": "ff60ff273df6549b24e0",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.79502
+      "rankingScore": 4.84604
     },
     {
-      "id": "f164dd8343ee7251ccceed4d",
-      "title": "Enzo Maresca laments individual errors after back-to-back Manchester City defeats",
+      "id": "fb2e912f6e2beb32311f6c90",
+      "title": "Hitler’s Eagle’s Nest retreat was torched in an arson attack. Should it be rebuilt?",
       "translatedTitle": null,
-      "description": "City slipped to a second successive Premier League defeat at home to Brighton",
-      "url": "https://www.independent.co.uk/sport/football/enzo-maresca-man-city-brighton-b3077073.html",
-      "canonicalUrl": "https://independent.co.uk/sport/football/enzo-maresca-man-city-brighton-b3077073.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T12:13:30Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/01/11/cca47684a1d8dd4e92111fdda2aad833Y29udGVudHNlYXJjaGFwaSwxNzkzNjE4NDkz-2.86362545.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d01caf3ec37eebe6c3b9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.7409
-    },
-    {
-      "id": "33f6b5dee427f5cb6085e986",
-      "title": "Man Utd squad still trust each other despite Lisandro Martinez red, says Bryan Mbeumo",
-      "translatedTitle": null,
-      "description": "Martinez was sent off as Chelsea piled more misery on Manchester United on Saturday",
-      "url": "https://www.independent.co.uk/sport/football/man-united-chelsea-lisandro-martinez-red-carrick-sack-b3077074.html",
-      "canonicalUrl": "https://independent.co.uk/sport/football/man-united-chelsea-lisandro-martinez-red-carrick-sack-b3077074.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T12:07:40Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/01/12/01M6BD82V8CB1DYYJ9J5H7EX05.jpg?width=1200&auto=webp&trim=96%2C0%2C96%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a25b47c324d35f635299",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.7291
-    },
-    {
-      "id": "37fc51a8d7546ba084885cf4",
-      "title": "Oliver Glasner threatens to quit as he bemoans Nottingham Forest’s ‘s*** situation’",
-      "translatedTitle": null,
-      "description": "Glasner said Forest could soon be looking for their sixth manager in a year if things don’t change after their defeat at Brentford",
-      "url": "https://www.independent.co.uk/sport/football/oliver-glasner-nottingham-forest-sack-brentford-b3076919.html",
-      "canonicalUrl": "https://independent.co.uk/sport/football/oliver-glasner-nottingham-forest-sack-brentford-b3076919.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:59:55Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/01/11/01M69E3W16BNQC3XH41R6KTDEM.jpg?width=1200&auto=webp&trim=752%2C780%2C124%2C534",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "80594580f82a194ce4fe",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71351
-    },
-    {
-      "id": "3f511f8cf46350ecbdd7b82a",
-      "title": "Heidi Klum reveals inspiration for her most gruesome Halloween costume yet",
-      "translatedTitle": null,
-      "description": "Heidi Klum has revealed the inspiration behind her most gruesome Halloween costume yet.",
-      "url": "https://www.independent.co.uk/tv/lifestyle/heidi-klum-halloween-costume-hand-video-b3077046.html",
-      "canonicalUrl": "https://independent.co.uk/tv/lifestyle/heidi-klum-halloween-costume-hand-video-b3077046.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:55:16Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/01/10/2302943082..?width=1200&auto=webp&trim=195%2C0%2C195%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5c4e882543705f5b8c88",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70422
-    },
-    {
-      "id": "79c85402c13d780356ab8eea",
-      "title": "Tonga’s gripping win over Samoa a victory for Pasifika pride at Rugby League World Cup",
-      "translatedTitle": null,
-      "description": "Tonga defeat Samoa 20-18 in raucous atmosphere England exit tournament on points difference Sometimes sport does live up to the hype. Any suggestion that there was little riding on this result was evidently nonsense, when weeks of anticipation evolved into a mass display of national pride, the desire to get one over on their Pasifika cousins far greater than wanting to avoid Australia in the semi-finals. Tonga and Samoa flags had flown from cars for several days across the eastern seaboard and f",
-      "url": "https://www.theguardian.com/sport/2026/nov/01/tonga-samoa-mens-rugby-league-world-cup-england-exit",
-      "canonicalUrl": "https://theguardian.com/sport/2026/nov/01/tonga-samoa-mens-rugby-league-world-cup-england-exit",
+      "description": "With the far right resurgent in Germany, experts are divided as to whether the dictator’s former mountaintop retreat is better restored or left a ruin One of the last structural relics of Adolf Hitler’s dictatorship was conceived to project indomitable power. Last month it was destroyed in a suspected arson attack. Will it, and should it, be rebuilt? The historic Nazi mountaintop retreat known as the Eagle’s Nest is perched on an Alpine peak at an altitude of 1,834 metres (6,000ft), with stunnin",
+      "url": "https://www.theguardian.com/world/2026/nov/01/hitler-eagles-nest-retreat-arson-attack-should-it-be-rebuilt",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/01/hitler-eagles-nest-retreat-arson-attack-should-it-be-rebuilt",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -857,58 +1370,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T11:05:18Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/315499fe840f9127d881be6467bde49d334fd769/584_0_3792_3033/master/3792.jpg?width=140&quality=85&auto=format&fit=max&s=d1e6b89c12138e6cb617f708f79a3263",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "69a8b5a406483fe3a035",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69682
-    },
-    {
-      "id": "eba969898b68beae41d92276",
-      "title": "Pierre Sage vows ‘I will never give up’ as Crystal Palace pressure ramps up",
-      "translatedTitle": null,
-      "description": "Jean-Philippe Mateta saw red for the Eagles as they lost out at Tottenham",
-      "url": "https://www.independent.co.uk/sport/football/pierre-sage-crystal-palace-sack-tottenham-b3076957.html",
-      "canonicalUrl": "https://independent.co.uk/sport/football/pierre-sage-crystal-palace-sack-tottenham-b3076957.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:48:59Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/01/11/01M69Q1QYEZRYDYQSKR76KT8WV.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-11-01T05:00:04Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/db43ab223a2b877b7acf51b94708744928c7f1cc/236_0_858_686/master/858.jpg?width=140&quality=85&auto=format&fit=max&s=11c7df12d9abd7d3ec61e165c848934d",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "24a6d87024d2d321a541",
+      "clusterId": "60167e722cffcce06fba",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.69172
+      "rankingScore": 4.81436
     },
     {
-      "id": "2ba992684db6f2ef9680b375",
-      "title": "Tommy Robinson conviction leaves far right with leadership void",
+      "id": "9711ee4acf60dd71ce0d3662",
+      "title": "How to improve your memory: 10 easy, enjoyable expert tips – from reading a book to getting more sleep",
       "translatedTitle": null,
-      "description": "With heir apparent Danny Tommo also in custody, Robinson’s conviction for harassing journalists is blow to anti-migrant movement The verdict was met with a groan from Tommy Robinson’s supporters, who had sat behind the dock throughout his harassment trial. It took more than 11 hours of jury deliberations to find the far-right activist guilty of harassment causing fear of violence to two journalists, enough time for a band of lieutenants and hangers-on to get their hopes up that he might be acqui",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/01/tommy-robinson-conviction-leaves-far-right-with-leadership-void",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/01/tommy-robinson-conviction-leaves-far-right-with-leadership-void",
+      "description": "Relying on technology can make us forgetful, but there are some simple ways to sharpen your recall. Memory experts describe the tricks and habits that can help Memory can worsen as we age, but it is often possible to do something about it. Here, memory experts share their advice on how to improve your power of recall. Continue reading...",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/01/how-to-improve-your-memory-10-easy-enjoyable-expert-tips-from-reading-a-book-to-getting-more-sleep",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/01/how-to-improve-your-memory-10-easy-enjoyable-expert-tips-from-reading-a-book-to-getting-more-sleep",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -917,148 +1400,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T11:00:09Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/783d3155ae05caf332adf68ae0f5f0ffb169b57d/172_0_3401_2722/master/3401.jpg?width=140&quality=85&auto=format&fit=max&s=0346435891b5f67b66cd8a07f9fd968f",
+      "publishedAt": "2026-11-01T05:00:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bd899045b6939df839c5bd882b26a6ed2649acb0/0_0_5000_4000/master/5000.png?width=140&quality=85&auto=format&fit=max&s=f28dbf64adca1aea9a3fa5727cf8f28c",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0c20d04b2f691db26eaf",
+      "clusterId": "535d6107be00cfe43b1e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.68704
+      "rankingScore": 4.81435
     },
     {
-      "id": "e075f104a931ce77c3639e7a",
-      "title": "This is how we do it: ‘We don’t have penetration – but it’s by far the best sex I’ve ever had’",
+      "id": "5096ad36f348c457c433c7d7",
+      "title": "No more washing up: Airbnb's new house rules divide hosts and guests",
       "translatedTitle": null,
-      "description": "Penetrative sex is painful for Nina, but intimacy with Noah is fun, hot and loving • How do you do it? Share the story of your sex life, anonymously The mechanics of how we have sex don’t matter to me. I still feel the same degree of pleasure Continue reading...",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/01/this-is-how-we-do-it-best-sex-no-penetration",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/01/this-is-how-we-do-it-best-sex-no-penetration",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:00:09Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/446599d5b19be057778bbcf7ffb4cfa726152ec0/0_0_2000_1600/master/2000.jpg?width=140&quality=85&auto=format&fit=max&s=6d97a483af9c2d66cdf0025cbd83b0b8",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "890852bcaef7d3080652",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68704
-    },
-    {
-      "id": "8bfe02abec184086e9439329",
-      "title": "Zion Suzuki’s howler accepted as ‘part of football’ after Aston Villa held by Fulham",
-      "translatedTitle": null,
-      "description": "Aston Villa 1-1 Fulham: The Villa goalkeeper spilled a corner behind the line for a hapless own goal midway through the second half to gift a point to the Cottagers",
-      "url": "https://www.independent.co.uk/sport/football/zion-suzuki-own-goal-aston-villa-fulham-b3076981.html",
-      "canonicalUrl": "https://independent.co.uk/sport/football/zion-suzuki-own-goal-aston-villa-fulham-b3076981.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:43:52Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/31/23/d04c3ca9aa317dfd40e614abeedb1dbfY29udGVudHNlYXJjaGFwaSwxNzkzNTc0NTgz-2.86363779.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6e28c15c24622c6f99df",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6816
-    },
-    {
-      "id": "2485a7cb51c9822ed2c7e2d4",
-      "title": "Six tourists stranded by heavy snow near Nepal’s deepest lake",
-      "translatedTitle": null,
-      "description": "The group, four men and two women, is stuck at Danigad in Shey-Phoksundo National Park",
-      "url": "https://www.independent.co.uk/asia/south-asia/nepal-indians-rescue-upper-dolma-b3077066.html",
-      "canonicalUrl": "https://independent.co.uk/asia/south-asia/nepal-indians-rescue-upper-dolma-b3077066.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:37:44Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/01/11/2302466782..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d9638e1dbf47e936af4f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66953
-    },
-    {
-      "id": "7d736bc9cc97941edb7924ea",
-      "title": "Tosca review – Axelle Fanyo and Christopher Purves shine in ENO’s reimagined Puccini",
-      "translatedTitle": null,
-      "description": "Coliseum, LondonA sumptuous score and magnificent singing bring real theatrical electricity, even if the relentless violence and radical reimagining don’t always convince Four years since English National Opera unveiled its previous Tosca (a hyper-stylised affair directed by Christof Loy), the curtain goes up on another new production, this time by ENO’s artistic director Annilese Miskimmon. The appeal of Puccini’s work to any company – never mind one urgently committed to stabilising itself – i",
-      "url": "https://www.theguardian.com/music/2026/nov/01/tosca-review-axelle-fanyo-christopher-purves",
-      "canonicalUrl": "https://theguardian.com/music/2026/nov/01/tosca-review-axelle-fanyo-christopher-purves",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T10:48:56Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/3385125111fd7f441fd529ac715271adfad72a72/568_0_3500_2800/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=538dceafea9c6b3fb8751f793937ea77",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a381a83988022f3b751c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66589
-    },
-    {
-      "id": "a694e3816fb2e6f7b2297371",
-      "title": "A severed hand and The Shining twins: The best celebrity Halloween costumes",
-      "translatedTitle": null,
-      "description": "Celebrities have been embracing the scariest day of the year by dressing up as sport stars, dismembered limbs and unsold concert tickets.",
-      "url": "https://www.bbc.co.uk/news/articles/ck1exyj525d9o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ck1exyj525d9o?at_campaign=rss&at_medium=RSS",
+      "description": "Airbnb hosts must stop asking guests to wash-up or take out bins under rules coming into force in November.",
+      "url": "https://www.bbc.co.uk/news/articles/ckjwez8g5dyeo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ckjwez8g5dyeo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -1067,178 +1430,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T08:09:26Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0af/live/1a76a510-d5eb-11f1-93e1-3b657b665bcf.jpg",
+      "publishedAt": "2026-11-01T00:17:05Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52bf/live/c3b77ec0-d3b5-11f1-a340-478c8f3b9e55.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "90d05d4b8f9fce934576",
+      "clusterId": "a190b024d1b6cbe627c8",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.65774
+      "rankingScore": 4.81367
     },
     {
-      "id": "e41022d5cd33c3ca1be2dcf1",
-      "title": "Tonga pip Samoa in World Cup classic as England knocked out of tournament",
+      "id": "65759f889a3eed7041224b03",
+      "title": "Who are the real winners of Celebrity Traitors?",
       "translatedTitle": null,
-      "description": "Tonga 20-18 Samoa: The two rivals shared a thrilling encounter in Sydney to confirm England’s exit from the tournament",
-      "url": "https://www.independent.co.uk/sport/rugby/rugby-league/tonga-samoa-result-score-rugby-league-world-cup-england-b3077059.html",
-      "canonicalUrl": "https://independent.co.uk/sport/rugby/rugby-league/tonga-samoa-result-score-rugby-league-world-cup-england-b3077059.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:28:53Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/01/11/2302963483..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f8ef5469784c0cad9865",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65223
-    },
-    {
-      "id": "3a0d30428ce18df54fb97b37",
-      "title": "Welsh singer Duffy shares rare photo of herself: ‘I’ve missed you all’",
-      "translatedTitle": null,
-      "description": "Pop star has been making a gradual return, six years after first detailing the harrowing ordeal that led to her disappearing from public life",
-      "url": "https://www.independent.co.uk/arts-entertainment/music/news/duffy-new-music-when-is-the-documentary-coming-out-b3077064.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/music/news/duffy-new-music-when-is-the-documentary-coming-out-b3077064.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:28:29Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/01/11/09/GettyImages-88592646.jpg?width=1200&auto=webp&trim=161%2C616%2C662%2C707",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "15bc1e8ca92260c2afc4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65145
-    },
-    {
-      "id": "cef1964b0756527681c0d8d0",
-      "title": "Rare beetle that oozes substance from its knees when attacked rediscovered in Wales",
-      "translatedTitle": null,
-      "description": "Natural Resources Wales says short-necked oil beetle has been found in country for first time in nearly 60 years A rare beetle has been rediscovered in Wales after nearly 60 years, conservationists have said. The short-necked oil beetle, driven to the brink of extinction in Britain due to habitat loss over the course of the 20th century, has been found at Castlemartin range in Pembrokeshire, according to Natural Resources Wales (NRW). Continue reading...",
-      "url": "https://www.theguardian.com/environment/2026/nov/01/rare-short-necked-oil-beetle-rediscovered-wales",
-      "canonicalUrl": "https://theguardian.com/environment/2026/nov/01/rare-short-necked-oil-beetle-rediscovered-wales",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T10:40:25Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/6eea02f2d0fd6105d579edf53ed04835300e9adc/256_387_3516_2813/master/3516.jpg?width=140&quality=85&auto=format&fit=max&s=1b1ecd485f1c8b737dda45fe6ac83198",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c62aded3e66b924d5b7b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64998
-    },
-    {
-      "id": "1abbabee1bf7b1e9f78cc44c",
-      "title": "Identities of pilots who landed hijacked FlyDubai plane after attack on Captain Smit Machchhar revealed",
-      "translatedTitle": null,
-      "description": "Henson Steven from Fiji and South Africa's Rowan Tooth honoured by UAE government",
-      "url": "https://www.independent.co.uk/news/world/middle-east/flydubai-pilots-hijack-smit-machchhar-b3077047.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/middle-east/flydubai-pilots-hijack-smit-machchhar-b3077047.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:23:59Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/29/15/24/fly-dubai-pilot-dc4461be.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "83bf70f6480ccc329cba",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64272
-    },
-    {
-      "id": "00ddfa3037f524fda9961ea8",
-      "title": "A parish in Uruguay struggling with violence prepares for Pope Leo XIV’s visit",
-      "translatedTitle": null,
-      "description": "Pope Leo XIV plans to visit a parish in the Borro neighborhood of Uruguay",
-      "url": "https://www.independent.co.uk/news/uruguay-families-lautaro-martinez-catholic-peru-b3077069.html",
-      "canonicalUrl": "https://independent.co.uk/news/uruguay-families-lautaro-martinez-catholic-peru-b3077069.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:22:34Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/01/11/Uruguay_Pope_Visit_12665.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3794e8920fef0ea67bd7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.63997
-    },
-    {
-      "id": "e61d6a8b30bb789a74e34ae6",
-      "title": "Third-choice? Inside Alexander-Arnold's struggles in Madrid",
-      "translatedTitle": null,
-      "description": "Trent Alexander-Arnold is currently third-choice right-back at Real Madrid - where does his future lie?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9e8lp357je7o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c9e8lp357je7o?at_campaign=rss&at_medium=RSS",
+      "description": "Certain stars have been tipped by industry experts as getting the biggest career boost after the show.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2qg0nezrgo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmx2qg0nezrgo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -1247,208 +1460,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T07:42:08Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b465/live/040177b0-d460-11f1-ab12-eb0c94f5b382.jpg",
+      "publishedAt": "2026-11-01T00:06:01Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2d7/live/d14e6dc0-d47b-11f1-93e1-3b657b665bcf.png",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b0f0518bc5d30d98cc1f",
+      "clusterId": "407c52a0bdf70c5c2d8d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.61411
+      "rankingScore": 4.80445
     },
     {
-      "id": "77f0ee905428f2bf674cb847",
-      "title": "Badenoch claims British empire was force for good overall: ‘We have had enough of apologies’",
+      "id": "3d0aba06c5ccf9fc5c537da2",
+      "title": "Police clash with masked rioters after largely peaceful protests across France",
       "translatedTitle": null,
-      "description": "The Tory leader criticised the prime minister for considering a formal apology for slavery",
-      "url": "https://www.independent.co.uk/news/uk/politics/kemi-badenoch-british-empire-slavery-apology-b3077038.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/kemi-badenoch-british-empire-slavery-apology-b3077038.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:06:12Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/31/15/download.-2.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8a83a52e99bf57577052",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60854
-    },
-    {
-      "id": "1a85bd6abc1c54255e8bc47d",
-      "title": "Anfield, intensity, rotation - how Iraola is improving Liverpool",
-      "translatedTitle": null,
-      "description": "Liverpool fans are finding joy at Anfield again with a feel-good factor around the club before the visit of reigning champions Arsenal on Sunday.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckzd6217j7pgo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/ckzd6217j7pgo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T07:38:15Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d5c/live/b3329da0-d45a-11f1-93d9-89af68edb68a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ce9c83f67a09a69a6b50",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.608
-    },
-    {
-      "id": "03f3bbd92c87d71c0c5308a0",
-      "title": "More than 300 arrested after supporting Palestine Action during US embassy protest",
-      "translatedTitle": null,
-      "description": "Support for the group became an offence under the Terrorism Act",
-      "url": "https://www.independent.co.uk/news/uk/home-news/us-embassy-palestine-action-arrests-b3077058.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/us-embassy-palestine-action-arrests-b3077058.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:04:01Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/31/18/52/AP26304552648903.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e55d84645ba98fa850e5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60438
-    },
-    {
-      "id": "bf2d9c8a4cc0e86a4a7a2983",
-      "title": "Protester in Batman costume arrested during violent Halloween clashes in Germany",
-      "translatedTitle": null,
-      "description": "Saturday saw another wave of protests in cities across Germany and France, as young demonstrators clashed with riot police",
-      "url": "https://www.independent.co.uk/news/world/europe/france-protesters-halloween-batman-costumes-b3077034.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/france-protesters-halloween-batman-costumes-b3077034.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T11:00:08Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/01/09/download.-1.?width=1200&auto=webp&trim=13%2C0%2C13%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3e743dadc92a9eb2bf4b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59701
-    },
-    {
-      "id": "b4be6f8987d79bdf25d4575a",
-      "title": "New York City Marathon 2026 start times, schedule, how to watch, elite fields and prize money",
-      "translatedTitle": null,
-      "description": "One of the most iconic marathons in the world, New York City brings a close to World Marathon Major season, with defending champions Benson Kipruto and Hellen Obiri back to defend their titles in the five-borough race",
-      "url": "https://www.independent.co.uk/sport/general/athletics/new-york-city-marathon-2026-times-watch-tv-prize-money-results-b3077013.html",
-      "canonicalUrl": "https://independent.co.uk/sport/general/athletics/new-york-city-marathon-2026-times-watch-tv-prize-money-results-b3077013.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T10:54:43Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/28/15/2244677638..?width=1200&auto=webp&trim=55%2C0%2C55%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2ed4eeb56fa3f5e1a4a5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.58677
-    },
-    {
-      "id": "0ca4fe1f64fdd39ae1c449af",
-      "title": "Mo Farah has hilarious reaction to Maya Jama’s Halloween costume: ‘I thought that was me for a second’",
-      "translatedTitle": null,
-      "description": "Sir Mo Farah was ecstatic to see Maya Jama dress up as him for Halloween.",
-      "url": "https://www.independent.co.uk/tv/lifestyle/halloween-maya-jama-mo-farah-costume-b3077052.html",
-      "canonicalUrl": "https://independent.co.uk/tv/lifestyle/halloween-maya-jama-mo-farah-costume-b3077052.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-01T10:54:04Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/01/10/20/Video-News-Graphic-Designs-(34).jpg?width=1200&auto=webp&trim=0%2C100%2C0%2C100",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a1bb66189ee617a2cc05",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.58554
-    },
-    {
-      "id": "b08d3a5cae4e34d6c5c551ea",
-      "title": "Sadiq Khan calls for cap on numbers of robotaxis on London streets",
-      "translatedTitle": null,
-      "description": "Mayor questions impact on air quality, congestion and jobs as government poised to allow driverless vehicles in capital London’s mayor has called for a cap on the numbers of robotaxis on its streets, with the UK government poised to allow fully driverless vehicles to operate in the capital. Sadiq Khan said politicians had failed to “grasp the pace of change” from the technology, which could threaten jobs and increase congestion in the city, and questioned whether the rules for autonomous cars we",
-      "url": "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets",
-      "canonicalUrl": "https://theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets",
+      "description": "Demonstrations also taking place in Germany, where officers fire teargas to disperse crowds as evening falls Clashes erupted in Paris, Marseille and other cities on Saturday after tens of thousands of demonstrators, some in Halloween fancy dress, marched across France in a third wave of protests over the cost of living and deteriorating public services. The interior minister, Laurent Nuñez, said about 150 planned demonstrations around the country had passed off peacefully, but police had encount",
+      "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
+      "canonicalUrl": "https://theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1457,28 +1490,58 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T10:00:09Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f6c7f7fa456c9d2d24c7290211be395c992289b7/0_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=5ad4718969e0b4b4d4129966f37d967b",
+      "publishedAt": "2026-11-01T01:43:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3546bec1281afb0dcb3d211110686c453d00fa3e/0_0_4914_3933/master/4914.jpg?width=140&quality=85&auto=format&fit=max&s=28e4f98442489f9988db1c362c0869cb",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ea0aa7582e953c5b621e",
+      "clusterId": "89af4349d803a71a336a",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.57642
+      "rankingScore": 4.61852
     },
     {
-      "id": "680c2a7add24e1c1bb6abbde",
-      "title": "‘Let’s take Alexa out into the garden and smash it with a shoe’: Charlie Brooker and Diane Morgan take aim at Hollywood, AI ... and each other",
+      "id": "245a608392647a812e58aef0",
+      "title": "UN demands investigation into death of staff member in Houthi custody",
       "translatedTitle": null,
-      "description": "As deadpan spoof documentarian Philomena Cunk returns with a new series on cinema, her creators discuss meeting J-Lo, their worst ever jobs – and why artificial intelligence is like mad cow disease She has tackled Britain, conquered the world and even grappled with life itself. Now Philomena Cunk is back on our screens – looking as miserable and confused as ever – to take on her biggest subject yet: cinema. Cinema, the iconically stupid presenter explains, is not just mankind’s greatest achievem",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/01/philomena-cunk-on-cinema-charlie-brooker-diane-morgan-interview",
-      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/01/philomena-cunk-on-cinema-charlie-brooker-diane-morgan-interview",
+      "description": "A Yemeni staff member of the UN Human Rights Office has died in Houthi custody after being arbitrarily held for more ​than two years, the UN human rights chief has said.",
+      "url": "https://news.sky.com/story/un-demands-investigation-into-death-of-staff-member-in-houthi-custody-13606554",
+      "canonicalUrl": "https://news.sky.com/story/un-demands-investigation-into-death-of-staff-member-in-houthi-custody-13606554",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-01T01:17:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-volker-turk-un_7393586.jpg?20261101012235",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-01T16:17:57Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0f37156f0e38caefee17",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.59522
+    },
+    {
+      "id": "50e255c9eb6bbbaa9bee5cdd",
+      "title": "Japan’s Jimi Halloween, a celebration of all things mundane – in pictures",
+      "translatedTitle": null,
+      "description": "While Halloween is traditionally a family-oriented holiday and an occasion for children to dress up and go trick-or-treating, a unique spin on spooky season is taking off in Japan. ‘Jimi Halloween’ or ‘Mundane Halloween’ sees adult participants dress up as ordinary people in everyday life. They do highly specific tasks, embracing and celebrating unremarkable situations for the event, hosted by online magazine Daily Portal Z in Tokyo’s Shibuya district. Continue reading...",
+      "url": "https://www.theguardian.com/artanddesign/gallery/2026/nov/01/japan-jimi-halloween-celebration-of-all-things-mundane-tokyo-shibuya-in-pictures",
+      "canonicalUrl": "https://theguardian.com/artanddesign/gallery/2026/nov/01/japan-jimi-halloween-celebration-of-all-things-mundane-tokyo-shibuya-in-pictures",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1487,50 +1550,50 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T10:00:08Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e61e91d5e91396982d0211ccfd3d3a2478839c29/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=43d241da13d9aca8ced1d7ddbc2bfe85",
+      "publishedAt": "2026-11-01T00:32:29Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c57f5ff4701fc9c02e33a8e13ceec013c4fc77b8/387_0_4218_3374/master/4218.jpg?width=140&quality=85&auto=format&fit=max&s=bb34d85d92b8bcde743688a0e50dae51",
       "imageAlt": null,
-      "category": "Technology",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a10081671a516ce53e39",
+      "clusterId": "bdc38a6b0226c7eb4571",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.57639
+      "rankingScore": 4.55664
     },
     {
-      "id": "3a095e87257d66756ea7aa5e",
-      "title": "Romeo + Juliet at 30: how Baz Luhrmann made teens fall in love with Shakespeare",
+      "id": "3a78f4dddd6172973cbe78f8",
+      "title": "Flights disrupted after 'persistent' drone activity near airport",
       "translatedTitle": null,
-      "description": "The maximalist, heart over head adaptation of the romantic tragedy made stars of its leads and became an English teacher’s most trusted weapon for Bard-averse students Romeo + Juliet is not the most renowned or beloved of Shakespeare’s plays, but it is perhaps the most foundational. The 16th-century tragedy, a story of love-addled teenagers and white-hot resentment, is often an English student’s first introduction to the bard’s oeuvre – more accessible and relatable to teens, with its plaintive",
-      "url": "https://www.theguardian.com/film/2026/nov/01/baz-luhrmann-romeo-and-juliet-turns-30",
-      "canonicalUrl": "https://theguardian.com/film/2026/nov/01/baz-luhrmann-romeo-and-juliet-turns-30",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "Flights have been disrupted at Jersey Airport due to the unlawful operation of drones in the vicinity on Saturday evening, the airport and the island's chief minister have said.",
+      "url": "https://news.sky.com/story/flights-disrupted-after-illegal-and-persistent-drone-activity-near-airport-13606553",
+      "canonicalUrl": "https://news.sky.com/story/flights-disrupted-after-illegal-and-persistent-drone-activity-near-airport-13606553",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-01T10:00:08Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/780dc006ffeb503f765b140a9823242821e3ff21/141_0_2387_1911/master/2387.jpg?width=140&quality=85&auto=format&fit=max&s=f01de641ba83c06614809b7d2502ad62",
+      "publishedAt": "2026-11-01T00:04:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-jersey-airport_7393581.jpg?20261101001557",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-01T12:17:54Z",
+      "retrievedAt": "2026-11-01T16:17:57Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fa4c70722f1182406c08",
+      "clusterId": "b732ec27440e18c468fb",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.57639
+      "rankingScore": 4.53279
     }
   ]
 }
