@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T08:18:13Z",
-  "lastAttemptAt": "2026-11-04T08:18:13Z",
-  "lastSuccessfulUpdate": "2026-11-04T08:18:13Z",
-  "status": "current",
+  "generatedAt": "2026-11-04T12:18:22Z",
+  "lastAttemptAt": "2026-11-04T12:18:22Z",
+  "lastSuccessfulUpdate": "2026-11-04T12:18:22Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-04T08:18:12Z",
-      "lastSuccessAt": "2026-11-04T08:18:12Z",
+      "lastAttemptAt": "2026-11-04T12:18:21Z",
+      "lastSuccessAt": "2026-11-04T12:18:21Z",
       "articlesRetrieved": 32,
-      "responseTimeMs": 271,
+      "responseTimeMs": 597,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-04T08:18:12Z",
-      "lastSuccessAt": "2026-11-04T08:18:12Z",
+      "lastAttemptAt": "2026-11-04T12:18:21Z",
+      "lastSuccessAt": "2026-11-04T12:18:21Z",
       "articlesRetrieved": 148,
-      "responseTimeMs": 356,
+      "responseTimeMs": 442,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-04T08:18:12Z",
-      "lastSuccessAt": "2026-11-04T08:18:12Z",
+      "lastAttemptAt": "2026-11-04T12:18:21Z",
+      "lastSuccessAt": "2026-11-04T12:18:21Z",
       "articlesRetrieved": 10,
-      "responseTimeMs": 852,
+      "responseTimeMs": 430,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-04T08:18:12Z",
-      "lastSuccessAt": "2026-11-04T08:18:12Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 227,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-04T12:18:21Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -78,113 +78,21 @@
       "imageAlt": null,
       "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "6f11e582381c234ab288",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 10.03095
+      "rankingScore": 9.63401,
+      "related": []
     },
     {
-      "id": "e0afa86a3cde08a66e8ab1fc",
-      "title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
+      "id": "8624de9ffb960b61e8153ba7",
+      "title": "US midterm elections 2026 live updates: Democrats win control of Congress as voters punish Trump",
       "translatedTitle": null,
-      "description": "\"This wasn't just a tsunami, not just a referendum, but this was a bloodbath,\" one expert told the BBC on Democrats' historic wins in Texas.",
-      "url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6n8dnn09jg7o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T05:39:36Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f313/live/d2836f00-d823-11f1-a701-fddedf244c16.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9e1966f99d065089a5a9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "cedf3909e62cd06264905aee",
-          "title": "Is Texas a blue state now? Here's what James Talarico and Gina Hinojosa's wins mean",
-          "translatedTitle": null,
-          "description": null,
-          "url": "https://www.independent.co.uk/bulletin/news/james-talarico-gina-hinojosa-texas-senate-seat-flip-b3078799.html",
-          "canonicalUrl": "https://independent.co.uk/bulletin/news/james-talarico-gina-hinojosa-texas-senate-seat-flip-b3078799.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-04T06:57:24Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/04/06/2303431102..?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-04T08:18:12Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "9e1966f99d065089a5a9",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "is texas a blue state now here s what james talarico and gina hinojosa s wins mean"
-        },
-        {
-          "id": "c2ae9a5e32ee404878c9b82d",
-          "title": "James Talarico wins Texas Senate race in historic victory for Democrats",
-          "translatedTitle": null,
-          "description": "Jubilant Talarico says ‘Tonight we defeated Goliath’ as Ken Paxton defeat a crushing blow to Trump and Republicans US midterm elections – live updates Track live results from all 50 states Tell us: what do you want to know about the midterm election results? Democrat James Talarico has won the US Senate race in Texas, breaking a 38-year drought for his party in the Republican stronghold and delivering a stunning blow to Donald Trump. Talarico defeated Republican Ken Paxton, the state attorney ge",
-          "url": "https://www.theguardian.com/us-news/2026/nov/03/james-talarico-ken-paxton-texas-senate",
-          "canonicalUrl": "https://theguardian.com/us-news/2026/nov/03/james-talarico-ken-paxton-texas-senate",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-04T06:49:33Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/946b580c4063a322bc795dfb0da867e05bd7ed11/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=91ade55099cf1a2d932346be355db26c",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-04T08:18:12Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "9e1966f99d065089a5a9",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "james talarico wins texas senate race in historic victory for democrats",
-          "rankingScore": 7.16568
-        }
-      ],
-      "rankingScore": 8.95941
-    },
-    {
-      "id": "517ffb84f288185414dca196",
-      "title": "US midterm elections 2026 live updates: Democrats win control of Congress; El-Sayed wins Senate race in Michigan",
-      "translatedTitle": null,
-      "description": "Democrats flip Senate seats in Michigan, Texas, Iowa, Kansas, North Carolina, South Carolina and Ohio; voters reject Trump’s agenda in ‘blue wave’ Track live results from all 50 states Full report: Democrats win control of Congress in ‘blue wave’ Tell us: what do you want to know about the results? As we bring you the latest from around the country, Donald Trump is certainly paying attention. From the White House, the president said that he was tuning into coverage on Fox News. “I can’t stand Je",
+      "description": "Democrats flip Senate seats in Texas, Iowa, Kansas, North Carolina, South Carolina and Ohio; voters reject Trump’s agenda in ‘blue wave’ Track live results from all 50 states Full report: Democrats win control of Congress in ‘blue wave’ Tell us: how do you feel about the US midterm election results? As we bring you the latest from around the country, Donald Trump is certainly paying attention. From the White House, the president said that he was tuning into coverage on Fox News. “I can’t stand J",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
       "canonicalUrl": "https://theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
       "sourceName": "The Guardian",
@@ -195,19 +103,19 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T07:40:49Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a42ff5f4edb2a9b0e1ea5d089f5a80f58449c6ae/39_571_6336_5070/master/6336.jpg?width=140&quality=85&auto=format&fit=max&s=64a17f050ee1616aa2b2fe5ca8b0cf24",
+      "publishedAt": "2026-11-04T11:47:56Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4ab69f763ed7999e4c40c3864e1f7c775b107016/799_0_7922_6336/master/7922.jpg?width=140&quality=85&auto=format&fit=max&s=147a0407a089310d71fd0baf88695134",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a89f13cdef5e47e79303",
+      "clusterId": "42b2f106e87655c865fa",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.51502,
+      "rankingScore": 8.87877,
       "related": [
         {
           "id": "4213206b332fd418e7c683b2",
@@ -233,7 +141,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "a89f13cdef5e47e79303",
+          "clusterId": "42b2f106e87655c865fa",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -263,41 +171,11 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "a89f13cdef5e47e79303",
+          "clusterId": "42b2f106e87655c865fa",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "bulletin am briefing democrats win back control of congress in us midterms"
-        },
-        {
-          "id": "7100ebad7a00dd986ee87ede",
-          "title": "US voters rebuke Trump as Democrats win control of Congress in ‘blue wave’",
-          "translatedTitle": null,
-          "description": "President’s party stripped of control after he spent weeks pleading with Americans to pretend he was on ballot US midterm elections – live updates Track live results from all 50 states Tell us: what do you want to know about the midterm election results? Donald Trump has been dealt a devastating blow to his authority in a night of crushing defeats in the midterm elections, which saw his Republican party stripped of control of the Senate and the House as his handpicked “Maga” candidates were swep",
-          "url": "https://www.theguardian.com/us-news/2026/nov/04/democrats-house-midterm-elections-results",
-          "canonicalUrl": "https://theguardian.com/us-news/2026/nov/04/democrats-house-midterm-elections-results",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-04T07:08:25Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/ff53595f7c0d654c2917588b3e1f8a5748be4758/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=8f7db534c9fa6b4c2e70e10fa6fe554d",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-04T08:18:12Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "a89f13cdef5e47e79303",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "us voters rebuke trump as democrats win control of congress in blue wave"
         },
         {
           "id": "2b87332035326fa4b82fdae9",
@@ -323,7 +201,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "a89f13cdef5e47e79303",
+          "clusterId": "42b2f106e87655c865fa",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -353,11 +231,42 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "a89f13cdef5e47e79303",
+          "clusterId": "42b2f106e87655c865fa",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "trump branded lame duck as democrats win sweeping control of us senate in midterms"
+        },
+        {
+          "id": "5c3c9b9034c4fc53c49d60f0",
+          "title": "Trump calls into Fox News and acknowledges Democrats' midterm sweep",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://www.independent.co.uk/bulletin/news/trump-fox-news-election-night-losses-b3078780.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-fox-news-election-night-losses-b3078780.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-04T05:53:32Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/04/3/20/GettyImages-2301823546.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-04T08:18:12Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "42b2f106e87655c865fa",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 5.07408,
+          "normalizedTitle": "trump calls into fox news and acknowledges democrats midterm sweep",
+          "sourceQuality": 1.0
         },
         {
           "id": "d06a323f82e19bed5d9573a3",
@@ -383,7 +292,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "a89f13cdef5e47e79303",
+          "clusterId": "42b2f106e87655c865fa",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "rankingScore": 8.92645,
@@ -391,6 +300,36 @@
           "sourceQuality": 1.0
         }
       ]
+    },
+    {
+      "id": "1ead9679e487624f0d8bc74c",
+      "title": "Funding to help poorer countries cope with climate crisis has stalled, says UN",
+      "translatedTitle": null,
+      "description": "Report reveals financial support promised by rich nations for adaptation measures behind pace with what is needed Flows of money to help poor countries cope with the climate crisis have been flat or falling since 2022, despite growing impacts from extreme weather and warnings from scientists that global heating may be accelerating. A new UN report has revealed that financial support for adaptation – which includes measures such as stronger infrastructure, early warning systems, flood protection",
+      "url": "https://www.theguardian.com/global-development/2026/nov/04/funding-poorer-countries-climate-crisis-adaptation-un-report",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/nov/04/funding-poorer-countries-climate-crisis-adaptation-un-report",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T11:00:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/72e16338c427d7da42c2b6de385062cd5585495f/1094_465_3767_3013/master/3767.jpg?width=140&quality=85&auto=format&fit=max&s=d3979c1b97ab36ac8e45bac80c7ba3c2",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d2b6db7efce596a7f0bb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.73621
     },
     {
       "id": "b5f0a1addca6c6899e74c5bd",
@@ -419,70 +358,8 @@
       "clusterId": "a0839c4394d2f78061c2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.24332
-    },
-    {
-      "id": "0f2182c5c82fd8bcc8fdb6ef",
-      "title": "Britain’s housing market unlikely to recover until 2028, says Savills",
-      "translatedTitle": null,
-      "description": "House prices forecast to fall by 1.5% next year as Middle East war keeps mortgage rates higher for longer Britain’s sluggish housing market is not expected to recover until 2028 as higher mortgage rates linked to the war in the Middle East deter buyers and weigh on prices. The property firm Savills said average house prices were expected to drift lower during the rest of 2026 and fall by 1.5% in 2027, as the prolonged conflict undermines buyers’ confidence and keeps mortgage rates higher for lon",
-      "url": "https://www.theguardian.com/business/2026/nov/04/britains-housing-market-unlikely-to-recover-until-2028-says-savills",
-      "canonicalUrl": "https://theguardian.com/business/2026/nov/04/britains-housing-market-unlikely-to-recover-until-2028-says-savills",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T05:00:26Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/00eda54b1bbf0b5b093890b9edb67233bf75d8ea/431_0_3783_3028/master/3783.jpg?width=140&quality=85&auto=format&fit=max&s=eee0fbe4ec9d480cb215f4402d46af47",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1438408dd455b2587f61",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "7cb6419465a8eb7a22148c2b",
-          "title": "Britain’s housing market recovery ‘set to be delayed until 2028’",
-          "translatedTitle": null,
-          "description": "Property firm Savills said it expects values across Britain generally to start recovering from the second half of 2028.",
-          "url": "https://www.independent.co.uk/money/savills-britain-wales-scotland-middle-east-b3078686.html",
-          "canonicalUrl": "https://independent.co.uk/money/savills-britain-wales-scotland-middle-east-b3078686.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-04T00:01:00Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/04/00/09016279c7cd99fa7baea5e2379e8bc7Y29udGVudHNlYXJjaGFwaSwxNzkzNzk0MjMx-2.85039903.jpg?width=1200&auto=webp&crop=3%3A2",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-04T00:18:21Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "1438408dd455b2587f61",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 5.28362,
-          "normalizedTitle": "britain s housing market recovery set to be delayed until 2028",
-          "sourceQuality": 1.0
-        }
-      ],
-      "rankingScore": 8.22176
+      "rankingScore": 7.8459,
+      "related": []
     },
     {
       "id": "304c4b3544e7d3384ee04d03",
@@ -511,8 +388,8 @@
       "clusterId": "8931f5c23e3618ee7a0e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.22105
+      "rankingScore": 7.82807,
+      "related": []
     },
     {
       "id": "b6731fb2a78f3e56a93648b1",
@@ -541,104 +418,75 @@
       "clusterId": "069fadecdf9bc8fbc19e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.18563
+      "rankingScore": 7.79972,
+      "related": []
     },
     {
-      "id": "c26685f4449d128671ee5f78",
-      "title": "Why tradwives are fleeing the movement: ‘I can’t undo my past – but I can warn other women’",
+      "id": "0745ed27e4a100e7792f468f",
+      "title": "West Ham confirm Parker as boss",
       "translatedTitle": null,
-      "description": "In recent years, some of the most vocal tradwives have left their husbands, renounced their religious faith and promoted financial independence. What is behind this sudden and seismic shift? When Bernadine Bluntly posted a video earlier this year renouncing the tradwife movement she had championed, it caused shockwaves through the “alt-right” social media world. Previously, posts of her and her six children had flooded feeds as the Maga movement gained ground. She was one of the defiantly anti-f",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/04/why-tradwives-are-fleeing-the-movement-i-cant-undo-my-past-but-i-can-warn-other-women",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/04/why-tradwives-are-fleeing-the-movement-i-cant-undo-my-past-but-i-can-warn-other-women",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "West Ham confirm the appointment of former midfielder Scott Parker as their head coach on a two-and-a-half-year deal.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq3dj37m1kddo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cq3dj37m1kddo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T05:00:25Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5b205f559de89a6eaedae22e3b48015113265af5/0_10_2450_1959/master/2450.jpg?width=140&quality=85&auto=format&fit=max&s=ff28968fd589b20b159ed79948b1bcc3",
+      "publishedAt": "2026-11-04T11:54:59Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e9c1/live/c06b7600-d7b0-11f1-9092-abeae3cab3b1.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a5f04364076b5d5a848a",
+      "clusterId": "74f2fc88017343ab464a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.17173
+      "related": [
+        {
+          "id": "91bc1ff3d40f09123d7c0fe0",
+          "title": "West Ham confirm Scott Parker as head coach after sacking Nuno Espírito Santo",
+          "translatedTitle": null,
+          "description": "Parker takes over team eighth in Championship He has overseen three promotions to Premier League Scott Parker has been confirmed as West Ham’s head coach, taking over from Nuno Espírito Santo, who was sacked on Tuesday. The club’s former midfielder arrives on a two-and-a-half year contract with the team eighth in the Championship and takes charge of his first game at Cardiff on Wednesday. West Ham hope that Parker, a promotion specialist, can spark a revival after defeats in their past two match",
+          "url": "https://www.theguardian.com/football/2026/nov/04/west-ham-confirm-scott-parker-as-manager",
+          "canonicalUrl": "https://theguardian.com/football/2026/nov/04/west-ham-confirm-scott-parker-as-manager",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-04T09:30:41Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/92e9d133046f744c9483bf30787207a78a201784/187_263_1458_1165/master/1458.jpg?width=140&quality=85&auto=format&fit=max&s=f9fa28a4f915fd24daf059c5329505b1",
+          "imageAlt": null,
+          "category": "Sports",
+          "topics": [],
+          "retrievedAt": "2026-11-04T12:18:21Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "74f2fc88017343ab464a",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "west ham confirm scott parker as head coach after sacking nuno espírito santo"
+        }
+      ],
+      "rankingScore": 7.46278
     },
     {
-      "id": "c67822f30e2060fff7283074",
-      "title": "‘Sovereign AI agents’ pose threat to human civilisation, report warns",
+      "id": "6a025829f0110adb81aad957",
+      "title": "Standout moments from a night of midterm election firsts",
       "translatedTitle": null,
-      "description": "Congress should hold those who release sovereign AI agents liable for the harms that follow, experts say",
-      "url": "https://www.independent.co.uk/tech/sovereign-ai-agents-civilisation-threat-b3078748.html",
-      "canonicalUrl": "https://independent.co.uk/tech/sovereign-ai-agents-civilisation-threat-b3078748.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T05:37:22Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/3/43/US-President-Donald-Trump-speaks-to-the-press-after-a-meeting-with-technology-executives-about-artif.jpeg?width=1200&auto=webp&trim=55%2C0%2C56%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3b030ce0cb1f6c53b9b7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.14549
-    },
-    {
-      "id": "43c6e724f05f3aa5ca8e4120",
-      "title": "CNN nails election night with gas prices highlighted on ‘magic wall’ during midterms returns",
-      "translatedTitle": null,
-      "description": "The interactive map showed gas prices up 63 to 73 percent in multiple counties in Kansas — and the state’s Democratic Senate candidate in the lead",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/gas-prices-map-midterms-cnn-b3078749.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/gas-prices-map-midterms-cnn-b3078749.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T04:10:17Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/4/07/HWPpaoMWMAAF4Ya.jpeg?width=1200&auto=webp&trim=85%2C0%2C85%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0ec0002ae5a3ee603e4c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.99865
-    },
-    {
-      "id": "f811e35a2cd9b2a71cda446c",
-      "title": "Ecstatic scenes and historic results: Key moments from US midterms",
-      "translatedTitle": null,
-      "description": "Democrats have taken control of Congress for the rest of Donald Trump's presidency - proving moments of celebration.",
+      "description": "Democrats secured some big wins - and a few historic firsts - earning congratulations from President Trump.",
       "url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://bbc.co.uk/news/articles/cmr4y92rgd9po?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
@@ -649,28 +497,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T07:40:12Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/878f/live/f3346690-d810-11f1-bc0e-b5a9e0785e4b.jpg",
+      "publishedAt": "2026-11-04T12:01:07Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/680e/live/484efaa0-d843-11f1-b441-2b33b063138f.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "914d02f04cceb05c8e07",
+      "clusterId": "72a94c909c649c354839",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.38381
+      "rankingScore": 7.42504
     },
     {
-      "id": "6fe839726262a02ff158084e",
-      "title": "How America voted in maps and charts",
+      "id": "72822c1877afca2a0c9d091b",
+      "title": "Real reach verbal agreement to sign Man Utd's Gabriel",
       "translatedTitle": null,
-      "description": "See the maps and charts that show how America voted in the US midterm elections.",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g1j0n92qdo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm4g1j0n92qdo?at_campaign=rss&at_medium=RSS",
+      "description": "Real Madrid are confident of winning the race to sign Manchester United forward JJ Gabriel after reaching a verbal agreement with the teenager.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq146dnrn541o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cq146dnrn541o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -679,200 +527,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T07:24:59Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/125b/live/b5cca010-d6e4-11f1-93e1-3b657b665bcf.png",
+      "publishedAt": "2026-11-04T11:49:23Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bef8/live/b0d4e5f0-d828-11f1-be97-417dbcdedd32.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b6ffa85a705d1f2e55ec",
+      "clusterId": "5a171a77c51ada031e6d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.35409
-    },
-    {
-      "id": "6d4b74ba5f2fd3a12c5b59d6",
-      "title": "Housing targets threaten ancient woods, campaigners warn",
-      "translatedTitle": null,
-      "description": "Dozens of individual sites feature planned developments immediately next to woods, the BBC finds.",
-      "url": "https://www.bbc.co.uk/news/articles/cw4g1rldy1ypo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cw4g1rldy1ypo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T07:08:40Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b66/live/97a4b9a0-d6d1-11f1-ac20-7783925c811f.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b054022f5ed7357081ce",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.32269
-    },
-    {
-      "id": "61c8aa568a73be3d4d3eaa77",
-      "title": "Prince William says UK faces terrifying risk of more wildfires due to climate change",
-      "translatedTitle": null,
-      "description": "The prince says 2026 was the first summer he felt \"worried about the scale of the wildfires\".",
-      "url": "https://www.bbc.co.uk/news/articles/cr62yv02zwxwo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cr62yv02zwxwo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T06:11:43Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50c7/live/a1474180-d7da-11f1-8cb0-d304936875f3.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2fe5e4eed849ebd4e604",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.21674
-    },
-    {
-      "id": "02ccc599c7602da2c2f0aef9",
-      "title": "Democrats’ blue wave and a bad night for Trump: key US midterms takeaways",
-      "translatedTitle": null,
-      "description": "Republicans suffered historic losses, Democrats won control of Congress – and Trump backed away from losing candidates Democrats swept key US midterm races on Tuesday evening, flipping long-held Republican seats and securing a majority in Congress after voters rebuked Donald Trump’s policies at the ballot box. In an unexpected performance, Democrats defeated incumbent Republicans candidates for historically conservative Senate seats in Iowa, Kansas, North Carolina, South Carolina and Texas. Cont",
-      "url": "https://www.theguardian.com/us-news/2026/nov/04/midterm-election-takeaways-trump",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/04/midterm-election-takeaways-trump",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T07:47:12Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/4ad50c210d8fe0d9f40729dea1c47ce6a1dfef40/458_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=f17aa65cf39ce9746b5f8a469ced4254",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1f6accbd37e402bccb4c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.12762
-    },
-    {
-      "id": "5f8c03788d13d44f32874f9c",
-      "title": "Watch Nancy Mace’s explosive on-air reaction as she learns of midterm election defeats",
-      "translatedTitle": null,
-      "description": "Republican congresswoman Nancy Mace delivered a blunt reaction live on air after learning of brutal losses in the midterm elections.",
-      "url": "https://www.independent.co.uk/tv/news/nancy-mace-election-results-piers-morgan-b3078812.html",
-      "canonicalUrl": "https://independent.co.uk/tv/news/nancy-mace-election-results-piers-morgan-b3078812.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T07:54:29Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/7/38/Nancy-Maces-explosive-on-air-reaction-as-she-learns-she-is-losing-her-seat-in-midterm-elections.jpeg?width=1200&auto=webp&trim=0%2C200%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c110c9d4a0451c78dd8a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.05208
-    },
-    {
-      "id": "afaaea99c54c99714da30dd1",
-      "title": "Jimmy Kimmel declares 'Red Wedding' for Trump after midterm election results",
-      "translatedTitle": null,
-      "description": "‘After all the talk about Nicki Minaj’s a**, Jon Husted’s a**…the only a** on Trump’s mind tonight is the one that just got handed to him’",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/jimmy-kimmel-trump-midterms-reaction-b3078822.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/jimmy-kimmel-trump-midterms-reaction-b3078822.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T07:48:56Z",
-      "imageUrl": "https://static.independent.co.uk/2026/05/01/12/09/Jimmy-Kimmel-and-Donald-Trump.png?width=1200&auto=webp&trim=0%2C7%2C0%2C7",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "abfd9c8c0bb8b8e7955e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.04105
-    },
-    {
-      "id": "96437d6300a0bc0c253ccbbe",
-      "title": "Trump’s just been handed a huge midterms defeat. Here’s how he reacted last time",
-      "translatedTitle": null,
-      "description": "The president’s party has been hammed in the 2026 midterms - Donald Trump’s last experience in 2018 was not much fun either",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterms-2018-vote-republicans-b3078818.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-midterms-2018-vote-republicans-b3078818.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T07:48:34Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/06/2026-11-02T044900Z_1717121130_RC2FFOA2WRIB_RTRMADP_3_USA-TRUMP-KANSAS.JPG?width=1200&auto=webp&trim=64%2C0%2C64%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "900ca75f77e15b16937f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.04033
+      "rankingScore": 7.40165
     },
     {
       "id": "654dc3c18a95771031aaed24",
@@ -894,53 +562,23 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "91661a75af8042e48f7f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.60588,
+      "rankingScore": 6.28371,
       "related": []
     },
     {
-      "id": "7010737a4de19f0a1861a619",
-      "title": "Ukrainian GCSE to be offered to British students",
+      "id": "bc1cdeaba4664602de925a60",
+      "title": "Wall Street edges higher after Democrats sweep midterms",
       "translatedTitle": null,
-      "description": "Students in England, Wales and Northern Ireland will be able to take a Ukrainian GCSE from 2028 as part of government plans.",
-      "url": "https://news.sky.com/story/students-to-be-offered-ukrainian-gcse-to-preserve-cultural-heritage-13607583",
-      "canonicalUrl": "https://news.sky.com/story/students-to-be-offered-ukrainian-gcse-to-preserve-cultural-heritage-13607583",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T03:15:00Z",
-      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-gcses-exam_7396415.jpg?20261104031211",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cb9d34a7e974a49a4f1c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.30139,
-      "related": []
-    },
-    {
-      "id": "e0864e629e31743d13e558d2",
-      "title": "Wall Street falls as Democrats make midterm gains - with broad implications possible",
-      "translatedTitle": null,
-      "description": "Wall Street markets have fallen as Democrats continue to gain ground across the country in the midterms.",
-      "url": "https://news.sky.com/story/us-midterms-markets-fall-on-wall-street-as-democrats-gain-early-momentum-13607737",
-      "canonicalUrl": "https://news.sky.com/story/us-midterms-markets-fall-on-wall-street-as-democrats-gain-early-momentum-13607737",
+      "description": "Wall Street markets rose on Wednesday, reversing sharp early losses as Democrats continue to gain ground in the US midterm elections.",
+      "url": "https://news.sky.com/story/wall-street-edges-higher-after-democrats-sweep-midterms-13607737",
+      "canonicalUrl": "https://news.sky.com/story/wall-street-edges-higher-after-democrats-sweep-midterms-13607737",
       "sourceName": "Sky News",
       "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
@@ -954,233 +592,113 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "81148c27b2d7f76623b4",
+      "clusterId": "f7d386fe4a4c1f6886a0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.17849,
-      "related": []
+      "related": [],
+      "rankingScore": 6.22176
     },
     {
-      "id": "db828cf853edcb0dadcfd53b",
-      "title": "Republican Byron Donalds makes history as Florida's first Black governor",
+      "id": "82e66e131541001cd8e0dff0",
+      "title": "Police arrest fourth boy after five teenagers stabbed at Halloween party",
       "translatedTitle": null,
-      "description": "Democrats have not captured the governor's office in the state in more than 30 years",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/byron-donalds-florida-governor-black-b3078726.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/byron-donalds-florida-governor-black-b3078726.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Police have arrested a fourth boy after five teenagers were stabbed at a Halloween party in Chandler's Ford on Saturday.",
+      "url": "https://news.sky.com/story/police-arrest-fourth-boy-after-five-teenagers-stabbed-at-halloween-party-13607896",
+      "canonicalUrl": "https://news.sky.com/story/police-arrest-fourth-boy-after-five-teenagers-stabbed-at-halloween-party-13607896",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T02:36:48Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/02/2302910300..?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
+      "publishedAt": "2026-11-04T11:47:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-hampshire-chandlers-ford_7393918.jpg?20261101154952",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e198a1ee3383dcb0f645",
+      "clusterId": "2ef2d2c5bf0842a44664",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.15365
+      "rankingScore": 5.77692
     },
     {
-      "id": "7f5aeee163e996b99d76bf48",
-      "title": "Trump unloads on Fox News and turns to CNN for relief as bleak midterms news rolls in",
+      "id": "b0068a7a8ed0e15de679a88d",
+      "title": "Poundland supplier urges 'thorough' state probe into owner's conduct",
       "translatedTitle": null,
-      "description": "In a series of posts, Trump criticized a female Fox News commentator’s voice, attacked the network’s polling and claimed its ratings were plummeting — then posted a CNN star’s clip",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-fox-news-midterm-elections-b3078671.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-fox-news-midterm-elections-b3078671.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "A major Poundland supplier has urged the government to \"thoroughly investigate\" the conduct of its majority owner as the discount chain teeters on the brink of collapse.",
+      "url": "https://news.sky.com/story/poundland-supplier-urges-thorough-state-probe-into-owners-conduct-13607893",
+      "canonicalUrl": "https://news.sky.com/story/poundland-supplier-urges-thorough-state-probe-into-owners-conduct-13607893",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T02:32:39Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/03/23/44/GettyImages-2302753717.jpeg?width=1200&auto=webp&trim=0%2C2%2C0%2C1",
+      "publishedAt": "2026-11-04T11:43:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-poundland-sheffield_7372627.jpg?20261010073001",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0226d490bbdfb78b8921",
+      "clusterId": "229372a00827883d6111",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.1475
+      "rankingScore": 5.76902
     },
     {
-      "id": "8db296131c0461751944f65e",
-      "title": "MAGA influencers start crashing out online over Democratic midterm sweep",
+      "id": "5db3058a3db4ba5032a24822",
+      "title": "Paul will 'hang up gloves' if he loses to Doumbe",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/maga-midterm-sweeps-influencers-b3078791.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/maga-midterm-sweeps-influencers-b3078791.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Jake Paul says he will retire from boxing if he loses to MMA star Cedric Doumbe on 24 December in Dubai.",
+      "url": "https://www.bbc.co.uk/sport/articles/crly0jn058z1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/articles/crly0jn058z1o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T06:31:24Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/06/2301942442..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-11-04T08:57:34Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c20/live/ff670150-d82b-11f1-be97-417dbcdedd32.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6f2e440347ed3809e718",
+      "clusterId": "494a240c5133e466a100",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.14273
+      "rankingScore": 5.73665
     },
     {
-      "id": "1b46c7ccc2aea0db4b7814f0",
-      "title": "Peggy Flanagan defeats former NFL reporter Michele Tafoya in Minnesota Senate race",
+      "id": "9f7338300de83175f6edf8b1",
+      "title": "The Legend of Zelda: Ocarina of Time review – a dream come true",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/peggy-flanagan-minnesota-senate-tafoya-b3078784.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/peggy-flanagan-minnesota-senate-tafoya-b3078784.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T06:04:49Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/06/2302750345..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d24b087a896a572e970b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.09428
-    },
-    {
-      "id": "4f03d6234f7cfcde3ca2919b",
-      "title": "MAGA Fox News star Jesse Watters tosses in midterms towel and rails on air about ‘white guys’ not voting",
-      "translatedTitle": null,
-      "description": "‘I don’t feel great,’ Watters said of the midterms as voters were still casting their ballots Tuesday night",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/jesse-watters-fox-news-midterms-republicans-b3078697.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/jesse-watters-fox-news-midterms-republicans-b3078697.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T01:48:18Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/0/02/GettyImages-2203348577.jpg?width=1200&auto=webp&trim=0%2C1%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6911046c29e8bc13d57e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.08323
-    },
-    {
-      "id": "5b85490cfd012e9f8c9ac241",
-      "title": "Trump pushed Darline Graham to run in South Carolina and watched a safe seat flip blue",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/annie-andrews-south-arolina-senate-election-b3078781.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/annie-andrews-south-arolina-senate-election-b3078781.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T05:53:40Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/03/09/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "79c87526d96ed9971969",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.07431
-    },
-    {
-      "id": "5c3c9b9034c4fc53c49d60f0",
-      "title": "Trump calls into Fox News and acknowledges Democrats' midterm sweep",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/trump-fox-news-election-night-losses-b3078780.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-fox-news-election-night-losses-b3078780.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T05:53:32Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/3/20/GettyImages-2301823546.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a8d10947b717fe29660a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.07408
-    },
-    {
-      "id": "167f101a260cee9610a2af41",
-      "title": "The night-sky image so incredible the NZ man behind it has been accused of using AI",
-      "translatedTitle": null,
-      "description": "Brendan Larsen spent hours taking hundreds of photographs of the sky over a mountain in New Zealand A photograph showing thousands of satellites cross-hatching the night sky over New Zealand appeared so extraordinary the astrophotographer who captured it is fighting accusations it was created by AI. To create his spectacular image – now viewed millions of times online – Brendan Larsen spent two hours in September snapping hundreds of photographs of the night sky over Mount Taranaki in the North",
-      "url": "https://www.theguardian.com/world/2026/nov/04/viral-image-nz-night-sky-satellites-accused-of-being-ai-brendan-larsen",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/04/viral-image-nz-night-sky-satellites-accused-of-being-ai-brendan-larsen",
+      "description": "Nintendo Switch 2; NintendoThis ambitious remake transforms a landmark Zelda game into a modern masterpiece, clearer and easier to navigate, more beautiful to look at, with playful musical touches. Yet the melancholy remains It’s always a worry, returning to a formative piece of art from your childhood. Will your jaded adult sensibilities render you unable to locate the magic that captivated your child self? Will revisiting it reveal that it was never actually that good, and that your tastes are",
+      "url": "https://www.theguardian.com/games/2026/nov/04/the-legend-of-zelda-ocarina-of-time-review-nintendo-switch",
+      "canonicalUrl": "https://theguardian.com/games/2026/nov/04/the-legend-of-zelda-ocarina-of-time-review-nintendo-switch",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1189,28 +707,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T00:29:51Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/bd715275e48ac6b5ba2cb5e4a4434d908b8ac664/0_691_2667_2133/master/2667.jpg?width=140&quality=85&auto=format&fit=max&s=ee91421d100c42456da505d7bef4a76f",
+      "publishedAt": "2026-11-04T11:03:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8a2d98784a3e1b4f40da5a86e375407c004b7753/558_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=f166b0e3b10b4ea26c6403380c9173ac",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f9778d66dd77cd42b09a",
+      "clusterId": "7aefbc45e3389c1ca0a5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.06581,
-      "related": []
+      "related": [],
+      "rankingScore": 5.69218
     },
     {
-      "id": "36f5c65cbc366e78ef5ba506",
-      "title": "Constantinople to Istanbul review – you won’t want to leave this lavish celebration of double imperial splendour",
+      "id": "ae8e6acb456e145b853631e9",
+      "title": "Crawlers review – killer-spiders movie offers giant-arachnid action alongside anticapitalist commentary",
       "translatedTitle": null,
-      "description": "V&A, London Treasures from the two world-defining cultures that somehow coexisted in one mighty city keep on dazzling in this gorgeous, unmissable show Two empires compete to bewitch you in this exhibition that offers a double bubble of beauty. It collides the Byzantine empire, whose capital Constantinople was officially inaugurated on 11 May AD330, with the Ottoman Turks who conquered this great city in 1453 and turned it into Istanbul. The combined glories of two lost worlds – the Ottoman empi",
-      "url": "https://www.theguardian.com/artanddesign/2026/nov/04/constantinople-to-istanbul-review-v-and-a-london",
-      "canonicalUrl": "https://theguardian.com/artanddesign/2026/nov/04/constantinople-to-istanbul-review-v-and-a-london",
+      "description": "A witty creature feature set in a multi-occupancy building in Los Angeles that takes aim at unscrupulous landlords and finance bros This arachnid-themed horror is fairly traditional in terms of its structure, core monster threat and scares-to-laughs ratio, but there are a few winningly modern touches. For starters, there is a very contemporary anticapitalist undertow: it all takes place in a single multi-occupancy building (supposedly in Los Angeles, though the whole film was filmed in Portugal)",
+      "url": "https://www.theguardian.com/film/2026/nov/04/crawlers-review-killer-spiders-movie-offers-giant-arachnid-action-alongside-anticapitalist-commentary",
+      "canonicalUrl": "https://theguardian.com/film/2026/nov/04/crawlers-review-killer-spiders-movie-offers-giant-arachnid-action-alongside-anticapitalist-commentary",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1219,28 +737,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T00:01:18Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e5b43015fc2e949cfe3a3cfa08755978a2544c88/546_347_4693_3754/master/4693.jpg?width=140&quality=85&auto=format&fit=max&s=67a07412ca2ce64ae37fe1eb54a757a9",
+      "publishedAt": "2026-11-04T11:00:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2861dc96850ae96d2017327ba40b8fe6429ded22/800_0_4000_3200/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=d360c1b76a6d46429c7ee896541aa3fe",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "977ac54eb3ecf447cefc",
+      "clusterId": "4df4f198c6d9977ba21f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.02861,
-      "related": []
+      "related": [],
+      "rankingScore": 5.68621
     },
     {
-      "id": "a8bc4c0e4841bee5958165db",
-      "title": "Houses of Parliament at risk of ‘Notre Dame-style fire’ as renovation costs rise",
+      "id": "7a5179d57f90869d25f8a7c2",
+      "title": "How a scientist went from hero to traitor in a US water crisis - video",
       "translatedTitle": null,
-      "description": "Report says cost of maintenance could soon reach £2m a week, including 24-hour patrols to avert fire risk The Palace of Westminster will be at risk of a Notre Dame-style fire or a similar catastrophic event if MPs do not tackle the issue of funding refurbishments, a parliamentary committee has said. Decisions about how and when to begin a full restoration of the building, which is Grade I-listed and a Unesco world heritage site, have been repeatedly delayed amid disagreement over how it should b",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/04/parliament-notre-dame-style-fire-renovation-costs",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/04/parliament-notre-dame-style-fire-renovation-costs",
+      "description": "When the water in Flint, Michigan, became contaminated with dangerous levels of lead, Dr Siddhartha Roy, then a third year PhD student, was part of the team of scientists who publicly contradicted state and federal claims that it was safe. He became a local hero until a new piece of research challenged the idea that children in Flint had been left permanently brain damaged by the crisis. His adherence to the evidence, no matter who it offended, has earned him the 2026 Maddox prize, which recogni",
+      "url": "https://www.theguardian.com/science/video/2026/nov/04/how-a-scientist-went-from-hero-to-traitor-in-a-us-water-crisis-video",
+      "canonicalUrl": "https://theguardian.com/science/video/2026/nov/04/how-a-scientist-went-from-hero-to-traitor-in-a-us-water-crisis-video",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1249,440 +767,860 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T00:01:18Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/4e450e588a2ccf37ad5e5de47f1b2aabdba8f9df/284_0_4216_3372/master/4216.jpg?width=140&quality=85&auto=format&fit=max&s=b571dc86350409b63cbaebd1ea3f9613",
+      "publishedAt": "2026-11-04T10:47:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0bbd5fc49e8fa9a76b1818a83799b7afd734eb7c/110_0_3263_2610/master/3263.jpg?width=140&quality=85&auto=format&fit=max&s=d2b43c2a77a0e349df9f84852ea99f3d",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "5296f9e36b765d61993e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.02861,
-      "related": []
-    },
-    {
-      "id": "6bef83de617aff7de93740a8",
-      "title": "Activist charged with setting fire to embattled Mississippi police department",
-      "translatedTitle": null,
-      "description": "An Alabama man has been charged with setting fire to a Mississippi police department that has faced protests in the months since an officer fatally shot a 1-year-old boy",
-      "url": "https://www.independent.co.uk/news/mississippi-alabama-huntsville-b3078687.html",
-      "canonicalUrl": "https://independent.co.uk/news/mississippi-alabama-huntsville-b3078687.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T00:08:21Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/31/21/Mississippi_Police_Fire_3_159.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bb137dd79c7e48aa842d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.9477,
-      "related": []
-    },
-    {
-      "id": "dffd612ff625a492d088a85b",
-      "title": "Jennifer Lawrence quotes Hunger Games as celebrities urge fans to vote in US midterms",
-      "translatedTitle": null,
-      "description": "Singer Bruce Springsteen, actor Samuel L Jackson and pop star Olivia Rodrigo were among stars who cast their ballots",
-      "url": "https://www.independent.co.uk/arts-entertainment/films/news/celebrities-vote-midterms-jennifer-lawrence-olivia-rodrigo-b3078675.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/films/news/celebrities-vote-midterms-jennifer-lawrence-olivia-rodrigo-b3078675.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T00:05:17Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/03/23/59/GettyImages-2249463017-(1).jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7eef2bd1a5386bceff42",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.94374,
-      "related": []
-    },
-    {
-      "id": "1b10a5dc67784ad6998e3e79",
-      "title": "Prominent Hong Kong activist Joshua Wong awaits sentencing. Here's what to know about his case",
-      "translatedTitle": null,
-      "description": "A Hong Kong court is set to hand down a sentence to prominent pro-democracy activist Joshua Wong Thursday for his second conviction under a Beijing-imposed national security law",
-      "url": "https://www.independent.co.uk/news/joshua-wong-hong-kong-law-nathan-law-beijing-b3078680.html",
-      "canonicalUrl": "https://independent.co.uk/news/joshua-wong-hong-kong-law-nathan-law-beijing-b3078680.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T00:03:22Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/00/Hong_Kong_Joushua_Wong_What_to_Know_56_65.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d59c835b683695fb94be",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.94127,
-      "related": []
-    },
-    {
-      "id": "c1b94d07b834d4fbfdf2a5a9",
-      "title": "Four weight loss adverts banned: ‘We won’t hesitate to take action’",
-      "translatedTitle": null,
-      "description": "The ruling by the Advertising Standards Authority relates to the promotion of prescription-only weight loss pills to the public",
-      "url": "https://www.independent.co.uk/news/uk/home-news/weight-loss-wegovy-pill-voy-ad-b3078318.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/weight-loss-wegovy-pill-voy-ad-b3078318.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T00:01:14Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/03/11/01M6GJWAC791MS0HK46KZEF75Q.jpg?width=1200&auto=webp&trim=1354%2C0%2C1480%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8f33f18a0a66383a3e1f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.93852,
-      "related": []
-    },
-    {
-      "id": "2a2b4038548e5f4b3f7b6ab8",
-      "title": "Rivals star reveals she insisted on 'no nudity' clause in contract",
-      "translatedTitle": null,
-      "description": "Bella Maclean, who plays Taggie O’Hara, said, ‘There are some things I just want to keep to myself’",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/rivals-bella-maclean-sex-scenes-b3078501.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/rivals-bella-maclean-sex-scenes-b3078501.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T00:01:09Z",
-      "imageUrl": "https://static.independent.co.uk/2026/05/14/15/08/182171_0001-(1).jpeg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "228d4b0cfd1d2c33ec59",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.93842,
-      "related": []
-    },
-    {
-      "id": "3f7fad4f952892175d18eb98",
-      "title": "Adverts promoting prescription-only weight loss pills to public are banned",
-      "translatedTitle": null,
-      "description": "The ads for Voy, Juniper and MedExpress all promoted prescription-only medicines to the public, which is banned in the UK, the ASA found.",
-      "url": "https://www.independent.co.uk/news/business/asa-wegovy-medicines-and-healthcare-products-regulatory-agency-youtube-instagram-b3078684.html",
-      "canonicalUrl": "https://independent.co.uk/news/business/asa-wegovy-medicines-and-healthcare-products-regulatory-agency-youtube-instagram-b3078684.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T00:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/00/03111552-7ed01d2d-b415-4568-b88f-e747a34334e4.jpeg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4fe16f514631d4252753",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.93822,
-      "related": []
-    },
-    {
-      "id": "50673b310cc8446a893b7743",
-      "title": "Weight-loss drug companies barred from advertising treatments to public",
-      "translatedTitle": null,
-      "description": "The first GLP-1 tablet for weight loss was licenses to be sold as a medicine available only via prescriptions in June",
-      "url": "https://www.independent.co.uk/news/health/weight-loss-drugs-jabs-pills-voy-banned-advertising-b3078486.html",
-      "canonicalUrl": "https://independent.co.uk/news/health/weight-loss-drugs-jabs-pills-voy-banned-advertising-b3078486.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T00:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/03/11/01M6GJWAC791MS0HK46KZEF75Q.jpg?width=1200&auto=webp&trim=1354%2C0%2C1480%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a9a43332249993205ce9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.93822,
-      "related": []
-    },
-    {
-      "id": "250d52dd1cadc4991c67ee57",
-      "title": "Women risk losing out on pension savings due to menopause, study suggests",
-      "translatedTitle": null,
-      "description": "Nearly three in 10 said menopause or perimenopause had affected how much they were able to save for retirement",
-      "url": "https://www.independent.co.uk/money/women-pension-savings-menopause-scottish-widows-b3078514.html",
-      "canonicalUrl": "https://independent.co.uk/money/women-pension-savings-menopause-scottish-widows-b3078514.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T00:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2024/10/03/17/iStock-1466762516.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "74132bffbf1f3ebfbc99",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.93822,
-      "related": []
-    },
-    {
-      "id": "b0de4449596b6a151329f2f8",
-      "title": "Ministers urged to set target to almost treble Scotland’s onshore wind power",
-      "translatedTitle": null,
-      "description": "The country has onshore wind capacity of about 10.7 gigawatts, but a new report says reaching 30 GW by 2040 could boost jobs and the economy.",
-      "url": "https://www.independent.co.uk/news/business/scotland-scottish-government-uk-government-government-b3078683.html",
-      "canonicalUrl": "https://independent.co.uk/news/business/scotland-scottish-government-uk-government-government-b3078683.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T00:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/00/03105809-77edc541-b548-4a1d-8a97-b72f9e81f90a.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0e8e3e3d3ccf67303bfc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.93822,
-      "related": []
-    },
-    {
-      "id": "ea3c4f473f8f6a67d08a5784",
-      "title": "Kristi Noem wades into debate over GOP midterm failures and defends Trump",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/kristi-noem-midterm-elections-larry-kudlow-b3078731.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/kristi-noem-midterm-elections-larry-kudlow-b3078731.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-04T03:03:31Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/02/2295475057..?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fedb7b29bd7920d83eb9",
+      "clusterId": "f017381fc3812c604824",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 4.79382
+      "rankingScore": 5.66148
     },
     {
-      "id": "ae896e79f320cf1887e2c3a5",
-      "title": "Who won the Florida governor race? Ron DeSantis' successor named",
+      "id": "86ffc8d9140d5f0eb4d3c923",
+      "title": "The Spin | ‘I wanted the ball to be hit at me’: life in cricket’s most dangerous fielding position",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/byron-donalds-florida-governor-race-election-results-b3078721.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/byron-donalds-florida-governor-race-election-results-b3078721.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "James Taylor recalls the ‘moments of pure elation’ and twisted intimacy of being under the batter’s nose at short leg Out in Arizona, just south of Tucson. Where tumbleweeds tumble in search of a home. There’s a town they call Tombstone where the brave never cry … On the outskirts of Tombstone stands Boothill Graveyard, the final resting place for the many cowboys who died “with their boots on” in the seconds-long but deadly shootouts of the wild west. Continue reading...",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/cricket-most-dangeroous-fielding-position-short-leg-the-spin",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/04/cricket-most-dangeroous-fielding-position-short-leg-the-spin",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T02:39:52Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/2/48/GettyImages-2301029536.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-11-04T10:33:44Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/645ec1c729ee3ca2cae40a77db484b54fea9f9bc/443_0_3026_2421/master/3026.jpg?width=140&quality=85&auto=format&fit=max&s=c2fd328285a626b8f4d1e7ddcf6c1773",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "bda7e2534a1f4f0b0647",
+      "clusterId": "03b6cc95b92f02c6b7d6",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 4.75821
+      "rankingScore": 5.63676
     },
     {
-      "id": "f555d5de34974ba49ebb3799",
-      "title": "Kathy Hochul defeats Trump's Republican pal in New York governor race",
+      "id": "112353c2f5b70961c207c53e",
+      "title": "‘Every family has silences’: Kathryn Hunter on despair, desire, dislodgeable limbs – and her acting genius",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/kathy-hochul-new-york-governor-race-results-b3078724.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/kathy-hochul-new-york-governor-race-results-b3078724.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "She has played King Lear, all three witches in Macbeth and an ape turned variety performer in Kafka’s Monkey. As she prepares for a new show, she discusses the soaring highs and deep lows of her extraordinary life Kathryn Hunter pulls off her black beanie and sits down. She hates having to keep still: “It’s torture.” On aeroplanes, she is always in the aisle, bobbing up and down. She has an inner restlessness, an energy looking for the right outlet – one that even eight hours of rehearsing hasn’",
+      "url": "https://www.theguardian.com/culture/2026/nov/04/every-family-has-silences-kathryn-hunter-on-despair-desire-dislodgeable-limbs-and-her-acting-genius",
+      "canonicalUrl": "https://theguardian.com/culture/2026/nov/04/every-family-has-silences-kathryn-hunter-on-despair-desire-dislodgeable-limbs-and-her-acting-genius",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T02:32:54Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/02/2299545921..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-11-04T10:00:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e155d5a64b0038ecf8a0abc0abc5bf9c8e661359/1358_399_2409_1927/master/2409.jpg?width=140&quality=85&auto=format&fit=max&s=1a4d61a60a8a84f0076e550f1959d27a",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "71e81b3ad9a56822fda5",
+      "clusterId": "3375592627fbe88bb474",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 4.74787
+      "rankingScore": 5.57545
     },
     {
-      "id": "a9f91739b48616076f26706f",
-      "title": "Donald Trump sees his first critical midterm loss in key Senate flip",
+      "id": "f41c2a01da96da22bcecd47a",
+      "title": "Sali Hughes on beauty: eye creams that are worth using down to the last drop",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/roy-cooper-donald-trump-north-carolina-senate-b3078718.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/roy-cooper-donald-trump-north-carolina-senate-b3078718.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Face cream is often enough, but if you want a separate product for your eyes, these new ones are terrific value A hill I will die on: you do not necessarily need an eye cream. There are, I will admit, reasons why you might fare better with one. You may have a very dry eye area and oily skin elsewhere, for example, causing a skincare mismatch. Or, conversely, you may find your daily face cream is too rich for your eyes and makes them puffy, so they need something lighter. You may want a little co",
+      "url": "https://www.theguardian.com/fashion/2026/nov/04/sali-hughes-on-beauty-eye-creams",
+      "canonicalUrl": "https://theguardian.com/fashion/2026/nov/04/sali-hughes-on-beauty-eye-creams",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T02:21:25Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/1/32/GettyImages-2302436271.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-11-04T10:00:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/08cd1cd13702683270ddf1ff701ed051e74b07a4/206_323_6025_4820/master/6025.jpg?width=140&quality=85&auto=format&fit=max&s=5265746dd7d384c773b2f23d596c1c7f",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T08:18:12Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e6cdc25b1f771381ddee",
+      "clusterId": "dcd697b8371de164869e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 4.73097
+      "rankingScore": 5.57545
     },
     {
-      "id": "e69a1086a1154c6ba010bae4",
-      "title": "Bill Clinton's 2007 praise for Michigan Senate hopeful Abdul El-Sayed resurfaces",
+      "id": "41726cd9645a36304443d1df",
+      "title": "Anthony Zurcher: Democrats push deep into Trump heartland on historic night",
       "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/abdul-el-sayed-bill-clinton-michigan-commencement-speech-b3078682.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/abdul-el-sayed-bill-clinton-michigan-commencement-speech-b3078682.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Two Senate races that a year ago were thought to be battlegrounds turned out to be slam-dunks for the Democrats.",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0v5lv30lyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cwz0v5lv30lyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T00:08:13Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/00/2294188358..?width=1200&auto=webp&trim=0%2C1%2C0%2C1",
+      "publishedAt": "2026-11-04T06:53:56Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4923/live/c29a9fb0-d82c-11f1-a701-fddedf244c16.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
+      "retrievedAt": "2026-11-04T12:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c84774df2a4d2fcf4ed7",
+      "clusterId": "d347c9a1d1b5c3858e44",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.54753,
-      "related": []
+      "related": [],
+      "rankingScore": 5.53907
+    },
+    {
+      "id": "82848cf37cde6006a75e21f5",
+      "title": "School children to be offered lessons on how to spot fraud",
+      "translatedTitle": null,
+      "description": "School children in England are to be offered lessons to help spot fraud and protect themselves from financial exploitation.",
+      "url": "https://news.sky.com/story/school-pupils-to-be-offered-lessons-on-how-to-spot-fraud-13607839",
+      "canonicalUrl": "https://news.sky.com/story/school-pupils-to-be-offered-lessons-on-how-to-spot-fraud-13607839",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T09:06:00Z",
+      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-credit-card-phone-debit_7314500.jpg?20260805123507",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7cd6b4805e1ca22b42c7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.48097
+    },
+    {
+      "id": "e8a023139bcfd86dc16ce958",
+      "title": "Code cracked for shipwreck padlock solving 400-year-old mystery",
+      "translatedTitle": null,
+      "description": "The brass lock, found in the sand near Port Talbot, forms part of a 1583 shipwreck treasure hoard.",
+      "url": "https://www.bbc.co.uk/news/articles/c69qz9jzq4jro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c69qz9jzq4jro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T06:12:52Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/799a/live/4864f4f0-d6d5-11f1-a701-fddedf244c16.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "734adfcc1863969194cd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47829
+    },
+    {
+      "id": "11444907841bd9421a8b995c",
+      "title": "A Table for Fortune by William T Vollmann review – a hugely ambitious 3,000-page portrait of America’s decline",
+      "translatedTitle": null,
+      "description": "This insider’s history of the CIA explores the last 50 years of US foreign policy with granular detail and mordant humour The 250th year of the American experiment seems to invite a reckoning. For a young country, the United States is overblessed – or burdened – with myths about its foundation and how the nation has conducted itself at home and abroad. William T Vollmann’s 3,000-page novel A Table for Fortune is an epic attempt, 15 years in the making, to engage with the US’s past and present at",
+      "url": "https://www.theguardian.com/books/2026/nov/04/a-table-for-fortune-by-william-t-vollmann-review-a-hugely-ambitious-3000-page-portrait-of-americas-decline",
+      "canonicalUrl": "https://theguardian.com/books/2026/nov/04/a-table-for-fortune-by-william-t-vollmann-review-a-hugely-ambitious-3000-page-portrait-of-americas-decline",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T09:00:02Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bf81bed640eb0b1793d819dfaed6595d2a9c5b49/290_0_4838_3870/master/4838.jpg?width=140&quality=85&auto=format&fit=max&s=5fb12d6590ebc25fdfcbf4c509ccbd40",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9205ccd03276f86d7f50",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47083
+    },
+    {
+      "id": "a55a827461d73328f5bb8c64",
+      "title": "Liverpool owner FSG holds talks over buying majority stake in Cadillac F1 team",
+      "translatedTitle": null,
+      "description": "Deal would be worth more than £2bn Cadillac are jointly owned by Mark Walter Liverpool’s owner, Fenway Sports Group, has held talks about buying a majority stake in the Cadillac Formula One team for more than £2bn as Mark Walter continues to sell off his sporting assets amid allegations of insurance fraud. Cadillac entered F1 this year as a joint venture between General Motors and Walter’s TWG Global, which sold its controlling interest in the NBA’s Los Angeles Lakers and a 13% stake in Chelsea",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/liverpool-owner-fsg-talks-buy-cadillac-f1-team-majority-stake",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/04/liverpool-owner-fsg-talks-buy-cadillac-f1-team-majority-stake",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T08:36:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a80e56c22af2b20e609a324741c74472cdc14c9c/659_131_4724_3779/master/4724.jpg?width=140&quality=85&auto=format&fit=max&s=88522bfbd69c239bfc57a54dd1d3ee18",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1da83f9a5298ef426c11",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.43092
+    },
+    {
+      "id": "91e146856eadac13296f7bbb",
+      "title": "Resounding wins for Democrats a wholesale rebuke of Trump’s Maga movement",
+      "translatedTitle": null,
+      "description": "Democrats of all stripes declared victory on Tuesday night in clearest sign yet voters have had enough of Trumpism No single Democratic coalition can claim victory after Tuesday’s resounding midterm results – all parts of the Democratic coalition can. Their wins were so sweeping, so resounding, that factional divisions fail to explain them. This year, the most important thing Democrats had to be to win was, simply, not Republicans. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/04/us-midterm-results-democrats-trump-analysis",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/04/us-midterm-results-democrats-trump-analysis",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T08:12:38Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6ebcc68cea4b2d0236eea6e0ab831193614a73a0/0_702_4641_3711/master/4641.jpg?width=140&quality=85&auto=format&fit=max&s=1b05624c20a1438c1946cd6bc142306c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "46bcb99c297ac30c8abe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.39221
+    },
+    {
+      "id": "d1a03c1c31655c08e74014e3",
+      "title": "These cruel new plans to ‘stop the boats’ show the government completely misunderstands refugees like me | Anonymous",
+      "translatedTitle": null,
+      "description": "Harsher settlement rules wouldn’t have stopped me fleeing hell in Syria to reach the UK. Now I’m here, they will just pile trauma on top of trauma I am a refugee and I am in shock at the home secretary’s announcement that people like me will now have to wait up to 30 years before they can apply for settlement in the UK – a sixfold increase on the current time period. It feels like a pile-on at a time when asylum seekers and refugees are already facing a barrage of hostility in this country. Even",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/04/stop-the-boats-government-refugees-settlement-rules-syria-uk",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/04/stop-the-boats-government-refugees-settlement-rules-syria-uk",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T08:00:29Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/64dde0d7797165c429a0d686828311f20ab4bb77/0_0_4163_3331/master/4163.jpg?width=140&quality=85&auto=format&fit=max&s=3869087e74d5a3f779238d403aa8d4c3",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b08dd4316c5458d9de22",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37261
+    },
+    {
+      "id": "cdfef1e49daf2ba887753f35",
+      "title": "Choke of the century? Chengdu collapse sets up thrilling Chinese Super League climax",
+      "translatedTitle": null,
+      "description": "John Aloisi’s side need a point on the final day to seal their maiden title – but their form has dropped off a cliff With four games of the Chinese Super League to go, Chengdu Rongcheng needed just a point to clinch their first title. With one game to go, they still need a point. What was a formality has become a formidable task. The biggest bottle job in Asian football history is very much on and it would be as popular as it would be dramatic. The coach of the Sichuan club, the former Portsmout",
+      "url": "https://www.theguardian.com/football/2026/nov/04/choke-of-the-century-chengdu-collapse-sets-up-thrilling-chinese-super-league-climax",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/04/choke-of-the-century-chengdu-collapse-sets-up-thrilling-chinese-super-league-climax",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T08:00:29Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/948390b71d4e67e3c067f79af9b6a7b1730782fa/396_105_3202_2562/master/3202.jpg?width=140&quality=85&auto=format&fit=max&s=fc39238a6707ac80db70b377668785f0",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "535aeb3ec396c4e94da9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37261
+    },
+    {
+      "id": "fbf3f7334c806c9fb89112ba",
+      "title": "Broadcasters need content creators ‘more than creators need them’",
+      "translatedTitle": null,
+      "description": "CEO of leading production company says unless pay or exposure are high, creators are ‘not that interested’ in TV Broadcasters need content creators more than creators need them due to the shift in how the public consumes media, according to a leading production company backed by Elisabeth Murdoch. Founded 10 years ago, the trajectory of creator-led After Party Studios (APS) reflects the disruption of the old TV broadcasting model by content creators, as it makes what it calls “culturally relevan",
+      "url": "https://www.theguardian.com/media/2026/nov/04/broadcasters-content-creators-youtube-bbc-itv-channel-4",
+      "canonicalUrl": "https://theguardian.com/media/2026/nov/04/broadcasters-content-creators-youtube-bbc-itv-channel-4",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T08:00:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e76e4fad70f3eb338b0c9583fdf34061e6320d22/424_0_2601_2082/master/2601.jpg?width=140&quality=85&auto=format&fit=max&s=0af37a5fe8df05f7d922363fb7bbd658",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dc6480808c55184aa11b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37259
+    },
+    {
+      "id": "9655f1da174aa345d252ef5f",
+      "title": "Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea",
+      "translatedTitle": null,
+      "description": "Papua New Guinea police had earlier dismissed speculation that the 32kg object was \"merely a dummy\".",
+      "url": "https://www.bbc.co.uk/news/articles/cm0qkxzv3j99o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm0qkxzv3j99o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T03:46:10Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03fb/live/ecd52fb0-d800-11f1-b851-6586c863d7ea.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dfa5a886b2085f462566",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.2791
+    },
+    {
+      "id": "3fab95105bb951b8f925d453",
+      "title": "Our house purchase is at risk from a frozen Revolut account",
+      "translatedTitle": null,
+      "description": "Access to our £37,000 deposit in a savings account is restricted after a ‘routine security review’ My wife’s Revolut account was frozen in what it calls a “routine security review” over a week ago. Nothing has been requested from her – no documents, the source of funds, or ID – yet, as a result, our house deposit of £37,000 in a joint savings account is also restricted. We’re approaching the completion of our property purchase and have given notice on our rental home. Direct debits are bouncing",
+      "url": "https://www.theguardian.com/money/2026/nov/04/our-house-purchase-is-at-risk-from-a-frozen-revolut-account",
+      "canonicalUrl": "https://theguardian.com/money/2026/nov/04/our-house-purchase-is-at-risk-from-a-frozen-revolut-account",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T07:00:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a70f5fa26f8113d64b76fc51e0641e605b3d42ef/468_0_4680_3744/master/4680.jpg?width=140&quality=85&auto=format&fit=max&s=35db0067c3332ad5ae27cd7e78ded15b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "293e96ab9b9fe589b7d6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27896
+    },
+    {
+      "id": "8dce976c2c060923f8587bb2",
+      "title": "Women behind the lens: ‘I learned early what I was meant to become: a wife, a cook, a keeper of the home’",
+      "translatedTitle": null,
+      "description": "The South African artist Remofiloe Nomandla Mayisela questions the role she was expected to fulfil in her playful self-portraits MilkMaid is part of my photographic series Lipservice, which stars Mrs Martha May, a contemporary makoti (a colloquial South African term for a wife). Mrs May is always dolled up, poised, ready to serve. Here she stands before a wall of long-life milk, face painted in the patches of a dairy cow, a crate balanced on her head. Rubber gloves, a frilled apron over shweshwe",
+      "url": "https://www.theguardian.com/global-development/2026/nov/04/women-behind-the-lens-i-learned-early-what-i-was-meant-to-become-a-wife-a-cook-a-keeper-of-the-home",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/nov/04/women-behind-the-lens-i-learned-early-what-i-was-meant-to-become-a-wife-a-cook-a-keeper-of-the-home",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T07:00:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/37be326f3748e9a5e5dd4d09d43fe2d94041b96b/730_0_4219_3375/master/4219.jpg?width=140&quality=85&auto=format&fit=max&s=6d7da21a698b46c268363b330220de29",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bc17680a44cb4d7bb878",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27896
+    },
+    {
+      "id": "35d2c2bf2ce20bd0e06cf926",
+      "title": "‘Overlooked only by trees’: a calming autumn cabin stay in north Norfolk",
+      "translatedTitle": null,
+      "description": "With its secluded orchard location, private sauna and hot tub, this off-grid cabin is the perfect place to kickback, with beaches and pubs just a short stroll away As we walked through the orchard to our cabin at dusk, shadowy figures emerged from the mist. We stood stock-still and held our breath. Most of them saw us and fled, but one held its ground, unwilling to relinquish its stolen goods. Muntjac have clearly developed quite a taste for windfall apples. My boyfriend and I left the little de",
+      "url": "https://www.theguardian.com/travel/2026/nov/04/calming-autumn-cabin-stay-in-north-norfolk",
+      "canonicalUrl": "https://theguardian.com/travel/2026/nov/04/calming-autumn-cabin-stay-in-north-norfolk",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T07:00:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b086a645891b8a6c633e890fd408d2d953b1beb2/64_0_1920_1536/master/1920.jpg?width=140&quality=85&auto=format&fit=max&s=6e8bcb7c2133959c9524323417d074be",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a5cfb33be478f9ec543b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27896
+    },
+    {
+      "id": "609cf9184969d3cd7d7df5ed",
+      "title": "Roll with it! This year’s best portrait photography – in pictures",
+      "translatedTitle": null,
+      "description": "Dashing cowboys, a transgender storm chaser and a fetching mullet are among the subjects of these acclaimed photographs for the Winston Taylor Photo Portrait Prize 2026 Continue reading...",
+      "url": "https://www.theguardian.com/artanddesign/gallery/2026/nov/04/winston-taylor-photo-portrait-prize-winners-in-pictures",
+      "canonicalUrl": "https://theguardian.com/artanddesign/gallery/2026/nov/04/winston-taylor-photo-portrait-prize-winners-in-pictures",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T07:00:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c8fb65722b5c8db5fc4451fe58f77f9a98c1e57c/0_19_4475_3581/master/4475.jpg?width=140&quality=85&auto=format&fit=max&s=37deaede8be735162799c1538b718a6c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6b298afb535357d95565",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27893
+    },
+    {
+      "id": "669efe1c36b155d38e4c2fd9",
+      "title": "A moment that changed me: I was terrified of my own body – until a surprising 20-mile bike ride",
+      "translatedTitle": null,
+      "description": "I grew up with spinal conditions that solidified my sense of being ‘weak and weird’. By my late 30s, I was feeling burnt out. But an invitation from a colleague set me on an unexpected and exhilarating new path In 2023, I was in the Alps trekking the 80-mile Tour du Mont Blanc when there came a moment I was no longer trekking, exactly. I was on my hands and knees. Frozen. And then I started to cry. Others were casually bopping past me, up and over like water around a stone. But I was stuck. Why",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/04/a-moment-that-changed-me-i-was-terrified-of-my-own-body-until-a-surprising-20-mile-bike-ride",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/04/a-moment-that-changed-me-i-was-terrified-of-my-own-body-until-a-surprising-20-mile-bike-ride",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T06:45:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/81c80f28e7f60b34b667724fe2f048e80138e47e/0_0_3781_3024/master/3781.jpg?width=140&quality=85&auto=format&fit=max&s=ff85a97af5b546d4a946b28e7d9df6e4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f5507d086c39862ba68a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.2563
+    },
+    {
+      "id": "17ee4e58e9938c5c19acad00",
+      "title": "TV tonight: the final episode of gloriously daft sketch show Ellie & Natasia",
+      "translatedTitle": null,
+      "description": "Prepare yourself for the duo’s all-female reimagining of Only Fools and Horses. Plus: Celebrity Race Across the World reaches Borneo. Here’s what to watch this evening 10pm, BBC Two Continue reading...",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/04/tv-tonight-ellie-and-natasia-final-episode-gloriously-daft-sketch-show",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/04/tv-tonight-ellie-and-natasia-final-episode-gloriously-daft-sketch-show",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T06:20:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0c12d6154183c007ec311c55459e72eea1996b48/586_74_2225_1781/master/2225.jpg?width=140&quality=85&auto=format&fit=max&s=c3564df5b36772b85040806cba8a7bd7",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "583dbff9338e42e97e09",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.21932
+    },
+    {
+      "id": "0473131768735828940084b4",
+      "title": "Cyber attack threatens French blood banks",
+      "translatedTitle": null,
+      "description": "Blood bank sites in France are the latest to be hit by cyber attackers.",
+      "url": "https://news.sky.com/story/cyber-attack-threatens-french-blood-banks-13606660",
+      "canonicalUrl": "https://news.sky.com/story/cyber-attack-threatens-french-blood-banks-13606660",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T06:13:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-blood-donation_7396752.jpg?20261104113724",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1f528b62761c77bbfe1b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.20848
+    },
+    {
+      "id": "d43788bcb69a7fd7a6d2afb1",
+      "title": "Why pharma firms are going to Earth’s orbit in search of new cancer drugs",
+      "translatedTitle": null,
+      "description": "A space capsule 300 miles above us is growing the tiny crystals of a potential cancer drug in microgravity Roughly 300 miles above our heads, three washing machine-sized capsules are orbiting the Earth. Inside one of them, tiny crystals of a potential cancer drug are being grown in the weightlessness of space. The others are testing heat protection materials and navigation systems for when the capsules plunge back through Earth’s atmosphere at hypersonic speeds. Together, they represent a small",
+      "url": "https://www.theguardian.com/science/2026/nov/04/us-firm-varda-space-industries-manufacturing-drugs-in-space",
+      "canonicalUrl": "https://theguardian.com/science/2026/nov/04/us-firm-varda-space-industries-manufacturing-drugs-in-space",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T06:00:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2a865b49da16365d675cc0d538a0b3ce29ad7b76/53_0_1594_1275/master/1594.jpg?width=140&quality=85&auto=format&fit=max&s=ab3d7527a048044825931acb600d4ef9",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "26e070eccf28a6acad24",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19036
+    },
+    {
+      "id": "5ac29bf6a0167ad580214396",
+      "title": "Tandoori celeriac, kale saag paneer and turnip sabzi: Ravinder Bhogal’s vegetarian recipes for Diwali",
+      "translatedTitle": null,
+      "description": "A Diwali feast full of light, love and lipsmacking deliciousness Diwali, the celebration of light, arrives just as we need hope. It marks the triumph of good over evil and reminds us that light will prevail. It’s a time for sensory overload – fireworks, colour, partiesand food, which is traditionally vegetarian. And this isn’t difficult, because Indian cooking naturally brings plants to the centre of the table in smart ways. Wishing you a very happy Diwali: may the year ahead be full of light, l",
+      "url": "https://www.theguardian.com/food/2026/nov/04/vegetarian-diwali-recipes-kale-saag-paneer-tandoori-celeriac-turnip-sabzi-ravinder-bhogal",
+      "canonicalUrl": "https://theguardian.com/food/2026/nov/04/vegetarian-diwali-recipes-kale-saag-paneer-tandoori-celeriac-turnip-sabzi-ravinder-bhogal",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T06:00:27Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9d514dcf36f6b4eb09a698a36e56cc8f951336b0/246_1162_3321_2657/master/3321.jpg?width=140&quality=85&auto=format&fit=max&s=26b48d3525ed345cbba50c8dc75d2f5e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a123a12db9de1756aa8a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19036
+    },
+    {
+      "id": "99072026fde09fa21a95e3c3",
+      "title": "Judi Dench says Daniel Craig ordered her death. James Bond just got a lot scarier",
+      "translatedTitle": null,
+      "description": "Not only did Craig insist his 007 die at the end of his run, but now we learn from Dench’s memoir that it was his idea to kill her off too. How will the next Bond top that? Shoot a puppy? Now that the next James Bond actor is on the brink of being unveiled, it may be a good time to take a proper look at the prior 007 with clear eyes. Because, while the reputations of all the previous Bonds have ossified over the years – in chronological order: sexy, wooden, camp, boring and silly – the Daniel Cr",
+      "url": "https://www.theguardian.com/film/2026/nov/04/is-daniel-craig-the-most-ruthless-killer-in-james-bond-history-his-plan-to-bump-off-judi-denchs-m-says-yes",
+      "canonicalUrl": "https://theguardian.com/film/2026/nov/04/is-daniel-craig-the-most-ruthless-killer-in-james-bond-history-his-plan-to-bump-off-judi-denchs-m-says-yes",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T06:00:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/98f1a6227c302cb02d8635c90a00cfd7d5cda2b2/314_39_1754_1404/master/1754.jpg?width=140&quality=85&auto=format&fit=max&s=30a89398b1e6d11f86eab56c87f54545",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ea9ae9dac0c43bacd23d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19034
+    },
+    {
+      "id": "df3f25c0465f1f12fe0b9bf1",
+      "title": "Can an African feminist have a white wedding? It’s complicated | Patience Akumu",
+      "translatedTitle": null,
+      "description": "I wanted to be a beacon of black feminist love; my friends and family teased me for being a sellout We had been together 20 years, had two children and had a customary marriage with our village sub-county two years ago without any real plans for a church wedding. So we called our second ceremony a celebration of love and not a wedding. How else would a self-professed African feminist survive being the centre of a colonial and Abrahamic religious ceremony that also manages to reinforce the most m",
+      "url": "https://www.theguardian.com/global-development/2026/nov/04/african-feminist-white-wedding-christian",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/nov/04/african-feminist-white-wedding-christian",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T06:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5b22285b48ebdda36cc17951eaf3fe4e5ecdccce/530_125_4844_3875/master/4844.jpg?width=140&quality=85&auto=format&fit=max&s=aad075a469c15911c7e42ac36f5d786c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4cec34e0110b1d079ecd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.19031
+    },
+    {
+      "id": "5df81edf521609c93f51a7c2",
+      "title": "Miliband says slavery apology will not bring cost for UK taxpayers",
+      "translatedTitle": null,
+      "description": "Speaking to BBC's Newscast, the foreign secretary says Britain cannot sweep its past \"under the carpet\".",
+      "url": "https://www.bbc.co.uk/news/articles/cm8ezneewr9lo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm8ezneewr9lo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T02:14:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77a6/live/48039560-d825-11f1-b441-2b33b063138f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cb57b14b09b029a1d765",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.16798
+    },
+    {
+      "id": "1071781f2b2bf95883e7f0ba",
+      "title": "Country diary: This small bridge is becoming the site of so many stories | Derek Niemann",
+      "translatedTitle": null,
+      "description": "Frome, Somerset: Dippers and fritillaries and pink campion … there is a deep satisfaction in accumulating associations with a regular haunt Enchantment surely fills the eyes of first-time visitors who come upon this little stone bridge over the stream. Do they marvel at the judgment of hands in building, wedding rock with rock, face against face? Do they arrive on a brighter morning than this, one on which sunbeams chase each other under the arch and cast sparkling reflections of water on the un",
+      "url": "https://www.theguardian.com/environment/2026/nov/04/country-diary-this-small-bridge-is-becoming-the-site-of-so-many-stories",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/04/country-diary-this-small-bridge-is-becoming-the-site-of-so-many-stories",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T05:30:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c9d81be629a526008016aec3f8537b93150b1895/167_0_1666_1333/master/1666.jpg?width=140&quality=85&auto=format&fit=max&s=75e1383ba825a5f58cb2ad4c9be8cd24",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "72f6d26e1ca48d9f544b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.14784
+    },
+    {
+      "id": "d5edda8b0d0ab4650a3cdc6c",
+      "title": "Stick review – you really need Owen Wilson’s beautiful golf comedy in your life",
+      "translatedTitle": null,
+      "description": "TV’s biggest dopamine hit is back, and it is thoroughly spoiling us with amazing new guest stars. What’s more, our hero is coming out of retirement to try to win the US Open! It’s tee time Pryce Cahill (Owen Wilson) isn’t worried about his midlife crisis. “Moses had a crisis! Churchill had a crisis! Charlie Sheen had a crisis!” We’re not worrying, either: Pryce has been living fairly happily through a midlife crisis for as long as we’ve known him, which is for the one previous season of the supe",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/04/stick-review-owen-wilson-golf-rhea-seehorn-season-two",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/04/stick-review-owen-wilson-golf-rhea-seehorn-season-two",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T05:00:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5da9f6181a70715e657db49fb67ee560fe7c0c35/776_0_3676_2941/master/3676.jpg?width=140&quality=85&auto=format&fit=max&s=f4e78a26a6271e5c0c9bb2db9eafc175",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0002699546723ac9ff1e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.10656
+    },
+    {
+      "id": "d5e9de440b84f0c039da4c3f",
+      "title": "Australia’s social media ban has only modest effect on teens’ political communication, government tells court",
+      "translatedTitle": null,
+      "description": "Reddit is challenging the Albanese government’s ban in high court, arguing legislation is ‘ill-thought-out’ and ‘over-broad’ Australia’s social media ban is not a “blunt tool” but it is the most direct way to target addictive features that lead to under 16s experiencing harm online, the government has told a high court hearing. In its challenge to the ban on Tuesday, Reddit had argued that the government’s rush to pass the ban in 2024 had led to an “ill-thought-out, over-broad legislation” that",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/04/teen-social-media-ban-burden-freedom-of-political-communication-reddit",
+      "canonicalUrl": "https://theguardian.com/australia-news/2026/nov/04/teen-social-media-ban-burden-freedom-of-political-communication-reddit",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T04:47:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a555ae3e2611b731804bd9a881578c4e797e5ed3/378_0_2696_2156/master/2696.jpg?width=140&quality=85&auto=format&fit=max&s=d485aa213db86662836a7b112506de1f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T12:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c8f918728aeb997e8ede",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.08845
     }
   ]
 }
