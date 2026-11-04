@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T00:18:21Z",
-  "lastAttemptAt": "2026-11-04T00:18:21Z",
-  "lastSuccessfulUpdate": "2026-11-04T00:18:21Z",
-  "status": "current",
+  "generatedAt": "2026-11-04T04:18:17Z",
+  "lastAttemptAt": "2026-11-04T04:18:17Z",
+  "lastSuccessfulUpdate": "2026-11-04T04:18:17Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 20,
-  "publisherCount": 3,
+  "articleCount": 45,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-04T00:18:20Z",
-      "lastSuccessAt": "2026-11-04T00:18:21Z",
-      "articlesRetrieved": 33,
-      "responseTimeMs": 725,
+      "lastAttemptAt": "2026-11-04T04:18:16Z",
+      "lastSuccessAt": "2026-11-04T04:18:17Z",
+      "articlesRetrieved": 34,
+      "responseTimeMs": 597,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-04T00:18:20Z",
-      "lastSuccessAt": "2026-11-04T00:18:21Z",
+      "lastAttemptAt": "2026-11-04T04:18:16Z",
+      "lastSuccessAt": "2026-11-04T04:18:17Z",
       "articlesRetrieved": 145,
-      "responseTimeMs": 498,
+      "responseTimeMs": 406,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-04T00:18:20Z",
-      "lastSuccessAt": "2026-11-04T00:18:21Z",
-      "articlesRetrieved": 9,
-      "responseTimeMs": 746,
+      "lastAttemptAt": "2026-11-04T04:18:16Z",
+      "lastSuccessAt": "2026-11-04T04:18:17Z",
+      "articlesRetrieved": 10,
+      "responseTimeMs": 646,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-04T00:18:20Z",
-      "lastSuccessAt": "2026-11-04T00:18:21Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 650,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-04T04:18:16Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -62,7 +62,7 @@
       "id": "d06a323f82e19bed5d9573a3",
       "title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states",
       "translatedTitle": null,
-      "description": "The US has been voting for senators, members of the House of Representatives and state governors in the midterm elections. Here are the results in full US midterm elections - live updates The US legislature, Congress, has two chambers: the House of Representatives and the Senate. Continue reading...",
+      "description": "Latest results suggest the Democrats are almost certain to seize control of the House, and very likely to take over the Senate majority. Find live updating results in full here. US midterm elections – live updates The US legislature, Congress, has two chambers: the House of Representatives and the Senate. Continue reading...",
       "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
       "canonicalUrl": "https://theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
       "sourceName": "The Guardian",
@@ -73,18 +73,19 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T00:00:02Z",
+      "publishedAt": "2026-11-04T04:11:38Z",
       "imageUrl": "https://i.guim.co.uk/img/media/6da2159b43ce089f731de4de2126efc213a74843/0_0_5052_4041/master/5052.jpg?width=140&quality=85&auto=format&fit=max&s=8e7034c5fc83af55731cdd4b18348fed",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
+      "retrievedAt": "2026-11-04T04:18:17Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "788028bf6ffcda257443",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.92645,
       "related": [
         {
           "id": "b3c413324cd8ffe168154709",
@@ -116,8 +117,397 @@
           "sourceQuality": 1.0,
           "normalizedTitle": "2026 midterms results follow the independent s live maps"
         }
+      ]
+    },
+    {
+      "id": "e3e880c4f926a3e2edb07936",
+      "title": "South Carolina elects Democratic senator for first time in almost three decades",
+      "translatedTitle": null,
+      "description": "President Trump handpicked Darline Graham to take over the seat held by her brother, influential Senator Lindsey Graham, after his death.",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cjy56z440nl9o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
       ],
-      "rankingScore": 8.90297
+      "language": "en",
+      "publishedAt": "2026-11-04T03:24:34Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e5f/live/0aeeffa0-d804-11f1-85f7-474f0be56cef.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9d62729f9cff59d1f710",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.35321
+    },
+    {
+      "id": "7b90b844ed609b3208eb8f24",
+      "title": "Democratic rising star Ossoff projected to hold Georgia seat",
+      "translatedTitle": null,
+      "description": "Ossoff is seen as a potential leading contender for the Democratic nomination for president in 2028 if he throws his hat in the ring.",
+      "url": "https://www.bbc.co.uk/news/articles/cqwyrmm2k4mpo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqwyrmm2k4mpo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T02:38:07Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7dde/live/6d838380-d7f9-11f1-afc1-71ff3c391379.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "845ccaf30066d459903b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.26509
+    },
+    {
+      "id": "7bd4e688e2531c33d0b0bc00",
+      "title": "US midterm elections 2026 live updates: Democrat James Talarico wins Texas Senate race in historic upset",
+      "translatedTitle": null,
+      "description": "James Talarico defeats Trump loyalist Ken Paxton to become first Democratic senator for Texas elected since 1988; Trump says he will accept results in a dire night for Republicans Track live results from all 50 states Senate full report: Democrats aim to retake chamber House full report: Democrats poised to flip chamber As we bring you the latest from around the country, Donald Trump is certainly paying attention. From the White House, the president said that he was tuning into coverage on Fox N",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+      "canonicalUrl": "https://theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T04:15:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4c8146be93bf22d9b07cffed5bff23ebc2b87119/439_403_2630_2104/master/2630.jpg?width=140&quality=85&auto=format&fit=max&s=dcfbc4c6b29478ac0e04e501acd64f9e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8a1c1083546fc662e95d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.18358,
+      "related": []
+    },
+    {
+      "id": "6411b39cbe345a8ce061561e",
+      "title": "Democrat Sherrod Brown wins Ohio Senate race in major blow to Republicans",
+      "translatedTitle": null,
+      "description": "Brown makes successful return to US Senate after voters reject Republican incumbent Jon Husted US midterm elections – live updates Track live results from all 50 states Democrat Sherrod Brown will return to the US Senate, as Ohio’s voters rejected the incumbent Jon Husted in a significant defeat for Republicans. Brown’s bid for a comeback after being ousted from the seat he held for 18 years in 2024 became one of the marquee contests of this year’s midterm elections, and a key test of whether De",
+      "url": "https://www.theguardian.com/us-news/2026/nov/03/sherrod-brown-jon-husted-ohio-senate",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/03/sherrod-brown-jon-husted-ohio-senate",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T04:13:24Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5b10bddd3fdd0549934b56a6d099f38b8ff242e8/378_0_3247_2598/master/3247.jpg?width=140&quality=85&auto=format&fit=max&s=6f94845682dc43d2a2584b8339af63ef",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "62170ff15b0fc7209d80",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.18003
+    },
+    {
+      "id": "c2ae9a5e32ee404878c9b82d",
+      "title": "James Talarico wins Texas Senate race in historic victory for Democrats",
+      "translatedTitle": null,
+      "description": "Ken Paxton’s defeat a crushing blow to Trump and Republican efforts to keep control of Congress US midterm elections – live updates Track live results from all 50 states Democrat James Talarico has won the US Senate race in Texas, breaking a 38-year drought for his party in the Republican stronghold and delivering a stunning blow to Donald Trump. Talarico defeated Republican Ken Paxton, the state attorney general and a staunch ally of the US president, in one of the most closely watched contests",
+      "url": "https://www.theguardian.com/us-news/2026/nov/03/james-talarico-ken-paxton-texas-senate",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/03/james-talarico-ken-paxton-texas-senate",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T04:06:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/946b580c4063a322bc795dfb0da867e05bd7ed11/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=91ade55099cf1a2d932346be355db26c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "220c1c24a4a1b753a4c0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.16568
+    },
+    {
+      "id": "98e1ed61d49cea66c96403dc",
+      "title": "ANC faces anger over poor services as South Africans vote in local elections",
+      "translatedTitle": null,
+      "description": "Party expected to get less than a third of the vote amid frustration over water outages and power cuts The African National Congress is on course for a bruising result in South Africa’s local elections on Wednesday as voters go to the polls amid deep discontent over water outages, power cuts and crumbling infrastructure. The former liberation movement, which Nelson Mandela led to power in 1994 at the end of apartheid as South Africa’s first black president, is still likely to be the largest part",
+      "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T04:00:23Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ab849d0dfce7fca0440c040983efe4e27460cf1e/1440_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=d1afb9ab291e0f9db2fa068014f10740",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "372119bb5e0292b32641",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15379
+    },
+    {
+      "id": "6fc97bbcbd0e8f54cb213e28",
+      "title": "No more rice grains in Kellogg's Rice Krispies due to changing weather",
+      "translatedTitle": null,
+      "description": "The new recipes mean cereal packaging will now include a 'contains wheat gluten' warning.",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqvg0y44ym7vo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T01:36:06Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dfad/live/fe845730-d7e3-11f1-8a01-8d54cbcf7487.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "248a79a1d73cda82e647",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.1532
+    },
+    {
+      "id": "8524141ab712f4f283048e28",
+      "title": "Housing targets threaten ancient woods, campaigners warn",
+      "translatedTitle": null,
+      "description": "Dozens of individual sites feature planned developments immediately next to woods, the BBC finds.",
+      "url": "https://www.bbc.co.uk/articles/cred36e7e9y2o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/articles/cred36e7e9y2o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T00:59:22Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b66/live/97a4b9a0-d6d1-11f1-ac20-7783925c811f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b054022f5ed7357081ce",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.08989
+    },
+    {
+      "id": "9a6391d5d9bf898049fa9ae9",
+      "title": "When will we know who wins control of Congress?",
+      "translatedTitle": null,
+      "description": "The first polls have closed, but it is possible the results will not be projected for several hours, days or even weeks.",
+      "url": "https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cq20321y2nlyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T00:56:05Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e286/live/58c44510-d6d2-11f1-b441-2b33b063138f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d14f75134f2c8abccad0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.08433
+    },
+    {
+      "id": "ce551df024fbb034ca70c528",
+      "title": "Democrat Annie Andrews flips South Carolina Senate seat held by Republicans since 1998",
+      "translatedTitle": null,
+      "description": "Andrews ran a campaign on healthcare affordability and beat Darline Graham, sister of Lindsey Graham to win US midterm elections – live updates Track live results from all 50 states Democrat Annie Andrews, a pediatrician who campaigned on healthcare affordability, has won the race for US Senate in South Carolina, making her the first Democrat to represent the state in the Senate for over a quarter century. Andrews had faced an uphill battle in what has been seen as a reliably Republican state ag",
+      "url": "https://www.theguardian.com/us-news/2026/nov/03/south-carolina-midterms-annie-andrews",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/03/south-carolina-midterms-annie-andrews",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T03:16:57Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/575b8e466f499365a3b197b01ba7e49853888b38/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=09d7abf37f59ffcc592f361e249079f7",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "79d7cd1d16c762791184",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.0685
+    },
+    {
+      "id": "4543da1d421af29995ef6eae",
+      "title": "Scammers using AI-generated images of missing pets to demand reward money",
+      "translatedTitle": null,
+      "description": "Owners says threats to kill their cats unless they sent money left them angry and terrified.",
+      "url": "https://www.bbc.co.uk/news/articles/cdx8080nq74o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cdx8080nq74o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T00:44:44Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82f2/live/720655d0-d151-11f1-9eb5-811878e0f07d.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "49158386a3a41d3f132f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.06526
+    },
+    {
+      "id": "654dc3c18a95771031aaed24",
+      "title": "Parliament risks 'catastrophic event' without urgent renovation",
+      "translatedTitle": null,
+      "description": "The Palace of Westminster is at risk of a \"catastrophic event\" if delays to a renovation initiative are not resolved, a group of MPs have warned.",
+      "url": "https://news.sky.com/story/parliament-risks-catastrophic-event-without-urgent-renovation-mps-warn-13607723",
+      "canonicalUrl": "https://news.sky.com/story/parliament-risks-catastrophic-event-without-urgent-renovation-mps-warn-13607723",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T02:45:00Z",
+      "imageUrl": "https://e3.365dm.com/24/06/1920x1080/skynews-houses-of-parliament_6584662.jpg?20240618134251",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "91661a75af8042e48f7f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.00791
+    },
+    {
+      "id": "ea73e58ed0b823ebdbd622af",
+      "title": "ANC under pressure to reverse South Africa decline",
+      "translatedTitle": null,
+      "description": "As South Africans vote in local elections, residents tell the BBC they are tired of the poor quality of services they get.",
+      "url": "https://www.bbc.co.uk/news/articles/cr4g1x6l77xyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cr4g1x6l77xyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T00:03:19Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb2c/live/fc87dad0-d7aa-11f1-93e1-3b657b665bcf.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "826104e38a3cbd827986",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.99734
     },
     {
       "id": "c139be59183e4ad09a1374e3",
@@ -146,16 +536,16 @@
       "clusterId": "4aefef4220a55a12cc2a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.41661
+      "rankingScore": 6.98498,
+      "related": []
     },
     {
-      "id": "d2565a3fca0b99cc81165338",
-      "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
+      "id": "6332e43b7a148f30f1badeca",
+      "title": "Canada joins coalition refusing to play ice hockey against Russia over Ukraine war",
       "translatedTitle": null,
-      "description": "Voters say the economy and state of democracy are crucial issues for them as Americans decide the direction of Congress for remainder of Trump’s term Track live results from all 50 states As we bring you the latest from around the country, Donald Trump is certainly paying attention. From the White House, the president said that he was tuning into coverage on Fox News. “I can’t stand Jessica Tarlov’s voice,” Trump said of the Democratic strategist and Fox News contributor in a post on Truth Socia",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-      "canonicalUrl": "https://theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+      "description": "Growing number of countries are resisting Russia’s reintegration into international hockey after a sports court lifted a ban on competition Canada has joined a coalition of countries refusing to play ⁠ice ​hockey teams from Russia, with prime minister Mark Carney saying Russian skaters will not be able to compete in ⁠a world junior championship next month due to the war in Ukraine. “While Russia and Belarus are supporting this illegal, unjustified, horrific ‌war in Ukraine, as long as that’s goi",
+      "url": "https://www.theguardian.com/world/2026/nov/04/canada-bans-russian-players-junior-ice-hockey-championships-ukraine-war",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/04/canada-bans-russian-players-junior-ice-hockey-championships-ukraine-war",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -164,20 +554,50 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-04T00:00:58Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f38e53992a4d4710d5f5aa36f21725c50d113210/698_0_7202_5760/master/7202.jpg?width=140&quality=85&auto=format&fit=max&s=aef90719611db7cfb59cdca37268b008",
+      "publishedAt": "2026-11-04T01:31:46Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f0bbcfe146440a78d027f9f2fbcb5c78f9284465/493_0_4911_3931/master/4911.jpg?width=140&quality=85&auto=format&fit=max&s=e53d6466eac9b04a0121cc2a905364e3",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
+      "retrievedAt": "2026-11-04T04:18:17Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "568751643be5389003c8",
+      "clusterId": "20b92a0c3e703b2a928c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.15484
+      "rankingScore": 6.87562
+    },
+    {
+      "id": "f31ebe7101e2285ddba8c484",
+      "title": "Ukraine war briefing: race to free dozens trapped under rubble of Russian strikes on aid hub",
+      "translatedTitle": null,
+      "description": "Zelenskyy says 33 killed while more than 50 could be trapped in the rubble in Komyshuvakha; Russia hammers Ukraine’s ⁠energy infrastructure. What we know on day 1,715 Thirty-three people were killed and more than 50 could be trapped in rubble a day after multiple Russian strikes on a Ukrainian village, Volodymyr Zelenskyy said on Tuesday, calling it one of Moscow’s worst attacks of the war. Rescue operations were ongoing in the frontline south-eastern village of Komyshuvakha, where Russian force",
+      "url": "https://www.theguardian.com/world/2026/nov/04/ukraine-war-briefing-dozens-trapped-komyshuvakha-russian-strikes",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/04/ukraine-war-briefing-dozens-trapped-komyshuvakha-russian-strikes",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T01:08:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/102e310c6c8be695c379ab3f0225c5ef0c9421db/461_0_4885_3908/master/4885.jpg?width=140&quality=85&auto=format&fit=max&s=fea660d8ab8bc8abcce644fbb2051371",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "34c022b73bab28b5ac34",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.83506
     },
     {
       "id": "75136c2d1184896aaaba1c5a",
@@ -206,8 +626,8 @@
       "clusterId": "9184b905b3f226b01f92",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.08208
+      "rankingScore": 6.64737,
+      "related": []
     },
     {
       "id": "f16915eaad1d59fcc8bb2797",
@@ -236,8 +656,278 @@
       "clusterId": "a0a3de4820888d573015",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.63362,
+      "related": []
+    },
+    {
+      "id": "400abcd87b17591f192e19d0",
+      "title": "Anthony Zurcher: Democrats push deep into Republican territory with historic wins",
+      "translatedTitle": null,
+      "description": "Two Senate races that a year ago were thought to be battlegrounds turned out to be slam-dunks for the Democrats.",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0v5lv30lyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cwz0v5lv30lyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T03:34:58Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb44/live/543807b0-d7fa-11f1-a701-fddedf244c16.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8ecdcefcaef3df91d306",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.06491
+      "rankingScore": 6.02346
+    },
+    {
+      "id": "5df81edf521609c93f51a7c2",
+      "title": "Miliband says slavery apology will not bring cost for UK taxpayers",
+      "translatedTitle": null,
+      "description": "Speaking to BBC's Newscast, the foreign secretary says Britain cannot sweep its past \"under the carpet\".",
+      "url": "https://www.bbc.co.uk/news/articles/cm8ezneewr9lo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm8ezneewr9lo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T02:14:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/775f/live/b94b9cb0-d7ec-11f1-93e1-3b657b665bcf.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cb57b14b09b029a1d765",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.87218
+    },
+    {
+      "id": "11f3f547d0f9912a5952c6c1",
+      "title": "Killer who escaped Tennessee prison captured after week-long manhunt",
+      "translatedTitle": null,
+      "description": "Jacob Allen Morley was serving a life sentence for murder before he escaped over a prison fence.",
+      "url": "https://www.bbc.co.uk/news/articles/cmq8nj23v8qqo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmq8nj23v8qqo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T02:11:40Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35c5/live/aa0e52d0-d7f9-11f1-afc1-71ff3c391379.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f2deeeb4b4c0463fda0c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.86658
+    },
+    {
+      "id": "3b752b0c6ae254c7e3aedb3d",
+      "title": "Chill to grip Bonfire Night as temperatures dip into single digits",
+      "translatedTitle": null,
+      "description": "What is the forecast for Bonfire Night 2026?",
+      "url": "https://www.bbc.co.uk/weather/articles/cqr7yk19l41no?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/weather/articles/cqr7yk19l41no?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T01:00:11Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e0eb/live/d96c4fe0-d791-11f1-801d-cf196dc7232c.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cbec6ee9883f66e3c77b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.74127
+    },
+    {
+      "id": "3798622f80238eea7ad1c9b1",
+      "title": "Why Kim Kardashian came back to 'the worst TV drama ever'",
+      "translatedTitle": null,
+      "description": "The media personality and businesswoman says she's worked on her acting for series two of All's Fair.",
+      "url": "https://www.bbc.co.uk/news/articles/cxvgd4drmevro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cxvgd4drmevro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T00:52:19Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8325/live/8fce9a20-d785-11f1-9440-953b82c8f55a.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a8ed63cef31d0f452dc0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.72798
+    },
+    {
+      "id": "478501cd4aad7fc232e958bc",
+      "title": "Fernandes critical of media 'lies' about Carrick relationship",
+      "translatedTitle": null,
+      "description": "Bruno Fernandes says \"a lot of lies\" have been reported about his relationship with Manchester United head coach Michael Carrick.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqkg5dgvygr1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cqkg5dgvygr1o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T00:45:33Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60bc/live/f12e0680-d7d4-11f1-b441-2b33b063138f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "982e2877d8fbfc2e1af1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.71663
+    },
+    {
+      "id": "7010737a4de19f0a1861a619",
+      "title": "Ukrainian GCSE to be offered to British students",
+      "translatedTitle": null,
+      "description": "Students in England, Wales and Northern Ireland will be able to take a Ukrainian GCSE from 2028 as part of government plans.",
+      "url": "https://news.sky.com/story/students-to-be-offered-ukrainian-gcse-to-preserve-cultural-heritage-13607583",
+      "canonicalUrl": "https://news.sky.com/story/students-to-be-offered-ukrainian-gcse-to-preserve-cultural-heritage-13607583",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T03:15:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-gcses-exam_7396415.jpg?20261104031211",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cb9d34a7e974a49a4f1c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.71475
+    },
+    {
+      "id": "c8a654bb441c81318d88128b",
+      "title": "The Papers: King calls slavery 'monstrous' and 'Celeb loses gag bid'",
+      "translatedTitle": null,
+      "description": "The King's comments on the transatlantic slave trade and the high-profile celebrity who lost a \"gag bid\" in sex claim case lead Wednesday's papers.",
+      "url": "https://www.bbc.co.uk/news/articles/cm2l4q52p9w4o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm2l4q52p9w4o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T00:32:39Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bb9/live/fd551fa0-d7db-11f1-93e1-3b657b665bcf.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "57f6414fe867064107a4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69518
+    },
+    {
+      "id": "169ff469ba86bcdb765a9437",
+      "title": "A half-time speech, a retaken penalty - and a win to save Carrick's job?",
+      "translatedTitle": null,
+      "description": "At 2-0 down Michael Carrick's position as Manchester United head coach looked terminal - but will the win over Roma prove a turning point?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6q8n98y4023o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c6q8n98y4023o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T00:27:37Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a8e8/live/5bf089a0-d7e1-11f1-a701-fddedf244c16.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ab9359b1272cf52592d3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68688
     },
     {
       "id": "4017963a2fe78e1c5e9833ac",
@@ -259,7 +949,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
+      "retrievedAt": "2026-11-04T04:18:17Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -267,7 +957,67 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.08187
+      "rankingScore": 5.64919
+    },
+    {
+      "id": "e0c888aafd17efef180ab384",
+      "title": "Wall Street falls as midterm results emerge - with broad implications possible",
+      "translatedTitle": null,
+      "description": "Markets on Wall Street have fallen as the Democrats gain early momentum in the midterms.",
+      "url": "https://news.sky.com/story/us-midterms-markets-fall-on-wall-street-as-democrats-gain-early-momentum-13607737",
+      "canonicalUrl": "https://news.sky.com/story/us-midterms-markets-fall-on-wall-street-as-democrats-gain-early-momentum-13607737",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T01:52:00Z",
+      "imageUrl": "https://e3.365dm.com/25/04/1920x1080/skynews-new-york-stock-exchange_6879863.jpg?20250408142014",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "714e45c2a8535068d303",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.56128
+    },
+    {
+      "id": "167f101a260cee9610a2af41",
+      "title": "The night-sky image so incredible the NZ man behind it has been accused of using AI",
+      "translatedTitle": null,
+      "description": "Brendan Larsen spent hours taking hundreds of photographs of the sky over a mountain in New Zealand A photograph showing thousands of satellites cross-hatching the night sky over New Zealand appeared so extraordinary the astrophotographer who captured it is fighting accusations it was created by AI. To create his spectacular image – now viewed millions of times online – Brendan Larsen spent two hours in September snapping hundreds of photographs of the night sky over Mount Taranaki in the North",
+      "url": "https://www.theguardian.com/world/2026/nov/04/viral-image-nz-night-sky-satellites-accused-of-being-ai-brendan-larsen",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/04/viral-image-nz-night-sky-satellites-accused-of-being-ai-brendan-larsen",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-04T00:29:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bd715275e48ac6b5ba2cb5e4a4434d908b8ac664/0_691_2667_2133/master/2667.jpg?width=140&quality=85&auto=format&fit=max&s=ee91421d100c42456da505d7bef4a76f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-04T04:18:17Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f9778d66dd77cd42b09a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.42055
     },
     {
       "id": "36f5c65cbc366e78ef5ba506",
@@ -289,15 +1039,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
+      "retrievedAt": "2026-11-04T04:18:17Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "977ac54eb3ecf447cefc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80551
+      "rankingScore": 5.3741,
+      "related": []
     },
     {
       "id": "a8bc4c0e4841bee5958165db",
@@ -319,15 +1069,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-04T00:18:21Z",
+      "retrievedAt": "2026-11-04T04:18:17Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "5296f9e36b765d61993e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80551
+      "rankingScore": 5.3741,
+      "related": []
     },
     {
       "id": "6bef83de617aff7de93740a8",
@@ -356,8 +1106,8 @@
       "clusterId": "bb137dd79c7e48aa842d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72969
+      "rankingScore": 5.29546,
+      "related": []
     },
     {
       "id": "dffd612ff625a492d088a85b",
@@ -386,8 +1136,8 @@
       "clusterId": "7eef2bd1a5386bceff42",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72351
+      "rankingScore": 5.29051,
+      "related": []
     },
     {
       "id": "1b10a5dc67784ad6998e3e79",
@@ -416,8 +1166,8 @@
       "clusterId": "d59c835b683695fb94be",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71966
+      "rankingScore": 5.28742,
+      "related": []
     },
     {
       "id": "c1b94d07b834d4fbfdf2a5a9",
@@ -446,8 +1196,8 @@
       "clusterId": "8f33f18a0a66383a3e1f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71537
+      "rankingScore": 5.28399,
+      "related": []
     },
     {
       "id": "2a2b4038548e5f4b3f7b6ab8",
@@ -476,8 +1226,8 @@
       "clusterId": "228d4b0cfd1d2c33ec59",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71521
+      "rankingScore": 5.28386,
+      "related": []
     },
     {
       "id": "cbe1658d20e7ee45e030ab7d",
@@ -506,8 +1256,8 @@
       "clusterId": "e83c18c93a04cb6e7b13",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71504
+      "rankingScore": 5.28373,
+      "related": []
     },
     {
       "id": "3f7fad4f952892175d18eb98",
@@ -536,8 +1286,8 @@
       "clusterId": "4fe16f514631d4252753",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71491
+      "rankingScore": 5.28362,
+      "related": []
     },
     {
       "id": "7cb6419465a8eb7a22148c2b",
@@ -566,8 +1316,8 @@
       "clusterId": "3f26925aa580d4d94aeb",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71491
+      "rankingScore": 5.28362,
+      "related": []
     },
     {
       "id": "50673b310cc8446a893b7743",
@@ -596,8 +1346,8 @@
       "clusterId": "a9a43332249993205ce9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71491
+      "rankingScore": 5.28362,
+      "related": []
     },
     {
       "id": "250d52dd1cadc4991c67ee57",
@@ -626,8 +1376,8 @@
       "clusterId": "74132bffbf1f3ebfbc99",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71491
+      "rankingScore": 5.28362,
+      "related": []
     },
     {
       "id": "b0de4449596b6a151329f2f8",
@@ -656,8 +1406,8 @@
       "clusterId": "0e8e3e3d3ccf67303bfc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71491
+      "rankingScore": 5.28362,
+      "related": []
     },
     {
       "id": "e69a1086a1154c6ba010bae4",
@@ -686,8 +1436,8 @@
       "clusterId": "c84774df2a4d2fcf4ed7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.32942
+      "rankingScore": 4.89524,
+      "related": []
     }
   ]
 }
