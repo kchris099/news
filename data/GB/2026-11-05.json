@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-05",
-  "generatedAt": "2026-11-05T04:18:25Z",
-  "lastAttemptAt": "2026-11-05T04:18:25Z",
-  "lastSuccessfulUpdate": "2026-11-05T04:18:25Z",
-  "status": "current",
+  "generatedAt": "2026-11-05T08:18:20Z",
+  "lastAttemptAt": "2026-11-05T08:18:20Z",
+  "lastSuccessfulUpdate": "2026-11-05T08:18:20Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 43,
+  "articleCount": 45,
   "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-05T04:18:24Z",
-      "lastSuccessAt": "2026-11-05T04:18:24Z",
-      "articlesRetrieved": 34,
-      "responseTimeMs": 197,
+      "lastAttemptAt": "2026-11-05T08:18:19Z",
+      "lastSuccessAt": "2026-11-05T08:18:20Z",
+      "articlesRetrieved": 33,
+      "responseTimeMs": 439,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-05T04:18:24Z",
-      "lastSuccessAt": "2026-11-05T04:18:24Z",
-      "articlesRetrieved": 146,
-      "responseTimeMs": 267,
+      "lastAttemptAt": "2026-11-05T08:18:19Z",
+      "lastSuccessAt": "2026-11-05T08:18:20Z",
+      "articlesRetrieved": 149,
+      "responseTimeMs": 307,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,29 +38,151 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-05T04:18:24Z",
-      "lastSuccessAt": "2026-11-05T04:18:24Z",
+      "lastAttemptAt": "2026-11-05T08:18:19Z",
+      "lastSuccessAt": "2026-11-05T08:18:20Z",
       "articlesRetrieved": 10,
-      "responseTimeMs": 173,
+      "responseTimeMs": 464,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-05T04:18:24Z",
-      "lastSuccessAt": "2026-11-05T04:18:24Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 203,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-05T08:18:19Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
     {
-      "id": "4ef0d349e12c3a7ceabb6179",
-      "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+      "id": "6199402e92dc60a35dfdfa4d",
+      "title": "A Democratic-controlled Congress will likely try to constrain Trump’s foreign adventures",
+      "translatedTitle": null,
+      "description": "But the president still has veto power, which he can wield to dictate policy over tariffs, the war in Iran or aid for Ukraine In a rare occurrence, a US election may have actually been decided by foreign policy. Donald Trump’s war in Iran and international tariffs are seen as playing a key role in the inflationary pressures that drove so many Americans to vote against his party on Tuesday in what has been described as a “generational wipeout” for the Republicans. And in the coming months, the pr",
+      "url": "https://www.theguardian.com/us-news/2026/nov/05/democrats-trump-foreign-policy-analysis",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/05/democrats-trump-foreign-policy-analysis",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T07:00:57Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a8b3bb928f994e09cd76af0632d777c56c21daec/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=fb245ce645bdc42bdf1e79b1b6b8928f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "46391e98b7dbacee3b0a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 10.08784
+    },
+    {
+      "id": "a5d43be7df92751c8d62f72f",
+      "title": "Bank of England expected to raise interest rates for first time in three years today – business live",
+      "translatedTitle": null,
+      "description": "Rolling coverage of the latest economic and financial news Today’s decision is an opportunity for the Bank of England to push back against market expectations for several rate rises in 2027. Currently, the money markets are pricing in up to three rate rises next year, on top of one at noon today. Another rate hike in February seems to be the growing consensus – and our own view too. There’s little precedent for ‘one-and-done’ rate rises. But it’s one thing thinking that, another saying it out lo",
+      "url": "https://www.theguardian.com/business/live/2026/nov/05/bank-of-england-interest-rate-decision-pound-inflation-oil-iran-stock-markets-latest-news-updates",
+      "canonicalUrl": "https://theguardian.com/business/live/2026/nov/05/bank-of-england-interest-rate-decision-pound-inflation-oil-iran-stock-markets-latest-news-updates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T08:00:06Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/820f96dacdc87c654fe3c27a6d2cd0479e9b3ec6/491_0_4886_3911/master/4886.jpg?width=140&quality=85&auto=format&fit=max&s=5512f04fe20979dad2652f2ff5e5dcd3",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8162522a1e4143183d56",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "440d2bde736ada0ff509f7d8",
+          "title": "Bank of England set to hike interest rates to 4% to tackle rising inflation",
+          "translatedTitle": null,
+          "description": "Rate-setters are widely expected to tighten monetary policy in a bid to tackle rising inflation in the UK economy.",
+          "url": "https://www.independent.co.uk/news/business/bank-of-england-mpc-us-federal-reserve-middle-east-oxford-economics-b3079487.html",
+          "canonicalUrl": "https://independent.co.uk/news/business/bank-of-england-mpc-us-federal-reserve-middle-east-oxford-economics-b3079487.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-05T02:45:22Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/05/02/3258dfcbedc52f8ac6fe72bcef9913b6Y29udGVudHNlYXJjaGFwaSwxNzkzODkzNDkx-2.81157814.jpg?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Business",
+          "topics": [],
+          "retrievedAt": "2026-11-05T04:18:24Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "8162522a1e4143183d56",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.91838,
+          "normalizedTitle": "bank of england set to hike interest rates to 4 to tackle rising inflation",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 9.17313
+    },
+    {
+      "id": "411a92739f15016546c2a52e",
+      "title": "US midterm elections 2026 live: Democrats eye historic upset in Mississippi Senate race as Republican blame game begins",
+      "translatedTitle": null,
+      "description": "Democrat Scott Colom is leading Republican incumbent Cindy Hyde-Smith in the southern state; JD Vance pointed to the war in Iran as the ‘obvious’ culprit for Republicans’ loss Live results | How do you feel about the results? Sign up for Breaking News US email Analysis: Is this the beginning of the end for Trump? Dozens of Republican candidates directly endorsed by Donald Trump lost their US midterm election races, according to analysis by the Guardian, raising questions over the power of the pr",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race",
+      "canonicalUrl": "https://theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T07:50:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f20ab2475837b6e728d381377a54a75ad0c9c055/463_0_4628_3702/master/4628.jpg?width=140&quality=85&auto=format&fit=max&s=b94d3052d24282aa219c9b4bdb241874",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "767baad0dbaa5ee7ba42",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 8.48302,
+      "related": []
+    },
+    {
+      "id": "00a7f6edd7638d5595632455",
+      "title": "Vance walks Trump tightrope after blaming Iran war for election defeat",
       "translatedTitle": null,
       "description": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
       "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
@@ -74,19 +196,49 @@
       ],
       "language": "en",
       "publishedAt": "2026-11-05T03:47:56Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f611/live/a9e3b7f0-d8cb-11f1-91f1-d78b0d8c70b4.jpg",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c74/live/1d4cf850-d8e5-11f1-a701-fddedf244c16.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
+      "retrievedAt": "2026-11-05T08:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1dc74617365b7c92d5e8",
+      "clusterId": "05ca06d7207fdd742cfa",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 9.09876
+      "rankingScore": 8.32269
+    },
+    {
+      "id": "29e6a09639372332d2515ba8",
+      "title": "Will Democrats’ midterms triumph put wind back in sails of the renewables sector?",
+      "translatedTitle": null,
+      "description": "Future brightens for US developers in particular after election when voters rejected Trump’s war on clean energy After years as collateral damage in Donald Trump’s war on climate action, the Democrats’ sweeping triumph in the US midterm elections has emerged as a victory for the global renewable energy industry too. Across the world’s financial centres the market value of renewable energy developers climbed as the election results confirmed the Republicans had lost control of the Senate and Hous",
+      "url": "https://www.theguardian.com/business/2026/nov/05/democrats-midterms-triumph-renewable-energy-industry-donald-trump",
+      "canonicalUrl": "https://theguardian.com/business/2026/nov/05/democrats-midterms-triumph-renewable-energy-industry-donald-trump",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T06:00:55Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e69ec55c5406d814d3f072f90e167d53aabf8abd/0_0_5535_4428/master/5535.jpg?width=140&quality=85&auto=format&fit=max&s=e25361f51abcf572ba8c0d66291ab645",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5dd5cae3d1386f1714ab",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.27711
     },
     {
       "id": "8d78c13e6a7e1942afe8d103",
@@ -115,38 +267,8 @@
       "clusterId": "d439e6b2e7c269bdbea0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.32616
-    },
-    {
-      "id": "be6ca1ffca77f6932b2553b5",
-      "title": "Ukraine war briefing: Zelenskyy awards Melania Trump national honour for role in brokering Oleshky truce",
-      "translatedTitle": null,
-      "description": "US first lady awarded for ‘significant personal contribution to humanitarian support’. What we know on day 1,716 Volodymyr Zelenskyy has awarded Melania Trump a national honour for her role in brokering a partial ceasefire that allowed the evacuation of civilians from the Russian-occupied town of Oleshky. “I hereby decree that the Order of Princess Olga, First Class, be awarded to Melania Trump, first lady of the United States of America,” a decree on the Ukrainian presidential website said on W",
-      "url": "https://www.theguardian.com/world/2026/nov/05/ukraine-war-briefing-zelenskyy-awards-melania-trump-national-honour-for-role-in-brokering-oleshky-truce",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/05/ukraine-war-briefing-zelenskyy-awards-melania-trump-national-honour-for-role-in-brokering-oleshky-truce",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T02:11:20Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/4a24f193005bc1f71593cc0d858efd3a2f3b8c08/798_115_3235_2588/master/3235.jpg?width=140&quality=85&auto=format&fit=max&s=d2113437b0e4a7063da45a6a19ba5fe6",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "395bf1d7e03d5db511d4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.29577
+      "rankingScore": 7.91256,
+      "related": []
     },
     {
       "id": "645bc792e0579f5fdb1dae5a",
@@ -175,8 +297,8 @@
       "clusterId": "b073bc3da09ff010f40a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.19887
+      "rankingScore": 7.81063,
+      "related": []
     },
     {
       "id": "07e9ad5b2b975ea7c365a6ec",
@@ -205,36 +327,37 @@
       "clusterId": "c358d54cf8e317998b94",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.16004
+      "rankingScore": 7.77954,
+      "related": []
     },
     {
-      "id": "fcce1f33e5867bb20d6d6bcb",
-      "title": "Hong Kong pro-democracy leader Joshua Wong jailed for another 10 years",
+      "id": "3800401586526081b563817c",
+      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
       "translatedTitle": null,
-      "description": "A Hong Kong court has sentenced pro-democracy activist Joshua Wong to 10 years in prison on a charge of collusion with foreign entities under the city's draconian national security law.",
-      "url": "https://www.independent.co.uk/asia/china/hong-kong-joshua-wong-jailed-pro-democracy-activist-b3079500.html",
-      "canonicalUrl": "https://independent.co.uk/asia/china/hong-kong-joshua-wong-jailed-pro-democracy-activist-b3079500.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Wong, 30, is among hundreds of Hongkongers detained under the controversial national security law.",
+      "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-05T04:12:47Z",
-      "imageUrl": "https://static.independent.co.uk/2023/08/25/15/3_2.png?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-11-05T08:07:22Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff8f/live/68eb4bf0-d8e4-11f1-a701-fddedf244c16.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
+      "retrievedAt": "2026-11-05T08:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1067b690eae3e34ce589",
+      "clusterId": "c70af8b2bbfdf5c680c2",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.48773,
       "related": [
         {
           "id": "10defdbe55fba90ea03e0d4d",
@@ -260,18 +383,287 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "1067b690eae3e34ce589",
+          "clusterId": "c70af8b2bbfdf5c680c2",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
           "normalizedTitle": "hong kong pro democracy activist joshua wong sentenced to 10 years in prison in national security case"
         }
-      ],
-      "rankingScore": 7.49854
+      ]
     },
     {
-      "id": "763619cd61fc957f3f33db36",
-      "title": "More asbestos found in Parliament, as MPs urged to get on with revamp",
+      "id": "67cf8f15bb3ec3f2e5515544",
+      "title": "Police in Scotland to escort fire crews in latest crackdown on Bonfire Night disorder",
+      "translatedTitle": null,
+      "description": "As many as 1,700 officers could be deployed in the biggest Police Scotland operation since last year's visit by President Trump.",
+      "url": "https://www.bbc.co.uk/news/articles/cj93zv4dv9rro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cj93zv4dv9rro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T06:16:08Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1cf9/live/b4ad07b0-d883-11f1-a364-a1fce50dd192.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d79361bb331ff5881ea8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.2246
+    },
+    {
+      "id": "2d80cd3a68be3d3956efab4a",
+      "title": "The Papers: 'Crushing midterm rebuke' and 'Trumped'",
+      "translatedTitle": null,
+      "description": "The Democrats sweep in the US midterm elections is the focus of Thursday's papers.",
+      "url": "https://www.bbc.co.uk/news/articles/cqn06j94jlrxo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqn06j94jlrxo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T05:36:17Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e7b/live/bb88ed00-d8b1-11f1-93e1-3b657b665bcf.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f679f5c1c2c97882f91a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15343
+    },
+    {
+      "id": "bcf06ebe69c4333613251cab",
+      "title": "Uefa faces political flashpoint over Sevastopol’s ascent in Russian football",
+      "translatedTitle": null,
+      "description": "Promotion to third tier for Crimean club would be clear violation of governing body’s rules amid conflict in Ukraine Uefa and Fifa face a decisive test of their appetite to punish Russia’s integration of teams from illegally occupied Ukrainian territory after FC Sevastopol, from Crimea, won promotion to the country’s professional third tier. Sevastopol were declared champions of group one in Football National League (FNL) 2B, in effect Russia’s fourth division, last month and are believed to hav",
+      "url": "https://www.theguardian.com/football/2026/nov/05/uefa-fifa-ukraine-crimea-sevastopol-promotion-russia-war",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/05/uefa-fifa-ukraine-crimea-sevastopol-promotion-russia-war",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T07:30:56Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1ddfd798db148f570b3eceea86ccf0e65f7605c4/753_0_3694_2956/master/3694.jpg?width=140&quality=85&auto=format&fit=max&s=f86823cb521ceb2f2a3149b04ef8243d",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "36136ebc118bc40787d4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.09549
+    },
+    {
+      "id": "200a881c6cb7579e0986aa53",
+      "title": "Trump-backed Republicans lose dozens of US midterm races, raising questions over his influence",
+      "translatedTitle": null,
+      "description": "Guardian analysis shows how tumbling approval ratings may have hurt candidates backed by US president Track live results from all 50 states Send us your questions about the US midterms results and Democrats’ ‘blue wave’ Dozens of Republican candidates directly endorsed by Donald Trump lost their US midterm election races, according to analysis by the Guardian, raising questions over the power of the president’s support. In past elections, Trump’s endorsements have been coveted. In the final stag",
+      "url": "https://www.theguardian.com/us-news/2026/nov/05/trump-endorsed-republicans-lose-midterm-election-races",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/05/trump-endorsed-republicans-lose-midterm-election-races",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T07:00:57Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7fcff71d8e63a78b9897d4f14955cade540e3017/605_0_3227_2581/master/3227.jpg?width=140&quality=85&auto=format&fit=max&s=a09780e33bd0b3bf627793377e6ec96c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1ed780c5478313952ddf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03784
+    },
+    {
+      "id": "38ec60cc559be39ffef3f223",
+      "title": "Warming UK seas could ‘fundamentally reshape marine ecosystems’ – report",
+      "translatedTitle": null,
+      "description": "Four-year study warns destabilised marine food webs could jeopardise food security by 2050 Warming seas around the UK and the wider north-east Atlantic could destabilise marine food webs, weaken ocean health and jeopardise food security by 2050, according to a four-year study. Scientists who projected the impact of climate breakdown on four key groups of marine life crucial to maintaining ocean ecosystems in the region said their results challenged assumptions that in middle latitudes, such as t",
+      "url": "https://www.theguardian.com/environment/2026/nov/05/warming-uk-seas-could-fundamentally-reshape-marine-ecosystems-report",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/05/warming-uk-seas-could-fundamentally-reshape-marine-ecosystems-report",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T07:00:56Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/02e296e4df0fea6e4441d0acc9dc29f8ffe4bc87/0_797_1386_1108/master/1386.jpg?width=140&quality=85&auto=format&fit=max&s=fe97e33bfd39c0c24ea2d235bcbc2840",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a75d268d63133f8ceca5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03781
+    },
+    {
+      "id": "2f3c7b43d80f39d9bd97f643",
+      "title": "A local’s guide to Belgrade: the best sights, restaurants and nightlife in a city in flux",
+      "translatedTitle": null,
+      "description": "A new optimism pervades the Serbian capital following the recent elections, making it a great time to visit its bars, clubs, markets and riverside hotspots There’s a celebratory mood in Belgrade, the Serbian capital. For almost two years protest has shaped everyday life as a student-led movement demanding accountability and an end to corruption gathered momentum after a concrete canopy at Novi Sad’s newly renovated railway station collapsed in November 2024, killing 16 people. Demonstrations gre",
+      "url": "https://www.theguardian.com/travel/2026/nov/05/locals-guide-belgrade-best-sights-restaurants-nightlife",
+      "canonicalUrl": "https://theguardian.com/travel/2026/nov/05/locals-guide-belgrade-best-sights-restaurants-nightlife",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T07:00:56Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/41040bfa101a25814940678484d32f87e2a5926e/684_0_5200_4160/master/5200.jpg?width=140&quality=85&auto=format&fit=max&s=58670fc45a4d7a47cf63d66ec2cec000",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e4ef84b4d17347736995",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03781
+    },
+    {
+      "id": "e4ad479b7a4acd9299a5a168",
+      "title": "Thursday briefing: ‘A dignified life for all must be the north star’: economist Isabella Weber answers your questions",
+      "translatedTitle": null,
+      "description": "In today’s newsletter: From the cost of living to the AI bubble and the fight against fascism, Weber answers Guardian readers’ questions on how to build a fairer economy and world Good morning. As stateside celebrations die down, the Democratic party will be forced to confront a (deceptively) simple question: now what? Their colossal midterm successes will curtail Trump’s power during his remaining time in office, but the battle to shape the Democratic platform heading into next year’s president",
+      "url": "https://www.theguardian.com/world/2026/nov/05/thursday-briefing-a-dignified-life-for-all-must-be-the-north-star-economist-isabella-weber-answers-your-questions",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/05/thursday-briefing-a-dignified-life-for-all-must-be-the-north-star-economist-isabella-weber-answers-your-questions",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T06:44:54Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0034bf875d804ae35d88505b960fffc8da887d39/830_0_4131_3307/master/4131.jpg?width=140&quality=85&auto=format&fit=max&s=3d1b32bcb6e12d0daa870730dab2429c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c70640a855e6bd86a5bd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.00763
+    },
+    {
+      "id": "99b82debd83d085b64e51b00",
+      "title": "Rachel Roddy’s recipe for Neapolitan mostaccioli, or spiced biscuits dipped in chocolate | A kitchen in Rome",
+      "translatedTitle": null,
+      "description": "Halfway between a cake and a biscuit, with a throat-warming level of spice, these Italian treats have been around since medieval times, and only get better with age Established in 1982 by sisters Piera, Pina and Grazia Saverese, Pasticceria Savarese is a Neapolitan pastry shop in south-east Rome. It is a densely decorated place – a composite of mirrors, tiles, frames, panels, shelves, cabinets – as well as a highly organised one: every cubbyhole and loop serves a function. Two counters support t",
+      "url": "https://www.theguardian.com/food/2026/nov/05/chocolate-covered-spicy-biscuits-recipe-neapolitan-mostaccioli-rachel-roddy",
+      "canonicalUrl": "https://theguardian.com/food/2026/nov/05/chocolate-covered-spicy-biscuits-recipe-neapolitan-mostaccioli-rachel-roddy",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T06:00:56Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/55099c1e4543cf28e745d11c34be481591cb5f84/0_1095_3024_2419/master/3024.jpg?width=140&quality=85&auto=format&fit=max&s=e6e1c567ce171ee0ccd75c2de73117ee",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3611494ff40d34a63a7d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92714
+    },
+    {
+      "id": "3057e5b1a68c3c5d92a38146",
+      "title": "Thursday news quiz: A captain’s debut, a crypto snafu and some sausage dogs, too",
+      "translatedTitle": null,
+      "description": "Test yourself on topical news trivia, pop culture and general knowledge every Thursday. How will you fare? Remember, remember, the fifth of November, gunpowder, news quiz and plot. We see no reason why 15 questions should ever be forgot. As we await the smell of damp bonfires and cold autumn winds this evening, the Thursday quiz offers a warmer refuge. Never mind Guy Fawkes, here are 15 sparkler-bright questions on news, trivia, and pop culture to illuminate the day. And sausage dogs! Allons-y!",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/05/the-guardian-thursday-quiz-general-knowledge-topical-news-trivia-272",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/05/the-guardian-thursday-quiz-general-knowledge-topical-news-trivia-272",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T06:00:55Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7c17bc31c31cad7119481066446edd2d1dee2fd8/972_8_3764_3010/master/3764.jpg?width=140&quality=85&auto=format&fit=max&s=ee24fe74a26a1aea70d8b54b88f5c8f9",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "73711f1e330d26b770d8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92711
+    },
+    {
+      "id": "442ef785bfdf1bc5cb31ebb1",
+      "title": "Parliament faces 'grave risks' as more asbestos discovered ahead of revamp decision",
       "translatedTitle": null,
       "description": "MPs told it's crunch time for a decision on refurbishment amid warnings of a Notre Dame-style fire.",
       "url": "https://www.bbc.co.uk/news/articles/cqly0k8l5mdvo?at_medium=RSS&at_campaign=rss",
@@ -289,15 +681,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
+      "retrievedAt": "2026-11-05T08:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0a35b84faea6acf5dcb2",
+      "clusterId": "dcca8bca511c9d8e547d",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.31649
+      "rankingScore": 6.90681
     },
     {
       "id": "d3a2bfdf9a811b1cc5b3081e",
@@ -315,11 +707,11 @@
       ],
       "language": "en",
       "publishedAt": "2026-11-05T02:09:23Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dfbd/live/91275ec0-d8b6-11f1-a51b-9f26c18566b3.jpg",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/063d/live/7f72f330-d8eb-11f1-b441-2b33b063138f.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
+      "retrievedAt": "2026-11-05T08:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -327,15 +719,15 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.21224
+      "rankingScore": 6.82333
     },
     {
-      "id": "d31b2b605194b85167e3b1e0",
-      "title": "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
+      "id": "333ba941c29cf0706fbe899a",
+      "title": "Protesters to join nationwide march as France braces for day of strike action",
       "translatedTitle": null,
-      "description": "Scott Colom leads Republican Cindy Hyde-Smith by 1,138 votes with 96% of the vote counted – a small but growing margin Live results | Republican losses mapped Tell us: how do you feel about the midterm results? Sign up for Breaking News US email Wall Street surged at the open, after Democrats scored historic victories in midterm elections and secured control of US Congress. The Dow Jones rose 2%, while the tech-heavy Nasdaq and the benchmark S&P 500 both gained more than 1%. That’s quite a rever",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
-      "canonicalUrl": "https://theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
+      "description": "Hospital workers, air traffic and rail staff expected to join strikes amid renewed protests over education and rising living costs Hundreds of thousands are expected to march in demonstrations across France as trade unions call for a nationwide strike expected to extend to hospital workers, air traffic control, the post office, teachers and rail staff. President Emmanuel Macron’s final months in office continue to be marred by domestic crises, as high school students protesting over poor teachin",
+      "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -344,28 +736,210 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-05T04:14:32Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/4df18077e6ef6dbd140ed398cd00e92926713dc6/312_0_4859_3888/master/4859.jpg?width=140&quality=85&auto=format&fit=max&s=833f341739064bf50a2b68cc1d779bc5",
+      "publishedAt": "2026-11-05T05:00:54Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d7a6c75e922d58651dce919e7f5dd5407fc0c0f3/874_0_6411_5127/master/6411.jpg?width=140&quality=85&auto=format&fit=max&s=bf9766473e87d6ba9a28c0232b5d8522",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
+      "retrievedAt": "2026-11-05T08:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6efb5aa22b5adcc3da54",
+      "clusterId": "02e3f8ed7a72c936fdbd",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.18209
+      "rankingScore": 6.8224
     },
     {
-      "id": "2d80cd3a68be3d3956efab4a",
-      "title": "The Papers: 'Crushing midterm rebuke' and 'Trumped'",
+      "id": "f904c1bf66755fcd0d999197",
+      "title": "The Czech government's new culture war assault on press freedom shows the Maga spirit is still alive in Europe | Jan Bělíček",
       "translatedTitle": null,
-      "description": "The Democrats sweep in the US midterm elections is the focus of Thursday's papers.",
-      "url": "https://www.bbc.co.uk/news/articles/cqn06j94jlrxo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqn06j94jlrxo?at_campaign=rss&at_medium=RSS",
+      "description": "The country’s wealthy elite is aligning itself with the far-right politics of the Motorists party to stifle dissent Oto Klempíř was for many years the frontman of JAR, a popular Czech funk-rock band. He was expelled from the band last year, not over creative differences, or even because of his collaboration with the secret police in the 1980s, but after he declared his intention to stand for parliament for Motorists for Themselves, a populist, nationalist, climate-sceptic party that is closely a",
+      "url": "https://www.theguardian.com/world/commentisfree/2026/nov/05/czechia-government-culture-war-maga-europe",
+      "canonicalUrl": "https://theguardian.com/world/commentisfree/2026/nov/05/czechia-government-culture-war-maga-europe",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T05:00:54Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/429f84e18b8104f2d98286bc83fa110e221119d7/459_0_4606_3685/master/4606.jpg?width=140&quality=85&auto=format&fit=max&s=79b26ddf303afad56369f2d36f80bedb",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "15d6239d689abfd3885f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.8224
+    },
+    {
+      "id": "3216c7cb34b92a400fe8ca4a",
+      "title": "The Pitt and ER are similar enough for Michael Crichton’s widow’s lawsuit to proceed, court rules",
+      "translatedTitle": null,
+      "description": "Court finds ‘clear and numerous similarities’ between two medical dramas, allowing lawsuit by ER creator’s widow Sherri to go to jury trial in 2027 The Pitt is similar enough to ER to allow Michael Crichton’s widow to pursue a long-running lawsuit over the award-winning medical drama, a US appeals court has ruled. In a unanimous opinion filed on Wednesday, a three-judge panel denied an appeal from Warner Bros Television (WBTV), which has argued for two years that the shows are unrelated. Continu",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/05/tv-the-pitt-er-michael-crichton-widow-lawsuit-to-proceed",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/05/tv-the-pitt-er-michael-crichton-widow-lawsuit-to-proceed",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T04:57:41Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3cb7a5c42b77f40a5814fbced72503aa8ddf9b90/211_0_1600_1280/master/1600.jpg?width=140&quality=85&auto=format&fit=max&s=97fb0dd9ae48333e5ad63f2932ac2629",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "40eafd5698bb7e146dd7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.81695
+    },
+    {
+      "id": "c8332e6045bda946303e883f",
+      "title": "South Korea says it will expand naval operations closer to strait of Hormuz",
+      "translatedTitle": null,
+      "description": "Seoul to seek parliamentary approval to extend anti-piracy Cheonghae unit’s area to about 650km from the vital strait after criticism from Donald Trump on Iran war support South Korea plans to expand the operations ⁠of its anti-piracy unit to waters closer to the strait of Hormuz, its defence ministry has said, after pressure from Donald Trump to ⁠provide support for his war in Iran. The government is to submit a motion to parliament that would expand the Cheonghae unit’s area of operation to wa",
+      "url": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T04:22:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/93931aed9b2c9de66c5e7d47a1df4c3d0c323131/535_0_1928_1542/master/1928.jpg?width=140&quality=85&auto=format&fit=max&s=b8afb3a4798ee0b6949ac7c1dfdf9107",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a1bce5d5a60665865729",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.75891
+    },
+    {
+      "id": "d82b77bbae8e3101e55740a2",
+      "title": "Almost 75% of Britons view US as serious threat to global peace",
+      "translatedTitle": null,
+      "description": "Almost three-quarters of Britons believe the US to be a serious threat to global peace - more than double the figure from two years ago - according to a new survey.",
+      "url": "https://news.sky.com/story/almost-75-of-britons-view-us-as-serious-threat-to-global-peace-13608212",
+      "canonicalUrl": "https://news.sky.com/story/almost-75-of-britons-view-us-as-serious-threat-to-global-peace-13608212",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T03:34:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-trump-midterms_7395245.jpg?20261104053236",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "845fdde1fa7b70d6dce5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "ed7126e3a65e910ce5f7fbd0",
+          "title": "Almost three-quarters of Brits view US as serious threat to world peace under Trump, survey reveals",
+          "translatedTitle": null,
+          "description": "The survey revealed how Britons have now ‘become more favourable towards Europe’",
+          "url": "https://www.independent.co.uk/news/uk/home-news/trump-usa-threat-world-peace-british-survey-b3079270.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/trump-usa-threat-world-peace-british-survey-b3079270.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-05T00:01:26Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/04/15/2302269863..?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-05T04:18:24Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "845fdde1fa7b70d6dce5",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.63413,
+          "normalizedTitle": "almost three quarters of brits view us as serious threat to world peace under trump survey reveals",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 6.73074
+    },
+    {
+      "id": "29e2f44b0226177dab214321",
+      "title": "New Zealand heads for election cliffhanger with minor party cast as kingmaker",
+      "translatedTitle": null,
+      "description": "Polls show neither major party will have enough seats to form government, meaning the fate could fall on centrist minor party, Opportunity The final polls ahead of New Zealand’s election show a knife-edge path to power, with neither the ruling right-wing coalition or opposition left bloc able to form a government without the support of a newcomer centrist party. New Zealanders will vote on 7 November, concluding a six-week campaign defined by the high costs of living, a wobbling healthcare syste",
+      "url": "https://www.theguardian.com/world/2026/nov/05/nz-election-cliffhanger-final-polls-opportunity-party",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/05/nz-election-cliffhanger-final-polls-opportunity-party",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T03:37:57Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e9b5f9fbccacf955c2323b5ad91bb55ff88de364/679_0_4500_3600/master/4500.jpg?width=140&quality=85&auto=format&fit=max&s=dae3b2dbf62e582abe0117f55aa612e7",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T08:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "418b8ac912a1cfa2a7ad",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.68693
+    },
+    {
+      "id": "641fa2715f1bf8a44573cd1f",
+      "title": "Five reasons why Republicans lost so badly",
+      "translatedTitle": null,
+      "description": "From angry voters to an unpopular president, here is why Americans in traditional Republican areas turned to Democrats.",
+      "url": "https://www.bbc.co.uk/news/articles/cqkgjvr00zmyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqkgjvr00zmyo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -374,20 +948,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-05T01:07:55Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e7b/live/bb88ed00-d8b1-11f1-93e1-3b657b665bcf.jpg",
+      "publishedAt": "2026-11-05T00:07:19Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdbb/live/b9988eb0-d8b1-11f1-93e1-3b657b665bcf.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
+      "retrievedAt": "2026-11-05T08:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f679f5c1c2c97882f91a",
+      "clusterId": "44228276a1b9044c6414",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.10423
+      "rankingScore": 6.65625
     },
     {
       "id": "6ce0da1fd30e7d13399f01c6",
@@ -416,492 +990,42 @@
       "clusterId": "eab667b92ced9a30d6bc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.07343
-    },
-    {
-      "id": "3ab46c3cba8481ba83809f63",
-      "title": "Trump’s admin warns Dems about toying with impeachment while Hannity buries head in sand: Live updates",
-      "translatedTitle": null,
-      "description": "Trump was impeached twice during his first term, but acquitted by the Senate both times",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/midterm-elections-results-2026-live-updates-trump-map-b3078712.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/midterm-elections-results-2026-live-updates-trump-map-b3078712.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T03:50:09Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/19/2303034825..?width=1200&auto=webp&trim=0%2C4%2C0%2C4",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f983c8a82cdbbfa25359",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.04316,
+      "rankingScore": 6.64046,
       "related": []
     },
     {
-      "id": "641fa2715f1bf8a44573cd1f",
-      "title": "Five reasons why Republicans lost so badly",
+      "id": "297dd52431a41eb9aff9f5f8",
+      "title": "Multiple bears may have killed mother and daughter in Canada",
       "translatedTitle": null,
-      "description": "From angry voters to an unpopular president, here is why Americans in traditional Republican areas turned to Democrats.",
-      "url": "https://www.bbc.co.uk/news/articles/cqkgjvr00zmyo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqkgjvr00zmyo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "A mother and daughter have been killed in an attack in Canada that authorities say may have involved multiple grizzly bears.",
+      "url": "https://news.sky.com/story/multiple-bears-may-have-killed-mother-and-daughter-in-canada-13608211",
+      "canonicalUrl": "https://news.sky.com/story/multiple-bears-may-have-killed-mother-and-daughter-in-canada-13608211",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-05T00:07:19Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdbb/live/b9988eb0-d8b1-11f1-93e1-3b657b665bcf.jpg",
+      "publishedAt": "2026-11-05T04:00:00Z",
+      "imageUrl": "https://e3.365dm.com/23/07/1920x1080/skynews-montana-grizzly-bear_6228423.jpg?20230724071712",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
+      "retrievedAt": "2026-11-05T08:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "44228276a1b9044c6414",
+      "clusterId": "c2fbe607ae74bdf4fd87",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.0036
+      "rankingScore": 5.37193
     },
     {
-      "id": "2d27b6f418c182634f6bb108",
-      "title": "Interest rates expected to rise for first time in over three years",
-      "translatedTitle": null,
-      "description": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
-      "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ck5ynw45jrgqo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T00:00:09Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e8c/live/91074120-d849-11f1-b870-55415e6a9944.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "12ae0a1ca1cd82108eaa",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.99207
-    },
-    {
-      "id": "4cf56d1a5d9c81604bfecb29",
-      "title": "Zelensky has awarded Melania Trump one of Ukraine’s highest honours. Here’s why",
-      "translatedTitle": null,
-      "description": "The First Lady was pivotal in securing a recent six-day ceasefire in Oleshky",
-      "url": "https://www.independent.co.uk/news/world/europe/melania-trump-award-ukraine-russia-oleshky-ceasefire-b3079489.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/melania-trump-award-ukraine-russia-oleshky-ceasefire-b3079489.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T03:06:45Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/11/2026-11-04T093958Z_2050522168_RC2X9OAFH4FJ_RTRMADP_3_UKRAINE-CRISIS-ZELENSKIY-MELANIA-TRUMP.JPG?width=1200&auto=webp&trim=52%2C0%2C52%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "10657c9cfc7118620ed6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.95874
-    },
-    {
-      "id": "440d2bde736ada0ff509f7d8",
-      "title": "Bank of England set to hike interest rates to 4% to tackle rising inflation",
-      "translatedTitle": null,
-      "description": "Rate-setters are widely expected to tighten monetary policy in a bid to tackle rising inflation in the UK economy.",
-      "url": "https://www.independent.co.uk/news/business/bank-of-england-mpc-us-federal-reserve-middle-east-oxford-economics-b3079487.html",
-      "canonicalUrl": "https://independent.co.uk/news/business/bank-of-england-mpc-us-federal-reserve-middle-east-oxford-economics-b3079487.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T02:45:22Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/05/02/3258dfcbedc52f8ac6fe72bcef9913b6Y29udGVudHNlYXJjaGFwaSwxNzkzODkzNDkx-2.81157814.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f31effe8a5519f9717a4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.91838
-    },
-    {
-      "id": "ee606bba6b2f18e27b9eba67",
-      "title": "Ukraine-Russia war latest: Zelensky condemns Moscow’s ‘insane’ attack on school that left at least 40 dead",
-      "translatedTitle": null,
-      "description": "Russian retail giant Ozon says it is forced to cancel some orders after fire erupts at warehouse in Adygea Republic",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-zelensky-school-attack-b3079198.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/ukraine-russia-war-live-zelensky-school-attack-b3079198.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T02:40:34Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/15/08/Zaporizhzhia-strike-6751cc8d.jpeg?width=1200&auto=webp&trim=121%2C256%2C228%2C107",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b445956a6a7d4e101e4c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.90943
-    },
-    {
-      "id": "bbfd16418fb24632a1417326",
-      "title": "Pete Hegseth may take fall for Republicans’ midterm losses, despite Trump support",
-      "translatedTitle": null,
-      "description": "JD Vance calls Iran war into question as Thomas Massie files eight articles of impeachment Send us your questions about the US midterms results and Democrats’ ‘blue wave’ Pete Hegseth is increasingly looking like he may take the fall for Republicans’ midterm losses, despite Donald Trump’s vocal support for his defense secretary, even calling him a champion of war. The war in Iran, which voters and Trump have named as a key reason for Republicans’ midterm losses, “has been primarily a Department",
-      "url": "https://www.theguardian.com/us-news/2026/nov/04/pete-hegseth-republicans-midterm-losses",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/04/pete-hegseth-republicans-midterm-losses",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T00:41:00Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/93b09e88994a692b9ebc1c254be81d73d208a85e/667_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=efe6951529904c93570ec2262531a1cb",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ae1eadc762653a183561",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.78884
-    },
-    {
-      "id": "ed7126e3a65e910ce5f7fbd0",
-      "title": "Almost three-quarters of Brits view US as serious threat to world peace under Trump, survey reveals",
-      "translatedTitle": null,
-      "description": "The survey revealed how Britons have now ‘become more favourable towards Europe’",
-      "url": "https://www.independent.co.uk/news/uk/home-news/trump-usa-threat-world-peace-british-survey-b3079270.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/trump-usa-threat-world-peace-british-survey-b3079270.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T00:01:26Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/15/2302269863..?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d53b0d576fb56e971498",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.63413,
-      "related": []
-    },
-    {
-      "id": "374e8e990164a5b60f46fab6",
-      "title": "White House issues aggressive warning to Dems over impeaching Trump",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/trump-impeachment-threat-white-house-congress-b3079475.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/trump-impeachment-threat-white-house-congress-b3079475.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T00:57:16Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/04/22/42/GettyImages-2302566480.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "941da5441b9e94c150bc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.32614
-    },
-    {
-      "id": "37ae0fa4cf7a168c73532a58",
-      "title": "UK commits to 'time-bound' talks on slavery apology",
-      "translatedTitle": null,
-      "description": "British diplomats are looking to offer reassurance that there is a sense of urgency to deal with the issue, even if a date for doing so is not yet confirmed, Chris Mason writes.",
-      "url": "https://www.bbc.co.uk/news/articles/cqdr872jkk7vo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqdr872jkk7vo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T02:17:18Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d167/live/fa72efc0-d8b6-11f1-aa81-e1435663d61c.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dc2d7b91d4e038af1671",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8766
-    },
-    {
-      "id": "bc4a08f5a94d8757bc65e22c",
-      "title": "Australia's oldest department store David Jones folds after 188 years",
-      "translatedTitle": null,
-      "description": "The brand's 38 physical stores and online site will continue to operate while receivers review its operations.",
-      "url": "https://www.bbc.co.uk/news/articles/cky93z5y0171o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cky93z5y0171o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T00:59:22Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e5e/live/f37ce860-d8ac-11f1-8b97-dd854ec90424.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "77841cd1b2c540af9c2e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73969
-    },
-    {
-      "id": "e392649737ea835ec426dbd0",
-      "title": "Would you take a test to see if your life will be cut short? I did - and it changed me",
-      "translatedTitle": null,
-      "description": "Laura Sides faced a dilemma of whether to find out if she would inherit her father's condition.",
-      "url": "https://www.bbc.co.uk/news/articles/cw62yq9vp7yyo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cw62yq9vp7yyo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T00:32:09Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/612f/live/694ca970-d86e-11f1-b441-2b33b063138f.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7cf45cfc420f7717c341",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69416
-    },
-    {
-      "id": "a30bf91792e90ca74fd83cca",
-      "title": "Why a US-funded vaccine trial on babies was cancelled in Guinea-Bissau",
-      "translatedTitle": null,
-      "description": "The trial was condemned as \"unethical\" and \"neocolonial\" because half of the babies would not be given the vaccine.",
-      "url": "https://www.bbc.co.uk/news/articles/cm0rlxq08ejko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm0rlxq08ejko?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T00:30:37Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4bf/live/d304fb40-d848-11f1-b870-55415e6a9944.jpg",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bcbb3430bf19f8ab63f4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69163
-    },
-    {
-      "id": "93b256c4554f432d2370825a",
-      "title": "The NHS is relying more on charities - and that might be creating problems for patients",
-      "translatedTitle": null,
-      "description": "Is it symptom a health service at breaking point - or a positive way of involving the public?",
-      "url": "https://www.bbc.co.uk/news/articles/c65yn75g9d18o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c65yn75g9d18o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T00:12:30Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2be5/live/eed75af0-d845-11f1-b441-2b33b063138f.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "eb44dd0b861abbe0ab09",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66199
-    },
-    {
-      "id": "08e7d45946ce11dc9a03323e",
-      "title": "Australian F1 world champion Alan Jones dies aged 80",
-      "translatedTitle": null,
-      "description": "Jones one of just two Australians to win F1 title after triumph in 1980 He won 12 grands prix across 10 seasons before retirement in 1986 Alan Jones, the 1980 Formula One world champion, has died aged 80. Jones won 12 F1 grands prix across his career and became just the second Australian, after Sir Jack Brabham, to be crowned world champion when he claimed the title with Williams in 1980. Continue reading...",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/australian-f1-champion-alan-jones-dies-aged-80",
-      "canonicalUrl": "https://theguardian.com/sport/2026/nov/05/australian-f1-champion-alan-jones-dies-aged-80",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T02:30:34Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/32a15a4b973215ef3ed40eda4138433f2737dbad/68_0_3092_2473/master/3092.jpg?width=140&quality=85&auto=format&fit=max&s=295f1dfed0574d992b199fd6d5e9ea00",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6fdaa1c7ab3304392519",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.63091
-    },
-    {
-      "id": "ffe97ef037a943b93e9f08cf",
-      "title": "‘Playing out of his mind’: Novak Djokovic hails Rinky Hijikata after Australian’s stunning win in Paris",
-      "translatedTitle": null,
-      "description": "Hijikata wins 2-6, 6-3, 6-3 to end Serb’s ATP Finals hopes He becomes just fourth Australian to conquer Djokovic Rinky Hijikata has revealed he almost didn’t even take the court before notching the biggest win of his career to send the great Novak Djokovic crashing out of ATP Finals contention. Continuing his inspired run from qualifying, Hijikata lit up the indoor Plenitude Arena to bring down Djokovic 2-6, 6-3, 6-3 to surge into the Paris Masters third round. Continue reading...",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/novak-djokovic-rinky-hijikata-paris-masters-upset-win",
-      "canonicalUrl": "https://theguardian.com/sport/2026/nov/05/novak-djokovic-rinky-hijikata-paris-masters-upset-win",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T01:55:41Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/b4c840f75151f43b2eb105dbab150b65953132ff/226_0_3857_3087/master/3857.jpg?width=140&quality=85&auto=format&fit=max&s=324bb3f6321b14a99574a967d63f8852",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4d03889e870b33b643c4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.56763
-    },
-    {
-      "id": "20454fe450aa14c2f224a17c",
-      "title": "UK agrees to talks addressing 'historical harms' of slavery",
+      "id": "a0d213910abacaf502ff8697",
+      "title": "UK agrees to talks on harms of the transatlantic slave trade",
       "translatedTitle": null,
       "description": "The UK has agreed to engage in \"structured, time-bound, inclusive and good-faith\" talks that address the \"historical harms\" of the transatlantic slave trade, Commonwealth leaders have said.",
       "url": "https://news.sky.com/story/uk-agrees-to-talks-addressing-historical-harms-of-slavery-but-pm-rules-out-reparations-13608208",
@@ -917,17 +1041,17 @@
       "publishedAt": "2026-11-05T01:30:00Z",
       "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-burnham-king-charles_7395424.jpg?20261103035754",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
+      "retrievedAt": "2026-11-05T08:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d89f0eed33941f0c4f59",
+      "clusterId": "50b540022452fef4ffb3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.52233
+      "rankingScore": 5.14735,
+      "related": []
     },
     {
       "id": "3009bb21e2d0ffb1671d14d2",
@@ -956,38 +1080,8 @@
       "clusterId": "6a8cc3198cf9e014a86a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.51578
-    },
-    {
-      "id": "74fae439de9df2c7e4847ccd",
-      "title": "Colorado rejects conservative effort to require police to cooperate with immigration officers",
-      "translatedTitle": null,
-      "description": "Amendment 81 would have required law enforcement to notify federal agents if people accused of violent crimes were not lawfully present in US Colorado voters have spurned a conservative group’s effort to force police and prosecutors to aid the Trump administration’s mass deportation agenda. Amendment 81, which failed to receive 55% of the vote on Tuesday, would have required Colorado’s law enforcement agents to notify federal immigration authorities if individuals accused of violent crime were n",
-      "url": "https://www.theguardian.com/us-news/2026/nov/04/colorado-rejects-conservative-immigration-amendment",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/04/colorado-rejects-conservative-immigration-amendment",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T01:10:46Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d1a45e3f78897741b1a03bd57c527c45d13e3684/686_0_6861_5489/master/6861.jpg?width=140&quality=85&auto=format&fit=max&s=1789a1e4900892dc763107c36ea75047",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "528c7fb0d1241cc0a4f9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.48911
+      "rankingScore": 5.12417,
+      "related": []
     },
     {
       "id": "a9c2f05b13c84e3a190c6b02",
@@ -1009,15 +1103,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
+      "retrievedAt": "2026-11-05T08:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "4c58f072ab835edf8805",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.45947
+      "rankingScore": 5.09701,
+      "related": []
     },
     {
       "id": "67c2b2d4d49d9315b6e307ef",
@@ -1046,8 +1140,38 @@
       "clusterId": "c45b31756a6d31c78243",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.40749
+      "rankingScore": 5.03745,
+      "related": []
+    },
+    {
+      "id": "74fae439de9df2c7e4847ccd",
+      "title": "Colorado rejects conservative effort to require police to cooperate with immigration officers",
+      "translatedTitle": null,
+      "description": "Amendment 81 would have required law enforcement to notify federal agents if people accused of violent crimes were not lawfully present in US Colorado voters have spurned a conservative group’s effort to force police and prosecutors to aid the Trump administration’s mass deportation agenda. Amendment 81, which failed to receive 55% of the vote on Tuesday, would have required Colorado’s law enforcement agents to notify federal immigration authorities if individuals accused of violent crime were n",
+      "url": "https://www.theguardian.com/us-news/2026/nov/04/colorado-rejects-conservative-immigration-amendment",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/04/colorado-rejects-conservative-immigration-amendment",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T01:10:46Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d1a45e3f78897741b1a03bd57c527c45d13e3684/686_0_6861_5489/master/6861.jpg?width=140&quality=85&auto=format&fit=max&s=1789a1e4900892dc763107c36ea75047",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T04:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "528c7fb0d1241cc0a4f9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.03074,
+      "related": []
     },
     {
       "id": "be47808511e9a0029a5f9c9a",
@@ -1069,14 +1193,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T04:18:24Z",
+      "retrievedAt": "2026-11-05T08:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "c385b3c7de5b93a5c468",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.37469,
+      "rankingScore": 5.02912,
       "related": []
     },
     {
@@ -1106,7 +1230,7 @@
       "clusterId": "7970144617d7e20459f7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.29113,
+      "rankingScore": 4.94427,
       "related": []
     },
     {
@@ -1136,7 +1260,7 @@
       "clusterId": "dbfe7d1ae7fb3c7ffd9d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.28576,
+      "rankingScore": 4.93997,
       "related": []
     },
     {
@@ -1166,7 +1290,7 @@
       "clusterId": "7978de4e52f7e153b615",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.28469,
+      "rankingScore": 4.93912,
       "related": []
     },
     {
@@ -1196,7 +1320,7 @@
       "clusterId": "10c802c2e55bf56d4034",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.2841,
+      "rankingScore": 4.93865,
       "related": []
     },
     {
@@ -1226,7 +1350,7 @@
       "clusterId": "d0c00a52a9127f2364db",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.28394,
+      "rankingScore": 4.93852,
       "related": []
     },
     {
@@ -1256,7 +1380,7 @@
       "clusterId": "c95004923305874fe7b7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.2837,
+      "rankingScore": 4.93832,
       "related": []
     },
     {
@@ -1286,7 +1410,7 @@
       "clusterId": "2380b2e2a8ee9cd00f65",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.28343,
+      "rankingScore": 4.93811,
       "related": []
     },
     {
@@ -1316,7 +1440,7 @@
       "clusterId": "9df490c2a2e7c187ce69",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.28343,
+      "rankingScore": 4.93811,
       "related": []
     },
     {
@@ -1346,7 +1470,7 @@
       "clusterId": "1d5f4311dd39f6d5191f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.28343,
+      "rankingScore": 4.93811,
       "related": []
     },
     {
@@ -1376,8 +1500,8 @@
       "clusterId": "d9644f2b6c4135dfd67f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.93918
+      "rankingScore": 4.58275,
+      "related": []
     }
   ]
 }
