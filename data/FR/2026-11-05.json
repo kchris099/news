@@ -4,33 +4,33 @@
   "countryName": "France",
   "timeZone": "Europe/Paris",
   "date": "2026-11-05",
-  "generatedAt": "2026-11-05T12:18:34Z",
-  "lastAttemptAt": "2026-11-05T12:18:34Z",
-  "lastSuccessfulUpdate": "2026-11-05T12:18:34Z",
-  "status": "current",
+  "generatedAt": "2026-11-05T16:18:30Z",
+  "lastAttemptAt": "2026-11-05T16:18:30Z",
+  "lastSuccessfulUpdate": "2026-11-05T16:18:30Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
-  "publisherCount": 6,
+  "publisherCount": 5,
   "sourceHealth": [
     {
       "sourceId": "france24-en",
       "sourceName": "France 24",
-      "status": "success",
-      "lastAttemptAt": "2026-11-05T12:18:33Z",
-      "lastSuccessAt": "2026-11-05T12:18:33Z",
-      "articlesRetrieved": 24,
-      "responseTimeMs": 129,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-05T16:18:30Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '403 Forbidden' for url 'https://www.france24.com/en/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "sourceId": "lemonde-une",
       "sourceName": "Le Monde",
       "status": "success",
-      "lastAttemptAt": "2026-11-05T12:18:33Z",
-      "lastSuccessAt": "2026-11-05T12:18:33Z",
+      "lastAttemptAt": "2026-11-05T16:18:30Z",
+      "lastSuccessAt": "2026-11-05T16:18:30Z",
       "articlesRetrieved": 16,
-      "responseTimeMs": 75,
+      "responseTimeMs": 205,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,10 +38,10 @@
       "sourceId": "franceinfo-top",
       "sourceName": "Franceinfo",
       "status": "success",
-      "lastAttemptAt": "2026-11-05T12:18:33Z",
-      "lastSuccessAt": "2026-11-05T12:18:33Z",
-      "articlesRetrieved": 34,
-      "responseTimeMs": 93,
+      "lastAttemptAt": "2026-11-05T16:18:30Z",
+      "lastSuccessAt": "2026-11-05T16:18:30Z",
+      "articlesRetrieved": 32,
+      "responseTimeMs": 356,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,10 +49,10 @@
       "sourceId": "le-figaro-top",
       "sourceName": "Le Figaro",
       "status": "success",
-      "lastAttemptAt": "2026-11-05T12:18:33Z",
-      "lastSuccessAt": "2026-11-05T12:18:34Z",
+      "lastAttemptAt": "2026-11-05T16:18:30Z",
+      "lastSuccessAt": "2026-11-05T16:18:30Z",
       "articlesRetrieved": 20,
-      "responseTimeMs": 425,
+      "responseTimeMs": 274,
       "errorType": null,
       "errorMessage": null
     }
@@ -85,30 +85,123 @@
       "clusterId": "0df88b79eaeb99a777e2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 10.11498
+      "rankingScore": 9.53953,
+      "related": []
     },
     {
-      "id": "9ee03087eaa26978aafae61f",
-      "title": "Le footballeur Cristiano Ronaldo annonce sa retraite internationale",
+      "id": "1849203ac45f43184e00fd0c",
+      "title": "A Hong Kong, le militant prodémocratie Joshua Wong condamné à 10 ans de prison supplémentaires",
       "translatedTitle": null,
-      "description": "L’attaquant portugais de 41 ans a posté une longue vidéo, mercredi sur Instagram, dans laquelle il rappelle son attachement à la Selaçao das Quinas, dont il a porté les couleurs à 234 reprises, pour 146 buts, un record.",
-      "url": "https://www.lemonde.fr/sport/article/2026/11/05/le-footballeur-cristiano-ronaldo-annonce-sa-retraite-internationale_6806853_3242.html",
-      "canonicalUrl": "https://lemonde.fr/sport/article/2026/11/05/le-footballeur-cristiano-ronaldo-annonce-sa-retraite-internationale_6806853_3242.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
+      "description": "Il était encore reproché à Joshua Wong d'avoir demandé à des pays, des particuliers ou des institutions à l'étranger, notamment en s'exprimant dans les médias, d'\"imposer des sanctions ou un blocus, ou de se livrer à d'autres activités hostiles\" à l'encontre de la Chine et de Hong Kong.",
+      "url": "https://www.franceinfo.fr/monde/chine/hong-kong/a-hong-kong-le-militant-prodemocratie-joshua-wong-condamne-a-10-ans-de-prison-supplementaires_8268917.html",
+      "canonicalUrl": "https://franceinfo.fr/monde/chine/hong-kong/a-hong-kong-le-militant-prodemocratie-joshua-wong-condamne-a-10-ans-de-prison-supplementaires_8268917.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T10:55:09Z",
-      "imageUrl": "https://img.lemde.fr/2026/11/05/146/0/2983/1491/644/322/60/0/6a7afe0_ftp-1-rwxs6vvos5pq-2026-11-05t104152z-1301029445-rc2wpnat9y1h-rtrmadp-3-soccer-ronaldo.JPG",
+      "publishedAt": "2026-11-05T07:38:52Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/lBYrDn9xusmcRFK0H9BctWNtEiE/0x52:1024x628/432x243/filters:format(jpg)/2026/11/05/6aec3278c4ce5770510257.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
       "retrievedAt": "2026-11-05T12:18:33Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fd259fe54ee1c25483fc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "3d01d965395b3211a9c87390",
+          "title": "Hong Kong activist jailed for 10 more years for collusion with foreign forces",
+          "translatedTitle": null,
+          "description": "Hong Kong democracy activist Joshua Wong was sentenced to 10 more years in jail on Thursday for colluding with foreign powers, the second time he has been penalised under the city's national security law. Hong, 30, is one of the most globally recognised faces of Hong Kong's pro-democracy movement and has already spent almost six years behind bars. He is now not due for release until late 2036.",
+          "url": "https://www.france24.com/en/video/20261105-hong-kong-activist-jailed-for-10-more-years-for-collusion-with-foreign-forces",
+          "canonicalUrl": "https://france24.com/en/video/20261105-hong-kong-activist-jailed-for-10-more-years-for-collusion-with-foreign-forces",
+          "sourceName": "France 24",
+          "sourceDomain": "france24.com",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-05T11:29:09Z",
+          "imageUrl": "https://s.france24.com/media/display/1765b516-d909-11f1-8349-bf1914cabd52/w:1024/p:16x9/2026-11-05T035351Z-666263956-RC2FHOAZ50XS-RTRMADP-3-HONGKONG-SECURITY-JOSHUAWONG.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-05T12:18:33Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "fd259fe54ee1c25483fc",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 8.63152,
+          "normalizedTitle": "hong kong activist jailed for 10 more years for collusion with foreign forces",
+          "sourceQuality": 1.0
+        },
+        {
+          "id": "d2cb492341ddc446f02ab964",
+          "title": "Hong Kong activist Joshua Wong gets 10 more years in jail for foreign collusion",
+          "translatedTitle": null,
+          "description": "Hong Kong democracy activist Joshua Wong was sentenced to 10 more years in prison on Thursday for colluding with foreign powers, a court summary said. Wong, 30, pleaded guilty in September to seeking foreign sanctions against Hong Kong and China under Beijing’s national security law, having spent nearly six years imprisoned.",
+          "url": "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion",
+          "canonicalUrl": "https://france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion",
+          "sourceName": "France 24",
+          "sourceDomain": "s.france24.com",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-05T03:31:53Z",
+          "imageUrl": "https://s.france24.com/media/display/bac80546-d89c-11f1-8ab0-1beafce15fea/w:1024/p:16x9/a3febbc244aae5c0e71fa2e37cf9f5a49bf1acb0.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-05T08:18:23Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "fd259fe54ee1c25483fc",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 8.16737,
+          "normalizedTitle": "hong kong activist joshua wong gets 10 more years in jail for foreign collusion",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 9.1497
+    },
+    {
+      "id": "adeeebb73db7240f05a6918d",
+      "title": "\"Mon voyage avec la sélection nationale arrive à sa fin\" : à 41 ans, Cristiano Ronaldo annonce sa retraite internationale avec le Portugal",
+      "translatedTitle": null,
+      "description": "En froid avec sa sélection depuis un mois, la légende du football portugais a annoncé dans une vidéo, publiée jeudi, qu'il prenait sa retraite internationale avec la Seleçao.",
+      "url": "https://www.franceinfo.fr/sports/foot/cristiano-ronaldo/a-41-ans-cristiano-ronaldo-annonce-sa-retraite-internationale-avec-le-portugal_8269166.html",
+      "canonicalUrl": "https://franceinfo.fr/sports/foot/cristiano-ronaldo/a-41-ans-cristiano-ronaldo-annonce-sa-retraite-internationale-avec-le-portugal_8269166.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T11:27:15Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/W0TwJXbvv4yobIuBdb3vndrwfgY/0x0:3912x2200/432x243/filters:format(jpg)/2026/11/05/6aec5eafabf60769763009.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -147,22 +240,22 @@
           "normalizedTitle": "coup de tonnerre au portugal cristiano ronaldo annonce la fin de sa carrière internationale"
         },
         {
-          "id": "adeeebb73db7240f05a6918d",
-          "title": "\"Mon voyage avec la sélection nationale arrive à sa fin\" : à 41 ans, Cristiano Ronaldo annonce sa retraite internationale avec le Portugal",
+          "id": "9ee03087eaa26978aafae61f",
+          "title": "Le footballeur Cristiano Ronaldo annonce sa retraite internationale",
           "translatedTitle": null,
-          "description": "En froid avec sa sélection depuis un mois, la légende du football portugais a annoncé dans une vidéo, publiée jeudi, qu'il prenait sa retraite internationale avec la Seleçao.",
-          "url": "https://www.franceinfo.fr/sports/foot/cristiano-ronaldo/a-41-ans-cristiano-ronaldo-annonce-sa-retraite-internationale-avec-le-portugal_8269166.html",
-          "canonicalUrl": "https://franceinfo.fr/sports/foot/cristiano-ronaldo/a-41-ans-cristiano-ronaldo-annonce-sa-retraite-internationale-avec-le-portugal_8269166.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
+          "description": "L’attaquant portugais de 41 ans a posté une longue vidéo, mercredi sur Instagram, dans laquelle il rappelle son attachement à la Selaçao das Quinas, dont il a porté les couleurs à 234 reprises, pour 146 buts, un record.",
+          "url": "https://www.lemonde.fr/sport/article/2026/11/05/le-footballeur-cristiano-ronaldo-annonce-sa-retraite-internationale_6806853_3242.html",
+          "canonicalUrl": "https://lemonde.fr/sport/article/2026/11/05/le-footballeur-cristiano-ronaldo-annonce-sa-retraite-internationale_6806853_3242.html",
+          "sourceName": "Le Monde",
+          "sourceDomain": "lemonde.fr",
           "sourceCountry": "FR",
           "editionCountry": "FR",
           "coverageCountries": [
             "FR"
           ],
           "language": "fr",
-          "publishedAt": "2026-11-05T11:27:15Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/W0TwJXbvv4yobIuBdb3vndrwfgY/0x0:3912x2200/432x243/filters:format(jpg)/2026/11/05/6aec5eafabf60769763009.jpg",
+          "publishedAt": "2026-11-05T10:55:09Z",
+          "imageUrl": "https://img.lemde.fr/2026/11/05/146/0/2983/1491/644/322/60/0/6a7afe0_ftp-1-rwxs6vvos5pq-2026-11-05t104152z-1301029445-rc2wpnat9y1h-rtrmadp-3-soccer-ronaldo.JPG",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
@@ -173,103 +266,12 @@
           "clusterId": "7f864faad9e669d37985",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "mon voyage avec la sélection nationale arrive à sa fin à 41 ans cristiano ronaldo annonce sa retraite internationale avec le portugal"
-        }
-      ],
-      "rankingScore": 8.6564
-    },
-    {
-      "id": "3d01d965395b3211a9c87390",
-      "title": "Hong Kong activist jailed for 10 more years for collusion with foreign forces",
-      "translatedTitle": null,
-      "description": "Hong Kong democracy activist Joshua Wong was sentenced to 10 more years in jail on Thursday for colluding with foreign powers, the second time he has been penalised under the city's national security law. Hong, 30, is one of the most globally recognised faces of Hong Kong's pro-democracy movement and has already spent almost six years behind bars. He is now not due for release until late 2036.",
-      "url": "https://www.france24.com/en/video/20261105-hong-kong-activist-jailed-for-10-more-years-for-collusion-with-foreign-forces",
-      "canonicalUrl": "https://france24.com/en/video/20261105-hong-kong-activist-jailed-for-10-more-years-for-collusion-with-foreign-forces",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T11:29:09Z",
-      "imageUrl": "https://s.france24.com/media/display/1765b516-d909-11f1-8349-bf1914cabd52/w:1024/p:16x9/2026-11-05T035351Z-666263956-RC2FHOAZ50XS-RTRMADP-3-HONGKONG-SECURITY-JOSHUAWONG.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fd259fe54ee1c25483fc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "1849203ac45f43184e00fd0c",
-          "title": "A Hong Kong, le militant prodémocratie Joshua Wong condamné à 10 ans de prison supplémentaires",
-          "translatedTitle": null,
-          "description": "Il était encore reproché à Joshua Wong d'avoir demandé à des pays, des particuliers ou des institutions à l'étranger, notamment en s'exprimant dans les médias, d'\"imposer des sanctions ou un blocus, ou de se livrer à d'autres activités hostiles\" à l'encontre de la Chine et de Hong Kong.",
-          "url": "https://www.franceinfo.fr/monde/chine/hong-kong/a-hong-kong-le-militant-prodemocratie-joshua-wong-condamne-a-10-ans-de-prison-supplementaires_8268917.html",
-          "canonicalUrl": "https://franceinfo.fr/monde/chine/hong-kong/a-hong-kong-le-militant-prodemocratie-joshua-wong-condamne-a-10-ans-de-prison-supplementaires_8268917.html",
-          "sourceName": "Franceinfo",
-          "sourceDomain": "franceinfo.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-11-05T07:38:52Z",
-          "imageUrl": "https://www.franceinfo.fr/pictures/lBYrDn9xusmcRFK0H9BctWNtEiE/0x52:1024x628/432x243/filters:format(jpg)/2026/11/05/6aec3278c4ce5770510257.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-05T12:18:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "fd259fe54ee1c25483fc",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "a hong kong le militant prodémocratie joshua wong condamné à 10 ans de prison supplémentaires"
-        },
-        {
-          "id": "d2cb492341ddc446f02ab964",
-          "title": "Hong Kong activist Joshua Wong gets 10 more years in jail for foreign collusion",
-          "translatedTitle": null,
-          "description": "Hong Kong democracy activist Joshua Wong was sentenced to 10 more years in prison on Thursday for colluding with foreign powers, a court summary said. Wong, 30, pleaded guilty in September to seeking foreign sanctions against Hong Kong and China under Beijing’s national security law, having spent nearly six years imprisoned.",
-          "url": "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion",
-          "canonicalUrl": "https://france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion",
-          "sourceName": "France 24",
-          "sourceDomain": "s.france24.com",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-05T03:31:53Z",
-          "imageUrl": "https://s.france24.com/media/display/bac80546-d89c-11f1-8ab0-1beafce15fea/w:1024/p:16x9/a3febbc244aae5c0e71fa2e37cf9f5a49bf1acb0.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-05T08:18:23Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "fd259fe54ee1c25483fc",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 8.16737,
-          "normalizedTitle": "hong kong activist joshua wong gets 10 more years in jail for foreign collusion",
+          "rankingScore": 8.6564,
+          "normalizedTitle": "le footballeur cristiano ronaldo annonce sa retraite internationale",
           "sourceQuality": 1.0
         }
       ],
-      "rankingScore": 8.63152
+      "rankingScore": 8.1199
     },
     {
       "id": "0091b6ca0fc25a412c880415",
@@ -298,169 +300,16 @@
       "clusterId": "e7cb3827d8e8a51aa255",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.4286
+      "rankingScore": 7.85044,
+      "related": []
     },
     {
-      "id": "be57248e91bc03618a532170",
-      "title": "Houthi missiles fired at Medina intercepted, Saudi coalition says",
+      "id": "689df6192d6eb90e4a4b0ff9",
+      "title": "Midterms 2026 : J. D. Vance, contrarié dans ses ambitions par la déroute de son camp, lance le débat interne chez les républicains",
       "translatedTitle": null,
-      "description": "A ballistic missile fired at the Saudi city of Medina, one of Islam's holiest cities, was intercepted Thursday, a spokesman for the Saudi-led coalition fighting Yemen's Houthi rebels said. The announcement came shortly after the kingdom's civil defence agency warned of potential danger around the strategic port of Yanbu.",
-      "url": "https://www.france24.com/en/middle-east/20261105-houthi-missiles-fired-at-medina-intercepted-saudi-coalition-says",
-      "canonicalUrl": "https://france24.com/en/middle-east/20261105-houthi-missiles-fired-at-medina-intercepted-saudi-coalition-says",
-      "sourceName": "France 24",
-      "sourceDomain": "s.france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T11:07:22Z",
-      "imageUrl": "https://s.france24.com/media/display/588b5fc2-d905-11f1-ae23-1beafce15fea/w:1024/p:16x9/000-C4AU2T3.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8b59010e9f401dc12e0f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.13956
-    },
-    {
-      "id": "9944e5ca8774fc5a4383effa",
-      "title": "Un avion de ligne A320 reliant Dublin à Rome a été dérouté vers la base aérienne d'Evreux à la suite d'une alerte à la bombe, annonce Matignon",
-      "translatedTitle": null,
-      "description": "Une dizaine de vols commerciaux en Europe avaient été visés mardi par des alertes à la bombe qui se sont révélées fausses selon les autorités des pays concernés.",
-      "url": "https://www.franceinfo.fr/france/un-avion-de-ligne-a320-reliant-dublin-a-rome-a-ete-deroute-vers-la-base-aerienne-d-evreux-a-la-suite-d-une-alerte-a-la-bombe-annonce-matignon_8268986.html",
-      "canonicalUrl": "https://franceinfo.fr/france/un-avion-de-ligne-a320-reliant-dublin-a-rome-a-ete-deroute-vers-la-base-aerienne-d-evreux-a-la-suite-d-une-alerte-a-la-bombe-annonce-matignon_8268986.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T11:00:20Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/851tGO155cCDN_W-MpG6oVvNpE8/0x53:1024x629/432x243/filters:format(jpg)/2026/11/05/6aec46cea9245232028808.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a78dc474a07256669c87",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "368d1f8e815440625a7052d7",
-          "title": "Alerte à la bombe : l’Airbus A320 reliant Dublin à Rome avec 151 passagers à bord s’est posé à l’aéroport d’Évreux",
-          "translatedTitle": null,
-          "description": "Un vol entre l’Irlande et l’Italie a dû modifier sa trajectoire jeudi 5 novembre pour rejoindre une base militaire française. Les équipes de déminage sont en train d’intervenir sur l’Airbus.",
-          "url": "https://www.lefigaro.fr/international/alerte-a-la-bombe-un-airbus-a320-reliant-dublin-a-rome-deroute-vers-evreux-20261105",
-          "canonicalUrl": "https://lefigaro.fr/international/alerte-a-la-bombe-un-airbus-a320-reliant-dublin-a-rome-deroute-vers-evreux-20261105",
-          "sourceName": "Le Figaro",
-          "sourceDomain": "lefigaro.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-11-05T12:09:12Z",
-          "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/05/8af32377fad022ccc7a9092775a067ddd8a0ab45b65105413cb471c8d63cbe46.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-05T12:18:34Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "a78dc474a07256669c87",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "alerte à la bombe l airbus a320 reliant dublin à rome avec 151 passagers à bord s est posé à l aéroport d évreux"
-        }
-      ],
-      "rankingScore": 7.08619
-    },
-    {
-      "id": "4381edccfdfa41f10707f231",
-      "title": "«Un supplice collectif», «une raclée historique», «coulé comme jamais», le naufrage du RC Lens en Ligue des champions fait le tour de l’Europe",
-      "translatedTitle": null,
-      "description": "REVUE DE PRESSE - La déroute des Nordistes, battus 9-1 à domicile par la séduisante équipe de Côme, est, ce jeudi, largement décryptée.",
-      "url": "https://www.lefigaro.fr/sports/football/ligue-des-champions/ligue-des-champions-un-supplice-collectif-une-raclee-historique-coule-comme-jamais-le-naufrage-du-rc-lens-fait-le-tour-de-l-europe-20261105",
-      "canonicalUrl": "https://lefigaro.fr/sports/football/ligue-des-champions/ligue-des-champions-un-supplice-collectif-une-raclee-historique-coule-comme-jamais-le-naufrage-du-rc-lens-fait-le-tour-de-l-europe-20261105",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T11:32:52Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/1920x1080_crop/2026/11/05/27830a9e53e90e7f4278da35424f1da54d3ca09fba815ddc6fc5aa4c61805e29.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f047b6d82a2761d6e160",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "1294c187c500afcfe8512f27",
-          "title": "Le RC Lens subit « une humiliation » face à Côme en Ligue des champions et poursuit son début de saison tumultueux",
-          "translatedTitle": null,
-          "description": "Les Sang et Or sont devenus la première équipe de l’histoire à concéder neuf buts en Ligue des champions à domicile, mercredi, lors de leur défaite face à la formation italienne (1-9). Cette gifle intervient alors que le club traverse une période compliquée.",
-          "url": "https://www.lemonde.fr/sport/article/2026/11/05/le-rc-lens-subit-une-humiliation-face-a-come-en-ligue-des-champions-et-poursuit-son-debut-de-saison-tumultueux_6806503_3242.html",
-          "canonicalUrl": "https://lemonde.fr/sport/article/2026/11/05/le-rc-lens-subit-une-humiliation-face-a-come-en-ligue-des-champions-et-poursuit-son-debut-de-saison-tumultueux_6806503_3242.html",
-          "sourceName": "Le Monde",
-          "sourceDomain": "lemonde.fr",
-          "sourceCountry": "FR",
-          "editionCountry": "FR",
-          "coverageCountries": [
-            "FR"
-          ],
-          "language": "fr",
-          "publishedAt": "2026-11-04T23:41:50Z",
-          "imageUrl": "https://img.lemde.fr/2026/11/04/217/0/4876/2438/644/322/60/0/dba7151_ftp-1-10wn5m9u7ukg-2026-11-04t220750z-133253979-up1emb41ph05w-rtrmadp-3-soccer-champions-rcl-com.JPG",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-05T00:18:26Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "f047b6d82a2761d6e160",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "rankingScore": 4.91364,
-          "normalizedTitle": "le rc lens subit une humiliation face à côme en ligue des champions et poursuit son début de saison tumultueux",
-          "sourceQuality": 1.0
-        }
-      ],
-      "rankingScore": 7.05877
-    },
-    {
-      "id": "18b7bbc0917e65e69f81e767",
-      "title": "EN DIRECT, midterms 2026 : après avoir misé sur Trump, les milliardaires de la tech dans le viseur des démocrates",
-      "translatedTitle": null,
-      "description": "Avec le contrôle des deux chambres du Congrès, les démocrates disposent de nouveaux moyens pour enquêter sur les grandes entreprises technologiques d’Elon Musk, Jeff Bezos ou Mark Zuckerberg, qui s’étaient rapprochés de Donald Trump, souligne « The Guardian ».",
-      "url": "https://www.lemonde.fr/international/live/2026/11/05/en-direct-midterms-2026-l-influence-de-donald-trump-en-question-apres-la-defaite-de-dizaines-de-candidats-qu-il-soutenait_6805528_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/live/2026/11/05/en-direct-midterms-2026-l-influence-de-donald-trump-en-question-apres-la-defaite-de-dizaines-de-candidats-qu-il-soutenait_6805528_3210.html",
+      "description": "Le vice-président américain, qui a la désignation pour la présidentielle de 2028 en ligne de mire, a estimé, mercredi, que la guerre en Iran, déclenchée par Donald Trump, était la principale explication du raz-de-marée démocrate.",
+      "url": "https://www.lemonde.fr/international/article/2026/11/05/midterms-2026-j-d-vance-contrarie-dans-ses-ambitions-par-la-deroute-de-son-camp-lance-le-debat-interne-chez-les-republicains_6806668_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/article/2026/11/05/midterms-2026-j-d-vance-contrarie-dans-ses-ambitions-par-la-deroute-de-son-camp-lance-le-debat-interne-chez-les-republicains_6806668_3210.html",
       "sourceName": "Le Monde",
       "sourceDomain": "lemonde.fr",
       "sourceCountry": "FR",
@@ -469,12 +318,12 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T09:02:18Z",
-      "imageUrl": "https://img.lemde.fr/2026/10/08/197/0/6000/3000/644/322/60/0/e2f3ddf_ftp-1-8kzvzvtiecnw-2026-10-08t183500z-688717786-rc26znarylv8-rtrmadp-3-usa-trump.JPG",
+      "publishedAt": "2026-11-05T04:00:03Z",
+      "imageUrl": "https://img.lemde.fr/2026/11/04/477/0/5721/2860/644/322/60/0/380680d_ftp-1-tu2lnvfohyn2-afp-d6fc4nq.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
+      "retrievedAt": "2026-11-05T08:18:23Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -482,6 +331,37 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
+        {
+          "id": "18b7bbc0917e65e69f81e767",
+          "title": "EN DIRECT, midterms 2026 : après avoir misé sur Trump, les milliardaires de la tech dans le viseur des démocrates",
+          "translatedTitle": null,
+          "description": "Avec le contrôle des deux chambres du Congrès, les démocrates disposent de nouveaux moyens pour enquêter sur les grandes entreprises technologiques d’Elon Musk, Jeff Bezos ou Mark Zuckerberg, qui s’étaient rapprochés de Donald Trump, souligne « The Guardian ».",
+          "url": "https://www.lemonde.fr/international/live/2026/11/05/en-direct-midterms-2026-l-influence-de-donald-trump-en-question-apres-la-defaite-de-dizaines-de-candidats-qu-il-soutenait_6805528_3210.html",
+          "canonicalUrl": "https://lemonde.fr/international/live/2026/11/05/en-direct-midterms-2026-l-influence-de-donald-trump-en-question-apres-la-defaite-de-dizaines-de-candidats-qu-il-soutenait_6805528_3210.html",
+          "sourceName": "Le Monde",
+          "sourceDomain": "lemonde.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-11-05T09:02:18Z",
+          "imageUrl": "https://img.lemde.fr/2026/10/08/197/0/6000/3000/644/322/60/0/e2f3ddf_ftp-1-8kzvzvtiecnw-2026-10-08t183500z-688717786-rc26znarylv8-rtrmadp-3-usa-trump.JPG",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-05T12:18:33Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e5532f552850f1f9dcdc",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 7.05435,
+          "normalizedTitle": "en direct midterms 2026 après avoir misé sur trump les milliardaires de la tech dans le viseur des démocrates",
+          "sourceQuality": 1.0
+        },
         {
           "id": "afb17c1bcc068e53afc54c36",
           "title": "Une baisse inédite en un an : comment la rémunération des cadres a diminué en 2026",
@@ -573,47 +453,108 @@
           "rankingScore": 8.75135,
           "normalizedTitle": "midterms 2026 après la déroute républicaine l ukraine nourrit le maigre espoir de freiner la dérive américaine en faveur de la russie",
           "sourceQuality": 1.0
-        },
+        }
+      ],
+      "rankingScore": 7.68033
+    },
+    {
+      "id": "9944e5ca8774fc5a4383effa",
+      "title": "Un avion de ligne A320 reliant Dublin à Rome a été dérouté vers la base aérienne d'Evreux à la suite d'une alerte à la bombe, annonce Matignon",
+      "translatedTitle": null,
+      "description": "Une dizaine de vols commerciaux en Europe avaient été visés mardi par des alertes à la bombe qui se sont révélées fausses selon les autorités des pays concernés.",
+      "url": "https://www.franceinfo.fr/france/un-avion-de-ligne-a320-reliant-dublin-a-rome-a-ete-deroute-vers-la-base-aerienne-d-evreux-a-la-suite-d-une-alerte-a-la-bombe-annonce-matignon_8268986.html",
+      "canonicalUrl": "https://franceinfo.fr/france/un-avion-de-ligne-a320-reliant-dublin-a-rome-a-ete-deroute-vers-la-base-aerienne-d-evreux-a-la-suite-d-une-alerte-a-la-bombe-annonce-matignon_8268986.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T14:15:24Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/851tGO155cCDN_W-MpG6oVvNpE8/0x53:1024x629/432x243/filters:format(jpg)/2026/11/05/6aec46cea9245232028808.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ae78d1f4265205329c81",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.00291,
+      "related": [
         {
-          "id": "689df6192d6eb90e4a4b0ff9",
-          "title": "Midterms 2026 : J. D. Vance, contrarié dans ses ambitions par la déroute de son camp, lance le débat interne chez les républicains",
+          "id": "85a6383a8285b715aaae53ea",
+          "title": "Alerte à la bombe : le pilote de l’avion dérouté reliant Dublin à Rome «aurait refusé» de se poser à Évreux, une enquête ouverte",
           "translatedTitle": null,
-          "description": "Le vice-président américain, qui a la désignation pour la présidentielle de 2028 en ligne de mire, a estimé, mercredi, que la guerre en Iran, déclenchée par Donald Trump, était la principale explication du raz-de-marée démocrate.",
-          "url": "https://www.lemonde.fr/international/article/2026/11/05/midterms-2026-j-d-vance-contrarie-dans-ses-ambitions-par-la-deroute-de-son-camp-lance-le-debat-interne-chez-les-republicains_6806668_3210.html",
-          "canonicalUrl": "https://lemonde.fr/international/article/2026/11/05/midterms-2026-j-d-vance-contrarie-dans-ses-ambitions-par-la-deroute-de-son-camp-lance-le-debat-interne-chez-les-republicains_6806668_3210.html",
-          "sourceName": "Le Monde",
-          "sourceDomain": "lemonde.fr",
+          "description": "Une dizaine d’autres avions ont dû être déroutés dans le ciel européen ces derniers jours à la suite de fausses alertes à la bombe.",
+          "url": "https://www.lefigaro.fr/conjoncture/alerte-a-la-bombe-le-pilote-de-l-avion-deroute-reliant-dublin-a-rome-aurait-refuse-de-se-poser-a-evreux-une-enquete-ouverte-20261105",
+          "canonicalUrl": "https://lefigaro.fr/conjoncture/alerte-a-la-bombe-le-pilote-de-l-avion-deroute-reliant-dublin-a-rome-aurait-refuse-de-se-poser-a-evreux-une-enquete-ouverte-20261105",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
           "sourceCountry": "FR",
           "editionCountry": "FR",
           "coverageCountries": [
             "FR"
           ],
           "language": "fr",
-          "publishedAt": "2026-11-05T04:00:03Z",
-          "imageUrl": "https://img.lemde.fr/2026/11/04/477/0/5721/2860/644/322/60/0/380680d_ftp-1-tu2lnvfohyn2-afp-d6fc4nq.jpg",
+          "publishedAt": "2026-11-05T14:03:56Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/11/05/6e1a0e6bbef96cd8827062ee7d3c7300b73f007676e1bc7f5e603f512a056efe.JPG",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-05T08:18:23Z",
+          "retrievedAt": "2026-11-05T16:18:30Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "e5532f552850f1f9dcdc",
+          "clusterId": "ae78d1f4265205329c81",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.15,
-          "normalizedTitle": "midterms 2026 j d vance contrarié dans ses ambitions par la déroute de son camp lance le débat interne chez les républicains"
+          "sourceQuality": 1.0,
+          "normalizedTitle": "alerte à la bombe le pilote de l avion dérouté reliant dublin à rome aurait refusé de se poser à évreux une enquête ouverte"
+        },
+        {
+          "id": "368d1f8e815440625a7052d7",
+          "title": "Alerte à la bombe : l’Airbus A320 reliant Dublin à Rome avec 151 passagers à bord s’est posé à l’aéroport d’Évreux",
+          "translatedTitle": null,
+          "description": "Un vol entre l’Irlande et l’Italie a dû modifier sa trajectoire jeudi 5 novembre pour rejoindre une base militaire française. Les équipes de déminage sont en train d’intervenir sur l’Airbus.",
+          "url": "https://www.lefigaro.fr/international/alerte-a-la-bombe-un-airbus-a320-reliant-dublin-a-rome-deroute-vers-evreux-20261105",
+          "canonicalUrl": "https://lefigaro.fr/international/alerte-a-la-bombe-un-airbus-a320-reliant-dublin-a-rome-deroute-vers-evreux-20261105",
+          "sourceName": "Le Figaro",
+          "sourceDomain": "lefigaro.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-11-05T12:32:32Z",
+          "imageUrl": "https://i.f1g.fr/media/cms/1280x720_crop/2026/11/05/db978a1e235fd93edb625a8e1ba8b5a9279d7785a5fce1a6814c24bbcefa8c12.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-05T16:18:30Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "ae78d1f4265205329c81",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "alerte à la bombe l airbus a320 reliant dublin à rome avec 151 passagers à bord s est posé à l aéroport d évreux"
         }
-      ],
-      "rankingScore": 7.05435
+      ]
     },
     {
-      "id": "6b7dfffa98ba72d2adc09eb1",
-      "title": "EN DIRECT, guerre en Ukraine : le bilan, toujours provisoire, s’élève désormais à 42 morts à Komychouvakha",
+      "id": "18c4c034503781d191034601",
+      "title": "EN DIRECT, guerre en Ukraine : les forces russes progressent à Kostiantynivka, selon DeepState",
       "translatedTitle": null,
-      "description": "Quarante-deux corps ont été extraits des décombres de l’abri bombardé lundi par l’armée russe dans l’oblast de Zaporijia, et 33 pourraient encore s’y trouver, selon la police ukrainienne.",
-      "url": "https://www.lemonde.fr/international/live/2026/11/05/en-direct-guerre-en-ukraine-melania-trump-doit-reunir-jeudi-russes-et-ukrainiens-avant-les-pourparlers-d-abou-dhabi_6803934_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/live/2026/11/05/en-direct-guerre-en-ukraine-melania-trump-doit-reunir-jeudi-russes-et-ukrainiens-avant-les-pourparlers-d-abou-dhabi_6803934_3210.html",
+      "description": "L’armée russe a récemment gagné du terrain dans le nord-ouest de Kostiantynivka, ville située à la pointe méridionale de la « ceinture fortifiée » de l’oblast de Donetsk assiégée depuis un an, selon les analystes ukrainiens de données en sources ouvertes de DeepState.",
+      "url": "https://www.lemonde.fr/international/live/2026/11/05/en-direct-guerre-en-ukraine-l-importation-de-gazole-russe-aux-etats-unis-tourne-court_6803934_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/live/2026/11/05/en-direct-guerre-en-ukraine-l-importation-de-gazole-russe-aux-etats-unis-tourne-court_6803934_3210.html",
       "sourceName": "Le Monde",
       "sourceDomain": "lemonde.fr",
       "sourceCountry": "FR",
@@ -622,8 +563,100 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T08:52:15Z",
-      "imageUrl": "https://img.lemde.fr/2026/11/04/434/0/5212/2606/644/322/60/0/a213714_ftp-1-gm1upqlo9ovr-2026-11-04t163700z-1795715799-rc2zgoaal6jh-rtrmadp-3-ukraine-crisis-attack-zaporizhzhia-region.JPG",
+      "publishedAt": "2026-11-05T12:39:29Z",
+      "imageUrl": "https://img.lemde.fr/2026/11/04/713/0/8553/4276/644/322/60/0/0ab0803_ftp-1-kszxwz7y7mrb-89239cb61cf44b68bccb36011eaacf1a-0-362f4790d93b41e4af0b7ad39b2f6ed1.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5db5e4f1994916ef5906",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.9661
+    },
+    {
+      "id": "4381edccfdfa41f10707f231",
+      "title": "«Un supplice collectif», «une raclée historique», «coulé comme jamais», le naufrage du RC Lens en Ligue des champions fait le tour de l’Europe",
+      "translatedTitle": null,
+      "description": "REVUE DE PRESSE - La déroute des Nordistes, battus 9-1 à domicile par la séduisante équipe de Côme, est, ce jeudi, largement décryptée.",
+      "url": "https://www.lefigaro.fr/sports/football/ligue-des-champions/ligue-des-champions-un-supplice-collectif-une-raclee-historique-coule-comme-jamais-le-naufrage-du-rc-lens-fait-le-tour-de-l-europe-20261105",
+      "canonicalUrl": "https://lefigaro.fr/sports/football/ligue-des-champions/ligue-des-champions-un-supplice-collectif-une-raclee-historique-coule-comme-jamais-le-naufrage-du-rc-lens-fait-le-tour-de-l-europe-20261105",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T11:32:52Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/1920x1080_crop/2026/11/05/27830a9e53e90e7f4278da35424f1da54d3ca09fba815ddc6fc5aa4c61805e29.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T12:18:34Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f047b6d82a2761d6e160",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.63866,
+      "related": [
+        {
+          "id": "1294c187c500afcfe8512f27",
+          "title": "Le RC Lens subit « une humiliation » face à Côme en Ligue des champions et poursuit son début de saison tumultueux",
+          "translatedTitle": null,
+          "description": "Les Sang et Or sont devenus la première équipe de l’histoire à concéder neuf buts en Ligue des champions à domicile, mercredi, lors de leur défaite face à la formation italienne (1-9). Cette gifle intervient alors que le club traverse une période compliquée.",
+          "url": "https://www.lemonde.fr/sport/article/2026/11/05/le-rc-lens-subit-une-humiliation-face-a-come-en-ligue-des-champions-et-poursuit-son-debut-de-saison-tumultueux_6806503_3242.html",
+          "canonicalUrl": "https://lemonde.fr/sport/article/2026/11/05/le-rc-lens-subit-une-humiliation-face-a-come-en-ligue-des-champions-et-poursuit-son-debut-de-saison-tumultueux_6806503_3242.html",
+          "sourceName": "Le Monde",
+          "sourceDomain": "lemonde.fr",
+          "sourceCountry": "FR",
+          "editionCountry": "FR",
+          "coverageCountries": [
+            "FR"
+          ],
+          "language": "fr",
+          "publishedAt": "2026-11-04T23:41:50Z",
+          "imageUrl": "https://img.lemde.fr/2026/11/04/217/0/4876/2438/644/322/60/0/dba7151_ftp-1-10wn5m9u7ukg-2026-11-04t220750z-133253979-up1emb41ph05w-rtrmadp-3-soccer-champions-rcl-com.JPG",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-05T00:18:26Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "f047b6d82a2761d6e160",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 4.91364,
+          "normalizedTitle": "le rc lens subit une humiliation face à côme en ligue des champions et poursuit son début de saison tumultueux",
+          "sourceQuality": 1.0
+        }
+      ]
+    },
+    {
+      "id": "be57248e91bc03618a532170",
+      "title": "Houthi missiles fired at Medina intercepted, Saudi coalition says",
+      "translatedTitle": null,
+      "description": "A ballistic missile fired at the Saudi city of Medina, one of Islam's holiest cities, was intercepted Thursday, a spokesman for the Saudi-led coalition fighting Yemen's Houthi rebels said. The announcement came shortly after the kingdom's civil defence agency warned of potential danger around the strategic port of Yanbu.",
+      "url": "https://www.france24.com/en/middle-east/20261105-houthi-missiles-fired-at-medina-intercepted-saudi-coalition-says",
+      "canonicalUrl": "https://france24.com/en/middle-east/20261105-houthi-missiles-fired-at-medina-intercepted-saudi-coalition-says",
+      "sourceName": "France 24",
+      "sourceDomain": "s.france24.com",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-05T11:07:22Z",
+      "imageUrl": "https://s.france24.com/media/display/588b5fc2-d905-11f1-ae23-1beafce15fea/w:1024/p:16x9/000-C4AU2T3.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
@@ -631,11 +664,11 @@
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "13f6042d287bc5c41bf2",
+      "clusterId": "8b59010e9f401dc12e0f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.98736
+      "rankingScore": 6.54925,
+      "related": []
     },
     {
       "id": "558185de6a043a079dfde893",
@@ -664,26 +697,26 @@
       "clusterId": "f990288e052f1bafc8d2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.9246
+      "rankingScore": 6.37712,
+      "related": []
     },
     {
-      "id": "4772781ba677e3799eb1af88",
-      "title": "Deux pétroliers et un remorqueur ont pris feu dans le détroit d'Ormuz, annonce l'Iran",
+      "id": "6b7dfffa98ba72d2adc09eb1",
+      "title": "EN DIRECT, guerre en Ukraine : le bilan, toujours provisoire, s’élève désormais à 42 morts à Komychouvakha",
       "translatedTitle": null,
-      "description": "Depuis le début du conflit, Téhéran verrouille ce passage maritime et cible régulièrement des navires qui tentent de le traverser sans son autorisation. Washington impose en retour un blocus des ports iraniens.",
-      "url": "https://www.franceinfo.fr/monde/iran/crise-dans-le-detroit-d-ormuz/deux-petroliers-et-un-remorqueur-ont-pris-feu-dans-le-detroit-d-ormuz-annonce-l-iran_8268932.html",
-      "canonicalUrl": "https://franceinfo.fr/monde/iran/crise-dans-le-detroit-d-ormuz/deux-petroliers-et-un-remorqueur-ont-pris-feu-dans-le-detroit-d-ormuz-annonce-l-iran_8268932.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
+      "description": "Quarante-deux corps ont été extraits des décombres de l’abri bombardé lundi par l’armée russe dans l’oblast de Zaporijia, et 33 pourraient encore s’y trouver, selon la police ukrainienne.",
+      "url": "https://www.lemonde.fr/international/live/2026/11/05/en-direct-guerre-en-ukraine-melania-trump-doit-reunir-jeudi-russes-et-ukrainiens-avant-les-pourparlers-d-abou-dhabi_6803934_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/live/2026/11/05/en-direct-guerre-en-ukraine-melania-trump-doit-reunir-jeudi-russes-et-ukrainiens-avant-les-pourparlers-d-abou-dhabi_6803934_3210.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T08:10:06Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/GgIyyFVxZ2Ez6HcrczU_6y4mgHI/0x53:1024x629/432x243/filters:format(jpg)/2026/11/05/6aec3535866f5086243687.jpg",
+      "publishedAt": "2026-11-05T08:52:15Z",
+      "imageUrl": "https://img.lemde.fr/2026/11/04/434/0/5212/2606/644/322/60/0/a213714_ftp-1-gm1upqlo9ovr-2026-11-04t163700z-1795715799-rc2zgoaal6jh-rtrmadp-3-ukraine-crisis-attack-zaporizhzhia-region.JPG",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
@@ -691,10 +724,10 @@
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c223f67faee36fe3e678",
+      "clusterId": "13f6042d287bc5c41bf2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.7378,
+      "rankingScore": 6.3553,
       "related": []
     },
     {
@@ -724,37 +757,7 @@
       "clusterId": "8a13a98b5f784bc478d6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.57837,
-      "related": []
-    },
-    {
-      "id": "90cec2403b23bea7fb9696c9",
-      "title": "\"The Legend of Zelda : Ocarina of Time\", \"World of Warcraft : Forever\"… Pourquoi l'industrie du jeu vidéo mise-t-elle autant sur ses succès du passé ?",
-      "translatedTitle": null,
-      "description": "Entre nostalgie et sécurité financière, les remakes de jeux vidéo cultes s'imposent comme des leviers stratégiques pour les grands éditeurs. Les sorties \"The Legend of Zelda : Ocarina of Time\" et \"World of Warcraft : Forever\", jeudi, confirment cette tendance.",
-      "url": "https://www.franceinfo.fr/culture/jeux-video/the-legend-of-zelda-ocarina-of-time-world-of-warcraft-forever-pourquoi-l-industrie-du-jeu-video-mise-t-elle-autant-sur-ses-succes-du-passe_8267486.html",
-      "canonicalUrl": "https://franceinfo.fr/culture/jeux-video/the-legend-of-zelda-ocarina-of-time-world-of-warcraft-forever-pourquoi-l-industrie-du-jeu-video-mise-t-elle-autant-sur-ses-succes-du-passe_8267486.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T05:04:48Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/psBWJeB2IU7lAlkb7l5kLJqS4oA/377x0:994x346/432x243/filters:format(jpg)/2026/11/04/6aeb422f5e0ac110690844.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2a53800cf1ff6fa57b09",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.46224,
+      "rankingScore": 6.09986,
       "related": []
     },
     {
@@ -784,8 +787,188 @@
       "clusterId": "7a75f8bfcb8992a6d532",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.28693,
+      "rankingScore": 6.01062,
       "related": []
+    },
+    {
+      "id": "a4981af5cd4f95d9dd3eb302",
+      "title": "Israël : les deux principales listes arabes soutiennent Gadi Eisenkot pour former le prochain gouvernement",
+      "translatedTitle": null,
+      "description": "Leur ralliement donnerait sur le papier une majorité de 67 sièges au rival de Benyamin Nétanyahou, mais plusieurs dirigeants de l’opposition refusent de gouverner avec les formations arabes.",
+      "url": "https://www.lemonde.fr/international/article/2026/11/05/israel-les-deux-principales-listes-arabes-soutiennent-gadi-eisenkot-pour-former-le-prochain-gouvernement_6807111_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/article/2026/11/05/israel-les-deux-principales-listes-arabes-soutiennent-gadi-eisenkot-pour-former-le-prochain-gouvernement_6807111_3210.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T16:09:09Z",
+      "imageUrl": "https://img.lemde.fr/2026/10/20/1147/0/6160/3080/644/322/60/0/2569bc2_upload-1-0pbbnwhim6j4-ll-taibeh-meeting-tibi-12.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "afd9d382a0b17ac23c17",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.00093
+    },
+    {
+      "id": "55efdefb7006a8687f5e4197",
+      "title": "Le ténor star Roberto Alagna et la soprano américaine Ailyn Pérez ressuscitent « Manon Lescaut » de Puccini à Paris",
+      "translatedTitle": null,
+      "description": "Le premier grand succès du compositeur italien est interprété par un Orchestre national de France incandescent dirigé, par le chef Lorenzo Passerini, au Théâtre des Champs-Elysées. Une première dans la capitale depuis 30 ans.",
+      "url": "https://www.lemonde.fr/culture/article/2026/11/05/le-tenor-star-roberto-alagna-et-la-soprano-americaine-ailyn-perez-ressuscitent-manon-lescaut-de-puccini-a-paris_6807077_3246.html",
+      "canonicalUrl": "https://lemonde.fr/culture/article/2026/11/05/le-tenor-star-roberto-alagna-et-la-soprano-americaine-ailyn-perez-ressuscitent-manon-lescaut-de-puccini-a-paris_6807077_3246.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T16:00:13Z",
+      "imageUrl": "https://img.lemde.fr/2026/11/04/968/0/2136/1068/644/322/60/0/ee08f6a_upload-1-uqiapcncubbv-20261026-074vp.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "70beffd34d35a9f65ecc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.98297
+    },
+    {
+      "id": "9e5b94321cc2bbd8bba2830d",
+      "title": "Cristiano Ronaldo prend sa retraite internationale, triste fin d’une histoire qui a un peu trop duré",
+      "translatedTitle": null,
+      "description": "Le footballeur portugais a annoncé qu’il raccrochait les crampons en sélection, jeudi, dans une vidéo publiée sur Instagram. Véritable légende dans son pays, il part sur un coup d’éclat et une séparation précipitée de la Seleçao das Quinas, le 30 septembre.",
+      "url": "https://www.lemonde.fr/sport/article/2026/11/05/cristiano-ronaldo-prend-sa-retraite-internationale-triste-fin-d-une-histoire-qui-a-un-peu-trop-dure_6807075_3242.html",
+      "canonicalUrl": "https://lemonde.fr/sport/article/2026/11/05/cristiano-ronaldo-prend-sa-retraite-internationale-triste-fin-d-une-histoire-qui-a-un-peu-trop-dure_6807075_3242.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T15:50:55Z",
+      "imageUrl": "https://img.lemde.fr/2026/11/05/409/0/3500/1750/644/322/60/0/3f6698e_ftp-1-ov962emzhydf-afp-d6hz8cq.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "367f20c52e27245e6383",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.96442
+    },
+    {
+      "id": "2022572b074ef4247096a8ea",
+      "title": "Dépenses du gouvernement : une étude relève « l’opacité » des rémunérations dans les cabinets ministériels",
+      "translatedTitle": null,
+      "description": "Dans une note pour l’Observatoire de l’éthique publique, qu’il préside, l’ancien député René Dosière évalue le « coût du gouvernement Lecornu » à 165,7 millions d’euros en année pleine, soit moins d’un millième des dépenses publiques.",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/05/depenses-du-gouvernement-une-etude-releve-l-opacite-des-remunerations-dans-les-cabinets-ministeriels_6807040_823448.html",
+      "canonicalUrl": "https://lemonde.fr/politique/article/2026/11/05/depenses-du-gouvernement-une-etude-releve-l-opacite-des-remunerations-dans-les-cabinets-ministeriels_6807040_823448.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T15:38:58Z",
+      "imageUrl": "https://img.lemde.fr/2026/10/22/1317/0/5000/2500/644/322/60/0/8778024_upload-1-4eunxfupg20i-kzihnioglu-pol-edouard-geffray-20102026-39.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "75b503edd7ea2d84d8cd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.94082
+    },
+    {
+      "id": "a780a8643d14c3efeafd9507",
+      "title": "Rénovation des lycées : la liste du gouvernement contestée par les régions, qui dénoncent une méthode « inacceptable »",
+      "translatedTitle": null,
+      "description": "Lundi, le ministre de l’éducation nationale, Edouard Geffray, a annoncé que la plateforme de concertation avait permis d’identifier 200 bâtiments à rénover en priorité, se félicitant que, « pour la première fois, les lycéens ont un effet sur leur vie ».",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/05/renovation-des-lycees-la-liste-du-gouvernement-contestee-par-les-regions-qui-denoncent-une-methode-inacceptable_6807039_3224.html",
+      "canonicalUrl": "https://lemonde.fr/societe/article/2026/11/05/renovation-des-lycees-la-liste-du-gouvernement-contestee-par-les-regions-qui-denoncent-une-methode-inacceptable_6807039_3224.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T15:36:56Z",
+      "imageUrl": "https://img.lemde.fr/2026/10/21/408/0/8256/4128/644/322/60/0/36734c4_upload-1-sjtcmlnfltht-lycee-sembat-venissieux-015.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ed4acfdcd85e66458daa",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.93684
+    },
+    {
+      "id": "cf63c4b527ba39e23aab42a1",
+      "title": "De quoi parle l’extrême droite lorsqu’elle utilise le terme « remigration » ?",
+      "translatedTitle": null,
+      "description": "Le week-end du 31 octobre, des tags « Remigration » ont été découverts dans des rues de Paris, en marge d’un colloque et d’une manifestation sur ce thème, qui ont été annulés par arrêtés préfectoraux.",
+      "url": "https://www.lemonde.fr/videos/video/2026/11/05/de-quoi-parle-l-extreme-droite-lorsqu-elle-utilise-le-terme-remigration_6807006_1669088.html",
+      "canonicalUrl": "https://lemonde.fr/videos/video/2026/11/05/de-quoi-parle-l-extreme-droite-lorsqu-elle-utilise-le-terme-remigration_6807006_1669088.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T15:30:08Z",
+      "imageUrl": "https://img.lemde.fr/2026/11/05/84/0/1024/512/644/322/60/0/e7629ea_upload-1-0ei6sqfskylp-000-68ll89e.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4ef9032eea5f1af005a9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.92355
     },
     {
       "id": "30d71ba3c3eba03d9f9ce05a",
@@ -814,7 +997,127 @@
       "clusterId": "1e1d1a139eb5ad4db98b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.16124,
+      "rankingScore": 5.90997,
+      "related": []
+    },
+    {
+      "id": "4a883d0ed958dd814251ceff",
+      "title": "Présidentielle 2027 : la majorité du groupe communiste à l'Assemblée apporte son soutien à Jean-Luc Mélenchon plutôt qu'à Fabien Roussel",
+      "translatedTitle": null,
+      "description": "Neuf des 17 élus du groupe communiste et ultramarin ont choisi de rallier le candidat insoumis, aux dépens du candidat de leur propre parti.",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-la-majorite-du-groupe-communiste-a-l-assemblee-apporte-son-soutien-a-jean-luc-melenchon-plutot-qu-a-fabien-roussel_8269403.html",
+      "canonicalUrl": "https://franceinfo.fr/elections/presidentielle/presidentielle-2027-la-majorite-du-groupe-communiste-a-l-assemblee-apporte-son-soutien-a-jean-luc-melenchon-plutot-qu-a-fabien-roussel_8269403.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T15:03:46Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/dWcyeIz5suFkqpdQrWLxwwNPBkk/0x315:6048x3717/432x243/filters:format(jpg)/2026/11/05/6aec928d5baab981644490.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d8b1985ed9762170615a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.87282,
+      "related": []
+    },
+    {
+      "id": "0ad28c233d4b9623b64d0a52",
+      "title": "La ministre des affaires étrangères yéménite, en visite à Paris, demande à l’UE d’ajouter les houthistes à sa liste des organisations terroristes",
+      "translatedTitle": null,
+      "description": "Afrah Abdulaziz Al-Zouba, représentante du gouvernement reconnu par la communauté internationale, va aussi plaider pour désigner le groupe yéménite comme organisation terroriste en Allemagne, en Belgique, aux Pays-Bas, en Italie et en Grèce. Mais les Européens craignent d’exposer davantage leurs bateaux en mer Rouge.",
+      "url": "https://www.lemonde.fr/international/article/2026/11/05/la-ministre-des-affaires-etrangeres-yemenite-en-visite-a-paris-demande-a-l-ue-d-ajouter-les-houthistes-a-sa-liste-des-organisations-terroristes_6806971_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/article/2026/11/05/la-ministre-des-affaires-etrangeres-yemenite-en-visite-a-paris-demande-a-l-ue-d-ajouter-les-houthistes-a-sa-liste-des-organisations-terroristes_6806971_3210.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T14:45:05Z",
+      "imageUrl": "https://img.lemde.fr/2026/10/31/241/0/7986/3993/644/322/60/0/5456b8d_ftp-1-ochdyaco31gg-afp-d4ze3t3.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "067533ca8b4473f7281e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.83761
+    },
+    {
+      "id": "66382001326194f76724381d",
+      "title": "Pourquoi le « Ring » de Richard Wagner continue de fasciner les foules, 150 ans après sa création",
+      "translatedTitle": null,
+      "description": "La « Tétralogie » créée en 1876, est jouée en novembre à l’Opéra de Paris. Une œuvre hors normes par sa richesse et son ampleur, qui représente un défi à monter en intégralité.",
+      "url": "https://www.lemonde.fr/culture/article/2026/11/05/pourquoi-le-ring-de-richard-wagner-continue-de-fasciner-les-foules-150-ans-apres-sa-creation_6806970_3246.html",
+      "canonicalUrl": "https://lemonde.fr/culture/article/2026/11/05/pourquoi-le-ring-de-richard-wagner-continue-de-fasciner-les-foules-150-ans-apres-sa-creation_6806970_3246.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T14:44:51Z",
+      "imageUrl": "https://img.lemde.fr/2026/11/03/475/0/5000/2500/644/322/60/0/f4a096f_upload-1-yzzivgzzafja-31714-herwig-prammer-onp-l-or-du-rhin-evenement-ring-2026-herwig-prammer-onp-14.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "866a21c9cc190a35f8cb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.83717
+    },
+    {
+      "id": "97dc29da8be622889fb9757b",
+      "title": "Mobilisation du 5 novembre : Sébastien Lecornu annonce la réunion lundi à Matignon d'une \"conférence sociale\" avec les syndicats et le patronat",
+      "translatedTitle": null,
+      "description": "Le chef du gouvernement annonce la tenue de cette rencontre alors que la journée de mobilisation sociale du 5 novembre a été très suivie dans toute la France.",
+      "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html",
+      "canonicalUrl": "https://franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T16:11:42Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/ewHexr2rPJHeQwHddmIJNLDCRGo/0x428:8192x5036/432x243/filters:format(jpg)/2026/11/05/6aeca2dc85535486343593.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "01a2c3391b7bdf639e94",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.82609,
       "related": []
     },
     {
@@ -844,166 +1147,16 @@
       "clusterId": "0661cd528a905ab2c71a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.0486,
+      "rankingScore": 5.81977,
       "related": []
     },
     {
-      "id": "924df938e2ff4f3cd6cc71d9",
-      "title": "En Ile-de-France, le nombre de locations Airbnb « à l’année » a atteint un record en 2025",
-      "translatedTitle": null,
-      "description": "L’année 2025 a battu les records de 2024, avec les Jeux olympiques, en termes de nuitées réservées en Ile-de-France (16,7 millions) et de taux de remplissage",
-      "url": "https://www.lemonde.fr/economie/article/2026/11/05/en-ile-de-france-le-nombre-de-locations-airbnb-a-l-annee-a-atteint-un-record-en-2025_6806858_3234.html",
-      "canonicalUrl": "https://lemonde.fr/economie/article/2026/11/05/en-ile-de-france-le-nombre-de-locations-airbnb-a-l-annee-a-atteint-un-record-en-2025_6806858_3234.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T11:35:37Z",
-      "imageUrl": "https://img.lemde.fr/2021/02/19/0/6/5037/2515/644/322/60/0/8bad65e_267622375-488970.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7b1be8383cc59a997d9b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.93415
-    },
-    {
-      "id": "5e201a5eebffa45a4494a017",
-      "title": "Alan Jones, dernier champion du monde australien de formule 1 et premier sacré avec l’écurie Williams, est mort",
-      "translatedTitle": null,
-      "description": "Le pilote australien est décédé des suites d’une courte maladie, jeudi, à 80 ans. Il avait été sacré champion du monde de formule 1 avec l’écurie britannique, en 1980.",
-      "url": "https://www.lemonde.fr/disparitions/article/2026/11/05/alan-jones-dernier-champion-du-monde-australien-de-formule-1-et-premier-sacre-avec-l-ecurie-williams-est-mort_6806857_3382.html",
-      "canonicalUrl": "https://lemonde.fr/disparitions/article/2026/11/05/alan-jones-dernier-champion-du-monde-australien-de-formule-1-et-premier-sacre-avec-l-ecurie-williams-est-mort_6806857_3382.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T11:33:16Z",
-      "imageUrl": "https://img.lemde.fr/2026/11/05/744/0/1625/812/644/322/60/0/4b731fd_upload-1-3svcnpnabjra-000-sapa990508490520.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6b406dbfae8690a7a201",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.92955
-    },
-    {
-      "id": "4e43a61c8afc1d35809ff4d1",
-      "title": "Route du Rhum 2026: Sailors forced to abandon race for various reasons",
-      "translatedTitle": null,
-      "description": "The 2026 Route du Rhum is continuing to deliver one setback after another since Sunday’s start in Saint-Malo. From boats capsizing to sailors being forced to abandon the race, the favourites are dropping out one by one. But how do so many boats suffer damage so early in the race?",
-      "url": "https://www.france24.com/en/video/20261105-route-du-rhum-2026-sailors-forced-to-abandon-race-for-various-reasons",
-      "canonicalUrl": "https://france24.com/en/video/20261105-route-du-rhum-2026-sailors-forced-to-abandon-race-for-various-reasons",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T11:25:52Z",
-      "imageUrl": "https://s.france24.com/media/display/4b151f82-d909-11f1-836c-695cb59fade5/w:1024/p:16x9/capture-18803d7e.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d163eb443f25b10e6c4e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.82515
-    },
-    {
-      "id": "42b371ee1cb50112366229fd",
-      "title": "Violences conjugales : 285 000 victimes enregistrées en 2025, dont 84 % de femmes",
-      "translatedTitle": null,
-      "description": "Ce chiffre est en hausse de 5 % par rapport à l’année précédente, précise le ministère de l’intérieur. Comme chaque année, l’immense majorité des mis en cause (85 %) sont des hommes.",
-      "url": "https://www.lemonde.fr/societe/article/2026/11/05/violences-conjugales-285-000-victimes-enregistrees-en-2025-dont-84-de-femmes_6806852_3224.html",
-      "canonicalUrl": "https://lemonde.fr/societe/article/2026/11/05/violences-conjugales-285-000-victimes-enregistrees-en-2025-dont-84-de-femmes_6806852_3224.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T10:34:58Z",
-      "imageUrl": "https://img.lemde.fr/2026/10/05/500/0/6000/3000/644/322/60/0/0265e10_ftp-1-udpm4pm5pmvs-5273920-01-06.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5bce1554b12e52d87fc4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.81869
-    },
-    {
-      "id": "1a9849bea66ea9a3e71ca8d8",
-      "title": "Attentat à l'explosif contre les locaux de la Corsica Linea à Ajaccio",
-      "translatedTitle": null,
-      "description": "Une charge explosive a endommagé la façade des bureaux de la compagnie maritime Corsica Linea dans la nuit de ce 5 novembre 2026 à Ajaccio.",
-      "url": "https://france3-regions.franceinfo.fr/corse/explosion-devant-les-locaux-de-la-corsica-linea-a-ajaccio-3444660.html",
-      "canonicalUrl": "https://france3-regions.franceinfo.fr/corse/explosion-devant-les-locaux-de-la-corsica-linea-a-ajaccio-3444660.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "france3-regions.franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T11:53:26Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/DPzAD49dQW7GIHX0zCsQqWAPN-M/432x243/filters:format(jpg)/2026/11/05/6aec2986614bf689436530.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d8cd6533501452cf7873",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.78931
-    },
-    {
-      "id": "437aecf896bc9368c9593ab6",
-      "title": "Douze vols visés en Europe par des alertes à la bombe",
+      "id": "3f12ebc419b892e60b6d9009",
+      "title": "Ce que l’on sait des alertes à la bombe qui ont perturbé le trafic aérien en Europe",
       "translatedTitle": null,
       "description": "A midi jeudi, douze vols avaient été visés par des alertes à la bombe, ont signalé plusieurs autorités et compagnies. Tous les vols se sont posés en sécurité, ont-elles confirmé.",
-      "url": "https://www.lemonde.fr/international/article/2026/11/05/alertes-a-la-bombe-un-a320-reliant-dublin-a-rome-s-est-pose-en-securite-a-evreux-des-incidents-similaires-se-succedent-en-europe_6806848_3210.html",
-      "canonicalUrl": "https://lemonde.fr/international/article/2026/11/05/alertes-a-la-bombe-un-a320-reliant-dublin-a-rome-s-est-pose-en-securite-a-evreux-des-incidents-similaires-se-succedent-en-europe_6806848_3210.html",
+      "url": "https://www.lemonde.fr/international/article/2026/11/05/ce-que-l-on-sait-des-alertes-a-la-bombe-qui-ont-perturbe-le-trafic-aerien-en-europe_6806848_3211.html",
+      "canonicalUrl": "https://lemonde.fr/international/article/2026/11/05/ce-que-l-on-sait-des-alertes-a-la-bombe-qui-ont-perturbe-le-trafic-aerien-en-europe_6806848_3211.html",
       "sourceName": "Le Monde",
       "sourceDomain": "lemonde.fr",
       "sourceCountry": "FR",
@@ -1012,28 +1165,58 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T10:17:01Z",
+      "publishedAt": "2026-11-05T14:29:48Z",
       "imageUrl": "https://img.lemde.fr/2026/11/05/500/0/6000/3000/644/322/60/0/122c55e_upload-1-wfnnenxqgf1u-2023-07-30t202104z-737710034-rc2sd2a5pi79-rtrmadp-3-ireland-air-show.JPG",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1812cebc5b814131e1b2",
+      "clusterId": "ef3208db21dba938db90",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.78575
+      "rankingScore": 5.80926
     },
     {
-      "id": "e0659d7cb9be03d008457b92",
-      "title": "Manifestations du 5 novembre : 33% des établissements d'enseignement supérieur perturbés, selon le ministère de l'Enseignement supérieur",
+      "id": "5fbf41fda9ebb0476ee78727",
+      "title": "Midterms 2026 : l’argent d’Elon Musk n’a pas suffi à garder le Texas dans le giron républicain",
       "translatedTitle": null,
-      "description": "L'Union étudiante, elle, revendique 90% d'universités \"mobilisées\", qu'elles soient bloquées, fermées administrativement ou qu'elles aient mis en place des dispenses d'assiduité.",
-      "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html",
-      "canonicalUrl": "https://franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html",
+      "description": "L’homme le plus riche du monde a engagé près d’un demi-milliard de dollars dans l’espoir de stopper la vague démocrate, en vain. Les sommes dépensées en politique aux Etats-Unis n’ont cessé d’enfler depuis 2010 mais elles ne suffisent pas toujours à peser sur le vote et ce ne sont pas systématiquement les républicains qui dépensent le plus.",
+      "url": "https://www.lemonde.fr/international/article/2026/11/05/midterms-2026-l-argent-d-elon-musk-n-a-pas-suffi-a-garder-le-texas-dans-le-giron-republicain_6806937_3210.html",
+      "canonicalUrl": "https://lemonde.fr/international/article/2026/11/05/midterms-2026-l-argent-d-elon-musk-n-a-pas-suffi-a-garder-le-texas-dans-le-giron-republicain_6806937_3210.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T14:21:11Z",
+      "imageUrl": "https://img.lemde.fr/2026/10/30/112/0/5596/2798/644/322/60/0/732dde9_ftp-1-dxpms52gndze-2026-10-30t215532z-1178285805-rc26znapdxon-rtrmadp-3-spacex-trump-accounts-shotwell.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cb55a363d711f2ec898c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.79345
+    },
+    {
+      "id": "415ac6ee9695b543d413c233",
+      "title": "Ce que l'on sait des alertes à la bombe qui ont visé douze vols européens jeudi",
+      "translatedTitle": null,
+      "description": "Tous les appareils se sont posés en sécurité. On ne connaît pour l'heure ni l'origine ni les motivations de ces fausses alertes.",
+      "url": "https://www.franceinfo.fr/economie/transports/ce-que-l-on-sait-des-alertes-a-la-bombe-qui-ont-vise-douze-vols-europeens-jeudi_8269349.html",
+      "canonicalUrl": "https://franceinfo.fr/economie/transports/ce-que-l-on-sait-des-alertes-a-la-bombe-qui-ont-vise-douze-vols-europeens-jeudi_8269349.html",
       "sourceName": "Franceinfo",
       "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
@@ -1042,28 +1225,28 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T11:51:30Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/n_qCBnxDrUdUrF4-5IJojYZ_tCE/0x258:4970x3054/432x243/filters:format(jpg)/2026/11/05/6aec53ee376dc202891832.jpg",
+      "publishedAt": "2026-11-05T15:39:50Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/hHtEXv_Kuj35L4rVWvQ86QjZQaw/0x66:1024x642/432x243/filters:format(jpg)/2026/11/05/6aec93e549e61077072145.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ab0b7fb256f950da11ae",
+      "clusterId": "888dd437ebc13c29bb04",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.78547,
-      "related": []
+      "related": [],
+      "rankingScore": 5.76253
     },
     {
-      "id": "aff882028403e5f8cf52728a",
-      "title": "Spoliations : la justice ordonne la restitution d'un tableau de Pissarro aux descendants d'un collectionneur",
+      "id": "41d6054028c2eff9bacb2900",
+      "title": "Le braqueur français Antonio Ferrara a été condamné à 13 ans de prisonen Belgique",
       "translatedTitle": null,
-      "description": "L'œuvre du peintre impressionniste est apparue pour la dernière fois lors d'une vente à Londres en 2024.",
-      "url": "https://www.franceinfo.fr/culture/arts-expos/peinture/spoliations-la-justice-ordonne-la-restitution-d-un-tableau-de-pissarro-aux-descendants-d-un-collectionneur_8269241.html",
-      "canonicalUrl": "https://franceinfo.fr/culture/arts-expos/peinture/spoliations-la-justice-ordonne-la-restitution-d-un-tableau-de-pissarro-aux-descendants-d-un-collectionneur_8269241.html",
+      "description": "Il était jugé pour un projet d'attaque à main armée à Bochum (Allemagne), début 2025.",
+      "url": "https://www.franceinfo.fr/societe/justice/le-braqueur-francais-antonio-ferrara-a-ete-condamne-en-belgique-a-13-ans-de-prison_8269508.html",
+      "canonicalUrl": "https://franceinfo.fr/societe/justice/le-braqueur-francais-antonio-ferrara-a-ete-condamne-en-belgique-a-13-ans-de-prison_8269508.html",
       "sourceName": "Franceinfo",
       "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
@@ -1072,28 +1255,28 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T11:46:14Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/cCLB14ZEBftL6sRzZxdiQLmBSoY/0x98:2200x1335/432x243/filters:format(jpg)/2026/11/05/6aec6a217918d515455486.jpg",
+      "publishedAt": "2026-11-05T15:35:33Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/BBmBuSMYQJ3DLJNtcL8umnEWlMI/0x337:6498x3993/432x243/filters:format(jpg)/2026/11/05/6aeca1e3cb834885999662.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "aab82256a7a18e652af2",
+      "clusterId": "5bfd308ea509cbcddd91",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.77503
+      "rankingScore": 5.75413
     },
     {
-      "id": "39e318b00f643a37d6367741",
-      "title": "Un lycée de Tournefeuille, près de Toulouse, touché par un incendie après l'irruption d'individus munis de mortiers d'artifice",
+      "id": "7e316c96d271cf111e00ed41",
+      "title": "\"Quelle fin de règne interminable\" : pourquoi aucun député, même parmi les macronistes, n'a voté en faveur de la première partie du budget",
       "translatedTitle": null,
-      "description": "\"Cet acte était une volonté de brûler l'ensemble de l'établissement\", a dénoncé le vice-président PS de la région Occitanie, Kamel Chibli.",
-      "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/un-lycee-de-tournefeuille-pres-de-toulouse-touche-par-un-incendie-apres-l-irruption-d-individus-munis-de-mortiers-d-artifice_8269217.html",
-      "canonicalUrl": "https://franceinfo.fr/societe/education/blocage-des-lycees/un-lycee-de-tournefeuille-pres-de-toulouse-touche-par-un-incendie-apres-l-irruption-d-individus-munis-de-mortiers-d-artifice_8269217.html",
+      "description": "L'Assemblée nationale a rejeté mercredi en première lecture la partie recettes du projet de loi de finances. Tous les élus, y compris des groupes macronistes, ont voté contre le texte. Une première dans l'histoire parlementaire.",
+      "url": "https://www.franceinfo.fr/economie/budget/quelle-fin-de-regne-interminable-pourquoi-aucun-depute-meme-parmi-les-macronistes-n-a-vote-en-faveur-de-la-premiere-partie-du-budget_8268995.html",
+      "canonicalUrl": "https://franceinfo.fr/economie/budget/quelle-fin-de-regne-interminable-pourquoi-aucun-depute-meme-parmi-les-macronistes-n-a-vote-en-faveur-de-la-premiere-partie-du-budget_8268995.html",
       "sourceName": "Franceinfo",
       "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
@@ -1102,56 +1285,26 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T11:39:11Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/y_B0brTSjwKetDw_6MK2c0-Q_rE/432x243/filters:format(jpg)/2026/11/05/6aec4aa26e33e371411987.png",
+      "publishedAt": "2026-11-05T15:32:35Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/vL7MIV9-_VgwoBD4xzuQDOWEAqQ/0x0:8192x4608/432x243/filters:format(jpg)/2026/11/05/6aec808f96540003948984.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "cba7fb8ddcfd5964029f",
+      "clusterId": "11345c3f602861753011",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.76114
+      "rankingScore": 5.74833
     },
     {
-      "id": "64b8a0bade433608cbdc64e9",
-      "title": "Football legend Cristiano Ronaldo announces international retirement",
+      "id": "a2a323dce8185e684314c280",
+      "title": "EN DIRECT - Grève du 5 novembre : près de 600.000 manifestants partout en France à 17 heures, Raphaël Glucksmann pris à partie à Paris",
       "translatedTitle": null,
-      "description": "Portuguese football legend Cristiano Ronaldo announced on Thursday that he was retiring from international football. This is a breaking news story, more details to come.",
-      "url": "https://www.france24.com/en/sport/20261105-football-legend-cristiano-ronaldo-announces-international-retirement",
-      "canonicalUrl": "https://france24.com/en/sport/20261105-football-legend-cristiano-ronaldo-announces-international-retirement",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T10:48:42Z",
-      "imageUrl": "https://s.france24.com/media/display/a852fd72-c4af-11f1-9559-29a2e29ae696/w:1024/p:16x9/AP26272841554245.jpg",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a15bee1a54c534cd8864",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.75427
-    },
-    {
-      "id": "67561a0866e93c7d52b39419",
-      "title": "EN DIRECT - Grève du 5 novembre : «plus de 250.000 manifestants» dans 73 villes à mi-journée selon la CGT, un professeur agressé à Paris",
-      "translatedTitle": null,
-      "description": "Des lycéens et étudiants étaient une nouvelle fois mobilisés jeudi matin pour dénoncer le manque de moyens dans l’Éducation nationale, alors que des manifestations sont prévues dans la journée partout en France contre la vie chère.",
+      "description": "Des lycéens et étudiants sont une nouvelle fois mobilisés ce jeudi pour dénoncer le manque de moyens dans l’Éducation nationale, alors que des manifestations sont prévues dans la journée partout en France contre la vie chère.",
       "url": "https://www.lefigaro.fr/actualite-france/en-direct-greve-du-5-novembre-la-grogne-sociale-monte-d-un-cran-jusqu-a-700-000-manifestants-attendus-dans-les-rues-20261105",
       "canonicalUrl": "https://lefigaro.fr/actualite-france/en-direct-greve-du-5-novembre-la-grogne-sociale-monte-d-un-cran-jusqu-a-700-000-manifestants-attendus-dans-les-rues-20261105",
       "sourceName": "Le Figaro",
@@ -1162,28 +1315,28 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T12:18:06Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/11/05/5487d46092d9418ef5ae9e9c5813c34bd17cea7e4de18116409961ed9ab386e0.jpg",
+      "publishedAt": "2026-11-05T16:17:04Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/05/737f6ea863bc7589a2a7205c8a2918d56c4380117f5a7e8fca17994ebd61fa31.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:34Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "bea5885678fda2277d14",
+      "clusterId": "fa40757b4011bf82218d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.74897,
+      "rankingScore": 5.74698,
       "related": []
     },
     {
-      "id": "381bb999d5f367df0aba6927",
-      "title": "Meurtre de Thomas : «Le racisme anti-Blancs a tué à Crépol», estime Édouard Philippe",
+      "id": "f8e5a73602033e96bd80d95c",
+      "title": "Doubs : un instructeur d’école de police visé par une enquête pour harcèlement moral et sexuel à Montbéliard",
       "translatedTitle": null,
-      "description": "En déplacement dans le Nord, l’ancien premier ministre a déclaré mercredi que «le racisme, quel qu’il soit, tue».",
-      "url": "https://www.lefigaro.fr/elections/presidentielles/meurtre-de-thomas-le-racisme-anti-blancs-a-tue-a-crepol-estime-edouard-philippe-20261105",
-      "canonicalUrl": "https://lefigaro.fr/elections/presidentielles/meurtre-de-thomas-le-racisme-anti-blancs-a-tue-a-crepol-estime-edouard-philippe-20261105",
+      "description": "Sept hommes et femmes d’une vingtaine d’années ont déposé plainte les 15 et 16 octobre auprès du commissariat à l’encontre d’un brigadier-chef, instructeur à l’école de police de Montbéliard depuis plusieurs années.",
+      "url": "https://www.lefigaro.fr/faits-divers/doubs-un-instructeur-d-ecole-de-police-vise-par-une-enquete-pour-harcelement-moral-et-sexuel-a-montbeliard-20261105",
+      "canonicalUrl": "https://lefigaro.fr/faits-divers/doubs-un-instructeur-d-ecole-de-police-vise-par-une-enquete-pour-harcelement-moral-et-sexuel-a-montbeliard-20261105",
       "sourceName": "Le Figaro",
       "sourceDomain": "lefigaro.fr",
       "sourceCountry": "FR",
@@ -1192,58 +1345,28 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T12:06:32Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/2850x1603_crop/2026/11/05/069219c8f0292914afdc5a8c732153212c5fd3ab56e5a0fbd304a4cc175f594e.jpg",
+      "publishedAt": "2026-11-05T16:14:29Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/11/05/1b0422373004b94d744f4dcf0adb8b9562f753127bb8a18b36cece331b337740.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:34Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "51e90cc54f9d8bd489c3",
+      "clusterId": "8193e88858d7d618b8e4",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.72554
+      "rankingScore": 5.74173
     },
     {
-      "id": "54629d58259b01e4cc2f9cb9",
-      "title": "Nouvelles recettes chez Kellogg’s : « Le changement climatique s’invite dans la composition et le goût de nos aliments familiers »",
+      "id": "d75205bab57e722fd8b68aa1",
+      "title": "Foot : la scène incroyable au Brésil où une bagarre générale provoque 51 cartons rouges et un record mondial d’expulsions",
       "translatedTitle": null,
-      "description": "Au Royaume-Uni, le fabricant a remplacé les grains de riz des céréales Rice Krispies par de la farine de riz. Ce cas illustre la prise de conscience des industriels vis-à-vis de la menace qui pèse sur l’approvisionnement de certaines matières premières, observe Isabelle Chaperon, chroniqueuse au service Economie du « Monde ».",
-      "url": "https://www.lemonde.fr/economie/article/2026/11/05/nouvelles-recettes-chez-kellogg-s-le-changement-climatique-s-invite-dans-la-composition-et-le-gout-de-nos-aliments-familiers_6806843_3234.html",
-      "canonicalUrl": "https://lemonde.fr/economie/article/2026/11/05/nouvelles-recettes-chez-kellogg-s-le-changement-climatique-s-invite-dans-la-composition-et-le-gout-de-nos-aliments-familiers_6806843_3234.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T09:41:34Z",
-      "imageUrl": "https://img.lemde.fr/2026/11/05/179/0/6094/3047/644/322/60/0/a006fbb_upload-1-w9rsbrtratq3-2025-07-10t163111z-1692368746-rc2kjfa311oe-rtrmadp-3-wk-kellogg-m-a-ferrero.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6615a29db2c0c83c1c34",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72227
-    },
-    {
-      "id": "bfe423744fce52a2e0bd63d9",
-      "title": "«Au début, j’ai cru que c’était un os» : une nouvelle espèce de rongeur géant préhistorique découverte grâce à deux dents en Thaïlande",
-      "translatedTitle": null,
-      "description": "Des scientifiques ont identifié une espèce inconnue de rongeur d’environ 30 kilogrammes, qui vivait dans le sud de la Thaïlande il y a 33 à 35 millions d’années, à partir de deux dents fossilisées.",
-      "url": "https://www.lefigaro.fr/animaux/au-debut-j-ai-cru-que-c-etait-un-os-une-nouvelle-espece-de-rongeur-geant-prehistorique-decouverte-grace-a-deux-dents-en-thailande-20261105",
-      "canonicalUrl": "https://lefigaro.fr/animaux/au-debut-j-ai-cru-que-c-etait-un-os-une-nouvelle-espece-de-rongeur-geant-prehistorique-decouverte-grace-a-deux-dents-en-thailande-20261105",
+      "description": "LE SCAN SPORT - Une rencontre entre deux jeunes équipes au Brésil a totalement dégénéré ce dimanche. Au total, 43 joueurs et huit membres des staffs ont été expulsés.",
+      "url": "https://www.lefigaro.fr/sports/football/foot-la-scene-incroyable-au-bresil-ou-une-bagarre-generale-provoque-51-cartons-rouges-et-un-record-mondial-d-expulsions-20261105",
+      "canonicalUrl": "https://lefigaro.fr/sports/football/foot-la-scene-incroyable-au-bresil-ou-une-bagarre-generale-provoque-51-cartons-rouges-et-un-record-mondial-d-expulsions-20261105",
       "sourceName": "Le Figaro",
       "sourceDomain": "lefigaro.fr",
       "sourceCountry": "FR",
@@ -1252,28 +1375,28 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T12:03:05Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2001_crop/2026/11/05/11e6af2422db1ebba734c6f860cc4f4394e878c2efbdb25182f43f8e8a4cb670.jpg",
+      "publishedAt": "2026-11-05T16:10:22Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/2400x1600_crop/2026/11/05/78bea1a44802c3d48d55e5561b6accb14e575a747dc637616ee60dfd193e63a5.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:34Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f8874ae5cef35b5a1164",
+      "clusterId": "48fc668c94ad2f9e51a8",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.7186
+      "rankingScore": 5.73339
     },
     {
-      "id": "f31bfee0a410ad88a1c35b97",
-      "title": "EN DIRECT - Présidentielle 2027 : Édouard Philippe charge Marine Le Pen sur l’Otan et estime que l’effort de défense ne doit pas être «relâché»",
+      "id": "e23ed1e89312702f9d9eed97",
+      "title": "Présidentielle 2027 : les Français favorables à une primaire de la droite, David Lisnard confirme sa dynamique",
       "translatedTitle": null,
-      "description": "Le candidat LFI Jean-Luc Mélenchon est favorable à une sortie de l’Otan, tandis que la candidate du RN Marine Le Pen plaide pour un retrait du commandement intégré de l’Otan mais seulement en temps de paix.",
-      "url": "https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-bruno-retailleau-marine-tondelier-et-laure-lavalette-principaux-invites-des-matinales-20261105",
-      "canonicalUrl": "https://lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-bruno-retailleau-marine-tondelier-et-laure-lavalette-principaux-invites-des-matinales-20261105",
+      "description": "SONDAGE EXCLUSIF - Si un tel scrutin devait être organisé, notre étude Odoxa-Backbone révèle que la moitié des sympathisants de la droite et du centre souhaiterait que Christine Lagarde y soit candidate.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/sondages/presidentielle-2027-les-francais-favorables-a-une-primaire-de-la-droite-david-lisnard-confirme-sa-dynamique-20261105",
+      "canonicalUrl": "https://lefigaro.fr/elections/presidentielles/sondages/presidentielle-2027-les-francais-favorables-a-une-primaire-de-la-droite-david-lisnard-confirme-sa-dynamique-20261105",
       "sourceName": "Le Figaro",
       "sourceDomain": "lefigaro.fr",
       "sourceCountry": "FR",
@@ -1282,58 +1405,58 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T12:00:16Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2020_crop/2026/11/05/6b8a8e876caf4567c1f4e8bc13c5f1df8789c9d724cdecd7dbe9aa645ba8d296.jpg",
+      "publishedAt": "2026-11-05T16:09:51Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x1687_crop/2026/11/05/db71ffc4d5a5481bb72a7a87a2092f4a8db01ad1a8ead0b278f29a5021fbf30a.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:34Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "7e4f825966a99677c391",
+      "clusterId": "1d836c58c316596defbf",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.71295,
-      "related": []
+      "related": [],
+      "rankingScore": 5.73235
     },
     {
-      "id": "ae2bc71409ccfd07a62f4b67",
-      "title": "Students blockade schools, universities as France braces for mass rallies",
+      "id": "f16ed61a52fa4a7a55e03870",
+      "title": "Vos trains jusqu’en juillet réservés dès novembre : la SNCF bouscule son calendrier",
       "translatedTitle": null,
-      "description": "Students blockaded dozens of high schools and universities across France on Tuesday to maintain pressure on the government over education reforms, as trade unions prepared for a nationwide strike. The school protests have fuelled a broader movement against soaring prices and inadequate public services, which has drawn hundreds of thousands of people onto the streets over the past three weekends. FRANCE 24's Clovis Casali reports from a high school blockaded by students in Aubervilliers, near Par",
-      "url": "https://www.france24.com/en/video/20261105-students-blockade-schools-universities-as-france-braces-for-mass-rallies",
-      "canonicalUrl": "https://france24.com/en/video/20261105-students-blockade-schools-universities-as-france-braces-for-mass-rallies",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
+      "description": "Dès le 12 novembre, les ventes TGV INOUI couvriront les voyages jusqu’au 2 juillet 2027. Une ouverture élargie pour préparer d’un seul coup les vacances d’hiver, les ponts de mai et les premières escapades d’été.",
+      "url": "https://www.lefigaro.fr/voyages/vos-trains-jusqu-en-juillet-reserves-des-novembre-la-sncf-bouscule-son-calendrier-20261105",
+      "canonicalUrl": "https://lefigaro.fr/voyages/vos-trains-jusqu-en-juillet-reserves-des-novembre-la-sncf-bouscule-son-calendrier-20261105",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
       "sourceCountry": "FR",
       "editionCountry": "FR",
       "coverageCountries": [
         "FR"
       ],
-      "language": "en",
-      "publishedAt": "2026-11-05T10:24:41Z",
-      "imageUrl": "https://s.france24.com/media/display/b709f6aa-d8fe-11f1-be60-d18c5759e759/w:1024/p:16x9/EN-20261105-100241-100653-CS.jpg",
+      "language": "fr",
+      "publishedAt": "2026-11-05T16:00:00Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/05/bfe4ad8fbffa32bca11b89a45518e38eb436e991e3099150ac4d842318eec042.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fd2f0c4ee2b298593274",
+      "clusterId": "3d09375f75301794ce40",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.70975
+      "rankingScore": 5.71253
     },
     {
-      "id": "b0d108a896ace518eef076c4",
-      "title": "Majorité au Congrès, conquête de bastions républicains historiques... Visualisez la nette victoire des démocrates aux midterms face au camp de Donald Trump",
+      "id": "095908e8f16e54645eaf1d71",
+      "title": "Amnésique, sans aucun papier sur lui, un jeune homme de 25 ans enfin identifié après avoir vécu près d'un mois à l'aéroport de Naples",
       "translatedTitle": null,
-      "description": "A l'issue d'élections de mi-mandat particulièrement scrutées, le parti républicain a cédé mardi le contrôle du Congrès américain, en perdant la majorité au Sénat et à la Chambre des représentants.",
-      "url": "https://www.franceinfo.fr/monde/usa/midterms-2018/majorite-au-congres-conquete-de-bastions-republicains-historiques-visualisez-la-nette-victoire-des-democrates-aux-midterms-face-au-camp-de-donald-trump_8267237.html",
-      "canonicalUrl": "https://franceinfo.fr/monde/usa/midterms-2018/majorite-au-congres-conquete-de-bastions-republicains-historiques-visualisez-la-nette-victoire-des-democrates-aux-midterms-face-au-camp-de-donald-trump_8267237.html",
+      "description": "Une histoire à peine croyable en Italie : un jeune homme de 25 ans, suédois, a passé plusieurs semaines à l'aéroport de Naples sans aucun souvenir de qui il est, ni d'où il vient. Amnésique, il n'avait pas de papiers sur lui. Sa famille aurait finalement été identifiée. Récit.",
+      "url": "https://www.franceinfo.fr/faits-divers/amnesique-sans-aucun-papier-sur-lui-un-jeune-homme-de-25-ans-enfin-identifie-apres-avoir-vecu-pres-d-un-mois-a-l-aeroport-de-naples_8269451.html",
+      "canonicalUrl": "https://franceinfo.fr/faits-divers/amnesique-sans-aucun-papier-sur-lui-un-jeune-homme-de-25-ans-enfin-identifie-apres-avoir-vecu-pres-d-un-mois-a-l-aeroport-de-naples_8269451.html",
       "sourceName": "Franceinfo",
       "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
@@ -1342,148 +1465,28 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T11:12:14Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/7-Kqd1di3XM_3FbrPnlaxlPZC0U/0x0:4569x2570/432x243/filters:format(jpg)/2026/11/04/6aeb039487ca0927006612.jpg",
+      "publishedAt": "2026-11-05T15:06:21Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/ofiQYlaV5hH41z4YjF5Acr3oUg8/0x34:1278x753/432x243/filters:format(jpg)/2026/11/05/6aec9b2c8cd50783319274.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a7ea62176a4e6140486b",
+      "clusterId": "9f7431debcd715e90a53",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.70886
+      "rankingScore": 5.69773
     },
     {
-      "id": "b96a7dec092f9e373c27a306",
-      "title": "Jean-Jacques Le Chenadec, Jean-Claude Irvoas, Alain Lambert : ces victimes oubliées des émeutes dans les banlieues en 2005",
+      "id": "f44eac0c4bbd04318bfa9b07",
+      "title": "\"Je m'en contrefous\" : Raphaël Glucksmann répond aux militants hostiles à sa présence, avant d'être contraint de quitter le cortège",
       "translatedTitle": null,
-      "description": "ENQUÊTE - Après la sortie, en janvier dernier, du livre Nous vivions côte à côte. Itinéraire d’un petit Blanc de banlieue d’Alexandre Devecchio, Le Figaro a retrouvé la trace des familles de ces victimes dont personne ne parle jamais.",
-      "url": "https://www.lefigaro.fr/faits-divers/jean-jacques-le-chenadec-jean-claude-irvoas-alain-lambert-ces-victimes-oubliees-des-emeutes-dans-les-banlieues-en-2005-20261105",
-      "canonicalUrl": "https://lefigaro.fr/faits-divers/jean-jacques-le-chenadec-jean-claude-irvoas-alain-lambert-ces-victimes-oubliees-des-emeutes-dans-les-banlieues-en-2005-20261105",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T11:47:24Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x1689_crop/2026/11/04/4f892a7fabc883e1bd5668385c9facf09a857af397d31f0131264f20bf4e1a62.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b3a73a3096f9181a0113",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68734
-    },
-    {
-      "id": "6614a5cbc3f5de87b338de30",
-      "title": "EN DIRECT, grève du 5 novembre : « Les jeunes nous ont réveillés avec leurs revendications », estime Mireille, 77 ans",
-      "translatedTitle": null,
-      "description": "Des manifestations à l’appel des lycéens, étudiants, syndicats et « gilets jaunes » ont eu lieu dès ce matin à travers la France. A Paris, le cortège partira à 14 heures de la place de la République.",
-      "url": "https://www.lemonde.fr/politique/live/2026/11/05/en-direct-greve-du-5-novembre-qui-manifeste-quelles-sont-les-revendications-suivez-la-journee-de-mobilisation-avec-nos-journalistes_6806775_823448.html",
-      "canonicalUrl": "https://lemonde.fr/politique/live/2026/11/05/en-direct-greve-du-5-novembre-qui-manifeste-quelles-sont-les-revendications-suivez-la-journee-de-mobilisation-avec-nos-journalistes_6806775_823448.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T09:11:51Z",
-      "imageUrl": "https://img.lemde.fr/2026/11/05/287/0/2300/1150/644/322/60/0/ecc2478_upload-1-ydwpsxxppurj-l1020705.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9f1f4a51e3785c08ef07",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.67064
-    },
-    {
-      "id": "b710587d707a51177fc3e33d",
-      "title": "« Il faut que la lenteur coûte cher à l’État » : 80 justiciables réclament près d’un million d’euros pour « délais déraisonnables »",
-      "translatedTitle": null,
-      "description": "Soutenus financièrement par le barreau de Bordeaux, ils ont engagé des actions en responsabilité contre l’État pour déni de justice. Ils pointent des procédures familiales et prud’homales qui s’étirent parfois sur plusieurs années. Les avocats réclament 12 000 euros d’indemnisation par dossier.",
-      "url": "https://www.lefigaro.fr/bordeaux/il-faut-que-la-lenteur-coute-cher-a-l-etat-80-justiciables-reclament-pres-d-un-million-d-euros-pour-delais-deraisonnables-20261105",
-      "canonicalUrl": "https://lefigaro.fr/bordeaux/il-faut-que-la-lenteur-coute-cher-a-l-etat-80-justiciables-reclament-pres-d-un-million-d-euros-pour-delais-deraisonnables-20261105",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T11:33:48Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/05/ece691caaff8189713ea6e31052f2ec564aa51c7710200928ed9c5db594effa8.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b726eef6721b6d90c6b1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66059
-    },
-    {
-      "id": "de9f52ac9d67357535467081",
-      "title": "Lens-Côme 1-9 : une humiliation, la honte… et le symbole d’un football français déclassé",
-      "translatedTitle": null,
-      "description": "HUMEUR - Le club nordiste a été balayé mercredi à Bollaert face aux Italiens (1-9) en Ligue des champions. Une triste soirée qui entre dans l’histoire du football français.",
-      "url": "https://www.lefigaro.fr/sports/football/ligue-des-champions/lens-come-1-9-une-humiliation-la-honte-et-le-symbole-d-un-football-francais-declasse-20261105",
-      "canonicalUrl": "https://lefigaro.fr/sports/football/ligue-des-champions/lens-come-1-9-une-humiliation-la-honte-et-le-symbole-d-un-football-francais-declasse-20261105",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T11:32:49Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/1280x720_crop/2026/11/05/abb03601394fc217b1962ff1d1223e3c1cd3cafbcefe81b69d0e09a459003044.jpg",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "67362d9bb072b36b52eb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65867
-    },
-    {
-      "id": "21a71b4bdd076c50d4cedd1d",
-      "title": "Des morilles séchées de la marque ChampiBon rappelées après la mort suspecte d'une jeune femme à Montpellier",
-      "translatedTitle": null,
-      "description": "\"Des analyses sont en cours\" afin de déterminer s'il existe ou non un lien entre la mort d'une jeune femme de 27 ans et la consommation dans un plat de champignons achetés dans le commerce.",
-      "url": "https://www.franceinfo.fr/economie/des-morilles-sechees-de-la-marque-champibon-rappelees-apres-la-mort-suspecte-d-une-jeune-femme-a-montpellier_8269157.html",
-      "canonicalUrl": "https://franceinfo.fr/economie/des-morilles-sechees-de-la-marque-champibon-rappelees-apres-la-mort-suspecte-d-une-jeune-femme-a-montpellier_8269157.html",
+      "description": "Le candidat social-démocrate à la présidentielle est régulièrement pris à partie par des militants de la gauche radicale.",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/je-m-en-contrefous-raphael-glucksmann-repond-aux-militants-hostiles-a-sa-presence-sur-la-manifestation-parisienne_8269385.html",
+      "canonicalUrl": "https://franceinfo.fr/elections/presidentielle/je-m-en-contrefous-raphael-glucksmann-repond-aux-militants-hostiles-a-sa-presence-sur-la-manifestation-parisienne_8269385.html",
       "sourceName": "Franceinfo",
       "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
@@ -1492,20 +1495,200 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T10:45:06Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/xzHVeqcbiHNdJbq-Ki2MO_ksXHw/0x42:1033x624/432x243/filters:format(jpg)/2026/11/05/6aec5e104450c492122315.png",
+      "publishedAt": "2026-11-05T15:03:27Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/IKZHm3erjBS4SdQf7ZJSkYqkmyU/0x272:5232x3215/432x243/filters:format(jpg)/2026/11/05/6aec8e5b4f4b4397906757.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "9ed3f2b76fca17ac1164",
+      "clusterId": "75d608d823f733a3427e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.65753
+      "rankingScore": 5.69221
+    },
+    {
+      "id": "6228a55212d7756ac6ac73e1",
+      "title": "En Tunisie, dans les camps de migrants d’El-Amra, une économie de la survie abandonnée à la violence",
+      "translatedTitle": null,
+      "description": "Au nord de Sfax, les migrants subsahariens sont régulièrement agressés par des bandes qui tentent de capter la manne financière dont ils disposent pour effectuer les traversées vers l’Italie. Fin octobre, deux Gambiens en ont été victimes.",
+      "url": "https://www.lemonde.fr/afrique/article/2026/11/05/en-tunisie-dans-les-camps-de-migrants-d-el-amra-une-economie-de-la-survie-abandonnee-a-la-violence_6806867_3212.html",
+      "canonicalUrl": "https://lemonde.fr/afrique/article/2026/11/05/en-tunisie-dans-les-camps-de-migrants-d-el-amra-une-economie-de-la-survie-abandonnee-a-la-violence_6806867_3212.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T13:00:20Z",
+      "imageUrl": "https://img.lemde.fr/2026/11/05/300/0/3600/1800/644/322/60/0/d0d42f6_upload-1-5chd6ya5g6gt-000-43cy7nk.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9c446c7aa9020a2a0397",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.65111
+    },
+    {
+      "id": "d9ecd2014664d642da33a1c6",
+      "title": "EN DIRECT, grève du 5 novembre : « La cocotte-minute bout depuis trop longtemps », suivez la mobilisation partout en France avec nos journalistes",
+      "translatedTitle": null,
+      "description": "Les cortèges arrivent peu à peu à leurs points d’arrivées, certains avec des tensions, alors que l’entourage de Laurent Nuñez dénombrait à la mi-journée 270 000 personnes dans 180 manifestations, hors Paris.",
+      "url": "https://www.lemonde.fr/politique/live/2026/11/05/en-direct-greve-du-5-novembre-les-corteges-se-deroulent-globalement-bien-rapporte-l-entourage-de-laurent-nunez-qui-denombre-270-000-manifestants-hors-paris_6806775_823448.html",
+      "canonicalUrl": "https://lemonde.fr/politique/live/2026/11/05/en-direct-greve-du-5-novembre-les-corteges-se-deroulent-globalement-bien-rapporte-l-entourage-de-laurent-nunez-qui-denombre-270-000-manifestants-hors-paris_6806775_823448.html",
+      "sourceName": "Le Monde",
+      "sourceDomain": "lemonde.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T12:55:32Z",
+      "imageUrl": "https://img.lemde.fr/2026/11/05/136/0/1616/808/644/322/60/0/475f4b5_upload-1-z2tezfigbnc2-dsc01099.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0be8fb4283ea4fd9dcac",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.64299
+    },
+    {
+      "id": "7baa516c7794a49d3cc82e36",
+      "title": "A14 gratuite, bus renforcés, trains… Que prévoit le gouvernement pendant la fermeture de l’A13 ?",
+      "translatedTitle": null,
+      "description": "Devant des automobilistes et des maires très inquiets, le gouvernement a présenté une série de mesures pour soulager les 80.000 usagers qui devront se débrouiller avec la fermeture de l’A13.",
+      "url": "https://www.lefigaro.fr/automobile/a14-gratuite-bus-renforces-trains-que-prevoit-le-gouvernement-pour-les-naufrages-de-l-a13-20261105",
+      "canonicalUrl": "https://lefigaro.fr/automobile/a14-gratuite-bus-renforces-trains-que-prevoit-le-gouvernement-pour-les-naufrages-de-l-a13-20261105",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T15:20:47Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/3000x2000_crop/2026/11/05/6bba15f2d3df3489d6ce8f837d7b529512a3276845f92e97563d61fb3fa7bae4.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2e6b9ad0992dab095d63",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.63542
+    },
+    {
+      "id": "51c1f8129c5440d0fd4e9ec8",
+      "title": "\"On espère mettre fin à cette épidémie\" d'Ebola : deux vaccins ouvrent une nouvelle piste d'espoir en RDC",
+      "translatedTitle": null,
+      "description": "L'OMS recommande de lancer des essais cliniques sur ces deux nouveaux vaccins. Une avancée porteuse d'espoir face à une épidémie qui a déjà fait plus de 5 300 morts et contre laquelle aucun vaccin spécifique n'est actuellement disponible.",
+      "url": "https://www.franceinfo.fr/sante/maladie/ebola/on-espere-mettre-fin-a-cette-epidemie-d-ebola-deux-vaccins-ouvrent-une-nouvelle-piste-d-espoir-en-rdc_8268329.html",
+      "canonicalUrl": "https://franceinfo.fr/sante/maladie/ebola/on-espere-mettre-fin-a-cette-epidemie-d-ebola-deux-vaccins-ouvrent-une-nouvelle-piste-d-espoir-en-rdc_8268329.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T14:28:16Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/1lIe26CuJRbmjoRiwMOL-l4KtFg/0x300:5760x3540/432x243/filters:format(jpg)/2026/11/04/6aeb7c881dc3b676597078.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "065fdf136b41cfa4ead4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.62644
+    },
+    {
+      "id": "c258cca487d4fdfb0e14c780",
+      "title": "«Tout le monde déteste le PS !» : «Je m’en contrefous», répond Glucksmann aux manifestants «hostiles» à sa présence à la manifestation parisienne",
+      "translatedTitle": null,
+      "description": "VIDÉO - Le candidat social-démocrate à la présidentielle a quitté jeudi après-midi la manifestation parisienne contre la vie chère, après avoir été bloqué durant 45 minutes à son point de départ, place de la République.",
+      "url": "https://www.lefigaro.fr/elections/presidentielles/candidats/tout-le-monde-deteste-le-ps-je-m-en-contrefous-repond-glucksmann-aux-manifestants-hostiles-a-sa-presence-a-la-manifestation-parisienne-20261105",
+      "canonicalUrl": "https://lefigaro.fr/elections/presidentielles/candidats/tout-le-monde-deteste-le-ps-je-m-en-contrefous-repond-glucksmann-aux-manifestants-hostiles-a-sa-presence-a-la-manifestation-parisienne-20261105",
+      "sourceName": "Le Figaro",
+      "sourceDomain": "lefigaro.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T15:08:24Z",
+      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/11/05/c0c895c770de7d1636942caf878aab88ae0803cf21e18b8ee778319d22c0794d.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7a86417dae8074526984",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.61164
+    },
+    {
+      "id": "24352396824f923f856936eb",
+      "title": "Des milliers de cas confirmés, plusieurs morts en Pennsylvanie, une vaccination en recul... Ce que l'on sait de l'épidémie de rougeole aux Etats-Unis",
+      "translatedTitle": null,
+      "description": "Au 29 octobre, 4 852 cas confirmés de cette maladie grave et contagieuse avaient été décomptés dans le pays, soit déjà plus du double que sur toute l'année 2025. Entre 2020 et 2024, le nombre de cas ne dépassait pas quelques dizaines ou centaines.",
+      "url": "https://www.franceinfo.fr/sante/maladie/des-milliers-de-cas-confirmes-plusieurs-morts-en-pennsylvanie-une-vaccination-en-recul-ce-que-l-on-sait-de-l-epidemie-de-rougeole-aux-etats-unis_8269070.html",
+      "canonicalUrl": "https://franceinfo.fr/sante/maladie/des-milliers-de-cas-confirmes-plusieurs-morts-en-pennsylvanie-une-vaccination-en-recul-ce-que-l-on-sait-de-l-epidemie-de-rougeole-aux-etats-unis_8269070.html",
+      "sourceName": "Franceinfo",
+      "sourceDomain": "franceinfo.fr",
+      "sourceCountry": "FR",
+      "editionCountry": "FR",
+      "coverageCountries": [
+        "FR"
+      ],
+      "language": "fr",
+      "publishedAt": "2026-11-05T13:57:37Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/JL18fdZmdi6C7xB093XPMY2gJXA/0x512:6000x3887/432x243/filters:format(jpg)/2026/11/05/6aec7245b53e9795141674.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-05T16:18:30Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "53ae2e49a4ae6f9d0991",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57085
     },
     {
       "id": "fe56ad58b331e59cb6e9c3d8",
@@ -1522,118 +1705,28 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T11:24:45Z",
+      "publishedAt": "2026-11-05T14:39:00Z",
       "imageUrl": "https://i.f1g.fr/media/cms/1900x1287_crop/2026/11/05/fe2df6336ea85239d68d14106a1f7adf77cc14b171da4e35bf16d7f75cedf6eb.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:34Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "d2d891c0ddd47f7fb940",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64298
+      "rankingScore": 5.55628,
+      "related": []
     },
     {
-      "id": "134a663a9d516f208e81d6ac",
-      "title": "Manifestations du 5 novembre : les images d’un lycée près de Toulouse incendié par des tirs de mortier",
+      "id": "57ca8462c29dde8a16bbb90f",
+      "title": "Alain Chamfort évoque le deuil des proches emportés par Alzheimer dans une chanson poignante, \"L'Absurdité\"",
       "translatedTitle": null,
-      "description": "VIDÉO - Le lycée Françoise de Tournefeuille a été incendié ce jeudi, en marge des manifestations qui touchent le pays. Des individus auraient pénétré l’établissement avant de se servir de mortiers.",
-      "url": "https://www.lefigaro.fr/actualite-france/manifestations-du-5-novembre-les-images-des-individus-tirant-aux-mortiers-sur-un-lycee-pres-de-toulouse-20261105",
-      "canonicalUrl": "https://lefigaro.fr/actualite-france/manifestations-du-5-novembre-les-images-des-individus-tirant-aux-mortiers-sur-un-lycee-pres-de-toulouse-20261105",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T11:15:27Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/11/05/95bd65c68da99d7ac29e4753da4c59bfd64691f959e18375ff4fa5609d55eb9a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "123b496e819975963b27",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.62504
-    },
-    {
-      "id": "530801c2c319f2a9d62d372d",
-      "title": "Douze alertes à la bombe ont perturbé l’espace aérien européen ce jeudi, dont des vols vers Rome et au départ de Milan",
-      "translatedTitle": null,
-      "description": "Un Airbus A320 assurant la liaison Dublin-Rome avait déjà été dérouté plus tôt dans la matinée ce jeudi 5 novembre vers la base aérienne d’Évreux, dans l’Eure, après une alerte à la bombe, a indiqué Matignon.",
-      "url": "https://www.lefigaro.fr/international/de-nouvelles-alertes-a-la-bombe-sur-un-vol-pour-rome-et-un-vol-au-depart-de-milan-20261105",
-      "canonicalUrl": "https://lefigaro.fr/international/de-nouvelles-alertes-a-la-bombe-sur-un-vol-pour-rome-et-un-vol-au-depart-de-milan-20261105",
-      "sourceName": "Le Figaro",
-      "sourceDomain": "lefigaro.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T11:04:56Z",
-      "imageUrl": "https://i.f1g.fr/media/cms/orig/2026/11/05/9c8c3058a1fec79bf48a79fa3920dd8c67df504b52af12bca7ef91e8e9ffe611.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "92fda632457330509596",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60493
-    },
-    {
-      "id": "4a9ba8762fc4249aa8d7aed6",
-      "title": "Au procès de la rue de Trévise, une bataille d’experts pour remonter le fil des causes de l’explosion",
-      "translatedTitle": null,
-      "description": "Plombier, égoutier, géotechnicien, experts en incendie explosion et en mécanique de la rupture… Chacun y est allé plus ou moins prudemment de son hypothèse, entre le lundi 2 et le mercredi 4 novembre, mais à l’issue des audiences, aucune évidence ne s’impose.",
-      "url": "https://www.lemonde.fr/societe/article/2026/11/05/au-proces-de-la-rue-de-trevise-une-bataille-d-experts-pour-remonter-le-fil-des-causes-de-l-explosion_6806836_3224.html",
-      "canonicalUrl": "https://lemonde.fr/societe/article/2026/11/05/au-proces-de-la-rue-de-trevise-une-bataille-d-experts-pour-remonter-le-fil-des-causes-de-l-explosion_6806836_3224.html",
-      "sourceName": "Le Monde",
-      "sourceDomain": "lemonde.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T08:06:53Z",
-      "imageUrl": "https://img.lemde.fr/2026/11/04/580/0/4869/2434/644/322/60/0/60c1ee0_upload-1-opun732gbaem-000-1ih857.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f08879b7db2c61235f72",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5626
-    },
-    {
-      "id": "de9688388625fe59a9307be4",
-      "title": "Le XV de France avec une charnière Antoine Dupont – Romain Ntamack contre les Fidji pour le Championnat des Nations",
-      "translatedTitle": null,
-      "description": "Fabien Galthié relance le tandem du Stade Toulousain, plus aligné ensemble en numéro 9 et 10 avec les Bleus depuis plus d'un an et demi, en vue de la rencontre samedi contre les Fidji dans le cadre du Championnat des nations.",
-      "url": "https://www.franceinfo.fr/sports/rugby/coupe-d-automne-des-nations/le-xv-de-france-avec-une-charniere-antoine-dupont-romain-ntamack-contre-les-fidji-pour-le-championnat-des-nations_8269043.html",
-      "canonicalUrl": "https://franceinfo.fr/sports/rugby/coupe-d-automne-des-nations/le-xv-de-france-avec-une-charniere-antoine-dupont-romain-ntamack-contre-les-fidji-pour-le-championnat-des-nations_8269043.html",
+      "description": "Le titre inédit a été dévoilé le 30 octobre, cosigné par le chanteur et par l'un de ses auteurs, Pierre-Dominique Burgaud. Chacun d'entre eux a perdu sa mère des suites de cette maladie.",
+      "url": "https://www.franceinfo.fr/culture/musique/chanson-francaise/alain-chamfort-evoque-le-deuil-des-proches-emportes-par-alzheimer-dans-une-chanson-poignante-l-absurdite_8269073.html",
+      "canonicalUrl": "https://franceinfo.fr/culture/musique/chanson-francaise/alain-chamfort-evoque-le-deuil-des-proches-emportes-par-alzheimer-dans-une-chanson-poignante-l-absurdite_8269073.html",
       "sourceName": "Franceinfo",
       "sourceDomain": "franceinfo.fr",
       "sourceCountry": "FR",
@@ -1642,80 +1735,20 @@
         "FR"
       ],
       "language": "fr",
-      "publishedAt": "2026-11-05T09:50:40Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/B0Z9Ivza2-B78IlwC2K0EyFLc6I/0x0:4081x2295/432x243/filters:format(jpg)/2026/11/05/6aec4c4e6c0e6876630796.jpg",
+      "publishedAt": "2026-11-05T13:45:31Z",
+      "imageUrl": "https://www.franceinfo.fr/pictures/ZXrcA3bREFJbA5IkPwXK_eLDmrk/0x113:2500x1519/432x243/filters:format(jpg)/2026/11/05/6aec6349ba7a8474506477.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
+      "retrievedAt": "2026-11-05T16:18:30Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "00f6a47ed5b22bfff9a3",
+      "clusterId": "5a6203203e3f4510b1be",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.55837
-    },
-    {
-      "id": "9428719cc242d3acfc765447",
-      "title": "Champions League: Lens suffer historic 9-1 defeat against Como",
-      "translatedTitle": null,
-      "description": "RC Lens suffered the heaviest defeat in the history of French football in European competition, losing 9-1 at home to Como in the Champions League. Having already been beaten by Club Brugge (3-0) and Sporting CP (2-0), Lens have now suffered three consecutive defeats in Europe.",
-      "url": "https://www.france24.com/en/tv-shows/sports/20261105-champions-league-lens-suffer-historic-9-1-defeat-against-como",
-      "canonicalUrl": "https://france24.com/en/tv-shows/sports/20261105-champions-league-lens-suffer-historic-9-1-defeat-against-como",
-      "sourceName": "France 24",
-      "sourceDomain": "france24.com",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-05T08:45:02Z",
-      "imageUrl": "https://s.france24.com/media/display/3f65db44-d8d8-11f1-abb9-695cb59fade5/w:1024/p:16x9/lens-1.jpg",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8c1b023216ad485cb1b2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.53526
-    },
-    {
-      "id": "cc1e4d0dc086571a2e54298f",
-      "title": "Après la défaite du camp de Donald Trump aux midterms, le président ukrainien Volodymyr Zelensky dit espérer davantage de soutien américain",
-      "translatedTitle": null,
-      "description": "Actuellement en visite à Madrid (Espagne), le président ukrainien a par ailleurs annoncé s'être entretenu mercredi avec les émissaires du président américain.",
-      "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/apres-la-defaite-du-camp-de-donald-trump-aux-midterms-le-president-ukrainien-volodymyr-zelensky-dit-esperer-davantage-de-soutien-americain_8268959.html",
-      "canonicalUrl": "https://franceinfo.fr/monde/europe/manifestations-en-ukraine/apres-la-defaite-du-camp-de-donald-trump-aux-midterms-le-president-ukrainien-volodymyr-zelensky-dit-esperer-davantage-de-soutien-americain_8268959.html",
-      "sourceName": "Franceinfo",
-      "sourceDomain": "franceinfo.fr",
-      "sourceCountry": "FR",
-      "editionCountry": "FR",
-      "coverageCountries": [
-        "FR"
-      ],
-      "language": "fr",
-      "publishedAt": "2026-11-05T09:37:07Z",
-      "imageUrl": "https://www.franceinfo.fr/pictures/S_Hm1u50Js-nuG9XrBDCq36yeIA/0x53:1024x629/432x243/filters:format(jpg)/2026/11/05/6aec4440edb47847404713.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-05T12:18:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "84b29587cfd230bf0421",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.53445
+      "rankingScore": 5.54934
     }
   ]
 }
