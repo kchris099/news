@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-08",
-  "generatedAt": "2026-11-08T08:18:06Z",
-  "lastAttemptAt": "2026-11-08T08:18:06Z",
-  "lastSuccessfulUpdate": "2026-11-08T08:18:06Z",
-  "status": "current",
+  "generatedAt": "2026-11-08T12:18:04Z",
+  "lastAttemptAt": "2026-11-08T12:18:04Z",
+  "lastSuccessfulUpdate": "2026-11-08T12:18:04Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-08T08:18:05Z",
-      "lastSuccessAt": "2026-11-08T08:18:06Z",
-      "articlesRetrieved": 31,
-      "responseTimeMs": 508,
+      "lastAttemptAt": "2026-11-08T12:18:03Z",
+      "lastSuccessAt": "2026-11-08T12:18:04Z",
+      "articlesRetrieved": 29,
+      "responseTimeMs": 387,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-08T08:18:05Z",
-      "lastSuccessAt": "2026-11-08T08:18:06Z",
+      "lastAttemptAt": "2026-11-08T12:18:03Z",
+      "lastSuccessAt": "2026-11-08T12:18:04Z",
       "articlesRetrieved": 144,
-      "responseTimeMs": 363,
+      "responseTimeMs": 467,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,56 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-08T08:18:05Z",
-      "lastSuccessAt": "2026-11-08T08:18:06Z",
+      "lastAttemptAt": "2026-11-08T12:18:03Z",
+      "lastSuccessAt": "2026-11-08T12:18:04Z",
       "articlesRetrieved": 6,
-      "responseTimeMs": 561,
+      "responseTimeMs": 638,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-08T08:18:05Z",
-      "lastSuccessAt": "2026-11-08T08:18:06Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 588,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-08T12:18:03Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
+    {
+      "id": "0f560d3f63d0dda65fc0e113",
+      "title": "Election results in Brazil, Serbia, Israel and US renew faith in resilience of democracy",
+      "translatedTitle": null,
+      "description": "Four pivotal elections in past two weeks show power of grassroots activism to push back against authoritarianism A sequence of four pivotal elections over the past two weeks in disparate regions of the world has inflicted significant setbacks on authoritarian leaders, and inspired renewed faith that democracy is more resilient than had been feared. The elections in Brazil, Serbia, Israel and the US were held in widely varying circumstances with unique factors, but each showed the power of grassr",
+      "url": "https://www.theguardian.com/world/2026/nov/08/election-brazil-serbia-israel-and-us-resilience-democracy-grassroots-activism-authoritarianism",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/08/election-brazil-serbia-israel-and-us-resilience-democracy-grassroots-activism-authoritarianism",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T10:00:37Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/52495c50cdf5bc4eb215d53e6675a9280e114c24/986_0_4914_3933/master/4914.jpg?width=140&quality=85&auto=format&fit=max&s=b877b39e431eb7bba4f254f7bdfa8dc5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7658301edb065afc0000",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.62703
+    },
     {
       "id": "0b836d44836f5ec40a07e3e6",
       "title": "Trump’s shattered ‘mirror world’: American voters roundly reject president’s alternate reality",
@@ -78,15 +108,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e14f03807ebce1f1578e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.73756
+      "rankingScore": 7.97959,
+      "related": []
     },
     {
       "id": "21cec08005ace518baeb5fa8",
@@ -108,83 +138,144 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "01d38d9cbfdd04833410",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.27684
+      "rankingScore": 7.89094,
+      "related": []
     },
     {
-      "id": "7de00e0ac0d5bda2d7ed7d44",
-      "title": "Premier League buildup, FA Cup first round, WSL and more – matchday live",
+      "id": "f5e2c367657df61ee53eeb44",
+      "title": "Walsh-inspired Australia crush irate Samoa to reach World Cup final",
       "translatedTitle": null,
-      "description": "⚽ All the news ahead of Sunday’s action ⚽ Sign up to Football Daily | Email Emillia Hello, good morning and welcome to another Matchday live! We have lots to look forward to this afternoon before we head into another international break, from Premier League and WSL to FA Cup action and fixtures across Europe. We’ll also look back at yesterday’s action, which saw Arsenal extend their lead at the top of the Premier League table following a win against Hull and a Manchester City defeat to Nottingha",
-      "url": "https://www.theguardian.com/football/live/2026/nov/08/premier-league-buildup-fa-cup-first-round-wsl-and-more-matchday-live",
-      "canonicalUrl": "https://theguardian.com/football/live/2026/nov/08/premier-league-buildup-fa-cup-first-round-wsl-and-more-matchday-live",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "Reece Walsh scores a hat-trick as Australia reach the Men's Rugby League World Cup final by overwhelming a Samoa side left fuming by a series of refereeing calls against them.",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cqd0914z959do?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/rugby-league/articles/cqd0914z959do?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-08T08:04:28Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5d199b4fa08291a9b54820a4f8b61ee1939b43a2/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b9898a8240edc2e2ec3f8ac74b1410f0",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "05e3b9fffd08a5cd1d07",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.51236
-    },
-    {
-      "id": "7696081983550d299dffd658",
-      "title": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
-      "translatedTitle": null,
-      "description": "MPs, local authorities, lawyers, schools and more are receiving floods of grievances, requests and legal challenges, often complex to read and respond to “It started as a trickle in 2024 and now it’s an onslaught.” Hollie Wickens, a senior caseworker in a Labour MP’s office, is explaining the daily reality of dealing with surging volumes of artificial intelligence-generated correspondence. “Half the emails we receive are some form of AI,” she says, adding that this has made requests and complain",
-      "url": "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
-      "canonicalUrl": "https://theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T08:00:36Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/82c6e92cb6cbcabc717462a79d11fbaac898da2c/0_0_5906_4724/master/5906.jpg?width=140&quality=85&auto=format&fit=max&s=94570b4f9d7eac5982f2eba6f0827561",
+      "publishedAt": "2026-11-08T11:45:42Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f033/live/d703ada0-db5d-11f1-adda-c54f54e3ce6a.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ffffcaf670cf6f516a9b",
+      "clusterId": "8917f8279ae9fcbd5de3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "57aa20011d1a381d32cea4e1",
+          "title": "Reece Walsh hat-trick drives Australia past Samoa and into Rugby League World Cup final",
+          "translatedTitle": null,
+          "description": "Kangaroos beat Toa Samoa 44-12 at Sydney’s Allianz Stadium New Zealand await Australia in next weekend’s men’s final This was supposed to be Samoa’s chance to challenge the wilting Kangaroos, whose patchy recent performance made them appear vulnerable – to make up for the loss in the last World Cup final, when Australia kept Toa Samoa scoreless for much of that defeat at Old Trafford. So when the famed Siva Tau, Samoa’s pre-match ritual, brought the Samoans and the Australians close enough to ki",
+          "url": "https://www.theguardian.com/sport/2026/nov/08/australia-kangaroos-samoa-rugby-league-world-cup-mens-semi-final-match-report",
+          "canonicalUrl": "https://theguardian.com/sport/2026/nov/08/australia-kangaroos-samoa-rugby-league-world-cup-mens-semi-final-match-report",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-08T11:20:29Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/02e4b21257958a7fa662df4ec39df2295e15ac32/312_0_2838_2271/master/2838.jpg?width=140&quality=85&auto=format&fit=max&s=1e53986d508111c519ce2238ca289d7e",
+          "imageAlt": null,
+          "category": "Sports",
+          "topics": [],
+          "retrievedAt": "2026-11-08T12:18:04Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "8917f8279ae9fcbd5de3",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "reece walsh hat trick drives australia past samoa and into rugby league world cup final"
+        },
+        {
+          "id": "9ec8a2f19f4e38edb888e3c4",
+          "title": "Abbi Church powers Australia to win over spirited Fiji as hosts reach Women’s Rugby League World Cup final",
+          "translatedTitle": null,
+          "description": "Church scores four tries as Australia beat Fiji Bulikula 30-14 Jillaroos will face New Zealand in the final next weekend The Jillaroos survived an almighty scare from Fiji in the World Cup semi-final, securing a place in the tournament decider against New Zealand at Lang Park next week despite a stunning resistance from the brilliant Bulikula. Driven by the exquisite, unpredictable playmaker Luisa Yaranamua – 23 and yet to play an NRLW match – and supported by powerful, committed teammates, Fiji",
+          "url": "https://www.theguardian.com/sport/2026/nov/08/australia-jillaroos-fiji-womens-rugby-league-world-cup-semi-final-match-report",
+          "canonicalUrl": "https://theguardian.com/sport/2026/nov/08/australia-jillaroos-fiji-womens-rugby-league-world-cup-semi-final-match-report",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-08T08:23:26Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/57a267fd8c9db1539fcea022c6f5fe83828a6b6b/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=0484c0182664074bbc06b7e5a3d2fa14",
+          "imageAlt": null,
+          "category": "Sports",
+          "topics": [],
+          "retrievedAt": "2026-11-08T12:18:04Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "8917f8279ae9fcbd5de3",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "abbi church powers australia to win over spirited fiji as hosts reach women s rugby league world cup final"
+        }
+      ],
+      "rankingScore": 7.44498
+    },
+    {
+      "id": "97a8dec8ca8fb586a44b1bff",
+      "title": "Abuse in media industry probably still happening, minister warns in wake of Brand case",
+      "translatedTitle": null,
+      "description": "Lisa Nandy told Laura Kuenssberg that 'many people' in the media industry had opened up to her.",
+      "url": "https://www.bbc.co.uk/news/articles/ckn9r0zd0ynwo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ckn9r0zd0ynwo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T11:40:56Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ffbd/live/32a8d350-db69-11f1-b441-2b33b063138f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d371cd5c81fc4371ea55",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.15459
+      "rankingScore": 7.38558
     },
     {
-      "id": "45428b1b45eedfc1aee29241",
-      "title": "Reintroduction of white-tailed eagles puts seabird colonies at risk of wipeout, say experts",
+      "id": "4585b9a51eb85642de3f9630",
+      "title": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
       "translatedTitle": null,
-      "description": "Naturalists divided over potential impact of proposals to increase number of wild raptors in England and Wales White-tailed eagles reintroduced into England and Wales imperil endangered seabird populations and risk wiping out some colonies, ecologists and conservationists are warning. Puffins, guillemots, razorbills, fulmars and kittiwakes are among the birds for which breeding populations could collapse if large numbers of white-tailed eagles are released, according to some academics and conser",
-      "url": "https://www.theguardian.com/environment/2026/nov/08/reintroduction-white-tailed-eagles-seabird-colonies-risk-england-wales",
-      "canonicalUrl": "https://theguardian.com/environment/2026/nov/08/reintroduction-white-tailed-eagles-seabird-colonies-risk-england-wales",
+      "description": "President has opposing views on many issues, and once called Leo’s predecessor the ‘representative of the Evil One’ Trees are being planted in the garden. The brightly coloured buildings are getting another coat of paint. The choir rehearses. Hundreds of other residents, several of them using wheelchairs, practise their positions outside the sanctuary. Excitement is in the air, because on Monday 9 November, the Cottolengo Don Orione – a Catholic-run home for disabled people – will be the first s",
+      "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -193,20 +284,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-08T08:00:35Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1fc513551404915618bcac5b6b1577fa62358833/673_0_3899_3118/master/3899.jpg?width=140&quality=85&auto=format&fit=max&s=0895bfc3a57c81ec35905026e0aafe4e",
+      "publishedAt": "2026-11-08T09:00:35Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/69382c7253bd848478bf7c1f031a9d97c2de58fb/333_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=3dddb36cfd2ec2fe18b0994331e43611",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "e3e2d3130e3f4e59e10b",
+      "clusterId": "1d378b9b9375f8cc14dd",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.15456
+      "rankingScore": 6.8223
     },
     {
       "id": "02eeb91125a47ad0a1793a84",
@@ -228,13 +319,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "24bf1a58feb9cf0814bf",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.73227,
       "related": [
         {
           "id": "acd50b7c9385208b112254cc",
@@ -266,16 +358,15 @@
           "sourceQuality": 1.0,
           "normalizedTitle": "trump offers press secretary role to ufc ceo dana white"
         }
-      ],
-      "rankingScore": 7.08616
+      ]
     },
     {
-      "id": "1ed5a4f836ce7c6b7d531974",
-      "title": "‘Free grand piano’: the scam playing on music lovers’ heartstrings",
+      "id": "7696081983550d299dffd658",
+      "title": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
       "translatedTitle": null,
-      "description": "Emails claim to come from a woman whose husband has died – but the offer isn’t what it seems An email pops up in your inbox: a woman whose husband has died is giving away his grand piano for free. She says she would love it to go to someone “who will truly appreciate and care for it”. The piano “is in excellent condition and has brought joy to our home”. The email ends: “If you know of a dedicated student, teacher, family or church that would cherish this piano, please feel free to forward this",
-      "url": "https://www.theguardian.com/money/2026/nov/08/free-grand-piano-scam-emails",
-      "canonicalUrl": "https://theguardian.com/money/2026/nov/08/free-grand-piano-scam-emails",
+      "description": "MPs, local authorities, lawyers, schools and more are receiving floods of grievances, requests and legal challenges, often complex to read and respond to “It started as a trickle in 2024 and now it’s an onslaught.” Hollie Wickens, a senior caseworker in a Labour MP’s office, is explaining the daily reality of dealing with surging volumes of artificial intelligence-generated correspondence. “Half the emails we receive are some form of AI,” she says, adding that this has made requests and complain",
+      "url": "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
+      "canonicalUrl": "https://theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -284,50 +375,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-08T07:00:33Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f60b879e91487cfa762b6181282c365c29d79cfe/1005_0_6750_5400/master/6750.jpg?width=140&quality=85&auto=format&fit=max&s=2e3824fbf0c2e6da57a8a0215ef2bd6f",
+      "publishedAt": "2026-11-08T08:00:36Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/82c6e92cb6cbcabc717462a79d11fbaac898da2c/0_0_5906_4724/master/5906.jpg?width=140&quality=85&auto=format&fit=max&s=94570b4f9d7eac5982f2eba6f0827561",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "33114794f39bc1414897",
+      "clusterId": "ffffcaf670cf6f516a9b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03752
-    },
-    {
-      "id": "f3b6e580ef2397c681155b85",
-      "title": "Walking with spirits in Cambodia’s sacred forests",
-      "translatedTitle": null,
-      "description": "Former loggers and poachers have embraced ancient traditions to promote and protect the Cardamom Mountains’ ever-threatened natural wonders I’m two hours downriver from the Chi Phat community ecotourism camp, in the Koh Kong region of Cambodia, when my phone signal fizzles out completely. It’s dawn and we’re chugging through the snaking Preak Piphot River towards the starting point of a 9-mile (15km) overnight trek into the country’s sacred, spirit-filled Cardamom mountain range. The region, a s",
-      "url": "https://www.theguardian.com/travel/2026/nov/08/walking-with-spirits-cambodia-cardamom-mountains",
-      "canonicalUrl": "https://theguardian.com/travel/2026/nov/08/walking-with-spirits-cambodia-cardamom-mountains",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T07:00:33Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/453bd2f1dcf0c05f75d1cd52a21c6f35e45d7833/876_756_3375_2700/master/3375.jpg?width=140&quality=85&auto=format&fit=max&s=9d3d52d01ef6596bc78183e5635e9ca3",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e295e2304c951fa8b2c7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03752
+      "rankingScore": 6.72331,
+      "related": []
     },
     {
       "id": "84021c5f91ce2dbc984b65b0",
@@ -356,128 +417,8 @@
       "clusterId": "762836970373b4d06a9c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03039
-    },
-    {
-      "id": "0584f82ffab73018339d6ca0",
-      "title": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
-      "translatedTitle": null,
-      "description": "As AI exposes flaws in IT systems and geopolitics plays out on the cyber frontline, some experts say the events of recent weeks could soon be a common occurence Alex Pearce was doing the morning rounds at his fruit and vegetable wholesale business in London on Monday last week when he noticed something odd. The defrost light on refrigeration unit 2 was on, and the panel reading was 150C. Unit 4 was the same. Continue reading...",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic",
-      "canonicalUrl": "https://theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T06:00:33Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/09d27a91ac5dc51fcea6ef2db11a85053e40bb50/0_158_4000_3198/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=61f705fa3e603f228abbd6c56fd24887",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1d50ebc750ab9b3d41c4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92687
-    },
-    {
-      "id": "666b51be02a6a42d182cde0a",
-      "title": "Willie Nelson: ‘I drank too much, I smoked too much. I took too many pills’",
-      "translatedTitle": null,
-      "description": "The legendary country singer says he did everything wrong. Yet now, at 93, he’s music’s last man standing. What’s the secret of his longevity? • Read an exclusive extract from Willie Nelson’s memoir here Before the interview, Willie Nelson’s publicist warns me that there’s only one thing the 93-year-old country music legend doesn’t like to discuss: the past. Which rules out talking about the 150-plus albums he’s made; the Highwaymen, the supergroup he formed with Kris Kristofferson, Johnny Cash",
-      "url": "https://www.theguardian.com/music/2026/nov/08/willie-nelson-interview-country-music-legend-memoir",
-      "canonicalUrl": "https://theguardian.com/music/2026/nov/08/willie-nelson-interview-country-music-legend-memoir",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T06:00:33Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d7d1a05a0817057f3ebe21befbec869e347e63eb/0_0_6827_5460/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=2f40a29e870f4db7c31fa0c731e8315d",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0fa409bc1d0e6c99629c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92687
-    },
-    {
-      "id": "3fd517653ebd1b67b95de68c",
-      "title": "Environmentalists criticise choice of Earthshot prize venue owned by fossil fuel firm",
-      "translatedTitle": null,
-      "description": "Mumbai facility is part of Reliance Industries, owner of world’s biggest oil refinery and funder of controversial mega-zoo The Prince of Wales’s Earthshot prize will host its forthcoming annual awards ceremony at a venue owned by the billionaire Ambani family conglomerate, drawing criticism from conservationists over their fossil fuel businesses and their foundation’s controversial mega-zoo. A spokesperson for the Earthshot prize, which awards £1m to five winners every year to invest in conserva",
-      "url": "https://www.theguardian.com/environment/2026/nov/08/earthshot-prize-venue-criticism-fossil-fuel-firm-reliance-industries-india-mumbai",
-      "canonicalUrl": "https://theguardian.com/environment/2026/nov/08/earthshot-prize-venue-criticism-fossil-fuel-firm-reliance-industries-india-mumbai",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T06:00:33Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/318a7571aaf58a51d5597de23c3e8e795c29e3fa/401_226_2845_2276/master/2845.jpg?width=140&quality=85&auto=format&fit=max&s=5e32c6b0e8f2ade891cb151fa341f642",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "eb257cebdad5ce47a380",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92687
-    },
-    {
-      "id": "f6a4bcb9b7f6c2118342c764",
-      "title": "Banquet 88, London E1: ‘Sweet, rich, fiery and moreish’ – restaurant review | Grace Dent on restaurants",
-      "translatedTitle": null,
-      "description": "I turn up solo and brace myself to be dumped by the cleaning supplies cupboard, but instead the staff treat me like an off-duty empress Perched in between a Zizzi, a Côte and a Slug & Lettuce at the far end of St Katharine Docks in Ye Olde Tower of London tourist-land, Banquet 88 feels like something of an enigmatic Asian cousin: it has a sedate frontage, sparse, functional decor with not an ounce of chintz nor an ounce of modernism, or even much of a nod towards comfort. There’s sake cherry foi",
-      "url": "https://www.theguardian.com/food/2026/nov/08/banquet-88-london-e1-grace-dent-restaurant-review",
-      "canonicalUrl": "https://theguardian.com/food/2026/nov/08/banquet-88-london-e1-grace-dent-restaurant-review",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T06:00:32Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/6136120a8d0892f42ff6996d89e9bfc51a9ad930/1279_0_6394_5118/master/6394.jpg?width=140&quality=85&auto=format&fit=max&s=a1e859ac856939cdd99cd8599930cfb6",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e12e166c6580be10e5e1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92684
+      "rankingScore": 6.60592,
+      "related": []
     },
     {
       "id": "9e8c2c6367c6cf72e8f3fb7a",
@@ -506,38 +447,8 @@
       "clusterId": "169d67aeeccdc54df4db",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.83589
-    },
-    {
-      "id": "f7185a3f74af206e7f443b61",
-      "title": "Ukraine’s new frontier: how space has become critical to balance of the war",
-      "translatedTitle": null,
-      "description": "In a war driven by drones and battlefield sensors, access to space is essential. After Starlink speed restrictions and Russian Oreshnik missile strikes, Kyiv is racing to develop its own space capabilities For people in the Russian industrial city of Samara on the banks of the Volga, the first they knew of the Ukrainian attack were detonations that sent a column of smoke into the air. If the Kremlin was vague about the target, video footage on social media soon made it clear what had been hit in",
-      "url": "https://www.theguardian.com/science/ng-interactive/2026/nov/08/ukraine-space-critical-war-starlink",
-      "canonicalUrl": "https://theguardian.com/science/ng-interactive/2026/nov/08/ukraine-space-critical-war-starlink",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T05:00:30Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a2e74883c34189ee475959f8f42c735f8b9f1483/0_883_4000_3198/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=9edf40374512a24b3ad5de87b5e1040d",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "880fbd9038e278039e3d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.82212
+      "rankingScore": 6.45017,
+      "related": []
     },
     {
       "id": "08bf59ea1646e5414b14d15b",
@@ -566,74 +477,14 @@
       "clusterId": "ad1617e5938c02d2700a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.82018
-    },
-    {
-      "id": "5369aa5b43aec0ba1deb9bf6",
-      "title": "At least 22 people injured after 5.7-magnitude earthquake strikes Japan",
-      "translatedTitle": null,
-      "description": "Shinkansen bullet trains were running at slower speeds in affected areas as precautionary measure",
-      "url": "https://www.independent.co.uk/asia/japan/japan-earthquake-aichi-fuji-kyoto-injuries-b3081142.html",
-      "canonicalUrl": "https://independent.co.uk/asia/japan/japan-earthquake-aichi-fuji-kyoto-injuries-b3081142.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T05:33:47Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/08/00/Japan_Earthquake_12867.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "040656b23539b8623b73",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.78946
-    },
-    {
-      "id": "c869b848cdd71852cae4ffe4",
-      "title": "Who won New Zealand’s photo-finish election and why special votes could change everything",
-      "translatedTitle": null,
-      "description": "The shape of the next government will not become clear until special votes are counted and official results are announced on 27 November New Zealand faces weeks of uncertainty with election ‘too close to call’ New Zealand’s right-leaning coalition, led by the National party, hopes to cling on to power based on Saturday’s cliffhanger general election. But the shape of the next government will not become clear until 27 November. Here’s why the outcome remains unclear and why almost 400,000 yet-to-",
-      "url": "https://www.theguardian.com/world/2026/nov/08/nz-election-who-won-results-explained-overhang-special-votes-new-zealand",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/08/nz-election-who-won-results-explained-overhang-special-votes-new-zealand",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T03:27:49Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d1d679309774c6a2b906dab1a23942ea2d016c97/653_0_7857_6286/master/7857.jpg?width=140&quality=85&auto=format&fit=max&s=bd888633ed68885f1bced9519849de7e",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a289d7421d64f38348fa",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.67145,
+      "rankingScore": 6.43759,
       "related": []
     },
     {
       "id": "4e4add273f8288982a5bc3b9",
       "title": "Briton among six killed by 'far-right' gunman in Krakow rampage",
       "translatedTitle": null,
-      "description": "A British national is among the six people killed in a mass shooting in Krakow, according to Polish police.",
+      "description": "A 32-year-old British man is among the six people killed in a mass shooting in Krakow, and another was wounded, Polish officials have said.",
       "url": "https://news.sky.com/story/british-national-among-six-killed-by-far-right-gunman-in-krakow-rampage-13609612",
       "canonicalUrl": "https://news.sky.com/story/british-national-among-six-killed-by-far-right-gunman-in-krakow-rampage-13609612",
       "sourceName": "Sky News",
@@ -645,87 +496,27 @@
       ],
       "language": "en",
       "publishedAt": "2026-11-08T02:19:00Z",
-      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-poland-krakow-shooting_7400608.jpg?20261107222856",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-krakow-poland-mass-shooting_7400724.jpg?20261108081858",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "ce45e82ca3c6c2827885",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.56765,
+      "rankingScore": 6.25331,
       "related": []
     },
     {
-      "id": "cc7ea90b685066e5a810b550",
-      "title": "New Zealand’s two major parties are flatlining as dispirited voters seek transformational change",
+      "id": "f958f2ce6acb5519e85ae3ee",
+      "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
       "translatedTitle": null,
-      "description": "Voters sent National and Labour a clear message last night – and the parties have no one to blame but themselves New Zealand faces weeks of uncertainty with election ‘too close to call’ New Zealand voters sent the two major parties a clear message last night. They expect more. In a resounding rejection of the incrementalist political managerialism that has characterised the governments led by the major parties over the past decades, seven in 10 voters passed over Labour, and the same number skip",
-      "url": "https://www.theguardian.com/world/2026/nov/08/nz-election-2026-national-labour-rejection-by-voters",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/08/nz-election-2026-national-labour-rejection-by-voters",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T01:15:17Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/7e29a40ecd50236635594074afcfd4dac530881f/554_0_3664_2933/master/3664.jpg?width=140&quality=85&auto=format&fit=max&s=25c08bdf97e1e9131efa193b07e1b809",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "33107b52d19d37ff4a5d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.47727
-    },
-    {
-      "id": "e8c6d585b4377cd14f4fdc34",
-      "title": "NZ election 2026: New Zealand faces weeks of uncertainty with results ‘too close to call’",
-      "translatedTitle": null,
-      "description": "National party will be largest in parliament but ultimate shape of next government won’t be settled for some time New Zealand could be facing a weeks-long wait to know the shape of its next government, after its nail-biting election failed to hand a decisive victory to either the incumbent rightwing coalition or opposition left bloc. On preliminary results, the centre-right National party, led by the prime minister, Christopher Luxon, managed to secure enough seats to govern alongside its tradit",
-      "url": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T01:00:48Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/7fcb32a817f834d2911af2cc72d2a3a7d313ee0e/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=030d6b177625782a5ee646ba1c1d9571",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e5e34a70304aa0b78c51",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.45745,
-      "related": []
-    },
-    {
-      "id": "bea7f3dac6d0d470720cbea0",
-      "title": "The Papers: 'Briton dies in Krakow shootings' and 'Royals honour the fallen'",
-      "translatedTitle": null,
-      "description": "The Royal Family are pictured attending the Festival of Remembrance on a number of Sunday's front pages.",
-      "url": "https://www.bbc.co.uk/news/articles/cr9dz7jqel02o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cr9dz7jqel02o?at_campaign=rss&at_medium=RSS",
+      "description": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
+      "url": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmzxjvpqrjxro?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -734,28 +525,208 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-08T06:40:02Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2c8/live/b0f2a080-db30-11f1-b441-2b33b063138f.jpg",
+      "publishedAt": "2026-11-08T11:25:32Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1427/live/5d17fd80-db61-11f1-adda-c54f54e3ce6a.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "2a4709b4daecde7b22f8",
+      "clusterId": "643b383a0be960eeb986",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.91899
+      "rankingScore": 6.00548
     },
     {
-      "id": "8314aa2423d8152c9a907576",
-      "title": "The oldest club in London making FA Cup history",
+      "id": "6b7331b794bcb482174ee750",
+      "title": "Poundland suitor urges Gordon Brothers to release funding to secure sale",
       "translatedTitle": null,
-      "description": "Cray Wanderers host Stockport County in the FA Cup first round, with 112 league places separating the two sides.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cv8ez3pe5x41o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cv8ez3pe5x41o?at_campaign=rss&at_medium=RSS",
+      "description": "The leading solvent bidder for Poundland is urging its owner to immediately release tens of millions of pounds of funding needed to restock the discount retailer's shelves and save more than 10,000 jobs.",
+      "url": "https://news.sky.com/story/poundland-suitor-urges-gordon-brothers-to-release-funding-to-secure-sale-13609647",
+      "canonicalUrl": "https://news.sky.com/story/poundland-suitor-urges-gordon-brothers-to-release-funding-to-secure-sale-13609647",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T08:35:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-poundland-high-street_7399760.jpg?20261107102851",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5b27e946f5c671c8cb38",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.4294
+    },
+    {
+      "id": "135c305db421c030a4924c06",
+      "title": "There is no ‘magic pill’ to fix young women’s anxiety. I should know – I once took propranolol myself | Rhiannon Lucy Cosslett",
+      "translatedTitle": null,
+      "description": "Prescriptions for these beta blockers are soaring among England’s teenage girls. But they deserve more than this sticking-plaster approach The first time I had a panic attack, I genuinely thought I was dying. Unless you have experienced one, it is hard to understand just how physical the symptoms can be – the pounding heart, the shortness of breath, the dizziness, the chest pain, the nausea. When they became frequent, I would often have to go to bed to sleep them off, my body utterly spent from",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/08/magic-pill-young-women-anxiety-propranolol-beta-blockers-girls",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/08/magic-pill-young-women-anxiety-propranolol-beta-blockers-girls",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T08:00:36Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a16adade956d2cc6489349788a544763f2b48d11/0_1_5000_3999/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ba09f4e0f068cddfe2048fba878ac0cc",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a8dd5166b7a83a053145",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.37331,
+      "related": []
+    },
+    {
+      "id": "bee90de20e65e38628936628",
+      "title": "From the overblown to the ordinary? Met Gala 2027 to celebrate ‘poetics of everyday’",
+      "translatedTitle": null,
+      "description": "Event regarded as Oscars of fashion industry replaces John Galliano retrospective with homage to the ‘extra ordinary’ A few months after the planned John Galliano Met Gala retrospective was cancelled amid a backlash focused on the designer’s past, a more commonplace theme has been announced: “extraORDINARY: fashion and the poetics of the everyday.” It has left some commentators speculating that celebrities might replace the couture “omelette dresses” and four-part red-carpet performances with je",
+      "url": "https://www.theguardian.com/fashion/2026/nov/08/met-gala-2027-theme-poetics-everyday",
+      "canonicalUrl": "https://theguardian.com/fashion/2026/nov/08/met-gala-2027-theme-poetics-everyday",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T08:00:36Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c301bdbb21a9e2f1c4b07740c4b8e30b97cecc51/417_0_4167_3335/master/4167.jpg?width=140&quality=85&auto=format&fit=max&s=ff2c8e89e8e03a1545c66fe716313b48",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5febcec9346c344d6d0f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.37331,
+      "related": []
+    },
+    {
+      "id": "2943484de06c26c2803b9f23",
+      "title": "Julián Alvarez’s Atlético redemption arc in full focus for visit of Barcelona",
+      "translatedTitle": null,
+      "description": "Top spot is up for grabs in Sunday’s heavyweight clash as the Spider faces the team that tried to trap him last summer Julián Alvarez said sorry but forgiveness must be earned on the field and Sunday would be the perfect place. At 9pm at the Metropolitano, Atlético Madrid play Barcelona. It is the biggest match in Spain right now, a place at the top of the table awaiting the winner; it is also the game the striker they call the Spider planned to play on the other side. That, Alvarez said in Dall",
+      "url": "https://www.theguardian.com/football/2026/nov/08/julian-alvarezs-atletico-redemption-arc-in-full-focus-for-visit-of-barcelona",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/08/julian-alvarezs-atletico-redemption-arc-in-full-focus-for-visit-of-barcelona",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T08:00:35Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7e005c7e2a701ce37dfeba77dbce68ddab412682/180_418_5141_4113/master/5141.jpg?width=140&quality=85&auto=format&fit=max&s=c9ecbf9d5af5ec2508ede2534bda9637",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "012ec76e5fed0dcbac85",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.37328,
+      "related": []
+    },
+    {
+      "id": "53407d7eccb94d5ad20662df",
+      "title": "Female sports journalists have always faced sexism. Social media has made it vicious and relentless | Anjali Doshi",
+      "translatedTitle": null,
+      "description": "I have reported on cricket for two decades. The abuse I have been subjected to in recent years is shocking and demoralising By Wisden Cricket Monthly Twenty-four years ago I walked into the Wankhede press box for the first time, to cover an India v England one-day international. That sultry Mumbai evening, Andrew Flintoff sprinted across the outfield twirling his shirt round his head as England won by five runs – a sight that so annoyed captain Sourav Ganguly that he would take his revenge on th",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/female-sports-journalists-sexism-social-media-vicious-relentless-cricket",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/08/female-sports-journalists-sexism-social-media-vicious-relentless-cricket",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T08:00:35Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b0c2fbc008707549b0cd4c5f5152dd527c25caf3/0_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=e11fd7118c10c13a17282dc4c6692c5c",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0eb1208ab1d89424a943",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.37328,
+      "related": []
+    },
+    {
+      "id": "4cbbf41916d33669fecc807e",
+      "title": "The best men’s coats for autumn and winter: 48 favourites for £200 or less",
+      "translatedTitle": null,
+      "description": "From a puffer made of old fishing nets to a trench worthy of Bogart, these are the coats worth braving the cold for • The best men’s shirts for every occasion No one remembers the suit Humphrey Bogart wore at the end of Casablanca, but everyone remembers the trench. The same goes for you this winter: from November to March, your coat is your first impression, so it’s worth getting right. That doesn’t mean you have to spend a fortune: the coats in this list cost £200 or less. The trick to choosin",
+      "url": "https://www.theguardian.com/thefilter/2026/nov/08/best-mens-coats-autumn-winter-under-200-2026-uk",
+      "canonicalUrl": "https://theguardian.com/thefilter/2026/nov/08/best-mens-coats-autumn-winter-under-200-2026-uk",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T08:00:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/03949ad3431c336c620a9e0eff2f150609f792c5/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=fab4372232374f68251db44350bcb634",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "06b76b230680fdf1b91a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.37325,
+      "related": []
+    },
+    {
+      "id": "3be50b4d333d02eba5bdd4e2",
+      "title": "Two seriously hurt in 30-vehicle crash on the M20 in Kent",
+      "translatedTitle": null,
+      "description": "The crash happened in fog on Saturday evening on the London-bound carriageway near Maidstone, Kent.",
+      "url": "https://www.bbc.co.uk/news/articles/ck87z9exex2lo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ck87z9exex2lo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -764,20 +735,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-08T06:28:56Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f765/live/7f024030-d860-11f1-85ab-b3cc3b5498c6.jpg",
+      "publishedAt": "2026-11-08T04:09:21Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a9db/live/1a0c2d60-db23-11f1-a701-fddedf244c16.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "403b8de30834b25bb433",
+      "clusterId": "3bd69b63a31c96656e9a",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.89845
+      "rankingScore": 5.30921
     },
     {
       "id": "c9f9486f49bff8308615714e",
@@ -806,158 +777,8 @@
       "clusterId": "54b20737a953e0781a9d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.82214
-    },
-    {
-      "id": "bee90de20e65e38628936628",
-      "title": "From the overblown to the ordinary? Met Gala 2027 to celebrate ‘poetics of everyday’",
-      "translatedTitle": null,
-      "description": "Event regarded as Oscars of fashion industry replaces John Galliano retrospective with homage to the ‘extra ordinary’ A few months after the planned John Galliano Met Gala retrospective was cancelled amid a backlash focused on the designer’s past, a more commonplace theme has been announced: “extraORDINARY: fashion and the poetics of the everyday.” It has left some commentators speculating that celebrities might replace the couture “omelette dresses” and four-part red-carpet performances with je",
-      "url": "https://www.theguardian.com/fashion/2026/nov/08/met-gala-2027-theme-poetics-everyday",
-      "canonicalUrl": "https://theguardian.com/fashion/2026/nov/08/met-gala-2027-theme-poetics-everyday",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T08:00:36Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/c301bdbb21a9e2f1c4b07740c4b8e30b97cecc51/417_0_4167_3335/master/4167.jpg?width=140&quality=85&auto=format&fit=max&s=ff2c8e89e8e03a1545c66fe716313b48",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5febcec9346c344d6d0f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80459
-    },
-    {
-      "id": "135c305db421c030a4924c06",
-      "title": "There is no ‘magic pill’ to fix young women’s anxiety. I should know – I once took propranolol myself | Rhiannon Lucy Cosslett",
-      "translatedTitle": null,
-      "description": "Prescriptions for these beta blockers are soaring among England’s teenage girls. But they deserve more than this sticking-plaster approach The first time I had a panic attack, I genuinely thought I was dying. Unless you have experienced one, it is hard to understand just how physical the symptoms can be – the pounding heart, the shortness of breath, the dizziness, the chest pain, the nausea. When they became frequent, I would often have to go to bed to sleep them off, my body utterly spent from",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/08/magic-pill-young-women-anxiety-propranolol-beta-blockers-girls",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/08/magic-pill-young-women-anxiety-propranolol-beta-blockers-girls",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T08:00:36Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a16adade956d2cc6489349788a544763f2b48d11/0_1_5000_3999/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ba09f4e0f068cddfe2048fba878ac0cc",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a8dd5166b7a83a053145",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80459
-    },
-    {
-      "id": "2943484de06c26c2803b9f23",
-      "title": "Julián Alvarez’s Atlético redemption arc in full focus for visit of Barcelona",
-      "translatedTitle": null,
-      "description": "Top spot is up for grabs in Sunday’s heavyweight clash as the Spider faces the team that tried to trap him last summer Julián Alvarez said sorry but forgiveness must be earned on the field and Sunday would be the perfect place. At 9pm at the Metropolitano, Atlético Madrid play Barcelona. It is the biggest match in Spain right now, a place at the top of the table awaiting the winner; it is also the game the striker they call the Spider planned to play on the other side. That, Alvarez said in Dall",
-      "url": "https://www.theguardian.com/football/2026/nov/08/julian-alvarezs-atletico-redemption-arc-in-full-focus-for-visit-of-barcelona",
-      "canonicalUrl": "https://theguardian.com/football/2026/nov/08/julian-alvarezs-atletico-redemption-arc-in-full-focus-for-visit-of-barcelona",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T08:00:35Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/7e005c7e2a701ce37dfeba77dbce68ddab412682/180_418_5141_4113/master/5141.jpg?width=140&quality=85&auto=format&fit=max&s=c9ecbf9d5af5ec2508ede2534bda9637",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "012ec76e5fed0dcbac85",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80456
-    },
-    {
-      "id": "53407d7eccb94d5ad20662df",
-      "title": "Female sports journalists have always faced sexism. Social media has made it vicious and relentless | Anjali Doshi",
-      "translatedTitle": null,
-      "description": "I have reported on cricket for two decades. The abuse I have been subjected to in recent years is shocking and demoralising By Wisden Cricket Monthly Twenty-four years ago I walked into the Wankhede press box for the first time, to cover an India v England one-day international. That sultry Mumbai evening, Andrew Flintoff sprinted across the outfield twirling his shirt round his head as England won by five runs – a sight that so annoyed captain Sourav Ganguly that he would take his revenge on th",
-      "url": "https://www.theguardian.com/sport/2026/nov/08/female-sports-journalists-sexism-social-media-vicious-relentless-cricket",
-      "canonicalUrl": "https://theguardian.com/sport/2026/nov/08/female-sports-journalists-sexism-social-media-vicious-relentless-cricket",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T08:00:35Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/b0c2fbc008707549b0cd4c5f5152dd527c25caf3/0_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=e11fd7118c10c13a17282dc4c6692c5c",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0eb1208ab1d89424a943",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80456
-    },
-    {
-      "id": "4cbbf41916d33669fecc807e",
-      "title": "The best men’s coats for autumn and winter: 48 favourites for £200 or less",
-      "translatedTitle": null,
-      "description": "From a puffer made of old fishing nets to a trench worthy of Bogart, these are the coats worth braving the cold for • The best men’s shirts for every occasion No one remembers the suit Humphrey Bogart wore at the end of Casablanca, but everyone remembers the trench. The same goes for you this winter: from November to March, your coat is your first impression, so it’s worth getting right. That doesn’t mean you have to spend a fortune: the coats in this list cost £200 or less. The trick to choosin",
-      "url": "https://www.theguardian.com/thefilter/2026/nov/08/best-mens-coats-autumn-winter-under-200-2026-uk",
-      "canonicalUrl": "https://theguardian.com/thefilter/2026/nov/08/best-mens-coats-autumn-winter-under-200-2026-uk",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T08:00:34Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/03949ad3431c336c620a9e0eff2f150609f792c5/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=fab4372232374f68251db44350bcb634",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "06b76b230680fdf1b91a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80453
+      "rankingScore": 5.29735,
+      "related": []
     },
     {
       "id": "bd4d517ac862956645fc51e3",
@@ -986,38 +807,8 @@
       "clusterId": "9e417f351c1b0a2a31a5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72679
-    },
-    {
-      "id": "03b26d9db7c5717e89c0d760",
-      "title": "Banana producers in Latin America want better pay to cope with effects of climate crisis",
-      "translatedTitle": null,
-      "description": "Farmers face big drop in production from extreme weather during this year’s super El Niño event Banana producers in Latin America are calling for better pay to help cope with the impact of the climate crisis, as they face big drops in production resulting from extreme weather during this year’s super El Niño event. High winds in parts of Colombia, one of the biggest suppliers to the UK market where droughts are predicted in some regions this year, and heavy rainfall in Peru and Ecuador are alrea",
-      "url": "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
-      "canonicalUrl": "https://theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T07:00:34Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9998f654354c4d901763da7a8e3a1176665da648/11_5_1775_1421/master/1775.jpg?width=140&quality=85&auto=format&fit=max&s=e0a7f48086ddcc00a4d4314519f8f04a",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "125a1045c72c4a0f4fbd",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68756
+      "rankingScore": 5.29307,
+      "related": []
     },
     {
       "id": "12d782b7a4ead1dec3c5526e",
@@ -1039,23 +830,23 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "667705d3bce33516c6f7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68752
+      "rankingScore": 5.27956,
+      "related": []
     },
     {
-      "id": "51d1d076d753b9b178084102",
-      "title": "Two seriously hurt in 30-vehicle crash on the M20 in Kent",
+      "id": "8b433de3a1bad26bf8ca9c88",
+      "title": "Veterans shouldn't sleep rough this Christmas, Burnham says",
       "translatedTitle": null,
-      "description": "The crash happened in fog on Saturday evening on the London-bound carriageway near Maidstone, Kent.",
-      "url": "https://www.bbc.co.uk/news/articles/ck87z9exex2lo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ck87z9exex2lo?at_campaign=rss&at_medium=RSS",
+      "description": "Downing Street says the prime minister will personally write to councils on Armistice Day to urge them to draw up plans.",
+      "url": "https://www.bbc.co.uk/news/articles/c6pwg4ddwkzeo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6pwg4ddwkzeo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -1064,20 +855,50 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-08T04:09:21Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a9db/live/1a0c2d60-db23-11f1-a701-fddedf244c16.jpg",
+      "publishedAt": "2026-11-08T03:34:22Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa5e/live/9a627e50-dae8-11f1-93e1-3b657b665bcf.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3bd69b63a31c96656e9a",
+      "clusterId": "8ead65b48c158ec1397b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.65737
+      "rankingScore": 5.26462
+    },
+    {
+      "id": "a8742b98debeccade2b9015d",
+      "title": "TV tonight: Stacey Dooley takes an Australian adventure with a twist",
+      "translatedTitle": null,
+      "description": "The star goes off the beaten track to visit neglected parts. Plus, more oceanic wonder in Blue Planet III. Here’s what to watch this evening 9pm, Channel 4 Continue reading...",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/08/tv-tonight-stacey-dooley-takes-an-australian-adventure-with-a-twist",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/08/tv-tonight-stacey-dooley-takes-an-australian-adventure-with-a-twist",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T06:15:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e2a00889d16d220ef35c04885e44aef4ee765b20/118_0_3540_2832/master/3540.jpg?width=140&quality=85&auto=format&fit=max&s=35596fe4b73d778f581a8303a2a35a14",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f18bc9e00e09508f3273",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.21263,
+      "related": []
     },
     {
       "id": "546ca4f77f8ff09ab09e7fe2",
@@ -1106,98 +927,8 @@
       "clusterId": "cd8bfe4cbb295f7a3ec4",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.61845
-    },
-    {
-      "id": "a8742b98debeccade2b9015d",
-      "title": "TV tonight: Stacey Dooley takes an Australian adventure with a twist",
-      "translatedTitle": null,
-      "description": "The star goes off the beaten track to visit neglected parts. Plus, more oceanic wonder in Blue Planet III. Here’s what to watch this evening 9pm, Channel 4 Continue reading...",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/08/tv-tonight-stacey-dooley-takes-an-australian-adventure-with-a-twist",
-      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/08/tv-tonight-stacey-dooley-takes-an-australian-adventure-with-a-twist",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T06:15:32Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e2a00889d16d220ef35c04885e44aef4ee765b20/118_0_3540_2832/master/3540.jpg?width=140&quality=85&auto=format&fit=max&s=35596fe4b73d778f581a8303a2a35a14",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f18bc9e00e09508f3273",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60393
-    },
-    {
-      "id": "bd2f7d31f5882aecf4e68ffd",
-      "title": "Veterans shouldn't sleep rough this Christmas, Burnham says",
-      "translatedTitle": null,
-      "description": "Downing Street says the prime minister will personally write to councils on Armistice Day to urge them to draw up plans.",
-      "url": "https://www.bbc.co.uk/news/articles/c6pwg4ddwkzeo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6pwg4ddwkzeo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T03:34:22Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa5e/live/9a627e50-dae8-11f1-93e1-3b657b665bcf.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8ead65b48c158ec1397b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.60168
-    },
-    {
-      "id": "3e2d72c90a55661e5e5f97e0",
-      "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
-      "translatedTitle": null,
-      "description": "Suspect was influenced by far-right ideology and held ‘ultra-nationalistic’ views, says Polish interior minister Six people have been killed and 16 wounded after a gunman opened fire in a busy market square in Kraków, authorities said, in what Poland’s defence minister called an “act of terror” on the people of the city. The suspect, a 25-year-old Polish citizen, opened fire with an automatic weapon in the city’s main square at about 3pm on Saturday. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-08T06:06:46Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/3d8244fe8422d5c0105861b7f544fc699f6bec58/1148_0_5909_4727/master/5909.jpg?width=140&quality=85&auto=format&fit=max&s=b7d1642fd15c5cebd5634447ffb2e131",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1b44df85e9278478aee0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.58806
+      "rankingScore": 5.20632,
+      "related": []
     },
     {
       "id": "0f373afc0c1b2185c32f466e",
@@ -1219,15 +950,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "fe2fb8e3a3bb6c06eb41",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.57687
+      "rankingScore": 5.19096,
+      "related": []
     },
     {
       "id": "db4387145d804f00ce6ffb50",
@@ -1249,15 +980,45 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "74cb53f98f5a55227f38",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.57684
+      "rankingScore": 5.19094,
+      "related": []
+    },
+    {
+      "id": "03b26d9db7c5717e89c0d760",
+      "title": "Banana producers in Latin America want better pay to cope with effects of climate crisis",
+      "translatedTitle": null,
+      "description": "Farmers face big drop in production from extreme weather during this year’s super El Niño event Banana producers in Latin America are calling for better pay to help cope with the impact of the climate crisis, as they face big drops in production resulting from extreme weather during this year’s super El Niño event. High winds in parts of Colombia, one of the biggest suppliers to the UK market where droughts are predicted in some regions this year, and heavy rainfall in Peru and Ecuador are alrea",
+      "url": "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
+      "canonicalUrl": "https://theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T07:00:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9998f654354c4d901763da7a8e3a1176665da648/11_5_1775_1421/master/1775.jpg?width=140&quality=85&auto=format&fit=max&s=e0a7f48086ddcc00a4d4314519f8f04a",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-08T08:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "125a1045c72c4a0f4fbd",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.18959,
+      "related": []
     },
     {
       "id": "1cadf31d233313b666b889d7",
@@ -1286,8 +1047,38 @@
       "clusterId": "5b65875f156f358312c8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.54635
+      "rankingScore": 5.14859,
+      "related": []
+    },
+    {
+      "id": "3e2d72c90a55661e5e5f97e0",
+      "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
+      "translatedTitle": null,
+      "description": "Suspect was influenced by far-right ideology and held ‘ultra-nationalistic’ views, says Polish interior minister Six people have been killed and 16 wounded after a gunman opened fire in a busy market square in Kraków, authorities said, in what Poland’s defence minister called an “act of terror” on the people of the city. The suspect, a 25-year-old Polish citizen, opened fire with an automatic weapon in the city’s main square at about 3pm on Saturday. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T06:06:46Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3d8244fe8422d5c0105861b7f544fc699f6bec58/1148_0_5909_4727/master/5909.jpg?width=140&quality=85&auto=format&fit=max&s=b7d1642fd15c5cebd5634447ffb2e131",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-11-08T08:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1b44df85e9278478aee0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.10991,
+      "related": []
     },
     {
       "id": "027063a75064dd935750564b",
@@ -1316,8 +1107,38 @@
       "clusterId": "48e875ca616705f9f138",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.49589
+      "rankingScore": 5.10818,
+      "related": []
+    },
+    {
+      "id": "bdc0dd54c36d0d2de7251264",
+      "title": "There are eight group-chat archetypes. I know which I am – and it’s not sexy or cool | Polly Hudson",
+      "translatedTitle": null,
+      "description": "Are you a ghoster, meme machine or last-minute responder? Do you fail to pay back your more organised friends? My message, if so: this is not OK If you want to completely bore a child, try telling them about how there were only four TV channels when you were growing up. Or that if you wanted to hear a pop song you had to buy a physical copy, or sit by your boombox – yes, boombox – listening to the radio with your finger hovering over the record button, hoping the DJ wouldn’t talk over any of it",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/08/there-are-eight-group-chat-archetypes-i-know-which-i-am-and-its-not-sexy-or-cool",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/08/there-are-eight-group-chat-archetypes-i-know-which-i-am-and-its-not-sexy-or-cool",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T05:00:31Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/96c7681e4b7286595c6e1211d46a9ee0512a5de8/262_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=e0f6e968c70f1e22f66120d4ec110d2c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d6217740235940e9fda1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.1071,
+      "related": []
     },
     {
       "id": "39a5e9d0118ca90e72fee688",
@@ -1346,8 +1167,8 @@
       "clusterId": "23df48ee17461675770c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.48684
+      "rankingScore": 5.10094,
+      "related": []
     },
     {
       "id": "e7a08402c22b60201ede0d5b",
@@ -1376,8 +1197,38 @@
       "clusterId": "3ae111c8cc9508f2934f",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 5.10017,
+      "related": []
+    },
+    {
+      "id": "df36df36064261c8292bddd1",
+      "title": "My parents chose to die together and I was left to grieve alone",
+      "translatedTitle": null,
+      "description": "Els and Jan sought medical intervention to end their lives after 50 happy years of marriage, leaving behind their only child.",
+      "url": "https://www.bbc.co.uk/news/articles/c81dwllzv113o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c81dwllzv113o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T01:10:21Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bdf/live/66ee1fc0-d90d-11f1-b441-2b33b063138f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "108b46eefb4af5f2c2f3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.48589
+      "rankingScore": 5.09551
     },
     {
       "id": "9b8d473a316935d387a42f3d",
@@ -1406,16 +1257,196 @@
       "clusterId": "b444c556124e392662a5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47787
+      "rankingScore": 5.09375,
+      "related": []
     },
     {
-      "id": "bdc0dd54c36d0d2de7251264",
-      "title": "There are eight group-chat archetypes. I know which I am – and it’s not sexy or cool | Polly Hudson",
+      "id": "811f55adf31181b1226f1b97",
+      "title": "The Trump coalition is shattered - what will Republicans do now?",
       "translatedTitle": null,
-      "description": "Are you a ghoster, meme machine or last-minute responder? Do you fail to pay back your more organised friends? My message, if so: this is not OK If you want to completely bore a child, try telling them about how there were only four TV channels when you were growing up. Or that if you wanted to hear a pop song you had to buy a physical copy, or sit by your boombox – yes, boombox – listening to the radio with your finger hovering over the record button, hoping the DJ wouldn’t talk over any of it",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/08/there-are-eight-group-chat-archetypes-i-know-which-i-am-and-its-not-sexy-or-cool",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/08/there-are-eight-group-chat-archetypes-i-know-which-i-am-and-its-not-sexy-or-cool",
+      "description": "Republicans can stick with Trumpism or chart a new path, writes BBC Washington correspondent Daniel Bush.",
+      "url": "https://www.bbc.co.uk/news/articles/cm3r5gnxqz3jo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm3r5gnxqz3jo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T00:52:39Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa4b/live/74e0bf70-dae8-11f1-93e1-3b657b665bcf.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c6d8778d77903532dd87",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.07624
+    },
+    {
+      "id": "ded25624eca0c0fc04d094cd",
+      "title": "Ambika Mod wants to change how South Asian women are seen on-screen",
+      "translatedTitle": null,
+      "description": "The actress joins the cast of Black Doves for the second season of Netflix's spy thriller.",
+      "url": "https://www.bbc.co.uk/news/articles/c6rmy9jvgwleo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6rmy9jvgwleo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T00:49:00Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5088/live/40d82940-db54-11f1-a701-fddedf244c16.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cff035298f8d26e4482d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.0723
+    },
+    {
+      "id": "e168bc5fdad7c90a9a0739f5",
+      "title": "Germans wrestle with what to do with Hitler's destroyed Eagle's Nest retreat",
+      "translatedTitle": null,
+      "description": "While some believe the site should be partially or completely rebuilt, others want it abandoned and all memory of its Nazi past forgotten.",
+      "url": "https://www.bbc.co.uk/news/articles/cm74pk1g51nko?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm74pk1g51nko?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T00:48:59Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d01/live/81eb37e0-d877-11f1-a701-fddedf244c16.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b41e8c50eea8d1fbd10b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.07228
+    },
+    {
+      "id": "06cb9675ec0c7f4b7c599e5f",
+      "title": "'Soap operas on steroids': Microdramas are going mainstream",
+      "translatedTitle": null,
+      "description": "The snappy, high-octane episodes - viewed on your phone - are huge in China and on the up in the UK.",
+      "url": "https://www.bbc.co.uk/news/articles/cm87zv70jg9no?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm87zv70jg9no?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T00:45:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b15/live/9cf3fa20-d9e1-11f1-a701-fddedf244c16.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4468414f699c2e8d2e1b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.06881
+    },
+    {
+      "id": "36425af92d5537c56b860013",
+      "title": "Can the Zelda remake capture the magic of the original?",
+      "translatedTitle": null,
+      "description": "Nintendo has released its remake of what is considered one of the best games ever made - the BBC's Tom Gerken gives his verdict.",
+      "url": "https://www.bbc.co.uk/news/articles/cm8xznl0n1q4o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm8xznl0n1q4o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T00:37:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e2f/live/adc5ae70-d699-11f1-8052-913cc7942a17.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "761bb4ac298ab6bbc9fe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.06026
+    },
+    {
+      "id": "30b1563b0eba2e2f41620e9a",
+      "title": "'The worst conditions in my 35-year career' - commentating in the FA Cup fog",
+      "translatedTitle": null,
+      "description": "BBC Sport commentator Steve Bower gives an insight into trying to commentate when thick fog engulfs a stadium and you can barely see the action.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqev3rdvyvm1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cqev3rdvyvm1o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T00:17:56Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e50/live/d7267220-db00-11f1-969c-27c4482e95aa.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d90e1d18baca95c9eb77",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.03934
+    },
+    {
+      "id": "72b7d72a21973b7bea13500c",
+      "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
+      "translatedTitle": null,
+      "description": "Activists fear Bangkok will give in to pressure from Beijing despite reports of torture and human rights abuses against the mostly muslim ethnic minority The deportation of two more Uyghurs to China from Thailand would put their lives in grave danger, activists have said, with one of the men saying he would be “like a slave” if he was sent back. Last year, Thai authorities forcibly deported 40 Uyghur men to China despite pleas from the men themselves and the UN. The US and Canada had reportedly",
+      "url": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1424,20 +1455,50 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-08T05:00:31Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/96c7681e4b7286595c6e1211d46a9ee0512a5de8/262_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=e0f6e968c70f1e22f66120d4ec110d2c",
+      "publishedAt": "2026-11-08T03:00:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/35edbd25132584ead100a994fe3243e80a1ce3f1/0_0_4132_3306/master/4132.jpg?width=140&quality=85&auto=format&fit=max&s=27393216122fc0abfebcbe2607170f1a",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-08T08:18:06Z",
+      "retrievedAt": "2026-11-08T12:18:04Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d6217740235940e9fda1",
+      "clusterId": "9b8a2c56c684b9e245ca",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.47215
+      "rankingScore": 4.95276
+    },
+    {
+      "id": "7885624705a3e4c085a87de1",
+      "title": "‘I haven’t thrown anyone under the bus’: Usman Khawaja defends timing of ball-tampering revelations",
+      "translatedTitle": null,
+      "description": "Former Test opener issues explanation on social media Khawaja says he would ‘not deny’ everyone knew about sandpaper Usman Khawaja insists he has not thrown anyone under the bus with his bombshell ball-tampering revelations that have rocked Australian cricket. One day on from claiming sandpaper had been used in the Test prior to Cape Town 2018 and the entire team were responsible, Khawaja defended the timing of his claims. Continue reading...",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/usman-khawaja-defends-timing-of-australian-ball-tampering-revelations",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/08/usman-khawaja-defends-timing-of-australian-ball-tampering-revelations",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-08T01:33:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/163bf1b6019b1ca90809121ed3f57d47fdb44897/686_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=97903127ba86c9ae5f0c8f48ccf7ef3a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-08T12:18:04Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "02a604c0b61dcded2154",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.85102
     }
   ]
 }
