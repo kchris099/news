@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T00:18:06Z",
-  "lastAttemptAt": "2026-11-10T00:18:06Z",
-  "lastSuccessfulUpdate": "2026-11-10T00:18:06Z",
-  "status": "current",
+  "generatedAt": "2026-11-10T04:18:01Z",
+  "lastAttemptAt": "2026-11-10T04:18:01Z",
+  "lastSuccessfulUpdate": "2026-11-10T04:18:01Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 8,
-  "publisherCount": 2,
+  "articleCount": 27,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-10T00:18:05Z",
-      "lastSuccessAt": "2026-11-10T00:18:05Z",
+      "lastAttemptAt": "2026-11-10T04:18:01Z",
+      "lastSuccessAt": "2026-11-10T04:18:01Z",
       "articlesRetrieved": 33,
-      "responseTimeMs": 746,
+      "responseTimeMs": 678,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-10T00:18:05Z",
-      "lastSuccessAt": "2026-11-10T00:18:05Z",
+      "lastAttemptAt": "2026-11-10T04:18:01Z",
+      "lastSuccessAt": "2026-11-10T04:18:01Z",
       "articlesRetrieved": 141,
-      "responseTimeMs": 599,
+      "responseTimeMs": 399,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,146 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-10T00:18:05Z",
-      "lastSuccessAt": "2026-11-10T00:18:05Z",
-      "articlesRetrieved": 7,
-      "responseTimeMs": 784,
+      "lastAttemptAt": "2026-11-10T04:18:01Z",
+      "lastSuccessAt": "2026-11-10T04:18:01Z",
+      "articlesRetrieved": 9,
+      "responseTimeMs": 360,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-10T00:18:05Z",
-      "lastSuccessAt": "2026-11-10T00:18:05Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 547,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-10T04:18:01Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
+    {
+      "id": "1af8f225e013bce81dff4ea9",
+      "title": "Trump says more US attacks on Iran 'highly unlikely'",
+      "translatedTitle": null,
+      "description": "The president says the US is keeping \"status quo\" with Iran but remains “locked and loaded” should the situation in the Middle East change.",
+      "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cq5yny4nl2d3o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T04:09:16Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6017/live/b94816e0-dca5-11f1-b441-2b33b063138f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cbcce60049850eede40f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 9.14221
+    },
+    {
+      "id": "a8d6592fd9cbf5f1c58b2790",
+      "title": "Polish leaders join thousands at silent march in Kraków for mass shooting victims",
+      "translatedTitle": null,
+      "description": "Political rivals lead crowd starting from city’s market square where attack unfolded while mourners stop at memorial for six people killed Tens of thousands of people joined a silent march in Kraków on Monday evening, led by Poland’s president and prime minister, in tribute to the victims of a mass shooting that shocked the country over the weekend. They set off from the city’s historic market square, where the attack unfolded on Saturday afternoon. Mourners stopped at a flower-covered memorial",
+      "url": "https://www.theguardian.com/world/2026/nov/10/poland-president-pm-silent-march-krakow-shooting-victims",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/10/poland-president-pm-silent-march-krakow-shooting-victims",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T01:29:55Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/40647eae32bcbe3e78e1851dccade9aa626c25f6/672_4_4836_3868/master/4836.jpg?width=140&quality=85&auto=format&fit=max&s=b70e84dac452ee58cc78467654256f1f",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0c523d623cb6a4a6002e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.57286
+    },
+    {
+      "id": "80ed0233b661b5d33c8cbddf",
+      "title": "Ukraine war briefing: battlefield gains bolstering Kyiv’s hand in US-led peace talks, Zelenskyy says",
+      "translatedTitle": null,
+      "description": "Ukrainian president says battlefield successes and mounting Russian losses add to negotiating leverage ahead of Abu Dhabi talks on Tuesday. What we know on day 1,721 Volodymyr ⁠Zelenskyy has said ⁠that ​battlefield ‌successes ‌were strengthening Kyiv’s position ‌in negotiations, on ⁠the ⁠eve of ​new US-led trilateral talks ⁠on resolving the war. “Every ​task that is fully accomplished, every ⁠defensive operation that increases ​Ukraine’s strength ​and ​delivers results, strengthens ​Ukraine ‌and",
+      "url": "https://www.theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T01:51:06Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c1faceaabf21ac515f3e95158e389daeb2180462/312_0_3102_2483/master/3102.jpg?width=140&quality=85&auto=format&fit=max&s=8fefc6a5059ac59537d3992da9446731",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "03d3979f174891b2dd44",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.26016
+    },
+    {
+      "id": "f5c9b83e8235f0ab736412cb",
+      "title": "Slight fall in carbon emissions from fossil fuels as Iran war drives renewables push",
+      "translatedTitle": null,
+      "description": "However, authors of a comprehensive assessment to be presented at Cop31 warn talk of a global turnaround premature Cop31 live – latest updates Soaring oil and gas prices following the war in Iran have encouraged people to look beyond fossil fuels, leading to an easing of climate-damaging carbon emissions this year. Carbon dioxide from oil, gas and coal is forecast to flatline for 2026, based on data from the year so far, according to a comprehensive assessment by scientists. Emissions from burni",
+      "url": "https://www.theguardian.com/environment/2026/nov/10/slight-fall-in-carbon-emissions-from-fossil-fuels-as-iran-war-drives-renewables-push",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/10/slight-fall-in-carbon-emissions-from-fossil-fuels-as-iran-war-drives-renewables-push",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T01:00:23Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8a696f61e55e37e1f678f34a5a5527f41f39e31c/9_0_3468_2775/master/3468.jpg?width=140&quality=85&auto=format&fit=max&s=95a63d6cce224f8d3c7dc91b22add87d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "88f46b1df24be129bb2b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.17207
+    },
     {
       "id": "046488de799a38747c6b1ee7",
       "title": "Donald Trump doubles down on defense of Pete Hegseth and attacks fresh effort to impeach him – live",
@@ -85,38 +205,520 @@
       "clusterId": "4d9f0f94b45357e81c08",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.86612
+      "rankingScore": 7.99261,
+      "related": []
     },
     {
-      "id": "499b8c59bf178a8ba2c1eb44",
-      "title": "Prince William warns military must do more to make women feel safe and respected",
+      "id": "b9d656bb775eab9acd40adcb",
+      "title": "FBI investigating Nvidia boss's affair with alleged Chinese spy, Trump says",
       "translatedTitle": null,
-      "description": "The Prince of Wales has heard how they faced inappropriate comments, malicious rumours and intoxicated harassment in barracks",
-      "url": "https://www.independent.co.uk/news/uk/home-news/prince-william-women-military-armed-forces-b3081916.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/prince-william-women-military-armed-forces-b3081916.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+      "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqg7x7dpvym8o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-10T00:01:59Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/09/16/2267879503..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-11-10T03:58:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f773/live/9c28e680-dc95-11f1-a701-fddedf244c16.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-10T00:18:05Z",
+      "retrievedAt": "2026-11-10T04:18:01Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "99fc9382ec2c44a923b0",
+      "clusterId": "fa49948c00cfba2abb00",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.06741
+      "rankingScore": 7.42
+    },
+    {
+      "id": "707cba6066b94c8a271016fb",
+      "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+      "translatedTitle": null,
+      "description": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process next year.",
+      "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cwr5y58jjp8ro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T01:38:49Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0303/live/c8a877f0-dc7e-11f1-93e1-3b657b665bcf.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "87d084e37cbbf5a4e58d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15844
+    },
+    {
+      "id": "0dd92bc044bd2b8c01252d2d",
+      "title": "Prince William wants more protection from harassment for service women",
+      "translatedTitle": null,
+      "description": "The Prince of Wales says he wants to stop sexual harassment against women in the armed forces.",
+      "url": "https://www.bbc.co.uk/news/articles/cqp8g85pxe9ro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqp8g85pxe9ro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T00:41:24Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7795/live/b8b44480-dc67-11f1-8fe6-5becaee5408f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1108b8cc98dbdc6affb3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "499b8c59bf178a8ba2c1eb44",
+          "title": "Prince William warns military must do more to make women feel safe and respected",
+          "translatedTitle": null,
+          "description": "The Prince of Wales has heard how they faced inappropriate comments, malicious rumours and intoxicated harassment in barracks",
+          "url": "https://www.independent.co.uk/news/uk/home-news/prince-william-women-military-armed-forces-b3081916.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/prince-william-women-military-armed-forces-b3081916.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-10T00:01:59Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/09/16/2267879503..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-10T00:18:05Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "1108b8cc98dbdc6affb3",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 7.06741,
+          "normalizedTitle": "prince william warns military must do more to make women feel safe and respected",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 7.11015
+    },
+    {
+      "id": "9636cb3b2f332ffd02db6e40",
+      "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+      "translatedTitle": null,
+      "description": "Kyiv, Washington and Moscow are all sending delegation to the United Arab Emirates for the first trilateral talks since February.",
+      "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T00:09:49Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d4a/live/c60a1ad0-dc88-11f1-851a-19e868620cad.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6c5ea7c3875a5d7e691f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.00827
+    },
+    {
+      "id": "2b656aa485d4bd9a1ce74da3",
+      "title": "The superpower battle over energy – and what it means for your bills",
+      "translatedTitle": null,
+      "description": "A tug-of-war between China and the US could have a big impact on energy costs, but who will win?",
+      "url": "https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cw62y2z53pg1o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T00:08:28Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b1f/live/f53bf9d0-dc57-11f1-b441-2b33b063138f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cc323fe222f6d5b987e6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.00609
+    },
+    {
+      "id": "19b955e144af2c8af88c10ee",
+      "title": "Cricket Australia rules out reopening ball tampering investigation in wake of Khawaja book claims",
+      "translatedTitle": null,
+      "description": "No ‘compelling reason’ to establish another inquiry into incident Usman Khawaja says ‘this has never been about commercial gain’ Cricket Australia will not reopen the investigation into the 2018 ball tampering controversy reignited by the release this week of Usman Khawaja’s book, which alleged more than the three players suspended had knowledge of the sandpaper plan. Captain Steve Smith, vice-captain David Warner and batter Cameron Bancroft were handed long bans following a short Cricket Austra",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/cricket-australia-rules-out-reopening-ball-tampering-investigation-usman-khawaja-book",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/10/cricket-australia-rules-out-reopening-ball-tampering-investigation-usman-khawaja-book",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T01:07:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/af5a76d78cfd0924c0eb60abf6e5dd69b13f5f9b/316_0_4160_3328/master/4160.jpg?width=140&quality=85&auto=format&fit=max&s=1fd98a3d9f3a838e126aaad1891b0508",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6b7c48d4042a709e81a3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.83393
+    },
+    {
+      "id": "69a3d54636187300c05af312",
+      "title": "Californians reject wealth tax for billionaires",
+      "translatedTitle": null,
+      "description": "Proposition 40 targeted Californian billionaires with a 5% tax on their total wealth, including assets such as shares as well as income.",
+      "url": "https://www.bbc.co.uk/news/articles/cq398em3032wo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cq398em3032wo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T03:34:46Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8df3/live/53f86970-d7b4-11f1-9092-abeae3cab3b1.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "96c7911ff6e2117397a3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.02361
+    },
+    {
+      "id": "55e26ddd55d7e0a25b70bd8a",
+      "title": "Russell Brand's ex Jemima Goldsmith accuses him of violence and abuse against her",
+      "translatedTitle": null,
+      "description": "Goldsmith accuses the disgraced entertainer of \"violence, coercive control and abuse\" while the two were together.",
+      "url": "https://www.bbc.co.uk/news/articles/c95ynylr8j6xo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c95ynylr8j6xo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T02:59:42Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc6f/live/9dd1bab0-dc78-11f1-b23d-9526db010e6c.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "35466dc7920c7b614df8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.95608
+    },
+    {
+      "id": "b78850b0fd7659ec03a6be90",
+      "title": "'Cruise for life' ship seized in Singapore",
+      "translatedTitle": null,
+      "description": "It comes weeks after the cruise came to a sudden end, leaving 200 guests stranded in Cambodia.",
+      "url": "https://www.bbc.co.uk/news/articles/cqr7y7myer53o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqr7y7myer53o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T01:49:06Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/54ec/live/78680920-dca3-11f1-93a0-e3acb3757eea.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5921d1ba47b819288cfb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.82661
+    },
+    {
+      "id": "8b7cb490b9fb573f2fcb0eea",
+      "title": "Hundreds more offenders to leave jail on Tuesday",
+      "translatedTitle": null,
+      "description": "At least 1,350 offenders have been released from jail early under the scheme so far.",
+      "url": "https://www.bbc.co.uk/news/articles/c51kdk8z7ym3o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c51kdk8z7ym3o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T01:06:37Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d41e/live/421e5c00-dca0-11f1-9c8c-05853c802f05.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "881e16642e270c35e3ca",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.75268
+    },
+    {
+      "id": "19a7a9de905a941d11238321",
+      "title": "Has the weather broken records where you live? Try our new tool",
+      "translatedTitle": null,
+      "description": "Storms Austen and Boelo striking different parts of the UK at the same time contributed to 24 October being one of the wettest days Britain has ever seen.",
+      "url": "https://news.sky.com/story/the-weather-record-search-your-postcode-to-see-if-a-wet-start-to-autumn-has-made-up-for-the-dry-summer-where-you-live-13610298",
+      "canonicalUrl": "https://news.sky.com/story/the-weather-record-search-your-postcode-to-see-if-a-wet-start-to-autumn-has-made-up-for-the-dry-summer-where-you-live-13610298",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T03:22:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-weather-lookup-tool_7369573.png?20261006120830",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c413138ff7e465e52632",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.72877
+    },
+    {
+      "id": "4131cc32d4fbd8cbe070ae69",
+      "title": "The Papers: 'Brand jailed for 10 years' and 'shamed star caged'",
+      "translatedTitle": null,
+      "description": "Russell Brand's sentencing after being convicted of rape and sexual assault dominates Tuesday's front pages.",
+      "url": "https://www.bbc.co.uk/news/articles/c69vzv7llen7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c69vzv7llen7o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T00:51:54Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/564d/live/2d734ee0-dc97-11f1-a701-fddedf244c16.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c4dc05473457098c1802",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.72774
+    },
+    {
+      "id": "8cfe29b0afaaa6fe6d57b0a1",
+      "title": "I took Vinted to court to get my money back",
+      "translatedTitle": null,
+      "description": "The BBC hears from Vinted sellers who describe difficulties accessing money held in their online wallets.",
+      "url": "https://www.bbc.co.uk/news/articles/cm369e3l15lwo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm369e3l15lwo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T00:27:37Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de22/live/e53d0e50-c7c3-11f1-bc2e-018d645d8d21.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "95893c5da89ef484c2fb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68732
+    },
+    {
+      "id": "3569d7b5a716a23392be74ae",
+      "title": "My life as the UK's youngest lighthouse keeper",
+      "translatedTitle": null,
+      "description": "Jeri Cormack, 28, looks after three historic lighthouses in Caithness on the edge of the British mainland.",
+      "url": "https://www.bbc.co.uk/news/videos/cr3elxyq7x3zo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/cr3elxyq7x3zo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T00:24:30Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38d5/live/623097f0-d38c-11f1-93e1-3b657b665bcf.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6dedff3467eafe249cff",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.6822
+    },
+    {
+      "id": "9078adea01ff664aa030017e",
+      "title": "California voters fail to pass proposed one-time tax on billionaires’ wealth",
+      "translatedTitle": null,
+      "description": "Campaign over Prop 40, as measure was known, was most expensive in state history, flush with Silicon Valley dollars California billionaires won a contentious ballot measure campaign, defeating a proposed one-time tax on their wealth. The bruising campaign over Proposition 40 was the most expensive in state history and witness to back-and-forth dealing from tech billionaires and democratic leaders, including Gavin Newsom, the governor, who steadfastly opposed the measure. While supporters of Prop",
+      "url": "https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T02:54:54Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/026aa3fdbb690df527b92e025e1f71eeafb7876b/667_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=962fb4fb032105acbfe9d9031d8ba874",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "932acfac6a81ec85af0d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67701
+    },
+    {
+      "id": "36bbce4a571267f8dd7ba831",
+      "title": "Epstein associate who still runs model agency 'put me in danger' says abuse survivor",
+      "translatedTitle": null,
+      "description": "A woman says an agency boss sent her to photoshoots at the sex offender's Florida beach home.",
+      "url": "https://www.bbc.co.uk/news/articles/cm86z6w59gggo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm86z6w59gggo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-10T00:14:03Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9349/live/97006970-dc5a-11f1-a701-fddedf244c16.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-10T04:18:01Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "91e0f5ca2f144ccf3ed4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66514
     },
     {
       "id": "3f9566e947c465097cefb8a4",
@@ -138,15 +740,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-10T00:18:05Z",
+      "retrievedAt": "2026-11-10T04:18:01Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "1f22297b767ad42cb841",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80617
+      "rankingScore": 5.37465,
+      "related": []
     },
     {
       "id": "f5a0e58e834e1ace34c9629f",
@@ -175,8 +777,8 @@
       "clusterId": "54dd068f2f7fc297572c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73217
+      "rankingScore": 5.29746,
+      "related": []
     },
     {
       "id": "3ba8bf05b3adc4932a610fd4",
@@ -205,8 +807,8 @@
       "clusterId": "f523e530399d6cee79f3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71941
+      "rankingScore": 5.28724,
+      "related": []
     },
     {
       "id": "8fb157f83adce05fc875b0cb",
@@ -235,8 +837,8 @@
       "clusterId": "b0da6fb19e1221b5b769",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71593
+      "rankingScore": 5.28446,
+      "related": []
     },
     {
       "id": "e490024964ac10e0f6f3c119",
@@ -265,8 +867,8 @@
       "clusterId": "ff2109945e3fb871ad27",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71543
+      "rankingScore": 5.28406,
+      "related": []
     },
     {
       "id": "0c605040e6c2262f806977f7",
@@ -295,8 +897,8 @@
       "clusterId": "12c4bc302b96db60f37a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71543
+      "rankingScore": 5.28406,
+      "related": []
     }
   ]
 }
