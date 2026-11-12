@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T04:17:40Z",
-  "lastAttemptAt": "2026-11-12T04:17:40Z",
-  "lastSuccessfulUpdate": "2026-11-12T04:17:40Z",
-  "status": "current",
+  "generatedAt": "2026-11-12T08:17:47Z",
+  "lastAttemptAt": "2026-11-12T08:17:47Z",
+  "lastSuccessfulUpdate": "2026-11-12T08:17:47Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-12T04:17:40Z",
-      "lastSuccessAt": "2026-11-12T04:17:40Z",
-      "articlesRetrieved": 32,
-      "responseTimeMs": 503,
+      "lastAttemptAt": "2026-11-12T08:17:46Z",
+      "lastSuccessAt": "2026-11-12T08:17:46Z",
+      "articlesRetrieved": 28,
+      "responseTimeMs": 299,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-12T04:17:40Z",
-      "lastSuccessAt": "2026-11-12T04:17:40Z",
-      "articlesRetrieved": 146,
-      "responseTimeMs": 372,
+      "lastAttemptAt": "2026-11-12T08:17:46Z",
+      "lastSuccessAt": "2026-11-12T08:17:47Z",
+      "articlesRetrieved": 145,
+      "responseTimeMs": 401,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,28 +38,28 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-12T04:17:40Z",
-      "lastSuccessAt": "2026-11-12T04:17:40Z",
-      "articlesRetrieved": 9,
-      "responseTimeMs": 486,
+      "lastAttemptAt": "2026-11-12T08:17:46Z",
+      "lastSuccessAt": "2026-11-12T08:17:47Z",
+      "articlesRetrieved": 6,
+      "responseTimeMs": 584,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-12T04:17:40Z",
-      "lastSuccessAt": "2026-11-12T04:17:40Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 459,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-12T08:17:46Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
     {
-      "id": "ec009ce956719a22fb1baf24",
+      "id": "50145fc50af26a88e464b734",
       "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
       "translatedTitle": null,
       "description": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
@@ -78,7 +78,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:46Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -86,7 +86,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.77359
+      "rankingScore": 8.41204
     },
     {
       "id": "0a8129b7a09471868aaa9a37",
@@ -115,6 +115,7 @@
       "clusterId": "48fdfce218c3c673fd3a",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.76051,
       "related": [
         {
           "id": "5defdba97fe01999a265ccfb",
@@ -146,16 +147,45 @@
           "sourceQuality": 1.0,
           "normalizedTitle": "pat cummins to address media on sandpaper scandal"
         }
-      ],
-      "rankingScore": 8.21417
+      ]
     },
     {
-      "id": "3d64bc1f7b6292ea7d401f42",
-      "title": "Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems",
+      "id": "3c063d8c5c6bda73d28bbb54",
+      "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
       "translatedTitle": null,
-      "description": "Since the US war on Iran began in February, there have been hundreds of oil spills, posing a ‘generational’ threat to wildlife The vast, dark slicks in the strait of Hormuz are visible from space. Throughout October, oil tankers were struck by missiles or sea mines in the waterway and spilled crude into the sea. The pollution has spread across the Gulf, contaminating coastlines and threatening to cause lasting damage to marine ecosystems that are home to dolphins, sea turtles and countless speci",
-      "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
+      "description": "The strike hit the surgery department of Nasser Hospital, injuring at least 20 people and causing extensive damage, a spokesperson says.",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T06:12:05Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61be/live/ca670730-de47-11f1-9cac-a1aa02a901fa.jpg",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:46Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9a6efddd76304ed2a281",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.56823
+    },
+    {
+      "id": "fee7aa88fbee00a66465d48c",
+      "title": "Less drama, more listening, but is Kozo Tashima the candidate to topple Infantino?",
+      "translatedTitle": null,
+      "description": "Japan FA honorary president is hoping a calmer approach that makes fewer unwelcome headlines for Fifa will be welcomed by football Not many remember Japan’s bid for the 2022 World Cup, when the country finished the race with only two of the final 22 votes. Kozo Tashima was involved then, and now the honorary president of the Japan Football Association is going it alone in the hope of ousting Gianni Infantino. The 68-year-old Tashima is an unlikely insurgent and an unlikely challenger to Infantin",
+      "url": "https://www.theguardian.com/football/2026/nov/12/fifa-kozo-tashima-seeks-change-of-tone",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/12/fifa-kozo-tashima-seeks-change-of-tone",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -164,20 +194,383 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T03:00:07Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/edaf20607ad86d1eaeb652f3e3941f4f2ea5bc51/193_0_5785_4627/master/5785.jpg?width=140&quality=85&auto=format&fit=max&s=5b1a9c857a8da2de3a5dbe173898dd4f",
+      "publishedAt": "2026-11-12T08:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/12301e7974d99d0a825512be0796a0206bd6d8c8/192_0_3730_2984/master/3730.jpg?width=140&quality=85&auto=format&fit=max&s=b5e5167fd07543066485050d9bf4682c",
       "imageAlt": null,
-      "category": "Science & Health",
+      "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:47Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "dbd3b7a7a8d7fcc91ebc",
+      "clusterId": "ad87960d47c138bd9aee",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.38753
+      "rankingScore": 7.50445
+    },
+    {
+      "id": "55803b95a46c364d0bb428fe",
+      "title": "UK economy grows at fastest pace for more than two years",
+      "translatedTitle": null,
+      "description": "GDP ‘grew robustly’ by 0.7% in third quarter and by 0.2% month on month in September despite high oil prices The UK economy grew by 0.7% in the third quarter, its fastest expansion in two and a half years, confirming that consumers and businesses remained resilient despite high oil and gas prices. The Office for National Statistics reported that the economy “grew robustly” in the July to September quarter, almost entirely due to strong and widespread growth in the services sector. Continue readi",
+      "url": "https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp",
+      "canonicalUrl": "https://theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T07:56:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ff920458487656ecff9f4d717997bbcdddb1ee57/1004_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=dc1b0dab37f5c6b7ceaf4ee6529f184c",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ae4a51ba681513495a52",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.49665
+    },
+    {
+      "id": "65d6a8419d1eea772d9d58fc",
+      "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
+      "translatedTitle": null,
+      "description": "For parents in parts of Ukraine, trying to lead a normal family life with just a few hours of power each day is taking its toll.",
+      "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cr1ewpd95d21o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T07:59:33Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a2c/live/a70e9220-de61-11f1-a701-fddedf244c16.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:46Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cef1a386c22ea09a49e1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.42311
+    },
+    {
+      "id": "695361fd6c418e9f5489f74d",
+      "title": "Water industry bonus ban to be tightened as Ofwat warns of ‘damage to public trust’",
+      "translatedTitle": null,
+      "description": "Regulator to hasten review over concerns that firms are ‘undermining’ rules to make large payments to bosses The water company bonus ban is set to be tightened after the regulator accused the industry of a risk of “damaging public trust” with large payments to bosses that appeared to get around the rules. Anglian Water was singled out for particular criticism over “retention payments” worth up to £800,000 for chief executive Mark Thurston despite the bonus ban. Anglian will face increased monito",
+      "url": "https://www.theguardian.com/business/2026/nov/12/water-industry-bonus-ban-tightened-ofwat",
+      "canonicalUrl": "https://theguardian.com/business/2026/nov/12/water-industry-bonus-ban-tightened-ofwat",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T07:59:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/81aadbb5c16eb191abb66b6c2a2be94335c99380/0_0_6793_5434/master/6793.jpg?width=140&quality=85&auto=format&fit=max&s=5f4110b594db4938109e4b5d97d0e694",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e0ad4d207f5bdce9bdef",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15375
+    },
+    {
+      "id": "ff68bf5ff13c1452fdf93dec",
+      "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+      "translatedTitle": null,
+      "description": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
+      "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cw7vppyr80eeo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T04:00:30Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/884a/live/97210150-de3d-11f1-a9ed-658311f31da9.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:46Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1707ffe9b9539a3e9102",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "2eb3639fde77b72ad831e09a",
+          "title": "Democrat Scott Colom unseats Cindy Hyde-Smith in stunning Mississippi Senate win",
+          "translatedTitle": null,
+          "description": "Colom takes victory by razor-thin margin in state that has not elected a Democrat to the Senate since 1982 Democrat Scott Colom defeated Cindy Hyde-Smith, the incumbent Republican senator, to become the first Black senator in Mississippi elected since Reconstruction, in a stunning upset after more than a week of vote counting in one of the country’s most reliably red states. “All I did was have the courage to imagine a night like this,” Colom told a crowd of hundreds who on Wednesday had gathere",
+          "url": "https://www.theguardian.com/us-news/2026/nov/11/scott-colom-mississippi-senate-race",
+          "canonicalUrl": "https://theguardian.com/us-news/2026/nov/11/scott-colom-mississippi-senate-race",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-12T00:11:12Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/7bae4075807c8b9481c35cea6d515c10d10487fd/213_0_2120_1697/master/2120.jpg?width=140&quality=85&auto=format&fit=max&s=49da6f4dc49d01fe1cbe8b9789b286e3",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-12T08:17:47Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "1707ffe9b9539a3e9102",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "democrat scott colom unseats cindy hyde smith in stunning mississippi senate win",
+          "rankingScore": 5.39107
+        },
+        {
+          "id": "87266c7f6c9dfeffb2d27a60",
+          "title": "Democrat Scott Colom to be first Black senator elected in Mississippi since 1874 after narrow win – US politics live",
+          "translatedTitle": null,
+          "description": "Colom beat Republican Cindy Hyde-Smith after race was called eight days after midterm election day Democrat Scott Colom wins race for US Senate in Mississippi How Colom won deep-red Mississippi with little help from Democrats Sign up for the US Breaking News email Some Democrats, out of the 11 who missed the key procedural vote on Tuesday to impeach Pete Hegseth, blamed a traffic jam in Washington DC for their inability to make it to the US Capitol in time. By a vote of 211-204, Republicans refe",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
+          "canonicalUrl": "https://theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-12T00:05:47Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/94dc17433aba4186d1d5c3aeaa90b0a28a0a1ded/865_0_4664_3732/master/4664.jpg?width=140&quality=85&auto=format&fit=max&s=67df36ccb42b19c4f756517bdbc5196e",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-12T00:17:42Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "1707ffe9b9539a3e9102",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.64231,
+          "normalizedTitle": "democrat scott colom to be first black senator elected in mississippi since 1874 after narrow win us politics live",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 7.04361
+    },
+    {
+      "id": "c22a8dcbd72dce7e4c821c1b",
+      "title": "Allen review – what would happen if ET came back for Elliott as an adult? Turns out nothing great",
+      "translatedTitle": null,
+      "description": "This good-natured if relentlessly unsubtle family film from Netflix and the studio behind Bluey relies on a cute alien with no personality It’s important for stories about magical formative experiences to make the point that time marches forward. Puff the Magic Dragon slinks back into his cave; Max bids farewell to the Wild Things and returns home; the snowman melts, leaving behind only a hat and scarf. It’s not just about the passage of time, but the melancholic act of saying goodbye – the chil",
+      "url": "https://www.theguardian.com/film/2026/nov/12/allen-film-review-netflix-trailer",
+      "canonicalUrl": "https://theguardian.com/film/2026/nov/12/allen-film-review-netflix-trailer",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T07:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/47daaa3d17cd944434fc378d8fa0f4a6f77204a2/785_0_1875_1500/master/1875.jpg?width=140&quality=85&auto=format&fit=max&s=2925af4c3b1b3d1addefb90efc0d9130",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "86c73811f048804538d8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03745
+    },
+    {
+      "id": "1c28ed2d8aa2fee43d697092",
+      "title": "Afghan women told to ‘go home’ after de facto ban on male doctors treating them",
+      "translatedTitle": null,
+      "description": "The unofficial Taliban restriction has forced women into desperate and absurd situations as they seek medical help, according to interviews given to the Guardian and Zan Times Farida*, 37, woke up in excruciating pain one night with a toothache. Over the next few days, the pain intensified. “My teeth had been ruined for years. My molars on both sides of my mouth were severely damaged. I couldn’t sleep at night and could barely eat.” Farida and her family had returned from Iran earlier this year",
+      "url": "https://www.theguardian.com/global-development/2026/nov/12/taliban-ban-male-doctors-treating-women-afghanistan",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/nov/12/taliban-ban-male-doctors-treating-women-afghanistan",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T06:00:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3758f701b54051770f99990a515be27f70128a45/1477_154_4402_3522/master/4402.jpg?width=140&quality=85&auto=format&fit=max&s=afb9be64707a35ac0cfedd58f85cba86",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "784f42382617ddb04267",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.9268
+    },
+    {
+      "id": "6b70f44cd6b4fd723c3ec7ea",
+      "title": "‘All-out war’: UK sports fear an uncertain future after new body created",
+      "translatedTitle": null,
+      "description": "Creation of Sport Org sparks disquiet at governing bodies Smaller sports concerned they might be taken over The leaders of Britain’s Olympic and Paralympic sports have been responsible for some of the country’s greatest successes over the past two decades. But there are changes afoot that are increasingly ruffling feathers and stoking fears. Most people will not have heard of Sport Org, the organisation recently set up by UK Sport. Essentially, it evolved out of British Curling, and now uses its",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/uk-sports-fear-future-new-body-sport-org",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/12/uk-sports-fear-future-new-body-sport-org",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T06:00:11Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c904576b55049de606d8c1f06e257e028ea0d9d7/15_391_2893_2314/master/2893.jpg?width=140&quality=85&auto=format&fit=max&s=adddc544420cda9dff245b8491fe403a",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "629d231f92cf91b05354",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92677
+    },
+    {
+      "id": "d5e47966dbe45aa8737a7f1d",
+      "title": "Rachel Roddy’s recipe for torta tenerina, or rich chocolate cake | A kitchen in Rome",
+      "translatedTitle": null,
+      "description": "This soft-but-dense, velvety delight is cake at its most pudding-like. It’s at its prime still warm from the oven, but gets gloriously fudgy after a night in the fridge The note by Elizabeth David is helpful here: “This cake can also be eaten like a pudding” for its soft-dense-velvet-texture. But I am jumping ahead: this week’s column started in Ferrara, a city in the wetlands of the Po delta in the north-eastern corner of Emilia-Romagna. Half medieval lanes and half green avenues and parks, Fer",
+      "url": "https://www.theguardian.com/food/2026/nov/12/torta-tenerina-rich-chocolate-cake-rachel-roddy-recipe",
+      "canonicalUrl": "https://theguardian.com/food/2026/nov/12/torta-tenerina-rich-chocolate-cake-rachel-roddy-recipe",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T06:00:11Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/62864e4969c61dfdaf3418a76c1e606d8dcc41fc/0_805_3024_2419/master/3024.jpg?width=140&quality=85&auto=format&fit=max&s=52cb726de5e32c445332ff6f3ea2e35f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a73f9b957b7abf43aea9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92677
+    },
+    {
+      "id": "472732cf730332ff869bcf7d",
+      "title": "Thursday news quiz: Booker prize winners, GTA sinners and free dinners",
+      "translatedTitle": null,
+      "description": "Test yourself on topical news trivia, pop culture and general knowledge every Thursday. How will you fare? The recent US elections reminded the Thursday quiz that we have just passed the sixth anniversary of Rudy Giuliani’s Four Seasons Total Landscaping press conference, which was not only hilarious in and of itself, but sparked one of the best viral laughing videos of all internet history. Whether you will be laughing as hard after facing this week’s quiz remains to be seen. Here are 15 punchl",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/12/the-guardian-thursday-quiz-general-knowledge-topical-news-trivia-272",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/12/the-guardian-thursday-quiz-general-knowledge-topical-news-trivia-272",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T06:00:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1ee5caacf7895e86bd646e3ed37e555db7ab88e5/0_1120_3939_3153/master/3939.jpg?width=140&quality=85&auto=format&fit=max&s=7c17d164843e7155332416e480eb7003",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "97b574c305b3bc453297",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92674
+    },
+    {
+      "id": "06a32d8a0583d34293e72710",
+      "title": "Country diary: An ancient bridge, laid low by one storm after another | Sara Hudston",
+      "translatedTitle": null,
+      "description": "Exmoor, Somerset: Tarr Steps is no stranger to flooding, but the damage is becoming more and more frequent Fog cloaked the combe as we walked down to the River Barle, and for the first time in months I wished I were wearing gloves. A red kite wheeled overhead, the dull copper colour of its underparts matching the autumn leaves still clinging to the oaks. Red kites are still fairly uncommon on Exmoor, though their numbers have increased recently as the species pushes west. Several pheasants whirr",
+      "url": "https://www.theguardian.com/environment/2026/nov/12/country-diary-an-ancient-bridge-laid-low-by-one-storm-after-another",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/12/country-diary-an-ancient-bridge-laid-low-by-one-storm-after-another",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T05:30:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/08a066703edcdc16a297b8bd2be11976632c0085/84_0_3780_3024/master/3780.jpg?width=140&quality=85&auto=format&fit=max&s=c4c36e4a89d08abe8856754b23421d3d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "29e4953caf75f492419a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.87366
     },
     {
       "id": "5ddeb841129f4c2023fa9453",
@@ -199,15 +592,45 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:47Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "2362cfb90c90a079d78b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.10207
+      "rankingScore": 6.68102,
+      "related": []
+    },
+    {
+      "id": "3d64bc1f7b6292ea7d401f42",
+      "title": "Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems",
+      "translatedTitle": null,
+      "description": "Since the US war on Iran began in February, there have been hundreds of oil spills, posing a ‘generational’ threat to wildlife The vast, dark slicks in the strait of Hormuz are visible from space. Throughout October, oil tankers were struck by missiles or sea mines in the waterway and spilled crude into the sea. The pollution has spread across the Gulf, contaminating coastlines and threatening to cause lasting damage to marine ecosystems that are home to dolphins, sea turtles and countless speci",
+      "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T03:00:07Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/edaf20607ad86d1eaeb652f3e3941f4f2ea5bc51/193_0_5785_4627/master/5785.jpg?width=140&quality=85&auto=format&fit=max&s=5b1a9c857a8da2de3a5dbe173898dd4f",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dbd3b7a7a8d7fcc91ebc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.62934,
+      "related": []
     },
     {
       "id": "07b28131773ef07e149d61c7",
@@ -236,38 +659,8 @@
       "clusterId": "f386337757323c631e56",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03847
-    },
-    {
-      "id": "d01fa37f6d7ae875dddb549e",
-      "title": "World heading for ‘irrevocable overshoot’ of global temperature thresholds, analysis warns",
-      "translatedTitle": null,
-      "description": "Failure to cut emissions will ‘consign humanity to disasters they are unable to adapt to’, report says The world is heading for an “irrecoverable overshoot” of global temperature thresholds that will plunge billions of people into disastrous climate impacts because governments have stalled for so long to cut planet-heating emissions, analysis has found. Under current policies, the planet will heat up by 2.7C on average by the end of the century compared with preindustrial times, the report by Cl",
-      "url": "https://www.theguardian.com/environment/2026/nov/12/world-heading-for-irrevocable-overshoot-of-global-temperature-thresholds-analysis-warns",
-      "canonicalUrl": "https://theguardian.com/environment/2026/nov/12/world-heading-for-irrevocable-overshoot-of-global-temperature-thresholds-analysis-warns",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T03:00:06Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/271f520cba8e63ed53c5fb1ca5b7ea3e969f2a12/477_0_6149_4917/master/6149.jpg?width=140&quality=85&auto=format&fit=max&s=bb44226c441bc7f9727aa51b93793b0c",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "65fb254d51e6cd0e7ee3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.0375
+      "rankingScore": 6.61215,
+      "related": []
     },
     {
       "id": "36e25a04780f7c3ea468f0f2",
@@ -296,8 +689,38 @@
       "clusterId": "dbc32afc8051183d6801",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.95652
+      "rankingScore": 6.54654,
+      "related": []
+    },
+    {
+      "id": "d01fa37f6d7ae875dddb549e",
+      "title": "World heading for ‘irrevocable overshoot’ of global temperature thresholds, analysis warns",
+      "translatedTitle": null,
+      "description": "Failure to cut emissions will ‘consign humanity to disasters they are unable to adapt to’, report says The world is heading for an “irrecoverable overshoot” of global temperature thresholds that will plunge billions of people into disastrous climate impacts because governments have stalled for so long to cut planet-heating emissions, analysis has found. Under current policies, the planet will heat up by 2.7C on average by the end of the century compared with preindustrial times, the report by Cl",
+      "url": "https://www.theguardian.com/environment/2026/nov/12/world-heading-for-irrevocable-overshoot-of-global-temperature-thresholds-analysis-warns",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/12/world-heading-for-irrevocable-overshoot-of-global-temperature-thresholds-analysis-warns",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T03:00:06Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/271f520cba8e63ed53c5fb1ca5b7ea3e969f2a12/477_0_6149_4917/master/6149.jpg?width=140&quality=85&auto=format&fit=max&s=bb44226c441bc7f9727aa51b93793b0c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T04:17:40Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "65fb254d51e6cd0e7ee3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.53932,
+      "related": []
     },
     {
       "id": "21eb5eb5eab15eaec03741ad",
@@ -326,8 +749,8 @@
       "clusterId": "76a28969866d1baf7066",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.84505
+      "rankingScore": 6.4573,
+      "related": []
     },
     {
       "id": "9315fcaebed595e2adbc83f1",
@@ -356,8 +779,8 @@
       "clusterId": "03b2a0f3b1f43f4d2444",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.76841
+      "rankingScore": 6.39594,
+      "related": []
     },
     {
       "id": "e3eaf40fa4c5dbfee18b8078",
@@ -379,44 +802,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:47Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e9cad62000c96b00892f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.72469,
-      "related": []
-    },
-    {
-      "id": "87266c7f6c9dfeffb2d27a60",
-      "title": "Democrat Scott Colom to be first Black senator elected in Mississippi since 1874 after narrow win – US politics live",
-      "translatedTitle": null,
-      "description": "Colom beat Republican Cindy Hyde-Smith after race was called eight days after midterm election day Democrat Scott Colom wins race for US Senate in Mississippi How Colom won deep-red Mississippi with little help from Democrats Sign up for the US Breaking News email Some Democrats, out of the 11 who missed the key procedural vote on Tuesday to impeach Pete Hegseth, blamed a traffic jam in Washington DC for their inability to make it to the US Capitol in time. By a vote of 211-204, Republicans refe",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
-      "canonicalUrl": "https://theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T00:05:47Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/94dc17433aba4186d1d5c3aeaa90b0a28a0a1ded/865_0_4664_3732/master/4664.jpg?width=140&quality=85&auto=format&fit=max&s=67df36ccb42b19c4f756517bdbc5196e",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T00:17:42Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3ff0623a062c7cd37830",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.64231,
+      "rankingScore": 6.37887,
       "related": []
     },
     {
@@ -446,8 +839,8 @@
       "clusterId": "2e2af3fe45bd8851e587",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.63547
+      "rankingScore": 6.2895,
+      "related": []
     },
     {
       "id": "87ab80ede97f3a5560025ed9",
@@ -476,8 +869,8 @@
       "clusterId": "d217649eb4cb92ea1098",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.63461
+      "rankingScore": 6.28881,
+      "related": []
     },
     {
       "id": "12af68380e199189b45660da",
@@ -506,16 +899,16 @@
       "clusterId": "37231e18bc29e668d647",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.63461
+      "rankingScore": 6.28881,
+      "related": []
     },
     {
-      "id": "be00c8425c43e9549ad6338a",
-      "title": "How much art does your council own and is it locked away or on display?",
+      "id": "5aef45edc4f30876df9e3fec",
+      "title": "Some under-25s should get fewer benefits, Milburn review to say",
       "translatedTitle": null,
-      "description": "More than 500,000 pieces of art are owned by 225 councils, the BBC finds, but most of it is storage.",
-      "url": "https://www.bbc.co.uk/news/articles/crgqwgzxeexno?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/crgqwgzxeexno?at_campaign=rss&at_medium=RSS",
+      "description": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
+      "url": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cwn70l1628l0o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -524,58 +917,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T01:03:53Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecab/live/a2837d70-dded-11f1-9204-cdcddf7d901c.jpg",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2b60eab927c459167d94",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.09861
-    },
-    {
-      "id": "2565ca1eb0a9c47b62d4e8e3",
-      "title": "Famed ship SS United States sunk off coast of Florida",
-      "translatedTitle": null,
-      "description": "Activists unsuccessfully fought for the historic liner to be preserved and turned into a museum, but it will now become the world's largest artificial ocean reef.",
-      "url": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c3x298n87rn2o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T04:03:13Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5661/live/7c6e9130-ddeb-11f1-9204-cdcddf7d901c.jpg",
+      "publishedAt": "2026-11-12T08:14:54Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad2c/live/98868060-de1f-11f1-a701-fddedf244c16.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:46Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "9def6f6d8f8ca0a65dc9",
+      "clusterId": "1256409004bac4062619",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.08072
+      "rankingScore": 6.10408
     },
     {
-      "id": "7a08ec77ed9eac97ff92fd59",
-      "title": "Government could force media industry to improve safeguards after Walliams allegations",
+      "id": "98fa15bb1b75382e2b62e13d",
+      "title": "Nurmagomedov slaps Dvalishvili to spark hotel brawl",
       "translatedTitle": null,
-      "description": "Culture Secretary Lisa Nandy could force participation in an industry watchdog to protect whistleblowers, the BBC understands.",
-      "url": "https://www.bbc.co.uk/news/articles/cm3egj20v5x4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm3egj20v5x4o?at_campaign=rss&at_medium=RSS",
+      "description": "Former UFC bantamweight champion Merab Dvalishvili and PFL lightweight champion Usman Nurmagomedov are involved in a physical altercation in Abu Dhabi.",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cq0l38rw2w7ro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/mixed-martial-arts/articles/cq0l38rw2w7ro?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -584,28 +947,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T04:01:50Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/23e5/live/4530e150-de4f-11f1-b0c0-99d486f024fd.jpg",
+      "publishedAt": "2026-11-12T08:08:01Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b70/live/0bf6f340-de66-11f1-8771-4778a0df4e09.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:46Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "dbbdfeee710204782042",
+      "clusterId": "659009271595acd5eedd",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.07794
+      "rankingScore": 6.09014
     },
     {
-      "id": "c017d70aa2b97b124f774772",
-      "title": "Australian teen missing in bush for six days rescued alive",
+      "id": "ef9a2cae3648e884970ecf3f",
+      "title": "Marsh dodges Khawaja claims as Cummins vows to 'respond properly'",
       "translatedTitle": null,
-      "description": "The 17-year-old's mum has joked that he is \"grounded for life\" and \"never leaving the house again\".",
-      "url": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ckvg25zmppglo?at_campaign=rss&at_medium=RSS",
+      "description": "Mitchell Marsh persistently refuses to speak about Australia's ball-tampering saga at a press conference but captain Pat Cummins vows to \"respond properly\".",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c623jlxgn9rno?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/cricket/articles/c623jlxgn9rno?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -614,28 +977,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T02:40:18Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/274e/live/2e3b6140-de41-11f1-a9ed-658311f31da9.png",
+      "publishedAt": "2026-11-12T08:00:17Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d32a/live/a8f547f0-de6b-11f1-b441-2b33b063138f.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:46Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "81221fb612ece0b6cc63",
+      "clusterId": "d38f1d2a3ce9e2927972",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.9203
+      "rankingScore": 6.07458
     },
     {
-      "id": "6363b97f6416a51e6e6a8bed",
-      "title": "The Papers: 'TV industry must tackle abuse' and Cameron tells PM 'Don't rejoin the EU'",
+      "id": "32679448adf941590bcbda7a",
+      "title": "Robertson set to make history but his hero Dalglish will always be King",
       "translatedTitle": null,
-      "description": "Many papers report on the ongoing fallout following the publication of allegations against entertainer David Walliams.",
-      "url": "https://www.bbc.co.uk/news/articles/crgj3vz5x4p2o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/crgj3vz5x4p2o?at_campaign=rss&at_medium=RSS",
+      "description": "Ties bind Scotland captain Andy Robertson and the man whose caps record he's about to equal, Kenny Dalglish, in more ways than one, writes Tom English.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxe89dq16dp2o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cxe89dq16dp2o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -644,28 +1007,58 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T01:48:35Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/642f/live/29e40fb0-de2e-11f1-afcb-49e46ce8c091.png",
+      "publishedAt": "2026-11-12T07:19:57Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e440/live/1b368480-de00-11f1-93e1-3b657b665bcf.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:46Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3178f528c6df4d492373",
+      "clusterId": "372244877e063c611481",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.8263
+      "rankingScore": 5.99524
     },
     {
-      "id": "b57f7b3fbe1052652f003a6c",
-      "title": "Nvidia board reportedly meeting to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
+      "id": "2a1b05b1b951a0611dd65200",
+      "title": "England's Blues brothers - how the Bellinghams helped save Birmingham",
       "translatedTitle": null,
-      "description": "Huang’s potential departure would leave a leadership vacuum at the roughly $4tn chipmaker he co-founded, with Nvidia’s shares sliding about 8% in ​after-hours trading Jensen Huang has built up Nvidia to be one of the world’s biggest and most important companies, designing advanced chips crucial to the AI buildout that has helped drive stock markets to record highs and boosted economies around the world. US tech companies are collectively planning to spend $750bn this year on AI infrastructure, a",
-      "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
-      "canonicalUrl": "https://theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+      "description": "Boyhood Birmingham City fans Jude and Jobe Bellingham could become the first brothers to play for England for 19 years.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm1j3j20r2rzo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cm1j3j20r2rzo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T07:12:41Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c945/live/c3116c40-dce0-11f1-a8e1-e3454837ffc6.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:46Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "62616144869d7b5c08bf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.98125
+    },
+    {
+      "id": "070ebc232c23ccd42b1fa44c",
+      "title": "Cop31: ‘The crisis is upon us now’, Burnham tells climate summit",
+      "translatedTitle": null,
+      "description": "World leaders including UK prime minister Andy Burnham are addressing the summit today, as talks head into the third day Zack Polanski, leader of the Green party in the UK, criticised Andy Burnham’s Cop31 speech on Radio 4’s Today programme. Saying he was “not at all reassured” by the prime minister’s words, he described it as a “bizarre” speech. Polanski said climate action is about what you do, not what you say, referring to the recent decision by the energy secretary, Miatta Fahnbulleh, to al",
+      "url": "https://www.theguardian.com/environment/live/2026/nov/12/cop31-the-crisis-is-upon-us-now-burnham-due-to-tell-climate-summit",
+      "canonicalUrl": "https://theguardian.com/environment/live/2026/nov/12/cop31-the-crisis-is-upon-us-now-burnham-due-to-tell-climate-summit",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -674,54 +1067,174 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T04:02:56Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f8142d9712b85f162ef04fc00cf4f4dd2db40896/236_0_6713_5372/master/6713.jpg?width=140&quality=85&auto=format&fit=max&s=a560ced44701782ebc9e29925388d9d8",
+      "publishedAt": "2026-11-12T08:13:44Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2c401b6bc4cc25a43c31aef0b8f8571fdd2d1c56/269_0_2709_2168/master/2709.jpg?width=140&quality=85&auto=format&fit=max&s=689b4dcce9a560d3b0b4c610cc3a3ed1",
       "imageAlt": null,
-      "category": "Technology",
+      "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:47Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "357b3e9853670db5f319",
+      "clusterId": "025b2da8dc0ce1c948a1",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.81015
+      "rankingScore": 5.83171
     },
     {
-      "id": "a6dbd910217c3f9cc747450d",
-      "title": "Trying Tourette's device was the best day of my life",
+      "id": "b61dcdfc6688c9108534ed3f",
+      "title": "Harry Kane’s England caps record: an illustrious career in numbers and charts",
       "translatedTitle": null,
-      "description": "Katie is one of many that say a device developed by researchers in Nottingham helped calm her symptoms.",
-      "url": "https://www.bbc.co.uk/news/articles/cmp3g3e5q4zxo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmp3g3e5q4zxo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Striker to play historic 126th match and that’s far from the only statistic that sets him apart for his country Harry Kane will become the most capped player for England’s men when he features against Croatia at Wembley. Yet in the context of the grand history of international football, his record total will be relatively low. Kane will draw level with players including Dani Alves, Eden Hazard and Paolo Maldini on 126 caps. Illustrious players, none of whom lead their country’s appearance standi",
+      "url": "https://www.theguardian.com/football/2026/nov/12/harry-kane-england-caps-record-career-in-numbers-charts",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/12/harry-kane-england-caps-record-career-in-numbers-charts",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T01:07:47Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c24/live/cdba35d0-ddc3-11f1-a50f-85eebf9e50e5.jpg",
+      "publishedAt": "2026-11-12T08:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c83f5dd43857c18fe4ed97d41560c3323fdaf8a5/66_0_2331_1866/master/2331.jpg?width=140&quality=85&auto=format&fit=max&s=2c9b4478cd5ae1612fd42b7e7e2e1518",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:47Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "55acf75f96631d7b9376",
+      "clusterId": "2baadd926f045eb22113",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.75526
+      "rankingScore": 5.80448
     },
     {
-      "id": "95841b06684a312b03c7ca76",
-      "title": "Bus driver shot dead was 'not the intended target,' police say",
+      "id": "077f5ef26f3426f26db2ab6a",
+      "title": "Fizzle of Shoaib Bashir’s algorithmic magic echoes wider decline of Test spin | Jonathan Liew",
+      "translatedTitle": null,
+      "description": "Left out of squad to tour South Africa, spin bowler’s exclusion points to a sport reshaped by the needs of T20 and hard data During the summer, Sky Sports would frequently run an advert for one of English cricket’s blue-chip financial sponsors. I forget its exact name – something like WXYZ Tradify or Crypto Max 301 or Wealth Centaur would be my guess. But I remember there was a mind-shreddingly banal male voiceover (“diversify your forex contingents and start making your money bleed today”), to",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/shoaib-bashir-england-spin-bowling-test-t20-data",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/12/shoaib-bashir-england-spin-bowling-test-t20-data",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T08:00:14Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2e517c7ecf4f38347fa196be79cc6d3597826798/355_0_4004_3205/master/4004.jpg?width=140&quality=85&auto=format&fit=max&s=f564dc9c6b8b350240557436efc62f63",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "968ddf4d025ad52bc7a0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80448
+    },
+    {
+      "id": "50edc9cd26e191a3ee20701a",
+      "title": "You be the judge: should my sister stop calling me when she’s on the move?",
+      "translatedTitle": null,
+      "description": "Maddie drives Nadia mad with her disjointed conversations, but doesn’t think she should have to make an appointment to phone her sister. Who’s in the wrong? You make the call • Find out how to get a disagreement settled or become a juror Maddie rings at the worst moments. It’s usually when she’s on the train and I can’t even hear her Continue reading...",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/12/you-be-the-judge-should-my-sister-stop-calling-when-on-move",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/12/you-be-the-judge-should-my-sister-stop-calling-when-on-move",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T08:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d5d3fe1323bb2ef263cb0c4df3b751dff90ca99b/0_0_1621_1297/master/1621.jpg?width=140&quality=85&auto=format&fit=max&s=f8f5e246a7b8462cae5cddb7c426ffb8",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1ea9533ccf24a32a4b4a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80445
+    },
+    {
+      "id": "d65a5b163c9a0232da7ba363",
+      "title": "‘I railed against the stereotype of the humourless lesbian’: the cheeky, feminist photography of Jill Posener",
+      "translatedTitle": null,
+      "description": "Her witty photos served as a rebuttal to 80s misogyny and Thatcherite conservatism. Now 50 years on, the photographer is receiving an overdue retrospective. ‘I loved that we could respond with humour,’ she says. If it were a lady it would get its bottom pinched. If this lady was a car she’d run you down.” These are the words that Jill Posener immortalised in November 1979, when she picked her way through traffic on London’s Farringdon Road to photograph something most would have overlooked: a gr",
+      "url": "https://www.theguardian.com/artanddesign/2026/nov/12/jill-posener-interview-radical-feminist-photography",
+      "canonicalUrl": "https://theguardian.com/artanddesign/2026/nov/12/jill-posener-interview-radical-feminist-photography",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T08:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9f6c64c616d7c4f767feea63ca066d98297bc76d/300_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=7739f8bba130708c67442a747879c16d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c4122ef618547cc1e81f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80445
+    },
+    {
+      "id": "ccfed677b182247c4f648e71",
+      "title": "The Booker prize winner described a dystopian Britain. But haven’t we been living in that since Brexit? | Zoe Williams",
+      "translatedTitle": null,
+      "description": "It didn’t need a novel: even Leave voters understand the damage that has been done, as does the PM. Now all he has to do is persuade his party Earlier this week, some people on the radio were talking about a very British dystopia. The government had disintegrated, but everyone was carrying on pretty much as they had before. Britain was isolated on the world stage and people missed Europe like hell, but weren’t allowed to visit, let alone live there. I thought the radio people were discussing Bri",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/12/brexits-gains-were-a-fiction-its-harms-are-real-we-dont-have-to-go-on-living-in-this-nightmare",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/12/brexits-gains-were-a-fiction-its-harms-are-real-we-dont-have-to-go-on-living-in-this-nightmare",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-12T08:00:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/cc60c6264e3530a2c1748dc567f8c343f2da2273/498_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=e5322af393e26343d9036cb3485795b6",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-12T08:17:47Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4209f01c740b537449c9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80445
+    },
+    {
+      "id": "ba26d0a2295d79217aad211f",
+      "title": "CCTV images released of night bus driver was shot dead in London",
       "translatedTitle": null,
       "description": "Police believe a bus driver who was shot dead in south London was not the intended target - and was in the wrong place at the wrong time.",
       "url": "https://news.sky.com/story/bus-driver-shot-dead-was-not-the-intended-target-police-say-13610991",
@@ -739,173 +1252,83 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:47Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "3cbee32dda7b545d14cf",
+      "clusterId": "3f8a305b77549a2d100a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.73719
+      "rankingScore": 5.31911,
+      "related": []
     },
     {
-      "id": "12df1ddb3c51ff2b022b613a",
-      "title": "'You're triggering me': How to understand your therapy-speak teen",
+      "id": "ce59b3a98de53e7d650d7d95",
+      "title": "Fiery clashes erupt in Spain as millions join general strike",
       "translatedTitle": null,
-      "description": "Words most often heard in the therapist's chair have made their way into day-to-day conversation - here's a parents' guide to understanding it.",
-      "url": "https://www.bbc.co.uk/news/articles/c962y743y458o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c962y743y458o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Unrest broke out in cities across Spain on Wednesday after millions of workers joined the country's first general strike in 14 years.",
+      "url": "https://news.sky.com/story/fiery-clashes-erupt-in-spain-as-millions-join-general-strike-13611270",
+      "canonicalUrl": "https://news.sky.com/story/fiery-clashes-erupt-in-spain-as-millions-join-general-strike-13611270",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T00:51:19Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a946/live/72bbb7f0-ddda-11f1-b865-d17d8611efca.jpg",
+      "publishedAt": "2026-11-12T02:41:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-spain-barcelona_7404497.jpg?20261112043458",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:47Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "08650fe3830107f3e951",
+      "clusterId": "d69b55ac5216c885053f",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.72734
+      "rankingScore": 5.25058
     },
     {
-      "id": "49cb3bdea23ee18d883f6e4a",
-      "title": "In Mexico, journalists face threats from attackers — and from the system meant to protect them, too",
+      "id": "dfa0b697b8ec74f876fedd3d",
+      "title": "Sharp rise in deadly antibiotic-resistant infections",
       "translatedTitle": null,
-      "description": "Created in 2012, Mexico’s Protection Mechanism for Human Rights Defenders and Journalists has struggled to guarantee the safety of those it was designed to protect, operating largely in response to attacks rather than preventing them",
-      "url": "https://www.independent.co.uk/news/world/europe/mexico-committee-to-protect-journalists-claudia-sheinbaum-amnesty-international-iguala-b3083548.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/mexico-committee-to-protect-journalists-claudia-sheinbaum-amnesty-international-iguala-b3083548.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Hundreds of people are being diagnosed with potentially life-threatening antibiotic-resistant infections each week, new figures suggest.",
+      "url": "https://news.sky.com/story/sharp-rise-in-life-threatening-antibiotic-resistant-infections-13611268",
+      "canonicalUrl": "https://news.sky.com/story/sharp-rise-in-life-threatening-antibiotic-resistant-infections-13611268",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T04:05:07Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/12/04/Mexico_Journalists_Threatened_561_1.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-11-12T00:45:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-antibiotics-health_7404486.jpg?20261112015415",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:47Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "197c726572921487079a",
+      "clusterId": "c2b0f467dbe9ee3d690b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72454
+      "rankingScore": 5.08656,
+      "related": []
     },
     {
-      "id": "29d9d52e77a14b44cf5d487d",
-      "title": "Andreeva wins 11 games in a row to thrash Sabalenka at WTA Finals",
+      "id": "d2635f74dae578c429a62799",
+      "title": "Svitolina stays in WTA Finals hunt after remarkable fightback sees off Muchova",
       "translatedTitle": null,
-      "description": "Mirra Andreeva wins 11 games in a row to thrash world number two Aryna Sabalenka and reach the last four at the WTA Finals.",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cq1md03gz0zvo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/tennis/articles/cq1md03gz0zvo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T00:48:23Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8716/live/4fd3da00-de2b-11f1-b441-2b33b063138f.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b0e43b89e80df5e93a7f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72241
-    },
-    {
-      "id": "567df97d0b735b6a92f98586",
-      "title": "Pope Leo returns to beloved former home of Chiclayo, the Peruvian city that claims him as its own",
-      "translatedTitle": null,
-      "description": "Pope Leo XIV is celebrated in Chiclayo, Peru, where his image is ubiquitous",
-      "url": "https://www.independent.co.uk/news/people-lima-cusco-mass-prisoners-b3083547.html",
-      "canonicalUrl": "https://independent.co.uk/news/people-lima-cusco-mass-prisoners-b3083547.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T04:03:58Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/12/04/Peru_Pope_Leo_Homecoming_99632.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c8446ebbd3d09eab1a66",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72223
-    },
-    {
-      "id": "2a91409a7568031cf1d4ed3b",
-      "title": "Malcolm in the Middle star Frankie Muniz gives health update after Daytona crash",
-      "translatedTitle": null,
-      "description": "Actor says his car ‘did its job in protecting me’ from practice-lap crash",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/frankie-muniz-malcolm-middle-update-daytona-crash-b3083534.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/frankie-muniz-malcolm-middle-update-daytona-crash-b3083534.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T04:00:52Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/12/02/2302723511..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "61adacadc64a3f88fd42",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.716
-    },
-    {
-      "id": "0db24f57f0765bca31291790",
-      "title": "Historic US ocean liner sinks near Florida to become world’s largest artificial reef",
-      "translatedTitle": null,
-      "description": "SS United States, which set transatlantic speed record during maiden voyage in 1952, is sunk off coast of Destin The historic SS United States has reached the end of its journey at sea, sinking Wednesday off the coast of Destin, Florida, where it will begin a new life underwater as an artificial reef. The nearly 1,000ft American-made vessel, once the fastest ocean liner in the world, was launched in 1952 and made history by setting a transatlantic speed record during its maiden voyage. The ship",
-      "url": "https://www.theguardian.com/us-news/2026/nov/11/ss-united-states-sinks-florida-reef",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/11/ss-united-states-sinks-florida-reef",
+      "description": "Ukrainian wins 3-6, 6-2, 6-2 after eight-minute timeout Andreeva beats Sabalenka 6-4, 6-0 to top Group B Elina Svitolina staged a remarkable comeback to beat Karolina Muchova and remain in the hunt for the WTA Finals title. The Ukrainian looked to be on her way out of Indian Wells when she was a set down and required an eight-minute medical timeout. But she recovered to win 3-6, 6-2, 6-2 and stay in with a chance of reaching the semi-finals. Continue reading...",
+      "url": "https://www.theguardian.com/sport/2026/nov/11/elina-svitolina-karolina-muchova-wta-finals-tennis",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/11/elina-svitolina-karolina-muchova-wta-finals-tennis",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -914,88 +1337,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T03:07:16Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/8fd60b61479519c751873c078dc512af7092ed65/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=9c566e41195cc25e767c4ccf33bd91b5",
+      "publishedAt": "2026-11-12T00:23:53Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f1a2f2b08bc19f2bbac37ba21278cc5267454ccd/256_0_3245_2597/master/3245.jpg?width=140&quality=85&auto=format&fit=max&s=ac2bc3abf06f6e6ccdb44608399e0fbd",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:47Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "cc6d9c932898c7984db6",
+      "clusterId": "be476021e65f4b2088a7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70113
+      "rankingScore": 5.05855,
+      "related": []
     },
     {
-      "id": "fac2542c91d39d54fa9d9dd0",
-      "title": "Fireworks launched at riot police as Spain strike over housing crisis descends into violence",
+      "id": "70e768343a96c00371621883",
+      "title": "The bar singer, the K-pop veteran and the ‘railway track diva’: meet three Eurovision Asia 2026 hopefuls",
       "translatedTitle": null,
-      "description": "General strike on Wednesday saw millions of workers take to the streets",
-      "url": "https://www.independent.co.uk/news/world/europe/spain-general-strike-protesters-riot-police-clash-b3083461.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/spain-general-strike-protesters-riot-police-clash-b3083461.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T03:52:31Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/11/21/2026-11-11T202027Z_596701614_RC2ULOAXUGUQ_RTRMADP_3_SPAIN-STRIKE-BARCELONA.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "101159d030137737bac4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69932
-    },
-    {
-      "id": "5e3d602eb66f03c63cb36ae3",
-      "title": "Burnham's push for closer EU ties causes ripples in his party and others",
-      "translatedTitle": null,
-      "description": "Ahead of a week which will focus minds on the UK's relationship with the bloc, the prime minister's stance on Europe is causing MPs to think about their leaders' individual strategy.",
-      "url": "https://www.bbc.co.uk/news/articles/cr78251892z7o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cr78251892z7o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T00:30:48Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a267/live/f327e7f0-ddf9-11f1-93e1-3b657b665bcf.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3e7044871a82285e2ff4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69314
-    },
-    {
-      "id": "68392c601543196aa07ac0e7",
-      "title": "The (alleged) spy who loved me: the Nvidia scandal - podcast",
-      "translatedTitle": null,
-      "description": "Global technology editor Dan Milmo on the scandal rocking the world of AI: US intelligence believes the lover of Nvidia’s chief executive, Jensen Huang, is a Chinese spy Nvidia is one of the biggest companies in the world. Its chief executive, Jensen Huang, is worth around $150bn (£112bn). But the AI giant’s stock is sliding – and Huang’s position is under question – after it emerged on Sunday that he had been having an affair with a woman US intelligence services believe is a Chinese spy. Globa",
-      "url": "https://www.theguardian.com/news/audio/2026/nov/12/the-alleged-spy-who-loved-me-the-nvidia-scandal-podcast",
-      "canonicalUrl": "https://theguardian.com/news/audio/2026/nov/12/the-alleged-spy-who-loved-me-the-nvidia-scandal-podcast",
+      "description": "For some, it’s their first big break, for others it’s a chance to secure their fame. But for all 11 acts, it’s an opportunity to be Asia’s first ever winner Eurovision is heading to Asia: here’s what to expect Next week the Eurovision juggernaut beloved by millions across Europe will arrive in Bangkok for its inaugural Asian edition, with organisers hoping for all the fanfare that the glitzy song contest usually brings. Countries are getting behind their acts, particularly on social media, but m",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/12/meet-three-eurovision-asia-2026-hopefuls",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/12/meet-three-eurovision-asia-2026-hopefuls",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1004,148 +1367,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T03:00:07Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/8dec83e4c4633e80b61e9dc9b5b21a2303829e51/189_0_2059_1648/master/2059.jpg?width=140&quality=85&auto=format&fit=max&s=2d25256cb00eceece3ad9475930e10f3",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cb4c7cd2889eee55ee6c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68753
-    },
-    {
-      "id": "dad9eb2a445236adaa5391b1",
-      "title": "Sunbed firms must not downplay cancer risk, says watchdog",
-      "translatedTitle": null,
-      "description": "The advertising watchdog says they also must not make misleading claims that sunbeds can treat skin conditions or improve mental health.",
-      "url": "https://www.bbc.co.uk/news/articles/c98r7xyjx8g4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c98r7xyjx8g4o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T00:13:27Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a838/live/7c0b4310-0735-11f1-b7e1-afb6d0884c18.jpg",
+      "publishedAt": "2026-11-12T00:09:55Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c939287e45f1f877741af93c7643c632896f8abd/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=90d6f64e3a385aa1bd1143aa17100267",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:47Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d9a6743138f15a916b06",
+      "clusterId": "f51905b1fc1df925c2b7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66472
+      "rankingScore": 5.04032,
+      "related": []
     },
     {
-      "id": "54a90ed7053145391a7a2e1a",
-      "title": "Significant drop in levels of toxic 'forever' chemicals in England's rivers",
+      "id": "7bb9649966ad9bce6d41454a",
+      "title": "Bronze leg found in Scottish bog sheds new light on Roman occupation",
       "translatedTitle": null,
-      "description": "The decline has been put down to severe restrictions placed on the substances' use.",
-      "url": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmze75r55g3jo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T00:12:59Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e068/live/4f7ef220-ddfd-11f1-8445-15eb55286f71.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e87850607341efe39eec",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66397
-    },
-    {
-      "id": "35743ee9a7193004f395c1c4",
-      "title": "Are max strength cold and flu pills worth the money?",
-      "translatedTitle": null,
-      "description": "Some cold and flu remedies cost 20 times as much as a basic pack of paracetamol or ibuprofen.",
-      "url": "https://www.bbc.co.uk/news/articles/cjkgep4rgngro?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cjkgep4rgngro?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T00:12:28Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ebf/live/c7481d80-d48f-11f1-9a20-f717db279e3e.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a899ce4fc0e4fc8e6c14",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66313
-    },
-    {
-      "id": "aeab88a621fabc231b7acf19",
-      "title": "UK economic growth expected to have picked up amid AI and defence drive",
-      "translatedTitle": null,
-      "description": "The Office for National Statistics was publishing the latest gross domestic product figures on Thursday.",
-      "url": "https://www.independent.co.uk/news/business/gdp-office-for-national-statistics-consumers-iran-deutsche-bank-b3083535.html",
-      "canonicalUrl": "https://independent.co.uk/news/business/gdp-office-for-national-statistics-consumers-iran-deutsche-bank-b3083535.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T02:45:24Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/12/02/94501e9484b1a6b7e1a2216b0d297403Y29udGVudHNlYXJjaGFwaSwxNzk0NDk3NDgz-2.86342247.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fac939acb1e2565d3c57",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.56982
-    },
-    {
-      "id": "86592a5b28409e81de5225e3",
-      "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
-      "translatedTitle": null,
-      "description": "Four critical in hospital as firefighters dig through rubble in Flatbush after building next to construction site collapses Firefighters dug through the rubble of a three-story building in Brooklyn on Wednesday after it collapsed at the edge of a construction site, killing at least two people and trapping others beneath the wreckage. Firefighters were called to the scene in the borough’s Flatbush section at about 4pm. News helicopter footage showed dozens of firefighters scouring the debris, wit",
-      "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+      "description": "Once thought to have been looted by Scottish tribes, the gilded limb is the centrepiece of a new exhibition on Roman Scotland in Edinburgh A large bronze leg found in a bog in rural Scotland more than 200 years ago and then hidden away in a duke’s storeroom is helping to rewrite the history of the Roman empire. Antiquarians argued that the so-called Mislington leg had been looted, perhaps from York, hacked off by marauding Scottish tribes and carried north over Hadrian’s Wall. “We cannot visuali",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1154,20 +1397,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-12T01:51:00Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a2b6a41d40ff2f77ee60bd0b7ed4dada6826bd87/485_0_4853_3882/master/4853.jpg?width=140&quality=85&auto=format&fit=max&s=e7372fdbd1c0b8020ee98c7be84ab2a3",
+      "publishedAt": "2026-11-12T00:01:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6db1c40f1835a3eef0c32176c0001fc3db8e7503/4_0_4771_3817/master/4771.jpg?width=140&quality=85&auto=format&fit=max&s=d454e47357be58ac329c261f89e1c1e2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
+      "retrievedAt": "2026-11-12T08:17:47Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "093906b967695f0503e4",
+      "clusterId": "dc9c029449769ea7ddea",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.5606
+      "rankingScore": 5.02887,
+      "related": []
     },
     {
       "id": "77fa0f2da89da5de2be0b942",
@@ -1196,187 +1439,7 @@
       "clusterId": "7902c2035069d1289f2b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47543
-    },
-    {
-      "id": "12b98b1e541fdcf3f9f866c1",
-      "title": "Ousted Press Secretary Katie Zacharia melts down in BBC interview",
-      "translatedTitle": null,
-      "description": "The broadcast comes weeks after Zacharia was dismissed following five days as press secretary",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/katie-zacharia-bbc-interview-midterms-b3083525.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/katie-zacharia-bbc-interview-midterms-b3083525.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T01:50:34Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/31/17/58/GettyImages-2299988078.jpg?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7a0b053fd1a8ffc7500a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.46983
-    },
-    {
-      "id": "dfa0b697b8ec74f876fedd3d",
-      "title": "Sharp rise in deadly antibiotic-resistant infections",
-      "translatedTitle": null,
-      "description": "Hundreds of people are being diagnosed with potentially life-threatening antibiotic-resistant infections each week, new figures suggest.",
-      "url": "https://news.sky.com/story/sharp-rise-in-life-threatening-antibiotic-resistant-infections-13611268",
-      "canonicalUrl": "https://news.sky.com/story/sharp-rise-in-life-threatening-antibiotic-resistant-infections-13611268",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T00:45:00Z",
-      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-antibiotics-health_7404486.jpg?20261112015415",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c2b0f467dbe9ee3d690b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.44674
-    },
-    {
-      "id": "d2635f74dae578c429a62799",
-      "title": "Svitolina stays in WTA Finals hunt after remarkable fightback sees off Muchova",
-      "translatedTitle": null,
-      "description": "Ukrainian wins 3-6, 6-2, 6-2 after eight-minute timeout Andreeva beats Sabalenka 6-4, 6-0 to top Group B Elina Svitolina staged a remarkable comeback to beat Karolina Muchova and remain in the hunt for the WTA Finals title. The Ukrainian looked to be on her way out of Indian Wells when she was a set down and required an eight-minute medical timeout. But she recovered to win 3-6, 6-2, 6-2 and stay in with a chance of reaching the semi-finals. Continue reading...",
-      "url": "https://www.theguardian.com/sport/2026/nov/11/elina-svitolina-karolina-muchova-wta-finals-tennis",
-      "canonicalUrl": "https://theguardian.com/sport/2026/nov/11/elina-svitolina-karolina-muchova-wta-finals-tennis",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T00:23:53Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f1a2f2b08bc19f2bbac37ba21278cc5267454ccd/256_0_3245_2597/master/3245.jpg?width=140&quality=85&auto=format&fit=max&s=ac2bc3abf06f6e6ccdb44608399e0fbd",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "be476021e65f4b2088a7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.41176
-    },
-    {
-      "id": "2eb3639fde77b72ad831e09a",
-      "title": "Democrat Scott Colom unseats Cindy Hyde-Smith in stunning Mississippi Senate win",
-      "translatedTitle": null,
-      "description": "Colom takes victory by razor-thin margin in state that has not elected a Democrat to the Senate since 1982 Democrat Scott Colom defeated Cindy Hyde-Smith, the incumbent Republican senator, to become the first Black senator in Mississippi elected since Reconstruction, in a stunning upset after more than a week of vote counting in one of the country’s most reliably red states. “For me, this journey started with a prayer, y’all,” Colom said while addressing supporters Wednesday night in Jackson, Mi",
-      "url": "https://www.theguardian.com/us-news/2026/nov/11/scott-colom-mississippi-senate-race",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/11/scott-colom-mississippi-senate-race",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T00:11:12Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/7bae4075807c8b9481c35cea6d515c10d10487fd/213_0_2120_1697/master/2120.jpg?width=140&quality=85&auto=format&fit=max&s=49da6f4dc49d01fe1cbe8b9789b286e3",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fa3493e86fbd2bfd1fd1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.39107
-    },
-    {
-      "id": "70e768343a96c00371621883",
-      "title": "The bar singer, the K-pop veteran and the ‘railway track diva’: meet three Eurovision Asia 2026 hopefuls",
-      "translatedTitle": null,
-      "description": "For some, it’s their first big break, for others it’s a chance to secure their fame. But for all 11 acts, it’s an opportunity to be Asia’s first ever winner Eurovision is heading to Asia: here’s what to expect Next week the Eurovision juggernaut beloved by millions across Europe will arrive in Bangkok for its inaugural Asian edition, with organisers hoping for all the fanfare that the glitzy song contest usually brings. Countries are getting behind their acts, particularly on social media, but m",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/12/meet-three-eurovision-asia-2026-hopefuls",
-      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/12/meet-three-eurovision-asia-2026-hopefuls",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T00:09:55Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/c939287e45f1f877741af93c7643c632896f8abd/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=90d6f64e3a385aa1bd1143aa17100267",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f51905b1fc1df925c2b7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.38899,
-      "related": []
-    },
-    {
-      "id": "7bb9649966ad9bce6d41454a",
-      "title": "Bronze leg found in Scottish bog sheds new light on Roman occupation",
-      "translatedTitle": null,
-      "description": "Once thought to have been looted by Scottish tribes, the gilded limb is the centrepiece of a new exhibition on Roman Scotland in Edinburgh A large bronze leg found in a bog in rural Scotland more than 200 years ago and then hidden away in a duke’s storeroom is helping to rewrite the history of the Roman empire. Antiquarians argued that the so-called Mislington leg had been looted, perhaps from York, hacked off by marauding Scottish tribes and carried north over Hadrian’s Wall. “We cannot visuali",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-12T00:01:03Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/6db1c40f1835a3eef0c32176c0001fc3db8e7503/4_0_4771_3817/master/4771.jpg?width=140&quality=85&auto=format&fit=max&s=d454e47357be58ac329c261f89e1c1e2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-12T04:17:40Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dc9c029449769ea7ddea",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.37469,
+      "rankingScore": 5.01953,
       "related": []
     },
     {
@@ -1406,8 +1469,8 @@
       "clusterId": "f7c79624f61882eabc11",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.31864
+      "rankingScore": 4.96606,
+      "related": []
     },
     {
       "id": "1e45ca476441bbb2f1bf5663",
@@ -1436,8 +1499,8 @@
       "clusterId": "f779546c666d7299e8f5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.31643
+      "rankingScore": 4.96429,
+      "related": []
     }
   ]
 }
