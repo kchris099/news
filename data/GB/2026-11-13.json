@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T12:18:14Z",
-  "lastAttemptAt": "2026-11-13T12:18:14Z",
-  "lastSuccessfulUpdate": "2026-11-13T12:18:14Z",
-  "status": "partial",
+  "generatedAt": "2026-11-13T16:18:11Z",
+  "lastAttemptAt": "2026-11-13T16:18:11Z",
+  "lastSuccessfulUpdate": "2026-11-13T16:18:11Z",
+  "status": "current",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-13T12:18:13Z",
-      "lastSuccessAt": "2026-11-13T12:18:13Z",
-      "articlesRetrieved": 32,
-      "responseTimeMs": 423,
+      "lastAttemptAt": "2026-11-13T16:18:10Z",
+      "lastSuccessAt": "2026-11-13T16:18:11Z",
+      "articlesRetrieved": 37,
+      "responseTimeMs": 530,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-13T12:18:13Z",
-      "lastSuccessAt": "2026-11-13T12:18:13Z",
-      "articlesRetrieved": 144,
-      "responseTimeMs": 436,
+      "lastAttemptAt": "2026-11-13T16:18:10Z",
+      "lastSuccessAt": "2026-11-13T16:18:11Z",
+      "articlesRetrieved": 145,
+      "responseTimeMs": 379,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,26 +38,87 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-13T12:18:13Z",
-      "lastSuccessAt": "2026-11-13T12:18:13Z",
-      "articlesRetrieved": 5,
-      "responseTimeMs": 656,
+      "lastAttemptAt": "2026-11-13T16:18:10Z",
+      "lastSuccessAt": "2026-11-13T16:18:11Z",
+      "articlesRetrieved": 9,
+      "responseTimeMs": 578,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "failed",
-      "lastAttemptAt": "2026-11-13T12:18:13Z",
-      "lastSuccessAt": null,
-      "articlesRetrieved": 0,
-      "responseTimeMs": null,
-      "errorType": "RuntimeError",
-      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      "status": "success",
+      "lastAttemptAt": "2026-11-13T16:18:10Z",
+      "lastSuccessAt": "2026-11-13T16:18:11Z",
+      "articlesRetrieved": 100,
+      "responseTimeMs": 494,
+      "errorType": null,
+      "errorMessage": null
     }
   ],
   "articles": [
+    {
+      "id": "4ae9531cc5466d0455d0aa5a",
+      "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
+      "translatedTitle": null,
+      "description": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
+      "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/cqzjr903n01po?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T11:43:27Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e30a/live/54c2fe10-df57-11f1-a701-fddedf244c16.jpg",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "facc63486d2a85f57f78",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "065a8566d2300ccc0c9ea26f",
+          "title": "Microsoft outage latest: Hospitals and police hit by Outlook going down as services slowly come back online",
+          "translatedTitle": null,
+          "description": "Hours-long outage is affecting everything from hospitals to airports, but Microsoft rules out cyber attack as it searches for fixes and explanations",
+          "url": "https://www.independent.co.uk/tech/microsoft-outage-outlook-teams-down-live-updates-b3084309.html",
+          "canonicalUrl": "https://independent.co.uk/tech/microsoft-outage-outlook-teams-down-live-updates-b3084309.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-13T15:18:25Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/13/12/2026-11-13T111641Z_1329254727_RC2F6CASYMV4_RTRMADP_3_MICROSOFT-OUTAGES.JPG?width=1200&auto=webp&trim=0%2C4%2C0%2C4",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-13T16:18:11Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "facc63486d2a85f57f78",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "microsoft outage latest hospitals and police hit by outlook going down as services slowly come back online"
+        }
+      ],
+      "rankingScore": 8.71568
+    },
     {
       "id": "d4ad1d0bf89d8af3dbc52f43",
       "title": "El Niño will increase risk of death in childbirth for millions, say midwives",
@@ -78,45 +139,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "d52e24f2684051fbce7f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.85372
-    },
-    {
-      "id": "da635049d707b61d6282c79c",
-      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-      "translatedTitle": null,
-      "description": "The Ukrainian president says it makes sense for European leaders to be involved as Ukraine hopes to eventually join the EU.",
-      "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ckn80j9jv3jxo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T02:01:35Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9462/live/a60e9f80-df2b-11f1-a701-fddedf244c16.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ef280ba5865cbec49470",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.85292
+      "rankingScore": 8.4225,
+      "related": []
     },
     {
       "id": "b0f66bc22a6fe258ba50d927",
@@ -138,15 +169,77 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "4b020abedce0897ea448",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.80638,
+      "rankingScore": 7.51414,
       "related": []
+    },
+    {
+      "id": "b3556512d47ccb1c620d05f4",
+      "title": "Tearful Pochettino on 'difficult' decision to leave USA for Man Utd",
+      "translatedTitle": null,
+      "description": "An emotional Mauricio Pochettino broke down as he explained why he was leaving the USA to take the Manchester United job.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmd61qne8352o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cmd61qne8352o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:28:06Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcb8/live/8a5ea400-df72-11f1-b844-3146c4983677.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b50f9d76642c6dd4b245",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "5157826bdcc5452642e88803",
+          "title": "Tearful Pochettino says leaving USA for Manchester United ‘most difficult decision’ of career: football – live",
+          "translatedTitle": null,
+          "description": "Pochettino speaks in emotional press conference Today’s fixtures | Follow us on TikTok | Mail Simon Barney Ronay was at Wembley on Thursday night to celebrate Happy Harry Kane day. “And as the teams lined up there was a surprise appearance from the real star of this stage, the Ballon d’Or itself, wreathed in event glamour and star-flash. Kane drew the ballon from its stone in Arthurian fashion, then held it a little sheepishly in one hand. Prince William walked out and gave him a massive framed",
+          "url": "https://www.theguardian.com/football/live/2026/nov/13/mauricio-pochettino-manchester-united-head-coach-football-live",
+          "canonicalUrl": "https://theguardian.com/football/live/2026/nov/13/mauricio-pochettino-manchester-united-head-coach-football-live",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-13T16:10:13Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/a99c4bbde346fd8d5dc34b5f47f92ed5f2cb4b12/137_0_4759_3807/master/4759.jpg?width=140&quality=85&auto=format&fit=max&s=f3e8c237d14f8ea138cff87743665b4c",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-13T16:18:11Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "b50f9d76642c6dd4b245",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "tearful pochettino says leaving usa for manchester united most difficult decision of career football live",
+          "rankingScore": 5.80816
+        }
+      ],
+      "rankingScore": 7.41007
     },
     {
       "id": "59f3cf40d0294d3e7c08874e",
@@ -175,16 +268,16 @@
       "clusterId": "87b0c12181d5ad2daace",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.61005,
+      "rankingScore": 7.339,
       "related": []
     },
     {
-      "id": "0bec275a21f35534fb5d70a7",
-      "title": "Rosalía scoops historic third best album award at Latin Grammys",
+      "id": "2b909a49ebcd6b59c0f58308",
+      "title": "Reform and Tory spokesmen in angry clash over immigration at Piddington",
       "translatedTitle": null,
-      "description": "The Spanish singer is recognised for her fourth album Lux which was released last year to rave reviews.",
-      "url": "https://www.bbc.co.uk/news/articles/cr3eg97eqde1o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cr3eg97eqde1o?at_campaign=rss&at_medium=RSS",
+      "description": "Reform's Zia Yusuf and Tory Chris Philp were speaking against converting a former military site into asylum accommodation.",
+      "url": "https://www.bbc.co.uk/news/articles/cr9d7y937n58o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cr9d7y937n58o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -193,66 +286,127 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-13T11:38:54Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b59/live/d91bb2b0-df43-11f1-a48c-75dd2efdacb5.jpg",
+      "publishedAt": "2026-11-13T14:34:21Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f69/live/63199f60-df74-11f1-b844-3146c4983677.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "da4edb7117de71ef0c50",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.38126
-    },
-    {
-      "id": "3eac743aae3a6f85d2d5621e",
-      "title": "Mauricio Pochettino’s switch from USA to Manchester United confirmed",
-      "translatedTitle": null,
-      "description": "Pochettino to take charge of two final USMNT matches He has signed two-and-a-half-year United contract Mauricio Pochettino’s switch from the US men’s national team to Manchester United has been confirmed. Pochettino will guide the US through a pair of Concacaf Nations League matches on Saturday and Tuesday before joining United, for whom his first game will come at Liverpool next Sunday. The former Chelsea, Tottenham and Southampton manager has signed a two-and-a-half-year deal to replace Michae",
-      "url": "https://www.theguardian.com/football/2026/nov/13/mauricio-pochettino-confirmed-manchester-united-usa",
-      "canonicalUrl": "https://theguardian.com/football/2026/nov/13/mauricio-pochettino-confirmed-manchester-united-usa",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T12:00:06Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/94396f252e81d2f3d271bac1617baa63b3561188/1617_26_1682_1346/master/1682.jpg?width=140&quality=85&auto=format&fit=max&s=5cd1598bde7c3ac0f98eb01082f52680",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6be2e47d5114f2429412",
+      "clusterId": "f3e6a85bc35aa339383a",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "a47cedd66ea2461bfa13e41a",
-          "title": "Manchester United agree two-and-a-half-year deal with Mauricio Pochettino",
+          "id": "2f3a780e6679074d9ec690b7",
+          "title": "Reform and Tory spokespeople in row over Piddington migrant housing plans",
           "translatedTitle": null,
-          "description": "Manchester United and Mauricio Pochettino have agreed a deal for him to take over as head coach with the team in the Premier League's relegation zone.",
-          "url": "https://news.sky.com/story/manchester-united-agree-two-and-a-half-year-deal-with-mauricio-pochettino-13611788",
-          "canonicalUrl": "https://news.sky.com/story/manchester-united-agree-two-and-a-half-year-deal-with-mauricio-pochettino-13611788",
-          "sourceName": "Sky News",
-          "sourceDomain": "news.sky.com",
+          "description": "More than 1,200 male migrants will be housed at a former military base nearby",
+          "url": "https://www.independent.co.uk/news/uk/home-news/labour-migrants-piddington-housing-court-b3084363.html",
+          "canonicalUrl": "https://independent.co.uk/news/uk/home-news/labour-migrants-piddington-housing-court-b3084363.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
           "sourceCountry": "GB",
           "editionCountry": "GB",
           "coverageCountries": [
             "GB"
           ],
           "language": "en",
-          "publishedAt": "2026-11-13T06:59:00Z",
-          "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-mauricio-pochettino_7405573.jpg?20261113070729",
+          "publishedAt": "2026-11-13T15:26:54Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/13/14/2304943847..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-13T16:18:11Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "f3e6a85bc35aa339383a",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "reform and tory spokespeople in row over piddington migrant housing plans"
+        }
+      ],
+      "rankingScore": 7.30811
+    },
+    {
+      "id": "40f156d47171ad5f03febc12",
+      "title": "Barnet Council approves new Edgware gambling venue despite public health objections",
+      "translatedTitle": null,
+      "description": "Public health officials had objected to the application on the basis that an adult gaming centre represents a higher-risk form of gambling",
+      "url": "https://www.independent.co.uk/games/barnet-council-edgware-gambling-venue-b3084429.html",
+      "canonicalUrl": "https://independent.co.uk/games/barnet-council-edgware-gambling-venue-b3084429.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T14:14:02Z",
+      "imageUrl": "https://static.independent.co.uk/2024/11/18/21/New_Jersey_Gambling_Revenue_52007.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "af4e56e982f028600b49",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.21088
+    },
+    {
+      "id": "34d456dcb0ba175775e667c6",
+      "title": "Mauricio Pochettino reveals when Man United contacted him about replacing Michael Carrick",
+      "translatedTitle": null,
+      "description": "Pochettino was confirmed as Michael Carrick’s successor at Man United on Friday",
+      "url": "https://www.independent.co.uk/sport/football/mauricio-pochettino-man-united-manager-latest-usa-press-conference-b3084643.html",
+      "canonicalUrl": "https://independent.co.uk/sport/football/mauricio-pochettino-man-united-manager-latest-usa-press-conference-b3084643.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T16:03:52Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/15/2304961852..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5054f02186b6ef29ec39",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "3eac743aae3a6f85d2d5621e",
+          "title": "Mauricio Pochettino’s switch from USA to Manchester United confirmed",
+          "translatedTitle": null,
+          "description": "Pochettino to take charge of two final USMNT matches He has signed two-and-a-half-year United contract Mauricio Pochettino’s switch from the US men’s national team to Manchester United has been confirmed. Pochettino will guide the US through a pair of Concacaf Nations League matches on Saturday and Tuesday before joining United, for whom his first game will come at Liverpool next Sunday. The former Chelsea, Tottenham and Southampton manager has signed a two-and-a-half-year deal to replace Michae",
+          "url": "https://www.theguardian.com/football/2026/nov/13/mauricio-pochettino-confirmed-manchester-united-usa",
+          "canonicalUrl": "https://theguardian.com/football/2026/nov/13/mauricio-pochettino-confirmed-manchester-united-usa",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-13T12:00:06Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/94396f252e81d2f3d271bac1617baa63b3561188/1617_26_1682_1346/master/1682.jpg?width=140&quality=85&auto=format&fit=max&s=5cd1598bde7c3ac0f98eb01082f52680",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
@@ -260,675 +414,136 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "6be2e47d5114f2429412",
+          "clusterId": "5054f02186b6ef29ec39",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "manchester united agree two and a half year deal with mauricio pochettino",
-          "rankingScore": 5.68454
+          "rankingScore": 7.20332,
+          "normalizedTitle": "mauricio pochettino s switch from usa to manchester united confirmed",
+          "sourceQuality": 1.0
         }
       ],
-      "rankingScore": 7.20332
+      "rankingScore": 7.12079
     },
     {
-      "id": "014eb1c014c482504436e589",
-      "title": "Democrats fumbled the Hegseth impeachment. That could be a blessing in disguise | Claire Finkelstein",
+      "id": "42c7713b95d261628f822700",
+      "title": "Hit-and-run driver who fled to Latvia after killing schoolboy in 75mph Coventry collision jailed",
       "translatedTitle": null,
-      "description": "The failed move could lead to a more robust effort against the defense secretary in the next Congress. Here’s how it could look A traffic jam, combined with disorganization on the part of Democrats, enabled House Republicans to scuttle the representative Thomas Massie’s articles of impeachment against Pete Hegseth on Wednesday. While recriminations are now flying among Democrats, the fumble may have been a blessing in disguise. Democrats can now refocus the articles against the defense secretary",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/13/democrats-hegseth-impeachment",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/13/democrats-hegseth-impeachment",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "Aleksanders Dolars was sentenced at Warwick Crown Court on Friday",
+      "url": "https://www.independent.co.uk/news/uk/crime/aleksanders-dolars-jail-keaton-slater-coventry-hit-and-run-latvia-b3084676.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/crime/aleksanders-dolars-jail-keaton-slater-coventry-hit-and-run-latvia-b3084676.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-13T12:00:18Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/94c9336643b6523a69f9d8a8eb56ea0d2490e9e7/165_0_1649_1319/master/1649.jpg?width=140&quality=85&auto=format&fit=max&s=41e00663d60f78546fa5b6db12107165",
+      "publishedAt": "2026-11-13T16:07:15Z",
+      "imageUrl": "https://static.independent.co.uk/2026/09/03/13/546477d41186bb54da42a14915f67ed2Y29udGVudHNlYXJjaGFwaSwxNzg4NTE5MjI3-2.76543223.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "5ec24492988fba01540f",
+      "clusterId": "18d86cf8ea63e720cc9b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.15372
+      "rankingScore": 7.0776
     },
     {
-      "id": "85fa65d34d1afac892316059",
-      "title": "UK-EU deal will lead to ‘growing pressure’ for parliament to scrutinise legislation, warns committee – UK politics live",
+      "id": "8c6dabb1da4e948a93db8ab7",
+      "title": "Is the worst now over for American democracy?",
       "translatedTitle": null,
-      "description": "The report on food and emissions comes ahead of a joint UK-EU summit next week The Home Office underspent its Prevent counter-terror scheme budget by nearly a third last year, despite the number of referrals reaching record levels, the public spending watchdog has said. The National Audit Office (NAO) said the Home Office underspent its £23.4 million Prevent budget by 28% for 2025-26, continuing a six-year pattern in which it underspent by an average of £5.6 million (17%) a year in real term, PA",
-      "url": "https://www.theguardian.com/politics/live/2026/nov/13/uk-eu-post-brexit-deal-relationship-trade-food-standards-committee-latest-news-updates",
-      "canonicalUrl": "https://theguardian.com/politics/live/2026/nov/13/uk-eu-post-brexit-deal-relationship-trade-food-standards-committee-latest-news-updates",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "Over a week after the midterm elections, the dust has settled, and we can ask: is the worst now over for American democracy?",
+      "url": "https://news.sky.com/story/us-midterms-is-the-worst-now-over-for-american-democracy-13611934",
+      "canonicalUrl": "https://news.sky.com/story/us-midterms-is-the-worst-now-over-for-american-democracy-13611934",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-13T11:47:47Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1f601b6963d10a51408ae87392c7ee87d628cf08/381_0_4186_3348/master/4186.jpg?width=140&quality=85&auto=format&fit=max&s=2c9e2440786b6e5b524ea3bf6252e316",
+      "publishedAt": "2026-11-13T14:50:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-trump-us-dc_7405897.jpg?20261113151536",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "cb6ce3d8a11f7b3d3e52",
+      "clusterId": "409eb028f797c9f614b4",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.12878
+      "rankingScore": 7.01728
     },
     {
-      "id": "fa2a0c459bf2bb95ce5dc3c5",
-      "title": "Digested week: Do we really have to see Liz Truss at the Cenotaph for the next 30 years? | John Crace",
+      "id": "90cfc4af05ab1d908172a8a6",
+      "title": "Mauricio Pochettino breaks down in tears during press conference",
       "translatedTitle": null,
-      "description": "At some point even Liz won’t remember why she’s there. Meanwhile, Nige wants more air time, and Boris Johnson couldn’t have made less effort Like most people, I assume, I had always thought the Remembrance Sunday service at the Cenotaph was a time to think of those who died in the two world wars and later armed conflicts. It turns out that Richard Tice, the deputy leader of Reform, sees it differently. I was listening to Dicky being interviewed on the Jeremy Kyle show on TalkTV – Yes, I know, I’",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/13/digested-week-liz-truss-cenotaph",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/13/digested-week-liz-truss-cenotaph",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "Mauricio Pochettino broke down in tears during a press conference as he discussed his decision to leave his US coaching role and take over at Manchester United.",
+      "url": "https://news.sky.com/story/manchester-united-agree-two-and-a-half-year-deal-with-mauricio-pochettino-13611788",
+      "canonicalUrl": "https://news.sky.com/story/manchester-united-agree-two-and-a-half-year-deal-with-mauricio-pochettino-13611788",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-13T11:28:43Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/220267d94b203877d42c63614b8b5ca5943b7822/290_0_2645_2116/master/2645.jpg?width=140&quality=85&auto=format&fit=max&s=9ed2b2bf11e013d7443053a760754b18",
+      "publishedAt": "2026-11-13T06:59:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-mauriciopochetinno_7405894.jpg?20261113150601",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b011a7a01c625f3b0e5e",
+      "clusterId": "292e21ac30266494e374",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.09136
-    },
-    {
-      "id": "467c8377eac51fc326d9cd13",
-      "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
-      "translatedTitle": null,
-      "description": "Volodymyr Zelenskyy says speed restrictions on Starshield system made it harder for Ukraine to shoot down drones Europe live – latest updates Russia has attacked a hospital in the centre of Kyiv, close to several western embassies, after Volodymyr Zelenskyy said speed restrictions on SpaceX’s Starshield system had made it harder for Ukraine to shoot down enemy drones. Three people were injured when a drone smashed into the National Institute of Traumatology and Orthopedics at 3am, hitting the se",
-      "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T11:24:30Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/dc9a234fef04146303e642fa72a7e4133f5f0332/534_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=4f6b3aa602c14144386fe6e5fd7786d7",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c6ad0d53f9c64ee7f866",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.08317
-    },
-    {
-      "id": "749eef017980b8237e4628e5",
-      "title": "Australia race to paltry target after debutant quick Beardman routs England in first ODI",
-      "translatedTitle": null,
-      "description": "A week of watching Australian cricket descend into civil war ended with smiles being wiped from English faces after a stunning debut from fast bowler Mahli Beardman consigned the tourists to an all-too-familiar hammering in Perth. Victory in a low-key one-day international was never going to atone for the galling start to that failed Ashes campaign here 12 months ago. Nevertheless, England appeared better prepared this time, while the hosts were missing their big three quicks and fighting sandpa",
-      "url": "https://www.theguardian.com/sport/2026/nov/13/australia-beat-england-seven-wickets-first-mens-cricket-odi-report",
-      "canonicalUrl": "https://theguardian.com/sport/2026/nov/13/australia-beat-england-seven-wickets-first-mens-cricket-odi-report",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T11:15:31Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5fe54af01cad6d4f8b050f9bc97f5003cf6ea445/60_0_5927_4744/master/5927.jpg?width=140&quality=85&auto=format&fit=max&s=a0ada9e418aa8b8520d67ba9c13d7557",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d4ccb6d1bb583955d7ec",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.06583
-    },
-    {
-      "id": "09acd3f8e7ac0109a09a5206",
-      "title": "Nvidia scandal: Howard Lutnick under pressure over alleged lack of action",
-      "translatedTitle": null,
-      "description": "US commerce secretary faces sack as warnings emerge about alleged Chinese spy’s ties to Jensen Huang and delays in adding Megaspeed to trade blacklist Analysis: Jensen Huang built an AI kingdom. Now he’s gone, will Nvidia’s ramparts be breached? One of Donald Trump’s top lieutenants reportedly could soon be fired, as criticism mounts over commerce secretary Howard Lutnick’s apparent lack of action over the Nvidia spying scandal. Jensen Huang resigned from Nvidia on Thursday, and was replaced on",
-      "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
-      "canonicalUrl": "https://theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T09:41:22Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/32216a34a823211e1918352cebe5089bd9ffadb0/661_0_4502_3602/master/4502.jpg?width=140&quality=85&auto=format&fit=max&s=569749a3b191adfd37bfaeacebdf542e",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "20b106c6b57cbe0d118c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.89253,
-      "related": []
-    },
-    {
-      "id": "b884831f2276819bce054b00",
-      "title": "Snoh Aalegra: Legendary Love review – raw R&B talent restrained by reverence for the greats",
-      "translatedTitle": null,
-      "description": "(Stem)Her truly remarkable, Sade-ish voice is hypnotic against some dizzyingly plush production, but a modern spin on 80s pastiche sometimes veers too close to tribute Swedish-Iranian singer Snoh Aalegra has previously described her music – a lush, pastiche-y mix of R&B, hip-hop, soul and pop – as “cinematic soul”. But although she’s a dab hand at graceful, timeless presentation (and has a truly remarkable voice) Aalegra’s music has often struggled to match up to its aesthetic, hampered by her l",
-      "url": "https://www.theguardian.com/music/2026/nov/13/snoh-aalegra-legendary-love-review",
-      "canonicalUrl": "https://theguardian.com/music/2026/nov/13/snoh-aalegra-legendary-love-review",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T08:00:13Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/818d8c7c835ec17d6dd1d0b06162b8fad969893e/0_322_5000_3999/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=dabaac9766d6e5007d1e04cfa1bdcfa2",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9988e7778bfdf36c3d96",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.72243,
-      "related": []
-    },
-    {
-      "id": "4fb0118a4c650f94455c4197",
-      "title": "The beautiful game: revived art prize gives football its creative due once more | Emma John",
-      "translatedTitle": null,
-      "description": "Football and the art world have long remained distant but the breadth of entries for this year’s award revivals a healthy revival It may be the Beautiful Game, but in its early decades football was a rare subject for artists. The Italian Futurist Umberto Boccioni whirled an athlete’s body into a vortex of movement in his 1913 painting Dynamism of a Soccer Player. You can see one of the earliest fine art depictions of a match – a smoggy, factory-adjactent scene called Any Wintry Afternoon in Engl",
-      "url": "https://www.theguardian.com/football/2026/nov/13/football-association-art-prize",
-      "canonicalUrl": "https://theguardian.com/football/2026/nov/13/football-association-art-prize",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T08:00:12Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/badf13a337df5a9ec82794e27b985cad51ac5767/42_0_1285_1028/master/1285.jpg?width=140&quality=85&auto=format&fit=max&s=f4f0458ba1f0c737f6e555407f2162c7",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "32ccca660142572c1948",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.72241,
-      "related": []
-    },
-    {
-      "id": "5353092528042d640b6c5520",
-      "title": "US terrorism case sheds light on RAF Fairford arrests mystery",
-      "translatedTitle": null,
-      "description": "Suspect held in New York jail has been linked to handler behind Iran-linked operations in Britain When the US took custody of Mohammad Baqer Saad Dawood al-Saadi in May, investigators hoped the string of terrorist and arson attacks he was accused of promoting and directing against American and Jewish targets in the UK and Europe on behalf of Iran would stop. They were wrong. An updated indictment, released on Tuesday by the US Department of Justice, describes some of what happened next. It revea",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/13/us-terror-case-raf-fairford-arrests",
-      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/13/us-terror-case-raf-fairford-arrests",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T07:55:56Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d1735b4a44ef062b46112fa9ecc27587ab34641c/528_0_2778_2222/master/2778.jpg?width=140&quality=85&auto=format&fit=max&s=ef04e78363c6563bd8a5f613d9a240bf",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "abaf48a58d8c61e6533d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.71558,
-      "related": []
-    },
-    {
-      "id": "c5f0fdbd1e36a87eb4e837d6",
-      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "translatedTitle": null,
-      "description": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
-      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T03:57:01Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "858908c52077eecb7b75",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.64312
-    },
-    {
-      "id": "299798e945a6ff93f8bc45f0",
-      "title": "‘I found the best mountain view in Europe’: readers’ favourite wild escapes in Scotland",
-      "translatedTitle": null,
-      "description": "From the Isle of Skye to the Cairngorms, our explorers find white-sand beaches, secret lochs and solitude• Tell us about your favourite European national park – the best tip wins a £200 holiday voucher At Camasunary bay on the Strathaird peninsula of the Isle of Skye, we watched an otter at low tide lifting seaweed to find crabs. Boots off, we crossed one of Skye’s shortest (and coldest) rivers, before slogging upwards through unforgiving heather to the col beneath the pathless hill Sgùrr na Str",
-      "url": "https://www.theguardian.com/travel/2026/nov/13/readers-favourite-wild-escapes-scotland-skye-cairngorms",
-      "canonicalUrl": "https://theguardian.com/travel/2026/nov/13/readers-favourite-wild-escapes-scotland-skye-cairngorms",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T07:00:11Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/a9cb63937daaeea868dd9dfaa967c522ab7ba0b7/976_0_4049_3240/master/4049.jpg?width=140&quality=85&auto=format&fit=max&s=a87d1b00c5047fa211178a3e413d64f9",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b6580aca2a57bac4a0a5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.62876,
-      "related": []
-    },
-    {
-      "id": "650683a2a72d33e7bc4f81df",
-      "title": "Progressives are still so pessimistic, but why? The populist right can and will be defeated | Andy Beckett",
-      "translatedTitle": null,
-      "description": "From the US midterms to Brazil and Hungary, extremists are floundering yet the left still overestimates their power. Reality is on our side From Brazil to Hungary and Britain to the US, why are so many people so surprised by the right’s election defeats? Flávio Bolsonaro, Viktor Orbán, Reform UK, the Tories and a vast array of Republican candidates have all been rejected in national or local contests this year, even in usually reliably conservative Mississippi. Apparently impregnable incumbents",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/13/progressive-pessimism-right-defeat-us-midterms-brazil-hungary",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/13/progressive-pessimism-right-defeat-us-midterms-brazil-hungary",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T06:00:12Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/343657b477d0348e42067184dd580e952b74dcec/534_0_5419_4335/master/5419.jpg?width=140&quality=85&auto=format&fit=max&s=b75f1e9cb445dd4e70337dd0c82b135e",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d0fbb926b0a75f1b0e6f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.54023,
-      "related": []
-    },
-    {
-      "id": "37086f80ef55fdcb2c422483",
-      "title": "‘They’ve cut all entry-level jobs’: unlikely seaside town on frontline of AI threat",
-      "translatedTitle": null,
-      "description": "Bournemouth became a hub for thousands of finance jobs after the 1980s big bang, but new tech risks hurting Dorset’s economy A few minutes’ drive from Bournemouth’s sandy beachfront, on the site of a former farm, lies an unlikely nerve centre of international finance. Here, miles from the glass towers of London’s Canary Wharf, more than 5,300 staff including compliance officers, analysts and software engineers help process more than $1tn (£750bn) worth of global transactions each day for the lar",
-      "url": "https://www.theguardian.com/business/2026/nov/13/ai-uk-finance-jobs-bournemouth-tech",
-      "canonicalUrl": "https://theguardian.com/business/2026/nov/13/ai-uk-finance-jobs-bournemouth-tech",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T06:00:11Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/bf89554b62021f0ff2c47b951b291011065da177/388_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=2175073caa311333f7289316cad3b02a",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8546bb6ae1b43581afbd",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.5402,
-      "related": []
-    },
-    {
-      "id": "ca25c4ea6e0d363ca7ac7ae7",
-      "title": "Boxer on death row in Iran vows ‘not to bow before oppression’ after winning rights prize",
-      "translatedTitle": null,
-      "description": "Political prisoner Mohammad Javad Vafaei Sani, one of seven athletes at risk of execution in Iran, given prestigious Magnitsky humanitarian award A boxer and political prisoner on death row in Iran said he will “never surrender” as he accepted a prestigious human rights prize on behalf of “the generation that is paying the price of freedom with their lives”. Mohammad Javad Vafaei Sani, an Iranian boxing champion, coach and political prisoner, has been sentenced to death three times and is one of",
-      "url": "https://www.theguardian.com/global-development/2026/nov/13/mohammad-javad-vafaei-sani-iran-boxer-death-row-magnitsky-award",
-      "canonicalUrl": "https://theguardian.com/global-development/2026/nov/13/mohammad-javad-vafaei-sani-iran-boxer-death-row-magnitsky-award",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T06:00:11Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/ae911a85a5e3f88e9b0812fc2e2ee4780633d4b5/0_1_2320_1856/master/2320.jpg?width=140&quality=85&auto=format&fit=max&s=b3984b367b1faf3a0bae461597f477ad",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "69237591b53740d9805b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.5402,
-      "related": []
-    },
-    {
-      "id": "f6135804daccaa218f7aa8c3",
-      "title": "Helen Goh’s recipe for rice pudding with hibiscus-poached pears | The sweet spot",
-      "translatedTitle": null,
-      "description": "Cold pears stained red with tart hibiscus and offset by a hot, creamy, spiced rice pudding Hibiscus has a tart, berry-like flavour, and turns these pears a jewel-bright crimson in colour. The pears are best poached a day ahead, because they’ll deepen in colour and flavour while they chill in the syrup. I especially like the contrast of the cold, gently tangy pears against a warm, creamy rice pudding that’s fragrant with cardamom, bay, lemon and vanilla. A scattering of pistachios adds a final to",
-      "url": "https://www.theguardian.com/food/2026/nov/13/rice-pudding-hibiscus-poached-pears-recipe-helen-goh",
-      "canonicalUrl": "https://theguardian.com/food/2026/nov/13/rice-pudding-hibiscus-poached-pears-recipe-helen-goh",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T06:00:10Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/99dc01887434ed460f4f84f0ff70dc755404979f/243_1282_4135_3305/master/4135.jpg?width=140&quality=85&auto=format&fit=max&s=2deba8485a9025007c3222d62e95ad83",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "50f1c7fa46a194ae09a0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.54018,
-      "related": []
-    },
-    {
-      "id": "5b03dd9820545518da04abd6",
-      "title": "‘Women are pitted against each other. It’s a bloodsport’: Billie Piper on industry infighting, Elsinore’s Oscar buzz and thriving on personal crisis",
-      "translatedTitle": null,
-      "description": "The teen pop star turned Olivier-winning actor stars as Andrew Scott’s best friend in the acclaimed Ian Charleson biopic. She talks kindred spirits, social media and trying to channel a ‘mad storm of grief’ The late Billie Whitelaw, whom Samuel Beckett considered “a perfect actress”, was on stage in the middle of rehearsals one day when she asked the playwright: “Where should I be looking?” To which Beckett replied: “Inwards.” Hearing this story, another Billie – the teen pop star turned Doctor",
-      "url": "https://www.theguardian.com/film/2026/nov/13/billie-piper-women-industry-elsinore-oscar-buzz",
-      "canonicalUrl": "https://theguardian.com/film/2026/nov/13/billie-piper-women-industry-elsinore-oscar-buzz",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T05:00:09Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/3f6c8d132693f32bab221c36e1e2651d202da2c9/0_165_3695_2956/master/3695.jpg?width=140&quality=85&auto=format&fit=max&s=e228633f6ddd1873e008f3bca252f9a9",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "daeca303db121256e915",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.45638,
-      "related": []
-    },
-    {
-      "id": "ec711fab409c19c06e0933e3",
-      "title": "The rise of 'housefishing': How AI-enhanced property listings are taking off",
-      "translatedTitle": null,
-      "description": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm62y0wrnz9zo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T00:13:35Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8436/live/9852bb70-d6a6-11f1-b441-2b33b063138f.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b481e886e14f31e149d7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.38464
-    },
-    {
-      "id": "4a6fe9a5fd4a7b799dad886c",
-      "title": "Darth Vader’s lightsaber, used in Star Wars movies The Empire Strikes Back and Return of the Jedi, sells for nearly $5m",
-      "translatedTitle": null,
-      "description": "Used in the famous ‘I am your father’ scene, the on-screen prop was originally expected to sell for a fraction of the price Auctioneers estimated it would sell for over $1m, but on Thursday a Star Wars lightsaber used by Darth Vader in the famous “I am your father” scene from The Empire Strikes Back ended up selling for nearly $5m. Darth Vader’s saber was one of 27 lightsaber props up for sale by Heritage Auctions in the US, including ones used by Ewan McGregor’s Obi-Wan Kenobi and Hayden Christ",
-      "url": "https://www.theguardian.com/film/2026/nov/13/star-wars-darth-vader-lightsaber-sells-for-nearly-5m-auction",
-      "canonicalUrl": "https://theguardian.com/film/2026/nov/13/star-wars-darth-vader-lightsaber-sells-for-nearly-5m-auction",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T04:41:51Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d9dae96045308125438b564a2480095d842ede20/233_0_2483_1986/master/2483.jpg?width=140&quality=85&auto=format&fit=max&s=d470b5c2529e9bdc1ca5edffe33b1af3",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T08:18:08Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a097123effc494c22602",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.34175,
-      "related": []
-    },
-    {
-      "id": "2c6c3e4e8182dcd5ecbb2419",
-      "title": "Pope Leo gets rapturous welcome in Peru: ‘This visit is like a big party’",
-      "translatedTitle": null,
-      "description": "Pope Leo XIV is visiting the country, where he spent nearly a decade as bishop, during an 11-day South American tour The walls in Chiclayo have been painted with colourful murals and banners welcoming Pope Leo XIV, but he is better known to residents of this city in northern Peru as “Padre Roberto” – a pastor who walked their streets, shared their love of local cuisine, and stood by them through natural disasters and the Covid-19 pandemic. Robert Prevost, 71, who spent nearly a decade as the bis",
-      "url": "https://www.theguardian.com/world/2026/nov/12/pope-leo-peru-visit",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/12/pope-leo-peru-visit",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T03:53:40Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/2b4a0d0b2ade428c20a6e3b9fe76f90abcc0d1cd/444_0_4426_3543/master/4426.jpg?width=140&quality=85&auto=format&fit=max&s=5346f3f3c9ed7f4f2d1d66e6e561a889",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T04:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "92a3ff26084acdb37833",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.27884,
-      "related": []
-    },
-    {
-      "id": "5eb5c0d4c16cf9b9e34ec232",
-      "title": "It’s Happy Harry Kane day as England’s finest seizes his moment in style | Barney Ronay",
-      "translatedTitle": null,
-      "description": "The Ballon d’Or validated the forward’s career and he extended his incredible record for England with yet another goal on his 126th appearance Happy Harry Kane day! And many happy Harry returns. There is a process in clinical psychology known as semantic satiation. Subjects are asked to repeat a word or phrase so many times that it loses any kind of meaning. Suddenly “daffodils” is just an absurd, empty set of sounds. So it was in the buildup to Harry Kane’s record-breaking 126th cap, at the end",
-      "url": "https://www.theguardian.com/football/2026/nov/13/happy-harry-kane-day-englands-finest-seizes-his-moment-croatia-nations-league",
-      "canonicalUrl": "https://theguardian.com/football/2026/nov/13/happy-harry-kane-day-englands-finest-seizes-his-moment-croatia-nations-league",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T00:01:56Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/535fa0f97ceb074b92b97697e979c349f7e88f4f/687_0_4801_3841/master/4801.jpg?width=140&quality=85&auto=format&fit=max&s=0624e5f1f6fe4ee21a05eaff9f487230",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "38fe0f74e0c756cf22f4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.10257,
-      "related": []
-    },
-    {
-      "id": "d6b908368171be294d6fb7b2",
-      "title": "What we know about the global outage",
-      "translatedTitle": null,
-      "description": "Microsoft has said the outage was not caused by a cyber-security incident, but efforts to fix the issues have so far been largely unsuccessful.",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cwvg238zrnm5o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T12:09:57Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddf/live/8578f720-df49-11f1-b441-2b33b063138f.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "01009c4b2af11585b74e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.09314
-    },
-    {
-      "id": "a0e9187934bd4dfbb5784f7e",
-      "title": "How Ferguson-inspired Pochettino can succeed where Carrick failed at Man Utd",
-      "translatedTitle": null,
-      "description": "With Mauricio Pochettino set to become Man Utd manager, we analyse if he can clear the tactical hurdles others haven't.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm2kljzkw77ko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cm2kljzkw77ko?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T12:09:48Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f043/live/468fa2e0-dddf-11f1-b465-b9821c2582d4.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "55d4739b8de28cde9c81",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.09283
+      "rankingScore": 6.35073,
+      "related": [
+        {
+          "id": "dcaf8a0b4aea4d9816922195",
+          "title": "Mauricio Pochettino breaks down in tears over USMNT exit after Man United appointment confirmed",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://www.independent.co.uk/bulletin/sport/mauricio-pochettino-man-united-manager-usmnt-b3084621.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/sport/mauricio-pochettino-man-united-manager-usmnt-b3084621.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-13T14:44:09Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/13/14/2026-11-13T122833Z_1272087983_RC2M0MAYE8P0_RTRMADP_3_SOCCER-ENGLAND-MUN-POCHETTINO.JPG?width=1200&auto=webp&trim=0%2C30%2C0%2C30",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-13T16:18:11Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "292e21ac30266494e374",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "mauricio pochettino breaks down in tears over usmnt exit after man united appointment confirmed"
+        }
+      ]
     },
     {
       "id": "9dd7cb83214767764eb6804c",
@@ -957,38 +572,98 @@
       "clusterId": "091cef5e827bedc35907",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.0632,
+      "rankingScore": 5.83138,
       "related": []
     },
     {
-      "id": "b5f15ddb49b60b5d78efe5a1",
-      "title": "Surfing speedster Beardman gives a glimpse of Ashes future",
+      "id": "5e150da31a46a865d44a54c6",
+      "title": "Sheds, cakes and photos of me – Prince William’s Country Life, digested by John Crace",
       "translatedTitle": null,
-      "description": "Mahli Beardman gives England a glimpse into a possible Ashes future as he decimates their batting in Perth.",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6vg2dkyxp00o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/cricket/articles/c6vg2dkyxp00o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Saintly heir to the throne breaks his hectic schedule for a magazine lowdown on life in the country Country Life: Guest Edited by HRH The Prince of Wales Front Cover: Photo of me outdoors. I love the country, me. Continue reading...",
+      "url": "https://www.theguardian.com/books/2026/nov/13/sheds-cakes-and-photos-of-me-prince-williams-country-life-digested-by-john-crace",
+      "canonicalUrl": "https://theguardian.com/books/2026/nov/13/sheds-cakes-and-photos-of-me-prince-williams-country-life-digested-by-john-crace",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-13T11:39:43Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7913/live/d3e15120-df51-11f1-b441-2b33b063138f.jpg",
+      "publishedAt": "2026-11-13T16:12:29Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/acb5994d9b120f7e107495bc17f32809a3d10801/416_0_4169_3334/master/4169.jpg?width=140&quality=85&auto=format&fit=max&s=d802d84dc0a2fdad6e9e13f07a9ac889",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "18c6cfece4253e66c2ca",
+      "clusterId": "cf17ffd1ca22ff665286",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.03287
+      "rankingScore": 5.82817
+    },
+    {
+      "id": "88bde35b8c94caa5a2bd7e17",
+      "title": "Microsoft outage live: millions still affected as disruption stretches beyond 18 hours",
+      "translatedTitle": null,
+      "description": "Microsoft reports it is ‘continuing to see improvements in service availability’, after millions of customers around the world suffered disruption Tell us: have you been affected by the Microsoft outage? Microsoft struggles to fix huge outage affecting Outlook and Teams What happened and when will it be fixed? There are plenty of essential services that remain unaffected by the outage, which is largely impacting email systems. The Australian Medical Association said it has so far not received an",
+      "url": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
+      "canonicalUrl": "https://theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T16:02:57Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a40cf590042829e0e6891a61505aced8281edac7/242_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=c35d2ae6e13e46f13dbe9b70c78a5711",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "15fbd797209c9253aaa3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80894
+    },
+    {
+      "id": "7df844d86be6513831b7004c",
+      "title": "UK-EU deal will ‘dissolve’ £60m a year of costs for plant trade, says Angela Eagle",
+      "translatedTitle": null,
+      "description": "Signing of agreement to smooth movement of food, plants and animals next week will not recoup huge sums firms were forced to spend The removal of border checks and paperwork on plant imports will “dissolve” £60m of annual costs for the horticulture industry when the UK and EU’s new post-Brexit deal comes in, the environment secretary has said. Before the UK-EU summit on 20 November, Angela Eagle said she hopes paperwork headaches for importers will “disappear” after the changes, although the mov",
+      "url": "https://www.theguardian.com/business/2026/nov/13/uk-eu-deal-plant-trade-angela-eagle",
+      "canonicalUrl": "https://theguardian.com/business/2026/nov/13/uk-eu-deal-plant-trade-angela-eagle",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T16:00:19Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/782556606689c60e50a74d97125046a1c0aeae93/178_0_5695_4556/master/5695.jpg?width=140&quality=85&auto=format&fit=max&s=989c1baa4ecf17d9450ccbd9900ba03e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d2cee222fbfd532b18c2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80366
     },
     {
       "id": "167117f3f3e277f9ee5063f4",
@@ -1017,7 +692,7 @@
       "clusterId": "5eccdc10fbc43daad430",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.0119,
+      "rankingScore": 5.7903,
       "related": []
     },
     {
@@ -1047,7 +722,7 @@
       "clusterId": "93a5087c5ef8db565e32",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.01166,
+      "rankingScore": 5.79011,
       "related": []
     },
     {
@@ -1077,226 +752,16 @@
       "clusterId": "676f06791481e68da860",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.01161,
+      "rankingScore": 5.79007,
       "related": []
     },
     {
-      "id": "5a5fb7f62ec6e219b0f10f83",
-      "title": "The driving-maul try machine - why rugby's steamroller gained traction",
+      "id": "da3c15ac1392a6094f9463dd",
+      "title": "Right to make green challenges to planning decisions under threat, say UK lawyers",
       "translatedTitle": null,
-      "description": "A kick to the corner is now a no-brainer for captains, with the driving maul a more potent weapon than ever.",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmy0egy6zkk0o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/rugby-union/articles/cmy0egy6zkk0o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T11:09:41Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b48a/live/395019f0-df4e-11f1-8364-2717a13d3b08.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "89149224ebb35e61f417",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.97465
-    },
-    {
-      "id": "f8818159923a6c6e3b17aae0",
-      "title": "Water firm pleads guilty after four killed in blast",
-      "translatedTitle": null,
-      "description": "Wessex Water admits failing to ensure employee safety over an explosion at its Bristol site.",
-      "url": "https://www.bbc.co.uk/news/articles/cm8x0l0jp150o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm8x0l0jp150o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T10:44:00Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/305e/live/4854ecc0-de93-11f1-93e1-3b657b665bcf.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "09338acf576cfe971f5e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.92613
-    },
-    {
-      "id": "cd43e9e14c958b78b5b07c6b",
-      "title": "Piddington to bring legal challenge over asylum base plans",
-      "translatedTitle": null,
-      "description": "Up to 1,256 men could be housed at the site near Piddington in Oxfordshire under the plans.",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd91jqvm0lo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ckzd91jqvm0lo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T10:30:13Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a06/live/215126e0-df45-11f1-a701-fddedf244c16.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5ac25aa0254c62a3784c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.90056
-    },
-    {
-      "id": "89d62de36adbb21ba8e0c55f",
-      "title": "Watch: 'I feel it's a sign of what's to come' - office workers on Microsoft disruption",
-      "translatedTitle": null,
-      "description": "Insurance brokers tell Nicky Campbell how their jobs are completely disrupted by the Microsoft outage.",
-      "url": "https://www.bbc.co.uk/news/videos/cmge3y5rxg5jo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/videos/cmge3y5rxg5jo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T10:16:29Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1c0/live/fa7f22d0-df5b-11f1-b441-2b33b063138f.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8b322f6f8b9e8040a716",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.87541
-    },
-    {
-      "id": "1d4b79b79ad0bab596e90b8d",
-      "title": "Man charged over multiple sex assaults at university",
-      "translatedTitle": null,
-      "description": "Sophan Akbash, 29, from Huddersfield, is due to appear before Leeds Magistrates Court later.",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y1jp7p5yko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm5y1jp7p5yko?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T10:14:02Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/183a/live/e7f52560-deac-11f1-8253-3f203a001288.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "65dfcb6b3c3e935773a1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.87096
-    },
-    {
-      "id": "c1491aa762cc6b53737a9d0f",
-      "title": "Boy died from multiple injuries in Cyprus hotel fall",
-      "translatedTitle": null,
-      "description": "An Essex coroner describes Jaxon Foster's death as \"particularly tragic\" as he opens an inquest.",
-      "url": "https://www.bbc.co.uk/news/articles/cme3x30q9z9wo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cme3x30q9z9wo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T10:05:50Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9549/live/04ef20d0-dd18-11f1-b4f2-5145cca625ab.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "597e74822f3498287b19",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.85612
-    },
-    {
-      "id": "787a13d80757bb59572d4317",
-      "title": "Fernandes rejects second Man Utd contract offer",
-      "translatedTitle": null,
-      "description": "Manchester United captain Bruno Fernandes rejects the club's second contract offer, with his current deal due to expire at the end of the season.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm782d4pz9jyo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cm782d4pz9jyo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-13T09:55:01Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f4c/live/65464ec0-df45-11f1-a48c-75dd2efdacb5.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e83c3fae0b8544a5e7c5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.83673
-    },
-    {
-      "id": "187041cebb0ed3d9f4ecd790",
-      "title": "Manchester United confirm Pochettino appointment; Fernandes rejects second contract offer: football – live",
-      "translatedTitle": null,
-      "description": "USMNT head coach is due to speak later on Friday Today’s fixtures | Follow us on TikTok | Mail Dominic Barney Ronay was at Wembley on Thursday night to celebrate Happy Harry Kane day. “And as the teams lined up there was a surprise appearance from the real star of this stage, the Ballon d’Or itself, wreathed in event glamour and star-flash. Kane drew the ballon from its stone in Arthurian fashion, then held it a little sheepishly in one hand. Prince William walked out and gave him a massive fram",
-      "url": "https://www.theguardian.com/football/live/2026/nov/13/mauricio-pochettino-manchester-united-head-coach-football-live",
-      "canonicalUrl": "https://theguardian.com/football/live/2026/nov/13/mauricio-pochettino-manchester-united-head-coach-football-live",
+      "description": "Exclusive: Government in ‘private meetings’ about removing cost cap protections under Aarhus convention UK politics live – latest updates The government is considering stripping back legal protections that limit the costs community groups face when challenging planning decisions that threaten nature. The Aarhus convention, an environmental treaty that was signed into law by the UK in 2005, guarantees the legal right to participate in democratic processes on environmental matters – such as sewage",
+      "url": "https://www.theguardian.com/environment/2026/nov/13/right-to-make-green-challenges-planning-decisions-under-threat-aarhus-convention",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/13/right-to-make-green-challenges-planning-decisions-under-threat-aarhus-convention",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1305,28 +770,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-13T12:02:31Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/439498851cd883a872e25e9954722b73d1efbd30/166_0_2363_1891/master/2363.jpg?width=140&quality=85&auto=format&fit=max&s=d660434193e248bc2bfad19ad24ee181",
+      "publishedAt": "2026-11-13T15:27:43Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ec50144c076be6077edaa5281a910ff5e7a69163/281_0_4269_3415/master/4269.jpg?width=140&quality=85&auto=format&fit=max&s=7a0804afa5122781fbc2a776eca6c5d4",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "064eec575f9d42db1613",
+      "clusterId": "98164be42e3b1d8d081e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80816
+      "rankingScore": 5.73933
     },
     {
-      "id": "6266d8016ae6be97ec90000d",
-      "title": "The week’s best new tracks and the act you need to know: acrobatic Lagos producer Azzi on the Beat",
+      "id": "385ee433d67b2c744efdbace",
+      "title": "Tories and Reform clash over migration as asylum centre is approved",
       "translatedTitle": null,
-      "description": "An innovator in mara, the fast, sample-heavy dance music of neighbourhood parties, the Nigerian has made a debut album that will be relentlessly energising From Lagos, Nigeria Recommended if you like Rema, Blnde, Zinoleesky Up next Debut album Mara Gram, released 12 November; plays Nyege Nyege festival, Uganda, 19–22 November Azzi on the Beat doesn’t exactly ease listeners into Mara Gram. On its opening track Police Way, sirens blare, drums clatter and another rhythm seems to barge in before the",
-      "url": "https://www.theguardian.com/music/2026/nov/13/the-weeks-best-new-tracks-and-the-act-you-need-to-know-acrobatic-lagos-producer-azzi-on-the-beat",
-      "canonicalUrl": "https://theguardian.com/music/2026/nov/13/the-weeks-best-new-tracks-and-the-act-you-need-to-know-acrobatic-lagos-producer-azzi-on-the-beat",
+      "description": "Chris Philp and Zia Yusuf trade barbs in Oxfordshire village planning legal action to block conversion of military base UK politics – live updates Senior Tory and Reform politicians have clashed over immigration policy in the Oxfordshire village of Piddington after the government approved plans to convert a defence site into accommodation for asylum seekers. Zia Yusuf and Chris Philp raised their voices and spoke over each other in front of TV cameras and locals for more than three minutes. Yusu",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/13/planned-asylum-centre-near-oxfordshire-village-legal-challenge-piddington",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/13/planned-asylum-centre-near-oxfordshire-village-legal-challenge-piddington",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1335,88 +800,88 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-13T12:00:17Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e4956f684f3f782c2e06eb71f830617e06ba60bb/0_1090_3368_2695/master/3368.jpg?width=140&quality=85&auto=format&fit=max&s=ccd1c16491f506bcfe1639589e18ad57",
+      "publishedAt": "2026-11-13T15:25:38Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6a2188c2d16ad721b1cd8b78868f9ef4829d52e1/506_0_5989_4792/master/5989.jpg?width=140&quality=85&auto=format&fit=max&s=2e16aa06eb298f2eef783e792ac5a24f",
       "imageAlt": null,
-      "category": "Culture",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6546a5760deafaa67351",
+      "clusterId": "64084a940fcb0c5aba5f",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80368
+      "rankingScore": 5.73528
     },
     {
-      "id": "94bedb5e1cb74c1c8251319e",
-      "title": "Jeffrey Donaldson's wife Eleanor placed on sex offenders' register after his rape conviction",
+      "id": "d95213a94f7a40c64ba17c2d",
+      "title": "Condo manager says DC gym shooter confessed in phone call, noting dispute over living conditions",
       "translatedTitle": null,
-      "description": "Eleanor Donaldson, the wife of disgraced former DUP leader Jeffrey Donaldson, has been placed on the sex offenders' register.",
-      "url": "https://news.sky.com/story/jeffrey-donaldsons-wife-eleanor-placed-on-sex-offenders-register-after-his-rape-conviction-13611873",
-      "canonicalUrl": "https://news.sky.com/story/jeffrey-donaldsons-wife-eleanor-placed-on-sex-offenders-register-after-his-rape-conviction-13611873",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
+      "description": "Gunman killed one person and injured at least four others in and around condo building not far from the White House More details were emerging on Friday about the previous morning’s shooting in north-west Washington DC, as a manager at the shooter’s residential building shared how he was angry over living conditions there and confessed to the killings. The gunman killed one person and injured at least four others on Thursday in and around the condominium building in the Logan Circle neighborhood",
+      "url": "https://www.theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-13T11:55:00Z",
-      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-eleanor-donaldson-donaldson_7405759.jpg?20261113120429",
+      "publishedAt": "2026-11-13T15:25:28Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/213c7a3b1bea4b9ac7668613d39560ede8f97c8b/445_0_2259_1808/master/2259.jpg?width=140&quality=85&auto=format&fit=max&s=e1350a0b87e26494a3051151bf73159f",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "19f306aece9d770b1e4d",
+      "clusterId": "2a5d1e0fb3a97b0d306b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.79312
+      "rankingScore": 5.73496
     },
     {
-      "id": "a10fda9eacacddb677adc95f",
-      "title": "'Criminal conduct' probe to examine deadly New York building collapse - as victims identified",
+      "id": "24e35bf8d253a51cb64e66f6",
+      "title": "Football Daily | Taking a brief minute to remember Pierre Sage’s impact at Crystal Palace",
       "translatedTitle": null,
-      "description": "Authorities are investigating whether any \"criminal conduct\" contributed to the collapse of a building in Brooklyn that killed eight people.",
-      "url": "https://news.sky.com/story/authorities-investigate-whether-criminal-conduct-contributed-to-deadly-brooklyn-building-collapse-13611835",
-      "canonicalUrl": "https://news.sky.com/story/authorities-investigate-whether-criminal-conduct-contributed-to-deadly-brooklyn-building-collapse-13611835",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
+      "description": "Sign up now! Sign up now! Sign up now? Sign up now! So farewell then, Pierre Sage. Many coaches leave under a cloud, not many have their departures completely obscured by the foul, retch-inducing one emanating from another team’s managerial circus, but such was Sage’s fate. The news section of Crystal Palace’s website helpfully tells you the amount of time it might take you to read each story it links through to. For example it should take four minutes or so to get through Tuesday’s “On this day",
+      "url": "https://www.theguardian.com/football/2026/nov/13/pierre-sage-crystal-palace-football-daily-newsletter",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/13/pierre-sage-crystal-palace-football-daily-newsletter",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-13T09:48:00Z",
-      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-new-york-collapse_7405673.jpg?20261113095828",
+      "publishedAt": "2026-11-13T15:21:47Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/958b22b871c6cdad44be633a42d9f827b7b4d66d/20_0_3218_2574/master/3218.jpg?width=140&quality=85&auto=format&fit=max&s=f8756988a339a34347a2f081363a91e6",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T12:18:13Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0d8cbaa2b7899db4cece",
+      "clusterId": "cd34e439ac2a62f9f313",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.55425
+      "rankingScore": 5.72783
     },
     {
-      "id": "ef838d3908419514656d4a33",
-      "title": "The Beach Boys play without any original members for first time",
+      "id": "2b18ac6e9ca1950f3e3f5656",
+      "title": "What to do if Microsoft has another outage – and how to prepare for it",
       "translatedTitle": null,
-      "description": "John Stamos fronted the band, who were rechristend ‘the California Sound’",
-      "url": "https://www.independent.co.uk/arts-entertainment/music/news/beach-boys-mike-love-john-stamos-b3084234.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/music/news/beach-boys-mike-love-john-stamos-b3084234.html",
+      "description": "Microsoft services are being ‘gradually restored’ after a global outage",
+      "url": "https://www.independent.co.uk/tech/microsoft-outlook-outage-uk-global-365-teams-b3084567.html",
+      "canonicalUrl": "https://independent.co.uk/tech/microsoft-outlook-outage-uk-global-365-teams-b3084567.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1425,20 +890,680 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-13T00:11:47Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/11/20/2219885619..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-11-13T16:03:53Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/14/01M7AMN7X4M2W1KCVBZ9J8FAJP.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-13T00:18:14Z",
+      "retrievedAt": "2026-11-13T16:18:11Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "dde06813cd557b330696",
+      "clusterId": "0d9d52238bcf98568d98",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.67276,
-      "related": []
+      "related": [],
+      "rankingScore": 5.72082
+    },
+    {
+      "id": "fb6319f3a2f50e7ea857f1b6",
+      "title": "Pro Breeze’s Black Friday sale has savings on dehumidifiers and heaters",
+      "translatedTitle": null,
+      "description": "Ahead of the cold snap, now’s the perfect time to save on cold-weather applainces",
+      "url": "https://www.independent.co.uk/tech/pro-breeze-black-friday-sale-b3084020.html",
+      "canonicalUrl": "https://independent.co.uk/tech/pro-breeze-black-friday-sale-b3084020.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T16:02:35Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/12/15/08/LP-Article-3-1280x800.png?width=1200&auto=webp&trim=0%2C40%2C0%2C40",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "705ae0f35dbfb87e0090",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.71821
+    },
+    {
+      "id": "940245d9a0be24848426f621",
+      "title": "Man United hires Mauricio Pochettino, who tearfully leaves US job to revive former power",
+      "translatedTitle": null,
+      "description": "Mauricio Pochettino has been hired as Manchester United’s head coach, agreeing to leave his job with the U.S. national team to take on the challenge of reviving the fortunes of English soccer’s once dominant force",
+      "url": "https://www.independent.co.uk/news/mauricio-pochettino-premier-league-alex-ferguson-fayetteville-english-b3084671.html",
+      "canonicalUrl": "https://independent.co.uk/news/mauricio-pochettino-premier-league-alex-ferguson-fayetteville-english-b3084671.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:58:01Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/16/US_Soccer_12913.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "226c0d888922121cbe57",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.70906
+    },
+    {
+      "id": "e27c77ea93bd5c5c2032c646",
+      "title": "Bessent blames Commerce's Lutnick for not restricting Nvidia chip exports to China",
+      "translatedTitle": null,
+      "description": "Treasury Secretary Scott Bessent says he was frustrated with the Commerce Department’s delay implementing controls over the export of certain Nvidia chips to China",
+      "url": "https://www.independent.co.uk/news/world/americas/scott-bessent-nvidia-commerce-department-trump-cnbc-b3084666.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/scott-bessent-nvidia-commerce-department-trump-cnbc-b3084666.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:54:47Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/15/Fraud_Minnesota_14_74.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "21ac8c098beb6e019ec6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.7026
+    },
+    {
+      "id": "9fa8392927ca3ff5d8a914b5",
+      "title": "As Americans fret about everyday costs grocery prices just had their biggest jump since April",
+      "translatedTitle": null,
+      "description": "Increased fuel costs lead to higher prices at the grocery stores",
+      "url": "https://www.independent.co.uk/us/money/grocery-prices-increase-cost-of-living-b3084613.html",
+      "canonicalUrl": "https://independent.co.uk/us/money/grocery-prices-increase-cost-of-living-b3084613.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:54:38Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/14/2026-11-09T172319Z_919532666_RC28JOATP63A_RTRMADP_3_USA-ELECTION-MISSISSIPPI-COSTS.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "30ab70c0a582363948f3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.70231
+    },
+    {
+      "id": "ed4cf122d8a61138e8dd18f2",
+      "title": "Meet the new 'Bachelor,' a quarterback for the Washington Commanders",
+      "translatedTitle": null,
+      "description": "ABC has announced that Washington Commanders quarterback Sam Hartman will be the next lead on “The Bachelor.”",
+      "url": "https://www.independent.co.uk/news/jesse-palmer-washington-commanders-nfl-abc-new-york-giants-b3084665.html",
+      "canonicalUrl": "https://independent.co.uk/news/jesse-palmer-washington-commanders-nfl-abc-new-york-giants-b3084665.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:53:33Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/15/Sam_Hartman_85642.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3205623b6511c9f01d37",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.70015
+    },
+    {
+      "id": "1ee27d131f41d9594b683774",
+      "title": "Why top Democrats are floating impeachment for RFK Jr. while trying to build ties with MAHA activists",
+      "translatedTitle": null,
+      "description": "Some high-ranking lawmakers have suggested impeaching the leader of the MAHA movement",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/democrat-impeach-rfk-maha-trump-b3084662.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/democrat-impeach-rfk-maha-trump-b3084662.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:50:56Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/27/14/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7b4f8b705295178debeb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69494
+    },
+    {
+      "id": "696c32d34f8e446156252208",
+      "title": "Young men were key to the blue wave. Our research offers a reason why | Brigid Schulte and Haley Swenson",
+      "translatedTitle": null,
+      "description": "Amid concerns over the influence of the manosphere, our findings show that young men are concerned about caregiving When young men helped propel Donald Trump into the White House in 2024, the administration doubled down on a brand of toxic masculinity popular in the so-called manosphere. They touted high testosterone, male supremacy, and a “biblically-based family” where men work and provide, and deferential women stay home to bear children and care for others. Continue reading...",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/13/young-men-us-midterms-democrats",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/13/young-men-us-midterms-democrats",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:00:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/990b4dd21a755d253f61427028ca9470b3b96491/908_0_4541_3633/master/4541.jpg?width=140&quality=85&auto=format&fit=max&s=c30c993fd218f8ab9e6fbcaf38a44ca9",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dc497a7c84f9c8984ada",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.6868
+    },
+    {
+      "id": "080cf29fc7d4fa8f1899e0e9",
+      "title": "Abandoned WWII bunker buried inside Dover’s white cliffs welcomes visitors for first time",
+      "translatedTitle": null,
+      "description": "The Fan Bay Plotting Room helped to direct guns on Britain’s front line",
+      "url": "https://www.independent.co.uk/news/uk/home-news/national-trust-ww2-bunker-white-cliffs-dover-b3084622.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/national-trust-ww2-bunker-white-cliffs-dover-b3084622.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:45:27Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/06/01M775WVAWNN86TTZJX5PBMSJZ.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5700d581604064505452",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68408
+    },
+    {
+      "id": "164167ea3cec58da16a245e4",
+      "title": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
+      "translatedTitle": null,
+      "description": "Tech firm says it is making progress in attempts to restore services and there is no indication problem was caused by cyber-attack Microsoft outage hits UK hospitals, GPs, schools and police Microsoft outage – live updates Tell us: have you been affected by the outage? Microsoft is scrambling to fix an outage of some of its systems that has caused huge disruption to users, organisations and businesses across the globe. In its latest update, the tech company said it was making progress in its att",
+      "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+      "canonicalUrl": "https://theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T14:56:42Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f39d9eba31016399e4c01fd145c5dd223dd145d6/334_0_3332_2666/master/3332.jpg?width=140&quality=85&auto=format&fit=max&s=3f02f0541713f8ee8f347b659bf6577d",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c3eb72aa0dbe401390f4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67989
+    },
+    {
+      "id": "251534131ef4caf315800c06",
+      "title": "Black bears vanished from Ohio nearly 200 years ago. Now they’re making a comeback",
+      "translatedTitle": null,
+      "description": "Over 1,500 bear encounters have been submitted to the Ohio Department of Natural Resources (ODNR) since 2022",
+      "url": "https://www.independent.co.uk/news/world/americas/black-bears-coshocton-ohio-endangered-encounters-b3084645.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/black-bears-coshocton-ohio-endangered-encounters-b3084645.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:43:07Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/11/19/Bear_Sightings_Ohio_43121.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c32afee2c1c55e050569",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67948
+    },
+    {
+      "id": "63efd796edf3875ae62ff18f",
+      "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+      "translatedTitle": null,
+      "description": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
+      "url": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c67429m3vem3o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T12:22:30Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ab0/live/068591d0-dee5-11f1-9bb0-8de7754c4db5.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6e2fd8de8a6d94d1e1aa",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67848
+    },
+    {
+      "id": "59896a87fdb54247e3eb2a0b",
+      "title": "Jo Whiley says she ‘shudders’ at message Russell Brand once wrote her",
+      "translatedTitle": null,
+      "description": "The comedian has been jailed for 10 years after being found guilty of rape and sexual assault",
+      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/jo-whiley-russell-brand-message-conviction-b3084548.html",
+      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/jo-whiley-russell-brand-message-conviction-b3084548.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:41:58Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/13/17/Screenshot-2026-11-13-at-13-22-15.png?width=1200&auto=webp&trim=0%2C140%2C135%2C69",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1a778a15e3dd6c396ca1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67721
+    },
+    {
+      "id": "4696500ce6e230b0a4e784ea",
+      "title": "Van driver jailed after ploughing into stranger and strangling her in ‘chilling’ attempted kidnap",
+      "translatedTitle": null,
+      "description": "The defendant carried out at the attack on a stranger in March",
+      "url": "https://www.independent.co.uk/news/uk/crime/safiya-anna-haverty-jail-van-driver-attempted-kidnap-andover-b3084654.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/crime/safiya-anna-haverty-jail-van-driver-attempted-kidnap-andover-b3084654.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:40:27Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/15/01M7AQD5YN4YFGZAX8VGYDQQFM.jpg?width=1200&auto=webp&trim=191%2C0%2C191%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9155a842137219e479d2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67422
+    },
+    {
+      "id": "66aa2d7b030d842244f70b8e",
+      "title": "When is it too cold to walk your dog? Here’s how to prepare your pets",
+      "translatedTitle": null,
+      "description": "How to look after your pets during the cold weather – according to the experts",
+      "url": "https://www.independent.co.uk/news/uk/home-news/too-cold-walk-dog-when-uk-temperature-b3084633.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/too-cold-walk-dog-when-uk-temperature-b3084633.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:40:01Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/16/10/2254277448..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2df029d9f38b703624be",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67337
+    },
+    {
+      "id": "0021cafca47241922171c1fc",
+      "title": "Teenager mauled to death by lion while filming TikTok video",
+      "translatedTitle": null,
+      "description": "Famous TikToker and owner of breeding farm arrested",
+      "url": "https://www.independent.co.uk/asia/south-asia/pakistan-lion-attack-tiktok-video-b3084405.html",
+      "canonicalUrl": "https://independent.co.uk/asia/south-asia/pakistan-lion-attack-tiktok-video-b3084405.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:39:39Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/11/2301648684..?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8d281a8d5288ef79ed2e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67265
+    },
+    {
+      "id": "783c076c1e7c145e33a50e06",
+      "title": "Man United latest: Tearful Pochettino explains why he ditched USA to replace Carrick",
+      "translatedTitle": null,
+      "description": "Pochettino’s reign at Old Trafford will begin on 18 November",
+      "url": "https://www.independent.co.uk/sport/football/mauricio-pochettino-latest-michael-carrick-sacked-man-united-b3084421.html",
+      "canonicalUrl": "https://independent.co.uk/sport/football/mauricio-pochettino-latest-michael-carrick-sacked-man-united-b3084421.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:39:32Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/14/23/Screenshot-2026-11-13-at-14-42-56.png?width=1200&auto=webp&trim=0%2C1%2C2%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "36abe26c0730d7e09e84",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67242
+    },
+    {
+      "id": "8222a7909a027fbf4e1c6222",
+      "title": "Driver whose truck accelerated on soccer field, killing 2, won't be charged, prosecutors say",
+      "translatedTitle": null,
+      "description": "Authorities have decided not to file charges against a woman who drove a pickup truck onto a soccer field during a youth game",
+      "url": "https://www.independent.co.uk/news/kan-kansas-wichita-b3084657.html",
+      "canonicalUrl": "https://independent.co.uk/news/kan-kansas-wichita-b3084657.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:39:28Z",
+      "imageUrl": "https://static.independent.co.uk/2026/10/18/02/Soccer_Field_Crash_Kansas_56645.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "916f44afac136d7107b0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67229
+    },
+    {
+      "id": "bd5a5eacc24904b2ddf12eb6",
+      "title": "Ford throws open the doors to its new Vault, unveiling 125 rare historic vehicles",
+      "translatedTitle": null,
+      "description": "Ford is throwing open the doors of its historic vehicle collection at the new Vault in Romulus, Michigan",
+      "url": "https://www.independent.co.uk/news/ford-michigan-detroit-amazon-johnny-cash-b3084659.html",
+      "canonicalUrl": "https://independent.co.uk/news/ford-michigan-detroit-amazon-johnny-cash-b3084659.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:38:10Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/15/Ford_Vault_41811.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "97718c2ad657faf7e068",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66974
+    },
+    {
+      "id": "118b0956ff28d7311d601ba2",
+      "title": "Black Friday 2026 date tracker: When every major brand and retailer starts their sale",
+      "translatedTitle": null,
+      "description": "From Lego to Nintendo, here’s when brands and retailers will kick off their Black Friday sale Read more: Best Black Friday 2026 deals",
+      "url": "https://www.independent.co.uk/extras/indybest/black-friday/black-friday-2026-date-tracker-b3077450.html",
+      "canonicalUrl": "https://independent.co.uk/extras/indybest/black-friday/black-friday-2026-date-tracker-b3077450.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:36:12Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/11/11/52/Black-Friday-date-tracker-IndyBest.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f6187ba12fb10966e593",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66588
+    },
+    {
+      "id": "b5e19680eb3b8aa199e3b31b",
+      "title": "More women make allegations against Russell Brand",
+      "translatedTitle": null,
+      "description": "The new claims are in the Times and a Netflix documentary, following Brand's recent conviction for rape.",
+      "url": "https://www.bbc.co.uk/news/articles/cme3dwydp857o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cme3dwydp857o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T12:14:17Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/29e9/live/8dd88650-df63-11f1-a701-fddedf244c16.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "491982f7fbe22a6f691e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66508
+    },
+    {
+      "id": "e4c612d156c9b2c71e967812",
+      "title": "Dolly Parton sings poignant lyrics on new U2 track months after her death",
+      "translatedTitle": null,
+      "description": "Bono said the late country singer ‘got out of her bed to sing this song’ when she was ill",
+      "url": "https://www.independent.co.uk/arts-entertainment/music/news/dolly-parton-u2-bono-song-torn-b3084649.html",
+      "canonicalUrl": "https://independent.co.uk/arts-entertainment/music/news/dolly-parton-u2-bono-song-torn-b3084649.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:35:37Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/13/15/00/MixCollage-13-Nov-2026-10-08-AM-4113.jpg?width=1200&auto=webp&trim=0%2C1%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d7e8f152473c6d0021ce",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66474
+    },
+    {
+      "id": "85bf1c81b22f59a5d46297b8",
+      "title": "CIIE critical platform for China market",
+      "translatedTitle": null,
+      "description": "THE ARTICLES ON THESE PAGES ARE PRODUCED BY CHINA DAILY, WHICH TAKES SOLE RESPONSIBILITY FOR THE CONTENTS",
+      "url": "https://www.independent.co.uk/asia/china/china-daily/ai-agritech-manufacturing-exhibitions-trading-market-b3081555.html",
+      "canonicalUrl": "https://independent.co.uk/asia/china/china-daily/ai-agritech-manufacturing-exhibitions-trading-market-b3081555.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-13T15:34:55Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/09/10/05/CIIE1.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-13T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0c7a56e4bbb8ce9f03e8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66337
     }
   ]
 }
