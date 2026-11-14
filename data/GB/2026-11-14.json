@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T16:17:34Z",
-  "lastAttemptAt": "2026-11-14T16:17:34Z",
-  "lastSuccessfulUpdate": "2026-11-14T16:17:34Z",
-  "status": "current",
+  "generatedAt": "2026-11-14T20:17:39Z",
+  "lastAttemptAt": "2026-11-14T20:17:39Z",
+  "lastSuccessfulUpdate": "2026-11-14T20:17:39Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-14T16:17:33Z",
-      "lastSuccessAt": "2026-11-14T16:17:33Z",
-      "articlesRetrieved": 24,
-      "responseTimeMs": 362,
+      "lastAttemptAt": "2026-11-14T20:17:38Z",
+      "lastSuccessAt": "2026-11-14T20:17:38Z",
+      "articlesRetrieved": 34,
+      "responseTimeMs": 538,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-14T16:17:33Z",
-      "lastSuccessAt": "2026-11-14T16:17:33Z",
+      "lastAttemptAt": "2026-11-14T20:17:38Z",
+      "lastSuccessAt": "2026-11-14T20:17:38Z",
       "articlesRetrieved": 144,
-      "responseTimeMs": 245,
+      "responseTimeMs": 327,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-14T16:17:33Z",
-      "lastSuccessAt": "2026-11-14T16:17:33Z",
-      "articlesRetrieved": 9,
-      "responseTimeMs": 439,
+      "lastAttemptAt": "2026-11-14T20:17:38Z",
+      "lastSuccessAt": "2026-11-14T20:17:39Z",
+      "articlesRetrieved": 8,
+      "responseTimeMs": 801,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-14T16:17:33Z",
-      "lastSuccessAt": "2026-11-14T16:17:33Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 385,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-14T20:17:38Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -73,12 +73,12 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-14T15:15:57Z",
+      "publishedAt": "2026-11-14T19:21:10Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d028/live/47c10ab0-e013-11f1-b441-2b33b063138f.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -136,7 +136,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-14T16:17:33Z",
+          "retrievedAt": "2026-11-14T20:17:39Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -166,7 +166,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-14T16:17:33Z",
+          "retrievedAt": "2026-11-14T20:17:38Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -178,15 +178,15 @@
           "rankingScore": 8.39784
         }
       ],
-      "rankingScore": 13.23784
+      "rankingScore": 13.24778
     },
     {
-      "id": "74fe2f9da84eda4353d31208",
-      "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+      "id": "90d80ef2dc18b9c1b4c050d1",
+      "title": "Highlights: Wales beat New Zealand for first time in 73 years",
       "translatedTitle": null,
-      "description": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
-      "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ckz74jzpy18do?at_campaign=rss&at_medium=RSS",
+      "description": "Watch the best of the action as Wales beat New Zealand for the first time in 73 years",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/ckdd10y25mm1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/rugby-union/videos/ckdd10y25mm1o?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -195,26 +195,56 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-14T15:53:55Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/172e/live/be162960-dfc9-11f1-81be-1f9bcd2a4214.jpg",
+      "publishedAt": "2026-11-14T16:35:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0b3/live/31db9fa0-e048-11f1-a701-fddedf244c16.png",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "53f224d4e981223fa109",
+      "clusterId": "7417575ccaed609f018b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "96be34b2619b5cc52b917ae1",
-          "title": "Trump, Xi and Putin to hold unprecedented meeting, White House says",
+          "id": "a5672e5abc6e0f8f220dd8fe",
+          "title": "Wales stun New Zealand to beat All Blacks for first time in 71 years",
           "translatedTitle": null,
-          "description": "The leaders of the US, China and Russia will hold an unprecedented meeting on the sidelines of a major economic summit, the White House has said.",
-          "url": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124",
-          "canonicalUrl": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124",
+          "description": null,
+          "url": "https://www.independent.co.uk/bulletin/news/wales-new-zealand-beat-all-blacks-b3085007.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/news/wales-new-zealand-beat-all-blacks-b3085007.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-14T16:11:32Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/14/16/2305101712..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-14T16:17:33Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "7417575ccaed609f018b",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "wales stun new zealand to beat all blacks for first time in 71 years"
+        },
+        {
+          "id": "57018877bd91084dbfe3a460",
+          "title": "Wales beat the All Blacks for first time since 1953",
+          "translatedTitle": null,
+          "description": "Wales have beaten New Zealand in a men's rugby union match for the first time in 73 years.",
+          "url": "https://news.sky.com/story/wales-beat-the-all-blacks-for-first-time-since-1953-13612239",
+          "canonicalUrl": "https://news.sky.com/story/wales-beat-the-all-blacks-for-first-time-since-1953-13612239",
           "sourceName": "Sky News",
           "sourceDomain": "news.sky.com",
           "sourceCountry": "GB",
@@ -223,23 +253,24 @@
             "GB"
           ],
           "language": "en",
-          "publishedAt": "2026-11-14T08:19:00Z",
-          "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-donald-trump-xi-jinping_7406284.jpg?20261114085215",
+          "publishedAt": "2026-11-14T16:05:00Z",
+          "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-wales-new-zealand_7406533.jpg?20261114162506",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-14T16:17:33Z",
+          "retrievedAt": "2026-11-14T20:17:39Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "53f224d4e981223fa109",
+          "clusterId": "7417575ccaed609f018b",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
-          "normalizedTitle": "trump xi and putin to hold unprecedented meeting white house says"
+          "normalizedTitle": "wales beat the all blacks for first time since 1953",
+          "rankingScore": 7.21438
         }
       ],
-      "rankingScore": 8.81218
+      "rankingScore": 8.50041
     },
     {
       "id": "3bead31e0613193ac0333850",
@@ -261,7 +292,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -289,7 +320,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-14T16:17:33Z",
+          "retrievedAt": "2026-11-14T20:17:38Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -330,7 +361,7 @@
           "normalizedTitle": "noel fielding breaks silence on russell brand after jokes resurface"
         }
       ],
-      "rankingScore": 8.73182
+      "rankingScore": 8.32886
     },
     {
       "id": "590c1022f5bd888b2a19b25f",
@@ -352,15 +383,15 @@
       "imageAlt": null,
       "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "b472bb7d485305a7ba29",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.52332
+      "rankingScore": 8.15792,
+      "related": []
     },
     {
       "id": "9d670f9fac3d22bed41a9730",
@@ -389,68 +420,8 @@
       "clusterId": "0ec9ceda491ff3f3a101",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.0887
-    },
-    {
-      "id": "ffec4ef3579c73e6c33df7a7",
-      "title": "Barbara Kingsolver: ‘What does love feel like? At 16, breaking the speed limit. Years later, a warm bath’",
-      "translatedTitle": null,
-      "description": "The author on the FBI tapping her phone, teaching herself to read aged three, and why she knits in meetings Born in Maryland, in the US, Barbara Kingsolver, 71, won a music scholarship to DePauw University in Indiana. She became a journalist and published her first novel, The Bean Trees, in 1988. Her award-winning books include The Poisonwood Bible, The Lacuna and Demon Copperhead, which was published in 2022 and won the Pulitzer, the James Tait Black prize and the Women’s prize for fiction. In",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/14/barbara-kingsolver-author-demon-copperhead-partita",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/14/barbara-kingsolver-author-demon-copperhead-partita",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T10:00:42Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/81cb6b56d0a1bf88c0b115336080e55c589e5210/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=7db615867dbdc167c56fb2b85e04d9c5",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a6dce7ff3180665335ea",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.89182,
+      "rankingScore": 7.72224,
       "related": []
-    },
-    {
-      "id": "ef6a690a61903b37fc6ab101",
-      "title": "Trump’s diesel deal with Putin is a shambles. Here’s why it was always destined to fail",
-      "translatedTitle": null,
-      "description": "The US president touted his diesel deal with Russia as a way to bring down energy prices ahead of the midterms. But a month on, US voters are yet to see any benefits and Europe and Kyiv are enraged, writes James C. Reynolds",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-diesel-deal-vladimir-putin-b3084408.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/donald-trump-diesel-deal-vladimir-putin-b3084408.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T10:52:46Z",
-      "imageUrl": "https://static.independent.co.uk/2026/05/13/04/2229628233.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6b3d8d10102c825bf853",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.87847
     },
     {
       "id": "29369525cc3b511f84bd322b",
@@ -472,14 +443,14 @@
       "imageAlt": null,
       "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "c87bdd8c74112a607c06",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.86946,
+      "rankingScore": 7.64436,
       "related": [
         {
           "id": "0b35a27f228e339ab7a3519c",
@@ -514,6 +485,66 @@
       ]
     },
     {
+      "id": "ffec4ef3579c73e6c33df7a7",
+      "title": "Barbara Kingsolver: ‘What does love feel like? At 16, breaking the speed limit. Years later, a warm bath’",
+      "translatedTitle": null,
+      "description": "The author on the FBI tapping her phone, teaching herself to read aged three, and why she knits in meetings Born in Maryland, in the US, Barbara Kingsolver, 71, won a music scholarship to DePauw University in Indiana. She became a journalist and published her first novel, The Bean Trees, in 1988. Her award-winning books include The Poisonwood Bible, The Lacuna and Demon Copperhead, which was published in 2022 and won the Pulitzer, the James Tait Black prize and the Women’s prize for fiction. In",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/14/barbara-kingsolver-author-demon-copperhead-partita",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/14/barbara-kingsolver-author-demon-copperhead-partita",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T10:00:42Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/81cb6b56d0a1bf88c0b115336080e55c589e5210/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=7db615867dbdc167c56fb2b85e04d9c5",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a6dce7ff3180665335ea",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.58253,
+      "related": []
+    },
+    {
+      "id": "ef6a690a61903b37fc6ab101",
+      "title": "Trump’s diesel deal with Putin is a shambles. Here’s why it was always destined to fail",
+      "translatedTitle": null,
+      "description": "The US president touted his diesel deal with Russia as a way to bring down energy prices ahead of the midterms. But a month on, US voters are yet to see any benefits and Europe and Kyiv are enraged, writes James C. Reynolds",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-diesel-deal-vladimir-putin-b3084408.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/donald-trump-diesel-deal-vladimir-putin-b3084408.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T10:52:46Z",
+      "imageUrl": "https://static.independent.co.uk/2026/05/13/04/2229628233.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T16:17:33Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6b3d8d10102c825bf853",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.5539,
+      "related": []
+    },
+    {
       "id": "5d11cd89b0c29115596a5d05",
       "title": "What’s next for Ukraine-Russia peace talks as war approaches fifth year?",
       "translatedTitle": null,
@@ -540,16 +571,16 @@
       "clusterId": "9ec7e9c56324dcfd3aba",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.86336
+      "rankingScore": 7.54181,
+      "related": []
     },
     {
-      "id": "57018877bd91084dbfe3a460",
-      "title": "Wales beat the All Blacks for first time since 1953",
+      "id": "4ed133854bc230c1c3404867",
+      "title": "Man, 21, stabbed to death in London",
       "translatedTitle": null,
-      "description": "Wales have beaten New Zealand in a men's rugby union match for the first time in 73 years.",
-      "url": "https://news.sky.com/story/wales-beat-the-all-blacks-for-first-time-since-1953-13612239",
-      "canonicalUrl": "https://news.sky.com/story/wales-beat-the-all-blacks-for-first-time-since-1953-13612239",
+      "description": "Police are appealing for witnesses to come forward after a 21-year-old man died following a stabbing in London.",
+      "url": "https://news.sky.com/story/man-21-stabbed-to-death-in-london-13612274",
+      "canonicalUrl": "https://news.sky.com/story/man-21-stabbed-to-death-in-london-13612274",
       "sourceName": "Sky News",
       "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
@@ -558,51 +589,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-14T16:05:00Z",
-      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-breakingnews-uk_7322499.jpg?20260826125921",
+      "publishedAt": "2026-11-14T17:12:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-thomas-oduro-murder_7406589.jpg?20261114172534",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1ffae1d614a2021c99c7",
+      "clusterId": "990f195320351c9b0b08",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "a5672e5abc6e0f8f220dd8fe",
-          "title": "Wales stun New Zealand to beat All Blacks for first time in 71 years",
-          "translatedTitle": null,
-          "description": null,
-          "url": "https://www.independent.co.uk/bulletin/news/wales-new-zealand-beat-all-blacks-b3085007.html",
-          "canonicalUrl": "https://independent.co.uk/bulletin/news/wales-new-zealand-beat-all-blacks-b3085007.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-14T16:11:32Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/14/16/2305101712..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-14T16:17:33Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "1ffae1d614a2021c99c7",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "wales stun new zealand to beat all blacks for first time in 71 years"
-        }
-      ],
-      "rankingScore": 7.21438
+      "related": [],
+      "rankingScore": 6.84244
     },
     {
       "id": "60e9823cfc630777ac29e25d",
@@ -624,23 +624,23 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "2be1187236d33c30eae1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.98682
+      "rankingScore": 6.58885,
+      "related": []
     },
     {
-      "id": "a1c7c7e26ca3ad9bdccb9f24",
-      "title": "Thames Water creditors offer £75m social tariff boost to win over Burnham",
+      "id": "96be34b2619b5cc52b917ae1",
+      "title": "Trump, Xi and Putin to hold unprecedented meeting, White House says",
       "translatedTitle": null,
-      "description": "Thames Water creditors will establish a £75m fund for vulnerable customers as part of a package designed to win Andy Burnham’s support for a private sector rescue of the company and avert its nationalisation.",
-      "url": "https://news.sky.com/story/thames-water-creditors-offer-75m-social-tariff-boost-to-win-over-burnham-13612117",
-      "canonicalUrl": "https://news.sky.com/story/thames-water-creditors-offer-75m-social-tariff-boost-to-win-over-burnham-13612117",
+      "description": "The leaders of the US, China and Russia will hold an unprecedented meeting on the sidelines of a major economic summit, the White House has said.",
+      "url": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124",
+      "canonicalUrl": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124",
       "sourceName": "Sky News",
       "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
@@ -649,19 +649,139 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-14T07:46:00Z",
-      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-thames-water-water-bill_7366411.jpg?20261002103150",
+      "publishedAt": "2026-11-14T08:19:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-donald-trump-xi-jinping_7406284.jpg?20261114085215",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:39Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0c7928bc2c51e8b0d279",
+      "clusterId": "5ef4394f0ac9e5e52904",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.35986,
+      "related": [],
+      "rankingScore": 6.12087
+    },
+    {
+      "id": "bb22e8d6e4280e95c237dee7",
+      "title": "Tout offers £1m of U2 tickets on StubHub, raising questions about ‘bot’ clampdown",
+      "translatedTitle": null,
+      "description": "Artists and industry figures call for culture secretary to ‘shut down the touts’ by outlawing resale for profit One tout is advertising £1m of tickets for U2’s long-awaited 2027 tour through StubHub, raising questions about the website’s condemnation of professional ticket traders who use “bot” software to scoop up tickets and exploit genuine fans. Seats for the four-night London leg of the Irish band’s The Greatest Show on Earth tour sold out last week, shortly after going on sale. Continue rea",
+      "url": "https://www.theguardian.com/money/2026/nov/14/u2-tickets-stubhub-bot-culture-secretary-resale",
+      "canonicalUrl": "https://theguardian.com/money/2026/nov/14/u2-tickets-stubhub-bot-culture-secretary-resale",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T08:00:39Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a182e02a61d36d2f4b7a9077a8ddba0bf09d9fe6/1291_0_6678_5341/master/6678.jpg?width=140&quality=85&auto=format&fit=max&s=40677b8018def8197453b2a90d19ffc3",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9a333eaf927243ea9a84",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.10182
+    },
+    {
+      "id": "1b277be25d276cba7c895f03",
+      "title": "Power creates wars; wars create power. But these compelling acts of storytelling are breaking the loop | Charlotte Higgins",
+      "translatedTitle": null,
+      "description": "Artists’ acts of remembrance about destruction and violence defy the dominant narratives of heroism and sacrifice The way stories are told about wars really matters. It is a point powerfully made by the classical scholar Alice König who, in her work on ancient and modern warfare, points out that the way war is depicted and narrativised feeds into the way wars are actually conducted. Creating and absorbing a story (whether that is told in prose or poetry, or offered by an artwork or memorial) is",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/14/ukraine-gaza-better-stories-war-artists-remembrance",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/14/ukraine-gaza-better-stories-war-artists-remembrance",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T08:00:38Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/10691749dd935ca31b7835bd39ac69b412241fc2/753_0_2009_1608/master/2009.jpg?width=140&quality=85&auto=format&fit=max&s=6d2561ff9970dc405aba586bf5d4514a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "87c003383778cff049e5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.1018
+    },
+    {
+      "id": "44218ac1924b5e9d86cd1622",
+      "title": "Bristol aims to become UK’s first ‘wetland city’ and reduce flood risk",
+      "translatedTitle": null,
+      "description": "Five-year project will create wildlife corridors by building wetlands and increase access to green and blue spaces Bristol could become home to the UK’s first “wetland city” thanks to a charity’s efforts to create vast wildlife corridors that will reduce flood risk and give people more access to green and blue spaces. The Wildfowl & Wetlands Trust (WWT) said the five-year initiative would include more than 200 projects to restore and create wetlands across the city. These will range from small h",
+      "url": "https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T07:00:37Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d9080922d8163cbc606d6106ef3f00becdf7d2e8/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=fbc19f51ba612f3bf208fc580ecc91c0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5551983d9eb43509fc1d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.0417,
+      "related": []
+    },
+    {
+      "id": "5a4bee0363b5960f8cdd959d",
+      "title": "Honey: this flirty, kinky Killing Eve prequel should have been called Carré on Spying",
+      "translatedTitle": null,
+      "description": "The amazing Ann Skelly plays Eve’s spy-handler Carolyn in a steamy, camp cold war thriller set in east Germany. Tagline: ‘everyone is watching – look hot!’ I always found it odd that spy stories are the quintessential interest of middle-aged men. Isn’t spying all about relationships, listening and choosing outfits? Is there something you’d like to tell us, men? Ironically, we don’t seem to have many ways of making you talk. A female-forward spy story was the highlight of my week. Honey (Saturday",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/14/honey-bbc-flirty-kinky-killing-eve-prequel-should-have-been-called-carre-on-spying",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/14/honey-bbc-flirty-kinky-killing-eve-prequel-should-have-been-called-carre-on-spying",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T07:00:37Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/2e1b738cfcfba8172e60295bd91d04d442817254/732_20_3524_2819/master/3524.jpg?width=140&quality=85&auto=format&fit=max&s=f5715cfdac89b1b30de637702a651c5a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5a28a90fb3e69dbca6e4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.0417,
       "related": []
     },
     {
@@ -691,68 +811,68 @@
       "clusterId": "c2876a1d14bf317fb621",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.03634,
+      "related": []
+    },
+    {
+      "id": "4095c1ac01a0e9b4a4600043",
+      "title": "'One of the greatest wins' - Wales stun All Blacks to go from no-hopers to heroes",
+      "translatedTitle": null,
+      "description": "Wales end a 73-year hoodoo against New Zealand with a win hailed as their greatest of all time.",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmkg57rz2re9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/rugby-union/articles/cmkg57rz2re9o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T19:33:46Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5668/live/7585ebc0-e05c-11f1-9e26-b3b65586122f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fd134a1e3d6985f30429",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.3192
+      "rankingScore": 6.02228
     },
     {
-      "id": "44218ac1924b5e9d86cd1622",
-      "title": "Bristol aims to become UK’s first ‘wetland city’ and reduce flood risk",
+      "id": "e86138c428f87a2af287f4cf",
+      "title": "Joseph enjoys dream return as England thrash Japan at Twickenham",
       "translatedTitle": null,
-      "description": "Five-year project will create wildlife corridors by building wetlands and increase access to green and blue spaces Bristol could become home to the UK’s first “wetland city” thanks to a charity’s efforts to create vast wildlife corridors that will reduce flood risk and give people more access to green and blue spaces. The Wildfowl & Wetlands Trust (WWT) said the five-year initiative would include more than 200 projects to restore and create wetlands across the city. These will range from small h",
-      "url": "https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
-      "canonicalUrl": "https://theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "After four years away from international rugby, Will Joseph marks his return in style by scoring a record-equalling five tries as England humiliate Japan at Twickenham, scoring 13 tries in a 78-15 victory in the Nations Championship.",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cmn0d1w0ry0no?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/rugby-union/videos/cmn0d1w0ry0no?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-14T07:00:37Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d9080922d8163cbc606d6106ef3f00becdf7d2e8/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=fbc19f51ba612f3bf208fc580ecc91c0",
+      "publishedAt": "2026-11-14T19:32:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/801c/live/1d8ca750-e062-11f1-b441-2b33b063138f.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "5551983d9eb43509fc1d",
+      "clusterId": "47984a99574eecd369b0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.30349,
-      "related": []
-    },
-    {
-      "id": "5a4bee0363b5960f8cdd959d",
-      "title": "Honey: this flirty, kinky Killing Eve prequel should have been called Carré on Spying",
-      "translatedTitle": null,
-      "description": "The amazing Ann Skelly plays Eve’s spy-handler Carolyn in a steamy, camp cold war thriller set in east Germany. Tagline: ‘everyone is watching – look hot!’ I always found it odd that spy stories are the quintessential interest of middle-aged men. Isn’t spying all about relationships, listening and choosing outfits? Is there something you’d like to tell us, men? Ironically, we don’t seem to have many ways of making you talk. A female-forward spy story was the highlight of my week. Honey (Saturday",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/14/honey-bbc-flirty-kinky-killing-eve-prequel-should-have-been-called-carre-on-spying",
-      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/14/honey-bbc-flirty-kinky-killing-eve-prequel-should-have-been-called-carre-on-spying",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T07:00:37Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/2e1b738cfcfba8172e60295bd91d04d442817254/732_20_3524_2819/master/3524.jpg?width=140&quality=85&auto=format&fit=max&s=f5715cfdac89b1b30de637702a651c5a",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5a28a90fb3e69dbca6e4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.30349,
-      "related": []
+      "related": [],
+      "rankingScore": 6.0203
     },
     {
       "id": "59721ab2686421a5f08a78da",
@@ -774,15 +894,165 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "95c13f1af61b36dcc4b9",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 5.99876,
+      "related": []
+    },
+    {
+      "id": "a1c7c7e26ca3ad9bdccb9f24",
+      "title": "Thames Water creditors offer £75m social tariff boost to win over Burnham",
+      "translatedTitle": null,
+      "description": "Thames Water creditors will establish a £75m fund for vulnerable customers as part of a package designed to win Andy Burnham’s support for a private sector rescue of the company and avert its nationalisation.",
+      "url": "https://news.sky.com/story/thames-water-creditors-offer-75m-social-tariff-boost-to-win-over-burnham-13612117",
+      "canonicalUrl": "https://news.sky.com/story/thames-water-creditors-offer-75m-social-tariff-boost-to-win-over-burnham-13612117",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T07:46:00Z",
+      "imageUrl": "https://e3.365dm.com/26/10/1920x1080/skynews-thames-water-water-bill_7366411.jpg?20261002103150",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T16:17:33Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0c7928bc2c51e8b0d279",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.99684,
+      "related": []
+    },
+    {
+      "id": "c4bccaa11cd1eb6b69124328",
+      "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
+      "translatedTitle": null,
+      "description": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6wy9lynq4qno?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T19:12:25Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea11/live/3adfb390-e05f-11f1-9e26-b3b65586122f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5770866a23c273fbc0b5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.24986
+      "rankingScore": 5.98094
+    },
+    {
+      "id": "1bb586e0b7f24ee0c4f16e6b",
+      "title": "The search to find a friend for Jojo the gorilla after a lifetime of being alone",
+      "translatedTitle": null,
+      "description": "Jojo was poached as an infant and grew up in captivity. His keepers want to find him a friend - but it's not straightforward.",
+      "url": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cwm2mn272nqlo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T00:03:56Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e93/live/a50b98a0-e042-11f1-88e1-eb4e155225b3.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e73fa26850abbc3ae663",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.97505
+    },
+    {
+      "id": "a34574673a10bc860bdb43c3",
+      "title": "Philippines’ Carmelle wins first Eurovision contest in Asia",
+      "translatedTitle": null,
+      "description": "Filipino entry, pop and rap song Sobra-Sobra, takes 19-year-old to victory at grand final in Bangkok Carmelle Collado has won the first Eurovision song contest Asia, taking the Philippines’ entry, Sobra-Sobra, to victory in Bangkok on Saturday night, at the first regional edition of the contest to be staged outside Europe. Eleven countries competed at the One Bangkok Forum in central Bangkok, and the show ran for two and a half hours including advertising. Continue reading...",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T19:01:32Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e086ead12105dc2c27d05464ce6db1d81b380886/300_0_3206_2564/master/3206.jpg?width=140&quality=85&auto=format&fit=max&s=6824875970409bb022b0fe92c92ae52e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3523348cec55316f52ce",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.96017
+    },
+    {
+      "id": "0687814f3ffd8a3cff02a6c8",
+      "title": "Country diary: One of Britain’s oldest surviving traditions – and it’s all over in four minutes | Doc Rowe",
+      "translatedTitle": null,
+      "description": "Ryton-on-Dunsmore, Warwickshire: It takes place in the dark, and this year there’s misty rain to contend with, but the wroth silver ceremony has endured for centuries Before sunrise on 11 November, while most people are still sleeping, representatives of 25 Warwickshire parishes gather on Knightlow Hill to observe one of Britain’s oldest surviving customs. The wroth silver ceremony is at least 850 years old, first appearing in written records in 1170, and requires payment of annual rent to the l",
+      "url": "https://www.theguardian.com/environment/2026/nov/14/country-diary-one-of-britains-oldest-surviving-traditions-and-its-all-over-in-four-minutes",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/14/country-diary-one-of-britains-oldest-surviving-traditions-and-its-all-over-in-four-minutes",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T05:30:35Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/489c46b12b5cf940608d228b53165930c3e249ce/212_0_2247_1798/master/2247.jpg?width=140&quality=85&auto=format&fit=max&s=8b760c1cdf98ab0379cce3df488b3480",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3b2dd153676b7029b284",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.95758,
+      "related": []
     },
     {
       "id": "240f394f13478383eaf08b44",
@@ -811,37 +1081,7 @@
       "clusterId": "e344a362d2413d2b19e3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.20321
-    },
-    {
-      "id": "0687814f3ffd8a3cff02a6c8",
-      "title": "Country diary: One of Britain’s oldest surviving traditions – and it’s all over in four minutes | Doc Rowe",
-      "translatedTitle": null,
-      "description": "Ryton-on-Dunsmore, Warwickshire: It takes place in the dark, and this year there’s misty rain to contend with, but the wroth silver ceremony has endured for centuries Before sunrise on 11 November, while most people are still sleeping, representatives of 25 Warwickshire parishes gather on Knightlow Hill to observe one of Britain’s oldest surviving customs. The wroth silver ceremony is at least 850 years old, first appearing in written records in 1170, and requires payment of annual rent to the l",
-      "url": "https://www.theguardian.com/environment/2026/nov/14/country-diary-one-of-britains-oldest-surviving-traditions-and-its-all-over-in-four-minutes",
-      "canonicalUrl": "https://theguardian.com/environment/2026/nov/14/country-diary-one-of-britains-oldest-surviving-traditions-and-its-all-over-in-four-minutes",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T05:30:35Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/489c46b12b5cf940608d228b53165930c3e249ce/212_0_2247_1798/master/2247.jpg?width=140&quality=85&auto=format&fit=max&s=8b760c1cdf98ab0379cce3df488b3480",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3b2dd153676b7029b284",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.19843,
+      "rankingScore": 5.94347,
       "related": []
     },
     {
@@ -864,14 +1104,134 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "c5b3ecad3678aecb2df7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.16532,
+      "rankingScore": 5.93107,
+      "related": []
+    },
+    {
+      "id": "09fce2255724fe3373fbf3d2",
+      "title": "Italy fines Meta €805m over accessing users' photos",
+      "translatedTitle": null,
+      "description": "The social media giant is accused of not informing 20 million users it had access to their photos.",
+      "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cwn83gxemk35o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T18:28:06Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8bb66a5e427136c1c985",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.89768
+    },
+    {
+      "id": "2e7019e3755912c9a9783032",
+      "title": "Le Tissier stars as Man Utd beat Crystal Palace to extend unbeaten run",
+      "translatedTitle": null,
+      "description": "Maya le Tissier scores a stunning strike on her 150th appearance for Manchester United to help her side beat Crystal Palace 2-0 in the WSL, as the home side extend their unbeaten run in all competitions to 12 matches.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqglrkk7gr1xo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/videos/cqglrkk7gr1xo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T18:27:23Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/276e/live/9e2ede40-e03b-11f1-93e1-3b657b665bcf.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "66a0dd4ba69930e65505",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.89636
+    },
+    {
+      "id": "1a489b6f8a2023d89257d9cd",
+      "title": "Two courtrooms, one celebrity: how did the Russell Brand case compare with the rape trial next door?",
+      "translatedTitle": null,
+      "description": "One was a high-profile defendant watched by more than 100 journalists. Another was an unknown man who preyed on a girl almost half his age. Their stories played out minutes apart, one entirely out of the spotlight What is going on inside Russell Brand’s head as he arrives at court for the start of his rape trial? He sees the dozens of cameras and journalists lined outside Southwark crown court, many of whom have been waiting since before 7am, and he tells himself that the media are all against h",
+      "url": "https://www.theguardian.com/news/2026/nov/14/two-courtrooms-one-celebrity-russell-brand-case-compare-rape-trial-next-door",
+      "canonicalUrl": "https://theguardian.com/news/2026/nov/14/two-courtrooms-one-celebrity-russell-brand-case-compare-rape-trial-next-door",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T04:00:34Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7198321d2a0908ebaa771d7ce2e3f50575963ece/0_632_3283_2625/master/3283.jpg?width=140&quality=85&auto=format&fit=max&s=f1d5dea63724055c2aacde79b583a8e9",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2f9b9fffbe4c70f09828",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.8802,
+      "related": []
+    },
+    {
+      "id": "d3590367eaf068539dee9569",
+      "title": "Judo star Teddy Riner is taking on what may be his toughest battle in the French presidential race",
+      "translatedTitle": null,
+      "description": "Judo star Teddy Riner is taking on what may be his toughest battle in the French presidential race",
+      "url": "https://www.independent.co.uk/news/world/europe/france-french-donald-trump-charles-de-gaulle-paris-b3084911.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/europe/france-french-donald-trump-charles-de-gaulle-paris-b3084911.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T05:43:20Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/14/05/France_Elections_9_565.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T16:17:33Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "05eb3fb87760199dfb29",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.87907,
       "related": []
     },
     {
@@ -901,128 +1261,8 @@
       "clusterId": "08b78536d29026b820cd",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.16532,
+      "rankingScore": 5.84107,
       "related": []
-    },
-    {
-      "id": "1bb586e0b7f24ee0c4f16e6b",
-      "title": "The search to find a friend for Jojo the gorilla after a lifetime of being alone",
-      "translatedTitle": null,
-      "description": "Jojo was poached as an infant and grew up in captivity. His keepers want to find him a friend - but it's not straightforward.",
-      "url": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cwm2mn272nqlo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T00:03:56Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e93/live/a50b98a0-e042-11f1-88e1-eb4e155225b3.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e73fa26850abbc3ae663",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.15303
-    },
-    {
-      "id": "d3590367eaf068539dee9569",
-      "title": "Judo star Teddy Riner is taking on what may be his toughest battle in the French presidential race",
-      "translatedTitle": null,
-      "description": "Judo star Teddy Riner is taking on what may be his toughest battle in the French presidential race",
-      "url": "https://www.independent.co.uk/news/world/europe/france-french-donald-trump-charles-de-gaulle-paris-b3084911.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/france-french-donald-trump-charles-de-gaulle-paris-b3084911.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T05:43:20Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/14/05/France_Elections_9_565.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "05eb3fb87760199dfb29",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.12278
-    },
-    {
-      "id": "1a489b6f8a2023d89257d9cd",
-      "title": "Two courtrooms, one celebrity: how did the Russell Brand case compare with the rape trial next door?",
-      "translatedTitle": null,
-      "description": "One was a high-profile defendant watched by more than 100 journalists. Another was an unknown man who preyed on a girl almost half his age. Their stories played out minutes apart, one entirely out of the spotlight What is going on inside Russell Brand’s head as he arrives at court for the start of his rape trial? He sees the dozens of cameras and journalists lined outside Southwark crown court, many of whom have been waiting since before 7am, and he tells himself that the media are all against h",
-      "url": "https://www.theguardian.com/news/2026/nov/14/two-courtrooms-one-celebrity-russell-brand-case-compare-rape-trial-next-door",
-      "canonicalUrl": "https://theguardian.com/news/2026/nov/14/two-courtrooms-one-celebrity-russell-brand-case-compare-rape-trial-next-door",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T04:00:34Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/7198321d2a0908ebaa771d7ce2e3f50575963ece/0_632_3283_2625/master/3283.jpg?width=140&quality=85&auto=format&fit=max&s=f1d5dea63724055c2aacde79b583a8e9",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2f9b9fffbe4c70f09828",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.10179,
-      "related": []
-    },
-    {
-      "id": "efe160fef2c8c2528f0cc6bd",
-      "title": "Young people should have legal guarantee of jobs or training, Milburn says",
-      "translatedTitle": null,
-      "description": "Alan Milburn described his proposal as an ‘opportunity guarantee’",
-      "url": "https://www.independent.co.uk/news/uk/politics/milburn-burnham-neets-legal-guarantee-b3084986.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/milburn-burnham-neets-legal-guarantee-b3084986.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T15:49:33Z",
-      "imageUrl": "https://static.independent.co.uk/2026/09/11/23/3233889af7c5c52844ef5d0133070e85Y29udGVudHNlYXJjaGFwaSwxNzg5MjQ4MzIw-2.85437364.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5f6358d74ad35a94c186",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.0535
     },
     {
       "id": "6232273e132da51c96d932c8",
@@ -1051,7 +1291,7 @@
       "clusterId": "5bedab27a4d09defdbbc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.01238,
+      "rankingScore": 5.80064,
       "related": [
         {
           "id": "936c70b06cd76a3584f7ea73",
@@ -1087,34 +1327,34 @@
       ]
     },
     {
-      "id": "611ab904518392ccd9920df5",
-      "title": "Man dies after being stabbed by gang of masked men",
+      "id": "abac762bad60d551bfac61f1",
+      "title": "New Orleans officials file $1m lawsuit after ‘Mississippi miracle’ tanker crash",
       "translatedTitle": null,
-      "description": "Police say a 27-year-old man died after being stabbed in the \"shocking and tragic attack\" in Crumpsall.",
-      "url": "https://www.bbc.co.uk/news/articles/cm4gn7pp5r85o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm4gn7pp5r85o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Port also succeeds in seizing tanker, Atlantic Asphalt, to recoup damages after it crashes into cruise ship New Orleans port officials have filed a lawsuit seeking more than $1m in damages from the owner and operator of an asphalt tanker that crashed into a docked cruise ship on the Mississippi River in the city on Friday. In some of the first legal consequences of Friday’s crash, the port has also obtained a federal court order authorizing the seizure of the Atlantic Asphalt tanker. The Atlanti",
+      "url": "https://www.theguardian.com/us-news/2026/nov/14/new-orleans-mississippi-river-tanker-crash-lawsuit",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/14/new-orleans-mississippi-river-tanker-crash-lawsuit",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-14T14:40:04Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b5d0/live/97d14980-e035-11f1-9ca9-b3b288fceb81.png",
+      "publishedAt": "2026-11-14T19:54:38Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/09c40f180218e02dd23eab66453e8f10a3dd3a22/226_0_1311_1050/master/1311.jpg?width=140&quality=85&auto=format&fit=max&s=c10c16f75b15755bfd2a9c1c768e0db3",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f164eef26e568380d35d",
+      "clusterId": "e54b80bf933b86e55384",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.91993
+      "rankingScore": 5.79349
     },
     {
       "id": "bf46e2f59c2bc7819c9dc1c4",
@@ -1143,8 +1383,128 @@
       "clusterId": "9e1663c486101dfc4ce1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.90908,
+      "rankingScore": 5.70797,
       "related": []
+    },
+    {
+      "id": "4d8a1ceb7323c6e3511b2459",
+      "title": "Milder weather coming before more cold health alerts take effect",
+      "translatedTitle": null,
+      "description": "A short-lived milder spell is on the way for Sunday before more cold health alerts come into force.",
+      "url": "https://www.bbc.co.uk/weather/articles/cqe879916895o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/weather/articles/cqe879916895o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T16:31:30Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61a7/live/9782cb80-df5d-11f1-b441-2b33b063138f.jpg",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1cb51508b2db80086aa2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69426
+    },
+    {
+      "id": "1cf34967a9bcbda20832a8fc",
+      "title": "‘I’m still trying to find out who I am’: the little-understood plight of Forgotten Australians",
+      "translatedTitle": null,
+      "description": "They number more than half a million, yet the ongoing trauma from their time in orphanages and institutions remains poorly known When Judy Leonard entered the orphanage, she was given a bed with a number. That was how the staff would refer to her. Not by her name, or even by one of the cruel nicknames the other children gave her, but by her allocated space in the dormitory: C2. “I would like the readers to close their eyes,” Judy says now, “and imagine that it was them at age nine.” Continue rea",
+      "url": "https://www.theguardian.com/society/ng-interactive/2026/nov/15/forgotten-australians-trauma-childrens-homes-orphanages-ntwnfb",
+      "canonicalUrl": "https://theguardian.com/society/ng-interactive/2026/nov/15/forgotten-australians-trauma-childrens-homes-orphanages-ntwnfb",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T19:00:53Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/98c4e975197db6e14f3ffe8038ff051e4f2fddc4/397_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=0e23bd578dede2b27d039b4bfed6e471",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3e8b2e1f29ac8003177c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68894
+    },
+    {
+      "id": "29c47940e2410393d21a2ffc",
+      "title": "The moment I knew: He quoted my favourite TV show. I blurted out, ‘Marry me!’",
+      "translatedTitle": null,
+      "description": "On Anthony Ashdown’s first date with Jake, their mutual love of nerd culture felt revolutionary. Then Jake referenced a catchphrase from The Golden Girls. Find more stories from the moment I knew series Picture it. Sydney. 2015. I had weathered a nasty breakup the previous year. I had often compromised a lot of who I was and what I enjoyed to keep the other person happy. Post-breakup, I decided I would never change who I was for anyone else ever again. I got on the apps and matched with Jake, a",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/15/the-moment-i-knew-he-quoted-my-favourite-tv-show",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/15/the-moment-i-knew-he-quoted-my-favourite-tv-show",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T19:00:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bb0df050ea2edfc423d5e1d3b4e449a641127f1b/506_0_4234_3387/master/4234.jpg?width=140&quality=85&auto=format&fit=max&s=6ddf01bb59ccc6bf6755c215fba7ddbf",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2e4988496be504c1f284",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68888
+    },
+    {
+      "id": "3b0c5fbaf8b6492d7b5ffc6f",
+      "title": "De la Fuente adamant there is no racism in Spain despite England reminder to players",
+      "translatedTitle": null,
+      "description": "England’s first game in Madrid since racist abuse in 2004 De la Fuente tells Tuchel ‘we’re not racists, none of us’ Luis de la Fuente has told Thomas Tuchel there is no racism in Spain after the England coach’s admission that he would remind his players of the anti-racism protocol prior to their meeting at the Metropolitano on Sunday night. This will be the first time the countries play each other in Madrid since some of England’s black players were subjected to racist abuse in a match at the Sa",
+      "url": "https://www.theguardian.com/football/2026/nov/14/luis-de-la-fuente-spain-england-racism-thomas-tuchel-natiions-league",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/14/luis-de-la-fuente-spain-england-racism-thomas-tuchel-natiions-league",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T18:59:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c2be78ff0fcd0ba82fa2d77d7a5042a55688fdfd/374_0_3737_2989/master/3737.jpg?width=140&quality=85&auto=format&fit=max&s=440d43b514e68ea66256c044b6f1f82a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "aaa092b1a1d36a4070f7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68619
     },
     {
       "id": "f58b743f1f3376bd81da1145",
@@ -1173,106 +1533,16 @@
       "clusterId": "128f7b90fc3da3894244",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.84884
+      "rankingScore": 5.65973,
+      "related": []
     },
     {
-      "id": "bf7cbc077e0d6f85b7c81c41",
-      "title": "Wales bury 73-year All Blacks hoodoo with seismic victory over New Zealand",
+      "id": "95305834085cbd6c985e3ae8",
+      "title": "Chelsea go top with 1-0 win against Man City",
       "translatedTitle": null,
-      "description": "Wales 35-28 New Zealand Home side secure first win over All Blacks since 1953 Wales recorded their first win over New Zealand since 1953 in a stunning upset at the Principality Stadium, clinging on amid furious pressure in the second half to seal a memorable 35-28 victory. Tomos Williams and Dewy Lake put the home side 14-0 up inside the first six minutes before Cortez Ratima replied for the All Blacks. Archie Griffin restored the 14-point advantage but Wallace Sititi and, on the stroke of half-",
-      "url": "https://www.theguardian.com/sport/2026/nov/14/wales-new-zealand-nations-championship-match-report",
-      "canonicalUrl": "https://theguardian.com/sport/2026/nov/14/wales-new-zealand-nations-championship-match-report",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T16:01:57Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/66499bff494c47350795f5c8afcbddf59585d378/356_0_4070_3256/master/4070.jpg?width=140&quality=85&auto=format&fit=max&s=1ba9d0aa278a9af6468b3be82a82bfef",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b1e0db7fcf0f27abd3ae",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80825
-    },
-    {
-      "id": "fb660670dfaa7794677ed355",
-      "title": "Cheltenham November meeting horse racing – live",
-      "translatedTitle": null,
-      "description": "First race gets under way at 12.35pm (all times GMT) Paddy Power Gold Cup Steeplechase at 2.40pm Share your thoughts with Greg via email Heading away from the stands now, Atomic City has passed Tiny Riot but is still second-last. Down the back, Magnetude has taken over in front, all bar Tiny Riot covered by three lengths behind. Continue reading...",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/14/cheltenham-november-meeting-horse-racing-live",
-      "canonicalUrl": "https://theguardian.com/sport/live/2026/nov/14/cheltenham-november-meeting-horse-racing-live",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T15:54:28Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/baa44f665a0380c4639491a05f6955d470071a0f/326_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=887893aa04916a0b9c23aad52f014752",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f6edad55c36d694d58ab",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.79328
-    },
-    {
-      "id": "a26ea5c5d860a28689e87d3c",
-      "title": "Chelsea go top of WSL as Sandy Baltimore bullet sees off Manchester City",
-      "translatedTitle": null,
-      "description": "Pragmatic, resolute and gutsy. Sonia Bompastor showed her ruthless side and delivered a tactical masterclass as Chelsea earned a 1-0 win over Manchester City and leapfrogged them at the top of the Women’s Super League. Sandy Baltimore’s stunning strike in added time at the end of the first half was the difference, as the west London side nullified the threat of a team that had scored in each of their preceding 21 games in all competitions, delivering their first loss of the campaign. Continue re",
-      "url": "https://www.theguardian.com/football/2026/nov/14/chelsea-manchester-city-womens-super-league-match-report",
-      "canonicalUrl": "https://theguardian.com/football/2026/nov/14/chelsea-manchester-city-womens-super-league-match-report",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T15:36:15Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/52c2b45733e915d41a2986db9f0078f8eb2f5eba/232_0_3323_2658/master/3323.jpg?width=140&quality=85&auto=format&fit=max&s=7a65b997d88443f21a769ee47b06cd4b",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0607fe45e3221c666fa8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.75726
-    },
-    {
-      "id": "7219a9dc341a938125ef1d4c",
-      "title": "Body found on French beach after attempted Channel crossing",
-      "translatedTitle": null,
-      "description": "The man was found after authorities stopped and overloaded dinghy leaving the beach overnight.",
-      "url": "https://www.bbc.co.uk/news/articles/cxj05jr299n6o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cxj05jr299n6o?at_campaign=rss&at_medium=RSS",
+      "description": "Chelsea return to the top of the Women's Super League with a crucial victory over rivals Manchester City who went down to 10 players in the second half.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm702wwpj9keo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/videos/cm702wwpj9keo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -1281,28 +1551,28 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-14T12:44:27Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5fc/live/34b33400-e024-11f1-8e3e-7509d123e9f4.jpg",
+      "publishedAt": "2026-11-14T15:50:34Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/47ee/live/76b3b1a0-e041-11f1-93e1-3b657b665bcf.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "0881d37e9a9fce8c85fb",
+      "clusterId": "d0e685dd88ab4071e1c3",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.71588
+      "rankingScore": 5.6279
     },
     {
-      "id": "aa4c8237e1a3c9b1a0403346",
-      "title": "Retail sales and Fed minutes in focus next week",
+      "id": "efe160fef2c8c2528f0cc6bd",
+      "title": "Young people should have legal guarantee of jobs or training, Milburn says",
       "translatedTitle": null,
-      "description": "A report on retail sales will anchor the calendar of economic updates this week, which also includes details about the most recent Federal Reserve meeting and the latest take on consumer sentiment",
-      "url": "https://www.independent.co.uk/news/fed-inflation-consumers-new-york-democrats-b3085005.html",
-      "canonicalUrl": "https://independent.co.uk/news/fed-inflation-consumers-new-york-democrats-b3085005.html",
+      "description": "Alan Milburn described his proposal as an ‘opportunity guarantee’",
+      "url": "https://www.independent.co.uk/news/uk/politics/milburn-burnham-neets-legal-guarantee-b3084986.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/politics/milburn-burnham-neets-legal-guarantee-b3084986.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1311,8 +1581,8 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-14T16:00:06Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/14/16/Gasoline_Prices_Colorado_13322.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-11-14T15:49:33Z",
+      "imageUrl": "https://static.independent.co.uk/2026/09/11/23/3233889af7c5c52844ef5d0133070e85Y29udGVudHNlYXJjaGFwaSwxNzg5MjQ4MzIw-2.85437364.jpg?width=1200&auto=webp&crop=3%3A2",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
@@ -1320,319 +1590,19 @@
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a14844c1e35148faa015",
+      "clusterId": "5f6358d74ad35a94c186",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71454
+      "rankingScore": 5.62628,
+      "related": []
     },
     {
-      "id": "d4d3105507652dba7daf3086",
-      "title": "Mass evacuations after bomb found at Illinois ethanol plant",
+      "id": "357cf8ea8c73f5f46b4e0f4d",
+      "title": "Family of Watford woman set alight ‘desperate for answers’ after attack",
       "translatedTitle": null,
-      "description": "Officials are continuing to search the facility for any other bombs and evidence",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/peoria-bomb-threat-illinois-biourja-renewables-b3084992.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/crime/peoria-bomb-threat-illinois-biourja-renewables-b3084992.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T15:07:47Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/09/13/39/iStock-1248520843.jpeg?width=1200&auto=webp&trim=0%2C99%2C0%2C99",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5f2ec11a79ce2a3bca2e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70218
-    },
-    {
-      "id": "d966e1db0abcaaed71809071",
-      "title": "BBC pulls Julia Donaldson’s Room on the Broom from iPlayer over David Walliams allegations",
-      "translatedTitle": null,
-      "description": "Walliams was accused of sexual assault and grooming in an investigation earlier this week, with the comedian denying all allegations",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/david-walliams-allegations-julia-donaldson-room-on-the-broom-bbc-b3084934.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/david-walliams-allegations-julia-donaldson-room-on-the-broom-bbc-b3084934.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T15:53:21Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/14/9/36/Room-on-the-Broom-18_Making-potion-by-lake.jpg?width=1200&auto=webp&trim=0%2C377%2C24%2C260",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "06b72e2f2872cee6c940",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70105
-    },
-    {
-      "id": "cc4437ce708456e29934b358",
-      "title": "I’m tracking the best Black Friday deals live – here’s what to know",
-      "translatedTitle": null,
-      "description": "As The Independent’s consumer experts, we are monitoring the sales to bring you the best offers on the products we genuinely recommend",
-      "url": "https://www.independent.co.uk/extras/indybest/black-friday/best-black-friday-deals-2026-b3071540.html",
-      "canonicalUrl": "https://independent.co.uk/extras/indybest/black-friday/best-black-friday-deals-2026-b3071540.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T15:50:05Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/14/12/23/best-black-friday-deals-indybest-live.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bc150d1fa6ad1b926624",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.69455
-    },
-    {
-      "id": "3cec4b4dd5003bf63ae20c35",
-      "title": "Wayne Rooney made to face worst fear as he skydives in first I’m a Celeb challenge",
-      "translatedTitle": null,
-      "description": "The ex footballer will be joining Claire Sweeney, Ricky Wilson and others in the jungle this year",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/wayne-rooney-im-a-celebrity-2026-skydive-fear-b3084993.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/wayne-rooney-im-a-celebrity-2026-skydive-fear-b3084993.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T15:46:44Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/14/15/23/c1597aa0-ddb2-11f1-b14d-71af1d9abfa4.jpg?width=1200&auto=webp&trim=7%2C252%2C179%2C187",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a50b871672e3683bbbf0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68791
-    },
-    {
-      "id": "18b6e53fd64a363067312e67",
-      "title": "Neets review won't be for the faint-hearted - and will test Burnham's appetite for a welfare fight",
-      "translatedTitle": null,
-      "description": "Milburn is not the first to try and fix the Neets problem - so what’s different this time round, asks Laura Kuenssberg.",
-      "url": "https://www.bbc.co.uk/news/articles/cmg46qgkl7r4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmg46qgkl7r4o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T12:22:43Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/51fc/live/6c07bc50-df75-11f1-a701-fddedf244c16.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "633a6b00941e9744bc2d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6799
-    },
-    {
-      "id": "c59f261f02b9b73904076061",
-      "title": "Andy Burnham accuses Tories of ‘burning bridges’ with EU over Brexit",
-      "translatedTitle": null,
-      "description": "The prime minister’s remarks in recent weeks have fuelled questions about the prospect of the UK returning to the EU",
-      "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-eu-brexit-labour-b3084959.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/andy-burnham-eu-brexit-labour-b3084959.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T15:29:37Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/14/11/01M7CW44R37DK1F7FSF5073T9C.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3ee8a0af2f7d1b3e42b3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6543
-    },
-    {
-      "id": "3a8e329be40ad651bd655993",
-      "title": "Rory McIlroy slips back to leave uphill task as Tyrrell Hatton makes Dubai surge",
-      "translatedTitle": null,
-      "description": "McIlroy is bidding for a record-equalling eighth Race to Dubai title this week but needs a special Sunday to make it happen",
-      "url": "https://www.independent.co.uk/sport/golf/rory-mcilroy-tyrrell-hatton-dp-world-tour-championship-dubai-b3084995.html",
-      "canonicalUrl": "https://independent.co.uk/sport/golf/rory-mcilroy-tyrrell-hatton-dp-world-tour-championship-dubai-b3084995.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T15:21:16Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/14/15/2305083926..?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a4a822059d37c0f337ca",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.63809
-    },
-    {
-      "id": "b4027cf3e301a5b94a4cd719",
-      "title": "Trump blames US ground stop outage on ‘old broken stuff’ while Democrats demand answers over airport chaos",
-      "translatedTitle": null,
-      "description": "Amid Friday’s nationwide ground stop, Trump posted about reviving the entertainment industry",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-blames-ground-stop-old-equipment-b3084980.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-blames-ground-stop-old-equipment-b3084980.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T15:19:42Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/14/14/2026-11-14T110018Z_932004478_RC2LKOAEPGUW_RTRMADP_3_IRAN-CRISIS-TRUMP.JPG?width=1200&auto=webp&trim=150%2C0%2C150%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d081ac47f49b14f93bc4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.63506
-    },
-    {
-      "id": "13a4c21b308cc597f5340ec0",
-      "title": "Video shows moment man throws petrol bombs into grounds of Islamic centre",
-      "translatedTitle": null,
-      "description": "Footage shows the moment a man threw petrol bombs into the grounds of an Islamic centre in north London.",
-      "url": "https://www.independent.co.uk/tv/news/man-throws-petrol-bombs-islamic-centre-video-b3084983.html",
-      "canonicalUrl": "https://independent.co.uk/tv/news/man-throws-petrol-bombs-islamic-centre-video-b3084983.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T15:18:36Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/14/14/30/Video-shows-moment-man-throws-petrol-bombs-into-grounds-of-Islamic-centre.png?width=1200&auto=webp&trim=43%2C4%2C8%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c48fbd3cb42993cef5fd",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.63294
-    },
-    {
-      "id": "5d542c099b752c706e741b10",
-      "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
-      "translatedTitle": null,
-      "description": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans, Louisiana on Friday.",
-      "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/videos/ck4gn4y77m40o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-14T11:30:10Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3089/live/3bf0cfe0-e027-11f1-a701-fddedf244c16.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "84b191e5e726e28072d9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.59585
-    },
-    {
-      "id": "17ac1790a258947fb890d131",
-      "title": "Mauricio Pochettino asked the US to believe in his project. Did he believe in it himself?",
-      "translatedTitle": null,
-      "description": "The coach’s tenure with the USMNT brought a whiplash of highs and lows. He met some goals but also left many with the impression he never truly bought in It did not take US men’s national team coach Mauricio Pochettino very long to take his first big swing. He’d just taken the reins of the program after a disastrous performance at the 2024 Copa América cost his predecessor his job, with the first home World Cup in three decades looming on the horizon. The federation introduced him in New York Ci",
-      "url": "https://www.theguardian.com/football/2026/nov/14/mauricio-pochettino-usmnt-legacy-belief",
-      "canonicalUrl": "https://theguardian.com/football/2026/nov/14/mauricio-pochettino-usmnt-legacy-belief",
+      "description": "Appeal for information comes after Brenda Raymond, 80, was set on fire outside her flat on Monday The family of an elderly woman who was set on fire outside a block of flats in Watford have said they are “desperate for answers”. Brenda Raymond, 80, was found set alight outside her flat on Caractacus Cottage View on Monday. She was taken to a nearby hospital, where she is in critical condition. Continue reading...",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/14/family-of-watford-woman-set-alight-desperate-for-answers-after-attack",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/14/family-of-watford-woman-set-alight-desperate-for-answers-after-attack",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1641,28 +1611,58 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-14T14:06:37Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/c4284e99111f3b2d6ab3f889978114cb7b437fcf/463_0_3789_3032/master/3789.jpg?width=140&quality=85&auto=format&fit=max&s=a0c40e01c9f8309a673a5fd3c63b39c0",
+      "publishedAt": "2026-11-14T17:59:12Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6f2286e1b2b467534e5f0baa5dda7a77ba7cd596/0_150_528_422/master/528.jpg?width=140&quality=85&auto=format&fit=max&s=46ca8262114f5840731faf400d316285",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "cfef8a688bbc4c207aec",
+      "clusterId": "47e1075c884d7c1117c0",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.58864
+      "rankingScore": 5.57519
     },
     {
-      "id": "02cccc7148cf5b70575f38ef",
-      "title": "James Blunt: ‘Do I have a nickname? Yes, it rhymes with blunt’",
+      "id": "611ab904518392ccd9920df5",
+      "title": "Man dies after being stabbed by gang of masked men",
       "translatedTitle": null,
-      "description": "The singer on his love for Ibiza, the weirdest thing he’s done in the name of romance, and being signed up for Celebrity Traitors against his will You were a punching bag for such a long time after You’re Beautiful became a massive hit, but your consistent good humour is deeply admirable. Does it ever get tiring? It was a surprise, at the beginning. I was just a little guy with a dream. And when you achieve your dream, you think people would be happy for you. For them not to be happy for you, bu",
-      "url": "https://www.theguardian.com/music/2026/nov/15/james-blunt-10-chaotic-questions-interview",
-      "canonicalUrl": "https://theguardian.com/music/2026/nov/15/james-blunt-10-chaotic-questions-interview",
+      "description": "Police say a 27-year-old man died after being stabbed in the \"shocking and tragic attack\" in Crumpsall.",
+      "url": "https://www.bbc.co.uk/news/articles/cm4gn7pp5r85o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm4gn7pp5r85o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-14T14:40:04Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b5d0/live/97d14980-e035-11f1-9ca9-b3b288fceb81.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-14T20:17:38Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f164eef26e568380d35d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.51934
+    },
+    {
+      "id": "de2ec7bd64e86fb41e9a9db1",
+      "title": "US officials say flight stoppage stemmed from ‘routine maintenance’ as travel chaos continues",
+      "translatedTitle": null,
+      "description": "Thousands of flights still canceled as officials blamed ageing air control system for nationwide grounding The Trump administration says Friday’s four-hour nationwide Federal Aviation Administration (FAA) ground stop that delayed or canceled thousands of flight stemmed from routine maintenance. At a news briefing on Saturday, the US transportation secretary, Sean Duffy, said that the issues began when a contractor was performing “routine maintenance” at a remote FAA facility to “switch telecommu",
+      "url": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1671,20 +1671,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-14T14:00:46Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/8d05391f77653139edc13495e968485a7a46ec8b/0_274_2666_2133/master/2666.jpg?width=140&quality=85&auto=format&fit=max&s=844c55d5a162fbb5140a71bdb8104150",
+      "publishedAt": "2026-11-14T17:11:18Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6934b82431c8fab49bd4a56b9baaca81b07d75ae/0_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=b2b556b1036b2ad108c6ca8de27291e7",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-14T16:17:33Z",
+      "retrievedAt": "2026-11-14T20:17:38Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6d024f9568e689a7615c",
+      "clusterId": "ac84227601ef4c07ba8c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.57811
+      "rankingScore": 5.49124
     }
   ]
 }
