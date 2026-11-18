@@ -4,10 +4,10 @@
   "countryName": "India",
   "timeZone": "Asia/Kolkata",
   "date": "2026-11-18",
-  "generatedAt": "2026-11-18T04:17:49Z",
-  "lastAttemptAt": "2026-11-18T04:17:49Z",
-  "lastSuccessfulUpdate": "2026-11-18T04:17:49Z",
-  "status": "current",
+  "generatedAt": "2026-11-18T08:17:41Z",
+  "lastAttemptAt": "2026-11-18T08:17:41Z",
+  "lastSuccessfulUpdate": "2026-11-18T08:17:41Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,32 +16,32 @@
       "sourceId": "the-hindu-national",
       "sourceName": "The Hindu",
       "status": "success",
-      "lastAttemptAt": "2026-11-18T04:17:45Z",
-      "lastSuccessAt": "2026-11-18T04:17:45Z",
+      "lastAttemptAt": "2026-11-18T08:17:35Z",
+      "lastSuccessAt": "2026-11-18T08:17:36Z",
       "articlesRetrieved": 60,
-      "responseTimeMs": 76,
+      "responseTimeMs": 240,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "indian-express",
       "sourceName": "The Indian Express",
-      "status": "success",
-      "lastAttemptAt": "2026-11-18T04:17:45Z",
-      "lastSuccessAt": "2026-11-18T04:17:45Z",
-      "articlesRetrieved": 200,
-      "responseTimeMs": 105,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-18T08:17:35Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '403 Forbidden' for url 'https://indianexpress.com/section/india/feed/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "sourceId": "hindustan-times-india",
       "sourceName": "Hindustan Times",
       "status": "success",
-      "lastAttemptAt": "2026-11-18T04:17:45Z",
-      "lastSuccessAt": "2026-11-18T04:17:45Z",
+      "lastAttemptAt": "2026-11-18T08:17:35Z",
+      "lastSuccessAt": "2026-11-18T08:17:36Z",
       "articlesRetrieved": 100,
-      "responseTimeMs": 228,
+      "responseTimeMs": 293,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,15 +49,471 @@
       "sourceId": "ndtv-top",
       "sourceName": "NDTV",
       "status": "success",
-      "lastAttemptAt": "2026-11-18T04:17:45Z",
-      "lastSuccessAt": "2026-11-18T04:17:49Z",
+      "lastAttemptAt": "2026-11-18T08:17:35Z",
+      "lastSuccessAt": "2026-11-18T08:17:36Z",
       "articlesRetrieved": 20,
-      "responseTimeMs": 4036,
+      "responseTimeMs": 382,
       "errorType": null,
       "errorMessage": null
     }
   ],
   "articles": [
+    {
+      "id": "88a3a9733ecdd9de779cd040",
+      "title": "ED moves Supreme Court challenging interim bail granted to Azam Khan in money laundering case",
+      "translatedTitle": null,
+      "description": "Supreme Court said the plea would be listed for hearing on November 19; ED sources said the agency has filed a Special Leave Petition (SLP) before the Supreme Court against the Allahabad High Court’s order",
+      "url": "https://www.thehindu.com/news/national/azam-khan-supreme-court-ed-interim-bail/article71714741.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/azam-khan-supreme-court-ed-interim-bail/article71714741.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T06:53:14Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/402ti7/article71714755.ece/alternates/LANDSCAPE_1200/PTI11_16_2026_000205A.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c63b5494a8db8a2f3009",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "084bbb7104277d6d73e8758c",
+          "title": "Heavens are not going to fall: SC after ED challenges Azam Khan's interim bail",
+          "translatedTitle": null,
+          "description": "Heavens are not going to fall: SC after ED challenges Azam Khan's interim bail",
+          "url": "https://www.hindustantimes.com/india-news/heavens-are-not-going-to-fall-sc-after-ed-challenges-azam-khan-s-interim-bail-101794986686789.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/heavens-are-not-going-to-fall-sc-after-ed-challenges-azam-khan-s-interim-bail-101794986686789.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T07:24:46Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/logo/ht-generic_india1_1751287243850_1751287256749.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "c63b5494a8db8a2f3009",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "heavens are not going to fall sc after ed challenges azam khan s interim bail"
+        },
+        {
+          "id": "8c2c63896523e99926879c25",
+          "title": "'Heavens won't fall': Supreme Court refuses to stall Azam Khan's release from prison in money laundering case",
+          "translatedTitle": null,
+          "description": "“No. Not today. You argue all these points before the court concerned tomorrow,” CJI Kant told the law officer.",
+          "url": "https://www.hindustantimes.com/india-news/heavens-wont-fall-supreme-court-refuses-to-stall-azam-khans-release-from-prison-in-money-laundering-case-101794982913647.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/heavens-wont-fall-supreme-court-refuses-to-stall-azam-khans-release-from-prison-in-money-laundering-case-101794982913647.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T06:24:50Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/azam_khan_1794982937058_nCK6_1794982937188_I3BI_bc211821-49c9-4b46-b2f7-350560178926_LBuD.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "c63b5494a8db8a2f3009",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "heavens won t fall supreme court refuses to stall azam khan s release from prison in money laundering case"
+        },
+        {
+          "id": "aa1caefe3190bbc599ba5293",
+          "title": "Azam Khan Gets Relief As Supreme Court Stays Conviction, High Court Grants Interim Bail",
+          "translatedTitle": null,
+          "description": "The Enforcement Directorate had arrested Azam Khan (78) from the Rampur district jail on October 31.",
+          "url": "https://www.ndtv.com/india-news/azam-khan-gets-relief-as-supreme-court-stays-conviction-high-court-grants-interim-bail-12341315",
+          "canonicalUrl": "https://ndtv.com/india-news/azam-khan-gets-relief-as-supreme-court-stays-conviction-high-court-grants-interim-bail-12341315",
+          "sourceName": "NDTV",
+          "sourceDomain": "ndtv.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-17T21:23:58Z",
+          "imageUrl": "https://c.ndtvimg.com/2026-11/22qogov4_azam-khan_625x300_16_November_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T00:17:57Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "c63b5494a8db8a2f3009",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 6.39965,
+          "normalizedTitle": "azam khan gets relief as supreme court stays conviction high court grants interim bail",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 10.35444
+    },
+    {
+      "id": "b60a16514bbaa0e01376b151",
+      "title": "LeT’s Lateef Bhat killed in Kulgam encounter",
+      "translatedTitle": null,
+      "description": "A team of security forces, who were tracking on-the-run Bhat, came under fire from inside a mosque around 3 a.m. in Kulgam’s Zangalpora",
+      "url": "https://www.thehindu.com/news/national/fresh-encounter-in-kulgam-lateef-bhat-november-18-2026/article71714380.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/fresh-encounter-in-kulgam-lateef-bhat-november-18-2026/article71714380.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T07:12:33Z",
+      "imageUrl": "https://th-i.thgim.com/public/news/national/s89o0q/article71714901.ece/alternates/LANDSCAPE_1200/Securityforces.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "59b7d3e159feb49666be",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 8.69115,
+      "related": [
+        {
+          "id": "a23d918cbaa8cd0ce83531f7",
+          "title": "Trapped in mosque, video call with cops: Inside last Kulgam terrorist commander Lateef Bhat's final moments before encounter",
+          "translatedTitle": null,
+          "description": "Security forces killed Lateef Bhat, described by police as South Kashmir’s last active local terrorist commander, in a Kulgam encounter on Wednesday.",
+          "url": "https://www.hindustantimes.com/india-news/mosque-shelter-video-call-with-cops-inside-last-kulgam-terrorist-local-commander-lateef-bhat-final-moments-before-encounter-101794978859436.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/mosque-shelter-video-call-with-cops-inside-last-kulgam-terrorist-local-commander-lateef-bhat-final-moments-before-encounter-101794978859436.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T06:05:23Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/LATEEF_BHAT_ENCOUNTER_1794981627937_CrjU_1794981644643_h5I1_4c548d66-927a-4c0c-85e6-2b71a75620b8_P000.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "59b7d3e159feb49666be",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "trapped in mosque video call with cops inside last kulgam terrorist commander lateef bhat s final moments before encounter"
+        },
+        {
+          "id": "779c71cb7d889a36d17e8396",
+          "title": "Lashkar Terrorist Lateef Bhat Killed In J&K Encounter. He Was Hiding Inside Mosque",
+          "translatedTitle": null,
+          "description": "Lateef Bhat was killed in an encounter in Kulgam",
+          "url": "https://www.ndtv.com/india-news/lashkar-terrorist-lateef-bhat-killed-in-j-k-encounter-he-was-hiding-inside-mosque-12342224",
+          "canonicalUrl": "https://ndtv.com/india-news/lashkar-terrorist-lateef-bhat-killed-in-j-k-encounter-he-was-hiding-inside-mosque-12342224",
+          "sourceName": "NDTV",
+          "sourceDomain": "ndtv.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T05:09:12Z",
+          "imageUrl": "https://c.ndtvimg.com/2026-11/qg5qph74_lateef-bhat_625x300_18_November_26.jpeg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "59b7d3e159feb49666be",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "lashkar terrorist lateef bhat killed in j k encounter he was hiding inside mosque"
+        },
+        {
+          "id": "f5c328083284b5d548c1007d",
+          "title": "Lateef Bhat, last known active local terrorist in South Kashmir, killed in Kulgam encounter",
+          "translatedTitle": null,
+          "description": "Terrorist Lateef Bhat, the last active local commander in South Kashmir, was killed in an encounter with security forces.",
+          "url": "https://www.hindustantimes.com/india-news/lateef-bhat-last-active-local-commander-in-south-kashmir-killed-in-kulgam-encounter-officials-101794976277276.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/lateef-bhat-last-active-local-commander-in-south-kashmir-killed-in-kulgam-encounter-officials-101794976277276.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T04:34:16Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/lateef_bhat_killed_let_kulgam_1794977805369_ozhZ_1794977820850_MFWZ_d0635dad-6711-4bd5-86b7-d9355ae73e6a_maa9.jpeg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "59b7d3e159feb49666be",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "lateef bhat last known active local terrorist in south kashmir killed in kulgam encounter"
+        },
+        {
+          "id": "4233d9e33edf159fdcef6dfa",
+          "title": "HT morning brief Nov 18: Terrorist Lateef Bhat trapped in Kulgam; Ranbir’s Ramayana crosses ₹820 crore",
+          "translatedTitle": null,
+          "description": "Catch the key developments making headlines across India and the world, along with the latest in sports and entertainment.",
+          "url": "https://www.hindustantimes.com/india-news/ht-morning-brief-nov-18-terrorist-lateef-bhat-trapped-in-kulgam-ranbir-s-ramayana-crosses-820-crore-101794972304220.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/ht-morning-brief-nov-18-terrorist-lateef-bhat-trapped-in-kulgam-ranbir-s-ramayana-crosses-820-crore-101794972304220.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T03:35:56Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/MORNINGNEWSBRIEF_1794972870047_YP2g_1794972879034_X6jE_f0b56cd6-323f-4d6d-a855-aacd474304d0_WAnX.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "59b7d3e159feb49666be",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "ht morning brief nov 18 terrorist lateef bhat trapped in kulgam ranbir s ramayana crosses 820 crore"
+        },
+        {
+          "id": "c5b7713e3a8f0bd10d4b8074",
+          "title": "LeT terrorist Lateef Bhat escaped operation that killed aide; third getaway in a year: Officials",
+          "translatedTitle": null,
+          "description": "Bhat, who carries a ₹15-lakh bounty on his head, is the prime suspect in the November 11 attack on three CRPF personnel in Kulgam.",
+          "url": "https://www.hindustantimes.com/india-news/let-terrorist-lateef-bhat-escaped-operation-that-killed-aide-third-getaway-in-a-year-officials-101794969984630.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/let-terrorist-lateef-bhat-escaped-operation-that-killed-aide-third-getaway-in-a-year-officials-101794969984630.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T03:02:59Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/PTI11-17-2026-000146A-0_1794970206942_YaNt_1794970235975_nm8a_0c9dec1f-6321-4ea7-8783-79741b59a7e7_b5pC.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "59b7d3e159feb49666be",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "let terrorist lateef bhat escaped operation that killed aide third getaway in a year officials"
+        },
+        {
+          "id": "81690668f50d31b8c3138e34",
+          "title": "Lateef Bhat, last active local commander in South Valley, trapped in mosque as Kulgam encounter continues",
+          "translatedTitle": null,
+          "description": "The gunfight began during a search operation in the area, two days after security forces killed terrorist Umar Nisar Dar in an encounter in Kulgam.",
+          "url": "https://www.hindustantimes.com/india-news/encounter-breaks-out-in-kulgam-terrorist-lateef-bhat-who-was-responsible-for-crpf-kashmir-attack-trapped-101794969826338.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/encounter-breaks-out-in-kulgam-terrorist-lateef-bhat-who-was-responsible-for-crpf-kashmir-attack-trapped-101794969826338.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T02:46:22Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/Kulgam_1794969926426_XbyW_1794969926576_3BxI_f9131a69-cc4f-44f9-bb68-cdce6abb7870_7P6k.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "59b7d3e159feb49666be",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "lateef bhat last active local commander in south valley trapped in mosque as kulgam encounter continues"
+        }
+      ]
+    },
+    {
+      "id": "e31130048016310b809d9dbd",
+      "title": "Andhra keeps 13 NDRF and 11 SDRF teams ready for Cyclone Akvan",
+      "translatedTitle": null,
+      "description": "People can call 112, 1070 or 18004250101 in an emergency, and report power cuts, fallen trees and waterlogging on WhatsApp at 95523 00009",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-keeps-13-ndrf-and-11-sdrf-teams-ready-for-cyclone-akvan/article71714707.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/andhra-pradesh/andhra-keeps-13-ndrf-and-11-sdrf-teams-ready-for-cyclone-akvan/article71714707.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T07:11:30Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/93yxrm/article71661384.ece/alternates/LANDSCAPE_1200/9604_3_11_2026_14_7_7_2_IMG_20261103_WA0071.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7491d6519e6851953a63",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "9f3497feb776816eace8c7da",
+          "title": "Cyclone Akvan Expected To Strengthen Before Landfall In Andhra On Friday",
+          "translatedTitle": null,
+          "description": "Coastal Andhra Pradesh is likely to receive heavy to very heavy rainfall on November 19 and 20",
+          "url": "https://www.ndtv.com/andhra-pradesh-news/cyclone-akvan-expected-to-strengthen-before-landfall-in-andhra-on-friday-12342406",
+          "canonicalUrl": "https://ndtv.com/andhra-pradesh-news/cyclone-akvan-expected-to-strengthen-before-landfall-in-andhra-on-friday-12342406",
+          "sourceName": "NDTV",
+          "sourceDomain": "ndtv.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T05:30:19Z",
+          "imageUrl": "https://c.ndtvimg.com/2026-11/vqtn7sqo_cyclone-akvan_625x300_17_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "7491d6519e6851953a63",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "cyclone akvan expected to strengthen before landfall in andhra on friday"
+        }
+      ],
+      "rankingScore": 8.63914
+    },
+    {
+      "id": "b626d127e51deb5a2fbbd666",
+      "title": "Two Indian crew members injured, one missing after missile attack on LPG tanker in Strait of Hormuz",
+      "translatedTitle": null,
+      "description": "The vessel was struck twice within hours, with the second attack triggering a fire that left the crew unable to access lifeboats and rafts.",
+      "url": "https://www.hindustantimes.com/india-news/two-indian-crew-members-injured-one-missing-after-missile-attack-on-lpg-tanker-in-strait-of-hormuz-101794961875057.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/two-indian-crew-members-injured-one-missing-after-missile-attack-on-lpg-tanker-in-strait-of-hormuz-101794961875057.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T02:08:40Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/IRAN-CRISIS-TANKER-2_1794962223321_80kW_1794962235349_tDCb_2dc8c804-6d09-4921-af43-1e59e7de649e_tGTq.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "82dde117ccbb48676d8a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "d304d754d0580e4214038615",
+          "title": "Indian national missing after attacks on commercial vessel in Strait of Hormuz",
+          "translatedTitle": null,
+          "description": "MEA said that of the 24 Indian nationals on board MT Tara Gas, 21 have been safely evacuated",
+          "url": "https://www.thehindu.com/news/national/indian-national-missing-after-attacks-on-commercial-vessel-in-strait-of-hormuz/article71714331.ece",
+          "canonicalUrl": "https://thehindu.com/news/national/indian-national-missing-after-attacks-on-commercial-vessel-in-strait-of-hormuz/article71714331.ece",
+          "sourceName": "The Hindu",
+          "sourceDomain": "thehindu.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T01:07:32Z",
+          "imageUrl": "https://th-i.thgim.com/public/incoming/xfjn7j/article71714333.ece/alternates/LANDSCAPE_1200/20261110278L.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T04:17:45Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "82dde117ccbb48676d8a",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 7.06455,
+          "normalizedTitle": "indian national missing after attacks on commercial vessel in strait of hormuz",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 7.86319
+    },
     {
       "id": "4e3884d35620ddb0f6cf4f22",
       "title": "Construction activities on Kaziranga wildlife corridors flagged",
@@ -85,8 +541,69 @@
       "clusterId": "f0ed5a8b864fc0618486",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.39798,
+      "rankingScore": 7.47365,
       "related": []
+    },
+    {
+      "id": "ce108dbc0284cbe6ad2fe594",
+      "title": "NEET paper leak case: Delhi court orders framing of charges against 14 accused",
+      "translatedTitle": null,
+      "description": "The Judge said the court will start the trial on a day-to-day basis from November 25",
+      "url": "https://www.thehindu.com/news/national/neet-paper-leak-case-delhi-court-orders-framing-of-charges-against-14-accused/article71714866.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/neet-paper-leak-case-delhi-court-orders-framing-of-charges-against-14-accused/article71714866.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T07:52:34Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/h3jyq6/article71714979.ece/alternates/LANDSCAPE_1200/20260516286L.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e6f13c50cad0331aaac2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "2e37da8cc406ace1013e9d2b",
+          "title": "Delhi court set to rule on framing charges in NEET-UG paper leak case",
+          "translatedTitle": null,
+          "description": "The CBI registered its case on May 12 following a complaint from the Department of Higher Education, Union education ministry.",
+          "url": "https://www.hindustantimes.com/india-news/delhi-court-set-to-rule-on-framing-charges-in-neet-ug-paper-leak-case-101794968477144.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/delhi-court-set-to-rule-on-framing-charges-in-neet-ug-paper-leak-case-101794968477144.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T02:32:32Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/ANI-20260601108-0_1786072410688_1786072442509_9d10ae0a-dc8e-4fe5-a81f-610930d6d42c_1794969073677_Ciar_b48c4c7e-dba5-41f2-89bc-9ae247f1fc6d_iF7a.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-18T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "e6f13c50cad0331aaac2",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "delhi court set to rule on framing charges in neet ug paper leak case"
+        }
+      ],
+      "rankingScore": 7.36933
     },
     {
       "id": "446e7a5ec8143514a0a1d1af",
@@ -115,14 +632,195 @@
       "clusterId": "5d8b718d83350e691a29",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.61551,
+      "rankingScore": 7.34354,
       "related": []
     },
     {
-      "id": "80c7ad0e6f97f98d5c2b43cb",
-      "title": "Cyclone 'Akvan' LIVE updates: Strengthens into severe cyclonic storm, but further intensification not likely",
+      "id": "e6d34819ca5e62509efab1a9",
+      "title": "Italian politician’s remark: Supreme Court agrees to hear plea to take down videos of Giacomo Filibeck’s comments at Bharat Summit",
       "translatedTitle": null,
-      "description": "The system has changed its track slightly, and the probable landfall points may remain between Visakhapatnam and Nellore on November 20",
+      "description": "The petitioner questioned the participation of a foreign political representative in Indian politics by “raising of derogatory slogans and making prejudicial political statements”",
+      "url": "https://www.thehindu.com/news/national/italian-politicians-remark-supreme-court-to-hear-plea-for-removal-of-videos-from-social-media-on-november-20/article71714820.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/italian-politicians-remark-supreme-court-to-hear-plea-for-removal-of-videos-from-social-media-on-november-20/article71714820.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T07:58:54Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/fhvv8y/article71714848.ece/alternates/LANDSCAPE_1200/Screenshot%202428.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2336424772e50c98a9ae",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.33197
+    },
+    {
+      "id": "b3363495097ed282ce145b6c",
+      "title": "Why Ukraine keeps targeting the Kerch Bridge",
+      "translatedTitle": null,
+      "description": "Ukraine has targeted the structure several times, latest on November 17, 2026",
+      "url": "https://www.thehindu.com/news/international/why-ukraine-keeps-targeting-the-kerch-bridge/article71714957.ece",
+      "canonicalUrl": "https://thehindu.com/news/international/why-ukraine-keeps-targeting-the-kerch-bridge/article71714957.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T07:54:03Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/x85fq/article71714965.ece/alternates/LANDSCAPE_1200/Ukraine-strikesGP9GQGGKL.3.jpg.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d32e77e52ecf234d8cd5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.32229
+    },
+    {
+      "id": "e3aa19e1c9dbf5a9816ccd10",
+      "title": "Magnitude-4.1 earthquake hits Uttarakhand's Chamoli",
+      "translatedTitle": null,
+      "description": "No reports of damage so far; epicentre was near Jyotirmath in Chamoli district and tremors were felt across most parts of the district",
+      "url": "https://www.thehindu.com/news/national/uttarakhand/earthquake-hits-uttarakhands-chamoli/article71714959.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/uttarakhand/earthquake-hits-uttarakhands-chamoli/article71714959.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T07:44:49Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/4adcdx/article71714967.ece/alternates/LANDSCAPE_1200/iStock-2172126887%202.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4f17fe54e2d1a6440251",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.30396
+    },
+    {
+      "id": "db58116aae675ff315fd8820",
+      "title": "Maharashtra Cabinet approves cash rewards for information on weapons looted by Maoists",
+      "translatedTitle": null,
+      "description": "The decision comes amid the State government’s efforts to eliminate Left-wing extremism and accelerate development in areas previously affected by Maoist activities",
+      "url": "https://www.thehindu.com/news/national/maharashtra/maharashtra-cabinet-approves-cash-rewards-for-information-on-weapons-looted-by-maoists/article71712898.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/maharashtra/maharashtra-cabinet-approves-cash-rewards-for-information-on-weapons-looted-by-maoists/article71712898.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T07:42:42Z",
+      "imageUrl": "https://www.thehindu.com/theme/images/og-image.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "daa07c91a419fbe3ddb8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.29979
+    },
+    {
+      "id": "edb20aa23667a15e2ca97147",
+      "title": "India, Japan set to review defence ties as Rajnath, Jaishankar arrive in Tokyo",
+      "translatedTitle": null,
+      "description": "The two-day visit comes a day after the Quad leaders' summit in Manila, Philippines and as India hosts a joint humanitarian assistance and disaster relief (HADR) exercise involving the four member countries",
+      "url": "https://www.thehindu.com/news/international/india-japan-set-to-review-defence-ties-as-rajnath-jaishankar-arrive-in-tokyo/article71714856.ece",
+      "canonicalUrl": "https://thehindu.com/news/international/india-japan-set-to-review-defence-ties-as-rajnath-jaishankar-arrive-in-tokyo/article71714856.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T07:06:37Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/uzzmkn/article71714876.ece/alternates/LANDSCAPE_1200/rajnath.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "273274cd501a55f86bd8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "6566e5a3c8aa6515962d4f3e",
+          "title": "Rajnath Singh lands in Tokyo as India, Japan set out roadmap for defence and tech ties",
+          "translatedTitle": null,
+          "description": "Rajnath Singh, with EAM Jaishankar, is in Tokyo for the 4th India-Japan 2+2 meeting, reviewing defence ties, maritime security and technology cooperation.",
+          "url": "https://www.hindustantimes.com/india-news/rajnath-singh-lands-in-tokyo-as-india-japan-set-out-roadmap-for-defence-and-tech-ties-101794977256262.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/rajnath-singh-lands-in-tokyo-as-india-japan-set-out-roadmap-for-defence-and-tech-ties-101794977256262.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-18T06:48:00Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/rajnath_sinh_and_japanese_miniser_1787277837216_17_1794980901972_HQVg_1794980902141_5fNi_40652357-605d-4a3a-9cbd-3f8d211dd007_EBGh.jpg",
+          "imageAlt": null,
+          "category": "Technology",
+          "topics": [],
+          "retrievedAt": "2026-11-18T08:17:36Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "273274cd501a55f86bd8",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "rajnath singh lands in tokyo as india japan set out roadmap for defence and tech ties"
+        }
+      ],
+      "rankingScore": 7.2798
+    },
+    {
+      "id": "1b262c08b58e0ab4c7446750",
+      "title": "Cyclone 'Akvan' LIVE updates: Akvan likely to cross between Machilipatnam and Puri, says APSDMA",
+      "translatedTitle": null,
+      "description": "The storm picked up speed to 7 kmph over the past six hours. It was about 580 km from Visakhapatnam, 590 km from Machilipatnam and 710 km from Gopalpur in Odisha",
       "url": "https://www.thehindu.com/news/national/cyclone-akvan-intensify-into-a-severe-cyclonic-storm-imd-weather-forecast-andhra-landfall-november-18-2026-live-updates/article71714340.ece",
       "canonicalUrl": "https://thehindu.com/news/national/cyclone-akvan-intensify-into-a-severe-cyclonic-storm-imd-weather-forecast-andhra-landfall-november-18-2026-live-updates/article71714340.ece",
       "sourceName": "The Hindu",
@@ -133,24 +831,25 @@
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-18T04:02:05Z",
+      "publishedAt": "2026-11-18T07:06:04Z",
       "imageUrl": "https://th-i.thgim.com/public/incoming/alvfjc/article71714443.ece/alternates/LANDSCAPE_1200/PTI11_18_2026_000011B.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
+      "retrievedAt": "2026-11-18T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "516f4e1c3c2cb3037936",
+      "clusterId": "4c1c8fe6c6af18e82262",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.27875,
       "related": [
         {
-          "id": "6ab87f1e8d433a7a549bf15a",
-          "title": "Cyclone Akvan LIVE: Cyclone Akvan intensifies into severe cyclonic storm, to make landfall on November 20",
+          "id": "eb55a1b9f984150fddc93f9f",
+          "title": "Cyclone Akvan update: Severe Cyclonic Storm Akvan to cross coasts between Narsapur and Puri around noon on November 20",
           "translatedTitle": null,
-          "description": "Cyclone Akvan landfall news LIVE: The India Meteorological Department (IMD) said Cyclone Akvan intensified into a severe cyclonic storm over the central parts of the south and adjoining westcentral Bay of Bengal on Wednesday morning.",
+          "description": "Cyclone Akvan update: The India Meteorological Department (IMD) said Cyclone Akvan intensified into a severe cyclonic storm over the central parts of the south and adjoining westcentral Bay of Bengal on Wednesday morning.",
           "url": "https://www.hindustantimes.com/india-news/cyclone-akvan-live-updates-bay-of-bengal-odisha-andhra-tamil-nadu-imd-severe-cyclonic-storm-landfall-cyclone-tracker-101794964478811.html",
           "canonicalUrl": "https://hindustantimes.com/india-news/cyclone-akvan-live-updates-bay-of-bengal-odisha-andhra-tamil-nadu-imd-severe-cyclonic-storm-landfall-cyclone-tracker-101794964478811.html",
           "sourceName": "Hindustan Times",
@@ -166,18 +865,317 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-18T04:17:45Z",
+          "retrievedAt": "2026-11-18T08:17:36Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "516f4e1c3c2cb3037936",
+          "clusterId": "4c1c8fe6c6af18e82262",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
-          "normalizedTitle": "cyclone akvan live cyclone akvan intensifies into severe cyclonic storm to make landfall on november 20"
+          "normalizedTitle": "cyclone akvan update severe cyclonic storm akvan to cross coasts between narsapur and puri around noon on november 20"
         }
+      ]
+    },
+    {
+      "id": "0e6f176a6be68552a43415b7",
+      "title": "When does the 24-hour countdown begin after arrest? Supreme Court answers",
+      "translatedTitle": null,
+      "description": "The Supreme Court ruled that the 24-hour custody limit under Article 22(2) of the Indian Constitution begins when a person’s liberty is curtailed during detention, not from the formal arrest",
+      "url": "https://www.thehindu.com/news/national/when-does-the-24-hour-countdown-begin-after-arrest-supreme-court-answers/article71714859.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/when-does-the-24-hour-countdown-begin-after-arrest-supreme-court-answers/article71714859.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
       ],
-      "rankingScore": 7.38811
+      "language": "en",
+      "publishedAt": "2026-11-18T07:30:38Z",
+      "imageUrl": "https://th-i.thgim.com/public/news/national/dgkl6z/article71714914.ece/alternates/LANDSCAPE_1200/iStock-1643219687.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1fa01a59ae376998e2a0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.27612
+    },
+    {
+      "id": "aac6d6ff69eac34f7093245c",
+      "title": "Madurai Tanishq showroom gold heist: Police recover all the burgled gold, diamond jewellery",
+      "translatedTitle": null,
+      "description": "Special teams went through the video footage of more than 100 CCTV cameras in Madurai and other districts to make the breakthrough, City Police Commissioner S. Rajendiran says after inspecting the recovered ornaments",
+      "url": "https://www.thehindu.com/news/cities/Madurai/madurai-tanishq-showroom-gold-heist-police-recover-all-the-burgled-gold-diamond-jewellery/article71710771.ece",
+      "canonicalUrl": "https://thehindu.com/news/cities/Madurai/madurai-tanishq-showroom-gold-heist-police-recover-all-the-burgled-gold-diamond-jewellery/article71710771.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T07:25:15Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/y9ot6b/article71711507.ece/alternates/LANDSCAPE_1200/11.384%20grams%20of%20gold%203.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9977a17d3e1689629fa5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.26565
+    },
+    {
+      "id": "45011ba8e9e973d963a48807",
+      "title": "M.P. police officers caught on CCTV threatening to plant ganja in couple’s bag; inspector faces inquiry",
+      "translatedTitle": null,
+      "description": "Following the incident, Kotwali police station in-charge Satish Tiwari was attached to the police line. However, no action has been taken so far against Mr. Mishra and City SP Chanchlesh Markam, who is also seen in the footage",
+      "url": "https://www.thehindu.com/news/national/madhya-pradesh/mp-police-officers-caught-on-cctv-threatening-to-plant-ganja-in-couples-bag-inspector-faces-inquiry/article71714913.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/madhya-pradesh/mp-police-officers-caught-on-cctv-threatening-to-plant-ganja-in-couples-bag-inspector-faces-inquiry/article71714913.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T07:18:04Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/jmx59w/article71714898.ece/alternates/LANDSCAPE_1200/Screenshot%202026-11-18%20123905.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4d0167a48b86b1169250",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.25176
+    },
+    {
+      "id": "8a70e2d53dd03ddd1343e445",
+      "title": "Pallikaranai marsh construction ban: Madras HC asks litigants to approach Supreme Court for interim relief",
+      "translatedTitle": null,
+      "description": "Chief Justice Sushrut Arvind Dharmadhikari and Justice G. Arul Murugan dispose of a batch of cases, including the one filed by CREDAI-Chennai, with liberty to the petitioners to move the top court",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/pallikaranai-marsh-construction-ban-madras-hc-asks-litigants-to-approach-supreme-court-for-interim-relief/article71714706.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/tamil-nadu/pallikaranai-marsh-construction-ban-madras-hc-asks-litigants-to-approach-supreme-court-for-interim-relief/article71714706.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T06:32:23Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/yx44b6/article71714761.ece/alternates/LANDSCAPE_1200/DJI_20260718100734_0076_D.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4a3303ff71f47785d975",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.16554
+    },
+    {
+      "id": "ca8fa62f46be56da2ff35a67",
+      "title": "Leader of anti-India propaganda: BJP targets Rahul over his remarks at Columbia University",
+      "translatedTitle": null,
+      "description": "In a fireside chat at Columbia University in New York, Rahul Gandhi said India is sitting on an \"economic disaster\" with massive unemployment",
+      "url": "https://www.thehindu.com/news/national/leader-of-anti-india-propaganda-bjp-targets-rahul-over-his-remarks-at-columbia-university/article71714705.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/leader-of-anti-india-propaganda-bjp-targets-rahul-over-his-remarks-at-columbia-university/article71714705.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T06:23:55Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/fsrzw3/article71714733.ece/alternates/LANDSCAPE_1200/PTI11_18_2026_000025B.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cc69ef98db6107b2cf77",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.14995
+    },
+    {
+      "id": "7ac5d5be88e7dc405dfd4353",
+      "title": "Congress expels DCC member Suhail Shajahan from primary membership after arrest in extortion case",
+      "translatedTitle": null,
+      "description": "Thiruvananthapuram DCC member Shajahan was arrested by Pettah police after allegedly demanding ₹10 lakh from the complainant, Dr. Sabine Sivadasan, owner of a private hospital, in exchange for not circulating a fabricated defamatory content on WhatsApp groups and YouTube channels",
+      "url": "https://www.thehindu.com/news/national/kerala/congress-expels-dcc-member-suhail-shajahan-from-primary-membership-after-arrest-in-extortion-case/article71714501.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/kerala/congress-expels-dcc-member-suhail-shajahan-from-primary-membership-after-arrest-in-extortion-case/article71714501.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T06:13:00Z",
+      "imageUrl": "https://th-i.thgim.com/public/news/national/kerala/5yjiy2/article71714506.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-18%20at%2010.04.27.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0edb0222bbf0ed24c1e6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.13004
+    },
+    {
+      "id": "6168daca9e109388b94ba8eb",
+      "title": "Jharkhand BJP delegation meets Governor, seeks Congress MLA’s arrest in assault case",
+      "translatedTitle": null,
+      "description": "Why is Bhushan Bara not behind bars despite FIR, asks BJP’s 8-member team led by State Tribal Morcha chief; Opposition party also seeks impartial inquiry into death of tribal activist Nisha Bhagat",
+      "url": "https://www.thehindu.com/news/national/jharkhand/jharkhand-bjp-delegation-meets-governor-seeks-congress-mlas-arrest-in-assault-case/article71714590.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/jharkhand/jharkhand-bjp-delegation-meets-governor-seeks-congress-mlas-arrest-in-assault-case/article71714590.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T05:10:01Z",
+      "imageUrl": "https://www.thehindu.com/theme/images/og-image.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ea7e7409fdef4ff81a9f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.01901
+    },
+    {
+      "id": "2ae07ce62d5a18016f5296b4",
+      "title": "India needs a comprehensive doctrine on space security",
+      "translatedTitle": null,
+      "description": "India’s objective should not be to turn outer space into another arena of conflict, but to ensure that disruption in space does not translate into vulnerability on Earth",
+      "url": "https://www.thehindu.com/opinion/op-ed/india-needs-a-comprehensive-doctrine-on-space-security/article71713238.ece",
+      "canonicalUrl": "https://thehindu.com/opinion/op-ed/india-needs-a-comprehensive-doctrine-on-space-security/article71713238.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T04:23:54Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/om1rm9/article71713432.ece/alternates/LANDSCAPE_1200/20261031280L.jpg",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f80e3e93d015b4c6403c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.94171,
+      "related": []
+    },
+    {
+      "id": "d0648cb8774bda00edaf9729",
+      "title": "Mekedatu dam row: DMK’s Duraimurugan slams Karnataka CM Shivakumar’s remarks, warns of Thanjavur delta crisis",
+      "translatedTitle": null,
+      "description": "Karnataka must clear several central and state approvals before Mekedatu dam, DMK’s Duraimurugan says, warning Tamil Nadu’s Thanjavur delta is at risk.",
+      "url": "https://www.hindustantimes.com/india-news/mekedatu-dam-row-dmk-s-duraimurugan-slams-karnataka-cm-shivakumar-s-remarks-warns-of-thanjavur-delta-crisis-101794976568602.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/mekedatu-dam-row-dmk-s-duraimurugan-slams-karnataka-cm-shivakumar-s-remarks-warns-of-thanjavur-delta-crisis-101794976568602.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T06:49:16Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/Karnataka-to-release-10-tmc-ft-of-water-from-the-K_1695272473137_1794979156831_jNHJ_9bf2db05-5ffe-4979-bd52-85102719cffe_6S3W.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1b5d90a4420cb235c2f0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92698
+    },
+    {
+      "id": "1c39e30e53b47efd91711df0",
+      "title": "Top Court Files Contempt Plea Against Lawyer For Remarks On Chief Justice",
+      "translatedTitle": null,
+      "description": "Supreme Court issues notice on contempt plea filed by against lawyer's remarks on Chief Justice.",
+      "url": "https://www.ndtv.com/india-news/unsavoury-remarks-against-cji-sc-issues-contempt-notice-to-lawyer-12342433",
+      "canonicalUrl": "https://ndtv.com/india-news/unsavoury-remarks-against-cji-sc-issues-contempt-notice-to-lawyer-12342433",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T06:45:58Z",
+      "imageUrl": "https://c.ndtvimg.com/2025-11/bt4svfms_justice-surya-kant_625x300_24_November_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0f83651267dc39cd2a7d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92079
     },
     {
       "id": "e2d9f30c3548593246f48e9c",
@@ -206,69 +1204,128 @@
       "clusterId": "86481769ac13d425e9e8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.27075
+      "rankingScore": 6.86827,
+      "related": []
     },
     {
-      "id": "d415ac7f23d132de971782cc",
-      "title": "Fresh encounter in J&K’s Kulgam as security forces track escaped LeT terrorist Lateef Bhat",
+      "id": "2f39e8a42fa732e0036de4d5",
+      "title": "Supreme Court issues notice on contempt plea against lawyer over remarks on CJI",
       "translatedTitle": null,
-      "description": "There was no exchange of fire since November 16; contact with the terrorists was established during the searches this morning, leading to a renewed firefight to neutralise the only surviving local terrorist in Kashmir valley",
-      "url": "https://www.thehindu.com/news/national/fresh-encounter-in-kulgam-lateef-bhat-november-18-2026/article71714380.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/fresh-encounter-in-kulgam-lateef-bhat-november-18-2026/article71714380.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
+      "description": "The top court on Wednesday considered the AG’s letter along with the other material to entertain the petition.",
+      "url": "https://www.hindustantimes.com/india-news/supreme-court-cji-surya-kant-notice-contempt-petition-101794981935302.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/supreme-court-cji-surya-kant-notice-contempt-petition-101794981935302.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
       "sourceCountry": "IN",
       "editionCountry": "IN",
       "coverageCountries": [
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-18T02:43:53Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/lmtj51/article71714384.ece/alternates/LANDSCAPE_1200/India_Kashmir_Gunbattle_41828.jpg",
+      "publishedAt": "2026-11-18T06:09:36Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/supreme_court_1794981985833_QjiX_1794981985961_QtkF_79b00d65-5f3c-40c0-b029-3cb155cbc878_vzr1.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
+      "retrievedAt": "2026-11-18T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "722b8f41a86a2f8bb26d",
+      "clusterId": "780106a88fdcc1a6a485",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "c5b7713e3a8f0bd10d4b8074",
-          "title": "LeT terrorist Lateef Bhat escaped operation that killed aide; third getaway in a year: Officials",
-          "translatedTitle": null,
-          "description": "Bhat, who carries a ₹15-lakh bounty on his head, is the prime suspect in the November 11 attack on three CRPF personnel in Kulgam.",
-          "url": "https://www.hindustantimes.com/india-news/let-terrorist-lateef-bhat-escaped-operation-that-killed-aide-third-getaway-in-a-year-officials-101794969984630.html",
-          "canonicalUrl": "https://hindustantimes.com/india-news/let-terrorist-lateef-bhat-escaped-operation-that-killed-aide-third-getaway-in-a-year-officials-101794969984630.html",
-          "sourceName": "Hindustan Times",
-          "sourceDomain": "hindustantimes.com",
-          "sourceCountry": "IN",
-          "editionCountry": "IN",
-          "coverageCountries": [
-            "IN"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-18T03:02:59Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/PTI11-17-2026-000146A-0_1794970206942_YaNt_1794970235975_nm8a_0c9dec1f-6321-4ea7-8783-79741b59a7e7_b5pC.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-18T04:17:45Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "722b8f41a86a2f8bb26d",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "let terrorist lateef bhat escaped operation that killed aide third getaway in a year officials"
-        }
+      "related": [],
+      "rankingScore": 6.85388
+    },
+    {
+      "id": "1a83c4a6f6c8ed45ae38ab1f",
+      "title": "YSRCP, BRS upset over omissions in Sonia Gandhi’s ‘Belonging: A Journey of Love’",
+      "translatedTitle": null,
+      "description": "The BRS alleged the Congress leadership never demonstrated genuine affection or respect for Telangana.",
+      "url": "https://www.hindustantimes.com/india-news/ysrcp-brs-upset-over-omissions-in-sonia-gandhi-s-belonging-a-journey-of-love-101794980485897.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/ysrcp-brs-upset-over-omissions-in-sonia-gandhi-s-belonging-a-journey-of-love-101794980485897.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
       ],
-      "rankingScore": 7.23667
+      "language": "en",
+      "publishedAt": "2026-11-18T05:45:07Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/sonia_gandhi_1794980574966_zleN_1794980575155_KW4e_8f7dff75-ee81-4779-a60a-33993c9df6a3_BUBp.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5f19264e5062ab6f36f7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.81008
+    },
+    {
+      "id": "7eb04e69c0cd248b19bf7353",
+      "title": "9 years on, Niwari admin forms panel to audit Orchha’s Ram Raja temple treasury",
+      "translatedTitle": null,
+      "description": "Niwari collector Jamuna Bhide dismissed rumours about a break-in, saying some people were spreading misinformation regarding the inspection",
+      "url": "https://www.hindustantimes.com/india-news/9-years-on-niwari-admin-forms-panel-to-audit-orchha-s-ram-raja-temple-treasury-101794978601272.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/9-years-on-niwari-admin-forms-panel-to-audit-orchha-s-ram-raja-temple-treasury-101794978601272.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T05:10:00Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/The-panel-has-been-constituted-to-inventory-donati_1794978592551_4eBg.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d8abb54a523f4133320d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.74898
+    },
+    {
+      "id": "7a1813e4c4a2367e35491e14",
+      "title": "‘Wait for report’: Supriya Sule on Rohit pawar’s allegations over Ajit Pawar’s plane crash",
+      "translatedTitle": null,
+      "description": "Sule pointed out that the aircraft accident fell under the jurisdiction of the Union civil aviation ministry.",
+      "url": "https://www.hindustantimes.com/india-news/wait-for-report-supriya-sule-on-rohit-pawar-s-allegations-over-ajit-pawar-s-plane-crash-101794974971784.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/wait-for-report-supriya-sule-on-rohit-pawar-s-allegations-over-ajit-pawar-s-plane-crash-101794974971784.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-18T04:17:13Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/sulepawar_1794975286994_TSdV_1794975291383_onfA_b6f3555f-dec6-4832-bdf2-238e6fbfb54c_8Fvh.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T08:17:36Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dd21c86eda5364eea3d6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.66078
     },
     {
       "id": "90f6da2f9ff90ab38bcd9fb2",
@@ -290,76 +1347,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
+      "retrievedAt": "2026-11-18T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e5a48cedce3844b1cb5e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.07468
-    },
-    {
-      "id": "d304d754d0580e4214038615",
-      "title": "Indian national missing after attacks on commercial vessel in Strait of Hormuz",
-      "translatedTitle": null,
-      "description": "MEA said that of the 24 Indian nationals on board MT Tara Gas, 21 have been safely evacuated",
-      "url": "https://www.thehindu.com/news/national/indian-national-missing-after-attacks-on-commercial-vessel-in-strait-of-hormuz/article71714331.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/indian-national-missing-after-attacks-on-commercial-vessel-in-strait-of-hormuz/article71714331.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-18T01:07:32Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/xfjn7j/article71714333.ece/alternates/LANDSCAPE_1200/20261110278L.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "82dde117ccbb48676d8a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "b626d127e51deb5a2fbbd666",
-          "title": "Two Indian crew members injured, one missing after missile attack on LPG tanker in Strait of Hormuz",
-          "translatedTitle": null,
-          "description": "The vessel was struck twice within hours, with the second attack triggering a fire that left the crew unable to access lifeboats and rafts.",
-          "url": "https://www.hindustantimes.com/india-news/two-indian-crew-members-injured-one-missing-after-missile-attack-on-lpg-tanker-in-strait-of-hormuz-101794961875057.html",
-          "canonicalUrl": "https://hindustantimes.com/india-news/two-indian-crew-members-injured-one-missing-after-missile-attack-on-lpg-tanker-in-strait-of-hormuz-101794961875057.html",
-          "sourceName": "Hindustan Times",
-          "sourceDomain": "hindustantimes.com",
-          "sourceCountry": "IN",
-          "editionCountry": "IN",
-          "coverageCountries": [
-            "IN"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-18T02:08:40Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/18/1600x900/logo/IRAN-CRISIS-TANKER-2_1794962223321_80kW_1794962235349_tDCb_2dc8c804-6d09-4921-af43-1e59e7de649e_tGTq.JPG",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-18T04:17:45Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "82dde117ccbb48676d8a",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "two indian crew members injured one missing after missile attack on lpg tanker in strait of hormuz"
-        }
-      ],
-      "rankingScore": 7.06455
+      "rankingScore": 6.64154,
+      "related": []
     },
     {
       "id": "045a793abbbb56f5943db792",
@@ -381,195 +1377,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
+      "retrievedAt": "2026-11-18T08:17:36Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "5016b42ac8cd6535bb11",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.0579
-    },
-    {
-      "id": "e13e332bb010e28d94f466e8",
-      "title": "Congress approves of SIR in Andamans and South but opposes it elsewhere: BJP",
-      "translatedTitle": null,
-      "description": "Kerala Chief Minister V.D. Satheesan described SIR as good, while Karnataka Minister Satish Jarkiholi called it constitutional. Why then is Rahul Gandhi opposing it, asked Gaurav Bhatia",
-      "url": "https://www.thehindu.com/news/national/congress-approves-of-sir-in-andamans-and-south-but-opposes-it-elsewhere-bjp/article71712762.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/congress-approves-of-sir-in-andamans-and-south-but-opposes-it-elsewhere-bjp/article71712762.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-18T01:28:58Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/s64x8/article71713233.ece/alternates/LANDSCAPE_1200/20261109175L.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e0a4f574dd418baca236",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.05152
-    },
-    {
-      "id": "64fa4d17ec316a533b9ae519",
-      "title": "Ukrainian Drones, Missiles Strike Kerch Bridge That Links Russia With Crimea",
-      "translatedTitle": null,
-      "description": "The Kerch Bridge is a crucial link in moving military and civilian supplies from Russia to Crimea .",
-      "url": "https://www.ndtv.com/world-news/ukrainian-drones-missiles-strike-kerch-bridge-that-links-russia-with-crimea-12341620",
-      "canonicalUrl": "https://ndtv.com/world-news/ukrainian-drones-missiles-strike-kerch-bridge-that-links-russia-with-crimea-12341620",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-18T03:48:49Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/ho2m3qi8_kerch-bridge-afp_625x300_18_November_26.jpeg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d006a9f6c75341bfea0d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.04164
-    },
-    {
-      "id": "441876fe6b8621beeb6e0008",
-      "title": "Cyclone 'Akvan' updates: Akvan stationary, likely to move slowly north-northwestwards",
-      "translatedTitle": null,
-      "description": "The cyclonic storm is likely to move slowly north-northwestwards and intensify further into a Severe Cyclonic Storm over westcentral Bay of Bengal around November 18, 2026 morning",
-      "url": "https://www.thehindu.com/news/national/cyclone-akvan-cyclonic-storm-forms-over-bay-of-bengal-andhra-pradesh-november-17-2026-live-updates/article71710277.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/cyclone-akvan-cyclonic-storm-forms-over-bay-of-bengal-andhra-pradesh-november-17-2026-live-updates/article71710277.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-18T01:20:04Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/xeru9i/article71710299.ece/alternates/LANDSCAPE_1200/Cyclone-Akvan-tGTEGQCM9L.3.jpg.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1cad80246b25504fe283",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 7.03608,
+      "rankingScore": 6.6281,
       "related": []
-    },
-    {
-      "id": "47e6906eb37b8e957b9d3bbb",
-      "title": "ECI issues fresh timeline for ASDD voters’ re-enrolment",
-      "translatedTitle": null,
-      "description": "The Election Commission of India (ECI) on Tuesday issued a fresh timeline for enumerating electors marked absent, shifted, dead or duplicate (ASDD) in the ongoing special intensive revision (SIR) of electoral rolls",
-      "url": "https://www.hindustantimes.com/india-news/eci-issues-fresh-timeline-for-asdd-voters-reenrolment-101794941744612.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/eci-issues-fresh-timeline-for-asdd-voters-reenrolment-101794941744612.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-18T02:17:00Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/ht-generic_india1_1751287243850_1751287256749.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9cd8b676a3d28ad792c2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.86709
-    },
-    {
-      "id": "6c36c9fd24b9a103ff6834f7",
-      "title": "US Congress Agrees On Civilian Plane Locator Mandate After 2025 Midair Collision",
-      "translatedTitle": null,
-      "description": "Aircraft flying in crowded airspace is required to have the ADS-B Out system that broadcasts its location",
-      "url": "https://www.ndtv.com/world-news/us-congress-agrees-on-civilian-plane-locator-mandate-after-2025-midair-collision-12341496",
-      "canonicalUrl": "https://ndtv.com/world-news/us-congress-agrees-on-civilian-plane-locator-mandate-after-2025-midair-collision-12341496",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-18T02:12:29Z",
-      "imageUrl": "https://c.ndtvimg.com/2025-01/m5aiqih8_american-airlines-crash_625x300_30_January_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "38a0d16d1a3df02f6027",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.85888
-    },
-    {
-      "id": "4ddccef00479171bce34908b",
-      "title": "Prince William Presents 5 Earthshot Prize Winners With $1.3 Million Each",
-      "translatedTitle": null,
-      "description": "The 2026 Earthshot Prize Award winners pose for a photograph with their awards.",
-      "url": "https://www.ndtv.com/world-news/prince-william-presents-5-earthshot-prize-winners-with-1-3-million-each-12341671",
-      "canonicalUrl": "https://ndtv.com/world-news/prince-william-presents-5-earthshot-prize-winners-with-1-3-million-each-12341671",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-18T01:59:23Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/vg0g0i3k_2026-earthshot-prize-award-winners_625x300_18_November_26.jpeg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:49Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a95c161bdc89b787cd79",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.83527
     },
     {
       "id": "2798a5e1a7f2081405111130",
@@ -598,368 +1414,8 @@
       "clusterId": "c316060a14883d8f6d04",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.68904
-    },
-    {
-      "id": "1b922dc8665e36934a065e0a",
-      "title": "Ahead of polls, BJP plans extensive public outreach campaign and stronger booth level management in U.P.",
-      "translatedTitle": null,
-      "description": "BJP national president Nitin Nabin said the BJP would register a historic victory in Uttar Pradesh for the third consecutive time in 2027",
-      "url": "https://www.thehindu.com/news/national/ahead-of-polls-bjp-to-focus-on-extensive-public-outreach-campaign-and-stronger-booth-level-management-in-up/article71712599.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/ahead-of-polls-bjp-to-focus-on-extensive-public-outreach-campaign-and-stronger-booth-level-management-in-up/article71712599.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T19:55:18Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/3okozs/article71712860.ece/alternates/LANDSCAPE_1200/PTI11_17_2026_000277B.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dfae6ce4f09faf262448",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.55145,
+      "rankingScore": 6.18097,
       "related": []
-    },
-    {
-      "id": "34b2f3b7dddc78102209d934",
-      "title": "Vijay inspects 108 emergency response call centre in Chennai",
-      "translatedTitle": null,
-      "description": "As part of efforts to further strengthen the 108 emergency ambulance service, the government has already issued orders for the procurement of an additional 100 ambulances",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/vijay-inspects-108-emergency-response-call-centre-in-chennai/article71711738.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/tamil-nadu/vijay-inspects-108-emergency-response-call-centre-in-chennai/article71711738.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T19:46:58Z",
-      "imageUrl": "https://th-i.thgim.com/public/news/national/tamil-nadu/3f4wi0/article71711739.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-17%20at%205.13.15%20PM.jpeg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4a9f979f3f5b5062404a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.54083,
-      "related": []
-    },
-    {
-      "id": "2ae07ce62d5a18016f5296b4",
-      "title": "India needs a comprehensive doctrine on space security",
-      "translatedTitle": null,
-      "description": "India’s objective should not be to turn outer space into another arena of conflict, but to ensure that disruption in space does not translate into vulnerability on Earth",
-      "url": "https://www.thehindu.com/opinion/op-ed/india-needs-a-comprehensive-doctrine-on-space-security/article71713238.ece",
-      "canonicalUrl": "https://thehindu.com/opinion/op-ed/india-needs-a-comprehensive-doctrine-on-space-security/article71713238.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T19:32:33Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/om1rm9/article71713432.ece/alternates/LANDSCAPE_1200/20261031280L.jpg",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f80e3e93d015b4c6403c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.52265,
-      "related": []
-    },
-    {
-      "id": "313353cb6d7307b61798fc3f",
-      "title": "Stalin avoids Rahul’s phone call, greets Sonia on her book",
-      "translatedTitle": null,
-      "description": "Sources say DMK chief didn’t wish to engage with Congress leader following strains in their ‘brotherly’ bond in the run-up to the last Assembly election and the Congress jumping ship after the results",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/stalin-avoids-rahuls-phone-call-greets-sonia-on-her-book/article71713431.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/tamil-nadu/stalin-avoids-rahuls-phone-call-greets-sonia-on-her-book/article71713431.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T18:55:27Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/27mglo/article71713430.ece/alternates/LANDSCAPE_1200/Contributions-tGLPF48TKR.3.jpg.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "77371bac6e23bb4baa8b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.47697,
-      "related": []
-    },
-    {
-      "id": "6195599ebc94f6d968f8ec55",
-      "title": "Israel Parliament Elects Gadi Eisenkot Ally As Speaker In Blow For Netanyahu",
-      "translatedTitle": null,
-      "description": "Sixty six lawmakers out of 120 voted in favour of Matan Kahana.",
-      "url": "https://www.ndtv.com/world-news/israel-parliament-elects-gadi-eisenkot-ally-matan-kahana-as-speaker-in-blow-for-netanyahu-12341395",
-      "canonicalUrl": "https://ndtv.com/world-news/israel-parliament-elects-gadi-eisenkot-ally-matan-kahana-as-speaker-in-blow-for-netanyahu-12341395",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T22:14:12Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/3s8hkr5_matan-kahana_625x300_18_November_26.jpeg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T00:17:57Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c79a7e004953564aea70",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.47105,
-      "related": []
-    },
-    {
-      "id": "aa1caefe3190bbc599ba5293",
-      "title": "Azam Khan Gets Relief As Supreme Court Stays Conviction, High Court Grants Interim Bail",
-      "translatedTitle": null,
-      "description": "The Enforcement Directorate had arrested Azam Khan (78) from the Rampur district jail on October 31.",
-      "url": "https://www.ndtv.com/india-news/azam-khan-gets-relief-as-supreme-court-stays-conviction-high-court-grants-interim-bail-12341315",
-      "canonicalUrl": "https://ndtv.com/india-news/azam-khan-gets-relief-as-supreme-court-stays-conviction-high-court-grants-interim-bail-12341315",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T21:23:58Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/22qogov4_azam-khan_625x300_16_November_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T00:17:57Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ef8889e7375f3440c67b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.39965,
-      "related": []
-    },
-    {
-      "id": "c7184738ee70a9e6bdfb5f13",
-      "title": "19 Killed As Russian Military Transport Plane Crashes In Siberia",
-      "translatedTitle": null,
-      "description": "According to local reports, no one aboard the plane survived.",
-      "url": "https://www.ndtv.com/world-news/13-killed-as-russian-military-transport-plane-crashes-in-siberia-report-12341047",
-      "canonicalUrl": "https://ndtv.com/world-news/13-killed-as-russian-military-transport-plane-crashes-in-siberia-report-12341047",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T19:48:04Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/upf8bo0c_russia-plane-crash_650x400_18_November_26.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T00:17:57Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c3cc06d8808c816a870f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.27222,
-      "related": []
-    },
-    {
-      "id": "05453b6f5fb0bf6f41cbce89",
-      "title": "Quad leaders unveil initiatives to boost Indo-Pacific trade, connectivity; oppose coercion",
-      "translatedTitle": null,
-      "description": "PM Modi joined US President Donald Trump, Australian PM Anthony Albanese and Japanese Prime Minister Sanae Takaichi for the Quad Leaders Summit in Manila.",
-      "url": "https://www.hindustantimes.com/india-news/manila-quad-leaders-unveil-initiatives-to-boost-indo-pacific-trade-connectivity-oppose-coercion-101794943628413.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/manila-quad-leaders-unveil-initiatives-to-boost-indo-pacific-trade-connectivity-oppose-coercion-101794943628413.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T19:44:11Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/17/1600x900/logo/QUAD_MANILA_1794944593625_k9wB_1794944593897_u8qd_f15509dc-2266-4d0c-bf97-998852911aac_M5EI.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "169ec8805dfae0d83add",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.2673,
-      "related": []
-    },
-    {
-      "id": "27d432a0de1dd4b595fd87dc",
-      "title": "India sitting on 'economic disaster': Rahul Gandhi at Columbia University",
-      "translatedTitle": null,
-      "description": "Arguing that small and medium businesses and agriculture form the backbone of India's economy and are crucial for job creation, Rahul Gandhi said the country's manufacturing sector needed to be rebuilt",
-      "url": "https://www.thehindu.com/news/national/india-sitting-on-economic-disaster-rahul-gandhi-at-columbia-university/article71714437.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/india-sitting-on-economic-disaster-rahul-gandhi-at-columbia-university/article71714437.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-18T04:04:43Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/n3egtz/article71714452.ece/alternates/LANDSCAPE_1200/PTI11_18_2026_000012A.jpg",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d190489952a0d8e4c5b9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.9934
-    },
-    {
-      "id": "feff689209360aa384c53e85",
-      "title": "Transgender rights, healthcare should not be compromised",
-      "translatedTitle": null,
-      "description": "Clinical understanding of the care needs of a transgender person remains rudimentary in India. Doctors, nurses, receptionists, security staff and hospital administrators need to be trained in basic transgender health.",
-      "url": "https://www.thehindu.com/opinion/lead/transgender-rights-healthcare-should-not-be-compromised/article71713242.ece",
-      "canonicalUrl": "https://thehindu.com/opinion/lead/transgender-rights-healthcare-should-not-be-compromised/article71713242.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-18T03:42:05Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/coyez8/article71713439.ece/alternates/LANDSCAPE_1200/TRANS%20BILL%20PROTEST%20DELHI%202026_26_03_105.jpg",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8b565f0abdbc5b7fd043",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 5.94833,
-      "related": []
-    },
-    {
-      "id": "60dfb057706a27874b53e8ef",
-      "title": "Delhi’s air pollution: What can an air purifier really do? | Explained",
-      "translatedTitle": null,
-      "description": "With sales surging amid worsening air quality across Delhi-NCR, pulmonologists explain what air purifiers can filter, what they cannot remove and how much protection they offer against pollution",
-      "url": "https://www.thehindu.com/news/cities/Delhi/delhis-air-pollution-what-can-an-air-purifier-really-do-explained/article71714432.ece",
-      "canonicalUrl": "https://thehindu.com/news/cities/Delhi/delhis-air-pollution-what-can-an-air-purifier-really-do-explained/article71714432.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-18T03:37:36Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/e27u7k/article71714434.ece/alternates/LANDSCAPE_1200/TH26-Rocky-replGG2FBVHEF.5.jpg.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b18fedb6f179ca4276b1",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.93951
-    },
-    {
-      "id": "77f996fc86c2a2ed7efc4709",
-      "title": "Ladakh hill council polls: 541 candidates file nominations",
-      "translatedTitle": null,
-      "description": "Meanwhile, ongoing protests organised by the Leh Apex Body, an amalgam of civil society bodies in Ladakh, continued for the sixth day on November 17 over six demands",
-      "url": "https://www.thehindu.com/news/national/ladakh/ladakh-hill-council-polls-541-candidates-file-nominations/article71713482.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/ladakh/ladakh-hill-council-polls-541-candidates-file-nominations/article71713482.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-18T03:13:41Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/builgd/article71714423.ece/alternates/LANDSCAPE_1200/IMG_Voters_queue_up_outs_2_1_LLC8JS27.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "53cfc6619791bf9da864",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.89309
     },
     {
       "id": "8c14e5afc7a4d7942161cdcf",
@@ -988,8 +1444,8 @@
       "clusterId": "abe906d4d43ec3b98eb2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.18917
+      "rankingScore": 4.71095,
+      "related": []
     },
     {
       "id": "c6591c5e8c41dfac89d8a34f",
@@ -1018,7 +1474,7 @@
       "clusterId": "80bc002a383e41cb3b73",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.97405,
+      "rankingScore": 4.53868,
       "related": []
     },
     {
@@ -1048,7 +1504,7 @@
       "clusterId": "86231ee0681e226d932a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.97309,
+      "rankingScore": 4.53791,
       "related": []
     },
     {
@@ -1078,7 +1534,7 @@
       "clusterId": "32d1bf87b35587915bd9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.95828,
+      "rankingScore": 4.52605,
       "related": []
     },
     {
@@ -1108,158 +1564,8 @@
       "clusterId": "0d0c44fb5699076f3a0e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.95685,
+      "rankingScore": 4.5249,
       "related": []
-    },
-    {
-      "id": "aaf9d197a5ac141705cce9e6",
-      "title": "Man Wanted In Delhi Bar Firing Shot In Leg During Encounter",
-      "translatedTitle": null,
-      "description": "The firing incident at the bar took place on Monday night. (Representational)",
-      "url": "https://www.ndtv.com/delhi-news/man-wanted-in-delhi-bar-firing-shot-in-leg-during-encounter-12341220",
-      "canonicalUrl": "https://ndtv.com/delhi-news/man-wanted-in-delhi-bar-firing-shot-in-leg-during-encounter-12341220",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T20:07:37Z",
-      "imageUrl": "https://c.ndtvimg.com/2024-02/80ef0ba_delhi-police-generic_625x300_04_February_24.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T00:17:57Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e4a6c230b897b3142c76",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.94729,
-      "related": []
-    },
-    {
-      "id": "357fe7139439d326349f984b",
-      "title": "No SpiceJet Departures Since 7 pm, Hundreds Of Passengers Stranded In Mumbai",
-      "translatedTitle": null,
-      "description": "SpiceJet is yet to comment on the flight delays.",
-      "url": "https://www.ndtv.com/world-news/no-spicejet-departures-from-mumbai-airport-since-7-pm-hundreds-of-passengers-stranded-12341118",
-      "canonicalUrl": "https://ndtv.com/world-news/no-spicejet-departures-from-mumbai-airport-since-7-pm-hundreds-of-passengers-stranded-12341118",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T19:42:15Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/6fssdgck_spicejet-cancellations_625x300_18_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T00:17:57Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fd579852da3b8dbc0e28",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.91485,
-      "related": []
-    },
-    {
-      "id": "2c1ae9e737367647921861da",
-      "title": "\"Created Problems, Deeply Regret\": Jensen Huang's Full Statement",
-      "translatedTitle": null,
-      "description": "Former Jensen Huang on Tuesday issued a statement after he quit last week.",
-      "url": "https://www.ndtv.com/world-news/created-problems-own-my-mistakes-jensen-huangs-full-statement-12340527",
-      "canonicalUrl": "https://ndtv.com/world-news/created-problems-own-my-mistakes-jensen-huangs-full-statement-12340527",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T19:31:47Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/s0l519uk_jensen-huang-reuters_625x300_16_November_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T00:17:57Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "943d6269c0bef94578fd",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.90169,
-      "related": []
-    },
-    {
-      "id": "827fe6748d026d8172d0032b",
-      "title": "AI Agents Could Displace About 10% Of Workers In 5 Years: IBM Chief To NDTV",
-      "translatedTitle": null,
-      "description": "Artificial Intelligence will not take away many jobs, and it will generate different kinds of jobs. And as of now, there are three areas where they can contribute substantially, Arvind Krishna, chairman and CEO of IBM told NDTV today.",
-      "url": "https://www.ndtv.com/india-news/ai-agents-could-displace-about-10-of-workers-in-5-years-ibm-chief-to-ndtv-12341127",
-      "canonicalUrl": "https://ndtv.com/india-news/ai-agents-could-displace-about-10-of-workers-in-5-years-ibm-chief-to-ndtv-12341127",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T19:19:58Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/or18gq7k_rk-ibm-_625x300_18_November_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-11-18T00:17:57Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a1ec54aee32329ad6a08",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.88698,
-      "related": []
-    },
-    {
-      "id": "2a145a6aa657b2094745fff2",
-      "title": "Elanthoor human sacrifice case: witness examination nearing final stage",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.thehindu.com/news/national/kerala/elanthoor-human-sacrifice-case-witness-examination-nearing-final-stage/article71712944.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/kerala/elanthoor-human-sacrifice-case-witness-examination-nearing-final-stage/article71712944.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T20:12:44Z",
-      "imageUrl": "https://www.thehindu.com/theme/images/og-image.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f59864ebc80f38e5811a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.82393
     },
     {
       "id": "c75ca38db939da41dd83e592",
@@ -1288,7 +1594,7 @@
       "clusterId": "65c62e758b338e1e81d8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.82112,
+      "rankingScore": 4.4162,
       "related": []
     },
     {
@@ -1318,8 +1624,38 @@
       "clusterId": "0ac7c1012d6922fba903",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.81488
+      "rankingScore": 4.41121,
+      "related": []
+    },
+    {
+      "id": "2a145a6aa657b2094745fff2",
+      "title": "Elanthoor human sacrifice case: witness examination nearing final stage",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.thehindu.com/news/national/kerala/elanthoor-human-sacrifice-case-witness-examination-nearing-final-stage/article71712944.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/kerala/elanthoor-human-sacrifice-case-witness-examination-nearing-final-stage/article71712944.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-17T20:12:44Z",
+      "imageUrl": "https://www.thehindu.com/theme/images/og-image.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T04:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f59864ebc80f38e5811a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 4.2743,
+      "related": []
     },
     {
       "id": "da2daf5238d26deb1b7eba95",
@@ -1348,8 +1684,8 @@
       "clusterId": "be14b8ec9ece38d9a91f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.79305
+      "rankingScore": 4.24958,
+      "related": []
     },
     {
       "id": "ecfe71141807a681bd71679b",
@@ -1378,8 +1714,8 @@
       "clusterId": "d88f7aced9f040eb14ee",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.78732
+      "rankingScore": 4.24499,
+      "related": []
     },
     {
       "id": "4f53e52662ce6971bf504679",
@@ -1408,8 +1744,8 @@
       "clusterId": "a991f1046f2ee72e0ebe",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.78336
+      "rankingScore": 4.24182,
+      "related": []
     },
     {
       "id": "a1e76cfc2376d73437fcb8bf",
@@ -1438,38 +1774,8 @@
       "clusterId": "ebf3e775e8600b7f7f6a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.75913
-    },
-    {
-      "id": "adf39586e5a6c6a4d67e940a",
-      "title": "No mechanism to check if arbitrator is fit enough, says Madras HC judge Anand Venkatesh",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/no-mechanism-to-check-if-arbitrator-is-fit-enough-says-madras-hc-judge-anand-venkatesh/article71713355.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/tamil-nadu/no-mechanism-to-check-if-arbitrator-is-fit-enough-says-madras-hc-judge-anand-venkatesh/article71713355.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-17T18:33:22Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/mbl033/article71713410.ece/alternates/LANDSCAPE_1200/2085_19_9_2026_13_26_46_4_DSC_9359.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-18T04:17:45Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "62de3ad869c30e79f25e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.70052
+      "rankingScore": 4.22241,
+      "related": []
     },
     {
       "id": "f0cf9e6395a97ccd7211f965",
@@ -1498,8 +1804,38 @@
       "clusterId": "3dbbbfbc85f66cd103ae",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.55836
+      "rankingScore": 4.20578,
+      "related": []
+    },
+    {
+      "id": "adf39586e5a6c6a4d67e940a",
+      "title": "No mechanism to check if arbitrator is fit enough, says Madras HC judge Anand Venkatesh",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/no-mechanism-to-check-if-arbitrator-is-fit-enough-says-madras-hc-judge-anand-venkatesh/article71713355.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/tamil-nadu/no-mechanism-to-check-if-arbitrator-is-fit-enough-says-madras-hc-judge-anand-venkatesh/article71713355.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-17T18:33:22Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/mbl033/article71713410.ece/alternates/LANDSCAPE_1200/2085_19_9_2026_13_26_46_4_DSC_9359.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-18T04:17:45Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "62de3ad869c30e79f25e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 4.17548,
+      "related": []
     }
   ]
 }
