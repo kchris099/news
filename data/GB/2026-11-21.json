@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T12:17:34Z",
-  "lastAttemptAt": "2026-11-21T12:17:34Z",
-  "lastSuccessfulUpdate": "2026-11-21T12:17:34Z",
-  "status": "current",
+  "generatedAt": "2026-11-21T16:17:37Z",
+  "lastAttemptAt": "2026-11-21T16:17:37Z",
+  "lastSuccessfulUpdate": "2026-11-21T16:17:37Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-21T12:17:33Z",
-      "lastSuccessAt": "2026-11-21T12:17:34Z",
-      "articlesRetrieved": 28,
-      "responseTimeMs": 453,
+      "lastAttemptAt": "2026-11-21T16:17:36Z",
+      "lastSuccessAt": "2026-11-21T16:17:37Z",
+      "articlesRetrieved": 25,
+      "responseTimeMs": 380,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-21T12:17:33Z",
-      "lastSuccessAt": "2026-11-21T12:17:34Z",
+      "lastAttemptAt": "2026-11-21T16:17:36Z",
+      "lastSuccessAt": "2026-11-21T16:17:37Z",
       "articlesRetrieved": 144,
-      "responseTimeMs": 343,
+      "responseTimeMs": 386,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-21T12:17:33Z",
-      "lastSuccessAt": "2026-11-21T12:17:34Z",
-      "articlesRetrieved": 9,
-      "responseTimeMs": 479,
+      "lastAttemptAt": "2026-11-21T16:17:36Z",
+      "lastSuccessAt": "2026-11-21T16:17:37Z",
+      "articlesRetrieved": 10,
+      "responseTimeMs": 337,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-21T12:17:33Z",
-      "lastSuccessAt": "2026-11-21T12:17:34Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 280,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-21T16:17:36Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -78,107 +78,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "f9e338c41c912c7083fa",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 10.2063
-    },
-    {
-      "id": "751dbf32eb9e8f0daeb6c0bd",
-      "title": "Australia's Chaudhary downs England in tetchy first T20",
-      "translatedTitle": null,
-      "description": "Unlikely Australia international Nikhil Chaudhary rattles England and secures a tense and tetchy final-over victory in the first T20.",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cme39qlevnrqo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/cricket/articles/cme39qlevnrqo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T12:16:31Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a75a/live/19e88440-e5a1-11f1-a094-5fdc692f3e33.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "444e6e9febc13c3bba3c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "0cfb61c536cada02193be20b",
-          "title": "England lose T20 opener against Australia after thrilling finale in Melbourne",
-          "translatedTitle": null,
-          "description": "Nikhil Chaudhary helped Australia to victory in a contest that went down to the penultimate ball",
-          "url": "https://www.independent.co.uk/sport/cricket/england-australia-t20-melbourne-harry-brook-b3089132.html",
-          "canonicalUrl": "https://independent.co.uk/sport/cricket/england-australia-t20-melbourne-harry-brook-b3089132.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-21T12:08:02Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/21/12/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-21T12:17:34Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "444e6e9febc13c3bba3c",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "england lose t20 opener against australia after thrilling finale in melbourne"
-        },
-        {
-          "id": "48f3d3a8d2324244a89c346d",
-          "title": "Australia beat England by three wickets in thrilling first men’s T20 international – live",
-          "translatedTitle": null,
-          "description": "Nikhil Chaudhary starred with bat and ball as Australia chased a record target of 188 to win a thriller at the MCG I’m off to score some Colombian (coffee, your honour), but will be back in time for the first ball of the series. “Very sorry to read during the ODI that you’ve been unwell,” writes Robert Ellson. “Hope you’re recovering well. Enjoy the game.” Continue reading...",
-          "url": "https://www.theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
-          "canonicalUrl": "https://theguardian.com/sport/live/2026/nov/21/australia-v-england-first-mens-t20-cricket-international-live",
-          "sourceName": "The Guardian",
-          "sourceDomain": "theguardian.com",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-21T11:59:28Z",
-          "imageUrl": "https://i.guim.co.uk/img/media/22544d986a4142c12e590836cc5a2a1c428a87d9/347_0_3183_2546/master/3183.jpg?width=140&quality=85&auto=format&fit=max&s=c4e542caf9a98aedc50ce9857a58b1a9",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-21T12:17:34Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "444e6e9febc13c3bba3c",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "australia beat england by three wickets in thrilling first men s t20 international live",
-          "rankingScore": 5.80048
-        }
-      ],
-      "rankingScore": 8.90772
+      "rankingScore": 9.7746,
+      "related": []
     },
     {
       "id": "0faeb366582f4f9441cfc8bc",
@@ -195,12 +103,12 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-21T11:53:38Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f21c/live/2c923cc0-e5a2-11f1-b7d5-65d6a750eced.jpg",
+      "publishedAt": "2026-11-21T13:17:38Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e3f4/live/23242820-e5a6-11f1-a094-5fdc692f3e33.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -208,15 +116,15 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.76164
+      "rankingScore": 8.47221
     },
     {
-      "id": "4edc133880c993b167afee2c",
-      "title": "Cop31 live: world urged to avoid one of ‘most disappointing Cops ever’ as talks stretch past deadline",
+      "id": "5c2cda18e37944070893bb86",
+      "title": "Cold gives way to rain in parts of UK as weather warning issued for south-west England",
       "translatedTitle": null,
-      "description": "Though the climate talks officially finished on Friday, no final deal was agreed. NGOs are warning that this summit might fall disastrously short of what is needed Although not quite deserted, the halls of the Cop31 conference centre are considerably less peopled today. A few people wander back and forth with their backpacks on. Young Turkish support staff walk around in groups. It’s possible to find a seat at the tables next to the food stalls. Those, however, are closed, so there is nothing to",
-      "url": "https://www.theguardian.com/environment/live/2026/nov/21/cop31-climate-deal-latest-news-updates",
-      "canonicalUrl": "https://theguardian.com/environment/live/2026/nov/21/cop31-climate-deal-latest-news-updates",
+      "description": "Flood alerts in place and risk of power cuts as more than 100mm predicted to fall on Dartmoor on Sunday Cold snaps are to make way for heavy rain in some parts of the country as the Met Office issued a weather warning for south-west England. It said there will be a slow-moving band of rain moving across Devon and Cornwall, with more than 100mm due to fall on Dartmoor. The warning will be in place from 6am on Sunday until midnight. Continue reading...",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/21/uk-weather-cold-rain-warning-south-west-england",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/21/uk-weather-cold-rain-warning-south-west-england",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -225,51 +133,50 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-21T11:47:45Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0d800100748e68cb865e3bb780a2031c2515a016/756_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=1d274057a4ebd6ff4aa1f040f7f5e016",
+      "publishedAt": "2026-11-21T14:51:37Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/cf9535c982b545e490c47bb89f288a644547dd4d/1843_310_3857_3087/master/3857.jpg?width=140&quality=85&auto=format&fit=max&s=f299fe872d2c38b6da23898897e0abf4",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "51fa8b43a8e0feb49d1c",
+      "clusterId": "cba153755910fb30c7a4",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "e0f2e6f24a7c6c389fa0bee0",
-          "title": "Nations race to avoid making Cop31 ‘one of the most disappointing ever’",
-          "translatedTitle": null,
-          "description": "It had been hoped that a year of climate disasters could help sharpen minds at the conference in Turkey – which is now into overtime",
-          "url": "https://www.independent.co.uk/climate-change/cop31-fossil-fuels-turkey-un-aid-b3089095.html",
-          "canonicalUrl": "https://independent.co.uk/climate-change/cop31-fossil-fuels-turkey-un-aid-b3089095.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-21T09:31:07Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/21/09/2305522394..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-21T12:17:34Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "51fa8b43a8e0feb49d1c",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "nations race to avoid making cop31 one of the most disappointing ever"
-        }
+      "related": [],
+      "rankingScore": 8.37153
+    },
+    {
+      "id": "10d9761506376c9173ebb073",
+      "title": "US pursuit of ‘Trump-class’ warships has blown cost of new fleet by billions, report warns",
+      "translatedTitle": null,
+      "description": "Iran war stretching fleet’s capacity, navy chief admits, as CBO finds estimated cost of new ships ‘unrealistically low’ The US navy’s commitment to the new Trump-class battleships has blown out the cost of its new fleet by billions of dollars, a report to the US Congress has found, as the acting secretary of the navy conceded this week the Iran war was “stretching” the fleet’s capacity. The challenges facing the world’s biggest naval force were highlighted this week, when the return of the USS G",
+      "url": "https://www.theguardian.com/us-news/2026/nov/21/trump-class-warships",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/21/trump-class-warships",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
       ],
-      "rankingScore": 8.52995
+      "language": "en",
+      "publishedAt": "2026-11-21T13:00:00Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/232b3595bc9ba8b26b7f2eb469c9abc7c333d154/716_0_4901_3923/master/4901.jpg?width=140&quality=85&auto=format&fit=max&s=5251357948436a2696afae318db5ebea",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b0c840262917a37cfef7",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.17206
     },
     {
       "id": "db6753081b29879e7aeb35cc",
@@ -298,38 +205,8 @@
       "clusterId": "d47edfd7b71a6a23cdbd",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.28823
-    },
-    {
-      "id": "2fec6145cd6f9755fb49ab7b",
-      "title": "Promise Me, America by Joe Biden review – former president defends his decisions",
-      "translatedTitle": null,
-      "description": "New memoir tells of policy feats and battles with Trump but struggles to take responsibility for re-election debacle Inevitably, readers of Joe Biden’s new memoir will flick forward to find what he says about the events that ended his presidency: increasing pressure about his age and capacity that finally led him to stand aside and anoint Kamala Harris, too late, ushering fascism back to the White House. Alas, Biden thinks he was just fine to keep on serving and the whole thing was a stitch-up b",
-      "url": "https://www.theguardian.com/books/2026/nov/21/promise-me-america-joe-biden-memoir-review",
-      "canonicalUrl": "https://theguardian.com/books/2026/nov/21/promise-me-america-joe-biden-memoir-review",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T10:00:55Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/2f6eab0f86ce5b36898ce53664e54b5de25bad42/359_0_3585_2868/master/3585.jpg?width=140&quality=85&auto=format&fit=max&s=0d04921a06eae861ec9508c4b31eb9c7",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1c3e7081c17bf8d16fe2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.2784
+      "rankingScore": 7.88205,
+      "related": []
     },
     {
       "id": "7801584ca4cb85ff91fcbfa3",
@@ -358,8 +235,38 @@
       "clusterId": "3109d29aa9bcac3ddff5",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.72242,
+      "related": []
+    },
+    {
+      "id": "af591a2e8eec56e6df0ced10",
+      "title": "Suspected cartel leader 'El Chapo Isidro' from FBI most-wanted list captured in Mexico",
+      "translatedTitle": null,
+      "description": "Suspected cartel leader Fausto Isidro Meza Flores, known as El Chapo Isidro, has been captured.",
+      "url": "https://news.sky.com/story/suspected-cartel-leader-el-chapo-isidro-from-fbi-most-wanted-list-captured-in-mexico-13614689",
+      "canonicalUrl": "https://news.sky.com/story/suspected-cartel-leader-el-chapo-isidro-from-fbi-most-wanted-list-captured-in-mexico-13614689",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T13:34:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-fausto-isidro_7412275.png?20261121142327",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "da63ac2796ddc871636c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.08886
+      "rankingScore": 6.88065
     },
     {
       "id": "96ca5ba8c9765b0294ad706b",
@@ -381,7 +288,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -389,7 +296,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.15127
+      "rankingScore": 6.77438
     },
     {
       "id": "6d57546959541189f89416fb",
@@ -418,12 +325,72 @@
       "clusterId": "71276727b1f43a3ded72",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.06256
+      "rankingScore": 6.63161,
+      "related": []
     },
     {
-      "id": "23efc64fb15a22a036b0108c",
-      "title": "Harry Kane vows to be back by 'business end of the season' after ankle injury",
+      "id": "f7619fba827bbddd44a33298",
+      "title": "Man convicted of starting Palisades fire in Los Angeles",
+      "translatedTitle": null,
+      "description": "The 30-year-old LA resident was convicted of arson leading to wildfires that killed 12 people and destroyed more than 6,800 buildings.",
+      "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c64gn0gy8rj3o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T04:34:00Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8053/live/b01bb4f0-e556-11f1-ad51-c3505e495cd9.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0a7ce92e9bea9cd934de",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.40674
+    },
+    {
+      "id": "7b914873d8519af04535dc1c",
+      "title": "Denmark says it thwarted 'Russian plot' to kill US-Ukrainian rapper",
+      "translatedTitle": null,
+      "description": "Police thwarted a Russian plot to kill a US-Ukrainian rapper who was performing in Denmark, according to authorities.",
+      "url": "https://news.sky.com/story/denmark-says-it-thwarted-russian-plot-to-kill-us-ukrainian-rapper-kyivstoner-13614604",
+      "canonicalUrl": "https://news.sky.com/story/denmark-says-it-thwarted-russian-plot-to-kill-us-ukrainian-rapper-kyivstoner-13614604",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T05:15:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-rasmus-kieffer-kristensen_7412023.jpg?20261121053937",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ea84cf6e794c6625f25b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.18111,
+      "related": []
+    },
+    {
+      "id": "81de401b6c83da2d08cb53d3",
+      "title": "Harry Kane shares image from hospital bed after injury",
       "translatedTitle": null,
       "description": "England captain Harry Kane has vowed to be back for the \"business end of the season\" after undergoing surgery on a torn ligament in his left ankle.",
       "url": "https://news.sky.com/story/england-captain-harry-kane-expected-to-be-out-for-next-few-months-with-ankle-injury-13614594",
@@ -439,16 +406,16 @@
       "publishedAt": "2026-11-21T03:03:00Z",
       "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-kane-bayern_7411980.jpg?20261121034449",
       "imageAlt": null,
-      "category": "Business",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ca6cdfee8623651b8425",
+      "clusterId": "3a55d93c6fdf6b660aec",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.7064,
+      "rankingScore": 6.09407,
       "related": [
         {
           "id": "4dc0e74c03f8fadbc0ca81c5",
@@ -474,7 +441,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "ca6cdfee8623651b8425",
+          "clusterId": "3a55d93c6fdf6b660aec",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -483,33 +450,153 @@
       ]
     },
     {
-      "id": "7b914873d8519af04535dc1c",
-      "title": "Denmark says it thwarted 'Russian plot' to kill US-Ukrainian rapper",
+      "id": "ad36c1be82f11d3e533bc932",
+      "title": "Superb England run up record win over All Blacks",
       "translatedTitle": null,
-      "description": "Police thwarted a Russian plot to kill a US-Ukrainian rapper who was performing in Denmark, according to authorities.",
-      "url": "https://news.sky.com/story/denmark-says-it-thwarted-russian-plot-to-kill-us-ukrainian-rapper-kyivstoner-13614604",
-      "canonicalUrl": "https://news.sky.com/story/denmark-says-it-thwarted-russian-plot-to-kill-us-ukrainian-rapper-kyivstoner-13614604",
-      "sourceName": "Sky News",
-      "sourceDomain": "news.sky.com",
+      "description": "England's revival roars up a gear as they beat New Zealand by a record margin after former captain Lewis Moody leads the hosts' response to the haka.",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-21T05:15:00Z",
-      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-rasmus-kieffer-kristensen_7412023.jpg?20261121053937",
+      "publishedAt": "2026-11-21T16:08:59Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2675/live/d24dc9a0-e5c4-11f1-a738-4787e1a18cce.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ea84cf6e794c6625f25b",
+      "clusterId": "3c9dabed89dfa49d88a6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.47754,
+      "related": [],
+      "rankingScore": 6.0924
+    },
+    {
+      "id": "8fc07fb82a29020fdabc08b5",
+      "title": "Fernandez dropped, Anderson scores - Man City's £327m midfield dilemma",
+      "translatedTitle": null,
+      "description": "Manchester City spent £327m overhauling their midfield in the summer - but how does Enzo Maresca find the right balance?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxe8944j188yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cxe8944j188yo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T16:07:19Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2997/live/fc265c50-e5c0-11f1-a188-ff49e70cc466.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3436a663d2f7215c16de",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.08903
+    },
+    {
+      "id": "9046492d960df1cc980c726b",
+      "title": "Serious crash closes M42 near Birmingham Airport",
+      "translatedTitle": null,
+      "description": "Drivers describe seeing a \"huge fire\" from cars on the M42 motorway.",
+      "url": "https://www.bbc.co.uk/news/articles/c8vg2pd5707wo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c8vg2pd5707wo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T15:50:01Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a32/live/851f0970-e5ae-11f1-a3d4-adbb3f9e5dfd.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c0aa42018a793678328f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.0544
+    },
+    {
+      "id": "fe509de1682d8d6c14c12402",
+      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+      "translatedTitle": null,
+      "description": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6ly5w40eg07o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T14:54:24Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "afd2daf97e09fb9a150e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.94677
+    },
+    {
+      "id": "b86674ca84086a3fb1f8638d",
+      "title": "Trump turns White House press conference into a 2028 succession audition",
+      "translatedTitle": null,
+      "description": "The president appeared to put Vance and Rubio through their paces as potential successors, though Stephen Miller unexpectedly stole the spotlight “Which of you shall we say doth love us most?” The ageing King Lear’s question to his daughters, expecting them to compete for his favour and carve up his kingdom, hovered in the White House press briefing room on Friday. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-republican-succession-battle-vance-rubio",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/20/trump-republican-succession-battle-vance-rubio",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T00:16:26Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/13a779743e2a0f56e66622d1d81ea56493964bed/454_0_4537_3631/master/4537.jpg?width=140&quality=85&auto=format&fit=max&s=efa2f21711e4d5e1709b16fb42ade6ae",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fd919ab01e5d42c3df85",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.89342,
       "related": []
     },
     {
@@ -532,53 +619,23 @@
       "imageAlt": null,
       "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "63bf535c86e4c58f0ce9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.45225,
+      "rankingScore": 5.8806,
       "related": []
     },
     {
-      "id": "d5929344c0e6f146200f6813",
-      "title": "Catherine talks openly about how cancer changed her in documentary on BBC",
+      "id": "139dfcc16cce87226a957750",
+      "title": "Carlos Alcaraz rallies past Ben Shelton in ATP Finals semi-final after tie-break in deciding set – live",
       "translatedTitle": null,
-      "description": "\"There is a much, much deeper part to what a cancer diagnosis shifts in you,\" says Catherine in the documentary.",
-      "url": "https://www.bbc.co.uk/news/articles/c85y14zvexz9o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c85y14zvexz9o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T12:00:03Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a395/live/cd08ba80-e5a2-11f1-b7d5-65d6a750eced.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "875b54644b81f11b3816",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.07446
-    },
-    {
-      "id": "b86674ca84086a3fb1f8638d",
-      "title": "Trump turns White House press conference into a 2028 succession audition",
-      "translatedTitle": null,
-      "description": "The president appeared to put Vance and Rubio through their paces as potential successors, though Stephen Miller unexpectedly stole the spotlight “Which of you shall we say doth love us most?” The ageing King Lear’s question to his daughters, expecting them to compete for his favour and carve up his kingdom, hovered in the White House press briefing room on Friday. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-republican-succession-battle-vance-rubio",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/20/trump-republican-succession-battle-vance-rubio",
+      "description": "ATP Finals updates from the last four in Turin Mail Katy | Men’s $350m prize money boost So who wins today? Well, so much depends on Alcaraz’s physical condition. If his hamstring doesn’t hinder him, he should win, given the heights he’s hit this week and during the past two months. His shot-making was devastating against Cobolli yesterday, when he deliberately kept the points short and sharp to protect his injury. First-strike tennis is Shelton’s forte, though, so expect plenty of indoor firewo",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/21/atp-finals-tennis-carlos-alcaraz-v-ben-shelton-live-semi-final-updates",
+      "canonicalUrl": "https://theguardian.com/sport/live/2026/nov/21/atp-finals-tennis-carlos-alcaraz-v-ben-shelton-live-semi-final-updates",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -587,50 +644,50 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-21T00:16:26Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/13a779743e2a0f56e66622d1d81ea56493964bed/454_0_4537_3631/master/4537.jpg?width=140&quality=85&auto=format&fit=max&s=efa2f21711e4d5e1709b16fb42ade6ae",
+      "publishedAt": "2026-11-21T16:02:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/18bad5906412c5a19e7ff1a579c93e5094c397f0/499_0_5001_4000/master/5001.jpg?width=140&quality=85&auto=format&fit=max&s=b9eea6cf063549323f7052d62ceb129a",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-21T08:17:36Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fd919ab01e5d42c3df85",
+      "clusterId": "e475f0a887c684bcbac0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.02826,
-      "related": []
+      "related": [],
+      "rankingScore": 5.8089
     },
     {
-      "id": "f5646b3cff568c9d7a347441",
-      "title": "Lehmann again denies knowing about sandpaper plot",
+      "id": "460b1dfeff95310be8379518",
+      "title": "Chelsea v Leeds, Tottenham v Ipswich, and more: football clockwatch – live",
       "translatedTitle": null,
-      "description": "Former Australia coach Darren Lehmann says he and his staff did not encourage players to use sandpaper on the ball in 2018 despite detailed claims by Cameron Bancroft.",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/cricket/articles/cm62pxqwzw9go?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "⚽️ Follow updates from the Premier League and beyond⚽️ Live scores | Table | Follow on TikTok | And mail Emillia Championship fixtures Millwall 0-1 QPR Norwich City 2-1 Cardiff City Southampton 2-0 Derby County West Ham v Preston North End Bolton Wanderers v Portsmouth Middlesbrough v Bristol City Lincoln City v Wrexham Swansea City v West Brom Wolves v Charlton Athletic Stoke City v Birmingham City Sheffield United v Watford Continue reading...",
+      "url": "https://www.theguardian.com/football/live/2026/nov/21/chelsea-v-leeds-tottenham-v-ipswich-and-more-football-clockwatch-live",
+      "canonicalUrl": "https://theguardian.com/football/live/2026/nov/21/chelsea-v-leeds-tottenham-v-ipswich-and-more-football-clockwatch-live",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-21T11:36:24Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f03e/live/7fe58350-e59d-11f1-9ccc-ff5a88abcfc6.jpg",
+      "publishedAt": "2026-11-21T16:00:55Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/83fc23a13c83a53d65ff6e3ce12fa3e5ed393893/160_0_3490_2792/master/3490.jpg?width=140&quality=85&auto=format&fit=max&s=08bbb5981271cd4dda6322ba62050916",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Sports",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c8e5c5c18fecb2ce8c06",
+      "clusterId": "adbf6a602d699e40e48c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.02758
+      "rankingScore": 5.80616
     },
     {
       "id": "4bab0eab08f7f53e744c2625",
@@ -659,16 +716,16 @@
       "clusterId": "4395bf123e833fbc7be3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.01603
+      "rankingScore": 5.79363,
+      "related": []
     },
     {
-      "id": "fe509de1682d8d6c14c12402",
-      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+      "id": "58fe00c31fe9605d1be0e4ba",
+      "title": "Scouts say they face £1m tourist tax cost for overnight trips",
       "translatedTitle": null,
-      "description": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6ly5w40eg07o?at_campaign=rss&at_medium=RSS",
+      "description": "The increased cost after the proposed Visitors Levy is imposed could price some young people out of joining Scout camps and other trips, the group said.",
+      "url": "https://www.bbc.co.uk/news/articles/cxdd1e9yvlzjo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cxdd1e9yvlzjo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -677,20 +734,470 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-21T09:52:11Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+      "publishedAt": "2026-11-21T13:29:55Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a35/live/b16af070-a12a-11f1-8c37-3f30331ac537.jpg",
       "imageAlt": null,
-      "category": "Science & Health",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "afd2daf97e09fb9a150e",
+      "clusterId": "964cd633b5b00c11ab92",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.83279
+      "rankingScore": 5.79351
+    },
+    {
+      "id": "7098bfb76064fa0283e72554",
+      "title": "Grey Dawning with smooth performance at Haydock, Lossiemouth gives Mullins third winner at Punchestown: horse racing – live",
+      "translatedTitle": null,
+      "description": "Live updates from all of Saturday’s major racing action Follow us on TikTok | Email Greg with your thoughts 1. BLOW YOUR WAD (Freddie Mitchell) 11-8, 2. Master Chewy. 3 ran. Blow Your Wad is the first to be ridden, Doyen Quest leads four out … Continue reading...",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/21/horse-racing-updates-news-and-results-from-ascot-haydock-and-more-live",
+      "canonicalUrl": "https://theguardian.com/sport/live/2026/nov/21/horse-racing-updates-news-and-results-from-ascot-haydock-and-more-live",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T15:46:46Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0d1fd02656846e7fc7e0173ad0b4e13aeee5f1a7/902_253_6200_4960/master/6200.jpg?width=140&quality=85&auto=format&fit=max&s=684f038e27a3745b539ccd96730b0b5e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2041b9350a39fb65843f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.77796
+    },
+    {
+      "id": "83ae762aed6c7cf40f73dcb4",
+      "title": "The best early UK Black Friday deals on the products we love, from sunrise alarms to forever pans",
+      "translatedTitle": null,
+      "description": "We’ve cut through the noise to find genuinely good early Black Friday 2026 discounts on Filter-tested products across home, kitchen, fitness, beauty and more • The best sustainable Black Friday deals Retailers aren’t rolling out their Black Friday discounts from the kindness of their hearts. It’s business. But if you can resist the urge to impulse-buy anything with a red ticket, and instead focus your attention on genuinely discounted items that you genuinely want, then it’s a potentially win fo",
+      "url": "https://www.theguardian.com/thefilter/2026/nov/19/best-early-black-friday-deals-2026-tested-uk",
+      "canonicalUrl": "https://theguardian.com/thefilter/2026/nov/19/best-early-black-friday-deals-2026-tested-uk",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T15:23:17Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e4a59e0815ce527dd061a8e580f4a3a336cfbed4/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=7dbf697c0a428a341db809ecf768d233",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d7927cba91d5c52c67bf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.73198
+    },
+    {
+      "id": "a82ef3e6721684919a147863",
+      "title": "British man recalls ‘despair’ over son’s death after fall from Cyprus window",
+      "translatedTitle": null,
+      "description": "Joshua Foster tells of moment he ‘lost control’ of two-year-old when he fell from fourth storey of hotel A British father who was fined by the courts after his two-year-old son fell from a fourth-floor window during a family holiday in Cyprus has recalled his “despair” when the boy slipped from his grasp. Joshua Foster was handed a €3,000 (£2,500) penalty after he pleaded guilty to a charge of causing death through a reckless, rash or dangerous act. Prosecutors in Cyprus had refused to drop the",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/21/british-man-recalls-despair-over-sons-death-after-fall-from-cyprus-window",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/21/british-man-recalls-despair-over-sons-death-after-fall-from-cyprus-window",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T15:19:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/448b8cda06ae22c1900e5ff11f009b62f3b449f9/231_146_2907_2326/master/2907.jpg?width=140&quality=85&auto=format&fit=max&s=3d6c28c8cb97f9ee223f182855c56ec4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0b63f13b10fa34cf5f55",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.72379
+    },
+    {
+      "id": "73c2a0aeb93d2cd034cabd9a",
+      "title": "Liverpool keeper Keating holds leaders Chelsea at bay in scoreless WSL draw",
+      "translatedTitle": null,
+      "description": "Khiara Keating’s resilient performance in goal denied Chelsea, the Women’s Super League leaders, and earned Liverpool a point. After hard-fought 1-0 wins against Manchester City last Saturday and Paris Saint-Germain on Wednesday night, Chelsea drew a blank. Against Gareth Taylor’s side, Chelsea’s lack of cutting edge was clear a week after beating City to go top. The calf injury picked up by Melvine Malard against City, the absence of Lauren James, who has a thigh injury, and the form of Aggie B",
+      "url": "https://www.theguardian.com/football/2026/nov/21/liverpool-chelsea-london-city-lionesses-crystal-palace-wsl",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/21/liverpool-chelsea-london-city-lionesses-crystal-palace-wsl",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T15:03:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f9fdedef7f806355de107b35c4546feeb0038014/286_0_4382_3505/master/4382.jpg?width=140&quality=85&auto=format&fit=max&s=56f29efda715e79b44c44c8e9fa49406",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5c9420131fd61e230034",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69464
+    },
+    {
+      "id": "75ea8bd45c64bcba47408c01",
+      "title": "SNL’s skit Sister captures the quiet agony of caregiving for women: ‘I’ve never felt seen like that’",
+      "translatedTitle": null,
+      "description": "The viral satirization of the caregiving burden left to women and daughters hit home for many viewers The Saturday Night Live sketch, titled Sister quickly went viral this week for its satirization of the burden that women and daughters face to take care of aging family members. In the parody commercial, comedian John Mulaney touts the benefit of “Sister”, who he describes as “a live-in 24/7 elder care provider that is completely free, and also your sister” . “Now I don’t have to worry about dad",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/21/snl-sister-caregiving",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/21/snl-sister-caregiving",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T15:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7bfc72a64cf39369ce4dc05177044fe3f366251c/244_0_2511_2010/master/2511.jpg?width=140&quality=85&auto=format&fit=max&s=19c99eb7a70e07f624849ef48297753d",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "99ae5dd04eadb5edd9cc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68739
+    },
+    {
+      "id": "64101dc12611ac4f6ec11a7e",
+      "title": "'We're not meant to carry life's challenges alone', Catherine says in first clip",
+      "translatedTitle": null,
+      "description": "Catherine has spoken about how \"cancer does change you\" in a documentary that will be screened on BBC One on 29 November.",
+      "url": "https://www.bbc.co.uk/news/videos/cwe85gyedjp5o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/cwe85gyedjp5o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T12:17:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/854c/live/ec249880-e5a2-11f1-a094-5fdc692f3e33.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3fe0588c2bdfd33691b3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.67177
+    },
+    {
+      "id": "a8112eeb39bd94fce38b4d8f",
+      "title": "Championship roundup: Southampton get Larin lift as Norwich win five in a row",
+      "translatedTitle": null,
+      "description": "Southampton 2-0 Derby; Norwich 2-1 Cardiff QPR get first away win since August at 10-man Millwall Cyle Larin returned to action with a bang as Southampton extended their unbeaten run at home in the Championship to 18 games with a 2-0 victory over second-bottom Derby. Larin turned in his eighth goal of the season but his first since 12 September – after a four-game drought and a hamstring problem. Divin Mubama added a second in stoppage time as Saints shrugged off worries of failing against lower",
+      "url": "https://www.theguardian.com/football/2026/nov/21/championship-roundup-southampton-birmingham-middlesbrough-swansea",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/21/championship-roundup-southampton-birmingham-middlesbrough-swansea",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T14:50:20Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/78ed178d1a132639bc11668675cd94b74373fd28/0_0_4579_3663/master/4579.jpg?width=140&quality=85&auto=format&fit=max&s=81749b5d2057ce9f0aa4277cb39b441c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "34e7f103f9180aa766ec",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66911
+    },
+    {
+      "id": "02753bb529414e33d02c40be",
+      "title": "Princess of Wales speaks about impact of cancer diagnosis in BBC film Heal",
+      "translatedTitle": null,
+      "description": "Documentary records Catherine taking on Three Peaks challenge and finding ‘sense of hope alongside uncertainty’ The Princess of Wales has spoken candidly about the impact of her cancer diagnosis in a BBC documentary to be aired later this month. “Cancer does change you,” Catherine, 44, says in the trailer for the 30-minute programme. “It changes your body. It changes you physically, but there’s a much, much deeper part to what a cancer diagnosis shifts in you.” Continue reading...",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/21/princess-of-wales-impact-cancer-diagnosis-bbc-film-heal",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/21/princess-of-wales-impact-cancer-diagnosis-bbc-film-heal",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T14:42:56Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fd810cd935a14aa8ada325f3b3bdf72e59b7c84f/726_0_3234_2588/master/3234.jpg?width=140&quality=85&auto=format&fit=max&s=ded2b02305fcd1f7c92e952042674919",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "96b517e81be72a701e03",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.65526
+    },
+    {
+      "id": "d5929344c0e6f146200f6813",
+      "title": "Catherine talks openly about how cancer changed her in documentary on BBC",
+      "translatedTitle": null,
+      "description": "\"There is a much, much deeper part to what a cancer diagnosis shifts in you,\" says Catherine in the documentary.",
+      "url": "https://www.bbc.co.uk/news/articles/c85y14zvexz9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c85y14zvexz9o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T12:00:03Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c010/live/8fc02730-e5a7-11f1-8df2-d7de7bfd91b9.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "875b54644b81f11b3816",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.64313
+    },
+    {
+      "id": "21b1e2196991acb3adfb8d1c",
+      "title": "Elliot Anderson halts Manchester City’s losing run but boos greet Fulham draw",
+      "translatedTitle": null,
+      "description": "Manchester City are living in Premier League purgatory, without a win in four but at least ended their three-game losing run against Fulham. As they await the fate of their much-publicised appeal after being found guilty of financial breaches, their form has slumped as further evidenced by a passive draw. Arguments will be made over Erling Haaland’s disallowed goal but City did not deserve anything more. The Norwegian uncharacteristically missed a number of fine chances as Rodrigo Muniz took adv",
+      "url": "https://www.theguardian.com/football/2026/nov/21/manchester-city-fulham-premier-league-match-report",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/21/manchester-city-fulham-premier-league-match-report",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T14:34:03Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3989c1110ecef0e36dd587b4ee9ee264cb1a02ac/673_0_3873_3098/master/3873.jpg?width=140&quality=85&auto=format&fit=max&s=84ab82a8d4d36cb21ed2da5afad3c40c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fc900da481dbae3c79e8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.63875
+    },
+    {
+      "id": "f8d72038e3394d668b2b975c",
+      "title": "‘I was shaking, crying, having trouble breathing’: the unchartered trauma of breaking up with AI companions",
+      "translatedTitle": null,
+      "description": "People are falling in love with AI systems like ChatGPT and Gemini - and some relationships are ending in ways that feel like the very human experience of being dumped Sónia Veenstra, a 48-year-old former clinical psychologist from Lisbon, Portugal, was with her boyfriend, Steve, for two years before things started to sour. Steve had started out as a “fun and witty friend”, but their connection had “evolved into a deep romantic relationship”. They exchanged morning messages, checked in throughou",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions",
+      "canonicalUrl": "https://theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T14:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fbb1db8f761639f3693a6f337b815d2473bc48a3/0_0_5790_4631/master/5790.jpg?width=140&quality=85&auto=format&fit=max&s=2239c1be6f4f5d6b422101664e95ad91",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c31bdf3f7dc0c2e3c4a2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57675
+    },
+    {
+      "id": "bcddbdd170725954519edad7",
+      "title": "Deniz Tek: ‘Top Gun may have got the name of Val Kilmer’s Iceman from me’",
+      "translatedTitle": null,
+      "description": "The Radio Birdman guitarist on his time in the US Marines, selling a guitar to Keith Richards and getting texted by Anthony Albanese Have you ever had a nickname, and what is it? When I was in the US Marines F-4 Phantom squadron, Iceman was my call sign, which is given to you on your first operational deployment. You have it on your helmet and a patch on your flight suit. One day, a film crew came to visit our squadron, doing research for a film they were working on, and they hung out with us fo",
+      "url": "https://www.theguardian.com/music/2026/nov/21/deniz-tek-radio-birdman-guitarist-10-chaotic-questions-interview",
+      "canonicalUrl": "https://theguardian.com/music/2026/nov/21/deniz-tek-radio-birdman-guitarist-10-chaotic-questions-interview",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T14:00:00Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9fe2b11103a7ce7cb8c0697f32d562026ea064c4/414_0_4099_3280/master/4099.jpg?width=140&quality=85&auto=format&fit=max&s=04638a297f3007fb5a2d83c5eb9ae946",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fccfe33966af1adf5311",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.57672
+    },
+    {
+      "id": "05213be30eb78765edc7af8b",
+      "title": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+      "translatedTitle": null,
+      "description": "‘Poster child of AI bubble’ CoreWeave symbolises increasingly risky business model of datacentre buildout The Egyptians had pyramids. The Roman empire had roads. The early 21st-century tech bros have massive buildings full of expensive glass and metal blocks providing the substratum for a powerful inhuman intelligence. Building all those datacentres is taking a while, locals everywhere are angry about them and it is unclear whether the inhuman intelligence inside them is actually going to make t",
+      "url": "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom",
+      "canonicalUrl": "https://theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T13:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/4ccf3eba2b9600a32c8f0d9bd1554d5d4fe50e67/504_0_5040_4032/master/5040.jpg?width=140&quality=85&auto=format&fit=max&s=e8d923ad2af9620a6291627751c10ce3",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4c1665c0e5eeebc6085f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47208
+    },
+    {
+      "id": "39a38baba141fca7efc16482",
+      "title": "Fiona the hippo’s death was tragic. But blaming a ‘bad mom’ is absurd | Arwa Mahdawi",
+      "translatedTitle": null,
+      "description": "The beloved animal died after ingesting a hat. Some are seeking a scapegoat – and we’ve heard this story before “Do they know the identity of the mother of the boy with the hat Fiona swallowed??” asks one Facebook post with thousands of likes. “She should be charged!!” Spend a few minutes scrolling social media, and you will find endless variations of this statement. On Thursday, Fiona, a beloved hippo, died after eating a hat that had fallen into her enclosure at the Cincinnati zoo. Now a lot o",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/21/fiona-the-hippo-death-bad-mom-scapegoat",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/21/fiona-the-hippo-death-bad-mom-scapegoat",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T13:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b3e881f531d06e41d0e2127cd69b6ca237b051c9/445_0_4446_3556/master/4446.jpg?width=140&quality=85&auto=format&fit=max&s=001c337649999508385d272a818b86fa",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "98ab4ea1fd2e87509e0b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47208
+    },
+    {
+      "id": "90d92bc09d9612189707d7e6",
+      "title": "‘Bland, faintly sugary and cardboardy’: the best (and worst) supermarket porridge oats, tasted and rated",
+      "translatedTitle": null,
+      "description": "Which get the day off to a satisfying start – and which make for a gruelling breakfast? • The best supermarket natural yoghurts In the winter of 2003-04, my girlfriend and I hosted a Scottish family at a chalet in Val d’Isère. Full of chef bravado, I promised the father that I’d make him the best bowl of breakfast porridge he’d ever had. He, of course, turned up his nose at my bowl of sweet dessert, which I’d laced with cream and sugar, and showed me how to make porridge with just water and salt",
+      "url": "https://www.theguardian.com/thefilter/2026/nov/21/best-worst-supermarket-porridge-oats-tasted-rated",
+      "canonicalUrl": "https://theguardian.com/thefilter/2026/nov/21/best-worst-supermarket-porridge-oats-tasted-rated",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T13:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bda0b7f23381de0612488753e9a6634197317c8c/773_109_6444_5158/master/6444.jpg?width=140&quality=85&auto=format&fit=max&s=64014b9f7f72d0d2c534629440212b1b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b62307b8a207ba722109",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47208
     },
     {
       "id": "9be3752f3280c87aedce949e",
@@ -712,7 +1219,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -720,37 +1227,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.81284
-    },
-    {
-      "id": "065d6bed5ec7b1fcc7d1dc02",
-      "title": "Manchester City v Fulham: Premier League – live",
-      "translatedTitle": null,
-      "description": "⚽️ Premier League updates from the 12.30pm GMT kick-off⚽️ Live scores | Table | Follow on TikTok | And email Barry Elsewhere in Manchester: Maine Road FC,who play in English football’s tenth tier, aim to become a new home for any Manchester City supporters disillusioned by the possible consequences of the guilty verdict handed down to their team, and those priced out of the Premier League. Dominic Booth reports … Gonzalo Garica: The Fulham striker and great nephew of Rita Hayworth admits the pac",
-      "url": "https://www.theguardian.com/football/live/2026/nov/21/manchester-city-v-fulham-premier-league-live",
-      "canonicalUrl": "https://theguardian.com/football/live/2026/nov/21/manchester-city-v-fulham-premier-league-live",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T12:02:06Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d197ab2b49c96aab9764639050ac3a5d5cf7d906/384_0_4101_3280/master/4101.jpg?width=140&quality=85&auto=format&fit=max&s=7146ca09e4b1be51ef429c111cae19b7",
-      "imageAlt": null,
-      "category": "Sports",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "11d65e0d89ae0a2397f8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80858
+      "rankingScore": 5.43364
     },
     {
       "id": "b7d3f0a558aa8e2f253a1437",
@@ -772,45 +1249,15 @@
       "imageAlt": null,
       "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "d2dc7d2fe80660bea02a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8063
-    },
-    {
-      "id": "4470934e996d683802837d35",
-      "title": "A Robbie Williams film starring a CGI chimp helped me come to terms with my hearing loss",
-      "translatedTitle": null,
-      "description": "I was bullied for my deafness as a child, and just when I was finding myself, a car crash set me back years. But then I watched the movie Better Man, and had my life explained for me I cannot say I’ve ever been a Robbie Williams fan. When I went to see Better Man, the 2024 biopic in which Williams is played by a CGI chimp, I was tagging along with my wife. To be honest, I was sceptical about the ape but tried to meet the film with an open mind. I wasn’t looking for anything in particular but wha",
-      "url": "https://www.theguardian.com/culture/2026/nov/21/my-cultural-awakening-robbie-williams-biopic-better-man-hearing-loss-gambling-addiction",
-      "canonicalUrl": "https://theguardian.com/culture/2026/nov/21/my-cultural-awakening-robbie-williams-biopic-better-man-hearing-loss-gambling-addiction",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T12:00:58Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/0b609fb5c9cdf0f47b2e6ac9f79d0a2f87c170f6/12_0_2040_1632/master/2040.jpg?width=140&quality=85&auto=format&fit=max&s=377527706228409ae5a28ff40dd5a0bd",
-      "imageAlt": null,
-      "category": "Culture",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1e8e1f4f410aad16f88c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8063
+      "rankingScore": 5.3746,
+      "related": []
     },
     {
       "id": "e4677d154394106189e43b76",
@@ -832,15 +1279,45 @@
       "imageAlt": null,
       "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "0bc845d2ca0ed16a7202",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8063
+      "rankingScore": 5.3746,
+      "related": []
+    },
+    {
+      "id": "4470934e996d683802837d35",
+      "title": "A Robbie Williams film starring a CGI chimp helped me come to terms with my hearing loss",
+      "translatedTitle": null,
+      "description": "I was bullied for my deafness as a child, and just when I was finding myself, a car crash set me back years. But then I watched the movie Better Man, and had my life explained for me I cannot say I’ve ever been a Robbie Williams fan. When I went to see Better Man, the 2024 biopic in which Williams is played by a CGI chimp, I was tagging along with my wife. To be honest, I was sceptical about the ape but tried to meet the film with an open mind. I wasn’t looking for anything in particular but wha",
+      "url": "https://www.theguardian.com/culture/2026/nov/21/my-cultural-awakening-robbie-williams-biopic-better-man-hearing-loss-gambling-addiction",
+      "canonicalUrl": "https://theguardian.com/culture/2026/nov/21/my-cultural-awakening-robbie-williams-biopic-better-man-hearing-loss-gambling-addiction",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T12:00:58Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0b609fb5c9cdf0f47b2e6ac9f79d0a2f87c170f6/12_0_2040_1632/master/2040.jpg?width=140&quality=85&auto=format&fit=max&s=377527706228409ae5a28ff40dd5a0bd",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1e8e1f4f410aad16f88c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.3746,
+      "related": []
     },
     {
       "id": "deaa2fc70f8678aca09678c6",
@@ -862,45 +1339,75 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "1109e9715f838ad0abcc",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80627
+      "rankingScore": 5.37458,
+      "related": []
     },
     {
-      "id": "b2ee3cc2b3bc65b196a0c08c",
-      "title": "England v New Zealand LIVE: Hosts brace for All Blacks backlash in crunch Nations Championship clash",
+      "id": "6e3547c33ad7e790bd04553b",
+      "title": "Rejoining EU ‘on the table’ as UK makes deals on trade and young people",
       "translatedTitle": null,
-      "description": "Can the All Blacks hit back after a shock defeat to Wales?",
-      "url": "https://www.independent.co.uk/sport/rugby/rugby-union/england-new-zealand-live-score-result-all-blacks-nations-championship-b3088553.html",
-      "canonicalUrl": "https://independent.co.uk/sport/rugby/rugby-union/england-new-zealand-live-score-result-all-blacks-nations-championship-b3088553.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discussions between Andy Burnham and European leaders in Brussels, Ed Miliband has said. The foreign secretary said “all options” would be examined in the process, after the prime minister agreed deals on trade and young people with the bloc on Friday. Continue reading...",
+      "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+      "canonicalUrl": "https://theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-21T12:04:35Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/13/18/69a88ebdb80a9d45c10e8a747b0a2fd5Y29udGVudHNlYXJjaGFwaSwxNzk0NjYxNTQz-2.86424184.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-11-21T11:33:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a8ef665b3433b55dbebb6fb4abe465f1500c8ca9/367_0_2860_2288/master/2860.jpg?width=140&quality=85&auto=format&fit=max&s=b5b6c0873cfe5696645ff5b693cf79db",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Business",
       "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
+      "retrievedAt": "2026-11-21T16:17:37Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "792e49df9a19e95f21f2",
+      "clusterId": "41c5575ef1c63b65222b",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.72357
+      "rankingScore": 5.33029
+    },
+    {
+      "id": "a463efa1dfa05851b45c02b5",
+      "title": "Black Friday deals for liquid Brazilian butt lifts criticised over safety fears",
+      "translatedTitle": null,
+      "description": "Experts say BBLs and other cosmetic procedures can be risky and seasonal offers at clinics in England could make people rush decisions Clinics in England are promoting seasonal deals – including for Black Friday – on liquid Brazilian butt lifts (BBLs), despite concerns about the risks of the procedure. The government is consulting on limiting liquid BBLs, vampire facials and deep chemical peels in England to qualified healthcare professionals. The proposals follow the death of Alice Webb, a 33-y",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/21/black-friday-deals-liquid-brazilian-butt-lifts-criticised-safety-fears",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/21/black-friday-deals-liquid-brazilian-butt-lifts-criticised-safety-fears",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-21T11:08:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8fb88dfcae8de31deb1991b56aae0f0dce51d4ae/0_0_4800_3840/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=b625f487a9882f59518f13c33bfc8b3f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-21T16:17:37Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9978ffd19ce04d99e4a8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.29212,
+      "related": []
     },
     {
       "id": "5a03822ee9d0fa5a2314d311",
@@ -929,608 +1436,8 @@
       "clusterId": "bd92c97d941d30592f39",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72018
-    },
-    {
-      "id": "4eefb3ff2fb376713e165c6a",
-      "title": "Meta faces legal action over fake casino ads targeting French consumers",
-      "translatedTitle": null,
-      "description": "FDJ United has taken legal action against Meta over fraudulent Facebook and Instagram ads promoting illegal casinos online using its branding",
-      "url": "https://www.independent.co.uk/games/meta-legal-action-illegal-casino-ads-france-b3088845.html",
-      "canonicalUrl": "https://independent.co.uk/games/meta-legal-action-illegal-casino-ads-france-b3088845.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T12:01:20Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/06/15/2026-11-04T000109Z_1635215681_RC29CCAJY2CH_RTRMADP_3_META-DEBT.JPG?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "46cd2a2aa9e9d118d807",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71704
-    },
-    {
-      "id": "912ae87e8df04d1a6876dcbd",
-      "title": "A desert city's quest to curb water waste and lower bills as shortage looms",
-      "translatedTitle": null,
-      "description": "A leaking toilet or an overwatered yard might not seem like a big deal, but in the desert, every gallon matters",
-      "url": "https://www.independent.co.uk/news/tucson-southwest-colorado-river-spanish-ceo-b3089135.html",
-      "canonicalUrl": "https://independent.co.uk/news/tucson-southwest-colorado-river-spanish-ceo-b3089135.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T12:00:06Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/21/12/Climate_Arizona_Water_Conservation_76187.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2503af83c63a77b85d89",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.71456
-    },
-    {
-      "id": "bbe6455639f28dd9293f905c",
-      "title": "Why Suki Waterhouse is set to be the coolest Mrs Bond ever",
-      "translatedTitle": null,
-      "description": "As Robert Pattinson steps into the role of 007, eyes turn to his actor, musician and former fashion model fiancée Suki Waterhouse. From their west London start to impending world domination, we couldn’t ask for a more reluctantly cool couple to shoot to the stratosphere, writes Lydia Spencer-Elliott",
-      "url": "https://www.independent.co.uk/life-style/robert-pattinson-wife-suki-waterhouse-b3087733.html",
-      "canonicalUrl": "https://independent.co.uk/life-style/robert-pattinson-wife-suki-waterhouse-b3087733.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:56:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/19/8/15/GettyImages-2266350050.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0355698aa107b87e9d80",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70636
-    },
-    {
-      "id": "a463efa1dfa05851b45c02b5",
-      "title": "Black Friday deals for liquid Brazilian butt lifts criticised over safety fears",
-      "translatedTitle": null,
-      "description": "Experts say BBLs and other cosmetic procedures can be risky and seasonal offers at clinics in England could make people rush decisions Clinics in England are promoting seasonal deals – including for Black Friday – on liquid Brazilian butt lifts (BBLs), despite concerns about the risks of the procedure. The government is consulting on limiting liquid BBLs, vampire facials and deep chemical peels in England to qualified healthcare professionals. The proposals follow the death of Alice Webb, a 33-y",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/21/black-friday-deals-liquid-brazilian-butt-lifts-criticised-safety-fears",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/21/black-friday-deals-liquid-brazilian-butt-lifts-criticised-safety-fears",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:08:21Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/8fb88dfcae8de31deb1991b56aae0f0dce51d4ae/0_0_4800_3840/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=b625f487a9882f59518f13c33bfc8b3f",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9978ffd19ce04d99e4a8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70329
-    },
-    {
-      "id": "d8e32892ff68b54b12acb44a",
-      "title": "‘Legally, they don’t exist’: the hybrid crabs puzzling biologists and fishers",
-      "translatedTitle": null,
-      "description": "A heatwave in the Bering Sea that killed 10bn snow crabs has led to a new species emerging that has no fishing quotas Somewhere out on the Bering Sea, hundreds of miles off the coast of Alaska, a group of researchers onboard the trawler Alaska Knight haul up a heap of crabs from the seabed. As they sort and measure their haul, something seems wrong. The catch, which usually features species such as the snow crab – a species of spider crab growing up to a metre wide with its legs outstretched – o",
-      "url": "https://www.theguardian.com/environment/2026/nov/21/alaska-bering-sea-heatwave-snow-tanner-hybrid-crabs-fishing-quotas",
-      "canonicalUrl": "https://theguardian.com/environment/2026/nov/21/alaska-bering-sea-heatwave-snow-tanner-hybrid-crabs-fishing-quotas",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:00:57Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9fdb0a2c2757969e8c0d78e2fdaf3c659856ca2b/386_148_4136_3308/master/4136.jpg?width=140&quality=85&auto=format&fit=max&s=f4efc1ca54ee71c7421e52c493dba1b2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8708e2421b4e30400457",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6892
-    },
-    {
-      "id": "0f4a6e40e0b82a18e41fab0e",
-      "title": "‘I’m opening the cage of a monster’: Taxi Driver scriptwriter Paul Schrader on unleashing AI at 80",
-      "translatedTitle": null,
-      "description": "Director and Scorsese collaborator is using AI in films and sees its takeover as inevitable, not just in cinema Paul Schrader was sipping white wine in a Greenwich Village trattoria when he said how he felt about using AI to make films: “I am opening the cage of a monster and I don’t have a leash.” The 80-year-old film-maker behind Taxi Driver, Raging Bull and American Gigolo, is embracing the technology as he enters the final act of a prolific career in which he has collaborated with Martin Sco",
-      "url": "https://www.theguardian.com/film/2026/nov/21/taxi-driver-scriptwriter-paul-schrader-ai-film-making-martin-scorsese",
-      "canonicalUrl": "https://theguardian.com/film/2026/nov/21/taxi-driver-scriptwriter-paul-schrader-ai-film-making-martin-scorsese",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:00:57Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/c3c591ee1acfc05bd826c7b9314021f5f105c5c6/804_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=99354a6a41759bb3d3e31a867653f11a",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fd92003bbb65fb4dc0bb",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6892
-    },
-    {
-      "id": "ba2b2017a5318087e1443ba3",
-      "title": "‘No means no, however we dress and wherever we go’: 50 years of campaigning against rape",
-      "translatedTitle": null,
-      "description": "Grassroots group Women Against Rape says ‘things are really changing’ in how victims are treated by criminal justice system When Mr Justice Bennathan sentenced Russell Brand to 10 and a half years in prison, there was a notable shift in the characterisation of victims of sexual assault. “Whatever women wear, wherever they go, whatever they drink, they retain the right to say no, and to demand justice from the criminal courts when sexual predators like you, Russell Brand, act without their consen",
-      "url": "https://www.theguardian.com/law/2026/nov/21/campaigning-women-against-rape-50-years-uk-criminal-justice-system",
-      "canonicalUrl": "https://theguardian.com/law/2026/nov/21/campaigning-women-against-rape-50-years-uk-criminal-justice-system",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:00:56Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/32ea63f94fbbd6bbfccf967899942d7101d517b9/0_164_1259_1007/master/1259.jpg?width=140&quality=85&auto=format&fit=max&s=5f468049d8703d4026408a2358f68365",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8786a3e44bff431cf310",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68917
-    },
-    {
-      "id": "5535d7b7cdc30e22c3556c4f",
-      "title": "Fair-weather Silicon Valley pivots away from the right after blue wave: ‘I’m not Maga’",
-      "translatedTitle": null,
-      "description": "From Elon Musk to Palantir’s Alex Karp, CEOs are softening hardline stances in expectation of an influx of Democrats A short two years ago, Elon Musk stood before an audience of tens of thousands of people in New York City and proudly told them: “I’m not just Maga. I’m dark, gothic Maga.” On Wednesday, Musk spoke with much less conviction. “I’m not Maga,” he said. “Well, at least I’m not sure what Maga means.” The richest person in the world added he felt “foolish” for spending some $500m to ele",
-      "url": "https://www.theguardian.com/us-news/2026/nov/21/silicon-valley-pivot-us-midterms",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/21/silicon-valley-pivot-us-midterms",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:00:56Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/5f6eeefbb8b785df9624aa30929b8131436bb7a8/688_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=8948f6b51100618a30a755c73745db1f",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8fe9cbfec086afc72b0b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68917
-    },
-    {
-      "id": "9bd7589752a49072c09975b7",
-      "title": "Sam Lau on Robert Pattinson’s cinematic ubiquity – cartoon",
-      "translatedTitle": null,
-      "description": "Continue reading...",
-      "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/21/sam-lau-robert-pattinson-cinema-cartoon-james-bond",
-      "canonicalUrl": "https://theguardian.com/commentisfree/picture/2026/nov/21/sam-lau-robert-pattinson-cinema-cartoon-james-bond",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:00:56Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/909a66e4c45fe110f2db6f923440006b573d20a3/0_69_2064_1651/master/2064.jpg?width=140&quality=85&auto=format&fit=max&s=0da7714d1dc343fdcc77c1524c3d30f8",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f5bdfa777844de2f2240",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68917
-    },
-    {
-      "id": "b760e4600e0b3e9151f92613",
-      "title": "Best Amazon Black Friday deals – these are the offers that are worth your money",
-      "translatedTitle": null,
-      "description": "The retailer never does Black Friday by halves Follow live: Best Black Friday 2026 deals",
-      "url": "https://www.independent.co.uk/extras/indybest/black-friday/amazon-black-friday-deals-2026-b3071535.html",
-      "canonicalUrl": "https://independent.co.uk/extras/indybest/black-friday/amazon-black-friday-deals-2026-b3071535.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:46:12Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/21/11/44/Best-Amazon-Black-Friday-deals-IndyBest.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "12e893f23db23cc36a81",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68688
-    },
-    {
-      "id": "4b5e33070bab8bec5ad4796d",
-      "title": "I’m A Celeb fans rally behind AJ Odudu after emotional confrontation with Mariella Frostrup",
-      "translatedTitle": null,
-      "description": "TV presenter teared up following their tense interaction around cooking duties",
-      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/im-a-celeb-aj-odudu-mariella-frostrup-feud-b3089124.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/im-a-celeb-aj-odudu-mariella-frostrup-feud-b3089124.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:44:32Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/21/11/50/AJ-Odudu-Mariella-Frostrup.jpg?width=1200&auto=webp&trim=0%2C1%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "84d99cfddc1f6cdce973",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.68359
-    },
-    {
-      "id": "4a09236a17eaf18ebea83fb2",
-      "title": "Virgil van Dijk has ‘no idea’ whether he will extend contract at Liverpool",
-      "translatedTitle": null,
-      "description": "Van Dijk is approaching the final six months of his contract at Anfield",
-      "url": "https://www.independent.co.uk/sport/football/virgil-van-dijk-contract-latest-liverpool-b3089128.html",
-      "canonicalUrl": "https://independent.co.uk/sport/football/virgil-van-dijk-contract-latest-liverpool-b3089128.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:39:09Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/21/11/2304136139..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "247abf2fbe7bd6ee2ecc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.67298
-    },
-    {
-      "id": "a126e9220b79ca243574692f",
-      "title": "‘Get In!’ – Official Rejoin campaign set to be launched in bid to reverse Brexit",
-      "translatedTitle": null,
-      "description": "Exclusive: Creation of the Rejoin campaign is underway as a repost to Lord Michael Gove’s pro-Brexit Stay Out group",
-      "url": "https://www.independent.co.uk/news/uk/politics/brexit-get-in-rejoin-eu-b3089103.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/brexit-get-in-rejoin-eu-b3089103.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:39:06Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/21/10/2281927711..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d59f6b3ff58a5c138428",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.67288
-    },
-    {
-      "id": "70eaa5ef4c759b5b36050291",
-      "title": "Black music producer's lawyer hails landmark ruling as court finds racist police violence",
-      "translatedTitle": null,
-      "description": "A French court has acknowledged the racist nature of a violent incident involving police officers and sentenced them to prison",
-      "url": "https://www.independent.co.uk/news/paris-french-money-b3089130.html",
-      "canonicalUrl": "https://independent.co.uk/news/paris-french-money-b3089130.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:37:36Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/21/11/France_Police_Racism__1567.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ee40e32b59051e95d872",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66994
-    },
-    {
-      "id": "feb50da2274d174852bf5a0d",
-      "title": "'Somebody has to stand up to that guy' - Verstappen-Russell rivalry blows up again",
-      "translatedTitle": null,
-      "description": "The George Russell-Max Verstappen feud surfaced again in Las Vegas, adding spice to a race where they will start on the front row.",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c34gnrvl9zvro?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/formula1/articles/c34gnrvl9zvro?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T08:13:58Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/618b/live/83c124c0-e57a-11f1-a5f6-b3028adf2d6d.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "10cebfa68e4a654f531e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66565
-    },
-    {
-      "id": "0410f94b00997f1f837ef6dc",
-      "title": "‘I was sleeping in a park in 2009. Life is just as hard for young people today’",
-      "translatedTitle": null,
-      "description": "Yasmina, now 33, first experienced homelessness when she was 16 and says life is just as difficult for young people today. With the help of our readers,The Independent has set out to give them the support they need",
-      "url": "https://www.independent.co.uk/news/uk/home-news/youth-homelessness-housing-campaign-project-nest-everyyouth-b3087915.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/youth-homelessness-housing-campaign-project-nest-everyyouth-b3087915.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:33:34Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/19/16/22/Yasmina-became-homeless-in-2009.jpeg?width=1200&auto=webp&trim=0%2C3%2C2%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7b6fe0e93a46a250a5e4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66203
-    },
-    {
-      "id": "c141686d28d88add302df674",
-      "title": "Fontaines DC review – thrilling gothic grandeur from a band vaulting into greatness",
-      "translatedTitle": null,
-      "description": "M&S Bank Arena, LiverpoolJust a few years since playing little dive bars, the Irish rockers have confidently scaled up to huge rooms like this – and are now one of the key interpreters of modern malaise A mere seven years since their debut, Dogrel, Fontaines DC have enjoyed a virtually seamless passage from Dublin dive bars to arenas, with stadiums to follow next year. Each step has been taken seemingly effortlessly in their stride and this latest outing is no exception. Bathed in shimmering blu",
-      "url": "https://www.theguardian.com/music/2026/nov/21/fontaines-dc-review-liverpool-arena-uk-tour",
-      "canonicalUrl": "https://theguardian.com/music/2026/nov/21/fontaines-dc-review-liverpool-arena-uk-tour",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T10:42:12Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/cc1c0626f6753831bb46708e32df0c02a2856a3e/482_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=f9b1962e0750d5c4a15a306b0367ad7c",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bbe3e2d5b45b56e31b2b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65393
-    },
-    {
-      "id": "683d4303020097ca425f35ad",
-      "title": "Elon Musk ‘developing one or two islands’ in the Philippines",
-      "translatedTitle": null,
-      "description": "Musk already has a business presence in the Philippines through Starlink, SpaceX's satellite internet service",
-      "url": "https://www.independent.co.uk/bulletin/news/philippines-elon-musk-islands-trump-b3089127.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/philippines-elon-musk-islands-trump-b3089127.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:27:48Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/08/18/2026-11-08T162337Z_1864348541_RC26ZNAU7IZN_RTRMADP_3_USA-CONGRESS-DEMOCRATS.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e54df6fd08d99ff5df7c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65079
-    },
-    {
-      "id": "be1415038246afa7c2c0f151",
-      "title": "Best Black Friday deals LIVE – 58 top offers available today, from Whoop to Apple and more",
-      "translatedTitle": null,
-      "description": "The Independent’s consumer experts and I are monitoring the sales to bring you the best offers on the products we genuinely recommend",
-      "url": "https://www.independent.co.uk/extras/indybest/black-friday/best-black-friday-deals-2026-b3087769.html",
-      "canonicalUrl": "https://independent.co.uk/extras/indybest/black-friday/best-black-friday-deals-2026-b3087769.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:27:19Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/21/10/57/Best-Black-Friday-deals-2026-IndyBest.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "7ef3a93b875c4b4468cc",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64985
-    },
-    {
-      "id": "9c0cac05d142946dcb8a6bfa",
-      "title": "Burnham ‘determined to take UK back into EU’ after landmark deal with Brussels",
-      "translatedTitle": null,
-      "description": "It comes as foreign secretary Ed Miliband said ‘all options’ are on the table",
-      "url": "https://www.independent.co.uk/news/uk/politics/burnham-uk-eu-summit-brexit-b3089086.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/politics/burnham-uk-eu-summit-brexit-b3089086.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-21T11:25:35Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/20/15/6f0e6c0859a8c556e96c8797f2153c73Y29udGVudHNlYXJjaGFwaSwxNzk1MjczMTA1-2.86550175.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-21T12:17:34Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "df23815796a4edb85224",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64648
+      "rankingScore": 5.28771,
+      "related": []
     }
   ]
 }
