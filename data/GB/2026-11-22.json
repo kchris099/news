@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T12:18:01Z",
-  "lastAttemptAt": "2026-11-22T12:18:01Z",
-  "lastSuccessfulUpdate": "2026-11-22T12:18:01Z",
-  "status": "current",
+  "generatedAt": "2026-11-22T16:18:06Z",
+  "lastAttemptAt": "2026-11-22T16:18:06Z",
+  "lastSuccessfulUpdate": "2026-11-22T16:18:06Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-22T12:18:00Z",
-      "lastSuccessAt": "2026-11-22T12:18:00Z",
-      "articlesRetrieved": 35,
-      "responseTimeMs": 490,
+      "lastAttemptAt": "2026-11-22T16:18:05Z",
+      "lastSuccessAt": "2026-11-22T16:18:06Z",
+      "articlesRetrieved": 26,
+      "responseTimeMs": 521,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-22T12:18:00Z",
-      "lastSuccessAt": "2026-11-22T12:18:00Z",
-      "articlesRetrieved": 144,
-      "responseTimeMs": 347,
+      "lastAttemptAt": "2026-11-22T16:18:05Z",
+      "lastSuccessAt": "2026-11-22T16:18:06Z",
+      "articlesRetrieved": 145,
+      "responseTimeMs": 237,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-22T12:18:00Z",
-      "lastSuccessAt": "2026-11-22T12:18:00Z",
-      "articlesRetrieved": 6,
-      "responseTimeMs": 342,
+      "lastAttemptAt": "2026-11-22T16:18:05Z",
+      "lastSuccessAt": "2026-11-22T16:18:06Z",
+      "articlesRetrieved": 7,
+      "responseTimeMs": 421,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-22T12:18:00Z",
-      "lastSuccessAt": "2026-11-22T12:18:00Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 500,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-22T16:18:05Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -78,7 +78,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -148,7 +148,7 @@
           "sourceQuality": 1.0
         }
       ],
-      "rankingScore": 8.9768
+      "rankingScore": 8.59475
     },
     {
       "id": "86cd0535fac661a515cbcbcd",
@@ -170,15 +170,105 @@
       "imageAlt": null,
       "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "5cbb49551a5a70008aad",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.17609,
+      "related": []
+    },
+    {
+      "id": "b2de7712ffac729ea5f18c4c",
+      "title": "‘Just wrong’: British right distances itself from Trump after Putin ‘friend’ post",
+      "translatedTitle": null,
+      "description": "Reform deputy leader calls Russian leader ‘a murderous dictator’ after US president appears to endorse him UK politics live – latest updates Reform UK and the Conservatives have distanced themselves from Donald Trump after the US president posted a photo of himself shaking hands with Vladimir Putin with the caption: “My friend.” The US president had already used the term to describe the Russian president while at last week’s Asia-Pacific Economic Cooperation summit in Shenzhen, southern China, w",
+      "url": "https://www.theguardian.com/politics/2026/nov/22/british-right-reform-tory-party-distances-itself-from-trump-putin-friend-post",
+      "canonicalUrl": "https://theguardian.com/politics/2026/nov/22/british-right-reform-tory-party-distances-itself-from-trump-putin-friend-post",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-22T12:36:58Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/9d90a7d8b6f21d4c00d9de61f70de2d1a4a80ebf/82_0_4618_3696/master/4618.jpg?width=140&quality=85&auto=format&fit=max&s=208afc17f8a3563d408c4106e243a146",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-22T16:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3f3ee43c5252ae605f9b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.54602
+      "rankingScore": 8.13259
+    },
+    {
+      "id": "3853ddbb1256d226902794f1",
+      "title": "Explosion on Russian ship at Libya port likely caused by drone attack, officials say",
+      "translatedTitle": null,
+      "description": "Libya's eastern rival government says it is working with Russia to investigate the incident.",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cr894gjz0j0yo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-22T16:05:25Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/577b/live/c0d843f0-e68a-11f1-936e-1fd1d31671db.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-22T16:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6f18adb930fbb6bf212d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.43423
+    },
+    {
+      "id": "3bd5e7eb466a556bfbd82bd7",
+      "title": "Netanyahu rival condemns settler arson attacks on Palestinian villages in West Bank",
+      "translatedTitle": null,
+      "description": "Dozens of militant Israeli settlers raided communities on Saturday night, setting fire to vehicles and several homes Arson attacks by militant Israeli settlers on Palestinian villages in the occupied West Bank have caused a political row in Israel, drawing condemnation from Gadi Eisenkot, the opposition leader, who described them as “Jewish terrorism”. Dozens of settlers raided Palestinian communities overnight on Saturday, setting fire to about a dozen vehicles and several homes and scrawling r",
+      "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-22T15:22:38Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/efe4dd70505bfcec6b5ab71dc65a3481bf1215d9/1004_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=ba6ce3b8eb675d521051394ab6b7e42e",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-11-22T16:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1d11791e3924141155df",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.42978
     },
     {
       "id": "85d2337c800139e5ddfe7fad",
@@ -207,7 +297,7 @@
       "clusterId": "43d1936ef020ef6da793",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.65428,
+      "rankingScore": 7.31229,
       "related": [
         {
           "id": "d319477578f2bd5b8f4d7238",
@@ -242,12 +332,12 @@
       ]
     },
     {
-      "id": "bb4ee9e60bbb35e81ca507e4",
-      "title": "Cop31 live: EU rejects deal as longest climate summit ever faces collapse",
+      "id": "ef6fbd0a9858b2376bb20f7a",
+      "title": "I stopped talking to my husband and let AI do it instead. He didn’t even notice | Polly Hudson",
       "translatedTitle": null,
-      "description": "Another version of the draft text has been published and negotiators have been called in for the final session Full report: Climate talks stall as countries mull showdown with Saudi Arabia over fossil fuel phaseout Mohamed Adow, director of Power Shift Africa, has been looking through the text and says: “This latest text is a total mess and countries should throw it out. It fails to deliver vital climate finance to the vulnerable while promoting far-fetched and eye wateringly expensive carbon re",
-      "url": "https://www.theguardian.com/environment/live/2026/nov/22/cop31-climate-crisis-talks-turkey-latest-news-updates",
-      "canonicalUrl": "https://theguardian.com/environment/live/2026/nov/22/cop31-climate-crisis-talks-turkey-latest-news-updates",
+      "description": "What have I learned from my experiment with outsourcing? That I’m easily replaced – and awful I’ve just ventured deeper into my phone’s settings than anybody has ever been before. A software update is always discombobulating, but the latest one brought a lot of unwanted AI nonsense (that mental image you just got of me waving my fist at the sky: spot on). Even when you manually switch off Apple Intelligence, check the box to make Siri the same dummy she’s always been, and deselect the option to",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/stopped-talking-to-husband-let-ai-do-it-instead",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/22/stopped-talking-to-husband-let-ai-do-it-instead",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -256,111 +346,50 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-22T12:04:01Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/ea4df22e3283176b004ce79254d62b64700f84bc/553_0_4774_3822/master/4774.jpg?width=140&quality=85&auto=format&fit=max&s=f40564353f97b8d5b869e40e1aa134c2",
+      "publishedAt": "2026-11-22T16:00:31Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8de114b421ebe5837795f62e223317d67e4528bd/719_0_6156_4923/master/6156.jpg?width=140&quality=85&auto=format&fit=max&s=e40cbde46c5a8db0f44e78010eefcfa2",
       "imageAlt": null,
-      "category": "Science & Health",
+      "category": "Technology",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "277d6711c3ffe90bd112",
+      "clusterId": "c17ff62596a708bec5ad",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "4eb6d1b3fa0fe11f0373ab0b",
-          "title": "COP31 climate talks on brink of collapse after EU rejects deal with no mention of fossil fuels",
-          "translatedTitle": null,
-          "description": "Delegates are in a race against time to agree the deal, which fails to mention fossil fuels once",
-          "url": "https://www.independent.co.uk/climate-change/cop-climate-conference-agreement-latest-b3089361.html",
-          "canonicalUrl": "https://independent.co.uk/climate-change/cop-climate-conference-agreement-latest-b3089361.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-22T12:00:03Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/22/09/2026-11-22T073657Z_1762274171_RC2VSOA8RTUZ_RTRMADP_3_CLIMATE-COP31.JPG?width=1200&auto=webp&trim=78%2C0%2C78%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-22T12:18:00Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "277d6711c3ffe90bd112",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "cop31 climate talks on brink of collapse after eu rejects deal with no mention of fossil fuels"
-        },
-        {
-          "id": "f70b97789f8e5905c9e2359b",
-          "title": "Race to save climate talks as Cop31 risks collapse in fossil fuels row",
-          "translatedTitle": null,
-          "description": null,
-          "url": "https://www.independent.co.uk/bulletin/news/cop31-turkey-fossil-fuels-talks-b3089386.html",
-          "canonicalUrl": "https://independent.co.uk/bulletin/news/cop31-turkey-fossil-fuels-talks-b3089386.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-22T10:40:32Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/22/10/2026-11-22T101905Z_336398753_RC2YSOAQHRIM_RTRMADP_3_CLIMATE-COP31.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-22T12:18:00Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "277d6711c3ffe90bd112",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "race to save climate talks as cop31 risks collapse in fossil fuels row"
-        },
-        {
-          "id": "4fff6fc8a5b6009df7d18cb5",
-          "title": "COP31 climate talks close to final deal, says summit president",
-          "translatedTitle": null,
-          "description": "It had been hoped that a year of climate disasters could help sharpen minds at the conference in Turkey – which is now into overtime",
-          "url": "https://www.independent.co.uk/climate-change/cop31-fossil-fuels-turkey-un-aid-b3089095.html",
-          "canonicalUrl": "https://independent.co.uk/climate-change/cop31-fossil-fuels-turkey-un-aid-b3089095.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-22T00:10:07Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/21/09/2305522394..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Science & Health",
-          "topics": [],
-          "retrievedAt": "2026-11-22T12:18:00Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "277d6711c3ffe90bd112",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "cop31 climate talks close to final deal says summit president"
-        }
+      "related": [],
+      "rankingScore": 7.15438
+    },
+    {
+      "id": "7bc28cf2f617ddbb1a8f7ebe",
+      "title": "How did Republicans lose so badly in North Carolina?",
+      "translatedTitle": null,
+      "description": "Republicans suffered sweeping losses across the US in the midterm elections, but perhaps nowhere as large as here Republicans suffered sweeping losses across the country in the midterm elections, but perhaps nowhere as large as North Carolina. Democrats flipped a US Senate seat for the first time since 2008, as well as five House seats, one of which Cook Political Report had rated “solid” Republican, and four others considered “likely” Republican. Democrats also held power in the state’s first d",
+      "url": "https://www.theguardian.com/us-news/2026/nov/22/republicans-lose-north-carolina",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/22/republicans-lose-north-carolina",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
       ],
-      "rankingScore": 7.56155
+      "language": "en",
+      "publishedAt": "2026-11-22T15:00:30Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5d2a6cedacc58722d23ad3e97679243dd5038818/1104_445_3625_2899/master/3625.jpg?width=140&quality=85&auto=format&fit=max&s=f79a92d382f19e313f7998d401440aa0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-22T16:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "95f237c17a545fd00bb2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03739
     },
     {
       "id": "cc22c51d331b0b18cc74c5a3",
@@ -382,7 +411,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -421,7 +450,7 @@
           "normalizedTitle": "theresa may tells andy burnham to accept brexit and move on"
         }
       ],
-      "rankingScore": 7.45421
+      "rankingScore": 7.02684
     },
     {
       "id": "5dc1b789660974d7884081ad",
@@ -443,7 +472,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -471,7 +500,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-22T12:18:00Z",
+          "retrievedAt": "2026-11-22T16:18:06Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -482,10 +511,10 @@
           "normalizedTitle": "max verstappen says george russell is so far below my level after vegas win"
         }
       ],
-      "rankingScore": 7.3709
+      "rankingScore": 6.96013
     },
     {
-      "id": "28e3b4ba7ab05e5f2136d9b4",
+      "id": "b0696f2956e549d85e468960",
       "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
       "translatedTitle": null,
       "description": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
@@ -504,7 +533,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -512,43 +541,73 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.35495
+      "rankingScore": 6.9374
     },
     {
-      "id": "d1e9513b07b584a89643c838",
-      "title": "'Not the right time' - Fernandes pauses Man Utd contract talks",
+      "id": "7778378d9842c62458438f48",
+      "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
       "translatedTitle": null,
-      "description": "Manchester United captain Bruno Fernandes says he has been offered a new contract by the club but feels it \"is not the right time\" for discussions about his future.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "UN patron Lewis Pugh saw ships ablaze and fighter jets overhead during three-day swim as Iran conflict continues A British endurance swimmer has completed a three-day swim through the strait of Hormuz to highlight the environmental cost of the Iran war. Lewis Pugh, a UN patron of the oceans, swam the 9.3-mile (15km) length of the waterway, which is a key route for oil shipments from the Middle East. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-22T08:41:20Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/104e/live/c689eea0-e64b-11f1-a563-e14cd8b02601.jpg",
+      "publishedAt": "2026-11-22T13:36:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7d1fe0b76a02fb1cbed49470fb53746f00e897fd/418_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=bf9d1acd9bb23aed3711f83a38bd6ff4",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1e7487f7eeb9a0d7ebb5",
+      "clusterId": "7ff97300fa73269dd40e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.88333
+    },
+    {
+      "id": "c58cd388e071f40dd7c00a62",
+      "title": "Cop31 climate talks break down as key deal rejected",
+      "translatedTitle": null,
+      "description": "EU, UK and some of developing world object to main text that ‘failed to meet the moment’ and did not mention fossil fuels • Cop31 live blog: longest climate summit ever faces collapse The EU, the UK and allies in the developing world rejected what they called an unacceptable deal on the future of the climate, which failed even to mention fossil fuels, in a dramatic finish to the Cop31 UN talks in Turkey. The proposed deal “failed to meet the moment”, said Ireland’s environment minister, Darragh",
+      "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-22T12:54:41Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f4d171fdee03f0450e71d98657eea9f310f36fd9/435_0_3766_3014/master/3766.jpg?width=140&quality=85&auto=format&fit=max&s=1d4e5cb91f44ed77668a8862b38fa660",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-22T16:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6575c31113a454db7df2",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "0ee4f880e07eec60306d76e8",
-          "title": "Bruno Fernandes admits Man United offered him new contract but ‘not the right moment’ for negotiations",
+          "id": "4eb6d1b3fa0fe11f0373ab0b",
+          "title": "COP31 climate talks on brink of collapse after EU rejects deal with no mention of fossil fuels",
           "translatedTitle": null,
-          "description": "The captain’s deal runs out at the end of this season",
-          "url": "https://www.independent.co.uk/sport/football/bruno-fernandes-man-utd-contract-talks-update-b3089383.html",
-          "canonicalUrl": "https://independent.co.uk/sport/football/bruno-fernandes-man-utd-contract-talks-update-b3089383.html",
+          "description": "Delegates are in a race against time to agree the deal, which fails to mention fossil fuels once",
+          "url": "https://www.independent.co.uk/climate-change/cop-climate-conference-agreement-latest-b3089361.html",
+          "canonicalUrl": "https://independent.co.uk/climate-change/cop-climate-conference-agreement-latest-b3089361.html",
           "sourceName": "The Independent",
           "sourceDomain": "independent.co.uk",
           "sourceCountry": "GB",
@@ -557,8 +616,8 @@
             "GB"
           ],
           "language": "en",
-          "publishedAt": "2026-11-22T10:31:19Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/21/09/2304139100..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "publishedAt": "2026-11-22T12:00:03Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/22/09/2026-11-22T073657Z_1762274171_RC2VSOA8RTUZ_RTRMADP_3_CLIMATE-COP31.JPG?width=1200&auto=webp&trim=78%2C0%2C78%2C0",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
@@ -566,14 +625,104 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "1e7487f7eeb9a0d7ebb5",
+          "clusterId": "6575c31113a454db7df2",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
-          "normalizedTitle": "bruno fernandes admits man united offered him new contract but not the right moment for negotiations"
+          "normalizedTitle": "cop31 climate talks on brink of collapse after eu rejects deal with no mention of fossil fuels"
+        },
+        {
+          "id": "f70b97789f8e5905c9e2359b",
+          "title": "Race to save climate talks as Cop31 risks collapse in fossil fuels row",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://www.independent.co.uk/bulletin/news/cop31-turkey-fossil-fuels-talks-b3089386.html",
+          "canonicalUrl": "https://independent.co.uk/bulletin/news/cop31-turkey-fossil-fuels-talks-b3089386.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-22T10:40:32Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/22/10/2026-11-22T101905Z_336398753_RC2YSOAQHRIM_RTRMADP_3_CLIMATE-COP31.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-22T12:18:00Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "6575c31113a454db7df2",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "race to save climate talks as cop31 risks collapse in fossil fuels row"
+        },
+        {
+          "id": "4fff6fc8a5b6009df7d18cb5",
+          "title": "COP31 climate talks close to final deal, says summit president",
+          "translatedTitle": null,
+          "description": "It had been hoped that a year of climate disasters could help sharpen minds at the conference in Turkey – which is now into overtime",
+          "url": "https://www.independent.co.uk/climate-change/cop31-fossil-fuels-turkey-un-aid-b3089095.html",
+          "canonicalUrl": "https://independent.co.uk/climate-change/cop31-fossil-fuels-turkey-un-aid-b3089095.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-22T00:10:07Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/21/09/2305522394..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Science & Health",
+          "topics": [],
+          "retrievedAt": "2026-11-22T12:18:00Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "6575c31113a454db7df2",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "cop31 climate talks close to final deal says summit president"
         }
       ],
-      "rankingScore": 7.10997
+      "rankingScore": 6.86224
+    },
+    {
+      "id": "fc36a79fec4374bd89e0b6ea",
+      "title": "The looming UK winter may spawn a double headache for Andy Burnham | Richard Partington",
+      "translatedTitle": null,
+      "description": "‘Raising growth in every postcode’ has been the PM’s rallying cry but deep regional disparities and rising energy bills pose problems this winter Andy Burnham faces two, related problems: Britain faces deep regional disparities and it is entering the coldest months of the year with rising inflation. Since entering Downing Street, raising “growth in every postcode” has been the prime minister’s rallying cry, as he bids to close the gaping chasm in living standards between the richest and poorest",
+      "url": "https://www.theguardian.com/business/2026/nov/22/looming-uk-winter-spawns-double-headache-for-andy-burnham",
+      "canonicalUrl": "https://theguardian.com/business/2026/nov/22/looming-uk-winter-spawns-double-headache-for-andy-burnham",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-22T11:24:22Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e94340538344906704731943219c4840f1228d48/68_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d9dcc9354140d3c544a18361e611ce26",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-22T16:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "110c9bc0c7b30a71802c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.66605,
+      "related": []
     },
     {
       "id": "640c17e209c191d083e0d86a",
@@ -602,8 +751,8 @@
       "clusterId": "33938e4dc6fdf0e5c3f1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.09439
+      "rankingScore": 6.65702,
+      "related": []
     },
     {
       "id": "089652c275afae3d75fd5364",
@@ -632,16 +781,16 @@
       "clusterId": "6bda6ee1f792f91cf4e9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.0928
+      "rankingScore": 6.65574,
+      "related": []
     },
     {
-      "id": "1dc77c6d318fafca2e80edaa",
-      "title": "The looming UK winter may spawn a double headache for Andy Burnham",
+      "id": "fd42438d78d51c903cb6c6a5",
+      "title": "The best thing I ever ate? Lunch on the strait of Hormuz",
       "translatedTitle": null,
-      "description": "‘Raising growth in every postcode’ has been the PM’s rallying cry but deep regional disparities and rising energy bills pose problems this winter Andy Burnham faces two, related problems: Britain faces deep regional disparities and it is entering the coldest months of the year with rising inflation. Since entering Downing Street, raising “growth in every postcode” has been the prime minister’s rallying cry, as he bids to close the gaping chasm in living standards between the richest and poorest",
-      "url": "https://www.theguardian.com/business/2026/nov/22/looming-uk-winter-spawns-double-headache-for-andy-burnham",
-      "canonicalUrl": "https://theguardian.com/business/2026/nov/22/looming-uk-winter-spawns-double-headache-for-andy-burnham",
+      "description": "The idea of any guest being hungry, or there not being enough food, is an unspeakable proposition for an Iranian host When most people think of the strait of Hormuz, the warm, tropical waterway connecting the Persian Gulf and the Gulf of Oman, incredible food isn’t usually the first thing that comes to mind. But it should be, and I would know – it’s where I had one of my most memorable meals. I was visiting Iran, traversing thousands of miles across the country with a local female photographer,",
+      "url": "https://www.theguardian.com/food/2026/nov/22/best-thing-i-ever-ate-lunch-strait-of-hormuz-iran-yasmin-khan",
+      "canonicalUrl": "https://theguardian.com/food/2026/nov/22/best-thing-i-ever-ate-lunch-strait-of-hormuz-iran-yasmin-khan",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -650,20 +799,20 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-22T11:24:22Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e94340538344906704731943219c4840f1228d48/68_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d9dcc9354140d3c544a18361e611ce26",
+      "publishedAt": "2026-11-22T11:00:25Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3259aa3b7c015354999888c632964990b85db34b/0_1285_5342_6674/master/5342.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9119cc6121851a3fd34d15778a641e8f",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b1b3a35c619af31a6ee9",
+      "clusterId": "0b7fd63debe3d2835ad2",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.08327
+      "rankingScore": 6.62929,
+      "related": []
     },
     {
       "id": "6eb0951d908fda9f4e584f36",
@@ -692,38 +841,8 @@
       "clusterId": "6d7c8d091ba30c6df85d",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03879
-    },
-    {
-      "id": "fd42438d78d51c903cb6c6a5",
-      "title": "The best thing I ever ate? Lunch on the strait of Hormuz",
-      "translatedTitle": null,
-      "description": "The idea of any guest being hungry, or there not being enough food, is an unspeakable proposition for an Iranian host When most people think of the strait of Hormuz, the warm, tropical waterway connecting the Persian Gulf and the Gulf of Oman, incredible food isn’t usually the first thing that comes to mind. But it should be, and I would know – it’s where I had one of my most memorable meals. I was visiting Iran, traversing thousands of miles across the country with a local female photographer,",
-      "url": "https://www.theguardian.com/food/2026/nov/22/best-thing-i-ever-ate-lunch-strait-of-hormuz-iran-yasmin-khan",
-      "canonicalUrl": "https://theguardian.com/food/2026/nov/22/best-thing-i-ever-ate-lunch-strait-of-hormuz-iran-yasmin-khan",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-22T11:00:25Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/3259aa3b7c015354999888c632964990b85db34b/0_1285_5342_6674/master/5342.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9119cc6121851a3fd34d15778a641e8f",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0b7fd63debe3d2835ad2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03736
+      "rankingScore": 6.6125,
+      "related": []
     },
     {
       "id": "72761c4b0887feee3e9e1434",
@@ -745,15 +864,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "64ef0b993f4c0e5f8b9a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92666
+      "rankingScore": 6.54066,
+      "related": []
     },
     {
       "id": "5babb79d818c1baa7d0b2543",
@@ -775,15 +894,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "435d84c1bafc97e89b24",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.82198
+      "rankingScore": 6.45684,
+      "related": []
     },
     {
       "id": "bd997e9ee2906712ee15e885",
@@ -812,8 +931,8 @@
       "clusterId": "ab5ad975ec9852b70e02",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.78073
+      "rankingScore": 6.40587,
+      "related": []
     },
     {
       "id": "00dfd6d1b0c04014cc92aea4",
@@ -842,8 +961,8 @@
       "clusterId": "f46d7c81872cfa571743",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.77282
+      "rankingScore": 6.39954,
+      "related": []
     },
     {
       "id": "f10403be776aee2cb9433b06",
@@ -872,8 +991,38 @@
       "clusterId": "34fab2b9c5b2f2e30635",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.7576
+      "rankingScore": 6.38735,
+      "related": []
+    },
+    {
+      "id": "3552aae137ab3a7c5f551211",
+      "title": "Revealed: profiles of UK experts on gambling harm being hijacked to push illegal online casinos",
+      "translatedTitle": null,
+      "description": "Findings highlight unscrupulous tactics used by operators in multibillion pound illicit market and challenges facing authorities Prof Heather Wardle has dedicated 20 years to researching the harm caused by gambling. So the University of Glasgow social scientist was horrified to learn that her reputation and even her photograph had been hijacked by rogue casinos claiming her endorsement for the very games whose addictive properties she has documented. Continue reading...",
+      "url": "https://www.theguardian.com/society/2026/nov/22/profiles-uk-experts-on-gambling-harm-hijacked-to-promote-online-casinos",
+      "canonicalUrl": "https://theguardian.com/society/2026/nov/22/profiles-uk-experts-on-gambling-harm-hijacked-to-promote-online-casinos",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-22T08:00:21Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/81fa0e7afc6590e31714844f8f2ff98575a33f17/0_0_2811_2248/master/2811.jpg?width=140&quality=85&auto=format&fit=max&s=ef5b8a46f71d768ce00b714a84aa9b9b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-22T16:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "783e234d582ecd7ed7ff",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.37755,
+      "related": []
     },
     {
       "id": "c7bc86af6c1ee6aa3160c340",
@@ -902,37 +1051,7 @@
       "clusterId": "be64793f6941d93dce44",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.73795
-    },
-    {
-      "id": "3552aae137ab3a7c5f551211",
-      "title": "Revealed: profiles of UK experts on gambling harm being hijacked to push illegal online casinos",
-      "translatedTitle": null,
-      "description": "Findings highlight unscrupulous tactics used by operators in multibillion pound illicit market and challenges facing authorities Prof Heather Wardle has dedicated 20 years to researching the harm caused by gambling. So the University of Glasgow social scientist was horrified to learn that her reputation and even her photograph had been hijacked by rogue casinos claiming her endorsement for the very games whose addictive properties she has documented. Continue reading...",
-      "url": "https://www.theguardian.com/society/2026/nov/22/profiles-uk-experts-on-gambling-harm-hijacked-to-promote-online-casinos",
-      "canonicalUrl": "https://theguardian.com/society/2026/nov/22/profiles-uk-experts-on-gambling-harm-hijacked-to-promote-online-casinos",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-22T08:00:21Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/81fa0e7afc6590e31714844f8f2ff98575a33f17/0_0_2811_2248/master/2811.jpg?width=140&quality=85&auto=format&fit=max&s=ef5b8a46f71d768ce00b714a84aa9b9b",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "783e234d582ecd7ed7ff",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.72295,
+      "rankingScore": 6.37162,
       "related": []
     },
     {
@@ -962,8 +1081,8 @@
       "clusterId": "4be95796e76c00fea495",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.71282
+      "rankingScore": 6.3515,
+      "related": []
     },
     {
       "id": "a7ef9c2d658d0b0b1387e9c2",
@@ -992,8 +1111,8 @@
       "clusterId": "4ee956810e49992a39a7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.69814
+      "rankingScore": 6.33975,
+      "related": []
     },
     {
       "id": "7c53c6fa2d2d9e399889190c",
@@ -1015,14 +1134,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "d4743f4c5459bbb33dbf",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.62932,
+      "rankingScore": 6.30258,
       "related": []
     },
     {
@@ -1045,14 +1164,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "1fb11f3a9b922fb12012",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.62927,
+      "rankingScore": 6.30254,
       "related": []
     },
     {
@@ -1075,14 +1194,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "3229440bc46b7018540e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.54071,
+      "rankingScore": 6.23163,
       "related": []
     },
     {
@@ -1105,14 +1224,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "0ab6548fda26c0dec536",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.54066,
+      "rankingScore": 6.23159,
       "related": []
     },
     {
@@ -1135,45 +1254,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "309412e140088f9bddc8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.54064,
+      "rankingScore": 6.23157,
       "related": []
-    },
-    {
-      "id": "c4e72799511b14b4dbf2869d",
-      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-      "translatedTitle": null,
-      "description": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
-      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ckz749ey0r75o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-22T01:25:03Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c977321ded8e97fd4d61",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.46178
     },
     {
       "id": "92ed66b2d1ea9590efe36c07",
@@ -1195,18 +1284,18 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "a633e2ba35435806fb92",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.45682,
+      "rankingScore": 6.16446,
       "related": []
     },
     {
-      "id": "fe288ea41d82261bf0d86e30",
+      "id": "5ce965657616962b3f843f11",
       "title": "How a teen gamer and his mother helped rescue a missing girl",
       "translatedTitle": null,
       "description": "When 16-year-old Landon Tresp met a teenage girl in an online game, it led to him and his mother helping the FBI rescue her from kidnapping.",
@@ -1225,7 +1314,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -1233,37 +1322,7 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.38107
-    },
-    {
-      "id": "5b8918fe28c7c3aa098e30fd",
-      "title": "Parents urged to spot online stalking warning signs as cases rise",
-      "translatedTitle": null,
-      "description": "From fake profiles to unwanted contact, specialists explain the signs parents should take seriously.",
-      "url": "https://www.bbc.co.uk/news/articles/c674pejp1110o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c674pejp1110o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-22T00:07:32Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6755/live/028a3f80-e1de-11f1-911e-f985fea51b18.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0146eb24bf5247c225e5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.37855
+      "rankingScore": 6.15763
     },
     {
       "id": "7ea1437dfb59c7c62398394f",
@@ -1292,38 +1351,8 @@
       "clusterId": "7dfb7c056c04fc39876f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.36675
-    },
-    {
-      "id": "28e48e3f662fdcdaae8c6425",
-      "title": "Lionel Messi at center of red-card controversy as Inter Miami face early MLS playoff exit",
-      "translatedTitle": null,
-      "description": "Messi booked for throwing ball into opponent’s face Columbus coach insists Argentine deserved red card Defending champions thrashed 3-0 in series opener Columbus Crew coach Laurent Courtois said Lionel Messi should have been sent off after throwing a ball into an opponent’s face as Inter Miami crashed to a 3-0 defeat in the MLS Cup playoffs on Saturday. Messi’s frustration boiled over on the stroke of half-time when he hurled a throw-in into the face of Columbus forward Gonzalo Tapia, with 10-ma",
-      "url": "https://www.theguardian.com/football/2026/nov/21/lionel-messi-red-card-controversy-inter-miami-columbus-crew-mls-playoffs",
-      "canonicalUrl": "https://theguardian.com/football/2026/nov/21/lionel-messi-red-card-controversy-inter-miami-columbus-crew-mls-playoffs",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-22T03:01:55Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/c98d4d83cac99ccfd2d3edc8d0ba8faad0d7f091/272_0_2705_2165/master/2705.jpg?width=140&quality=85&auto=format&fit=max&s=bb20fd0061249cd8fafbf2c4de830eaf",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a97612f18a73f132a764",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.30455
+      "rankingScore": 6.07441,
+      "related": []
     },
     {
       "id": "c29748c395c55a9817071791",
@@ -1352,8 +1381,8 @@
       "clusterId": "f8559ca9cc5be7dc0a83",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.28871
+      "rankingScore": 6.01192,
+      "related": []
     },
     {
       "id": "d4bec36b9f83d5e0df8cef85",
@@ -1382,26 +1411,26 @@
       "clusterId": "971f2cd13f216bb80a26",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.26822
+      "rankingScore": 5.99552,
+      "related": []
     },
     {
-      "id": "1e5350e177a25c3a3fe3d7a9",
-      "title": "Ferrari boss blames Charles Leclerc for ‘completely unacceptable’ collision",
+      "id": "28e48e3f662fdcdaae8c6425",
+      "title": "Lionel Messi at center of red-card controversy as Inter Miami face early MLS playoff exit",
       "translatedTitle": null,
-      "description": "Leclerc clashed with Lewis Hamilton, prompting Fred Vasseur to say it showed a ‘lack of respect for the team’.",
-      "url": "https://www.independent.co.uk/f1/charles-leclerc-ferrari-lewis-hamilton-fred-vasseur-oscar-piastri-b3089377.html",
-      "canonicalUrl": "https://independent.co.uk/f1/charles-leclerc-ferrari-lewis-hamilton-fred-vasseur-oscar-piastri-b3089377.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Messi booked for throwing ball into opponent’s face Columbus coach insists Argentine deserved red card Defending champions thrashed 3-0 in series opener Columbus Crew coach Laurent Courtois said Lionel Messi should have been sent off after throwing a ball into an opponent’s face as Inter Miami crashed to a 3-0 defeat in the MLS Cup playoffs on Saturday. Messi’s frustration boiled over on the stroke of half-time when he hurled a throw-in into the face of Columbus forward Gonzalo Tapia, with 10-ma",
+      "url": "https://www.theguardian.com/football/2026/nov/21/lionel-messi-red-card-controversy-inter-miami-columbus-crew-mls-playoffs",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/21/lionel-messi-red-card-controversy-inter-miami-columbus-crew-mls-playoffs",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-22T10:05:52Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/22/10/f25c7ac3825f4cf738634b0f694ab621Y29udGVudHNlYXJjaGFwaSwxNzk1NDI1Njc2-2.86569045.jpg?width=1200&auto=webp&crop=3%3A2",
+      "publishedAt": "2026-11-22T03:01:55Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c98d4d83cac99ccfd2d3edc8d0ba8faad0d7f091/272_0_2705_2165/master/2705.jpg?width=140&quality=85&auto=format&fit=max&s=bb20fd0061249cd8fafbf2c4de830eaf",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
@@ -1409,19 +1438,19 @@
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "1d52e3c9b43b9fe6e5e0",
+      "clusterId": "a97612f18a73f132a764",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.85652
+      "rankingScore": 5.95254,
+      "related": []
     },
     {
-      "id": "85298ab8d19ccb10a043d89e",
-      "title": "Injured Jacks out of T20 Australia tour",
+      "id": "44a33afc2e05abb4e1a61126",
+      "title": "RAF's next fighter jet could be last crewed combat plane, air chief says",
       "translatedTitle": null,
-      "description": "England all-rounder Will Jacks is ruled out of the rest of the tour of Australia with a broken hand.",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c8p3v1p45360o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/sport/cricket/articles/c8p3v1p45360o?at_campaign=rss&at_medium=RSS",
+      "description": "The head of the RAF said AI-enabled and uncrewed aircrafts are expected to start flying in UK airspace next year.",
+      "url": "https://www.bbc.co.uk/news/articles/c68x08nzpk9no?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c68x08nzpk9no?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -1430,200 +1459,110 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-22T10:00:04Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed0e/live/c327b730-e653-11f1-a563-e14cd8b02601.jpg",
+      "publishedAt": "2026-11-22T14:19:06Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b368/live/5ea5bc60-e678-11f1-99b6-a35a62fa4264.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "7875e6e2b8bea9ccdc42",
+      "clusterId": "0202290249c72fb8bbfe",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.84609
+      "rankingScore": 5.88039
     },
     {
-      "id": "e662230715a1f36e737595d1",
-      "title": "‘I don’t blame any woman for being sucked in’: how the wellness industry is cynically exploiting menopause",
+      "id": "c2de7b4ac3f3d4f8d6717cec",
+      "title": "Boss of British Gas owner Centrica 'hugely concerned' over impact of soaring energy bills",
       "translatedTitle": null,
-      "description": "Where women see hot flushes and brain fog, pharmaceutical companies see dollar signs. But are products like lion’s mane mushrooms or even magnets for knickers really helping them? Or is it all just a big capitalist con? ‘Tequila?” says a woman brightly, proffering a pink plastic shot glass. It’s barely 10.30 on a Saturday morning, and my perimenopause wellness journey is not going entirely as expected. We are standing in a neon-lit London conference centre amid the hubbub of Pause Live, billed a",
-      "url": "https://www.theguardian.com/society/2026/nov/22/wellness-industry-cynically-exploiting-menopause-women",
-      "canonicalUrl": "https://theguardian.com/society/2026/nov/22/wellness-industry-cynically-exploiting-menopause-women",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "Chris O'Shea says the number of people unable or unwilling to pay their energy bills will increase when prices jump in the new year.",
+      "url": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6jre7gpdw13o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-22T12:00:29Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/38c3039abbdb4accb719282fcf1d9b112a320140/0_78_782_626/master/782.jpg?width=140&quality=85&auto=format&fit=max&s=f5c68a29025c7381ac141d2307caba3b",
+      "publishedAt": "2026-11-22T13:50:21Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7208/live/d02d4240-e682-11f1-99b6-a35a62fa4264.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "35e9ee6e20519f41a094",
+      "clusterId": "b423b33bb54351ae1ac5",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80446
+      "rankingScore": 5.82863
     },
     {
-      "id": "22a367c1fe829b6391bc1793",
-      "title": "As the real world falls apart, Grand Theft Auto looks more and more appealing | Dave Schilling",
+      "id": "bf39801952998c852cf99462",
+      "title": "BBC apologises after noise disruption during Strictly",
       "translatedTitle": null,
-      "description": "All these tech outages are a reminder we’re at the mercy of powers beyond our comprehension. At least in GTA we have control This week marked the release of the highly anticipated video game Grand Theft Auto VI. Millions around the world checked out of their usual responsibilities in order to immerse themselves in a game where you run errands for your girlfriend in between murdering people. I feel completely alone in not caring about GTA VI, as I famously only play video games where you get to b",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/grand-theft-auto-vi-gaming",
-      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/22/grand-theft-auto-vi-gaming",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "Strictly Come Dancing judge Motsi Mabuse was giving feedback to Delta Goodrem when she paused after the sound started playing.",
+      "url": "https://www.bbc.co.uk/news/videos/ck782j066elvo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/ck782j066elvo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-22T12:00:29Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e7eaa186311ea0c3bdedb5ad98b467111917fadf/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=92b048daec82e0246119eb76282b3aa1",
+      "publishedAt": "2026-11-22T13:46:00Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/65ac/live/63709570-e679-11f1-99b6-a35a62fa4264.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d5c4094d677f31762381",
+      "clusterId": "de12a256e83cbcb7a796",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80446
+      "rankingScore": 5.82092
     },
     {
-      "id": "612762968582e7eb43f1701e",
-      "title": "CEO of funding agency for UK science and research criticised by union over cuts",
+      "id": "3a2a69f2fe7afa9ff5fd898c",
+      "title": "Man dies after being found seriously injured in hospital car park",
       "translatedTitle": null,
-      "description": "Exclusive: Prospect’s Mike Clancy tells Ian Chapman at UKRI that union has ‘lost confidence’ in his leadership A trade union that counts scientists and engineers among its members says it has lost confidence in the leader of the UK’s national funding agency for science and research, citing concerns about plans for major cuts. The letter from Mike Clancy, the general secretary of Prospect, to Ian Chapman, the chief executive of UK Research and Innovation (UKRI), is the latest development in a row",
-      "url": "https://www.theguardian.com/education/2026/nov/22/prospect-union-leader-uk-funding-agency-science-research-ukri",
-      "canonicalUrl": "https://theguardian.com/education/2026/nov/22/prospect-union-leader-uk-funding-agency-science-research-ukri",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "A man in his 20s has been arrested after a 21-year-old man was found seriously injured in a hospital car park, more than 16 miles from where he was wounded.",
+      "url": "https://news.sky.com/story/man-21-dies-after-being-found-seriously-injured-in-hospital-car-park-13615200",
+      "canonicalUrl": "https://news.sky.com/story/man-21-dies-after-being-found-seriously-injured-in-hospital-car-park-13615200",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-22T12:00:28Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9350c277cd73ad7cf6c87f3b2d28a0d673278d82/1297_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=c8366ae3c1a6cdb0ed17451e19d541ff",
+      "publishedAt": "2026-11-22T11:47:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-ladyloan-dundee-scotland_7413361.jpg?20261122114737",
       "imageAlt": null,
       "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f78d5c114f7252bbe373",
+      "clusterId": "78e93f112da95e4f45fe",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.80442
-    },
-    {
-      "id": "e98d28b3152dd013ae7fc294",
-      "title": "Dining across the divide: ‘He feels the current wave of immigrants are less likely to assimilate’",
-      "translatedTitle": null,
-      "description": "Would a Tory voter who moved to Britain more than 50 years ​ago a​nd a Green party​ member see eye to eye on immigration? Ibbi, 65, Woking Occupation Retired; used to work in IT Continue reading...",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/22/dining-across-the-divide-ibbi-keith",
-      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/22/dining-across-the-divide-ibbi-keith",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-22T12:00:28Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/b3093bfd7dce7e58e1b5f7664a70fced085ee796/792_0_6668_5334/master/6668.jpg?width=140&quality=85&auto=format&fit=max&s=e06f7f282df0e19e488334ded1f1f981",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3e496726f56b75441c18",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80442
-    },
-    {
-      "id": "c338788eccd31ea64e522129",
-      "title": "How can we explain psychosomatic illnesses?",
-      "translatedTitle": null,
-      "description": "Emotions play a significant part in physical symptoms – but not in the way people often imagine When Diego started seeing bright flashing lights in his field of vision and felt his legs go weak, he thought he knew immediately what was happening. His mother had a stroke in her 60s, and although Diego was active and (unlike his mother) didn’t smoke, he had always expected that the same would happen to him. So it was a huge relief to be told – after seeing a stroke specialist and having a brain sca",
-      "url": "https://www.theguardian.com/science/2026/nov/22/how-can-we-explain-psychosomatic-illnesses",
-      "canonicalUrl": "https://theguardian.com/science/2026/nov/22/how-can-we-explain-psychosomatic-illnesses",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-22T12:00:27Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/b4be834bccd838d90f22a530a434fcbda79a34c2/0_470_1847_1477/master/1847.jpg?width=140&quality=85&auto=format&fit=max&s=7da4bfdc4ad9d0ecbbdad3f5a8dffce4",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c0c4648b431e5966eb85",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80439
-    },
-    {
-      "id": "1788d3e4fdc99183f5d585cf",
-      "title": "Oobah Butler: Scams for a Better Tomorrow review – these audacious pranks are tell-your-friends funny",
-      "translatedTitle": null,
-      "description": "Butler is a serious talent. These punchy, pacy shows see him taking on the establishment, industry by industry. He’s like a hipster Robin Hood It feels fitting that on the same weekend Nathan Fielder’s much-discussed You Can See Everything finally arrives in UK cinemas, Oobah Butler: Scams for a Better Tomorrow launches on the small screen. This wildly entertaining show confirms Butler as the British heir to Fielder’s crown as the clown prince of documentary-making. Butler doesn’t even need a gi",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/22/oobah-butler-scams-for-a-better-tomorrow-review-hbo-max",
-      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/22/oobah-butler-scams-for-a-better-tomorrow-review-hbo-max",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-22T12:00:26Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/9dc1eb2972cfae4d4a50843742643f4f6ba10f35/274_0_1852_1483/master/1852.jpg?width=140&quality=85&auto=format&fit=max&s=ece26f7eb801bb268c7501c91c8d2040",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "3deb5d243043343ebbb2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.80436
+      "rankingScore": 5.70155
     },
     {
       "id": "2638a1887a26eb3a875e135d",
@@ -1645,15 +1584,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "3b572909b00ec537aa43",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.49869
+      "rankingScore": 5.12822,
+      "related": []
     },
     {
       "id": "61fa711654eeb01dc2cceada",
@@ -1675,15 +1614,45 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-22T12:18:00Z",
+      "retrievedAt": "2026-11-22T16:18:06Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "971c313c371f97a294e3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.80018,
+      "rankingScore": 4.56894,
       "related": []
+    },
+    {
+      "id": "36c0fb9311db8647d07cb9ca",
+      "title": "California train burglars carefully executed heists for ‘staggering’ $22m haul",
+      "translatedTitle": null,
+      "description": "US justice department brings charges against group after at least 36 trains burglarized for shoes and tools Fourteen people in southern California have been accused of burglarizing more than $22m worth of goods from moving freight trains, in a plot reminiscent of the US old west, when outlaws and bandits wreaked havoc on the nascent railroad industry. The justice department has brought railroad theft charges against the group for raiding at least 36 trains and selling thousands of stolen Nike sn",
+      "url": "https://www.theguardian.com/us-news/2026/nov/21/california-arrests-train-heists",
+      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/21/california-arrests-train-heists",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-22T00:20:41Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c04729f8b738b1a19caedb766c12c5a0b35664de/832_478_5003_4002/master/5003.jpg?width=140&quality=85&auto=format&fit=max&s=5456928b4362039ef2ade69abf257e8c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-22T16:18:06Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c2f3138a81da3dfd9b8d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.54658
     }
   ]
 }
