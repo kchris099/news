@@ -4,10 +4,10 @@
   "countryName": "India",
   "timeZone": "Asia/Kolkata",
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T12:18:24Z",
-  "lastAttemptAt": "2026-11-23T12:18:24Z",
-  "lastSuccessfulUpdate": "2026-11-23T12:18:24Z",
-  "status": "current",
+  "generatedAt": "2026-11-23T16:18:14Z",
+  "lastAttemptAt": "2026-11-23T16:18:14Z",
+  "lastSuccessfulUpdate": "2026-11-23T16:18:14Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,32 +16,32 @@
       "sourceId": "the-hindu-national",
       "sourceName": "The Hindu",
       "status": "success",
-      "lastAttemptAt": "2026-11-23T12:18:23Z",
-      "lastSuccessAt": "2026-11-23T12:18:24Z",
+      "lastAttemptAt": "2026-11-23T16:18:09Z",
+      "lastSuccessAt": "2026-11-23T16:18:10Z",
       "articlesRetrieved": 60,
-      "responseTimeMs": 870,
+      "responseTimeMs": 829,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "indian-express",
       "sourceName": "The Indian Express",
-      "status": "success",
-      "lastAttemptAt": "2026-11-23T12:18:23Z",
-      "lastSuccessAt": "2026-11-23T12:18:24Z",
-      "articlesRetrieved": 200,
-      "responseTimeMs": 793,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-23T16:18:09Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '403 Forbidden' for url 'https://indianexpress.com/section/india/feed/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "sourceId": "hindustan-times-india",
       "sourceName": "Hindustan Times",
       "status": "success",
-      "lastAttemptAt": "2026-11-23T12:18:23Z",
-      "lastSuccessAt": "2026-11-23T12:18:24Z",
+      "lastAttemptAt": "2026-11-23T16:18:09Z",
+      "lastSuccessAt": "2026-11-23T16:18:10Z",
       "articlesRetrieved": 100,
-      "responseTimeMs": 931,
+      "responseTimeMs": 966,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,10 +49,10 @@
       "sourceId": "ndtv-top",
       "sourceName": "NDTV",
       "status": "success",
-      "lastAttemptAt": "2026-11-23T12:18:23Z",
-      "lastSuccessAt": "2026-11-23T12:18:24Z",
+      "lastAttemptAt": "2026-11-23T16:18:09Z",
+      "lastSuccessAt": "2026-11-23T16:18:11Z",
       "articlesRetrieved": 20,
-      "responseTimeMs": 1004,
+      "responseTimeMs": 1055,
       "errorType": null,
       "errorMessage": null
     }
@@ -85,6 +85,7 @@
       "clusterId": "e22d4a05642d161bfc90",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 9.44553,
       "related": [
         {
           "id": "030c38ad1051d40c6a15faf3",
@@ -147,16 +148,15 @@
           "sourceQuality": 1.05,
           "normalizedTitle": "tamil nadu seeks stay on supreme court order in deepathoon row says it would alter position irreversibly"
         }
-      ],
-      "rankingScore": 9.7925
+      ]
     },
     {
-      "id": "68f2e58ecdd1f1417c43e74b",
-      "title": "India-Nepal weekly train: Check stations, timings and more about Ayodhya-Janakpur Saryu-Kamala Express",
+      "id": "a590614fea040cff5fb79846",
+      "title": "FSSAI sanctions prosecution against Bisleri, likely to test other packaged drinking water brands",
       "translatedTitle": null,
-      "description": "The Ayodhya Cantt-Janakpur Dham Saryu-Kamala Express will have 10 stations, scheduled for departure every Monday. Check out for further details on stations and timings",
-      "url": "https://www.thehindu.com/news/national/ayodhya-janakpur-weekly-express-train-stations-timings-ticket-price-india-nepal-bihar-uttar-pradesh-details/article71723535.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/ayodhya-janakpur-weekly-express-train-stations-timings-ticket-price-india-nepal-bihar-uttar-pradesh-details/article71723535.ece",
+      "description": "The food standards regulator declares a sample it tested to be unsafe for consumption after it finds the bromate level beyond prescribed limits and detects PAHs; the company disputes the findings and maintains that its water is safe for consumption",
+      "url": "https://www.thehindu.com/news/national/fssai-orders-prosecution-against-bisleri-international-for-unsafe-packaged-drinking-water/article71732196.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/fssai-orders-prosecution-against-bisleri-international-for-unsafe-packaged-drinking-water/article71732196.ece",
       "sourceName": "The Hindu",
       "sourceDomain": "thehindu.com",
       "sourceCountry": "IN",
@@ -165,48 +165,140 @@
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T11:46:56Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/59o54v/article71723502.ece/alternates/LANDSCAPE_1200/20261112156L.jpg",
+      "publishedAt": "2026-11-23T16:07:34Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/azcq3b/article71732204.ece/alternates/LANDSCAPE_1200/2026-11-22T160916Z_1391015199_RC2V2KA1VC1C_RTRMADP_3_INDIA-FOOD-SAFETY-BISLERI.JPG",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
+      "retrievedAt": "2026-11-23T16:18:10Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "7c9565db58b840c79ab0",
+      "clusterId": "3684eea8e6ce398ebeeb",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "e1c66d2cf9f77e6a840d79ab",
-          "title": "India-Nepal train service: PM Modi, Balendra Shah flag off Ayodhya-Janakpur Saryu Kamala Express",
+          "id": "cc67eaa0cd835a303b217858",
+          "title": "Bisleri says packaged drinking water ‘safe’ after FSSAI orders prosecution over ‘unsafe’ samples",
           "translatedTitle": null,
-          "description": null,
-          "url": "https://indianexpress.com/article/india/india-nepal-train-service-pm-modi-balendra-shah-flag-off-ayodhya-janakpur-saryu-kamala-express-10972887/",
-          "canonicalUrl": "https://indianexpress.com/article/india/india-nepal-train-service-pm-modi-balendra-shah-flag-off-ayodhya-janakpur-saryu-kamala-express-10972887",
-          "sourceName": "The Indian Express",
-          "sourceDomain": "indianexpress.com",
+          "description": "The statement came a day after FSSAI said it had approved prosecution against Bisleri International after testing a sample of its packaged drinking water.",
+          "url": "https://www.hindustantimes.com/india-news/safe-for-consumption-bisleri-after-fssai-orders-prosecution-over-unsafe-packaged-drinking-water-101795409576518.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/safe-for-consumption-bisleri-after-fssai-orders-prosecution-over-unsafe-packaged-drinking-water-101795409576518.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
           "sourceCountry": "IN",
           "editionCountry": "IN",
           "coverageCountries": [
             "IN"
           ],
           "language": "en",
-          "publishedAt": "2026-11-23T08:07:14Z",
-          "imageUrl": "https://images.indianexpress.com/2026/11/nepal-train-1.jpg",
+          "publishedAt": "2026-11-23T04:58:11Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/INDIA-FOOD-SAFETY-BISLERI-0_1795410575311_5OSh_1795410587821_b4de_0364c11b-fbce-4a64-a1ce-5dd213ec886a_sQFQ.JPG",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-23T12:18:24Z",
+          "retrievedAt": "2026-11-23T16:18:10Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "7c9565db58b840c79ab0",
+          "clusterId": "3684eea8e6ce398ebeeb",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "india nepal train service pm modi balendra shah flag off ayodhya janakpur saryu kamala express"
+          "sourceQuality": 1.0,
+          "normalizedTitle": "bisleri says packaged drinking water safe after fssai orders prosecution over unsafe samples",
+          "rankingScore": 5.68626
+        }
+      ],
+      "rankingScore": 8.74821
+    },
+    {
+      "id": "d3132c28fc45f4dd5849c6be",
+      "title": "Nepal PM Balen Shah India Visit Highlights: India, Nepal Ink 8 Agreements During PM Balen Shah's New Delhi Visit",
+      "translatedTitle": null,
+      "description": "Nepal PM Balen Shah India Visit Highlights: Balen Shah arrived in New Delhi on Sunday for a two-day State visit to India at the invitation of PM Narendra Modi.",
+      "url": "https://www.ndtv.com/india-news/nepal-pm-balen-shah-india-visit-live-updates-pm-narendra-modi-meeting-today-india-nepal-relations-key-agenda-energy-hydropower-infrastructure-climate-12363775",
+      "canonicalUrl": "https://ndtv.com/india-news/nepal-pm-balen-shah-india-visit-live-updates-pm-narendra-modi-meeting-today-india-nepal-relations-key-agenda-energy-hydropower-infrastructure-climate-12363775",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T13:25:00Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-11/e01roetc_balen-shah_625x300_23_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1c8b899a0b7325aaa99f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "371e144ecc99b8cd3aa901c7",
+          "title": "Balen Shah invites PM Modi to Nepal, urges Indians to visit Pashupatinath, other religious sites",
+          "translatedTitle": null,
+          "description": "The two leaders held bilateral talks in New Delhi to review India-Nepal relations and explore avenues for strengthening cooperation across key sectors.",
+          "url": "https://www.hindustantimes.com/india-news/balen-shah-invites-pm-modi-to-nepal-as-two-leaders-sign-mous-on-key-projects-101795424005890.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/balen-shah-invites-pm-modi-to-nepal-as-two-leaders-sign-mous-on-key-projects-101795424005890.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-23T09:05:50Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/PTI11-23-2026-000138B-0_1795424088110_9rQ1_1795424105307_xVND_9baac614-1fae-4727-b821-7b05df28130e_YAkv.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-23T16:18:10Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "1c8b899a0b7325aaa99f",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "balen shah invites pm modi to nepal urges indians to visit pashupatinath other religious sites"
+        },
+        {
+          "id": "d3c0e2597be8e2283f0cf3d3",
+          "title": "Nepal PM India visit highlights: Balen Shah calls India ‘dependable’, says country is ‘first responder’ during disasters",
+          "translatedTitle": null,
+          "description": "Nepal PM Balen Shah India visit highlights: Balen Shah's India visit marks his first bilateral foreign trip since assuming office as Nepal's prime minister.",
+          "url": "https://www.hindustantimes.com/india-news/nepal-pm-india-visit-live-updates-balendra-balen-shah-pm-modi-meeting-ayodhya-janakpur-train-railway-bilateral-talks-101795403583195.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/nepal-pm-india-visit-live-updates-balendra-balen-shah-pm-modi-meeting-ayodhya-janakpur-train-railway-bilateral-talks-101795403583195.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-23T03:33:46Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/ANI-20261123357-0_1795433233524_Sa3g_1795433248507_QO2q_417ae932-df1b-46f5-b657-b5d5cac9a58d_HsDs.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-23T16:18:10Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "1c8b899a0b7325aaa99f",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "nepal pm india visit highlights balen shah calls india dependable says country is first responder during disasters"
         },
         {
           "id": "3ef4fbb82e7124a9097fc943",
@@ -232,7 +324,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "7c9565db58b840c79ab0",
+          "clusterId": "1c8b899a0b7325aaa99f",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -262,61 +354,60 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "7c9565db58b840c79ab0",
+          "clusterId": "1c8b899a0b7325aaa99f",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.05,
           "normalizedTitle": "pm modi balendra shah meet today focus on economic and energy ties"
         }
       ],
-      "rankingScore": 8.75663
+      "rankingScore": 8.22382
     },
     {
-      "id": "bdc089ae0cabf246161abe90",
-      "title": "Nepal PM India visit LIVE: PM Modi announces offshore campus of IIT in Nepal",
+      "id": "64ef55d279deac8821e93699",
+      "title": "Deleted voters’ appeals to get priority, Supreme Court tells Bengal SIR tribunals",
       "translatedTitle": null,
-      "description": "Establishment of offshore IIT campus in Nepal, scholarships to Nepali students in India, a development package of over ₹15,000 crore for Nepal announced",
-      "url": "https://www.thehindu.com/news/national/nepal-pm-india-visit-balen-shah-begins-bilateral-trip-energy-connectivity-on-agenda-live-updates-november-23-2026/article71733252.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/nepal-pm-india-visit-balen-shah-begins-bilateral-trip-energy-connectivity-on-agenda-live-updates-november-23-2026/article71733252.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
+      "description": "The Supreme Court directed Bengal’s 19 SIR appellate tribunals to prioritise appeals by voters whose names were deleted from electoral rolls.",
+      "url": "https://www.hindustantimes.com/india-news/deleted-voters-appeals-to-get-priority-supreme-court-tells-bengal-sir-tribunals-101795438702289.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/deleted-voters-appeals-to-get-priority-supreme-court-tells-bengal-sir-tribunals-101795438702289.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
       "sourceCountry": "IN",
       "editionCountry": "IN",
       "coverageCountries": [
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T11:26:10Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/ralzd0/article71733259.ece/alternates/LANDSCAPE_1200/2026-09-25T021751Z_1662052580_RC20QNAL0WMA_RTRMADP_3_NEPAL-FLOODS-BALEN-UN.JPG",
+      "publishedAt": "2026-11-23T12:58:21Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/Of-38-31-lakh-appeals-filed-over-Bengal-s-SIR--22-_1795438693810_0MXG.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
+      "retrievedAt": "2026-11-23T16:18:10Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fb25ce1be445f7b3f18b",
+      "clusterId": "52ea4e60a9d85e57a4ae",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 8.71593,
       "related": [
         {
-          "id": "e19175f6b26e7aa7f8d5d7eb",
-          "title": "Nepal PM Balen Shah India Visit LIVE Updates: India, Nepal Ink 8 Agreements During PM Balen Shah's New Delhi Visit",
+          "id": "38cb6adaa49da42088868f83",
+          "title": "West Bengal SIR: Supreme Court orders ECI, Calcutta High Court to increase Tribunals hearing appeals",
           "translatedTitle": null,
-          "description": "Nepal PM Balen Shah India Visit LIVE Updates: Balen Shah arrived in New Delhi on Sunday for a two-day State visit to India at the invitation of PM Narendra Modi.",
-          "url": "https://www.ndtv.com/india-news/nepal-pm-balen-shah-india-visit-live-updates-pm-narendra-modi-meeting-today-india-nepal-relations-key-agenda-energy-hydropower-infrastructure-climate-12363775",
-          "canonicalUrl": "https://ndtv.com/india-news/nepal-pm-balen-shah-india-visit-live-updates-pm-narendra-modi-meeting-today-india-nepal-relations-key-agenda-energy-hydropower-infrastructure-climate-12363775",
-          "sourceName": "NDTV",
-          "sourceDomain": "ndtv.com",
+          "description": "The Tribunals were also directed to segregate the appeals filed by deleted voters from others and grant it urgent, first-priority hearing",
+          "url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-sir-supreme-court-orders-eci-calcutta-high-court-to-increase-tribunals-hearing-appeals/article71734188.ece",
+          "canonicalUrl": "https://thehindu.com/news/national/west-bengal/west-bengal-sir-supreme-court-orders-eci-calcutta-high-court-to-increase-tribunals-hearing-appeals/article71734188.ece",
+          "sourceName": "The Hindu",
+          "sourceDomain": "thehindu.com",
           "sourceCountry": "IN",
           "editionCountry": "IN",
           "coverageCountries": [
             "IN"
           ],
           "language": "en",
-          "publishedAt": "2026-11-23T08:22:49Z",
-          "imageUrl": "https://c.ndtvimg.com/2026-11/e01roetc_balen-shah_625x300_23_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+          "publishedAt": "2026-11-23T10:45:56Z",
+          "imageUrl": "https://th-i.thgim.com/public/incoming/g0rcaj/article71734189.ece/alternates/LANDSCAPE_1200/TH04-KDR--REVISG7BGOOMFJ.3.jpg.jpg",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
@@ -324,135 +415,15 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "fb25ce1be445f7b3f18b",
+          "clusterId": "52ea4e60a9d85e57a4ae",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "nepal pm balen shah india visit live updates india nepal ink 8 agreements during pm balen shah s new delhi visit"
-        },
-        {
-          "id": "87835a2e327e896e62bd0b46",
-          "title": "Nepal PM India visit LIVE: Balen Shah concludes two-day India visit, departs for Kathmandu",
-          "translatedTitle": null,
-          "description": "Nepal PM Balen Shah India visit LIVE: Balen Shah's India visit marks his first bilateral foreign trip since assuming office as Nepal's prime minister.",
-          "url": "https://www.hindustantimes.com/india-news/nepal-pm-india-visit-live-updates-balendra-balen-shah-pm-modi-meeting-ayodhya-janakpur-train-railway-bilateral-talks-101795403583195.html",
-          "canonicalUrl": "https://hindustantimes.com/india-news/nepal-pm-india-visit-live-updates-balendra-balen-shah-pm-modi-meeting-ayodhya-janakpur-train-railway-bilateral-talks-101795403583195.html",
-          "sourceName": "Hindustan Times",
-          "sourceDomain": "hindustantimes.com",
-          "sourceCountry": "IN",
-          "editionCountry": "IN",
-          "coverageCountries": [
-            "IN"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-23T03:33:46Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/ANI-20261123357-0_1795433233524_Sa3g_1795433248507_QO2q_417ae932-df1b-46f5-b657-b5d5cac9a58d_HsDs.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-23T12:18:24Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "fb25ce1be445f7b3f18b",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "nepal pm india visit live balen shah concludes two day india visit departs for kathmandu"
+          "rankingScore": 7.18929,
+          "normalizedTitle": "west bengal sir supreme court orders eci calcutta high court to increase tribunals hearing appeals",
+          "sourceQuality": 1.0
         }
-      ]
-    },
-    {
-      "id": "6e36c2780bbcee8777b6c85c",
-      "title": "India moving towards authoritarian rule through erosion of democratic institutions, former Vice-President Ansari",
-      "translatedTitle": null,
-      "description": "Along with former Vice President Hamid Ansari, CPI(M) general secretary M.A. Baby, economist Prabhat Patanaik spoke at a seminar titled ‘The new age of imperialism’ organised by Sitaram Yechury foundation",
-      "url": "https://www.thehindu.com/news/national/west-bengal/india-moving-towards-authoritarian-rule-through-erosion-of-democratic-institutions-former-vice-president-ansari/article71734063.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/west-bengal/india-moving-towards-authoritarian-rule-through-erosion-of-democratic-institutions-former-vice-president-ansari/article71734063.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
       ],
-      "language": "en",
-      "publishedAt": "2026-11-23T10:58:11Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/2kc0oj/article71734136.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-23%20at%2014.49.18.jpeg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "56ec5ce3677d770f974c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.56233
-    },
-    {
-      "id": "2004a35fa4203ef9315f9596",
-      "title": "Bisleri says it’s water ‘safe for consumption’ after FSSAI sanctions prosecution, says it has received no notice",
-      "translatedTitle": null,
-      "description": "The company said five of six samples collected from its Goa facility in September 2025 met applicable standards, while an independent test found the bromate level in the disputed sample within the prescribed limit",
-      "url": "https://www.thehindu.com/sci-tech/health/bisleri-says-its-water-safe-for-consumption-after-fssai-sanctions-prosecution-says-it-has-received-no-notice/article71733517.ece",
-      "canonicalUrl": "https://thehindu.com/sci-tech/health/bisleri-says-its-water-safe-for-consumption-after-fssai-sanctions-prosecution-says-it-has-received-no-notice/article71733517.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T09:19:33Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/1m33c4/article71733502.ece/alternates/LANDSCAPE_1200/IMG_bl18_bisleri_promo_2_2_1_GCB0IE81.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cfa36c0f8733e7c87fba",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 8.43407,
-      "related": [
-        {
-          "id": "cc67eaa0cd835a303b217858",
-          "title": "Bisleri says packaged drinking water ‘safe’ after FSSAI orders prosecution over ‘unsafe’ samples",
-          "translatedTitle": null,
-          "description": "The statement came a day after FSSAI said it had approved prosecution against Bisleri International after testing a sample of its packaged drinking water.",
-          "url": "https://www.hindustantimes.com/india-news/safe-for-consumption-bisleri-after-fssai-orders-prosecution-over-unsafe-packaged-drinking-water-101795409576518.html",
-          "canonicalUrl": "https://hindustantimes.com/india-news/safe-for-consumption-bisleri-after-fssai-orders-prosecution-over-unsafe-packaged-drinking-water-101795409576518.html",
-          "sourceName": "Hindustan Times",
-          "sourceDomain": "hindustantimes.com",
-          "sourceCountry": "IN",
-          "editionCountry": "IN",
-          "coverageCountries": [
-            "IN"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-23T04:58:11Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/INDIA-FOOD-SAFETY-BISLERI-0_1795410575311_5OSh_1795410587821_b4de_0364c11b-fbce-4a64-a1ce-5dd213ec886a_sQFQ.JPG",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-23T12:18:24Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "cfa36c0f8733e7c87fba",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "bisleri says packaged drinking water safe after fssai orders prosecution over unsafe samples",
-          "rankingScore": 5.68626
-        }
-      ]
+      "rankingScore": 8.12815
     },
     {
       "id": "ad1f4eac53ebecb5dea962a3",
@@ -474,13 +445,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
+      "retrievedAt": "2026-11-23T16:18:10Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "24daaef9fbc590e32ab9",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.96488,
       "related": [
         {
           "id": "051bf8dff187edf0d53ed7e7",
@@ -512,8 +484,37 @@
           "sourceQuality": 1.05,
           "normalizedTitle": "i have to answer to people karnataka congress mla resigns over elephant relocation"
         }
+      ]
+    },
+    {
+      "id": "6e36c2780bbcee8777b6c85c",
+      "title": "India moving towards authoritarian rule through erosion of democratic institutions, former Vice-President Ansari",
+      "translatedTitle": null,
+      "description": "Along with former Vice President Hamid Ansari, CPI(M) general secretary M.A. Baby, economist Prabhat Patanaik spoke at a seminar titled ‘The new age of imperialism’ organised by Sitaram Yechury foundation",
+      "url": "https://www.thehindu.com/news/national/west-bengal/india-moving-towards-authoritarian-rule-through-erosion-of-democratic-institutions-former-vice-president-ansari/article71734063.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/west-bengal/india-moving-towards-authoritarian-rule-through-erosion-of-democratic-institutions-former-vice-president-ansari/article71734063.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
       ],
-      "rankingScore": 8.37883
+      "language": "en",
+      "publishedAt": "2026-11-23T10:58:11Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/2kc0oj/article71734136.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-23%20at%2014.49.18.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T12:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "56ec5ce3677d770f974c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.88565,
+      "related": []
     },
     {
       "id": "1071fe3797f60d31ca5445e7",
@@ -542,6 +543,7 @@
       "clusterId": "cf57dca8c1b7ad9e65b1",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 7.80253,
       "related": [
         {
           "id": "73149189d1769edf825a5ade",
@@ -563,7 +565,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-23T12:18:24Z",
+          "retrievedAt": "2026-11-23T16:18:10Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -603,8 +605,7 @@
           "sourceQuality": 1.05,
           "normalizedTitle": "cop31 concludes without agreement as countries differ on fossil fuel phase out"
         }
-      ],
-      "rankingScore": 8.16367
+      ]
     },
     {
       "id": "0f9ce78d7fef921949b4fab0",
@@ -633,7 +634,7 @@
       "clusterId": "edb2b267ecc9c21efe19",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.99746,
+      "rankingScore": 7.65946,
       "related": [
         {
           "id": "c8d13822aadc16b33acacb0c",
@@ -655,7 +656,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-23T12:18:24Z",
+          "retrievedAt": "2026-11-23T16:18:10Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -685,7 +686,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-23T12:18:24Z",
+          "retrievedAt": "2026-11-23T16:18:10Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -724,16 +725,16 @@
       "clusterId": "3a257a228f77ac8e2a2e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.95906,
+      "rankingScore": 7.61874,
       "related": []
     },
     {
-      "id": "9bdfd88313d4e7b3d14dfb11",
-      "title": "Indian Cyber Crime Coordination Centre warns of possible misuse of WhatsApp Web sessions",
+      "id": "bf47eccf9e5363525594be27",
+      "title": "India-U.S. defence ties given momentum by growing number of military exercises",
       "translatedTitle": null,
-      "description": "National Cybercrime Threat Analytics Unit issues advisory asking users to manually log out after every session",
-      "url": "https://www.thehindu.com/news/national/cybercriminals-may-hijack-account-if-whatsapp-web-session-left-logged-in-on-public-computer-govt/article71734286.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/cybercriminals-may-hijack-account-if-whatsapp-web-session-left-logged-in-on-public-computer-govt/article71734286.ece",
+      "description": "The U.S. Embassy fact sheet described the relationship as a ”Major Defence Partnership\" and highlighted four major military exercises conducted across land, air, and maritime domains in 2026",
+      "url": "https://www.thehindu.com/news/national/india-us-defence-ties-given-momentum-by-growing-number-of-military-exercises/article71735437.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/india-us-defence-ties-given-momentum-by-growing-number-of-military-exercises/article71735437.ece",
       "sourceName": "The Hindu",
       "sourceDomain": "thehindu.com",
       "sourceCountry": "IN",
@@ -742,216 +743,547 @@
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T11:42:14Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/jkbx2o/article71734300.ece/alternates/LANDSCAPE_1200/2025-10-18T135425Z_663815442_RC2VPGAEEO7O_RTRMADP_3_USA-NSO-GROUP-META.JPG",
+      "publishedAt": "2026-11-23T15:48:40Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/imu6f3/article71735786.ece/alternates/LANDSCAPE_1200/IMG_10237_19_10_2024_17__2_1_8JDFP3SR.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
+      "retrievedAt": "2026-11-23T16:18:10Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a1aa1703b6b9f1f3538e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.29735
-    },
-    {
-      "id": "663af36463ff8f8ed03b0d13",
-      "title": "i-ALERT system helps Telangana RTC save 1.98 lakh litres diesel in a month, cut down emissions from buses",
-      "translatedTitle": null,
-      "description": "The i-ALERT keeps tabs on gear selection, overspeeding, braking practices, engine RPM and idling thus assisting drivers to adopt safer and more fuel-efficient driving methods.",
-      "url": "https://www.thehindu.com/news/national/telangana/i-alert-system-leads-to-savings-lesser-emissions-for-rtc/article71730955.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/telangana/i-alert-system-leads-to-savings-lesser-emissions-for-rtc/article71730955.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T11:42:10Z",
-      "imageUrl": "https://th-i.thgim.com/public/news/cities/Hyderabad/oqs1p4/article71734540.ece/alternates/LANDSCAPE_1200/Image%2058.jpeg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "206f8304c34ec3b66f3e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.29722
-    },
-    {
-      "id": "5645f67c43023f258ef8879e",
-      "title": "Rahul Gandhi advocates for votes of infiltrators, says BJP chief Nitin Nabin",
-      "translatedTitle": null,
-      "description": "Nitin Nabin, addressing a rally in Telangana to counter the ‘vote chori’ (vote theft) narrative of Congress, also said Rahul Gandhi insults the country on foreign soil",
-      "url": "https://www.thehindu.com/news/national/telangana/rahul-gandhi-advocates-for-votes-of-infiltrators-says-bjp-chief-nitin-nabin/article71734380.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/telangana/rahul-gandhi-advocates-for-votes-of-infiltrators-says-bjp-chief-nitin-nabin/article71734380.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T11:33:04Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/aihmy6/article71734429.ece/alternates/LANDSCAPE_1200/Nitin-Nabin-to-GLTGQUL95.3.jpg.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8f2311a2f835f6def85a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.27937
-    },
-    {
-      "id": "16c39ada7ee6595b9f586e83",
-      "title": "‘Stop acting like Baahubali,’ says Supreme Court to Bihar judicial officer for FIR against Superintendent of Police",
-      "translatedTitle": null,
-      "description": "A Bench comprising CJI Surya Kant and Justices Joymalya Bagchi and V. Mohana questioned Bihar Judge Anil Kumar’s conduct and said his understanding of law is appalling",
-      "url": "https://www.thehindu.com/news/national/bihar/stop-acting-like-baahubali-says-supreme-court-to-bihar-judicial-officer-for-fir-against-superintendent-of-police/article71734456.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/bihar/stop-acting-like-baahubali-says-supreme-court-to-bihar-judicial-officer-for-fir-against-superintendent-of-police/article71734456.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T11:25:02Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/wg5un3/article71734487.ece/alternates/LANDSCAPE_1200/Supreme-Court-wGEIGQBERO.4.jpg.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "74946b36c0bbc2d54288",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.26374
-    },
-    {
-      "id": "bc089e7a3151e4ae7f046b00",
-      "title": "Hyderabad bomb threat email sender used Europe-based VPN, temporary email account",
-      "translatedTitle": null,
-      "description": "Cybercrime teams are working to trace the sender of the threatening email, which warned of 26/11-style attacks and named Kacheguda Railway Station and Hotel Tourist Plaza as targets",
-      "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-bomb-threat-email-sender-used-vpn-temporary-email-account/article71733944.ece",
-      "canonicalUrl": "https://thehindu.com/news/cities/Hyderabad/hyderabad-bomb-threat-email-sender-used-vpn-temporary-email-account/article71733944.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T11:20:15Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/7bb0t0/article71733990.ece/alternates/LANDSCAPE_1200/2248_2-12-2019_22-32-18_1_02HYNGG_POLICEPATROLVEHICLE01.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "35371e4e5bac8afa4b5b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.25448
-    },
-    {
-      "id": "38cb6adaa49da42088868f83",
-      "title": "West Bengal SIR: Supreme Court orders ECI, Calcutta High Court to increase Tribunals hearing appeals",
-      "translatedTitle": null,
-      "description": "The Tribunals were also directed to segregate the appeals filed by deleted voters from others and grant it urgent, first-priority hearing",
-      "url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-sir-supreme-court-orders-eci-calcutta-high-court-to-increase-tribunals-hearing-appeals/article71734188.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/west-bengal/west-bengal-sir-supreme-court-orders-eci-calcutta-high-court-to-increase-tribunals-hearing-appeals/article71734188.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T10:45:56Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/g0rcaj/article71734189.ece/alternates/LANDSCAPE_1200/TH04-KDR--REVISG7BGOOMFJ.3.jpg.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "aa2efea1f99f4658a9e7",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.18929
-    },
-    {
-      "id": "d2f6891190b88014413579f7",
-      "title": "CPI(M) hails Kerala High Court relief to protesting Sanskrit University students as a slap in the face to the VC and UDF government",
-      "translatedTitle": null,
-      "description": "M.V. Govindan said the High Court directive to conduct special examinations for the striking students, all hailing from working-class families, was a moral win for students’ rights and democracy",
-      "url": "https://www.thehindu.com/news/national/kerala/cpim-hails-kerala-high-court-relief-to-protesting-sanskrit-university-students-as-a-slap-in-the-face-to-the-vc-and-udf-government/article71734120.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/kerala/cpim-hails-kerala-high-court-relief-to-protesting-sanskrit-university-students-as-a-slap-in-the-face-to-the-vc-and-udf-government/article71734120.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T10:16:46Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/1mlpj1/article71734116.ece/alternates/LANDSCAPE_1200/Govindan_3.JPG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8b342f28f28821f70512",
+      "clusterId": "ff7624344477591c20b5",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
         {
-          "id": "a8e6bbf955ddf418d5649c09",
-          "title": "Kerala High Court sets aside suspension of 16 Sree Sankaracharya University of Sanskrit students",
+          "id": "b09b42d1557835cabd8c395b",
+          "title": "Joint Exercises To Key Pacts: Inside The India-US Defence Partnership",
           "translatedTitle": null,
-          "description": "The Kerala High Court directed the university to arrange special examinations for the students within six weeks",
-          "url": "https://www.hindustantimes.com/india-news/kerala-high-court-sets-aside-suspension-of-16-sree-sankaracharya-university-of-sanskrit-students-101795424838285.html",
-          "canonicalUrl": "https://hindustantimes.com/india-news/kerala-high-court-sets-aside-suspension-of-16-sree-sankaracharya-university-of-sanskrit-students-101795424838285.html",
-          "sourceName": "Hindustan Times",
-          "sourceDomain": "hindustantimes.com",
+          "description": "A US Army soldier and an Indian Army soldier test military equipment during Exercise Yudh Abhyas 2026.",
+          "url": "https://www.ndtv.com/india-news/joint-exercises-to-key-pacts-inside-the-india-us-defence-partnership-12366673",
+          "canonicalUrl": "https://ndtv.com/india-news/joint-exercises-to-key-pacts-inside-the-india-us-defence-partnership-12366673",
+          "sourceName": "NDTV",
+          "sourceDomain": "ndtv.com",
           "sourceCountry": "IN",
           "editionCountry": "IN",
           "coverageCountries": [
             "IN"
           ],
           "language": "en",
-          "publishedAt": "2026-11-23T09:07:17Z",
-          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/The-court-said-the-university-can-order-a-fresh-in_1795424831251_f0nH.jpg",
+          "publishedAt": "2026-11-23T13:28:09Z",
+          "imageUrl": "https://c.ndtvimg.com/2026-11/burovj94_india-us-military-exercise-_625x300_23_November_26.jpeg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-23T16:18:11Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "ff7624344477591c20b5",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "joint exercises to key pacts inside the india us defence partnership"
+        }
+      ],
+      "rankingScore": 7.36043
+    },
+    {
+      "id": "289e4fe463b736e3cf97b661",
+      "title": "What stands atop Thiruparankundram hill is a survey pillar, ascertains Tamil Nadu government report",
+      "translatedTitle": null,
+      "description": "This report has evoked interest against the backdrop of the latest dispute over the lighting of the Karthigai Deepam atop Thiruparankundram hill, which has taken centre stage, following the Supreme Court’s decision to permit the lighting of the lamp at the newly identified deepathoon as a limited, one-time arrangement",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/what-stands-atop-thiruparankundram-hill-is-a-survey-pillar-ascertains-tn-government-report/article71735742.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/tamil-nadu/what-stands-atop-thiruparankundram-hill-is-a-survey-pillar-ascertains-tn-government-report/article71735742.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T16:10:03Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/81log/article71735793.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-23%20at%209.14.34%20PM.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "476825d728949ce99726",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.35323
+    },
+    {
+      "id": "875bdf10026bb1a6a2939ab1",
+      "title": "KAT issues ultimatum to government to file reply in college principal appointment dispute",
+      "translatedTitle": null,
+      "description": "In an interim order passed on November 20, KAT administrative member N. Vasudevan warned that the tribunal would automatically allow an application that sought to forfeit the government’s right to file a counter-reply and also proceed to fast-track the case for final hearing if the respondents fail to submit their response within the deadline",
+      "url": "https://www.thehindu.com/news/national/kerala/kat-issues-ultimatum-to-government-to-file-reply-in-college-principal-appointment-dispute/article71735391.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/kerala/kat-issues-ultimatum-to-government-to-file-reply-in-college-principal-appointment-dispute/article71735391.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T16:05:11Z",
+      "imageUrl": "https://www.thehindu.com/theme/images/og-image.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "91bf0ea3f1db4ffef720",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.34341
+    },
+    {
+      "id": "55ff1a3d42ef6e79aae388d6",
+      "title": "Tension in Pithapuram as JSP councillors differ over vice-chairman pick",
+      "translatedTitle": null,
+      "description": "Jana Sena Party Councillors, supporters opposed the party’s decision to elect Bojja Venkateswara Rao as Pithapuram Municipal Vice-Chairman on the grounds of being a newcomer to the party.",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/tension-in-pithapuram-as-jsp-councillors-differ-over-vice-chairman-pick/article71734975.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/andhra-pradesh/tension-in-pithapuram-as-jsp-councillors-differ-over-vice-chairman-pick/article71734975.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T15:52:42Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/rw1mma/article71735613.ece/alternates/LANDSCAPE_1200/10237_23_11_2026_19_7_27_1_WHATSAPPIMAGE2026_11_23AT70521PM.JPEG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "aa19ef7c772ffd2bac99",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.31843
+    },
+    {
+      "id": "5ea2d47a23d795eef95fa89f",
+      "title": "Yellow alert for three districts in Keralam on November 24",
+      "translatedTitle": null,
+      "description": "The alert has been issued for Thiruvananthapuram, Kollam and Pathanamthitta, warning of isolated heavy showers",
+      "url": "https://www.thehindu.com/news/national/kerala/yellow-alert-for-three-districts-in-keralam-on-november-24/article71735314.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/kerala/yellow-alert-for-three-districts-in-keralam-on-november-24/article71735314.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T15:47:52Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/v4aq9f/article71735383.ece/alternates/LANDSCAPE_1200/NH12Weather002.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e6e53d12b2529fcba709",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.30884
+    },
+    {
+      "id": "0fccc5e28a8c915368b09c3b",
+      "title": "Police constable exam postponed in M.P.; Congress, CPI(M) slam BJP government",
+      "translatedTitle": null,
+      "description": "In a notification on the night of November 22, the Madhya Pradesh Employees Selection Board postponed the recruitment examination for 7,500 police constable posts, earlier tentatively scheduled to begin on November 19",
+      "url": "https://www.thehindu.com/news/national/madhya-pradesh/police-constable-exam-postponed-in-mp-congress-cpim-slam-bjp-government/article71735022.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/madhya-pradesh/police-constable-exam-postponed-in-mp-congress-cpim-slam-bjp-government/article71735022.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T15:37:47Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/xrsd07/article71735335.ece/alternates/LANDSCAPE_1200/Umang-Singhar_GG8SG904RA.3.jpg.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0a14ff70b9310ff785b1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.28896
+    },
+    {
+      "id": "470130abe8cb24e445ec2d47",
+      "title": "NCERT issues warning to empanelled printers after complaints of poor-quality textbooks",
+      "translatedTitle": null,
+      "description": "The move follows complaints of blurred text, tiny fonts and printing discrepancies in textbooks on social media",
+      "url": "https://www.hindustantimes.com/india-news/ncert-issues-warning-to-empanelled-printers-after-complaints-of-poor-quality-textbooks-101795446263830.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/ncert-issues-warning-to-empanelled-printers-after-complaints-of-poor-quality-textbooks-101795446263830.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T15:04:23Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/Printers-have-been-asked-to-conduct-inspections-an_1795446255221_0NmS.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b1626ba9a4b938b77f2e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.95444
+    },
+    {
+      "id": "af60632456c55c516b4b21b2",
+      "title": "Nitin Nabin says countdown begins for Congress government in Telangana",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.thehindu.com/news/national/telangana/nitin-nabin-says-countdown-begins-for-congress-government-in-telangana/article71734518.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/telangana/nitin-nabin-says-countdown-begins-for-congress-government-in-telangana/article71734518.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T16:06:00Z",
+      "imageUrl": "https://th-i.thgim.com/public/news/national/telangana/z0yxpw/article71735490.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-23%20at%207.34.31%20PM.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8b0adcc49e08db68f171",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.94505
+    },
+    {
+      "id": "7c9701f978dd542da99cc2e2",
+      "title": "World Hindu Congress 2026 to be held in Mumbai from December 18 to 20",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.thehindu.com/news/national/karnataka/three-day-world-hindu-congress-in-mumbai/article71734712.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/karnataka/three-day-world-hindu-congress-in-mumbai/article71734712.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T16:00:16Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/affvsa/article71735446.ece/alternates/LANDSCAPE_1200/PTI11_18_2026_000198B.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d7ff4cf9f5e7ffe66f35",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.93354
+    },
+    {
+      "id": "087496faada09f56acb80eb3",
+      "title": "BSF jawan goes missing near Bangladesh border in Assam, search operation launched",
+      "translatedTitle": null,
+      "description": "A senior BSF official told HT on Monday afternoon that the force was aware of the matter and necessary steps were being taken",
+      "url": "https://www.hindustantimes.com/india-news/bsf-jawan-goes-missing-near-bangladesh-border-in-assam-search-operation-launched-101795445439366.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/bsf-jawan-goes-missing-near-bangladesh-border-in-assam-search-operation-launched-101795445439366.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T14:50:38Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/According-to-police--constable--GD--K-Venu--posted_1795445415105_BK4m.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "16d47b24d34da96a4bfc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.92845
+    },
+    {
+      "id": "159a289d1dea2b7e662a3664",
+      "title": "Weather Bee: 2026 is now closing in on becoming the warmest year on record",
+      "translatedTitle": null,
+      "description": "Global temperatures hit a record 1.98°C above pre-industrial levels in the first 21 days of November, narrowing the gap between 2026 and 2024.",
+      "url": "https://www.hindustantimes.com/india-news/weather-bee-2026-is-now-closing-in-on-becoming-the-warmest-year-on-record-101795445124734.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/weather-bee-2026-is-now-closing-in-on-becoming-the-warmest-year-on-record-101795445124734.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T14:45:24Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/An-ongoing-El-Ni-o-could-push-global-temperatures-_1795446135215_ylQr.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f734e3fd221f2add8b78",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.91864
+    },
+    {
+      "id": "df9ae6f62ec00b21dbbd0703",
+      "title": "List Of 130, Then Tea: Congress Gets 'Can't Take Risk' Reply From Samajwadi Party",
+      "translatedTitle": null,
+      "description": "Congress demanded seats falling under its traditional strongholds of Amethi and Rae Bareli",
+      "url": "https://www.ndtv.com/india-news/what-did-you-decide-congresss-demand-samajwadi-partys-reply-on-up-assembly-elections-12365808",
+      "canonicalUrl": "https://ndtv.com/india-news/what-did-you-decide-congresss-demand-samajwadi-partys-reply-on-up-assembly-elections-12365808",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T14:42:28Z",
+      "imageUrl": "https://c.ndtvimg.com/2024-02/25ir700g_rahul-gandhi-akhilesh-yadav_625x300_25_February_24.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1b553a0f8d007b865d3e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.91317
+    },
+    {
+      "id": "7af67aa7c0ada85e14fa232c",
+      "title": "Vijayendra expresses confidence in winning Assembly elections, aims for 120-130 seats",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.thehindu.com/news/national/karnataka/vijayendra-expresses-confidence-in-winning-assembly-elections-aims-for-120-130-seats/article71735200.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/karnataka/vijayendra-expresses-confidence-in-winning-assembly-elections-aims-for-120-130-seats/article71735200.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T15:38:57Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/1pyemg/article71735743.ece/alternates/LANDSCAPE_1200/9911_23_11_2026_19_29_0_1_BJPDISTMEETING05.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e1c47489ac7fc0117ab9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.89125
+    },
+    {
+      "id": "981093b4a58fe74b7ef56182",
+      "title": "TGCSB warns against Black Friday online shopping scams",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.thehindu.com/news/national/telangana/tgcsb-warns-against-black-friday-online-shopping-scams/article71735154.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/telangana/tgcsb-warns-against-black-friday-online-shopping-scams/article71735154.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T15:28:53Z",
+      "imageUrl": "https://www.thehindu.com/theme/images/og-image.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3949bc6e20d3e430f071",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.87157
+    },
+    {
+      "id": "7cde79406cfb92208b7afcae",
+      "title": "Two projects announced to spread awareness, increase green cover across Karnataka",
+      "translatedTitle": null,
+      "description": null,
+      "url": "https://www.thehindu.com/news/national/karnataka/two-projects-announced-to-spread-awareness-increase-green-cover-across-karnataka/article71734580.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/karnataka/two-projects-announced-to-spread-awareness-increase-green-cover-across-karnataka/article71734580.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T15:25:21Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/4id7z7/article71735297.ece/alternates/LANDSCAPE_1200/Karnataka-urgesG4JGJHTRV.3.jpg.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d119e1c6ceaf591b4cab",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.86471
+    },
+    {
+      "id": "48c9bb957ea7a621ee2e1785",
+      "title": "Iran Seeks $290 Billion In Damages From US, Cover Decades-Long Actions",
+      "translatedTitle": null,
+      "description": "The damages cover US actions going back decades.",
+      "url": "https://www.ndtv.com/world-news/iran-seeks-290-billion-in-damages-from-us-cover-decades-long-actions-12366804",
+      "canonicalUrl": "https://ndtv.com/world-news/iran-seeks-290-billion-in-damages-from-us-cover-decades-long-actions-12366804",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T13:53:34Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-04/kdbpguuk_trump-mojtaba_625x300_07_April_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:11Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "55315b3b736fc5ef63ce",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82405
+    },
+    {
+      "id": "3c2f4433bd78ebbde3d2e600",
+      "title": "Video of excavator near high-risk Sheshnag Lake in J&K sparks outrage, leaders seek halt on activity",
+      "translatedTitle": null,
+      "description": "The video shows heavy machinery operating in close proximity to the pristine glacial water body along the traditional Amarnath Yatra pilgrimage route.",
+      "url": "https://www.hindustantimes.com/india-news/video-of-excavator-near-high-risk-sheshnag-lake-in-j-k-sparks-outrage-leaders-seek-halt-on-activity-101795436891141.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/video-of-excavator-near-high-risk-sheshnag-lake-in-j-k-sparks-outrage-leaders-seek-halt-on-activity-101795436891141.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T12:38:41Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/lake_1795437432809_leyy_1795437450373_SiXx_9bbe8635-8e4a-4c38-b9d5-ef052099839d_BbpT.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7d7dfbc4544217655748",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "79c7064d9aa618621954c1ad",
+          "title": "Video of excavator at Sheshnag lake sparks concern; crime against Hinduism, says PDP leader",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://indianexpress.com/article/india/excavator-video-shehnag-lake-hinduism-pdp-leader-10974654/",
+          "canonicalUrl": "https://indianexpress.com/article/india/excavator-video-shehnag-lake-hinduism-pdp-leader-10974654",
+          "sourceName": "The Indian Express",
+          "sourceDomain": "indianexpress.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-23T07:06:17Z",
+          "imageUrl": "https://images.indianexpress.com/2026/11/excavator_b9f53a.jpg",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
@@ -959,45 +1291,106 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "8b342f28f28821f70512",
+          "clusterId": "7d7dfbc4544217655748",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "kerala high court sets aside suspension of 16 sree sankaracharya university of sanskrit students"
-        },
+          "rankingScore": 4.88768,
+          "normalizedTitle": "video of excavator at sheshnag lake sparks concern crime against hinduism says pdp leader",
+          "sourceQuality": 1.0
+        }
+      ],
+      "rankingScore": 6.74516
+    },
+    {
+      "id": "68f2e58ecdd1f1417c43e74b",
+      "title": "India-Nepal weekly train: Check stations, timings and more about Ayodhya-Janakpur Saryu-Kamala Express",
+      "translatedTitle": null,
+      "description": "The Ayodhya Cantt-Janakpur Dham Saryu-Kamala Express will have 10 stations, scheduled for departure every Monday. Check out for further details on stations and timings",
+      "url": "https://www.thehindu.com/news/national/ayodhya-janakpur-weekly-express-train-stations-timings-ticket-price-india-nepal-bihar-uttar-pradesh-details/article71723535.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/ayodhya-janakpur-weekly-express-train-stations-timings-ticket-price-india-nepal-bihar-uttar-pradesh-details/article71723535.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T11:46:56Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/59o54v/article71723502.ece/alternates/LANDSCAPE_1200/20261112156L.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T12:18:24Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "788e90b10ce790535650",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 6.66117,
+      "related": [
         {
-          "id": "6e359bba81a7528c0e163935",
-          "title": "Relief for suspended Sanskrit varsity students, Kerala High Court quashes suspension, guilty report",
+          "id": "e1c66d2cf9f77e6a840d79ab",
+          "title": "India-Nepal train service: PM Modi, Balendra Shah flag off Ayodhya-Janakpur Saryu Kamala Express",
           "translatedTitle": null,
-          "description": "The University was also instructed to hold a separate examination for the suspended students, as undertaken before the Supreme Court, within six weeks",
-          "url": "https://www.thehindu.com/news/national/kerala/relief-for-suspended-sanskrit-varsity-students-kerala-high-court-quashes-suspension-guilty-report/article71733554.ece",
-          "canonicalUrl": "https://thehindu.com/news/national/kerala/relief-for-suspended-sanskrit-varsity-students-kerala-high-court-quashes-suspension-guilty-report/article71733554.ece",
-          "sourceName": "The Hindu",
-          "sourceDomain": "thehindu.com",
+          "description": null,
+          "url": "https://indianexpress.com/article/india/india-nepal-train-service-pm-modi-balendra-shah-flag-off-ayodhya-janakpur-saryu-kamala-express-10972887/",
+          "canonicalUrl": "https://indianexpress.com/article/india/india-nepal-train-service-pm-modi-balendra-shah-flag-off-ayodhya-janakpur-saryu-kamala-express-10972887",
+          "sourceName": "The Indian Express",
+          "sourceDomain": "indianexpress.com",
           "sourceCountry": "IN",
           "editionCountry": "IN",
           "coverageCountries": [
             "IN"
           ],
           "language": "en",
-          "publishedAt": "2026-11-23T06:55:38Z",
-          "imageUrl": "https://th-i.thgim.com/public/incoming/c3ffjr/article71733765.ece/alternates/LANDSCAPE_1200/06tvnearby1_GOGGVFGKF98A.3.jpg.jpg",
+          "publishedAt": "2026-11-23T08:07:14Z",
+          "imageUrl": "https://images.indianexpress.com/2026/11/nepal-train-1.jpg",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-23T08:18:02Z",
+          "retrievedAt": "2026-11-23T12:18:24Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "8b342f28f28821f70512",
+          "clusterId": "788e90b10ce790535650",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "rankingScore": 7.20823,
-          "normalizedTitle": "relief for suspended sanskrit varsity students kerala high court quashes suspension guilty report",
-          "sourceQuality": 1.0
+          "sourceQuality": 1.05,
+          "normalizedTitle": "india nepal train service pm modi balendra shah flag off ayodhya janakpur saryu kamala express"
         }
+      ]
+    },
+    {
+      "id": "843f67123c57ab96e0d27ea3",
+      "title": "Karthigai Deepam festival tomorrow, century-old dispute over stone pillar 'deepathoon' returns to spotlight in Tamil Nadu",
+      "translatedTitle": null,
+      "description": "The Tamil Nadu government has moved the Supreme Court seeking a review of its interim order allowing the Karthigai Deepam to be lit as a one-time measure.",
+      "url": "https://www.hindustantimes.com/india-news/karthigai-deepam-festival-tomorrow-century-old-dispute-over-stone-pillar-deepathoon-returns-to-spotlight-in-tamil-nadu-101795430523512.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/karthigai-deepam-festival-tomorrow-century-old-dispute-over-stone-pillar-deepathoon-returns-to-spotlight-in-tamil-nadu-101795430523512.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
       ],
-      "rankingScore": 7.18549
+      "language": "en",
+      "publishedAt": "2026-11-23T12:08:32Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/KarthigaiDeepam__1795430576770_jPOW_1795430576946_Uz20_e82e929b-3fea-45c9-9edf-b75722944ab5_0DwU.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T16:18:10Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d422b2e164f7f03d782b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.64574
     },
     {
       "id": "667d61fd1554aa9b62d8ad98",
@@ -1019,13 +1412,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
+      "retrievedAt": "2026-11-23T16:18:10Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "7af0103cbeb4c8fd7fe9",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.60415,
       "related": [
         {
           "id": "2839043b2dd784c4ca6ff809",
@@ -1057,26 +1451,25 @@
           "sourceQuality": 1.05,
           "normalizedTitle": "naveen patnaik breaks silence over foreign trip probe allegations false appropriate reply will be given"
         }
-      ],
-      "rankingScore": 7.01543
+      ]
     },
     {
-      "id": "7c4eafa19b13ef8916b2901f",
-      "title": "Karnataka makes free sanitary napkins mandatory in schools, warns of action for lapses",
+      "id": "9bdfd88313d4e7b3d14dfb11",
+      "title": "Indian Cyber Crime Coordination Centre warns of possible misuse of WhatsApp Web sessions",
       "translatedTitle": null,
-      "description": "Karnataka has made free biodegradable sanitary napkins mandatory in government, aided and private schools for girls in Classes 6 to 12.",
-      "url": "https://www.hindustantimes.com/india-news/karnataka-makes-free-sanitary-napkins-mandatory-in-schools-warns-of-action-for-lapses-101795433120122.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/karnataka-makes-free-sanitary-napkins-mandatory-in-schools-warns-of-action-for-lapses-101795433120122.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
+      "description": "National Cybercrime Threat Analytics Unit issues advisory asking users to manually log out after every session",
+      "url": "https://www.thehindu.com/news/national/cybercriminals-may-hijack-account-if-whatsapp-web-session-left-logged-in-on-public-computer-govt/article71734286.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/cybercriminals-may-hijack-account-if-whatsapp-web-session-left-logged-in-on-public-computer-govt/article71734286.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
       "sourceCountry": "IN",
       "editionCountry": "IN",
       "coverageCountries": [
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T11:25:19Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/The-state-has-directed-schools-to-install-sanitary_1795433292833_3CF2.jpg",
+      "publishedAt": "2026-11-23T11:42:14Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/jkbx2o/article71734300.ece/alternates/LANDSCAPE_1200/2025-10-18T135425Z_663815442_RC2VPGAEEO7O_RTRMADP_3_USA-NSO-GROUP-META.JPG",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
@@ -1084,11 +1477,11 @@
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "40270c197c691fd3d3e5",
+      "clusterId": "a1aa1703b6b9f1f3538e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.99429
+      "rankingScore": 6.60374,
+      "related": []
     },
     {
       "id": "07747fe74c3eb10e7059ec97",
@@ -1117,8 +1510,8 @@
       "clusterId": "99f8a35fcf308416ecf7",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.99001
+      "rankingScore": 5.62123,
+      "related": []
     },
     {
       "id": "57196e2e78e69ec2180cd0e3",
@@ -1147,8 +1540,8 @@
       "clusterId": "fb1cf8bf3be34d78c148",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.17327
+      "rankingScore": 4.69831,
+      "related": []
     },
     {
       "id": "3ca6f3c17c41c2e4e051eb2a",
@@ -1177,16 +1570,16 @@
       "clusterId": "512cb20140f9932bf948",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.94874
+      "rankingScore": 4.51849,
+      "related": []
     },
     {
-      "id": "00d9f0d2a0a58cc4329dcf4d",
-      "title": "Bhagwat to address ‘Rashtra Vandanam’ gathering in Delhi on Nov 29; spell plans for next 100 years",
+      "id": "c70eb83e4370b84e919ba4fb",
+      "title": "Enforcement Directorate seeks Ravi Uppal’s extradition, to send request for 2 others in Mahadev app case",
       "translatedTitle": null,
-      "description": "The centenary celebrations of RSS, the BJP’s ideological fountainhead, began last year on Vijayadashami",
-      "url": "https://www.hindustantimes.com/india-news/bhagwat-to-address-rashtra-vandanam-gathering-in-delhi-on-nov-29-spell-plans-for-next-100-years-101795404736117.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/bhagwat-to-address-rashtra-vandanam-gathering-in-delhi-on-nov-29-spell-plans-for-next-100-years-101795404736117.html",
+      "description": "The ED is preparing to send extradition requests for two more key players in the ₹6,000 crore online gambling syndicate — Shubham Soni and Anil Kumar Agarwal.",
+      "url": "https://www.hindustantimes.com/india-news/enforcement-directorate-seeks-ravi-uppal-extradition-to-send-request-for-2-others-in-mahadev-app-case-101795397050802.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/enforcement-directorate-seeks-ravi-uppal-extradition-to-send-request-for-2-others-in-mahadev-app-case-101795397050802.html",
       "sourceName": "Hindustan Times",
       "sourceDomain": "hindustantimes.com",
       "sourceCountry": "IN",
@@ -1195,170 +1588,20 @@
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T03:32:15Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/RSS-chief-Mohan-Bhagwat---PTI-_1795404727489_hDHb.png",
+      "publishedAt": "2026-11-23T01:30:23Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/The-Enforcement-Directorate--ED--on-Tuesday-raided_1795397337625_IibR_1795397346707_osmb_21c8f134-085a-4e25-a64c-1c64f32e4a35_fGgC.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
+      "retrievedAt": "2026-11-23T16:18:10Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "ead2ba465be24baa6a7c",
+      "clusterId": "5edba160d222564d4ee4",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.90146
-    },
-    {
-      "id": "79c7064d9aa618621954c1ad",
-      "title": "Video of excavator at Sheshnag lake sparks concern; crime against Hinduism, says PDP leader",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://indianexpress.com/article/india/excavator-video-shehnag-lake-hinduism-pdp-leader-10974654/",
-      "canonicalUrl": "https://indianexpress.com/article/india/excavator-video-shehnag-lake-hinduism-pdp-leader-10974654",
-      "sourceName": "The Indian Express",
-      "sourceDomain": "indianexpress.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T07:06:17Z",
-      "imageUrl": "https://images.indianexpress.com/2026/11/excavator_b9f53a.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "58d09183d9dff54c7e3f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.88768
-    },
-    {
-      "id": "5b941f336627a9777d9f3d4d",
-      "title": "HT Morning News Brief November 23: Nepal PM in India, gaps in CPCB’s Delhi AQI calculation, Alice Huang’s Chinese spy link and more",
-      "translatedTitle": null,
-      "description": "Today’s big headlines in 5 minutes: Your quick brief on politics, national and global events, entertainment, and sports.",
-      "url": "https://www.hindustantimes.com/india-news/ht-morning-news-brief-november-23-nepal-pm-modi-cpcb-delhi-aqi-calculation-alice-huang-chinese-spy-india-new-zealand-ramayana-box-office-101795402135160.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/ht-morning-news-brief-november-23-nepal-pm-modi-cpcb-delhi-aqi-calculation-alice-huang-chinese-spy-india-new-zealand-ramayana-box-office-101795402135160.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T03:04:21Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/pollution_delhi_1764212683649_1764212683816_1795402851689_n9W4_d6ecb414-3a00-4458-be1a-82219fba93ba_pyFs.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9f200dbd0171b847b19f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.867
-    },
-    {
-      "id": "b07688fa67789af9f13f5e32",
-      "title": "No COP31 cover decision leaves India’s equity, finance demands unresolved",
-      "translatedTitle": null,
-      "description": "India called for climate finance to be largely public and concessional without adding to developing countries’ burden",
-      "url": "https://www.hindustantimes.com/india-news/no-cop31-cover-decision-leaves-india-s-equity-finance-demands-unresolved-101795402935579.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/no-cop31-cover-decision-leaves-india-s-equity-finance-demands-unresolved-101795402935579.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T03:03:00Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/Union-environment-minister-Bhupender-Yadav-said-In_1795402927361_vRkq.png",
-      "imageAlt": null,
-      "category": "Business",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e0aa2122acc844120533",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.86535
-    },
-    {
-      "id": "2d330a3b48f0238cc3175cfa",
-      "title": "Address terror issue through joint forum, says Pakistan minister Malik",
-      "translatedTitle": null,
-      "description": "The Pakistani minister, visiting India for an SCO event, said the issue affects the region and that Pakistan has also suffered from terrorism.",
-      "url": "https://www.hindustantimes.com/india-news/address-terror-issue-through-joint-forum-says-pakistan-minister-malik-101795401960572.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/address-terror-issue-through-joint-forum-says-pakistan-minister-malik-101795401960572.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T03:00:05Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/ANI-20261120031-0_1795166236275_Dh3H_1795166246597_1795402366843_a7uv_1795402366999_z3W6_00fc6611-5f3e-423a-8866-baf62f0dfac0_HvdA.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ec17d0e8cf85e5394617",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.8618
-    },
-    {
-      "id": "6b7ccb07aa9523b28218222b",
-      "title": "Delhi’s AQI remains 'poor'; minimum temperature recorded at 11.1°C",
-      "translatedTitle": null,
-      "description": "At 7am, particulate matter 2.5 (PM2.5) was the predominant pollutant at 50 of the national Capital’s 58 monitoring stations",
-      "url": "https://www.hindustantimes.com/india-news/delhis-air-remains-poor-with-aqi-recorded-at-249-pm2-5-remains-dominant-pollutant-101795402634278.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/delhis-air-remains-poor-with-aqi-recorded-at-249-pm2-5-remains-dominant-pollutant-101795402634278.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T02:58:00Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/NSUT-Jaffarpur-recorded-the-worst-AQI-in-the-city-_1795402627259_H9Y5.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fe244f3333167a6340a5",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.85928
+      "rankingScore": 4.51686,
+      "related": []
     },
     {
       "id": "ea70ea2b9033c979f3811b30",
@@ -1387,16 +1630,16 @@
       "clusterId": "e58fff1da5479f6d37b1",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.85413
+      "rankingScore": 4.5148,
+      "related": []
     },
     {
-      "id": "cf998d6f75491052297d7d61",
-      "title": "Body of unidentified man found in abandoned sewage tank in Gurugram’s Sec-65: Police",
+      "id": "5942319677b3c2161aa06a04",
+      "title": "CPCB’s AQI method understates severity of Delhi’s worst pollution days",
       "translatedTitle": null,
-      "description": "Police said that some passers-by noticed a foul smell coming from the abandoned tank and alerted the police control room",
-      "url": "https://www.hindustantimes.com/india-news/body-of-unidentified-man-found-in-abandoned-sewage-tank-in-gurugram-s-sec-65-police-101795401315984.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/body-of-unidentified-man-found-in-abandoned-sewage-tank-in-gurugram-s-sec-65-police-101795401315984.html",
+      "description": "HT's calculations show Delhi’s air would have been “severe” on two days had the index been worked out as defined.",
+      "url": "https://www.hindustantimes.com/india-news/cpcbs-aqi-method-understates-severity-of-delhi-air-pollution-101795394429650.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/cpcbs-aqi-method-understates-severity-of-delhi-air-pollution-101795394429650.html",
       "sourceName": "Hindustan Times",
       "sourceDomain": "hindustantimes.com",
       "sourceCountry": "IN",
@@ -1405,20 +1648,20 @@
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T02:35:15Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/According-to-police--the-body-appeared-to-be-sever_1795401306945_ygL5.jpg",
+      "publishedAt": "2026-11-23T00:49:07Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/Smog-Delhi-18_1766022149964_1766022168906_1795394637783_GpxV_4382b92d-bdd1-4616-a960-540f0197ef36_VnoP.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
+      "retrievedAt": "2026-11-23T16:18:10Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "87082170dd287776fb17",
+      "clusterId": "95feedb19624680054c6",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.83199
+      "rankingScore": 4.48061,
+      "related": []
     },
     {
       "id": "701b2f9297c10daffa09ba7b",
@@ -1447,218 +1690,8 @@
       "clusterId": "5ac8cbaeab728f9d7502",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.81379
-    },
-    {
-      "id": "7825e5b3ed12dc5e5e0b00b4",
-      "title": "Govt to prepare own monthly sugar output estimates for 2026-27 season",
-      "translatedTitle": null,
-      "description": "The government will prepare its own monthly estimates of sugar production for the 2026-27 season, with the first assessment likely to be drawn up after a meeting of state cane commissioners on November 27, after production estimates went massively wrong last year, a senior government official told HT",
-      "url": "https://www.hindustantimes.com/india-news/govt-to-prepare-own-monthly-sugar-output-estimates-for-2026-27-season-101795376948794.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/govt-to-prepare-own-monthly-sugar-output-estimates-for-2026-27-season-101795376948794.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T02:19:00Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/ht-generic_india3_1751287297962_1751287304722.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1d566941cc2134c1d833",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.81284
-    },
-    {
-      "id": "68912423ecef3ca6740cade9",
-      "title": "EV shift for commercial fleets gains urgency amid West Asia crisis, but financing remains hurdle",
-      "translatedTitle": null,
-      "description": "Leasing, loan guarantees and interest support could help, though seasonal demand makes fixed payments risky for private bus operators.",
-      "url": "https://www.hindustantimes.com/india-news/financing-hurdles-stall-e-buses-trucks-adoption-101795374747395.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/financing-hurdles-stall-e-buses-trucks-adoption-101795374747395.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T02:13:10Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/22/1600x900/logo/An-analysis-of-VAHAN-data-by-ITDP-India-showed-tha_1795374735669_5KER.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a7dee0094f214fd52bdf",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.80604
-    },
-    {
-      "id": "32ada25884b2c22a30f99b3c",
-      "title": "Amritsar grenade attack: US-based Happy Passia, 8 others declared proclaimed offenders",
-      "translatedTitle": null,
-      "description": "Passia is associated with banned Babbar Khalsa International (BKI), and according to intelligence officials, he worked with both Lawrence Bishnoi’s network",
-      "url": "https://www.hindustantimes.com/india-news/amritsar-grenade-attack-us-based-happy-passia-8-others-declared-proclaimed-offenders-101795398793577.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/amritsar-grenade-attack-us-based-happy-passia-8-others-declared-proclaimed-offenders-101795398793577.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T01:53:13Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/The-order-for-declaring-them-POs-was-passed-by-a-s_1795398786656_jqyU.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b39009bdc32eae2eed9e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.78305
-    },
-    {
-      "id": "692746632aed6cd4373abefd",
-      "title": "Tamil Nadu moves SC seeking review of Nov 20 ‘Karthigai Deepam’ order",
-      "translatedTitle": null,
-      "description": "The state’s Hindu Religious & Charitable Endowments (HR&CE) department filed the review petition on November 21.",
-      "url": "https://www.hindustantimes.com/india-news/tamil-nadu-moves-supreme-court-seeking-review-of-november-20-karthigai-deepam-order-101795397551479.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/tamil-nadu-moves-supreme-court-seeking-review-of-november-20-karthigai-deepam-order-101795397551479.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T01:37:45Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/supreme_court_firecrackers_ht_report_1793687298717_AlPt_1793687298831_3dNX_a5e597f8-ad53-416c-9f62-d88d9384eb4c_1riz_1795397799571_F7gI_4c0c5493-7dd1-48cc-909a-eb82d4b091f4_jF3h.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e176d3e3370d8e7e2e7c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.76552
-    },
-    {
-      "id": "70dc169f0491a1674e816dd4",
-      "title": "Delhi: Nursery admissions set to begin; schools to release point based criteria today",
-      "translatedTitle": null,
-      "description": "The application process is set to begin on December 1, while the first and second lists of seat allotment are scheduled to be released on December 20",
-      "url": "https://www.hindustantimes.com/india-news/delhi-nursery-admissions-set-to-begin-schools-to-release-point-based-criteria-today-101795397594060.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/delhi-nursery-admissions-set-to-begin-schools-to-release-point-based-criteria-today-101795397594060.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T01:33:13Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/The-department-further-directed-schools-to-publish_1795397586302_133m.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6926dda6343829ba910d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.76043
-    },
-    {
-      "id": "c70eb83e4370b84e919ba4fb",
-      "title": "Enforcement Directorate seeks Ravi Uppal’s extradition, to send request for 2 others in Mahadev app case",
-      "translatedTitle": null,
-      "description": "The ED is preparing to send extradition requests for two more key players in the ₹6,000 crore online gambling syndicate — Shubham Soni and Anil Kumar Agarwal.",
-      "url": "https://www.hindustantimes.com/india-news/enforcement-directorate-seeks-ravi-uppal-extradition-to-send-request-for-2-others-in-mahadev-app-case-101795397050802.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/enforcement-directorate-seeks-ravi-uppal-extradition-to-send-request-for-2-others-in-mahadev-app-case-101795397050802.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T01:30:23Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/logo/The-Enforcement-Directorate--ED--on-Tuesday-raided_1795397337625_IibR_1795397346707_osmb_21c8f134-085a-4e25-a64c-1c64f32e4a35_fGgC.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "5edba160d222564d4ee4",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.75725
-    },
-    {
-      "id": "5942319677b3c2161aa06a04",
-      "title": "CPCB’s AQI method understates severity of Delhi’s worst pollution days",
-      "translatedTitle": null,
-      "description": "HT's calculations show Delhi’s air would have been “severe” on two days had the index been worked out as defined.",
-      "url": "https://www.hindustantimes.com/india-news/cpcbs-aqi-method-understates-severity-of-delhi-air-pollution-101795394429650.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/cpcbs-aqi-method-understates-severity-of-delhi-air-pollution-101795394429650.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:49:07Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/23/1600x900/Smog-Delhi-18_1766022149964_1766022168906_1795394637783_GpxV_4382b92d-bdd1-4616-a960-540f0197ef36_VnoP.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T12:18:24Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "95feedb19624680054c6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.712
+      "rankingScore": 4.41041,
+      "related": []
     },
     {
       "id": "b8060344000db2602b945a42",
@@ -1687,8 +1720,8 @@
       "clusterId": "0ca74c0aa0b0e0b6a81c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.3411
+      "rankingScore": 4.03184,
+      "related": []
     },
     {
       "id": "196e1b9e577d4d44009bbf4d",
@@ -1717,8 +1750,8 @@
       "clusterId": "c9ddd1002f9d83c2d637",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.34088
+      "rankingScore": 4.03167,
+      "related": []
     },
     {
       "id": "291981c0cfaaf442770c9437",
@@ -1747,8 +1780,8 @@
       "clusterId": "b426f6220297fdb200e0",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.34085
+      "rankingScore": 4.03164,
+      "related": []
     },
     {
       "id": "229438ad026243a2efac87be",
@@ -1777,8 +1810,8 @@
       "clusterId": "809670fa93716fed6209",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.34066
+      "rankingScore": 4.03149,
+      "related": []
     },
     {
       "id": "75da4fca3f6392c61fa64378",
@@ -1807,8 +1840,8 @@
       "clusterId": "409f151d977ed60c72c9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.34064
+      "rankingScore": 4.03148,
+      "related": []
     },
     {
       "id": "a449ae1636fbe6fbaeee8527",
@@ -1837,8 +1870,8 @@
       "clusterId": "bb67adc7e719903da3c3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.34037
+      "rankingScore": 4.03126,
+      "related": []
     },
     {
       "id": "fa1b23502b067350493ccf70",
@@ -1867,8 +1900,8 @@
       "clusterId": "12547ca8ddbf251e72c8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.32032
+      "rankingScore": 4.0152,
+      "related": []
     },
     {
       "id": "e0d995d26f76609992d1831d",
@@ -1897,8 +1930,8 @@
       "clusterId": "3ada60a878f1a5edf433",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.31873
+      "rankingScore": 4.01393,
+      "related": []
     }
   ]
 }
