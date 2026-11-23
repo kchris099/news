@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T04:18:03Z",
-  "lastAttemptAt": "2026-11-23T04:18:03Z",
-  "lastSuccessfulUpdate": "2026-11-23T04:18:03Z",
-  "status": "current",
+  "generatedAt": "2026-11-23T08:17:55Z",
+  "lastAttemptAt": "2026-11-23T08:17:55Z",
+  "lastSuccessfulUpdate": "2026-11-23T08:17:55Z",
+  "status": "partial",
   "samplePreview": false,
-  "articleCount": 33,
+  "articleCount": 45,
   "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-23T04:18:02Z",
-      "lastSuccessAt": "2026-11-23T04:18:02Z",
+      "lastAttemptAt": "2026-11-23T08:17:55Z",
+      "lastSuccessAt": "2026-11-23T08:17:55Z",
       "articlesRetrieved": 34,
-      "responseTimeMs": 322,
+      "responseTimeMs": 261,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-23T04:18:02Z",
-      "lastSuccessAt": "2026-11-23T04:18:02Z",
-      "articlesRetrieved": 140,
-      "responseTimeMs": 438,
+      "lastAttemptAt": "2026-11-23T08:17:55Z",
+      "lastSuccessAt": "2026-11-23T08:17:55Z",
+      "articlesRetrieved": 139,
+      "responseTimeMs": 282,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-23T04:18:02Z",
-      "lastSuccessAt": "2026-11-23T04:18:02Z",
-      "articlesRetrieved": 6,
-      "responseTimeMs": 432,
+      "lastAttemptAt": "2026-11-23T08:17:55Z",
+      "lastSuccessAt": "2026-11-23T08:17:55Z",
+      "articlesRetrieved": 4,
+      "responseTimeMs": 404,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-23T04:18:02Z",
-      "lastSuccessAt": "2026-11-23T04:18:02Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 343,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-23T08:17:55Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
@@ -85,8 +85,158 @@
       "clusterId": "228c3ff45919d4feba03",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 8.02845,
+      "related": []
+    },
+    {
+      "id": "af891f0ee9233d855f388547",
+      "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
+      "translatedTitle": null,
+      "description": "The BBC meets the far-left protesters French President Emmanuel Macron says are trying to bring down the Republic.",
+      "url": "https://www.bbc.co.uk/news/articles/cw074km48myeo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cw074km48myeo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T06:01:31Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a13e/live/60282c80-e70e-11f1-99b6-a35a62fa4264.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7e6e64bb38aa880d3e2f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 8.47371
+      "rankingScore": 7.19894
+    },
+    {
+      "id": "cc7aeda2dd67102ccb7e676d",
+      "title": "‘Haaland must be worried’: Thierno Barry’s rise has David Moyes purring",
+      "translatedTitle": null,
+      "description": "Everton striker has worked hard to find his scoring touch after admitting he hit ‘rock bottom’ at times last season A most unexpected name sits behind the phenomenon Erling Haaland and the £125m proven marksman Alexander Isak in the Premier League goalscoring chart this season. The rise of Thierno Barry may have surprised even the man himself but stands as a fitting reward for single-minded perseverance and the refusal to quit. “Fabulous” was David Moyes’s take on Barry’s last performance for Ev",
+      "url": "https://www.theguardian.com/football/2026/nov/23/thierno-barry-rise-david-moyes-purring-everton",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/23/thierno-barry-rise-david-moyes-purring-everton",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T08:00:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b8e8c4a767f6ee591767af3ebef0b4c548705749/696_340_4164_3332/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=542665b66d0b8d4bb4064b5670c01a2e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8455ec5a4dfa90d7939d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.15547
+    },
+    {
+      "id": "e0ae2eb3539bd91381ed1944",
+      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+      "translatedTitle": null,
+      "description": "Eleven people are dead in the attack on Dymer, with rescue efforts ongoing to find those still missing from the residential building.",
+      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqdr15l32d3go?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T05:33:17Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cce0/live/b754c730-e6bd-11f1-a023-d502158f79f8.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6b672d3ea424adb80bad",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.14891
+    },
+    {
+      "id": "408efdada0c9de244ae573bf",
+      "title": "Can you solve it? How Super Mario explains Renaissance art",
+      "translatedTitle": null,
+      "description": "A step or a jump Today’s puzzle is about the hidden mathematical pattern behind a much-loved video game. Consider a simplified game of Super Mario. He moves from platform to platform. He can either step forward 1 space, to the next platform, or jump forward 2 spaces, to the platform after that. 3 platforms? 4 platforms? 5 platforms? 10 platforms? Continue reading...",
+      "url": "https://www.theguardian.com/science/2026/nov/23/can-you-solve-it-how-super-mario-explains-renaissance-art",
+      "canonicalUrl": "https://theguardian.com/science/2026/nov/23/can-you-solve-it-how-super-mario-explains-renaissance-art",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:10:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ae32cea8fcdf027df35d24d9ac14cbd184206bc3/372_0_1411_1130/master/1411.jpg?width=140&quality=85&auto=format&fit=max&s=e9049052a3f7b10efc8f4ad152aa15be",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "34e5c3a03383254d3105",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.05743
+    },
+    {
+      "id": "8198abbbd14473eeaf5cf24c",
+      "title": "Why I love Berlin in winter: ‘Christmas markets arrive in a blaze of twinkling lights’",
+      "translatedTitle": null,
+      "description": "The cold is legendary, but there’s hot chocolate and Glühwein to warm you up, plus crowd-free museums and galleries and cosy candlelit pubs One of the first things Berliners warned me about when I moved here in 2008 was the winters. They talked in hushed, conspiratorial tones about the harsh winds that blew in from the Russian steppes, temperatures of minus 15C and the horrors of frozen bike locks. Having survived 17 of these winters (and counting), and still no hospitalisations for frostbite to",
+      "url": "https://www.theguardian.com/travel/2026/nov/23/why-i-love-berlin-in-winter-christmas-markets",
+      "canonicalUrl": "https://theguardian.com/travel/2026/nov/23/why-i-love-berlin-in-winter-christmas-markets",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:00:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/5e44719ee6f1fdaf39b3237c19c83f5d4303f5be/227_515_4872_3897/master/4872.jpg?width=140&quality=85&auto=format&fit=max&s=929c28bcfaf67615cd7d745dbf339ed0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "789407b21a84f217b050",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.03841
     },
     {
       "id": "6fa6534598127cecf48e9a42",
@@ -108,7 +258,7 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
+      "retrievedAt": "2026-11-23T08:17:55Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -116,37 +266,97 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.30581
+      "rankingScore": 6.89834
     },
     {
-      "id": "e0ae2eb3539bd91381ed1944",
-      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+      "id": "c18e126375c675a15e29b6ac",
+      "title": "Country diary: Top deck of the bus for the finest views of autumn | John Gilbey",
       "translatedTitle": null,
-      "description": "Nine people are dead in the attack, with rescue efforts ongoing to find those still missing from the residential building.",
-      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqdr15l32d3go?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Cadair Idris, Gwynedd: Past golden hillsides and the great Cadair Idris, through wooded valleys, to the starting point for my walk The morning starts bright but cold, with a hazy mist clinging to the trees across the valley. This could be one of the last good weather days, so I take the bus north into Gwynedd, clambering awkwardly upstairs to get the best view of the autumn colours. The mist begins to clear and, in a wet meadow, a heron stands alertly by a ditch, watching for movement. Beyond th",
+      "url": "https://www.theguardian.com/environment/2026/nov/23/country-diary-top-deck-of-the-bus-for-the-finest-views-of-autumn",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/23/country-diary-top-deck-of-the-bus-for-the-finest-views-of-autumn",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T02:37:02Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cce0/live/b754c730-e6bd-11f1-a023-d502158f79f8.jpg",
+      "publishedAt": "2026-11-23T05:30:47Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bf528149314616b86b6bbed20cdf33676283903d/667_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=cf4d3354efd33e7a016763f04a638f17",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
+      "retrievedAt": "2026-11-23T08:17:55Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "6b672d3ea424adb80bad",
+      "clusterId": "e70a979e7d99bea3fe4e",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.26354
+      "rankingScore": 6.87454
+    },
+    {
+      "id": "e9e72b899f585f2d44b6b204",
+      "title": "Fewer than half in UK will pay TV licence fee within a decade, report warns",
+      "translatedTitle": null,
+      "description": "Analysis for thinktank points to cycle of falling income leading to lower spending on content in ‘spiral of decline’ Fewer than half of households in Britain will pay the BBC’s licence within a decade, according to analysis that warns that the broadcaster’s funding is locked in a “spiral of decline”. With senior BBC figures concerned about the accelerating fall in licence fee sales, the independent projections also warn that the proportion of households paying the levy will further decline to le",
+      "url": "https://www.theguardian.com/media/2026/nov/23/bbc-tv-licence-fee-spiral-of-decline-report",
+      "canonicalUrl": "https://theguardian.com/media/2026/nov/23/bbc-tv-licence-fee-spiral-of-decline-report",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T05:00:48Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8c4db6fd4ae5ad0a7eba3fd774dbdd650047180d/326_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=b1a3e93fd4cd95e247e33b25c6e31fcc",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7f86bf3348fede7c83f5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82294
+    },
+    {
+      "id": "8874e3af1c1447a7bd31e583",
+      "title": "Undoing Brexit is the right thing to attempt – but sadly, I can't see Andy Burnham pulling it off | Paul Taylor",
+      "translatedTitle": null,
+      "description": "Brussels rolled out a warm welcome for the PM but toxic UK politics around rejoining have not gone away Despite the beaming smiles and the symbolic triple handshake, the summit intended to reset the UK’s tortured relationship with the EU showed just how difficult undoing Brexit will be a decade after Britons voted to leave. To be sure, Brussels laid on a warm welcome. Andy Burnham’s first summit with the heads of the EU institutions felt like the homecoming of an old friend who had been away too",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/23/undoing-brexit-right-thing-defeat-andy-burnham",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/23/undoing-brexit-right-thing-defeat-andy-burnham",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T05:00:47Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ff52cae722d726d0bc5f7c6dcba3b36df9e0d90c/291_0_4791_3833/master/4791.jpg?width=140&quality=85&auto=format&fit=max&s=eebb67dd59f53332f4ea653723176b81",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1dba96064822bc0c350d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.82291
     },
     {
       "id": "66b66beaa35248dd972c2572",
@@ -168,15 +378,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
+      "retrievedAt": "2026-11-23T08:17:55Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "ea0bbaabbea815ba8acd",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.15502
+      "rankingScore": 6.72381,
+      "related": []
     },
     {
       "id": "5d104cd6a6c2fff8ffe6341f",
@@ -205,8 +415,8 @@
       "clusterId": "58b18ab3be817045a39a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.99579
+      "rankingScore": 6.57837,
+      "related": []
     },
     {
       "id": "fa35224223edcd1201678087",
@@ -228,15 +438,15 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
+      "retrievedAt": "2026-11-23T08:17:55Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "85432bd7eee62552bea5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.80559
+      "rankingScore": 6.44398,
+      "related": []
     },
     {
       "id": "2d92309ed1fbfa7fe0a44037",
@@ -258,14 +468,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
+      "retrievedAt": "2026-11-23T08:17:55Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "34cf135b1658b11d0321",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.72511,
+      "rankingScore": 6.37953,
       "related": []
     },
     {
@@ -295,16 +505,16 @@
       "clusterId": "ddf34c7305419da6937a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.63402
+      "rankingScore": 6.28865,
+      "related": []
     },
     {
-      "id": "e6cb4cc7f400218d116d9c1c",
-      "title": "Australian music legend Molly Meldrum dies aged 83",
+      "id": "5e49c0f87dea18143d04c12a",
+      "title": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
       "translatedTitle": null,
-      "description": "The promoter and broadcaster helped define the music tastes of Australians for decades.",
-      "url": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c3qj57rkd2k1o?at_campaign=rss&at_medium=RSS",
+      "description": "The prime minister will tell MPs the deal agreed on Friday is a \"choice between a broken status quo or change\".",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmde1dy82lepo?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -313,20 +523,650 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T01:03:35Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0cfc/live/c3bcfc70-e6ce-11f1-a9db-c39c38a2d17c.jpg",
+      "publishedAt": "2026-11-23T08:13:27Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9911/live/42198020-e70b-11f1-99b6-a35a62fa4264.jpg",
       "imageAlt": null,
-      "category": "Culture",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
+      "retrievedAt": "2026-11-23T08:17:55Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "4bd84cbc12499e30091e",
+      "clusterId": "218f741833accac45855",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.09747
+      "rankingScore": 6.10088
+    },
+    {
+      "id": "a467dfc4588177a37ec310ce",
+      "title": "Poundland is facing collapse - what's gone wrong?",
+      "translatedTitle": null,
+      "description": "Poundland has a matter of days to find a buyer or face collapsing into administration. Why?",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm4g10p2r0g9o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T08:00:20Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/419f/live/4c718920-e713-11f1-99a1-253766e7ad8b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b309cc00d82ba0b3919c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.07443
+    },
+    {
+      "id": "d51eb0ed425beecc7d8abc1b",
+      "title": "'Our Super Bowl moment' - what can WSL learn from booming US league?",
+      "translatedTitle": null,
+      "description": "The National Women's Soccer League in the USA is booming, so what is it getting right - and what can the Women's Super League learn?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c893rk66e1l7o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/c893rk66e1l7o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:52:55Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a7e/live/9a263a10-e698-11f1-936e-1fd1d31671db.jpg",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f502f60ec1a99d67941b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.05962
+    },
+    {
+      "id": "844610f0433d11c6355e3a1d",
+      "title": "49ers win in Mexico and Bills stay top - NFL week 11",
+      "translatedTitle": null,
+      "description": "The San Francisco 49ers and Buffalo Bills remain the pacesetters in each conference of the NFL.",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/c3zxv0nyxl8ro?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/american-football/articles/c3zxv0nyxl8ro?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:48:33Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fce3/live/4a3c0620-e700-11f1-b302-63c5d030cf64.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ab15792aad6273338993",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.05094
+    },
+    {
+      "id": "c82ea6daed5655b25d1f0e29",
+      "title": "Manchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd",
+      "translatedTitle": null,
+      "description": "Police declare major incident after concertgoers at Don Toliver gig report eye and respiratory symptoms One person was taken to hospital and more than 50 were assessed by medics after a substance was let off in the crowd at Manchester’s Co-op Live arena, officials have said. Police declared a major incident after the release of the substance, which was initially thought to be teargas, as they sought to protect the 12,000 people in the crowd at a Don Toliver concert. Continue reading...",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:48:31Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/34d84297e8f9e2ff1677094b19ec2646b2f2ed6d/136_0_4261_3409/master/4261.jpg?width=140&quality=85&auto=format&fit=max&s=587959d0783e1d667cffb93d4d6f0f7c",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "94b376309c786263fb30",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.05088
+    },
+    {
+      "id": "7b1e5bf159b4a652e19c8dbc",
+      "title": "Inside the heated debate over Scotland's data centres",
+      "translatedTitle": null,
+      "description": "The BBC's Lorna Gordon finds out how data centres operate and hears arguments for and against them.",
+      "url": "https://www.bbc.co.uk/news/articles/c6d912e1420eo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6d912e1420eo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T06:12:43Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efae/live/60ecf6f0-e4fc-11f1-a8e4-b1e12a49db15.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ec55e3fd83b73bcfd1ce",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.86915
+    },
+    {
+      "id": "a85f5fd5423d20feacae8b0a",
+      "title": "84 days, four titles, one historic feat - Alcaraz's remarkable return",
+      "translatedTitle": null,
+      "description": "Over the past 84 days, Carlos Alcaraz has won four titles, and he beat world number one Alexander Zverev to make history at the ATP Finals on Sunday.",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/crp3e43gvgpwo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/tennis/articles/crp3e43gvgpwo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T06:08:20Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6276/live/384c3950-e6b3-11f1-9607-338132fd22a0.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9b7bd76b8b9906056055",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.86122
+    },
+    {
+      "id": "5b14c5a21f9f71c88c5678b1",
+      "title": "What six grazing horses tell us about England's housing crisis",
+      "translatedTitle": null,
+      "description": "⁠In Middlesbrough, York and Kent, the BBC sees why successive governments have failed to build enough homes.",
+      "url": "https://www.bbc.co.uk/news/articles/cmd71x05q77zo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmd71x05q77zo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T06:00:43Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32a3/live/78b9e350-e70f-11f1-99b6-a35a62fa4264.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fe0e1cf9e3f606e96d9a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.84751
+    },
+    {
+      "id": "84e5593df96400cdfe485364",
+      "title": "Tech sell-off eases as stock market support measures are deployed after AI slump – business live",
+      "translatedTitle": null,
+      "description": "Rolling coverage of the latest economic and financial news Chris Beauchamp, chief market analyst at investing and trading platform IG, isn’t convinced that the sell-off is over, despite signs Wall Street could rebound today: “There’s nothing surprising in the overnight bounce after the waterfall moves of last week, but investors can’t emerge from their shelters just yet. Such selloffs rarely turnaround in a day. Markets still seem to be in a mood to cut back risk, and it is far from clear that s",
+      "url": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates",
+      "canonicalUrl": "https://theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T08:04:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/7b0f4167d095972492ff8168f3c5f643e834a57d/758_0_5833_4670/master/5833.jpg?width=140&quality=85&auto=format&fit=max&s=5e0fdca097dfb948da5db3c275fb8d8b",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "66e4f0537ff655de3770",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.81347
+    },
+    {
+      "id": "e8d45ca943f43013f94c85ef",
+      "title": "England and Ireland provide champagne rugby for north to tee up finals weekend | Robert Kitson",
+      "translatedTitle": null,
+      "description": "France have the chance to topple the Springboks in the Nations Championship decider, with their Six Nations rivals also shining this autumn Even if the official November Test window had now closed, as used to be the case, this would already have been a vintage European autumn. Whatever still awaits on the inaugural Nations Championship finals weekend, it has been a richly enjoyable few weeks for both diehard fans and floating voters, topped off by more seismic results and overflowing emotions in",
+      "url": "https://www.theguardian.com/sport/2026/nov/23/england-ireland-france-nations-championship-rugby-union",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/23/england-ireland-france-nations-championship-rugby-union",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T08:00:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/38ad4e1b767bd190b3acaa1e0205cd128aede454/492_0_4323_3459/master/4323.jpg?width=140&quality=85&auto=format&fit=max&s=2b2b201f554f3ed8f9f63c1ab6beb86b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "85587222c9846f872696",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80547
+    },
+    {
+      "id": "c600df83bdf30315ca4a4955",
+      "title": "Is it true that … we only use 10% of our brains?",
+      "translatedTitle": null,
+      "description": "The idea that we access a fraction of our cognitive potential goes back decades, but does medical science agree? This idea really bugs Dr Mary Spiller, senior lecturer in the University of East London’s Department of Psychology and Human Development, who’s shocked by how prevalent it remains, despite being untrue. Spiller says the myth’s origins can partly be traced to the work of William James, one of the founders of modern psychology, working in the late 19th and early 20th centuries. He wrote",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/23/is-it-true-we-only-use-10-per-cent-brain",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/23/is-it-true-we-only-use-10-per-cent-brain",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T08:00:51Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/3dbb2a753af996af9aca0ec247769a138adb2223/0_0_2060_1648/master/2060.jpg?width=140&quality=85&auto=format&fit=max&s=614e6c88ab7fbb6ddcd6b24cbcdc1ba5",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d0f0aceb638877433f4d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80547
+    },
+    {
+      "id": "0124099c0b450d2f0640a110",
+      "title": "Dapper Liam and Noel, experimental Björk, and Bowie ‘cuddling himself’: Rankin reveals his never-before-seen shots of the stars",
+      "translatedTitle": null,
+      "description": "After some satirical experiments with the ‘disgusting’ AI, the photographer has returned to his first love with a book of contact sheets from his celebrity shoots. ‘I wish we could go back and stop everything changing,’ he says “I hate AI,” says Rankin. “A lot of people think I’m an evangelical twat about it, and I’m not. I think it’s disgusting. I think the people who run it are disgusting. They’ve made a massive gamble with humanity and society and culture.” His contempt may surprise anyone wh",
+      "url": "https://www.theguardian.com/artanddesign/2026/nov/23/rankin-photographer-interview-contact-david-bowie-oasis",
+      "canonicalUrl": "https://theguardian.com/artanddesign/2026/nov/23/rankin-photographer-interview-contact-david-bowie-oasis",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T08:00:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0ea2ef6c794663a88261eeaa216cc1c9f547aa65/154_3_2211_1768/master/2211.jpg?width=140&quality=85&auto=format&fit=max&s=d95cce57041fe0ac384cf1393db67637",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f59b77e6d66654502260",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80543
+    },
+    {
+      "id": "d6d55debc076150289f7b127",
+      "title": "Premier League: 10 talking points from the weekend’s action",
+      "translatedTitle": null,
+      "description": "Leeds offer Chelsea a lesson, Newcastle’s summer recruits struggle and Jules Ahoka makes a name for himself What to make of Manchester United’s utterly torrid start under Mauricio Pochettino? To go glass half full as the new head coach had only three days to prepare the side for the trip to Anfield, the hope will be that time will cast the 4-0 humbling from Liverpool as the falsest of false starts. The glass-half-empty scenario, though, is that here was an XI packed with internationals that had",
+      "url": "https://www.theguardian.com/football/2026/nov/23/premier-league-10-talking-points-from-the-weekends-action",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/23/premier-league-10-talking-points-from-the-weekends-action",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T08:00:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6f77f2713fccfa6ecacc6f94520e05da0e885ad8/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=9ec0d896bec098602f24940c6e11e093",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "95bd02c52c43043ed12b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80543
+    },
+    {
+      "id": "158df6f139c832d0536c5e8f",
+      "title": "What's next after no deal at COP31 climate talks?",
+      "translatedTitle": null,
+      "description": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end.",
+      "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/cr1ewge81q4qo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T05:34:39Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4edf/live/0b9a5c60-e70e-11f1-a094-5fdc692f3e33.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7a302d4f2d27d75f2612",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.8013
+    },
+    {
+      "id": "79883c85906c394724877385",
+      "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+      "translatedTitle": null,
+      "description": "The prime minister of Australia, which co-hosted COP31, attributed the failure to \"difficult geopolitical times\".",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqwy06zrd26lo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T05:15:06Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/66f2/live/6fcf3080-e708-11f1-99a1-253766e7ad8b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0f8c6a2a907b91395692",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.76737
+    },
+    {
+      "id": "6c8ed42018609aae223f1a02",
+      "title": "Drivers trapped in limbo due to DVLA licence delays",
+      "translatedTitle": null,
+      "description": "It had been revoked on medical grounds but after 12 months I was invited to restore it. Nine months later my application was untouched My driving licence was revoked on medical grounds after I underwent brain surgery for a vascular lesion in 2024. After waiting the required 12 months for my health to stabilise, I was invited to apply for my licence to be restored. I duly sent the evidence from hospital consultants and medical tests. Continue reading...",
+      "url": "https://www.theguardian.com/money/2026/nov/23/drivers-dvla-driving-licence-delays-revoked-medical",
+      "canonicalUrl": "https://theguardian.com/money/2026/nov/23/drivers-dvla-driving-licence-delays-revoked-medical",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:00:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/a6ee6147b4d6fd66d35340ad61d603e87f73d65d/874_369_3064_2451/master/3064.jpg?width=140&quality=85&auto=format&fit=max&s=f6b34e395aa06e49e54f589bdc21fef3",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d250de0f6f608d907ae4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68841
+    },
+    {
+      "id": "c844a69e7281b4a5fa362908",
+      "title": "Nasa, please send me to the moon. Science says I’m the perfect crew member | Helen Pilcher",
+      "translatedTitle": null,
+      "description": "Women of my age have been training for this job for years – solving problems, defusing tensions, keeping everyone fed – and we absolutely smash it Nasa is hiring and I’m over the moon. The US space agency is recruiting its next cohort of astronauts to work on the lunar surface and “help write the next chapter of humanity’s greatest adventure”. Applications close on 3 December. This isn’t the only job I’ve been swooning over lately. I can’t tell you how many hours I’ve lost to posts about delicio",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/23/nasa-astronauts-moon-science-crew-member-women",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/23/nasa-astronauts-moon-science-crew-member-women",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:00:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0ba8eef341a557c7376f779e5e6712fa00ba52c4/147_1_2652_2122/master/2652.jpg?width=140&quality=85&auto=format&fit=max&s=be2cc0e944f57fd64c53f5f85e0ef9bd",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1eb4fe8ccf7f4cd7fbfe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68841
+    },
+    {
+      "id": "1349c49141ba1da09323412a",
+      "title": "Grieving families getting into debt and doing without memorials due to benefit freezes",
+      "translatedTitle": null,
+      "description": "MPs to discuss bereavement support as financial help for funeral expenses and bereaved families fails to keep pace with costs Bereaved families are borrowing money or forgoing a service with mourners because financial help available from the state no longer covers even half a typical funeral director’s fee. “The funeral expenses payment (FSP) was originally meant to cover the cost of a simple funeral. Today, that is a pipe dream,” said Lindesay Mace, a co-manager of Down to Earth, a funeral cost",
+      "url": "https://www.theguardian.com/money/2026/nov/23/grieving-families-getting-into-debt-and-doing-without-memorials-due-to-benefit-freezes",
+      "canonicalUrl": "https://theguardian.com/money/2026/nov/23/grieving-families-getting-into-debt-and-doing-without-memorials-due-to-benefit-freezes",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:00:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/85e74b0a2b1adee24b50ae167f6979eebf993d2f/283_0_4259_3407/master/4259.jpg?width=140&quality=85&auto=format&fit=max&s=7015ccd9fdcaac05a7e45fcaf7c4ce8f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5a477f31af1ac052e101",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68841
+    },
+    {
+      "id": "756de62900f7806186fdc1f7",
+      "title": "The Boy and the Suit of Lights review – a sensitive portrait of an aspiring toreador in a changing Spain",
+      "translatedTitle": null,
+      "description": "Encouraged by his grandfather and single mother, the teen Borja dreams of a career that will end his family’s poverty, but the protesters are gathering strength Where last year’s bullfighting documentary Afternoons of Solitude by Albert Serra was a tightly trussed formalistic affair concerned by the question of style in the arena and in art, this Scottish-produced film is a looser, more social-realist approach to la corrida. Swerving a portrayal of the butchery itself, it focuses on the wider co",
+      "url": "https://www.theguardian.com/film/2026/nov/23/the-boy-and-the-suit-of-lights-review-a-sensitive-portrait-of-an-aspiring-toreador-in-a-changing-spain",
+      "canonicalUrl": "https://theguardian.com/film/2026/nov/23/the-boy-and-the-suit-of-lights-review-a-sensitive-portrait-of-an-aspiring-toreador-in-a-changing-spain",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:00:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0948f2c52a7e56049046933206d0a92f5d0815e4/353_0_1349_1080/master/1349.jpg?width=140&quality=85&auto=format&fit=max&s=9fe8ef7bc2177842f55b547ca2e89eea",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cf9e5b367fb1cf229f98",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68841
+    },
+    {
+      "id": "252fe2a7a1b3b83be7269383",
+      "title": "The truth about dying: hospice workers on what loved ones should know",
+      "translatedTitle": null,
+      "description": "Anna Gordon met hospice care workers across the UK, learning how dignity and choice help create meaningful moments for patients Most people in the UK actively avoid conversations about death and dying. They can be visibly uncomfortable when you raise the subject. When people try to talk about it, it tends to be euphemistically. This is a mistake, one that can stop you from making important choices for yourself or your loved ones. It can increase fear and misunderstanding about what death can loo",
+      "url": "https://www.theguardian.com/society/2026/nov/23/the-truth-about-dying-hospice-workers-on-what-loved-ones-should-know",
+      "canonicalUrl": "https://theguardian.com/society/2026/nov/23/the-truth-about-dying-hospice-workers-on-what-loved-ones-should-know",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:00:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/673d22ac3166bb775cf21f7afbdce2a9fded6b4f/481_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=c3db619075f302b2c69f135d1e1d3f96",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fe8d3879c1a00d8733f1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68838
+    },
+    {
+      "id": "ac95dd7da86af78404496865",
+      "title": "Apple iPhone Duo review: the most novel and interesting iPhone in almost a decade",
+      "translatedTitle": null,
+      "description": "The folding iPhone is early-adopter gold, changing the way iOS works and successfully condensing a tablet into your pocket, but it is not for everyone Apple’s first folding phone has upended the usual order of things with some interesting choices about how you use a iPhone – for better or worse. The Duo sits atop the pile as Apple’s most expensive smartphone – at £1,999 (€2,299/$1,999/A$3,499) it costs more than most of its folding Android rivals and as much as the iPhone 18 Pro Max and the late",
+      "url": "https://www.theguardian.com/technology/2026/nov/23/apple-iphone-duo-review-most-novel-interesting-iphone-in-almost-a-decade",
+      "canonicalUrl": "https://theguardian.com/technology/2026/nov/23/apple-iphone-duo-review-most-novel-interesting-iphone-in-almost-a-decade",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:00:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/030892c7618a45151ee4b474821c74eefe92d6d9/129_0_5797_4636/master/5797.jpg?width=140&quality=85&auto=format&fit=max&s=4f18cf8479b2b1d1d813aea6ee3594b8",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e2dbc6add68db4db1532",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68838
+    },
+    {
+      "id": "e2cbae272880221a4e545ffb",
+      "title": "Weird lifestyle advice from Gwyneth Paltrow: best podcasts of the week",
+      "translatedTitle": null,
+      "description": "The Hollywood star is joined by celebrity guests as she shares ‘practical tips’. Plus, David Cameron’s deeply personal series about Alzheimer’s The second podcast from her wellness empire is ostensibly centred on Paltrow’s incredibly niche lifestyle advice: where to eat the “best cacio e pepe in Rome”, for example, or “whether it’s weird to use an obsidian gua sha tool on a plane”. In reality, the show is a weekly cosy chat with a showbiz pal (first up, Zoe Saldaña) peppered with a few practical",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/23/weird-lifestyle-advice-from-gwyneth-paltrow-best-podcasts-of-the-week",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/23/weird-lifestyle-advice-from-gwyneth-paltrow-best-podcasts-of-the-week",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T07:00:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/fd29b2858ad58b3d80114b4fe1e0b5f31a5b687c/182_187_2899_2319/master/2899.jpg?width=140&quality=85&auto=format&fit=max&s=5eda9eb644f761deddd59b16c0186319",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a3872df977ae769e7b7c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68838
     },
     {
       "id": "d1f4b13e26d1214c4377734c",
@@ -344,11 +1184,11 @@
       ],
       "language": "en",
       "publishedAt": "2026-11-23T04:01:13Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/438e/live/352098e0-e6d4-11f1-99a1-253766e7ad8b.jpg",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e9d/live/6a04c6f0-e6f5-11f1-a094-5fdc692f3e33.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
+      "retrievedAt": "2026-11-23T08:17:55Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -356,105 +1196,15 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.07596
+      "rankingScore": 5.64456
     },
     {
-      "id": "d7f0217aee664020111fc5ec",
-      "title": "Manchester's Co-op Live evacuated after 'unknown substance' let off in crowd",
+      "id": "8e614aa36a7cca47ba30232c",
+      "title": "TV tonight: inside the disturbing plot to murder Holly Willoughby",
       "translatedTitle": null,
-      "description": "One person was taken to hospital after a major incident was declared during a performance by US rapper Don Toliver.",
-      "url": "https://www.bbc.co.uk/news/articles/c9e851dn8516o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c9e851dn8516o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T03:51:16Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c80/live/cd7af940-e6df-11f1-97d5-11510eca5697.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8d5dd196c9449a354104",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.05609
-    },
-    {
-      "id": "5758e51bc5f3e1be93b981e6",
-      "title": "The Papers: 'Complete COP-out' and Tyson Fury's 'torment'",
-      "translatedTitle": null,
-      "description": "The collapse of the COP31 climate talks in Turkey is a major focus of Monday's front pages.",
-      "url": "https://www.bbc.co.uk/news/articles/cmedq21jgq8xo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmedq21jgq8xo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T02:24:41Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20bc/live/1b73c230-e6e0-11f1-99b6-a35a62fa4264.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "83d69bf4633219ac8e80",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.89076
-    },
-    {
-      "id": "08b044fadb1f7edf0cda1f5c",
-      "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-      "translatedTitle": null,
-      "description": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
-      "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c6vg29g7dlyno?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T01:23:43Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7583/live/ce5448a0-e6e7-11f1-99b6-a35a62fa4264.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "8f42aa221c0829b382f0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.78204
-    },
-    {
-      "id": "f98e581de45d459871c6274b",
-      "title": "‘No doubt’: AB de Villiers makes fresh Australian ball-tampering claim",
-      "translatedTitle": null,
-      "description": "Former South Africa batter claims ball was doctored in first Test ‘It started in Durban, not in Port Elizabeth,’ says De Villiers AB de Villiers claims he is certain Australia tampered with the ball as far back as the first Test of their infamous 2018 series in South Africa. The former South Africa batter was in the middle when Cameron Bancroft was caught by TV cameras using sandpaper in the third Test at Newlands in Cape Town. Continue reading...",
-      "url": "https://www.theguardian.com/sport/2026/nov/23/ab-de-villiers-makes-fresh-australian-ball-tampering-claim-sandpapergate-ntwnfb",
-      "canonicalUrl": "https://theguardian.com/sport/2026/nov/23/ab-de-villiers-makes-fresh-australian-ball-tampering-claim-sandpapergate-ntwnfb",
+      "description": "The full horror of Gavin Plumb’s abduction fantasy revealed. Plus: a privileged glimpse inside the Doge’s Palace with Lucy Worsley. Here’s what to watch this evening 9pm, Channel 4 This deeply disturbing film enters the world of stalking and abduction chatgroups to explore the 2023 plot to kidnap, rape and murder Holly Willoughby. Fortunately, Gavin Plumb did his planning with a man he knew as “David Nelson” – who turned out to be an undercover American cop. The film explores the foiled plot and",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/19/tv-tonight-inside-the-disturbing-plot-to-holly-willoughby",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/19/tv-tonight-inside-the-disturbing-plot-to-holly-willoughby",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -463,170 +1213,110 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T03:47:22Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/65d2c84bd2a2707956b8421aaac0c6e8cc5ee3b5/242_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=ce583240f96b7f70672dbe417ffa4817",
+      "publishedAt": "2026-11-23T06:15:48Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b99dfdd95e447bb566b1a71f6d269a20348dc113/524_136_1039_831/master/1039.jpg?width=140&quality=85&auto=format&fit=max&s=8e069a5a8a1362a83902779bd50b3d39",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-11-23T08:17:55Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3831648e7046aa8d9653",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.60475
+    },
+    {
+      "id": "1bc4efb4023671e54d7c9390",
+      "title": "Cost of renting in Britain to rise twice as fast as buying amid shortage of properties",
+      "translatedTitle": null,
+      "description": "Rents to rise by 14% until at least 2029, Hamptons predicts, as high demand for properties and low supply push up costs for tenants The cost of renting a home in Britain is expected to rise about twice as fast as that of buying one until at least 2029, according to research, with shrinking supply pushing up the prices paid by tenants. Rents on newly agreed lets are forecast to grow by 14.2% between 2026 and 2029, compared with house price growth of 7.2%, according to forecasts from estate agent",
+      "url": "https://www.theguardian.com/money/2026/nov/23/cost-of-renting-in-britain-to-rise-twice-as-fast-as-buying-amid-shortage-of-properties",
+      "canonicalUrl": "https://theguardian.com/money/2026/nov/23/cost-of-renting-in-britain-to-rise-twice-as-fast-as-buying-amid-shortage-of-properties",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-23T06:00:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/10eb132f9482b8402c3c4524608fbed33f080f58/433_0_4240_3394/master/4240.jpg?width=140&quality=85&auto=format&fit=max&s=e3be2d8bb1ef6ee82162d80fe150e8b8",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
+      "retrievedAt": "2026-11-23T08:17:55Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "d85798631260772a5478",
+      "clusterId": "6e07b6bdd23d3283bb3c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.77836
+      "rankingScore": 5.57771
     },
     {
-      "id": "af55b736d634cc0bb1cb4537",
-      "title": "Would you go on holiday with your ex's kids and their mum? How to make blended families work",
+      "id": "634cee70cec8390e46e4d95e",
+      "title": "Burnham not ‘backtracking’ on creating closer links with EU, officials say",
       "translatedTitle": null,
-      "description": "Expert tips on how to get along with the mums and dads of your child's half-siblings.",
-      "url": "https://www.bbc.co.uk/news/articles/c617kj1j1x4jo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c617kj1j1x4jo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "Government wants to let trade deal ‘breathe a bit’, insiders say, after speculation No 10 is dialling back ambitions Andy Burnham is not backtracking or delaying his ambitions to create even closer links with the EU in the wake of a landmark summit in Brussels, the Guardian has been told, after signs of an apparent slowdown in the timetable. The prime minister has promised to set out options for the UK’s long-term relationship with the EU, including the possibility of rejoining, saying last week",
+      "url": "https://www.theguardian.com/politics/2026/nov/23/andy-burnham-not-backtracking-creating-closer-links-eu-officials-say",
+      "canonicalUrl": "https://theguardian.com/politics/2026/nov/23/andy-burnham-not-backtracking-creating-closer-links-eu-officials-say",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T01:09:04Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14cc/live/311f4ad0-e435-11f1-8346-933d3547e297.jpg",
+      "publishedAt": "2026-11-23T06:00:50Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f9f85e085346a780ba33572807c2cb2d0175e3a6/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=dfbd5ba6c91eed4cb743e6d88649d596",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
+      "retrievedAt": "2026-11-23T08:17:55Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "dce36afdfb10c0dd1056",
+      "clusterId": "51e0db86cc8bb71d80f9",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.75682
+      "rankingScore": 5.57771
     },
     {
-      "id": "eae724e6ad95f234235db252",
-      "title": "Energy bills will soar - here's how you can ease the pain",
+      "id": "5cbefd91e4d70e1fac417017",
+      "title": "‘Once installed, there’s no getting rid of it’: what Falklands oil plans mean for its seals, whales and penguins",
       "translatedTitle": null,
-      "description": "Household energy bills are about to increase but there are ways to keep a lid on your expenditure.",
-      "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/crm4rygl4m3o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
+      "description": "While Argentina and the UK dispute sovereignty over the islands and its vast oil reserves, environmentalists fear for one of the Atlantic’s richest ecosystems From the air, the main Falkland Islands form two large, jagged shapes against the South Atlantic. East Falkland and West Falkland are surrounded by 778 smaller islands and islets east of Patagonia’s southern tip. The archipelago, a British overseas territory claimed by Argentina, is home to large colonies of albatrosses and penguins. Its w",
+      "url": "https://www.theguardian.com/global-development/2026/nov/23/falkland-islands-argentina-sea-lion-oil-environment-sovereignty-wildlife-pollution",
+      "canonicalUrl": "https://theguardian.com/global-development/2026/nov/23/falkland-islands-argentina-sea-lion-oil-environment-sovereignty-wildlife-pollution",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T01:05:07Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53c7/live/9b2f4a60-bd7f-11f1-bc2e-018d645d8d21.jpg",
+      "publishedAt": "2026-11-23T06:00:49Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/71177c27dff46278555eaf88bb75c6bd92f88f22/184_463_4260_3409/master/4260.jpg?width=140&quality=85&auto=format&fit=max&s=5fd1d505c064abd5f03988482c7a68bd",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
+      "retrievedAt": "2026-11-23T08:17:55Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "489161aab39b0ad4e594",
+      "clusterId": "de37f069ac8ebae8abb1",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.75008
-    },
-    {
-      "id": "9b188353de49febffa3acfec",
-      "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-      "translatedTitle": null,
-      "description": "Hopes for an agreement on tackling climate change collapsed after a row about mentioning fossil fuels",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqwy06zrd26lo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:50:35Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afca/live/39aa8840-e69c-11f1-936e-1fd1d31671db.jpg",
-      "imageAlt": null,
-      "category": "Science & Health",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "0342f7eb0dd7501aeb1b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72548
-    },
-    {
-      "id": "bd31829a3a37570865164031",
-      "title": "Can AI spot breast cancer earlier? NHS launches world's largest trial to find out",
-      "translatedTitle": null,
-      "description": "Researchers will test the technology in breast cancer screening which could ease pressure on the NHS.",
-      "url": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:49:22Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6158/live/7701a960-e298-11f1-8dda-8925a81c3da5.jpg",
-      "imageAlt": null,
-      "category": "Technology",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f8df17bb37abe0805fb3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.72344
-    },
-    {
-      "id": "0f057b6804e8a28645e4a33d",
-      "title": "Will it snow this week? Mild Atlantic air collides with cold air across the UK",
-      "translatedTitle": null,
-      "description": "A battle ground is becoming established across the UK, milder air across the southwest and cold arctic air elsewhere",
-      "url": "https://www.bbc.co.uk/weather/articles/c5dj1l21w9pmo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/weather/articles/c5dj1l21w9pmo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:40:36Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14a9/live/a37aed60-e65f-11f1-a094-5fdc692f3e33.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1b6c029fed4de1d4ac83",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70878
+      "rankingScore": 5.57768
     },
     {
       "id": "2997d7529aeb65e156a49b83",
@@ -655,68 +1345,8 @@
       "clusterId": "8c5155f47e730fc8f539",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.70369
-    },
-    {
-      "id": "931e9192183811cfb5077ee0",
-      "title": "What is going on with Poundland?",
-      "translatedTitle": null,
-      "description": "Poundland has a matter of days to find a buyer or face collapsing into administration. Why?",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cm4g10p2r0g9o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:22:27Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f2b3/live/3c7f3110-d7bf-11f1-a719-bf3dc3a3d5b5.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d29613b774ad1c21c510",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.6788
-    },
-    {
-      "id": "685a9e8a20badf784946d7d3",
-      "title": "Three dead, dozens missing after fire rips through Milkita candy factory in Indonesia",
-      "translatedTitle": null,
-      "description": "While an official cause is yet to be established, surviving staff told local media that the fire appeared to originate from a cooling unit situated on the third floor",
-      "url": "https://www.independent.co.uk/asia/southeast-asia/indonesia-factory-fire-milkita-candy-b3089565.html",
-      "canonicalUrl": "https://independent.co.uk/asia/southeast-asia/indonesia-factory-fire-milkita-candy-b3089565.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T03:39:55Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/22/04/2305790800..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "40a2fec4a205d88f751c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.67366
+      "rankingScore": 5.27474,
+      "related": []
     },
     {
       "id": "5ee78d7bd3a0f1357bcedfaf",
@@ -745,98 +1375,8 @@
       "clusterId": "0f615b8aaa4d3fb821bd",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.66586
-    },
-    {
-      "id": "24074a96b04c730ec232c90a",
-      "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-      "translatedTitle": null,
-      "description": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated.",
-      "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cqe9k09j9jv4o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:08:00Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d7f/live/712502a0-e2cd-11f1-99ed-7de3e5932968.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "70f1a6bea75dde16f4e6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.65529
-    },
-    {
-      "id": "c8996fb0107d8342d1665fba",
-      "title": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle",
-      "translatedTitle": null,
-      "description": "Footage of Saturday incident, filmed by fellow passengers, quickly went viral on social media as mayor calls tactics ‘un-American’ Protesters marched through the Seattle-Tacoma international airport on Sunday after widely shared footage captured masked immigration agents detaining a father and daughter on an airport jet bridge as they boarded their Alaska Airlines flight. Video of the incident on Saturday – filmed by fellow passengers – quickly went viral on social media, sparking condemnation f",
-      "url": "https://www.theguardian.com/us-news/2026/nov/23/father-daughter-ice-arrests-video-sparks-protests-seattle-airport",
-      "canonicalUrl": "https://theguardian.com/us-news/2026/nov/23/father-daughter-ice-arrests-video-sparks-protests-seattle-airport",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T02:38:16Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/97c8d10c9aa99e4620ecf17b447bec64df7ce184/58_0_909_727/master/909.jpg?width=140&quality=85&auto=format&fit=max&s=806434213ba2ab7613357a08b098174a",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "57b1ad2006b5013fac7c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.64583
-    },
-    {
-      "id": "1f804c7c77811c7005d9b9b4",
-      "title": "Miley Cyrus marries rock drummer Maxx Morando in an intimate Palm Springs wedding",
-      "translatedTitle": null,
-      "description": "Singer Miley Cyrus has married rock drummer Maxx Morando in an intimate ceremony in Palm Springs, California",
-      "url": "https://www.independent.co.uk/news/world/americas/cyrus-miley-cyrus-palm-springs-california-saint-laurent-b3089561.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/cyrus-miley-cyrus-palm-springs-california-saint-laurent-b3089561.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T01:53:55Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/23/01/Miley_Cyrus_Wedding_23617.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b0b80b73fe4b22ffe484",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.47513
+      "rankingScore": 5.17237,
+      "related": []
     },
     {
       "id": "c492ae3049bb75ab71a6b9cd",
@@ -854,199 +1394,19 @@
       ],
       "language": "en",
       "publishedAt": "2026-11-23T00:01:00Z",
-      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-breast-cancer-screening_7413268.jpg?20261122084621",
+      "imageUrl": "https://e3.365dm.com/26/08/1920x1080/skynews-breast-cancer-cancer_7313399.jpg?20260804081239",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
+      "retrievedAt": "2026-11-23T08:17:55Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "8106190c1e71a4e78083",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.37402,
+      "rankingScore": 5.02865,
       "related": []
-    },
-    {
-      "id": "205dffb233d81bbb0cdb27d5",
-      "title": "15 best deals in the Space NK Black Friday sale: Up to 30% off YSL, Ouai and more",
-      "translatedTitle": null,
-      "description": "More than 65 brands are included in the retailer’s November promotion",
-      "url": "https://www.independent.co.uk/extras/indybest/black-friday/space-nk-black-friday-2026-deals-b3083261.html",
-      "canonicalUrl": "https://independent.co.uk/extras/indybest/black-friday/space-nk-black-friday-2026-deals-b3083261.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:15:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/11/16/14/best-space-nk-black-friday-deals-indybest.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4dea6e25f02ea4498684",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.30664
-    },
-    {
-      "id": "7b71429c7d20717a92a1ad88",
-      "title": "Rents forecast to rise faster than house prices over next three years",
-      "translatedTitle": null,
-      "description": "Competition between tenants is likely to keep rents rising faster than house prices over the next few years, Hamptons said.",
-      "url": "https://www.independent.co.uk/money/knight-frank-lloyds-britain-south-east-b3089544.html",
-      "canonicalUrl": "https://independent.co.uk/money/knight-frank-lloyds-britain-south-east-b3089544.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/23/00/f1270f8b72ab1c5e41d7bbf792f36e1bY29udGVudHNlYXJjaGFwaSwxNzk1MjU4OTUx-2.21754240.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "14c469410caaeaedce51",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28402
-    },
-    {
-      "id": "acb41a49d8f2f91e5deeff61",
-      "title": "Bereaved families should not have to battle with paperwork, says FCA",
-      "translatedTitle": null,
-      "description": "The regulator reviewed how financial advisers, wealth managers and investment platforms support bereaved families and those handling estates.",
-      "url": "https://www.independent.co.uk/money/fca-city-families-aj-bell-b3089546.html",
-      "canonicalUrl": "https://independent.co.uk/money/fca-city-families-aj-bell-b3089546.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/23/00/dbff39b7aedfbe34845d7fb94b8e6481Y29udGVudHNlYXJjaGFwaSwxNzk1MjYwNDU2-2.22508627.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9cfd3006a8a6d23fe74b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28402
-    },
-    {
-      "id": "4975351240e85cd413ff5e5f",
-      "title": "Smart buoys that let wind farm support vessels charge at sea trialled",
-      "translatedTitle": null,
-      "description": "It is hoped the buoys could help decarbonise the shipping industry.",
-      "url": "https://www.independent.co.uk/tech/aberdeenshire-smart-b3089543.html",
-      "canonicalUrl": "https://independent.co.uk/tech/aberdeenshire-smart-b3089543.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/23/00/21173447-5a4211a2-69d0-4254-8a8c-b1c313741ba1.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c8524826555cc1507587",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28402
-    },
-    {
-      "id": "4a196da05891cc6a9502e34b",
-      "title": "We must take off ‘gloom-tinted glasses’ to boost economic growth, says CBI",
-      "translatedTitle": null,
-      "description": "CBI boss Rain Newton-Smith is expected to say the country must move on from a ‘steady as she goes’ Budget.",
-      "url": "https://www.independent.co.uk/news/business/budget-brexit-cbi-london-b3089545.html",
-      "canonicalUrl": "https://independent.co.uk/news/business/budget-brexit-cbi-london-b3089545.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/23/00/8e528db919cc12562568d543fba058ebY29udGVudHNlYXJjaGFwaSwxNzk1MjY0ODUx-2.82539963.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6f3eddb8811aced6dcf6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28402
-    },
-    {
-      "id": "53979b2f2f6cd9e6741d3652",
-      "title": "Post Office reveals its predicted peak posting day for Christmas 2026",
-      "translatedTitle": null,
-      "description": "It expects customers to send and collect more than 100 million parcels through its branches over the festive period.",
-      "url": "https://www.independent.co.uk/money/post-office-people-united-states-australia-ireland-b3089548.html",
-      "canonicalUrl": "https://independent.co.uk/money/post-office-people-united-states-australia-ireland-b3089548.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T00:01:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/23/00/91a66bdcd0caa1e98c28c138f02d72ebY29udGVudHNlYXJjaGFwaSwxNzk1MDAxNTQ1-2.7996408.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-23T04:18:02Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "040e0539b62b4b07da1c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.28402
     }
   ]
 }
