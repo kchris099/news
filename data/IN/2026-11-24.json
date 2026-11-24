@@ -4,10 +4,10 @@
   "countryName": "India",
   "timeZone": "Asia/Kolkata",
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T04:18:27Z",
-  "lastAttemptAt": "2026-11-24T04:18:27Z",
-  "lastSuccessfulUpdate": "2026-11-24T04:18:27Z",
-  "status": "current",
+  "generatedAt": "2026-11-24T08:18:15Z",
+  "lastAttemptAt": "2026-11-24T08:18:15Z",
+  "lastSuccessfulUpdate": "2026-11-24T08:18:15Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,32 +16,32 @@
       "sourceId": "the-hindu-national",
       "sourceName": "The Hindu",
       "status": "success",
-      "lastAttemptAt": "2026-11-24T04:18:18Z",
-      "lastSuccessAt": "2026-11-24T04:18:18Z",
+      "lastAttemptAt": "2026-11-24T08:18:14Z",
+      "lastSuccessAt": "2026-11-24T08:18:14Z",
       "articlesRetrieved": 60,
-      "responseTimeMs": 66,
+      "responseTimeMs": 113,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "indian-express",
       "sourceName": "The Indian Express",
-      "status": "success",
-      "lastAttemptAt": "2026-11-24T04:18:18Z",
-      "lastSuccessAt": "2026-11-24T04:18:18Z",
-      "articlesRetrieved": 200,
-      "responseTimeMs": 95,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-24T08:18:14Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '403 Forbidden' for url 'https://indianexpress.com/section/india/feed/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "sourceId": "hindustan-times-india",
       "sourceName": "Hindustan Times",
       "status": "success",
-      "lastAttemptAt": "2026-11-24T04:18:18Z",
-      "lastSuccessAt": "2026-11-24T04:18:18Z",
+      "lastAttemptAt": "2026-11-24T08:18:14Z",
+      "lastSuccessAt": "2026-11-24T08:18:14Z",
       "articlesRetrieved": 100,
-      "responseTimeMs": 201,
+      "responseTimeMs": 280,
       "errorType": null,
       "errorMessage": null
     },
@@ -49,10 +49,10 @@
       "sourceId": "ndtv-top",
       "sourceName": "NDTV",
       "status": "success",
-      "lastAttemptAt": "2026-11-24T04:18:18Z",
-      "lastSuccessAt": "2026-11-24T04:18:19Z",
+      "lastAttemptAt": "2026-11-24T08:18:14Z",
+      "lastSuccessAt": "2026-11-24T08:18:14Z",
       "articlesRetrieved": 20,
-      "responseTimeMs": 503,
+      "responseTimeMs": 422,
       "errorType": null,
       "errorMessage": null
     }
@@ -78,14 +78,45 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
+      "retrievedAt": "2026-11-24T08:18:14Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "bf6aa7cfc085051b2426",
+      "clusterId": "00db8eafe12a19aee4a3",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 10.02002,
       "related": [
+        {
+          "id": "6b7d241e79219fa1ca9f4f5d",
+          "title": "Tremors felt in North Bengal, Sikkim as 5.3 magnitude earthquake jolts Nepal",
+          "translatedTitle": null,
+          "description": "As HT reported earlier, jolts were also felt in various parts of Bihar, including Purnea, Katihar, Araria, Kishanganj, Saharsa, Madhepura, Supaul, etc.",
+          "url": "https://www.hindustantimes.com/india-news/tremors-felt-in-north-bengal-sikkim-as-5-3-magnitude-earthquake-jolts-nepal-101795495156370.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/tremors-felt-in-north-bengal-sikkim-as-5-3-magnitude-earthquake-jolts-nepal-101795495156370.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-24T04:57:32Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/Reuters_Seismograph_2020-07-23T180035Z_1740852222__1795495921352_oDgV_1795495921617_aor8_40075906-dcb4-4804-8325-bee41c14a3fe_5Lbq.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T08:18:14Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "00db8eafe12a19aee4a3",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "tremors felt in north bengal sikkim as 5 3 magnitude earthquake jolts nepal"
+        },
         {
           "id": "84a98b9956d5320b016cfd2b",
           "title": "5.3 Magnitude Earthquake Hits Nepal, Tremors Felt Across India, Bhutan, China",
@@ -110,14 +141,256 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "bf6aa7cfc085051b2426",
+          "clusterId": "00db8eafe12a19aee4a3",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "5 3 magnitude earthquake hits nepal tremors felt across india bhutan china"
+        },
+        {
+          "id": "774aceb06eafd858fdb7ea70",
+          "title": "Earthquake of magnitude 5.3 strikes Nepal's Koshi province, tremors felt in parts of Bihar",
+          "translatedTitle": null,
+          "description": "The tremors were also felt across several parts of Bihar. But no damage was reported anywhere.",
+          "url": "https://www.hindustantimes.com/world-news/earthquake-of-magnitude-5-3-strikes-nepals-koshi-province-101795485919206.html",
+          "canonicalUrl": "https://hindustantimes.com/world-news/earthquake-of-magnitude-5-3-strikes-nepals-koshi-province-101795485919206.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-24T02:11:33Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/earthquake__1795486011958_bhHc_1795486012075_yuq6_44a4b638-3506-4121-81ad-35a9bf2168ad_wXPk.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T08:18:14Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "00db8eafe12a19aee4a3",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "earthquake of magnitude 5 3 strikes nepal s koshi province tremors felt in parts of bihar"
+        }
+      ]
+    },
+    {
+      "id": "cf3e3d4b8159d6ddaaf4857b",
+      "title": "Uttar Pradesh Assembly elections: 26 seats offered to Congress, says Samajwadi Party",
+      "translatedTitle": null,
+      "description": "Uttar Pradesh Assembly has 403 seats. The second round of discussions between the SP and Congress on seat-sharing is underway",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-assembly-elections-samajwadi-party-congress-alliance/article71737686.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/uttar-pradesh/uttar-pradesh-assembly-elections-samajwadi-party-congress-alliance/article71737686.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T08:04:57Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/5nwfdz/article71737720.ece/alternates/LANDSCAPE_1200/PTI11_01_2026_000476B.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "33010ab3fe405eeeed63",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "0af187c1205acfdbbe3ea6a0",
+          "title": "Samajwadi Party gives first offer of 26 seats to Congress amid UP seat-sharing talks",
+          "translatedTitle": null,
+          "description": "SP's offer to Congress is against the latter's demand for 120 seats, including 50 \"winnable\" seats. The seat-sharing talks began on Monday in Delhi.",
+          "url": "https://www.hindustantimes.com/india-news/samajwadi-party-gives-first-offer-of-26-seats-to-congress-amid-up-seat-sharing-talks-up-polls-2027-101795503899293.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/samajwadi-party-gives-first-offer-of-26-seats-to-congress-amid-up-seat-sharing-talks-up-polls-2027-101795503899293.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-24T07:07:33Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/sp_congress_seat_sharing_1795504400138_rE5c_1795504400369_PEiQ_c80e256d-281d-4373-9547-6ce176b83301_KkZX.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T08:18:14Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "33010ab3fe405eeeed63",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "samajwadi party gives first offer of 26 seats to congress amid up seat sharing talks"
         }
       ],
-      "rankingScore": 9.04278
+      "rankingScore": 8.74293
+    },
+    {
+      "id": "d1e3910c2a0d7d491e3d74f4",
+      "title": "President Murmu to inaugurate Bali Jatra in Cuttack during two-day Odisha visit",
+      "translatedTitle": null,
+      "description": "She will stay overnight at Lok Bhavan and attend the National Scientific Convention on Homoeopathy in Bhubaneswar on November 25",
+      "url": "https://www.thehindu.com/news/national/odisha/president-murmu-to-inaugurate-bali-jatra-in-cuttack-during-two-day-odisha-visit/article71737522.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/odisha/president-murmu-to-inaugurate-bali-jatra-in-cuttack-during-two-day-odisha-visit/article71737522.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T07:51:58Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/toyl4b/article71737572.ece/alternates/LANDSCAPE_1200/20260312114L.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "50e022ade8a3897e832e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.66696
+    },
+    {
+      "id": "01e892cfce41e97e56be5d54",
+      "title": "CJP's Saurav Das Stopped From Flying To UK Due To Birthplace Error On Passport: Sources",
+      "translatedTitle": null,
+      "description": "Saurav Das's passport was issued by the Chennai Regional Passport Office on August 21, 2019.",
+      "url": "https://www.ndtv.com/india-news/cjps-saurav-das-stopped-from-flying-to-uk-due-to-birthplace-error-on-passport-sources-12369445",
+      "canonicalUrl": "https://ndtv.com/india-news/cjps-saurav-das-stopped-from-flying-to-uk-due-to-birthplace-error-on-passport-sources-12369445",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T06:39:12Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-11/qpghig9_cjp-saurav-das-ians_625x300_24_November_26.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2267129683ce3c69c432",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "208d4e814d8726cfa4cbc62a",
+          "title": "CJP’s Saurav Das claims he was stopped at Delhi airport from travelling to U.K.",
+          "translatedTitle": null,
+          "description": "In posts on X, Mr. Das said he was stopped at the immigration counter at the Delhi airport before boarding his 1 a.m. flight to London",
+          "url": "https://www.thehindu.com/news/national/cjps-saurav-das-claims-he-was-stopped-at-delhi-airport-from-travelling-to-uk/article71736209.ece",
+          "canonicalUrl": "https://thehindu.com/news/national/cjps-saurav-das-claims-he-was-stopped-at-delhi-airport-from-travelling-to-uk/article71736209.ece",
+          "sourceName": "The Hindu",
+          "sourceDomain": "thehindu.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-23T19:49:46Z",
+          "imageUrl": "https://th-i.thgim.com/public/incoming/3qgwb2/article71736224.ece/alternates/LANDSCAPE_1200/PTI10_12_2026_000033A.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T04:18:18Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "2267129683ce3c69c432",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "rankingScore": 7.9936,
+          "normalizedTitle": "cjp s saurav das claims he was stopped at delhi airport from travelling to u k",
+          "sourceQuality": 1.0
+        },
+        {
+          "id": "5f219ba1ba9a005ee2ee01f3",
+          "title": "‘Stopped by Modi government’: CJP’s Saurav Das alleges he was barred from flying to London",
+          "translatedTitle": null,
+          "description": null,
+          "url": "https://indianexpress.com/article/india/cjp-saurav-das-stopped-delhi-airport-oxford-lecture-10975536/",
+          "canonicalUrl": "https://indianexpress.com/article/india/cjp-saurav-das-stopped-delhi-airport-oxford-lecture-10975536",
+          "sourceName": "The Indian Express",
+          "sourceDomain": "indianexpress.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-23T18:31:32Z",
+          "imageUrl": "https://images.indianexpress.com/2026/11/saurav-das.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T04:18:18Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "2267129683ce3c69c432",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "stopped by modi government cjp s saurav das alleges he was barred from flying to london"
+        }
+      ],
+      "rankingScore": 8.35707
+    },
+    {
+      "id": "a9ef672e8dd8efbffb364095",
+      "title": "Congress slams renaming of Jewar airport after PM Modi, recalls how Nehru turned down such proposals",
+      "translatedTitle": null,
+      "description": "After the Narendra Modi Stadium in Ahmedabad and the Narendra Modi International Airport, what will be next, asks Jairam Ramesh",
+      "url": "https://www.thehindu.com/news/national/congress-slams-renaming-of-jewar-airport-after-pm-modi-recalls-how-nehru-turned-down-such-proposals/article71737210.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/congress-slams-renaming-of-jewar-airport-after-pm-modi-recalls-how-nehru-turned-down-such-proposals/article71737210.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T04:52:54Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/vxs4ui/article71737226.ece/alternates/LANDSCAPE_1200/TH20-Phukan-ConG7NGQUFP8.3.jpg.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ca6b09db673c288b7b0c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.33893
     },
     {
       "id": "f83464bf405aa2e68001fe07",
@@ -146,16 +419,16 @@
       "clusterId": "7921bd2a933077014f51",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.4048
+      "rankingScore": 7.75944,
+      "related": []
     },
     {
-      "id": "208d4e814d8726cfa4cbc62a",
-      "title": "CJP’s Saurav Das claims he was stopped at Delhi airport from travelling to U.K.",
+      "id": "3bf3418a7624be1f033abfe5",
+      "title": "Punjab Assembly polls: BJP-SAD announce alliance",
       "translatedTitle": null,
-      "description": "In posts on X, Mr. Das said he was stopped at the immigration counter at the Delhi airport before boarding his 1 a.m. flight to London",
-      "url": "https://www.thehindu.com/news/national/cjps-saurav-das-claims-he-was-stopped-at-delhi-airport-from-travelling-to-uk/article71736209.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/cjps-saurav-das-claims-he-was-stopped-at-delhi-airport-from-travelling-to-uk/article71736209.ece",
+      "description": "“On this occasion of Guru Purab today, NDA’s oldest member, Shiromani Akali Dal, has returned to the alliance,” Amit Shah said",
+      "url": "https://www.thehindu.com/news/national/punjab-elections-bharatiya-janata-party-shiromani-akali-dal-bjp-sad-alliance-seat-sharing-november-24-2026/article71737438.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/punjab-elections-bharatiya-janata-party-shiromani-akali-dal-bjp-sad-alliance-seat-sharing-november-24-2026/article71737438.ece",
       "sourceName": "The Hindu",
       "sourceDomain": "thehindu.com",
       "sourceCountry": "IN",
@@ -164,27 +437,509 @@
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-23T19:49:46Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/3qgwb2/article71736224.ece/alternates/LANDSCAPE_1200/PTI10_12_2026_000033A.jpg",
+      "publishedAt": "2026-11-24T07:58:21Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/2tyaza/article71737681.ece/alternates/LANDSCAPE_1200/Screenshot%202447.png",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
+      "retrievedAt": "2026-11-24T08:18:14Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "34d4cc5c0a05c031420c",
+      "clusterId": "228437b911e9d7daddd8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.9936,
       "related": [
         {
-          "id": "4033147be69d458bd15ad103",
-          "title": "CJP's Saurav Das Alleges He Was Stopped From Flying To UK At Delhi Airport",
+          "id": "56bd2612c858bc4211043fe5",
+          "title": "BJP-SAD alliance: From 15 years in power to a bitter split and reunion",
           "translatedTitle": null,
-          "description": "Saurav Das said he was stopped at the immigration counter at the Delhi airport.",
-          "url": "https://www.ndtv.com/india-news/cjps-saurav-das-alleges-he-was-stopped-from-flying-to-uk-at-delhi-airport-12368482",
-          "canonicalUrl": "https://ndtv.com/india-news/cjps-saurav-das-alleges-he-was-stopped-from-flying-to-uk-at-delhi-airport-12368482",
+          "description": "The two parties ruled Punjab together for 15 years, from 1997 to 2002 and again from 2007 to 2017.",
+          "url": "https://www.hindustantimes.com/india-news/a-history-of-the-bjp-shiromani-akali-dal-alliance-as-the-two-parties-reunite-ahead-of-2027-punjab-polls-101795505900267.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/a-history-of-the-bjp-shiromani-akali-dal-alliance-as-the-two-parties-reunite-ahead-of-2027-punjab-polls-101795505900267.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-24T07:43:32Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/fff_1795505960823_EPRU_1795505961041_I23B_0b86e35a-d169-4494-8a6d-9a9d36e2aae8_RToh.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T08:18:14Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "228437b911e9d7daddd8",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "bjp sad alliance from 15 years in power to a bitter split and reunion"
+        },
+        {
+          "id": "af74fdf3ca1df8c29c381dba",
+          "title": "Six years after split, BJP, Akali Dal revive alliance for 2027 Punjab elections",
+          "translatedTitle": null,
+          "description": "The alliance fell apart in September 2020 after the Akali Dal withdrew from the NDA and Lok Sabha MP Harsimrat Kaur Badal also resigned from the Union cabinet.",
+          "url": "https://www.hindustantimes.com/india-news/six-years-after-split-bjp-akali-dal-revive-alliance-for-2027-punjab-elections-101795503085674.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/six-years-after-split-bjp-akali-dal-revive-alliance-for-2027-punjab-elections-101795503085674.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-24T07:32:45Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/Untitled_Design_1795505241734_MqnO_1795505253294_BTda_31170380-b955-486c-b998-4e3e712f7adb_wDTZ.png",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T08:18:14Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "228437b911e9d7daddd8",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "six years after split bjp akali dal revive alliance for 2027 punjab elections"
+        },
+        {
+          "id": "9020ef37fe51183f412accf7",
+          "title": "BJP, Akali Dal likely to announce Punjab alliance today",
+          "translatedTitle": null,
+          "description": "Union home minister Amit Shah, BJP president Nitin Nabin and SAD president Sukhbir Singh Badal are likely to formally announce the alliance.",
+          "url": "https://www.hindustantimes.com/india-news/bjp-akali-dal-likely-to-announce-punjab-alliance-today-101795499390722.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/bjp-akali-dal-likely-to-announce-punjab-alliance-today-101795499390722.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-24T05:53:15Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/Shiromani-Akali-Dal-president-Sukhbir-Singh-Badal-_1795500063777_uu5L_1795500063916_KyeL_21e1c20f-128e-4ea2-85c1-8e80d1dfbee6_djy6.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T08:18:14Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "228437b911e9d7daddd8",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "bjp akali dal likely to announce punjab alliance today"
+        }
+      ],
+      "rankingScore": 7.37969
+    },
+    {
+      "id": "c619a9cd054faf4ec96c2413",
+      "title": "FIR registered against Kallakurichi TVK MLA for ‘misbehaving’ with woman IAS officer, Madras HC told",
+      "translatedTitle": null,
+      "description": "Justice V. Lakshminarayanan says, State Public Prosecutor R. John Sathyan had acted with alacrity and got the FIR registered",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-police-register-fir-against-kallakurichi-tvk-mla-for-misbehaving-with-woman-ias-officer-madras-hc-told/article71737381.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/tamil-nadu/tamil-nadu-police-register-fir-against-kallakurichi-tvk-mla-for-misbehaving-with-woman-ias-officer-madras-hc-told/article71737381.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T07:57:54Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/d2g99l/article71737602.ece/alternates/LANDSCAPE_1200/KALLAKURICHI-MLA.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "eac6d9e4588cb62bc6e8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "52b4e9618cbe36dbe482326e",
+          "title": "FIR filed against TVK legislator in sexual harassment case: Madras HC told",
+          "translatedTitle": null,
+          "description": "Public prosecutor R John Sathyan told a bench that a formal complaint had been received from Kallakurichi collector J E Padmaja and an FIR was registered.",
+          "url": "https://www.hindustantimes.com/india-news/fir-filed-against-tvk-legislator-in-sexual-harassment-case-madras-hc-told-101795505014416.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/fir-filed-against-tvk-legislator-in-sexual-harassment-case-madras-hc-told-101795505014416.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-24T07:23:34Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/The-development-follows-a-harassment-complaint-Pad_1795505006059_IMcQ.png",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T08:18:14Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "eac6d9e4588cb62bc6e8",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "fir filed against tvk legislator in sexual harassment case madras hc told"
+        }
+      ],
+      "rankingScore": 7.37879
+    },
+    {
+      "id": "f0be2f28adf3286e2cf6548f",
+      "title": "BJP hits out at Rahul Gandhi, says person filled with hatred towards country won't be accepted by people",
+      "translatedTitle": null,
+      "description": "Rahul Gandhi had triggered a political row with his remarks on India's economy during an address at Columbia University in the U.S.",
+      "url": "https://www.thehindu.com/news/national/bjp-hits-out-at-rahul-gandhi-says-person-filled-with-hatred-towards-country-wont-be-accepted-by-people/article71737546.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/bjp-hits-out-at-rahul-gandhi-says-person-filled-with-hatred-towards-country-wont-be-accepted-by-people/article71737546.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T08:05:57Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/q8svox/article71737559.ece/alternates/LANDSCAPE_1200/Screenshot%202026-08-24%20213920.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d23b744e43b8625c57c8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.34494
+    },
+    {
+      "id": "4748815f30cac06086d7bce6",
+      "title": "What stands atop Thirupparankundram hill is a survey pillar, ascertains Tamil Nadu government report",
+      "translatedTitle": null,
+      "description": "This report has evoked interest against the backdrop of the latest dispute over the lighting of the Karthigai Deepam atop Thirupparankundram hill, which has taken centre stage, following the Supreme Court’s decision to permit the lighting of the lamp at the newly identified deepathoon as a limited, one-time arrangement",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/what-stands-atop-thiruparankundram-hill-is-a-survey-pillar-ascertains-tn-government-report/article71735742.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/tamil-nadu/what-stands-atop-thiruparankundram-hill-is-a-survey-pillar-ascertains-tn-government-report/article71735742.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T08:02:03Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/hfj5p2/article71735793.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-23%20at%209.14.34%20PM.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "83e4d13f5e7349da3094",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 7.3371,
+      "related": []
+    },
+    {
+      "id": "98fd6b0afbb5e4d039647e9e",
+      "title": "Factional feuding in Congress in Keralam escalates, this time over Oommen Chandy’s political legacy",
+      "translatedTitle": null,
+      "description": "AICC member and Kasaragod MP Rajmohan Unnithan has emerged as the public face of what appears to be a bitter struggle for the ‘A group’ mantle, a faction associated with the late former Chief Minister",
+      "url": "https://www.thehindu.com/news/national/kerala/factional-feuding-in-congress-in-keralam-escalates-this-time-over-oommen-chandys-political-legacy/article71737658.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/kerala/factional-feuding-in-congress-in-keralam-escalates-this-time-over-oommen-chandys-political-legacy/article71737658.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T07:56:40Z",
+      "imageUrl": "https://th-i.thgim.com/public/news/national/kerala/tylv6n/article71737677.ece/alternates/LANDSCAPE_1200/Congress.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2f75a879ab91d2433a5c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.32632
+    },
+    {
+      "id": "82dd0bd3b61949e9a52956ca",
+      "title": "Telangana Congress Minister asks why BJP is targeting Rahul Gandhi instead of responding to questions on SIR",
+      "translatedTitle": null,
+      "description": "Ponnam Prabhakar says Rahul Gandhi Gandhi presented evidence of living voters removed from electoral rolls in several States",
+      "url": "https://www.thehindu.com/news/national/telangana/telangana-congress-minister-asks-why-bjp-is-targeting-rahul-gandhi-instead-of-responding-to-questions-on-sir/article71737617.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/telangana/telangana-congress-minister-asks-why-bjp-is-targeting-rahul-gandhi-instead-of-responding-to-questions-on-sir/article71737617.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T07:48:58Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/71jblk/article71737663.ece/alternates/LANDSCAPE_1200/_DSC5710.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "81b2c54cf68d161f3c51",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.311
+    },
+    {
+      "id": "410c2076ca1b2c3eaffd2644",
+      "title": "FDA suspends licences of British Brewing Company, NSCI; fines Mumbai University canteen ₹1 lakh over hygiene violations",
+      "translatedTitle": null,
+      "description": "Licences of 27 establishments suspended across Mumbai and Pune; banned food products worth ₹34.56 lakh seized, four FIRs registered",
+      "url": "https://www.thehindu.com/news/national/maharashtra/fda-suspends-licences-of-british-brewing-company-nsci-fines-mumbai-university-canteen-1-lakh-over-hygiene-violations/article71737510.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/maharashtra/fda-suspends-licences-of-british-brewing-company-nsci-fines-mumbai-university-canteen-1-lakh-over-hygiene-violations/article71737510.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T07:14:47Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/3fo7g/article71737575.ece/alternates/LANDSCAPE_1200/2026-08-24T020008Z_1123646610_RC2A2NA9IYJM_RTRMADP_3_INDIA-FOOD-OFFICER.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5a2822397d61385cd533",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "da41ab13d2ec30209c1b6cbe",
+          "title": "Mumbai University canteen operates without licence, FDA imposes ₹1 lakh fine",
+          "translatedTitle": null,
+          "description": "An inspection conducted by the FDA’s Mumbai office revealed several lapses in the manner food was stored, handled and prepared",
+          "url": "https://www.hindustantimes.com/india-news/mumbai-university-canteen-operates-without-licence-fda-imposes-1-lakh-fine-101795505132528.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/mumbai-university-canteen-operates-without-licence-fda-imposes-1-lakh-fine-101795505132528.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-24T07:25:32Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/Officials-found-that-food-items-were-stored-improp_1795505126007_QJBu.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T08:18:14Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "5a2822397d61385cd533",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "mumbai university canteen operates without licence fda imposes 1 lakh fine"
+        }
+      ],
+      "rankingScore": 7.2943
+    },
+    {
+      "id": "199fb96578b31d426449c549",
+      "title": "One crore parrot-green Indiramma sarees to add hue to Telangana women’s wardrobes",
+      "translatedTitle": null,
+      "description": "Telangana Chief Minister Revanth Reddy to launch the distribution on November 26, 2026. Beneficiaries have to furnish food security cards (ration cards) and Aadhaar details",
+      "url": "https://www.thehindu.com/news/national/telangana/one-crore-parrot-green-indiramma-sarees-to-be-distributed-in-telangana-from-november-26/article71737517.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/telangana/one-crore-parrot-green-indiramma-sarees-to-be-distributed-in-telangana-from-november-26/article71737517.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T07:34:15Z",
+      "imageUrl": "https://th-i.thgim.com/public/news/cities/Hyderabad/fxx8to/article71737639.ece/alternates/LANDSCAPE_1200/Image%2061.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a17808cf821427bedb01",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.28203
+    },
+    {
+      "id": "9b9deb117dcb57db17a79fff",
+      "title": "SC to hear on November 25 pleas of Sharjeel Imam, Umar Khalid seeking bail in UAPA case",
+      "translatedTitle": null,
+      "description": "In their pleas before the Supreme Court, the activists have sought bail, contending that the prosecution has failed to examine protected witnesses and the one-year embargo imposed by the Supreme Court is nearing its expiry",
+      "url": "https://www.thehindu.com/news/national/sc-to-hear-on-november-25-pleas-of-sharjeel-imam-umar-khalid-seeking-bail-in-uapa-case/article71737363.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/sc-to-hear-on-november-25-pleas-of-sharjeel-imam-umar-khalid-seeking-bail-in-uapa-case/article71737363.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T07:26:35Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/ho49zd/article71737400.ece/alternates/LANDSCAPE_1200/05th-AARATRIKA-GH0FDBK3F.3.jpg.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bbce838bc6dadb5bc8c6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.26709
+    },
+    {
+      "id": "c14da0fb90125609a39fef89",
+      "title": "Punjab Congress chief urges PM to reopen Kartarpur Corridor, resume Attari-Wagah trade",
+      "translatedTitle": null,
+      "description": "In a letter to the PM on November 23, Pargat Singh said the Kartarpur Corridor represents the deepest spiritual sentiments of the Sikh community",
+      "url": "https://www.thehindu.com/news/national/punjab/punjab-congress-chief-urges-pm-to-reopen-kartarpur-corridor-resume-attari-wagah-trade/article71737442.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/punjab/punjab-congress-chief-urges-pm-to-reopen-kartarpur-corridor-resume-attari-wagah-trade/article71737442.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T06:50:25Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/4sw7ve/article71737459.ece/alternates/LANDSCAPE_1200/Pargat-says-CoGLTGLAM9J.3.jpg.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cf5ce0980b1992f3dcb4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.19802
+    },
+    {
+      "id": "ad7fe26efd46edd7e3242805",
+      "title": "Black Friday shopping scam | Telangana Police warn of fake websites, ads offering unrealistic discounts",
+      "translatedTitle": null,
+      "description": "Telangana Cyber Security Bureau caution that cybercriminals often use attractive discounts and urgent offers to steal money",
+      "url": "https://www.thehindu.com/news/national/telangana/tgcsb-warns-against-black-friday-online-shopping-scams/article71735154.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/telangana/tgcsb-warns-against-black-friday-online-shopping-scams/article71735154.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T06:11:53Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/xdoy9d/article71737415.ece/alternates/LANDSCAPE_1200/IMG_06_iStock-2182278847_2_1_1EGOTD04.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d879b4b2ddcbb5084e87",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.12694
+    },
+    {
+      "id": "2dff8c65876113190c83485b",
+      "title": "Keralam actor Sreejith Ravi sentenced to 1-year imprisonment in POCSO case",
+      "translatedTitle": null,
+      "description": "Sentence has been suspended for a month, and the actor has been granted bail to challenge the verdict before a higher court",
+      "url": "https://www.thehindu.com/news/national/kerala/actor-sreejith-ravi-sentenced-to-one-year-imprisonment-in-pocso-case/article71735071.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/kerala/actor-sreejith-ravi-sentenced-to-one-year-imprisonment-in-pocso-case/article71735071.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T05:42:24Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/qpca1i/article71735521.ece/alternates/LANDSCAPE_1200/IMG_sreejith_ravi.PNG_2_1_BHA0PA8I.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ff1792b71ed981adac83",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "9eafba04d17f152b8506e489",
+          "title": "Malyalam Actor Sreejith Ravi Gets 1-Year Jail For Allegedly Flashing School Children",
+          "translatedTitle": null,
+          "description": "The 2022 case attracted considerable attention at the time of his arrest.",
+          "url": "https://www.ndtv.com/india-news/malyalam-actor-sreejith-ravi-gets-1-year-jail-for-allegedly-flashing-school-children-12366911",
+          "canonicalUrl": "https://ndtv.com/india-news/malyalam-actor-sreejith-ravi-gets-1-year-jail-for-allegedly-flashing-school-children-12366911",
           "sourceName": "NDTV",
           "sourceDomain": "ndtv.com",
           "sourceCountry": "IN",
@@ -193,58 +948,211 @@
             "IN"
           ],
           "language": "en",
-          "publishedAt": "2026-11-24T01:15:35Z",
-          "imageUrl": "https://c.ndtvimg.com/2026-11/71n5sm4s_saurav-das_625x300_23_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+          "publishedAt": "2026-11-24T05:17:31Z",
+          "imageUrl": "https://c.ndtvimg.com/2026-11/sb4jvtus_sreejith-ravi-ians_625x300_24_November_26.jpeg",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-24T04:18:19Z",
+          "retrievedAt": "2026-11-24T08:18:14Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "34d4cc5c0a05c031420c",
+          "clusterId": "ff1792b71ed981adac83",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
-          "normalizedTitle": "cjp s saurav das alleges he was stopped from flying to uk at delhi airport"
-        },
+          "normalizedTitle": "malyalam actor sreejith ravi gets 1 year jail for allegedly flashing school children"
+        }
+      ],
+      "rankingScore": 7.12424
+    },
+    {
+      "id": "ca47e367aeca8451b10d8aa2",
+      "title": "SUV-truck collision in Lakhisarai, Bihar: Five killed, three injured",
+      "translatedTitle": null,
+      "description": "The accident took place near Gunsagar village in Tetarhat police station area on the Lakhisarai-Jamui main road",
+      "url": "https://www.thehindu.com/news/national/bihar/suv-truck-collision-in-lakhisarai-bihar-five-killed-three-injured/article71737269.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/bihar/suv-truck-collision-in-lakhisarai-bihar-five-killed-three-injured/article71737269.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T05:40:55Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/qexx56/article71737300.ece/alternates/LANDSCAPE_1200/iStock-1312795141.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "76e7ecd25ec870871363",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
         {
-          "id": "5f219ba1ba9a005ee2ee01f3",
-          "title": "‘Stopped by Modi government’: CJP’s Saurav Das alleges he was barred from flying to London",
+          "id": "e9563409b8e64fe27eed6836",
+          "title": "Five killed in an SUV-tanker collision in Andhra Pradesh's Vizianagaram district",
           "translatedTitle": null,
-          "description": null,
-          "url": "https://indianexpress.com/article/india/cjp-saurav-das-stopped-delhi-airport-oxford-lecture-10975536/",
-          "canonicalUrl": "https://indianexpress.com/article/india/cjp-saurav-das-stopped-delhi-airport-oxford-lecture-10975536",
-          "sourceName": "The Indian Express",
-          "sourceDomain": "indianexpress.com",
+          "description": "Four occupants died on the spot, while the fifth, who sustained critical injuries, succumbed while undergoing treatment.",
+          "url": "https://www.hindustantimes.com/india-news/five-killed-in-an-suv-tanker-collision-in-andhra-pradesh-vizianagaram-district-101795507374533.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/five-killed-in-an-suv-tanker-collision-in-andhra-pradesh-vizianagaram-district-101795507374533.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
           "sourceCountry": "IN",
           "editionCountry": "IN",
           "coverageCountries": [
             "IN"
           ],
           "language": "en",
-          "publishedAt": "2026-11-23T18:31:32Z",
-          "imageUrl": "https://images.indianexpress.com/2026/11/saurav-das.jpg",
+          "publishedAt": "2026-11-24T08:12:03Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/Andhra_Police_1763537847594_1763537847735_1795507785091_FXct_484ec785-778f-4183-b4c0-bb979f118712_5TLX.jpg",
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-24T04:18:18Z",
+          "retrievedAt": "2026-11-24T08:18:14Z",
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "34d4cc5c0a05c031420c",
+          "clusterId": "76e7ecd25ec870871363",
           "translationProvider": null,
           "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "stopped by modi government cjp s saurav das alleges he was barred from flying to london"
+          "sourceQuality": 1.0,
+          "normalizedTitle": "five killed in an suv tanker collision in andhra pradesh s vizianagaram district"
         }
-      ]
+      ],
+      "rankingScore": 7.12163
+    },
+    {
+      "id": "64438beadf3f04ea0979e56c",
+      "title": "Delhi police bust Alwar-based crypto fraud syndicate; 4 arrested",
+      "translatedTitle": null,
+      "description": "Police also recovered ₹1.62 lakh in cash, 11 mobile phones, one iPad, a Wi-Fi router and six SIM cards from the accused",
+      "url": "https://www.hindustantimes.com/india-news/delhi-police-bust-alwar-based-crypto-fraud-syndicate-4-arrested-101795508075479.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/delhi-police-bust-alwar-based-crypto-fraud-syndicate-4-arrested-101795508075479.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T08:14:35Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/Explaining-the-syndicate-s-modus-operandi--Goel-sa_1795508066636_0AFJ.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "fd08f578b971a02bf407",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.09239
+    },
+    {
+      "id": "07f99d3d3e7021b243ec3c0a",
+      "title": "TNCC president Manickam Tagore demands legal action against TVK MLA",
+      "translatedTitle": null,
+      "description": "The State government should immediately intervene and take action ensuring that the woman district Collector gets justice",
+      "url": "https://www.thehindu.com/news/cities/Madurai/tncc-president-manickam-tagore-demands-legal-action-against-tvk-mla/article71737123.ece",
+      "canonicalUrl": "https://thehindu.com/news/cities/Madurai/tncc-president-manickam-tagore-demands-legal-action-against-tvk-mla/article71737123.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T05:48:55Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/b3oq31/article71737181.ece/alternates/LANDSCAPE_1200/13_11_2026_manickam_tagore.JPG",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "632688a6c2b5ac4253f6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.08577
+    },
+    {
+      "id": "85fe40e2ed8e7328cf6bad47",
+      "title": "At least four children killed, 32 injured as truck rams stationary school bus in U.P.’s Kannauj",
+      "translatedTitle": null,
+      "description": "The bus was carrying 50 people, including students returning from an excursion to the Taj Mahal in Agra",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/kannauj-road-accident-student-children-killed-injured-november-24-2026/article71737189.ece",
+      "canonicalUrl": "https://thehindu.com/news/national/uttar-pradesh/kannauj-road-accident-student-children-killed-injured-november-24-2026/article71737189.ece",
+      "sourceName": "The Hindu",
+      "sourceDomain": "thehindu.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T05:17:54Z",
+      "imageUrl": "https://th-i.thgim.com/public/incoming/3rn0i5/article71737197.ece/alternates/LANDSCAPE_1200/Screenshot%202441.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "367a77060c1b552f69a5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "de322fffb4702987151234ff",
+          "title": "4 Students Killed, 32 Injured As Speeding Truck Rams School Bus In UP",
+          "translatedTitle": null,
+          "description": "The injured were taken to a medical college in ambulance.",
+          "url": "https://www.ndtv.com/india-news/4-children-killed-32-injured-as-truck-rams-stationary-school-bus-in-ups-kannauj-12368958",
+          "canonicalUrl": "https://ndtv.com/india-news/4-children-killed-32-injured-as-truck-rams-stationary-school-bus-in-ups-kannauj-12368958",
+          "sourceName": "NDTV",
+          "sourceDomain": "ndtv.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-24T04:31:52Z",
+          "imageUrl": "https://c.ndtvimg.com/2026-11/suglgoks_school-bus-accident-pti_625x300_24_November_26.jpeg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T08:18:14Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "367a77060c1b552f69a5",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "4 students killed 32 injured as speeding truck rams school bus in up"
+        }
+      ],
+      "rankingScore": 7.08153
     },
     {
       "id": "bd27724338c35c0d66beb176",
       "title": "Collector files complaint against Kallakurichi TVK MLA",
       "translatedTitle": null,
-      "description": "It is learnt that the Collector had accused the MLA of having made inappropriate advances and sent unwarranted messages",
+      "description": "It is learnt that the Collector had accused the Kallakurichi MLA of having made inappropriate advances and sent unwarranted messages",
       "url": "https://www.thehindu.com/news/national/tamil-nadu/collector-files-complaint-against-kallakurichi-tvk-mla/article71736185.ece",
       "canonicalUrl": "https://thehindu.com/news/national/tamil-nadu/collector-files-complaint-against-kallakurichi-tvk-mla/article71736185.ece",
       "sourceName": "The Hindu",
@@ -255,20 +1163,111 @@
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-24T04:09:05Z",
+      "publishedAt": "2026-11-24T05:25:31Z",
       "imageUrl": "https://th-i.thgim.com/public/incoming/f353a0/article71737038.ece/alternates/LANDSCAPE_1200/KALLAKURICHI-MLA-1.JPG",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
+      "retrievedAt": "2026-11-24T08:18:14Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "3a5b276d4392d3de35ff",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 7.35095,
+      "rankingScore": 7.0447,
       "related": []
+    },
+    {
+      "id": "6cf3c407ece30a4c4eb5dadc",
+      "title": "\"Papa's Security Removed So That He Gets Killed\": Rahul Gandhi's Big Charge",
+      "translatedTitle": null,
+      "description": "Rajiv Gandhi during campaigning in Bihar in 1991",
+      "url": "https://www.ndtv.com/india-news/rajiv-gandhis-security-removed-so-that-he-get-killed-rahul-gandhis-big-charge-12369559",
+      "canonicalUrl": "https://ndtv.com/india-news/rajiv-gandhis-security-removed-so-that-he-get-killed-rahul-gandhis-big-charge-12369559",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T07:20:52Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-11/pf35go7s_rajiv-gandhi-_625x300_24_November_26.jpeg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3f017d3ad14419fcc8e6",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "54543a3e131d43b1962ca37d",
+          "title": "Rahul Gandhi says Rajiv Gandhi's security was removed ‘so that he could be killed’",
+          "translatedTitle": null,
+          "description": "Rahul Gandhi also recalled how Sonia Gandhi used go around their house checking the security and the barbed wires.",
+          "url": "https://www.hindustantimes.com/india-news/rahul-gandhi-says-rajiv-gandhi-security-was-removed-so-that-he-could-be-killed-congress-vp-singh-govt-bjp-sonia-gandhi-101795498944091.html",
+          "canonicalUrl": "https://hindustantimes.com/india-news/rahul-gandhi-says-rajiv-gandhi-security-was-removed-so-that-he-could-be-killed-congress-vp-singh-govt-bjp-sonia-gandhi-101795498944091.html",
+          "sourceName": "Hindustan Times",
+          "sourceDomain": "hindustantimes.com",
+          "sourceCountry": "IN",
+          "editionCountry": "IN",
+          "coverageCountries": [
+            "IN"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-24T05:47:09Z",
+          "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/ANI-20261118065-0_1795498988077_k9qE_1795499006218_A9MR_29c2fc43-d1f3-483e-b73e-0f7ead40ad8d_4mG1.jpg",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-24T08:18:14Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "3f017d3ad14419fcc8e6",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "rahul gandhi says rajiv gandhi s security was removed so that he could be killed"
+        }
+      ],
+      "rankingScore": 7.03602
+    },
+    {
+      "id": "383175e3df4f53727fd37f21",
+      "title": "Sheikh Hasina To Return To Dhaka On Dec 16, 55th Anniversary Of Liberation War",
+      "translatedTitle": null,
+      "description": "Ex-Bangladesh PM Sheikh Hasina is set to return to her home country from exile in India on December 16.",
+      "url": "https://www.ndtv.com/world-news/sheikh-hasina-to-return-to-dhaka-on-dec-16-55th-anniversary-of-liberation-war-12369488",
+      "canonicalUrl": "https://ndtv.com/world-news/sheikh-hasina-to-return-to-dhaka-on-dec-16-55th-anniversary-of-liberation-war-12369488",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T07:12:20Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-11/59eiqr8k_sheikh-hasina_625x300_17_November_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9b1bce6acea872da66db",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.9696
     },
     {
       "id": "fb84e8810b120fc3fbf5da13",
@@ -290,13 +1289,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
+      "retrievedAt": "2026-11-24T08:18:14Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "d5f106a3af451aaf92d6",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.92323,
       "related": [
         {
           "id": "f380f67f46358806632e5978",
@@ -318,7 +1318,7 @@
           "imageAlt": null,
           "category": "Domestic",
           "topics": [],
-          "retrievedAt": "2026-11-24T04:18:18Z",
+          "retrievedAt": "2026-11-24T08:18:14Z",
           "dataSources": [
             "publisher-rss"
           ],
@@ -328,8 +1328,7 @@
           "sourceQuality": 1.0,
           "normalizedTitle": "google rejects rumours of huge layoffs in india says 30 roles were eliminated"
         }
-      ],
-      "rankingScore": 7.34678
+      ]
     },
     {
       "id": "0f6de37e79b2db141e0d002b",
@@ -351,15 +1350,45 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
+      "retrievedAt": "2026-11-24T08:18:14Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e9babe1b3835f07c7b89",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.91026,
+      "related": []
+    },
+    {
+      "id": "d2a4911c42df47de770bc4ee",
+      "title": "Opposition seeks clarity on Parliament’s winter session, typically held in November",
+      "translatedTitle": null,
+      "description": "Congress’s Gaurav Gogoi said the delay in convening the session shows the absolute disrespect for the people of India",
+      "url": "https://www.hindustantimes.com/india-news/opposition-seeks-clarity-on-parliament-s-winter-session-typically-held-in-november-101795501172138.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/opposition-seeks-clarity-on-parliament-s-winter-session-typically-held-in-november-101795501172138.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T06:19:31Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/The-monsoon-session-has-not-been-prorogued---PTI-_1795501165267_K1HR.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f9bc0c7589dd9bbe0c27",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.34302
+      "rankingScore": 6.87082
     },
     {
       "id": "51c30389bc0c91d976444870",
@@ -381,15 +1410,45 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
+      "retrievedAt": "2026-11-24T08:18:14Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "ccf67f817c79bc9c7424",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.82039,
+      "related": []
+    },
+    {
+      "id": "6a70b790742c7f18cf215df6",
+      "title": "'Transfer-Posting Racket': BJP Slams AAP After Probe Agency Summons 7 Punjab Officers",
+      "translatedTitle": null,
+      "description": "Punjab BJP working president Ashwani Sharma alleged there's a wider nexus.",
+      "url": "https://www.ndtv.com/india-news/transfer-posting-racket-bjp-slams-aap-after-probe-agency-summons-to-punjab-officers-12368012",
+      "canonicalUrl": "https://ndtv.com/india-news/transfer-posting-racket-bjp-slams-aap-after-probe-agency-summons-to-punjab-officers-12368012",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
+      "sourceCountry": "IN",
+      "editionCountry": "IN",
+      "coverageCountries": [
+        "IN"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-24T05:49:00Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-11/3o3cd2h_punjab-bjp-working-president-ashwani-sharma-alleged-theres-a-wider-nexus_625x300_24_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-24T08:18:14Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6ccfd3695114bb910d59",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.2308
+      "rankingScore": 6.81591
     },
     {
       "id": "7a3f53551a5832ed42f53b0d",
@@ -411,75 +1470,75 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
+      "retrievedAt": "2026-11-24T08:18:14Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "7b10fac530c4905d683b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.22413
+      "rankingScore": 6.81505,
+      "related": []
     },
     {
-      "id": "289e4fe463b736e3cf97b661",
-      "title": "What stands atop Thiruparankundram hill is a survey pillar, ascertains Tamil Nadu government report",
+      "id": "3155615f48487128aa46dca1",
+      "title": "‘Kept in dark about elephant relocation’: Congress MLA Nayana Motamma on resignation",
       "translatedTitle": null,
-      "description": "This report has evoked interest against the backdrop of the latest dispute over the lighting of the Karthigai Deepam atop Thiruparankundram hill, which has taken centre stage, following the Supreme Court’s decision to permit the lighting of the lamp at the newly identified deepathoon as a limited, one-time arrangement",
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/what-stands-atop-thiruparankundram-hill-is-a-survey-pillar-ascertains-tn-government-report/article71735742.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/tamil-nadu/what-stands-atop-thiruparankundram-hill-is-a-survey-pillar-ascertains-tn-government-report/article71735742.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
+      "description": "Congress MLA Nayana Motamma said the forest department had initiated the elephant-driving operation without consulting the elected representatives",
+      "url": "https://www.hindustantimes.com/india-news/kept-in-dark-about-elephant-relocation-congress-mla-nayana-motamma-on-resignation-101795499132156.html",
+      "canonicalUrl": "https://hindustantimes.com/india-news/kept-in-dark-about-elephant-relocation-congress-mla-nayana-motamma-on-resignation-101795499132156.html",
+      "sourceName": "Hindustan Times",
+      "sourceDomain": "hindustantimes.com",
       "sourceCountry": "IN",
       "editionCountry": "IN",
       "coverageCountries": [
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-24T01:30:56Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/hfj5p2/article71735793.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-23%20at%209.14.34%20PM.jpeg",
+      "publishedAt": "2026-11-24T05:45:31Z",
+      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/She-insisted-that-the-elephants-already-driven-tow_1795499124995_BY2Q.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
+      "retrievedAt": "2026-11-24T08:18:14Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "476825d728949ce99726",
+      "clusterId": "a6de090cae49ed2cf355",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.05387
+      "rankingScore": 6.80974
     },
     {
-      "id": "6d5b6e68988af5084b82f92f",
-      "title": "India, China hold 10-day talks to ease LAC tensions in Arunachal Pradesh",
+      "id": "f29087db45d9eec4d3d3cadb",
+      "title": "\"Exchange Tech, AI\": Russian Official Seeks India's Alliance In Healthcare",
       "translatedTitle": null,
-      "description": "The talks focused on establishing engagement protocols, preventing face-offs and misunderstandings between troops deployed along the frontier, and maintaining open communication channels",
-      "url": "https://www.thehindu.com/news/national/india-china-hold-10-day-talks-to-ease-loac-tensions-in-arunachal-pradesh/article71731819.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/india-china-hold-10-day-talks-to-ease-loac-tensions-in-arunachal-pradesh/article71731819.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
+      "description": "Rubtsov said both countries faced similar challenges related to population health.",
+      "url": "https://www.ndtv.com/world-news/exchange-tech-ai-russian-official-seeks-indias-alliance-in-healthcare-12368421",
+      "canonicalUrl": "https://ndtv.com/world-news/exchange-tech-ai-russian-official-seeks-indias-alliance-in-healthcare-12368421",
+      "sourceName": "NDTV",
+      "sourceDomain": "ndtv.com",
       "sourceCountry": "IN",
       "editionCountry": "IN",
       "coverageCountries": [
         "IN"
       ],
       "language": "en",
-      "publishedAt": "2026-11-24T01:29:17Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/qnh3id/article71732206.ece/alternates/LANDSCAPE_1200/06th-SAURABH-AmG6HGGDGP2.4.jpg.jpg",
+      "publishedAt": "2026-11-24T05:34:14Z",
+      "imageUrl": "https://c.ndtvimg.com/2026-11/gpq5d304_india-russia-_625x300_24_November_26.jpeg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
+      "retrievedAt": "2026-11-24T08:18:14Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "fe7fa3e1dab0e29c4afe",
+      "clusterId": "dfb52f855668c493ff25",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.05099
+      "rankingScore": 6.7899
     },
     {
       "id": "c120c06b656b746a469c3937",
@@ -508,8 +1567,8 @@
       "clusterId": "2d5245e93d03975b8b47",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.04335
+      "rankingScore": 6.6165,
+      "related": []
     },
     {
       "id": "601dfcc4bc9a67d3c2393867",
@@ -531,556 +1590,14 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
+      "retrievedAt": "2026-11-24T08:18:14Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "e810bc41b7597f227318",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.97827
-    },
-    {
-      "id": "550002df17e547d464fe8bf2",
-      "title": "Nvidia Live Updates: Nvidia Brings Back Jensen Huang As CEO After White House Intervention",
-      "translatedTitle": null,
-      "description": "NVIDIA LIVE: Jensen Huang reinstated as President, CEO and Board Director.",
-      "url": "https://www.ndtv.com/world-news/nvidia-board-reinstates-jensen-huang-president-ceo-board-director-live-updates-live-updates-nvidia-stock-jumps-30-after-jensen-huang-returns-as-ceo-12367017",
-      "canonicalUrl": "https://ndtv.com/world-news/nvidia-board-reinstates-jensen-huang-president-ceo-board-director-live-updates-live-updates-nvidia-stock-jumps-30-after-jensen-huang-returns-as-ceo-12367017",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-24T02:39:30Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/72j6ddbo_jensen-nvidia-board_625x300_18_November_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6710c581156509a53f89",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.90735,
-      "related": []
-    },
-    {
-      "id": "b6bebc237fa86d7b21a1bc18",
-      "title": "Pan-India scrutiny of illegal buildings not practical in suo motu petition: Supreme Court",
-      "translatedTitle": null,
-      "description": "This comes days after it was shifted out from a bench not having a public interest litigation (PIL) roster on orders passed by Chief Justice of India (CJI) Surya Kant.",
-      "url": "https://www.hindustantimes.com/india-news/panindia-scrutiny-of-illegal-buildings-not-practical-in-suo-motu-petition-supreme-court-101795461203962.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/panindia-scrutiny-of-illegal-buildings-not-practical-in-suo-motu-petition-supreme-court-101795461203962.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-24T02:16:40Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/ht-generic_india1_1751287243850_1751287256749.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6120f67552a7f1b50da6",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.86535
-    },
-    {
-      "id": "35308be9e69a8535c5b0d631",
-      "title": "Speedy trial cannot be a passport for bail to accused with criminal past: Supreme Court",
-      "translatedTitle": null,
-      "description": "Setting aside a high court order granting bail to a man who had spent over five years in custody, the court pointed out that the accused had concealed his previous conviction for attempting to kill the very person who was subsequently murdered in the case for which he was seeking bail.",
-      "url": "https://www.hindustantimes.com/india-news/speedy-trial-cannot-be-a-passport-for-bail-to-accused-with-criminal-past-supreme-court-101795461084282.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/speedy-trial-cannot-be-a-passport-for-bail-to-accused-with-criminal-past-supreme-court-101795461084282.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-24T02:16:10Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2025/08/06/1600x900/Untitled_design_1754465014585_1754465103581.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "da3af552b540a30b0356",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.86444
-    },
-    {
-      "id": "f80a5fff544012753ea0c293",
-      "title": "Israeli Ministry Approves Resumption Of Flydubai Flights After Attack",
-      "translatedTitle": null,
-      "description": "Israel's transport Minister (Miri) Regev approved the return of the airline flydubai.",
-      "url": "https://www.ndtv.com/world-news/israeli-ministry-approves-resumption-of-flydubai-flights-after-attack-12368533",
-      "canonicalUrl": "https://ndtv.com/world-news/israeli-ministry-approves-resumption-of-flydubai-flights-after-attack-12368533",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-24T01:51:16Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-10/0td3kilo_flydubai_625x300_04_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1ad2e4140ef703e1cf06",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.81967
-    },
-    {
-      "id": "95fa3a1c8bbe4a60362bbf04",
-      "title": "First batch of delayed LCAs to be delivered by March: HAL to Indian Air Force",
-      "translatedTitle": null,
-      "description": "The IAF will accept the fighters without relaxing capability requirements, with hardware-related concerns resolved and remaining software issues.",
-      "url": "https://www.hindustantimes.com/india-news/first-batch-of-delayed-lcas-to-be-delivered-by-march-hal-to-indian-air-force-101795481112038.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/first-batch-of-delayed-lcas-to-be-delivered-by-march-hal-to-indian-air-force-101795481112038.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-24T00:58:55Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/PTI01_13_2021_000313A_1610638062533_1610638071399_1795481723472_dhgj_a6506820-08e4-43c4-954d-bb0baeeb5f62_nM6f.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "91e1d31acaacd2518b6e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.72884
-    },
-    {
-      "id": "3d074e69effa5b43cb6b74bf",
-      "title": "CBI facilitates return of murder accused from Kazakhstan",
-      "translatedTitle": null,
-      "description": "The accused, named Ashish Kumar, was tracked down to Almaty airport in Kazakhstan, following which he was detained and sent back to India",
-      "url": "https://www.thehindu.com/news/national/haryana/cbi-facilitates-return-of-murder-accused-from-kazakhstan/article71735399.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/haryana/cbi-facilitates-return-of-murder-accused-from-kazakhstan/article71735399.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T21:28:22Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/sx1psa/article71736251.ece/alternates/LANDSCAPE_1200/iStock-157404566%201.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "39570d2ad398e1c959c3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "8bfd9194ca0156985e22a5d4",
-          "title": "CBI Secures Deportation Of Haryana Murder Accused From Kazakhstan",
-          "translatedTitle": null,
-          "description": "A Red Notice was published in September 2026 against Ashish Kumar through INTERPOL channels, CBI said.",
-          "url": "https://www.ndtv.com/india-news/cbi-secures-deportation-of-haryana-murder-accused-from-kazakhstan-12368507",
-          "canonicalUrl": "https://ndtv.com/india-news/cbi-secures-deportation-of-haryana-murder-accused-from-kazakhstan-12368507",
-          "sourceName": "NDTV",
-          "sourceDomain": "ndtv.com",
-          "sourceCountry": "IN",
-          "editionCountry": "IN",
-          "coverageCountries": [
-            "IN"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-24T01:31:11Z",
-          "imageUrl": "https://c.ndtvimg.com/2022-08/rloqk36c_cbi-generic-650_625x300_19_August_22.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-24T04:18:19Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "39570d2ad398e1c959c3",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "cbi secures deportation of haryana murder accused from kazakhstan"
-        }
-      ],
-      "rankingScore": 6.7249
-    },
-    {
-      "id": "13220863c37943975d67b937",
-      "title": "US Appeals Court Gives Trump New Pathway To Erasing Hush Money Conviction",
-      "translatedTitle": null,
-      "description": "If he succeeds, Trump could then argue that verdict should be discarded because of presidential immunity.",
-      "url": "https://www.ndtv.com/world-news/us-appeals-court-gives-trump-new-pathway-to-erasing-hush-money-conviction-12368444",
-      "canonicalUrl": "https://ndtv.com/world-news/us-appeals-court-gives-trump-new-pathway-to-erasing-hush-money-conviction-12368444",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-24T00:33:14Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/5smk9714_donald-trump_625x300_06_November_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "598d125b0c38e878f92b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.68586
-    },
-    {
-      "id": "0871adde172cbc0235d77085",
-      "title": "Manik Saha says party probing presence of masked men in BJP election rally",
-      "translatedTitle": null,
-      "description": "‘I don’t support this. In fact, our party does not approve such behaviour from our ranks. The party is inquiring into the matter and will follow up,’ said Manik Saha",
-      "url": "https://www.thehindu.com/news/national/tripura/manik-saha-says-party-probing-presence-of-masked-men-in-bjp-election-rally/article71736249.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/tripura/manik-saha-says-party-probing-presence-of-masked-men-in-bjp-election-rally/article71736249.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T21:14:23Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/qzl99e/article71736248.ece/alternates/LANDSCAPE_1200/20261123468L.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6bbd4a6ae3653deb5105",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.65554,
-      "related": []
-    },
-    {
-      "id": "854df0379fb91152ef1e0501",
-      "title": "No Winter Session of Parliament? Skipped only four times in history",
-      "translatedTitle": null,
-      "description": "Each previous instance coincided with extraordinary disruptions, from the Emergency and Lok Sabha dissolutions to Indira Gandhi’s assassination and the COVID-19 pandemic",
-      "url": "https://www.thehindu.com/news/national/no-winter-session-of-parliament-skipped-only-four-times-in-history/article71735258.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/no-winter-session-of-parliament-skipped-only-four-times-in-history/article71735258.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T20:32:44Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/j3e9lx/article71736058.ece/alternates/LANDSCAPE_1200/TH16-Sobhana-KeGB7G8R71J.3.jpg.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4a0f9b490f8fea2b9a5f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.59934,
-      "related": []
-    },
-    {
-      "id": "c2ae307c8e9abe43042f5c14",
-      "title": "S Jaishankar Holds Phone Conversation With Russian Counterpart Lavrov",
-      "translatedTitle": null,
-      "description": "The Jaishankar-Lavrov phone call came amid renewed efforts by the US to end the conflict.",
-      "url": "https://www.ndtv.com/india-news/s-jaishankar-holds-phone-conversation-with-russian-counterpart-lavrov-12368390",
-      "canonicalUrl": "https://ndtv.com/india-news/s-jaishankar-holds-phone-conversation-with-russian-counterpart-lavrov-12368390",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T23:36:22Z",
-      "imageUrl": "https://c.ndtvimg.com/2024-07/5h8ad9m8_sergey-lavrov-s-jaishankar-_625x300_18_July_24.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:19Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b963e9a7552c774c6569",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.59426,
-      "related": []
-    },
-    {
-      "id": "19ad39a7b58f9d5604ddce9f",
-      "title": "Violence erupts in Pithapuram amid JSP councillors’ sparring over vice-chairman pick",
-      "translatedTitle": null,
-      "description": "Jana Sena Party Councillors, supporters opposed the party’s decision to elect Bojja Venkateswara Rao as Pithapuram Municipal Vice-Chairman on the grounds of being a newcomer to the party.",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/tension-in-pithapuram-as-jsp-councillors-differ-over-vice-chairman-pick/article71734975.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/andhra-pradesh/tension-in-pithapuram-as-jsp-councillors-differ-over-vice-chairman-pick/article71734975.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T19:40:50Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/rw1mma/article71735613.ece/alternates/LANDSCAPE_1200/10237_23_11_2026_19_7_27_1_WHATSAPPIMAGE2026_11_23AT70521PM.JPEG",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c4385d884852d58c5a3b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.53228,
-      "related": []
-    },
-    {
-      "id": "01ccdfdb94c1d4334a6ba7d6",
-      "title": "Consequence of J&K recruitment scams on youth could be same as that of 1987 elections: Mehbooba Mufti",
-      "translatedTitle": null,
-      "description": "‘Repeatedly compromising the future of educated youth, whether through recruitment scams or prolonged security verification, risks deepening alienation and eroding their faith in institutions,’ said Mehbooba Mufti",
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/consequence-of-jk-recruitment-scams-on-youth-could-be-same-as-that-of-1987-elections-mehbooba-mufti/article71736207.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/jammu-and-kashmir/consequence-of-jk-recruitment-scams-on-youth-could-be-same-as-that-of-1987-elections-mehbooba-mufti/article71736207.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T19:26:55Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/nyjmi8/article71736199.ece/alternates/LANDSCAPE_1200/20261123364L.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "bf4546e1bb0e393f5972",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.51484,
-      "related": []
-    },
-    {
-      "id": "d0d8f50ab15a258677c6bb44",
-      "title": "Beware of Pakistan operatives in WhatsApp groups of defence personnel: BRO",
-      "translatedTitle": null,
-      "description": "The Border Roads Organisation calls for immediate audit of WhatsApp groups, strengthening threat detection and rapid response",
-      "url": "https://www.thehindu.com/news/national/beware-of-pakistan-operatives-in-whatsapp-groups-of-defence-personnel-bro/article71736162.ece",
-      "canonicalUrl": "https://thehindu.com/news/national/beware-of-pakistan-operatives-in-whatsapp-groups-of-defence-personnel-bro/article71736162.ece",
-      "sourceName": "The Hindu",
-      "sourceDomain": "thehindu.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T19:01:07Z",
-      "imageUrl": "https://th-i.thgim.com/public/incoming/y4lnr4/article71736189.ece/alternates/LANDSCAPE_1200/iStock-2029921510.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ef299ea74211c31d500f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.48309,
-      "related": []
-    },
-    {
-      "id": "e4256a019f9b926b2a26350d",
-      "title": "US Targets Iran's Shadow Banking Networks In Latest Wave Of Sanctions",
-      "translatedTitle": null,
-      "description": "\"Iran's economy is underwater, and its leaders are panicking,\" Treasury Secretary said in a statement.",
-      "url": "https://www.ndtv.com/world-news/iran-war-us-targets-irans-shadow-banking-networks-in-latest-wave-of-sanctions-12368135",
-      "canonicalUrl": "https://ndtv.com/world-news/iran-war-us-targets-irans-shadow-banking-networks-in-latest-wave-of-sanctions-12368135",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T20:02:19Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-09/p0t3fj1_scott-bessent_625x300_23_September_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T00:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "cabd768bb3039661403d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.28965,
-      "related": []
-    },
-    {
-      "id": "3b5034da1b9a1832a107f000",
-      "title": "India, Nepal adopt joint vision for ‘Viksit Bharat and Samunnat Nepal’",
-      "translatedTitle": null,
-      "description": "The two countries have yet to decide how the proposed review will be conducted, with Misri saying both sides must first assess their priorities.",
-      "url": "https://www.hindustantimes.com/india-news/india-nepal-adopt-joint-vision-for-viksit-bharat-and-samunnat-nepal-101795461084112.html",
-      "canonicalUrl": "https://hindustantimes.com/india-news/india-nepal-adopt-joint-vision-for-viksit-bharat-and-samunnat-nepal-101795461084112.html",
-      "sourceName": "Hindustan Times",
-      "sourceDomain": "hindustantimes.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T19:11:23Z",
-      "imageUrl": "https://www.hindustantimes.com/ht-img/img/2026/11/24/1600x900/logo/Narendra-Modi--1_1795484792595_AlTL_1795484817470_27xg_19102f33-df86-4c60-b074-9f4e7204bfb8_DUyK.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T04:18:18Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "19c8de5684ef5eac9b8a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "9f886740b8511b70ff016afe",
-          "title": "India, Nepal agree on comprehensive joint vision document to strengthen partnership",
-          "translatedTitle": null,
-          "description": null,
-          "url": "https://indianexpress.com/article/india/india-nepal-joint-vision-document-narendra-modi-balendra-shah-meeting-10975575/",
-          "canonicalUrl": "https://indianexpress.com/article/india/india-nepal-joint-vision-document-narendra-modi-balendra-shah-meeting-10975575",
-          "sourceName": "The Indian Express",
-          "sourceDomain": "indianexpress.com",
-          "sourceCountry": "IN",
-          "editionCountry": "IN",
-          "coverageCountries": [
-            "IN"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-23T23:50:45Z",
-          "imageUrl": "https://images.indianexpress.com/2026/11/Prime-Minister-Narendra-Modi-and-his-Nepalese-counterpart-Balendra-Shah-virtually-flag-off-the-inaugural-Ayodhya-Janakpur-Saryu-Kamala-Express-train-from-the-Hyderabad-House-in-New-Delhi-on-Monday.-PRAVEEN-KHANNA.jpg",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-24T04:18:18Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "19c8de5684ef5eac9b8a",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.05,
-          "normalizedTitle": "india nepal agree on comprehensive joint vision document to strengthen partnership"
-        }
-      ],
-      "rankingScore": 6.27564
-    },
-    {
-      "id": "c95ede9ff5e20310c421bb27",
-      "title": "Kolkata Doctors Flag Rising Lung Diseases Among Traffic Police",
-      "translatedTitle": null,
-      "description": "The health camp focused on early screening, preventive care, and raising awareness.",
-      "url": "https://www.ndtv.com/india-news/kolkata-doctors-flag-rising-lung-diseases-among-traffic-police-12368060",
-      "canonicalUrl": "https://ndtv.com/india-news/kolkata-doctors-flag-rising-lung-diseases-among-traffic-police-12368060",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T19:03:29Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/g9rqaub4_kolkata_625x300_24_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T00:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "be952dd5fb95f9904202",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.21597,
+      "rankingScore": 6.56438,
       "related": []
     },
     {
@@ -1110,8 +1627,8 @@
       "clusterId": "68b9cb6875fc220249c8",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.97265
+      "rankingScore": 4.53759,
+      "related": []
     },
     {
       "id": "032f9b88216375fa78fd22ce",
@@ -1140,8 +1657,8 @@
       "clusterId": "4feb9a46679e314c3ce9",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.97239
+      "rankingScore": 4.53738,
+      "related": []
     },
     {
       "id": "d54c1f48809e9ab5d585e93c",
@@ -1170,8 +1687,8 @@
       "clusterId": "8fdfe0b5ae83c6e2ea7f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.97236
+      "rankingScore": 4.53736,
+      "related": []
     },
     {
       "id": "cc1d0d1c5601256d1b5ebf83",
@@ -1200,8 +1717,8 @@
       "clusterId": "61009934f9bea8bc507b",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.95724
+      "rankingScore": 4.52525,
+      "related": []
     },
     {
       "id": "e6cdf05af683b5181baa258c",
@@ -1230,8 +1747,8 @@
       "clusterId": "b36963cce4e90fc69899",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.95698
+      "rankingScore": 4.52504,
+      "related": []
     },
     {
       "id": "75831c13dfe9b07fd1b49005",
@@ -1260,97 +1777,7 @@
       "clusterId": "476e3e632b7a9824d2ed",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.95684
-    },
-    {
-      "id": "7db418c032a79d495b621b59",
-      "title": "\"A Handshake With Jensen Huang\": Why Tech Fought To Save Nvidia's Founder",
-      "translatedTitle": null,
-      "description": "Nvidia's board said Monday it was now satisfied with Huang's \"candor and ability to lead.\"",
-      "url": "https://www.ndtv.com/world-news/a-handshake-with-jensen-huang-why-tech-fought-to-save-nvidias-founder-12368065",
-      "canonicalUrl": "https://ndtv.com/world-news/a-handshake-with-jensen-huang-why-tech-fought-to-save-nvidias-founder-12368065",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T19:10:09Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/m78c4fa8_jensen-huang_625x300_17_November_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T00:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "00076ff11781e79b5293",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.87412,
-      "related": []
-    },
-    {
-      "id": "2ad01a351ba5d037f6c23caa",
-      "title": "Jensen Huang Is Back At Nvidia, But Where Is Alice Huang?",
-      "translatedTitle": null,
-      "description": "Alice Huang, also known as Huang Le, was a managing director and executive at Megaspeed.",
-      "url": "https://www.ndtv.com/world-news/jensen-huang-alice-huang-nvidia-jensen-huang-is-back-at-nvidia-but-where-is-alice-huang-12367715",
-      "canonicalUrl": "https://ndtv.com/world-news/jensen-huang-alice-huang-nvidia-jensen-huang-is-back-at-nvidia-but-where-is-alice-huang-12367715",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T19:03:36Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/hnlgelic_nvidia-ceo-jensen-huang-and-lover-alice-_625x300_09_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T00:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b6c13cac5dad4ff83633",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.86612,
-      "related": []
-    },
-    {
-      "id": "dd771df96da40a0434f71dba",
-      "title": "Gatherings Banned In Madurai As Court Allows Deepam On Hill At Centre Of Row",
-      "translatedTitle": null,
-      "description": "The administration said it was necessary to prevent assemblies and agitations.",
-      "url": "https://www.ndtv.com/india-news/gatherings-banned-in-madurai-as-court-allows-deepam-on-hill-at-centre-of-row-12368047",
-      "canonicalUrl": "https://ndtv.com/india-news/gatherings-banned-in-madurai-as-court-allows-deepam-on-hill-at-centre-of-row-12368047",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T19:03:35Z",
-      "imageUrl": "https://c.ndtvimg.com/2025-10/001ut9gg_thiruparankundram-hill_625x300_11_October_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T00:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "946b0032f41d16334a3e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.8661,
+      "rankingScore": 4.52493,
       "related": []
     },
     {
@@ -1380,37 +1807,7 @@
       "clusterId": "7a56314d32646e61a617",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 4.85634
-    },
-    {
-      "id": "e872c1666b4b6ef34e4a02fa",
-      "title": "Delhi Cop Suspended After Cancelling Wedding Over Rs 13-Lakh Car",
-      "translatedTitle": null,
-      "description": "The marriage was scheduled to take place on November 20.",
-      "url": "https://www.ndtv.com/india-news/delhi-cop-suspended-after-cancelling-wedding-over-rs-13-lakh-car-12368044",
-      "canonicalUrl": "https://ndtv.com/india-news/delhi-cop-suspended-after-cancelling-wedding-over-rs-13-lakh-car-12368044",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T18:54:22Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/sqopu7sk_delhi-cop-dowry_625x300_22_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T00:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "45ce978b06c9b2f68093",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.85491,
+      "rankingScore": 4.48665,
       "related": []
     },
     {
@@ -1440,97 +1837,7 @@
       "clusterId": "fae9840b61189620e654",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.85113,
-      "related": []
-    },
-    {
-      "id": "1651a0f2f8b5ca3c0a16a892",
-      "title": "Pregnant Woman Killed After Manipur Ambulance Collides With Pick-Up Truck",
-      "translatedTitle": null,
-      "description": "The four injured BSF personnel were evacuated from the site for medical treatment.",
-      "url": "https://www.ndtv.com/india-news/pregnant-woman-killed-after-manipur-ambulance-collides-with-pick-up-truck-12368034",
-      "canonicalUrl": "https://ndtv.com/india-news/pregnant-woman-killed-after-manipur-ambulance-collides-with-pick-up-truck-12368034",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T18:48:36Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/3lfa7ca4_accident_625x300_24_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T00:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1a05e57e27b85b3dfc24",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.84796,
-      "related": []
-    },
-    {
-      "id": "db7f98cd1e92e075b04910e5",
-      "title": "2 Lionesses Run Over By Passenger Train In Gujarat's Rajkot District",
-      "translatedTitle": null,
-      "description": "Senior officials the Rajkot and Amreli forest departments rushed to the spot after the accident",
-      "url": "https://www.ndtv.com/india-news/2-lionesses-run-over-by-passenger-train-in-gujarats-rajkot-district-12368023",
-      "canonicalUrl": "https://ndtv.com/india-news/2-lionesses-run-over-by-passenger-train-in-gujarats-rajkot-district-12368023",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T18:39:02Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/clehc3p8_lioness-killed-in-gujarat_625x300_24_November_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T00:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d5a6b5c284c325364d46",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.83652,
-      "related": []
-    },
-    {
-      "id": "3f4aeb07f5f71257ede24425",
-      "title": "NCP Leader's Son Detained After Crash Kills Two In Maharashtra",
-      "translatedTitle": null,
-      "description": "Patil allegedly fled the scene after the collision but was arrested later.",
-      "url": "https://www.ndtv.com/india-news/ncp-leaders-son-detained-after-crash-kills-two-in-maharashtra-12368019",
-      "canonicalUrl": "https://ndtv.com/india-news/ncp-leaders-son-detained-after-crash-kills-two-in-maharashtra-12368019",
-      "sourceName": "NDTV",
-      "sourceDomain": "ndtv.com",
-      "sourceCountry": "IN",
-      "editionCountry": "IN",
-      "coverageCountries": [
-        "IN"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-23T18:34:59Z",
-      "imageUrl": "https://c.ndtvimg.com/2026-11/k4cfpdi4_padmasinh-patil_625x300_24_November_26.jpeg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-24T00:18:12Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "330f8576620120d71c9b",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 4.8317,
+      "rankingScore": 4.29612,
       "related": []
     },
     {
@@ -1560,7 +1867,7 @@
       "clusterId": "9c11a951a829896a04a3",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.7882,
+      "rankingScore": 4.24572,
       "related": []
     },
     {
@@ -1590,7 +1897,7 @@
       "clusterId": "f5db60ad5631e8b9d64e",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 4.78039,
+      "rankingScore": 4.23947,
       "related": []
     }
   ]
