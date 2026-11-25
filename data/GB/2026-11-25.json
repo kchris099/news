@@ -4,22 +4,22 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T00:18:23Z",
-  "lastAttemptAt": "2026-11-25T00:18:23Z",
-  "lastSuccessfulUpdate": "2026-11-25T00:18:23Z",
-  "status": "partial",
+  "generatedAt": "2026-11-25T04:18:21Z",
+  "lastAttemptAt": "2026-11-25T04:18:21Z",
+  "lastSuccessfulUpdate": "2026-11-25T04:18:21Z",
+  "status": "current",
   "samplePreview": false,
-  "articleCount": 7,
-  "publisherCount": 2,
+  "articleCount": 45,
+  "publisherCount": 4,
   "sourceHealth": [
     {
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-25T00:18:22Z",
-      "lastSuccessAt": "2026-11-25T00:18:22Z",
-      "articlesRetrieved": 30,
-      "responseTimeMs": 600,
+      "lastAttemptAt": "2026-11-25T04:18:20Z",
+      "lastSuccessAt": "2026-11-25T04:18:20Z",
+      "articlesRetrieved": 32,
+      "responseTimeMs": 264,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-25T00:18:22Z",
-      "lastSuccessAt": "2026-11-25T00:18:22Z",
-      "articlesRetrieved": 138,
-      "responseTimeMs": 411,
+      "lastAttemptAt": "2026-11-25T04:18:20Z",
+      "lastSuccessAt": "2026-11-25T04:18:21Z",
+      "articlesRetrieved": 139,
+      "responseTimeMs": 296,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,23 +38,23 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-25T00:18:22Z",
-      "lastSuccessAt": "2026-11-25T00:18:22Z",
-      "articlesRetrieved": 9,
-      "responseTimeMs": 643,
+      "lastAttemptAt": "2026-11-25T04:18:20Z",
+      "lastSuccessAt": "2026-11-25T04:18:21Z",
+      "articlesRetrieved": 8,
+      "responseTimeMs": 491,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "failed",
-      "lastAttemptAt": "2026-11-25T00:18:22Z",
-      "lastSuccessAt": null,
-      "articlesRetrieved": 0,
-      "responseTimeMs": null,
-      "errorType": "RuntimeError",
-      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      "status": "success",
+      "lastAttemptAt": "2026-11-25T04:18:20Z",
+      "lastSuccessAt": "2026-11-25T04:18:21Z",
+      "articlesRetrieved": 100,
+      "responseTimeMs": 413,
+      "errorType": null,
+      "errorMessage": null
     }
   ],
   "articles": [
@@ -82,15 +82,46 @@
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "411d193858d510cbae4d",
+      "clusterId": "f73465d529b19be9be28",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.87683
+      "rankingScore": 9.75111,
+      "related": [
+        {
+          "id": "06d3d9631f41a9468b7d082d",
+          "title": "Trump to pardon Jensen Huang? He’s already mulled it over",
+          "translatedTitle": null,
+          "description": "Lawmakers on Capitol Hill are livid and have concerns over national security and potential export control violations",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-jensen-huang-nvidia-congress-b3091074.html",
+          "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-jensen-huang-nvidia-congress-b3091074.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-25T00:02:52Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/24/04/2026-11-24T014215Z_1277962467_RC27ZNA9W5NV_RTRMADP_3_NVIDIA-CEO-RETURN.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-25T04:18:21Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "f73465d529b19be9be28",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "trump to pardon jensen huang he s already mulled it over"
+        }
+      ]
     },
     {
-      "id": "f11a41e47e26edf8486b7ed2",
-      "title": "Thomas Markle indicted by federal grand jury in US for possessing child sex abuse images",
+      "id": "878ebb72ecc3d968e4816620",
+      "title": "Thomas Markle indicted in US for possessing child sex abuse images",
       "translatedTitle": null,
       "description": "The FBI arrested Markle on 6 November after a search of a storage unit he had allegedly rented in Los Angeles uncovered the abuse material.",
       "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
@@ -103,20 +134,411 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-25T00:11:39Z",
+      "publishedAt": "2026-11-25T01:40:42Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a486/live/58170a20-e862-11f1-a094-5fdc692f3e33.png",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-25T00:18:22Z",
+      "retrievedAt": "2026-11-25T04:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "be97a29a14e51f9e9e09",
+      "clusterId": "ec265120301f2d70c0ba",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "f8f17e0ecc46feeec54c5dd6",
+          "title": "A federal grand jury indicts Thomas Markle on child sex abuse material charges",
+          "translatedTitle": null,
+          "description": "A federal grand jury in Los Angeles has indicted Thomas Wayne Markle, the estranged father of Meghan, the Duchess of Sussex, on charges of possessing child sexual abuse material",
+          "url": "https://www.independent.co.uk/news/world/americas/philippines-los-angeles-meghan-sussex-florida-b3091078.html",
+          "canonicalUrl": "https://independent.co.uk/news/world/americas/philippines-los-angeles-meghan-sussex-florida-b3091078.html",
+          "sourceName": "The Independent",
+          "sourceDomain": "independent.co.uk",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-25T00:01:11Z",
+          "imageUrl": "https://static.independent.co.uk/2026/11/25/00/US_Britain_Meghan_Father_77_69.jpg?width=1200&auto=webp&crop=3%3A2",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-25T04:18:21Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "ec265120301f2d70c0ba",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.0,
+          "normalizedTitle": "a federal grand jury indicts thomas markle on child sex abuse material charges"
+        }
+      ],
+      "rankingScore": 8.56118
+    },
+    {
+      "id": "e8f19450903591d5865935b8",
+      "title": "Kilmar Ábrego García leaving US for Spain, ending Trump deportation battle",
+      "translatedTitle": null,
+      "description": "His deportation to El Salvador and return to the US became a flash point in the debate over President Donald Trump's immigration agenda.",
+      "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6808pyy5dl9o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T03:54:43Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c4a/live/dcbcfdf0-e85a-11f1-9b85-e50d1e9de678.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "05941e41192b2fee2b22",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.44632
+      "rankingScore": 7.41235
+    },
+    {
+      "id": "848dac6dc4bb43e4a811ee71",
+      "title": "China investigates top politburo member Chen Jining in latest purge by Xi Jinping",
+      "translatedTitle": null,
+      "description": "Politburo member is latest senior official targeted in president Xi Jinping’s long-running anti-corruption campaign",
+      "url": "https://www.independent.co.uk/asia/china/china-politburo-xi-jinping-chen-jining-corruption-b3091110.html",
+      "canonicalUrl": "https://independent.co.uk/asia/china/china-politburo-xi-jinping-chen-jining-corruption-b3091110.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T04:13:41Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/25/04/2026-11-25T022954Z_999869172_RC2JXJATH53U_RTRMADP_3_CHINA-POLITICS.JPG?width=1200&auto=webp&trim=0%2C4%2C0%2C4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2d50447c6470a26aea8e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.18049
+    },
+    {
+      "id": "db064b635fa5988c64ce8392",
+      "title": "Colombia’s president arrives at scene of supermarket hostage siege in tourist city",
+      "translatedTitle": null,
+      "description": "Abelardo de la Espriella to take control of an operation involving scores of security personnel trying to free at least 20 hostages Colombia’s president has arrived at the scene of an hours-long standoff between security services and gunmen holding at least 20 people hostage inside a supermarket in Cartagena, a popular tourist city. Abelardo de la Espriella’s motorcade arrived in Cartagena on Tuesday night, Agence France-Presse reported, where he will ostensibly take control of a operation invol",
+      "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+      "canonicalUrl": "https://theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T03:57:11Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/f8a8fb8355ddb1ecdb881d8269bc5511bc8d29a1/501_0_4354_3482/master/4354.jpg?width=140&quality=85&auto=format&fit=max&s=dda521c7fce25858e4b1ae7552a3546b",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "dbf99bf674bc713e2a7a",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.14728
+    },
+    {
+      "id": "3090e4e6d0eed55dc56d8047",
+      "title": "Why are people captivated by this photo of Chris Bowen scowling? Is it the negative space?",
+      "translatedTitle": null,
+      "description": "Australia’s climate change minister was president of negotiations at Cop31 in Turkey when it all went a bit sideways Blake, I was at the back of the huge plenary hall in Antalya on Sunday at the end of the UN climate summit that overran by two days. For about 20 minutes, you could see from the panic on the stage that it wasn’t going well. I only had an old iPhone, was a long way back, and remember thinking: “I’d love a long lens to see the expression on their faces.” Then came this incredible pi",
+      "url": "https://www.theguardian.com/culture/2026/nov/25/chris-bowen-cop31-deal-failure-photograph",
+      "canonicalUrl": "https://theguardian.com/culture/2026/nov/25/chris-bowen-cop31-deal-failure-photograph",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:40:13Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/eb98149e4b69f5d522cf37553152db3cb181029c/98_0_2620_2096/master/2620.jpg?width=140&quality=85&auto=format&fit=max&s=5eef7bf29a328d22d5d25662613df126",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f6521a11d3e40893befe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.13763
+    },
+    {
+      "id": "45331bc215a9d27c1de30e56",
+      "title": "Anthony Zurcher: Trump's Nvidia intervention ties his political fortunes to the AI boom",
+      "translatedTitle": null,
+      "description": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
+      "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/ckj05m2zdyryo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:03:05Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e638/live/844e1780-e864-11f1-99a1-253766e7ad8b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c56879cf30290d95e55c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.0961
+    },
+    {
+      "id": "c9f4b79a8b64c61233ade611",
+      "title": "The rising cost of putting food on the table in India",
+      "translatedTitle": null,
+      "description": "India's food inflation is broadening, squeezing household budgets.",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmy0xj41kl50o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:02:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e93a/live/237a32d0-e7d4-11f1-939f-471cde339c0e.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8db068e7dc47d102fe2b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.09462
+    },
+    {
+      "id": "5ac00e3b6f61120863f69475",
+      "title": "Shot in the face at 15: The lives shattered by Cameroon's decade of conflict",
+      "translatedTitle": null,
+      "description": "More than half a million people have fled their homes since separatist groups demanded independence for Cameroon's English-speaking regions.",
+      "url": "https://www.bbc.co.uk/news/articles/crd6128y1qn1o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/crd6128y1qn1o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:00:36Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7dac/live/653c0750-e7d1-11f1-83ab-9953b30aab1f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c985a83e822c1001e9be",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.09188
+    },
+    {
+      "id": "2faa3b241bcc6525e5aa4f7f",
+      "title": "Clashing political visions reflect a divided Spain ahead of election",
+      "translatedTitle": null,
+      "description": "Sunday’s election could see a far-right party enter the Spanish government for first time.",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cq5y1212y4pwo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:58:34Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cda/live/86305ac0-e811-11f1-ab42-55d8d8278025.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "350b469820fd4673f148",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.08843
+    },
+    {
+      "id": "818cc30c47f042061f3fe37e",
+      "title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
+      "translatedTitle": null,
+      "description": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmx27g533zwyo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:56:51Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e47/live/6a03aa70-e832-11f1-917e-35f1674fb52c.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a599f5d27e74870c5c5f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.08553
+    },
+    {
+      "id": "5175fb9bb404e3d2ef0dcc75",
+      "title": "My family died in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+      "translatedTitle": null,
+      "description": "BBC journalist Anastasiya Gribanova investigates who killed her father and grandparents in the war.",
+      "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cw24e17v9e51o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:54:13Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/849c/live/4d5b1c90-e815-11f1-a094-5fdc692f3e33.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e19bcfe012f0c2b6b4f3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.08109
+    },
+    {
+      "id": "092daecd65da96a9b38aaf07",
+      "title": "Forget Paris – if you love wine, you’ll love this affordable European capital",
+      "translatedTitle": null,
+      "description": "In Tbilisi, Katie Mather finds a warm welcome in a capital with vibrant nightlife and an impressive art scene",
+      "url": "https://www.independent.co.uk/travel/europe/georgia/georgia-tbilisi-affordable-wine-city-break-autumn-b3089802.html",
+      "canonicalUrl": "https://independent.co.uk/travel/europe/georgia/georgia-tbilisi-affordable-wine-city-break-autumn-b3089802.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T04:00:00Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/23/14/49/Tbilisi-Georgia-at-sunset.jpg?width=1200&auto=webp&trim=0%2C1%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ae690294fd6ad4c14225",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.06291
+    },
+    {
+      "id": "f48f99e0b7c486c2ebd3603c",
+      "title": "US preparing to unveil plan for new tariffs on global trading partners",
+      "translatedTitle": null,
+      "description": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c893r9ke5p97o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:38:01Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1ffd84bd53116c955658",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 7.05397
     },
     {
       "id": "1485433eea3f0b6416c6aeba",
@@ -133,12 +555,12 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-25T00:03:37Z",
+      "publishedAt": "2026-11-25T00:29:58Z",
       "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ca0/live/03fac650-e7fb-11f1-ab60-79086b6495b8.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-25T00:18:22Z",
+      "retrievedAt": "2026-11-25T04:18:20Z",
       "dataSources": [
         "publisher-rss"
       ],
@@ -146,7 +568,697 @@
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 7.43012
+      "rankingScore": 7.04065
+    },
+    {
+      "id": "f9f7c5d5ad5a63f7934964e7",
+      "title": "Ukraine-Russia war latest: Putin vows retaliation as Ukrainian attacks on oil plants continue despite Trump requests",
+      "translatedTitle": null,
+      "description": "Ukraine’s foreign minister said if Putin did not like the attacks he could ‘order an end to the war’",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-nato-estonia-warship-casualties-map-b3090337.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/europe/ukraine-russia-war-live-nato-estonia-warship-casualties-map-b3090337.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T02:41:54Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/24/21/01M87EPT2XY73STFHD4P06RCHD.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c8b4d5fb806a1eec51ac",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.91202
+    },
+    {
+      "id": "54d6bbbd5b981e2be7131ea8",
+      "title": "New maps issued hours before Iowa detonation show toxic cloud to spread to second state",
+      "translatedTitle": null,
+      "description": "Federal officials have warned pregnant women and children to evacuate the area amid fears of lead exposure",
+      "url": "https://www.independent.co.uk/news/world/americas/iowa-missouri-detonation-maps-b3091075.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/iowa-missouri-detonation-maps-b3091075.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:27:23Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/24/23/25/original-(1).jpg?width=1200&auto=webp&trim=19%2C122%2C176%2C358",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b3269fc9beffdf5938f0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.77788
+    },
+    {
+      "id": "50fbb83e249e513b0bdc1f72",
+      "title": "Met Police is still institutionally racist, misogynistic and homophobic, report finds",
+      "translatedTitle": null,
+      "description": "The Fairfield Review calls for the Met to be braver in acknowledging systemic racism, warning ‘if it cannot name it, it cannot face it’",
+      "url": "https://www.independent.co.uk/news/uk/crime/met-police-fairfield-review-racism-homophobia-sexism-mark-rowley-b3090699.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/crime/met-police-fairfield-review-racism-homophobia-sexism-mark-rowley-b3090699.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:02:23Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/24/14/01M86R6CA5BW7EYFC22QC71041.jpg?width=1200&auto=webp&trim=84%2C0%2C84%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a878acd3b85348cf15e1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.63575
+    },
+    {
+      "id": "2c4137d90d01d9aa04cbf3b8",
+      "title": "Baby carrier warning issued after death of six-week-old boy",
+      "translatedTitle": null,
+      "description": "The new guidance is considered the first significant change in baby-wearing advice in 16 years",
+      "url": "https://www.independent.co.uk/news/uk/home-news/baby-carrier-sling-newborn-advice-b3090766.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/baby-carrier-sling-newborn-advice-b3090766.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:01:30Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/24/15/01M86FNGSCQ7GC2CYNPXYE6MER.jpg?width=1200&auto=webp&trim=71%2C0%2C729%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c0a583f698d2f7fe2c0f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.63433
+    },
+    {
+      "id": "99df97700058c62486898270",
+      "title": "MoD offers ‘limited assurance’ over full delivery of Defence Investment Plan, watchdog warns",
+      "translatedTitle": null,
+      "description": "The NAO said that while the MoD believed the first four years of the plan were affordable, the conflict in the Middle East had already pushed up costs by £1 billion in 2026/27",
+      "url": "https://www.independent.co.uk/news/uk/politics/mod-defence-investment-plan-spending-b3090787.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/politics/mod-defence-investment-plan-spending-b3090787.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:01:00Z",
+      "imageUrl": "https://static.independent.co.uk/2026/08/10/08/2283854048..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f6eaf642f2fea4cead87",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 6.63353
+    },
+    {
+      "id": "0fb9c8d24213caea25937d62",
+      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+      "translatedTitle": null,
+      "description": "The verdict follows a months-long trial in New York.",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmy49ngydqzpo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T02:59:27Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ad3fe1613b02ecc20447",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.95498
+    },
+    {
+      "id": "07ceed02654175517e31a0e4",
+      "title": "Lies, a disguise and surfboard bags: how a jealous Sydney policeman tried to cover up double murder",
+      "translatedTitle": null,
+      "description": "Beau Lamarre was on Wednesday found guilty of murdering his ex Jesse Baird, and Baird's new partner Luke Davies.",
+      "url": "https://www.bbc.co.uk/news/articles/cmrrg749d02do?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmrrg749d02do?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:51:43Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92ff/live/1284fd50-e871-11f1-99a1-253766e7ad8b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "60c02d758a265053620f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.83067
+    },
+    {
+      "id": "054ccdfeda830744e078ea59",
+      "title": "Ministers ask public for views on changing age of consent",
+      "translatedTitle": null,
+      "description": "Some campaigners have argued that different limits should apply, depending on the age gap between the people involved.",
+      "url": "https://www.bbc.co.uk/news/articles/cwgkl31kmnddo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cwgkl31kmnddo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:38:39Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ec8/live/48a72fa0-e850-11f1-aa88-031e8213533d.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "77eb897df08bb6de9d0d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80757
+    },
+    {
+      "id": "fe76b5824d0926a096993a40",
+      "title": "Misperceptions on immigration 'widespread' among public",
+      "translatedTitle": null,
+      "description": "There is a widespread lack of knowledge of the actual level, scale and nature of immigration to the UK, according to a new study.",
+      "url": "https://news.sky.com/story/misperceptions-on-immigration-widespread-among-public-13616005",
+      "canonicalUrl": "https://news.sky.com/story/misperceptions-on-immigration-widespread-among-public-13616005",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T04:00:00Z",
+      "imageUrl": "https://e3.365dm.com/26/09/1920x1080/skynews-dinghy-hardelot-france_7359291.jpg?20260923115537",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d9fdf8ebd907ae974541",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80291
+    },
+    {
+      "id": "d9526c2ba25525dd9bc9a918",
+      "title": "UK papers: PIP benefits 'not fit for purpose' and Royal 'security scare'",
+      "translatedTitle": null,
+      "description": "Many of the papers are leading on the findings of a government-commissioned review into personal independence payment.",
+      "url": "https://www.bbc.co.uk/news/articles/crq5v3g5jq13o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/crq5v3g5jq13o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:34:53Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec96/live/c579b590-e858-11f1-9b85-e50d1e9de678.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7cf65c9b5cc097cb35be",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.80096
+    },
+    {
+      "id": "742a02d49610774393c3880e",
+      "title": "Will there be a White Christmas this year?",
+      "translatedTitle": null,
+      "description": "It is just a month until the big day but what do the early signs say about the chances of a white Christmas in the UK?",
+      "url": "https://www.bbc.co.uk/weather/articles/ckdd16vdplpeo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/weather/articles/ckdd16vdplpeo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:03:24Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed6d/live/7d7bb080-e764-11f1-b407-33329b1ec67a.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "5017f4d7933718e42895",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.74664
+    },
+    {
+      "id": "55ab807412a3d619da988f33",
+      "title": "Dancing with the Stars finale LIVE: Season 35 winners revealed after shocking live moment",
+      "translatedTitle": null,
+      "description": "Season 35 champions have been crowned after an incredible live finale",
+      "url": "https://www.independent.co.uk/arts-entertainment/tv/news/dancing-with-the-stars-finale-live-b3090994.html",
+      "canonicalUrl": "https://independent.co.uk/arts-entertainment/tv/news/dancing-with-the-stars-finale-live-b3090994.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T04:08:27Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/25/4/22/183941_EM100461.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7a0403d9ea64a44b6e63",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.7299
+    },
+    {
+      "id": "e4c07ed27886b9506cba35fe",
+      "title": "Asian stocks mostly decline as AI shares fall following a retreat on Wall Street",
+      "translatedTitle": null,
+      "description": "Asian stocks are mostly lower after heavy selling of stocks linked to artificial intelligence once again hit Wall Street",
+      "url": "https://www.independent.co.uk/news/nvidia-donald-trump-hang-seng-asian-hong-kong-b3091108.html",
+      "canonicalUrl": "https://independent.co.uk/news/nvidia-donald-trump-hang-seng-asian-hong-kong-b3091108.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T04:05:27Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/24/15/APTOPIX_Japan_Financial_Markets__6327.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Business",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a03ba6b5de89040c4245",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.72385
+    },
+    {
+      "id": "3c02e7f1f758418d231cc67d",
+      "title": "Why tiny cars are taking off across Europe",
+      "translatedTitle": null,
+      "description": "Once seen as a car for elderly, rural people, tiny cars are being embraced by a younger demographic.",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmwy9jne0g7qo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:34:05Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2edb/live/5d054030-ddcf-11f1-b441-2b33b063138f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "01119d93a479aa3b9c02",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69745
+    },
+    {
+      "id": "551127a22cc568d205aeac71",
+      "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
+      "translatedTitle": null,
+      "description": "The BBC speaks to three people about steps they take to keep their energy bills under control.",
+      "url": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c820qnznkrn4o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:30:52Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a8e/live/565f9af0-e806-11f1-a094-5fdc692f3e33.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:20Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "895f7a501a79125e80fc",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.69214
+    },
+    {
+      "id": "7cdc23983db4a24871defe6b",
+      "title": "Why Australia’s security pact with Solomon Islands is such a big blow to China",
+      "translatedTitle": null,
+      "description": "The deal will see Australia take a greater role in Solomon Islands' police and border force",
+      "url": "https://www.independent.co.uk/news/world/australasia/australia-solomon-islands-china-security-pact-b3091105.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/australasia/australia-solomon-islands-china-security-pact-b3091105.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T03:47:13Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/25/03/download..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "54e050e0115cd0e5814b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.68746
+    },
+    {
+      "id": "c921c4b326294d1252fbec71",
+      "title": "North Korea declares a Swiss diplomat persona non grata and orders him to leave",
+      "translatedTitle": null,
+      "description": "North Korea has declared a senior Swiss diplomat heading the country’s newly opened diplomatic office in Pyongyang persona non grata and ordered him to leave the country",
+      "url": "https://www.independent.co.uk/news/swiss-seoul-south-korea-north-korea-pyongyang-b3091103.html",
+      "canonicalUrl": "https://independent.co.uk/news/swiss-seoul-south-korea-north-korea-pyongyang-b3091103.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T03:36:49Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/24/07/North_Korea_Switzerland__3977.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3479137ff30e54b34eca",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.66697
+    },
+    {
+      "id": "14102958f56d13e374e271c9",
+      "title": "Sandpapergate: the six burning questions still to be answered | Martin Pegan",
+      "translatedTitle": null,
+      "description": "Most of those involved in the fateful tour to South Africa have spoken up with their version of events but not every detail has been revealed A petty cricketing crime, a clumsy cover-up, a hurried investigation and what are now widely considered to be heavy penalties for the main protagonists would not usually be the foundations for a timeless tale. Yet in the eight years since Cameron Bancroft was filmed with a piece of sandpaper in his hand on a cricket field in Cape Town, Australia’s ball tam",
+      "url": "https://www.theguardian.com/sport/2026/nov/25/sandpapergate-six-burning-questions-unanswered",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/25/sandpapergate-six-burning-questions-unanswered",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T02:37:22Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/cc3a30dd7b1b585e0e2405431c69f72e41335cfe/267_0_3714_2970/master/3714.jpg?width=140&quality=85&auto=format&fit=max&s=b160daecb3026ecb9939f1f2e3c875ca",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "697dcae403c84cce9b6d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.64359
+    },
+    {
+      "id": "341e957f406be2d7532831fb",
+      "title": "China hails ‘complete success’ in historic space launch carrying Pakistani astronaut",
+      "translatedTitle": null,
+      "description": "Spacecraft will dock with the Tiangong space station this morning after successful lift-off from base in northwestern China",
+      "url": "https://www.independent.co.uk/space/china-space-station-pakistani-astronaut-launch-b3091097.html",
+      "canonicalUrl": "https://independent.co.uk/space/china-space-station-pakistani-astronaut-launch-b3091097.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T02:58:09Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/25/02/2026-11-25T012833Z_1635552843_RC2OUOAYS56O_RTRMADP_3_SPACE-EXPLORATION-CHINA-SHENZHOU.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Science & Health",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "3516e013f735ca57c017",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.59252
+    },
+    {
+      "id": "a27450ffeed449df576922c9",
+      "title": "Martha Ford, former Lions owner with link to auto giants, dies at 101",
+      "translatedTitle": null,
+      "description": "Former Detroit Lions owner Martha Firestone Ford has died",
+      "url": "https://www.independent.co.uk/news/world/americas/detroit-lions-henry-ford-nfl-thomas-edison-michigan-b3091100.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/detroit-lions-henry-ford-nfl-thomas-edison-michigan-b3091100.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T02:53:06Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/25/02/Martha_Firestone_Ford_37123.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b3d5587fda79f8601983",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.58299
+    },
+    {
+      "id": "ba1431c7f635908cb65f908d",
+      "title": "Middle-aged women in England least likely to successfully quit smoking, study finds",
+      "translatedTitle": null,
+      "description": "Of nearly 8,000 women who tried to stop, only 18% of those aged 45 to 60 managed to give up Middle-aged women in England are the least likely to successfully give up smoking, according to research. Smoking is the leading cause of preventable death and illness in the UK. While overall smoking rates in England have declined in recent decades, rates in some regions have increased. About 6.75 million people smoke in England, of whom around 14% are women aged 45-60. Continue reading...",
+      "url": "https://www.theguardian.com/society/2026/nov/25/middle-aged-women-quit-smoking-england-study",
+      "canonicalUrl": "https://theguardian.com/society/2026/nov/25/middle-aged-women-quit-smoking-england-study",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ba552a1b57408ce45632af7702e5886772f0e0fb/354_0_2504_2004/master/2504.jpg?width=140&quality=85&auto=format&fit=max&s=610676c92f7ab90919ef3d20aab6b8c2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cf5b79d22ce2b88dc341",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.47089
+    },
+    {
+      "id": "a8ce2731a9dcb457634696f1",
+      "title": "Coffee shop staff revolt and location is ‘permanently closed’ after accusations of ICE agent’s ownership",
+      "translatedTitle": null,
+      "description": "Tasa Coffee Roasters in the Humboldt Park neighborhood of Chicago has faced backlash from workers, customers and local politicians over its alleged ties to Immigration and Customs Enforcement",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/coffee-shop-chicago-ice-owner-b3091056.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/coffee-shop-chicago-ice-owner-b3091056.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:23:18Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/24/22/50/Screenshot-2026-11-24-at-5-41-59-PM.jpg?width=1200&auto=webp&trim=0%2C92%2C1%2C13",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "9ee893e1b1dbc8d2f3d2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.42079
+    },
+    {
+      "id": "7ab5c2d03188f5229b9a4d54",
+      "title": "A year after Hong Kong's deadly fire, survivors struggle with loss and lingering sense of injustice",
+      "translatedTitle": null,
+      "description": "Yip Ka-kui continues to send voice messages to his late wife, who was among 168 people killed in Hong Kong’s deadliest fire last November",
+      "url": "https://www.independent.co.uk/news/hong-kong-john-lee-b3091091.html",
+      "canonicalUrl": "https://independent.co.uk/news/hong-kong-john-lee-b3091091.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:00:07Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/25/01/Hong_Kong_Fire_Survivors__9378.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "1b06eb35b2a54fcd2e6b",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.38106
     },
     {
       "id": "8613104d3e7620ef3b6f64b3",
@@ -168,15 +1280,15 @@
       "imageAlt": null,
       "category": "Culture",
       "topics": [],
-      "retrievedAt": "2026-11-25T00:18:22Z",
+      "retrievedAt": "2026-11-25T04:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "987ef03d33faf58952a5",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.1549
+      "rankingScore": 5.37355,
+      "related": []
     },
     {
       "id": "bb9419146337bc3daa1048a7",
@@ -198,15 +1310,105 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-25T00:18:22Z",
+      "retrievedAt": "2026-11-25T04:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "450134c939ed2ba98e1e",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 5.37355,
+      "related": []
+    },
+    {
+      "id": "3cedebe780eb54720eecf8dc",
+      "title": "Coastal areas in England at risk of erosion to receive £11m in new funding",
+      "translatedTitle": null,
+      "description": "Exclusive: Laser-equipped drone surveys and road relocations among schemes to get government support Laser-equipped drone surveys, sand dune restoration and moving roads inland are among the projects that will receive government funding to help seaside communities in England adapt to rising seas and coastal erosion accelerated by climate breakdown. More than £11m will be shared between 12 council-led projects that will test ways to spot coastal change earlier and help communities plan for the ef",
+      "url": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:01:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ce04a5cb09e22f892bbbb0638df2ea14eea476ff/0_0_3840_3072/master/3840.jpg?width=140&quality=85&auto=format&fit=max&s=2d61b85839f1778efeeb8d0e40380630",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "91bf8cc49b1c625ee42c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "rankingScore": 5.37355,
+      "related": []
+    },
+    {
+      "id": "842788b8d9be3d4a75d290dd",
+      "title": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and a Pakistani astronaut",
+      "translatedTitle": null,
+      "description": "China has launched the Shenzhou 24 spacecraft with three astronauts, sending the first foreign crew member to its space station",
+      "url": "https://www.independent.co.uk/news/china-pakistani-b3091087.html",
+      "canonicalUrl": "https://independent.co.uk/news/china-pakistani-b3091087.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:34:42Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/25/00/China_Space_83744.jpg?width=1200&auto=webp&crop=3%3A2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "40602c8f955a686e0714",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.8049
+      "rankingScore": 5.33847
+    },
+    {
+      "id": "dfd5e16dac026b58dd8c3704",
+      "title": "Chicago O’Hare’s ground stop downgraded to delay stop with some flights paused",
+      "translatedTitle": null,
+      "description": "The travel disruptions arrive during a busy holiday week amid growing concern regarding recent aviation technical failures",
+      "url": "https://www.independent.co.uk/news/world/americas/chicago-ohare-ground-stop-outage-faa-b3091030.html",
+      "canonicalUrl": "https://independent.co.uk/news/world/americas/chicago-ohare-ground-stop-outage-faa-b3091030.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:24:24Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/24/21/download.-1.?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T04:18:21Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b5d89986fb3b5d791776",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.3215
     },
     {
       "id": "317ef57e8dfa046358343415",
@@ -235,38 +1437,38 @@
       "clusterId": "1308ccabc62600f36c8c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 5.8049
+      "rankingScore": 5.28355,
+      "related": []
     },
     {
-      "id": "3cedebe780eb54720eecf8dc",
-      "title": "Coastal areas in England at risk of erosion to receive £11m in new funding",
+      "id": "fe2f5dd3969b414e00101355",
+      "title": "Two-thirds of teenage girls say concerns about rape jokes are being ‘brushed off’",
       "translatedTitle": null,
-      "description": "Exclusive: Laser-equipped drone surveys and road relocations among schemes to get government support Laser-equipped drone surveys, sand dune restoration and moving roads inland are among the projects that will receive government funding to help seaside communities in England adapt to rising seas and coastal erosion accelerated by climate breakdown. More than £11m will be shared between 12 council-led projects that will test ways to spot coastal change earlier and help communities plan for the ef",
-      "url": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
-      "canonicalUrl": "https://theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
+      "description": "‘Girls are clear about what needs to change,’ Girlguiding chief executive Felicity Oswald said",
+      "url": "https://www.independent.co.uk/news/uk/home-news/teenage-girls-rape-jokes-sexism-b3090754.html",
+      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/teenage-girls-rape-jokes-sexism-b3090754.html",
+      "sourceName": "The Independent",
+      "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-25T00:01:01Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/ce04a5cb09e22f892bbbb0638df2ea14eea476ff/0_0_3840_3072/master/3840.jpg?width=140&quality=85&auto=format&fit=max&s=2d61b85839f1778efeeb8d0e40380630",
+      "publishedAt": "2026-11-25T00:01:00Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/24/15/51/iStock-1132849772.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-25T00:18:22Z",
+      "retrievedAt": "2026-11-25T04:18:21Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "91bf8cc49b1c625ee42c",
+      "clusterId": "fb5718852262249e9ca6",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 5.8049
+      "rankingScore": 5.28353
     }
   ]
 }
