@@ -4,10 +4,10 @@
   "countryName": "United Kingdom",
   "timeZone": "Europe/London",
   "date": "2026-11-25",
-  "generatedAt": "2026-11-25T08:18:09Z",
-  "lastAttemptAt": "2026-11-25T08:18:09Z",
-  "lastSuccessfulUpdate": "2026-11-25T08:18:09Z",
-  "status": "current",
+  "generatedAt": "2026-11-25T12:18:05Z",
+  "lastAttemptAt": "2026-11-25T12:18:05Z",
+  "lastSuccessfulUpdate": "2026-11-25T12:18:05Z",
+  "status": "partial",
   "samplePreview": false,
   "articleCount": 45,
   "publisherCount": 4,
@@ -16,10 +16,10 @@
       "sourceId": "bbc-news",
       "sourceName": "BBC News",
       "status": "success",
-      "lastAttemptAt": "2026-11-25T08:18:09Z",
-      "lastSuccessAt": "2026-11-25T08:18:09Z",
+      "lastAttemptAt": "2026-11-25T12:18:04Z",
+      "lastSuccessAt": "2026-11-25T12:18:05Z",
       "articlesRetrieved": 34,
-      "responseTimeMs": 344,
+      "responseTimeMs": 312,
       "errorType": null,
       "errorMessage": null
     },
@@ -27,10 +27,10 @@
       "sourceId": "guardian-uk",
       "sourceName": "The Guardian",
       "status": "success",
-      "lastAttemptAt": "2026-11-25T08:18:09Z",
-      "lastSuccessAt": "2026-11-25T08:18:09Z",
-      "articlesRetrieved": 137,
-      "responseTimeMs": 185,
+      "lastAttemptAt": "2026-11-25T12:18:04Z",
+      "lastSuccessAt": "2026-11-25T12:18:05Z",
+      "articlesRetrieved": 138,
+      "responseTimeMs": 419,
       "errorType": null,
       "errorMessage": null
     },
@@ -38,33 +38,94 @@
       "sourceId": "sky-news-home",
       "sourceName": "Sky News",
       "status": "success",
-      "lastAttemptAt": "2026-11-25T08:18:09Z",
-      "lastSuccessAt": "2026-11-25T08:18:09Z",
-      "articlesRetrieved": 8,
-      "responseTimeMs": 178,
+      "lastAttemptAt": "2026-11-25T12:18:04Z",
+      "lastSuccessAt": "2026-11-25T12:18:05Z",
+      "articlesRetrieved": 10,
+      "responseTimeMs": 412,
       "errorType": null,
       "errorMessage": null
     },
     {
       "sourceId": "independent-uk",
       "sourceName": "The Independent",
-      "status": "success",
-      "lastAttemptAt": "2026-11-25T08:18:09Z",
-      "lastSuccessAt": "2026-11-25T08:18:09Z",
-      "articlesRetrieved": 100,
-      "responseTimeMs": 310,
-      "errorType": null,
-      "errorMessage": null
+      "status": "failed",
+      "lastAttemptAt": "2026-11-25T12:18:04Z",
+      "lastSuccessAt": null,
+      "articlesRetrieved": 0,
+      "responseTimeMs": null,
+      "errorType": "RuntimeError",
+      "errorMessage": "Client error '429 ' for url 'https://www.independent.co.uk/rss' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "articles": [
     {
-      "id": "2aafb070abf55a05822c8d82",
-      "title": "Trump reportedly says he is open to pardoning Jensen Huang ahead of CEO’s planned Senate committee testimony – live",
+      "id": "fcd6016aa20f2902890a3f30",
+      "title": "Energy bills to rise by 26% from January after gas prices surge",
       "translatedTitle": null,
-      "description": "President took credit for convincing Nvidia’s board to reinstate Huang, a move that might have made Trump a personal profit of $15m in one day, as Nvidia sticks soared Sign up for the Breaking News US email Earlier we mentioned Donald Trump is participating in a Medal of Freedom ceremony in the Oval Office at 11am ET. He will be awarding the nation’s highest civilian honor to former New York mayor and Trump’s onetime personal lawyer Rudy Giuliani. Trump said last year he would award the medal to",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
-      "canonicalUrl": "https://theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
+      "description": "A household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.",
+      "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm20qnq33e90o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T11:44:26Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb60/live/6bdfdbb0-e8ba-11f1-99b6-a35a62fa4264.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f6cf334b12994bc567d0",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "d11539da4dc092374a6ec825",
+          "title": "Energy bills in Great Britain to rise 26% in January, lifting annual bills over £2,000",
+          "translatedTitle": null,
+          "description": "Ofgem’s price cap will increase for third quarter in a row after rise in wholesale cost of gas Business live – latest updates Millions of British households will face annual energy bills of more than £2,000 a year for the first time since Russia’s invasion of Ukraine, as the cap on energy bills climbs for a third straight quarter. Gas and electricity prices will rise by 26% from January under the government’s new price cap after an increase in wholesale prices not experienced since the first win",
+          "url": "https://www.theguardian.com/money/2026/nov/25/energy-bills-in-great-britain-to-rise-ofgem-price-cap",
+          "canonicalUrl": "https://theguardian.com/money/2026/nov/25/energy-bills-in-great-britain-to-rise-ofgem-price-cap",
+          "sourceName": "The Guardian",
+          "sourceDomain": "theguardian.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-25T07:03:21Z",
+          "imageUrl": "https://i.guim.co.uk/img/media/c6816fd3c2d5d5d27c4940d2b5b61c98bdaff65c/468_240_3034_2428/master/3034.jpg?width=140&quality=85&auto=format&fit=max&s=0b3618d695e4bbfc4e04f5e0c46bb6d7",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-25T12:18:05Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "f6cf334b12994bc567d0",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "energy bills in great britain to rise 26 in january lifting annual bills over 2 000"
+        }
+      ],
+      "rankingScore": 9.14238
+    },
+    {
+      "id": "22c61ccd1e2271354202f0ef",
+      "title": "Trump says pardon for Nvidia boss Huang ‘always an option’ after accusations of breaking export laws – US politics live",
+      "translatedTitle": null,
+      "description": "The US president urged the tech leader to ‘tell the truth’ in upcoming testimony in a Senate hearing Sign up for the Breaking News US email to get newsletter alerts in your inbox A group of more than 120 climate scientists have urged US lawmakers to not pass contentious legislation to speed up the building of energy projects, datacenters and other infrastructure, amid a growing backlash to the sweeping permitting bill. In an open letter to members of the House of Representatives, the collection",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates",
+      "canonicalUrl": "https://theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -73,19 +134,18 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-25T00:11:54Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/e2c9048100ac242224ecaab5ab387f0209b9e078/0_0_2055_1645/master/2055.jpg?width=140&quality=85&auto=format&fit=max&s=7c96fe8d3625bd5fec8cc0800c0e380c",
+      "publishedAt": "2026-11-25T12:00:31Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b81ae5a9f6ca550652434eefe1adae4209abd469/181_0_3334_2668/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=34726bbffd4777a0dcfd19f1ba78c125",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-25T00:18:22Z",
+      "retrievedAt": "2026-11-25T12:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f73465d529b19be9be28",
+      "clusterId": "5af66e9b41084edca11c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 9.40239,
       "related": [
         {
           "id": "06d3d9631f41a9468b7d082d",
@@ -111,13 +171,105 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "f73465d529b19be9be28",
+          "clusterId": "5af66e9b41084edca11c",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
           "normalizedTitle": "trump to pardon jensen huang he s already mulled it over"
         }
-      ]
+      ],
+      "rankingScore": 8.55438
+    },
+    {
+      "id": "5e63b22ae2264ff6f433a966",
+      "title": "‘I said no thanks to the casting couch. But other actresses had problems’: Jane Alexander on 50 years of stardom",
+      "translatedTitle": null,
+      "description": "The Great White Hope, All the President’s Men, Kramer vs Kramer … Alexander has a CV most actors can only dream of. She talks us through the highs and lows – including a ‘beautiful’ encounter with Muhammad Ali Jane Alexander will never forget the play that won her a Tony award, a husband and her first film role. The Great White Hope, which ran on Broadway from 1968 to 1970, was based on the life of Black boxer Jack Johnson, who in 1908 became world heavyweight champion in segregated America. Ale",
+      "url": "https://www.theguardian.com/film/2026/nov/25/jane-alexander-interview",
+      "canonicalUrl": "https://theguardian.com/film/2026/nov/25/jane-alexander-interview",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T12:00:56Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b4088816a603819790802872b75796c85e02e935/2940_1550_2202_1761/master/2202.jpg?width=140&quality=85&auto=format&fit=max&s=45b2e11c3035a255d2d0030484d2addd",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d917aa585d1f997536c1",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 8.50521
+    },
+    {
+      "id": "35b737d995ec505409cf485a",
+      "title": "Raheem Sterling avoids jail over reckless driving while using nitrous oxide",
+      "translatedTitle": null,
+      "description": "He gets 12-month sentence suspended for 18 months Former England forward pleaded guilty in September Raheem Sterling has avoided jail for dangerous driving while inhaling nitrous oxide, receiving a 12-month sentence suspended for 18 months at Basingstoke magistrates court on Wednesday. The former England international was also ordered to do 100 hours of community service. His MBE and charitable and foundation work was accepted in mitigation, together with his decision to voluntarily submit to ad",
+      "url": "https://www.theguardian.com/football/2026/nov/25/raheem-sterling-avoids-jail-reckless-driving-nitrous-oxide-sentence",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/25/raheem-sterling-avoids-jail-reckless-driving-nitrous-oxide-sentence",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T11:34:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/352149c4c0e7d10afd2ec32aeed4f886c2ddeb46/94_76_1259_1007/master/1259.jpg?width=140&quality=85&auto=format&fit=max&s=3511296fdaa7e049a35b96734510ea42",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "8dfcf5b69a165e83e40d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [
+        {
+          "id": "e17439e1f53a534e92c445d9",
+          "title": "Raheem Sterling avoids jail after admitting dangerous driving in Lamborghini",
+          "translatedTitle": null,
+          "description": "Former England footballer Raheem Sterling has avoided jail after admitting to dangerous driving while inhaling from a balloon on a motorway in his Lamborghini.",
+          "url": "https://news.sky.com/story/raheem-sterling-given-suspended-sentence-for-dangerous-driving-in-lamborghini-13616319",
+          "canonicalUrl": "https://news.sky.com/story/raheem-sterling-given-suspended-sentence-for-dangerous-driving-in-lamborghini-13616319",
+          "sourceName": "Sky News",
+          "sourceDomain": "news.sky.com",
+          "sourceCountry": "GB",
+          "editionCountry": "GB",
+          "coverageCountries": [
+            "GB"
+          ],
+          "language": "en",
+          "publishedAt": "2026-11-25T09:59:00Z",
+          "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-raheem-sterling-magistrates_7415992.jpg?20261125092735",
+          "imageAlt": null,
+          "category": "Domestic",
+          "topics": [],
+          "retrievedAt": "2026-11-25T12:18:05Z",
+          "dataSources": [
+            "publisher-rss"
+          ],
+          "clusterId": "8dfcf5b69a165e83e40d",
+          "translationProvider": null,
+          "translationGeneratedAt": null,
+          "sourceQuality": 1.05,
+          "normalizedTitle": "raheem sterling avoids jail after admitting dangerous driving in lamborghini"
+        }
+      ],
+      "rankingScore": 8.50221
     },
     {
       "id": "324d7f4404f8c0f328bcc3a1",
@@ -146,69 +298,8 @@
       "clusterId": "3019682e8ef9dda7ad28",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.1841
-    },
-    {
-      "id": "afb128c030265961fd0b51ab",
-      "title": "Thomas Markle charged in US for possessing child sex abuse images",
-      "translatedTitle": null,
-      "description": "The FBI arrested Markle on 6 November after a search of a storage unit he had allegedly rented in Los Angeles uncovered the abuse material.",
-      "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/crwy4egxn592o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T01:40:42Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a486/live/58170a20-e862-11f1-a094-5fdc692f3e33.png",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a9ebb4c8a50ac38acb29",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "f8f17e0ecc46feeec54c5dd6",
-          "title": "A federal grand jury indicts Thomas Markle on child sex abuse material charges",
-          "translatedTitle": null,
-          "description": "A federal grand jury in Los Angeles has indicted Thomas Wayne Markle, the estranged father of Meghan, the Duchess of Sussex, on charges of possessing child sexual abuse material",
-          "url": "https://www.independent.co.uk/news/world/americas/philippines-los-angeles-meghan-sussex-florida-b3091078.html",
-          "canonicalUrl": "https://independent.co.uk/news/world/americas/philippines-los-angeles-meghan-sussex-florida-b3091078.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-25T00:01:11Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/25/00/US_Britain_Meghan_Father_77_69.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Domestic",
-          "topics": [],
-          "retrievedAt": "2026-11-25T08:18:09Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "a9ebb4c8a50ac38acb29",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "a federal grand jury indicts thomas markle on child sex abuse material charges"
-        }
-      ],
-      "rankingScore": 8.18257
+      "rankingScore": 7.79879,
+      "related": []
     },
     {
       "id": "e64b853138fd75ace20ee283",
@@ -237,16 +328,16 @@
       "clusterId": "51508e9e96aa50bedc46",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 8.13056
+      "rankingScore": 7.75592,
+      "related": []
     },
     {
-      "id": "94e9c1edbea2b1eb96200eaf",
-      "title": "Watch: China's Shenzhou-24 carries Pakistan's first astronaut into space",
+      "id": "46f8e68af3dac8f204f21abf",
+      "title": "Why has China sent the first Pakistani astronaut to space?",
       "translatedTitle": null,
-      "description": "China launched its Shenzhou-24 space mission to bring three astronauts to its Tiangong space station.",
-      "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/videos/cmz74l0yzzvyo?at_campaign=rss&at_medium=RSS",
+      "description": "Pakistan's Muhammad Zeeshan Ali has become the first foreign national to board China's Tiangong space station.",
+      "url": "https://www.bbc.co.uk/news/videos/cj5y1p067kxno?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/cj5y1p067kxno?at_campaign=rss&at_medium=RSS",
       "sourceName": "BBC News",
       "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
@@ -255,16 +346,16 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-25T03:28:37Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b78/live/6330c460-e889-11f1-a094-5fdc692f3e33.jpg",
+      "publishedAt": "2026-11-25T10:26:50Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fca7/live/cb5b2c20-e8c4-11f1-99a1-253766e7ad8b.jpg",
       "imageAlt": null,
       "category": "Science & Health",
       "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
+      "retrievedAt": "2026-11-25T12:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "76b730c07aeac8db035c",
+      "clusterId": "417669901bb817ad4775",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [
@@ -292,7 +383,7 @@
           "dataSources": [
             "publisher-rss"
           ],
-          "clusterId": "76b730c07aeac8db035c",
+          "clusterId": "417669901bb817ad4775",
           "translationProvider": null,
           "translationGeneratedAt": null,
           "sourceQuality": 1.0,
@@ -300,7 +391,7 @@
           "rankingScore": 5.33847
         }
       ],
-      "rankingScore": 7.34257
+      "rankingScore": 7.64454
     },
     {
       "id": "f01294489418cb15f58e303f",
@@ -329,853 +420,12 @@
       "clusterId": "0424532dbf6dbf08c820",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.09341
-    },
-    {
-      "id": "6499f6166d1d16357a18d264",
-      "title": "Spain thought it had the 2030 World Cup final. Morocco and Infantino have other plans",
-      "translatedTitle": null,
-      "description": "The contest is now tied to FIFA President Gianni Infantino's survival battle and political tensions over migration",
-      "url": "https://www.independent.co.uk/sport/football/morocco-world-cup-final-spain-infantino-2030-b3091184.html",
-      "canonicalUrl": "https://independent.co.uk/sport/football/morocco-world-cup-final-spain-infantino-2030-b3091184.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T08:13:18Z",
-      "imageUrl": "https://static.independent.co.uk/2026/07/10/12/2284360661..?width=1200&auto=webp&trim=0%2C6%2C0%2C6",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1f7c7ffca35789dbadf3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.09003
-    },
-    {
-      "id": "13eb8c63da547a3103f58f33",
-      "title": "Trump readies fresh wave of tariffs on China, the European Union and 14 other trading partners",
-      "translatedTitle": null,
-      "description": "The Trump administration is expected to soon announce plans to raise tariffs on China, the European Union and 14 other economies",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-tariffs-china-eu-trade-b3091177.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/us-politics/trump-tariffs-china-eu-trade-b3091177.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T08:01:17Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/06/12/48/GettyImages-1001877180.jpg?width=1200&auto=webp&trim=39%2C0%2C40%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "89ca7d93886ad426d0c0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.0658
-    },
-    {
-      "id": "9f7c566675de41f001266030",
-      "title": "Why I love Budapest in winter: ‘Gloomy days call for a plunge in one of the city’s ornate bathhouses’",
-      "translatedTitle": null,
-      "description": "A neighbourhood that transforms into a living advent calendar, hot chocolate beneath chandeliers and 16th-century baths – Hungary’s capital is full of winter warmth Each December, my neighbourhood on the Buda side of the Danube transforms into a living advent calendar. On the edge of District XI (Újbuda), the 1930s OTI estate in Albertfalva is known for its rustic looking single-storey houses with rounded doorways and green shutters. From 1 December, my neighbours take turns decorating their win",
-      "url": "https://www.theguardian.com/travel/2026/nov/25/why-i-love-budapest-in-winter-chrstmas-bathhouses",
-      "canonicalUrl": "https://theguardian.com/travel/2026/nov/25/why-i-love-budapest-in-winter-chrstmas-bathhouses",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T07:00:09Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/222928e5ec5498b4d4fd79364cc1eb08f4b18e0d/430_0_4265_3410/master/4265.jpg?width=140&quality=85&auto=format&fit=max&s=3d12a932a59f93ae0187336da2a4c6da",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2fd0fe5c59a0899a42ba",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 7.03661
-    },
-    {
-      "id": "6eea8eb06725727844ad7b32",
-      "title": "2 Libyan naval officers die of wounds from Ukrainian drone attack on Russian warship in Benghazi",
-      "translatedTitle": null,
-      "description": "Two Libyan naval officers have died from wounds sustained in a Ukrainian drone attack on a Russian warship in eastern Libya",
-      "url": "https://www.independent.co.uk/news/moscow-libyan-national-army-one-europe-mediterranean-b3091164.html",
-      "canonicalUrl": "https://independent.co.uk/news/moscow-libyan-national-army-one-europe-mediterranean-b3091164.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T07:21:43Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/23/10/Libya_Russia_Ukraine__7_6_.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9de1df4943a937d8f35c",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.98789
-    },
-    {
-      "id": "6016a54401870b699328fa2a",
-      "title": "Strange Missouri river fish found to live past 130 leaves scientists stumped",
-      "translatedTitle": null,
-      "description": "Many of the caught fish bear markers from nuclear bomb tests of 1950s and 60s",
-      "url": "https://www.independent.co.uk/news/science/longevity-river-fish-missouri-strange-b3091147.html",
-      "canonicalUrl": "https://independent.co.uk/news/science/longevity-river-fish-missouri-strange-b3091147.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T07:10:26Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/25/6/54/Blue-sucker-fish.jpg?width=1200&auto=webp&trim=0%2C1%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4026b069c9bcfc098a74",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.96619
-    },
-    {
-      "id": "453ad7416209dc9160fe4db4",
-      "title": "At least 26 miners feared trapped after floods hit illegal gold mine in Indonesia",
-      "translatedTitle": null,
-      "description": "Rescue teams battle heavy rain, rising water, and difficult access to reach workers trapped underground in West Java since Monday",
-      "url": "https://www.independent.co.uk/asia/southeast-asia/indonesia-gold-mine-workers-trapped-b3091128.html",
-      "canonicalUrl": "https://independent.co.uk/asia/southeast-asia/indonesia-gold-mine-workers-trapped-b3091128.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T07:01:41Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/25/05/1556665134..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "b2b5f9045bd78e14921d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.94952
-    },
-    {
-      "id": "600f3a601fd7a16aab35a65e",
-      "title": "Ukraine-Russia war latest: Putin threatens retaliation as Kyiv strikes two major oil refineries deep inside Russia",
-      "translatedTitle": null,
-      "description": "Ukraine’s foreign minister says if Putin does not like the attacks he can ‘order an end to the war’",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-oil-refineries-casualties-map-b3091150.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-oil-refineries-casualties-map-b3091150.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T07:01:09Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/25/06/2305289087..?width=1200&auto=webp&trim=4%2C0%2C4%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a234c45530926832a09d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.94851
-    },
-    {
-      "id": "84f901a7ea4cb2f1d7961041",
-      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-      "translatedTitle": null,
-      "description": "The verdict follows a months-long trial in New York.",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cmy49ngydqzpo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T02:59:27Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e4a54814d09f9c652ade",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [
-        {
-          "id": "a293e947213910cb0b6c8888",
-          "title": "Huawei guilty in US of stealing trade secrets in landmark case",
-          "translatedTitle": null,
-          "description": "Huawei lawyers say company was acquitted in more serious racketeering charge",
-          "url": "https://www.independent.co.uk/asia/china/huawei-guilty-trump-us-iran-trade-secrets-b3091109.html",
-          "canonicalUrl": "https://independent.co.uk/asia/china/huawei-guilty-trump-us-iran-trade-secrets-b3091109.html",
-          "sourceName": "The Independent",
-          "sourceDomain": "independent.co.uk",
-          "sourceCountry": "GB",
-          "editionCountry": "GB",
-          "coverageCountries": [
-            "GB"
-          ],
-          "language": "en",
-          "publishedAt": "2026-11-25T05:50:38Z",
-          "imageUrl": "https://static.independent.co.uk/2026/11/25/04/2026-11-17T190341Z_963013190_RC2NPOAE9EZY_RTRMADP_3_USA-CHINA-HUAWEI.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-          "imageAlt": null,
-          "category": "Business",
-          "topics": [],
-          "retrievedAt": "2026-11-25T08:18:09Z",
-          "dataSources": [
-            "publisher-rss"
-          ],
-          "clusterId": "e4a54814d09f9c652ade",
-          "translationProvider": null,
-          "translationGeneratedAt": null,
-          "sourceQuality": 1.0,
-          "normalizedTitle": "huawei guilty in us of stealing trade secrets in landmark case"
-        }
-      ],
-      "rankingScore": 6.94773
-    },
-    {
-      "id": "7eac9a99bdb2a05618468a21",
-      "title": "Struggling Russia to increase taxes to support Putin’s war on Ukraine",
-      "translatedTitle": null,
-      "description": "Putin has increasingly sought to squeeze tax revenue out of businesses and consumers to support his nearly five-year war in Ukraine",
-      "url": "https://www.independent.co.uk/news/world/europe/russia-tax-increases-putin-ukraine-b3091143.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/russia-tax-increases-putin-ukraine-b3091143.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T06:59:17Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/24/16/Russia_Economy__9422.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ca42fe66df191499a41d",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.94497
-    },
-    {
-      "id": "d530e7dfe4b9b6cf18199d66",
-      "title": "Burnham promises ‘truth’ on impact of nuclear testing on veterans in new report",
-      "translatedTitle": null,
-      "description": "PM said campaign is close to his heart",
-      "url": "https://www.independent.co.uk/news/uk/home-news/nuclear-weapons-james-jones-report-burnham-b3091146.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/nuclear-weapons-james-jones-report-burnham-b3091146.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T06:51:57Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/25/06/2026-11-24T223113Z_1163022671_RC2AUOAKL9ZT_RTRMADP_3_BRITAIN-POLITICS-BURNHAM.JPG?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a435fd1e21daaca3a4a3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.93113
-    },
-    {
-      "id": "2d24563cc5472d8288f7b81d",
-      "title": "‘The whole process just doesn’t work’: claimants relive the agonies of Pip assessments",
-      "translatedTitle": null,
-      "description": "Applicants recount a catalogue of problems including tedious award reviews for sufferers of severe lifelong conditions Rob Denholm clearly remembers his first personal independence payment (Pip) assessment, when he was asked more than 90 questions in 55 minutes. “You’re constantly asked the same question in a different way. I remember thinking, I must not have answered that properly, so you try and find a different way to answer. And by doing that, you’re working against yourself,” he said. “The",
-      "url": "https://www.theguardian.com/world/2026/nov/25/the-whole-process-just-doesnt-work-claimants-relive-the-xxx-of-pip-assessment",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/25/the-whole-process-just-doesnt-work-claimants-relive-the-xxx-of-pip-assessment",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T06:00:08Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/224b3311d64c75108f9a1a2c9d5d13004eac3d5f/328_0_1466_1173/master/1466.jpg?width=140&quality=85&auto=format&fit=max&s=a2134b6b5e48f0a43af9ae77dc1c7c31",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "4f28123bf1e76a4d6d83",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92598
-    },
-    {
-      "id": "77f6c74230a73aafd5fd4ebc",
-      "title": "Venison stew and cod with celeriac and lentils: Chris and Jeff Galvin’s recipes for winter warmers",
-      "translatedTitle": null,
-      "description": "These hearty and comforting dishes will keep the chill at bay It’s a big year for us: not only are we celebrating 15 years of holding a Michelin star at Galvin La Chapelle in Spitalfields, London, our country pub, Galvin Green Man near Chelmsford in Essex, has turned 10. To mark these milestones, here are two of our favourite cold-weather dishes to cook at home: a rich venison stew, slow-braised in red wine and port, and flavoured with autumnal quince and chestnuts; and a comforting plate of roa",
-      "url": "https://www.theguardian.com/food/2026/nov/25/venison-stew-cod-celeriac-lentils-recipes-chris-jeff-galvin",
-      "canonicalUrl": "https://theguardian.com/food/2026/nov/25/venison-stew-cod-celeriac-lentils-recipes-chris-jeff-galvin",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T06:00:08Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/467a2241a3d5786f486b17abf41e30bb75a7cfe7/56_3629_5191_4153/master/5191.jpg?width=140&quality=85&auto=format&fit=max&s=54e36fac16921e57a8081ff8fc46f67c",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "6e8a3825c9317e13b470",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92598
-    },
-    {
-      "id": "8ed3f63c3453c2863885a47a",
-      "title": "Ghost strikes: the new drone superpowers raining death from above",
-      "translatedTitle": null,
-      "description": "The spread of cheap drones means warfare is increasingly conducted by invisible armies at the push of a button. Victims have no warning and no chance for justice Death had come from the sky for Mohamed’s family: an execution carried out with no warning, no trial, no guilty verdict or chance for recourse. He did not even know who had carried out the killing, or under which authority – several nations have drones patrolling the skies of Somalia looking for Islamic State militants, including the US",
-      "url": "https://www.theguardian.com/global-development/ng-interactive/2026/nov/25/ghost-strikes-the-rise-of-drone-superpowers-fuelling-remote-killing-of-thousands-of-civilians-with-impunity",
-      "canonicalUrl": "https://theguardian.com/global-development/ng-interactive/2026/nov/25/ghost-strikes-the-rise-of-drone-superpowers-fuelling-remote-killing-of-thousands-of-civilians-with-impunity",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T06:00:07Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/78646f64018549efe8fdf7a8eec4b47dfb10c17a/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=3981c9eb80274c3f955fc5a69a7eea58",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9a0782660c872247ac2f",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92595
-    },
-    {
-      "id": "f4f0d57012ee237ed822fd74",
-      "title": "China-linked battery projects could receive UK funding despite security warnings",
-      "translatedTitle": null,
-      "description": "China-made lithium-ion batteries, which are relatively low-cost, dominate Ofgem project shortlist A string of battery projects linked to China are expected to be granted UK state subsidies despite deepening fears over the risk of foreign interference they could pose to Europe’s energy systems. Ofgem, Great Britain’s energy regulator, published a provisional shortlist for a new “long duration” energy storage scheme in June. The list was dominated by projects relying on lithium-ion batteries, whic",
-      "url": "https://www.theguardian.com/business/2026/nov/25/china-battery-projects-uk-funding-security-warnings",
-      "canonicalUrl": "https://theguardian.com/business/2026/nov/25/china-battery-projects-uk-funding-security-warnings",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T06:00:07Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d6d3b60ad460057409bbc390fe470277522fd6bd/560_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=d9cb9bf4f0ea3728283cdb9bb52d7759",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "70809469ce7e13f81cc2",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92595
-    },
-    {
-      "id": "db35bb5592f35504ed13bea3",
-      "title": "Post your questions for Danny Boyle",
-      "translatedTitle": null,
-      "description": "The Trainspotting, Slumdog Millionaire and 28 Days Later director is preparing to launch his biopic of Rupert Murdoch’s early years as a British tabloid mogul. In anticipation of its New Year release, the director will be taking your questions You name it, Danny Boyle has probably directed a movie about it. He’s done zombies in 28 Days Later, astronauts hurtling towards the sun in Sunshine, a man trapped under a boulder in 127 Hours, a world without the Beatles in Yesterday and junkies in Trains",
-      "url": "https://www.theguardian.com/film/2026/nov/25/post-your-questions-for-danny-boyle",
-      "canonicalUrl": "https://theguardian.com/film/2026/nov/25/post-your-questions-for-danny-boyle",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T06:00:07Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/d82e07ed99a4e6709c7980e79a10c6d4abf709cb/762_200_4081_3262/master/4081.jpg?width=140&quality=85&auto=format&fit=max&s=6a5d56be7a45f37e739a9abb4ed7655c",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c41682426429bb05b0f9",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.92595
-    },
-    {
-      "id": "8d99e77824240f4cc5119c76",
-      "title": "Damning report finds Met Police is still institutionally racist, misogynistic and homophobic",
-      "translatedTitle": null,
-      "description": "The Fairfield Review calls for the Met to be braver in acknowledging systemic racism, warning ‘if it cannot name it, it cannot face it’",
-      "url": "https://www.independent.co.uk/bulletin/news/met-police-racism-report-fairfield-b3091140.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/met-police-racism-report-fairfield-b3091140.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T06:31:52Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/25/00/485636c2eb6a61d38248d5e451955bedY29udGVudHNlYXJjaGFwaSwxNzk1NjM0MjMy-2.33566637.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d1053e0769723a7bef64",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.89371,
+      "rankingScore": 6.65644,
       "related": []
     },
     {
-      "id": "e4efbfa4f57ee10b1611447e",
-      "title": "Mapped: This is where snow will fall this week as temperatures plunge to -8C",
-      "translatedTitle": null,
-      "description": "The Met Office has warned of travel disruption ahead of the snow and heavy rain forecast this week",
-      "url": "https://www.independent.co.uk/weather/snow-uk-weather-map-met-office-forecast-b3091139.html",
-      "canonicalUrl": "https://independent.co.uk/weather/snow-uk-weather-map-met-office-forecast-b3091139.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T06:23:14Z",
-      "imageUrl": "https://static.independent.co.uk/2026/10/16/10/2254277448..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "d62d4df13992314bede8",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.87783
-    },
-    {
-      "id": "3f3df19842bbbf3de466edb8",
-      "title": "Avengers: Doomsday director opens up about Patrick Stewart’s last day on set: ‘Very emotional’",
-      "translatedTitle": null,
-      "description": "Stewart died in October aged 86, with his appearance as Professor X in the forthcoming Marvel film marking his last screen performance",
-      "url": "https://www.independent.co.uk/arts-entertainment/films/news/patrick-stewart-avengers-doomsday-anthony-russo-b3091130.html",
-      "canonicalUrl": "https://independent.co.uk/arts-entertainment/films/news/patrick-stewart-avengers-doomsday-anthony-russo-b3091130.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T06:12:26Z",
-      "imageUrl": "https://static.independent.co.uk/2022/02/20/15/newFile.jpg?width=1200&auto=webp&crop=3%3A2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "9b4543c90b6fd3095030",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.85815
-    },
-    {
-      "id": "9d8d2ee52d466b0482b52830",
-      "title": "Sick of soup? Five easy winter dinner recipes to get you out of a cooking rut",
-      "translatedTitle": null,
-      "description": "When another bowl of soup simply won’t do, these warming winter recipes offer a welcome change of pace. From sticky peanut-miso noodles and creamy pork meatballs to a golden, filo-topped pie, Hannah Twiggs finds plenty of reasons to get excited about dinner again",
-      "url": "https://www.independent.co.uk/life-style/food-and-drink/recipes/easy-winter-dinner-recipes-noodles-meatballs-pie-b3089773.html",
-      "canonicalUrl": "https://independent.co.uk/life-style/food-and-drink/recipes/easy-winter-dinner-recipes-noodles-meatballs-pie-b3089773.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T06:00:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/23/11/19/dinner-inspo-recipes.jpeg?width=1200&auto=webp&trim=0%2C1%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c1a49be76dbacd6f6dfe",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.83574
-    },
-    {
-      "id": "a2388dd4ff74b8274d92f385",
-      "title": "More than 1,000 Russian soldiers have died by suicide since war began, leaked report says",
-      "translatedTitle": null,
-      "description": "Western officials estimated in August that the Kremlin was losing 6,000 more troops per month than it could enlist",
-      "url": "https://www.independent.co.uk/news/world/europe/russians-killed-ukraine-war-casualties-soldiers-suicide-b3091131.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/russians-killed-ukraine-war-casualties-soldiers-suicide-b3091131.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T05:54:42Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/24/12/2274683108..?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "78c6bb78214ffd5b18e3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.82626
-    },
-    {
-      "id": "63c9e3c83230bc40592ebc05",
-      "title": "‘Working with Kanye West? Talk about intractable egos!’ Caroline Shaw: the Pulitzer-winning composer everyone wants to work with",
-      "translatedTitle": null,
-      "description": "She has collaborated with classical giants such as Anne Sofie von Otter – and pop stars including Phoebe Bridgers. But what happened when Caroline Shaw hit ‘peak hamster wheel’? ‘Look at those!” gasps Caroline Shaw, standing next to me at an old steelworks in Germany’s industrial heartlands. Behind us are defunct concrete cooling towers and, in front, main buildings that sprawl off in a mix of brick and corrugated iron. But Shaw is looking upwards, awed by massive exhaust pipes looming overhead.",
-      "url": "https://www.theguardian.com/music/2026/nov/25/working-with-kanye-west-talk-about-intractable-egos-caroline-shaw-the-pulitzer-winning-composer-everyone-wants-to-work-with",
-      "canonicalUrl": "https://theguardian.com/music/2026/nov/25/working-with-kanye-west-talk-about-intractable-egos-caroline-shaw-the-pulitzer-winning-composer-everyone-wants-to-work-with",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T05:00:07Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/1723ed9a42585a599a30471a5ed4072f2a5319c5/1666_1086_3935_3150/master/3935.jpg?width=140&quality=85&auto=format&fit=max&s=68a84e2a59866608923ec22e3db8a4c6",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "a74522f56351329342b0",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.82133
-    },
-    {
-      "id": "98a1b031849432db4f8753ff",
-      "title": "‘They don’t believe in freedom’: Yemenis plan their escape as Houthis advance on Aden",
-      "translatedTitle": null,
-      "description": "With Iran’s proxy fighters encircling the temporary capital, residents and NGOs prepare to evacuate Hussein fled his home six years ago after it fell under Houthi control, moving as far south as he could to the port city of Aden, where there was a measure of safety. The Saudi-backed Yemeni government had made the city its temporary capital; the hundreds of kilometres between it and the Houthis were well fortified. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/nov/25/yemen-houthis-advance-aden",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/25/yemen-houthis-advance-aden",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T05:00:06Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/2d223c8b5e26f79cb3997f0a2575630d648c5211/551_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=a72a13a74d03822c02704754be504b08",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "f6e0086f2185124d5cfa",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.8213
-    },
-    {
-      "id": "a62c56ef4e55c50d117b5c50",
-      "title": "In charts: how power could shift in Europe’s big year of elections",
-      "translatedTitle": null,
-      "description": "More than half of EU voters will go to the polls in the next 12 months, with the far right targeting significant gains. We set out the political landscape and trends Europe is entering a ‘supercycle’ of national elections. Their outcomes could shake the EU’s foundations Over the coming 12 months, more than half of the EU’s electorate will go to the polls in elections that could change the direction of the continent, with attention focused on voters in four of the bloc’s five biggest states. In S",
-      "url": "https://www.theguardian.com/world/2026/nov/25/charts-europe-big-year-of-elections-eu-far-right",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/25/charts-europe-big-year-of-elections-eu-far-right",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T05:00:06Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/3fb443520d5ae15fd4e46dca873678b8da5e63ea/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=6c8d875c651e2501485fc0d31e2f52d2",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e0d863e13d2b0f64f888",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.8213
-    },
-    {
-      "id": "848dac6dc4bb43e4a811ee71",
-      "title": "China investigates top politburo member Chen Jining in latest purge by Xi Jinping",
-      "translatedTitle": null,
-      "description": "Politburo member is latest senior official targeted in president Xi Jinping’s long-running anti-corruption campaign",
-      "url": "https://www.independent.co.uk/asia/china/china-politburo-xi-jinping-chen-jining-corruption-b3091110.html",
-      "canonicalUrl": "https://independent.co.uk/asia/china/china-politburo-xi-jinping-chen-jining-corruption-b3091110.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T04:13:41Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/25/04/2026-11-25T022954Z_999869172_RC2JXJATH53U_RTRMADP_3_CHINA-POLITICS.JPG?width=1200&auto=webp&trim=0%2C4%2C0%2C4",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "2d50447c6470a26aea8e",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.74426,
-      "related": []
-    },
-    {
-      "id": "1a4a61b17017cb791d12ea46",
-      "title": "Anthony Zurcher: Trump's rescue of Nvidia's Huang brings political risks",
-      "translatedTitle": null,
-      "description": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
-      "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/ckj05m2zdyryo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T01:03:05Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9b4/live/d081e3d0-e8a4-11f1-99b6-a35a62fa4264.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "05e422b7fd6a66070e64",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.73045
-    },
-    {
-      "id": "5ac00e3b6f61120863f69475",
-      "title": "Shot in the face at 15: The lives shattered by Cameroon's decade of conflict",
-      "translatedTitle": null,
-      "description": "More than half a million people have fled their homes since separatist groups demanded independence for Cameroon's English-speaking regions.",
-      "url": "https://www.bbc.co.uk/news/articles/crd6128y1qn1o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/crd6128y1qn1o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T01:00:36Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7dac/live/653c0750-e7d1-11f1-83ab-9953b30aab1f.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "c985a83e822c1001e9be",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.72707
-    },
-    {
-      "id": "c15e5569b9a075e2bccff4a2",
-      "title": "Clashing political visions reflect a divided Spain ahead of election",
-      "translatedTitle": null,
-      "description": "Sunday’s election could see a far-right party enter the Spanish government for first time.",
-      "url": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cq5y1212y4pwo?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T00:58:34Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cda/live/86305ac0-e811-11f1-ab42-55d8d8278025.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "350b469820fd4673f148",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.72431
-    },
-    {
-      "id": "818cc30c47f042061f3fe37e",
-      "title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
+      "id": "c9b8862ed8896bca2c06ee22",
+      "title": "Russia's own figures show it has lost almost 500,000 people in Ukraine war",
       "translatedTitle": null,
       "description": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
       "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
@@ -1189,169 +439,19 @@
       ],
       "language": "en",
       "publishedAt": "2026-11-25T00:56:51Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e47/live/6a03aa70-e832-11f1-917e-35f1674fb52c.jpg",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e4e/live/dce0d700-e8c5-11f1-99b6-a35a62fa4264.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
+      "retrievedAt": "2026-11-25T12:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "a599f5d27e74870c5c5f",
+      "clusterId": "f8e02e326071056ac50c",
       "translationProvider": null,
       "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.72199
-    },
-    {
-      "id": "5175fb9bb404e3d2ef0dcc75",
-      "title": "My family died in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
-      "translatedTitle": null,
-      "description": "BBC journalist Anastasiya Gribanova investigates who killed her father and grandparents in the war.",
-      "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/cw24e17v9e51o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T00:54:13Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/849c/live/4d5b1c90-e815-11f1-a094-5fdc692f3e33.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "e19bcfe012f0c2b6b4f3",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.71843
-    },
-    {
-      "id": "ce47959bf399b88831684056",
-      "title": "US preparing to unveil plan for new tariffs on global trading partners",
-      "translatedTitle": null,
-      "description": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://bbc.co.uk/news/articles/c893r9ke5p97o?at_campaign=rss&at_medium=RSS",
-      "sourceName": "BBC News",
-      "sourceDomain": "bbc.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T00:38:01Z",
-      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "1ffd84bd53116c955658",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.69671
-    },
-    {
-      "id": "767e2607a343efc9db4b91ea",
-      "title": "The warnings signs that could help predict heart attacks and strokes decades earlier",
-      "translatedTitle": null,
-      "description": null,
-      "url": "https://www.independent.co.uk/bulletin/news/predicting-heart-attacks-decades-ahead-risk-stroke-b3091175.html",
-      "canonicalUrl": "https://independent.co.uk/bulletin/news/predicting-heart-attacks-decades-ahead-risk-stroke-b3091175.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T08:14:41Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/17/14/13/iStock-1277617411.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C214",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "fb6c472b362af730c766",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "related": [],
-      "rankingScore": 6.69284
-    },
-    {
-      "id": "092daecd65da96a9b38aaf07",
-      "title": "Forget Paris – if you love wine, you’ll love this affordable European capital",
-      "translatedTitle": null,
-      "description": "In Tbilisi, Katie Mather finds a warm welcome in a capital with vibrant nightlife and an impressive art scene",
-      "url": "https://www.independent.co.uk/travel/europe/georgia/georgia-tbilisi-affordable-wine-city-break-autumn-b3089802.html",
-      "canonicalUrl": "https://independent.co.uk/travel/europe/georgia/georgia-tbilisi-affordable-wine-city-break-autumn-b3089802.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T04:00:00Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/23/14/49/Tbilisi-Georgia-at-sunset.jpg?width=1200&auto=webp&trim=0%2C1%2C0%2C0",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "ae690294fd6ad4c14225",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.63218,
-      "related": []
-    },
-    {
-      "id": "db064b635fa5988c64ce8392",
-      "title": "Colombia’s president arrives at scene of supermarket hostage siege in tourist city",
-      "translatedTitle": null,
-      "description": "Abelardo de la Espriella to take control of an operation involving scores of security personnel trying to free at least 20 hostages Colombia’s president has arrived at the scene of an hours-long standoff between security services and gunmen holding at least 20 people hostage inside a supermarket in Cartagena, a popular tourist city. Abelardo de la Espriella’s motorcade arrived in Cartagena on Tuesday night, Agence France-Presse reported, where he will ostensibly take control of a operation invol",
-      "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
-      "canonicalUrl": "https://theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
-      "sourceName": "The Guardian",
-      "sourceDomain": "theguardian.com",
-      "sourceCountry": "GB",
-      "editionCountry": "GB",
-      "coverageCountries": [
-        "GB"
-      ],
-      "language": "en",
-      "publishedAt": "2026-11-25T03:57:11Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/f8a8fb8355ddb1ecdb881d8269bc5511bc8d29a1/501_0_4354_3482/master/4354.jpg?width=140&quality=85&auto=format&fit=max&s=dda521c7fce25858e4b1ae7552a3546b",
-      "imageAlt": null,
-      "category": "Domestic",
-      "topics": [],
-      "retrievedAt": "2026-11-25T04:18:21Z",
-      "dataSources": [
-        "publisher-rss"
-      ],
-      "clusterId": "dbf99bf674bc713e2a7a",
-      "translationProvider": null,
-      "translationGeneratedAt": null,
-      "rankingScore": 6.62767,
-      "related": []
+      "rankingScore": 6.43073
     },
     {
       "id": "eb24a82792ed7a6ff3816c33",
@@ -1373,83 +473,203 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
+      "retrievedAt": "2026-11-25T12:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "af523e7a98dd5e93e580",
       "translationProvider": null,
       "translationGeneratedAt": null,
+      "rankingScore": 6.28403,
+      "related": []
+    },
+    {
+      "id": "8d10ad7c58c1f60f43982f40",
+      "title": "RAF 'moving aircraft to hangars at night to protect them from drone threats'",
+      "translatedTitle": null,
+      "description": "The Royal Air Force is moving aircraft to hangars and hardened shelters at night to protect them from possible drone threats, it is understood.",
+      "url": "https://news.sky.com/story/raf-moving-aircraft-to-hangars-at-night-to-protect-them-from-drone-threats-13616322",
+      "canonicalUrl": "https://news.sky.com/story/raf-moving-aircraft-to-hangars-at-night-to-protect-them-from-drone-threats-13616322",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T10:10:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-raf-coningsby-typhoon_7416019.jpg?20261125100551",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "af210941a26d20800302",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
       "related": [],
-      "rankingScore": 6.60597
+      "rankingScore": 5.59385
     },
     {
-      "id": "f9f7c5d5ad5a63f7934964e7",
-      "title": "Ukraine-Russia war latest: Putin vows retaliation as Ukrainian attacks on oil plants continue despite Trump requests",
+      "id": "1625af9870762449e2e09b4b",
+      "title": "Eurostar trains cancelled and delayed over 'unannounced strike action'",
       "translatedTitle": null,
-      "description": "Ukraine’s foreign minister said if Putin did not like the attacks he could ‘order an end to the war’",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-nato-estonia-warship-casualties-map-b3090337.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/europe/ukraine-russia-war-live-nato-estonia-warship-casualties-map-b3090337.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "Several Eurostar trains have been cancelled or delayed due to \"unannounced strike action\", the company said.",
+      "url": "https://news.sky.com/story/eurostar-trains-cancelled-and-delayed-over-unannounced-strike-action-13616317",
+      "canonicalUrl": "https://news.sky.com/story/eurostar-trains-cancelled-and-delayed-over-unannounced-strike-action-13616317",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-25T02:41:54Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/24/21/01M87EPT2XY73STFHD4P06RCHD.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+      "publishedAt": "2026-11-25T09:47:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-eurostar-train_7416011.jpg?20261125095944",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-25T04:18:21Z",
+      "retrievedAt": "2026-11-25T12:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c8b4d5fb806a1eec51ac",
+      "clusterId": "2764adcd2938bf1a663a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.51134,
-      "related": []
+      "related": [],
+      "rankingScore": 5.55268
     },
     {
-      "id": "54d6bbbd5b981e2be7131ea8",
-      "title": "New maps issued hours before Iowa detonation show toxic cloud to spread to second state",
+      "id": "1bc7d2844af5c6cd277f72e2",
+      "title": "Lies, a disguise and surfboard bags: How a jealous Sydney policeman tried to cover up double murder",
       "translatedTitle": null,
-      "description": "Federal officials have warned pregnant women and children to evacuate the area amid fears of lead exposure",
-      "url": "https://www.independent.co.uk/news/world/americas/iowa-missouri-detonation-maps-b3091075.html",
-      "canonicalUrl": "https://independent.co.uk/news/world/americas/iowa-missouri-detonation-maps-b3091075.html",
-      "sourceName": "The Independent",
-      "sourceDomain": "independent.co.uk",
+      "description": "More than 14,000 hours of CCTV evidence helped convict former police officer Beau Lamarre of killing his ex-partner and the man's new boyfriend in 2024.",
+      "url": "https://www.bbc.co.uk/news/videos/c6z9dk30880zo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/videos/c6z9dk30880zo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
       "sourceCountry": "GB",
       "editionCountry": "GB",
       "coverageCountries": [
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-25T01:27:23Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/24/23/25/original-(1).jpg?width=1200&auto=webp&trim=19%2C122%2C176%2C358",
+      "publishedAt": "2026-11-25T06:58:24Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a39/live/eef14440-e89b-11f1-99a1-253766e7ad8b.jpg",
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
+      "retrievedAt": "2026-11-25T12:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "b3269fc9beffdf5938f0",
+      "clusterId": "60c02d758a265053620f",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.40391,
-      "related": []
+      "related": [],
+      "rankingScore": 5.54623
     },
     {
-      "id": "3090e4e6d0eed55dc56d8047",
-      "title": "Why are people captivated by this photo of Chris Bowen scowling? Is it the negative space?",
+      "id": "3fc8bca2fee7f4104a7007cb",
+      "title": "Two men charged over suspected burglary at William and Kate's Norfolk home",
       "translatedTitle": null,
-      "description": "Australia’s climate change minister was president of negotiations at Cop31 in Turkey when it all went a bit sideways Blake, I was at the back of the huge plenary hall in Antalya on Sunday at the end of the UN climate summit that overran by two days. For about 20 minutes, you could see from the panic on the stage that it wasn’t going well. I only had an old iPhone, was a long way back, and remember thinking: “I’d love a long lens to see the expression on their faces.” Then came this incredible pi",
-      "url": "https://www.theguardian.com/culture/2026/nov/25/chris-bowen-cop31-deal-failure-photograph",
-      "canonicalUrl": "https://theguardian.com/culture/2026/nov/25/chris-bowen-cop31-deal-failure-photograph",
+      "description": "Two men have been charged over a suspected burglary at the Norfolk home of the Prince and Princess of Wales.",
+      "url": "https://news.sky.com/story/two-men-charged-over-suspected-burglary-at-william-and-kates-norfolk-home-13616311",
+      "canonicalUrl": "https://news.sky.com/story/two-men-charged-over-suspected-burglary-at-william-and-kates-norfolk-home-13616311",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T09:42:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-anmer-hall-sandringham_7415198.jpg?20261124113720",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "6371969f2a2298c97e7f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.54385
+    },
+    {
+      "id": "abf664e6789828e39355cb7a",
+      "title": "Blade Runner 2099 not just about AI, say star Hunter Schafer and series creator",
+      "translatedTitle": null,
+      "description": "Hunter Schafer and co-stars say the sci-fi TV show explores more than the idea of robotic consciousness.",
+      "url": "https://www.bbc.co.uk/news/articles/cqpv9kjgy4jno?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cqpv9kjgy4jno?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T06:28:22Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa20/live/499a3970-e814-11f1-ab42-55d8d8278025.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cbe03d9a6235695bba67",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.50136
+    },
+    {
+      "id": "80e5cf1ca90f92bf558a7400",
+      "title": "Are Man Utd this season's Tottenham?",
+      "translatedTitle": null,
+      "description": "Tottenham escaped an unthinkable Premier League relegation last season on the final day, but are Manchester United in danger of being the new Spurs?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj4gndepk312o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/sport/football/articles/cj4gndepk312o?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T06:22:36Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6874/live/00c21c60-e8b2-11f1-869a-f96fd5660210.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "15f94ce9cfd7c960d1e9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.49288
+    },
+    {
+      "id": "8e69415a61168af5997ece24",
+      "title": "Vaim Hotel by Jon Fosse review – not your typical ghost story",
+      "translatedTitle": null,
+      "description": "The Norwegian Nobel laureate’s sequel to Vaim explores what happens when a man is stripped of everything that tells him who he is Very strange things happen in Jon Fosse’s 2025 novel Vaim. A man meets a woman he secretly loved in his youth while running an errand in a nearby town. She asks him to take her away with him, to the place where they both grew up, on the boat he named after her. She wants to live with him, she tells him, even though she is married, and he has never admitted his feeling",
+      "url": "https://www.theguardian.com/books/2026/nov/25/vaim-hotel-by-jon-fosse-review-not-your-typical-ghost-story",
+      "canonicalUrl": "https://theguardian.com/books/2026/nov/25/vaim-hotel-by-jon-fosse-review-not-your-typical-ghost-story",
       "sourceName": "The Guardian",
       "sourceDomain": "theguardian.com",
       "sourceCountry": "GB",
@@ -1458,28 +678,628 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-25T00:40:13Z",
-      "imageUrl": "https://i.guim.co.uk/img/media/eb98149e4b69f5d522cf37553152db3cb181029c/98_0_2620_2096/master/2620.jpg?width=140&quality=85&auto=format&fit=max&s=5eef7bf29a328d22d5d25662613df126",
+      "publishedAt": "2026-11-25T09:00:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/13ffc9e76745ad25ca410a8d8206b877744c4154/570_40_2691_2153/master/2691.jpg?width=140&quality=85&auto=format&fit=max&s=38ed206b2ca63c138a7a441a17373424",
       "imageAlt": null,
-      "category": "Science & Health",
+      "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-25T04:18:21Z",
+      "retrievedAt": "2026-11-25T12:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "f6521a11d3e40893befe",
+      "clusterId": "87c271a56dab97bdac4c",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.33964,
-      "related": []
+      "related": [],
+      "rankingScore": 5.47151
     },
     {
-      "id": "2c4137d90d01d9aa04cbf3b8",
-      "title": "Baby carrier warning issued after death of six-week-old boy",
+      "id": "8fddd3217e38b3b44422db3d",
+      "title": "Festive market cancels bookings after backlash over misleading AI images",
       "translatedTitle": null,
-      "description": "The new guidance is considered the first significant change in baby-wearing advice in 16 years",
-      "url": "https://www.independent.co.uk/news/uk/home-news/baby-carrier-sling-newborn-advice-b3090766.html",
-      "canonicalUrl": "https://independent.co.uk/news/uk/home-news/baby-carrier-sling-newborn-advice-b3090766.html",
+      "description": "Visitors and stallholders say the event did not match the promotional AI pictures.",
+      "url": "https://www.bbc.co.uk/news/articles/cm0qjglj3ejlo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cm0qjglj3ejlo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T06:02:07Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f99/live/91fcead0-e8a7-11f1-99a1-253766e7ad8b.png",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "bab6f8f0d694589be21d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.46314
+    },
+    {
+      "id": "658cb1038dba22c1cf4c987b",
+      "title": "UK sent sex offender refugee to African country in undisclosed deal",
+      "translatedTitle": null,
+      "description": "The deal is said to be the first known case of the UK government forcibly resettling a refugee permanently overseas.",
+      "url": "https://www.bbc.co.uk/news/articles/c6z7407zrgwvo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/c6z7407zrgwvo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T06:00:45Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10b2/live/e454de40-e89e-11f1-a094-5fdc692f3e33.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "2536290a129b3b775694",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.46118
+    },
+    {
+      "id": "635e2b9bbf0cbbd820e3ebf8",
+      "title": "Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth",
+      "translatedTitle": null,
+      "description": "The mission is studying an asteroid deliberately knocked off course by a colliding spacecraft.",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cw8dv112r5gmo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T06:00:36Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/abbb/live/4b2b41d0-e8a5-11f1-99a1-253766e7ad8b.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "61bb5c6d69d3fc324d05",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.46096
+    },
+    {
+      "id": "1da00f07564ce20bb9c53be0",
+      "title": "Multiple chances missed to protect two-year-old murdered by his grandparents, report finds",
+      "translatedTitle": null,
+      "description": "Agencies missed numerous opportunities to protect a two-year-old who was murdered by his grandparents, a report has found.",
+      "url": "https://news.sky.com/story/chances-missed-to-protect-two-year-old-murdered-by-his-grandparents-report-finds-13616292",
+      "canonicalUrl": "https://news.sky.com/story/chances-missed-to-protect-two-year-old-murdered-by-his-grandparents-report-finds-13616292",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T08:04:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-ethan-ives_7415987.jpg?20261125091817",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "e43441acb6e9addab465",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.3787
+    },
+    {
+      "id": "7b13f2510fbd3540eccb9e74",
+      "title": "Blade Runner 2099 review – every scene of this TV version is packed with terrifying visual beauty",
+      "translatedTitle": null,
+      "description": "In this adaptation of the sci-fi franchise Michelle Yeoh and Hunter Schafer are on a quest to track down a group of replicants gone rogue. It’s a neon-filled world of beautiful doomsday visions Memory: the mother of the muses, and the heart of the Blade Runner franchise. Science fiction is forever asking what it means to be human and, in the future dystopia first painted by Ridley Scott’s 1982 movie, the answer is that we are what we remember: we are the experiences we preserve as a collection o",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/25/blade-runner-2099-review-tv-version-terrifying-visual-beauty",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/25/blade-runner-2099-review-tv-version-terrifying-visual-beauty",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T08:01:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/0b772e04c37fdb783618b74fdae017e462f7696b/0_0_1125_900/master/1125.jpg?width=140&quality=85&auto=format&fit=max&s=c35d0dd41efb8b9248555cc76facdfcf",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "a1a72e9cc5feadb415bf",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37411
+    },
+    {
+      "id": "794bf54054d15ebf48556d70",
+      "title": "‘Sardines are the new anchovies’: what’s hot and what’s not on our winter culinary thermometer",
+      "translatedTitle": null,
+      "description": "Swap your kitchen island for a disco ball and ditch the dill, because blood sausages and burnt honey are in … Salt bread The Korean bakery icon, also known as sogeum-ppang, is made by wrapping pillow-soft bread dough around a baton of cold salted butter, to create a golden-crisp bottom and airy-tender inside as it bakes. Try at Tokkia in Covent Garden and Salted Boy in Paris. Continue reading...",
+      "url": "https://www.theguardian.com/food/2026/nov/25/whats-hot-and-whats-not-winter-food-trends",
+      "canonicalUrl": "https://theguardian.com/food/2026/nov/25/whats-hot-and-whats-not-winter-food-trends",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T08:00:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/328d1ac6b4aa5ea0ef5f3207301ded9e9a9d6def/727_0_6141_4912/master/6141.jpg?width=140&quality=85&auto=format&fit=max&s=d38dc44ce8818509655f0b66c98d336f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "b987ca94be4e7a2f1f10",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37254
+    },
+    {
+      "id": "9b0343edd93bf63733d6241f",
+      "title": "The story of how Pelé and Maradona went from friends to bitter rivals",
+      "translatedTitle": null,
+      "description": "A new book charts the complicated relationship between the two legends, starting on a sunny afternoon in Rio in 1979 Pelé and Diego Maradona first met in April 1979, not long after the Argentinian led his country’s under-20 side to the finals of the World Youth Cup. Maradona told a journalist friend that his dream was to meet the Brazilian, and after a few weeks of aborted attempts to bring them together – mostly because Diego did not want to travel on a Monday, the one day he had free for his g",
+      "url": "https://www.theguardian.com/football/2026/nov/25/pele-diego-maradona-brazil-argentina-world-cup",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/25/pele-diego-maradona-brazil-argentina-world-cup",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T08:00:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/bb9d6d8791969fec67ddd59e5fa7b98b7516adf3/0_110_720_576/master/720.jpg?width=140&quality=85&auto=format&fit=max&s=2d14a341d33fbdf2456a522145fe5d60",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "d831d71eed66e42f7af3",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37254
+    },
+    {
+      "id": "9c28b87e32c48e3102e54f48",
+      "title": "‘It’s stressful but better than having a proper job’: the life of a cricket umpire",
+      "translatedTitle": null,
+      "description": "Four umpires discuss how they deal with players, why they avoid social media, how technology is changing cricket and why umpiring beats being a football referee By Wisden Cricket Monthly Last summer, sat in a quiet ground at the fag-end of a four-dayer, with a few souls still kicking around and a clutch of cameras streaming what was left of the day live on YouTube, it struck me again what a great, strange sanctuary this place is, out there on the edges of the modern world. The game is trying to",
+      "url": "https://www.theguardian.com/sport/2026/nov/25/stressful-cricket-umpire-county-championship-social-media-technology-sport",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/25/stressful-cricket-umpire-county-championship-social-media-technology-sport",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T08:00:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6fef92cb09bb69e65906900f80ce9d9af51b83b1/342_469_3209_2566/master/3209.jpg?width=140&quality=85&auto=format&fit=max&s=bc6f04f38b306dee4801e7813d479752",
+      "imageAlt": null,
+      "category": "Sports",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "7a89a3d3f436634868ef",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37254
+    },
+    {
+      "id": "fd2cfff7a077177cccf817e2",
+      "title": "Has a footballer had a longer career hiatus than Ronaldinho’s 11 year-gap? | The Knowledge",
+      "translatedTitle": null,
+      "description": "Plus: the quickest team to go from FA Cup winners to the first round and matches delayed by snowball fights Mail us with all of your questions and answers “Ronaldinho played for Ravenna, in Serie C, earlier this month. It was his first professional appearance in more than 11 years,” writes George Jones. “Have any other footballers had long career hiatuses? And has any player had a longer hiatus than 11 years?” Ronaldinho’s last professional appearance before his return for Ravenna came on 26 Sep",
+      "url": "https://www.theguardian.com/football/2026/nov/25/has-a-footballer-had-a-longer-career-hiatus-than-ronaldinhos-11-year-gap",
+      "canonicalUrl": "https://theguardian.com/football/2026/nov/25/has-a-footballer-had-a-longer-career-hiatus-than-ronaldinhos-11-year-gap",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T08:00:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/d9da0667aae75a0b6daa70690330cd89020e1d3e/95_0_2907_2325/master/2907.jpg?width=140&quality=85&auto=format&fit=max&s=e2e2cca45846ff1d93af443e25b99bdd",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0f70b0b327899cf1aecb",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.37251
+    },
+    {
+      "id": "06e6ff3ec680f5732b99c663",
+      "title": "‘Nature’s Ozempic’: oat sales soar as shoppers seek out foods that mimic effect of GLP-1s",
+      "translatedTitle": null,
+      "description": "Porridge emerges as trend’s poster child with consumers looking to foods that help them feel full for longer, says Waitrose Sales of filling foods such as porridge oats that mimic the effect of taking weight-loss medication are booming on the back of social media hype billing them as “nature’s Ozempic” or “oatzempic”. Sales of Waitrose Scottish Oats are up 124% this year, according to the retailer’s annual food and drink report, which dissects the biggest trends sweeping the grocery aisles. A po",
+      "url": "https://www.theguardian.com/business/2026/nov/25/natures-ozempic-oat-sales-soar-shoppers-seek-out-foods-mimic-effect-glp-1s",
+      "canonicalUrl": "https://theguardian.com/business/2026/nov/25/natures-ozempic-oat-sales-soar-shoppers-seek-out-foods-mimic-effect-glp-1s",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T07:00:10Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/46412bfdde78571242f47b0ed20b1777bbee2ca9/581_46_5177_4141/master/5177.jpg?width=140&quality=85&auto=format&fit=max&s=d913d80d2a41b928920e3b4894e5c8e3",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "31e93465e4a932f1f3f8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27891
+    },
+    {
+      "id": "f4c6950a2d1a64f26ffa72d0",
+      "title": "What’s the most sustainable way to eat fish? Forget it. There isn’t one | George Monbiot",
+      "translatedTitle": null,
+      "description": "Don’t take the bait offered up by ‘conservation’ charities. Fishing is about as good for our ecosystems as tobacco is for our health Drumroll please. I am about to unveil the species of fish that’s best to eat if you want to protect the living seas. Ta-dah! It’s … I hope that clears things up. Unfortunately, over the past few years, a noisy industry has developed to tell you otherwise. You’re doing the planet a favour if you eat mackerel, sorry, cod, I mean haddock, no coley, make that pollack –",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/25/sustainable-fishing-conservation-charities-ecosystems-health",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/25/sustainable-fishing-conservation-charities-ecosystems-health",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T07:00:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/eb4f48c36dc5db2af26e59ea7176d21c78644a62/0_163_5154_4123/master/5154.jpg?width=140&quality=85&auto=format&fit=max&s=0e6378c3725635628490ee508ea236c8",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "318b58908f14dc472b8f",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27888
+    },
+    {
+      "id": "ddbe11b9b93f4f5e8f3ea21d",
+      "title": "‘As much joy as I could find’: a splash of colour – in pictures",
+      "translatedTitle": null,
+      "description": "From bright green kebab shops to a flash of red stocking, photographer Niall McDiarmid is constantly on the hunt for antidotes to our muted beige and monochrome world Continue reading...",
+      "url": "https://www.theguardian.com/artanddesign/gallery/2026/nov/25/as-much-joy-as-i-could-find-a-splash-of-colour-in-pictures",
+      "canonicalUrl": "https://theguardian.com/artanddesign/gallery/2026/nov/25/as-much-joy-as-i-could-find-a-splash-of-colour-in-pictures",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T07:00:09Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8aecca4d42be6e0f85aa44fcd333ac35779c5dee/582_4_3327_2663/master/3327.jpg?width=140&quality=85&auto=format&fit=max&s=daccf2103c215eac32ab3f04908af32e",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "95ee4a40d0deb71380f8",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27888
+    },
+    {
+      "id": "31be75028ca327e8c3ca5b61",
+      "title": "‘It’s been really a mess’: Meta insiders concerned over push to AI content moderation",
+      "translatedTitle": null,
+      "description": "Several employees say rapid speed at which algorithms work means mistakes can happen at greater scale Meta employees have expressed concern at the company’s push to replace human moderators with artificial intelligence, claiming the technology is leading to mistakes with the potential for sweeping political consequences. The social media company, which owns Facebook and Instagram, has been experimenting with AI-driven moderation for years, first introducing it in 2017 to filter out violent extre",
+      "url": "https://www.theguardian.com/technology/2026/nov/25/meta-insiders-concerned-push-to-ai-content-moderation",
+      "canonicalUrl": "https://theguardian.com/technology/2026/nov/25/meta-insiders-concerned-push-to-ai-content-moderation",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T07:00:08Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/534fcd6f2a9a97fae39f19c96472abe6ec41e0b9/0_819_3766_3013/master/3766.jpg?width=140&quality=85&auto=format&fit=max&s=632f0b0606f2a8be0dc94de85ed6a7ee",
+      "imageAlt": null,
+      "category": "Technology",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "c7a06898be3e1575dfe9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.27886
+    },
+    {
+      "id": "675552050b89b05c0fcfc7e9",
+      "title": "Two children among six dead in plane crash",
+      "translatedTitle": null,
+      "description": "Divers have found the bodies of six people, including two children, after a plane crashed off the coast of Mississippi on Tuesday, according to the US Coast Guard.",
+      "url": "https://news.sky.com/story/divers-find-bodies-of-six-people-including-two-children-after-us-plane-crash-13616273",
+      "canonicalUrl": "https://news.sky.com/story/divers-find-bodies-of-six-people-including-two-children-after-us-plane-crash-13616273",
+      "sourceName": "Sky News",
+      "sourceDomain": "news.sky.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T06:38:00Z",
+      "imageUrl": "https://e3.365dm.com/26/11/1920x1080/skynews-mississippi-us-plane-crash_7415949.jpg?20261125081644",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ddb110392275694ca1f2",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.24561
+    },
+    {
+      "id": "0487b7d27e6b5b52180c0b38",
+      "title": "Usman Khawaja reveals peace deal text sent to Cricket Australia CEO over sandpapergate",
+      "translatedTitle": null,
+      "description": "CA urged to acknowledge team as a whole knew about ball tampering Khawaja ‘disappointed’ by Pat Cummins’ press conference Usman Khawaja has outlined a proposed joint statement by the entire Australia team of 2018 that would see them accept collective responsibility for ball tampering in South Africa and help them move on from the sandpaper crisis. Speaking to the Grade Cricketer podcast on Wednesday, the former Test opener shared his suggested wording for this collective mea culpa and said it ha",
+      "url": "https://www.theguardian.com/sport/2026/nov/25/usman-khawaja-sandpapergate-peace-deal-text-cricket-australia-ceo",
+      "canonicalUrl": "https://theguardian.com/sport/2026/nov/25/usman-khawaja-sandpapergate-peace-deal-text-cricket-australia-ceo",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T06:34:52Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/8c6a184f608093883a4d03a625c41b7673f0f058/123_0_1687_1350/master/1687.jpg?width=140&quality=85&auto=format&fit=max&s=235a073f019be10dc8743efd4ab323ed",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f8bc2bd2694382de1d7c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.24096
+    },
+    {
+      "id": "7364598504dd30f713f6d66a",
+      "title": "A moment that changed me: at 31 I felt I was running out of time – then my 83-year-old grandma got a tattoo",
+      "translatedTitle": null,
+      "description": "With my career stalled and my dreams unfulfilled, I was starting to write myself off. But my ideas about ageing were all wrong … It was the night before my wedding, in the summer of 2024, and I was a couple of months shy of 31. My bridesmaids and I were having drinks with the North American side of my family before the chaos of the big day. In the two years since I’d last seen my grandma Caroline, who lives in Texas and whom I’ve always called Memom, I’d collected a few new tattoos – and I was w",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/25/a-moment-that-changed-me-running-out-of-time-grandma-got-a-tattoo",
+      "canonicalUrl": "https://theguardian.com/lifeandstyle/2026/nov/25/a-moment-that-changed-me-running-out-of-time-grandma-got-a-tattoo",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T06:30:07Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1430eb333154dce52d65d3faa30bfe1299e6baa9/0_957_3024_2419/master/3024.jpg?width=140&quality=85&auto=format&fit=max&s=ebb7fe49892a2028b9e0a597227a63b4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "4358be84b3acdc3044fe",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.23394
+    },
+    {
+      "id": "792d167812a44c5eaac5122f",
+      "title": "TV tonight: a gripping psychological thriller that keeps you guessing",
+      "translatedTitle": null,
+      "description": "The revelation of unsavoury secrets throws suspicion on all in Hunting Alice Bell. Plus: sparks fly in First Dates. Here’s what to watch this evening 9pm, Channel 4 The more unsavoury secrets that emerge about each member of the Not Alice Bell group, the harder it is for each of them to avoid suspicion. When Graham Hunter (Ralf Little) escalates his campaign against them, cracks start to appear. Ahead of Thursday’s finale, this mystery is doing a credible job of keeping us guessing. Phil Harriso",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/25/tv-tonight-a-gripping-psychological-thriller-that-keeps-you-guessing",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/25/tv-tonight-a-gripping-psychological-thriller-that-keeps-you-guessing",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T06:15:07Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/6323123d6b2c530974f5c83e03c50fa7e6deb1eb/585_736_2280_1824/master/2280.jpg?width=140&quality=85&auto=format&fit=max&s=93c4359fd0f983fdee1b16b2daf8d910",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "baf39372e01ccf424d9c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.21195
+    },
+    {
+      "id": "8925ba7a2d722d2956c16271",
+      "title": "Dolphins with active social lives and big friendship groups live longer, Australian researchers discover",
+      "translatedTitle": null,
+      "description": "Decades of data collected at WA’s Shark Bay shows level of socialising may affect longevity for Indo-Pacific bottlenose dolphins Dolphins who spend time socialising in large and consistently sized social groups tend to live longer, new research has found. Indo-Pacific bottlenose dolphins are marine mammals that can live for more than 50 years and have complex social lives. They spend time socialising in groups – which increase in size during their youth and early adulthood, before declining towa",
+      "url": "https://www.theguardian.com/environment/2026/nov/25/dolphins-with-active-social-lives-and-big-friendship-groups-live-longer",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/25/dolphins-with-active-social-lives-and-big-friendship-groups-live-longer",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T06:02:05Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/45ead2ae66ed2fd7239f098b276e0e94a0ecd3ae/1252_423_1540_1232/master/1540.jpg?width=140&quality=85&auto=format&fit=max&s=67b55567990115f79cc20e2b8bef7bc4",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "45ccd6c777623ab7e1a4",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.1931
+    },
+    {
+      "id": "34c38226078f91b545bf02d7",
+      "title": "‘I was physically beating myself up before a take’: Rory Culkin on anxiety, fatherhood and his famous brothers",
+      "translatedTitle": null,
+      "description": "The star of Lords of Chaos, Scream 4 and Gabriel was always drawn to the dark side. Is that why he seems happier in Hollywood than his better-known brothers – and why he loved making Nocturne with Stephen Graham? Rory Culkin is enjoying the autumn afternoon in a Manhattan park. The trees are a dazzling blur of yellows, greens, oranges and reds; the background silence is so pure you can hear it. “I’m here with my baby daughter, Havoc,” he says. “Havoc Moon.” I tell him that is the spookiest name",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/25/rory-culkin-interview-anxiety-fatherhood-famous-brothers",
+      "canonicalUrl": "https://theguardian.com/tv-and-radio/2026/nov/25/rory-culkin-interview-anxiety-fatherhood-famous-brothers",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T05:00:07Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/c75dee497bfa42c7944efaf226dc31b07229bf33/0_681_3600_2880/master/3600.jpg?width=140&quality=85&auto=format&fit=max&s=5f7cf4593ef6f260d1275c202dee659a",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "ab59cd0c5369a91dcaf9",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.10649
+    },
+    {
+      "id": "e12d8246682bde12d74adc50",
+      "title": "What do Brexit and an Australian cricket scandal have in common? Sometimes it’s right to reopen old wounds | Jonathan Liew",
+      "translatedTitle": null,
+      "description": "Just like the ball-tampering scandal of 2018, the Brexit debate is back. The lesson here is that anything with a dodgy whiff about it will only come back Just move on. You lost, get on with it. Why rake up the past? And why, for the love of all that is holy, is Theresa May back on my television? Of all the many regrettable political figures to have surfaced over recent days, perhaps May has been most triggering of all: a bleak reminder of unhappier times. But of course she has been far from the",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/25/brexit-debate-australia-cricket-ball-tampering",
+      "canonicalUrl": "https://theguardian.com/commentisfree/2026/nov/25/brexit-debate-australia-cricket-ball-tampering",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T05:00:06Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/34ffce28b5b60d0038d233f8fcee8d9485904a51/0_0_1667_1333/master/1667.jpg?width=140&quality=85&auto=format&fit=max&s=fae625ec748652267dd774b922e6307f",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "0f2421e5785c4536467d",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.10647
+    },
+    {
+      "id": "a293e947213910cb0b6c8888",
+      "title": "Huawei guilty in US of stealing trade secrets in landmark case",
+      "translatedTitle": null,
+      "description": "Huawei lawyers say company was acquitted in more serious racketeering charge",
+      "url": "https://www.independent.co.uk/asia/china/huawei-guilty-trump-us-iran-trade-secrets-b3091109.html",
+      "canonicalUrl": "https://independent.co.uk/asia/china/huawei-guilty-trump-us-iran-trade-secrets-b3091109.html",
       "sourceName": "The Independent",
       "sourceDomain": "independent.co.uk",
       "sourceCountry": "GB",
@@ -1488,20 +1308,50 @@
         "GB"
       ],
       "language": "en",
-      "publishedAt": "2026-11-25T00:01:30Z",
-      "imageUrl": "https://static.independent.co.uk/2026/11/24/15/01M86FNGSCQ7GC2CYNPXYE6MER.jpg?width=1200&auto=webp&trim=71%2C0%2C729%2C0",
+      "publishedAt": "2026-11-25T05:50:38Z",
+      "imageUrl": "https://static.independent.co.uk/2026/11/25/04/2026-11-17T190341Z_963013190_RC2NPOAE9EZY_RTRMADP_3_USA-CHINA-HUAWEI.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
       "imageAlt": null,
-      "category": "Domestic",
+      "category": "Business",
       "topics": [],
       "retrievedAt": "2026-11-25T08:18:09Z",
       "dataSources": [
         "publisher-rss"
       ],
-      "clusterId": "c0a583f698d2f7fe2c0f",
+      "clusterId": "e88b23616a3e828d279a",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 6.28895,
-      "related": []
+      "related": [],
+      "rankingScore": 5.08672
+    },
+    {
+      "id": "cae39b305feedd010180d9c1",
+      "title": "Why tiny cars are taking off across Europe",
+      "translatedTitle": null,
+      "description": "Once seen as a car for elderly, rural people, tiny cars are being embraced by a younger demographic.",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://bbc.co.uk/news/articles/cmwy9jne0g7qo?at_campaign=rss&at_medium=RSS",
+      "sourceName": "BBC News",
+      "sourceDomain": "bbc.co.uk",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:34:05Z",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2edb/live/5d054030-ddcf-11f1-b441-2b33b063138f.jpg",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "01119d93a479aa3b9c02",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 5.05631
     },
     {
       "id": "3998ae0a167962fa7aad059d",
@@ -1523,15 +1373,165 @@
       "imageAlt": null,
       "category": "Domestic",
       "topics": [],
-      "retrievedAt": "2026-11-25T08:18:09Z",
+      "retrievedAt": "2026-11-25T12:18:05Z",
       "dataSources": [
         "publisher-rss"
       ],
       "clusterId": "fa4b8d1b048fe2a6be18",
       "translationProvider": null,
       "translationGeneratedAt": null,
-      "rankingScore": 5.37218,
+      "rankingScore": 5.02709,
       "related": []
+    },
+    {
+      "id": "2431b3a11467dc3348cec23c",
+      "title": "Tidal bans 100% AI-generated music with plans to delete more than 27m tracks",
+      "translatedTitle": null,
+      "description": "Streaming service says 43% of uploads to platform in past 90 days were made entirely by artificial intelligence The music streaming service Tidal has announced it will ban entirely AI-generated music from its platform and remove millions of songs, saying AI music “diverts streams and royalties away from the artists, and confuses fans”. “To ensure Tidal remains the best place for artists to share their work, and for listeners to enjoy it, we’re removing all tracks that we determine are 100% AI ge",
+      "url": "https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music",
+      "canonicalUrl": "https://theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T02:12:22Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/b8638ee431643455ce8b3251c145e5241b067c0a/1120_0_5600_4480/master/5600.jpg?width=140&quality=85&auto=format&fit=max&s=adb674c128e535ccd805c3ca0c4f6c35",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "f7ef604196e875b6be75",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.89552
+    },
+    {
+      "id": "ba1431c7f635908cb65f908d",
+      "title": "Middle-aged women in England least likely to successfully quit smoking, study finds",
+      "translatedTitle": null,
+      "description": "Of nearly 8,000 women who tried to stop, only 18% of those aged 45 to 60 managed to give up Middle-aged women in England are the least likely to successfully give up smoking, according to research. Smoking is the leading cause of preventable death and illness in the UK. While overall smoking rates in England have declined in recent decades, rates in some regions have increased. About 6.75 million people smoke in England, of whom around 14% are women aged 45-60. Continue reading...",
+      "url": "https://www.theguardian.com/society/2026/nov/25/middle-aged-women-quit-smoking-england-study",
+      "canonicalUrl": "https://theguardian.com/society/2026/nov/25/middle-aged-women-quit-smoking-england-study",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T01:00:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ba552a1b57408ce45632af7702e5886772f0e0fb/354_0_2504_2004/master/2504.jpg?width=140&quality=85&auto=format&fit=max&s=610676c92f7ab90919ef3d20aab6b8c2",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "cf5b79d22ce2b88dc341",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.81417
+    },
+    {
+      "id": "8613104d3e7620ef3b6f64b3",
+      "title": "Metropolitan police still institutionally racist and misogynist, says report",
+      "translatedTitle": null,
+      "description": "Independent review finds force has ‘fundamental systemic issues’ three years after damning report on Sarah Everard murder Latest review of Met police culture finds little has changed since last one The Metropolitan police remain institutionally racist, misogynistic and homophobic three years after a damning review into the force’s culture, a report has found. The investigation by Gillian Fairfield found “fundamental, systemic issues” and “institutional defensiveness” still existed in Britain’s b",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/25/metropolitan-police-institutionally-racist-misogynist-fairfield-report",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/25/metropolitan-police-institutionally-racist-misogynist-fairfield-report",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:01:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/1efee17a51a58ad86727e19fa5e3b4897166e3ee/1423_0_2072_1659/master/2072.jpg?width=140&quality=85&auto=format&fit=max&s=12f57254de28401e89ae27f434a4d806",
+      "imageAlt": null,
+      "category": "Culture",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "987ef03d33faf58952a5",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.75174
+    },
+    {
+      "id": "3cedebe780eb54720eecf8dc",
+      "title": "Coastal areas in England at risk of erosion to receive £11m in new funding",
+      "translatedTitle": null,
+      "description": "Exclusive: Laser-equipped drone surveys and road relocations among schemes to get government support Laser-equipped drone surveys, sand dune restoration and moving roads inland are among the projects that will receive government funding to help seaside communities in England adapt to rising seas and coastal erosion accelerated by climate breakdown. More than £11m will be shared between 12 council-led projects that will test ways to spot coastal change earlier and help communities plan for the ef",
+      "url": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
+      "canonicalUrl": "https://theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:01:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/ce04a5cb09e22f892bbbb0638df2ea14eea476ff/0_0_3840_3072/master/3840.jpg?width=140&quality=85&auto=format&fit=max&s=2d61b85839f1778efeeb8d0e40380630",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "91bf8cc49b1c625ee42c",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.75174
+    },
+    {
+      "id": "bb9419146337bc3daa1048a7",
+      "title": "UK to launch world’s first licensing scheme for knife sales",
+      "translatedTitle": null,
+      "description": "Exclusive: Measures aimed at tackling grey market sellers known to sell dangerous knives to children Ministers will introduce the world’s first licensing scheme for businesses and private individuals selling all types of knives including cutlery, the Home Office announced on Wednesday. In a drive to fulfil the government’s pledge to halve knife crime within 10 years, shops and online vendors selling butter knives or machetes will be expected to apply for a licence or face fines. Continue reading",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/25/uk-knife-sales-licensing-scheme",
+      "canonicalUrl": "https://theguardian.com/uk-news/2026/nov/25/uk-knife-sales-licensing-scheme",
+      "sourceName": "The Guardian",
+      "sourceDomain": "theguardian.com",
+      "sourceCountry": "GB",
+      "editionCountry": "GB",
+      "coverageCountries": [
+        "GB"
+      ],
+      "language": "en",
+      "publishedAt": "2026-11-25T00:01:01Z",
+      "imageUrl": "https://i.guim.co.uk/img/media/e94bf5ba5d5beca7dddc4a23c12e0c25dbf9e3a5/644_0_6440_5152/master/6440.jpg?width=140&quality=85&auto=format&fit=max&s=07ca8cb13e6345fa0e51771887d5ee77",
+      "imageAlt": null,
+      "category": "Domestic",
+      "topics": [],
+      "retrievedAt": "2026-11-25T12:18:05Z",
+      "dataSources": [
+        "publisher-rss"
+      ],
+      "clusterId": "450134c939ed2ba98e1e",
+      "translationProvider": null,
+      "translationGeneratedAt": null,
+      "related": [],
+      "rankingScore": 4.75174
     }
   ]
 }
